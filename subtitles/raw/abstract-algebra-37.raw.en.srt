@@ -1,0 +1,3844 @@
+1
+00:00:14,879 --> 00:00:25,480
+each of a group G so and we might
+
+2
+00:00:23,460 --> 00:00:27,340
+underline that indicating that that
+
+3
+00:00:25,480 --> 00:00:28,779
+would be the key thing to define or that
+
+4
+00:00:27,340 --> 00:00:32,250
+might be in a tower it's a good answer
+
+5
+00:00:28,779 --> 00:00:42,539
+to this kind of question would be a
+
+6
+00:00:32,250 --> 00:00:52,929
+subgroup H of G is normal if it only if
+
+7
+00:00:42,539 --> 00:00:54,070
+for all G in g GH g inverse something
+
+8
+00:00:52,929 --> 00:00:56,409
+like that that would be all you wouldn't
+
+9
+00:00:54,070 --> 00:00:58,390
+have to say a group is an object is a
+
+10
+00:00:56,409 --> 00:01:00,339
+set together with a multiplication and a
+
+11
+00:00:58,390 --> 00:01:02,920
+subgroup is a subset such as if overall
+
+12
+00:01:00,339 --> 00:01:05,860
+Allah okay it would just be just define
+
+13
+00:01:02,920 --> 00:01:09,100
+the term that's that's sort of specified
+
+14
+00:01:05,860 --> 00:01:11,729
+and we'll have about ten such different
+
+15
+00:01:09,100 --> 00:01:17,670
+definitions second section will be a a
+
+16
+00:01:11,729 --> 00:01:17,670
+true/false will make some statement and
+
+17
+00:01:17,880 --> 00:01:24,700
+and you'll get plus one if you get the
+
+18
+00:01:22,390 --> 00:01:27,939
+two false part right and you'll get plus
+
+19
+00:01:24,700 --> 00:01:29,829
+four for the description of why it's
+
+20
+00:01:27,939 --> 00:01:34,240
+true or false so it's not enough to just
+
+21
+00:01:29,829 --> 00:01:37,090
+answer false you have to indicate why
+
+22
+00:01:34,240 --> 00:01:38,500
+it's false so you might say the
+
+23
+00:01:37,090 --> 00:01:47,009
+statement here's an example of a
+
+24
+00:01:38,500 --> 00:01:54,729
+question one the group G L to R is
+
+25
+00:01:47,009 --> 00:01:59,200
+abelian okay that's a good statement so
+
+26
+00:01:54,729 --> 00:02:10,500
+you the answer would be false and you'd
+
+27
+00:01:59,200 --> 00:02:19,989
+say because we can find two matrices a
+
+28
+00:02:10,500 --> 00:02:21,640
+and B with a B not equal to B a that
+
+29
+00:02:19,989 --> 00:02:22,959
+would be about half credit that would be
+
+30
+00:02:21,640 --> 00:02:24,579
+about plus two
+
+31
+00:02:22,959 --> 00:02:26,500
+and to get the full thing right you'd
+
+32
+00:02:24,579 --> 00:02:35,319
+want to give a specific counter example
+
+33
+00:02:26,500 --> 00:02:39,639
+eg a is equal to 0 1 1 0 and B I hope
+
+34
+00:02:35,319 --> 00:02:41,019
+this works is equal to 2 3 0 0 and I
+
+35
+00:02:39,639 --> 00:02:42,250
+think if you multiply those into
+
+36
+00:02:41,019 --> 00:02:43,689
+opposite directions you get two
+
+37
+00:02:42,250 --> 00:02:45,639
+different answers then you might
+
+38
+00:02:43,689 --> 00:02:50,980
+calculate a B in BA and show that they
+
+39
+00:02:45,639 --> 00:02:53,170
+were not equal yeah absolutely in
+
+40
+00:02:50,980 --> 00:02:54,700
+improving something is false you just
+
+41
+00:02:53,170 --> 00:02:55,930
+have to give one counterexample that's
+
+42
+00:02:54,700 --> 00:02:59,709
+the beautiful thing about mathematics
+
+43
+00:02:55,930 --> 00:03:02,139
+right so and the more specific the
+
+44
+00:02:59,709 --> 00:03:04,239
+counter example the happier I am
+
+45
+00:03:02,139 --> 00:03:07,030
+that's why this statement at least shows
+
+46
+00:03:04,239 --> 00:03:09,400
+what you mean by the group being non
+
+47
+00:03:07,030 --> 00:03:13,480
+abelian that would be something and this
+
+48
+00:03:09,400 --> 00:03:14,109
+would be much better okay and if it's
+
+49
+00:03:13,480 --> 00:03:19,230
+true
+
+50
+00:03:14,109 --> 00:03:23,200
+you should give the argument why so
+
+51
+00:03:19,230 --> 00:03:32,889
+trying to think of a quick quick and
+
+52
+00:03:23,200 --> 00:03:36,340
+easy ah well you should we you know you
+
+53
+00:03:32,889 --> 00:03:43,479
+could and again it would it would not
+
+54
+00:03:36,340 --> 00:03:50,500
+require so a group G of order 21
+
+55
+00:03:43,479 --> 00:04:02,189
+contains a subgroup of order 7 I don't
+
+56
+00:03:50,500 --> 00:04:05,409
+know a normal subgroup of order 7 and
+
+57
+00:04:02,189 --> 00:04:13,319
+then you'd say true and the proof would
+
+58
+00:04:05,409 --> 00:04:21,780
+be there exists a subgroup H of order 7
+
+59
+00:04:13,319 --> 00:04:21,780
+by the celo theorem number of such
+
+60
+00:04:22,400 --> 00:04:34,370
+divides 3 which is 21 divided by 7 the
+
+61
+00:04:28,080 --> 00:04:36,840
+index and is congruent to 1 mod 7 and
+
+62
+00:04:34,370 --> 00:04:39,060
+the only numbers that divide 3 inner
+
+63
+00:04:36,840 --> 00:04:45,139
+congra into one mod 7 would mean there's
+
+64
+00:04:39,060 --> 00:04:48,600
+only one of them hence H is unique and
+
+65
+00:04:45,139 --> 00:04:50,610
+normal so that would be enough of a
+
+66
+00:04:48,600 --> 00:04:53,280
+justification for a statement like that
+
+67
+00:04:50,610 --> 00:04:54,510
+I just want people understand on this
+
+68
+00:04:53,280 --> 00:04:56,760
+exam it's always important to know when
+
+69
+00:04:54,510 --> 00:04:58,440
+have I done enough answer so we're not
+
+70
+00:04:56,760 --> 00:05:00,240
+going to have huge amounts of space
+
+71
+00:04:58,440 --> 00:05:01,680
+between the true/false or between the
+
+72
+00:05:00,240 --> 00:05:03,600
+definitions because you're not supposed
+
+73
+00:05:01,680 --> 00:05:06,000
+to prove the ceelo theorem to do this or
+
+74
+00:05:03,600 --> 00:05:09,389
+anything like that just quote what you
+
+75
+00:05:06,000 --> 00:05:13,350
+need ok and then the third part of the
+
+76
+00:05:09,389 --> 00:05:17,669
+exam is how many true/false there are
+
+77
+00:05:13,350 --> 00:05:20,430
+there there are about 25 to false
+
+78
+00:05:17,669 --> 00:05:22,169
+questions is that pardon that's about
+
+79
+00:05:20,430 --> 00:05:24,389
+where since they're not that difficult
+
+80
+00:05:22,169 --> 00:05:26,789
+believe me I mean both the definitions
+
+81
+00:05:24,389 --> 00:05:28,169
+are really are really you know just the
+
+82
+00:05:26,789 --> 00:05:30,210
+fundamental things we're not gonna ask
+
+83
+00:05:28,169 --> 00:05:31,620
+you to find anything esoteric and the
+
+84
+00:05:30,210 --> 00:05:33,090
+true/false statements you should be able
+
+85
+00:05:31,620 --> 00:05:34,320
+to at least afford the sideways to false
+
+86
+00:05:33,090 --> 00:05:35,900
+very quickly and then the reason
+
+87
+00:05:34,320 --> 00:05:38,970
+shouldn't be more than a sentence or two
+
+88
+00:05:35,900 --> 00:05:42,840
+so I would imagine you know that the
+
+89
+00:05:38,970 --> 00:05:44,280
+this part of the exam might take 20 or
+
+90
+00:05:42,840 --> 00:05:47,669
+30 minutes and this part of the exam
+
+91
+00:05:44,280 --> 00:05:49,889
+might take an hour that's what I think
+
+92
+00:05:47,669 --> 00:05:56,820
+and then the final part of the exam will
+
+93
+00:05:49,889 --> 00:05:58,680
+be four to five problems of a slightly
+
+94
+00:05:56,820 --> 00:06:10,080
+more involved nature where we'll say you
+
+95
+00:05:58,680 --> 00:06:15,389
+know prove that we might say here's an
+
+96
+00:06:10,080 --> 00:06:19,770
+example of such a problem alright well I
+
+97
+00:06:15,389 --> 00:06:22,340
+have proved that any finite integral
+
+98
+00:06:19,770 --> 00:06:22,340
+domain
+
+99
+00:06:24,850 --> 00:06:30,380
+is a field that would be a kind of
+
+100
+00:06:29,120 --> 00:06:31,970
+statement and then you have to say what
+
+101
+00:06:30,380 --> 00:06:33,380
+it meant to be an integral domain and
+
+102
+00:06:31,970 --> 00:06:36,050
+what it meant to be finite and why
+
+103
+00:06:33,380 --> 00:06:37,490
+elements had inverses and I won't write
+
+104
+00:06:36,050 --> 00:06:39,980
+out the proof but this is the kind of
+
+105
+00:06:37,490 --> 00:06:43,160
+level of of statement that would be at
+
+106
+00:06:39,980 --> 00:06:45,710
+the end of the exam and again we're not
+
+107
+00:06:43,160 --> 00:06:48,110
+throwing any curveballs here almost
+
+108
+00:06:45,710 --> 00:06:50,810
+anything you've seen on this exam has
+
+109
+00:06:48,110 --> 00:06:52,790
+been either carefully done out in class
+
+110
+00:06:50,810 --> 00:06:54,170
+or done as a problem it's said we're not
+
+111
+00:06:52,790 --> 00:06:55,760
+going to tell you about a new
+
+112
+00:06:54,170 --> 00:06:57,710
+mathematical structure that you now have
+
+113
+00:06:55,760 --> 00:07:00,400
+to investigate based on the knowledge
+
+114
+00:06:57,710 --> 00:07:02,990
+you have of rings and groups and fields
+
+115
+00:07:00,400 --> 00:07:07,790
+okay so that's that's what I have in
+
+116
+00:07:02,990 --> 00:07:09,980
+mind for the exam and so I'm gonna do a
+
+117
+00:07:07,790 --> 00:07:11,390
+review today or at least I start the
+
+118
+00:07:09,980 --> 00:07:14,180
+review and then Peter is going to finish
+
+119
+00:07:11,390 --> 00:07:15,920
+it on Friday and of course next week
+
+120
+00:07:14,180 --> 00:07:22,300
+when you actually start studying because
+
+121
+00:07:15,920 --> 00:07:25,460
+the exam is next Friday Peter and and
+
+122
+00:07:22,300 --> 00:07:29,210
+and all of our wonderful lives will be
+
+123
+00:07:25,460 --> 00:07:30,290
+available too and not to mention JC is
+
+124
+00:07:29,210 --> 00:07:33,280
+JC
+
+125
+00:07:30,290 --> 00:07:36,680
+they'll all be available to help you if
+
+126
+00:07:33,280 --> 00:07:39,050
+questions come up but as I say just make
+
+127
+00:07:36,680 --> 00:07:40,880
+sure I've tried to emphasize how much
+
+128
+00:07:39,050 --> 00:07:42,680
+this course is really a basic language
+
+129
+00:07:40,880 --> 00:07:46,610
+course make sure you understand the
+
+130
+00:07:42,680 --> 00:07:48,860
+basic concepts of ideal etc now I should
+
+131
+00:07:46,610 --> 00:07:51,620
+also say one second I'll get the one
+
+132
+00:07:48,860 --> 00:07:55,010
+saying I should also say that probably
+
+133
+00:07:51,620 --> 00:07:57,860
+more of the exam than of the course will
+
+134
+00:07:55,010 --> 00:08:00,020
+be on the latter part that we covered
+
+135
+00:07:57,860 --> 00:08:02,390
+the material on commutative rings and
+
+136
+00:08:00,020 --> 00:08:05,840
+ideal theory that's the part we haven't
+
+137
+00:08:02,390 --> 00:08:08,330
+tested yet and so we had tests on groups
+
+138
+00:08:05,840 --> 00:08:09,890
+and and on vector spaces and groups of
+
+139
+00:08:08,330 --> 00:08:11,450
+motions of the plane and things of that
+
+140
+00:08:09,890 --> 00:08:14,660
+nature there'll be some questions on
+
+141
+00:08:11,450 --> 00:08:16,190
+that but I would say that probably only
+
+142
+00:08:14,660 --> 00:08:17,660
+a third of the course might have been
+
+143
+00:08:16,190 --> 00:08:19,370
+about commutative ring theory but
+
+144
+00:08:17,660 --> 00:08:23,870
+probably about half the exam you think
+
+145
+00:08:19,370 --> 00:08:26,750
+that's fair Peter so because that's the
+
+146
+00:08:23,870 --> 00:08:29,860
+new material we'd be testing here okay
+
+147
+00:08:26,750 --> 00:08:29,860
+now good
+
+148
+00:08:32,909 --> 00:08:41,860
+no and you mean it's just terminology so
+
+149
+00:08:39,070 --> 00:08:44,620
+I wouldn't say you know state state
+
+150
+00:08:41,860 --> 00:08:45,940
+Gauss's lemma for primitive polynomials
+
+151
+00:08:44,620 --> 00:08:47,740
+or something like that but I might say
+
+152
+00:08:45,940 --> 00:08:49,360
+what's the content of a polynomial or
+
+153
+00:08:47,740 --> 00:08:52,870
+something like that so you don't have to
+
+154
+00:08:49,360 --> 00:08:54,459
+identify the full set or I wouldn't say
+
+155
+00:08:52,870 --> 00:08:56,980
+in the definition what is the ceelo
+
+156
+00:08:54,459 --> 00:08:58,540
+theorem okay but there will definitely
+
+157
+00:08:56,980 --> 00:08:59,769
+be a problem where you'll have to know
+
+158
+00:08:58,540 --> 00:09:09,760
+the statement or the seal of the year
+
+159
+00:08:59,769 --> 00:09:12,250
+yeah except in the in the case where at
+
+160
+00:09:09,760 --> 00:09:13,630
+the at the at the at the last section
+
+161
+00:09:12,250 --> 00:09:15,519
+where we'd say you know prove data find
+
+162
+00:09:13,630 --> 00:09:17,079
+an integral domain is a field you can't
+
+163
+00:09:15,519 --> 00:09:18,760
+say in the homework we prove that the
+
+164
+00:09:17,079 --> 00:09:20,950
+finite integral domain is a field that
+
+165
+00:09:18,760 --> 00:09:24,010
+would that would be the but in the in
+
+166
+00:09:20,950 --> 00:09:25,779
+the part of to false absolutely the key
+
+167
+00:09:24,010 --> 00:09:28,180
+thing is to understand what makes this
+
+168
+00:09:25,779 --> 00:09:29,620
+statement true or false and that you can
+
+169
+00:09:28,180 --> 00:09:30,940
+quote the material like the seal of
+
+170
+00:09:29,620 --> 00:09:35,670
+theorems or things that we did in
+
+171
+00:09:30,940 --> 00:09:35,670
+homework and things like that okay yeah
+
+172
+00:09:35,820 --> 00:09:41,770
+again you it would have to be a fairly
+
+173
+00:09:39,190 --> 00:09:43,570
+central theorem for us to answer yes the
+
+174
+00:09:41,770 --> 00:09:45,250
+proof and we're not going to ask the
+
+175
+00:09:43,570 --> 00:09:48,520
+proof of a theorem that takes an entire
+
+176
+00:09:45,250 --> 00:09:50,170
+lecture to do okay I don't I don't want
+
+177
+00:09:48,520 --> 00:09:51,640
+you to memorize I don't want you to
+
+178
+00:09:50,170 --> 00:09:53,380
+memorize the proof for this elope yours
+
+179
+00:09:51,640 --> 00:09:55,270
+it's nice to know how the seal of
+
+180
+00:09:53,380 --> 00:09:58,240
+theorems come about by a group acting on
+
+181
+00:09:55,270 --> 00:10:01,540
+sets it's nice to know how we classify
+
+182
+00:09:58,240 --> 00:10:02,279
+groups of P of order P Q and of order P
+
+183
+00:10:01,540 --> 00:10:04,750
+squared
+
+184
+00:10:02,279 --> 00:10:08,680
+you know without going through the
+
+185
+00:10:04,750 --> 00:10:10,180
+entire rigmarole okay but yeah the sila
+
+186
+00:10:08,680 --> 00:10:12,100
+fearin are quite involved in it would be
+
+187
+00:10:10,180 --> 00:10:14,410
+ridiculous to memorize I once had a math
+
+188
+00:10:12,100 --> 00:10:15,970
+class where it just consisted of it was
+
+189
+00:10:14,410 --> 00:10:17,709
+math 212 and I was in undergraduate in
+
+190
+00:10:15,970 --> 00:10:19,449
+the exam was always the same state
+
+191
+00:10:17,709 --> 00:10:20,740
+improved the closed graph theorem prove
+
+192
+00:10:19,449 --> 00:10:22,600
+this theorem they can prove that there
+
+193
+00:10:20,740 --> 00:10:23,949
+so it just consisted of of sitting and
+
+194
+00:10:22,600 --> 00:10:25,870
+sitting there for hours and hours
+
+195
+00:10:23,949 --> 00:10:28,720
+memorizing these proofs which were
+
+196
+00:10:25,870 --> 00:10:30,250
+incredibly involved and then you know
+
+197
+00:10:28,720 --> 00:10:31,720
+two days later fortunately you remember
+
+198
+00:10:30,250 --> 00:10:33,880
+nothing about the closed graph theorem
+
+199
+00:10:31,720 --> 00:10:35,140
+and things like that so I mean my
+
+200
+00:10:33,880 --> 00:10:37,540
+objective here is so that you become
+
+201
+00:10:35,140 --> 00:10:38,770
+conversant with the language and so that
+
+202
+00:10:37,540 --> 00:10:40,329
+if you have to go to the book you could
+
+203
+00:10:38,770 --> 00:10:42,060
+remind yourself that the the cela
+
+204
+00:10:40,329 --> 00:10:44,670
+theorem was proved by having
+
+205
+00:10:42,060 --> 00:10:46,800
+groups of order P act on sex and captain
+
+206
+00:10:44,670 --> 00:10:50,160
+figuring out what the stabilizer was and
+
+207
+00:10:46,800 --> 00:10:51,720
+things of that nature okay so let's go
+
+208
+00:10:50,160 --> 00:10:54,600
+through the basic topic so I'm gonna do
+
+209
+00:10:51,720 --> 00:10:56,160
+groups in vector spaces so as I say
+
+210
+00:10:54,600 --> 00:11:00,270
+there there really is three units that
+
+211
+00:10:56,160 --> 00:11:14,460
+we did groups vector spaces and fields
+
+212
+00:11:00,270 --> 00:11:16,170
+and commutative rings Peter will do this
+
+213
+00:11:14,460 --> 00:11:18,600
+review on Friday I'll try to do the
+
+214
+00:11:16,170 --> 00:11:20,280
+first part now people should just ask me
+
+215
+00:11:18,600 --> 00:11:23,610
+questions I'm gonna go down the abstract
+
+216
+00:11:20,280 --> 00:11:25,020
+algebra study sheet so the definition of
+
+217
+00:11:23,610 --> 00:11:27,050
+a group if we don't have the definition
+
+218
+00:11:25,020 --> 00:11:29,940
+of a group we're not going to be able to
+
+219
+00:11:27,050 --> 00:11:32,280
+do much so you should know that it's a
+
+220
+00:11:29,940 --> 00:11:35,760
+set with a multiplication and identity
+
+221
+00:11:32,280 --> 00:11:37,530
+and inverse associative law and you
+
+222
+00:11:35,760 --> 00:11:39,390
+should have some examples of groups and
+
+223
+00:11:37,530 --> 00:11:42,270
+it's a the examples of groups that we
+
+224
+00:11:39,390 --> 00:11:45,630
+used all the time were the gon over a
+
+225
+00:11:42,270 --> 00:11:47,430
+say over the reals the multiplicative
+
+226
+00:11:45,630 --> 00:11:49,170
+group of matrices that we got out of
+
+227
+00:11:47,430 --> 00:11:53,070
+jail in ear algebra and the symmetry
+
+228
+00:11:49,170 --> 00:11:54,750
+groups of a set so all one-to-one maps
+
+229
+00:11:53,070 --> 00:11:58,430
+of the set to itself and you should
+
+230
+00:11:54,750 --> 00:12:01,320
+understand why those are groups and then
+
+231
+00:11:58,430 --> 00:12:02,610
+so that was the definition of a group
+
+232
+00:12:01,320 --> 00:12:04,290
+and then we have the definition of a
+
+233
+00:12:02,610 --> 00:12:06,990
+subgroup of a group which was just a
+
+234
+00:12:04,290 --> 00:12:09,060
+subset stable under the multiplication
+
+235
+00:12:06,990 --> 00:12:13,770
+containing the identity containing the
+
+236
+00:12:09,060 --> 00:12:16,590
+inverses of elements and and we had the
+
+237
+00:12:13,770 --> 00:12:20,490
+notion of homomorphisms between groups
+
+238
+00:12:16,590 --> 00:12:22,020
+and isomorphisms between groups and we
+
+239
+00:12:20,490 --> 00:12:26,970
+identified that the kernel of a
+
+240
+00:12:22,020 --> 00:12:30,510
+homomorphism was a subgroup of G and the
+
+241
+00:12:26,970 --> 00:12:34,710
+image of a homomorphism was a subgroup
+
+242
+00:12:30,510 --> 00:12:37,080
+of G prime and that the kernel was a
+
+243
+00:12:34,710 --> 00:12:39,330
+special subgroup of G it was a normal
+
+244
+00:12:37,080 --> 00:12:42,360
+subgroup of G and that was the
+
+245
+00:12:39,330 --> 00:12:44,790
+definition of a normal subgroup and then
+
+246
+00:12:42,360 --> 00:12:47,370
+after this definition of normal subgroup
+
+247
+00:12:44,790 --> 00:12:49,020
+we showed that any normal subgroup could
+
+248
+00:12:47,370 --> 00:12:51,830
+be defined as the kernel of a
+
+249
+00:12:49,020 --> 00:12:54,830
+homomorphism that's an important fact
+
+250
+00:12:51,830 --> 00:12:54,830
+any
+
+251
+00:12:55,430 --> 00:13:06,209
+HG is the kernel homomorphism F and the
+
+252
+00:13:02,190 --> 00:13:10,230
+homomorphism map G to the coset space
+
+253
+00:13:06,209 --> 00:13:12,930
+and so you should recall and this is an
+
+254
+00:13:10,230 --> 00:13:18,260
+important abstract concept first of all
+
+255
+00:13:12,930 --> 00:13:21,329
+how one defines this as a set or any H
+
+256
+00:13:18,260 --> 00:13:25,949
+by making an equivalence relation on G
+
+257
+00:13:21,329 --> 00:13:28,050
+of the different Co sets and the this is
+
+258
+00:13:25,949 --> 00:13:30,000
+the set of the equivalence classes or
+
+259
+00:13:28,050 --> 00:13:37,320
+the different Co sets and then it's a
+
+260
+00:13:30,000 --> 00:13:43,709
+group under the multiplication G H times
+
+261
+00:13:37,320 --> 00:13:46,769
+G prime H equals G G prime age when when
+
+262
+00:13:43,709 --> 00:13:49,920
+H is normal in G and then this
+
+263
+00:13:46,769 --> 00:13:53,430
+homomorphism takes an element G than the
+
+264
+00:13:49,920 --> 00:13:55,320
+cosine of of G with respect to H and
+
+265
+00:13:53,430 --> 00:13:57,300
+because of this multiplication law in a
+
+266
+00:13:55,320 --> 00:13:59,760
+normal subgroup that is a group
+
+267
+00:13:57,300 --> 00:14:04,649
+homomorphism whose kernel is precisely H
+
+268
+00:13:59,760 --> 00:14:08,250
+and whose image is all of G mod H so
+
+269
+00:14:04,649 --> 00:14:10,589
+this is on 2 and then we had an
+
+270
+00:14:08,250 --> 00:14:17,550
+important counting theorem that if G is
+
+271
+00:14:10,589 --> 00:14:22,980
+finite the order of G is the order of
+
+272
+00:14:17,550 --> 00:14:25,800
+this subgroup h times the index of the
+
+273
+00:14:22,980 --> 00:14:27,810
+number of cosets and that can be viewed
+
+274
+00:14:25,800 --> 00:14:29,550
+as counting the number of elements here
+
+275
+00:14:27,810 --> 00:14:32,250
+by recognizing that each one of the co
+
+276
+00:14:29,550 --> 00:14:38,880
+sets contains exactly H elements so that
+
+277
+00:14:32,250 --> 00:14:40,889
+was a useful counting proposition so one
+
+278
+00:14:38,880 --> 00:14:42,990
+of the most famous examples of quotient
+
+279
+00:14:40,889 --> 00:14:45,990
+groups so we've made a special special
+
+280
+00:14:42,990 --> 00:14:52,529
+study of it was when the group G was Z
+
+281
+00:14:45,990 --> 00:14:57,440
+we showed the only subgroups H were of
+
+282
+00:14:52,529 --> 00:15:01,100
+the form n times e or an an integer and
+
+283
+00:14:57,440 --> 00:15:01,100
+that the quotient group
+
+284
+00:15:02,860 --> 00:15:08,510
+what Z mod NZ now this has more
+
+285
+00:15:07,130 --> 00:15:10,790
+structure than just a group this
+
+286
+00:15:08,510 --> 00:15:12,740
+actually has the structure of a ring but
+
+287
+00:15:10,790 --> 00:15:16,450
+in the group Theory section it didn't
+
+288
+00:15:12,740 --> 00:15:23,900
+make any difference this was a cyclic
+
+289
+00:15:16,450 --> 00:15:25,640
+generated by the class of 1 mod n and we
+
+290
+00:15:23,900 --> 00:15:28,850
+made a lot of study of this group and
+
+291
+00:15:25,640 --> 00:15:31,550
+arithmetic of this group because that's
+
+292
+00:15:28,850 --> 00:15:34,070
+it's just a basic group just as these
+
+293
+00:15:31,550 --> 00:15:36,110
+are somehow basic non abelian groups
+
+294
+00:15:34,070 --> 00:15:37,970
+these are very basic abelian groups this
+
+295
+00:15:36,110 --> 00:15:39,650
+is a cyclic group of infinite order and
+
+296
+00:15:37,970 --> 00:15:44,870
+these are cyclic group of any finite
+
+297
+00:15:39,650 --> 00:15:47,120
+order and we showed that an arbitrary
+
+298
+00:15:44,870 --> 00:15:58,160
+cyclic group of order n was isomorphic
+
+299
+00:15:47,120 --> 00:16:00,620
+to this group is isomorphic to Z mod n Z
+
+300
+00:15:58,160 --> 00:16:01,970
+and the isomorphism if I wanted to make
+
+301
+00:16:00,620 --> 00:16:09,590
+the isomorphism I would choose a
+
+302
+00:16:01,970 --> 00:16:12,140
+generator the cyclic group means one
+
+303
+00:16:09,590 --> 00:16:14,630
+that consists of all powers of a given
+
+304
+00:16:12,140 --> 00:16:20,750
+element so choose a generator G and you
+
+305
+00:16:14,630 --> 00:16:26,300
+map 1 mod n in the homomorphism to G and
+
+306
+00:16:20,750 --> 00:16:28,910
+you map a mod n to the element G to the
+
+307
+00:16:26,300 --> 00:16:30,950
+8th power and that's a surjective map
+
+308
+00:16:28,910 --> 00:16:32,630
+because everything in G is of the form G
+
+309
+00:16:30,950 --> 00:16:36,020
+to the a and it only depends on what a
+
+310
+00:16:32,630 --> 00:16:41,660
+is mod and because G to the N is the
+
+311
+00:16:36,020 --> 00:16:43,370
+identity element so uh so these are the
+
+312
+00:16:41,660 --> 00:16:45,680
+this is the basic there's only one
+
+313
+00:16:43,370 --> 00:16:53,690
+cyclic group of order n for every n up
+
+314
+00:16:45,680 --> 00:16:55,520
+to isomorphism and in particular this so
+
+315
+00:16:53,690 --> 00:16:57,350
+then we took a little tour away from
+
+316
+00:16:55,520 --> 00:16:59,000
+groups but I'm gonna stay we went to
+
+317
+00:16:57,350 --> 00:17:01,040
+vector spaces and fields but from the
+
+318
+00:16:59,000 --> 00:17:02,780
+point of view of review I'm just going
+
+319
+00:17:01,040 --> 00:17:04,880
+to stay inside the world of groups for
+
+320
+00:17:02,780 --> 00:17:10,120
+the moment and we'll come back to base
+
+321
+00:17:04,880 --> 00:17:10,120
+YZ and things of that nature later so
+
+322
+00:17:11,300 --> 00:17:17,089
+we then went on to study other
+
+323
+00:17:14,260 --> 00:17:20,830
+interesting groups as groups acting on
+
+324
+00:17:17,089 --> 00:17:26,480
+sets so we made a big deal about Group G
+
+325
+00:17:20,830 --> 00:17:28,730
+acting on a set s so this is just the
+
+326
+00:17:26,480 --> 00:17:32,720
+homomorphism from G into the symmetry
+
+327
+00:17:28,730 --> 00:17:35,480
+group of s abstractly or another way of
+
+328
+00:17:32,720 --> 00:17:37,870
+saying it is for every G & G and every
+
+329
+00:17:35,480 --> 00:17:44,180
+element s in s we have an element G of s
+
+330
+00:17:37,870 --> 00:17:47,870
+in s and a G G prime of s is equal to G
+
+331
+00:17:44,180 --> 00:17:50,390
+of G prime of s and that says that this
+
+332
+00:17:47,870 --> 00:17:51,980
+is a homomorphism because multiplication
+
+333
+00:17:50,390 --> 00:17:56,300
+in the symmetry group of s is just
+
+334
+00:17:51,980 --> 00:17:57,980
+composition of maps and when we had a
+
+335
+00:17:56,300 --> 00:18:00,020
+group acting on a set we had various
+
+336
+00:17:57,980 --> 00:18:05,630
+concepts that we define we defined the
+
+337
+00:18:00,020 --> 00:18:08,180
+stabiliser of an element we defined the
+
+338
+00:18:05,630 --> 00:18:12,110
+orbit of s which was a subset of s this
+
+339
+00:18:08,180 --> 00:18:14,390
+stabilizer was a subgroup of G and the
+
+340
+00:18:12,110 --> 00:18:18,890
+orbit we identified with the quotient
+
+341
+00:18:14,390 --> 00:18:23,630
+space G mod G s by mapping in a co set g
+
+342
+00:18:18,890 --> 00:18:27,800
+GS to the element in the orbit which was
+
+343
+00:18:23,630 --> 00:18:29,960
+G of s some element s Prime in the same
+
+344
+00:18:27,800 --> 00:18:32,240
+orbit and that only depends on the co
+
+345
+00:18:29,960 --> 00:18:38,470
+set because this subgroup fixes the
+
+346
+00:18:32,240 --> 00:18:40,670
+element s and if we had a finite group G
+
+347
+00:18:38,470 --> 00:18:43,940
+well if we had a group acting on a
+
+348
+00:18:40,670 --> 00:18:47,480
+finite set s then we could decompose s
+
+349
+00:18:43,940 --> 00:18:52,370
+as the disjoint union of the orbits for
+
+350
+00:18:47,480 --> 00:18:55,700
+G and therefore the order of s was the
+
+351
+00:18:52,370 --> 00:18:58,910
+sum of the orders of the different orbit
+
+352
+00:18:55,700 --> 00:19:01,940
+spaces and each orbit space was a co set
+
+353
+00:18:58,910 --> 00:19:04,520
+space so this was the sum of the indices
+
+354
+00:19:01,940 --> 00:19:07,460
+of the stabilisers over the different
+
+355
+00:19:04,520 --> 00:19:09,560
+orbits and this gave us a very useful
+
+356
+00:19:07,460 --> 00:19:11,810
+counting formula in a lot of different
+
+357
+00:19:09,560 --> 00:19:18,230
+situations depending on what action we
+
+358
+00:19:11,810 --> 00:19:21,290
+took so some examples of group acting on
+
+359
+00:19:18,230 --> 00:19:22,940
+sets so I would really divide the group
+
+360
+00:19:21,290 --> 00:19:24,470
+theory if when I was thinking about it
+
+361
+00:19:22,940 --> 00:19:24,990
+from a review to put it inside of my
+
+362
+00:19:24,470 --> 00:19:26,940
+head
+
+363
+00:19:24,990 --> 00:19:28,230
+there's really three completely
+
+364
+00:19:26,940 --> 00:19:30,299
+different sections
+
+365
+00:19:28,230 --> 00:19:32,809
+there's the abstract group theory the
+
+366
+00:19:30,299 --> 00:19:34,830
+definitions of the objects and the
+
+367
+00:19:32,809 --> 00:19:36,240
+homomorphisms and the co sets that's
+
+368
+00:19:34,830 --> 00:19:38,880
+just completely abstract that could be
+
+369
+00:19:36,240 --> 00:19:42,179
+done with a set of symbols okay
+
+370
+00:19:38,880 --> 00:19:44,580
+then there's the theory of the way
+
+371
+00:19:42,179 --> 00:19:46,289
+groups arise acting on sets and
+
+372
+00:19:44,580 --> 00:19:47,700
+subgroups of the CIMMYT symmetry group
+
+373
+00:19:46,289 --> 00:19:49,380
+of a set so this is a very important
+
+374
+00:19:47,700 --> 00:19:51,120
+realization of groups groups acting on
+
+375
+00:19:49,380 --> 00:19:54,750
+sets and then there are tons and tons
+
+376
+00:19:51,120 --> 00:19:56,669
+and tons of examples like the symmetry
+
+377
+00:19:54,750 --> 00:20:00,149
+group of ass or the linear group of
+
+378
+00:19:56,669 --> 00:20:01,919
+matrices or the cyclic group of infinite
+
+379
+00:20:00,149 --> 00:20:03,240
+order or the cyclic group of final order
+
+380
+00:20:01,919 --> 00:20:06,029
+and you all saw you have to know these
+
+381
+00:20:03,240 --> 00:20:07,470
+examples and some of them come up from
+
+382
+00:20:06,029 --> 00:20:09,330
+number theory some of them like the
+
+383
+00:20:07,470 --> 00:20:13,860
+integers some of them come up from group
+
+384
+00:20:09,330 --> 00:20:15,899
+actions so an example of an another
+
+385
+00:20:13,860 --> 00:20:25,770
+example we used was the orthogonal group
+
+386
+00:20:15,899 --> 00:20:30,470
+o n of R which was a subgroup of GL n of
+
+387
+00:20:25,770 --> 00:20:38,309
+R and that was the things that preserved
+
+388
+00:20:30,470 --> 00:20:39,899
+an inner product on RN or if you put
+
+389
+00:20:38,309 --> 00:20:42,630
+them inside of matrices they were the
+
+390
+00:20:39,899 --> 00:20:45,210
+things that's if you multiply a times a
+
+391
+00:20:42,630 --> 00:20:47,250
+transpose you got the identity matrix
+
+392
+00:20:45,210 --> 00:20:49,770
+and we saw that implied that the
+
+393
+00:20:47,250 --> 00:20:54,890
+determinant of an orthogonal matrix was
+
+394
+00:20:49,770 --> 00:21:01,909
+plus or minus 1 so we had that group and
+
+395
+00:20:54,890 --> 00:21:04,080
+then we did the group of motions and
+
+396
+00:21:01,909 --> 00:21:06,690
+that was the combination of the
+
+397
+00:21:04,080 --> 00:21:08,940
+orthogonal group now that acts on RN it
+
+398
+00:21:06,690 --> 00:21:10,080
+preserves the linear structure and it
+
+399
+00:21:08,940 --> 00:21:13,830
+preserves the inner product so in
+
+400
+00:21:10,080 --> 00:21:17,010
+particular preserves the origin of the
+
+401
+00:21:13,830 --> 00:21:18,480
+vector space and the group of motions is
+
+402
+00:21:17,010 --> 00:21:21,090
+something that's going to take any point
+
+403
+00:21:18,480 --> 00:21:23,190
+to any other point and that we call G or
+
+404
+00:21:21,090 --> 00:21:27,830
+something and that was consisted of all
+
+405
+00:21:23,190 --> 00:21:27,830
+the translations together with om
+
+406
+00:21:30,720 --> 00:21:36,870
+so things of the form G of a vector was
+
+407
+00:21:35,160 --> 00:21:41,160
+an orthogonal transformation of the
+
+408
+00:21:36,870 --> 00:21:47,040
+vector plus another vector B so this was
+
+409
+00:21:41,160 --> 00:21:48,930
+an O an and this was an RN and we saw
+
+410
+00:21:47,040 --> 00:21:51,420
+the translations formed the normal
+
+411
+00:21:48,930 --> 00:21:54,060
+subgroup and the quotient group was the
+
+412
+00:21:51,420 --> 00:21:56,510
+orthogonal group and we analyzed the
+
+413
+00:21:54,060 --> 00:21:59,370
+group of motions in a lot of cases and
+
+414
+00:21:56,510 --> 00:22:05,490
+took a look at it acting on the set this
+
+415
+00:21:59,370 --> 00:22:08,880
+acts on the set RN or it acts on the set
+
+416
+00:22:05,490 --> 00:22:11,550
+of lines in RN it acts on a lot of
+
+417
+00:22:08,880 --> 00:22:16,080
+different sets that we can imagine and
+
+418
+00:22:11,550 --> 00:22:18,420
+we also identified finite subgroups of
+
+419
+00:22:16,080 --> 00:22:20,790
+it and discrete subgroups of it so we
+
+420
+00:22:18,420 --> 00:22:23,610
+found so this was all in the in the area
+
+421
+00:22:20,790 --> 00:22:27,000
+of examples like this the specific
+
+422
+00:22:23,610 --> 00:22:34,830
+examples of groups so we identified let
+
+423
+00:22:27,000 --> 00:22:37,770
+me erase a little here so we restricted
+
+424
+00:22:34,830 --> 00:22:39,570
+a lot because it was somehow related to
+
+425
+00:22:37,770 --> 00:22:47,160
+Euclidean geometry and dimension two we
+
+426
+00:22:39,570 --> 00:22:49,440
+did finite sub groups of o2 we showed
+
+427
+00:22:47,160 --> 00:22:54,270
+they were either cyclic groups or
+
+428
+00:22:49,440 --> 00:23:02,090
+dihedral groups and then we did discrete
+
+429
+00:22:54,270 --> 00:23:02,090
+subgroups of the motion group
+
+430
+00:23:03,000 --> 00:23:09,420
+and they had the form that you got a
+
+431
+00:23:05,820 --> 00:23:12,450
+discrete subgroup l in r2 which was
+
+432
+00:23:09,420 --> 00:23:15,950
+either a zero or multiples of one vector
+
+433
+00:23:12,450 --> 00:23:22,440
+or multiples of two independent vectors
+
+434
+00:23:15,950 --> 00:23:23,370
+this thing was called the lattice we
+
+435
+00:23:22,440 --> 00:23:25,140
+proved that those were the only
+
+436
+00:23:23,370 --> 00:23:27,180
+Possible's for a discrete subgroup of
+
+437
+00:23:25,140 --> 00:23:29,970
+the translations and then you got a
+
+438
+00:23:27,180 --> 00:23:33,420
+little finite group in o2 well at least
+
+439
+00:23:29,970 --> 00:23:35,070
+a finite quotient group and those we
+
+440
+00:23:33,420 --> 00:23:36,600
+identified as either cyclic or die you
+
+441
+00:23:35,070 --> 00:23:37,980
+drew them we didn't put together all the
+
+442
+00:23:36,600 --> 00:23:40,320
+possibilities but we saw that only
+
+443
+00:23:37,980 --> 00:23:44,520
+certain lattices it made it a larger
+
+444
+00:23:40,320 --> 00:23:50,010
+group here than the group of order 2 so
+
+445
+00:23:44,520 --> 00:24:05,220
+that was the that was the discrete group
+
+446
+00:23:50,010 --> 00:24:07,140
+of motions now I'm sure not at all no no
+
+447
+00:24:05,220 --> 00:24:08,940
+it's important so we discovered we
+
+448
+00:24:07,140 --> 00:24:12,540
+discussed the finite subgroups game of
+
+449
+00:24:08,940 --> 00:24:14,730
+o2 and it's it's not really gamma here
+
+450
+00:24:12,540 --> 00:24:16,620
+namely there's a group here which is the
+
+451
+00:24:14,730 --> 00:24:18,720
+discrete subgroup let me let me say it
+
+452
+00:24:16,620 --> 00:24:23,180
+more precisely so we if we have a
+
+453
+00:24:18,720 --> 00:24:23,180
+discrete subgroup here let's call it
+
+454
+00:24:23,720 --> 00:24:28,590
+that's yeah there was that if I have a
+
+455
+00:24:26,820 --> 00:24:32,730
+discrete subgroup here let's call it
+
+456
+00:24:28,590 --> 00:24:34,860
+gamma discrete then this L is the
+
+457
+00:24:32,730 --> 00:24:38,250
+intersection of gamma with the
+
+458
+00:24:34,860 --> 00:24:40,950
+translations which has either this it's
+
+459
+00:24:38,250 --> 00:24:43,560
+either 0 it has no translations in it it
+
+460
+00:24:40,950 --> 00:24:45,000
+has translations by all multiples of 1
+
+461
+00:24:43,560 --> 00:24:47,670
+vector or it has translations by
+
+462
+00:24:45,000 --> 00:24:50,870
+independent vectors and we discovered
+
+463
+00:24:47,670 --> 00:24:55,920
+that if we took gamma bar which was
+
+464
+00:24:50,870 --> 00:25:01,620
+gamma modulo L that was a finite
+
+465
+00:24:55,920 --> 00:25:04,380
+subgroup in Oh 2 which was G modulo
+
+466
+00:25:01,620 --> 00:25:06,720
+aren't you so that was the composition
+
+467
+00:25:04,380 --> 00:25:08,700
+of a discrete subgroup of the motion
+
+468
+00:25:06,720 --> 00:25:10,560
+group first you got this you got a
+
+469
+00:25:08,700 --> 00:25:12,750
+discrete subgroup of translations and
+
+470
+00:25:10,560 --> 00:25:15,510
+then if you mod it out if you took that
+
+471
+00:25:12,750 --> 00:25:16,350
+as the normal subgroup it was a finite
+
+472
+00:25:15,510 --> 00:25:18,870
+index and
+
+473
+00:25:16,350 --> 00:25:19,890
+quotient group was a define a sub
+
+474
+00:25:18,870 --> 00:25:23,130
+provoked to which we had already
+
+475
+00:25:19,890 --> 00:25:27,090
+classified and this was very restricted
+
+476
+00:25:23,130 --> 00:25:29,340
+that's what we showed you couldn't get
+
+477
+00:25:27,090 --> 00:25:33,570
+an arbitrary so for example in the case
+
+478
+00:25:29,340 --> 00:25:37,890
+where L was a lattice the order of this
+
+479
+00:25:33,570 --> 00:25:39,390
+subgroup was at most 12 we showed so it
+
+480
+00:25:37,890 --> 00:25:41,130
+couldn't be an arbitrary cyclic or
+
+481
+00:25:39,390 --> 00:25:47,190
+dihedral group because it has to
+
+482
+00:25:41,130 --> 00:25:49,500
+preserve as preserves the lattice L in R
+
+483
+00:25:47,190 --> 00:25:51,150
+to Amy when it operates on the plane as
+
+484
+00:25:49,500 --> 00:25:54,059
+an element in o2 and has to stabilize
+
+485
+00:25:51,150 --> 00:25:55,590
+the lattice and that put a very serious
+
+486
+00:25:54,059 --> 00:25:58,710
+restriction on which cyclic and dihedral
+
+487
+00:25:55,590 --> 00:26:00,450
+groups we could have okay so this is
+
+488
+00:25:58,710 --> 00:26:02,159
+just a review to identify it now I'm not
+
+489
+00:26:00,450 --> 00:26:04,620
+going to ask you to prove any of this on
+
+490
+00:26:02,159 --> 00:26:06,630
+the exam but I may ask you to recall the
+
+491
+00:26:04,620 --> 00:26:08,580
+structure of finite subgroups here or
+
+492
+00:26:06,630 --> 00:26:10,740
+the structure of this green subgroups
+
+493
+00:26:08,580 --> 00:26:15,320
+here may be much too difficult to
+
+494
+00:26:10,740 --> 00:26:15,320
+classify the discrete subgroups okay
+
+495
+00:26:16,669 --> 00:26:28,500
+good
+
+496
+00:26:17,909 --> 00:26:31,110
+the okay then we had we studied the
+
+497
+00:26:28,500 --> 00:26:33,690
+applications of this formula in various
+
+498
+00:26:31,110 --> 00:26:35,460
+group actions and the most important
+
+499
+00:26:33,690 --> 00:26:45,690
+group action is the group action on
+
+500
+00:26:35,460 --> 00:26:49,860
+itself G acts on G by conjugation so if
+
+501
+00:26:45,690 --> 00:26:53,549
+you have an element G G of S is GS G
+
+502
+00:26:49,860 --> 00:26:56,130
+inverse so that's an action of a group
+
+503
+00:26:53,549 --> 00:26:59,760
+on its own set by conjugation that
+
+504
+00:26:56,130 --> 00:27:02,820
+satisfies these axioms and the orbit of
+
+505
+00:26:59,760 --> 00:27:09,210
+an element s is called the conjugacy
+
+506
+00:27:02,820 --> 00:27:12,600
+class of s so that consists of all
+
+507
+00:27:09,210 --> 00:27:16,890
+elements of the form G s G inverse for G
+
+508
+00:27:12,600 --> 00:27:21,840
+M G and the stabilizer of s is called
+
+509
+00:27:16,890 --> 00:27:24,240
+the centralizer of s so because this
+
+510
+00:27:21,840 --> 00:27:26,070
+group action itself is so important its
+
+511
+00:27:24,240 --> 00:27:30,119
+orbits and stabilizers have their own
+
+512
+00:27:26,070 --> 00:27:33,119
+names and then we use this action
+
+513
+00:27:30,119 --> 00:27:36,419
+to classify certain groups for example
+
+514
+00:27:33,119 --> 00:27:38,789
+we proved that a group of order P
+
+515
+00:27:36,419 --> 00:27:44,909
+squared was abelian and that a group of
+
+516
+00:27:38,789 --> 00:27:50,719
+water P to the N if the order of G is P
+
+517
+00:27:44,909 --> 00:27:50,719
+to the N then G has a non-trivial Center
+
+518
+00:27:53,509 --> 00:27:57,899
+and the way we did that was we wrote the
+
+519
+00:27:56,159 --> 00:28:02,579
+order of G is the sum of the order of
+
+520
+00:27:57,899 --> 00:28:06,539
+the orbits so P to the N is the sum of
+
+521
+00:28:02,579 --> 00:28:08,609
+the order of the orbits of s now the
+
+522
+00:28:06,539 --> 00:28:10,289
+elements in the center are the ones
+
+523
+00:28:08,609 --> 00:28:12,959
+where the centralizer is the full group
+
+524
+00:28:10,289 --> 00:28:15,059
+in the orbit has one element so this
+
+525
+00:28:12,959 --> 00:28:23,519
+becomes the number of elements in the
+
+526
+00:28:15,059 --> 00:28:27,419
+center where OS has one element plus the
+
+527
+00:28:23,519 --> 00:28:29,899
+sum over G mod G s where this is
+
+528
+00:28:27,419 --> 00:28:29,899
+non-trivial
+
+529
+00:28:30,319 --> 00:28:34,799
+namely in this sum over here where you
+
+530
+00:28:33,149 --> 00:28:36,389
+have the index of the stabilizer either
+
+531
+00:28:34,799 --> 00:28:41,069
+the stabilizers the full group and this
+
+532
+00:28:36,389 --> 00:28:43,709
+number is one or it's it's not one now
+
+533
+00:28:41,069 --> 00:28:45,809
+if it's not one and that group has order
+
+534
+00:28:43,709 --> 00:28:47,849
+P to the N this number must be of the
+
+535
+00:28:45,809 --> 00:28:50,639
+form P to the K for K greater than equal
+
+536
+00:28:47,849 --> 00:28:53,729
+to one in particular this term here is
+
+537
+00:28:50,639 --> 00:28:56,039
+divisible by P this term is divisible by
+
+538
+00:28:53,729 --> 00:28:58,739
+P and so this term has to be divisible
+
+539
+00:28:56,039 --> 00:29:00,449
+by P and this term isn't 0 because you
+
+540
+00:28:58,739 --> 00:29:02,789
+have at least one thing in the center
+
+541
+00:29:00,449 --> 00:29:04,319
+which is the identity element so you
+
+542
+00:29:02,789 --> 00:29:07,169
+have to have more things in the center
+
+543
+00:29:04,319 --> 00:29:10,079
+so that was a typical example of how we
+
+544
+00:29:07,169 --> 00:29:11,909
+used this kind of counting argument for
+
+545
+00:29:10,079 --> 00:29:17,579
+groups acting on sets for this very
+
+546
+00:29:11,909 --> 00:29:20,479
+important conjugacy action that would be
+
+547
+00:29:17,579 --> 00:29:20,479
+a good thing to review
+
+548
+00:29:22,160 --> 00:29:26,270
+it's possible now don't Emmitt don't
+
+549
+00:29:24,440 --> 00:29:28,130
+look at the I mean in previous years
+
+550
+00:29:26,270 --> 00:29:31,220
+people do slightly different things but
+
+551
+00:29:28,130 --> 00:29:32,900
+and then we use the Act the noir notion
+
+552
+00:29:31,220 --> 00:29:38,240
+of group actions to prove the ceelo
+
+553
+00:29:32,900 --> 00:29:39,950
+theorems so we have really only a few
+
+554
+00:29:38,240 --> 00:29:42,520
+more things in groups we had the seal
+
+555
+00:29:39,950 --> 00:29:42,520
+off your ohms
+
+556
+00:29:43,180 --> 00:29:49,490
+where you had a group where the order
+
+557
+00:29:45,790 --> 00:29:54,800
+was a power of P times the number which
+
+558
+00:29:49,490 --> 00:29:57,530
+was primed to P the GCD of that pair is
+
+559
+00:29:54,800 --> 00:30:06,460
+1 and the theorem said there exists a
+
+560
+00:29:57,530 --> 00:30:15,430
+subgroup H of order P to the n all such
+
+561
+00:30:06,460 --> 00:30:22,780
+our conjugate and the number of CLO P's
+
+562
+00:30:15,430 --> 00:30:25,880
+divides M and is congruent to 1 mod p
+
+563
+00:30:22,780 --> 00:30:27,170
+that's an important theorem and you
+
+564
+00:30:25,880 --> 00:30:29,270
+should look at the proof I wouldn't
+
+565
+00:30:27,170 --> 00:30:38,120
+memorize it and then we use that to
+
+566
+00:30:29,270 --> 00:30:40,250
+classify groups of order P Q we will be
+
+567
+00:30:38,120 --> 00:30:44,450
+using arguments like that undoubtedly on
+
+568
+00:30:40,250 --> 00:30:46,850
+the exam and then we had the final
+
+569
+00:30:44,450 --> 00:30:49,400
+section on groups where we took a closer
+
+570
+00:30:46,850 --> 00:30:56,210
+look at what conjugacy was in the
+
+571
+00:30:49,400 --> 00:31:01,480
+symmetric group s n which is the
+
+572
+00:30:56,210 --> 00:31:05,180
+symmetric group on the set one two three
+
+573
+00:31:01,480 --> 00:31:08,030
+permutations of n objects and we showed
+
+574
+00:31:05,180 --> 00:31:10,840
+that any element in G had a cycle
+
+575
+00:31:08,030 --> 00:31:10,840
+decomposition
+
+576
+00:31:19,530 --> 00:31:31,420
+where the length of the cycle summed up
+
+577
+00:31:22,360 --> 00:31:34,770
+to end you know if this had length a 1
+
+578
+00:31:31,420 --> 00:31:39,970
+and this had length a 2 is a cycle a 3 a
+
+579
+00:31:34,770 --> 00:31:43,030
+a 1 plus plus a K is equal to n so it
+
+580
+00:31:39,970 --> 00:31:45,310
+was a partition of n and that the cycle
+
+581
+00:31:43,030 --> 00:31:46,990
+decomposition determined the conjugacy
+
+582
+00:31:45,310 --> 00:31:49,750
+class so two elements with the same
+
+583
+00:31:46,990 --> 00:31:52,360
+cycle decomposition were conjugate and
+
+584
+00:31:49,750 --> 00:31:55,030
+we showed how to conjugate one into the
+
+585
+00:31:52,360 --> 00:31:56,560
+other so the different conjugacy classes
+
+586
+00:31:55,030 --> 00:31:58,780
+in the symmetric group are termined by
+
+587
+00:31:56,560 --> 00:32:00,610
+the cycle decomposition and you can work
+
+588
+00:31:58,780 --> 00:32:02,470
+out the order of an element and all
+
+589
+00:32:00,610 --> 00:32:05,890
+kinds of things if you know the cycle
+
+590
+00:32:02,470 --> 00:32:09,880
+decomposition right so that for example
+
+591
+00:32:05,890 --> 00:32:12,070
+if I had an element in the symmetric
+
+592
+00:32:09,880 --> 00:32:18,130
+group on seven letters and it looked
+
+593
+00:32:12,070 --> 00:32:19,840
+like this and I wanted to know what the
+
+594
+00:32:18,130 --> 00:32:21,730
+order of that element was you tell me
+
+595
+00:32:19,840 --> 00:32:23,200
+right away how to order 10 because I'd
+
+596
+00:32:21,730 --> 00:32:25,750
+have to raise this element to the fifth
+
+597
+00:32:23,200 --> 00:32:27,310
+power to be trivial in this element I'd
+
+598
+00:32:25,750 --> 00:32:32,230
+have to square it the element commutes
+
+599
+00:32:27,310 --> 00:32:34,870
+with itself so so computations in the
+
+600
+00:32:32,230 --> 00:32:37,750
+symmetric group become quite nice if one
+
+601
+00:32:34,870 --> 00:32:39,190
+has this cycle decomposition and I
+
+602
+00:32:37,750 --> 00:32:42,580
+should say we did one other thing with
+
+603
+00:32:39,190 --> 00:32:48,670
+groups namely we identified various
+
+604
+00:32:42,580 --> 00:32:51,550
+simple groups so those are ones with non
+
+605
+00:32:48,670 --> 00:32:53,200
+no non trivial normal subgroup so we
+
+606
+00:32:51,550 --> 00:32:56,110
+made a big effort to show that the group
+
+607
+00:32:53,200 --> 00:33:00,570
+a five which is a normal subgroup of the
+
+608
+00:32:56,110 --> 00:33:00,570
+symmetric group is simple of order 60
+
+609
+00:33:01,530 --> 00:33:06,220
+and we made a big analysis of it using
+
+610
+00:33:04,240 --> 00:33:08,710
+the icosahedron and then Peter went on
+
+611
+00:33:06,220 --> 00:33:11,050
+to show you that I think Peter showed
+
+612
+00:33:08,710 --> 00:33:13,450
+you that did you show them that a n
+
+613
+00:33:11,050 --> 00:33:17,830
+which is a normal subgroup of index two
+
+614
+00:33:13,450 --> 00:33:20,410
+in the symmetric group is simple or any
+
+615
+00:33:17,830 --> 00:33:22,900
+bigger than or equal to five so these
+
+616
+00:33:20,410 --> 00:33:25,060
+are good family of simple groups and
+
+617
+00:33:22,900 --> 00:33:28,019
+that's another subject which we just
+
+618
+00:33:25,060 --> 00:33:30,669
+introduced but didn't go that far into
+
+619
+00:33:28,019 --> 00:33:32,950
+Peter are those is there material and
+
+620
+00:33:30,669 --> 00:33:36,690
+groups that I haven't covered that would
+
+621
+00:33:32,950 --> 00:33:39,399
+be important to stress here so as I say
+
+622
+00:33:36,690 --> 00:33:41,049
+there these as I say if I if I focus if
+
+623
+00:33:39,399 --> 00:33:42,669
+I try to organize my study and that's
+
+624
+00:33:41,049 --> 00:33:44,019
+what's really useful about preparing for
+
+625
+00:33:42,669 --> 00:33:45,340
+an exam like this it's not that you're
+
+626
+00:33:44,019 --> 00:33:46,149
+going to learn anything new it's that
+
+627
+00:33:45,340 --> 00:33:48,609
+you're going to be able to organize
+
+628
+00:33:46,149 --> 00:33:50,559
+material for your own thinking about it
+
+629
+00:33:48,609 --> 00:33:59,019
+in the future I would say there's the
+
+630
+00:33:50,559 --> 00:34:08,639
+abstract theory of groups there's the
+
+631
+00:33:59,019 --> 00:34:13,480
+realization of groups acting on sets
+
+632
+00:34:08,639 --> 00:34:17,649
+vector spaces and then there are the
+
+633
+00:34:13,480 --> 00:34:20,049
+examples and these things all feed on
+
+634
+00:34:17,649 --> 00:34:22,599
+each other because the abstract CeeLo
+
+635
+00:34:20,049 --> 00:34:24,520
+Theory lets us classify examples for
+
+636
+00:34:22,599 --> 00:34:26,349
+example groups of water 15 etc so
+
+637
+00:34:24,520 --> 00:34:29,579
+there's a lot of interaction but I would
+
+638
+00:34:26,349 --> 00:34:29,579
+I would piece it together that way
+
+639
+00:34:35,349 --> 00:34:49,099
+no no no absolutely not
+
+640
+00:34:39,109 --> 00:34:50,089
+no that's hard to believe and there may
+
+641
+00:34:49,099 --> 00:34:51,859
+be things that aren't and that we're
+
+642
+00:34:50,089 --> 00:34:53,449
+better done in class but but but you
+
+643
+00:34:51,859 --> 00:34:54,709
+wouldn't have to repeat the argument in
+
+644
+00:34:53,449 --> 00:34:56,449
+art and if we gave a different argument
+
+645
+00:34:54,709 --> 00:34:59,089
+in class if that's the question all
+
+646
+00:34:56,449 --> 00:35:01,039
+right well I have this up let's talk a
+
+647
+00:34:59,089 --> 00:35:02,809
+little bit about vector spaces because
+
+648
+00:35:01,039 --> 00:35:04,609
+that was the interim chapter that we
+
+649
+00:35:02,809 --> 00:35:06,499
+really did before we can talk about the
+
+650
+00:35:04,609 --> 00:35:08,930
+group emotions before we could talk
+
+651
+00:35:06,499 --> 00:35:11,420
+about inner products or or really what
+
+652
+00:35:08,930 --> 00:35:14,690
+this group GL n R was we have to redo
+
+653
+00:35:11,420 --> 00:35:17,779
+the theory of vector spaces so that'll
+
+654
+00:35:14,690 --> 00:35:19,430
+be tested lightly I think on the exam
+
+655
+00:35:17,779 --> 00:35:21,170
+because I want to get to some of the
+
+656
+00:35:19,430 --> 00:35:25,640
+ring theory and the vector spaces I
+
+657
+00:35:21,170 --> 00:35:32,089
+think many of you had before so we
+
+658
+00:35:25,640 --> 00:35:35,690
+started off with real vector spaces by
+
+659
+00:35:32,089 --> 00:35:43,579
+which we just met RN and then we thought
+
+660
+00:35:35,690 --> 00:35:46,400
+about them abstractly abstract vector
+
+661
+00:35:43,579 --> 00:35:52,099
+spaces were just a set V which was a
+
+662
+00:35:46,400 --> 00:35:54,940
+group under addition with the identity
+
+663
+00:35:52,099 --> 00:35:59,029
+element the origin an inverse element
+
+664
+00:35:54,940 --> 00:36:00,739
+minus a vector and it had one extra
+
+665
+00:35:59,029 --> 00:36:06,799
+piece of structuring namely there was an
+
+666
+00:36:00,739 --> 00:36:08,930
+abstract field which we later found was
+
+667
+00:36:06,799 --> 00:36:10,819
+a specific type of commutative ring it's
+
+668
+00:36:08,930 --> 00:36:16,039
+a commutative ring with an where every
+
+669
+00:36:10,819 --> 00:36:20,599
+element has an inverse all a not equal
+
+670
+00:36:16,039 --> 00:36:24,289
+to zero have a multiplicative inverse
+
+671
+00:36:20,599 --> 00:36:26,239
+and we had many examples of fields like
+
+672
+00:36:24,289 --> 00:36:31,069
+the real numbers and the rational
+
+673
+00:36:26,239 --> 00:36:34,789
+numbers and the field of P elements we
+
+674
+00:36:31,069 --> 00:36:40,190
+showed that this where P is a prime this
+
+675
+00:36:34,789 --> 00:36:42,339
+ring is actually a field and and you
+
+676
+00:36:40,190 --> 00:36:46,010
+talk about an abstract vector space and
+
+677
+00:36:42,339 --> 00:36:48,560
+you have to have
+
+678
+00:36:46,010 --> 00:36:51,290
+a field specified before you could give
+
+679
+00:36:48,560 --> 00:36:53,300
+a vector space so it's a group under the
+
+680
+00:36:51,290 --> 00:36:55,370
+addition with identity element zero and
+
+681
+00:36:53,300 --> 00:36:58,090
+a negative and inverse element minus V
+
+682
+00:36:55,370 --> 00:37:03,050
+and then you have a scalar
+
+683
+00:36:58,090 --> 00:37:06,610
+multiplication by elements a in F namely
+
+684
+00:37:03,050 --> 00:37:08,840
+you can take V to a B and that has a
+
+685
+00:37:06,610 --> 00:37:11,270
+communauté distributes with respect to
+
+686
+00:37:08,840 --> 00:37:16,070
+the addition in various ways and then we
+
+687
+00:37:11,270 --> 00:37:18,590
+showed that if you that this was a an
+
+688
+00:37:16,070 --> 00:37:20,750
+abstract vector space where you just
+
+689
+00:37:18,590 --> 00:37:22,580
+took n tuples of real numbers you added
+
+690
+00:37:20,750 --> 00:37:26,210
+them as n tuples and you the scalar
+
+691
+00:37:22,580 --> 00:37:30,080
+multiplication here a times a vector v1
+
+692
+00:37:26,210 --> 00:37:34,190
+through the end with just what you got
+
+693
+00:37:30,080 --> 00:37:37,160
+by taking the multiple of each and more
+
+694
+00:37:34,190 --> 00:37:39,410
+generally again another example of an
+
+695
+00:37:37,160 --> 00:37:41,780
+abstract vector space is just n tuples
+
+696
+00:37:39,410 --> 00:37:44,350
+of elements in your field that was the
+
+697
+00:37:41,780 --> 00:37:50,150
+generalization of real vector spaces and
+
+698
+00:37:44,350 --> 00:37:53,180
+then we did a bit of a computation and a
+
+699
+00:37:50,150 --> 00:37:58,250
+theory of basis and linear independence
+
+700
+00:37:53,180 --> 00:38:07,610
+and spanning to show if V has a finite
+
+701
+00:37:58,250 --> 00:38:11,380
+spanning set over up namely we can find
+
+702
+00:38:07,610 --> 00:38:15,470
+a collection of vectors v1 through VN
+
+703
+00:38:11,380 --> 00:38:18,950
+such that any V has the form summation
+
+704
+00:38:15,470 --> 00:38:22,060
+of AI VI is some linear combination of
+
+705
+00:38:18,950 --> 00:38:28,850
+those if it has a finite spanning set
+
+706
+00:38:22,060 --> 00:38:34,340
+then V is isomorphic to M tuples over F
+
+707
+00:38:28,850 --> 00:38:35,960
+or some M less than or equal to n the
+
+708
+00:38:34,340 --> 00:38:39,260
+number of elements in the spanning set
+
+709
+00:38:35,960 --> 00:38:41,000
+and this M was determined by throwing
+
+710
+00:38:39,260 --> 00:38:42,800
+out elements in the spanning set until
+
+711
+00:38:41,000 --> 00:38:44,930
+they became linearly independent in a
+
+712
+00:38:42,800 --> 00:38:49,780
+basis so we have the two notions of of
+
+713
+00:38:44,930 --> 00:38:51,920
+span and linearly in linear independence
+
+714
+00:38:49,780 --> 00:38:54,170
+and we showed that the number of
+
+715
+00:38:51,920 --> 00:38:56,330
+elements required to span this space was
+
+716
+00:38:54,170 --> 00:38:58,100
+greater than equal to M and the number
+
+717
+00:38:56,330 --> 00:38:58,910
+of elements which could be linearly
+
+718
+00:38:58,100 --> 00:39:00,650
+independent
+
+719
+00:38:58,910 --> 00:39:03,349
+the space was less than or equal to M
+
+720
+00:39:00,650 --> 00:39:06,140
+and if you had a set that both spanned
+
+721
+00:39:03,349 --> 00:39:09,740
+and was linearly independent that was
+
+722
+00:39:06,140 --> 00:39:12,740
+called a basis while Basie's had the
+
+723
+00:39:09,740 --> 00:39:15,650
+same number of elements and if you wrote
+
+724
+00:39:12,740 --> 00:39:17,450
+an element out v in terms of a basis
+
+725
+00:39:15,650 --> 00:39:19,520
+that was a unique expression and the
+
+726
+00:39:17,450 --> 00:39:22,849
+coordinates of that element gave you the
+
+727
+00:39:19,520 --> 00:39:25,160
+elements in FN so this is a really
+
+728
+00:39:22,849 --> 00:39:27,829
+important notion to read to review that
+
+729
+00:39:25,160 --> 00:39:29,869
+this construction gave us basically all
+
+730
+00:39:27,829 --> 00:39:31,670
+finite dimensional vector spaces but to
+
+731
+00:39:29,869 --> 00:39:33,260
+prove that you have to prove that every
+
+732
+00:39:31,670 --> 00:39:36,770
+finite dimensional vector space has a
+
+733
+00:39:33,260 --> 00:39:39,079
+basis so review the definitions of span
+
+734
+00:39:36,770 --> 00:39:40,849
+linear dependence basis know the bases
+
+735
+00:39:39,079 --> 00:39:42,650
+have the same number of elements I won't
+
+736
+00:39:40,849 --> 00:39:45,530
+ask you to review all the linear algebra
+
+737
+00:39:42,650 --> 00:39:47,539
+to prove this but you should know at
+
+738
+00:39:45,530 --> 00:39:50,690
+least that a spanning set has more
+
+739
+00:39:47,539 --> 00:39:52,670
+elements than a basis you should be able
+
+740
+00:39:50,690 --> 00:39:55,359
+to identify linearly independent sets
+
+741
+00:39:52,670 --> 00:40:01,369
+you have to yeah exactly
+
+742
+00:39:55,359 --> 00:40:02,569
+so that being the case once we
+
+743
+00:40:01,369 --> 00:40:05,270
+identified one all the finite
+
+744
+00:40:02,569 --> 00:40:06,859
+dimensional vector spaces were then it
+
+745
+00:40:05,270 --> 00:40:07,880
+was natural to consider what were the
+
+746
+00:40:06,859 --> 00:40:09,859
+homomorphisms
+
+747
+00:40:07,880 --> 00:40:11,809
+and the isomorphisms between vector
+
+748
+00:40:09,859 --> 00:40:19,609
+spaces so we defined a homomorphism
+
+749
+00:40:11,809 --> 00:40:24,200
+between vector spaces homomorphism was
+
+750
+00:40:19,609 --> 00:40:26,510
+called a linear transformation so it
+
+751
+00:40:24,200 --> 00:40:27,920
+should be a homomorphism of additive
+
+752
+00:40:26,510 --> 00:40:31,910
+groups that commutes with scalar
+
+753
+00:40:27,920 --> 00:40:37,700
+multiplication and we showed that if you
+
+754
+00:40:31,910 --> 00:40:44,059
+took the kernel of T it was a subspace V
+
+755
+00:40:37,700 --> 00:40:46,520
+and the image of P was a subspace of W
+
+756
+00:40:44,059 --> 00:40:48,559
+where subspace is defined like subgroup
+
+757
+00:40:46,520 --> 00:40:51,520
+and we showed that if V is finite
+
+758
+00:40:48,559 --> 00:40:55,819
+dimensional the dimension of B was the
+
+759
+00:40:51,520 --> 00:40:59,390
+dimension of the kernel plus the
+
+760
+00:40:55,819 --> 00:41:02,059
+dimension of the image and that was like
+
+761
+00:40:59,390 --> 00:41:05,089
+our formula for the order of a group is
+
+762
+00:41:02,059 --> 00:41:08,000
+the order of the normal subgroup times
+
+763
+00:41:05,089 --> 00:41:10,369
+the order of the quotient group so that
+
+764
+00:41:08,000 --> 00:41:11,830
+was an important dimension formula which
+
+765
+00:41:10,369 --> 00:41:17,010
+is used all the time
+
+766
+00:41:11,830 --> 00:41:19,810
+and then we made a special consideration
+
+767
+00:41:17,010 --> 00:41:22,030
+we showed by the way that once if these
+
+768
+00:41:19,810 --> 00:41:30,670
+were fine at dimensional spaces and if
+
+769
+00:41:22,030 --> 00:41:38,860
+we chose a basis V 1 V n of V and a
+
+770
+00:41:30,670 --> 00:41:47,440
+basis W 1 through W M of W then we could
+
+771
+00:41:38,860 --> 00:41:54,910
+represent T by and I don't know M by n
+
+772
+00:41:47,440 --> 00:41:57,130
+matrix where the malonic is that if you
+
+773
+00:41:54,910 --> 00:41:59,620
+want to know what this column vector is
+
+774
+00:41:57,130 --> 00:42:02,620
+and I guess that's the case the column
+
+775
+00:41:59,620 --> 00:42:05,340
+vector you apply T to VK
+
+776
+00:42:02,620 --> 00:42:08,290
+the K vector of the basis here and
+
+777
+00:42:05,340 --> 00:42:11,650
+that's a vector in W and then you write
+
+778
+00:42:08,290 --> 00:42:21,580
+it out in terms of the basis W 1 through
+
+779
+00:42:11,650 --> 00:42:30,540
+WM and you get a 1 K a M K right where T
+
+780
+00:42:21,580 --> 00:42:36,850
+of BK is a 1 K W 1 plus a 2 K W 2 plus a
+
+781
+00:42:30,540 --> 00:42:38,260
+MK w M and this gives a person then once
+
+782
+00:42:36,850 --> 00:42:40,300
+you have the matrix that you have to
+
+783
+00:42:38,260 --> 00:42:43,300
+know how it gives a linear operator back
+
+784
+00:42:40,300 --> 00:42:45,130
+and that identifies the linear operators
+
+785
+00:42:43,300 --> 00:42:48,240
+from V to W if they're both finite
+
+786
+00:42:45,130 --> 00:42:53,410
+dimensional with the M by M matrices
+
+787
+00:42:48,240 --> 00:42:55,870
+under addition and then we made a more
+
+788
+00:42:53,410 --> 00:42:58,450
+detailed study of when we had maps from
+
+789
+00:42:55,870 --> 00:43:06,730
+a vector space to itself because then we
+
+790
+00:42:58,450 --> 00:43:09,660
+get a ring and be composed and you get a
+
+791
+00:43:06,730 --> 00:43:17,260
+ring the end of morphism ring of V
+
+792
+00:43:09,660 --> 00:43:19,540
+usually a non commutative ring and by n
+
+793
+00:43:17,260 --> 00:43:21,620
+matrices because then you can multiply
+
+794
+00:43:19,540 --> 00:43:25,010
+matrices
+
+795
+00:43:21,620 --> 00:43:28,330
+and in particular the invertible
+
+796
+00:43:25,010 --> 00:43:33,230
+matrices give the isomorphisms
+
+797
+00:43:28,330 --> 00:43:34,850
+invertible and we saw that a matrix was
+
+798
+00:43:33,230 --> 00:43:36,890
+invertible if its determinant was
+
+799
+00:43:34,850 --> 00:43:39,170
+nonzero that's a good thing to remember
+
+800
+00:43:36,890 --> 00:43:41,120
+although we're not going to they're not
+
+801
+00:43:39,170 --> 00:43:44,120
+going to ask you jerk uestions about
+
+802
+00:43:41,120 --> 00:43:51,700
+calculating determinants invertible a
+
+803
+00:43:44,120 --> 00:43:54,620
+are that's when p is an isomorphism and
+
+804
+00:43:51,700 --> 00:43:56,540
+the isomorphisms from V to B form a
+
+805
+00:43:54,620 --> 00:43:59,840
+group and that's the group we call GL of
+
+806
+00:43:56,540 --> 00:44:01,930
+V that generalizes GL m and if V is
+
+807
+00:43:59,840 --> 00:44:07,820
+finite dimensional over a vector space
+
+808
+00:44:01,930 --> 00:44:09,350
+this is the group GL n over and by n
+
+809
+00:44:07,820 --> 00:44:11,090
+matrices over the field which are
+
+810
+00:44:09,350 --> 00:44:14,630
+invertible namely their determinant is
+
+811
+00:44:11,090 --> 00:44:16,310
+nonzero in that field and we made a
+
+812
+00:44:14,630 --> 00:44:18,530
+number of computations with this group
+
+813
+00:44:16,310 --> 00:44:21,110
+and we showed that you could study a
+
+814
+00:44:18,530 --> 00:44:23,330
+linear transformation from V to V one at
+
+815
+00:44:21,110 --> 00:44:25,520
+a time not the whole group itself but
+
+816
+00:44:23,330 --> 00:44:31,940
+just one transformation by studying its
+
+817
+00:44:25,520 --> 00:44:33,530
+characteristic polynomial and its
+
+818
+00:44:31,940 --> 00:44:35,870
+characteristic polynomial was the
+
+819
+00:44:33,530 --> 00:44:38,870
+determinant of x times the identity
+
+820
+00:44:35,870 --> 00:44:41,540
+minus T which is a polynomial of degree
+
+821
+00:44:38,870 --> 00:44:45,200
+n @v as dimension n X the n minus the
+
+822
+00:44:41,540 --> 00:44:49,420
+trace of T X to the n minus 1 plus and
+
+823
+00:44:45,200 --> 00:44:57,170
+we show that the roots of this
+
+824
+00:44:49,420 --> 00:44:58,640
+polynomial were the eigenvalues of T now
+
+825
+00:44:57,170 --> 00:45:00,200
+all of this may have been a review for
+
+826
+00:44:58,640 --> 00:45:01,670
+some of you but it's an important review
+
+827
+00:45:00,200 --> 00:45:03,740
+we have to have that kind of linear
+
+828
+00:45:01,670 --> 00:45:05,510
+algebra if we're going to go on and do
+
+829
+00:45:03,740 --> 00:45:08,120
+detailed analysis of orthogonal
+
+830
+00:45:05,510 --> 00:45:10,280
+transformations etc so I'll expect you
+
+831
+00:45:08,120 --> 00:45:12,700
+to know this much of the linear algebra
+
+832
+00:45:10,280 --> 00:45:12,700
+yeah
+
+833
+00:45:17,460 --> 00:45:22,140
+never really understood completely
+
+834
+00:45:19,880 --> 00:45:24,030
+distinctions between computations and
+
+835
+00:45:22,140 --> 00:45:26,370
+proofs but no it'll be more abstract
+
+836
+00:45:24,030 --> 00:45:28,080
+reasoning I think but it's good I mean
+
+837
+00:45:26,370 --> 00:45:29,910
+you know I might ask you to compute but
+
+838
+00:45:28,080 --> 00:45:31,650
+I wouldn't hesitate to ask you to
+
+839
+00:45:29,910 --> 00:45:33,750
+compute the characteristic polynomial of
+
+840
+00:45:31,650 --> 00:45:37,770
+a 2x2 matrix or something like that you
+
+841
+00:45:33,750 --> 00:45:41,220
+should be able to do that okay sorry
+
+842
+00:45:37,770 --> 00:45:43,260
+but what sometimes people sometimes
+
+843
+00:45:41,220 --> 00:45:44,550
+people put down a math an abstract
+
+844
+00:45:43,260 --> 00:45:46,230
+mathematician by saying oh he's just
+
+845
+00:45:44,550 --> 00:45:47,880
+does computations but how can you do
+
+846
+00:45:46,230 --> 00:45:57,360
+proof without computation I mean it's
+
+847
+00:45:47,880 --> 00:45:59,220
+all computation somehow but so so Peter
+
+848
+00:45:57,360 --> 00:46:01,530
+will review a little bit more the theory
+
+849
+00:45:59,220 --> 00:46:03,360
+of polynomials and their roots etc etc
+
+850
+00:46:01,530 --> 00:46:06,650
+but this this plugs into the theory of
+
+851
+00:46:03,360 --> 00:46:09,980
+of polynomials this is a polynomial in
+
+852
+00:46:06,650 --> 00:46:12,330
+the ring f of X and it's a very useful
+
+853
+00:46:09,980 --> 00:46:14,370
+invariant of the transformation that can
+
+854
+00:46:12,330 --> 00:46:16,380
+be used to study it it doesn't quite
+
+855
+00:46:14,370 --> 00:46:21,060
+determine the conjugacy class but we did
+
+856
+00:46:16,380 --> 00:46:23,910
+show that if if it would I mean I should
+
+857
+00:46:21,060 --> 00:46:26,730
+have said that if if you chose different
+
+858
+00:46:23,910 --> 00:46:29,430
+basis to represent this T then you'd get
+
+859
+00:46:26,730 --> 00:46:34,440
+a new matrix T prime which has the form
+
+860
+00:46:29,430 --> 00:46:36,870
+a T B where these were invertible
+
+861
+00:46:34,440 --> 00:46:40,710
+matrices that did the change of basis
+
+862
+00:46:36,870 --> 00:46:44,100
+actually i ATP ATP inverse that did the
+
+863
+00:46:40,710 --> 00:46:47,850
+change of basis from the basis V to V
+
+864
+00:46:44,100 --> 00:46:49,880
+Prime on V and W to W Prime on W and in
+
+865
+00:46:47,850 --> 00:46:52,680
+particular if you chose a matrix for T
+
+866
+00:46:49,880 --> 00:46:54,990
+with respect to some basis on V and you
+
+867
+00:46:52,680 --> 00:46:57,870
+change basis you'd get a new matrix
+
+868
+00:46:54,990 --> 00:46:58,790
+sorry this is all wrong let's try this
+
+869
+00:46:57,870 --> 00:47:01,380
+again
+
+870
+00:46:58,790 --> 00:47:04,620
+we represent the transformation by a
+
+871
+00:47:01,380 --> 00:47:09,780
+matrix a if we change basis we get a
+
+872
+00:47:04,620 --> 00:47:11,460
+matrix B a B prime inverse a prime a
+
+873
+00:47:09,780 --> 00:47:13,620
+different matrix but it would have this
+
+874
+00:47:11,460 --> 00:47:16,500
+shape and in particular if we change
+
+875
+00:47:13,620 --> 00:47:22,380
+basis on V we'd get a matrix a prime
+
+876
+00:47:16,500 --> 00:47:23,580
+that looked like ba B inverse and it
+
+877
+00:47:22,380 --> 00:47:24,900
+turns out that the characteristic
+
+878
+00:47:23,580 --> 00:47:26,580
+polynomial depends only on the
+
+879
+00:47:24,900 --> 00:47:28,080
+transformation so the characteristic
+
+880
+00:47:26,580 --> 00:47:28,869
+polynomial of this matrix would be the
+
+881
+00:47:28,080 --> 00:47:30,940
+same as the car
+
+882
+00:47:28,869 --> 00:47:32,529
+the polynomial of that matrix and you
+
+883
+00:47:30,940 --> 00:47:35,849
+can prove that to yourself by the fact
+
+884
+00:47:32,529 --> 00:47:39,549
+that the determinant the determinant of
+
+885
+00:47:35,849 --> 00:47:42,729
+the a is the same as the determinant of
+
+886
+00:47:39,549 --> 00:47:44,440
+a B even though the matrices don't
+
+887
+00:47:42,729 --> 00:47:45,969
+commute the determinant commutes because
+
+888
+00:47:44,440 --> 00:47:48,489
+both of these things are equal to the
+
+889
+00:47:45,969 --> 00:47:50,710
+determinant of a time's the determinant
+
+890
+00:47:48,489 --> 00:47:55,509
+of B and once you get down to the field
+
+891
+00:47:50,710 --> 00:47:58,509
+things commute with each other so this
+
+892
+00:47:55,509 --> 00:48:00,099
+seems like a lot to remember but I think
+
+893
+00:47:58,509 --> 00:48:02,259
+if you package the theory of vector
+
+894
+00:48:00,099 --> 00:48:03,999
+spaces very much in the language of the
+
+895
+00:48:02,259 --> 00:48:05,890
+theory of groups these are like
+
+896
+00:48:03,999 --> 00:48:07,539
+homomorphisms these are the properties
+
+897
+00:48:05,890 --> 00:48:09,700
+like home morphisms the one thing that's
+
+898
+00:48:07,539 --> 00:48:11,170
+really new to vector spaces is that
+
+899
+00:48:09,700 --> 00:48:13,210
+unlike the theory of groups where we
+
+900
+00:48:11,170 --> 00:48:15,579
+don't have a natural way to represent
+
+901
+00:48:13,210 --> 00:48:17,589
+every group we know how to represent a
+
+902
+00:48:15,579 --> 00:48:19,359
+cyclic group and things of that nature
+
+903
+00:48:17,589 --> 00:48:21,279
+but once the groups get more complicated
+
+904
+00:48:19,359 --> 00:48:23,140
+we don't know what they all are in the
+
+905
+00:48:21,279 --> 00:48:23,650
+case of vector spaces we know what they
+
+906
+00:48:23,140 --> 00:48:26,529
+all are
+
+907
+00:48:23,650 --> 00:48:28,960
+and this representation of a vector
+
+908
+00:48:26,529 --> 00:48:31,119
+space lets us somehow pick apart the
+
+909
+00:48:28,960 --> 00:48:32,920
+theory of the maps between vector spaces
+
+910
+00:48:31,119 --> 00:48:34,150
+so since we don't even know what all the
+
+911
+00:48:32,920 --> 00:48:36,069
+groups are it's it's hopeless to
+
+912
+00:48:34,150 --> 00:48:38,140
+classify the homomorphisms between the
+
+913
+00:48:36,069 --> 00:48:40,150
+groups but a vector space we can
+
+914
+00:48:38,140 --> 00:48:42,549
+classify the vector space using a basis
+
+915
+00:48:40,150 --> 00:48:44,769
+then using the basis we get a nice model
+
+916
+00:48:42,549 --> 00:48:46,420
+of the linear transformation and then we
+
+917
+00:48:44,769 --> 00:48:48,369
+can investigate the transformation a
+
+918
+00:48:46,420 --> 00:48:49,660
+little bit more closely and it's eigen
+
+919
+00:48:48,369 --> 00:48:51,869
+values using the characteristic
+
+920
+00:48:49,660 --> 00:48:51,869
+polynomial
+
+921
+00:48:56,810 --> 00:49:02,010
+yeah the polynomial is this determinant
+
+922
+00:49:00,090 --> 00:49:06,570
+that's this polynomial of degree n it's
+
+923
+00:49:02,010 --> 00:49:08,730
+an element of the Ring polynomials in
+
+924
+00:49:06,570 --> 00:49:11,460
+one variable over the field that's well
+
+925
+00:49:08,730 --> 00:49:12,990
+I meant and then we haven't studied this
+
+926
+00:49:11,460 --> 00:49:14,430
+ring at the time we can't discuss
+
+927
+00:49:12,990 --> 00:49:17,550
+characteristic polynomials but what
+
+928
+00:49:14,430 --> 00:49:19,530
+we're doing is making an invariant that
+
+929
+00:49:17,550 --> 00:49:22,110
+starts with a linear transformation or a
+
+930
+00:49:19,530 --> 00:49:24,540
+vector space over a field and produces
+
+931
+00:49:22,110 --> 00:49:26,730
+an element in this ring and then the
+
+932
+00:49:24,540 --> 00:49:28,590
+theory of this ring like factorization
+
+933
+00:49:26,730 --> 00:49:30,620
+and roots and things like that gives us
+
+934
+00:49:28,590 --> 00:49:35,400
+information back about the vector space
+
+935
+00:49:30,620 --> 00:49:37,350
+right so there's a lot of interaction if
+
+936
+00:49:35,400 --> 00:49:39,240
+you step back a little bit from the
+
+937
+00:49:37,350 --> 00:49:42,030
+course between the groups the Rings and
+
+938
+00:49:39,240 --> 00:49:44,810
+the vector spaces and that'll be fun
+
+939
+00:49:42,030 --> 00:49:49,740
+thing in the course of the review to see
+
+940
+00:49:44,810 --> 00:49:52,400
+ok questions it's all clear
+
+941
+00:49:49,740 --> 00:49:55,050
+or you're just beginning to do the study
+
+942
+00:49:52,400 --> 00:49:57,300
+ok well as I say I'm gonna be around
+
+943
+00:49:55,050 --> 00:50:00,770
+don't hesitate to send me email don't
+
+944
+00:49:57,300 --> 00:50:03,180
+hesitate to bother Peter eat it yeah
+
+945
+00:50:00,770 --> 00:50:06,720
+cookies absolutely not just cookies
+
+946
+00:50:03,180 --> 00:50:08,220
+we'll have cakes and everything alright
+
+947
+00:50:06,720 --> 00:50:10,830
+I'll bring some good stuff it's in
+
+948
+00:50:08,220 --> 00:50:12,900
+Boylston right next Friday afternoon
+
+949
+00:50:10,830 --> 00:50:14,760
+that the weight the way our wonderful
+
+950
+00:50:12,900 --> 00:50:16,290
+calendar is currently organized I think
+
+951
+00:50:14,760 --> 00:50:18,800
+the distance between the last things
+
+952
+00:50:16,290 --> 00:50:21,450
+lecture and the exam is what six weeks
+
+953
+00:50:18,800 --> 00:50:23,250
+so think about that when the subject of
+
+954
+00:50:21,450 --> 00:50:25,950
+calendar reorganization comes up in the
+
+955
+00:50:23,250 --> 00:50:27,600
+curricular review how much nicer if we'd
+
+956
+00:50:25,950 --> 00:50:28,940
+all taken this exam earlier on the other
+
+957
+00:50:27,600 --> 00:50:30,960
+hand let's take advantage of this
+
+958
+00:50:28,940 --> 00:50:32,610
+schedules that's currently organized to
+
+959
+00:50:30,960 --> 00:50:34,170
+put this all clearly in your head and
+
+960
+00:50:32,610 --> 00:50:39,890
+then you'll be in a good situation to go
+
+961
+00:50:34,170 --> 00:50:39,890
+on with 123 ok ok see you later
+

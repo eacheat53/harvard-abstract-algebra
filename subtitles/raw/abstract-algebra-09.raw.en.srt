@@ -1,0 +1,4116 @@
+1
+00:00:12,120 --> 00:00:18,039
+I won't be lecturing Monday uh because I
+
+2
+00:00:14,719 --> 00:00:22,199
+take the day off for yur uh Peter has
+
+3
+00:00:18,039 --> 00:00:25,279
+agreed to uh sacrifice his position in
+
+4
+00:00:22,199 --> 00:00:27,960
+the Book of Life and stand in for me uh
+
+5
+00:00:25,279 --> 00:00:30,119
+for those of you attending and uh the
+
+6
+00:00:27,960 --> 00:00:33,320
+assignment is to read section 3.4 and
+
+7
+00:00:30,119 --> 00:00:35,440
+these homework uh assignments also uh
+
+8
+00:00:33,320 --> 00:00:38,040
+those of you who participated last year
+
+9
+00:00:35,440 --> 00:00:39,719
+will know the putham competition uh is a
+
+10
+00:00:38,040 --> 00:00:41,760
+fun competition which is given
+
+11
+00:00:39,719 --> 00:00:43,360
+nationally to math students we've
+
+12
+00:00:41,760 --> 00:00:45,200
+usually done pretty well in this
+
+13
+00:00:43,360 --> 00:00:47,960
+standard Harvard way of not studying for
+
+14
+00:00:45,200 --> 00:00:49,719
+the exam but acing it and uh it's given
+
+15
+00:00:47,960 --> 00:00:51,559
+Saturday December 6th if you want to
+
+16
+00:00:49,719 --> 00:00:54,160
+sign up sign up on the fifth floor
+
+17
+00:00:51,559 --> 00:00:56,600
+bulletin board uh opposite Professor
+
+18
+00:00:54,160 --> 00:00:58,199
+tbs's office and uh even if you're not
+
+19
+00:00:56,600 --> 00:01:00,559
+going to take it sign up because it's
+
+20
+00:00:58,199 --> 00:01:02,239
+very important that we get enough exam
+
+21
+00:01:00,559 --> 00:01:04,559
+we always get a couple of walk-ins that
+
+22
+00:01:02,239 --> 00:01:07,280
+day uh and if we have enough exams they
+
+23
+00:01:04,559 --> 00:01:10,159
+can take it and if uh if we don't they
+
+24
+00:01:07,280 --> 00:01:12,119
+can't okay so last time we defined what
+
+25
+00:01:10,159 --> 00:01:14,880
+a field
+
+26
+00:01:12,119 --> 00:01:18,040
+was we had various examples like the
+
+27
+00:01:14,880 --> 00:01:20,119
+real numbers and the finite field the
+
+28
+00:01:18,040 --> 00:01:22,960
+integers mod
+
+29
+00:01:20,119 --> 00:01:25,560
+P and then we had the notion of ve of v
+
+30
+00:01:22,960 --> 00:01:25,560
+a vector
+
+31
+00:01:26,720 --> 00:01:32,159
+space over f
+
+32
+00:01:30,119 --> 00:01:34,799
+which was an aelan group together with a
+
+33
+00:01:32,159 --> 00:01:38,280
+scalar multiplication law from F and we
+
+34
+00:01:34,799 --> 00:01:38,280
+defined the notion of a linear
+
+35
+00:01:38,680 --> 00:01:41,680
+map
+
+36
+00:01:43,840 --> 00:01:49,119
+homomorphism of f Vector
+
+37
+00:01:49,479 --> 00:01:54,040
+spaces so today we're going to
+
+38
+00:01:51,320 --> 00:01:56,079
+investigate Vector spaces in more detail
+
+39
+00:01:54,040 --> 00:01:57,479
+and do the notion of span and basis now
+
+40
+00:01:56,079 --> 00:01:59,200
+many of you have seen this for real
+
+41
+00:01:57,479 --> 00:02:01,600
+Vector spaces and the key thing is that
+
+42
+00:01:59,200 --> 00:02:03,759
+it works perfect well for Vector spaces
+
+43
+00:02:01,600 --> 00:02:06,320
+over an arbitrary field and it can hurt
+
+44
+00:02:03,759 --> 00:02:09,879
+to review it because it's so important
+
+45
+00:02:06,320 --> 00:02:13,040
+so uh if we have a finite set
+
+46
+00:02:09,879 --> 00:02:15,040
+V1 so in all this lecture I'm going to
+
+47
+00:02:13,040 --> 00:02:17,720
+start with the hypothesis that I have a
+
+48
+00:02:15,040 --> 00:02:20,480
+vector space over a fixed field
+
+49
+00:02:17,720 --> 00:02:22,000
+F and I take an ordered set of vectors
+
+50
+00:02:20,480 --> 00:02:24,200
+which means it matters which one goes
+
+51
+00:02:22,000 --> 00:02:26,440
+first and which one comes last so
+
+52
+00:02:24,200 --> 00:02:31,840
+that'll be an
+
+53
+00:02:26,440 --> 00:02:31,840
+ordered set of vectors
+
+54
+00:02:31,959 --> 00:02:37,120
+in V ordered finite set and if I just if
+
+55
+00:02:35,640 --> 00:02:39,599
+I want to forget the order and I just
+
+56
+00:02:37,120 --> 00:02:43,080
+remember the set I'll call the set s
+
+57
+00:02:39,599 --> 00:02:44,959
+which is the collection V1 through VN
+
+58
+00:02:43,080 --> 00:02:47,560
+where I where I forget the order so
+
+59
+00:02:44,959 --> 00:02:47,560
+that's just the
+
+60
+00:02:49,400 --> 00:02:57,000
+set okay so you say the a linear
+
+61
+00:02:54,000 --> 00:02:57,000
+combination
+
+62
+00:03:00,440 --> 00:03:05,879
+of these vectors is just an ARB is any
+
+63
+00:03:03,000 --> 00:03:11,040
+Vector that you can express as a scalar
+
+64
+00:03:05,879 --> 00:03:12,920
+time V1 plus a scalar time V2 plus plus
+
+65
+00:03:11,040 --> 00:03:17,120
+a scalar time
+
+66
+00:03:12,920 --> 00:03:20,080
+BN uh so where the AI are elements of
+
+67
+00:03:17,120 --> 00:03:21,560
+your field F so AI * V is the operation
+
+68
+00:03:20,080 --> 00:03:23,599
+of the scalar times the vector and then
+
+69
+00:03:21,560 --> 00:03:26,000
+you add it to this and this and this so
+
+70
+00:03:23,599 --> 00:03:28,560
+it's all the vectors you can get by
+
+71
+00:03:26,000 --> 00:03:30,319
+combinations of the fixed vectors in the
+
+72
+00:03:28,560 --> 00:03:32,080
+ordered set
+
+73
+00:03:30,319 --> 00:03:35,599
+and the collection of all linear
+
+74
+00:03:32,080 --> 00:03:35,599
+combinations is called the
+
+75
+00:03:40,920 --> 00:03:46,400
+span and the span only depends on the
+
+76
+00:03:43,519 --> 00:03:48,280
+set s because uh addition is commutative
+
+77
+00:03:46,400 --> 00:03:50,159
+so it doesn't really make any difference
+
+78
+00:03:48,280 --> 00:03:54,400
+how you order the set of vectors you'd
+
+79
+00:03:50,159 --> 00:03:56,720
+get the same vectors W in the span and a
+
+80
+00:03:54,400 --> 00:03:59,000
+let's call that W and the the
+
+81
+00:03:56,720 --> 00:04:00,630
+proposition or the observation is this
+
+82
+00:03:59,000 --> 00:04:03,930
+is a Subspace
+
+83
+00:04:00,630 --> 00:04:03,930
+[Applause]
+
+84
+00:04:04,000 --> 00:04:09,720
+B of V closed under addition and scalar
+
+85
+00:04:08,360 --> 00:04:11,319
+multiplication well if you have two
+
+86
+00:04:09,720 --> 00:04:12,799
+vectors of this form and you add them
+
+87
+00:04:11,319 --> 00:04:15,560
+you clearly get another Vector of the
+
+88
+00:04:12,799 --> 00:04:22,759
+form so if you have a w Prime let's just
+
+89
+00:04:15,560 --> 00:04:25,479
+check that W Prime is B1 V1 plus plus BN
+
+90
+00:04:22,759 --> 00:04:28,000
+VN and if you use the associative law or
+
+91
+00:04:25,479 --> 00:04:32,639
+the distributive law of of of addition
+
+92
+00:04:28,000 --> 00:04:34,560
+you find that w+ W Prime Prim is A1 + B1
+
+93
+00:04:32,639 --> 00:04:40,320
+* V1
+
+94
+00:04:34,560 --> 00:04:45,000
+++ a n plus BN time VN and you find that
+
+95
+00:04:40,320 --> 00:04:50,919
+a scalar time W is C A1 *
+
+96
+00:04:45,000 --> 00:04:52,840
+V1 plus plus C an * VN and since the
+
+97
+00:04:50,919 --> 00:04:54,880
+field is closed under addition and
+
+98
+00:04:52,840 --> 00:04:57,080
+multiplication these vectors are of the
+
+99
+00:04:54,880 --> 00:04:59,759
+same form as the original one they're
+
+100
+00:04:57,080 --> 00:05:02,720
+they're linear combinations of a VI and
+
+101
+00:04:59,759 --> 00:05:04,560
+so you have a subset of V that's closed
+
+102
+00:05:02,720 --> 00:05:06,360
+under addition and scalar multiplication
+
+103
+00:05:04,560 --> 00:05:09,680
+it's a Subspace that's called the span
+
+104
+00:05:06,360 --> 00:05:12,280
+of those vectors all right now we say
+
+105
+00:05:09,680 --> 00:05:15,800
+that V is finite dimensional oh by the
+
+106
+00:05:12,280 --> 00:05:17,800
+way um we'll we'll decide
+
+107
+00:05:15,800 --> 00:05:19,080
+convention and you have to be careful
+
+108
+00:05:17,800 --> 00:05:22,360
+about this because it'll come up in
+
+109
+00:05:19,080 --> 00:05:24,680
+induction arguments if s is the empty
+
+110
+00:05:22,360 --> 00:05:27,639
+set which is certainly a perfectly good
+
+111
+00:05:24,680 --> 00:05:30,440
+set of vectors and the ordered set would
+
+112
+00:05:27,639 --> 00:05:33,039
+just be the empty set then we agree that
+
+113
+00:05:30,440 --> 00:05:33,039
+the span of
+
+114
+00:05:33,199 --> 00:05:38,600
+s is the zero
+
+115
+00:05:35,759 --> 00:05:40,080
+Subspace in v it so the span of any set
+
+116
+00:05:38,600 --> 00:05:41,680
+of vectors whether it's empty or not
+
+117
+00:05:40,080 --> 00:05:43,600
+contains the zero Vector otherwise it
+
+118
+00:05:41,680 --> 00:05:45,680
+wouldn't be a Subspace otherwise we'd
+
+119
+00:05:43,600 --> 00:05:47,800
+have problems with the empty set so
+
+120
+00:05:45,680 --> 00:05:50,759
+that's just a
+
+121
+00:05:47,800 --> 00:05:53,740
+convention okay and we say V is finite
+
+122
+00:05:50,759 --> 00:05:56,980
+dimensional
+
+123
+00:05:53,740 --> 00:05:56,980
+[Applause]
+
+124
+00:05:59,960 --> 00:06:05,680
+if there
+
+125
+00:06:02,000 --> 00:06:10,520
+is a finite
+
+126
+00:06:05,680 --> 00:06:10,520
+set s of vectors in
+
+127
+00:06:11,039 --> 00:06:17,039
+V that
+
+128
+00:06:13,759 --> 00:06:19,960
+with the span of
+
+129
+00:06:17,039 --> 00:06:21,919
+s equal to the entire space so that you
+
+130
+00:06:19,960 --> 00:06:24,880
+can get any Vector as a linear
+
+131
+00:06:21,919 --> 00:06:27,560
+combination of a finite number of them
+
+132
+00:06:24,880 --> 00:06:30,240
+so uh an example of a finite dimensional
+
+133
+00:06:27,560 --> 00:06:32,919
+Vector Space versus a nonf dimensional
+
+134
+00:06:30,240 --> 00:06:35,840
+Vector space so
+
+135
+00:06:32,919 --> 00:06:39,199
+example V =
+
+136
+00:06:35,840 --> 00:06:41,880
+FN is finite
+
+137
+00:06:39,199 --> 00:06:46,560
+dimensional if you take the vector V1 to
+
+138
+00:06:41,880 --> 00:06:52,520
+be the vector 1 0 0 and V2 to be the
+
+139
+00:06:46,560 --> 00:07:00,720
+vector 0 1 0 0 and finally VN to be the
+
+140
+00:06:52,520 --> 00:07:03,360
+vector 0 0 1 then then the vector A1 A2
+
+141
+00:07:00,720 --> 00:07:05,319
+a n and that's a general element of this
+
+142
+00:07:03,360 --> 00:07:08,680
+Vector space which is just n tuples of
+
+143
+00:07:05,319 --> 00:07:10,039
+elements in F is the sum of the AI times
+
+144
+00:07:08,680 --> 00:07:13,639
+the
+
+145
+00:07:10,039 --> 00:07:17,440
+vi I equal 1 to n that's more or less
+
+146
+00:07:13,639 --> 00:07:21,160
+obvious so those vectors these n vectors
+
+147
+00:07:17,440 --> 00:07:23,560
+and span this Vector space so that's
+
+148
+00:07:21,160 --> 00:07:25,560
+finite dimensional an infinite and
+
+149
+00:07:23,560 --> 00:07:27,280
+nonfinite dimensional Vector space or we
+
+150
+00:07:25,560 --> 00:07:31,280
+might say infinite dimensional Vector
+
+151
+00:07:27,280 --> 00:07:31,280
+space non-example
+
+152
+00:07:31,680 --> 00:07:38,319
+is the pols in
+
+153
+00:07:34,039 --> 00:07:41,319
+X with coefficients in F there is no way
+
+154
+00:07:38,319 --> 00:07:43,919
+that you can get any polinomial as a
+
+155
+00:07:41,319 --> 00:07:46,280
+linear combination of a finite number of
+
+156
+00:07:43,919 --> 00:07:49,520
+them because if you have a finite set of
+
+157
+00:07:46,280 --> 00:07:51,360
+pols one of them has the largest degree
+
+158
+00:07:49,520 --> 00:07:53,240
+and if you take any linear combination
+
+159
+00:07:51,360 --> 00:07:55,199
+of pols of degree less than or equal to
+
+160
+00:07:53,240 --> 00:07:57,879
+n you get a polinomial of degree less
+
+161
+00:07:55,199 --> 00:08:02,400
+than or equal to n but they're pols of
+
+162
+00:07:57,879 --> 00:08:02,400
+bigger degree so this is not finite
+
+163
+00:08:06,039 --> 00:08:11,360
+dimensional and the argument is use the
+
+164
+00:08:11,800 --> 00:08:16,360
+degree of a polinomial in X to show that
+
+165
+00:08:15,159 --> 00:08:19,199
+you couldn't get it as a linear
+
+166
+00:08:16,360 --> 00:08:21,680
+combination of the finite number of them
+
+167
+00:08:19,199 --> 00:08:23,720
+so from now on in this talk and really
+
+168
+00:08:21,680 --> 00:08:25,479
+in this chapter we're only going to talk
+
+169
+00:08:23,720 --> 00:08:27,159
+about finite dimensional Vector spaces
+
+170
+00:08:25,479 --> 00:08:30,199
+infinite dimensional Vector very
+
+171
+00:08:27,159 --> 00:08:33,039
+interesting subject it's more a subject
+
+172
+00:08:30,199 --> 00:08:34,399
+in analysis than algebra uh when people
+
+173
+00:08:33,039 --> 00:08:36,440
+realized at the beginning of the 20th
+
+174
+00:08:34,399 --> 00:08:37,919
+century that a lot of lot of results in
+
+175
+00:08:36,440 --> 00:08:39,560
+physics could be formulated in the
+
+176
+00:08:37,919 --> 00:08:41,839
+language of infinite dimensional Vector
+
+177
+00:08:39,560 --> 00:08:42,919
+spaces uh they became fascinated with
+
+178
+00:08:41,839 --> 00:08:44,640
+them but we're going to get the theory
+
+179
+00:08:42,919 --> 00:08:46,680
+of finite dimensional Vector spaces down
+
+180
+00:08:44,640 --> 00:08:48,360
+today so from now on we're going to make
+
+181
+00:08:46,680 --> 00:08:51,959
+the assumption that there's a finite set
+
+182
+00:08:48,360 --> 00:08:51,959
+that spans our Vector
+
+183
+00:08:52,760 --> 00:08:57,320
+space
+
+184
+00:08:54,360 --> 00:09:00,000
+okay so that's the notion of span and
+
+185
+00:08:57,320 --> 00:09:02,959
+and finite dimensionality
+
+186
+00:09:00,000 --> 00:09:06,800
+now the second uh notion is uh the
+
+187
+00:09:02,959 --> 00:09:06,800
+notion of linear
+
+188
+00:09:11,079 --> 00:09:17,440
+Independence which is uh Express as
+
+189
+00:09:14,399 --> 00:09:19,160
+follows you say a set of vectors
+
+190
+00:09:17,440 --> 00:09:23,000
+V1
+
+191
+00:09:19,160 --> 00:09:23,000
+VN is linearly
+
+192
+00:09:25,640 --> 00:09:31,360
+independent
+
+193
+00:09:27,320 --> 00:09:31,360
+if the relation
+
+194
+00:09:32,079 --> 00:09:41,839
+A1 V1 plus A2
+
+195
+00:09:35,560 --> 00:09:43,440
+V2 plus a n VN equals the zero
+
+196
+00:09:41,839 --> 00:09:45,560
+Vector
+
+197
+00:09:43,440 --> 00:09:51,079
+only
+
+198
+00:09:45,560 --> 00:09:54,200
+holds when A1 is equal to A2 is equal to
+
+199
+00:09:51,079 --> 00:09:55,880
+is equal to a n are all the zero scal of
+
+200
+00:09:54,200 --> 00:09:59,440
+course if you take any combination of
+
+201
+00:09:55,880 --> 00:10:01,720
+vectors and you take 0 * V1 plus 0 * V2
+
+202
+00:09:59,440 --> 00:10:04,160
+plus 0 * VN you get the zero Vector
+
+203
+00:10:01,720 --> 00:10:06,399
+because 0 * anything is the zero vector
+
+204
+00:10:04,160 --> 00:10:08,959
+and any sum of zero vectors is the zero
+
+205
+00:10:06,399 --> 00:10:12,200
+Vector if that's the only way you can
+
+206
+00:10:08,959 --> 00:10:14,720
+get a linear combination of them to be
+
+207
+00:10:12,200 --> 00:10:16,920
+zero then you say the vectors are
+
+208
+00:10:14,720 --> 00:10:19,399
+linearly
+
+209
+00:10:16,920 --> 00:10:21,600
+independent clear you've seen this
+
+210
+00:10:19,399 --> 00:10:23,959
+notation before
+
+211
+00:10:21,600 --> 00:10:25,360
+okay so the whole tension in Vector
+
+212
+00:10:23,959 --> 00:10:27,959
+spaces is between things that are
+
+213
+00:10:25,360 --> 00:10:30,000
+linearly independent and things uh which
+
+214
+00:10:27,959 --> 00:10:31,600
+span so let's do let's do a little bit
+
+215
+00:10:30,000 --> 00:10:36,600
+more complicated
+
+216
+00:10:31,600 --> 00:10:36,600
+example let's take the space
+
+217
+00:10:37,680 --> 00:10:41,519
+R3 and let's take the following
+
+218
+00:10:39,880 --> 00:10:43,480
+collection of vectors
+
+219
+00:10:41,519 --> 00:10:55,399
+V1 let's take
+
+220
+00:10:43,480 --> 00:11:00,120
+V1 equal 1 0 0 V2 = 1 1 0 and V3 = 1 2
+
+221
+00:10:55,399 --> 00:11:03,160
+3 okay what is the span
+
+222
+00:11:00,120 --> 00:11:07,279
+of the set V1
+
+223
+00:11:03,160 --> 00:11:11,760
+V2 well I claim that's all things of the
+
+224
+00:11:07,279 --> 00:11:15,000
+form uh all uh vectors of the form V
+
+225
+00:11:11,760 --> 00:11:15,000
+equals a
+
+226
+00:11:15,519 --> 00:11:20,200
+b0
+
+227
+00:11:17,200 --> 00:11:22,399
+because if I want to hit this uh if I
+
+228
+00:11:20,200 --> 00:11:26,519
+want to get this Vector it would be B
+
+229
+00:11:22,399 --> 00:11:29,760
+times this Vector plus B minus a time
+
+230
+00:11:26,519 --> 00:11:29,760
+that vector
+
+231
+00:11:33,000 --> 00:11:37,839
+right because I'd already had B in the
+
+232
+00:11:35,519 --> 00:11:39,639
+first place I'm sorry A minus B is that
+
+233
+00:11:37,839 --> 00:11:42,920
+right let's see if I want to get a here
+
+234
+00:11:39,639 --> 00:11:44,440
+sorry A minus B There we go but I could
+
+235
+00:11:42,920 --> 00:11:46,560
+never get any coordinate in the third
+
+236
+00:11:44,440 --> 00:11:48,440
+place because both V1 and V2 have zero
+
+237
+00:11:46,560 --> 00:11:51,200
+in the third place so any multiple of V1
+
+238
+00:11:48,440 --> 00:11:53,000
+does plus any multiple of V2 so the span
+
+239
+00:11:51,200 --> 00:11:58,079
+is that
+
+240
+00:11:53,000 --> 00:12:00,560
+Subspace and I also claim that V1 V2 and
+
+241
+00:11:58,079 --> 00:12:03,560
+V3 are line larly
+
+242
+00:12:00,560 --> 00:12:03,560
+independent
+
+243
+00:12:05,320 --> 00:12:09,959
+uh
+
+244
+00:12:06,880 --> 00:12:12,880
+oops are
+
+245
+00:12:09,959 --> 00:12:16,839
+linearly independent because suppose I
+
+246
+00:12:12,880 --> 00:12:22,800
+had some relation between them A1 V1
+
+247
+00:12:16,839 --> 00:12:24,519
+plus A2 V2 plus A3 V3 equals z well if
+
+248
+00:12:22,800 --> 00:12:27,800
+you write down what this Vector looks
+
+249
+00:12:24,519 --> 00:12:31,000
+like in the third place it has 3 A3 so 3
+
+250
+00:12:27,800 --> 00:12:32,760
+A3 had to be to Z because the coordinate
+
+251
+00:12:31,000 --> 00:12:36,760
+of the third place of these two vectors
+
+252
+00:12:32,760 --> 00:12:38,760
+is both zero so if 3 A3 is equal to Z
+
+253
+00:12:36,760 --> 00:12:41,440
+and we're in a field so we can divide by
+
+254
+00:12:38,760 --> 00:12:44,519
+three whoops oh this is R3 good so 1/3
+
+255
+00:12:41,440 --> 00:12:47,240
+exists that means that A3 is equal to
+
+256
+00:12:44,519 --> 00:12:51,079
+zero since A3 is equal to zero It's a
+
+257
+00:12:47,240 --> 00:12:52,440
+combination of V1 and V2 now I claim
+
+258
+00:12:51,079 --> 00:12:53,839
+that the second coordinate of this
+
+259
+00:12:52,440 --> 00:12:56,639
+Vector is
+
+260
+00:12:53,839 --> 00:12:59,320
+A2 because you get no second coordinate
+
+261
+00:12:56,639 --> 00:13:01,680
+in V1 so that means that A2 is equal to
+
+262
+00:12:59,320 --> 00:13:03,639
+Z and if A2 is equal to zero it's a
+
+263
+00:13:01,680 --> 00:13:06,199
+multiple of V1 and the only multiple of
+
+264
+00:13:03,639 --> 00:13:07,399
+V1 which is the zero Vector is the zero
+
+265
+00:13:06,199 --> 00:13:09,839
+multiple of
+
+266
+00:13:07,399 --> 00:13:11,480
+V1 and so we see that the only way you
+
+267
+00:13:09,839 --> 00:13:13,880
+can have a linear combination which is
+
+268
+00:13:11,480 --> 00:13:16,600
+zero is if all the coefficients are
+
+269
+00:13:13,880 --> 00:13:20,000
+zero okay you're probably used to doing
+
+270
+00:13:16,600 --> 00:13:20,000
+exercises of this
+
+271
+00:13:25,399 --> 00:13:32,560
+nature okay next sure I no you put
+
+272
+00:13:35,320 --> 00:13:41,000
+the3 in fact it's not significant it's
+
+273
+00:13:38,320 --> 00:13:43,040
+it's a m it's just a question of the set
+
+274
+00:13:41,000 --> 00:13:44,720
+because again if you had a linear
+
+275
+00:13:43,040 --> 00:13:47,040
+relation like this you'd get a linear
+
+276
+00:13:44,720 --> 00:13:48,199
+relation if you reordered the v's I
+
+277
+00:13:47,040 --> 00:13:49,720
+thought so I just didn't know about the
+
+278
+00:13:48,199 --> 00:13:52,399
+notation you're absolutely right thank
+
+279
+00:13:49,720 --> 00:13:55,880
+you the set is linearly
+
+280
+00:13:52,399 --> 00:13:55,880
+independent okay we
+
+281
+00:13:56,600 --> 00:14:02,680
+say a an ordered and this is important
+
+282
+00:14:00,240 --> 00:14:02,680
+to have it
+
+283
+00:14:03,160 --> 00:14:09,240
+ordered V1 up to
+
+284
+00:14:06,440 --> 00:14:11,639
+VN is a
+
+285
+00:14:09,240 --> 00:14:15,880
+basis of
+
+286
+00:14:11,639 --> 00:14:21,160
+V if it
+
+287
+00:14:15,880 --> 00:14:23,279
+spands V and is linearly
+
+288
+00:14:21,160 --> 00:14:24,759
+independent so you need both conditions
+
+289
+00:14:23,279 --> 00:14:27,680
+you have to write every Vector as a
+
+290
+00:14:24,759 --> 00:14:29,959
+combination of these that's the span and
+
+291
+00:14:27,680 --> 00:14:34,639
+if you had a combination that's Z all
+
+292
+00:14:29,959 --> 00:14:34,639
+the coefficients are zero what this
+
+293
+00:14:38,199 --> 00:14:41,680
+means sometimes it's nice to have a
+
+294
+00:14:40,120 --> 00:14:45,440
+definition and to actually know what the
+
+295
+00:14:41,680 --> 00:14:47,759
+definition means what it means is that
+
+296
+00:14:45,440 --> 00:14:47,759
+every
+
+297
+00:14:49,240 --> 00:14:55,160
+Vector W and
+
+298
+00:14:51,800 --> 00:14:55,160
+V is
+
+299
+00:14:56,040 --> 00:15:00,040
+uniquely expressed
+
+300
+00:15:00,120 --> 00:15:03,399
+as a linear
+
+301
+00:15:06,199 --> 00:15:14,880
+combination W A1 V1 plus plus a n VN the
+
+302
+00:15:12,880 --> 00:15:17,800
+span means you can write it as a
+
+303
+00:15:14,880 --> 00:15:19,639
+combination but the linear Independence
+
+304
+00:15:17,800 --> 00:15:22,079
+then says that that combination is
+
+305
+00:15:19,639 --> 00:15:24,560
+unique because suppose it were written
+
+306
+00:15:22,079 --> 00:15:26,240
+in another way suppose it were written
+
+307
+00:15:24,560 --> 00:15:32,040
+as B1
+
+308
+00:15:26,240 --> 00:15:36,839
+V1 plus BN VN another way of writing
+
+309
+00:15:32,040 --> 00:15:40,279
+it and take this Vector minus this
+
+310
+00:15:36,839 --> 00:15:44,959
+Vector okay that's W minus W so it's the
+
+311
+00:15:40,279 --> 00:15:50,519
+zero Vector on the other hand it's
+
+312
+00:15:44,959 --> 00:15:56,880
+then zero Vector would be A1 minus B1 *
+
+313
+00:15:50,519 --> 00:15:59,319
+B1 plus plus a n minus BN * VN and by
+
+314
+00:15:56,880 --> 00:16:02,319
+linear Independence that says that all
+
+315
+00:15:59,319 --> 00:16:04,279
+the coefficients have to be zero so this
+
+316
+00:16:02,319 --> 00:16:05,959
+coefficient is zero and this coefficient
+
+317
+00:16:04,279 --> 00:16:08,759
+is zero in other words A1 has to be
+
+318
+00:16:05,959 --> 00:16:10,920
+equal to B1 A2 at to be equal to B2 and
+
+319
+00:16:08,759 --> 00:16:13,160
+so consequently we didn't have really a
+
+320
+00:16:10,920 --> 00:16:14,759
+new expression at all and this
+
+321
+00:16:13,160 --> 00:16:16,800
+expression was
+
+322
+00:16:14,759 --> 00:16:18,880
+unique that's the beautiful thing about
+
+323
+00:16:16,800 --> 00:16:21,959
+a basis you can not only express it as a
+
+324
+00:16:18,880 --> 00:16:25,319
+combination but that combination is uh
+
+325
+00:16:21,959 --> 00:16:28,839
+unique in fact for example this forms a
+
+326
+00:16:25,319 --> 00:16:28,839
+basis of R3
+
+327
+00:16:33,000 --> 00:16:35,600
+we checked that they were linear
+
+328
+00:16:34,160 --> 00:16:37,600
+independent you also have to check that
+
+329
+00:16:35,600 --> 00:16:40,399
+they span well we checked that the first
+
+330
+00:16:37,600 --> 00:16:42,639
+two spanned a rather large Subspace and
+
+331
+00:16:40,399 --> 00:16:44,880
+you can see that this third one actually
+
+332
+00:16:42,639 --> 00:16:48,600
+ends up spanning the entire
+
+333
+00:16:44,880 --> 00:16:51,440
+space okay now what is a basis in terms
+
+334
+00:16:48,600 --> 00:16:54,759
+of the uh
+
+335
+00:16:51,440 --> 00:16:56,360
+uh in terms of our fancy language
+
+336
+00:16:54,759 --> 00:16:58,959
+because you've seen this definition of a
+
+337
+00:16:56,360 --> 00:17:01,240
+basis undoubtedly before
+
+338
+00:16:58,959 --> 00:17:04,120
+in in terms of the language we used last
+
+339
+00:17:01,240 --> 00:17:06,959
+time a
+
+340
+00:17:04,120 --> 00:17:10,000
+basis a
+
+341
+00:17:06,959 --> 00:17:14,039
+basis gives
+
+342
+00:17:10,000 --> 00:17:14,039
+rise to an
+
+343
+00:17:16,319 --> 00:17:20,000
+isomorphism of vector
+
+344
+00:17:20,079 --> 00:17:23,319
+spaces from
+
+345
+00:17:24,039 --> 00:17:33,840
+V to the vector space f to the n
+
+346
+00:17:29,679 --> 00:17:33,840
+which takes an arbitrary Vector W and
+
+347
+00:17:34,440 --> 00:17:40,720
+V to its coordinates in this unique
+
+348
+00:17:38,559 --> 00:17:43,720
+expansion of w with respect to the
+
+349
+00:17:40,720 --> 00:17:43,720
+vectors V1 through
+
+350
+00:17:51,360 --> 00:17:58,360
+VN okay good now that is a
+
+351
+00:17:55,960 --> 00:18:02,880
+homomorphism because if you add two
+
+352
+00:17:58,360 --> 00:18:06,080
+vectors in V you add the components of
+
+353
+00:18:02,880 --> 00:18:07,960
+V1 V2 V3 so you're adding A1 to B1
+
+354
+00:18:06,080 --> 00:18:10,760
+suppose we had another Vector now we're
+
+355
+00:18:07,960 --> 00:18:14,120
+going to call this Vector W Prime if we
+
+356
+00:18:10,760 --> 00:18:19,840
+add W to W Prime and V we get A1 Plus B1
+
+357
+00:18:14,120 --> 00:18:19,840
+V1 a n plus BN VN and so when we apply
+
+358
+00:18:20,799 --> 00:18:28,400
+F to W + W Prime we'd get A1 + B1 if you
+
+359
+00:18:26,880 --> 00:18:31,840
+just take the definition of s that I've
+
+360
+00:18:28,400 --> 00:18:35,919
+given here a n plus BN which is exactly
+
+361
+00:18:31,840 --> 00:18:38,720
+F of w + f of w Prime right because this
+
+362
+00:18:35,919 --> 00:18:42,440
+is the addition law in this Vector
+
+363
+00:18:38,720 --> 00:18:45,520
+space likewise if we apply F to a
+
+364
+00:18:42,440 --> 00:18:47,159
+constant times W well if you multiply W
+
+365
+00:18:45,520 --> 00:18:49,400
+by a scalar you multiply all the
+
+366
+00:18:47,159 --> 00:18:52,360
+coefficients of the v's by that scalar
+
+367
+00:18:49,400 --> 00:18:58,400
+so you get ca1
+
+368
+00:18:52,360 --> 00:19:00,360
+ca2 C which is nothing but C * F of w
+
+369
+00:18:58,400 --> 00:19:01,520
+because this is scalar multiplication in
+
+370
+00:19:00,360 --> 00:19:04,320
+this Vector
+
+371
+00:19:01,520 --> 00:19:06,039
+space now moreover I claim it's an so
+
+372
+00:19:04,320 --> 00:19:07,720
+that shows that it's a homomorphism of
+
+373
+00:19:06,039 --> 00:19:10,400
+vector spaces I claim it's an
+
+374
+00:19:07,720 --> 00:19:12,880
+isomorphism first of all it's onto
+
+375
+00:19:10,400 --> 00:19:17,799
+because if you give me any ntuple
+
+376
+00:19:12,880 --> 00:19:20,919
+here of scalers I can make this
+
+377
+00:19:17,799 --> 00:19:23,080
+Vector W and V I can take my VI and
+
+378
+00:19:20,919 --> 00:19:24,919
+multiply them by those specific scalars
+
+379
+00:19:23,080 --> 00:19:28,720
+and add them up that gives me a vector
+
+380
+00:19:24,919 --> 00:19:32,159
+in v such that F of V is equal to your
+
+381
+00:19:28,720 --> 00:19:34,960
+set of scalers here that's the onto and
+
+382
+00:19:32,159 --> 00:19:36,720
+it's one: one well we just have to check
+
+383
+00:19:34,960 --> 00:19:39,240
+because it's a homomorphism of groups
+
+384
+00:19:36,720 --> 00:19:41,480
+that its kernel is Trivial well if F of
+
+385
+00:19:39,240 --> 00:19:44,120
+w is the zero Vector that means all the
+
+386
+00:19:41,480 --> 00:19:46,400
+A's are zero which meant that W itself
+
+387
+00:19:44,120 --> 00:19:51,480
+was the zero
+
+388
+00:19:46,400 --> 00:19:51,480
+Vector okay so isomorphism of vector
+
+389
+00:19:53,120 --> 00:19:57,200
+spaces conversely we're going to see
+
+390
+00:19:55,280 --> 00:19:59,320
+that to every isomorphism of vector
+
+391
+00:19:57,200 --> 00:20:00,520
+space of this sort we get a BAS of V
+
+392
+00:19:59,320 --> 00:20:03,360
+it's it's really one toone
+
+393
+00:20:00,520 --> 00:20:05,480
+correspondence between a basis and such
+
+394
+00:20:03,360 --> 00:20:07,159
+isomorphisms identifying our Vector
+
+395
+00:20:05,480 --> 00:20:08,840
+space with this Vector space I haven't
+
+396
+00:20:07,159 --> 00:20:12,320
+done that yet I haven't done that yet
+
+397
+00:20:08,840 --> 00:20:12,320
+it's just something in the in the
+
+398
+00:20:13,440 --> 00:20:18,039
+future so here's since I just mentioned
+
+399
+00:20:16,360 --> 00:20:21,200
+in the future consider the following
+
+400
+00:20:18,039 --> 00:20:23,320
+people say you can't see the future okay
+
+401
+00:20:21,200 --> 00:20:25,320
+but I I I I'm going to disagree with
+
+402
+00:20:23,320 --> 00:20:27,039
+that you can't see your own future you
+
+403
+00:20:25,320 --> 00:20:29,120
+can see other people's future it's a
+
+404
+00:20:27,039 --> 00:20:30,520
+very interesting time question so here's
+
+405
+00:20:29,120 --> 00:20:32,840
+an example of how you can see other
+
+406
+00:20:30,520 --> 00:20:35,440
+people's future you're driving down the
+
+407
+00:20:32,840 --> 00:20:37,760
+highway right and on the other side of
+
+408
+00:20:35,440 --> 00:20:39,679
+the road you see a backup for like five
+
+409
+00:20:37,760 --> 00:20:41,120
+miles and you want to see the PE the
+
+410
+00:20:39,679 --> 00:20:42,760
+people who are driving into the backup
+
+411
+00:20:41,120 --> 00:20:45,360
+you want to say to them add an hour to
+
+412
+00:20:42,760 --> 00:20:46,679
+your trip you've just seen their future
+
+413
+00:20:45,360 --> 00:20:50,679
+they can't see it but you've just seen
+
+414
+00:20:46,679 --> 00:20:54,520
+their future true
+
+415
+00:20:50,679 --> 00:20:56,600
+okay okay um all right let's prove a
+
+416
+00:20:54,520 --> 00:20:59,640
+couple of nice theorems so we're going
+
+417
+00:20:56,600 --> 00:21:00,720
+to go two ways
+
+418
+00:20:59,640 --> 00:21:04,000
+what was so
+
+419
+00:21:00,720 --> 00:21:06,520
+funny that was just a side
+
+420
+00:21:04,000 --> 00:21:12,320
+comment I can see your future in this
+
+421
+00:21:06,520 --> 00:21:12,320
+course okay so um if if
+
+422
+00:21:12,760 --> 00:21:18,679
+s pardon leave
+
+423
+00:21:15,400 --> 00:21:20,360
+us well I can't you can't see your
+
+424
+00:21:18,679 --> 00:21:22,120
+future so I can't tell you your future
+
+425
+00:21:20,360 --> 00:21:23,400
+right that would violate the fabric of
+
+426
+00:21:22,120 --> 00:21:24,919
+time what do they say they always do
+
+427
+00:21:23,400 --> 00:21:27,159
+that and Back to the Future oh my God
+
+428
+00:21:24,919 --> 00:21:31,159
+we've rent the fabric of time all right
+
+429
+00:21:27,159 --> 00:21:31,159
+let s be a set the spans
+
+430
+00:21:37,000 --> 00:21:41,000
+V there we know there is such finite set
+
+431
+00:21:39,679 --> 00:21:45,200
+because we've assumed V is finite
+
+432
+00:21:41,000 --> 00:21:49,000
+dimensional okay then
+
+433
+00:21:45,200 --> 00:21:52,440
+um a subset of
+
+434
+00:21:49,000 --> 00:21:52,440
+s gives a
+
+435
+00:21:53,320 --> 00:21:58,000
+basis or
+
+436
+00:21:55,159 --> 00:22:01,240
+B so anytime you have a set that spans
+
+437
+00:21:58,000 --> 00:22:03,279
+the vector base you can you can maybe
+
+438
+00:22:01,240 --> 00:22:05,480
+it'll be a basis itself but if not some
+
+439
+00:22:03,279 --> 00:22:10,400
+subset of it'll be a
+
+440
+00:22:05,480 --> 00:22:15,159
+basis okay so um
+
+441
+00:22:10,400 --> 00:22:15,159
+proof If the elements of
+
+442
+00:22:15,919 --> 00:22:19,720
+s are linearly
+
+443
+00:22:20,720 --> 00:22:24,799
+independent we are
+
+444
+00:22:22,559 --> 00:22:30,480
+done because that's the second condition
+
+445
+00:22:24,799 --> 00:22:30,480
+you need on S to be a basis so if not
+
+446
+00:22:31,640 --> 00:22:34,159
+we have a
+
+447
+00:22:36,080 --> 00:22:43,400
+relation A1 V1 plus plus a n VN the
+
+448
+00:22:41,360 --> 00:22:46,400
+elements in s are V1 through I should
+
+449
+00:22:43,400 --> 00:22:46,400
+have said
+
+450
+00:22:50,679 --> 00:22:55,720
+that we have a relation equal to zero
+
+451
+00:22:54,200 --> 00:22:59,760
+with
+
+452
+00:22:55,720 --> 00:23:01,640
+sum AI not equal to zero so either
+
+453
+00:22:59,760 --> 00:23:03,720
+they're linearly independent or there's
+
+454
+00:23:01,640 --> 00:23:05,240
+some linear relation between them and
+
+455
+00:23:03,720 --> 00:23:06,799
+some linear relation would mean some
+
+456
+00:23:05,240 --> 00:23:10,000
+linear combination where one of the
+
+457
+00:23:06,799 --> 00:23:11,640
+coefficients is non zero uh so you get
+
+458
+00:23:10,000 --> 00:23:15,559
+it so since the set wasn't particularly
+
+459
+00:23:11,640 --> 00:23:17,720
+ordered I now order the set so that
+
+460
+00:23:15,559 --> 00:23:19,960
+um we can
+
+461
+00:23:17,720 --> 00:23:25,320
+assume can
+
+462
+00:23:19,960 --> 00:23:27,080
+reorder so that for example a subn is
+
+463
+00:23:25,320 --> 00:23:29,799
+not equal to zero namely so that this
+
+464
+00:23:27,080 --> 00:23:35,240
+last coefficient is non zero why
+
+465
+00:23:29,799 --> 00:23:35,240
+not okay take this over to the other
+
+466
+00:23:35,400 --> 00:23:47,200
+side then a n VN is equal to minus A1 V1
+
+467
+00:23:41,640 --> 00:23:49,919
+plus plus a n minus1 VN minus one in
+
+468
+00:23:47,200 --> 00:23:53,400
+V that's what that linear relation means
+
+469
+00:23:49,919 --> 00:23:55,919
+and now and this is the key point we use
+
+470
+00:23:53,400 --> 00:23:58,799
+the fact that we're in a field and when
+
+471
+00:23:55,919 --> 00:24:00,840
+you have a nonzero element in the field
+
+472
+00:23:58,799 --> 00:24:02,880
+you can write down its multiplicative
+
+473
+00:24:00,840 --> 00:24:04,840
+inverse this is the only thing we're
+
+474
+00:24:02,880 --> 00:24:06,799
+using about
+
+475
+00:24:04,840 --> 00:24:08,799
+Fields okay
+
+476
+00:24:06,799 --> 00:24:10,640
+so a an
+
+477
+00:24:08,799 --> 00:24:12,679
+inverse
+
+478
+00:24:10,640 --> 00:24:14,720
+exists that's if you look at all the
+
+479
+00:24:12,679 --> 00:24:16,120
+linear algebra you did over R and C this
+
+480
+00:24:14,720 --> 00:24:17,720
+is the only thing you're really using
+
+481
+00:24:16,120 --> 00:24:19,679
+about it you're not using the fact that
+
+482
+00:24:17,720 --> 00:24:21,200
+you have convergent koshy sequences in
+
+483
+00:24:19,679 --> 00:24:22,919
+the reals or anything like that you're
+
+484
+00:24:21,200 --> 00:24:24,000
+just using that if a non-zero element
+
+485
+00:24:22,919 --> 00:24:26,880
+has an
+
+486
+00:24:24,000 --> 00:24:31,600
+inverse so a and minus inverse exists
+
+487
+00:24:26,880 --> 00:24:41,600
+multiply by a n 1 you get VN is equal to
+
+488
+00:24:31,600 --> 00:24:41,600
+-1 / a n * A1 V1 + plus a nus1 bnus
+
+489
+00:24:41,799 --> 00:24:48,720
+one which says that this Vector is in
+
+490
+00:24:45,640 --> 00:24:51,760
+the span of the previous
+
+491
+00:24:48,720 --> 00:24:55,200
+ones so that anything that you could
+
+492
+00:24:51,760 --> 00:24:56,840
+write that you wrote using the first n
+
+493
+00:24:55,200 --> 00:24:58,640
+things you could have already written in
+
+494
+00:24:56,840 --> 00:25:01,520
+terms of the first n minus one because
+
+495
+00:24:58,640 --> 00:25:03,520
+you could replace any multiple of VN in
+
+496
+00:25:01,520 --> 00:25:05,640
+your expression by the corresponding
+
+497
+00:25:03,520 --> 00:25:08,200
+multiple of this
+
+498
+00:25:05,640 --> 00:25:10,000
+combination so
+
+499
+00:25:08,200 --> 00:25:13,760
+hence the
+
+500
+00:25:10,000 --> 00:25:17,600
+span of s is the same as the span of the
+
+501
+00:25:13,760 --> 00:25:20,440
+set V1 through VN
+
+502
+00:25:17,600 --> 00:25:24,240
+minus1 and this we assumed was
+
+503
+00:25:20,440 --> 00:25:26,679
+V because we said that s span V so we've
+
+504
+00:25:24,240 --> 00:25:29,120
+shown that if the set was linearly
+
+505
+00:25:26,679 --> 00:25:31,159
+dependent we'd be able to throw a vector
+
+506
+00:25:29,120 --> 00:25:34,200
+out of it and get the same
+
+507
+00:25:31,159 --> 00:25:38,039
+span and now we have a smaller set that
+
+508
+00:25:34,200 --> 00:25:44,039
+spans V so maybe it's linearly
+
+509
+00:25:38,039 --> 00:25:47,640
+independent if this set is linearly
+
+510
+00:25:44,039 --> 00:25:50,760
+independent this set meaning this
+
+511
+00:25:47,640 --> 00:25:53,600
+set we're
+
+512
+00:25:50,760 --> 00:25:56,600
+done if
+
+513
+00:25:53,600 --> 00:25:56,600
+not
+
+514
+00:25:56,760 --> 00:26:00,919
+repeat to find another linear relation
+
+515
+00:25:59,360 --> 00:26:02,840
+and throw another Vector out of the set
+
+516
+00:26:00,919 --> 00:26:04,919
+and we get down to a smaller set and
+
+517
+00:26:02,840 --> 00:26:07,200
+since we started with a finite set we
+
+518
+00:26:04,919 --> 00:26:09,760
+can't repeat this process in definitely
+
+519
+00:26:07,200 --> 00:26:12,440
+we eventually get down to a set which is
+
+520
+00:26:09,760 --> 00:26:13,840
+either linearly independent a basis or
+
+521
+00:26:12,440 --> 00:26:15,640
+we keep throwing out vectors to the
+
+522
+00:26:13,840 --> 00:26:18,919
+point where we get down to the zero set
+
+523
+00:26:15,640 --> 00:26:21,240
+the empty set right the empty set is a
+
+524
+00:26:18,919 --> 00:26:27,240
+basis for its zero Vector
+
+525
+00:26:21,240 --> 00:26:29,159
+space okay so we're done repeat until
+
+526
+00:26:27,240 --> 00:26:30,760
+done
+
+527
+00:26:29,159 --> 00:26:32,799
+and so by throwing out things one at a
+
+528
+00:26:30,760 --> 00:26:34,159
+time every time we get a linear relation
+
+529
+00:26:32,799 --> 00:26:36,320
+until we don't get any more linear
+
+530
+00:26:34,159 --> 00:26:37,399
+relations we get to a point where we get
+
+531
+00:26:36,320 --> 00:26:41,360
+a
+
+532
+00:26:37,399 --> 00:26:41,360
+basis okay let's go the other
+
+533
+00:26:42,520 --> 00:26:46,600
+way now we're not going to start off
+
+534
+00:26:44,640 --> 00:26:48,720
+with a spanning set we're going to start
+
+535
+00:26:46,600 --> 00:26:50,840
+off with something which is linearly
+
+536
+00:26:48,720 --> 00:26:52,919
+independent so basic so spanning sets
+
+537
+00:26:50,840 --> 00:26:56,399
+you go down linear Independence you go
+
+538
+00:26:52,919 --> 00:27:01,480
+up so here's another
+
+539
+00:26:56,399 --> 00:27:04,080
+theorem if L is a s is span L is
+
+540
+00:27:01,480 --> 00:27:04,080
+linearly
+
+541
+00:27:04,360 --> 00:27:07,760
+independent set of
+
+542
+00:27:08,880 --> 00:27:12,399
+vectors it can be
+
+543
+00:27:14,919 --> 00:27:18,760
+extended to form a
+
+544
+00:27:19,200 --> 00:27:28,679
+basis of B namely you can add vectors to
+
+545
+00:27:22,080 --> 00:27:28,679
+it one by one to get a basis okay um
+
+546
+00:27:30,000 --> 00:27:34,720
+okay so a
+
+547
+00:27:31,760 --> 00:27:38,720
+proof If L
+
+548
+00:27:34,720 --> 00:27:39,519
+spans V and then we're done because it's
+
+549
+00:27:38,720 --> 00:27:42,760
+a
+
+550
+00:27:39,519 --> 00:27:42,760
+basis if
+
+551
+00:27:47,039 --> 00:27:52,799
+not
+
+552
+00:27:48,600 --> 00:27:52,799
+uh let s be a finite
+
+553
+00:27:54,080 --> 00:28:00,159
+set spanning
+
+554
+00:27:57,120 --> 00:28:05,120
+V since V is finite dimensional there is
+
+555
+00:28:00,159 --> 00:28:07,760
+some finite set that spans it and
+
+556
+00:28:05,120 --> 00:28:14,279
+let V be an element in
+
+557
+00:28:07,760 --> 00:28:14,279
+s which is not in the span of
+
+558
+00:28:15,399 --> 00:28:20,559
+L now there has to be such a vector in s
+
+559
+00:28:18,320 --> 00:28:24,360
+which is not in the span of L and the
+
+560
+00:28:20,559 --> 00:28:25,799
+reason is that um if everything in s
+
+561
+00:28:24,360 --> 00:28:28,159
+were were written as a linear
+
+562
+00:28:25,799 --> 00:28:29,440
+combination of things in L and
+
+563
+00:28:28,159 --> 00:28:31,080
+everything in V can be written as a
+
+564
+00:28:29,440 --> 00:28:32,320
+linear combination of things in s we
+
+565
+00:28:31,080 --> 00:28:34,559
+would have written everything in v as a
+
+566
+00:28:32,320 --> 00:28:36,960
+linear combination of things in L but l
+
+567
+00:28:34,559 --> 00:28:40,679
+l didn't span V so there has to be some
+
+568
+00:28:36,960 --> 00:28:42,200
+Vector in s which is not in the span of
+
+569
+00:28:40,679 --> 00:28:44,880
+L
+
+570
+00:28:42,200 --> 00:28:50,200
+then we
+
+571
+00:28:44,880 --> 00:28:55,000
+claim that you take the union of L and V
+
+572
+00:28:50,200 --> 00:28:55,000
+call that maybe L Prime is linearly
+
+573
+00:28:56,000 --> 00:29:01,399
+independent so that if you add V to L so
+
+574
+00:28:59,200 --> 00:29:04,720
+we just add one vector to L we get
+
+575
+00:29:01,399 --> 00:29:04,720
+something which is linearly
+
+576
+00:29:05,279 --> 00:29:11,159
+independent here we threw one vector out
+
+577
+00:29:07,600 --> 00:29:15,200
+of the spaning set so let's see why
+
+578
+00:29:11,159 --> 00:29:15,200
+that's true why
+
+579
+00:29:15,519 --> 00:29:20,799
+suppose that L were the vectors W1
+
+580
+00:29:18,799 --> 00:29:24,120
+through
+
+581
+00:29:20,799 --> 00:29:27,440
+WM and suppose we had a linear relation
+
+582
+00:29:24,120 --> 00:29:28,919
+between the vectors in L and B and
+
+583
+00:29:27,440 --> 00:29:35,320
+suppose
+
+584
+00:29:28,919 --> 00:29:38,640
+and the sum of AI wi plus BV is equal to
+
+585
+00:29:35,320 --> 00:29:41,480
+zero that would be our linear
+
+586
+00:29:38,640 --> 00:29:43,440
+relation okay now I have I'm going to
+
+587
+00:29:41,480 --> 00:29:46,640
+claim that all the coefficients are
+
+588
+00:29:43,440 --> 00:29:48,840
+zero well let's first see that B has to
+
+589
+00:29:46,640 --> 00:29:48,840
+be
+
+590
+00:29:51,600 --> 00:29:59,880
+zero or else by the trick we did last
+
+591
+00:29:55,120 --> 00:30:02,080
+time V is equal to -1 B the summation of
+
+592
+00:29:59,880 --> 00:30:06,200
+a I
+
+593
+00:30:02,080 --> 00:30:06,200
+wi is in the span of
+
+594
+00:30:06,960 --> 00:30:13,760
+L again we're using the fact that in a
+
+595
+00:30:09,600 --> 00:30:16,440
+field anything which is nonzero is
+
+596
+00:30:13,760 --> 00:30:19,159
+invertible okay so this coefficient has
+
+597
+00:30:16,440 --> 00:30:23,880
+to be zero
+
+598
+00:30:19,159 --> 00:30:25,919
+hence the summation of AI wi is equal to
+
+599
+00:30:23,880 --> 00:30:28,679
+zero because we didn't need be in this
+
+600
+00:30:25,919 --> 00:30:30,600
+linear relation but that implies
+
+601
+00:30:28,679 --> 00:30:35,360
+that all AI are
+
+602
+00:30:30,600 --> 00:30:35,360
+zero as L was
+
+603
+00:30:36,200 --> 00:30:43,519
+assumed to be linearly
+
+604
+00:30:40,200 --> 00:30:45,039
+independent okay so anytime we had a
+
+605
+00:30:43,519 --> 00:30:46,880
+linear relation we've just proved that
+
+606
+00:30:45,039 --> 00:30:48,159
+all the coefficients are zero so that
+
+607
+00:30:46,880 --> 00:30:51,880
+means that this is a linearly
+
+608
+00:30:48,159 --> 00:30:55,600
+independent set now the next thing we
+
+609
+00:30:51,880 --> 00:30:55,600
+ask is if L Prime
+
+610
+00:30:56,519 --> 00:30:59,919
+spans when you're done
+
+611
+00:31:01,960 --> 00:31:09,200
+if
+
+612
+00:31:03,399 --> 00:31:12,159
+not there is a vector v Prime in s not
+
+613
+00:31:09,200 --> 00:31:13,720
+in the span of L Prime by the same
+
+614
+00:31:12,159 --> 00:31:16,840
+argument that we did
+
+615
+00:31:13,720 --> 00:31:19,519
+before and then if you adjoin that to L
+
+616
+00:31:16,840 --> 00:31:21,279
+Prime you get a linearly independent set
+
+617
+00:31:19,519 --> 00:31:24,799
+and you keep adjoining vectors in this
+
+618
+00:31:21,279 --> 00:31:27,679
+finite set to L as long as it doesn't
+
+619
+00:31:24,799 --> 00:31:29,799
+span V you keep adjoining vectors you
+
+620
+00:31:27,679 --> 00:31:31,039
+keep getting linearly independent sets
+
+621
+00:31:29,799 --> 00:31:32,840
+well you can only do that a finite
+
+622
+00:31:31,039 --> 00:31:34,600
+number of times because s is a finite
+
+623
+00:31:32,840 --> 00:31:36,639
+set so ultimately you either joined
+
+624
+00:31:34,600 --> 00:31:39,120
+everything in s and you certainly span
+
+625
+00:31:36,639 --> 00:31:40,679
+because s spans or you've gotten to the
+
+626
+00:31:39,120 --> 00:31:41,960
+point where your where your finite set
+
+627
+00:31:40,679 --> 00:31:45,080
+by joining some of these vectors
+
+628
+00:31:41,960 --> 00:31:45,080
+actually spans and you have a
+
+629
+00:31:45,120 --> 00:31:50,399
+basis
+
+630
+00:31:47,720 --> 00:31:52,880
+okay good okay cutting the bases down
+
+631
+00:31:50,399 --> 00:31:54,760
+now here's the key here's the key
+
+632
+00:31:52,880 --> 00:31:56,480
+proposition which is the one thing
+
+633
+00:31:54,760 --> 00:31:58,159
+that's slightly non-trivial in this
+
+634
+00:31:56,480 --> 00:31:59,240
+lecture
+
+635
+00:31:58,159 --> 00:32:01,919
+and the only thing where you don't want
+
+636
+00:31:59,240 --> 00:32:06,840
+to bury yourself in notation with all
+
+637
+00:32:01,919 --> 00:32:06,840
+right here we go theorem main
+
+638
+00:32:09,559 --> 00:32:17,240
+theorem
+
+639
+00:32:11,080 --> 00:32:20,799
+if s which is V1 through
+
+640
+00:32:17,240 --> 00:32:20,799
+VN spans
+
+641
+00:32:21,440 --> 00:32:28,639
+V and L which is
+
+642
+00:32:24,919 --> 00:32:32,679
+W1 through WM
+
+643
+00:32:28,639 --> 00:32:32,679
+this is an m is linearly
+
+644
+00:32:33,080 --> 00:32:36,840
+independent then you can't say anything
+
+645
+00:32:35,080 --> 00:32:38,159
+about this vectors and these vectors
+
+646
+00:32:36,840 --> 00:32:41,559
+they're just completely different
+
+647
+00:32:38,159 --> 00:32:43,159
+vectors but only thing you can conclude
+
+648
+00:32:41,559 --> 00:32:46,440
+is that the number of vectors in the
+
+649
+00:32:43,159 --> 00:32:48,080
+spanning set is at least as large as the
+
+650
+00:32:46,440 --> 00:32:49,559
+number of vectors in the linearly
+
+651
+00:32:48,080 --> 00:32:50,480
+independent set that's what we're going
+
+652
+00:32:49,559 --> 00:32:54,440
+to
+
+653
+00:32:50,480 --> 00:32:58,159
+prove so spanning sets are bigger than
+
+654
+00:32:54,440 --> 00:33:00,799
+or equal to linearly Independent sets
+
+655
+00:32:58,159 --> 00:33:02,399
+okay so let's prove
+
+656
+00:33:00,799 --> 00:33:06,000
+this
+
+657
+00:33:02,399 --> 00:33:06,000
+proof since s
+
+658
+00:33:07,080 --> 00:33:10,519
+spans we may
+
+659
+00:33:10,880 --> 00:33:17,200
+write every element in W which I'll call
+
+660
+00:33:14,240 --> 00:33:19,600
+WJ as a combination linear combination
+
+661
+00:33:17,200 --> 00:33:25,559
+of the elements in V so I'll write that
+
+662
+00:33:19,600 --> 00:33:28,760
+as a i j VI where I sum from I equal 1
+
+663
+00:33:25,559 --> 00:33:28,760
+to n
+
+664
+00:33:36,279 --> 00:33:45,600
+okay so I write my question yeah
+
+665
+00:33:42,039 --> 00:33:48,159
+assum yeah yeah every yeah sorry this is
+
+666
+00:33:45,600 --> 00:33:49,840
+this is linear dependent in V everything
+
+667
+00:33:48,159 --> 00:33:51,360
+is in the same Vector space but they're
+
+668
+00:33:49,840 --> 00:33:53,360
+just different sets of vectors so I have
+
+669
+00:33:51,360 --> 00:33:55,200
+one set with n elements that spans
+
+670
+00:33:53,360 --> 00:33:57,000
+another set with M elements that's
+
+671
+00:33:55,200 --> 00:33:58,919
+linearly independent I'm going to show
+
+672
+00:33:57,000 --> 00:34:00,360
+that whatever those are the number of
+
+673
+00:33:58,919 --> 00:34:01,799
+elements in the first is at least as
+
+674
+00:34:00,360 --> 00:34:04,480
+large as the number of elements in the
+
+675
+00:34:01,799 --> 00:34:06,200
+second so I say I write every element in
+
+676
+00:34:04,480 --> 00:34:09,159
+the second which is an element in v in
+
+677
+00:34:06,200 --> 00:34:11,320
+terms of the spanning set like
+
+678
+00:34:09,159 --> 00:34:15,119
+this
+
+679
+00:34:11,320 --> 00:34:17,839
+okay now suppose I want to make a linear
+
+680
+00:34:15,119 --> 00:34:17,839
+relation on the
+
+681
+00:34:18,800 --> 00:34:25,399
+W try to
+
+682
+00:34:22,520 --> 00:34:29,720
+make a
+
+683
+00:34:25,399 --> 00:34:29,720
+non-trivial linear relation
+
+684
+00:34:30,320 --> 00:34:35,159
+on the
+
+685
+00:34:31,679 --> 00:34:42,760
+W the WJ so in other words I'd write
+
+686
+00:34:35,159 --> 00:34:45,800
+zero in v as a combination of C J WJ Jal
+
+687
+00:34:42,760 --> 00:34:47,560
+1 to M we're not supposed to be able to
+
+688
+00:34:45,800 --> 00:34:49,720
+do that unless all the C's are zero
+
+689
+00:34:47,560 --> 00:34:51,240
+right that's the hypothesis that the W
+
+690
+00:34:49,720 --> 00:34:52,919
+are linearly independent but let's see
+
+691
+00:34:51,240 --> 00:34:55,240
+if we can see what such a linear
+
+692
+00:34:52,919 --> 00:34:57,400
+relation would mean well now I replace
+
+693
+00:34:55,240 --> 00:35:00,160
+WJ by that sum over there so that's the
+
+694
+00:34:57,400 --> 00:35:01,800
+sum from Jal 1 to
+
+695
+00:35:00,160 --> 00:35:08,359
+M
+
+696
+00:35:01,800 --> 00:35:09,760
+CJ times the sum from I equal 1 to n of
+
+697
+00:35:08,359 --> 00:35:12,320
+a i
+
+698
+00:35:09,760 --> 00:35:15,200
+j time
+
+699
+00:35:12,320 --> 00:35:17,280
+VI in other words I take this relation
+
+700
+00:35:15,200 --> 00:35:19,920
+that I'm going to make on the W's and I
+
+701
+00:35:17,280 --> 00:35:22,160
+turn it into a linear relation on the vi
+
+702
+00:35:19,920 --> 00:35:23,560
+in other words it becomes the sum and
+
+703
+00:35:22,160 --> 00:35:26,240
+I'm going to change the order of
+
+704
+00:35:23,560 --> 00:35:29,119
+summation between
+
+705
+00:35:26,240 --> 00:35:35,040
+um I and
+
+706
+00:35:29,119 --> 00:35:36,640
+j h oh my God oh my God I changed my
+
+707
+00:35:35,040 --> 00:35:38,520
+notation here in the middle so you see
+
+708
+00:35:36,640 --> 00:35:41,000
+we'll see if we can actually do this it
+
+709
+00:35:38,520 --> 00:35:42,560
+becomes IAL 1 to
+
+710
+00:35:41,000 --> 00:35:46,520
+n
+
+711
+00:35:42,560 --> 00:35:52,920
+of the summation over
+
+712
+00:35:46,520 --> 00:35:56,200
+J equal 1 to M AI J *
+
+713
+00:35:52,920 --> 00:35:59,640
+CJ times
+
+714
+00:35:56,200 --> 00:35:59,640
+VI okay
+
+715
+00:36:00,200 --> 00:36:04,599
+okay
+
+716
+00:36:02,000 --> 00:36:06,760
+now if we can
+
+717
+00:36:04,599 --> 00:36:09,240
+arrange
+
+718
+00:36:06,760 --> 00:36:10,760
+that we're we're we're we're trying to
+
+719
+00:36:09,240 --> 00:36:14,720
+look for this linear relation so we're
+
+720
+00:36:10,760 --> 00:36:19,000
+trying to look for a vector C1 up to CM
+
+721
+00:36:14,720 --> 00:36:19,000
+which is not equal to the zero
+
+722
+00:36:21,359 --> 00:36:26,440
+Vector now one way we could get this
+
+723
+00:36:23,960 --> 00:36:28,359
+relation this could be zero is if all
+
+724
+00:36:26,440 --> 00:36:32,240
+these coefficients were zero
+
+725
+00:36:28,359 --> 00:36:34,960
+so if we can make so here's the here's
+
+726
+00:36:32,240 --> 00:36:34,960
+the argument
+
+727
+00:36:36,480 --> 00:36:39,839
+if we can
+
+728
+00:36:40,440 --> 00:36:46,839
+arrange that the
+
+729
+00:36:43,560 --> 00:36:46,839
+summation over
+
+730
+00:36:47,079 --> 00:36:54,200
+j a i j CJ is equal to zero for all
+
+731
+00:36:54,800 --> 00:37:01,000
+I then this Vector is certainly the zero
+
+732
+00:36:58,480 --> 00:37:02,440
+Vector because the coefficients of VI
+
+733
+00:37:01,000 --> 00:37:04,760
+are these
+
+734
+00:37:02,440 --> 00:37:07,839
+sums so we could certainly get this
+
+735
+00:37:04,760 --> 00:37:13,800
+equal to zero if we could arrange this
+
+736
+00:37:07,839 --> 00:37:16,040
+if we could arrange this with Su
+
+737
+00:37:13,800 --> 00:37:18,680
+CJ not equal to
+
+738
+00:37:16,040 --> 00:37:22,040
+zero then the
+
+739
+00:37:18,680 --> 00:37:25,359
+WJ could not
+
+740
+00:37:22,040 --> 00:37:28,440
+be linearly
+
+741
+00:37:25,359 --> 00:37:31,160
+independent now can we arrange that
+
+742
+00:37:28,440 --> 00:37:39,760
+well let's think of what this
+
+743
+00:37:31,160 --> 00:37:39,760
+is the I's go from one to n so this is n
+
+744
+00:37:41,000 --> 00:37:47,720
+equations and we're trying to solve for
+
+745
+00:37:43,000 --> 00:37:47,720
+the CJ so that would be M
+
+746
+00:37:48,280 --> 00:37:52,319
+unknowns they're actually linear
+
+747
+00:37:52,440 --> 00:37:57,599
+equations and it's a general theory in
+
+748
+00:37:55,560 --> 00:37:59,680
+linear equations which you all know in
+
+749
+00:37:57,599 --> 00:38:00,800
+I'll just sketch out for you briefly
+
+750
+00:37:59,680 --> 00:38:04,319
+that if you
+
+751
+00:38:00,800 --> 00:38:07,440
+have more unknowns than equations you
+
+752
+00:38:04,319 --> 00:38:10,000
+can always find a non-trivial solution
+
+753
+00:38:07,440 --> 00:38:13,839
+so if
+
+754
+00:38:10,000 --> 00:38:18,040
+M if M were bigger than
+
+755
+00:38:13,839 --> 00:38:21,560
+N More
+
+756
+00:38:18,040 --> 00:38:27,119
+unknowns CJ
+
+757
+00:38:21,560 --> 00:38:27,119
+than the I equations
+
+758
+00:38:28,200 --> 00:38:34,400
+we can
+
+759
+00:38:30,560 --> 00:38:34,400
+find a non-trivial
+
+760
+00:38:35,720 --> 00:38:39,839
+solution namely we can find a solution
+
+761
+00:38:38,119 --> 00:38:42,400
+to this system of equations with some of
+
+762
+00:38:39,839 --> 00:38:45,040
+the CJs non zero but that would be a
+
+763
+00:38:42,400 --> 00:38:47,040
+problem for us this would imply that
+
+764
+00:38:45,040 --> 00:38:49,000
+this sum was the zero vector and it
+
+765
+00:38:47,040 --> 00:38:51,480
+would be a combination with non-trivial
+
+766
+00:38:49,000 --> 00:38:54,480
+coefficients of the WJ which would
+
+767
+00:38:51,480 --> 00:38:58,160
+contradict our hypothesis that the set L
+
+768
+00:38:54,480 --> 00:39:00,880
+was linearly independent so if m is
+
+769
+00:38:58,160 --> 00:39:02,240
+bigger than n we get a contradiction to
+
+770
+00:39:00,880 --> 00:39:04,960
+these two
+
+771
+00:39:02,240 --> 00:39:08,640
+hypotheses and consequently these two
+
+772
+00:39:04,960 --> 00:39:11,359
+hypotheses imply that n has to be bigger
+
+773
+00:39:08,640 --> 00:39:11,359
+than or equal to
+
+774
+00:39:11,599 --> 00:39:18,040
+M now uh let's review this when you have
+
+775
+00:39:15,160 --> 00:39:20,560
+linear equations and you have more
+
+776
+00:39:18,040 --> 00:39:23,599
+unknowns than equations you can find a
+
+777
+00:39:20,560 --> 00:39:24,720
+non-trivial solution how does that work
+
+778
+00:39:23,599 --> 00:39:28,280
+well this is the sort of thing one
+
+779
+00:39:24,720 --> 00:39:30,839
+learns in eth grade I mean if you start
+
+780
+00:39:28,280 --> 00:39:35,359
+with one equation in two unknowns like
+
+781
+00:39:30,839 --> 00:39:38,680
+2x + 3 y equals z you can find a nonzero
+
+782
+00:39:35,359 --> 00:39:40,160
+solution X and Y and likewise if you
+
+783
+00:39:38,680 --> 00:39:42,280
+started with two
+
+784
+00:39:40,160 --> 00:39:48,480
+equations
+
+785
+00:39:42,280 --> 00:39:53,599
+um yeah plus + 4 Z is equal to Z and 2x
+
+786
+00:39:48,480 --> 00:39:56,119
++ 7 y + 8 Z equals z if you had two
+
+787
+00:39:53,599 --> 00:39:58,319
+equations and three unknowns then you
+
+788
+00:39:56,119 --> 00:40:00,079
+could also find an non trivial solution
+
+789
+00:39:58,319 --> 00:40:02,079
+you just eliminate one of the variables
+
+790
+00:40:00,079 --> 00:40:03,880
+by subtracting one of the equations from
+
+791
+00:40:02,079 --> 00:40:05,480
+the other then you get one equation and
+
+792
+00:40:03,880 --> 00:40:06,960
+two unknowns and we know how to solve
+
+793
+00:40:05,480 --> 00:40:09,800
+one equation in two
+
+794
+00:40:06,960 --> 00:40:12,119
+unknowns and likewise and when you start
+
+795
+00:40:09,800 --> 00:40:15,640
+off with a system of linear equations
+
+796
+00:40:12,119 --> 00:40:17,720
+you keep uh eliminating one equation and
+
+797
+00:40:15,640 --> 00:40:20,000
+uh one unknown and eventually you get
+
+798
+00:40:17,720 --> 00:40:23,520
+down to a system where
+
+799
+00:40:20,000 --> 00:40:26,079
+um uh if you have uh more unknowns than
+
+800
+00:40:23,520 --> 00:40:27,440
+equations you have zero equations in a
+
+801
+00:40:26,079 --> 00:40:28,720
+certain number of unknowns you just just
+
+802
+00:40:27,440 --> 00:40:31,680
+set the unknowns equal to anything you
+
+803
+00:40:28,720 --> 00:40:34,040
+want and go back so this is the the
+
+804
+00:40:31,680 --> 00:40:37,240
+process of elimination Theory which you
+
+805
+00:40:34,040 --> 00:40:39,280
+you study in in in nth grade algebra in
+
+806
+00:40:37,240 --> 00:40:41,240
+the context of two equations or three
+
+807
+00:40:39,280 --> 00:40:42,480
+equations of course it comes very
+
+808
+00:40:41,240 --> 00:40:44,480
+interesting question when you have
+
+809
+00:40:42,480 --> 00:40:46,640
+exactly as many equations as unknowns
+
+810
+00:40:44,480 --> 00:40:49,079
+that that's totally interesting but when
+
+811
+00:40:46,640 --> 00:40:50,760
+you have uh more unknowns than equations
+
+812
+00:40:49,079 --> 00:40:53,079
+you have freedom in linear equations
+
+813
+00:40:50,760 --> 00:40:54,599
+always to choose a non-zero solution so
+
+814
+00:40:53,079 --> 00:40:58,599
+if you want to review this this is
+
+815
+00:40:54,599 --> 00:40:58,599
+reviewed in chapter one
+
+816
+00:41:01,000 --> 00:41:04,400
+where he shows you how you actually find
+
+817
+00:41:02,440 --> 00:41:06,119
+the non-trivial solution and this is
+
+818
+00:41:04,400 --> 00:41:07,640
+kind of one of these theorems where it's
+
+819
+00:41:06,119 --> 00:41:09,200
+best to write out the proof yourself so
+
+820
+00:41:07,640 --> 00:41:10,760
+you understand the notation and what
+
+821
+00:41:09,200 --> 00:41:12,480
+you're actually doing here but the
+
+822
+00:41:10,760 --> 00:41:15,440
+system of equations is determined by
+
+823
+00:41:12,480 --> 00:41:17,560
+this coefficient system AI J that we got
+
+824
+00:41:15,440 --> 00:41:18,920
+here they give you the coefficients of
+
+825
+00:41:17,560 --> 00:41:22,359
+the equation in the equations you're
+
+826
+00:41:18,920 --> 00:41:25,200
+really solving um our our things like
+
+827
+00:41:22,359 --> 00:41:28,280
+this if I wrote the equation like this
+
+828
+00:41:25,200 --> 00:41:30,400
+and you were trying to solve for the XJ
+
+829
+00:41:28,280 --> 00:41:31,520
+calling them CJ so you had a certain
+
+830
+00:41:30,400 --> 00:41:32,720
+number of equations you had more
+
+831
+00:41:31,520 --> 00:41:34,359
+unknowns in the equations you'd be able
+
+832
+00:41:32,720 --> 00:41:36,480
+to find a solution CJ that would give
+
+833
+00:41:34,359 --> 00:41:37,680
+you this non-trivial uh dependence on
+
+834
+00:41:36,480 --> 00:41:41,000
+the
+
+835
+00:41:37,680 --> 00:41:43,640
+WJ okay this is the big theorem because
+
+836
+00:41:41,000 --> 00:41:47,920
+this allows us to say the following let
+
+837
+00:41:43,640 --> 00:41:47,920
+me make a corollary of this
+
+838
+00:41:59,160 --> 00:42:07,839
+all
+
+839
+00:42:01,040 --> 00:42:07,839
+bases of V have the same number of
+
+840
+00:42:12,640 --> 00:42:18,400
+elements and that number of elements is
+
+841
+00:42:15,079 --> 00:42:21,359
+by definition called the dimension of V
+
+842
+00:42:18,400 --> 00:42:22,440
+so it's an integer that is the number of
+
+843
+00:42:21,359 --> 00:42:24,520
+elements in a
+
+844
+00:42:22,440 --> 00:42:27,800
+basis that's the first statement the
+
+845
+00:42:24,520 --> 00:42:30,319
+second statement is all
+
+846
+00:42:27,800 --> 00:42:30,319
+spanning
+
+847
+00:42:32,000 --> 00:42:39,119
+sets have more the number of elements in
+
+848
+00:42:36,440 --> 00:42:45,280
+s at least the dimension of
+
+849
+00:42:39,119 --> 00:42:45,280
+B all three all linearly independent
+
+850
+00:42:47,839 --> 00:42:52,800
+sets have the number of elements in the
+
+851
+00:42:51,160 --> 00:42:56,760
+linearly independent set less than or
+
+852
+00:42:52,800 --> 00:42:56,760
+equal to the dimension of V
+
+853
+00:42:58,160 --> 00:43:03,119
+so uh two and three follow from one
+
+854
+00:43:01,040 --> 00:43:04,559
+because we saw that if the theorem we
+
+855
+00:43:03,119 --> 00:43:06,920
+had on spanning sets is if we had a
+
+856
+00:43:04,559 --> 00:43:08,000
+spanning set we could always reduce it
+
+857
+00:43:06,920 --> 00:43:10,520
+to get a
+
+858
+00:43:08,000 --> 00:43:11,760
+basis right so the number of elements in
+
+859
+00:43:10,520 --> 00:43:14,480
+it has to be at least the number of
+
+860
+00:43:11,760 --> 00:43:15,839
+elements in a basis and this this thing
+
+861
+00:43:14,480 --> 00:43:17,640
+follows from our theorem on linear
+
+862
+00:43:15,839 --> 00:43:19,359
+independent sets because we saw a linear
+
+863
+00:43:17,640 --> 00:43:21,599
+independent set we could always increase
+
+864
+00:43:19,359 --> 00:43:22,960
+it to get a bases so the number of
+
+865
+00:43:21,599 --> 00:43:24,160
+elements in it has to be less than or
+
+866
+00:43:22,960 --> 00:43:26,920
+equal to the number of elements in a
+
+867
+00:43:24,160 --> 00:43:29,119
+basis is the dimension of the zero of
+
+868
+00:43:26,920 --> 00:43:29,119
+the
+
+869
+00:43:30,240 --> 00:43:37,079
+thank you the dimension of this is equal
+
+870
+00:43:33,400 --> 00:43:40,000
+to zero the dimension of the space f to
+
+871
+00:43:37,079 --> 00:43:43,839
+the N turns out to be
+
+872
+00:43:40,000 --> 00:43:46,000
+n so there's a vector space of any
+
+873
+00:43:43,839 --> 00:43:48,480
+positive Dimension this Dimension is
+
+874
+00:43:46,000 --> 00:43:51,720
+supposed to be a non- negative
+
+875
+00:43:48,480 --> 00:43:54,400
+integer good question
+
+876
+00:43:51,720 --> 00:43:56,839
+okay so we now have got a vector space
+
+877
+00:43:54,400 --> 00:43:58,480
+of Any Given Dimension we're going to
+
+878
+00:43:56,839 --> 00:44:00,280
+have to prove this but it's not hard
+
+879
+00:43:58,480 --> 00:44:02,760
+because you just have to write down a
+
+880
+00:44:00,280 --> 00:44:06,800
+linear independent spanning set and the
+
+881
+00:44:02,760 --> 00:44:06,800
+proof of this is use the standard
+
+882
+00:44:09,960 --> 00:44:15,200
+basis where
+
+883
+00:44:11,760 --> 00:44:18,000
+VI is the vector which has just a a one
+
+884
+00:44:15,200 --> 00:44:18,000
+in the I
+
+885
+00:44:18,280 --> 00:44:23,119
+place it's easy to show that spans and
+
+886
+00:44:20,800 --> 00:44:25,800
+linearly independent so that shows the
+
+887
+00:44:23,119 --> 00:44:27,640
+dimension of this space is n as you
+
+888
+00:44:25,800 --> 00:44:30,520
+might expect
+
+889
+00:44:27,640 --> 00:44:30,520
+okay let's prove the
+
+890
+00:44:31,200 --> 00:44:36,920
+corollary well a basis is a set that's
+
+891
+00:44:34,440 --> 00:44:38,240
+linearly independent and spans so let's
+
+892
+00:44:36,920 --> 00:44:41,480
+let the first
+
+893
+00:44:38,240 --> 00:44:46,079
+basis B be the first basis and the
+
+894
+00:44:41,480 --> 00:44:48,800
+second basis be B Prime and uh
+
+895
+00:44:46,079 --> 00:44:54,599
+since B
+
+896
+00:44:48,800 --> 00:44:56,599
+spans and B Prime is linearly
+
+897
+00:44:54,599 --> 00:44:59,119
+independent we know that the number of
+
+898
+00:44:56,599 --> 00:45:00,480
+elements in B is at least the number of
+
+899
+00:44:59,119 --> 00:45:05,800
+elements in B
+
+900
+00:45:00,480 --> 00:45:08,720
+Prime by the main theorem and since B
+
+901
+00:45:05,800 --> 00:45:10,880
+Prime spans and B is linearly
+
+902
+00:45:08,720 --> 00:45:12,599
+independent we know the number elements
+
+903
+00:45:10,880 --> 00:45:14,440
+in B Prime is at least the number of
+
+904
+00:45:12,599 --> 00:45:16,920
+elements in
+
+905
+00:45:14,440 --> 00:45:18,200
+B and if you have two integers and
+
+906
+00:45:16,920 --> 00:45:19,960
+they're both greater and equal to each
+
+907
+00:45:18,200 --> 00:45:22,960
+other they have to be
+
+908
+00:45:19,960 --> 00:45:22,960
+equal
+
+909
+00:45:25,079 --> 00:45:31,319
+okay okay
+
+910
+00:45:27,640 --> 00:45:33,319
+and um let me give you one more amazing
+
+911
+00:45:31,319 --> 00:45:34,559
+the bases are the key to analyzing
+
+912
+00:45:33,319 --> 00:45:37,079
+Vector spaces we're going to see that
+
+913
+00:45:34,559 --> 00:45:40,160
+you just a vector space itself is
+
+914
+00:45:37,079 --> 00:45:41,319
+beautiful and and symmetric and Etc but
+
+915
+00:45:40,160 --> 00:45:43,480
+if you really want to get down to the
+
+916
+00:45:41,319 --> 00:45:46,440
+nitty-gritty you usually choose a
+
+917
+00:45:43,480 --> 00:45:47,760
+bases and uh I'll give you one more very
+
+918
+00:45:46,440 --> 00:45:51,079
+cool thing about
+
+919
+00:45:47,760 --> 00:45:51,079
+bases so
+
+920
+00:45:54,280 --> 00:46:02,040
+suppose suppose
+
+921
+00:45:57,920 --> 00:46:02,040
+W is a Subspace of
+
+922
+00:46:02,680 --> 00:46:06,440
+V they're all finite
+
+923
+00:46:06,720 --> 00:46:10,359
+dimensional
+
+924
+00:46:08,839 --> 00:46:13,079
+and
+
+925
+00:46:10,359 --> 00:46:15,680
+W1 through
+
+926
+00:46:13,079 --> 00:46:19,079
+WM is a
+
+927
+00:46:15,680 --> 00:46:19,079
+basis for
+
+928
+00:46:19,800 --> 00:46:25,800
+w
+
+929
+00:46:21,319 --> 00:46:25,800
+then we may extend
+
+930
+00:46:28,200 --> 00:46:33,920
+to a
+
+931
+00:46:30,160 --> 00:46:36,160
+basis for V
+
+932
+00:46:33,920 --> 00:46:38,000
+namely what I mean by that is you take
+
+933
+00:46:36,160 --> 00:46:40,520
+the first elements of your basis to be
+
+934
+00:46:38,000 --> 00:46:45,640
+W1 through WM and then you add some new
+
+935
+00:46:40,520 --> 00:46:47,480
+things VM + one vm+ 2 you can you can
+
+936
+00:46:45,640 --> 00:46:49,720
+adjoin elements to that set so that you
+
+937
+00:46:47,480 --> 00:46:52,480
+eventually get to a set which is a basis
+
+938
+00:46:49,720 --> 00:46:54,040
+for V you can use your original basis
+
+939
+00:46:52,480 --> 00:46:57,280
+for w and just keep pushing it out to
+
+940
+00:46:54,040 --> 00:46:59,359
+get a basis for V why is that because
+
+941
+00:46:57,280 --> 00:47:02,599
+the original set was linearly
+
+942
+00:46:59,359 --> 00:47:04,480
+independent and span W well if it's
+
+943
+00:47:02,599 --> 00:47:06,440
+linearly independent it's linearly
+
+944
+00:47:04,480 --> 00:47:08,319
+independent in V if no linear
+
+945
+00:47:06,440 --> 00:47:10,200
+combination is the zero Vector but the
+
+946
+00:47:08,319 --> 00:47:11,559
+zero linear combination that's also true
+
+947
+00:47:10,200 --> 00:47:13,200
+in V you don't have any more linear
+
+948
+00:47:11,559 --> 00:47:16,160
+combinations of this thing in V than you
+
+949
+00:47:13,200 --> 00:47:18,760
+did in W so that this is a linearly
+
+950
+00:47:16,160 --> 00:47:18,760
+independent
+
+951
+00:47:20,280 --> 00:47:24,480
+set is
+
+952
+00:47:22,480 --> 00:47:28,000
+linearly
+
+953
+00:47:24,480 --> 00:47:30,440
+independent in v and we saw that you can
+
+954
+00:47:28,000 --> 00:47:34,200
+always take a linearly independent set
+
+955
+00:47:30,440 --> 00:47:35,440
+and extend it to a basis so there it is
+
+956
+00:47:34,200 --> 00:47:38,720
+right that was one of our propositions
+
+957
+00:47:35,440 --> 00:47:38,720
+on linear L impendent
+
+958
+00:47:43,400 --> 00:47:48,440
+sets now that makes the structure of
+
+959
+00:47:46,319 --> 00:47:51,760
+quotient groups Etc in this situation
+
+960
+00:47:48,440 --> 00:47:53,839
+extremely transparent because remember
+
+961
+00:47:51,760 --> 00:47:55,640
+that when we had a Subspace and this is
+
+962
+00:47:53,839 --> 00:47:59,240
+much nicer than the theory of arbitrary
+
+963
+00:47:55,640 --> 00:48:01,240
+groups and when we had had a Subspace w
+
+964
+00:47:59,240 --> 00:48:08,280
+we had a quotient
+
+965
+00:48:01,240 --> 00:48:08,280
+space gives a map V to the coets of
+
+966
+00:48:11,720 --> 00:48:18,920
+w now in that map the first M vectors go
+
+967
+00:48:16,599 --> 00:48:24,400
+to zero because they're in the
+
+968
+00:48:18,920 --> 00:48:28,680
+kernel right so uh gives a
+
+969
+00:48:24,400 --> 00:48:30,720
+homomorphism f so fact I don't know if
+
+970
+00:48:28,680 --> 00:48:36,359
+Peter assigned this to you for homework
+
+971
+00:48:30,720 --> 00:48:41,520
+the F of the VN + one VM +
+
+972
+00:48:36,359 --> 00:48:47,160
+one comma comma F of
+
+973
+00:48:41,520 --> 00:48:47,160
+VN that ordered that's ordered set of
+
+974
+00:48:48,319 --> 00:48:51,760
+vectors gives a
+
+975
+00:48:52,520 --> 00:48:58,720
+basis
+
+976
+00:48:54,200 --> 00:49:00,000
+for VM w
+
+977
+00:48:58,720 --> 00:49:03,440
+and
+
+978
+00:49:00,000 --> 00:49:04,559
+consequently the dimension of V is the
+
+979
+00:49:03,440 --> 00:49:07,799
+dimension of
+
+980
+00:49:04,559 --> 00:49:10,920
+W plus the dimension of v
+
+981
+00:49:07,799 --> 00:49:13,680
+w because n is the dimension of v and we
+
+982
+00:49:10,920 --> 00:49:14,960
+needed M vectors to give a basis of w
+
+983
+00:49:13,680 --> 00:49:19,040
+and I claim the rest of these things
+
+984
+00:49:14,960 --> 00:49:22,280
+give a basis for VOD w got to find that
+
+985
+00:49:19,040 --> 00:49:25,119
+now notice what's going on here we've
+
+986
+00:49:22,280 --> 00:49:29,880
+really got a Subspace of V that's
+
+987
+00:49:25,119 --> 00:49:33,000
+mapping to VOD w so if we let W Prime be
+
+988
+00:49:29,880 --> 00:49:35,640
+the span
+
+989
+00:49:33,000 --> 00:49:39,720
+of VN +
+
+990
+00:49:35,640 --> 00:49:41,359
+one up to V VM + one up to
+
+991
+00:49:39,720 --> 00:49:45,040
+VN
+
+992
+00:49:41,359 --> 00:49:45,040
+um is a
+
+993
+00:49:45,079 --> 00:49:50,720
+Subspace of V
+
+994
+00:49:49,040 --> 00:49:53,880
+mapping
+
+995
+00:49:50,720 --> 00:49:56,240
+isomorphically to BM W so in some sense
+
+996
+00:49:53,880 --> 00:49:58,559
+this isn't just a quotient uh it's just
+
+997
+00:49:56,240 --> 00:50:01,960
+not a whole orphism image of V you can
+
+998
+00:49:58,559 --> 00:50:04,359
+you can think of it as inside of V now
+
+999
+00:50:01,960 --> 00:50:06,280
+that you can't do for groups don't ever
+
+1000
+00:50:04,359 --> 00:50:09,839
+think you can do that for groups if you
+
+1001
+00:50:06,280 --> 00:50:12,839
+take the group zmod 2 Zod 4 that's a
+
+1002
+00:50:09,839 --> 00:50:18,040
+perfectly nice Group G and it has a very
+
+1003
+00:50:12,839 --> 00:50:20,799
+nice subgroup which is uh call H which
+
+1004
+00:50:18,040 --> 00:50:23,799
+you could write as 2z mod 4z which is
+
+1005
+00:50:20,799 --> 00:50:27,079
+isomorphic to Zod 2 Z the even things
+
+1006
+00:50:23,799 --> 00:50:29,599
+mod 4 so this is a cyclic group of four
+
+1007
+00:50:27,079 --> 00:50:32,440
+it contains a cyclic group of order two
+
+1008
+00:50:29,599 --> 00:50:34,799
+the quotient group is cyclic of order
+
+1009
+00:50:32,440 --> 00:50:36,920
+two because it has to be of order two
+
+1010
+00:50:34,799 --> 00:50:39,079
+and any group of order two is cyclic
+
+1011
+00:50:36,920 --> 00:50:42,079
+there is no other cyclic group of order
+
+1012
+00:50:39,079 --> 00:50:45,000
+two except for H in here so you cannot
+
+1013
+00:50:42,079 --> 00:50:49,799
+find another cyclic group of order two
+
+1014
+00:50:45,000 --> 00:50:54,880
+there does not exist an H Prime in G
+
+1015
+00:50:49,799 --> 00:50:56,760
+mapping isomorphically to GM H because H
+
+1016
+00:50:54,880 --> 00:50:58,760
+Prime would have to be of order two but
+
+1017
+00:50:56,760 --> 00:51:00,920
+the only subgroup of order 2 is H and if
+
+1018
+00:50:58,760 --> 00:51:02,640
+you take the image of H in the map to g
+
+1019
+00:51:00,920 --> 00:51:05,480
+h it's
+
+1020
+00:51:02,640 --> 00:51:07,400
+zero so it's a remarkable fact of vector
+
+1021
+00:51:05,480 --> 00:51:09,400
+spaces that because of the existence of
+
+1022
+00:51:07,400 --> 00:51:12,119
+bases you can find a Subspace that in
+
+1023
+00:51:09,400 --> 00:51:13,799
+some sense lifts this don't think you
+
+1024
+00:51:12,119 --> 00:51:16,440
+can do that for a general
+
+1025
+00:51:13,799 --> 00:51:19,520
+homomorphism I've just warned
+
+1026
+00:51:16,440 --> 00:51:21,920
+you okay we'll put a little waraki sign
+
+1027
+00:51:19,520 --> 00:51:25,200
+next to it rule
+
+1028
+00:51:21,920 --> 00:51:28,440
+a okay have a good weekend Peter I'll
+
+1029
+00:51:25,200 --> 00:51:28,440
+see you Monday
+

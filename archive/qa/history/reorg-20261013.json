@@ -1,0 +1,1520 @@
+{
+  "created": "2026-10-13T22:15:43",
+  "moves": [
+    {
+      "kind": "video",
+      "source": "lec06.mp4",
+      "destination": "videos/abstract-algebra-06.mp4",
+      "size": 45838137,
+      "sha256": null
+    },
+    {
+      "kind": "video",
+      "source": "lec07.mp4",
+      "destination": "videos/abstract-algebra-07.mp4",
+      "size": 55842311,
+      "sha256": null
+    },
+    {
+      "kind": "video",
+      "source": "哈佛大学：抽象代数 Abstract Algebra, Prof. Benedict Gross/[P08]8.Lec 8  Abstract Algebra.mp4",
+      "destination": "videos/abstract-algebra-08.mp4",
+      "size": 48893796,
+      "sha256": null
+    },
+    {
+      "kind": "video",
+      "source": "哈佛大学：抽象代数 Abstract Algebra, Prof. Benedict Gross/[P09]9.Lec 9  Abstract Algebra.mp4",
+      "destination": "videos/abstract-algebra-09.mp4",
+      "size": 50932540,
+      "sha256": null
+    },
+    {
+      "kind": "video",
+      "source": "哈佛大学：抽象代数 Abstract Algebra, Prof. Benedict Gross/[P10]10.Lec 10  Abstract Algebra.mp4",
+      "destination": "videos/abstract-algebra-10.mp4",
+      "size": 49292562,
+      "sha256": null
+    },
+    {
+      "kind": "video",
+      "source": "哈佛大学：抽象代数 Abstract Algebra, Prof. Benedict Gross/[P11]11.Lec 11  Abstract Algebra.mp4",
+      "destination": "videos/abstract-algebra-11.mp4",
+      "size": 46267942,
+      "sha256": null
+    },
+    {
+      "kind": "video",
+      "source": "哈佛大学：抽象代数 Abstract Algebra, Prof. Benedict Gross/[P12]12.Lec 12  Abstract Algebra.mp4",
+      "destination": "videos/abstract-algebra-12.mp4",
+      "size": 46109448,
+      "sha256": null
+    },
+    {
+      "kind": "video",
+      "source": "哈佛大学：抽象代数 Abstract Algebra, Prof. Benedict Gross/[P13]13.Lec 13  Abstract Algebra.mp4",
+      "destination": "videos/abstract-algebra-13.mp4",
+      "size": 48527498,
+      "sha256": null
+    },
+    {
+      "kind": "video",
+      "source": "哈佛大学：抽象代数 Abstract Algebra, Prof. Benedict Gross/[P14]14.Lec 14  Abstract Algebra.mp4",
+      "destination": "videos/abstract-algebra-14.mp4",
+      "size": 47183778,
+      "sha256": null
+    },
+    {
+      "kind": "video",
+      "source": "哈佛大学：抽象代数 Abstract Algebra, Prof. Benedict Gross/[P15]15.Lec 15  Abstract Algebra.mp4",
+      "destination": "videos/abstract-algebra-15.mp4",
+      "size": 52703441,
+      "sha256": null
+    },
+    {
+      "kind": "video",
+      "source": "哈佛大学：抽象代数 Abstract Algebra, Prof. Benedict Gross/[P16]16.Lec 16  Abstract Algebra.mp4",
+      "destination": "videos/abstract-algebra-16.mp4",
+      "size": 54558347,
+      "sha256": null
+    },
+    {
+      "kind": "video",
+      "source": "哈佛大学：抽象代数 Abstract Algebra, Prof. Benedict Gross/[P17]17.Lec 17  Abstract Algebra.mp4",
+      "destination": "videos/abstract-algebra-17.mp4",
+      "size": 44168291,
+      "sha256": null
+    },
+    {
+      "kind": "video",
+      "source": "哈佛大学：抽象代数 Abstract Algebra, Prof. Benedict Gross/[P18]18.Lec 18  Abstract Algebra.mp4",
+      "destination": "videos/abstract-algebra-18.mp4",
+      "size": 45155758,
+      "sha256": null
+    },
+    {
+      "kind": "video",
+      "source": "哈佛大学：抽象代数 Abstract Algebra, Prof. Benedict Gross/[P19]19.Lec 19  Abstract Algebra.mp4",
+      "destination": "videos/abstract-algebra-19.mp4",
+      "size": 48487705,
+      "sha256": null
+    },
+    {
+      "kind": "video",
+      "source": "哈佛大学：抽象代数 Abstract Algebra, Prof. Benedict Gross/[P20]20.Lec 20  Abstract Algebra.mp4",
+      "destination": "videos/abstract-algebra-20.mp4",
+      "size": 51204288,
+      "sha256": null
+    },
+    {
+      "kind": "video",
+      "source": "哈佛大学：抽象代数 Abstract Algebra, Prof. Benedict Gross/[P21]21.Lec 21  Abstract Algebra.mp4",
+      "destination": "videos/abstract-algebra-21.mp4",
+      "size": 50647578,
+      "sha256": null
+    },
+    {
+      "kind": "video",
+      "source": "哈佛大学：抽象代数 Abstract Algebra, Prof. Benedict Gross/[P22]22.Lec 22  Abstract Algebra.mp4",
+      "destination": "videos/abstract-algebra-22.mp4",
+      "size": 43648192,
+      "sha256": null
+    },
+    {
+      "kind": "video",
+      "source": "哈佛大学：抽象代数 Abstract Algebra, Prof. Benedict Gross/[P23]23.Lec 23  Abstract Algebra.mp4",
+      "destination": "videos/abstract-algebra-23.mp4",
+      "size": 56759869,
+      "sha256": null
+    },
+    {
+      "kind": "video",
+      "source": "哈佛大学：抽象代数 Abstract Algebra, Prof. Benedict Gross/[P24]24.Lec 24  Abstract Algebra.mp4",
+      "destination": "videos/abstract-algebra-24.mp4",
+      "size": 51593987,
+      "sha256": null
+    },
+    {
+      "kind": "video",
+      "source": "哈佛大学：抽象代数 Abstract Algebra, Prof. Benedict Gross/[P25]25.Lec 25  Abstract Algebra.mp4",
+      "destination": "videos/abstract-algebra-25.mp4",
+      "size": 46775056,
+      "sha256": null
+    },
+    {
+      "kind": "video",
+      "source": "哈佛大学：抽象代数 Abstract Algebra, Prof. Benedict Gross/[P26]26.Lec 26  Abstract Algebra.mp4",
+      "destination": "videos/abstract-algebra-26.mp4",
+      "size": 52342118,
+      "sha256": null
+    },
+    {
+      "kind": "video",
+      "source": "哈佛大学：抽象代数 Abstract Algebra, Prof. Benedict Gross/[P27]27.Lec 27  Abstract Algebra.mp4",
+      "destination": "videos/abstract-algebra-27.mp4",
+      "size": 44966437,
+      "sha256": null
+    },
+    {
+      "kind": "video",
+      "source": "哈佛大学：抽象代数 Abstract Algebra, Prof. Benedict Gross/[P28]28.Lec 28  Abstract Algebra.mp4",
+      "destination": "videos/abstract-algebra-28.mp4",
+      "size": 45059233,
+      "sha256": null
+    },
+    {
+      "kind": "video",
+      "source": "哈佛大学：抽象代数 Abstract Algebra, Prof. Benedict Gross/[P29]29.Lec 29  Abstract Algebra.mp4",
+      "destination": "videos/abstract-algebra-29.mp4",
+      "size": 45090956,
+      "sha256": null
+    },
+    {
+      "kind": "video",
+      "source": "哈佛大学：抽象代数 Abstract Algebra, Prof. Benedict Gross/[P30]30.Lec 30  Abstract Algebra.mp4",
+      "destination": "videos/abstract-algebra-30.mp4",
+      "size": 50858036,
+      "sha256": null
+    },
+    {
+      "kind": "video",
+      "source": "哈佛大学：抽象代数 Abstract Algebra, Prof. Benedict Gross/[P31]31.Lec 31  Abstract Algebra.mp4",
+      "destination": "videos/abstract-algebra-31.mp4",
+      "size": 42586928,
+      "sha256": null
+    },
+    {
+      "kind": "video",
+      "source": "哈佛大学：抽象代数 Abstract Algebra, Prof. Benedict Gross/[P32]32.Lec 32  Abstract Algebra.mp4",
+      "destination": "videos/abstract-algebra-32.mp4",
+      "size": 53660422,
+      "sha256": null
+    },
+    {
+      "kind": "video",
+      "source": "哈佛大学：抽象代数 Abstract Algebra, Prof. Benedict Gross/[P33]33.Lec 33  Abstract Algebra.mp4",
+      "destination": "videos/abstract-algebra-33.mp4",
+      "size": 48325615,
+      "sha256": null
+    },
+    {
+      "kind": "video",
+      "source": "哈佛大学：抽象代数 Abstract Algebra, Prof. Benedict Gross/[P34]34.Lec 34  Abstract Algebra.mp4",
+      "destination": "videos/abstract-algebra-34.mp4",
+      "size": 49915136,
+      "sha256": null
+    },
+    {
+      "kind": "video",
+      "source": "哈佛大学：抽象代数 Abstract Algebra, Prof. Benedict Gross/[P35]35.Lec 35  Abstract Algebra.mp4",
+      "destination": "videos/abstract-algebra-35.mp4",
+      "size": 51927784,
+      "sha256": null
+    },
+    {
+      "kind": "video",
+      "source": "哈佛大学：抽象代数 Abstract Algebra, Prof. Benedict Gross/[P36]36.Lec 36  Abstract Algebra.mp4",
+      "destination": "videos/abstract-algebra-36.mp4",
+      "size": 51078117,
+      "sha256": null
+    },
+    {
+      "kind": "video",
+      "source": "哈佛大学：抽象代数 Abstract Algebra, Prof. Benedict Gross/[P37]37.Review 1.mp4",
+      "destination": "videos/abstract-algebra-37.mp4",
+      "size": 49999777,
+      "sha256": null
+    },
+    {
+      "kind": "video",
+      "source": "哈佛大学：抽象代数 Abstract Algebra, Prof. Benedict Gross/[P38]38.Review 2.mp4",
+      "destination": "videos/abstract-algebra-38.mp4",
+      "size": 52327289,
+      "sha256": null
+    },
+    {
+      "kind": "tsv",
+      "source": "37 - Review 1.blocks.tsv",
+      "destination": "subtitles/blocks/abstract-algebra-37.blocks.tsv",
+      "size": 65342,
+      "sha256": "ab4afbb5b1022806f3dbea6521bdde0f08bdeccb9bfc80680b5eec0348250016"
+    },
+    {
+      "kind": "srt",
+      "source": "37 - Review 1.en-zh.srt",
+      "destination": "videos/abstract-algebra-37.zh-en.srt",
+      "size": 71673,
+      "sha256": "32c12b138f26a6df47367e519bfedfb3ed28434acb654af67d2d1a1c205b2afd"
+    },
+    {
+      "kind": "srt",
+      "source": "37 - Review 1.en.srt",
+      "destination": "subtitles/raw/abstract-algebra-37.raw.en.srt",
+      "size": 69605,
+      "sha256": "0ac9c0b96058756677bee441f25d0717312750d8cc1437e1ffb896bfd106d546"
+    },
+    {
+      "kind": "tsv",
+      "source": "38 - Review 2.blocks.tsv",
+      "destination": "subtitles/blocks/abstract-algebra-38.blocks.tsv",
+      "size": 67999,
+      "sha256": "fe9cfe91c787a8d72eeae4ea9154429a053a68d4b1619f6cca16f054d409e383"
+    },
+    {
+      "kind": "srt",
+      "source": "38 - Review 2.en-zh.srt",
+      "destination": "videos/abstract-algebra-38.zh-en.srt",
+      "size": 75275,
+      "sha256": "437ea7cb73475513fffc19af6197dcf5cba15db005dca6ccef41f1a31ca0dc5e"
+    },
+    {
+      "kind": "srt",
+      "source": "38 - Review 2.en.srt",
+      "destination": "subtitles/raw/abstract-algebra-38.raw.en.srt",
+      "size": 76456,
+      "sha256": "698beabd79c0f6f0977783074e2c95303e5fe6aea8e4e98d7b1382a2f345c3ed"
+    },
+    {
+      "kind": "srt",
+      "source": "Lec06_raw.en.srt",
+      "destination": "subtitles/raw/abstract-algebra-06.raw.en.srt",
+      "size": 57097,
+      "sha256": "a8a30e392687ac8dcf9d7c001c9b4924eb201a5af83034bc800931b7360bbfa5"
+    },
+    {
+      "kind": "tsv",
+      "source": "Lec06_bilingual.blocks.tsv",
+      "destination": "archive/legacy/abstract-algebra-06.legacy.blocks.tsv",
+      "size": 45856,
+      "sha256": "7db59f73a98d7cdc5976e7100093800ccdad6bb3eb9ab5d820761233aad6dfda"
+    },
+    {
+      "kind": "srt",
+      "source": "Lec06_bilingual.en-zh.srt",
+      "destination": "archive/legacy/abstract-algebra-06.legacy.zh-en.srt",
+      "size": 56045,
+      "sha256": "aa1cf52df1e0d43a280b78f5b85bd148cb55d4e0555562450bb37a71466f2bc6"
+    },
+    {
+      "kind": "json",
+      "source": "Lec06_bilingual.splits.json",
+      "destination": "archive/legacy/abstract-algebra-06.legacy.splits.json",
+      "size": 3855,
+      "sha256": "dab7053e5cf9e37a28553830139c02119799703cd9281225137e8177280ad256"
+    },
+    {
+      "kind": "pdf",
+      "source": "notes/L1-N.pdf",
+      "destination": "notes/abstract-algebra-01.notes.pdf",
+      "size": 91802,
+      "sha256": "c1d4e312937c49e60ac40d1df0c3e19695ccb4707b9e4570cbf8d6b4c011afb5"
+    },
+    {
+      "kind": "pdf",
+      "source": "notes/L10-N.pdf",
+      "destination": "notes/abstract-algebra-10.notes.pdf",
+      "size": 48511,
+      "sha256": "eb261fae94212a13c3fa053fc77f878f024fa87d4eaa4f3d2a7fef4aa6d24036"
+    },
+    {
+      "kind": "pdf",
+      "source": "notes/L11-N.pdf",
+      "destination": "notes/abstract-algebra-11.notes.pdf",
+      "size": 90519,
+      "sha256": "87290ae402bcfc689c33022a28013009569648a1e2f929acf86962278a44a542"
+    },
+    {
+      "kind": "pdf",
+      "source": "notes/L12-N.pdf",
+      "destination": "notes/abstract-algebra-12.notes.pdf",
+      "size": 97940,
+      "sha256": "d5bb8fdc6ec8c8e3ee23777a51eab52a94fae1c19fd146269cd7d671eaf3f63b"
+    },
+    {
+      "kind": "pdf",
+      "source": "notes/L13-N.pdf",
+      "destination": "notes/abstract-algebra-13.notes.pdf",
+      "size": 44416,
+      "sha256": "e3a47e35d0012645e974711138c9ab2dc0a91c47fdfd67cac9746e921ca51108"
+    },
+    {
+      "kind": "pdf",
+      "source": "notes/L14-N.pdf",
+      "destination": "notes/abstract-algebra-14.notes.pdf",
+      "size": 97255,
+      "sha256": "7b7909be1428355ad36d77668a26b98cdd9f1663d57c377c08e03b1f76c79c84"
+    },
+    {
+      "kind": "pdf",
+      "source": "notes/L15-N.pdf",
+      "destination": "notes/abstract-algebra-15.notes.pdf",
+      "size": 91447,
+      "sha256": "f3f4e80106d60723f19340a7b82e007ed5569f80af854f1cd6e28459434e46f5"
+    },
+    {
+      "kind": "pdf",
+      "source": "notes/L16-N.pdf",
+      "destination": "notes/abstract-algebra-16.notes.pdf",
+      "size": 104294,
+      "sha256": "ba7e37e1cf624083921cc72e3b410819c3bd720099bd7500cb04ea9a494ab888"
+    },
+    {
+      "kind": "pdf",
+      "source": "notes/L17-N.pdf",
+      "destination": "notes/abstract-algebra-17.notes.pdf",
+      "size": 89407,
+      "sha256": "fad66c4efcfe69987f7fdb2717388b5a234caff2528498a1362b421db18aca72"
+    },
+    {
+      "kind": "pdf",
+      "source": "notes/L18-N.pdf",
+      "destination": "notes/abstract-algebra-18.notes.pdf",
+      "size": 79539,
+      "sha256": "ab0fa0c68fa6531805f74de944424211a4586e364d9c047b3c90aacec4505196"
+    },
+    {
+      "kind": "pdf",
+      "source": "notes/L19-N.pdf",
+      "destination": "notes/abstract-algebra-19.notes.pdf",
+      "size": 98726,
+      "sha256": "cada7a310b493f127f0f5b7df28779017a70a43edf81cc160e6c7e8d1b817a46"
+    },
+    {
+      "kind": "pdf",
+      "source": "notes/L2-N.pdf",
+      "destination": "notes/abstract-algebra-02.notes.pdf",
+      "size": 407027,
+      "sha256": "df503c08c1ef9979373bf2df2ebc0a1a92ac13379fe3a2a67ac9307c46d7ec23"
+    },
+    {
+      "kind": "pdf",
+      "source": "notes/L20-N.pdf",
+      "destination": "notes/abstract-algebra-20.notes.pdf",
+      "size": 100433,
+      "sha256": "909ddc9906390aaf355cf0e27d7868319238be1fcb090e691ef12f2606825635"
+    },
+    {
+      "kind": "pdf",
+      "source": "notes/L21-N.pdf",
+      "destination": "notes/abstract-algebra-21.notes.pdf",
+      "size": 58989,
+      "sha256": "175ff990a44b363156d470c823b21d97cc22df9ecc1b766ccde94b5c40b77690"
+    },
+    {
+      "kind": "pdf",
+      "source": "notes/L22-N.pdf",
+      "destination": "notes/abstract-algebra-22.notes.pdf",
+      "size": 33507,
+      "sha256": "cb6adbe01470d050c84d6e8c4d3a019cb3479f2983b688936f7cd256d4e17ccd"
+    },
+    {
+      "kind": "pdf",
+      "source": "notes/L23-N.pdf",
+      "destination": "notes/abstract-algebra-23.notes.pdf",
+      "size": 50813,
+      "sha256": "b48e3b97211e368492167ec4b5f1cdc37e19fd791dda7d9f6f5d8d27df05f85b"
+    },
+    {
+      "kind": "pdf",
+      "source": "notes/L24-N.pdf",
+      "destination": "notes/abstract-algebra-24.notes.pdf",
+      "size": 93987,
+      "sha256": "ed597f718813564ccaaa9f95ce33648990bba6980e93b7949973d6a7ac98c952"
+    },
+    {
+      "kind": "pdf",
+      "source": "notes/L25-N.pdf",
+      "destination": "notes/abstract-algebra-25.notes.pdf",
+      "size": 107197,
+      "sha256": "482919dc219191fa7f6f856597d94a8d6171f7423b8af403bdebf035a6885831"
+    },
+    {
+      "kind": "pdf",
+      "source": "notes/L26-N.pdf",
+      "destination": "notes/abstract-algebra-26.notes.pdf",
+      "size": 110005,
+      "sha256": "64ba91703ee6655eefbbffef8f1063c8735aa9220f0ac1c4e6082c21d6ad8c28"
+    },
+    {
+      "kind": "pdf",
+      "source": "notes/L27-N.pdf",
+      "destination": "notes/abstract-algebra-27.notes.pdf",
+      "size": 96996,
+      "sha256": "e7cc6aec75ef11a2877f8df6e4e876febbfeabd24bf1f2d9a2112c10e048a157"
+    },
+    {
+      "kind": "pdf",
+      "source": "notes/L28-N.pdf",
+      "destination": "notes/abstract-algebra-28.notes.pdf",
+      "size": 56778,
+      "sha256": "9e66ac36ddcc5f7a90b1b7b18d07c9f8f4bb20e466e6c3c03a4a7fa627770851"
+    },
+    {
+      "kind": "pdf",
+      "source": "notes/L29-N.pdf",
+      "destination": "notes/abstract-algebra-29.notes.pdf",
+      "size": 59753,
+      "sha256": "904a20de6268339b0ed638b3d55aa84a4216d6238423719d59e0022b8ab3a9b6"
+    },
+    {
+      "kind": "pdf",
+      "source": "notes/L3-N.pdf",
+      "destination": "notes/abstract-algebra-03.notes.pdf",
+      "size": 59862,
+      "sha256": "48149e1c70822738fe4a6e18885fcd506256f7d1750d8d94b1431e76a882053c"
+    },
+    {
+      "kind": "pdf",
+      "source": "notes/L30-N.pdf",
+      "destination": "notes/abstract-algebra-30.notes.pdf",
+      "size": 88092,
+      "sha256": "f4eab9fb656606368465c6ccb249ff57a788827241b880c4b02d6992dcf84025"
+    },
+    {
+      "kind": "pdf",
+      "source": "notes/L31-N.pdf",
+      "destination": "notes/abstract-algebra-31.notes.pdf",
+      "size": 90832,
+      "sha256": "8ff441b854d5bd01da1012871d5c8991b1ae03bf38b760955e9c35cb81365a67"
+    },
+    {
+      "kind": "pdf",
+      "source": "notes/L32-N.pdf",
+      "destination": "notes/abstract-algebra-32.notes.pdf",
+      "size": 78222,
+      "sha256": "7f2cca6a7e2af02b64874f3fcdb9b8f585e520a524c7424761c96cd3c5a05808"
+    },
+    {
+      "kind": "pdf",
+      "source": "notes/L33-N.pdf",
+      "destination": "notes/abstract-algebra-33.notes.pdf",
+      "size": 87960,
+      "sha256": "364ed72dcc900c9ff24495d05adcc4a0886a5f14e2d6a2acf670c321251e6772"
+    },
+    {
+      "kind": "pdf",
+      "source": "notes/L34-N.pdf",
+      "destination": "notes/abstract-algebra-34.notes.pdf",
+      "size": 84681,
+      "sha256": "02490a79b38ac3950c1d833848d032c5b18efb77ac55fd72c8b044ed53f78693"
+    },
+    {
+      "kind": "pdf",
+      "source": "notes/L35-N.pdf",
+      "destination": "notes/abstract-algebra-35.notes.pdf",
+      "size": 146694,
+      "sha256": "d4ae959ea62d88b4887871f808cb8b185e701c8e14f947492db1e80610c57f9f"
+    },
+    {
+      "kind": "pdf",
+      "source": "notes/L36-N.pdf",
+      "destination": "notes/abstract-algebra-36.notes.pdf",
+      "size": 78302,
+      "sha256": "f8d9d55e3c577b703a7f9e28b832a97e8ff7bfdd84c5855f37b8a11b19c0ac74"
+    },
+    {
+      "kind": "pdf",
+      "source": "notes/L4-N.pdf",
+      "destination": "notes/abstract-algebra-04.notes.pdf",
+      "size": 97704,
+      "sha256": "3005e717983914c6079a92ecf5e8b601459afbe6f20ab3ee06d3c670a19a26cd"
+    },
+    {
+      "kind": "pdf",
+      "source": "notes/L5-N.pdf",
+      "destination": "notes/abstract-algebra-05.notes.pdf",
+      "size": 95060,
+      "sha256": "3e87e64ad517913b8bd153384adcb8e05183a8103063cb5be44e22319ed2119b"
+    },
+    {
+      "kind": "pdf",
+      "source": "notes/L6-N.pdf",
+      "destination": "notes/abstract-algebra-06.notes.pdf",
+      "size": 57570,
+      "sha256": "d8b4ce187198104e2560a03c20e5075abffa676841fefdecdd0a66b1f82a3890"
+    },
+    {
+      "kind": "pdf",
+      "source": "notes/L7-N.pdf",
+      "destination": "notes/abstract-algebra-07.notes.pdf",
+      "size": 85374,
+      "sha256": "aa99d28a0465276bd71cc1d843ae26aebc3bc0058c0d59c27b2f85bf1af12d07"
+    },
+    {
+      "kind": "pdf",
+      "source": "notes/L8-N.pdf",
+      "destination": "notes/abstract-algebra-08.notes.pdf",
+      "size": 82739,
+      "sha256": "d1fb8d4e695cccb49c6c52efa9e8d45f4bbc5d11c6bc3a70956788a42ce614b7"
+    },
+    {
+      "kind": "pdf",
+      "source": "notes/L9-N.pdf",
+      "destination": "notes/abstract-algebra-09.notes.pdf",
+      "size": 107028,
+      "sha256": "5b3d187fc9e1c8a6bf559abfc1e5824477a8ffa46bd9a86fb4c4e4f3c43376c1"
+    },
+    {
+      "kind": "pdf",
+      "source": "problems/L1-H.pdf",
+      "destination": "problems/abstract-algebra-01.problems.pdf",
+      "size": 8398,
+      "sha256": "4037f3f9556aeb66a46380955f9b38349b652c665833a40ae752db852ef11675"
+    },
+    {
+      "kind": "pdf",
+      "source": "problems/L10-H.pdf",
+      "destination": "problems/abstract-algebra-10.problems.pdf",
+      "size": 9959,
+      "sha256": "71998d503077178d17bbd34a0ec73a53f4422491fc4825082a6d8520514f5937"
+    },
+    {
+      "kind": "pdf",
+      "source": "problems/L11-H.pdf",
+      "destination": "problems/abstract-algebra-11.problems.pdf",
+      "size": 9946,
+      "sha256": "55dda96e0f271a05267375ba42fdfb8cf4abd7b00a95f7ad45cdd32b656c4de8"
+    },
+    {
+      "kind": "pdf",
+      "source": "problems/L12-H.pdf",
+      "destination": "problems/abstract-algebra-12.problems.pdf",
+      "size": 63996,
+      "sha256": "c27215a71696be616e223fa783df2c5e845fb026a5865740fe69e30dc63c458d"
+    },
+    {
+      "kind": "pdf",
+      "source": "problems/L13-H.pdf",
+      "destination": "problems/abstract-algebra-13.problems.pdf",
+      "size": 9958,
+      "sha256": "bc73fdd586348e2e69f2ad1a19a73ca94a9e97b53abd881af35afe0e0320ef34"
+    },
+    {
+      "kind": "pdf",
+      "source": "problems/L14-H.pdf",
+      "destination": "problems/abstract-algebra-14.problems.pdf",
+      "size": 9957,
+      "sha256": "d6b8b85348031f8f662593bc648ce8ca9084a9cdc6573dbdaa9b230aa3f1c1b9"
+    },
+    {
+      "kind": "pdf",
+      "source": "problems/L15-H.pdf",
+      "destination": "problems/abstract-algebra-15.problems.pdf",
+      "size": 9963,
+      "sha256": "a868e89bdc021464eb65425efb68e60ee6753d5aaef956be616f8f69b7e54802"
+    },
+    {
+      "kind": "pdf",
+      "source": "problems/L16-H.pdf",
+      "destination": "problems/abstract-algebra-16.problems.pdf",
+      "size": 9975,
+      "sha256": "fdf16688b585c2faaf34a34699dff3b38459c61c07b3b52c2df177f91b372873"
+    },
+    {
+      "kind": "pdf",
+      "source": "problems/L17-H.pdf",
+      "destination": "problems/abstract-algebra-17.problems.pdf",
+      "size": 9950,
+      "sha256": "d9ada72e5bd6e72fb5293d648ab37e97a7749bf25adbc06bc6f931f38dc37436"
+    },
+    {
+      "kind": "pdf",
+      "source": "problems/L18-H.pdf",
+      "destination": "problems/abstract-algebra-18.problems.pdf",
+      "size": 9956,
+      "sha256": "7e29861977084c91adfad428fa4dd31cdf061b1b47af7bccabfbdaa639b79774"
+    },
+    {
+      "kind": "pdf",
+      "source": "problems/L19-H.pdf",
+      "destination": "problems/abstract-algebra-19.problems.pdf",
+      "size": 9958,
+      "sha256": "31cd6d5826a25b79ebb196b27be578c5643b566e365539f26e87832081b72f6f"
+    },
+    {
+      "kind": "pdf",
+      "source": "problems/L2-H.pdf",
+      "destination": "problems/abstract-algebra-02.problems.pdf",
+      "size": 9879,
+      "sha256": "1d51f246e1566d7f04c87c9c928cd0d950a538011dc5205ad169499d56106bbc"
+    },
+    {
+      "kind": "pdf",
+      "source": "problems/L20-H.pdf",
+      "destination": "problems/abstract-algebra-20.problems.pdf",
+      "size": 9954,
+      "sha256": "f58d521c42fcfbb0d001dcedb79566c34b961b8146ee0835a3b302af16aa6405"
+    },
+    {
+      "kind": "pdf",
+      "source": "problems/L21-H.pdf",
+      "destination": "problems/abstract-algebra-21.problems.pdf",
+      "size": 9925,
+      "sha256": "356f87b10073450c5c46fc64c99e53a370a870913acf7fc33430a7ff84ad439c"
+    },
+    {
+      "kind": "pdf",
+      "source": "problems/L22-H.pdf",
+      "destination": "problems/abstract-algebra-22.problems.pdf",
+      "size": 9819,
+      "sha256": "bc8822768103481c92fcc1dd7913dff102aa2546834d96690a8138d0d88dc3ae"
+    },
+    {
+      "kind": "pdf",
+      "source": "problems/L23-H.pdf",
+      "destination": "problems/abstract-algebra-23.problems.pdf",
+      "size": 57181,
+      "sha256": "b5f5b42112739bda462f82edbe20be620056c3cce6c5dcde862154bf7f887961"
+    },
+    {
+      "kind": "pdf",
+      "source": "problems/L24-H.pdf",
+      "destination": "problems/abstract-algebra-24.problems.pdf",
+      "size": 9970,
+      "sha256": "fc21b35d8fcc3746f3fe13b9be490d75c0c99d6cdb9f901628e2dbb754d253fa"
+    },
+    {
+      "kind": "pdf",
+      "source": "problems/L25-H.pdf",
+      "destination": "problems/abstract-algebra-25.problems.pdf",
+      "size": 9977,
+      "sha256": "c3a0d55afebb6141b7dc534bbf5e6876cc33e9ee0bff54c924611bd13466af94"
+    },
+    {
+      "kind": "pdf",
+      "source": "problems/L26-H.pdf",
+      "destination": "problems/abstract-algebra-26.problems.pdf",
+      "size": 9944,
+      "sha256": "5a552dac4fce7e9f90a28a20b1bb97c2ff4dfec72084cfcbcd75366e2bc3df68"
+    },
+    {
+      "kind": "pdf",
+      "source": "problems/L27-H.pdf",
+      "destination": "problems/abstract-algebra-27.problems.pdf",
+      "size": 9953,
+      "sha256": "8a6e2dd7b4bb10a0f502ad4b55cebf5ec7249acc9e4e9a4a5e7e75c11bc6618e"
+    },
+    {
+      "kind": "pdf",
+      "source": "problems/L28-H.pdf",
+      "destination": "problems/abstract-algebra-28.problems.pdf",
+      "size": 61880,
+      "sha256": "2f27741de1f1aec6b1213ffd16f37fc689841146ad2f24fa984ef2d9fbe0fa7d"
+    },
+    {
+      "kind": "pdf",
+      "source": "problems/L29-H.pdf",
+      "destination": "problems/abstract-algebra-29.problems.pdf",
+      "size": 9952,
+      "sha256": "ee0a02fbb905504f22c55649362911e79225c5cf6f5a06ae4d7040048708c78b"
+    },
+    {
+      "kind": "pdf",
+      "source": "problems/L3-H.pdf",
+      "destination": "problems/abstract-algebra-03.problems.pdf",
+      "size": 9761,
+      "sha256": "6b7af2453c1693373f46f421822e7041a3a220d34cf58ae7af23d10a41add843"
+    },
+    {
+      "kind": "pdf",
+      "source": "problems/L30-H.pdf",
+      "destination": "problems/abstract-algebra-30.problems.pdf",
+      "size": 9988,
+      "sha256": "44c639b16be3a74952593048a35d478104fcfcf82264745ee9c0c883fc1faec7"
+    },
+    {
+      "kind": "pdf",
+      "source": "problems/L31-H.pdf",
+      "destination": "problems/abstract-algebra-31.problems.pdf",
+      "size": 9979,
+      "sha256": "0f4749eb694c28dd2e168bc685bec84cabc24e32877badc99aec1f2bbf4555a8"
+    },
+    {
+      "kind": "pdf",
+      "source": "problems/L32-H.pdf",
+      "destination": "problems/abstract-algebra-32.problems.pdf",
+      "size": 9970,
+      "sha256": "cba41b3f2cfa9198db4ea50567519fc000faeebe95cf8467f697e6fee82520c0"
+    },
+    {
+      "kind": "pdf",
+      "source": "problems/L33-H.pdf",
+      "destination": "problems/abstract-algebra-33.problems.pdf",
+      "size": 9948,
+      "sha256": "7cbfe74a1cff81157794b27680805683fc74ba2c48507547a99f0e9461bb36d6"
+    },
+    {
+      "kind": "pdf",
+      "source": "problems/L34-H.pdf",
+      "destination": "problems/abstract-algebra-34.problems.pdf",
+      "size": 9951,
+      "sha256": "902d11b9f48693620ff6cc81353b07169767b70c95433b5ccf0833bbe83539a8"
+    },
+    {
+      "kind": "pdf",
+      "source": "problems/L35-H.pdf",
+      "destination": "problems/abstract-algebra-35.problems.pdf",
+      "size": 9789,
+      "sha256": "57980a4c8be8671252a1d76a43cbbae57a6e5344ad007e4c929ca427f0a86074"
+    },
+    {
+      "kind": "pdf",
+      "source": "problems/L36-H.pdf",
+      "destination": "problems/abstract-algebra-36.problems.pdf",
+      "size": 8971,
+      "sha256": "cafb43eb59eb66a18191a8382202be305006bdd475fcd02a36fa761ae297cc90"
+    },
+    {
+      "kind": "pdf",
+      "source": "problems/L4-H.pdf",
+      "destination": "problems/abstract-algebra-04.problems.pdf",
+      "size": 55413,
+      "sha256": "7bb25f08cf2402ab093e61a2b9f2aa0b4df2e52c44547ae7eb03d2064b6d1f26"
+    },
+    {
+      "kind": "pdf",
+      "source": "problems/L5-H.pdf",
+      "destination": "problems/abstract-algebra-05.problems.pdf",
+      "size": 9955,
+      "sha256": "e43c6fc1cb7c74aadce4268e9c9efeadb217013f4d0c2f39d76b6e88d15175bc"
+    },
+    {
+      "kind": "pdf",
+      "source": "problems/L6-H.pdf",
+      "destination": "problems/abstract-algebra-06.problems.pdf",
+      "size": 9884,
+      "sha256": "93a880afde7278c220b81a70ace99d82cb779e78b26bc33f1f02804c8d339c40"
+    },
+    {
+      "kind": "pdf",
+      "source": "problems/L7-H.pdf",
+      "destination": "problems/abstract-algebra-07.problems.pdf",
+      "size": 9936,
+      "sha256": "43cc779519f4c0aac140dd5297e93dc7906c1bdd6afd3793e0d746aa0d299b6a"
+    },
+    {
+      "kind": "pdf",
+      "source": "problems/L8-H.pdf",
+      "destination": "problems/abstract-algebra-08.problems.pdf",
+      "size": 9934,
+      "sha256": "934b135e93f02fa1117176ee2f0eb9a29034434d1b3fc7161434261ea91c1d0d"
+    },
+    {
+      "kind": "pdf",
+      "source": "problems/L9-H.pdf",
+      "destination": "problems/abstract-algebra-09.problems.pdf",
+      "size": 9930,
+      "sha256": "c2d886e5e3849fe55021054ab4765949c5b817f7a9ec25e6907c3d92deecce3a"
+    },
+    {
+      "kind": "pdf",
+      "source": "OLI_MathE222_Syllabus.pdf",
+      "destination": "materials/abstract-algebra-syllabus.pdf",
+      "size": 52332,
+      "sha256": "e4652f1ec76e7d944d1a7f3547eed60f24e9d617888e3b014d2afb8a8301af54"
+    },
+    {
+      "kind": "zip",
+      "source": "math222_course_materials.zip",
+      "destination": "materials/abstract-algebra-course-materials.zip",
+      "size": 3963794,
+      "sha256": "0b2d1722fdf64edffb4e690700063816dbd4fef718e7dd7d45f2b41fa4f767a0"
+    },
+    {
+      "kind": "md",
+      "source": "semantic_segmentation_report.md",
+      "destination": "docs/qa-report.md",
+      "size": 4250,
+      "sha256": "ea6e68d66f926b334fee86f4de6863cad0b23037c71986ea05ce9a73c5ceeea8"
+    },
+    {
+      "kind": "py",
+      "source": "run_global_rebalance.py",
+      "destination": "tools/run_global_rebalance.py",
+      "size": 465,
+      "sha256": "8cbe258dde218d323357b99767436a662e802de833847c4fc1298b7b6c1f230b"
+    },
+    {
+      "kind": "review",
+      "source": "semantic_reviews/06.review.md",
+      "destination": "archive/reviews/abstract-algebra-06.review.md",
+      "size": 20022,
+      "sha256": "c5cadba30b012227dadba0619ca2d98196d6c2a411abecb1b45b28b143da247b"
+    },
+    {
+      "kind": "review",
+      "source": "semantic_reviews/06.reviewed.blocks.tsv",
+      "destination": "archive/reviews/abstract-algebra-06.reviewed.blocks.tsv",
+      "size": 45095,
+      "sha256": "8fbc589fe13dfe8d3dab905aa8dd52826e55f774d01142a1c6d991813ba6f76b"
+    },
+    {
+      "kind": "review",
+      "source": "semantic_reviews/09.review.md",
+      "destination": "archive/reviews/abstract-algebra-09.review.md",
+      "size": 10066,
+      "sha256": "95cdefe43d32dd49bf861064eaa241fc1a9ebda892326c0bbd1dccdf7aeb79dd"
+    },
+    {
+      "kind": "review",
+      "source": "semantic_reviews/09.reviewed.blocks.tsv",
+      "destination": "archive/reviews/abstract-algebra-09.reviewed.blocks.tsv",
+      "size": 61150,
+      "sha256": "385c5fe6a39336228307a6dc7cb1417bc3d16fa040eda5999ecb363159e60392"
+    },
+    {
+      "kind": "review",
+      "source": "semantic_reviews/36.review.md",
+      "destination": "archive/reviews/abstract-algebra-36.review.md",
+      "size": 16821,
+      "sha256": "1d01135e33e6c4674681584301a52bda9c9b037e446f75271fba52596c11f73e"
+    },
+    {
+      "kind": "review",
+      "source": "semantic_reviews/36.reviewed.blocks.tsv",
+      "destination": "archive/reviews/abstract-algebra-36.reviewed.blocks.tsv",
+      "size": 69595,
+      "sha256": "8243467b7e5a5da6fc2c1666d2dae298c40166f28385931cbf490ecdbd7e349e"
+    },
+    {
+      "kind": "review",
+      "source": "semantic_reviews/auto_boundary_review.json",
+      "destination": "archive/reviews/boundary-review.json",
+      "size": 25415,
+      "sha256": "b8a0fd61c4420535e8c0d48800fb77b3902f036176e123e4ccb01926944f9be7"
+    },
+    {
+      "kind": "dir",
+      "source": "subtitle_pipeline",
+      "destination": "tools/subtitle_pipeline",
+      "size": 112,
+      "sha256": null
+    },
+    {
+      "kind": "dir",
+      "source": "subtitle_qa/max100-20261013-02",
+      "destination": "archive/qa/current-max100",
+      "size": 48,
+      "sha256": null
+    },
+    {
+      "kind": "dir",
+      "source": "subtitle_qa/semantic-20261013-verified",
+      "destination": "archive/qa/history/semantic-verified",
+      "size": 48,
+      "sha256": null
+    },
+    {
+      "kind": "dir",
+      "source": "subtitle_qa/legacy",
+      "destination": "archive/qa/legacy",
+      "size": 46,
+      "sha256": null
+    },
+    {
+      "kind": "dir",
+      "source": "subtitle_qa/previews",
+      "destination": "archive/qa/previews",
+      "size": 26,
+      "sha256": null
+    }
+  ],
+  "duplicates_removed": [
+    "哈佛大学：抽象代数 Abstract Algebra, Prof. Benedict Gross/[P37]37.Review 1.en-zh.srt",
+    "哈佛大学：抽象代数 Abstract Algebra, Prof. Benedict Gross/[P38]38.Review 2.en-zh.srt"
+  ],
+  "second_pass_created": "2026-10-13T22:19:12",
+  "second_pass_moves": [
+    {
+      "kind": "tsv",
+      "source": "06 - Lec 6 ｜ Abstract Algebra.blocks.tsv",
+      "destination": "subtitles/blocks/abstract-algebra-06.blocks.tsv",
+      "sha256": "56c1ad8d7df8a979598edf21cd51f50eec27c6934bb4984ae2316f7748b879ec"
+    },
+    {
+      "kind": "srt",
+      "source": "06 - Lec 6 ｜ Abstract Algebra.en-zh.srt",
+      "destination": "videos/abstract-algebra-06.zh-en.srt",
+      "sha256": "7acf3f3e45d629c60c84a8121ce47cb44dc44aa813eed5aa140e6eacd5235b31"
+    },
+    {
+      "kind": "tsv",
+      "source": "07 - Lec 7 ｜ Abstract Algebra.blocks.tsv",
+      "destination": "subtitles/blocks/abstract-algebra-07.blocks.tsv",
+      "sha256": "d9a4963bd30b7d370d37815467cbc468287cfb0c09369115b0ea19f59dc0ffe3"
+    },
+    {
+      "kind": "srt",
+      "source": "07 - Lec 7 ｜ Abstract Algebra.en-zh.srt",
+      "destination": "videos/abstract-algebra-07.zh-en.srt",
+      "sha256": "736fdb6c7508a92a46dc1ba633bcda4dbcd70f3c9e7fd1026701f7d4c0d49879"
+    },
+    {
+      "kind": "srt",
+      "source": "07 - Lec 7 ｜ Abstract Algebra.en.srt",
+      "destination": "subtitles/raw/abstract-algebra-07.raw.en.srt",
+      "sha256": "a3d6be3c2c22b37f7e4e84d066f96c820dc96a4a5aa33dbd5f3161ec876075a2"
+    },
+    {
+      "kind": "tsv",
+      "source": "08 - Lec 8 ｜ Abstract Algebra.blocks.tsv",
+      "destination": "subtitles/blocks/abstract-algebra-08.blocks.tsv",
+      "sha256": "e13ac54f85a8afdedbc0300a8cf1d7f129a33ef9d52b3eca99525965f1b2c5bc"
+    },
+    {
+      "kind": "srt",
+      "source": "08 - Lec 8 ｜ Abstract Algebra.en-zh.srt",
+      "destination": "videos/abstract-algebra-08.zh-en.srt",
+      "sha256": "b108074575afbba08b069efb48a137a1449fe32dcacbb469f11fe18ac87ae8cc"
+    },
+    {
+      "kind": "srt",
+      "source": "08 - Lec 8 ｜ Abstract Algebra.en.srt",
+      "destination": "subtitles/raw/abstract-algebra-08.raw.en.srt",
+      "sha256": "4165301cab5ff57b7f89a67f26f036ce4871516768aafc557814fa75f5ee4c3e"
+    },
+    {
+      "kind": "tsv",
+      "source": "09 - Lec 9 ｜ Abstract Algebra.blocks.tsv",
+      "destination": "subtitles/blocks/abstract-algebra-09.blocks.tsv",
+      "sha256": "ededb9b97926f921f11de3e90e55f850d651fae642fa753b1d1e9efabec9fb39"
+    },
+    {
+      "kind": "srt",
+      "source": "09 - Lec 9 ｜ Abstract Algebra.en-zh.srt",
+      "destination": "videos/abstract-algebra-09.zh-en.srt",
+      "sha256": "19abb6a4a55cdd384366a2d6d0e6cd2d32f4030f63a9a921546dfd51c97c469e"
+    },
+    {
+      "kind": "srt",
+      "source": "09 - Lec 9 ｜ Abstract Algebra.en.srt",
+      "destination": "subtitles/raw/abstract-algebra-09.raw.en.srt",
+      "sha256": "967314446e2f86ffb971a1e2d0201d604296ef0850ed6861b6b5101874dce3d3"
+    },
+    {
+      "kind": "tsv",
+      "source": "10 - Lec 10 ｜ Abstract Algebra.blocks.tsv",
+      "destination": "subtitles/blocks/abstract-algebra-10.blocks.tsv",
+      "sha256": "ea70a5d4d0af883167cc29de64ca0725658e27110090af4614f2335773fc3804"
+    },
+    {
+      "kind": "srt",
+      "source": "10 - Lec 10 ｜ Abstract Algebra.en-zh.srt",
+      "destination": "videos/abstract-algebra-10.zh-en.srt",
+      "sha256": "ccf0fb203b8d13ae0ca9bc1dd3ea5f66d60dcff786cc6a4e88742fa309d6ecb2"
+    },
+    {
+      "kind": "srt",
+      "source": "10 - Lec 10 ｜ Abstract Algebra.en.srt",
+      "destination": "subtitles/raw/abstract-algebra-10.raw.en.srt",
+      "sha256": "edb484ecba106020743f98788caee85b2e22c73a08726ebd1a4f5256b0ada34c"
+    },
+    {
+      "kind": "tsv",
+      "source": "11 - Lec 11 ｜ Abstract Algebra.blocks.tsv",
+      "destination": "subtitles/blocks/abstract-algebra-11.blocks.tsv",
+      "sha256": "2eef69099386fe7720fb4a3449cc1eb44f0be0c55cc3d3c23347a9c356f101a9"
+    },
+    {
+      "kind": "srt",
+      "source": "11 - Lec 11 ｜ Abstract Algebra.en-zh.srt",
+      "destination": "videos/abstract-algebra-11.zh-en.srt",
+      "sha256": "93336d170d3d499998267cff2327b9f4f705ae919e29a045742262936624e86d"
+    },
+    {
+      "kind": "srt",
+      "source": "11 - Lec 11 ｜ Abstract Algebra.en.srt",
+      "destination": "subtitles/raw/abstract-algebra-11.raw.en.srt",
+      "sha256": "11543c7316ff4a70c319758d1ddb3a496167ae1c1553e6be8fa7b9f2dc657dbb"
+    },
+    {
+      "kind": "tsv",
+      "source": "12 - Lec 12 ｜ Abstract Algebra.blocks.tsv",
+      "destination": "subtitles/blocks/abstract-algebra-12.blocks.tsv",
+      "sha256": "16d3e4ee8b971cedfc18384a24cb29777a5d92d288384fd418e4fd36508c1c76"
+    },
+    {
+      "kind": "srt",
+      "source": "12 - Lec 12 ｜ Abstract Algebra.en-zh.srt",
+      "destination": "videos/abstract-algebra-12.zh-en.srt",
+      "sha256": "2ba4193deb1f5f883624fa6e4cc5aa7888039de5471f0d959a8d572b08386c0d"
+    },
+    {
+      "kind": "srt",
+      "source": "12 - Lec 12 ｜ Abstract Algebra.en.srt",
+      "destination": "subtitles/raw/abstract-algebra-12.raw.en.srt",
+      "sha256": "c3f7cc6060463422fc7dc265d2a18e88cc360ba6605c2411c3d731906923dff7"
+    },
+    {
+      "kind": "tsv",
+      "source": "13 - Lec 13 ｜ Abstract Algebra.blocks.tsv",
+      "destination": "subtitles/blocks/abstract-algebra-13.blocks.tsv",
+      "sha256": "50a7c05692c28d7529547efccf6eed1575acd0ed751d87644be49ad83e5de909"
+    },
+    {
+      "kind": "srt",
+      "source": "13 - Lec 13 ｜ Abstract Algebra.en-zh.srt",
+      "destination": "videos/abstract-algebra-13.zh-en.srt",
+      "sha256": "c7e2301c4e42bdf7eefcb89c187737d9a8248a9844c47475f0e6451f6b0f88e0"
+    },
+    {
+      "kind": "srt",
+      "source": "13 - Lec 13 ｜ Abstract Algebra.en.srt",
+      "destination": "subtitles/raw/abstract-algebra-13.raw.en.srt",
+      "sha256": "c71c29688f0c1940a3a60d6890a9a4f6778f1f6962f0ed043afab67110ab3c83"
+    },
+    {
+      "kind": "tsv",
+      "source": "14 - Lec 14 ｜ Abstract Algebra.blocks.tsv",
+      "destination": "subtitles/blocks/abstract-algebra-14.blocks.tsv",
+      "sha256": "78c12d5f9f586ad76f0aa78a737bba63563a812b44bce2a25f48740d01f9b3f8"
+    },
+    {
+      "kind": "srt",
+      "source": "14 - Lec 14 ｜ Abstract Algebra.en-zh.srt",
+      "destination": "videos/abstract-algebra-14.zh-en.srt",
+      "sha256": "5429b97562f319e8cb86144b110d8df847fceb1ed232302cefd2161cfa78544a"
+    },
+    {
+      "kind": "srt",
+      "source": "14 - Lec 14 ｜ Abstract Algebra.en.srt",
+      "destination": "subtitles/raw/abstract-algebra-14.raw.en.srt",
+      "sha256": "f5bb6c608e8403466e4efad13a350a5baf1c691449aa64a00916caf470060c5c"
+    },
+    {
+      "kind": "tsv",
+      "source": "15 - Lec 15 ｜ Abstract Algebra.blocks.tsv",
+      "destination": "subtitles/blocks/abstract-algebra-15.blocks.tsv",
+      "sha256": "00455a01edfc8fda73fb187a762626f87ee4496c2404cf10aa7d7fc1cdaad4a8"
+    },
+    {
+      "kind": "srt",
+      "source": "15 - Lec 15 ｜ Abstract Algebra.en-zh.srt",
+      "destination": "videos/abstract-algebra-15.zh-en.srt",
+      "sha256": "470620c69f943ee176aa2490d6bfa1950cbfe0245eca296b96758d8c9caaec48"
+    },
+    {
+      "kind": "srt",
+      "source": "15 - Lec 15 ｜ Abstract Algebra.en.srt",
+      "destination": "subtitles/raw/abstract-algebra-15.raw.en.srt",
+      "sha256": "a2bd5936cd1afa3624a310ce0f31ea5ea9f9050944af53aa307ea10dc4b97a10"
+    },
+    {
+      "kind": "tsv",
+      "source": "16 - Lec 16 ｜ Abstract Algebra.blocks.tsv",
+      "destination": "subtitles/blocks/abstract-algebra-16.blocks.tsv",
+      "sha256": "60c9fc06db9e91391b87622e99201219825c7c8b5f3cba67ac81131cc2866d6a"
+    },
+    {
+      "kind": "srt",
+      "source": "16 - Lec 16 ｜ Abstract Algebra.en-zh.srt",
+      "destination": "videos/abstract-algebra-16.zh-en.srt",
+      "sha256": "1b91814f7d87b27b5cccd918341a0e9692dd9f15648bc726afa1bd43eb6112f3"
+    },
+    {
+      "kind": "srt",
+      "source": "16 - Lec 16 ｜ Abstract Algebra.en.srt",
+      "destination": "subtitles/raw/abstract-algebra-16.raw.en.srt",
+      "sha256": "053d10bef88372d83fc79a7797f407d0b545bfc4bb017530c5fe0a9feb885e30"
+    },
+    {
+      "kind": "tsv",
+      "source": "17 - Lec 17 ｜ Abstract Algebra.blocks.tsv",
+      "destination": "subtitles/blocks/abstract-algebra-17.blocks.tsv",
+      "sha256": "3804ffacf0bc04df99a46b18eb8c1118b5c99ad1513771c54c335013be0b0756"
+    },
+    {
+      "kind": "srt",
+      "source": "17 - Lec 17 ｜ Abstract Algebra.en-zh.srt",
+      "destination": "videos/abstract-algebra-17.zh-en.srt",
+      "sha256": "67a24c8f247d729aecbf365965ad20d46e03400d0a55d691a31411809b34ff4c"
+    },
+    {
+      "kind": "srt",
+      "source": "17 - Lec 17 ｜ Abstract Algebra.en.srt",
+      "destination": "subtitles/raw/abstract-algebra-17.raw.en.srt",
+      "sha256": "8171b4a2c471df0ce0ac0e8af5e9ad2aee38c2d14b3d99231fa55add85e3de7b"
+    },
+    {
+      "kind": "tsv",
+      "source": "18 - Lec 18 ｜ Abstract Algebra.blocks.tsv",
+      "destination": "subtitles/blocks/abstract-algebra-18.blocks.tsv",
+      "sha256": "dd94d432e1e9bff8258e05eabaa512d2e52559e16139c764596bef4fc79acf1c"
+    },
+    {
+      "kind": "srt",
+      "source": "18 - Lec 18 ｜ Abstract Algebra.en-zh.srt",
+      "destination": "videos/abstract-algebra-18.zh-en.srt",
+      "sha256": "db88620a7483e14c8e255471fd58155e926b14ff7485f365c16161e75a8edca1"
+    },
+    {
+      "kind": "srt",
+      "source": "18 - Lec 18 ｜ Abstract Algebra.en.srt",
+      "destination": "subtitles/raw/abstract-algebra-18.raw.en.srt",
+      "sha256": "1a5749d425e1a222f584a54d7058fc9cfe6cfa20741e66cdf200cdf8fd59dc13"
+    },
+    {
+      "kind": "tsv",
+      "source": "19 - Lec 19 ｜ Abstract Algebra.blocks.tsv",
+      "destination": "subtitles/blocks/abstract-algebra-19.blocks.tsv",
+      "sha256": "eadc1429b4fa3caa558a9dcc36129976e0ecc494290e49d9986ef7786fe42a7d"
+    },
+    {
+      "kind": "srt",
+      "source": "19 - Lec 19 ｜ Abstract Algebra.en-zh.srt",
+      "destination": "videos/abstract-algebra-19.zh-en.srt",
+      "sha256": "5a262f4ed9648f318d74ff8aae014f889b1c7afdee4ff3567d1235d15c3ddafe"
+    },
+    {
+      "kind": "srt",
+      "source": "19 - Lec 19 ｜ Abstract Algebra.en.srt",
+      "destination": "subtitles/raw/abstract-algebra-19.raw.en.srt",
+      "sha256": "b44fcedb5d0fc986337e39580777fe341dbf28975852aae37510da8444b50dca"
+    },
+    {
+      "kind": "tsv",
+      "source": "20 - Lec 20 ｜ Abstract Algebra.blocks.tsv",
+      "destination": "subtitles/blocks/abstract-algebra-20.blocks.tsv",
+      "sha256": "36254cab96d87321f6821690bdd5e34fec89f853dc398422016fced73ed3700f"
+    },
+    {
+      "kind": "srt",
+      "source": "20 - Lec 20 ｜ Abstract Algebra.en-zh.srt",
+      "destination": "videos/abstract-algebra-20.zh-en.srt",
+      "sha256": "833337554926786d944fd17d397e03c84b26319709ac84da27abfc95fca154cd"
+    },
+    {
+      "kind": "srt",
+      "source": "20 - Lec 20 ｜ Abstract Algebra.en.srt",
+      "destination": "subtitles/raw/abstract-algebra-20.raw.en.srt",
+      "sha256": "2968fc282331772b28b7996ceb561d3a7502d7ece6a390d4203bb759c391dc37"
+    },
+    {
+      "kind": "tsv",
+      "source": "21 - Lec 21 ｜ Abstract Algebra.blocks.tsv",
+      "destination": "subtitles/blocks/abstract-algebra-21.blocks.tsv",
+      "sha256": "5c99b5e092edb633c064c617fe225674d229ddc36094c64009b609bafd4cfa10"
+    },
+    {
+      "kind": "srt",
+      "source": "21 - Lec 21 ｜ Abstract Algebra.en-zh.srt",
+      "destination": "videos/abstract-algebra-21.zh-en.srt",
+      "sha256": "d02a8548075a7ce0bca6659ba8db41a046e529ddbe11491cda7360174f47116d"
+    },
+    {
+      "kind": "srt",
+      "source": "21 - Lec 21 ｜ Abstract Algebra.en.srt",
+      "destination": "subtitles/raw/abstract-algebra-21.raw.en.srt",
+      "sha256": "715b210ae14bd66ce65ea2f8e2faa19adc86913185dd01fc868cfab4d86b5b56"
+    },
+    {
+      "kind": "tsv",
+      "source": "22 - Lec 22 ｜ Abstract Algebra.blocks.tsv",
+      "destination": "subtitles/blocks/abstract-algebra-22.blocks.tsv",
+      "sha256": "e621e8f727b3afb2ca6cd57bae32eb768d2bc821f70632b691db1cc78b99acb0"
+    },
+    {
+      "kind": "srt",
+      "source": "22 - Lec 22 ｜ Abstract Algebra.en-zh.srt",
+      "destination": "videos/abstract-algebra-22.zh-en.srt",
+      "sha256": "30df15d71201f86306648398e832d383048105b3e61b7ae2a3dc6f25c773254a"
+    },
+    {
+      "kind": "srt",
+      "source": "22 - Lec 22 ｜ Abstract Algebra.en.srt",
+      "destination": "subtitles/raw/abstract-algebra-22.raw.en.srt",
+      "sha256": "485a1004ed4ded38ff0a1d5eaaebb010c22b98ed72f3dd5d770d5623dbe7e7bb"
+    },
+    {
+      "kind": "tsv",
+      "source": "23 - Lec 23 ｜ Abstract Algebra.blocks.tsv",
+      "destination": "subtitles/blocks/abstract-algebra-23.blocks.tsv",
+      "sha256": "ad342a997d6e3af459e718e106eac0a517a7e9085637803e7e2d386bcd4f02dc"
+    },
+    {
+      "kind": "srt",
+      "source": "23 - Lec 23 ｜ Abstract Algebra.en-zh.srt",
+      "destination": "videos/abstract-algebra-23.zh-en.srt",
+      "sha256": "34bf4167f3ab4488d458d7086e1ed368ca00be78a07771feb096f5862cbcb355"
+    },
+    {
+      "kind": "srt",
+      "source": "23 - Lec 23 ｜ Abstract Algebra.en.srt",
+      "destination": "subtitles/raw/abstract-algebra-23.raw.en.srt",
+      "sha256": "562bbbc6f0b241aa187c79fc332c7516d32f1521b0bb8399e2738504e42b6e9b"
+    },
+    {
+      "kind": "tsv",
+      "source": "24 - Lec 24 ｜ Abstract Algebra.blocks.tsv",
+      "destination": "subtitles/blocks/abstract-algebra-24.blocks.tsv",
+      "sha256": "db6357f6059c7ee30aa2dd0a74408c0e330b97e5f2fc6d0176a29f8622efa226"
+    },
+    {
+      "kind": "srt",
+      "source": "24 - Lec 24 ｜ Abstract Algebra.en-zh.srt",
+      "destination": "videos/abstract-algebra-24.zh-en.srt",
+      "sha256": "9e04fe5b5518e8d641020d13e9afed226a523d01a3982735e193f3ec7f45b96e"
+    },
+    {
+      "kind": "srt",
+      "source": "24 - Lec 24 ｜ Abstract Algebra.en.srt",
+      "destination": "subtitles/raw/abstract-algebra-24.raw.en.srt",
+      "sha256": "e7309e1f34af4f7caa37765214572da1a69c15dc704f9218c65d2e6d0b024c3d"
+    },
+    {
+      "kind": "tsv",
+      "source": "25 - Lec 25 ｜ Abstract Algebra.blocks.tsv",
+      "destination": "subtitles/blocks/abstract-algebra-25.blocks.tsv",
+      "sha256": "cff2fc8fa4db9572284c754301c2fdc03308788b75efdfa93ac669aa55d13979"
+    },
+    {
+      "kind": "srt",
+      "source": "25 - Lec 25 ｜ Abstract Algebra.en-zh.srt",
+      "destination": "videos/abstract-algebra-25.zh-en.srt",
+      "sha256": "e47273775722b3f87845005dad7f3576aa6ca9361118796c80571c988161983b"
+    },
+    {
+      "kind": "srt",
+      "source": "25 - Lec 25 ｜ Abstract Algebra.en.srt",
+      "destination": "subtitles/raw/abstract-algebra-25.raw.en.srt",
+      "sha256": "7f8062890b61d6d0ad5a395a4643af9011392b3e5c22e6792316cce72585f473"
+    },
+    {
+      "kind": "tsv",
+      "source": "26 - Lec 26 ｜ Abstract Algebra.blocks.tsv",
+      "destination": "subtitles/blocks/abstract-algebra-26.blocks.tsv",
+      "sha256": "83ed2c6825168b94249d3e757215681186c7a73f2ef5bdfd99404cc37e94a73f"
+    },
+    {
+      "kind": "srt",
+      "source": "26 - Lec 26 ｜ Abstract Algebra.en-zh.srt",
+      "destination": "videos/abstract-algebra-26.zh-en.srt",
+      "sha256": "4af879025c140ec219cca3619cf4ca9c60554788099c28feb95598382846fd0f"
+    },
+    {
+      "kind": "srt",
+      "source": "26 - Lec 26 ｜ Abstract Algebra.en.srt",
+      "destination": "subtitles/raw/abstract-algebra-26.raw.en.srt",
+      "sha256": "e4d5036d9de7d81b1ca682dc9cf795d67b24b0c21e3be0d4729dfe2434b59811"
+    },
+    {
+      "kind": "tsv",
+      "source": "27 - Lec 27 ｜ Abstract Algebra.blocks.tsv",
+      "destination": "subtitles/blocks/abstract-algebra-27.blocks.tsv",
+      "sha256": "64450c4cd329090505976214852d3a150bf8d00e2369778527e551facb9758db"
+    },
+    {
+      "kind": "srt",
+      "source": "27 - Lec 27 ｜ Abstract Algebra.en-zh.srt",
+      "destination": "videos/abstract-algebra-27.zh-en.srt",
+      "sha256": "4d3f72b8712ed574b1a289074a819e05a454e8b7fc5a70187fd752ad3e2e6984"
+    },
+    {
+      "kind": "srt",
+      "source": "27 - Lec 27 ｜ Abstract Algebra.en.srt",
+      "destination": "subtitles/raw/abstract-algebra-27.raw.en.srt",
+      "sha256": "2175fd3f397b2519a90d231d440884fbee6a70977c6b9cfe2a515303dbeca73c"
+    },
+    {
+      "kind": "tsv",
+      "source": "28 - Lec 28 ｜ Abstract Algebra.blocks.tsv",
+      "destination": "subtitles/blocks/abstract-algebra-28.blocks.tsv",
+      "sha256": "bb81f834d93c27fcf94469a4782c7790e014dde34572394d6b6cdc0cdc66b0f2"
+    },
+    {
+      "kind": "srt",
+      "source": "28 - Lec 28 ｜ Abstract Algebra.en-zh.srt",
+      "destination": "videos/abstract-algebra-28.zh-en.srt",
+      "sha256": "c2819282b9bf6e2b4802c13ce4a25901f8f030a4dfc69b257c08cf6e37d5ab01"
+    },
+    {
+      "kind": "srt",
+      "source": "28 - Lec 28 ｜ Abstract Algebra.en.srt",
+      "destination": "subtitles/raw/abstract-algebra-28.raw.en.srt",
+      "sha256": "73c833f57d5093b04d467ce4132e446c375c9b259fda02aa851c8a6adcfc5422"
+    },
+    {
+      "kind": "tsv",
+      "source": "29 - Lec 29 ｜ Abstract Algebra.blocks.tsv",
+      "destination": "subtitles/blocks/abstract-algebra-29.blocks.tsv",
+      "sha256": "ae059b0ec7831c6f56e7c2a6969bd8c66895e9ec8d179ed47c8123a36bbf545a"
+    },
+    {
+      "kind": "srt",
+      "source": "29 - Lec 29 ｜ Abstract Algebra.en-zh.srt",
+      "destination": "videos/abstract-algebra-29.zh-en.srt",
+      "sha256": "078143b7d1002dddf2b036f6ebfc56d627b72510d85321237d3a03e1dd47199c"
+    },
+    {
+      "kind": "srt",
+      "source": "29 - Lec 29 ｜ Abstract Algebra.en.srt",
+      "destination": "subtitles/raw/abstract-algebra-29.raw.en.srt",
+      "sha256": "4e01f335e6723c86e704a3f1df64cac80cb2ca4b7a0f2579eb322feee33926a9"
+    },
+    {
+      "kind": "tsv",
+      "source": "30 - Lec 30 ｜ Abstract Algebra.blocks.tsv",
+      "destination": "subtitles/blocks/abstract-algebra-30.blocks.tsv",
+      "sha256": "f292ee6245b08229e5ec067b7b13286f68eedf20184484419b5e82d767ea6d19"
+    },
+    {
+      "kind": "srt",
+      "source": "30 - Lec 30 ｜ Abstract Algebra.en-zh.srt",
+      "destination": "videos/abstract-algebra-30.zh-en.srt",
+      "sha256": "7711be56f234ebc00aa424011307ddf2a17bfb012b474d75a7fc8504cbf18a1c"
+    },
+    {
+      "kind": "srt",
+      "source": "30 - Lec 30 ｜ Abstract Algebra.en.srt",
+      "destination": "subtitles/raw/abstract-algebra-30.raw.en.srt",
+      "sha256": "783b2a28b975ed35f1f01b817c9b36db94f6d61b48d08a0d6110a7204e02a017"
+    },
+    {
+      "kind": "tsv",
+      "source": "31 - Lec 31 ｜ Abstract Algebra.blocks.tsv",
+      "destination": "subtitles/blocks/abstract-algebra-31.blocks.tsv",
+      "sha256": "e1213ccb3f5b37f9c745fa0efe21395dc39553a221d1f6b4c0b42f0d8687c5bf"
+    },
+    {
+      "kind": "srt",
+      "source": "31 - Lec 31 ｜ Abstract Algebra.en-zh.srt",
+      "destination": "videos/abstract-algebra-31.zh-en.srt",
+      "sha256": "c576d573fc7c5e969753eca7cf1c530ed2710d7bf29528e07556844d4db0dbea"
+    },
+    {
+      "kind": "srt",
+      "source": "31 - Lec 31 ｜ Abstract Algebra.en.srt",
+      "destination": "subtitles/raw/abstract-algebra-31.raw.en.srt",
+      "sha256": "b19e0359e8e3f327a642652caf2587e3518087bf10b9e54cbaefa97051d3c524"
+    },
+    {
+      "kind": "tsv",
+      "source": "32 - Lec 32 ｜ Abstract Algebra.blocks.tsv",
+      "destination": "subtitles/blocks/abstract-algebra-32.blocks.tsv",
+      "sha256": "dacea6379ae536c99ab757ea238596ba84818191b971463a8e8f6535af2998de"
+    },
+    {
+      "kind": "srt",
+      "source": "32 - Lec 32 ｜ Abstract Algebra.en-zh.srt",
+      "destination": "videos/abstract-algebra-32.zh-en.srt",
+      "sha256": "7681206996fa085b7cd4fd2bc9f3b4bc4cf9922e3f98eedac75a809a2b3dd49f"
+    },
+    {
+      "kind": "srt",
+      "source": "32 - Lec 32 ｜ Abstract Algebra.en.srt",
+      "destination": "subtitles/raw/abstract-algebra-32.raw.en.srt",
+      "sha256": "b082bd3592ac5c4ef73cb163d7eea2f457bede2d3cebe8549b4e6e6bdfda080b"
+    },
+    {
+      "kind": "tsv",
+      "source": "33 - Lec 33 ｜ Abstract Algebra.blocks.tsv",
+      "destination": "subtitles/blocks/abstract-algebra-33.blocks.tsv",
+      "sha256": "a420df6376e5036b4e757a25bf93ce62a416de457d4f5c4500a507c182a7896b"
+    },
+    {
+      "kind": "srt",
+      "source": "33 - Lec 33 ｜ Abstract Algebra.en-zh.srt",
+      "destination": "videos/abstract-algebra-33.zh-en.srt",
+      "sha256": "49591a90da1b03bab71a1e036f50b524c6bc60ac01da7dd9d17f3c9487f5e1a5"
+    },
+    {
+      "kind": "srt",
+      "source": "33 - Lec 33 ｜ Abstract Algebra.en.srt",
+      "destination": "subtitles/raw/abstract-algebra-33.raw.en.srt",
+      "sha256": "c2dfcac1f78ea9392bd462bde77c7b60eca6bef14efe4eb1fd7a68480a5e25ff"
+    },
+    {
+      "kind": "tsv",
+      "source": "34 - Lec 34 ｜ Abstract Algebra.blocks.tsv",
+      "destination": "subtitles/blocks/abstract-algebra-34.blocks.tsv",
+      "sha256": "49d16972f4579a07f767d7f0b835349e061fcbd09ad1fb6e3ec4074892501377"
+    },
+    {
+      "kind": "srt",
+      "source": "34 - Lec 34 ｜ Abstract Algebra.en-zh.srt",
+      "destination": "videos/abstract-algebra-34.zh-en.srt",
+      "sha256": "4216cc1b09127c1dafb11c690f2f9f98de4f8cbea82a2fdeec61f74f95387869"
+    },
+    {
+      "kind": "srt",
+      "source": "34 - Lec 34 ｜ Abstract Algebra.en.srt",
+      "destination": "subtitles/raw/abstract-algebra-34.raw.en.srt",
+      "sha256": "34d563f38a97a5cbe357512d03647495eb44c1ab211f52a639a106b3e3897bf8"
+    },
+    {
+      "kind": "tsv",
+      "source": "35 - Lec 35 ｜ Abstract Algebra.blocks.tsv",
+      "destination": "subtitles/blocks/abstract-algebra-35.blocks.tsv",
+      "sha256": "dbb4abd7d1b5aa45769520e546dac20d6f49a631153c35486fc670b07f01fea0"
+    },
+    {
+      "kind": "srt",
+      "source": "35 - Lec 35 ｜ Abstract Algebra.en-zh.srt",
+      "destination": "videos/abstract-algebra-35.zh-en.srt",
+      "sha256": "02abd802ef6c3037e16c601af7446c4e4e3aa37b5f3722e31c19f0bf4c468555"
+    },
+    {
+      "kind": "srt",
+      "source": "35 - Lec 35 ｜ Abstract Algebra.en.srt",
+      "destination": "subtitles/raw/abstract-algebra-35.raw.en.srt",
+      "sha256": "b50e5244bd149b6f2f76d6aaa0e9186907f3162b8e37b80788618852fe39e8dc"
+    },
+    {
+      "kind": "tsv",
+      "source": "36 - Lec 36 ｜ Abstract Algebra.blocks.tsv",
+      "destination": "subtitles/blocks/abstract-algebra-36.blocks.tsv",
+      "sha256": "f77657479f746597f90441a9c77001e16ce92400947e8fe6d341c90a6d619dbe"
+    },
+    {
+      "kind": "srt",
+      "source": "36 - Lec 36 ｜ Abstract Algebra.en-zh.srt",
+      "destination": "videos/abstract-algebra-36.zh-en.srt",
+      "sha256": "e2f37dcbe18828fd8e99a5d8d0f25fc80f487f50bd13409b98a83e5595bbdc91"
+    },
+    {
+      "kind": "srt",
+      "source": "36 - Lec 36 ｜ Abstract Algebra.en.srt",
+      "destination": "subtitles/raw/abstract-algebra-36.raw.en.srt",
+      "sha256": "f19f9f7296117f2b682d5f39c4c56b3b04ed009a855b8d44dbaf76a53bc31877"
+    },
+    {
+      "kind": "md",
+      "source": "subtitle_qa/README.md",
+      "destination": "archive/qa/README.md",
+      "sha256": "ea607fdcf67616d87bc886d30a08b9df8eccfe82a48d6294cb0b79a88d98375a"
+    }
+  ],
+  "second_pass_duplicates_removed": [
+    "哈佛大学：抽象代数 Abstract Algebra, Prof. Benedict Gross/[P08]8.Lec 8  Abstract Algebra.en-zh.srt",
+    "哈佛大学：抽象代数 Abstract Algebra, Prof. Benedict Gross/[P09]9.Lec 9  Abstract Algebra.en-zh.srt",
+    "哈佛大学：抽象代数 Abstract Algebra, Prof. Benedict Gross/[P10]10.Lec 10  Abstract Algebra.en-zh.srt",
+    "哈佛大学：抽象代数 Abstract Algebra, Prof. Benedict Gross/[P11]11.Lec 11  Abstract Algebra.en-zh.srt",
+    "哈佛大学：抽象代数 Abstract Algebra, Prof. Benedict Gross/[P12]12.Lec 12  Abstract Algebra.en-zh.srt",
+    "哈佛大学：抽象代数 Abstract Algebra, Prof. Benedict Gross/[P13]13.Lec 13  Abstract Algebra.en-zh.srt",
+    "哈佛大学：抽象代数 Abstract Algebra, Prof. Benedict Gross/[P14]14.Lec 14  Abstract Algebra.en-zh.srt",
+    "哈佛大学：抽象代数 Abstract Algebra, Prof. Benedict Gross/[P15]15.Lec 15  Abstract Algebra.en-zh.srt",
+    "哈佛大学：抽象代数 Abstract Algebra, Prof. Benedict Gross/[P16]16.Lec 16  Abstract Algebra.en-zh.srt",
+    "哈佛大学：抽象代数 Abstract Algebra, Prof. Benedict Gross/[P17]17.Lec 17  Abstract Algebra.en-zh.srt",
+    "哈佛大学：抽象代数 Abstract Algebra, Prof. Benedict Gross/[P18]18.Lec 18  Abstract Algebra.en-zh.srt",
+    "哈佛大学：抽象代数 Abstract Algebra, Prof. Benedict Gross/[P19]19.Lec 19  Abstract Algebra.en-zh.srt",
+    "哈佛大学：抽象代数 Abstract Algebra, Prof. Benedict Gross/[P20]20.Lec 20  Abstract Algebra.en-zh.srt",
+    "哈佛大学：抽象代数 Abstract Algebra, Prof. Benedict Gross/[P21]21.Lec 21  Abstract Algebra.en-zh.srt",
+    "哈佛大学：抽象代数 Abstract Algebra, Prof. Benedict Gross/[P22]22.Lec 22  Abstract Algebra.en-zh.srt",
+    "哈佛大学：抽象代数 Abstract Algebra, Prof. Benedict Gross/[P23]23.Lec 23  Abstract Algebra.en-zh.srt",
+    "哈佛大学：抽象代数 Abstract Algebra, Prof. Benedict Gross/[P24]24.Lec 24  Abstract Algebra.en-zh.srt",
+    "哈佛大学：抽象代数 Abstract Algebra, Prof. Benedict Gross/[P25]25.Lec 25  Abstract Algebra.en-zh.srt",
+    "哈佛大学：抽象代数 Abstract Algebra, Prof. Benedict Gross/[P26]26.Lec 26  Abstract Algebra.en-zh.srt",
+    "哈佛大学：抽象代数 Abstract Algebra, Prof. Benedict Gross/[P27]27.Lec 27  Abstract Algebra.en-zh.srt",
+    "哈佛大学：抽象代数 Abstract Algebra, Prof. Benedict Gross/[P28]28.Lec 28  Abstract Algebra.en-zh.srt",
+    "哈佛大学：抽象代数 Abstract Algebra, Prof. Benedict Gross/[P29]29.Lec 29  Abstract Algebra.en-zh.srt",
+    "哈佛大学：抽象代数 Abstract Algebra, Prof. Benedict Gross/[P30]30.Lec 30  Abstract Algebra.en-zh.srt",
+    "哈佛大学：抽象代数 Abstract Algebra, Prof. Benedict Gross/[P31]31.Lec 31  Abstract Algebra.en-zh.srt",
+    "哈佛大学：抽象代数 Abstract Algebra, Prof. Benedict Gross/[P32]32.Lec 32  Abstract Algebra.en-zh.srt",
+    "哈佛大学：抽象代数 Abstract Algebra, Prof. Benedict Gross/[P33]33.Lec 33  Abstract Algebra.en-zh.srt",
+    "哈佛大学：抽象代数 Abstract Algebra, Prof. Benedict Gross/[P34]34.Lec 34  Abstract Algebra.en-zh.srt",
+    "哈佛大学：抽象代数 Abstract Algebra, Prof. Benedict Gross/[P35]35.Lec 35  Abstract Algebra.en-zh.srt",
+    "哈佛大学：抽象代数 Abstract Algebra, Prof. Benedict Gross/[P36]36.Lec 36  Abstract Algebra.en-zh.srt",
+    "lec06.en-zh.srt",
+    "lec07.en-zh.srt"
+  ]
+}

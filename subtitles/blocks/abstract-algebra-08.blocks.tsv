@@ -1,0 +1,238 @@
+So let me just finish one thing I should have said about this isomorphism theorem or the quotient group. So last time we showed that if you had a group G and you had a normal subgroup H, that there is a new group that one can construct G mod H, quotient group of cosets of H.	让我先补充一件关于这个同构定理或商群我本该说的事。上次我们证明了，如果你有一个群G，且有一个正规子群 H，那么可以构造出一个新群 G/H，即由 H 的陪集构成的商群。这个群的元素就是 H 的陪集。
+So the elements of this group are the cosets of H. That this comes with a natural surjective map f that takes an element in G into its H coset.	它伴随一个自然的满射 f，将 G 中的元素映为其 H陪集。
+That's a group homomorphism and the kernel of it is H. That's what we showed last time. So any normal subgroup gives rise to a diagram like this of groups.	那是一个群同态，且其核就是 H。这就是我们上次证明的。因此任何正规子群都会诱导出一个像这样的群图表。
+Now let's make a little observation which is quite useful. Namely suppose that between G and H we have another group called K.	现在我们来做个非常有用的观察：假设在 G 和 H 之间我们还有另一个群 K。
+So K is a subgroup of G that contains the normal subgroup H. We'll have examples of this. All right. Then the claim is first that H is normal in K.	所以 K 是包含正规子群 H 的 G 的子群。我们会有很多例子。好的，那么首先断言：H 在 K 中也是正规的。
+That's easy because to say H is normal in G means that for any g in G, gHg^{-1} is equal to H for all g in G.	这很容易，因为说 H 在 G 中正规，意味着对任意 g ∈ G，gHg⁻¹ 等于 H 对所有g ∈ G 都成立。
+Now if this is true for all g in G, it's certainly true for all g in the subgroup K, which is the statement that H is normal in K. That's easy.	既然这对 G 中的所有 g 都成立，那对子群 K 中的所有 g 自然也成立，这就是说H 在 K 中也是正规的。这很显然。
+So therefore we can construct the quotient group.	因此我们可以构造商群。
+So have group K/H which can be thought of as a subset of G/H. These are precisely the H cosets that contain elements in K.	于是有群 K/H，它可以看作 G/H 的一个子集。这些恰好是包含 K 中元素的 H 陪集。
+So here's the picture. If we take G and we divide it up into the distinct cosets for H, a certain number of them will form the subgroup K because K itself is a union of H cosets, and a certain number of them give you K and the rest of them give you G.	图景是这样的：如果我们把 G 划分成 H 的各个不相交陪集，其中一部分会构成子群 K，因为 K 本身就是若干 H 陪集的并集；其中一部分给出了 K，其余的则构成了 G。
+So you get a group which is a subset of this group.	所以你得到了一个群，它是这个群的子集。
+All right, first statement, it's a subgroup of G mod H because K is a subgroup of G. In other words, if I take two different cosets that lie in K, Ha and Hb, and I multiply them, that coset also lies in K.	好，第一个断言是：它是G/H 的一个子群，因为 K 是 G 的子群。换言之，如果我在 K 中取两个不同的陪集 Ha 和 Hb，并且将它们相乘，所得陪集也落在 K 中。
+So this subset of cosets that lie in K is closed under multiplication.	所以 K 中包含的这个陪集子集在乘法下是封闭的。
+Why? Because if I take two elements in K, a and b, and I multiply them, I get a new element in K.	为什么？因为如果我取 K 中的两个元素 a 和 b 并将它们相乘，得到的新元素仍属于 K。
+That's because K is a subgroup.	这是因为 K 是子群。
+The cosets contained in K are stable under multiplication as K is stable under multiplication.	包含在 K 中的陪集在乘法下保持封闭，就像 K 在乘法下封闭一样。
+Okay. So if I have a group containing K, H, then in the quotient group G mod H I get the subgroup K mod H.	好。因此如果我有一个包含 H 的群 K，那么在商群 G/H 中我就得到了子群 K/H。
+Okay. Conversely, and this is very powerful, any subgroup of G containing H corresponds to a subgroup of G mod H in this manner.	好的。反过来——这是非常强有力的性质——包含 H 的 G 的任意子群，都以这种方式对应于 G/H 的一个子群。
+What do I mean by that?	这是什么意思呢？
+Well, if I have a subgroup of G mod H, let's say that the subgroup consists of the cosets aH, a subset of the cosets of G mod H, and then I just take the union of all those cosets.	如果我有 G/H 的一个子群，假设该子群由陪集 aH 构成，即 G/H 中陪集的一个子集，然后我把所有这些陪集取并集。
+I claim that gives me a subgroup of G corresponding to the subgroup.	我断言这会给出G 的一个子群，对应于该商子群。
+So you have to check that that gives a subgroup of G containing H and that every subgroup of G containing H arises in that manner.	因此你需要验证这确实给出了包含 H 的 G 的子群，且包含 H 的 G 的每个子群都源于这种方式。
+So in other words, there's a bijection between the subgroups of G containing a normal subgroup and the subgroups of this quotient group.	换言之，包含正规子群的 G 的子群，与该商群的子群之间存在双射（一一对应）。
+Okay, so that's an important—so I'll give you an example of this which we'll use later on.	好的，这是一个重要的定理——我给你们举一个稍后会用到的例子。
+Start with the group G is equal to Z.	从群 G = Z 开始。
+Under addition, everything's normal.	在加法下，所有子群都是正规的。
+Okay. Now suppose I asked you and let p be a prime number and consider the subgroup H which is multiples of p. So I claim, here's the claim. If we have a subgroup of Z which lies between Z and pZ as a subgroup, then either K is equal to the integers or K is equal to pZ.	好的。现在假设我问你们，令 p 为一个素数，考虑作为 p 的倍数的子群 H = pZ。那么断言是这样的：如果我们有一个介于 Z 和 pZ 之间的 Z 的子群 K，那么要么 K 等于整数群 Z，要么 K 等于 pZ。
+In other words, there's nothing properly in between those two subgroups.	换言之，在这两个子群之间不存在真中间子群。
+And the proof: such a K gives a subgroup of the cyclic group quotient group Z mod pZ.	证明如下：这样的 K 给出了循环群商群Z/pZ 的一个子群。
+We showed that a group of prime order had no non-trivial subgroups, right?	我们证明过素数阶群没有非平凡子群，对吧？
+Because the order of a subgroup divides the order of the group, so it gives either the zero subgroup or the entire group.	因为子群的阶整除群的阶，所以它要么给出零子群，要么给出整个群。
+That was by our result about groups of prime order. They had no non-trivial subgroups.	这是由我们关于素数阶群的结果得出的：它们没有非平凡子群。
+And if the subgroup of this quotient group is zero, that means that K corresponds to pZ because it's given by the union of cosets in that subgroup and the only coset in that subgroup is H. So you get pZ.	若此商群的子群是零子群，意味着 K 对应于 pZ，因为它是该子群中陪集的并集，而该子群中唯一的陪集就是 H。于是得到 pZ。
+And on the other hand, if the subgroup of this cyclic group is the entire group, then the subgroup K is the union of all the cosets of H, namely it's this group.	另一方面，如果这个循环群的商子群是整个群，那么子群 K 就是H 的所有陪集的并集，即整个群 G。
+So we might say, so we might restate this claim as the statement that this is a maximal subgroup of G.	所以我们可以说，或者把这个断言重述为：pZ 是G 的极大子群。
+Maximal meaning anything larger than it is the entire group. You can't get any bigger.	极大意味着任何比它大的子群都只能是整个群。它不能更大了。
+Okay. So that's the kind of way we're going to use this quotient theorem. We're going to use it to pick out—you get a wonderful thing from this picture.	好。这就是我们将要使用商群对应定理的方式。我们将用它来挑出——从这幅图景中你能得到一个极妙的结论。即：包含 H 的 G 的任意子群都会映到这里的一个子群。
+Namely any subgroup of G containing H maps to a subgroup here. And any subgroup of G/H if we take the inverse image under this map.	而对 G/H 的任意子群，若取其在该映射下的原像——顺便说一句，这也就是原像而已。
+That's all this is by the way. This is the inverse image of the subgroup of G mod H in G. The set of all things mapping to the subgroup, that gives us a subgroup K in G that corresponds bijectively to the subgroup of G mod H.	这就是 G/H 的子群在 G 中的原像。所有映入该子群的元素构成的集合，就给出了 G 中双射对应于 G/H 子群的子群 K。
+And so if we can say something about the quotient group, like we can in this case that it has no non-trivial subgroups, we know that there's nothing squeezed between Z and pZ.	因此如果我们能对商群断言某些性质，比如此处它没有非平凡子群，我们就能知道在 Z 和pZ 之间没有任何被夹在中间的子群。
+Okay. Cool. Good. This is the end of what I'm going to say about groups for a while.	好的。太棒了，很好。关于群的内容我暂时就讲到这里。
+And now we're going to go into theory of abstract vector spaces. Peter, you have something for me? You even have the homework. You mean the basic operations?	现在我们要进入抽象向量空间理论。彼得，你有什么东西要给我吗？你连作业都有了。你是说基本运算？
+You mean what I'm supposed to be talking about? Okay. It's all up here. It's all up here. You know, there's a great line in Amadeus which actually seems to have been an actual quote of Mozart's. Mozart used to write his symphonies sometimes in the carriage.	你是指我今天该讲的内容吗？好的。都在我脑子里呢，都在脑子里。你们知道，《莫扎特传》里有一句名言，似乎确实是莫扎特的原话。莫扎特过去有时在马车里写交响乐。
+Once he took a trip from Vienna to Prague and wrote an entire symphony in the carriage, then just got off and wrote it down on the paper.	有一次他从维也纳旅行去布拉格，在马车里谱写了整部交响乐，下车后直接落笔写在谱纸上。
+And in Amadeus, the man who commissioned The Magic Flute, which was really a popular opera and not a serious opera in Mozart's time, paid Mozart a considerable advance to write The Magic Flute, was harassing him about when he was actually going to produce the opera.	在《莫扎特传》中，委约创作《魔笛》的人（在莫扎特的时代这其实是部通俗歌剧而非严肃歌剧），预付了莫扎特一笔可观的定金来写《魔笛》，后来催问他究竟什么时候才能交出歌剧。
+He goes, they were going to go into production in a week, and Mozart said, "It's all up here. The rest is scribbling."	他说他们下周就要投入排演了，莫扎特回答说："都在我脑子里了，剩下的不过是动手抄下来。"
+So okay. So the rest is scribbling. So now we're going to go to the operation on vector spaces.	好吧，剩下的就是动手抄了。现在我们来看向量空间上的运算。
+So vector spaces are something you've seen already in your courses on linear algebra.	向量空间是你们在线性代数课程中已经学过的概念。
+And usually people study vector spaces in linear algebra over the real numbers. Reals or complex numbers, because that's our geometric intuition of what a vector space looks like.	通常人们在线性代数中研究实数域上的向量空间，实数或复数，因为那是我们对向量空间长什么样的几何直观。
+And a vector space V—I'll always denote V for a vector space over R— consists of first an abelian group.	一个向量空间 V——我总用 V 表示实数域 R 上的向量空间——首先包含一个交换群（阿贝尔群）。
+So that means you can add vectors with operation plus, an identity element what's called the zero vector or sometimes just zero, an inverse element sometimes called minus v.	这意味着你可以用加法运算 + 将向量相加，拥有称为零向量（有时简记为 0）的单位元，以及逆元，有时记作 -v。
+So the operation of the abelian group in a vector space is written additively like it is for the integers.	因此向量空间中交换群的运算是用加法符号书写的，就像整数一样。
+Now this would be a perfectly good example of this would be the integers, but the integers are not a vector space.	整数群本是群的一个绝佳范例，但整数并不是向量空间。
+And the second thing you need is you need a scalar multiplication by elements c in your real numbers, for example. So in other words, an abelian group, the elements of the group are usually denoted little v.	第二件需要的东西是标量乘法（数乘），例如乘以实数中的元素 c。换言之，在一个交换群中，群元素通常记作小写字母 v。
+So the operation plus means that you can take two elements of V and add it and get a v plus w, that sort of thing.	加法运算 + 意味着你可以取 V 中的两个元素相加，得到 v + w 诸如此类的结果。
+So you can also take an element in this abelian group and you're allowed to multiply it by a scalar.	你也可以取该交换群中的一个元素，允许它乘以一个标量。
+So there should be some operation that takes v to c * v, where c is a real number.	所以应该存在某种运算将 v 映为c · v，其中 c 是一个实数。
+So it's a little more than an abelian group. It has this scalar multiplication, and that scalar multiplication has to also satisfy some identities. For example, if you multiply by the zero scalar times any vector, you have to get the zero vector.	因此它不仅是一个交换群，它还具有数乘运算，且该数乘运算还必须满足若干恒等式。例如，若用标量 0 乘以任意向量，必须得到零向量。
+And if you multiply by the one scalar times any vector, you have to get the vector itself, right? And if you do—there's various associative laws.	若用标量 1 乘以任意向量，必须得到向量自身，对吧？还有各种结合律。
+So if you multiply two scalars a * b and then you scalar multiply that by a vector, that's a of b * a vector.	如果你将两个标量相乘得到 a · b，再用它数乘向量，那等于 a 乘以 (b乘该向量)。
+So here's the first scalar multiplication of a vector. Here's the second scalar multiplication of a vector. Then there's distributive laws that relate these two operations.	这里是先对向量做第一次数乘，这里是第二次数乘。然后还有联系这两种运算的分配律。这些我认为你们都很熟悉，
+So this is something I think you're familiar with, at least I hope, and geometrically one's supposed to view vector addition for example in the plane, which is this is an example of a vector space V is equal to sometimes called R^2.	至少我希望如此；几何上，人们应当将向量加法设想在例如平面中，这是一个向量空间的例子，有时记作 V = R²。
+So sorry. So examples of vector spaces: the simplest example is zero. The vector space consisting of one element, zero.	抱歉。向量空间的例子：最简单的例子是 {0}，仅由一个元素 0 构成的向量空间。
+You can have—right, you can have a group of one element. You can have a vector space with one element. It's kind of stupid. Here it is. There's the zero dimensional vector space.	对吧，可以有平凡单元素群，也可以有平凡单元素向量空间。这有点平庸，但它确实存在：这就是零维向量空间。
+Then you can have a vector space which is slightly more non-trivial consisting of all real numbers where you add them just using the addition law in the real numbers and you scalar multiply by scalar multiplying real numbers. That vector space we frequently denote by the real line like this. Here's the zero vector, here's the one vector, etc.	然后你可以有一个稍微不那么平凡的向量空间，由全体实数构成；直接用实数的加法法则相加，并通过实数乘法来进行数乘。那个向量空间我们通常用实数线来表示，像这样：这里是零向量，这里是 1 向量，等等。
+And of course you go on and you define more complicated vector spaces.	当然，你可以继续定义更复杂的向量空间。
+For example, R^n, which is what one usually experiences first in linear algebra.	例如 Rⁿ，这是人们在线性代数中最先接触到的。
+In this vector space, a vector consists of n real numbers component-wise, where the a_i are reals and you add them by adding component vectors.	在这个向量空间中，一个向量由分量形式的 n 个实数构成，其中 aᵢ 是实数，相加方式是对各分量分别相加。
+So v + w, where w has the entries b_i, would be a_1 + b_1, a_2 + b_2, ..., a_n + b_n, where w is the vector b_1 through b_n, and if you want to multiply by a scalar you multiply the scalar times each component vector, and that satisfies the axioms of a vector space.	所以 v + w（其中 w 的分量是 bᵢ）就是 a₁ + b₁，a₂ + b₂，……，aₙ + bₙ，其中 w 是向量 (b₁, ..., bₙ)；如果你想乘以一个标量，就将该标量乘以每个分量向量，这满足向量空间的公理。
+And if I wanted to draw a picture of R^2, which one frequently does, the vectors in R^2 would have coordinates (a_1, a_2), where this would be a_1 in this direction and a_2 in this direction.	如果我想画一张 R² 的图（人们经常画），R² 中的向量坐标为 (a₁, a₂)，其中在此方向上是 a₁，在此方向上是 a₂。
+And when you add vectors, as you've probably learned, you do it by the parallelogram law. If I can draw it, this would be the vector up here, v + w.	当你将向量相加时，正如你们可能学过的，是用平行四边形法则。如果我能画出来，这上面的向量就是 v + w。
+And when you scalar multiply vectors, you just scale them up and down the line that they're on.	当你对向量进行数乘时，只是沿着它所在的直线伸缩它。
+So it's very good when you're thinking about real vector spaces to have this geometric intuition in mind. That's where they came from. They were formalizing geometric operations. Of course, in this vector space because it's over the real numbers, we have other properties beyond just addition and scalar multiplication.	所以当思考实向量空间时，脑海中保有这种几何直观是极好的。它们正是源于此：形式化几何运算。当然，在这个向量空间中，因为是在实数上，除了加法和数乘之外我们还有其他性质。
+So for example, we have the notion of the length of a vector in R^n, can define things like inner products v · w, you can define the length of a vector, things like that. This is given by the summation of a_i b_i.	例如，我们有向量长度的概念；在 Rⁿ 中可以定义像内积 v · w 这样的概念，可以定义向量长度等等。这是由∑ aᵢ bᵢ 给出的，这是一个乘积运算；而 ∑ aᵢ² 的平方根给出了向量的欧几里得长度。
+It's a product operation. The square root of the sum of the a_i squares gives the Euclidean length of a vector. So there are many many things one can do in this vector space that are very useful for calculus, like you want to say when two vectors are close to each other the length of their difference should be small.	所以在这个向量空间中人们可以做很多微积分中非常有用的事情，比如你想表达两个向量彼此接近时，它们差的长度应该很小。
+But you can't do that in a general vector space.	但你无法在一般的向量空间中做这件事。
+So remember that the dot products and the absolute value of a vector, that's something we're not doing here. This is just abstract spaces.	所以请记住，点积和向量的模长，并不是我们这里要做的。我们讲的是纯粹的抽象空间。
+Now when we do linear algebra, we're going to do the same things for vector spaces, but not necessarily where you can scalar multiply by the real numbers.	现在当我们做线性代数时，我们要在向量空间中做同样的事情，但不一定限定只能乘以实数。
+We're going to study now the theory of vector spaces over a field F. So before I tell you what a vector space over a field F is, I have to tell you what a field is.	我们现在要研究域 F 上的向量空间理论。所以在我向你们介绍什么是域 F 上的向量空间之前，我必须先告诉你们什么是域。
+So a field is going to be something that abstracts what the real numbers are, what the complex numbers are, and it's going to be exactly the right setting so that the basic results that we're familiar with in linear algebra, like vector spaces have a dimension and there's a basis for a vector space, it has the number of elements which is the dimension of a space, all that kind of stuff works.	域将是对实数和复数特性的抽象，并且它将恰好提供合适的情境，使得我们在初等线性代数中熟悉的基本结论——比如向量空间有维数、向量空间有基、空间的维数等于基元素的个数——所有这些结论依然成立。
+So people, once they understood the sort of basic properties of this, they said, "Well, why do we need our geometric intuition anymore?	因此人们一旦理解了这些基本性质，就会说："我们为什么还需要局限于几何直观呢？
+Maybe we can formulate the right mathematical notion to capture all the notions of dimension and bases and linear independence and span, and all the techniques of linear algebra, matrices and solutions of linear equations over an arbitrary field." So what do you need to have a field?	也许我们可以建立恰当的数学概念，来囊括维数、基、线性无关性、生成空间，以及线性代数的所有技术、矩阵和任意域上线性方程组的解。"那么构成一个域需要什么呢？
+So a field is defined as following. It's on the one hand it's an abelian group under addition.	域的定义如下：一方面，它在加法下是一个交换群。
+So it's a set which forms an abelian group under addition with the identity element 0, with the inverse identity element and inverse is -a.	即它是一个在加法下构成交换群的集合，具有加法单位元 0，且元素 a 的逆元为 -a。
+So that's the first condition.	这是第一个条件。
+The second condition, which is that there's always a multiplication law, and so if you take F minus the zero element, which is a distinguished element in this abelian group,	第二个条件是总存在乘法法则，因此如果取 F 除去零元素（零元素是该交换群中的特异元素），并记作 F^×，
+and you call that F^\times, so that set forms an abelian group under multiplication with identity element the element we call 1, that's another distinguished element in the field, and inverse element denoted by a^{-1} or 1/a.	那么这个集合在乘法下也构成一个交换群，其单位元是我们称为 1 的元素（域中的另一个特异元素），逆元记作 a⁻¹ 或 1/a。
+So you have to have two abelian groups to get yourself a field. An addition group, which is easy, and then the multiplication group, which has to work for every nonzero element.	所以要构成一个域，你必须拥有两个交换群：一个是加法群，这很简单；另一个是乘法群，它必须对每个非零元素都成立。
+So in other words, every nonzero element has an inverse. That's critical, has a multiplicative inverse.	换句话说，每个非零元素都有逆元。这一点至关重要：拥有乘法逆元。
+So for example, the integers, which form a very nice abelian group, which have a very nice multiplication law. Everything is good about them except that you can't invert 2, because if you tried to invert 2 you'd find the number 1/2 which is not an integer.	例如整数集，构成了一个很好的加法交换群，也有很好的乘法法则，各方面都很好，唯独你不能对 2 求逆，因为如果你试图对 2 求逆，你会得到 1/2，而它不是整数。
+So here you have to be able to invert everything, and of course the addition law and the multiplication law have to be compatible, and that there's a distributive law, etc., which you can find in the book. So for example, the real numbers form a field because everything nonzero is invertible. Same thing with the complex numbers.	所以在域中你必须能对所有非零元素求逆；当然，加法法则和乘法法则必须相容，存在分配律等等，这些你们可以在书中查到。例如，实数构成一个域，因为所有非零元素都可逆。复数也是如此。
+The rational numbers form a field, set of all quotients a/b, b not equal to 0, looks simple, but you have to remember that a/b is equal to a'/b' if ab' is equal to ba'.	有理数也构成一个域，由全体分式 a/b（b ≠ 0）构成；看似简单，但你必须记住：若 ab' = ba'，则 a/b 等于 a'/b'。
+I mean there are various identifications of rational numbers, like 2/3 is the same as 4/6. So everyone has some pretty good idea of what the rational numbers are.	我是说这里涉及有理数的等价类识别，比如 2/3 和 4/6 是同一个数。大家对有理数都有相当清楚的认识；而整数不是域。
+Now you can talk about subfields of a field. That makes a lot of sense.	现在你可以讨论域的子域。这非常自然。
+So if you have one field and you have a subset of it, you'd say it's a subfield if closed under plus and times, and closed under inverses in both groups.	如果你有一个域，并且有它的一个子集，你会说若它在加法和乘法下封闭，且在两个群的求逆运算下都封闭，那它就是一个子域。
+So it's a subgroup under addition, and the nonzero elements form a subgroup under multiplication.	即它在加法下是子群，且其非零元素在乘法下也构成子群。
+So you might notice that in this case Q is a subfield of R. It's closed under addition and multiplication, and R is a subfield of the complex numbers.	所以大家会注意到，在此情形下 Q 是 R 的子域。它在加法和乘法下封闭；而 R 是复数域 C 的子域。
+And there are a lot of things in between. Believe me, there is not here, but between here and here there are a lot of interesting fields.	在这两两之间还有很多很多东西。相信我，这里没有，但在 Q 和 C 之间存在着许多极其有趣的域。
+And you might ask, and people started out with the notion of whether these were the only fields, namely was every field considered a subfield of the complex numbers?	你们可能会问，人们起初也在思考这些是否就是仅有的域，即是否每个域都可看作复数域的某个子域？
+Could we construct anything else that was completely different than the complex numbers or the real numbers?	我们能构造出某种与复数或实数截然不同的全新域吗？
+Because if there were no other interesting fields, we wouldn't have any other interesting theory of vector spaces.	因为如果没有其他有趣的域，我们就不会有任何其他有趣的向量空间理论。
+Okay? So we might try to construct a field by hand.	对吧？所以我们可以尝试亲手构造一个域。
+Why not? Now, as I said, whenever you define an object mathematically, you should look for the simplest possible example.	为什么不呢？正如我常说的，每当在数学上定义一个对象时，你应该去寻找尽可能最简单的例子。
+Now, the simplest example of a group or a vector space has one element in it. Here it is. It's got to have the identity element. Now the simplest example of a field has to have more than one element, because you insist in the definitions that the identity element for addition and the identity element for multiplication are distinct elements.	现在，群或向量空间的最简单例子只包含一个元素。就是它：只包含单位元。然而域的最简单例子必须包含多于一个元素，因为在定义中你坚持要求加法单位元与乘法单位元是不同的元素，这是定义的一部分。
+That's part of the definition. So there must be at least two elements. So any field, no matter how it's constructed, has to contain the identity element for addition and the identity element for multiplication.	所以必须至少有两个元素。因此任何域，无论如何构造，都必须包含加法单位元和乘法单位元。
+Okay. So, if we're going to make the stupidest possible field, we should try to make it out of those two elements.	好。因此如果我们想构造一个最简单的平庸域，就应该尝试用这两个元素来构造它。
+Can we do it? So, in fact, yes.	我们能做到吗？事实上，可以。
+The simplest field has two elements.	最简单的域恰好有两个元素。
+Okay? I have to give you the addition law and the multiplication law. Here's the addition law. When you add zero to anything, you have to get itself. That's part of 0 is the identity element for addition, right? So 0 + 0 is 0. 0 + 1 is 1. 0 + 1 is 1. All I have to tell you is what 1 + 1 is.	明白吗？我必须给出加法法则和乘法法则。加法法则是这样的：任何元素加上 0 都必须等于自身，因为 0 是加法单位元，对吧？所以 0 + 0 = 0，0 + 1 = 1，1 + 0 = 1。我唯一需要告诉你们的是 1 + 1 等于什么。
+We'll call 1 plus 1 0.	我们规定 1 + 1 = 0。
+That's my definition of what 1 plus 1 is. And now I have to give you the multiplication law.	这就是我对 1 + 1 的定义。现在我必须给你们乘法法则。
+It turns out that 0 times anything in a field, part of things that Artin will show you, is zero.	事实证明，在域中 0 乘以任何元素都等于 0，这是阿廷（Artin）书中会向你们证明的内容。
+And one, the identity element, times itself has to be the identity element.	而 1 作为单位元，自乘必须等于单位元。
+So multiplication is more or less forced.	所以乘法基本上是被迫决定的。
+If you take this addition, you get a group under addition. And in fact, this group is the group that I would call the cyclic group of order two.	若采用这种加法，你在加法下就得到了一个群。事实上，这个群就是我所说的 2 阶循环群。
+And then if you impose this multiplication on it, it turns out to be a field with identity element the non-trivial element of this group.	然后如果你赋予它这种乘法，它就构成了一个域，乘法单位元是该群中的非平凡元素 1。
+Okay, there's the first example of a field. Yeah, if you were to define one, you'd get into trouble with the distributive laws, etc. And also you wouldn't get a group because—yeah, I mean 1 plus 1 is 1 won't do for a group because then there's a unique identity element in a group.	好，这就是域的第一个例子。是的，如果你规定 1 + 1 = 1，就会在分配律等方面遇到麻烦；而且你也得不到群，因为 1 + 1 = 1 在群中是不行的，群中单位元是唯一的。
+So 1 + 1 equals 1 would imply that 1 is equal to the additive identity which is equal to zero, which is a contradiction because in the field 1 was not supposed to be equal to zero.	所以 1 + 1= 1 会推出 1 等于加法单位元 0，这产生矛盾，因为在域中 1是不应该等于 0 的。
+Okay. So this is forced on us. This is forced on us. Either this works or it doesn't.	好的。所以这是被逼出来的。这别无选择：要么它行得通，要么行不通。
+It turns out to work.	结果证明它确实行得通。
+More generally, if p is a prime number, then Z mod pZ with the multiplication inherited from Z. In other words, a-bar times b-bar is congruent to ab-bar mod p.	更一般地，如果 p 是一个素数，那么 Z/pZ 带有从 Z 继承而来的乘法——换言之，a-bar 乘以 b-bar 同余于 ab-bar 模p。
+Namely, you represent the classes by integers, you multiply them, and you take the remainder after division by p.	即用整数代表等价类，相乘后取除以 p 的余数。
+The way Peter described the multiplication table to you on Z mod nZ is a field.	正如彼得向你们描述的Z/nZ 上的乘法表那样——构成一个域。
+So that's a remarkable example. We saw that this was not just an abelian group, but it had a multiplication on it.	这是一个非凡的例子。我们看到它不仅是一个交换群，而且还具有乘法。
+And the claim is that that multiplication has the property that every nonzero element is invertible.	现在的断言是：该乘法具有每个非零元素都可逆的性质。
+However, and this is a little warning sign, by the way, that was invented by Bourbaki. It means take care.	然而——顺便说一句，这是一个由布尔巴基（Bourbaki）发明的警示标志（危险弯道标志），意为"注意危险"。
+You know, it's like in the game Mille Bornes where you put out the rule, and then all at once it's—you know, Attention: Z mod nZ is not a field if n is composite.	就像在法国千路纸牌游戏（Mille Bornes）中，你亮出一张牌，然后突然出现"危险牌"：注意，如果 n 是合数，Z/nZ 并不是域。
+So we're not going to get any more fields this way. It's only when n is a prime that this abelian group with its natural multiplication is a field.	所以我们用这种方法得不到更多的域了。只有当 n 是素数时，这个带有自然乘法的交换群才是一个域。
+Okay. Now I have to prove it for you.	好。现在我必须向你们证明这一点。
+This by the way is p equal 2. You see, if you think of this product law, this is multiplication of even and odd numbers.	顺便说一句，前面那个就是 p = 2 的情形。你们看，如果想想这个乘法法则，它就是奇偶数的乘法。
+Right? If you multiply an even number by an even number, you get an even number. An even number by an odd number, you get an even number. An even number by an odd number, you get an even number. An odd number by an odd number, you get an odd number. That's multiplication in Z mod 2.	对吧？偶数乘偶数得偶数；偶数乘奇数得偶数；偶数乘奇数得偶数；奇数乘奇数得奇数。这就是 Z/2Z 中的乘法。
+Okay, let's prove this. So this is non-trivial.	好的，让我们来证明这一点。这是非平庸的。
+Okay, to prove this we must show that if a is not congruent to 0 mod p, so that's a nonzero element of this abelian group, that's an element in F^\times, then there is an integer b such that a * b is congruent to 1 mod p.	好，为了证明这一点，我们必须证明：如果a ≢ 0 (mod p)——即该交换群中的非零元素，也就是 F^× 中的元素——那么存在一个整数 b，使得 a · b ≡ 1 (mod p)。
+We did? You did it already?	我们做过了？你们已经证过了？
+Oh, it's so shocking. I was going to do this brilliantly with my—all right.	噢，太令人震惊了。我还打算用我的绝妙方法来精彩地……好吧。
+Well, I'm going to do it better. I'm going to do it better.	好吧，我要用更好的方法来证。我要证得更好。
+Maybe you get it this way. Let's see if Peter is as genius as I am. You see, that would be then b would be congruent to a inverse mod p.	也许你们会喜欢这种方式。让我们看看彼得是不是和我一样天才。你们看，那样的话 b 就同余于 a⁻¹ 模 p。
+But there are many ways to slice this lemon. All right, here we go. So the proof goes like this. Recall from 30 minutes ago that pZ in Z is a maximal subgroup.	切柠檬的方法有很多种。好，我们开始：证明如下。回想 30 分钟前我们证明过的：pZ 在 Z 中是一个极大子群。
+See, Peter, maybe he had that, but he hadn't done it by the isomorphism theorem, right? Because we showed there were no groups between Z and pZ. All right. Now if a is not congruent to 0 mod p, then a is not an element of the subgroup pZ.	瞧，彼得也许讲过这个结论，但他不是用同构定理证的，对吧？因为我们证明了在 Z 和 pZ 之间没有中间群。好。现在如果 a ≢ 0 (mod p)，那么 a 不是子群 pZ 的元素。
+Okay, we agree on that? That's our hypothesis.	好，大家同意这一点吗？这是我们的假设前提。
+We have a nonzero element mod p means it's not divisible by p. So it's not in here. Hence, if we adjoin a to this subgroup, we have to get the entire group Z.	模 p 非零意味着它不能被 p 整除，所以它不在这里面。因此，如果我们把 a 添加到该子群中，就必须得到整个群 Z。
+pZ + aZ = Z, because this means all integer multiples of p plus all integer multiples of a, because this is a subgroup, as this is a subgroup of Z containing pZ but not equal to pZ, because it contains the element a which is not in pZ. So once it's bigger than pZ, it has to be the whole thing.	pZ + aZ = Z，因为这意味着 p 的所有整数倍加上 a 的所有整数倍；这是一个子群，因为这是 Z 中包含 pZ 但不等于 pZ 的子群，因为它包含不在 pZ 中的元素 a。所以只要它严格大于 pZ，就必须是整个群 Z。
+Agreed? So it's Z. So that means if I take any element in Z, I can write it as a multiple of p plus a multiple of a.	同意吗？所以它就是 Z。这意味着如果我取 Z 中的任意元素，都可以写成 p 的倍数加上 a 的倍数。
+So write the element 1 as some multiple of p plus some multiple of a. Since 1 is an element in Z, I can write it as a multiple of p plus a multiple of a.	那么将元素 1 写成 p 的某个倍数加上 a 的某个倍数：因为 1 是 Z 中的元素，我可以将它写成 p 的倍数加上 a 的倍数。
+And now look at this identity mod p: that says that 1 is congruent to ba mod p, because this is divisible by p, and there is my inverse b, similar to what you did, Peter, you did the Euclidean algorithm.	现在在模 p 下看这个等式：由于 p 的倍数整除以 p，这说明 1 ≡ ba (mod p)，看，这就是我的逆元 b！这类似于你做的方法，彼得，你用的是欧几里得算法。
+Okay, it's the same thing, it's the same thing, but I got a—I was a little fancier because I did this business about subgroups of Z containing pZ a little earlier. Okay, so there's my inverse. It's true for every nonzero element of the set. So there's my field.	好的，本质是一样的，但我的方法——我要稍微更精妙一些，因为我刚才用了包含 pZ 的 Z 的子群。好的，这就是逆元。这对该集合的每个非零元素都成立。所以这就是我们的域。
+Now notice that this field is way different than the complex numbers.	现在请注意：这个域与复数域截然不同。
+Let's see what's so different about this field and the complex numbers. It couldn't be a subfield, for example, of the complex numbers. Namely, first of all, it has a finite number of elements.	让我们看看这个域与复数域到底有什么巨大区别。例如，它绝不可能是复数域的子域。即：首先，它只包含有限个元素。
+It's a field with p elements.	这是一个具有 p 个元素的域。
+Okay. Now, Z mod pZ is not a subfield of C.	好的。现在，Z/pZ 不是 C 的子域。
+And the reason is very simple. In any field, you have the element 1, right? A field has to have a multiplicative identity, 1.	原因非常简单。在任何域中，你都有元素 1，对吧？域必须有乘法单位元 1。
+And since you can add 1 to itself any number of times, so you can add it to itself n times and you get a new element in the field, okay, for every integer n.	既然你可以将 1 与自身相加任意次，所以你可以将它与自身相加 n 次，在域中得到一个新元素，这对每个整数 n 都成立。
+Okay. Now in the complex numbers, when you keep adding 1 to itself, you just keep marching out in the complex plane. Here's 1. Here's 2. Here's 3. Here's 4. Here's 5. You got a bunch of distinct elements.	好。现在在复数中，当你不断把 1 与自身相加时，你就在复平面上不断向前迈进：这里是 1，这里是 2，这里是 3，这里是 4，这里是 5。你得到了一连串互不相同的元素。
+Okay. So these are all distinct in subfields of C, because any subfield of C contains the element 1, and it's closed under addition, so it contains 2, and then it contains 3, and then it contains 4, etc.	好。所以这些全部互不相同，在 C 的任意子域中亦是如此；因为 C 的任何子域都包含元素 1，且在加法下封闭，所以包含 2，然后包含 3，然后包含 4，等等。
+However, in this field, when you take the element 1 and you add it to itself p times, you get back to the origin, because 1 + 1 + 1 + 1, p times, is equal to 0 in Z mod pZ.	然而在这个域中，当你取元素 1 并将它自加 p 次时，你回到了原点！因为 1 + 1 + ... + 1（p 次）在 Z/pZ 中等于 0。
+That's a huge difference.	这是一个天壤之别。
+And so you could never put this field inside of this one, because 1 would have to go to 1 if you had a proper embedding of fields, and then 2 would have to go to 2, and in here all those numbers are non-zero, and here when you do it p times, you get to 0.	因此你永远不可能把这个域嵌入到复数域中，因为如果存在一个恰当的域嵌入，1 必须映为 1，2 必须映为 2；在复数域中所有这些数都非零，但在这里当你相加 p 次时，就得到了 0。
+Okay. And that's a big distinction of fields: how many times you have to add 1 to itself to get 0. If you never get 0, then you're like the complex numbers.	好的。这是域的一个重大区分特征：把 1 自加多少次能得到 0。如果永远得不到 0，那么你就类似于复数域。
+And I should say by the way that Galois made—Galois, our friend who did group theory, made a big discovery about fields, and in some sense after they understood that this was a field, Galois asked himself the question: what are the finite fields beyond Z mod pZ?	顺便说一句，伽罗瓦——我们研究群论的朋友伽罗瓦——在域论上也做出了重大发现；在某种意义上，在人们理解了这是一个域之后，伽罗瓦问了自己一个问题："在 Z/pZ 之外，还有哪些有限域？
+Namely the finite groups, that's a really interesting question, we don't even know the final answer to that, but finite fields, Galois realized he could make a list of them.	"（对于有限群，那也是个极其有趣的问题，我们甚至还没有最终解答）；但对有限域，伽罗瓦意识到他可以给出完整分类列表。
+Well, you have one for each prime p, so the first thing is you might want to know what is the order of F for a finite field.	对于每个素数 p 都有一个，所以首先大家想知道：有限域 F 的阶可能是什么？
+Can you have a finite field? Here's a finite field of order 2 and 3. Is there a finite field of order 4? Is there a finite field of order 5? Yes. Is there a finite field of order 6? We don't know.	能有怎样的有限域？这里有 2 阶和 3 阶的有限域。有 4 阶有限域吗？有 5 阶有限域吗？有的。有 6 阶有限域吗？不知道。
+So what Galois proved is the answer to this is p^n for a prime p and an integer n bigger than equal to 1.	伽罗瓦证明的答案是：阶必为 pⁿ，其中 p 是素数，n 是大于等于 1 的整数。
+So you don't have a finite field of order 6. No matter how hard you try, you can't construct something which has order 6 and has all the axioms of a field.	所以不存在 6 阶的有限域。无论你多么努力尝试，都无法构造出既有 6 个元素又满足所有域公理的东西。
+But he also proved that for each p and n there is a unique such field up to isomorphism.	而且他还证明了：对每一对 p 和 n，在同构意义下存在唯一的此类域！
+We're going to do that later.	我们稍后会讲这个。
+That'll be one of the crowning joys of this course: Galois's classification of finite fields.	这将是本课程最巅峰的乐趣之一：伽罗瓦对有限域的分类定理。
+So this is the only field which has p elements, and there's a field which has 4 elements, and there's a field that has 8 elements which we haven't seen yet.	所以这是具有 p 个元素的唯一域；还有具有 4 个元素的域，还有具有 8 个元素的域（我们尚未见过）；有 16 元域，有 27 元域；没有 28 元域。
+There's a field with 16 elements. There's a field with 27 elements. There's no field with 28 elements. So that's one thing we're going to get to.	所以这是我们接下来会涉及的内容。
+But at least we have a large supply of finite fields looking at us that we can work with.	但至少现在我们眼前有了大量可供使用的有限域资源。
+Now having defined what a field is, I can tell you what a vector space is over a field.	既然已经定义了什么是域，我现在可以向你们介绍什么是域上的向量空间了。
+And that's going to be the setting for the linear algebra we're going to pursue in the next couple of lectures.	这将是我们接下来几讲中要探讨的线性代数的基本舞台。
+Okay. So a vector space over a field is a set V. That's a set of vectors with the following properties. One, V is an abelian group under addition with identity element 0_V, just like it was for the real numbers, etc., etc. And the second—and here's where the field comes in. There's an operation called the scalar product from V	好。域上的向量空间是一个集合 V，即向量的集合，具有以下性质：第一，V 在加法下是一个交换群，单位元记作 0_V，就像实数情形一样等等。第二——也是域发挥作用的地方：存在一个运算，称为数乘（标量乘法），
+cross F into V that takes a vector and a scalar in the field F to the vector c * v, and it has to obey various rules with respect to the addition and the associative rule, and we have to have that 0 * any vector is 0_V, where this is the zero element of the field, and 1 * any vector is v, where 1 is the one element of the field.	从 V × F 到 V，将一个向量和一个域 F 中的标量映为向量 c · v，并且它必须遵守关于加法与结合律的若干规则，且必须满足 0 · v = 0_V（其中这是域的零元素），以及 1 · v = v（其中 1 是域的单位元 1）。
+So and the associative law as usual: (ab) * a vector is a * (b of a vector); the distributive law: a * (v + w) etc. is a v plus a w.	还有一如既往的结合律：(ab) · v = a · (bv)；分配律：a(v + w) 等等等于 av + aw。
+So exactly the laws that we had for vector spaces over the real numbers.	完全就是我们在实数域上向量空间所拥有的法则。
+But now we allow ourselves to multiply by scalars.	但现在我们允许自己乘以任意域中的标量。
+And I should give you some examples of vector spaces, because we already saw some examples of real vector spaces and they work just as well for examples of vector spaces over fields, of V over an abstract field F.	我应该给你们举一些向量空间的例子，因为我们之前已经见过实向量空间的例子，它们同样适用于抽象域上的向量空间，即抽象域 F 上的 V。
+The first example is the zero vector space, works just as well. The second example is the field itself. It forms a vector space over the field.	第一个例子是零向量空间 {0}，完全适用。第二个例子是域自身 F：它在自身上构成一个向量空间，可以进行数乘。
+The third example, why not, is n-tuples of elements in the field. So this consists of all tuples (a_1, ..., a_n) such that the a_i are elements in F.	第三个例子（何尝不可呢）是域中元素的 n 元组。它由所有元组 (a₁, ..., aₙ) 构成，其中 aᵢ 是 F 中的元素。
+You add them componentwise using the addition law of the field. You scalar multiply in each component using the multiplication law in the field.	利用域的加法法则按分量逐项相加；利用域的乘法法则对每个分量进行数乘。
+All that works fine. Those are kind of boring examples of vector spaces, but we're going to see that vector spaces all look kind of like that, at least if they have a finite dimensional basis.	这些都完全适用。这些是比较平淡的向量空间例子，但我们将会看到：所有向量空间基本上都长成这样，至少只要它们具有有限维基。
+A more interesting example of vector space: here's one that we're going to study a lot later. I'll denote it like this: F[x], that's the vector space of all polynomials p(x) with coefficients in our field F.	一个更有趣的向量空间例子——这是我们以后要大量研究的一个例子，我把它记作：F[x]，即系数取自域 F 的全体多项式p(x) 构成的向量空间。
+That's a much more interesting vector space.	那是一个有趣得多的向量空间。
+You can multiply in that vector space because you can multiply polynomials, but forgetting the multiplication of polynomials, we can certainly add two polynomials, and we can certainly multiply a polynomial by a scalar, and if we just keep that structure, we get the polynomials.	在那个空间中你可以相乘，因为多项式可以相乘；但是抛开多项式乘法不谈，我们当然可以将两个多项式相加，也当然可以用标量乘以多项式；如果我们仅仅保留这一结构，就得到了多项式向量空间。
+Okay, questions on the definition or the definition of a field or the examples of fields we've got so far?	好的，关于定义、关于域的定义或者我们目前讲过的域的例子，有什么问题吗？
+This pretty familiar material.	这是相当熟悉的材料。
+Yeah, this is—I gather a little bit of review, but we have to do this material if we're going to get seriously involved in the linear algebra groups later.	是的，我估计这有点像复习，但如果我们想在后续深入探讨线性代数群，就必须先把这些基础讲透。
+Do I need the other distributive property? Yes. (a + b)v = av + bv. Thank you. BV you have—never mind. Those exercises are pointless.	我需要另一条分配律吗？是的，(a + b)v = av + bv。谢谢你。bv 你们……没关系。那些关于公理验证的练习题其实意义不大。
+Remember that these things are taking place in different things. Namely, here you add the two scalars and then you scalar multiply by v.	请记住这些运算发生在不同的系统里：在这里，你先把两个标量相加，然后数乘向量 v。
+And here you scalar multiply by a on this vector, you scalar multiply by b on this vector, and then you add the two vectors.	而在这里，你用 a 数乘该向量，用 b 数乘该向量，然后把这两个向量相加。
+Each one of these laws, okay.	每条这样的法则，明白了吧。
+All right. Now, just as we did for groups, we're going to have all kinds of concepts when we have subobjects, homomorphism.	好的。现在，就像我们在群论中所做的那样，当我们拥有子对象、同态时，会有各种概念。
+So we say W in V is a vector subspace if it's a subgroup under plus, contains zero.	我们称 W ⊆ V 是一个向量子空间，若它在加法下是一个包含 0 的子群。
+Of course, that's what it means to be a subgroup under plus, and is stable under scalar multiplication by F.	当然，在加法下是子群就意味着包含 0；并且在域 F 的数乘下保持封闭（稳定）。
+So an example: if we took the vector space F^2, and we took W to be the set of all vectors (a_1, a_2) such that a_1 was equal to c * a_2, where c is in F, that would form a subspace.	举个例子：如果我们取向量空间 F²，并取 W 为所有满足a₁ = c · a₂（其中 c ∈ F）的向量 (a₁, a₂) 构成的集合，那将构成一个子空间。
+You can check that.	你们可以验证这一点。
+Yeah. Closed. Yeah. I'm sorry.	是的。封闭的，是的，抱歉。
+Okay. So you just preserve all the properties and you stay in the subset.	好的。所以你只需保持所有性质，并且运算结果依然留在该子集中。
+So for groups the property was addition and inversion and the identity.	对于群，性质是加法、逆元和单位元。
+You have to have all that and you also have to have this property of stable under multiplication.	你必须具备所有这些，而且还必须具备在标量乘法下封闭的性质。
+All right. Another thing we had for groups was the notion of a homomorphism.	好的。我们在群论中拥有的另一个概念是同态的概念。
+What's the notion of a homomorphism?	什么是同态的概念？
+Yes. If you're stable under addition, do you have stability under multiplication?	请讲。"如果在加法下封闭，是否自然在数乘下也封闭？"
+No. If it's stable under addition, Yeah, you have to—you have to find your element.	不。如果它在加法下封闭，是的，你必须……你必须找到你的元素。
+Yeah. And of course, you have to ask yourself what is minus 1. Like in the field of two elements, -1 is the same as 1. One shouldn't really think of minus 1.	是的。当然，你得问自己什么是 -1。比如在二元域中，-1 和 1 是同一个元素。人们其实不应该总想着-1。
+But yes, but in any case all these things that there—when I was giving Peter a hard time, I was doing it for the following reason.	但无论如何，所有这些细节——刚才我跟彼得开玩笑为难他时，我之所以那么做，是出于以下原因：人们总可以尝试写出一套极小公理集，并从中推导出另外几条结合律等等。
+And that's an interesting exercise, but that rarely is what's involved in mathematics.	那是一个有趣的练习，但那很少是数学的核心所在。
+You just want to know what are the conditions that are compatible between the two operations that give you a vector space.	你只想知道这两种运算之间满足哪些相容条件才能构成向量空间。
+Likewise here, in any case you're going to—when you're going to check for a subspace you're going to check the closure under addition and containing the identity, and you're going to check closure under scalar multiplication.	这里同样如此，无论如何，当你要验证一个子空间时，你要验证加法封闭性、包含单位元，并且要验证数乘封闭性。
+This is not enough of course because I could have the real line, that's a nice vector space over R, and I could have inside it the integers, which is a nice subgroup closed under addition, but of course not under scalar multiplication, because if I took 1 and I multiplied it by square root of 2, it wouldn't be in here.	光有加法封闭当然是不够的，因为我可以取实数线（这是 R 上的一个良好向量空间），而我在其中可以取整数集（这是加法下封闭的良好子群），但它显然在数乘下不封闭，因为如果我取 1 乘以 √2，它就不在整数集里了。
+Okay. And also the notion of a homomorphism is the notion of a linear map. So if I have a map between two vector spaces, we say it's a homomorphism or a linear transformation.	好的。同样，同态的概念就是线性映射的概念。如果我有两个向量空间之间的映射，我们说它是一个同态或线性变换。
+In the old is a homomorphism provided first of all, it's a group homomorphism: T(v + w) = T(v) + T(w).	在过去的……如果满足以下条件，它就是同态：首先，它是一个群同态：T(v + w) = T(v) + T(w)。
+Group hom takes the additive identity to the additive identity, takes inverses to inverses, and it commutes with scalar multiplication, where this scalar multiplication takes place in V and this scalar multiplication takes place in W.	群同态将加法单位元映为加法单位元，将逆元映为逆元；并且它与数乘可交换，其中左边的数乘发生在 V 中，而右边的数乘发生在 W 中。
+So just like a group homomorphism.	所以就像群同态一样。
+Okay. If you have a—if it's a linear transformation which is bijective, we say it's an isomorphism, just like we did for groups: homomorphism is equal to an isomorphism.	好的。如果一个线性变换是双射，我们就称它为同构，就像我们在群论中所做的那样：双射同态就等于同构。
+Moreover, we find that the kernel of T, which are the subgroup of vectors such that T(v) = 0, is a subspace of V.	此外，我们发现 T 的核（即满足 T(v) = 0 的向量子群）是V 的一个子空间。
+That's because if you take T(cv), it's c * T(v).	这是因为如果你对 cv 作用 T，它等于 c · T(v)。
+And we know it's a subgroup because of group theory. But we have to check it's stable under scalar multiplication.	由群论我们已知它是一个加法子群，但我们必须验证它在数乘下封闭。
+If you take this, you get c * T(v), which is c * the zero vector. And anything times the zero vector is the zero vector.	若取此式，你得到 c · T(v)，即 c 乘以零向量；而任何数乘以零向量都等于零向量——抱歉，这是 W 中的零向量。
+So the kernel and the image of T, which are all things of the form T(v) inside of W, is a subspace of W.	因此 T 的核以及 T 的像（即 W 中所有形如 T(v) 的元素）都是 W 的子空间。
+So once I have a homomorphism that preserves scalar multiplication, its kernel and its image are subspaces. One more thing, and I'll take a question.	所以一旦我有一个保持数乘的同态，它的核与像就都是子空间。还有最后一件事，然后我回答提问。
+Finally, we might as well keep pushing our group theory. Why don't we define—if I have a subspace W in V, I can define the quotient space V mod W?	最后，我们不妨继续推进我们的群论类比：如果我在 V 中有一个子空间 W，为什么不能定义商空间 V/W？
+It's the set of cosets of W in V, which is an abelian group.	它是 W 在 V 中的陪集集合，是一个交换群。
+You check that that has a scalar multiplication, has the structure of a vector space over F, and the natural map which is a group homomorphism from V to V mod W is a linear transformation with kernel W.	你验证它具有数乘运算，具有域 F 上向量空间的结构；而从 V 到 V/W 的自然映射（群同态）是一个以W 为核的线性变换。
+So all of our notions from group theory—and here you don't even have to worry about normal subgroup because the group involved is an abelian group. All our notions from group theory go over into the theory of vector spaces once we assume the additional things that the subgroup is stable under multiplication or that the group homomorphism commutes with scalar multiplication.	因此，我们在群论中的所有概念——在这里甚至都不用担心正规子群的问题，因为涉及的群都是交换群——群论中的所有概念都能平移到向量空间理论中，只要我们额外要求子群在数乘下封闭，或者群同态与数乘可交换。
+Okay. So in some sense, by doing vector spaces you had already done a lot of the theory of abelian groups, but you had thrown in this extra scalar multiplication that you didn't really need. Now we need it.	好。所以在某种意义上，学过向量空间的你们早就接触过很多交换群理论，只不过你们添上了额外的数乘运算，而之前其实并不需要；现在我们需要它了。
+Okay. So this is—I should point out that next time you should read section 3.3 and the homework. So you should read 3.3 for Friday.	好的。所以我应该指出，下次课前你们应该阅读第 3.3 节和作业。你们应该在周五前读完 3.3 节。
+We're going to get into some more serious linear algebra.	我们将进入更深入的线性代数。
+Today it's just definitions, and you're going to do exercises 3.1.1, 3.1.5, 3.2.1, 3.2.7, 3.2.15, and I promise you this will get a lot more interesting once we get along. Yes, we'll take—I'll take the questions first. This question.	今天只是概念定义；你们要做习题 3.1.1、3.1.5、3.2.1、3.2.7、3.2.15，我向你们保证，随着课程推进这会变得有趣得多。好的，我先回答提问。那位同学请问。
+Oh, always. Yeah, I'm sorry. Thank you. When one does vector spaces, it's always in the context of a fixed field. There's one field fixed once and for all.	噢，向来如此。是的，抱歉，谢谢你。在讨论向量空间时，始终是在一个固定域的背景下进行的。有一个域是一劳永逸固定下来的。
+So in other words, this wouldn't make any sense if you had scalars on W that were different than scalars on V. So the field is fixed once and for all.	换言之，如果 W 上的标量与 V 上的标量不同，这就毫无意义了。所以该域是自始至终固定的，是复数域或者 Z/2Z 等等。
+It's complex numbers or Z mod 2 or something like that. But the beautiful thing is that much of the theory of vector spaces is independent of what field you're over. That's what we're going to develop in this chapter.	但美妙之处在于，向量空间的绝大部分理论都独立于你所取的域。这正是我们将在本章建立的内容。
+What can we say if we don't even know what F is, Liz?	莉兹，如果我们甚至不知道 F 是什么，我们能断言什么？
+Where is Peter?	彼得在哪里？
+Okay, we'll figure out a way to get them back to you.	好的，我们会想办法把作业本发还给你们。
+Is someone doing office hour? Is someone doing a section on Thursday?	有人开答疑时间吗？周四有人开讨论课（习题课）吗？
+Okay, he'll bring them to the section Thursday if you don't get them today.	好的，如果你们今天没拿到，他会在周四的讨论课上带给大家。

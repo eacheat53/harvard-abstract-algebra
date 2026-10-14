@@ -1,0 +1,839 @@
+1
+00:00:12,450 --> 00:00:43,032
+好的，太好了。嗨，我叫理查德·泰勒。今天由我代课，因为迪克和彼得都出城了。我的嗓子有点哑，所以你们能听清这堂课就算很走运了，但我会尽力而为。他们让我来讲对称群，特别是对称群中的共轭类。
+Okay, great. Hi, my name's Richard Taylor. I'm standing in today because both Dick and Peter are out of town, and I'm losing my voice, so you're going to be lucky to finally hear this lecture, but we'll see what I can do. So they asked me to talk about the symmetric group, and in particular, conjugacy classes in the symmetric group.
+
+2
+00:00:43,032 --> 00:00:46,590
+我想你们已经——让我先带大家回顾一下对称群。
+And so I think you've already—let me start by reminding you about the symmetric group.
+
+3
+00:00:46,590 --> 00:00:58,034
+我想这些你们大多已经知道了，所以如果我讲到你们不熟悉的内容，请随时告诉我。
+I think you know most of this, so tell me if I'm saying things that you are not familiar with.
+
+4
+00:00:58,034 --> 00:01:27,818
+按惯例，我们用 S_n 表示 n 个文字上的对称群，它就是从 n 元集合到自身的双射集合。传统上把这些元素标号为 1 到 n，即置换或双射。在我看来，
+So it's traditional to write S_n for the symmetric group on n letters, which is the set of bijections from the set of n elements to itself, and traditionally you label those elements 1 to n, so the permutations or bijections.
+
+5
+00:01:27,818 --> 00:01:45,195
+你们用的教材在这点上做得不太好：书中大部分地方都把映射、函数写成作用在左边，而为了迎合某些惯例，却在对称群这一节突然改变了做法。
+It seems to me the book you're using doesn't make a very good job of this: most of the book writes elements, functions acting on the left, and to meet other conventions it suddenly changes that in this section on the symmetric group.
+
+6
+00:01:45,195 --> 00:02:02,900
+不管怎样，在我看来在书的中间部分改变记号是很愚蠢的，因为这只会把人搞糊涂。但不管怎样，我就按书上的来吧。这些置换将作用在右边，这意味着只要我记得，
+Anyway, it seems to me silly to change in the middle of the book, because it's just going to confuse people, but anyway, I'll do what the book does. So these permutations are going to act on the right,
+
+7
+00:02:02,900 --> 00:02:30,358
+我就会把作用写成 i P 而不是 P(i)。这样做的效果是，如果先用 P 作用于 i，再用 Q 作用，就等于用乘积 PQ 作用于 i。关于对称群，我还应该提醒大家哪些事情呢？
+which means I'm going to write i P as long as I remember to do this, rather than P(i), and this has the effect that if you first act on i by P and then on Q, it's the same as acting on i by the product PQ. What else should I remind you about?
+
+8
+00:02:30,358 --> 00:02:47,959
+对于置换或对称群中的元素，有两种记法：第一种就是简单地列出每个元素映到哪里。
+So then there are two notations for permutations or elements of the symmetric group: the first is simply to give a list of where all the elements go.
+
+9
+00:02:47,959 --> 00:03:08,608
+比如对于 6 个文字上的对称群的一个元素，如果把 1 映到 3，我就在 1 下面写 3，来表示 1 映到 3；然后可能有 2 映到 6，3 映到 5，4 映到 4，5映到 1，6 映到 2。
+So if I had an element of the symmetric group on six letters which sent 1 to 3, I would write 3 underneath the 1 to show that 1 goes to 3; and then we might have 2 to 6, 3 to 5, 4 to 4, 5 to 1, and 6 to 2.
+
+10
+00:03:08,608 --> 00:03:17,775
+好的，这个置换把这一行的元素映到那一行的对应元素，我会经常使用这种记法。让我把这个置换称为 P。
+Okay, so this is the permutation that sends each element of this row to the element of that row, and I'm going to be using that or not.
+
+11
+00:03:17,775 --> 00:03:39,989
+为了复习一下它的运算，再取第二个置换 Q：第一行是 1 2 3 4 5 6，第二行是 2 1 4 5 6 3。
+So let me call that particular permutation P. And just to review how this works, let me have a second permutation Q, which will be 1 2 3 4 5 6 2 1 4 5 6 3.
+
+12
+00:03:39,989 --> 00:04:27,530
+如果我想求乘积 PQ，你们熟悉怎么计算这样的乘积吗？有人在摇头？抱歉，好的。
+And so if I'm interested in the product PQ, you're familiar with how you would calculate a product like that? Somebody shake their head? Sorry, right.
+
+13
+00:04:27,530 --> 00:04:34,650
+那么在右作用下，1 会变成什么？
+So what would happen to 1 under—because we're writing the action on the right?
+
+14
+00:04:34,650 --> 00:05:01,205
+如果看元素 1——好的，你们以前熟悉这种两行形式写置换的记法吗？我明白了，好的。此前别人告诉我你们对这个很熟悉，抱歉。
+So if I look at 1—okay, were you familiar with this notation for writing permutations, these two rows in this way? I see, yeah. Okay, so I had understood from what I had been told that you were familiar with this, I'm sorry.
+
+15
+00:05:01,205 --> 00:05:08,499
+没关系，这只是一种记录置换作用的方式：追踪每个元素映到哪里。
+Right, so it's just a way of writing what the permutation does: you just want to keep track of where every element goes.
+
+16
+00:05:08,499 --> 00:05:24,087
+第一行写要置换的元素——这是 6 个文字上的对称群的一个元素——而在第二行写它们分别映到哪里：1 映到 3，2 映到 6，3 映到 5，4 映到 4，5 映到 1，6 映到2。
+So in the first row you write the elements that you're going to permute—this will be an element of the symmetric group on six letters—and on the second row you write where they're going to go: so 1 goes to 3, 2 goes to 6, 3 goes to 5, 4 goes to 4, 5 to 1, 6 goes to 2.
+
+17
+00:05:24,087 --> 00:05:31,994
+如果我想计算两个这种置换的乘积，该怎么做？
+So if I want to figure out a product of two such things, what do I have to do?
+
+18
+00:05:31,994 --> 00:05:48,470
+我必须算出1 映到哪里：算出 1 在乘积 PQ 下的像，这等价于 1 先被 P 作用，再被 Q 作用。
+I have to figure out where 1 goes: I have to figure out what's the image of 1 under the product PQ, which is the same as 1 acted on by P and then acted on by Q.
+
+19
+00:05:48,470 --> 00:05:59,389
+1 在 P 作用下映到 3，接着在 Q 作用下 3 映到 4，所以是 4。
+So 1 under P goes to 3, and then under Q, 3 goes on to 4, so it's 4.
+
+20
+00:05:59,389 --> 00:06:17,556
+类似地，2 在 P 作用下映到 6，在 Q 作用下 6映到 3，所以我在 2 下面写 3。有人能告诉我 3 下面写什么吗？
+Similarly, 2 under P goes to 6, and then under Q, 6 goes on to 3, so I would write a 3 here. So does somebody want to tell me what I write underneath 3?
+
+21
+00:06:17,556 --> 00:06:42,820
+6，谢谢，是 6；4 先映到 4 再映到 5；5 先映到 1 再映到 2；6 先映到 2 再映到 1，如果我没算错的话。好的，这就是置换的一种记法，非常直接。
+6, thank you, 6; and 4 goes to 4, goes to 5; 5 goes to 1, goes to 2; 6 goes to 2, goes to 1, if I haven't made a mistake. Okay, so this is one notation for permutations, very straightforward.
+
+22
+00:06:42,820 --> 00:06:52,750
+还有第二种重要的记法，就是轮换记法。大家学过轮换记法吗？有人点头了。
+There's a second important notation, which is the cycle notation. So have you met the cycle notation? Someone said yes.
+
+23
+00:06:52,750 --> 00:07:11,825
+看来出于某种原因，他们先讲了轮换记法，而没讲这种更容易的记法。在轮换记法中，你能更直观地看清实际发生了什么。
+So for some reason they've talked about the cycle notation and not the easier one. Okay, so in the cycle notation, you somehow think more about what's actually happening.
+
+24
+00:07:11,825 --> 00:07:17,858
+比如看元素 1，考察置换 P：P 把 1 怎么变？
+So you have the point 1, and let's look at that permutation P: what does P do to 1?
+
+25
+00:07:17,858 --> 00:07:39,135
+1 映到 3；接着看 3，3 映到5——抱歉，在 P 下 3 映到 5，而 5 又映回 1。
+1 goes to 3, and then if you look at 3, 3 goes to 5—oh sorry, 3 goes to 5 under P, and 5 goes back to 1.
+
+26
+00:07:39,135 --> 00:07:54,397
+所以如果你反复施加 P，1 映到 3，映到 5，映回 1，就会在这三个点之间循环轮换。再看——我们还漏掉了什么？
+So if you keep applying P, you just go, and 1 goes to 3, goes to 5, goes to 1, it's just going to cycle around these three points. And if you look at—so what are we missing?
+
+27
+00:07:54,397 --> 00:08:08,480
+还没看 2：2 会发生什么？2 映到 6，然后 6 映回 2。
+We haven't got to 2 yet: so what will happen to 2? 2 will go to 6, and then 6 will go back to 2.
+
+28
+00:08:08,480 --> 00:08:16,059
+所以2 映到 6，再映回 2；如果反复施加 P，就会在这两个点之间循环轮换。
+So we have 2 going to 6, and then that will go back to 2, so if you keep applying P, you're just going to keep cycling around these two points.
+
+29
+00:08:16,059 --> 00:08:21,975
+最后还有点 4，它保持不动，在 P 下映到自身。
+And then finally there's the point 4, which is just left fixed, it goes to itself when you apply P.
+
+30
+00:08:21,975 --> 00:08:56,429
+我们用所谓的轮换记法来记录它：用括号中的序列表示 P 的这些轮换或轨道：1 映到 3 映到 5 映回 1；2映到 6 映回 2；4 保持不动：(1 3 5)(2 6)(4)。好的，这就是 P 的另一种记法，所谓的轮换记法。
+And you record this in the so-called cycle notation: you just write strings in parentheses for these cycles or the orbits that you get of P: 1 goes to 3 goes to 5 goes back to 1; 2 goes to 6 goes back to 2; 4 stays where it is: (1 3 5)(2 6)(4). Okay, so this is another, the so-called cycle notation for P.
+
+31
+00:08:56,429 --> 00:09:00,942
+这样写存在一定的不唯一性。为什么？
+And there's a certain amount of ambiguity when you write this. Why?
+
+32
+00:09:00,942 --> 00:09:19,870
+我的意思是，用轮换记法写 P 并不唯一：我可以把各个轮换按不同的顺序排列；在每个轮换内部，我也可以重排文字的顺序：比如也可以写成 (5 1 3)，
+I mean, there's not a unique way of writing P in cycle notation: I can put the cycles in different orders, and within each cycle I can rearrange the order of the letters: I could also write this as (5 1 3),
+
+33
+00:09:19,870 --> 00:09:38,287
+可以循环轮换它们，因为 5映到 1 映到 3，这取决于从这个三角形的哪个点起步。如果有一个 1-轮换，可以直接省略它，这并不会有任何影响。
+I can cyclically permute these because 5 goes to 1 goes to 3, it depends where in this triangle I start. If I have a 1-cycle, I can just drop it, it doesn't really make any difference.
+
+34
+00:09:38,287 --> 00:09:53,303
+而且各个轮换按什么顺序写也无关紧要，因为它们不包含公共数字：这个只移动 5、1 和 3，而那个只移动 2 和 6。
+And it doesn't matter what order I write the cycles in, they don't involve any common numbers: this only moves 5, 1, and 3, and this only moves 2 and 6.
+
+35
+00:09:53,303 --> 00:10:02,670
+所以存在一定的不唯一性，但也仅此而已。
+So there's a certain amount of ambiguity, but that's the limit of the ambiguity.
+
+36
+00:10:12,879 --> 00:10:48,857
+基本事实是：任何置换都可以唯一地写成不相交轮换的乘积——“不相交”意味着它们没有公共数字，任何数字都不会同时出现在两个轮换中—
+So the basic fact is that any permutation can be written uniquely as a product of disjoint cycles—disjoint meaning they have no numbers in common, no number occurs in both cycles—
+
+37
+00:10:48,857 --> 00:11:36,501
+—在允许我刚才解释的几种调整的前提下是唯一的：可以重排各个轮换，循环轮换单个轮换内部的元素，也可以省略 1-轮换。
+disjoint cycles, up to the various switches I explained you could make: you can reorder the cycles, cyclically permute the elements in a cycle, and you can drop 1-cycles.
+
+38
+00:11:36,501 --> 00:11:58,725
+有时人们会约定必须把 1-轮换全部写出来，但那样做很费时间。好的，大家对这个熟悉吗？熟悉。并且你们可以用这种方式计算乘积。
+Sometimes people make the convention that you always have to put them in, but it's just time consuming to do that. Okay, so is this familiar to you? Yes. And you can calculate products in this way.
+
+39
+00:11:58,725 --> 00:12:16,806
+于是在这种记法下，置换 Q 就是：它把 1 映到 2 又映回 1；把 3 映到 4，4 映到 5，5 映到 6，再映回 3。
+So in this notation, then Q would be: it sends 1 to 2 which goes back to 1; 3 to 4, 4 to 5, 5 to 6, back to 3.
+
+40
+00:12:16,806 --> 00:12:36,616
+所以这就是Q 的不相交轮换分解：(1 2)(3 4 5 6)。你可以重新计算乘积 PQ，即 (1 3 5)(2 6) 乘以 (1 2)(3 4 5 6)。
+So this is the cycle decomposition of Q: (1 2)(3 4 5 6). And you can calculate again the product PQ as (1 3 5)(2 6) times (1 2)(3 4 5 6).
+
+41
+00:12:37,770 --> 00:13:06,030
+那么用轮换表示时该怎么计算乘积呢？这是大家练习过的吗？没有？好的。出于某种原因，让我修正一下，就用我原本写的形式：(1 3 5)，写什么顺序无所谓，接着是 (2 6)。
+So how do you work out the product when you work in cycles? Is this something you've practiced doing? No? Okay. So for some reason, let me correct this, let me just use the original form I had for this thing: (1 3 5), it doesn't matter, (2 6).
+
+42
+00:13:06,030 --> 00:13:15,604
+我想把它写成不相交轮换的乘积：必须选一个起点，选哪都行，让我选择从 1 开始。
+Okay, so I want to write it as a product of cycles: I have to choose to start somewhere, it doesn't matter, let me choose to start with 1.
+
+43
+00:13:15,604 --> 00:13:20,705
+我想找到包含 1 的轮换：如果施加乘积 PQ，1 映到哪里？
+I want to find the cycle involving 1: so where does 1 go if I apply the product PQ?
+
+44
+00:13:20,705 --> 00:13:26,230
+因为我们是从右边作用：所以 1 首先映到 3。
+Well, we're acting from the right: so 1 first of all goes to 3.
+
+45
+00:13:26,230 --> 00:13:34,100
+我顺着找 1，在这里找到了它，它移到了 3；现在得到了 3，我继续往后找看还有没有 3，看它又移到哪里。
+I look along for a 1, I find it here, it moves to 3; I've now got a 3, and I look along to find anywhere else it might be, and see where that moves.
+
+46
+00:13:34,100 --> 00:13:43,788
+下一次找到 3 是在这里，它移到了 4。接着往后看没有 4 了，所以最终落在4。
+The next time I find a 3 is here, it moves to a 4. Then I look along and there are no more 4s, so it ends up at 4.
+
+47
+00:13:43,788 --> 00:13:52,703
+然后我从 4 开始，看它移到哪里：对于 4，我往后看直到找到 4。
+Then I'm going to start with 4 and see where this moves to: so for 4, I look along until I find a 4.
+
+48
+00:13:52,703 --> 00:14:02,810
+第一个出现 4 的地方是在这里：4 移到了 5，后面没有 5 了，所以最终落在 5。
+The first place I find it is here: that 4 moves to a 5, and I don't see any more 5s, so that will end up at 5.
+
+49
+00:14:02,810 --> 00:14:13,600
+接下来我想找出 5 映到哪里：我顺着看，第一个出现 5 的地方在这里。5 映到哪里？它循环回到了 1。
+I then want to find out where 5 goes to: so I look along here, the first place I find a 5 is here. Where does the 5 go? It's cycled back to 1.
+
+50
+00:14:13,600 --> 00:14:28,339
+好的，现在得到了 1，我继续往后找 1：下一个 1 在这里，它映到 2，后面没有 2 了，所以最终落在 2。现在我想问 2 映到哪里。
+Okay, so now I've got a 1, I move along again to look for another 1: the next 1 is here, that goes to a 2, and there are no more 2s, so it ends up at 2. Now I want to ask where 2 goes to.
+
+51
+00:14:28,339 --> 00:14:40,380
+好的，从 2 开始：第一个移动 2 的是什么？是这个 2-轮换：它把 2 移到 6。现在得到了 6；还有别的移动 6 吗？
+Okay, so I start with 2: what's the first thing that tells me to move a 2? It's this 2-cycle: it's going to move the 2 to the 6. I've now got a 6; is anything else going to move a 6?
+
+52
+00:14:40,380 --> 00:14:45,641
+这里有个 6，它被移回 3。后面没有移动 3 的了，所以我得到 3。
+Here's a 6, it's going to be moved back to a 3. Nothing else will move a 3, so I get 3.
+
+53
+00:14:45,641 --> 00:14:53,247
+所以我总是向右移动，每当该数字出现时就转换它。现在到了哪里？
+So I'm always moving to the right and switching something every time that number occurs. So where have I got to?
+
+54
+00:14:53,247 --> 00:15:07,664
+3：我往后看，第一个3 在这里，这个轮换把它移到 5。现在得到了 5；继续往后，下一个看到 5 的地方在这里，它被移到 6。
+3: I look along, the first 3 is here, this cycle will move it to a 5. I've now got a 5; move along, the next place I see a 5 is here, which is moved to a 6.
+
+55
+00:15:07,664 --> 00:15:24,020
+有了 6；往后看，第一个 6 在这里，它被移到 2；再顺着找 2，这里有个 2，它被移到 1；往后看没有 1 了，所以最终是 1。而我们一开始就是 1，所以它现在循环闭合了。
+There's 6; look along, the first 6 I see is here, it's moved to a 2; look along for a 2, there's a 2 here, it's moved to a 1; look along, there are no more 1s, so that's a 1, and we already had a 1, so it's now going to cycle back on itself.
+
+56
+00:15:24,020 --> 00:15:49,631
+因此乘积 PQ 就是一个 6-轮换，如果运气好的话，这正好符合我们之前两行记法算出的结果：1 到 4，4 到 5，5 到 2，2 到 3，3 到 6，6 到 1。所以它完全吻合我们之前做的计算。
+So the product PQ is just one 6-cycle, and with a bit of luck this agrees with what we had here: 1 to 4, 4 to 5, 5 to 2, 2 to 3, 3 to 6, 6 to 1. So it does agree with what we did before.
+
+57
+00:15:49,631 --> 00:16:28,755
+好的，大家都明白了吗？还是需要我再做一个例子？有人不想让我再讲一个，有人不吭声。都清楚了吗？好的，太棒了。顺便问一下，P^6 是什么？是恒等置换，对吧。你们是怎么看出来的？
+Okay, is that clear to everybody, or do you want me to do another one? Some people don't want me to do another one, some people aren't saying anything. Is that clear? Yeah, great. What's P to the sixth by the way? It's the identity, right. How did you see that?
+
+58
+00:16:28,755 --> 00:16:42,158
+是的，没错：这个元素是不相交轮换的乘积，它们彼此对易，因为不相交轮换没有公共元素，它们是对易的。
+Yeah, that's right: this element is a product of things that commute with each other, because disjoint cycles, cycles with no common element, commute.
+
+59
+00:16:42,158 --> 00:16:51,553
+正如我刚才解释的，我可以重排它们的顺序：先写 (2 6) 还是先写 (1 3 5) 都无所谓，它们对易是因为它们没有公共元素。
+As I explained here, I can reorder them: it doesn't matter whether I do the (2 6) first or the (1 3 5) first, these things commute because they've got no common element.
+
+60
+00:16:51,553 --> 00:17:03,281
+因此如果把它升到 6 次方，就等于分别把它们升到 6 次方：这是一个 3-轮换，施加三次就得到恒等置换；这是一个 2-轮换，施加两次就得到恒等置换。
+And so if I raise it to the sixth power, it's like raising this to the sixth power and this to the sixth power: this is a 3-cycle, so when I do it three times I get the identity; this is a 2-cycle, so when I do it twice I get the identity.
+
+61
+00:17:03,281 --> 00:17:08,116
+所以当施加六次时，这个是恒等置换，那个也是恒等置换，而 1-轮换本来就是恒等置换。
+So when I do it six times, this is the identity, this is the identity, and this 1-cycle always was the identity.
+
+62
+00:17:08,116 --> 00:17:20,410
+或者你也可以从图象上理解：施加 P 时，元素在这个三角形中轮换；如果施加 3 的任意倍数次，三角形中的每个点都会固定不动；如果施加2 的任意倍数次，这里的两个点也都会固定不动。
+Or you can think sort of pictorially: as I do P, I move around this triangle; if I do it any multiple of three times, everything in this triangle will be fixed; if I do any multiple of two times, everything here will be fixed.
+
+63
+00:17:20,410 --> 00:17:42,616
+这在某种程度上展现了轮换记法的美妙之处：你能非常迅速地看出这种性质，而如果我只是写出——刚才我擦掉了——写出 Q 的两行记法并问大家 Q^4 是多少，仅从那个表格来看是完全看不出来的，你只能老老实实硬算。
+And this somehow illustrates the beauty of the cycle notation: you can very quickly see things like this, whereas if I just wrote down—well I've erased it—when I wrote down Q equals this, and asked you what Q to the fourth was, from that table it would be completely hopeless, I mean you'd just have to do the calculation.
+
+64
+00:17:42,616 --> 00:17:54,830
+但一旦把它写成这种轮换形式，你就能立刻看出 Q^4 是恒等置换，因为它是相互对易的一个 2-轮换与一个 4-轮换的乘积。
+But as soon as you've written it in this form, you immediately see that Q to the fourth is the identity, because it's the commuting product of a 2-cycle and a 4-cycle.
+
+65
+00:17:54,830 --> 00:18:34,391
+明白了吗？好的，接下来我想计算乘积 Q^{-1} P Q。我们把它写下来：第一行 1 2 3 4 5 6，第二行 21 4 5 6 3 的逆。
+Okay? Okay, well the next thing I want to do is calculate the product Q inverse times P times Q. So we write that: 1 2 3 4 5 6 / 2 1 4 5 6 3 inverse.
+
+66
+00:18:34,391 --> 00:19:04,056
+我用这种形式写：把 P 写成轮换形式，然后再次写出 Q 的两行形式：1 2 3 4 5 6 / 2 1 4 5 6 3。有人关照我把黑板分成四块写，这块应该刚好写得下。
+I'm going to write this in this shape: I'm going to write P in the cycle shape, and then I'm going to write Q again in this shape: 1 2 3 4 5 6 / 2 1 4 5 6 3. I was told to quarter these boards, well maybe this will just fit.
+
+67
+00:19:04,056 --> 00:19:17,490
+我想把答案表示为轮换形式：让我用元素 2 作为第一个轮换的起点。
+And I want to express the answer as a cycle: let me start the first cycle with the element 2.
+
+68
+00:19:17,490 --> 00:19:41,179
+有人能告诉我 2——在整个乘积的作用下，2 会映到哪里？4！对于 2，我必须先施加这个置换的逆：2 映到哪里？
+Can anybody tell me what 2— I want to calculate under this whole product, what is 2 going to go to? 4! So for 2, I've got to do the inverse of this permutation.
+
+69
+00:19:41,179 --> 00:20:01,810
+直接看：在底下一行找到 2，然后看它上面的数字：是什么映到了 2？是 1。所以 2 映到 1，接着 1 映到 3，然后 3 映到 4。抱歉，看到哪了？好的，4：4 映到哪里？
+Where does 2 go to? I just look: I look for 2 in the bottom row and look up above it: what mapped to 2? It was 1. So 2 goes to 1, 1 goes to 3, and then 3 goes to 4. Excuse me, where am I? Okay, 4: where does 4 go to?
+
+70
+00:20:01,810 --> 00:20:24,687
+4 来自 3，3 映到 5，接着 5 映到 6。而 6 来自 5，5 映到 1，接着 1 映到 2，所以它循环映回了 2。
+Well, 4 came from 3, 3 goes to 5, which goes to 6. And 6 came from 5, 5 goes to 1, which goes to 2, so it cycles back to 2.
+
+71
+00:20:24,687 --> 00:20:38,340
+然后让我从 1 开始：1 来自 2，2 映到 6，6 映到 3；3 来自 6，6 映到 2，2 映到 1。
+And then let me put a 1 here: 1 came from 2, 2 goes to 6, which goes to 3; and 3 came from 6, 6 goes to 2, which goes to 1.
+
+72
+00:20:38,340 --> 00:20:49,549
+这一轮闭合。最后剩下 5：5 来自 4，保持不动，映回 5。
+That closes, and we're left with 5: 5 came from 4, stays where it is, goes back to 5.
+
+73
+00:20:52,967 --> 00:20:58,520
+有人能简单概括一下，我做了这个共轭之后发生了什么吗？
+Can anybody tell me simply what has happened when I've done this?
+
+74
+00:21:09,690 --> 00:21:21,699
+是的，但怎样才能几乎一眼看出这些数字，而根本不用做我刚才的硬算？有人看出来了吗？
+Yeah, but how could I have seen these numbers almost at a glance, without doing the computation I just went through? Can anybody see?
+
+75
+00:21:21,699 --> 00:21:39,844
+没错，首先应该注意到轮换形状是完全相同的。所谓轮换形状，是指轮换的个数以及它们的长度：我们得到了一个 3-轮换、一个 2-轮换和一个1-轮换，所以轮换形状保持不变。
+That's right, so first of all, you should notice the cycle shape is the same. By the cycle shape, I mean the number of cycles and their lengths: we've got a 3-cycle, a 2-cycle, and a 1-cycle, so the cycle shape has been unchanged.
+
+76
+00:21:39,844 --> 00:21:45,880
+而在原来的 1 3 5 位置上，我们现在得到什么？
+And in place of 1 3 5, what do I have here?
+
+77
+00:21:45,880 --> 00:22:07,630
+是 2 4 6——抱歉，就是那些元素在 Q 下的像：2 正好是 Q(1)，4 正好是 Q(3)，6 正好是 Q(5)。
+Well, 2 4 6—sorry, the Q-image of those: 2 is just Q of 1, 4 is just Q of 3, and 6 is just Q of 5.
+
+78
+00:22:07,630 --> 00:22:20,562
+所以这是 Q(1)、Qof 3、Q(5)、Q(2)、Q(6)、Q(4)。
+So this was Q of 1, Q of 3, Q of 5, Q of 2, Q of 6, Q of 4.
+
+79
+00:22:20,562 --> 00:22:43,910
+所以当计算共轭 Q^{-1} P Q 并且用轮换形式表示时，事情非常简单：你只需取出原来的轮换，把里面的每一个整数都替换为该整数在 Q 下的像。
+So when you form the conjugate Q^{-1} P Q and you're working in cycle shape, it's very easy: what you do, you just take the original cycles and replace every integer here with Q of that integer.
+
+80
+00:22:43,910 --> 00:23:03,376
+如果这还不够显然，让我稍微仔细地解释一下为什么这是对的。关键在于下面这个公式：假设 i 在 P 下映到j。
+So let me—okay, so that's not obvious, let me explain slightly more carefully why that's true. So the key point is the following formula: suppose i is sent by P to j.
+
+81
+00:23:03,376 --> 00:23:27,815
+现在我们关心什么？我们关心 i 被 Q 作用后的元素 i Q，在乘积Q^{-1} P Q 作用下会映到哪里。
+And now what are we interested in? We're interested in where i acted on by Q is going to be sent by the product Q^{-1} P Q.
+
+82
+00:23:27,815 --> 00:23:29,886
+这个乘积是什么呢？
+Well, what is this product?
+
+83
+00:23:29,886 --> 00:23:44,992
+Q 与 Q^{-1} 相互抵消，改变括号的结合顺序，这就是 i 先被 P 作用，再被 Q 作用。
+The Q and the Q^{-1} cancel, and changing the order of the parentheses, this is i acted on by P, acted on by Q.
+
+84
+00:23:44,992 --> 00:23:58,838
+所以 i Q 在P 的这个共轭作用下，映到了 (i P) Q。
+So i acted on by Q is sent by this conjugate of P to the image under Q of i acted on by P.
+
+85
+00:23:58,838 --> 00:24:30,460
+好的，所以如果 P 具有轮换形式：(i_1 i_2 ... i_r)(i'_1 i'_2 ...) 以及更多轮换，那么对于这个 Q^{-1} P Q，它的轮换形状是什么？Q^{-1} P Q 呢？
+Okay, and so if P is of the form i 1 i 2 i r, i 1 primed i 2 primed, and then some more cycles, then this Q inverse P Q, what's the cycle shape of Q inverse PQ?
+
+86
+00:24:39,650 --> 00:24:51,660
+没错：如果考察 i_1 Q，让我们用 i_1 Q 开始第一个轮换。i_1 Q 在此变换下会映到哪里？
+Sorry, that's right: so if I look at i 1 Q, let's start the first cycle with i 1 Q. Where is i 1 Q going to be sent by this?
+
+87
+00:24:51,660 --> 00:25:01,595
+它会被映到 (i_1 P) Q，而 i_1 P = i_2，所以就是 i_2 Q。那么 i_2 Q 又会映到哪里呢？
+Well, it's going to be sent to i 1 P Q, which is just i 2 acted on by Q. Where is i 2 Q going to be sent to?
+
+88
+00:25:01,595 --> 00:25:20,593
+i_2 Q 将被映到 (i_2 P) Q，也就是 i_3 Q，一直到 i_r Q。那么 i_r Q 会被映到哪里？
+Well, i 2 Q is going to be sent by this to i 2 P Q, which is just i 3 acted on by Q, up to i r acted on by Q. Where is i r Q going to be sent?
+
+89
+00:25:20,593 --> 00:25:30,240
+i_r Q 会被映到 (i_r P) Q，即 i_1 Q，正好回到这个轮换的第一个元素！接着我们看下一个轮换，从 i'_1 Q 开始：它会被映到哪里？
+i r Q is going to be sent by this to i r P Q, which is just i 1 acted on by Q, which was the first element of this cycle.
+
+90
+00:25:30,240 --> 00:25:50,680
+i'_1 Q 会被映到 (i'_1 P) Q，也就是 i'_2 Q。
+Then we're going to get i 1 primed Q, let's start the next cycle with that: where is this going to be sent? i 1 prime Q is sent by this to i 1 primed P which is i 2 primed acted on by Q.
+
+91
+00:25:58,530 --> 00:26:20,929
+好的，这正是我们刚才所观察到的现象：当用置换 Q 进行共轭时，轮换形状的变化就是把轮换中的每个元素都替换为它在 Q 下的像。是的，我刚才把作用位置写反了对吧？
+Okay, so this is just what we observed in this case: that when we conjugate by a permutation Q, what happens to the cycle shape is that we replace every element in the cycle by its image under Q. Okay, yes, I've moved it on to the wrong side, haven't I?
+
+92
+00:26:20,929 --> 00:26:42,873
+抱歉，非常感谢，应该是 1 Q, 3 Q, 5 Q, 2 Q, 6 Q。谢谢。大家对此有什么疑问吗？
+My apologies, thank you very much: 1 Q, 3 Q, 5 Q, 2 Q, 6 Q. Yeah, thank you. Okay, are there any questions about that?
+
+93
+00:26:42,873 --> 00:27:42,275
+好的，让我把它形式化地写下来：首先，在对称群 S_n 中相互共轭的两个置换，用通常的说法就是具有相同的轮换形状。我之前简要提过，
+Okay, so let me formalize that as well, write it down: so first of all, two permutations which are conjugate in S_n the usual words people use are have the same cycle shape. I mentioned it briefly,
+
+94
+00:27:42,275 --> 00:27:55,915
+但还没严谨定义什么是轮换形状：所谓轮换形状，是指当把它们表示为不相交轮换的乘积时，具有相同数量的各种长度的轮换。
+but I haven't really said what I mean by cycle shape: by cycle shape, I mean they, when you express them as a product of disjoint cycles, they have the same number of cycles of each length.
+
+95
+00:27:55,915 --> 00:28:37,070
+也就是说，当表示为不相交轮换的乘积时，它们对于每一种长度都具有相同数量的轮换。
+That is, when expressed as a product of disjoint cycles, they have the same number of cycles of every length.
+
+96
+00:28:38,940 --> 00:28:51,365
+所以这两个置换具有相同的轮换形状：都有一个长为 3 的轮换、一个长为 2 的轮换和一个长为 1 的轮换。
+So this and this have the same cycle shape: they have one cycle of length 3, one cycle of length 2, and one cycle of length 1.
+
+97
+00:28:51,365 --> 00:29:04,063
+好的，这一点从刚才的推导中已经显而易见：从 P 的轮换形状出发，我们得到了 Q^{-1} P Q 具有完全相同的轮换形状。
+Okay, and sort of that's now obvious from this calculation: we've taken the cycle shape for P, and we've obtained the same one for Q^{-1} P Q.
+
+98
+00:29:04,063 --> 00:29:45,320
+并且反之亦然：反过来，如果两个置换具有相同的轮换形状，它们必共轭。
+And the converse is also true: so conversely, if two permutations have the same cycle shape, they're conjugate.
+
+99
+00:29:45,320 --> 00:30:10,125
+我稍后会证明这一点，但轮换记法的第二个极大优势在于，它能让你极其迅速地理解对称群中的共轭性质。而一般来说，理解群中的共轭类是群论中最重要的事情之一。
+I'll justify this in a moment, but the second thing that the cycle notation is very good for, is it very quickly allows you to understand conjugacy in the symmetric group. And in general, understanding conjugacy in a group is one of the most important things to be able to do.
+
+100
+00:30:10,125 --> 00:30:24,008
+好的，让我用一个例子来说明第二个断言，我想大家马上就能明白为什么它在一般情况下也成立。来看我的例子：这个置换，
+Okay, well let me justify the second assertion by just doing an example, and I think it will be immediately clear why that's true in general. So let me go and look at my example:
+
+101
+00:30:24,008 --> 00:30:49,350
+我想写出一个具有相同轮换形状的置换：这个具有相同的轮换形状。所以命题告诉我们存在某个 Q 使其成为共轭。那么我们该取什么样的 Q 呢？
+this, and I want to write down something with the same cycle shape: this has the same cycle shape. So this proposition is telling me I can write this as a conjugate of this for some Q. Well, what Q should I take?
+
+102
+00:30:56,349 --> 00:31:26,823
+请前排以外的同学来回答一下：1 映到 6，3 映到 5，对，5 映到 4。好的，我们知道共轭后对应的轮换就是 Q(1)、Q(3)、Q(5)，我们希望它等于轮换 (6 5 4)。
+Let's have somebody outside the front row answer: 1 to 6, 3 to 5, yes right, 5 to 4. Okay, so we know that this will just be Q of 1, Q of 3, Q of 5, and we want that to be the cycle 6 5 4.
+
+103
+00:31:26,823 --> 00:31:44,524
+所以我们最好让——虽然有一些选择自由：比如可以让 1映到 5，3 映到 4，5 映到 6；但按我的写法最显然的对应就是让 1 映到 6，3 映到 5，5 映到 4，2 映到 3，6 映到 2，4 映到 1。
+So we better send—while we've got some choice: we could send 1 to 5, 3 to 4, and 5 to 6, but the obvious choice the way I've written it is just to send 1 to 6, 3 to 5, 5 to 4, 2 to 3, 6 to 2, and 4 to 1.
+
+104
+00:31:44,524 --> 00:32:04,450
+我希望大家能看出，这种构造在任何对称群中都适用：只要写出两个具有相同轮换形状的不相交轮换乘积，我总能通过这种对应方式找到一个把前一个共轭到后一个的置换。
+And I hope it's sort of obvious that that construction will work whenever I write down two in any symmetric group, whenever I write down two products of disjoint cycles with the same cycle shape, I can always, just by doing this, find a permutation that will conjugate one to the other.
+
+105
+00:32:04,450 --> 00:32:35,348
+如果所有轮换的长度都互不相同。如果有两个相同长度的轮换，在选择匹配哪一个轮换时就会有一些不唯一性。
+Okay, if all the cycles are different lengths. If I had two cycles of the same length, there would be some ambiguity about which of those cycles I was going to do.
+
+106
+00:32:40,084 --> 00:32:41,498
+大家明白我的意思吗？
+Do you see what I'm saying?
+
+107
+00:32:41,498 --> 00:32:54,540
+所以你可以写出一个公式——这里有一个很有趣的问题，让我花点时间讲讲。
+So you could write down a formula for—there's an interesting question, so let me spend a moment.
+
+108
+00:32:56,510 --> 00:33:34,180
+如果看置换 (1 2)(3 4)(5 6)(7 8 9)(10 11 12)，我问有多少个 Q——即求满足 Q^{-1} P Q 等于自身的 Q 的个数：
+So if I looked at the cycle 1 2, 3 4, 5 6, 7 8 9, 10 11 12, and I asked how many ways are there, how many Q—so I want the number of the set of Q such that Q inverse this Q would equal—
+
+109
+00:33:34,180 --> 00:33:54,349
+使得它等于自身的 Q ∈ S_{12}——写成自身或任何具有相同形状的置换都可以，答案是一样的。
+so Q in S_{12} such that this is equal to—well I can even write the same one again, it doesn't matter, anything with the same shape would do.
+
+110
+00:33:54,349 --> 00:34:02,470
+大家能看出这个问题的答案是多少吗？
+So can you see what the answer to this is?
+
+111
+00:34:09,222 --> 00:34:28,135
+大家花点时间思考一下。我必须把这个 2-轮换与这三个 2-轮换中的某一个相匹配，这里有几种选择？有3 种选择。
+Take a moment to say. So I've got to match this 2-cycle with one of these three 2-cycles, so how many choices do I have there? So I have 3 choices.
+
+112
+00:34:28,135 --> 00:34:44,386
+选定之后，把这两个 2-轮换匹配在一起有几种方式？2 种：既可以把 1 映到 5、2 映到 6，也可以把 1映到 6、2 映到 5。
+When I do that, how many ways are the matching of these two 2-cycles together? 2: I can either send 1 to 5 and 2 to 6, or I can send 1 to 6 and 2 to 5.
+
+113
+00:34:44,386 --> 00:34:59,919
+假设我已经匹配好了这一对，下一个 2-轮换可以与剩下的几个 2-轮换匹配？2 个。选定之后，具体匹配的方式又有几种？2 种。
+Okay, assume that I've matched chosen way to match these two, how many 2-cycles could I match this one with? 2. And when I do that, how many ways are there of actually doing that matching? 2.
+
+114
+00:34:59,919 --> 00:35:40,447
+至于最后一个 2-轮换，只能和剩下的 1 个匹配，且有 2 种匹配方式。好的，接下来看 3-轮换：这个 3-轮换可以和几个 3-轮换匹配？2 个。如果选定与某一个匹配，有几种匹配方式？
+And then with the final 2-cycle, how many can I match it with? 1, and there are 2 ways of doing it. Okay, and then let's look at the 3-cycles: how many 3-cycles could I match this with? 2. And if I choose to match it with this one, how many ways of matching it?
+
+115
+00:35:41,046 --> 00:35:46,556
+3 种！看 7 映到哪里：它可以映到10、11 或 12。
+3! 3: I can send this—I ask where the 7 goes: it can go to the 10, or 11, or 12.
+
+116
+00:35:46,556 --> 00:36:01,343
+假设我把 7 映到 10：那么 8 必须映到哪里？映到11，9 必须映到 12。所以一旦定下第一个元素映到哪里，其余元素就全定了，因为它必须是循环轮换。
+Let's suppose I send the 7 to the 10: where does the 8 have to go? To the 11, and the 9 has to go to 12. So once you've fixed where in this cycle you're sending the first element, everything else is fixed, because it has to be a cyclic permutation.
+
+117
+00:36:01,343 --> 00:36:12,425
+所以匹配这两个轮换恰有 3 种方式。然后第二个 3-轮换只能匹配到这里，同样有3 种匹配方式。
+So there's just 3 ways of matching these two cycles, and then this 3-cycle has to go to here, and again there are 3 ways of matching it.
+
+118
+00:36:12,425 --> 00:36:21,940
+因此总数可以写成 3! * 2^3 * 2! * 3^2。
+So I could write this as 3 factorial times 2 to the 3 times 2 factorial times 3 squared.
+
+119
+00:36:21,940 --> 00:37:18,505
+好的。一般而言，让我直接告诉大家答案：如果 P 有 a_1 个 1-轮换，a_1 个 1-轮换，a_2 个 2-轮换等等，那么有多少个 Q 满足 Q^{-1} P Q = P？
+Okay, and in general, I mean if I had— let me not write it, let me just tell you the answer: if there are a_1 1-cycles, a_1 1-cycles, a_2 2-cycles, and so on, then how many Q satisfy Q^{-1} P Q equals P?
+
+120
+00:37:18,505 --> 00:37:31,240
+或者等于 P 的任意共轭元，放哪一个都一样。有人能告诉我答案是多少吗？请再说一遍？
+Or Q^{-1} P Q equals any conjugate of P, it doesn't matter what I put there. Can anybody tell me what the answer is going to be? Say that again?
+
+121
+00:37:35,210 --> 00:38:04,420
+没错：匹配所有长为 i 的轮换的方式数是 a_i!，而在每一种匹配中，单个长为 i 的轮换内部各有 i 种对齐方式。因此把所有 i 相乘得到 prod_i (a_i! * i^{a_i})。这就是答案。
+That's right: so the number of ways of matching up all the 1-cycles is a—all the i-cycles is a_i factorial, and in each such matching, I can actually match the individual cycles each in i ways. So I get the product over i: prod_i (a_i! * i^{a_i}). So this is the answer.
+
+122
+00:38:07,899 --> 00:38:56,190
+有问题吗？让我看看。好的，让我——让我来做一个类似的练习：考察 5 个文字上的对称群。它有多少个元素？5!，所以阶是 120。
+Some question? Let me see. Okay, let me— let me actually do a similar exercise: so let me look at the symmetric group on five letters. How many elements does this have? 5 factorial, so order 120.
+
+123
+00:38:56,190 --> 00:39:24,482
+那么它有多少个共轭类？有人能列出这些共轭类吗——给我一些各个共轭类的代表元？
+So how many conjugacy classes does it have? Can somebody list the conjugacy classes—give me some representatives of the conjugacy classes?
+
+124
+00:39:24,482 --> 00:39:54,946
+按什么顺序写都可以：1，(1 2 3 4 5) 即 5-轮换，(1 2 3 4)，对，我们列全了吗？
+You can do them in any order: 1, 1 2 3 4 5 or 5-cycle, 1 2 3 4, yep, yeah, have we got them all?
+
+125
+00:39:54,946 --> 00:40:01,070
+我想我们列全了：1, 2, 3, 4, 5, 6, 7。
+Probably got them all, yeah, I think we've got them all: 1, 2, 3, 4, 5, 6, 7.
+
+126
+00:40:01,070 --> 00:40:09,246
+对，如果你想列出所有共轭类，只需列出所有可能轮换形状的元素，因为我们知道共轭等价于具有相同的轮换形状。
+1, 2, 3, 4, 5, 6, 7. Right, so if you want to list the conjugacy classes, you just have to list elements of all the possible cycle shapes, because we know that conjugacy is equivalent to the same cycle shape.
+
+127
+00:40:09,246 --> 00:40:33,395
+所以我们可以全都是 1-轮换，也就是单位元；可以有一个 5-轮换；可以有一个 4-轮换和一个 1-轮换；可以有一个 3-轮换，然后配合两个 1-轮换或一个 2-轮换；
+So we could just have, we could have all 1-cycles, as it were; we could have a 5-cycle; we could have a 4-cycle and a 1-cycle; we could have a 3-cycle, and then we could either have two 1-cycles or a 2-cycle;
+
+128
+00:40:33,395 --> 00:40:55,514
+我们也可以有一个 2-轮换，搭配 3-轮换（已经列过了）或另一个 2-轮换加一个 1-轮换，或者只有一个 2-轮换搭配三个 1-轮换。没有其他可能了。那么这个共轭类里有多少个元素？
+we could have a 2-cycle, and then either a 3-cycle (which we've already had), or another 2- cycle and a 1-cycle, or just a 2-cycle and three 1-cycles, as it were. And there are no other possibilities. How many elements are there in this conjugacy class?
+
+129
+00:40:55,514 --> 00:41:07,460
+1 个：单位元的唯一共轭元就是自身。在 5 个元素的对称群中，有多少个 5-轮换？不是。
+1: the only conjugate of the identity is itself. How many 5-cycles are there in the symmetric group with 5 elements?
+
+130
+00:41:08,600 --> 00:41:19,164
+写下一个这样的 5-轮换有多少种方式？第一个元素有几种选择？4 的阶乘，没错，4! 是多少？
+How many ways can I write down a 5-cycle like this? How many choices are there for the first element? 4 factorial, that's right, 4 factorial is what?
+
+131
+00:41:19,164 --> 00:41:43,870
+等等我算对了吗？对，是 4!，4! = 24。为什么呢？我们可以通过5 种方式选这个元素，接着 4 种，3 种，2 种，1 种，这看起来像 5!，即 5 * 4 * 3 * 2 * 1。
+In a minute, am I right? Yes, it's 4 factorial, yes. So 4 factorial is 24. Why? Well, I can choose this element in 5 ways, this then in 4, this then in 3, this then in 2, this then in 1, which looks like 5 factorial, so it's 5 * 4 * 3 * 2 * 1.
+
+132
+00:41:43,870 --> 00:41:58,118
+然而，这与轮换 (2 3 4 5 1) 相同，也与轮换 (34 5 1 2) 相同，也与轮换 (4 5 1 2 3) 以及 (5 1 2 34) 相同。
+However, this is the same as the cycle 2 3 4 5 1, which is the same as the cycle 3 4 5 1 2, which is the same as the cycle 4 5 1 2 3, the same as the cycle 5 1 2 3 4.
+
+133
+00:41:58,118 --> 00:42:13,427
+所以同一个轮换取决于把哪个元素写在最前面，有 5 种不同写法。我必须把总数除以 5，这就是为什么得到 4!。
+So this same cycle can be written in 5 different ways depending which of these elements I choose to put first. I have to divide this answer by 5, which is why I get 4 factorial.
+
+134
+00:42:13,427 --> 00:42:17,220
+那么有多少个 4-轮换？
+How many 4-cycles are there?
+
+135
+00:42:20,850 --> 00:42:42,982
+你很可能是对的。你是怎么得出来的？选出 4 个元素，然后乘以 4! / 4 = 3!？对。
+You could well be right. How did you get that? Okay, and multiplied by 4 factorial divided by 4, which is 3 factorial, yes.
+
+136
+00:42:42,982 --> 00:43:12,644
+好的，让我换一种方式来说，其实这两种思路都很好。如果你喜欢，你可以先用 5 种方式选出哪个元素被省略，剩下 4 个元素能构成多少个 4-轮换？这是对的。我是说，这些都是完全良好且等价的思路。
+Okay, let me write it a different way, I mean that's fine. Yes, if you like, you can first of all choose this in any of 5 ways, and then how many ways of, when you've got four elements left, how many ways of making a 4-cycle? That's true. I mean, yeah, these are all perfectly good and equivalent ways.
+
+137
+00:43:12,644 --> 00:43:28,377
+我的表述习惯是：我们想写成这样，第一个位置有 5 种选法，第二个 4 种，第三个 3 种，第四个 2 种；但这给出了这个 4-轮换，
+The way I would say it is: we want to write it like this, so I can choose this in 5 ways, I can choose this in 4 ways, this in 3 ways, this in 2 ways; didn't matter, but then that gives me this 4-cycle,
+
+138
+00:43:28,377 --> 00:44:02,923
+而它有 4 种不同的写法，所以必须除以 4，最后一个固定为 1，得到 30。那对于 (a b c)(d e) 呢？抱歉，你说什么？
+but there are 4 different ways of writing this 4-cycle, so I have to divide it by 4, and then just 1 here, which is again 30. What about this? Sorry, what did you say?
+
+139
+00:44:02,923 --> 00:44:08,390
+50？不，你会后悔猜 50 的！
+50? No, you'll regret it, sorry!
+
+140
+00:44:09,390 --> 00:44:27,300
+让我再来算一次：对于 (a b c)，这个元素有 5 种选法，这个 4 种，这个有3 种选法；除以 3 是因为给定的 3-轮换有 3 种不同写法。
+Well, let me do it again: this one you can choose in 5 ways, this one in 4 ways, this one you can choose in 3 ways, divided by 3 because I can write this given 3-cycle in 3 different ways.
+
+141
+00:44:27,300 --> 00:44:48,006
+对于搭配两个 1-轮换的情形，没有多余选择了，因为剩下的全必须是 1-轮换——可以写乘以 2 * 1 / 2 因为顺序无所谓——无论如何得到 20 个。
+Then it really doesn't, I don't have any other choices because the others all have to be 1-cycles—I could write * 2 * 1 / 2 because it doesn't matter which order these are—but anyway you get this, which is 20.
+
+142
+00:44:48,006 --> 00:44:59,575
+对于这一类 (a b c)(d e)：前三个位置分别有 5、4、3 种选法，除以3 是因为它是 3-轮换。
+This one is: so you can choose this in 5 ways, this in 4 ways, this in 3 ways, divided by 3 because it's a 3-cycle and the order doesn't matter.
+
+143
+00:44:59,575 --> 00:45:11,453
+剩下的元素：这个有 2 种选法，然后最后一个被定死；由于写它们的顺序无关紧要，所以除以 2，总数又是 20。
+The remaining elements: I've now got this can be chosen in 2 ways, and then this is fixed; it doesn't matter what order I wrote them in, so I divide by 2, so it's probably 20 again.
+
+144
+00:45:11,453 --> 00:45:21,984
+对于这一类 (a b)(c d)：第一位有5 种选法，第二位 4 种；选取的顺序无关所以除以 2。
+This one: I can choose this in 5 ways, this in 4 ways; it doesn't matter what order I chose them in, so divide by 2.
+
+145
+00:45:21,984 --> 00:45:31,501
+然后下一个 2-轮换的第一位有3 种选法，第二位 2 种；选取的顺序无关所以除以 2。
+I can then choose this in 3 ways, and this in 2 ways; it doesn't matter what order I chose those two in, so I can divide by 2.
+
+146
+00:45:31,501 --> 00:45:48,644
+但是，(3 4)(1 2) 与 (1 2)(3 4) 也是完全相同的——我是说我也可以写成 (3 4)(1 2)，把(3 4) 写在前面，(1 2) 写在后面，这两个的顺序无关紧要，所以再除以一个 2，剩下 1，得到 15。
+But it also doesn't—but it's also true that 3 4 is the same as 1 2—I mean I could also write this as 3 4 1 2, I could put the 3 4 here in the 1 2 here, so it doesn't matter what order those two are in, so I divide by another 2, then you're left with 1, so that's 15.
+
+147
+00:45:48,644 --> 00:46:13,216
+而在单个对换中，我可以用 5 种方式选第一个，4 种方式选第二个；选完之后顺序无所谓，所以除以 2，然后剩下的全都是 1-轮换，没有其他选择了，所以我想是 10 个。
+And in this one, I can choose the 1 in 5 ways, the 2 in 4 ways; when I've done that, it doesn't matter the order, so I divide by 2, and then they are all going to be 1-cycles, so there's no choices left, so that's 10, I think.
+
+148
+00:46:13,216 --> 00:46:33,660
+如果运气好的话，这些数字加起来应该等于 120：25，55，75，95，110，120，确实加起来是 120，所以我们没算错，真幸运。
+And with a bit of luck these things will add up to 120: 25, 55, 75, 95, 110, 120, so indeed they do add up to 120, so we haven't made a mistake, which is rather lucky.
+
+149
+00:46:33,660 --> 00:46:39,087
+好的，大家对如何计算这类数量基本清楚了吗？
+Okay, so reasonably clear to people how you can count these sorts of things?
+
+150
+00:46:39,087 --> 00:46:48,202
+必须仔细思考，因为关键在于存在一定的不唯一性：你必须准确记住有哪些自由度。
+You have to think a bit carefully exactly, because the problem is there's a certain amount of ambiguity: you have to remember exactly what ambiguity there is.
+
+151
+00:46:48,202 --> 00:47:01,963
+这正像我刚才在这里写下的公式：如果要写出公式，把它写成轮换乘积，基本上先写上 5!，这是挑选这些元素的方式数，然后除以所有重复计算的自由度。
+So it's very like this formula I wrote down here: if you try to write a formula, you write it as a product of cycles, basically have a 5 factorial to begin with, which is the ways you can choose these things, and then you've got to divide by any ambiguity.
+
+152
+00:47:01,963 --> 00:47:21,980
+每当有一个 r-轮换，你就除以 r，因为可以在内部任意循环排列；每当有一对长度相同的轮换，就除以 2；如果有三个相同长度的轮换，就除以 3!；四个相同长度的轮换就除以4!，因为次序无关紧要。
+So whenever you have an r-cycle, you divide by r because you can write them in any order; and whenever you have a pair of cycles the same length, you divide by another 2; or if you had three cycles the same length, you divide by 3 factorial; or four cycles the same length, you divide by a 4 factorial, because it didn't matter what.
+
+153
+00:47:21,980 --> 00:47:47,445
+所以在 S_n 中，包含元素 P 的共轭类的大小的公式是——我其实并不指望大家死记这个公式，既然大家刚才让我算了，我索性就把它写下来。
+So in fact the formula is in S_n: the order of the conjugacy class of P— I mean, I don't really expect you to remember this formula, it's just seeing as you persuaded me to do this calculation I might as well write it down.
+
+154
+00:47:47,445 --> 00:48:12,250
+最重要的其实是推导背后的思考过程：它就是 n! 除以这个数量，如果 P 具有这些形状的轮换。
+The important thing is the sort of thought process that goes into working it out: it's just n factorial divided by this thing, if P has the cycles of these shapes.
+
+155
+00:48:12,250 --> 00:48:20,079
+但正如我所说，不要死记公式，只要记住其中的思考过程。
+But as I say, you don't want to remember this formula, you just want to remember the thought process that goes into it.
+
+156
+00:48:20,079 --> 00:48:25,697
+好的，我的时间快用完了。
+Okay, so I've run out of time.
+
+157
+00:48:25,697 --> 00:48:43,869
+在这一节的末尾，本该由我讲的内容——即教材的第 6.6 节——有一个相当具体的小计算，我猜之所以放在那里，
+At the end of the section I was supposed to tell you about—which is Section 6.6 of the book—there is a rather specific little calculation which I guess was put there because he's going
+
+158
+00:48:43,869 --> 00:49:04,040
+是因为后面某处会用到，而我现在没时间讲了，大家应该去读一读。它涉及素数元集合上的对称群：如果 p 是一个素数，我们考察 S_p。
+to use it sometime later, which I don't now have time to talk about, but you should read about it. It concerns the case of the symmetric group on a prime number of elements: so if p is a prime, well, so we're going to consider S_p.
+
+159
+00:49:04,040 --> 00:49:22,710
+S_p 的阶是 p!。p 的几次幂整除它？只有 1 次幂。有人能给我一个西罗 p-子群吗，如果你们学过西罗子群的话？是的，S_p 的西罗 p-子群。
+The order of S_p is p factorial. What power of p divides this? Just once. Can somebody give me a Sylow p-subgroup, if you talked about Sylow subgroups? Yeah, of S_p.
+
+160
+00:49:30,714 --> 00:49:42,189
+这个西罗 p-子群的阶是多少？你们能想到一个阶为p 的元素吗？
+What's the order of the Sylow p-subgroup going to be? So can you think of an element of order p?
+
+161
+00:49:42,189 --> 00:49:53,176
+这个西罗子群中的元素阶都是 p。能给我一个 p 阶元吗？长为 p 的轮换！
+Anything in this Sylow subgroup is going to have order p. Can you give me an element of order p? A cycle of length p!
+
+162
+00:49:53,176 --> 00:50:09,564
+由任意一个 p 阶元生成的循环群，就是一个阶为 p 的西罗 p-子群，即由轮换 (1 2 3 ... p) 生成。
+The cyclic group generated by any element of order p will be a Sylow p-subgroup of order p, so generated by 1 2 3 up to p, the cycle.
+
+163
+00:50:09,564 --> 00:50:24,150
+好的，然后习题关注这个西罗 p-子群：设 P 为 S_p 的西罗 p-子群，即由此轮换生成的循环群。
+Okay, then the exercise concerns Sylow p-subgroup: let P, a Sylow p-subgroup of S_p, be the cyclic group generated by this cycle.
+
+164
+00:50:24,150 --> 00:50:41,404
+这个循环群 P 在 S_p 中的正规化子——即所有满足共轭保持其不变的元素集合——大家知道正规化子是什么吗？知道正规化子的定义吗？
+The normalizer in S_p of this cyclic group P—the set of all elements which—do you know what the normalizer is? Do you know what normalizers are?
+
+165
+00:50:41,404 --> 00:50:47,940
+知道。那么问题就是计算这个西罗 p-子群的正规化子。
+Yeah. So the question is to calculate the normalizer of this Sylow p-subgroup.
+
+166
+00:50:47,940 --> 00:50:54,463
+我没有时间展开讲了，请大家阅读第 6.6 节末尾的内容。
+So I don't have time to talk about it, I'll leave you to read about it at the end of Section 6.6.
+
+167
+00:50:54,463 --> 00:51:02,865
+或者你们也可以把它当作一道习题来做：它的阶实际上是 (p - 1) * p。
+Or you could almost try it as an exercise: it's actually going to have order (p - 1) * p.
+
+168
+00:51:02,865 --> 00:51:15,401
+首先，取正规化子里的一个元素，你可以调整它固定 1，然后再看它对其他元素的作用必须满足什么。好的，我就讲到这里。
+First, if you take something in the normalizer, you get it to fix 1, and then you ask what it has to do. Okay, I'll stop there.

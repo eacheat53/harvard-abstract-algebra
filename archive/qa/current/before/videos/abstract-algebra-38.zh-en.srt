@@ -1,0 +1,1054 @@
+1
+00:00:11,370 --> 00:00:22,547
+如果你批改过作业或试卷，你大概会懂：首先看的是答案是否正确，然后你才会看具体步骤，看思路是否正确。
+If you've done any grading, you probably know this. I mean, the first thing you look for is whether the person got, you know, the correct answer or not, and then you start looking through the steps of, you know, whether they got there the right way.
+
+2
+00:00:22,547 --> 00:00:39,675
+最终只有在论证充分时，你才会给满分，但如果连答案都给错了，批改时就会让人非常抓狂，所以说，最终答案非常重要。
+I mean, and ultimately you only really want to give full credit to the person who, you know, gives a correct justification in addition. But you get really pissed off if the person is also giving you the wrong answer, so yes, right answers are very important.
+
+3
+00:00:39,675 --> 00:00:44,520
+好了，关于答疑时间（office hours）。黑板上写的是期末考信息，字写得很大，非常清楚，大家不要看漏了。
+Okay, office hours. So this is the exam, I've written it in large writing so it should be very clear and you should not miss it.
+
+4
+00:00:44,520 --> 00:00:56,948
+另外记住，写上名字具有“乘数效应”：如果不写名字，考试就是零分，所以试卷第一项信息一定要写准确，这是至关重要的。接下来，
+Also remember that your name has a sort of multiplier effect, right? I mean, if you do not put your name on, you get zero on the exam, so you want to get that first part of the exam spot on.
+
+5
+00:00:56,948 --> 00:01:19,870
+彼得·克朗海默（Peter Kronheimer）非常慷慨地安排了大量答疑时间；莉兹（Liz）可能也会提供一些线下面对面的答疑。
+That's a very important part of the exam. Now, Peter Kronheimer has extremely generously offered to run many, many office hours, and so, I mean, Liz may also offer some in-person office hours.
+
+6
+00:01:21,890 --> 00:01:40,025
+我和莉兹随时可以通过邮件答疑。但正如刚才所说，彼得安排了许多答疑时段，大家最好记下来。
+I'm also, along with Liz, available by email. But as I said, Peter Kronheimer is offering a lot of office hours, so you might want to mark these down.
+
+7
+00:01:40,025 --> 00:01:45,339
+我想他已经发过邮件了，但务必确认自己记录下来，不要误删邮件。
+I think he sent out an email, but just make sure you have a note of this and you don't delete the email or anything.
+
+8
+00:01:45,339 --> 00:02:09,000
+具体时间如下：明天（周六，1月17日）下午 4:00 至 5:30，以及下周三和周四（1月21日、22日）下午 4:00 至 6:00。
+So coming up: tomorrow, Saturday, January 17th, 4:00 to 5:30 p.m., and Wednesday and Thursday, January 21st, 22nd, 4:00 to 6:00 p.m.
+
+9
+00:02:09,000 --> 00:02:18,819
+地点都在数学系四楼的休息室（fourth floor math department lounge）。
+And these are both in the fourth floor math department lounge.
+
+10
+00:02:23,220 --> 00:02:26,307
+答疑时间非常充裕。
+So lots and lots of office hours.
+
+11
+00:02:26,307 --> 00:02:53,903
+如果你对任何知识点感到掌握得不够扎实，想知道该练哪些题目，彼得会是一个极好的求助对象，他可以带你一道道推导习题。这对于备考期末来说是非常棒的方法：大量刷题，攻克那些让你感觉生疏的问题，直到彻底掌握。
+You should, you know, if you're feeling at all weak on anything and you want some feedback about what exercises to try, you know, Peter Kronheimer might be a very good source because he can work through any problems with you, for instance, and that's actually a really good way of, course, preparing for the final, just running through lots and lots of problems, trying lots of things that you weren't comfortable with, because then you'll get comfortable with them.
+
+12
+00:02:53,903 --> 00:03:05,401
+言归正传，上次复习课我们过了一遍复习提纲（study guide）前三分之二的内容，提纲已发到网上。
+So anyway, last time we went through the subjects treated in the first two-thirds or so of the study guide, which is online.
+
+13
+00:03:05,401 --> 00:03:20,021
+如果你登录Math 120 课程主页，有一栏叫“Final Exam and Review”，里面有许多有用的链接和资源。
+So I mean, if you go online, you know, to the Math 120 webpage, there's a heading Final Exam and Review or something like this, and that has useful links and resources and so on.
+
+14
+00:03:20,021 --> 00:03:24,105
+例如里面有复习提纲的链接，我之前发过邮件。
+So it has a link, for instance, the study guide—I sent an email about that previously.
+
+15
+00:03:24,105 --> 00:03:41,372
+此外，这几场复习课的录像和讲义链接也陆续放上去了；周三的那场——周三复习课的讲义和录像已经挂在主页上了，如果大家当时因故缺席，可以去下载查看。
+Also the links to the videos and notes from these review sessions are going up; the one from Wednesday—the notes and video from Wednesday are already up on the webpage, so you can go get those in case you had to miss that for whatever reason.
+
+16
+00:03:41,372 --> 00:03:46,609
+现在我就继续带大家啃这份复习提纲。
+And so now I'm just gonna continue slogging through the study guide.
+
+17
+00:03:46,609 --> 00:04:03,611
+顺便说一句，这份提纲在很多方面比上次复习课更实用，因为上次复习课并不完全紧扣考卷，而这份提纲（我稍后可能还会更新一下）是非常紧密针对期末考试的，所以大家一定要好好看。
+By the way, the study guide is in many ways more useful than what we did in the review session last time, because the review session last time wasn't necessarily entirely targeted to the exam, whereas the study guide, which I'm probably gonna update shortly, is very much sort of targeted to the exam, so there you go.
+
+18
+00:04:03,611 --> 00:04:17,632
+好了，我们现在开始讲环论（rings）。好的。
+Okay, well, I'm gonna get on with rings. Okay, great.
+
+19
+00:04:17,632 --> 00:04:34,596
+我会讲不少重复的话，很多内容其实非常基础直接，但现在正是大家仔细审视我在黑板上写的每一个词的好时机，确保你对这些数学术语完全理解、驾轻就熟。
+So I'm going to say a lot of redundant things, I mean, a lot of this is really straightforward, but I mean, this is a good time for you to actually just, you know, look at each of the words that I write and make sure that, you know, you feel totally comfortable with the words.
+
+20
+00:04:34,596 --> 00:04:45,876
+如果有任何感到生疏的词，一定要把它记下来，课后仔细复习。我们首先讲环，你必须熟练掌握环的定义。
+And if you don't feel comfortable with the words, you should definitely, like, make a note of it and, you know, go through and review those words carefully. So we're talking about rings, so I mean, you better know the definition of a ring.
+
+21
+00:04:45,876 --> 00:05:01,240
+请记住，环带有一个加法运算，构成交换群（阿贝尔群）；还带有一个乘法运算，乘法满足结合律；带有单位元 1（即乘法单位元）。
+So remember that you have some sort of addition operation—this is an abelian group—that there's some sort of multiplication operation, and this thing is associative, with 1, you know, has this multiplicative identity thing.
+
+22
+00:05:01,240 --> 00:05:10,412
+通常我们假设乘法是可交换的，尽管一开始我们也讨论过非交换的情形；并且乘法对加法满足分配律。
+And in general we assumed that this operation was commutative, although we looked initially at the noncommutative case as well.
+
+23
+00:05:10,412 --> 00:05:27,110
+我们在学完群论后，立刻见到了很多唾手可得的首批例子：首先是平凡环（trivial ring）——在某些教材里甚至不把它算作环，有时完全被排除在讨论之外。
+And there's some sort of distributive property that relates the addition and the multiplication. And we saw lots of convenient first examples that came most immediately out of our study of groups.
+
+24
+00:05:36,535 --> 00:05:48,096
+其他方便的例子：我们之前引入过模 n 整数，在模运算一节中看到 Z/nZ 构成一个环。
+Other convenient examples: we'd already introduced the integers modulo n, and so we saw also previously in the section on modular arithmetic that Z/nZ forms a ring.
+
+25
+00:05:48,096 --> 00:06:01,872
+大家应该对 Z/nZ 中的算术运算（arithmetic）了然于心，能够迅速在模较小数时计算，并且发现该环的各种有趣性质。记住一些核心问题，
+You should be very comfortable with the arithmetic in Z/nZ. You should be able to, you know, quickly look at things, you know, mod small numbers, and be able to, you know, find interesting examples of features of that ring,
+
+26
+00:06:01,872 --> 00:06:21,500
+比如该环何时具有优良的域结构（field structure），以及在模为合数（composite）时为什么不构成域？当然，在之前向量空间那一节中涉及的所有域本身也都是环。
+and bear in mind things like when is that thing—when does that thing have nice sort of field structure, and why does it not have nice field structure in the composite case? Of course, any of the fields that were germane to the section on vector spaces were rings.
+
+27
+00:06:21,500 --> 00:06:42,206
+给定任意环，你都可以构造多项式环；事实上你还可以做一些有趣的操作，比如构造具有无限多个变量的多项式环等等，虽然这并不是最重要的例子。
+And given any ring, you can construct a polynomial ring. In fact, you could do things, funny things like constructing polynomial rings in infinitely many variables and stuff like that, although that isn't going to be a very important sort of example.
+
+28
+00:06:42,206 --> 00:07:04,578
+类似于群论中“正规子群”的类比概念，环论中我们有“理想”（ideals）。它们是作为同态核出现的，但如果说理想的定义就是环同态的核，
+And sort of as the analog of the normal subgroups from our discussion in group theory, we had ideals. These are the things that arise as kernels. But saying that the definition of an ideal is the kernel of a ring homomorphism is probably
+
+29
+00:07:04,578 --> 00:07:30,261
+这大概不是最“理想”的定义（双关语，非刻意），你真正应当把它定义为一个加法阿贝尔子群，且在环的乘法运算下封闭——即加法子群，且在乘以 R 的所有元素下封闭，
+not the ideal definition, pun unintended, and you should really define it as being an abelian, you know, that it's a subgroup under the addition law and which is closed under multiplication—under the multiplication operation, so a subgroup under +,
+
+30
+00:07:30,261 --> 00:08:03,310
+而不仅是乘以理想 I 自身的元素封闭。我们见过很多很好的理想例子，比如主理想（principal ideals），或者更一般的由若干元素生成的理想，即那些元素的所有线性组合。
+closed under multiplication by all of R, not just by I, the ideal itself. And I mean, we saw lots of good examples of ideals. We saw principal ideals, or more generally we saw ideals generated by a certain number of elements, so these are all linear combinations—all linear combinations of those elements.
+
+31
+00:08:03,310 --> 00:08:22,050
+我们还学过一个非常重要的运算，该运算后来在数论研究中反复出现，这是一个非常极其重要的定义：如果我有两个理想，我可以构造一个新的理想，即积理想（product ideal）。
+And we saw a very, very important sort of operation—this operation turned up later in our number-theoretic study, this is a very, very important definition, and that is that if I have two ideals, I can construct a new ideal, the product ideal.
+
+32
+00:08:23,130 --> 00:08:33,900
+积理想由所有形如 ∑ a_i b_i 的和组成，其中 a_i ∈ I 且 b_i ∈ J。
+And these were all sums a_i b_i, where the a_i's are in I and the b_i's are in J.
+
+33
+00:08:33,900 --> 00:09:03,641
+你不能仅仅取I 和 J 中元素的单个乘积，必须取有限项乘积之和，否则它就不一定是环在加法下的子群。我们学习了同态，即环同态（ring homomorphisms）。
+You need to be able to not just take, you know, single products of things in I and J, but finite sums of products of elements of I and J, because otherwise the thing would not necessarily be a subgroup under the addition operation of the ring. We saw homomorphisms, ring homomorphisms.
+
+34
+00:09:03,641 --> 00:09:29,362
+它们当然是保持加法运算、乘法运算的映射。由于其性质，你还需要额外明确说明并显式验证环同态保持乘法单位元（1 变到 1），否则它不一定是合格的环同态。
+So of course, these are things which preserve the addition operation, the multiplication operation, and because of the way these things work, you need to additionally specify explicitly and you need to verify explicitly that a ring homomorphism preserves the multiplicative identity, otherwise you don't necessarily have something that's a ring homomorphism.
+
+35
+00:09:29,362 --> 00:09:51,892
+当然，环同态的核（kernel）是一个理想，而它的像（image）——核是定义域环中的理想，而像是到达域环的子环。
+Of course, the kernel of a ring homomorphism is an ideal, and the image—so that was an ideal of the domain ring—and the image is a subring of the target ring.
+
+36
+00:09:51,892 --> 00:10:01,091
+这些都是显而易见的结论。
+And so those are sort of obvious things, but there were some very good examples.
+
+37
+00:10:01,091 --> 00:10:22,562
+但也有一些极佳的范例，比如我们反复利用的一个规范环同态例子：对任意环 R，都存在从整数环 Z 到该环的自然同态。
+I mean, there was a sort of canonical example which we exploited of a ring homomorphism: if I have any ring, then there's a natural homomorphism from the ring of integers to that ring.
+
+38
+00:10:22,562 --> 00:10:42,749
+对任意环 R 都是如此，定义方式就是将Z 的乘法单位元（即 1）映到 R 的乘法单位元（即 1），然后利用显然的加法性质来延拓这个同态。
+So this is for any ring R, and that's just, you know, defined by sending the multiplicative identity of Z, namely 1, to the multiplicative identity of R, namely 1, and then just, you know, using the obvious sort of addition properties to fill out that homomorphism.
+
+39
+00:10:42,749 --> 00:10:45,130
+这当然很容易验证确实是同态。
+This is of course easily verified that it is indeed a homomorphism.
+
+40
+00:10:45,130 --> 00:11:07,702
+但关键在于，我们可以利用它来理解环的极其重要的结构性质。例如，我们用它来理解有限域，正是利用这个同态来弄清楚有限域具有怎样的性质，给出可能存在的有限域的分类。
+But the point of that was that we could exploit that to understand some very, very important structural aspects of rings. Among them, we used that, for instance, to understand finite fields. We exploited this precisely to understand what are the finite fields like, identify what are the possible finite fields.
+
+41
+00:11:07,702 --> 00:11:35,790
+后来我们进一步探讨了为什么所有的阶都能实现；但仅凭对这一同态构造的理解，我们就给出了有限域所有可能的候选范围。
+And then later on, we saw the background for why all of those were realizable, but we gave what was the largest possible set of finite fields using just an understanding of this homomorphic construction of finite fields.
+
+42
+00:11:35,790 --> 00:12:01,198
+环的另一个特征是：加法法则自然给出一个群，但还有另一个群可以规范地与环联系在一起，那就是该环的乘法群，或者按我们常用的术语，即可逆元群（单位群），记作 R^× 或 R^*。
+And another feature of rings: the addition law obviously gives rise to a group, but there's another group that you canonically associate to a ring, and that is the multiplicative group of that ring, or in the main terminology we use, the group of units, denoted R^× or R^*.
+
+43
+00:12:01,198 --> 00:12:21,871
+它们是环中可逆的元素，即存在 β 使得 αβ = 1。在优良的例子中，比如在域中，单位群就是除 0 以外的所有元素。
+These are the elements which are invertible, so there exists beta such that alpha beta is the multiplicative identity. And, you know, in nice examples like fields, that was everything except 0.
+
+44
+00:12:21,871 --> 00:12:36,375
+在理想与同态的基础上，我们引入了商环，即商 R/I。
+For instance, we saw, building on notions of ideals and homomorphisms, quotients, so your quotient R/I.
+
+45
+00:12:36,375 --> 00:12:53,760
+当然，对于商环，存在从原环到该商环的规范同态投影。正如群论中一样，商的概念引出了同构定理。
+And of course, when you have such a thing, there's this canonical homomorphism from the ring to that quotient. And just as in group theory, the notion of quotients led to isomorphism theorems.
+
+46
+00:12:53,760 --> 00:13:17,945
+我们有第一同构定理（first isomorphism theorem），它表明，就像通常情形一样，如果有环同态 φ，那么 R/ker φ 到目标环存在一个诱导同态，且该映射是单射。
+So we have the first isomorphism theorem, which of course said, you know, just like in the usual case, that if I have some sort of homomorphism phi, then R/ker phi admits an induced homomorphism to the target ring, and this thing is injective.
+
+47
+00:13:17,945 --> 00:13:46,950
+沿着这个思路，我们可以通过原环中的理想来理解商环中的理想，根据基本的对应定理：商环 R/J 的理想与原环 R 中包含 J 的理想一一对应。
+And along those lines, we had that you could understand the ideals of a quotient in terms of the ideals of the initial ring, under a sort of basic correspondence: ideals of R/J correspond to ideals of R containing J.
+
+48
+00:13:49,216 --> 00:14:05,238
+还有第三同构定理，它指出不仅存在这种对应，而且对应非常自然，当你做商环时，这些商环与原环做商后的结果是同构的。
+And there was a third isomorphism theorem that said that in fact, not only do they correspond, the correspondence is so natural that when you take quotients, the quotients are isomorphic to the quotients under this correspondence.
+
+49
+00:14:05,238 --> 00:14:22,620
+有同学提问？是的，这就是第二同构定理（对应定理），第二同构定理告诉你商环中的理想与原环中的理想之间的对应关系。
+Yes? Yeah, so I mean that's the second isomorphism theorem, and the second isomorphism theorem tells you what's the correspondence between ideals in a quotient and ideals in the initial ring.
+
+50
+00:14:22,620 --> 00:14:37,283
+如果你从一个同态出发，同态的核对应于环的一个理想，你可以用 J 作为核来重写这个结论。于是正如你所说，
+Now if you start out with a homomorphism that induces—I mean, that thing corresponds to some sort of ideal of the ring, and you can, you know, sort of rewrite this with J being the kernel, and then you will have, as you say,
+
+51
+00:14:37,283 --> 00:14:56,842
+如果有一个环同态 φ: R → R'，像 im(φ) 中的理想（由于像同构于 R/ker φ）将对应于 R 中包含核的理想。
+a statement like that: if you have a ring homomorphism phi from R to R', the ideals of the image of this homomorphism, since that's isomorphic to R mod the kernel, are going to correspond to the ideals of R containing the kernel.
+
+52
+00:14:56,842 --> 00:15:01,180
+但这只是把这两个定理结合在一起，并不是真正的推广。
+But that's just a combination of those two statements, it's not actually a generalization.
+
+53
+00:15:15,260 --> 00:15:23,608
+我认为所有被称为同构定理的命题，几乎都可以直接从这两个陈述推导出来。
+Well, I think that all the things that are called isomorphism theorems follow pretty much immediately from those two statements.
+
+54
+00:15:23,608 --> 00:15:30,320
+当然，还有我刚才说的第三个命题，即在这个对应下做两次商是同构的。
+Well, I mean, and the sort of third statement I made, which is that, you know, the quotients are isomorphic under the second correspondence there.
+
+55
+00:15:30,320 --> 00:15:35,730
+但在第一同构定理和刚才的第一条陈述之外，我想不出还有什么真正更一般的定理。
+But I can't think of anything actually really more general than the first isomorphism theorem for the first statement.
+
+56
+00:15:35,730 --> 00:15:42,690
+而且第一同构定理在通常书里的表述往往还更狭隘，书里通常要求从满同态出发。
+And the first statement, I mean, it's actually more general than the way it's usually stated in books. I mean, there you have to start with this surjective homomorphism.
+
+57
+00:15:42,690 --> 00:15:48,049
+不过它们都是显然等价的，所以关系不大。
+But I mean, these are all trivially equivalent, so it's probably not a big deal.
+
+58
+00:15:48,049 --> 00:16:01,457
+你应该能从这些基本定理中推导出你需要的任何命题。实际上，第一同构定理本质上几乎就是同义反复。
+I mean, you should be able to deduce from these statements whatever statement you need. In fact, the first of the isomorphism theorems are essentially tautologies anyway.
+
+59
+00:16:01,457 --> 00:16:24,188
+大家现在应该已经非常清楚第一同构定理的证明，无论是群论还是环论的情形，其中的逻辑都应该一目了然。数学研究者到了一定阶段甚至都不把它们称作“同构定理”了，直接随手写下来，一切都是理所当然的。
+I mean, you should now be at the point where you know exactly the proof of the first isomorphism theorem in either the group or ring cases, it should be just completely immediate what's going on. I mean, math researchers at some point don't even call these things, you know, isomorphism theorems anymore.
+
+60
+00:16:24,188 --> 00:16:48,200
+你自然明白为什么它是成立的：如果元素落在核中，因为它们被映到目标中的平凡元，那么模掉这些差异对像毫无影响。
+You just sort of write it down, and it's just sort of automatic. You know why that sort of thing works, because it's just the general idea: if things are contained in the kernel, since they're sent to something trivial in the target of whatever morphism you're dealing with, those differences don't matter.
+
+61
+00:16:48,200 --> 00:17:00,310
+无论如何，这个商环构造的一大核心用途，就是“添加关系”（creation of relations）。
+Anyway, one of the major uses of this quotient construction was the creation of relations.
+
+62
+00:17:04,360 --> 00:17:24,607
+关于添加关系有许多极其简单的例子：假设我从整系数多项式环 Z[x] 出发，现在我想从中构造一个新环，使得 x^2 = -1，那我就会做显然的操作：
+So, lots of very, very simple examples of creation of relations: suppose I start out with polynomials over the integers, and I now want to somehow construct a new ring out of this thing such that x^2 is -1.
+
+63
+00:17:24,607 --> 00:17:44,196
+我希望 x^2 + 1 = 0，因此就模去 (x^2 + 1) 生成的理想。这样我就得到一个环，其中包含一个形式元素，其平方等于 -1，而这正是高斯整数环 Z[i]。
+Then I do the obvious thing: I want x^2 + 1 to be 0, so I quotient by x^2 + 1, and I indeed get now a ring which has this element, this formal element which has as its square -1, and this is just the ring of Gaussian integers.
+
+64
+00:17:44,196 --> 00:18:00,607
+所以添加关系是一个非常简单的想法；但这里有一点需要警惕：小心添加关系实际产生的效果。
+So creation of relations is a very, very simple idea, and there's a bit of a warning on that: be careful with what you think creation of relations actually does.
+
+65
+00:18:00,607 --> 00:18:14,368
+例如，你可能会以为如果让 x满足平方等于 1 的性质，得到的就是原整数环 Z。
+For instance, you might think that if you make x satisfy the property that its square is 1, then you would have just the integers back.
+
+66
+00:18:14,368 --> 00:18:29,957
+但事实上，如果你模去 x^2 - 1，你得到的不是整数环，而是整数环的直积 Z × Z。理解为什么会这样是非常有用的。
+In fact, if you mod out by x^2 minus 1, you do not get the ring of integers, you get the integers cross the integers (Z × Z). And so understanding why this happens is a useful point.
+
+67
+00:18:29,957 --> 00:18:39,218
+大家大概还记得这是怎么回事：如果商环中有一个元素 α，可以把它看作整系数多项式α(x)，
+I mean, you presumably remember how this works: if I have an element alpha in the quotient here, and I'll just think
+
+68
+00:18:39,218 --> 00:19:04,313
+那么我可以通过分别在 +1 和 -1 处求值得到映射：α ↦ (α(1), α(-1))，这便诱导了一个同构 Z[x]/(x^2 - 1) ≅ Z × Z。
+of it as actually being a polynomial over the integers, alpha(x), then I can for instance get this by evaluating at +1 and -1, so (alpha(1), alpha(-1)) induces an isomorphism.
+
+69
+00:19:15,410 --> 00:19:38,563
+好的，从这种添加关系的思路继续展开：假设你从某个环上的多项式环出发，利用这个商环构造来极其精确地添加元（adjoin elements），就像我们刚才做的那样。
+Okay, so then sort of moving on from this creation of relations: you can assume that you're just starting out with some sort of polynomial ring over a ring, and use this construction to very precisely adjoin elements, much as we were doing here.
+
+70
+00:19:38,563 --> 00:20:01,048
+我们在某一阶段想要做类似的事情：从整数环出发，想要添加一个根号 2。
+So at some point we wanted to do things just like that: you start with the integers, and we want to do something say like adjoin a square root of 2.
+
+71
+00:20:01,048 --> 00:20:13,130
+于是我们使用记号 Z[√2]，它正是多项式环 Z[x] 模去 (x^2 - 2)。
+So you use the notation Z[√2], and that was just Z[x] modulo x^2 - 2.
+
+72
+00:20:13,130 --> 00:20:29,020
+但还有我们做过的另一件事：我们可以给元素添加逆元，这后来被证明是极其重要的操作，尤其是在后面讨论整环的分式域（fields of fractions）时。
+But there was another sort of thing that we did, and that was we could do things like add inverses to elements, and this turned out to be extremely important later when we were dealing with fields of fractions of a domain.
+
+73
+00:20:29,020 --> 00:20:37,959
+假设我现在想给这个环添加 3 的逆元，也就是添加 1/3。
+But suppose I want to adjoin now to this ring an inverse of 3, so I want to adjoin 1/3.
+
+74
+00:20:37,959 --> 00:20:48,996
+1/3 当然不在整数环中，但如果你想把它加到整数中，或者加到这个环里，变成 Z[√2, 1/3]。
+I mean, 1/3 is certainly not in the integers, but suppose you want to add 1/3 to the integers as well, in fact add it to this ring, so Z adjoin root 2 and 1/3 (Z[√2, 1/3]).
+
+75
+00:20:48,996 --> 00:21:10,349
+我可以把它写成Z[x, y] 模去理想 (x^2 - 2, 3y - 1)。在这个同态下 y 的像就映成了满足1/3 性质的元素。
+Well, I could write that as Z adjoin x, y modulo (x^2 - 2) and (3y - 1). The image of y under this homomorphism then gets sent to this thing which behaves like 1/3.
+
+76
+00:21:10,349 --> 00:21:18,400
+所以添加逆元是完全行得通的，而且是非常重要的步骤。
+So adding inverses of things could be done, and is actually a very, very important sort of procedure.
+
+77
+00:21:19,790 --> 00:21:25,065
+我们学习了整环（integral domains）。
+We saw integral domains.
+
+78
+00:21:25,065 --> 00:21:42,178
+整环在很多方面是最符合直觉的环，因为大家首先想到的经典范例就是整数环，而整数环当然构成一个整环。
+Integral domains are in many ways the most intuitive sort of rings, because I think in many ways the sort of primary ring that you always think of is the integers, and integers certainly form a domain.
+
+79
+00:21:42,178 --> 00:22:05,894
+整环是没有零因子的环，也就是说若 ab = 0，则 a = 0 或 b = 0。当然这在很多环里并不成立。
+And so these are rings with no zero divisors, which is to say that if ab = 0, then a = 0 or b = 0. Of course, this is false in many rings.
+
+80
+00:22:05,894 --> 00:22:16,802
+如果我考虑 Z/6Z，2 和 3 都不是 0，但 2 × 3 = 0。这是许多麻烦的根源。
+If I consider Z/6Z, neither 2 nor 3 is 0, but 2 × 3 is 0. And that is the source of a lot of problems.
+
+81
+00:22:16,802 --> 00:22:30,730
+例如，非整环上的多项式性质与整环或域上的多项式迥然不同，这一点一定要牢记。
+I mean, so for instance, polynomials over such things behave rather differently than over a domain, or over a field. So that's useful to bear in mind.
+
+82
+00:22:30,730 --> 00:22:43,995
+好的。对于一个整环，正如我刚才提到的，可以规范地关联一个域：分式域（field of fractions）。
+Right. And given an integral domain, as I just mentioned, there was this sort of canonical field that you could associate to that: the field of fractions.
+
+83
+00:22:43,995 --> 00:23:05,342
+给定整环 R，可关联其分式域 F。接下来的主题是极大理想（maximal ideals）。
+Given a domain R, you can associate to it its field of fractions, call it F. And the next topic we dealt with was maximal ideals.
+
+84
+00:23:05,342 --> 00:23:23,266
+极大理想非常重要，因为我们在因式分解等数论研究中大量使用了它们。
+Maximal ideals are very important because we use them extensively in all of our number-theoretic work that came with our study of factorization and so on.
+
+85
+00:23:23,266 --> 00:24:10,241
+按定义，M 是极大理想，当且仅当包含 M 的理想仅有 M 本身和全环 R。这等价于商环 R/M 是一个域。不过，这都是很符合直觉的内容。
+So M is maximal of course, just by definition, if and only if the only ideals containing M are M and the entire ring R. And this was equivalent to R/M being a field. But okay, yeah, well, I mean it's pretty intuitive stuff.
+
+86
+00:24:10,241 --> 00:24:19,880
+书中关于极大理想的这一节，开始涉足代数几何，讲到了希尔伯特零点定理（Hilbert's Nullstellensatz）。
+The thing about this section on maximal ideals in the book is that it starts getting into algebraic geometry, so it has this whole thing on Hilbert's Nullstellensatz. Now you don't need to know anything about Hilbert's Nullstellensatz.
+
+87
+00:24:19,880 --> 00:24:27,140
+期末考完全不需要知道零点定理；如果你一直在看复习提纲，你就会知道完全不用管零点定理。我们在课上没讲过它，也没做过相关习题。
+If you've been reading the study guide, you would know you do not need to know anything about the Nullstellensatz. We didn't do it in class, we didn't answer any problems on it or anything.
+
+88
+00:24:27,140 --> 00:24:36,121
+那是代数几何的内容，本次考试不考。不过我强烈建议大家今后找机会修一门代数几何。关于极大理想，你需要掌握的核心就是：它们是极大的理想。
+That's algebraic geometry, and we're not doing that. But I highly recommend taking algebraic geometry at some point in your life.
+
+89
+00:24:36,121 --> 00:24:53,648
+哦，我应该提一句极大理想的条件之一是它不能是全环（单位理想）。
+So the thing you mainly need to know about maximal ideals is that they're these largest ideals, they are maximal. Oh, I should mention one of the conditions is that this is not in fact the unit ideal.
+
+90
+00:24:53,648 --> 00:25:12,510
+正是前面提到的对应定理告诉你，这等价于商环是一个域；毕竟域的特征就是它仅有两个理想：零理想和全环，且这两个理想是不相同的。
+And you know, it's that second isomorphism theorem that I mentioned that tells you that that's equivalent to the quotient being a field, because after all, a field is characterized by the fact that it has only two ideals: the zero ideal and the full ideal, and those are distinct ideals.
+
+91
+00:25:12,510 --> 00:25:19,035
+这正是说包含它的理想恰好只有这两个互异的理想。
+And that's just saying that the only ideals containing that thing are precisely those two distinct ideals.
+
+92
+00:25:19,035 --> 00:25:22,210
+就是这样。
+So there you go.
+
+93
+00:25:24,530 --> 00:25:50,880
+好，让我举几个例子：主理想 (3) 是整数环中的极大理想；若 c 是任意复数，则 (x - c) 是多项式环中的极大理想。
+Right. Well, let me just give some examples: (3) is a maximal ideal in the integers; if c is any complex number, then (x - c) is a maximal ideal in the polynomial ring.
+
+94
+00:25:50,880 --> 00:25:59,660
+这很显然，因为前者的商环是有限域 Z/3Z，这是我们见过的典型域；后者的商环是复数域 C，这显然也是一个域。
+Those are pretty obvious because the quotient here is Z/3Z, which is one of the archetypal fields we saw, and the quotient here is C, and that's another pretty obvious field.
+
+95
+00:25:59,660 --> 00:26:02,820
+很好。
+Great.
+
+96
+00:26:19,188 --> 00:26:49,750
+对，c 是某个固定的复数，我也可以写成 e，这里 e 是自然对数的底数，诸如此类。
+Yeah, c is some fixed complex number, so I could write, you know, e, where e is the base of the natural logarithm or something, if that's okay.
+
+97
+00:26:49,750 --> 00:27:19,347
+考虑从 C[x] 到 C 的环同态——我还是改回记号 c 吧——考虑同态把多项式在 c 处求值。它是满射，且核是由 (x - c) 生成的主理想。你可以通过各种方法证明这一点，比如C[x] 上的带余除法（欧几里得算法）。
+Consider the homomorphism—so I'll just return this to c—consider the homomorphism from C[x] to C which takes a polynomial and evaluates it at c. It is surjective, and the kernel is the principal ideal generated by (x - c). You can see that by various means, like the Euclidean algorithm on C[x].
+
+98
+00:27:19,347 --> 00:27:27,869
+由第一同构定理，C[x]/(x - c) ≅ C。
+And so by the first isomorphism theorem, C[x]/(x - c) is isomorphic to C.
+
+99
+00:27:27,869 --> 00:27:37,493
+因为 C 是域，依据极大理想判定，(x - c) 是极大理想。同学有问题？
+C is a field, so by this characterization, (x - c) is maximal. So you have a question?
+
+100
+00:27:37,493 --> 00:28:02,500
+噢，这是因为我可以只取常数多项式 r，没有更高次项，在 c 处求值得到 r，所以同态是满射。
+Oh, well, I mean, because I could just take the constant polynomial, you know, r, with no higher terms, and if I evaluate r at c, then I get r, so it's surjective.
+
+101
+00:28:02,500 --> 00:28:09,061
+好的。接下来我们研究了结构更丰富的环。
+Okay, great. So then we started looking at some more structured rings.
+
+102
+00:28:09,061 --> 00:28:23,481
+我们把因式分解看作本质上极其重要且有趣的问题，我们发现一般的因式分解极其复杂难懂；但在特定假设下，
+We considered factorization as a sort of innately important and interesting thing, and we found that factorization is in general a very, very difficult thing to understand,
+
+103
+00:28:23,481 --> 00:28:35,355
+如果你开始引入环的附加性质，例如某种带余除法（division algorithm），整个过程就会容易得多。
+but that under certain assumptions, if you start, you know, finding additional properties of the ring, like there's some sort of division algorithm, then you can make the whole process a lot easier.
+
+104
+00:28:35,355 --> 00:28:45,865
+你实际上可以清晰剖析给定元素如何分解为更简单元素的乘积。
+You can actually start, you know, disentangling how given elements decompose into products of somehow simpler elements.
+
+105
+00:28:45,865 --> 00:29:03,808
+我们最典型的母题范例依然是整数环，整数环构成一个欧几里得整环（Euclidean domain）。什么是欧几里得整环？
+So again, our archetypal example of anything is the ring of integers, and the ring of integers forms a Euclidean domain. What's a Euclidean domain?
+
+106
+00:29:03,808 --> 00:29:18,422
+它是一个环，配备一个欧几里得范数函数 δ（Delta），定义在环的非零元素上，它映到一个良序集（well-ordered set）。
+Well, it's a ring, it has a Euclidean norm Delta, which is just some function on the nonzero elements of the ring, and it maps that to some well-ordered set.
+
+107
+00:29:18,422 --> 00:29:27,079
+良序集就足够了，尽管我们在课上通常取目标集为正整数集或非负整数集。
+I mean, that's really all you need, a well-ordered set, although I think we took as the target the positive integers or the non-negative integers.
+
+108
+00:29:27,079 --> 00:29:31,430
+但这并非最核心的本质特征。
+But that's really not the essential feature.
+
+109
+00:29:31,430 --> 00:29:47,267
+非负整数的关键在于其任意非空子集必有最小元。而在一般集合中这并不成立：实数集 R 的非空子集未必有最小元，虽然有下确界（infima），但大多没有最小元。
+The essential feature of the non-negative integers is just that I have some minimal element in any non-empty subset of those, which is false in general.
+
+110
+00:29:49,499 --> 00:30:05,289
+不过在非负整数中这必然成立。总之，我们有一个欧几里得范数和带余除法。
+But this is true though for the non-negative integers. Anyway, so we have this Euclidean norm and a division algorithm.
+
+111
+00:30:05,289 --> 00:30:35,675
+随便定义一个函数毫无意义，因为谁都能随便造一个函数；这个函数的意义在于它能在带余除法中发挥实际作用：即对任意 a 和非零元素 b，存在商 q 和余数 r 使得 a = bq + r，且要么 r = 0，要么 r 的范数小于b 的范数。
+Just any function would be stupid, because I could always just define some function, but the point of the function is that it actually corresponds to something, it does something as part of the division algorithm: saying that if I have a and a nonzero b, then there are q and r such that a = bq + r, and either r = 0 or the norm of r is less than the norm of b.
+
+112
+00:30:35,675 --> 00:30:48,670
+欧几里得整环的例子：当然首先是整数环 Z。如果有一个域——顺便说一下，Z 上的欧几里得范数是什么？
+And examples of such things: well, of course Z, as I mentioned. If I have a field—oh, and what's the Euclidean norm here?
+
+113
+00:30:48,670 --> 00:31:06,380
+就是绝对值。如果 F 是一个域，多项式环 F[x] 当然也是欧几里得整环，其欧几里得范数就是多项式的次数（degree）。
+Well, just the absolute value. If I have a field, then F[x] is a Euclidean domain of course, and it has as its Euclidean norm the degree function.
+
+114
+00:31:06,380 --> 00:31:24,905
+在以次数为范数的带余除法中，一个重要推论是：域上的多项式——这在一般环上不成立，但在域上——其根的个数是有上界的：对一般环不成立，
+And an important consequence of this observation, that we have this division algorithm where the Euclidean norm is the degree, was that for instance over a field—now this is of course false in general, but over a field at least—you have a bound on the number of roots of any polynomial.
+
+115
+00:31:24,905 --> 00:32:04,416
+但对域来说，若多项式定义在域上，则有推论：若 F 是域且 f(x) 是其上的多项式，则 f 的根的个数小于或等于其次数（deg f），这是个优良性质。
+This is false in general, but for fields it's true that if I have a polynomial over a field, that implies as a corollary: if F is a field and f(x) is a polynomial over that field, then the number of roots of f is less than or equal to the degree, which is a nice observation.
+
+116
+00:32:04,416 --> 00:32:10,210
+但正如我所说，如果系数环不是域，这个结论就不成立。
+But as I said, this is false if F is not a field.
+
+117
+00:32:14,280 --> 00:32:22,060
+另一个极好的例子是高斯整数环 Z[i]。
+Another nice example was the Gaussian integers, Z adjoin √(-1).
+
+118
+00:32:22,060 --> 00:32:40,241
+它的欧几里得范数定义在a + bi 上为 a^2 + b^2，换言之，就是把元素看作复数时的复模长平方。
+This thing has as its Euclidean norm: evaluated on a + bi, it is a^2 + b^2, or put another way, just the square of the absolute value function where you view the elements here as complex numbers.
+
+119
+00:32:40,241 --> 00:32:48,222
+另一个重要提醒是：这不能推广到任意二次环上。
+And another important caveat is that this doesn't generalize to arbitrary quadratic rings.
+
+120
+00:32:48,222 --> 00:32:58,995
+如果给整数环添加根号 d，我们后面称为范数的函数，一般并不构成欧几里得范数。
+So if I adjoin a square root of d to the integers, it's not true that the corresponding thing that we later called a norm function is in fact a Euclidean norm.
+
+121
+00:32:58,995 --> 00:33:11,983
+如果你随便给我一个随意的环，比如 Z[√(-497)] 之类，它绝不会是欧几里得整环，即使上面有自然的范数函数。
+I mean, so if you just give me, you know, random thing like, you know, Z adjoin √(-497) or something, that is not going to be a Euclidean domain, even though there is a sort of natural norm function on there.
+
+122
+00:33:11,983 --> 00:33:29,554
+我说的是 -497，因为若是正数 497 显然更不行，因为范数会出现负值，你会得到任意大的负数。
+Well, I should say -497, because √497 obviously is not going to work because you're going to have negative images in the norm—you're gonna get arbitrarily large negative numbers.
+
+123
+00:33:29,554 --> 00:33:44,312
+但无论如何，即使添加负数的平方根，一般情况下也不构成欧几里得整环，尽管确实有部分情形成立。随后我们学习了欧几里得整环的推广。
+But anyway, so it's not even true if I adjoin a square root of a negative number in complete generality, although there are cases where it does work. And then we saw a generalization of Euclidean domains.
+
+124
+00:33:44,312 --> 00:34:06,819
+欧几里得整环的核心特征之一是其所有理想都是主理想，因此我们在更广泛的背景下考察这一性质，引入了主理想整环（PID）。不出所料，这就是所有理想皆为主理想的整环。
+One of the principal things about Euclidean domains is that their ideals are principal, so we looked at the idea in greater generality: we saw principal ideal domains (PIDs). So these are rings where, not too surprisingly, all ideals are principal.
+
+125
+00:34:06,819 --> 00:34:22,671
+正如我刚才所说，欧几里得整环必定是主理想整环。我们如何证明这一点呢？
+And of course, as I just said, if I have something that's a Euclidean domain, then that's a principal ideal domain. And how do we see that?
+
+126
+00:34:22,671 --> 00:35:05,600
+显然零理想是由 0 生成的主理想；对于任意非零理想，在其中选取具有最小范数的非零元素，最小欧几里得范数，然后不难证明该理想——该元素必须非零——理想 I 实际上正由这个元素 x 生成的主理想。
+Well, obviously the zero ideal is principal because it's generated by 0. But if I have some nonzero ideal, choose an element of the ideal with minimal norm, minimal Euclidean norm, and then it's not hard to show that the ideal—and this element should be nonzero—then I is in fact generated by this x.
+
+127
+00:35:05,600 --> 00:35:17,494
+就是这样。然后是关于——抱歉，有提问吗？
+So there you go. Then there was all this stuff—oh, sorry, was that a question?
+
+128
+00:35:17,494 --> 00:35:26,266
+好的，课上曾有一讲我专门澄清了许多相关概念。
+Okay, in class there was a lecture where I tried to clear up a lot of that stuff.
+
+129
+00:35:26,266 --> 00:35:38,880
+大家不需要掌握太多关于素元（prime elements）与不可约元（irreducible elements）之间的深层关系，但至少要掌握两者的定义，并对其直观含义有所了解，掌握它们之间最基本的关系。
+Now you don't have to know lots of stuff about the relationship between prime and irreducible elements, but you should at least know the definitions and have some intuition for what's going on there, know the very basics of the relationships between these things.
+
+130
+00:35:38,880 --> 00:35:54,050
+素元和不可约元是两个不同的概念，但在某些条件下它们是一致的。
+So we have prime elements and irreducible elements, and these are distinct concepts, but in certain cases they actually can be conflated, etc.
+
+131
+00:35:54,050 --> 00:36:09,160
+作为 PID 的进一步推广，我们学习了 UFD，即唯一分解整环（uniquefactorization domains）。
+Another generalization of PIDs we saw was UFDs, and these are unique factorization domains,
+
+132
+00:36:09,160 --> 00:36:35,381
+在唯一分解整环中，非零非单位元素可唯一分解为不可约元的乘积（在相伴意义下），分解成不可约元。
+so domains where you can factor elements uniquely, of course up to associates, into irreducible elements.
+
+133
+00:36:35,381 --> 00:36:42,358
+正如我所说，这是一种推广：PID 必为 UFD。
+And again, as I've said, this is a generalization: if I have a PID, it is a UFD.
+
+134
+00:36:42,358 --> 00:36:53,095
+UFD 具备我们想要的大部分优良性质：有最大公因数（gcd）的概念，具有非常优秀的结构。
+UFDs have a lot of things that you want most: they have a notion of greatest common divisor, and they have lots of good structure.
+
+135
+00:36:53,095 --> 00:37:09,224
+并且 UFD 上的多项式环性质非常好：UFD 上的多项式环依然是 UFD，这在我们后续的许多内容中极其有用。
+And polynomial rings over UFDs, for instance, are very well-behaved: a polynomial ring over a UFD is a UFD, which was a useful fact in a lot of the stuff that we did.
+
+136
+00:37:09,224 --> 00:37:10,847
+掌握了这一点，很多定理的证明都会简单得多。
+A lot of proofs are easier actually given that knowledge.
+
+137
+00:37:10,847 --> 00:37:32,303
+关于 PID 的许多证明，比如非零素理想是极大理想，以及不可约元与素元的等价性，在 UFD 中都变得非常简单。因此 UFD 是非常适宜于开展代数研究的环。
+A lot of proofs of things about PIDs, like that the prime ideals are maximal ideals, and the correspondence between irreducible and prime elements become much simpler in UFDs, so UFDs are very convenient rings to work in.
+
+138
+00:37:32,303 --> 00:37:45,006
+好的。接下来我们讲到高斯引理（Gauss's lemma）。书中对高斯引理的叙述主要针对整系数多项式环 Z[x]。
+Right. We moved on to Gauss's lemma. Gauss's lemma is treated in the book as if it's something about polynomials over the integers.
+
+139
+00:37:45,006 --> 00:37:54,655
+当然，它可以大幅推广，这大家并不意外，但期末考试只需要掌握整系数多项式的情形。
+Of course, it won't come as a huge shock that that generalizes significantly, but you don't really need to know it for anything beyond the integers.
+
+140
+00:37:54,655 --> 00:38:30,710
+首先是整系数本原多项式（primitive polynomial）的概念：如果写下该多项式的各项系数 a_0, a_1, ..., a_n，那么这些系数的最大公因数为 ±1。
+So there was this notion of primitive polynomial over the integers, and this was one where if I write down the coefficients of this polynomial, a_0, a_1, ..., a_n, then the greatest common divisor of those coefficients is ±1.
+
+141
+00:38:30,710 --> 00:38:37,130
+由此我们引出了多项式“容量”（content）的概念。
+And from that, we have this notion of content.
+
+142
+00:38:45,570 --> 00:38:54,524
+我们证明了一个引理：给定任意有理系数多项式，
+And we proved the lemma that said: given any polynomial over the rational numbers,
+
+143
+00:38:54,524 --> 00:39:11,888
+存在唯一的有理数（在差一个正负号的意义下，尽管书中为了规范化规定其为正数，但这并不自然，因为这无法推广：在一般的环中根本没有正负的概念，因此更优的做法是说容量在相差一个可逆元（单位）的意义下定义。
+there's a unique rational number, up to sign at least— although I think that's normalized in the book to be positive or something, which is just silly because that doesn't generalize: there's no notion of positive or negative in a general ring, so the good notion is that content is defined up to units.
+
+144
+00:39:11,888 --> 00:39:15,983
+这正是高阶代数教材中的通用定义。
+That's what you see in any higher algebra textbook.
+
+145
+00:39:15,983 --> 00:39:39,742
+容量在相差可逆元的意义下唯一确定，而在整数环中单位正好只有 ±1，从而可以将多项式写成容量与一个本原多项式的乘积。这是一个非常重要的概念，因为它直接引出了高斯引理。
+So the content is uniquely defined up to units, which in the integers are luckily just ±1, such that I can write this polynomial as a product of the content and a primitive polynomial. This is a very, very important concept because it led to Gauss's lemma.
+
+146
+00:39:39,742 --> 00:39:51,069
+在应用中，将容量与高斯引理结合，用于研究多项式的不可约性。
+What was relevant as an application was combining it with Gauss's lemma in studying the irreducibility of polynomials.
+
+147
+00:39:51,069 --> 00:39:59,749
+高斯引理陈述如下：若 f 和 g 是本原多项式，则其乘积 fg 也是本原多项式。
+Gauss's lemma was this statement: if f and g are primitive, then the product fg is primitive.
+
+148
+00:39:59,749 --> 00:40:11,510
+当然其证明非常简练直接，其核心思想几乎可以用一句话概括：如果素数 p 整除 fg 的所有系数，
+And of course, this was a relatively straightforward proof. The idea was that the principle of the thing can be summarized in almost a sentence:
+
+149
+00:40:11,510 --> 00:40:36,201
+那么由于 p 元有限域上的多项式环 F_p[x]是整环，这意味着在模 p 下 fg ≡ 0，从而要么 f ≡ 0 (mod p)，要么 g ≡ 0 (mod p)。
+if a prime p divides all the coefficients of fg, then because F_p[x]—the polynomial ring over the field with p elements adjoin x—is an integral domain, that says fg ≡ 0 (mod p), hence either f ≡ 0 or g ≡ 0 (mod p).
+
+150
+00:40:36,201 --> 00:40:52,140
+这意味着 p 整除 f 的所有系数或整除 g 的所有系数，与 f, g 为本原多项式的假设矛盾。因此不存在这样的素数 p，系数的最大公因数必为 ±1，故 fg 必为本原多项式。
+And that's synonymous with p dividing all the coefficients of f, or dividing all the coefficients of g, which would contradict the primitivity hypothesis. So there is no such prime p, so the GCD must be ±1, so fg must be primitive.
+
+151
+00:40:52,140 --> 00:41:06,945
+这个证明概念上极为简单，但极其关键，因为它给出了这样的重要定理：若一个本原多项式在 Z[x] 中不可约，
+It's a conceptually extremely simple proof, and it was nonetheless extremely important because it gave us results like:
+
+152
+00:41:06,945 --> 00:41:32,803
+则它在有理数域 Q[x] 上也必定不可约。这并不是先验显然的事实，先验来看这是一个相当微妙的结论，但通过多项式容量和高斯引理就能轻松推出。
+if I have an irreducible polynomial over Z[x], then in fact that's irreducible over the rational numbers Q[x], which is not something that's a priori obvious.
+
+153
+00:41:39,475 --> 00:41:48,044
+这些都是非常重要的工具。
+And so those are very, very important things.
+
+154
+00:41:48,044 --> 00:42:08,402
+接着我们看到有各种判别准则，利用这种基本的不可约性关联，来判定更复杂的多项式不可约性。
+And then moving along, we saw that there were various criteria that took advantage of this basic irreducibility relationship to tell us more sophisticated irreducibility relationships.
+
+155
+00:42:08,402 --> 00:42:47,270
+例如我们有艾森斯坦判别法（Eisenstein's criterion）：对于一个整系数多项式，设其系数为 a_0 到 a_m，次数为 m，
+So For instance, we have the Eisenstein criterion, which said that if I have a polynomial over the integers, call the coefficients a_0 through a_m, and x to the m, and a prime p such that p
+
+156
+00:42:47,270 --> 00:43:16,549
+若存在素数 p 满足：p 不整除最高次项系数 a_m，但 p 整除所有较低次项系数，且 p^2 不整除常数项 a_0，则该多项式在有理数域 Q 上不可约。
+does not divide the highest coefficient, but p does divide the lower coefficients, but also p^2 does not divide a_0, then this polynomial is irreducible as a polynomial over the rationals.
+
+157
+00:43:16,549 --> 00:43:30,301
+表面上看，似乎很难找到多项式刚好满足某个素数 p 的这种整除条件。
+And after, it seems like it's very, very difficult to, I mean, find situations where your polynomial actually satisfies these divisibility hypotheses by some sort of prime.
+
+158
+00:43:30,301 --> 00:43:47,338
+但事实上大家在作业中见到了很多有趣的例子：作业题目中有多种证明多项式不可约的方法，但很多时候最巧妙的方法是对多项式作变量平移替换（shift）。
+In fact, there are interesting cases which you saw on the homework where—or I mean there were problems on the homework where there were multiple ways of showing that something was irreducible. But in many ways, in many cases, but one of the cleverest ways of showing that something was irreducible was to make a shift in the polynomial.
+
+159
+00:43:47,338 --> 00:43:57,943
+例如，显然 f(x) 不可约当且仅当平移后的 f(x - s) 不可约。
+So for instance, it's pretty clear that f(x) is irreducible if and only if f(x - s) is irreducible.
+
+160
+00:43:57,943 --> 00:44:13,608
+在很多情况下，虽然 f(x) 本身对任何素数都不满足艾森斯坦判别法，但平移后的多项式却满足，这就证明了该平移多项式的不可约性，进而推得原多项式的不可约性。
+And it is in many cases true that even though f(x) does not satisfy the Eisenstein criterion at any prime, the shift of the thing does, and so that gave you the irreducibility of this polynomial, and hence of this polynomial.
+
+161
+00:44:13,608 --> 00:44:18,200
+这是一个非常巧妙的小技巧，很有必要掌握。
+So that's just—it's a clever little trick, it's something that that's nice to know.
+
+162
+00:44:33,360 --> 00:45:01,580
+到这里我们就告别了高度抽象一般化的环论内容，开始研究一些非常具体的课题，即二次环（quadratic rings），尤其是虚二次环——即通过添加负整数的平方根所得到的环。
+So this is the point in which we stop doing, you know, a lot of stuff there that could be, you know, very generalized, and we started looking at, you know, some of some very, very specific stuff, namely stuff about quadratic rings, and especially imaginary quadratic rings, ones that are obtained by adjoining a square root of a negative integer.
+
+163
+00:45:02,880 --> 00:45:17,335
+由于高斯整数环 Z[i] 是欧几里得整环，它是绝佳的切入点。我们开始探讨：Z[i] 中的素元有哪些？这如何推广？
+because it's a Euclidean domain, a great place to start is the Gaussian integers, and we started trying to understand what are the primes of Z adjoin i, and how does that generalize?
+
+164
+00:45:17,335 --> 00:45:20,554
+事实上确定 Z[i] 的素元相当直接。
+Well, it turned out to be fairly easy actually to identify the primes of Z adjoin i.
+
+165
+00:45:20,554 --> 00:45:43,857
+现在我来梳理一下素元的结构理论，表述方式与书上略有不同，但我认为这种讲法在概念上更能揭示其意义，以及它通向何方。
+Now I'm going to present, you know, the theoretical statement, the structure theory for primes, in a way slightly different from the book, but one that I think is sort of conceptually more in line with why this is useful and where this goes.
+
+166
+00:45:43,857 --> 00:45:56,899
+首先我要指出的是：这个环是主理想整环（PID），因此素理想与素元是一一对应的——
+So I mean the first thing I just want to remark is this thing, you know, this ring is a PID, so prime ideals are the same things—
+
+167
+00:45:56,899 --> 00:46:14,244
+至少对非零素理想而言是这样（我们对零理想不感兴趣：我们知道 Z[i]是整环，这等价于零理想是素理想，但撇开零理想不谈，我们早已熟知这一点）。
+or at least nonzero prime ideals, we're not really interested in the zero ideal; we know that Z adjoin i is a domain, and that's equivalent to the zero ideal being a prime ideal, but, you know, forget about that, we know that already, it's not very important.
+
+168
+00:46:14,244 --> 00:46:38,257
+所以排除零理想后，非零素理想与素元本质上是一回事。若有一个素理想，它必由某个元素生成，且该元素必然是素元，反之亦然。
+So let me just exclude those: so the nonzero prime ideals are really the same things as prime elements. So if I have any prime ideal, it's generated by some element, and that element is a prime element necessarily, and vice versa.
+
+169
+00:46:38,257 --> 00:47:11,715
+因此如果我从某个素理想 P 出发（正如刚才所言，现在大家可以把它看成素元），记住素理想满足若元素之积在其中，则必有某个因子在其中。那么它与整数环 Z 的交集 P ∩ Z 必为 Z 的素理想。
+And so if I start out with some prime ideal, which you should now think of as just being a prime element as I just said, remember the prime ideal is one that satisfies: if a product of elements is in the thing, then one of those elements is in the ideal. Then the intersection with the integers must be a prime ideal.
+
+170
+00:47:11,715 --> 00:47:26,329
+这不难证明：如果两数之积在交集中，特别地积在 P 中，因此必有某个数在 P 中；而按假设这些数本身就是整数，故该交集必为 Z 的素理想。
+It's not hard to show that. I mean, if I have a product of elements in here, then well, in particular it's in here, so one of the elements must be in there or in there, but, you know, by hypothesis this is a product of elements of Z, so the thing must be a prime ideal.
+
+171
+00:47:26,329 --> 00:47:44,330
+我们知道整数环的素理想就是由有理素数生成的理想，所以与整数环相交后，P ∩ Z 正好是由某个有理素数 p 生成的主理想 (p)。
+We know that the prime ideals of the integers are just the things generated by integer primes. So if I intersect with the integers, this thing is just some—the principal ideal generated by some prime number.
+
+172
+00:47:44,330 --> 00:48:02,500
+这里的 p 是 Z 中的素数。我们看到，可以通过素数 p找回大理想 P 的所有可能情况。
+And yeah, so this is for some prime p in Z. And what we saw was that we could recover all the possibilities for P from—for big P from little p.
+
+173
+00:48:02,500 --> 00:48:16,414
+具体来说，若小 p = 2，则素理想只有一种可能。数论学家的术语是谈论“处于另一个素数之上的素理想”（primes above a prime）。
+So specifically, if little p is 2, then there's only one possibility for the prime ideal. So there's only—I mean, the terminology used by number theorists is you talk about primes above another prime.
+
+174
+00:48:16,414 --> 00:48:26,280
+在素数 2 之上的素理想（即与整数相交得到 (2) 的理想）只有唯一一个，
+So the primes above 2, the ones that somehow intersect the integers to give you 2, well, there's only one of those,
+
+175
+00:48:26,280 --> 00:48:49,770
+那就是 Z[i] 中由 1 + i 生成的主理想 (1 + i)（当然在相伴意义下，理想生成元只在相差可逆元的意义下唯一确定，所以有其他相伴生成元，但本质就是这一个）。有同学提问？那是另一种表述方式。
+and that's the principal ideal of Z adjoin i generated by 1 + i, up to, you know—I mean, this thing is of course—an ideal generator is only determined up to units, so there are a lot of other possible generators, but that's the basic idea. Yes? Yeah, that's—that's another way of stating it.
+
+176
+00:48:49,770 --> 00:49:11,579
+正如书中所解释的那样，包含关系（即一个主理想作为另一个主理想的子集），与元素间的整除关系是一致的。
+So it turns out that—and I think this is explained in the book to some extent at least—that's the order relation: an ideal being a subset—you know, a principal ideal being a subset of another principal ideal is the same thing as a divisibility relationship, and so, I mean, for fairly obvious reasons.
+
+177
+00:49:11,579 --> 00:49:34,020
+理由显而易见：利用整除与理想包含的反向对应，根据构造 (p) 包含在 P 中，这说明 P 的生成元必整除 p。清楚了吗？很好。
+So yes, using that correspondence between divisibility and, you know, the fact that, well, by definition—I mean, by construction, this thing is contained in this, that tells you that this must divide this. Is that clear? Great.
+
+178
+00:49:34,020 --> 00:50:10,947
+接下来如果素数 p ≡ 3 (mod 4)，那么处于 p 之上的素理想就是 (p) 本身，这是最平淡的情形（惰性）。而在p ≡ 1 (mod 4) 的情形，P 由 Z[i] 中的素元 π 生成，满足 π π̄ = p。
+Okay, so if I have a prime congruent to 3 mod 4, then the prime above p is, well, just (p). So it's not—not the most interesting case. And in the case where p is congruent to 1 mod 4, then P is generated by some prime element pi of Z adjoin i, such that pi pi-bar is equal to p.
+
+179
+00:50:10,947 --> 00:50:26,838
+这是一个非常有用的结果。书中给出了这三种不同情形的专门命名：p = 2 的情形被称为分歧（ramified），
+And so that this is actually, you know, a highly sort of exploitable consequence, and I think at some point the book, you know, goes into, you know, a sort of nomenclature for these three different cases. So this case, I think,
+
+180
+00:50:26,838 --> 00:50:48,396
+因为此时主理想 (2) 分解为素理想的平方；它不是两个互异共轭素理想的乘积，换言之，P^2 正好是由 2 生成的主理想 (2)。
+is at some point called the ramified case, because, you know, this is not the same thing as this prime, but it's, you know—it's the case that not—not the case that there's some sort of distinct conjugate which has its product with this thing being the prime.
+
+181
+00:50:48,396 --> 00:51:11,409
+第二种情形（p ≡ 3 mod 4）是惰性（inert）——它保持素性不动；第三种情形（p ≡ 1 mod 4）则是分裂（split），
+I mean, the square, in other words, of P—P^2 is the principal ideal generated by little p, well, 2 in this case. This is the inert case. I mean, inert, you know, it doesn't do anything, it's inert. And this is the split case, because in this case pi,
+
+182
+00:51:11,409 --> 00:51:32,248
+因为此时 (π) 与 (π̄) 是两个互异的理想，其乘积刚好等于主理想 (p)。因此 Z 中的素数扩展到 Z[i] 后分裂为两个素理想的乘积。
+pi-bar—so then these are distinct ideals, in this case completely distinct ideals, actually equals this thing. So that prime here, or the thing that was a prime here, when I extend it to Z adjoin i, splits into a product of two ideals.
+
+183
+00:51:32,248 --> 00:52:00,500
+提问？如果我算 (1 + i)^2，会得到 2i，关键在于虚数单位 i 是 Z[i] 中的单位（可逆元），所以由 2i 生成的主理想与由 2 生成的主理想 (2) 完全相同。很好。
+Yes? I mean, if I take (1 + i)^2, I get like -2i or something like this, yeah, I mean -2i or 2i, and the point is that i is a unit in Z adjoin i, so the principal ideal generated by 2i is the same as the principal ideal generated by 2. Great.
+
+184
+00:52:00,500 --> 00:52:19,789
+随后我们看到了这种框架的推广，素理想分解行为在更一般代数数域中的推广。
+And we saw a generalization of that, of this kind—of this kind of framework, this kind of, you know, set of possibilities for how primes behave later on in much greater generality.
+
+185
+00:52:19,789 --> 00:52:38,775
+但在那之前，让我先谈谈Z[i] 的推广是什么，因为这是讨论更一般情形下素数分解的前提。
+But let me just say something else first, something about what the generalization of Z adjoin i is, because that is sort of a prerequisite for talking about how primes behave in the generalization.
+
+186
+00:52:38,775 --> 00:53:05,974
+假设我从某个二次域 Q(√d) 出发——即在有理数域上添加某个整数的平方根。我们学过代数整数（algebraic integers）的概念。所有代数整数构成的环—
+So suppose I start with some sort of quadratic ring—so I've adjoined some sort of square root of an integer to the rational numbers—well, we saw that there's a notion of algebraic integer, so the ring of all algebraic integers,
+
+187
+00:53:05,974 --> 00:53:27,567
+—书中记为 R，在其他地方你常会看到记为 O_K——我们发现代数整数环的具体形式取决于 d。假设 d 是无平方因子的整数（square-free），
+and the book calls that thing R, another notation you might see elsewhere is O_K, and we found that what this thing is depends on what this generator is. So I'm going to just assume that d is square-free,
+
+188
+00:53:27,567 --> 00:53:45,394
+在某些情形下这是最自然的形式：当 d ≡ 2 或 3 (mod 4) 时，所有代数整数的形式都是整数加整数乘 √d，即 a + b√d。
+and in some cases this was just sort of the most obvious thing: d congruent to 2 or 3 mod 4 meant that all the algebraic integers just looked like sums of integers plus integers times root d.
+
+189
+00:53:45,394 --> 00:54:08,299
+但在另一种情形，当 d ≡ 1 (mod 4) 时——显然 d ≡ 0 (mod 4) 是不可能的，因为此时完全平方数 4 会整除 d，而我们假设了 d 无平方因子——代数整数环是 Z[(1 + √d)/2]，即所有代数整数构成的环。
+But in the other case where d is congruent to 1 mod 4—obviously the case congruent to 0 mod 4 is impossible because then a square, namely 4, would divide the thing, and we're assuming d is square-free—so Z adjoin (1 + root d)/2 is the ring of all algebraic integers.
+
+190
+00:54:08,299 --> 00:54:24,999
+换句话说，其元素要么是整数加整数乘 √d，要么是半整数加半整数乘 √d（系数具有相同的半分母）。
+Or put it another way, sums of either integers plus integers times root d, or half-integers—explicitly, you know, truly half-integers plus truly half-integers times root d.
+
+191
+00:54:24,999 --> 00:54:31,395
+这很好。当研究素元与因式分解时，需要探索的要素之一是可逆元（单位，units）。
+So that was good. And one of the things to explore when you're trying to understand things like primes and factorization are units.
+
+192
+00:54:31,395 --> 00:54:48,230
+不可约元的定义中直接涉及单位，因此必须清楚地掌握该环中的单位有哪些。
+I mean, they turn up in the very definitions of, you know, things like irreducible elements, so it's good to have a pretty good idea of what the units are, and in complete generality, whether or not d is positive or negative, although I think in the book it's stated only for d negative.
+
+193
+00:54:48,230 --> 00:55:07,179
+在完全一般的情形下，不论 d 是正还是负——尽管书中可能只讨论了 d 为负的情形——在完全一般的二次环中，单位正是范数为 ±1 的元素。
+In complete generality, the units in the ring are the elements whose norm is plus or minus 1.
+
+194
+00:55:07,179 --> 00:55:19,262
+当然，如果 R 是虚二次环，范数必为正数，因此若 d 为负，完全可以说单位就是范数 N(α) = 1 的元素。
+Now of course, if R is imaginary quadratic, norms must be positive, so I could have equally well said, if d were negative, that this is the set of things with norm alpha equal to +1.
+
+195
+00:55:19,262 --> 00:55:40,650
+但如果要包含实二次环（即添加正整数平方根所得到的环），就需要包含范数为 -1 的情形。其证明非常显然。
+But if I want to include the real quadratic ones, the ones that I get by adjoining some positive integer—square root of a positive integer—then I need to include -1. And the proof of that was pretty obvious.
+
+196
+00:55:40,650 --> 00:56:07,975
+当然，α 的范数，或者说 a + b√d 的范数（这里的 a, b根据 d 的情形是整数或半整数）——有同学提问？在 d 为正的情形，范数确实可以是负的，对吧？
+And of course, by the norm of alpha, or better put, the norm of a + b root d—so these are either integers or half-integers according to the case of d—there's a question? Well, I mean, in the case where I have d being positive, the norms could be negative, right?
+
+197
+00:56:07,975 --> 00:56:17,857
+可以有元素的范数等于 -1，但根据同样的证明，它显然仍然是单位，对吧？所以必须包含在内。
+I mean, I could have something with norm -1, but by the same proof, that's obviously still a unit, right? So it better be in there.
+
+198
+00:56:17,857 --> 00:56:40,110
+例如，让我想一个合适的单位例子：如果考察 1+ √2，它的范数是 -1，对吧？因为 1 - 2 = -1。
+I mean, so for instance, you know, let me see if I can think of an appropriate unit: I mean, if I look at 1 plus square root 2 or something, the norm of this is -1, right? Because it's 1 - 2, that's -1.
+
+199
+00:56:40,110 --> 00:56:52,000
+但它是单位，因为我可以把它乘以-1 + √2，乘积等于 1。所以它显然是单位，但其范数是负的。清楚了吗？
+But it's a unit, because I could multiply by this by -1 + root 2 (or -(1 - root 2)), and that's equal to 1. So this is clearly a unit, but its norm is negative. Is that clear?
+
+200
+00:56:52,000 --> 00:57:02,205
+好，所以范数就是 (a + b√d)(a - b√d)，换言之即 a^2 - db^2。
+Okay, so this is (a + b root d)(a - b root d), or put another way, a^2 - b^2 d.
+
+201
+00:57:02,205 --> 00:57:16,550
+当然，如果 d 为负，这个数始终为正；但若 d 为正，它可能是负数，可以是 -1，可以是任何整数——好吧，也不是任何数，并非任意整数都能取到。
+So of course, if d is negative, then this number is always positive. But if d is positive, then this could be very, very negative, or it could be -1, it could be anything— well, not anything, not literally anything.
+
+202
+00:57:19,630 --> 00:57:33,521
+好的，在具体的情形中，当 d 为负时，结论要明确得多。
+Okay, and then in the explicit case where d is negative, you could say more.
+
+203
+00:57:33,521 --> 00:58:00,139
+在 d 为正时，单位极其丰富（通过佩尔方程有无限多个单位）；但在d 为负时情况简单得多，你可以给出所有可能情形的完整分类：若d = -1，单位群就是 {±1, ±i}，即高斯整数环的情形，我们早已熟知。
+I mean, in the case where d is positive, there are tons of units, they're just like flowing out of your ears, but in the case where d is negative, you know that it really becomes a much simpler sort of situation, so you can give a complete sort of list of all the possibilities: if d is -1, these are the units, in other words, in the Gaussian integers we already knew that.
+
+204
+00:58:00,139 --> 00:58:28,570
+在 d =-3 时，令 ζ_6 表示本原六次单位根，ζ_6 的各次幂构成此时的全部单位（共 6 个）。而当 d 为其他任意负数时，单位群只有 {±1}。
+In the case of d being -3, letting zeta_6 denote a 6th root of unity, all the powers of the 6th root of unity form the units in that case. And then if d is anything else negative, then it's just plus or minus 1.
+
+205
+00:58:28,570 --> 00:58:35,500
+这很容易证明。
+That's easy to prove, yeah.
+
+206
+00:58:35,500 --> 00:59:06,707
+最后我想做一点补充说明，那就是：在研究更一般二次环 R 中的素理想时，关键要记住的是你有如下同构关系：比如，R/(p) 同构于 Z[x] 模去多项式，
+So the next thing, I just want to make one last comment, and that is: in studying the prime ideals of more general R, the crucial thing to bear in mind is that you have this sort of relationship, you know,
+
+207
+00:59:06,707 --> 00:59:29,145
+根据情形为 x^2 - d 或 x^2 - x + (1 - d)/4，这取决于你处于哪种情形，即 d ≡ 2, 3 (mod 4) 还是 d ≡ 1 (mod 4)。
+say R mod (p) is the same thing as Z adjoin x modulo, well, either x^2 - d or x^2 - x + (1 - d)/4, depending on what case you're in, whether this is the d congruent to 2 or 3 case or in the d congruent to 1 case.
+
+208
+00:59:29,145 --> 00:59:38,117
+这个商环进一步同构于有限域多项式环 F_p[x] 模去 x^2 - d 或后一个二次多项式。
+And this thing is then just F_p adjoin x modulo, well, again, either x^2 - d or this other polynomial.
+
+209
+00:59:38,117 --> 00:59:54,212
+这能提供大量信息：例如，这使你能够断言：要想判定由有理素数 p 生成的主理想在这个二次环中是极大理想，
+So that tells you a lot: so for instance, you know, this allows you to say things like, well, you know, I can say that something is maximal—you know, a prime, you know, an integer prime is maximal
+
+210
+00:59:54,212 --> 01:00:12,111
+只需看右端的多项式在 F_p 上是否不可约，若是不可约多项式，它便生成极大理想，商环构成一个域，从而逆向提升回去，便知道该素理想是极大理想。
+in this quadratic ring, by looking all the way over here and seeing that the polynomial over here is irreducible, and hence, you know, generates some maximal ideal, and hence this thing is a field, and so then lifting back here, you knew that that thing was maximal.
+
+211
+01:00:12,111 --> 01:00:24,465
+等我解下麦克风后会继续回答大家的问题，现在先让录像师傅收工。非常感谢大家！
+So I'll answer more questions after I disconnect myself, but I need to let him go. So, great.

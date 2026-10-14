@@ -1,0 +1,1059 @@
+1
+00:00:11,359 --> 00:00:32,797
+记住，群在集合上的作用是一个映射，它将群中的一个元素与集合中的一个元素对应到集合中的另一个元素，并满足若干公理：单位元在集合上平凡作用，且作用满足结合律。
+So a group action on a set, remember, is a map that takes an element in a group and an element in the set to another element in the set, and which satisfies various axioms: the identity acts trivially on the set, and it has an associative action.
+
+2
+00:00:32,797 --> 00:00:46,855
+我们看到如果我们有S 中的一个点 s，我们可以定义其轨道 O(s)，可以定义其稳定子群 G_s（它是 G 的一个子群）。
+We saw that if we had a point in S, we could define its orbit O(s), we could define its stabilizer G_s, which is a subgroup of G.
+
+3
+00:00:46,855 --> 00:01:00,540
+O(s) 是S 的一个子集，且我们看到该轨道作为一个集合，与稳定子群的陪集集合等同起来。
+O(s) is a subset of S, and we saw that the orbit was identified as a set with the set of cosets of the stabilizer.
+
+4
+00:01:00,540 --> 00:01:21,780
+此外，如果你在轨道中取另一个点 s'（因此它形如 g · s），你去看s' 的稳定子群是什么，它是一个共轭子群——共轭子群。
+And moreover, that if you took another point s' in the orbit, so it was of the form g · s, and you look at what the stabilizer of s' was, it was a conjugate subgroup—a conjugate subgroup.
+
+5
+00:01:24,400 --> 00:01:35,760
+所以上次我们看到，传递作用的概念——即一个 G 置换其中所有元素的集合，元素之间可以相互转移（就像一个轨道）—
+And so we saw last time that the notion of a transitive action—a set on which G permuted all the elements from one to another like an orbit—
+
+6
+00:01:35,760 --> 00:01:46,491
+—可以与子群的一个共轭类等同起来。因为这里是一个传递作用的例子，而一个抽象的传递作用总是通过此来等同的。
+could be identified with a conjugacy class of subgroups. Because here is an example of a transitive action, and an abstract transitive action is always identified by this.
+
+7
+00:01:46,491 --> 00:02:00,206
+这种对应很容易：你取一个陪集 g G_s，把它映到像 g · s，它只取决于该陪集，你便得到了 s 的所有平移像元素，也得到了所有陪集。
+This identification is easy: you take a coset g G_s, and you take it to the image g · s, which only depends on the coset, and you get all the elements that are translates of s, and you get all the cosets.
+
+8
+00:02:00,206 --> 00:02:10,246
+所以这是个相当简单的概念，但它非常强大，因为它告诉我们一个群的所有传递作用都可以完全从群内部、从其子群构建出来。
+So that's a pretty simple notion, but it's very powerful, because it tells us that all transitive actions of a group can be built up internally from the group, from its subgroups.
+
+9
+00:02:10,246 --> 00:02:44,830
+它还具有以下性质：假设 G 作用在 S 上，且 G 的阶与 S 的阶都是有限的，轨道为 O(s_1), O(s_2), ...O(s_n)。首先，只有有限多个轨道，因为集合中只有有限多个元素。
+It also has the following property: suppose G acts on S, and the order of G and the order of S are both finite, with orbits O(s_1), O(s_2), ... O(s_n). So the first thing is there are only finitely many orbits, because there are only finitely many elements in the set.
+
+10
+00:02:44,830 --> 00:02:53,693
+因此轨道的数目少于集合中的元素个数；最坏的情形是每个元素都在其自身的轨道中。
+So there are fewer orbits than there are elements in the set; the worst possible case is that every element is in its own orbit.
+
+11
+00:02:53,693 --> 00:03:17,280
+那么 S 的阶当然就是各轨道大小之和，因为集合 S 本身分解为 G 的轨道的并不相交并。
+Then the order of S is, of course, the sum of the sizes of the orbits, because the set S itself decomposes as a disjoint union of the orbits for G.
+
+12
+00:03:17,280 --> 00:03:23,010
+因此如果你把不同轨道中的元素累加起来，就得到了集合中的元素总数。
+So if you add up the elements in the different orbits, you get the total number of elements in the set.
+
+13
+00:03:23,010 --> 00:03:47,344
+但由于每个轨道都与陪集空间等同，且我们知道陪集空间的阶等于 G 的阶除以稳定子群的阶，这可以写成 G 的阶除以 |G_{s_1}|加上 G 的阶除以 |G_{s_2}|，加……加上 G 的阶除以 |G_{s_n}| 的阶。
+But because of this property that every orbit is identified with a coset space, and we know the order of a coset space is the order of G divided by the order of the stabilizer, this can be written as the order of G divided by |G_{s_1}| plus the order of G divided by |G_{s_2}|, plus ... plus the order of G divided by the order of |G_{s_n}|.
+
+14
+00:03:47,344 --> 00:03:53,934
+特别地，S 的阶写成了若干个数之和，其中每个数都整除 G 的阶。
+In particular, the order of S is written as a sum of numbers, all of which divide the order of G.
+
+15
+00:03:53,934 --> 00:04:12,883
+因此这也可以写成G 的阶乘以 1 除以稳定子群 |G_{s_i}| 的阶之和，i 从 1 到 n。因此这被称为计数公式。
+So this could also be written as the order of G times the sum of 1 over the order of G_{s_i}, the order of the stabilizers, i is equal to 1 to n. So that's called the counting formula.
+
+16
+00:04:12,883 --> 00:04:24,770
+在书中，他们实际上把它拆成了两个公式：其一说这个阶是 G 的阶除以稳定子群的阶；另一个是集合的阶等于所有轨道阶之和。
+In the book, they really break it into two formulas: one, it says that this order is the order of G divided by the order of the stabilizer, and the other is that the order of the set is the sum of the orders of all the orbits.
+
+17
+00:04:24,770 --> 00:04:39,816
+因此这有许多非常非常强大的应用，这个简单的计数公式。我们在有限群上的大多数结果，都以某种方式出自这个在各种情形下应用的计数公式。
+So this has a number of very, very powerful applications, this simple counting formula. Most of our results on finite groups somehow, in some way or another, come out of this counting formula applied in various situations.
+
+18
+00:04:39,816 --> 00:04:59,229
+让我给你们举个例子：假设你有一个有限群，有两个子群 H 和 K，然后你有它们的交集（当然也是它们两者的子群）。
+So let me give you an example: suppose you have a group which is finite, and you have two subgroups H and K, and then you have their intersection, of course, which is a subgroup of both of them.
+
+19
+00:04:59,229 --> 00:05:26,078
+好的，那么我要为你们证明命题：K 在 G 中的指数，该指数大于或等于 H \cap K 在 H 中的指数，对任意子群 H 和 K 都成立。
+Okay, so I'm going to prove for you then, proposition: the index of K in G, that index is greater than or equal to the index of H \cap K in H, for any subgroups H and K.
+
+20
+00:05:26,078 --> 00:05:35,817
+我们将 H \cap K 视作 H 的子群，K 视作G 的子群，这个指数总是大于或等于那个指数。
+So we view H \cap K as a subgroup of H, and K is a subgroup of G; this index is always greater than or equal to that index.
+
+21
+00:05:35,817 --> 00:05:53,407
+好的，证明：设 S 为 G/K，即 K 在 G 中的陪集，因此 S 的阶是指数 [G : K]，我们知道这点。
+Okay, proof: let S be G/K, the cosets of K in G, so the order of S is the index [G : K], we know that.
+
+22
+00:05:53,407 --> 00:06:11,174
+现在 G 传递作用在 S 上：你可以从 K 的任意一个左陪集，通过左乘 G 中的一个元素到达 K 的任意另一个左陪集。
+Now G acts transitively on S: you can get from any one left coset of K to any other left coset of K by multiplying by an element in G.
+
+23
+00:06:11,174 --> 00:06:33,766
+但我们可以把这个作用限制到 H：对任意子群，都可以将 G 在 S 上的作用限制到子群 H，从而得到一个 H-作用。
+But we can take the restriction of this action to H: can restrict the action of G on S to the subgroup H, for any subgroup, and you get an H-action.
+
+24
+00:06:33,766 --> 00:06:50,400
+在定义中——关于 G 在集合上作用的定义的一个推论是：如果你有 G 的任意子群 H，且你有 G 在该集合上的作用，将该作用限制到 H，就给出了 H 在该集合上的作用；它满足相同的公理。
+One of the definitions—a consequence of this definition of when G acts on a set is, if you have any subgroup H of G, and you have an action of G on the set, and you restrict that action to H, that gives you an action of H on the set; it satisfies the same axioms.
+
+25
+00:06:50,400 --> 00:07:06,009
+现在，没有任何理由要求 H 仍然在 K 的陪集集合上具有传递作用，没有任何理由。
+Now there's no reason any longer for H to act transitively on the set of K-cosets, no reason.
+
+26
+00:07:06,009 --> 00:07:20,191
+所以这个作用分解为若干 H-轨道的并不相交并，我们将证明这就是其中一个 H-轨道的大小。
+So this action is a sum or a union of H-orbits, and we're going to show that this is the size of one of the H-orbits.
+
+27
+00:07:20,191 --> 00:07:31,152
+特别地，整个集合的大小更大——是由各个轨道大小之和给出的，因此特别地，S 的大小大于或等于任意轨道的大小。
+And in particular, the size of the set is larger— is given by the sum of the sizes of the orbits, so in particular, the size of S is greater than or equal to the size of any orbit.
+
+28
+00:07:31,152 --> 00:07:40,789
+我们就是这样来证明这一点的。那么，哪个轨道的大小是 [H : H \cap K] 呢？
+That's how we're going to prove this. Well, what orbit has the size [H : H \cap K]?
+
+29
+00:07:40,789 --> 00:08:06,220
+我们来看：考虑陪集 K 本身（你可以称之为 eK）在 H 作用下的轨道。这是我集合中的一个元素。
+Well, let's see: consider the orbit of the coset just K under—well, you could call it eK—under the action of H. This is one element in my set.
+
+30
+00:08:06,220 --> 00:08:28,484
+轨道与 H 模去 H 中固定该元素的稳定子群等同起来。那么 H 中固定该元素的稳定子群是什么？
+Well, the orbit of S is identified with H modulo the subgroup of H that stabilizes S. What is the subgroup of H that stabilizes S?
+
+31
+00:08:28,484 --> 00:08:43,300
+这就是满足 h K = K 的 h \in H 的集合，这恰好是 H 中属于 K 的元素（即 H \cap K）。
+This is the set of h in H such that h K = K, which is exactly the elements in H which are in K.
+
+32
+00:08:43,300 --> 00:09:05,090
+因此该轨道在 H 作用下的大小恰好是 H 的阶除以 H \cap K 的阶，这就表明集合的大小至少与该 H-轨道一样大，对任意两个子群均成立。好的，所以这算是一个不动脑筋的计数论证。
+And so the size of this orbit under H is exactly the order of H divided by the order of H \cap K, and that shows that the size of the set is at least as large as the size of the H-orbit, for any two subgroups. Okay, so that was sort of a mindless counting argument.
+
+33
+00:09:05,090 --> 00:09:09,220
+它看起来复杂，但像这样推导出来时一点也不复杂。
+It looks complicated, but it isn't any more complicated when you work it out like this.
+
+34
+00:09:09,220 --> 00:09:26,097
+让我给你们另一个证明，稍后会用到，它涉及 G 在自身上的一个特殊作用。我们看到 G 通过左乘在自身上有传递作用：G 通过左乘传递作用在 S = G 上，
+Let me give you another proof, which will come through a little later, which involves a particular G-action on itself. So all these—we saw that we have a transitive action of G on itself by left multiplication:
+
+35
+00:09:26,097 --> 00:09:53,990
+即 G 中元素 g 作用于 s 就是 g · s，因为我们可以通过用某个元素左乘单位元到达任意元素；单位元的轨道就是整个 G。
+G acts transitively on S = G by left multiplication, namely g of an element s in G is g · s, because we can get to any element by left multiplying the identity by something; the orbit of the identity element is all of G.
+
+36
+00:09:53,990 --> 00:10:26,137
+但是在 G 自身上有一个更有趣的作用，即共轭作用：这里的作用是 g(s) = g s g^{-1}。这是集合S 中的一个新元素，对吧？
+But there is a more interesting action of G on itself by conjugation, and here the action is that g(s) is equal to g s g^{-1}. This is a new element of the set S, right?
+
+37
+00:10:26,137 --> 00:10:37,477
+你需要验证它是一个作用：单位元将群中任意元素映到自身，因为单位元与它对易，对吧？
+And you have to check that it's an action: so the identity takes any element of the group to itself, because the identity commutes with it, right?
+
+38
+00:10:37,477 --> 00:10:39,286
+所以它给出了恒等变换。
+So it gives the identity.
+
+39
+00:10:39,286 --> 00:10:51,523
+如果你取 (g h)(s)，它就变成 g(h(s))：同样地，如果你先用 h 共轭，然后再用 g 共轭，你就得到了由 g h 的共轭。所以它满足公理。
+And if you take (g h)(s), that becomes g(h(s)): again, if you first conjugate by h and then conjugate by g, you get conjugation by g h. So it satisfies the axioms.
+
+40
+00:10:51,523 --> 00:11:10,338
+然而，这不是一个传递作用：你无法——除非该群是平凡群——因为在此作用下单位元的轨道是什么？是它自身，很好。
+However, this is not a transitive action: you can't get—unless the group is the trivial group—because the orbit of the identity element is what in this action? Is itself, very good.
+
+41
+00:11:10,338 --> 00:11:20,270
+在此作用下单位元的轨道等于{e}，且单位元的稳定子群是整个 G。
+The orbit of the identity element in this action is equal to {e}, and the stabilizer of the identity is all of G.
+
+42
+00:11:20,270 --> 00:11:38,250
+因此你无法通过该作用从一个非单位元到达单位元；你无法把一个非单位元共轭成单位元。因此，它不是一个传递作用。
+So you can't get from a non-identity element to the identity element by this action; you cannot conjugate some element which is not the identity into the identity. Consequently, it's not a transitive action.
+
+43
+00:11:38,250 --> 00:11:53,062
+这里有不同的轨道；按定义，这些轨道被称为共轭类。这就是 s 的共轭类的定义。
+There are different orbits; the orbits are called the conjugacy classes, by definition. That's the definition of a conjugacy class of s.
+
+44
+00:11:53,062 --> 00:12:27,951
+而我们之前写下的公式表明：G 的阶等于各共轭类上 s 的轨道大小之和，这也可以写成在 G 的各共轭类上，G 的阶除以稳定子群的阶之和。那么这里一个元素的稳定子群是什么？
+And the formula we wrote before would say that the order of G is equal to the sum over the conjugacy classes of the size of the orbit of s, which can also be written as the sum over the conjugacy classes of G of the order of G divided by the stabilizer. Now what is the stabilizer of an element here?
+
+45
+00:12:27,951 --> 00:12:50,281
+若 g固定 s，则 g s g^{-1} = s，这意味着 g 与 s 对易。这被称为 s 的中心化子：满足g s = s g 的 g \in G。这被称为 s 的中心化子。
+Well, g would fix s if g s g^{-1} is equal to s, which means that g commutes with s. That's called the centralizer of s: g in G such that g s = s g. It's called the centralizer of s.
+
+46
+00:12:50,281 --> 00:13:07,385
+因此一个群的阶就是：你取群中不同的共轭类，取 G 的阶除以它们中心化子的阶。这里有一个特别离奇的例子——离奇的是：假设我的群是交换群。
+So that the order of a group is: you take the different conjugacy classes in the group, take the order of G divided by the order of their centralizer. Here's a particularly weird example of this—weird: suppose my group is abelian.
+
+47
+00:13:07,385 --> 00:13:17,724
+如果是交换群，那么对 G 中的所有 g，该元素都等于 s，因为 g 与每个——该群中所有元素都对易。
+If abelian, then this element is equal to s for all g in G, because g commutes with every—everything commutes in this group.
+
+48
+00:13:17,724 --> 00:13:28,606
+因此在交换群中，这些轨道都只有一个元素；每个元素都在其自身的共轭类中。
+Consequently, in an abelian group, these orbits have one element in them; every element is in its own conjugacy class.
+
+49
+00:13:28,606 --> 00:13:49,304
+所以若 G 是交换群，每个轨道都只有一个元素，G 完全没有被分解成非平凡的共轭类——每个共轭类都是单元素集，中心化子 G_s 就是 G，
+So if G is abelian, every orbit has one element in it, and there's no break of G into conjugacy classes at all—each conjugacy class is just a singleton, the centralizer G_s is G,
+
+50
+00:13:49,304 --> 00:14:02,756
+而这仅仅表明G 的阶等于 1 的 |G| 次累加。这并没什么意思。但如果你考察更有趣的群，这就成了一个有趣的恒等式。
+and this just says that the order of G is the sum of 1, |G| times. That's not so interesting. But if you take more interesting groups, this becomes an interesting identity.
+
+51
+00:14:02,756 --> 00:14:11,310
+顺便说一句，这被称为群的类方程（群的阶等于这个和式）；这有时被称为类方程。
+It's called, by the way, the class equation for a group, that the order of a group is this sum; this is sometimes called the class equation.
+
+52
+00:14:11,310 --> 00:14:29,733
+举个例子，我们来看看三个字母上的对称群 S_3，这是我们的第一个非交换群。三个字母上的对称群有单位元，它与所有元素对易——这是一个共轭类。
+So for example, let's take a look at the symmetric group on three letters, which is our first non-abelian group. The symmetric group on three letters has the identity, that commutes with everything—that's one conjugacy class.
+
+53
+00:14:29,733 --> 00:14:43,223
+另一个共轭类是 2 阶元素，也就是我们所称的对换，即固定某个元素的置换。
+Another conjugacy class is the elements of order two, so those are what we call transpositions, things that fix something.
+
+54
+00:14:43,223 --> 00:14:53,735
+例如对换 (1 2)，或者固定 2 并交换 1 和 3 的置换，或者固定 1 并交换 2 和 3 的置换。
+So an example of a transposition would be (1 2), or the things fixing 2 and switching 1 and 3, or the things fixing 1 and switching 2 and 3.
+
+55
+00:14:53,735 --> 00:14:56,937
+所以有三个 2 阶元素；它们构成一个共轭类。
+So there are three elements of order two; they form a conjugacy class.
+
+56
+00:14:56,937 --> 00:15:08,214
+然后有两个 3 阶元素，它们形如循环轮换。
+And then there are two elements of order three, and they are also—those things look like this, those are the things that cycle around.
+
+57
+00:15:08,214 --> 00:15:23,265
+顺便说一下，当我们稍后进一步深入时，我们将确定对称群中的所有共轭类。但在 S_3 中，有 3 个不同的共轭类：单位元、2 阶元素、3 阶元素。
+We're going to, by the way, once we get a little bit further, we're going to determine all the conjugacy classes in the symmetric group. But in S_3, there are 3 different conjugacy classes: the identity, the elements of order 2, the elements of order 3.
+
+58
+00:15:23,265 --> 00:15:27,387
+类方程写作：6 = 1 + 3 + 2。
+The class equation looks like this: 6 = 1 + 3 + 2.
+
+59
+00:15:27,387 --> 00:15:46,124
+这里中心化子就是 2 阶元素：任何元素都与自身对易，对吧？这里中心化子是由该元素生成的 3 阶子群。
+Here the centralizer is just the element of order 2: everything commutes with itself, right? And here the centralizers are the subgroup of order three generated by the element.
+
+60
+00:15:46,124 --> 00:16:13,779
+这里 Z(e) 是 6 阶；这里对换 tau 的中心化子是 2 阶，是子群 {e, tau}；这里 3 阶元素（设为 sigma）的中心化子 Z(sigma) 是子群{e, sigma, sigma^2}。
+Here Z(e) is of order six; here Z of a transposition is of order two, and is the subgroup {e, tau}; and here Z of an element of order three—let's call this element sigma—Z(sigma) is the subgroup {e, sigma, sigma^2}.
+
+61
+00:16:13,779 --> 00:16:27,440
+这就是三阶对称群的类方程。给定一个群，去确定其共轭类是非常有趣的。
+So that's the class equation for the symmetric group of order three. It's very interesting, given a group, to determine its conjugacy classes.
+
+62
+00:16:27,440 --> 00:16:37,184
+对于非交换群而言，了解其共轭类比了解其具体元素更为本质，因为在一个群中，事情总会受到共轭问题的干扰。
+It's more intrinsic for a non-abelian group to know its conjugacy classes than to know its elements, because in a group things are always confused by this question of conjugacy.
+
+63
+00:16:37,184 --> 00:16:48,771
+在群作用中我们已经看到，稳定子群其实并不是单一的固定子群，因为那取决于你在轨道中选取哪一个点；如果你在轨道中选取不同的点，就会得到一个共轭子群。
+We already saw for group actions, it really isn't the subgroup which is the stabilizer, because that depends on which point you choose in the orbit; if you chose a different point in the orbit, you'd get a conjugate subgroup.
+
+64
+00:16:48,771 --> 00:16:58,688
+因此人们常常希望在共轭等价的意义下考虑群中的元素集合，即搞清共轭类集合是什么。这里有三个共轭类。
+So frequently you want to consider the set of elements in the group up to conjugacy, so that's knowing what is the set of conjugacy classes. Here there are three conjugacy classes.
+
+65
+00:16:58,688 --> 00:17:21,090
+我们将研究对称群中的共轭类，并将证明对称群的阶是 n!，但共轭类的个数等于 n 的整数拆分数（partitions of n），这要小得多。
+We're going to do conjugacy classes in the symmetric group, and we're going to show that the order of the symmetric group turns out to be n factorial, but the number of conjugacy classes turns out to be the number of partitions of n, which is much smaller.
+
+66
+00:17:21,090 --> 00:17:28,985
+而共轭类数目远少于元素数目这一事实，使得你可以去研究这个群。
+And the fact that there are a smaller number of conjugacy classes than elements allows you to work with a group.
+
+67
+00:17:28,985 --> 00:17:36,268
+而人类所发现的最有趣的有限群之一——并且有许多宇宙学模型都建立在它之上——被称为魔群（Monster group）。
+But one of the most interesting finite groups that's been discovered—and there are many cosmological models of the universe based on it—is called the Monster group.
+
+68
+00:17:36,268 --> 00:17:56,508
+我可能在课程稍后会讲魔群，但魔群是一个有限群，基本上是在 20 世纪 80 年代通过计算机发现的，它的阶大约是 10^{47}——差不多相当于这个房间里的粒子总数！
+So I'll talk about the Monster maybe later in the course, but the Monster group is a finite group that was discovered essentially on the computer in the 1980s, which has order about 10^{47}—so about the number of particles in this room!
+
+69
+00:17:56,508 --> 00:18:00,269
+你无法把那个群写下来，也无法在任何地方存储该群的所有元素。
+You can't write down that group, you cannot store the elements of that group anywhere.
+
+70
+00:18:00,269 --> 00:18:14,725
+然而，我们对这个群了解极其丰富，因为它只有不到 200 个共轭类！它的非交换性如此之强，以至于元素大量地相互共轭。
+However, we know an enormous amount about this group because it has less than 200 conjugacy classes! It's so non-abelian that the elements get quite conjugated into each other.
+
+71
+00:18:14,725 --> 00:18:19,664
+因此我们能研究魔群，是因为我们研究它的共轭类。
+So we can work with the Monster group because we work with its conjugacy classes.
+
+72
+00:18:19,664 --> 00:18:33,976
+你们当中了解——数学中有关于n! 的大小估计（即斯特林公式）与拆分函数大小估计的差距：后者远小于前者，这反映了其非交换本质。
+So those of you who know the difference between—you know, there are estimates in mathematics between the size of n factorial (that's Stirling's formula) and the size of the partition function: this is considerably smaller than this, and that reflects the non- abelian nature.
+
+73
+00:18:33,976 --> 00:18:43,298
+在交换群中，你占不到任何便宜：在交换群中，共轭类的个数等于元素个数。
+In an abelian group, you get no advantage: in the abelian group, the number of conjugacy classes is the number of elements.
+
+74
+00:18:43,298 --> 00:19:10,090
+好的，我再给你们举一个这个奇妙类公式的例子。现在群中的一个元素何时——在共轭作用下，何时一个元素 s 的轨道大小等于 1？
+Okay, I'll give you another example of this amazing, amazing class formula. Now when is an element in a group—when, for conjugation action, when is the size of the orbit of s equal to 1?
+
+75
+00:19:10,090 --> 00:19:19,680
+这是个好问题。我们知道轨道的大小是 G 的阶除以中心化子的阶。
+That's a good question. Well, we know that the size of the orbit is the order of G divided by the order of the centralizer.
+
+76
+00:19:19,680 --> 00:19:39,628
+所以这等价于条件：何时 G_s 等于 G？何时中心化子是整个群？中心化子我们看到是与 s 对易的元素集合，对吧？
+So this is equivalent to the condition: when is G_s equal to G? When is the centralizer the full group? Well, the centralizer, we saw, was the set of elements which commuted with s, right?
+
+77
+00:19:39,628 --> 00:19:54,559
+所以中心化子是整个群，意味着每个元素都与 s 对易，也就是说 s 落在我们所称的群中心之中。
+So the centralizer is the full group says that every element commutes with s, which means that s is in what we call the center of the group.
+
+78
+00:20:01,240 --> 00:20:05,750
+那是由与所有元素对易的元素构成的典范正规子群。
+That was a canonical normal subgroup of the things that commuted with everything.
+
+79
+00:20:05,750 --> 00:20:19,000
+因此在这个公式中，有若干项是 1：例如单位元对应的项始终是 1，可能还有更多，而这类元素的个数就是中心的阶。
+So in this formula, there are a certain number of terms which have 1s: for example, the identity element is always a 1, there may be more, and the number of such elements is the order of the center.
+
+80
+00:20:19,000 --> 00:20:30,116
+在前面的例子中我们只有这一个元素，因为在对称群中，如果你不是单位元，你就不在中心内——没有任何其他元素。
+So here we only had one such element, because in the symmetric group, if you're not the identity element, you're not in the center—nothing.
+
+81
+00:20:30,116 --> 00:20:36,640
+我们在后面也会证明：一旦 n \ge 3，对称群除了单位元之外没有其他中心元素。
+No, we're going to prove that later too: there's no center of the symmetric group except the identity element once n is at least 3.
+
+82
+00:20:36,640 --> 00:20:54,954
+但我要为你们证明从这个小公式中得出的一个奇妙结论，那就是：如果你的群的阶是素数幂，则它具有非平凡中心。
+But I'm going to prove to you an amazing thing that you get out of this little formula here, which is that if the order of your group is a prime power, it has a non-trivial center.
+
+83
+00:20:54,954 --> 00:21:14,718
+若 G 的阶等于 p^n（p 为素数），那么G 的中心不等于单位元子群，即群中心存在非平凡元素。
+If the order of G is equal to p^n, with p a prime, then the center of G is not equal to the identity element, namely you have non-trivial elements in the center of the group.
+
+84
+00:21:14,718 --> 00:21:27,388
+好的，这在我们考虑 6 阶群时并不成立；但如果群的阶是 8、16 或 32，任何这类的群都必定具有非平凡中心。
+Okay, so that's not true when we had order 6; but if I had a group of order 8, or order 16, or order 32, any group of that sort has to have a non-trivial center.
+
+85
+00:21:27,388 --> 00:21:56,410
+为什么？因为看这个公式：该公式中的每一项都整除 G 的阶。G 的阶的因子——表明这些项都形如 p^k，其中 0 \le k \le n。
+Why? Because look at this formula: every term in this formula divides the order of G. The divisors of the order of G— prove these terms have order p^k, with 0 \le k \le n.
+
+86
+00:21:56,410 --> 00:22:20,177
+好的，特别地，它们全都能被 p 整除，除非 k = 0。当 k = 0 时，轨道的大小等于1。
+Okay, in particular, they're all divisible by p, except when k is equal to 0. When k is equal to 0, and the size of the orbit is equal to 1.
+
+87
+00:22:20,177 --> 00:22:30,670
+我是指，一种可能是中心化子是整个群。好的，因此这里除了中心元素的共轭类之外的所有项都能被 p 整除。
+I mean, one possibility is the centralizer is the full group. Okay, so all the terms here except the central conjugacy classes are divisible by p.
+
+88
+00:22:30,670 --> 00:23:02,878
+在等式左边，G 的阶能被 p 整除，因此我们在该和式中得到的 1 的个数必须能被 p 整除，这意味着中心不能只有单位元：1 不能被 p 整除，中心的阶能被 p 整除，因此不等于 1。这就证明了中心是非平凡的。
+Over here, the order of G is divisible by p, so the number of 1s that we get in this sum has to be divisible by p, which means you can't just have the identity in the center: 1 is not divisible by p, the order of the center is divisible by p, and consequently not equal to 1. And that proves that the center is non-trivial.
+
+89
+00:23:02,878 --> 00:23:17,210
+所以这是一个纯粹的整除性论证，我们看到它对 6 阶群不成立，但对任意素数幂阶群都成立。这提供了一种分析素数幂阶群的非常强有力的方法。
+So it's a purely divisibility argument, which we see fails for groups of order 6, but for any group of prime power order, it works. And this gives a very powerful way of analyzing groups of prime power order.
+
+90
+00:23:17,210 --> 00:23:54,880
+为什么？因为中心是一个正规子群。因此若 G 是素数幂阶群，Z 等于其中心，那么商群 G/Z（我们把该群记作 G_1）也具有素数幂阶，因此它也具有非平凡中心。
+Why? Because the center is a normal subgroup. So if G is of prime power order, and Z is equal to its center, then the quotient group G/Z—let's call that group G_1— also has prime power order, and therefore it has a non-trivial center.
+
+91
+00:23:54,880 --> 00:24:07,970
+然后你作下一个商群：G_2 = G_1 / Z_1。同理：继续向下做下去，直到得到平凡群。
+And then you make the next quotient: G_2 is equal to G_1 / Z_1. Same thing: continue down until you get to the trivial group.
+
+92
+00:24:07,970 --> 00:24:16,359
+你每一次都得到一个更小的群，一个严格更小的群，因为中心不等于单位元子群。
+You're getting to a smaller group each time, a strictly smaller group, because this center is not equal to the identity element.
+
+93
+00:24:16,359 --> 00:24:24,921
+所以它的素数幂阶小于 G 的阶，而这个群的素数幂阶小于 G_1 的阶。
+So this has prime power order less than the order of G, and this has prime power order less than the order of G_1.
+
+94
+00:24:24,921 --> 00:24:43,150
+同样的原理：其中心不等于单位元，因此我们有一个归纳程序：从一个素数幂阶群出发，模去其中心取商群，如此继续，最终降到平凡群，因为最终我们降到的群阶数小于 p，对吧？
+Same principle: its center is not equal to the identity, and so we have an inductive procedure: starting with a group of prime power order, taking the quotient by its center, and continuing, eventually getting down to the trivial group, because eventually we get down to a group which has order less than p, right?
+
+95
+00:24:43,150 --> 00:24:58,042
+因此我们就能从这些特定的中心自底向上重构我们的群，虽然那是复杂的过程，但交换 p-群我们是理解的（或者至少假装理解）。
+And so we can then build our group up from these particular centers, and that's a complicated process, but abelian p-groups we understand, or at least we pretend to understand.
+
+96
+00:24:58,042 --> 00:25:05,680
+所以它给出了分解素数幂阶群的一种方式。例如它表明 p-群不可能是单群：我们把它写下来。
+So it gives a way of breaking a group of prime power order. It shows, for example, it can't be simple: let's put that down.
+
+97
+00:25:05,680 --> 00:25:18,560
+所以 G不是单群，除非 G 的阶恰好等于 p。
+So G is not simple, unless the order of G is equal to p, it turns out.
+
+98
+00:25:18,560 --> 00:25:38,665
+因为如果它是交换群，你取任意子群——虽然我需要证明存在子群，但我先把它放在括号里，因为我们还没证明：有可能中心就是整个群，但如果中心不是整个群，我们就构造出了一个非平凡正规子群。
+Because if it's an abelian group, you take any subgroup—well, I have to prove that there's a subgroup, but I'll just put this in parentheses because we haven't proved it yet: it's possible the center is the entire group, but if the center is not the entire group, we've constructed a non-trivial normal subgroup.
+
+99
+00:25:38,665 --> 00:25:56,385
+是的，单群意味着没有非平凡正规子群，没有非平凡——仅有的正规子群是 G 或单位元。所以在这里你可以看到，如果你有一个素数幂阶群，取其中心，那就是一个正规子群，且不是单位元。
+Yeah, simple means no non-trivial normal subgroups, no non-trivial—the only normal subgroups are G or the identity. So here you see, if you have a group of prime power order and you take its center, that's a normal subgroup, and it's not the identity.
+
+100
+00:25:56,385 --> 00:26:07,536
+因此这里唯一成问题的就是中心是否为整个群。如果中心是整个群，该群就是交换群。
+So the only thing that would be a problem here is if the center were the entire group. If the center is the entire group, the group is abelian.
+
+101
+00:26:07,536 --> 00:26:23,476
+好的，如果它的阶不是 p，我可以在 p^2 或 p^3或 p^4 阶交换群中找到一个非平凡子群，而交换群的任意子群都是正规子群。
+Okay, if it doesn't have order p, I can produce in an abelian group of order p^2 or p^3 or p^4 a non-trivial subgroup, and then any subgroup of an abelian group is normal, yeah.
+
+102
+00:26:23,476 --> 00:26:35,049
+不，这并不是充分必要条件：我可以构造任意阶的交换群，因为我们可以做出任意阶的循环群，循环群等于它的中心。
+Oh no, it's not if and only if: I can make abelian groups of any order, because we could make cyclic groups of any order, so a cyclic group is equal to its center.
+
+103
+00:26:35,049 --> 00:26:48,853
+但奇妙的是，仅仅知道群阶的信息，就能让我对它的中心得出结论。所以如果我们要寻找单群，群阶中必须包含几个不同的素数。
+But the amazing thing is, only knowing something about the order of a group allows me to conclude something about its center. So if I'm going to make simple groups, they have to involve several primes in them.
+
+104
+00:26:48,853 --> 00:26:59,679
+事实上，20 世纪初由伯恩赛德（Burnside）证明的一个非常著名的定理指出：如果一个群是单群，它的阶甚至不能是一个素数的幂乘以另一个素数的幂。
+In fact, a very famous theorem that was proved at the beginning of the 20th century by Burnside said that if you make a simple group, it cannot even be the power of one prime times another prime.
+
+105
+00:26:59,679 --> 00:27:18,380
+伯恩赛德——这只是顺带一提，是比这难得多的定理——证明了若G 的阶为 p^n q^m，则 G 不是单群。
+So Burnside—this is just an aside, a much harder theorem than this—proved that if the order of G is p^n q^m, then G is not simple.
+
+106
+00:27:18,380 --> 00:27:43,774
+但另一方面，我们将看到A_5（这将是我们的第一个非交换单群）是一个 60 阶的单群，60 = 2^2 · 3 · 5。所以一旦有了三个素数，就可以存在非交换单群。
+But on the other hand, we're going to see that A_5, that's going to be our first non-abelian simple group, is a simple group of order 60, which is 2^2 · 3 · 5. So once you have three primes, you can do it.
+
+107
+00:27:43,774 --> 00:27:54,174
+因此群的阶能够对正规子群的存在性给出重要信息。好的。现在我想在另一种情形下应用计数公式。
+So the order of a group is going to say something about the existence of normal subgroups. Okay. Now I want to do the counting formula in another case.
+
+108
+00:27:54,174 --> 00:28:06,618
+在刚才这个共轭类的论证中，我们已知群的阶，并推导出了关于共轭类大小的结论——比如在这里我们推导出了必定存在大小为 1 的共轭类。
+You know, here in this conjugacy class argument, we knew the order of the group, and we deduced something about the size of conjugacy classes—like, for example, here we deduced that there have to be conjugacy classes of size 1.
+
+109
+00:28:06,618 --> 00:28:19,017
+现在有时你可以反过来利用类方程：已知关于轨道的信息，反推关于群的阶的信息。好的，那么我将向你们展示这是如何运作的。
+Now you can sometimes turn this class equation around, know something about the orbits, and deduce something about the order of the group. Okay, so I'm going to show you how that works.
+
+110
+00:28:19,017 --> 00:28:36,199
+一个好的公式应该能够正反两个方向来读，并且通常数学中最伟大的工作之一，就是将一个原本单向解读的公式倒转过来，问道：“假设我们已知关于轨道的全部信息，能否找回这个群？”
+A good formula should be able to be read both ways, and frequently some of the greatest mathematics that has ever been done is taking a formula that's being read one way, turning it upside down, and saying: "Well, let's suppose we knew all about the orbits; can we get the group back?"
+
+111
+00:28:36,199 --> 00:28:44,468
+所以我将在一个著名问题中为你们展示这一点：保持 R^3 中正多面体的群。
+So I'm going to do this for you in a famous problem of the groups that preserve the regular solids in R^3.
+
+112
+00:28:44,468 --> 00:29:08,779
+我们想考察 SO(3) 中的有限子群 G，即三维空间中保持 R^3 中正多面体的有限群。
+So we want to take a look at finite subgroups G inside of SO(3), a finite group in three dimensions preserving the regular solids in R^3.
+
+113
+00:29:11,430 --> 00:29:21,604
+我们之后还会更详细地讨论这个内容，但今天先开个头。我不找了，没有更好的粉笔了；我们用这根吧。
+We're going to come back to this a little bit more, but we'll start with it today. I give up, no more interesting pieces of chalk; let's try this one.
+
+114
+00:29:21,604 --> 00:29:32,980
+好的，现在回忆一下：SO(3) 中的元素起什么作用？它们作用在三维空间上；它们保持距原点半径为 1 的球面上的点不变。
+All right, now remember: what do elements in SO(3) do? Well, they act on 3-space; they preserve the points in the sphere of radius 1 from the origin.
+
+115
+00:29:32,980 --> 00:29:52,810
+我们把这个球面记作 S^2：它是三维空间中的球面。我称之为 S^2 的原因在于球面本身是一个二维对象。
+So let's call this sphere S^2: it's the sphere inside of 3-space. The reason I call it S^2 is that the surface of the sphere forms something of dimension two.
+
+116
+00:29:52,810 --> 00:30:04,410
+现在我们证明过 G 中的每个元素 g 都是绕某条轴的旋转——这就是欧拉定理。
+Now every element we showed in G, every g in G, is rotation around an axis—that was Euler's theorem.
+
+117
+00:30:04,410 --> 00:30:25,666
+即三维空间存在某个基底使得 g 的矩阵形如 [1, 0; 0, Rot(theta)]。对于特征向量对应的轴，
+Namely, there was some basis of 3- space where the matrix of g looked like this: 1, rotation theta, 0, 0... And the eigenvector: you had some line through
+
+118
+00:30:25,666 --> 00:30:38,147
+有一条穿过原点的直线被该元素固定，它穿过球面的北极和南极；然后你绕该轴在垂直于该轴的平面内旋转 theta 角。
+the origin that was fixed by the element, that hit the sphere in the North Pole and the South Pole; and then you rotated by an angle theta in the plane perpendicular to that axis.
+
+119
+00:30:38,147 --> 00:30:55,140
+当然，群中不同元素的旋转轴可以不同，因此得到一个非交换群，因为如果你取一条轴的旋转与绕另一条轴的旋转，它们未必相互对易；而绕固定轴的旋转彼此对易并构成形如 SO(2) 的群。
+Of course, the axis could differ for the elements in the group, so you got a non-commutative group, because if you took one axis and you took the rotation around another axis, they wouldn't necessarily commute with each other, whereas the rotations around a fixed axis commute and form a group like SO(2).
+
+120
+00:30:55,140 --> 00:31:11,193
+好的，现在我们想在球面上固定某个正多面体。我要讨论的第一种情形是正四面体，它由球面上的四个点确定。
+Okay, now we want to fix a certain regular solid in the sphere. So the first case I'm going to do is the tetrahedron, which is based on four points in the sphere.
+
+121
+00:31:11,193 --> 00:31:23,339
+让我看看能不能画出来，稍后我给你们看一个更好的模型：我们取北极，底部有一个正三角形，正四面体内接于球面——在四个点处与球面接触——从而得到四个不同的正三角形。
+Let's see if I can draw it, then I'll give you a better picture: we'll take the North Pole, and then there's a triangle down at the bottom, an equilateral triangle.
+
+122
+00:31:23,339 --> 00:31:36,739
+这里有一个更好的正四面体模型，是我用磁力片拼出来的。
+The tetrahedron touches the sphere—we're going to have it touch the sphere at four points—and you get four different triangles. So here's a better picture of the tetrahedron, which I put together with magnets.
+
+123
+00:31:36,739 --> 00:31:47,391
+你可以想象外接球面，球心正好在正中间，而这些——这些顶点距原点的距离相等，因此落在球面上，棱连接这些点。
+So you imagine the sphere going around, so the center of the sphere is right in the middle, and these— these points are the same distance from the origin, so they are on the sphere, and the edges connect those points.
+
+124
+00:31:47,391 --> 00:32:14,533
+所以正四面体有 4 个顶点，有 1、2、3、4、5、6 条棱，以及 4 个面——4 个面，且每个面都是正三角形。好的，这就是正四面体。
+So the tetrahedron has four vertices, it has 1, 2, 3, 4, 5, 6 edges, and 4 faces—4 faces, and every face is an equilateral triangle. Okay, here's the tetrahedron.
+
+125
+00:32:14,533 --> 00:32:27,958
+现在我想问：SO(3) 中保持正四面体的子群是什么，也就是空间中使该正四面体映到自身的全部旋转？
+Now I want to ask: what is the subgroup of SO(3) that preserves the tetrahedron, namely all rotations of space that take this tetrahedron into itself?
+
+126
+00:32:27,958 --> 00:32:49,272
+好的，我断言它是四个字母上的对称群 S_4 的一个子群。这显而易见，因为如果它将四面体映到自身，它就必须将顶点映到顶点——一共有 4 个顶点，对吧？
+Okay, now I claim that that's a subgroup of the symmetric group on four letters, S_4. That's more or less obvious, because if it takes it into itself, it has to take the vertices to themselves—there are four vertices, right?
+
+127
+00:32:49,272 --> 00:33:03,848
+所以我断言保持正四面体的 G 是 S_4 的子群，即顶点的置换群。
+So I claim that G preserving the tetrahedron is a subgroup of S_4, namely the permutations of the vertices.
+
+128
+00:33:03,848 --> 00:33:22,872
+顶点的每种置换未必都能通过三维空间的旋转实现，但如果三维空间的一个旋转将正四面体映到自身，它就会将顶点映到顶点，而这完全决定了该旋转：一旦知道这四个点映到哪里，我就知道了该旋转。
+It may not be possible to realize every permutation of the vertices from a rotation in 3-space, but if a rotation in 3-space takes the tetrahedron into itself, it takes the vertices to the vertices, and that completely determines the rotation: once I know where these four points go, I know the rotation.
+
+129
+00:33:22,872 --> 00:33:32,241
+好的，现在我将向大家展示它是一个非平凡子群，并将利用我刚擦掉的计数公式来确定它的阶。
+Okay, now I'm going to show you it's a non-trivial subgroup, and I'm going to determine its order from that counting formula that I just erased.
+
+130
+00:33:32,241 --> 00:33:44,730
+好的，这里说明它为什么是非平凡子群：取穿过这个顶点（即北极）并垂直于对面的三角形的轴，它穿过该三角形的中心，并从南极穿出。
+Okay, so here's why it's a non-trivial subgroup: take an axis that goes through this point (this is your North Pole) and is perpendicular to this triangle, so it passes through the middle of the triangle, and it goes out the South Pole.
+
+131
+00:33:44,730 --> 00:34:10,069
+换句话说，取穿过球面连接该顶点与对应三角形中心的轴——不管三角形里怎么叫，三角形中心、重心等等——由于是正三角形，所有的中心都重合。连接这两点连成一条直线，便确定了穿过原点的一条轴；考虑绕该轴的旋转。
+In other words, take the axis through the sphere that connects this point and the midpoint of that—whatever that's called in a triangle, center of the triangle, barycenter, whatever it is—it's an equilateral triangle, they're all the same, whatever word you use for it, it's the same point. So connect those two points via a line; that determines an axis through the origin, and take the rotations around that axis.
+
+132
+00:34:10,069 --> 00:34:23,341
+我断言你可以做 3 次旋转：旋转 120 度、它的平方（240度）或它的立方（单位元），这些旋转都保持正四面体。
+And I claim you can do three rotations: you can rotate by 120 degrees, or you could do its square, or its cube, and those preserve the tetrahedron.
+
+133
+00:34:23,341 --> 00:34:35,360
+因此绕这条轴有 3 个保持正四面体的旋转。
+So there are three rotations around this axis preserving the tetrahedron.
+
+134
+00:34:35,536 --> 00:34:47,062
+好的，同理，对于任意其他顶点，绕穿过该顶点并垂直于对面的轴也有 3 个旋转。这个顶点并无任何特殊之处：如果我从这个顶点开始，
+Okay, likewise, for any other vertex there are three rotations around the axis that goes through the vertex and is perpendicular So there was nothing special about this vertex: if I started with this vertex,
+
+135
+00:34:47,062 --> 00:35:11,160
+取穿过该顶点与对侧中心相连的轴，绕该轴旋转正四面体，我依然有 3 个保持正四面体的旋转。特别地，无论 S_4 的这个子群是什么，它在顶点集合 S 上传递作用。
+and I took the axis through the vertex and the midpoint of that side, and I rotated the tetrahedron around that axis, I'd still have three rotations that preserve the tetrahedron. Okay, in particular, whatever this subgroup of S_4 is, it acts transitively on the set S of vertices.
+
+136
+00:35:11,160 --> 00:35:27,782
+因为仅取绕穿过此处的轴的 3 个旋转，就能传递地置换另外 3 个顶点；如果我想证明这三个顶点与该顶点处于同一个轨道，我取绕另一条轴的旋转，它能传递地置换那些顶点。
+Because just taking the three rotations around the axis going through here permutes these three vertices transitively; and if I want to show that these three vertices are in the same orbit as this vertex, I take a rotation around this other axis, and that permutes those vertices transitively.
+
+137
+00:35:27,782 --> 00:35:35,402
+所以我可以借助该群中的某个元素从任意顶点到达任意另一个顶点。好的，所以这是一个传递作用。
+So I can get from any vertex to any other vertex with some element in this group. Okay, so that's a transitive action.
+
+138
+00:35:35,402 --> 00:35:47,510
+因此 4 必定等于G 的阶除以固定某个顶点的稳定子群的阶。
+So therefore 4 has to be equal to the order of G divided by the order of G stabilizing a vertex.
+
+139
+00:35:47,510 --> 00:36:02,299
+因为这是 S 的大小，它是一个单一轨道，所以必须等于群的阶除以固定顶点的稳定子群的阶。但固定顶点的稳定子群的阶显然是 3，对吧？
+That's because this is the size of S, it's a single orbit, so that has to be the order of the group divided by the order of the group stabilizing a vertex. But the order of the group stabilizing a vertex is clearly 3, right?
+
+140
+00:36:02,299 --> 00:36:10,480
+因为它必须置换另外这三个顶点；如果我再固定其中一个，旋转就是平凡的了。
+Because it has to permute these three vertices around; if I fixed one of them, then the rotation is trivial.
+
+141
+00:36:10,480 --> 00:36:17,340
+所以仅有的可能就是旋转 120 度或旋转 240 度，因此这是一个 3 阶子群。
+So the only possibilities are a rotation through 120 degrees or a rotation through 240 degrees, so that's a group of order 3.
+
+142
+00:36:17,340 --> 00:36:30,495
+于是我们得到 4 等于 G 的阶除以 3，由计数公式可知 G 的阶是 12，且它是 S_4（阶数为 24）的一个子群。
+So we get 4 is the order of G divided by 3, and that tells us from the counting formula that the order of G is 12, and it's a subgroup of this group S_4, which has order 24.
+
+143
+00:36:30,495 --> 00:36:48,590
+事实证明——虽然我们还没证明，但可以证明 S_4 只有唯一一个阶数为12 的子群，那就是——你们知道一个，所以不妨告诉我，如果我说只有一个，它是谁？正是 A_4！
+Now it turns out—we haven't proved it yet, but it turns out there's only one subgroup of S_4 which has order 12, and that is—you know one, so why not tell me, if I tell you there's only one, what is it? A_4, exactly!
+
+144
+00:36:55,000 --> 00:37:01,320
+S_4 唯一一个 12 阶子群。
+The only subgroup of S_4 of order 12.
+
+145
+00:37:01,320 --> 00:37:31,436
+我们还没证明这点，不过如果你思考它如何置换顶点以及我们在这个群中得到了哪些可能的元素，这相当合情合理：我断言我们在该群中已经看到了单位元（这显然在其中），并且能看到8 个固定单个顶点的 3 阶元素，
+We haven't proved that yet, although it's pretty reasonable if you think about how it permutes the vertices and you think of what possible things we're getting in this group: I claim we already see in this group the identity element (we know the identity element), and we can see eight elements of order 3 fixing a single vertex,
+
+146
+00:37:31,436 --> 00:37:57,516
+因为每个顶点对应 3 个元素，但其中一个是单位元，所以每个顶点给出2 个非平凡旋转，4 个顶点一共得到 8 个旋转。因此群中只剩下 3 个元素了，对吧？只剩下 3 个元素，因为它是 12 元群。
+because each vertex gives you—there are three elements here, but one of them is the identity element, so you get these two non-trivial rotations, and you get 8 rotations that way. So there are only 3 elements left in the group, right? Three elements left because it's a 12-element group.
+
+147
+00:37:57,516 --> 00:38:01,577
+而这几个元素阶数都是 2，事实上它们固定一条棱！
+And those elements all have order 2, and in fact they fix an edge!
+
+148
+00:38:01,577 --> 00:38:16,829
+这很有趣：你看，有 6 条棱，所以一条棱的稳定子群——如果该群在棱上传递作用（确实如此）——一条棱的稳定子群阶数为 2。
+That's interesting: you see, there are 6 edges, so the stabilizer of an edge—if this group permutes the edges transitively, and it does—the stabilizer of an edge has order 2.
+
+149
+00:38:16,829 --> 00:38:24,902
+那些实际上就是不同的……你们知道，共轭类。我稍后再讲共轭类。
+And those are in fact the different... you know, the conjugacy class. Well, I'll do conjugacy classes later.
+
+150
+00:38:24,902 --> 00:38:39,560
+如果你了解四个字母上的交错群 A_4，你不能包含形如(1 2) 这样的置换，不能包含那样的置换：那些 2 阶对换不在交错群中，因为它们是奇置换。
+And if you know the alternating group on four letters, you can't have a permutation like (1 2) in it, you can't have a permutation like that: those elements of order 2 are not in the alternating group, because that's an odd permutation.
+
+151
+00:38:39,560 --> 00:38:48,014
+但你可以有形如两个对换之积的 2 阶元素：例如 (1 2)(3 4)。
+But you could have an element of order 2 that looks like this: the product of two transpositions.
+
+152
+00:38:48,014 --> 00:38:57,945
+这正是这些2 阶元素对顶点的作用：即它对换这两个顶点，并对换另外两个顶点。
+And that's in fact what these elements of order 2 do to the vertices: namely, it would switch these two vertices and it would switch these two vertices.
+
+153
+00:38:57,945 --> 00:39:12,549
+我一时忘了在那时它固定哪条棱，对吧，这条棱，如果交换，就把四面体翻转过来。它把两条对棱都固定了！
+And I forget what edge it stabilizes at that point—right, this edge here, if it switches, it turns the tetrahedron upside down. It fixes both!
+
+154
+00:39:12,549 --> 00:39:26,060
+是的，你说得对，它两条都固定：如果它置换这两个顶点，并置换另外两个顶点，它就固定这条棱，并且恰好也固定对面的棱。那它是如何把四面体翻转过来的呢？
+Yes, you're right, it fixes both: if it permutes these two vertices and it permutes these two vertices, it fixes this edge, and it also happens to have the property of fixing that edge. And how does it turn the tetrahedron upside down?
+
+155
+00:39:26,060 --> 00:39:31,860
+没关系，这就是为什么我们需要模型。好的，留给你们思考。
+Never mind, that's why we have models. Okay, I'll let you think about that.
+
+156
+00:39:31,860 --> 00:39:55,619
+下一个正多面体——是的，A_4 是：它是S_4 中由偶置换构成的子群。它是 S_4 中满足将其视作置换矩阵时行列式为 1 而非 -1 的元素 g。
+The next regular solid—yes, A_4 is: it's the subgroup of S_4 consisting of the even permutations. It's the elements g in S_4 such that when you view them as permutation matrices, the determinant of g is equal to 1, not -1.
+
+157
+00:39:55,619 --> 00:40:09,802
+所以这是一个指数为 2 的子群。这个指数为 2 的子群正是旋转群。当我们转向下一个正多面体时：你看，四面体的特点是面都是三角形，并且每个顶点周围有3 个三角形，对吧？
+So that's a subgroup of index 2. This subgroup of index 2 turns out to be Now when you go to the next regular solid: so you see, notice that this has the property that the faces are triangles, and we have three triangles around a point, right?
+
+158
+00:40:09,802 --> 00:40:16,863
+如果你在每个点周围放 4 个三角形并将它闭合起来，就得到了所谓的正八面体（octahedron），因为它是八个面。
+If you put four triangles around a point and you close it up, you get what's called the octahedron, because it has eight faces now.
+
+159
+00:40:16,863 --> 00:40:31,306
+如果我们尝试确定它的旋转群：如果我们取穿过相对顶点的轴，我们现在就有了绕该轴的4 阶旋转。
+And if we try to determine its rotation group: well, if we take an axis through the opposite vertices, we now have a rotation of order 4 around here.
+
+160
+00:40:31,306 --> 00:40:43,840
+哎呀，这就是磁力片的毛病，真该死！我们再试一次。我就知道这行不通！好吧，也许能行，我们看看会发生什么。
+Whoa, that's the problem with magnets, damn thing! Let's try again. I knew this would never work! Well, maybe it'll work, let's see what happens.
+
+161
+00:40:43,840 --> 00:40:57,442
+这里，一个……太棒了！要成了，要成了！我缺了什么？缺了一片，不过没关系，你们可以想象出来。
+Here, one... marvelous! It's going to work, it's going to work! What am I missing? I'm missing a piece, but that's okay, you can imagine that.
+
+162
+00:40:57,442 --> 00:41:07,149
+看，没关系。这就是物理学与数学的区别！
+Look, never mind. This is the difference between physics and mathematics!
+
+163
+00:41:07,149 --> 00:41:23,909
+以前我最讨厌我的物理实验课——我不知道你们做不做这些实验——我们会有实验去测万有引力常数之类的东西，我们会有那些无摩擦的物体滑来滑去、上下起落，我们要掐秒表或者测量闪光，诸如此类很酷的事情。
+What I used to hate about my labs in physics—I don't know if you guys do these labs—we'd have a lab where we'd test the universal constant of gravitation, something like that, and we'd have these frictionless things sliding around and dropping up and down, and we'd be timing them or measuring flashes of light or all kinds of cool things.
+
+164
+00:41:23,909 --> 00:41:35,346
+然后你回家，对吧，写实验报告，计算万有引力常数，结果差了7 个数量级！
+And then you'd go home, right, and you'd write up your lab report, and you calculate the universal constant of gravitation, and it would be off by seven orders of magnitude!
+
+165
+00:41:35,346 --> 00:41:46,680
+于是，因为你预先知道答案，你就从万有引力常数出发倒推你应该观察到的实验数据，然后这样就“证明”了！但这又太完美了，对吧？
+So then, since you knew the answer, you'd start with the universal constant of gravitation and work backwards to what you should have observed, and then it would prove that! But that was too good, right?
+
+166
+00:41:46,680 --> 00:41:55,836
+因为助教一眼就能看穿，所以你得稍微改动一点点，让它落在万有引力常数的一个数量级误差之内。
+Because then the lab assistant would know, so then you'd have to fudge it a little bit so you'd get within one order of the universal constant of gravitation.
+
+167
+00:41:55,836 --> 00:42:09,602
+好的，所以这里我们有：如果我们固定这个顶点，我们就有一个 4 阶旋转元素，并且对任意一对对顶都可以这样做旋转。这表明该群在顶点上传递作用。
+Okay, so here we have: if we fix this vertex, we have an element of order 4, and we can do that for any pair of opposite vertices—a rotation. So that shows that it permutes the vertices transitively.
+
+168
+00:42:09,602 --> 00:42:22,317
+一共有6 个顶点，任意顶点的稳定子群阶数为 4，所以该群的阶为 24（6 × 4）：6 个顶点，稳定子群为 4 阶。
+There are 6 vertices, the stabilizer of any vertex has order 4, so the group has order 24 (6 × 4): 6 vertices, stabilizer of order 4.
+
+169
+00:42:22,317 --> 00:42:28,620
+事实证明正八面体的对称群就是四个字母上的对称群 S_4。
+That turns out to be the symmetric group on four letters, the symmetry group of the octahedron.
+
+170
+00:42:28,620 --> 00:42:40,910
+这稍微有点难看出它置换的是哪四个对象，因为正如你们注意到的，有 6 个顶点、8 个面、12 条棱，对吧？
+And it's a little hard to see which four things are being permuted, because as you notice, there are 6 vertices, and then there are 8 faces, and there are 12 edges, right?
+
+171
+00:42:40,910 --> 00:43:04,212
+所以要寻找被置换的 4 个对象看起来有点奇怪，但我把它作为一道习题留给你们。（学生提问）什么？对。稳定子群——好的，我们指出这一点：在群作用中有时会出现这种情况。
+So it looks a little weird to try to find four things that are being permuted, but I'll leave that to you as an exercise. Pardon? Yeah. Stabilizers—now, okay, let's point that out: that can sometimes happen in a group action.
+
+172
+00:43:04,212 --> 00:43:16,805
+例如，这没有任何区别；我们只知道另一个顶点的稳定子群是一个共轭子群，但共轭有时保持该子群不变。
+For example, it doesn't make any difference; all we know is that the stabilizer of another vertex is a conjugate subgroup, but conjugation sometimes preserves the subgroup.
+
+173
+00:43:16,805 --> 00:43:32,890
+例如，如果我有一个群作用，G 作用在像 G/H 这样的集合上——假设这是我们的集合 S，假设 H 是正规子群（这是最极端的情形）——
+So for example, if I had a group action, so G acts, as we saw, on anything like G/H—suppose this is our set S, suppose H is a normal subgroup, this is the most extreme case—
+
+174
+00:43:32,890 --> 00:43:50,356
+那么对所有 s 都有 G_s = H，即完全相同的子群固定 S 中的每一个点。它是一个共轭子群，但对于正规子群而言，共轭并不改变它。
+then G_s is equal to H for all s, namely the same subgroup stabilizes every point in S. It's a conjugate subgroup, but for a normal subgroup, you don't move.
+
+175
+00:43:50,356 --> 00:44:05,564
+因此发生的情况是——奇妙之处在于——群中将这个顶点映到那个顶点的元素，将这个4 阶子群共轭变换到自身，这就是为什么这个顶点的稳定子群与那个顶点的稳定子群相同。
+So what happens is—and that's what's amazing—the element in the group that takes this vertex to this vertex conjugates this subgroup of order 4 into itself, and that's why the stabilizer of this vertex is the same as the stabilizer of that vertex.
+
+176
+00:44:05,564 --> 00:44:17,737
+但从计数公式的角度来看，一旦你验证了可以从任意顶点到达任意另一个顶点——第一个旋转群表明可以从这四个顶点中的任意一个到达任意另一个，然后如果我绕此处的轴旋转，
+But from the point of view of the counting formula, once you verify that you can get from any vertex to any other—and the first rotation group shows that you get from any of these four vertices to any other, and then if I rotate from here around here,
+
+177
+00:44:17,737 --> 00:44:32,578
+就可以从这个顶点到达那个顶点，再下到这一个，从而可以从 6 个顶点中的任意一个到达任意另一个——那么群的阶就是顶点数乘以顶点的稳定子群阶数（4）。所以这个群的阶是 24。
+I can get from this vertex to this one, and then down to this one, so I can get from any of the 6 to any other—then the order of the group is the number of vertices times the stabilizer of the vertex, which is 4. So this group has order 24.
+
+178
+00:44:32,578 --> 00:44:53,774
+好的，最后一种情形：正八面体，或者它的对偶多面体立方体，G 的阶是 24，事实上 G 同构于 S_4，虽然我还没有告诉大家它置换的是哪四个对象（正方体的 4 条空间对角线），
+Okay, final case: so the octahedron, or its dual, the cube, the order of G is 24, and in fact G is isomorphic to S_4, although I haven't told you what four things it's permuting,
+
+179
+00:44:53,774 --> 00:45:02,266
+因为这里我们还没像前一个情形那样给出一组自然的四个对象。最后的情形：你可以在一个顶点周围放 5 个正三角形。
+because we haven't gotten a natural set of four things here like we did here. Final case: you can put five triangles around a vertex.
+
+180
+00:45:02,266 --> 00:45:10,330
+如果你在一个顶点周围放 6 个正三角形，在平面上就铺平了；但在三维空间中，你仍然可以在一个顶点周围放 5 个三角形。
+If you put six equilateral triangles around a vertex, you flatten out in the plane; but in space, you can still put five triangles around a vertex.
+
+181
+00:45:10,330 --> 00:45:22,995
+我不知道我敢不敢尝试——你们觉得我可以试试吗？为什么不呢，我来试试看……这些磁力片吸力不太好，算了！
+I don't know if I dare to try—you think I can try? Why not, I'm going to try... This magnet isn't going to work too well, forget it!
+
+182
+00:45:22,995 --> 00:45:32,613
+如果在一个顶点周围放 5 个正三角形，就得到所谓的正二十面体（icosahedron）；它由 20 个面闭合而成，古希腊著名的几何形体。
+If you put five triangles around a vertex, you get something called an icosahedron; it closes up with 20 faces, a famous Greek figure.
+
+183
+00:45:32,613 --> 00:46:08,940
+四面体每个顶点周围有 3 个三角形；正八面体有 4 个三角形；如果你放 5 个三角形，就得到了正二十面体，它有——它有 20 个顶点和 12 个面，所有面都是五边形……对不起，是三角形，抱歉，我弄反了，是的！
+So this has 3 triangles around a vertex; the octahedron has 4 triangles; and then if you put five triangles, you get the icosahedron, which has—which has 20 vertices and 12 faces, all of which are pentagons... I'm sorry, which are triangles, I'm sorry, I'm going the wrong way, yeah!
+
+184
+00:46:08,940 --> 00:46:19,240
+它是 20 个面和 12 个顶点，谢谢！我刚才记成正十二面体了。谢谢，你说得对。
+It's 20 faces and 12 vertices, thank you! I was thinking of the dodecahedron. Thank you, you're right.
+
+185
+00:46:19,240 --> 00:46:23,359
+所以它有 20 个面、30 条棱。
+So it has 20 faces, it has 30 edges.
+
+186
+00:46:23,359 --> 00:46:29,236
+我得在书里找一张它的插图，下次我保证带来，因为我想多讲讲这个群。
+I have to find a picture of this in a book, I'll bring it in next time, I promise, because I want to talk about this group more.
+
+187
+00:46:29,236 --> 00:46:53,091
+同样地，SO(3) 中保持正二十面体的有限子群在顶点上传递作用；由于每个顶点连出 5 个面，绕每个顶点都有一个 5 阶旋转。这意味着该群的阶是 12 × 5，即 60。
+Again, the finite subgroup of SO(3) that preserves the regular icosahedron permutes the vertices transitively; and since there are five triangles coming out of each vertex, you have a rotation of order 5 around each vertex. And that means that the order of the group is 12 × 5, which is 60.
+
+188
+00:46:53,091 --> 00:47:00,019
+事实证明，该群本身就是五个字母上的交错群 A_5，虽然我暂时还无法告诉大家被置换的是哪五个对象。
+And it turns out that the group itself is the alternating group on five letters, A_5, although again I can't tell you which five things are being per- muted.
+
+189
+00:47:00,019 --> 00:47:08,438
+正如我所说，这是一个非常著名的群，因为它是第一个单群，是第一个没有非平凡正规子群的群。我们将证明这一点。
+That's really, as I say, a very famous group, because it's the first simple group, it's the first group without normal subgroups. We're going to prove that.
+
+190
+00:47:08,438 --> 00:47:15,648
+现在我可以告诉你们我一直答应要讲的关于宇宙形状的最新假说了。
+And now I can tell you what I've been promising to tell you about the latest conjecture on the shape of the universe.
+
+191
+00:47:15,648 --> 00:47:25,084
+好的，数学家提出了一个假说，大约在一个月内就会被天文学家推翻，但我现在还有机会讲一讲！
+Okay, so there's a conjecture put out by mathematicians, which is going to be destroyed by the astronomers in about a month, but I still have a chance to talk about it!
+
+192
+00:47:25,084 --> 00:47:46,916
+这个假说是：宇宙是一个闭合的三维流形空间，事实上宇宙是陪集空间 SO(3) 模去正二十面体的对称群，即一个陪集空间。
+And it's that the universe is a closed shape which is a three-dimensional object, and in fact the universe is the coset space SO(3) modulo the symmetry group of an icosahedron, namely it's a coset space.
+
+193
+00:47:46,916 --> 00:47:52,520
+现在大家必须理解 SO(3) 是一个三维空间。为什么 SO(3) 是一个三维空间呢？
+Now you have to understand that SO(3) is a three-dimensional manifold. Why is SO(3) a three-dimensional manifold?
+
+194
+00:47:52,520 --> 00:48:10,321
+因为 SO(3) 传递作用在二维球面 S^2 上，且单点的稳定子群同构于 SO(2)。
+Well, because SO(3) acts transitively on the 2-sphere, with the stabilizer of a point isomorphic to SO(2).
+
+195
+00:48:10,321 --> 00:48:18,132
+而 SO(2) 显然是一维群：它是绕一个角度的旋转，你有旋转角度的选择自由，那是一维群。
+Now SO(2) is clearly a one-dimensional group: it's rotations by an angle, and you have a choice of the angle, that's a one-dimensional group.
+
+196
+00:48:18,132 --> 00:48:39,726
+因此正如我们有计数公式（集合的阶等于群的阶除以稳定子群的阶），流形的维数等于群的维数减去稳定子群的维数：所以 2 + 1 得到一个三维群。因此这实际上是一个三维空间，是一个闭三维流形。
+So just as we have the counting formula that the order of a set is the order of a group divided by the order of the stabilizer, the dimension of a space is the dimension of the group minus the dimension of the stabilizer: so 2 + 1 gives a three-dimensional group. So this in fact is a three-dimensional space, it's a closed three-dimensional manifold.
+
+197
+00:48:39,726 --> 00:48:51,682
+如果你用一个有限群取陪集空间（商流形），你也会得到一个具有非常有趣的代数拓扑性质的闭三维空间：这被称为庞加莱三维球面（同调三维球）。
+And if you take the coset space by a finite group, you also get a closed three-dimensional manifold with very interesting what's called algebraic topology: this is called the Poincaré 3-sphere.
+
+198
+00:48:51,682 --> 00:49:08,692
+它之所以被称为庞加莱三维球面，在数学史上非常重要，因为庞加莱非常关心是否能判定一个在代数拓扑性质上与三维球面 S^3 相同的空间是否就是 S^3。
+And the reason it was called the Poincaré 3-sphere, it was—it's very important in the history of mathematics because Poincaré was very interested in determining if something looks algebraically topologically like the 3-sphere.
+
+199
+00:49:08,692 --> 00:49:12,025
+S^3 存在于四维空间中。
+So here's the 3-sphere, it's in 4-space, of course.
+
+200
+00:49:12,025 --> 00:49:21,571
+学过代数拓扑的同学知道，庞加莱在 20 世纪初发明了一种空间的拓扑不变量，称为同调群。
+Those of you who have studied algebraic topology know that Poincaré at the beginning of this century invented some invariants of shapes called homology.
+
+201
+00:49:21,571 --> 00:49:34,450
+三维球面的性质是：其零阶同调群H_0 是 Z，一阶同调群 H_1 是 0，二阶同调群 H_2 是 0，三阶同调群 H_3 是 Z。
+And the 3-sphere has the property that its 0-th homology is Z, its first homology is 0, its second homology is 0, and its third homology group is Z.
+
+202
+00:49:34,450 --> 00:49:52,158
+庞加莱证明了这个奇妙的空间具有与三维球面完全相同的同调群——完全相同的同调群。但它不具备相同的基本群（fundamental group），基本群是庞加莱定义的另一个不变量。
+And Poincaré proved that this weird space had exactly the same homology as the 3-sphere—exactly the same homology as the 3-sphere. What it doesn't have is what's called the same fundamental group, which is another invariant that Poincaré defined.
+
+203
+00:49:52,158 --> 00:50:07,743
+三维球面的基本群是平凡群，而这个奇妙的庞加莱同调三维球的基本群是一个比 A_5 稍大的群（二元二十面体群），它的阶是 120，商群为 A_5。
+And the fundamental group here is trivial for the 3-sphere, and the fundamental group for this weird Poincaré 3-sphere is a group a little larger than A_5, which has order 120 and has quotient group A_5.
+
+204
+00:50:07,743 --> 00:50:20,377
+这被称为\widetilde{A}_5，正是这一点使庞加莱能够将该空间与三维球面区分开来，因为尽管它的同调群相同，它却具有不同的拓扑不变量。
+So that's called \widetilde{A}_5, and that allowed Poincaré to distinguish this space from the 3-sphere, because it had a different topological invariant even though its homology was the same.
+
+205
+00:50:20,377 --> 00:50:30,458
+所以当你学代数拓扑时，这是一个著名的范例。现在为什么数学家要把这样一个著名的例子拉扯进宇宙的形状中呢？
+So when you study algebraic topology, this is a famous example. Now why are mathematicians trying to drag some famous example into the shape of the universe?
+
+206
+00:50:30,458 --> 00:50:38,553
+如果上帝真的用到了所有这些漂亮的范例，那当然很美妙！但天文学家现在正在检验宇宙微波背景辐射数据来验证。
+Well, it would be nice—it would be nice if God used all these nice examples! But the astronomers are now testing out the background radiation data to see.
+
+207
+00:50:38,553 --> 00:50:46,926
+这种假设预言了各种奇特现象，比如如果你仰望那一侧的天空，所看到的景象与你低头看另一侧天空看到的完全相同，诸如此类。
+This prediction predicts all kinds of weird things, like if you look up at the sky over there, you see the same thing as if you look down at the sky down there, things like that.
+
+208
+00:50:46,926 --> 00:50:49,868
+而我们至今并没有观测到这些现象。但至少这就是科学！
+And we haven't seen those things. But at least that's science!
+
+209
+00:50:49,868 --> 00:51:00,865
+科学就是，本世纪卡尔·波普尔（Karl Popper）对科学命题的一个伟大定义：它是可证伪的（falsifiable）——你永远无法彻底证实它，但你可以证伪它。
+Science is, you know, one of the great definitions of a scientific proposition by Karl Popper this century was something that's falsifiable: you can never prove it, but you can prove it false.
+
+210
+00:51:00,865 --> 00:51:12,727
+这就是科学陈述与文学陈述之间的区别。好的，所以这是一个假定宇宙作为一个三维流形具有这种形状的陈述。
+That's the difference between a scientific statement and a statement about literature. Okay, so this is a statement that the universe has this shape as a three-dimensional object.
+
+211
+00:51:12,727 --> 00:51:16,280
+因此现在我们可以检验并证伪它，然后再去寻找别的模型。
+So now we can test it and prove it false, and then try to find something else.
+
+212
+00:51:16,280 --> 00:51:24,012
+好的，下次我们将更多地探讨正二十面体。
+Okay, so we'll do more about the icosahedron next time.

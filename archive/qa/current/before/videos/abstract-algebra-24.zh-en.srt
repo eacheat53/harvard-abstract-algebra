@@ -1,0 +1,1024 @@
+1
+00:00:12,559 --> 00:00:24,526
+希望大家喜欢周五理查德·泰勒和周一彼得的讲座，这两讲结束了我们关于群论的讨论——本学期的群论部分就此结束。
+I hope you all enjoyed hearing Richard Taylor on Friday and Peter on Monday, so those two lectures conclude our treatment of groups for this semester.
+
+2
+00:00:24,526 --> 00:00:33,723
+现在我们要进入下一个主题；在学完群与向量空间之后，这可以说是我们的第三个主题：环。
+And now we're going to go on to the second topic: while we've done groups, we've also done vector spaces, so this could be our third topic: rings.
+
+3
+00:00:33,723 --> 00:00:56,101
+关于环，我们其实已经见过不少例子，比如整数环 Z、Z/nZ 等……例子有：Z、Z/nZ、复数域、任意域。
+So rings are—we've seen examples of them, like the integers Z, Z/nZ, so... Examples: Z, Z mod nZ, the complex numbers, any field.
+
+4
+00:00:56,101 --> 00:01:20,690
+在数学中，这些结构是集合，在加法运算下构成交换群，具有原点，即记作0 的加法单位元。
+So there are structures in mathematics which are sets that are abelian groups under an addition operation with an origin, with an identity element denoted zero.
+
+5
+00:01:20,690 --> 00:01:55,813
+它们首先是交换群，然后它们具有记作乘号的乘法运算，乘法满足结合律，并具有等于 1 的单位元，但不一定……环的另一个例子是域上的 n 阶方阵环，域 F。
+And they are first abelian groups, then they have a multiplication which is denoted times, which is associative, and it has an identity element equal to 1, but it need not be... Another example of a ring is n by n matrices over a field F.
+
+6
+00:01:55,813 --> 00:02:10,543
+加法下的交换群我们已经理解了；在乘法中，应该有一条乘积法则 a * b，它应当满足结合律：当三个元素相乘时，
+So the abelian group under addition that we understand; the multiplication, there should be a product law a * b, it should be associative: when you multiply three things,
+
+7
+00:02:10,543 --> 00:02:29,934
+结果不应依赖于相乘的先后顺序；任何元素乘以 1 都得到自身，但你不一定需要有乘法逆元，所以不一定有逆元，也不一定可交换。
+it shouldn't depend on the order in which you multiply them; if you multiply anything by 1, you get back itself, but you needn't have multiplicative inverses, so not necessarily inverses, or commutative.
+
+8
+00:02:33,480 --> 00:02:49,213
+在域中除 0 外的每个元素都有乘法逆元；而在整数环中乘法逆元只有 ±1，2 或 3 没有乘法逆元，因为那需要 1/2 或 1/3 这种不在集合中的数。
+You get inverses in a field for everything other than zero; here you only have inverses for plus or minus 1 under multiplication, there's no inverse for 2 or for 3, because you'd need things like a half or a third that are not in the set.
+
+9
+00:02:49,213 --> 00:02:59,285
+在矩阵环中可逆矩阵有逆元，但这是一个非交换环，乘法法则 a * b 不一定等于 b * a。
+And here you get inverses for invertible matrices, but here's a non-commutative ring where the multiplication law a * b is not the same necessarily as b * a.
+
+10
+00:02:59,285 --> 00:03:19,809
+所以环是非常普遍的数学对象，在加法下具有交换群结构，就像向量空间一样；但不同于额外假定具有数乘运算，这里定义的是环中两个元素之间的内部乘法：a * b 依然是环中的一个元素。通常环用字母 R 表示。
+So rings are very general objects which have the abelian group structure under addition, like a vector space does; but instead of assuming additionally that you have a scalar multiplication, here you have a multiplication of two objects in the ring: you know, a * b is another element in our ring. So usually rings are denoted R.
+
+11
+00:03:19,809 --> 00:03:27,393
+我们已经见过一些例子，现在我们想仿照群论的方法建立起一般理论。
+So we've seen examples of them, and now we want to try to develop some general theory of them analogous to the way we did for groups.
+
+12
+00:03:27,393 --> 00:04:00,673
+你可以设想环的一个子环会是什么：一个包含关键元素 0 和 1 的子集，在加法下封闭并构成加法子群，且在乘法下封闭，仅此而已。
+So you could imagine what a subring of a ring would be: a subset containing the key elements 0 and 1, closed under addition and should form a subgroup, and it should be closed under multiplication, that's it.
+
+13
+00:04:00,673 --> 00:04:17,309
+但这被证明并不是一个非常有用的概念；子环并不是切中要害的概念，那就像群论中的子群一样，而我们真正想知道的是群论中“正规子群”对应的是什么概念，同态的“核”对应什么，那将比单纯的子环更加精妙。
+That turns out not to be a very useful notion; a subring turns out to be the wrong notion, that's the notion like a subgroup for groups, and what we're going to want to know is what the notion is of a normal subgroup, what's a kernel, so that's going to be a little bit better than a subring.
+
+14
+00:04:17,309 --> 00:04:27,234
+来看例子：我们可以观察复数域 C 的子环。
+So examples: we could look at subrings of C, of the complex numbers.
+
+15
+00:04:27,234 --> 00:04:31,086
+这正是环论最初的起源，人们开始研究复数域的各种子环。
+That's how rings first came about, people started looking at subrings of the complex numbers.
+
+16
+00:04:31,086 --> 00:04:46,999
+比如实数集，它在加法和乘法下封闭；或者有理数集，在加法和乘法下封闭；或者整数集。我们熟悉的这些数集都是非常标准的子环。
+So an example would be the reals, that's closed under addition and multiplication; or the rational numbers, that's closed under addition and multiplication; or the integers. So all of our friends are perfectly good subrings.
+
+17
+00:04:46,999 --> 00:04:55,719
+高斯发现了另一个非常有趣的子环。复数都是 a + bi 的形式，其中 a 和 b 是实数，对吧？
+And Gauss discovered another very interesting subring. So this is all the things of the form a + bi where a and b are real numbers, right?
+
+18
+00:04:55,719 --> 00:05:02,492
+这就是大家理解复平面的方式。于是高斯说，为什么不考虑环 Z[i] 呢？
+That's how you think of the complex plane. So Gauss said, why not consider the following ring Z[i] (Z plus Z i)?
+
+19
+00:05:02,492 --> 00:05:14,807
+即所有形如 a +bi 且 a、b 均为整数的数；它们被称为“高斯整数”。
+So all the things of the form a + bi where a and b are integers; those are called the Gaussian integers.
+
+20
+00:05:14,807 --> 00:05:20,533
+你看，如果把两个高斯整数相加，只需把各自的 a 和b 相加，整数相加依然是整数。
+And you see, if you add two of these things, you just add the a's and b's, so that when you add integers you stay an integer.
+
+21
+00:05:20,533 --> 00:05:35,876
+当在复数中计算 (a + bi)(c + di) 的乘法时，得到 (ac - bd) + (ad + bc)i。
+And when you multiply (a + bi) times (c + di) in the complex numbers, you get (ac - bd) + (ad + bc) * i.
+
+22
+00:05:35,876 --> 00:05:43,563
+如果 a、b、c、d 都是整数，那么实部是整数，虚部也同样是整数，所以它在乘法下是封闭的。
+And if a, b, c, and d are all integers, so is this an integer, and so is this an integer, so it's stable under multiplication.
+
+23
+00:05:43,563 --> 00:05:55,900
+这是一个非常有趣的环，我们后面会深入研究；它具有很多与整数相似的优良结构，这正是高斯证明出来的，并在某种程度上开启了环论这一学科。
+So it's a very interesting ring which we're going to investigate later; it has a lot of structure similar to the integers, that's what Gauss was able to show, and that somehow initiated the subject of ring theory.
+
+24
+00:05:55,900 --> 00:06:12,832
+我应该提一下，加法和乘法之间必须假定一条关联公理，即分配律：若计算 a * (b + c)，它等于 ab + ac，即乘积的和。
+I should say that there's one relation between addition and multiplication which one has to assume, namely the distributive law: namely if I multiply a * (b + c), that's ab + ac, it's the sum of the products.
+
+25
+00:06:12,832 --> 00:06:17,994
+它表明无论先加后乘，还是先乘后加，得到的结果完全相同。
+It says that you get the same answer whether you add first and then multiply, or multiply first and then add.
+
+26
+00:06:17,994 --> 00:06:29,763
+此外在另一个方向也必须成立，因为我们并未假设环一定是可交换的；(b + c)a 应该等于 ba + ca。
+And then you also have to do this in the opposite direction, because you're not assuming the ring is necessarily commutative; this should be the same as ba + ca.
+
+27
+00:06:29,763 --> 00:06:35,650
+所以必须假设两条不同的分配律。
+So you have to assume two different distributive laws.
+
+28
+00:06:35,650 --> 00:06:45,920
+在这节课之后，我们绝大部分要讲的内容，都将集中在交换环的主题上。
+Now almost everything we're going to do after this lecture, almost everything we're going to do is going to be on the subject of commutative rings.
+
+29
+00:06:45,920 --> 00:07:00,039
+事实证明交换环比非交换环具有丰富得多的结构，所以刚才提到的这些环都是交换环我们都会接受，因为乘法运算先后次序无所谓，但矩阵环就会被排除在外。
+It turns out there's a lot more structure to commutative rings than there is to non-commutative rings, so that we would accept all of these things which are commutative rings, because it doesn't make any difference in what order you do the operation, but it would eliminate this one.
+
+30
+00:07:00,039 --> 00:07:11,679
+不过本讲中我仍想保留在非交换环的语言体系中，我们会再看几个例子。那么有没有不是复数域子环的环的例子呢？
+However, for this lecture I want to stay in the language of non-commutative rings, we'll see some other examples. How about examples of a ring that isn't a subring of the complex numbers?
+
+31
+00:07:11,679 --> 00:07:31,616
+我们可以这样做：取复数域上的多项式，令 R 为复数域 C 上关于一元变量 x 的所有多项式集合。
+Well, we could do the following: we could take polynomials over the complex numbers, so we could let R be all polynomials in one variable x over C.
+
+32
+00:07:31,616 --> 00:07:53,119
+它们由所有形如 a_n x^n + ... + a_1 x + a_0 的式子构成，其中系数 a_i 是复数，且我们不对多项式的次数设限。我们知道如何做多项式加法：相加对应系数；我们也知道如何做多项式乘法，乘法会使次数增加。
+So those consist of all things of the form a_n x^n + ... + a_1 x + a_0, such that a_i are complex numbers, and we don't bound the degree of the polynomial. Now we know how to add polynomials: you add the coefficients; we know how to multiply polynomials, that increases the degree.
+
+33
+00:07:53,119 --> 00:08:05,882
+很容易验证它们满足环的所有公理，这个环记作C[x]，即 x 的多项式环。
+And one checks pretty easily that those satisfy the axioms of a ring, and this ring would be denoted C[x], polynomials in x.
+
+34
+00:08:05,882 --> 00:08:25,628
+你可以这么做，或者更一般地，若 R 是一个交换环，那么 R[x] 也是交换环。
+You could do that, or more generally, if R is a commutative ring, so is R[x].
+
+35
+00:08:25,628 --> 00:08:45,534
+即 R 上的多项式，此时你只需取形如上述的形式表达式，其中系数 a_i 属于 R，是R 中的元素；按照多项式通常的乘法运算法则相乘，你会发现这只涉及系数的乘法与加法。
+So are polynomials over R, where now you just take formal expressions of this form where the a_i now are in R, are elements in R, and you multiply them by the usual laws of multiplication of polynomials, and you'll see that that involves multiplication and addition of coefficients.
+
+36
+00:08:45,534 --> 00:08:57,594
+例如，若我们考虑多项式环，设 R 等于 Z/2Z，我们想要将多项式 x + 1 与多项式 x + 1 相乘，我们会得到 x^2 + 2x + 1，
+And so for example, if we had polynomials over, let's take R is equal to Z/2Z, and we wanted to multiply the polynomial x + 1 by say the polynomial x + 1,
+
+37
+00:08:57,594 --> 00:09:16,785
+就像在整数环 Z 中一样，但这在模 2 环中等于多项式 x^2 + 1，因为 2 在该环中等于 0。所以做乘法就和普通乘法一样，最后合并同类项系数。
+we'd get x^2 + 2x + 1 as we would in Z, but that would be the same as the polynomial x^2 + 1, because 2 is 0 in that ring. So you do multiplication just as you do normal multiplication, you gather coefficients.
+
+38
+00:09:16,785 --> 00:09:19,956
+这是从已有环出发生成更大环的通用方法。
+So this is a general way of starting with a ring and generating bigger rings.
+
+39
+00:09:19,956 --> 00:09:32,980
+特别地，我们可以在这个环上考虑多项式：以 x 的多项式为系数的关于 y 的多项式，即二元多项式。
+So in particular we could do polynomials over this ring: polynomials in y whose coefficients were polynomials in x, that would be polynomials in two variables.
+
+40
+00:09:32,980 --> 00:09:50,556
+C[x, y] 有时就记成这样，因为无论先加哪个变量结果都一样，这就是关于两个变量 x 和 y 的多项式环。
+So C[x, y] is sometimes denoted like this, because it doesn't really make any difference what you did first, and this is polynomials in two variables x and y.
+
+41
+00:09:50,556 --> 00:09:55,636
+接着我们可以做三元和四元多项式，每次添加一个新变量，对吧？
+And then we could do three variables and four variables, each time adding a new variable, right?
+
+42
+00:09:55,636 --> 00:10:06,132
+如果你考虑二元多项式 P(x, y)，你可以把它看作关于 y 的多项式，其系数是通过合并 y 的同次项得到的关于 x 的多项式。
+So if you think of a polynomial in two variables x and y, you can think of that as a polynomial in y whose coefficients are polynomials in x by gathering up the terms with the same degree in y.
+
+43
+00:10:06,132 --> 00:10:29,399
+这些环——像整数环、高斯整数环以及它们的近亲，最终孕育了被称为“数论”的学科；而这类一元与多元多项式环，则孕育了如今被称为“代数几何”的学科。
+So these rings, rings like the integers and the Gaussian integers and their relatives, were the rings that eventually formed the subject called number theory; and the rings of this nature, polynomial rings in one and several variables, formed the subject that's now called algebraic geometry.
+
+44
+00:10:31,240 --> 00:10:43,004
+19 世纪末建立环论的核心主旨，就是意识到这两个领域中使用的技巧，可以被高度抽象出来并推广到任意环上。
+And somehow the point of ring theory, which was developed at the end of the 19th century, was to realize what techniques were used in both fields that could be just abstracted to be said about any ring.
+
+45
+00:10:43,004 --> 00:11:05,360
+人们注意到在数论中求解方程以及研究费马大定理等问题，与研究多元多项式时遇到的问题如出一辙，并且许多内容完全可以放在同一种统一的语言中，你无需在意它是整数环 Z 还是七元多项式环，统统记作 R 即可。
+There sometimes people noticed that what they had been considering in number theory in the solving of equations and Fermat's Last Theorem, etc., were the same issues that people were dealing with when they were studying polynomials in several variables, and that many of it could just be put in the same language where you didn't really worry whether it was Z or polynomials in seven variables, and you just called it R.
+
+46
+00:11:05,360 --> 00:11:16,314
+这就是环论的起源。好了，现在我想先讨论一个很有意思的问题：环最小可以有多小？
+So that's the origin of ring theory. All right, now I want to deal with one thing first, which is a hilarious question: you know, how small can a ring be?
+
+47
+00:11:16,314 --> 00:11:24,415
+环最小能有多小？首先，它必须是具有加法法则与单位元的交换群，因此它里面必定含有 0。
+How small can a ring be? Well, it's got to be an abelian group with an addition law and an identity element, so it's got to definitely have zero in it.
+
+48
+00:11:24,415 --> 00:11:45,160
+接着，它应该具有乘法法则且单位元是 1，但公理并没说1 不能等于 0；1 是有可能等于 0 的。因此最小的环是含有一个元素的零环。
+All right, then it's supposed to have a multiplication law and the identity element is 1, but we didn't say that 1 couldn't be equal to 0; 1 might be able to be equal to 0. So the smallest ring is R, the ring with one element.
+
+49
+00:11:45,160 --> 00:11:58,519
+域至少要有两个元素，因为非零元素必须可逆，所以在域中必须有一个真正的、不同于 0 的可逆单位元 1；但在环中你可以允许 1 等于0，
+Fields have to have two elements because non-zero elements have to be invertible, so in a field you need a real honest-to-God invertible element 1, but in a ring you can have 1 equal to 0,
+
+50
+00:11:58,519 --> 00:12:10,868
+它完全满足所有公理：0 + 0 = 0，0 * 0 = 0，全都自洽，只含 0 的环没有任何逻辑矛盾，意识到存在这样的环是很重要的。
+and it satisfies all the—you know, 0 + 0 = 0, 0 * 0 = 0, it satisfies everything, there's nothing wrong with the ring with zero in it, and it's important to realize that you can have such a ring.
+
+51
+00:12:10,868 --> 00:12:31,160
+不过，我要为大家证明一个虽然很平凡、但值得推导一次的小引理：对于任何非零环，1 必然不等于 0，即在所有其他环中 1 与 0 都是不同的元素。
+However, I'm going to prove a little lemma for you which is very stupid, but we'll do it once: that if you have any ring which is not that ring, that 1 is not equal to 0 in that ring, so that in all other rings 1 is distinct from 0.
+
+52
+00:12:33,120 --> 00:12:41,610
+若 R 不是零环，则在 R 中 1 != 0，它们是集合中的不同元素。
+If R is not the zero ring, then 1 != 0 in R, they're different elements of the set.
+
+53
+00:12:41,610 --> 00:13:01,920
+证明非常直接：任取环中的一个元素a，假设 1 = 0，我们将证明 a 必然等于 0。
+So this is kind of stupid: take an element in R, and suppose that 1 were equal to 0, we're going to show that a is equal to 0.
+
+54
+00:13:01,920 --> 00:13:17,236
+首先 a = 1 * a，因为 1 是乘法单位元，任何元素乘 1 都得到自身；另一方面，若 1 等于 0，则这等于 0 *a。
+Then a is equal to 1 * a, because 1 is a multiplicative identity, so if you multiply 1 times anything you get back the thing; on the other hand, if 1 is equal to 0, this is 0 * a.
+
+55
+00:13:17,236 --> 00:13:39,479
+好，现在我指出 0 * a 等于 (0 + 0) * a，因为 0 加上自身等于 0，它是群中的加法单位元；根据分配律，这等于 0 * a + 0 * a。
+Okay, now I claim that 0 * a is equal to (0 + 0) * a, because 0 is the sum of zero and itself, it's an additive identity in the group, and by the distributive law this is equal to 0 * a + 0 * a.
+
+56
+00:13:39,479 --> 00:13:56,022
+然后如果两边减去 0 * a——减去加法群中的元素 0 * a，从左边减去后得到零元 0，右边剩下 0 * a。
+And then if you subtract 0 * a from both sides, subtract whatever the element is 0 * a in the additive group, when you subtract it from here you get the element 0, and you're just left with 0 * a.
+
+57
+00:13:56,022 --> 00:14:17,149
+所以不仅 1 * a = a，在环中 0 * a 恒等于 0，由此得出 a 在 R 中等于 0。于是我们证明了：若 1 = 0，环中的任意元素都等于零元。
+So not only is 1 * a equal to a, 0 * a is always equal to 0 in a ring, and consequently this thing is equal to 0 in R. So we've just shown that if 1 is equal to 0, any element in the ring is equal to the zero element.
+
+58
+00:14:17,149 --> 00:14:24,647
+加法零元是唯一的，因此该环退化为单元素环。因此只要环中含有除 0 以外的元素，1 绝不可能等于 0。
+There's a unique zero element, so therefore the ring reduces to one element. So if the ring has any elements other than zero, 1 can't be equal to 0.
+
+59
+00:14:24,647 --> 00:15:00,460
+环可以有两个元素：这是最小的环，下一个最小的环是 Z/2Z，它含有两个元素；但那其实是一个域，因为 1 是可逆的；事实上我们有任意有限个元素的环：Z/nZ，这是含有 n 个元素的环。
+And you can have a ring with two elements: this is the smallest ring, the next smallest ring is the ring Z/2Z, which has two elements in it; but that's a field because 1 is invertible, and in fact we have a ring with any finite number of elements: Z/nZ, that's a ring with n elements.
+
+60
+00:15:00,460 --> 00:15:14,139
+顺便说一句，同阶数的环可能不止一个：比如 4 个元素的环就有两个不同的环，所以结构可以更丰富；但如果你想要一个 n 元有限环，这就是现成的；前面也是无限环的例子。
+There are several rings, by the way: with four elements, there are two rings with four elements, so you can get more rings than this, but if you wanted a finite ring with n elements, here you are; here's an example of an infinite ring.
+
+61
+00:15:14,139 --> 00:15:33,265
+现在来看环在数学中真正自然的产生方式：源于交换群理论。即使 Artin 没写，我也要告诉大家这个秘诀，我们的很多例子都可以通过这种方式理解，
+Now the way rings really come up in math is from the theory of abelian groups, so I'll tell you that even though Artin doesn't tell you, a secret, and we'll see a lot of our examples that way,
+
+62
+00:15:33,265 --> 00:15:46,745
+事实上几乎所有例子都是，这是最好的方法……Artin 用整整一节证明整数构成一个环，写得相当繁琐，那就是第 10.2 节，而且对理解本质帮助并不大。
+in fact everything, and that's the best way to... Artin goes through a whole section where he shows that the integers are a ring, and it's quite complicated, that's Section 10.2, and it's not very helpful either.
+
+63
+00:15:46,745 --> 00:15:54,394
+如果你真想弄明白为什么整数能构成环并满足所有公理，最好的视角就是下面这种方式。
+And if you really want to see why the integers form a ring and satisfy all the axioms, it's best to see it in this way.
+
+64
+00:15:54,394 --> 00:16:53,446
+所以构造环的最佳方式，即所谓的自同态环，是从一个交换群 A 出发，具有通常的加法和单位元 0；令 R 为 A 的自同态环 End(A)，即所有群同态 f从 A 到A 的集合，即交换群到自身的所有群同态映射。
+So the best way to get rings, which are called endomorphism rings, is to start with an abelian group A, with the usual addition and identity element 0, and to let R, which is called the endomorphism ring of A, be the set of all homomorphisms f from A to A, all maps from the abelian group to itself which are group homomorphisms.
+
+65
+00:16:53,446 --> 00:17:06,712
+目前它只是一个集合；要使它成为环，我必须说明加法法则是什么、加法单位元是什么、乘法法则是什么、乘法单位元是什么等。
+Now that's a set, so to turn it into a ring I have to tell you what the addition law is, what the identity under addition law is, what the multiplication law is, what the identity under multiplication is, etc.
+
+66
+00:17:06,712 --> 00:17:14,975
+好，我现在来定义：对于加法法则，我必须说明同态 f + g 是怎样的从 A 到 A 的映射。
+Okay, so I'll tell you that: so the plus law, I have to tell you what f + g is as a homomorphism from A to A.
+
+67
+00:17:14,975 --> 00:17:37,839
+我们定义结构如下：(f + g) 是把 a 映到 f(a) + g(a) 的同态。这里的加法是 A 中的加法，而整体定义了R 中的加法。
+So we're going to define the structure: (f + g) is the homomorphism that takes a to f(a) + g(a). And this is addition in A, and this is addition in R.
+
+68
+00:17:37,839 --> 00:17:53,146
+也就是将 f 作用于 a，并在交换群 A 中加上 g(a)。这显然是可交换的，因为群的加法本身可交换。
+So you apply f to a, and you add it in the abelian group to g(a). Now that's clearly commutative, because the addition law in the group is commutative.
+
+69
+00:17:53,146 --> 00:18:03,194
+加法单位元 0 是把任意元素 a 映到交换群 A 的零元 0 的映射；这是交换群的一个同态，把每个元素都映到零元。
+The identity element 0 takes any element a to 0 of the abelian group A; that's a homomorphism of an abelian group, takes every element to the zero element.
+
+70
+00:18:03,194 --> 00:18:22,378
+它具有这样的性质：若将它加到任意同态上，什么都不会改变，因为是将 f(a) 与 0 相加，得到原同态，所以 0 + f = f。
+That has the property that if you add it to an arbitrary homomorphism, right, you don't change anything, because you're adding f(a) to 0, so you get the same homomorphism, so 0 + f is equal to f.
+
+71
+00:18:22,378 --> 00:18:42,886
+负元运算：-f 作用在a 上等于 -(f(a))，这记法有点微妙，写成 -(f(a))，其中的负号是交换群 A 中的负元运算。
+The minus operation: -f of a is -(f(a)), that's kind of a funny way of writing it, maybe I'll write it like this: -(f(a)), where this is the minus in the abelian group A.
+
+72
+00:18:42,886 --> 00:18:59,920
+这样定义的映射具有同态性质（需要验证），且若将此同态与同态 f 相加，便得到零同态 0，因为对任意 a，f(a) + (-f(a)) = 0。
+So that has the property that if you define this, it's a homomorphism—you have to check that—and that if you add this homomorphism to the homomorphism f using this, you get to the homomorphism 0, because if you add f(a) to -f(a), you get 0 for any a.
+
+73
+00:18:59,920 --> 00:19:13,320
+这就是自同态环中的加法法则，看似抽象但完全依赖于 A 原本的加法。好了，乘法法则该如何定义呢？
+So there's the addition law in this ring, kind of nutty, but there it is, it's just using nothing but the addition law on A. Okay, now how about the multiplication law?
+
+74
+00:19:13,320 --> 00:19:24,937
+(f * g)(a) 是什么？这里有意思的地方来了：我们必须构造出满足结合律的运算，这向来很难办。
+What's (f * g)(a)? Well, here's where you get something interesting: we have to come up with something associative, that's always hard to do.
+
+75
+00:19:24,937 --> 00:19:41,366
+记住结合律向来难以直接证明，而我们唯一熟知天然满足结合律的就是映射的复合！就像在对称群中一样，集合到自身映射的复合满足结合律。所以我们在这里如法炮制：何不直接定义为 f复合 g：f(g(a)) 呢？
+Remember associativity is tricky to prove, so the only thing we know of that's associative is composition of mappings, that's how we construct it, like the symmetric group, composition of maps from a set to a set. So we'll do the same thing here: why don't we just call this f of g of a: f(g(a))?
+
+76
+00:19:41,366 --> 00:19:52,903
+现在明白为什么我必须要求是从交换群到自身了吧：要复合映射，必须保证 g(a) 仍然是A 中的元素，这样才能继续对它应用 f。这是一个新同态。
+And now you see why I had to go from an abelian group to itself: to compose maps, you have to make sure that g(a) is an element in A, so I can apply f to it. This is a new homomorphism.
+
+77
+00:19:52,903 --> 00:20:09,233
+注意它不一定等于 g * f，因为两个方向的映射复合没有任何理由必然相等。接下来需要验证乘法单位元：1 是什么？1(a) 是什么？
+Note that this need not be equal to possibly g * f, because there's no reason the composition in the two directions is the same. Okay, and then you have to check: the identity, what's 1? 1(a)?
+
+78
+00:20:09,233 --> 00:20:20,526
+什么样的同态能在乘法下保持映射不变，它应该把元素 a 映到哪里？
+Well, what homomorphism should we use to preserve the map when we did multiplication, where should it take an element a?
+
+79
+00:20:20,526 --> 00:20:35,000
+它正是A 上的恒等映射，将交换群映到自身并把每个元素映到自身的恒等同态总是存在的。
+It's the identity map on A, the identity homomorphism that always exists if you map an abelian group to itself, taking every element to itself.
+
+80
+00:20:35,000 --> 00:20:50,571
+好了，请注意在这里元素不一定有乘法逆元，而且如前所述它也不必是可交换的；映射复合没有任何理由可交换，稍后我会给出例子。
+Okay, so now notice here that you don't necessarily have an inverse, nor—we already noticed—it doesn't have to be commutative; there's no reason that composition of maps be commutative, I'll give you examples of that.
+
+81
+00:20:50,571 --> 00:20:54,562
+但这里的元素 f 何时才具有逆元呢？
+But also when will an element f here have an inverse?
+
+82
+00:20:54,562 --> 00:21:05,185
+换句话说，何时才能找到一个元素 f来逆转这个过程，把 g(a) 变回 a 呢？
+In other words, when will we be able to find an element f that that inverts this procedure and takes g(a) back to a?
+
+83
+00:21:05,185 --> 00:21:28,440
+没错，正是如此：f 具有逆元当且仅当它是群同构。举例来说，只要我们的交换群包含多于一个元素，零同态就不会有逆元。
+Yeah, exactly, so f has an inverse if and only if it is an isomorphism of groups. And for example, this thing won't have an inverse once our abelian group has more than one element in it.
+
+84
+00:21:28,440 --> 00:21:40,191
+顺便说一句，这个零环正是平凡零群的自同态环，虽然平凡，但确实如此。
+So this ring, by the way, this zero ring is the endomorphism ring of the zero group, kind of stupid, but there it is.
+
+85
+00:21:40,191 --> 00:21:44,905
+从零群到自身只有一个群同态：把 0 映到 0。
+I mean, there's only one homomorphism from the zero group to itself: takes 0 to 0.
+
+86
+00:21:44,905 --> 00:22:04,209
+好了，现在让我们逐一考察具体例子，看看是如何得到自同态环的。首先，我断言——这是最精妙的构造，也是向三年级小学生解释“为什么负负得正”的唯一方法（不好意思，你肯定不想证明成负数！）。
+Okay, now let's go through the examples and see how we got our endomorphism rings. First of all, I claim—and this is the coolest construction possible, and the only way to explain to your third-grader why multiplication of two negative numbers is positive (excuse me, you don't want to prove it's negative!).
+
+87
+00:22:04,209 --> 00:22:27,159
+刚才我擦掉了那些例子，但我要向大家展示如何得到它们：例如，整数环 Z 就是整数加法群 Z 的自同态环，我断言整数环 Z 本质上就是由此而来的。
+Okay, I erased all the examples, but I'm going to show you how you get all these: for example, Z is the endomorphism ring of Z under addition, that's Z, I claim that that's how you get the ring Z.
+
+88
+00:22:29,640 --> 00:22:42,193
+只要我们理解了整数的加法和减法，就能在完全相同的集合上构建包含乘法的全新数系。
+And so just once we understand addition and subtraction of integers, then we can construct a new system of numbers, really on the same set, that includes multiplication.
+
+89
+00:22:42,193 --> 00:23:06,085
+怎么做呢？建立自同态与整数的对应：假设有一个群同态 f: Z -> Z，如何将它与一个整数对应起来？如何将该交换群的自同态环同构对应到整数上？
+How do I do this? The identification of an endomorphism: suppose I have some map f from Z to Z, a group homomorphism; how do I identify that with an integer? How would I make the identification of the ring of endomorphisms of this abelian group with an integer?
+
+90
+00:23:06,085 --> 00:23:12,589
+什么样的条件能决定群同态 f: Z -> Z 呢？f(0) = 0，这是我们知道的。
+Well, what determines a group homomorphism from Z to Z? f(0) is 0, right, that we know.
+
+91
+00:23:12,589 --> 00:23:26,386
+f(1) 是一个整数，f(1)等于某个整数 n 属于 Z，这就决定了一切！
+Yeah, f(1) is an integer, f of 1 is equal to some integer n in Z determines everything!
+
+92
+00:23:26,386 --> 00:23:40,060
+因为若想知道 f(2) 是多少，它等于 f(1) + f(1) = 2n；同理，任意整数 k 的像 f(k) 就等于 k * n。
+Because if I want to know what f(2) is, that's f(1) + f(1), so it's 2n, and likewise f of an arbitrary integer k is k * n.
+
+93
+00:23:40,060 --> 00:23:43,210
+所以只要知道了 f(1) 的值，整个同态就完全确定了。
+So once I know what f(1) is, I've got my homomorphism.
+
+94
+00:23:43,210 --> 00:23:58,719
+此外，f(1) 可以取任意整数，因为这必然给出交换群的同态。于是我们取同态 f，并将整数 f(1) 与之对应。
+Moreover, f(1) can be anything I want, because this map is a homomorphism of abelian groups. So I take f, and I associate to it the integer f(1).
+
+95
+00:23:58,719 --> 00:24:15,858
+我断言这赋予了该集合一个环结构，在这个结构中两负数相乘必定为正数。让我们看看为什么这是理解整数乘法的正确方式。假设我们复合 f 与 g：
+And I claim that that gives this set a ring structure where the product of two negative numbers is a positive number. Let's see why this is the right way to think of the integers under multiplication.
+
+96
+00:24:15,858 --> 00:24:36,647
+设 f(k) = k * n，即 f 我们已对应到整数 n；设 g(k) = k * m，即 g 对应到整数 m。那么复合映射 (f * g) 作用于k 是什么？
+Suppose I compose f with g: suppose f(k) is k * n, so f we've associated to the number n, and suppose g(k) is k * m, so g is associated to the integer m. What is (f * g) of k?
+
+97
+00:24:36,647 --> 00:24:53,270
+g(k) 是 km，接着对其应用 f；f 把任何整数乘以 n，所以这等于 k *(mn)，对吧？
+Well, g(k) is km, and I have to apply f to that; f takes any integer and it multiplies it by n, so this is k * mn, right?
+
+98
+00:24:53,270 --> 00:25:09,085
+因此在通过这种对应赋予的环结构中，f * g 恰好变成了整数 m 与n 的普通乘法！
+So that f * g in the ring structure that I put on this using this identification becomes multiplication of m and n.
+
+99
+00:25:09,085 --> 00:25:21,675
+如果你思考一下对应于负整数的群同态意味着什么：它意味着把 1 映到了一个负整数，对吧？
+And if you think of what it means for a group homomorphism here to be associated to a negative integer, it means it takes 1 to a negative integer, right?
+
+100
+00:25:21,675 --> 00:25:29,359
+所以它把所有正整数映为负整数，并把所有负整数映为正整数。
+So it takes all positive integers to all negative integers, and takes all negative integers to all positive integers.
+
+101
+00:25:29,359 --> 00:25:43,594
+因此若 f 对应负数，它会翻转数轴的正负两半，对吧？类似地，若 g 也对应负数，它会把数轴再次翻转回来。
+So if f is associated to a negative number, it switches these two halves of the real line, right? Likewise, if g is associated to a negative number, it switches them again.
+
+102
+00:25:43,594 --> 00:25:49,192
+所以复合这两个映射就保持了正负性；这就是为什么两负数相乘必然是正数！
+So if you compose those two things, you preserve positive and negative; that's why the product of two negative numbers is a positive number!
+
+103
+00:25:49,192 --> 00:25:53,910
+这是唯一的机理；它绝非人为约定，而是环的代数结构决定的。
+That's the only way to do it; it's not a convention, it's because that's the structure of the ring.
+
+104
+00:25:53,910 --> 00:25:59,322
+而得到该环结构的最佳方式，就是看作该交换群的自同态环。
+And the way to get the structure of the ring is to think of it as the endomorphism ring of this abelian group.
+
+105
+00:25:59,322 --> 00:26:07,557
+同样，我断言环 Z/nZ 作为环，正是加法交换群 Z/nZ 的自同态环。
+Likewise, I claim Z/nZ as a ring is the endomorphism ring of the abelian group Z/nZ under plus.
+
+106
+00:26:07,557 --> 00:26:14,536
+这非常特殊；通常对于一般交换群的自同态，你无法将其在集合层面上与原群等同。
+This is very special, very special; usually when you get endomorphisms of an abelian group, you can't identify it as a set with the group.
+
+107
+00:26:14,536 --> 00:26:43,624
+但这里的道理完全相同：我们将 f 与 f(1) 等同起来；一旦我知道了 f(1)，由于该群是由 1 生成的循环群，我就掌握了一切。这是循环群特有的现象，能在循环群自身上给出环结构。
+But again it's the same reason: you identify an f with f(1), and once I know f(1), since this group is cyclic generated by 1, I know everything. So this is a phenomenon for cyclic groups, to give a ring structure on cyclic groups, not general groups.
+
+108
+00:26:43,624 --> 00:26:50,268
+我们知道循环群若有限必为 Z/nZ，若无限必为 Z，因此循环群的讨论就全部完成了。
+And we know that the only cyclic groups, if they're finite are Z/nZ, and if they're infinite are Z, so we're done with that.
+
+109
+00:26:50,268 --> 00:27:08,128
+以后每当我们取其他交换群时，我们都无法将其自同态与群中元素直接等同，因为我们需要了解比 f(1) 更多的信息。好，现在让我们取一个比循环群稍复杂的交换群，看看能得到什么。
+Anytime we take another abelian group, we're not going to be able to identify its endomorphisms with the elements in the group, because we're going to have to know more than f(1). Okay, so let's take another abelian group that's a little bit more complicated than a cyclic group, and see what we get.
+
+110
+00:27:08,128 --> 00:27:35,974
+下一个例子：假设我们取 A 为 (Z/pZ)的平方 (Z/pZ)^2：即元素对 (a_1, a_2)，其中 a_i 属于 Z/pZ，这是 p^2 阶交换群。那么A 的自同态环是什么？
+Well, our next case: suppose we took A to be (Z/pZ) squared: so pairs of elements (a_1, a_2) where the a_i are in Z/pZ, that's an abelian group of order p^2. What's the endomorphism ring of A?
+
+111
+00:27:35,974 --> 00:27:57,708
+这是我们见过的环：需要一个映射（可以看作列向量）把(Z/pZ)^2 中的一对元素映到另一对元素，并保持加法运算；这是交换群的一个自同态。
+This is the ring we've seen: you have to have a map—you could think of this as a column vector if it helps—that takes a pair of elements in (Z/pZ)^2 and produces another pair of elements in (Z/pZ)^2 in a way that preserves the addition in (Z/pZ)^2; it's an endomorphism of the abelian group.
+
+112
+00:27:57,708 --> 00:28:04,817
+那是什么？你说得完全正确：这正是 Z/pZ 上的 2 阶方阵环！
+What's that? You've got it, exactly: this is 2 by 2 matrices over Z/pZ!
+
+113
+00:28:04,817 --> 00:28:33,967
+它的作用方式是：如果取这个 2 阶矩阵环中的元素，这里不能用字母 A 记矩阵因为 A 表示群了；若取矩阵B，令 B(a_1, a_2) 为自同态 f(a)，把 B 作用在列向量上。这就是该交换群的全部自同态。
+And you apply it: if you have an element in this 2 by 2 matrices ring, which I can't use the letter A for because I've... so if I have a matrix B, then I say B(a_1, a_2) is f of my element a, I apply B to this column vector. And those are the only endomorphisms of the abelian group I get.
+
+114
+00:28:33,967 --> 00:28:46,146
+它们碰巧也保持数乘，因为在这个向量空间中数乘本质上就是乘以 Z/pZ 中的元素。
+They happen to preserve scalar multiplication, because scalar multiplication in this weird vector space is just given by multiplication by elements of Z/pZ.
+
+115
+00:28:46,146 --> 00:28:52,375
+于是这里出现了一个非交换环。
+So here is a non-commutative ring.
+
+116
+00:28:52,375 --> 00:29:03,392
+自同态环极少是可交换的，两个方向的映射复合通常绝不相同；在前面的循环群中之所以可交换，纯粹因为结构太简单。
+It's very rare for an endomorphism ring to be commutative, there's really no reason that composition is the same in both directions; it is for these cyclic groups because it's so simple.
+
+117
+00:29:03,392 --> 00:29:18,000
+更一般地，若 A 是 p^n 阶初等交换群，那么 A 的自同态环正是 Z/pZ 上的 n 阶方阵环。
+And more generally, if I had A the elementary abelian group of order p^n, then the endomorphism ring of A turns out to be n by n matrices over Z/pZ.
+
+118
+00:29:19,545 --> 00:29:27,840
+这就为大家提供了一大批极好的非交换环例子。
+So that gives you quite a nice collection of non-commutative rings.
+
+119
+00:29:29,000 --> 00:29:37,667
+好了，前两节主要讲的就是环的定义以及环的各种例子。
+Okay, so the first two sections are really just the definition of a ring, some examples of a ring.
+
+120
+00:29:37,667 --> 00:29:50,571
+正如我所说，只要掌握了整数环、多项式环和矩阵环，你就掌握了环的所有核心范例；其余一切都只是它们的变体或子环等。好，现在我想在这一讲中初步建立起环论的基本语言，后续还会展开。
+As I say, if you know the ring of integers, you know the ring of polynomials, and you know the ring of matrices, you know all the key examples of rings; everything is a variation of those, or subrings of those, etc.
+
+121
+00:29:50,571 --> 00:30:14,534
+我知道大家已经接触了海量的术语和名词，但既然你们已经熟悉了群论，就会发现这些概念至少与群论中的内容高度类似。
+Okay, now what I want to do is establish a little bit of the language of ring theory in this lecture, we'll come back to do it. Now I know we've had a huge number of words and lingos and things like that, but since you've now become familiar with group theory, you're going to find some of these at least analogous to things we've done in group theory.
+
+122
+00:30:14,534 --> 00:30:25,455
+在群论中我们有子群的概念，但子群并非核心关键；真正的核心是正规子群，即群同态的核。
+Okay, now in group theory we had the notion of a subgroup, but that wasn't really the critical thing; the critical thing was a normal subgroup, which was a kernel of a homomorphism.
+
+123
+00:30:25,455 --> 00:30:41,822
+所以在数学中每当定义一类新对象（如环）时，首先想知道的就是这些对象之间的映射是什么。在群论中叫同态，在向量空间中叫线性变换。
+So the first thing when we define a new object in mathematics like a ring, we want to know what are the maps between those objects. In groups they were called homomorphisms, in vector spaces they were called linear transformations.
+
+124
+00:30:41,822 --> 00:30:55,039
+那么两个环之间的映射——环同态应该满足什么呢？
+So what should be a map, a ring homomorphism between two rings?
+
+125
+00:30:58,560 --> 00:31:05,293
+它应当保持环的代数结构，仅此而已；它是保持结构的集合映射。
+Well, it should preserve the structure of the ring, that's all we want it to do; it's a set mapping that preserves the structure.
+
+126
+00:31:05,293 --> 00:31:15,345
+所以它是一个集合映射，在加法下必须是群同态。
+So it should be a map of sets, it should be a group homomorphism for plus.
+
+127
+00:31:15,345 --> 00:31:36,802
+特别地，它必须把 0 映到 0，把 1 映到 1'，并且把 R 中的乘积映到 R' 中的乘积。就这么简单，完全保持环的代数结构。
+In particular it should take 0 to 0, it should take 1 to 1', and it should take the products in R to the products in R'. That's it, so just preserving the structure of the ring.
+
+128
+00:31:36,802 --> 00:32:03,160
+子环就是环同态的一个例子：若一个环包含在另一个环中，即 R 是 R' 的子环，包含映射 f: R -> R' 就是一个环同态。
+So subrings are an example of a ring homomorphism: if I have one ring included in another, so if R in R' is a subring, the inclusion f from R into R' is a ring homomorphism.
+
+129
+00:32:03,160 --> 00:32:08,340
+但这太平凡了，我们还会遇到许多比这有趣得多的环同态。
+But that's too simple, we're going to have a lot of other ring homomorphisms much more interesting than that.
+
+130
+00:32:08,340 --> 00:32:18,839
+如果我们想找出与正规子群（而非普通子群）相对应的概念，我们应该发问：环同态的核到底长什么样？
+And if we wanted to figure out what a normal subgroup is as opposed to a subgroup, we might ask: what does the kernel of a ring homomorphism look like?
+
+131
+00:32:18,839 --> 00:32:33,080
+我们沿用群论的定义来定义 f 的核：它是所有满足 f(x) 等于 R' 中零元的 x 属于 R 的集合。
+So we define the kernel of f as the group-theoretic kernel: it's all x in R such that f(x) is equal to the zero element in R'.
+
+132
+00:32:38,387 --> 00:32:52,469
+很好，这个核具有以下几条极有意思的性质。
+Okay, and the kernel has the following interesting properties.
+
+133
+00:32:52,469 --> 00:33:27,127
+当数学家意识到环同态的核比预想的更加美妙时，这是数学史上的一次重大突破。第一条性质：在加法下它是一个子群，因为任何群同态的核都是子群，而 f 本身就是加法群同态，因此它的核作为加法子群毋庸置疑。
+This was a really huge breakthrough in mathematics when they realized that kernels of ring homomorphisms were a little bit more interesting than you'd expect. So the first property: it's a subgroup under plus, because the kernel of any group homomorphism is a subgroup, and whatever f is, it's a homomorphism of groups and we're looking at its kernel in the sense of a homomorphism for groups, so it's a subgroup.
+
+134
+00:33:27,127 --> 00:33:44,262
+人们最初认为它就像子环一样在乘法下封闭，事实确实如此：若 a、b 属于核，那么 a * b 和 b * a 也在核中。
+Okay, now what people first thought would be the case is that like a subring it would be stable under multiplication, and it certainly is: if a and b are in the kernel, so is a * b and b * a.
+
+135
+00:33:44,262 --> 00:33:56,880
+顺便说一句，从现在起在这一讲中我们只讨论交换环，事实上在整个学期接下来的时间里，我们都将假设环是可交换的。
+Well, from now on in this lecture let's just do commutative rings, and from now on in fact for the rest of this semester we're going to assume our ring is commutative.
+
+136
+00:33:56,880 --> 00:34:02,570
+非交换环是一门非常优美的学科，而且事实证明它与群论紧密相关。
+Non-commutative rings is a beautiful, beautiful subject, quite closely related to groups, it turns out.
+
+137
+00:34:02,570 --> 00:34:19,836
+所以我们要跳过书中关于“群表示论”的大章节；最后如果有机会我会告诉大家错过了什么，但没有非交换环就无法讲群表示论。但我们先跳过它，目前只专注于交换环。
+So we're skipping over this large section of the book which is called group representations; if I have any chance at the end I'll tell you what you missed, but you can't do group representations without non-commutative rings, but we're going to skip that, and for now we're going to just concentrate on commutative rings.
+
+138
+00:34:19,836 --> 00:34:27,741
+我最初不想直接假设可交换的原因，正是因为那些自同态环极少可交换。
+The reason I didn't want to assume that initially is that these endomorphism rings are very rarely commutative.
+
+139
+00:34:27,741 --> 00:34:42,289
+好，如果 a、b 都在核中，那么 a * b 也在核中，因为 f(a * b) = f(a) * f(b)，等于 0 * 0 = 0。
+Okay, so if I have two elements in the kernel, so is a * b, because f(a * b) is f(a) * f(b), which is 0 * 0, which is 0.
+
+140
+00:34:42,289 --> 00:34:52,084
+到目前为止一切顺利。所以若 a、b 属于——抱歉，谢谢提醒，是核！所以 a * b也在核中？
+So far so good, yeah. So if a and b are in—sorry, thank you, kernel! So is a * b in the kernel?
+
+141
+00:34:52,084 --> 00:34:56,044
+这就是证明。这看起来就像是一个子环，对吧？
+Well, here's the proof. So it just looks like it's a subring, right?
+
+142
+00:34:56,044 --> 00:35:07,304
+加法构成群，对加法封闭，包含 0，且对乘积封闭；虽然它不一定包含 1。
+This would just mean a subring: it's a group, it's closed under plus, contains 0, and it's closed under product; it doesn't necessarily contain 1.
+
+143
+00:35:07,304 --> 00:35:37,194
+但是最绝妙的地方在于，它满足一个更强的额外性质：若 a 属于 f 的核，而 b 是环中的任意元素——不是核里的元素，而是环里的任意元素——那么 a * b 依然落在 f 的核中！
+Okay, but what the cool thing is, is that there's an additional property, stronger property: if a is in the kernel of f, and b is any element of the ring—not an element in the kernel, but any element in the ring—then a * b is in the kernel of f.
+
+144
+00:35:37,194 --> 00:35:53,908
+所以它不仅自身相乘封闭，当你拿环中任意元素与它相乘时，结果依然封闭在核内！证明如下：f(a * b) = f(a) * f(b)，等于 0 * f(b)。
+So it's not just stable under product, it's stable under product where you take any element in the ring and you take the product. And the proof is: f(a * b) is f(a) * f(b), which is 0 * f(b).
+
+145
+00:35:53,908 --> 00:36:08,680
+正如我们刚才在讨论 1 = 0 时证明的，环中0 乘以任何元素都等于 0，所以 a * b 必然属于核。
+And we just saw in the proof where that 1 is equal to 0 business that for any element in the ring, 0 * the element is 0, and so a * b is in the kernel.
+
+146
+00:36:08,680 --> 00:36:21,908
+所以它比通常的加乘封闭更强大：它在加法下封闭，并且在与外部相乘时依然封闭——即使第二个元素可以任意取！
+Okay, so it's better than stable under plus and multiplication: it's stable under plus, and it's stable under multiplication even when the second element can be anywhere!
+
+147
+00:36:21,908 --> 00:36:37,453
+因此这类作为同态核的子集，由于某些历史原因（稍后我会向大家解释），被称为“理想”（ideals）。
+So those subsets, the things which are kernels of homomorphisms, are called for historical reasons which I'll try to explain to you as we get on in the subject: ideals.
+
+148
+00:36:37,453 --> 00:37:09,565
+环 R 的一个子集 I，若在加法下构成子群，且对 R 中任意元素 b 的数乘均封闭，则称为一个理想。
+So a subset I in R which is a subgroup under plus and is closed under multiplication by any element b in R is called an ideal.
+
+149
+00:37:09,565 --> 00:37:18,882
+“理想”这个词来源于柏拉图式的“理念/理想数”，随着课程深入我们会明白为什么选用这个词。
+The actual word came from the Platonic notion of ideals, and we're going to see why it was chosen as we get a little further in the subject.
+
+150
+00:37:18,882 --> 00:37:30,067
+它被称为理想；它源于代数数论，由 19 世纪中叶的数学家库默尔（Ernst Kummer）所发现。
+It's called an ideal; it came from algebraic number theory, and it was discovered by a mathematician in the middle of the 19th century called Kummer.
+
+151
+00:37:30,067 --> 00:37:43,110
+库默尔意识到人们之前在环中研究的某些特殊子集就是理想，他想要一个更一般的概念，即在此乘法下封闭的加法子群。
+And Kummer realized that people had been working with certain subsets of rings which were ideals, and he wanted a more general notion which was just a subgroup closed under this.
+
+152
+00:37:43,110 --> 00:37:52,405
+这在当时的代数学中是一个极其新颖的思想：通过普遍公理化性质来定义对象，而不是仅仅给出某个具体实例。
+And that was such a novel notion in algebra at the time, that you define something by its general properties rather than just by 'this is an example of such'.
+
+153
+00:37:52,405 --> 00:38:01,724
+于是他称其为“理想”，因为它是人们所知对象的广义化与理想化身，即柏拉图式的理念。
+And so he called it an ideal, because it was a generalization of what they knew was the idealized version of it, the Platonic ideal.
+
+154
+00:38:01,724 --> 00:38:38,639
+来看例子：第一，任何环同态的核；第二，零子集 {0} 是一个理想：它是把 R 中所有元素都映到 0 的同态的核，即零环—
+So an example, examples: 1, any kernel of a homomorphism; 2, the zero set is an ideal: it's the kernel of a homomorphism that takes everything in R to 0, the zero ring—
+
+155
+00:38:38,639 --> 00:38:54,056
+—若把 R 中所有元素映到零环，这是环同态，它的核是……抱歉抱歉，说反了，它是从R 到 R 的恒等映射的核，谢谢提醒。
+if you map everything in R to the zero ring, that's a ring homomorphism and its kernel is... sorry, sorry, sorry, it's the kernel of the map, excuse me, from R to R which is the identity map, thank you.
+
+156
+00:38:54,056 --> 00:39:16,677
+第三个例子是整个环 R 自身，它是把R 中所有元素映到零环的同态的核，抱歉，谢谢。这是两个极端的理想：前者是最小的理想，后者是最大的理想。
+And the third example is R, and that's the kernel of the map R to the zero ring by taking everything to 0, sorry, thank you. So these are very extreme ideals: this is as small as you can get an ideal, this is as large as you can get an ideal.
+
+157
+00:39:16,677 --> 00:39:28,010
+就像群论中的正规子群一样，我们将证明每一个理想都是某个同态的核，每一个理想都是某个同态的核，因此这具有最广泛的普适性。
+We're going to show, just like normal subgroups, that every ideal is the kernel of a homomorphism, every ideal is the kernel of a homomorphism, so that this is the most general.
+
+158
+00:39:28,010 --> 00:39:55,132
+我再给出一个例子：如果在 R 中取一个元素 a，并考虑 R 中所有a 的倍数构成的集合，这也是一个理想，被称为由 a 生成的主理想。
+But I'll give you another example: if you take an element a in R, and you consider everything in R that's a multiple of a, that's an ideal, and it's called the principal ideal generated by a.
+
+159
+00:39:55,132 --> 00:40:16,280
+你看，两个倍数相加根据分配律仍是 a 的倍数；而将它与 R 中任意元素相乘，利用结合律重新组合后仍是 a 的倍数。所以这是理想的又一个重要例子。
+See, if you add two of these things, you get another one because of the distributive law; and if you multiply this by anything in R, you just use the associative law to recombine that as another multiple of a. So this is another example of an ideal.
+
+160
+00:40:16,280 --> 00:40:43,674
+很好，现在——什么问题？啊，问得好！大家怎么看？如果我想让正规子群成为某个同态的核，它应该作为映到什么对象的同态的核？正规子群是谁的核？它是映到什么空间的自然同态的核？
+Okay, now having—pardon? Ah, good! Well, what do you think? Suppose I wanted to make a normal subgroup the kernel of a homomorphism, what would I make it as a kernel of a homomorphism to? What's the normal subgroup the kernel of? It's the kernel of a natural homomorphism to what?
+
+161
+00:40:43,674 --> 00:40:50,594
+对啊，为什么我们不尝试利用理想构造一个新环，称为“商环”呢？
+Ah, so why don't we try to build a new ring out of an ideal called the quotient ring?
+
+162
+00:40:50,594 --> 00:41:22,696
+既然你提到了，我也就无需对大家隐瞒了：任何理想 I 都是映到某个新环——商环 R/I 的自然环同态的核。
+And since you've asked me this, why am I hiding it from you: any ideal I is the kernel of a natural ring homomorphism to a new ring called R/I, the quotient ring.
+
+163
+00:41:22,696 --> 00:41:31,821
+简单说明一下：它把元素 a 映到 I 的陪集 a + I；由于是交换群，我用加法形式来书写陪集。
+Okay, without giving you any detail: so it takes an element a here to the coset of I, which I'm going to write additively like that, because it's an abelian group.
+
+164
+00:41:31,821 --> 00:41:43,979
+这首先是商交换群，我只需要告诉大家如何在其中进行乘法运算，就能给出环结构。
+So this is just the quotient abelian group, and I just have to tell you how to multiply things in here, right, to give you the ring structure.
+
+165
+00:41:43,979 --> 00:42:00,832
+该商群上的乘法法则定义为：(a + I) * (b + I) = ab + I。
+The quotient group with multiplication law: (a + I) * (b + I) is equal to ab + I.
+
+166
+00:42:00,832 --> 00:42:12,263
+取 a 的陪集，乘以 b 的陪集，得到 a * b 的陪集。这里的关键是：你必须验证乘法运算是良定义的（well-defined）。
+And you take the coset of a, you multiply by the coset of b, you get the coset of a * b. Okay, what you have to check is that that's a well-defined multiplication.
+
+167
+00:42:12,263 --> 00:42:21,440
+而当验证乘法良定义时，你就会发现恰恰需要这条性质。
+And when you check that that's a well-defined multiplication, you'll see that you need this property.
+
+168
+00:42:21,440 --> 00:42:31,565
+我后面会细讲，虽然讲得超前了点，但既然有人问了而且群论中已知答案，不妨顺带提一下……所以我说这些新符号并不困难，
+I'm going to go over that, I'm getting a little ahead of myself, but since you asked the question and we know the answer for groups we might as well... You know, that's why I say all this new notation isn't so difficult,
+
+169
+00:42:31,565 --> 00:42:44,884
+因为我们懂得如何作商群；对 R 的任意加法子群你都可以作商群，但要在商群上得到良定义的乘法，就必须要求子集在与任意元素相乘下封闭。
+because we know how to form the quotient group; you could do that for any subgroup of R, but to get a well-defined multiplication on the quotient group, you need this extra property that the subset be closed under multiplication by any element.
+
+170
+00:42:44,884 --> 00:42:56,130
+所以若承认这一点，就得到了以 I 为核的环同态，因此理想恰恰就是环同态的核！
+So if you believe this, there's your homomorphism with kernel I, so that the ideals are precisely the kernels of ring homomorphisms.
+
+171
+00:42:56,130 --> 00:43:10,813
+现在让我们回到整数的情形，求出整数环的所有理想。请讲，有提问吗？是的，非常好的问题。
+Now let's go back to this case and let's work out the ideals of the integers. Please, yes? Yes, very good question.
+
+172
+00:43:10,813 --> 00:43:31,036
+在非交换环中需要格外小心：有左理想的概念，接着有右理想的概念，还有双边理想的概念，取决于从哪一侧相乘保持封闭。双边理想是非常好的性质。
+There are notions, you have to be careful though, for non-commutative rings: there are notions of left ideals, then there are notions of right ideals, then there are notions of two-sided ideals, depending on which side you want to multiply and stay closed. Two-sided ideals are very good things to have.
+
+173
+00:43:31,036 --> 00:43:41,497
+此外还有“单环”的概念，即仅有平凡理想的环，正如单群一样。
+And then there are notions of simple rings, ones where the only ideals are {0} and R, just like we have simple groups.
+
+174
+00:43:41,497 --> 00:43:55,240
+所以我们在群论中建立的这一整套术语——对象、同态、子对象、核、正规、单——都能完美迁移到环论中。
+So again our terminology that we're beginning to develop from group theory—objects, homomorphisms, subobjects, kernels, normal, simple—all goes over nicely into rings.
+
+175
+00:43:55,240 --> 00:44:30,537
+很好，下面我给出一个重要结论。事实：整数环 Z 中的所有理想 I 都具有形式 I = nZ，其商环正是 Z/nZ。
+Okay, good. Let me just give you an important statement. Fact: the only ideals I in Z have the form I = nZ, the quotient ring is Z/nZ.
+
+176
+00:44:30,537 --> 00:44:48,720
+所以整数环中的所有理想都是第 4 类（主理想）：如果你有任何对加法封闭且对任意元素乘法封闭的子集，那么它都是 n 的所有倍数构成的集合。换句话说，可以记作 nZ。
+So the only ideals of the integers are the ones of type 4: if you have anything that's stable under multiplication by an arbitrary element in the ring, stable under addition, then it's all multiples of n. So this in other words you could write n * Z.
+
+177
+00:44:48,720 --> 00:45:09,905
+证明方法：令 n 为 I 中最小的正整数，利用欧几里得算法（带余除法）。
+And the proof: let n be the smallest positive integer in I, use the Euclidean algorithm.
+
+178
+00:45:09,905 --> 00:45:15,610
+正如我们之前分类子群一样——它们是唯一的加法子群，因此也是唯一的候选，对吧？
+So just as we classified the subgroups—well, those are the only subgroups, so they're the only possibility, right?
+
+179
+00:45:15,610 --> 00:45:27,159
+我们分类过 Z 的子群，它们全部具有这种形式；而每一个这样的加法子群又都是理想，因此唯一的理想就是由单个元素生成的主理想。
+We classified the subgroups of Z, and they were all of this form; now each one of these forms is an ideal, so the only ideals are these things generated by a single element.
+
+180
+00:45:27,159 --> 00:45:29,422
+现在我可以向大家阐释“理想”这个词的深意了。
+Now I can give you the definition of the word ideal.
+
+181
+00:45:29,422 --> 00:45:54,918
+当人们开创环论并在类似于整数的环（如高斯整数环 Z[i]）中研究代数数论时，曾经以为得到这种乘法封闭子集的唯一方式就是取某个给定元素的所有倍数，即全部都是主理想。
+When people started out in ring theory, and they were working in rings analogous to the integers doing algebraic number theory like Z[i], they had the idea—excuse me—that the only way to get a multiplicatively closed subset like this was to take all multiples of a given element, namely just to take things of this form.
+
+182
+00:45:54,918 --> 00:46:06,969
+然而库默尔发现了反例——虽然不是高斯整数环，但在其他环中——存在比这更一般的理想，即无法由单个元素生成的理想。
+And Kummer found examples—not this case, but other cases of rings—where there were more general ideals than that, there were ideals that could not be generated by a single element.
+
+183
+00:46:06,969 --> 00:46:25,436
+这一发现彻底引爆并开辟了这一学科，这也正是我们后续要学习的核心内容。事实证明这是非常特殊的情形，尽管我们最熟悉的环确实具有每个理想都由单个元素生成的性质。
+And that exploded the subject, that's what we're going to study. So this is very special, it turns out, even though the most familiar rings have this property that every ideal is generated by one element.
+
+184
+00:46:25,436 --> 00:46:33,018
+好，我想再介绍一个重要记号，然后大家可以阅读 10.3 节，周三我们再回来深入探讨这些内容。
+Okay, I want to give you one more piece of notation, and then you'll read 10.3, learn about this, and we'll come back and talk about it more on Wednesday.
+
+185
+00:46:33,018 --> 00:46:47,587
+这依然属于建立基础语言范畴：我们已经知道了什么是理想，最后一个术语是“单位”（可逆元）。
+This is again in the notion of just developing language: so we now know what an ideal is, and the final piece of terminology is what a unit is.
+
+186
+00:46:47,587 --> 00:47:08,553
+所谓单位，是 R 中具有乘法逆元的元素 a，即存在某个元素 b 使得 a * b 等于1。
+A unit is an element a in R with a multiplicative inverse, i.e., there exists some element b such that a * b is 1.
+
+187
+00:47:08,553 --> 00:47:17,079
+我们在自同态环中见过，单位就是自同构映射，可逆元素正是群同构。
+Okay, we saw in endomorphism rings the units were the isomorphisms, the invertible elements are the isomorphisms.
+
+188
+00:47:17,079 --> 00:47:22,599
+所有单位构成的集合记作 R上标星号 R^*（即单位群）。
+The set of all units is denoted by R star (R^*).
+
+189
+00:47:28,080 --> 00:47:49,052
+正如我们将看到的，它对加法不再封闭，但对乘法是封闭的，并在乘法下构成一个以 1 为单位元的群。
+That's not closed under addition anymore, as we're going to see, but it's closed under multiplication, and it forms a group with identity element 1.
+
+190
+00:47:49,052 --> 00:47:59,163
+你看，我只是取出了具有乘法逆元的子集，所以它对乘法封闭：若 a 可逆且 b 可逆，则其乘积也可逆。
+See, I've just set it up: I've just taken the subset that has a multiplicative inverse, so it's closed under multiplication: if you can invert a and you can invert b, you can invert their product.
+
+191
+00:47:59,163 --> 00:48:10,545
+它构成了一个非常漂亮的子群，研究它的结构往往是一个极其深刻的问题——当然，它被称为单位群。
+And it forms a nice subset which is a group, and it's frequently an interesting question what is the—it's called the unit group, of course.
+
+192
+00:48:10,545 --> 00:48:16,086
+环的加法群往往很平凡，但单位群却异常丰富。
+So the additive group of a ring is often very simple, but the unit group is very interesting.
+
+193
+00:48:16,086 --> 00:48:36,100
+对于域（它是交换环的特例），其单位群 R^* 就是除零元外的所有元素；这正是域的定义，所有非零元均可逆。有时我写两道交叉，有时写三道，别问我为什么这么记。
+So for a field, which are examples of commutative rings, R^* is everything other than the zero element; that's the definition of a field, everything is invertible. Sometimes I put two crosses, sometimes I put three, don't ask me why.
+
+194
+00:48:36,100 --> 00:48:39,288
+所以在域中除零元外的所有元素都可逆。
+So everything in a field but the zero element is invertible.
+
+195
+00:48:39,288 --> 00:48:52,785
+但这在一般环中非常罕见：若取整数环的单位群 Z^*，你只会得到两个元素的群 {±1}，整数中只有两个可逆元。
+But this is very unusual: if you take Z^*, you just get the group with two elements, there are only two invertible elements in the integers.
+
+196
+00:48:52,785 --> 00:49:19,355
+若取 (Z/nZ)^*，它是一个具有 φ(n) 个元素的群，即欧拉函数 φ(n)：1 到 n 之间与 n 互素的正整数个数，因为在该环中元素可逆当且仅当与 n 互素。这是一个非常有趣的群，其群结构最初是由高斯完全确定的。
+If you take (Z/nZ)^*, it is a group with phi(n) elements, the Euler phi-number of elements: the number of things between 1 and n that are relatively prime to n, because invertible in this ring means relatively prime to n. And this is a very interesting group whose structure was first determined by Gauss.
+
+197
+00:49:19,355 --> 00:49:28,853
+该群的结构绝非一目了然；由于乘法可交换，它是一个交换群。
+It's not obvious what the structure of that group is; it's an abelian group because multiplication is commutative.
+
+198
+00:49:28,853 --> 00:49:49,301
+我们也可以在非交换环中定义单位群；如果我们取域 F 上的 n 阶方阵环的单位群，它正是关于矩阵乘法的一般线性群 GL_n(F)，即可逆矩阵群。
+If we take—we can define the units in a non-commutative ring, and if we took the units in the n by n matrices over a field F, they would be the group GL_n(F), the invertible matrices under multiplication.
+
+199
+00:49:49,301 --> 00:50:07,339
+所以我们必须牢牢掌握的两个全新核心概念是：环的理想集合（我们将在此投入大量精力）以及环的单位群，它的结构可以非常深奥，周三我会继续讨论这些内容。
+So the two sort of new pieces of terminology, things we really have to get into our heads about rings that we want to study, are the set of the ideals of a ring—we're going to work a great deal on that—and the unit group of a ring, which can be quite sophisticated, quite sophisticated.
+
+200
+00:50:07,339 --> 00:50:15,132
+大家可能也体会到了，群论最后一部分内容确实相当深奥繁杂。
+And I'll pick up on that on Wednesday. Those of you—I think the final material on groups was really quite involved and quite complicated.
+
+201
+00:50:15,132 --> 00:50:20,040
+如果作业遇到了困难，我深表同情，那确实很难；对称群的相关内容很有挑战性。
+Those of you who had trouble with the homework, I sympathize, it's hard; the stuff on the symmetric group is hard.
+
+202
+00:50:20,040 --> 00:50:33,585
+我讲过的刚体运动群很难，共轭类也很难。但现在我们退后一步，进入了更偏基础的全新入门内容。
+The stuff I was talking about about the group of motions is hard, conjugacy classes are hard. But now we're taking a step back, we're going into more introductory material.
+
+203
+00:50:33,585 --> 00:50:36,903
+这是一个重新起步的绝佳机会；如果你在群论末尾感到有些困惑，这完全不会影响后续学习。
+This will be a chance to get started again; if you were a little confused at the end of groups, that's not going to hurt you.
+
+204
+00:50:36,903 --> 00:50:54,120
+我们将从头开始；目前我们正处于熟悉基本术语、明确核心研究问题的阶段。这些问题将贯穿我们本学期接下来的所有课程。
+We're going to start all over again, and we're right now at the stage of just acquiring the basic terminology, figuring out what the key questions are. And then that'll occupy us for the rest of the term.
+
+205
+00:50:54,120 --> 00:50:57,320
+很好，很好。好的，周五见！
+Good, good. Okay, see you on Friday!

@@ -1,0 +1,984 @@
+1
+00:00:11,310 --> 00:00:22,999
+20世纪最伟大的数学家之一卡尔·路德维希·西格尔（Carl Ludwig Siegel）， 当时正在普林斯顿高等研究院访问并讲授一系列讲座。
+Carl Ludwig Siegel, one of the great mathematicians of the 20th century,   when he was visiting the Institute for Advanced Study in Princeton and giving a series of lectures.
+
+2
+00:00:22,999 --> 00:00:34,182
+有一天遇上了特大暴风雪，正好赶在周末， 没有一个人来听讲座，只有西格尔徒步涉雪赶来，因为他是个非常硬朗坚毅的人。他望了望台下，
+And one day there was a terrible snowstorm, like, it was over the weekend,   and nobody came into the lecture except Siegel hiked his way in, because he was the hardy kind of guy, and he just looked out there and, you know,
+
+3
+00:00:34,182 --> 00:00:45,170
+空无一人， 但他依然照常作了报告；到了下一次课，大家全懵了，因为这是一门系列讲座， 而他开讲的地方显然已经不是上次停下的地方了。
+there was no one there,   he just gave the talk, and the next time, you know, people were confused, because, okay, it was a series of lectures,   and he was starting off at a place that was obviously not where he had left off.
+
+4
+00:00:45,170 --> 00:00:48,524
+大家问他：“台下一个人都没有，您为什么还讲呢？”
+And they said, "Well, why did you give the talk, you know, if there was no one there?"
+
+5
+00:00:48,524 --> 00:00:54,075
+他说：“听着，我大老远赶来，该讲课我就讲，讲完我就回家。” 瞧，他就是如此严谨一丝不苟。
+He said, "Look, I came in, I was supposed to give the talk, I gave the talk, I went home."   You know, it was very systematic.
+
+6
+00:00:54,075 --> 00:01:06,578
+好了，上次课我们研究了 $Z[i]$ 中的素元，并展示了它与数论的密切联系。
+Okay, so last time we did primes in $Z[i]$, and showed there was a lot of relationship to number theory.
+
+7
+00:01:06,578 --> 00:01:36,697
+例如，我们证明了模 4 余 1 的素数在 $Z[i]$ 中分解为两个素元 $\pi$ 与 $\pi'$； 而模 4 余 3 的素数只产生一个素元，事实上该元素 $p$本身仍然是素元。
+For example, we showed that the primes congruent to 1 mod 4 gave rise to two primes, $\pi$ and $\pi'$ in $Z[i]$,   and primes congruent to 3 mod 4 gave 1 prime, in fact the element $p$ is still a prime.
+
+8
+00:01:36,697 --> 00:01:42,287
+这两个素元满足性质 $\pi \cdot \pi' = p$。
+These two primes have the property that $\pi \cdot \pi' = p$.
+
+9
+00:01:42,287 --> 00:02:00,320
+于是有了这个优美的区分，顺便说一句，这正是如下命题：若 $\pi = a + bi$，则有 $a^2 + b^2 = p$， 这正是费马定理的证明：每一个模 4 余 1 的素数都可以表示为两个平方数之和。
+So there was this nice distinction, and this is the statement, by the way, that if $\pi = a + bi$, it says that $a^2 + b^2 = p$,   which is a proof of Fermat's theorem that every prime congruent to 1 mod 4 is the sum of two squares.
+
+10
+00:02:00,320 --> 00:02:15,068
+因此，通过刻画 $Z[i]$ 中的素元， 结合它是主理想整环（PID）的事实，我们隐式地得出了该结果。请讲？求 $a$ 和 $b$ 的取值？
+So hidden in this determination of the primes in $Z[i]$,   together with the fact that it was a principal ideal domain, we got that result. Yeah? The $a$ and the $b$?
+
+11
+00:02:15,068 --> 00:02:29,817
+问得非常非常好。确实有显式公式。 高斯曾下苦功寻找求 $a$ 和 $b$ 的公式。事实上你可以对它们进行规范化。
+Very, a very good question. So there are formulas for it.   Gauss worked hard on finding formulas for $a$ and $b$. In fact, you could normalize them.
+
+12
+00:02:29,817 --> 00:02:39,136
+你看，其中必有一个是奇数，对吧？ 两个奇数相加不可能得到奇数，对吧？
+You see, one of them has to be odd, right?   I mean, you can't have two odd numbers adding up to an odd number, right?
+
+13
+00:02:39,136 --> 00:02:53,331
+因此一个是奇数，而由于你可以改变其符号， 你总能让这个奇数模 4 余 1 或模 4 余 3，如果你愿意的话，可以稍作规范化， 然后寻找从素数 $p$ 直接算出 $a$ 的具体公式，类似这样的公式。
+And so one is odd, and since you can change the sign of that,   you can make the odd one either 1 or 3 mod 4 if you want to, you can normalize it a little bit,   and then you can ask for an actual formula going from $p$ to $a$, that sort of thing.
+
+14
+00:02:53,331 --> 00:03:03,340
+高斯确实找到了此类公式，后人也一直在此方向探索， 下周的特别讲座中我也许会讲一点。
+And Gauss found such formulas, and people have searched for such formulas in the future,   and I may even do a little of that in my special lecture next week.
+
+15
+00:03:03,340 --> 00:03:09,330
+好，但这确实是个极好的问题。证明了能写成两个平方和之后， 人们自然会追问：$a$ 和 $b$ 究竟是多少？
+Okay, but it's a great, great question. I mean, once you prove it's a sum of two squares,   it's like, well, what are $a$ and $b$?
+
+16
+00:03:09,330 --> 00:03:19,179
+这与另一个数学分支“椭圆曲线”有关，我下周会讲到，好。
+Okay, it's related to another subject called elliptic curves, which I'm going to talk about next week, okay?
+
+17
+00:03:19,179 --> 00:03:37,656
+本学期剩下的时间里，我们要研究与 $Z[i]$ 类似的环，并确定其中的素元是什么，尽管它们不总是唯一分解整环。
+Now what we're going to do for the rest of the term is we're going to study rings analogous to $Z[i]$, and determine what their primes are, although they're not always unique factorization rings.
+
+18
+00:03:37,656 --> 00:03:58,679
+我们之前见过一些类似的环，例如作业中的环 $Z[\sqrt{-2}]$，即所有形如 $a + b\sqrt{-2}$ 的元素，我们在那里定义了度量函数 $\Delta(a + b\sqrt{-2})$，
+And we've seen some rings analogous to this, for example in homework there is this ring $Z[\sqrt{-2}]$, so all things of the form $a + b\sqrt{-2}$, and there this delta function $\Delta(a + b\sqrt{-2})$, which is $a^2 + 2b^2$,
+
+19
+00:03:58,679 --> 00:04:16,359
+它等于 $a^2 + 2b^2$，这在该环上给出了欧几里得结构， 因此 $R$ 关于该函数$\Delta$ 是欧几里得环，从而在该环中也拥有优良的素元分解。
+this gives a Euclidean structure on this ring,   so $R$ is Euclidean with respect to this function $\Delta$, and so you have a nice prime factorization in that ring, too.
+
+20
+00:04:16,359 --> 00:04:25,056
+随后我们还引入了环 $R = Z[\sqrt{-5}]$，而那个环甚至没有唯一分解性，因此它绝不是欧几里得环，没有唯一分解，
+And then we also introduced the ring $R$ which was $Z[\sqrt{-5}]$, and that ring doesn't even have unique factorization, so it's certainly not Euclidean,
+
+21
+00:04:25,056 --> 00:04:46,973
+因为我们有 $2 \times 3 = (1 + \sqrt{-5})(1 - \sqrt{-5})$，其中每个元素都是不可约元而非素元。 可见这些环表面上很相似，却有着截然不同的性质。
+has no unique factorization,   because we had $2 \times 3 = (1 + \sqrt{-5})(1 - \sqrt{-5})$, and each of these elements is irreducible, is not a prime.   So these rings obviously look similar, but they have different properties.
+
+22
+00:04:46,973 --> 00:05:04,481
+所以你可能会说：“作为一般性的类比推广，我们可以考虑像 $Z[\sqrt{d}]$ 这样的环，这看起来是个不错的例子，”即所有形如 $a + b$ 乘以某个数的平方根的形式，
+So you might say, "Well, what we could do as a general analog of this, was we could take rings like $Z[ \sqrt{d}]$, that looks like a good example," so all things of the form $a + b$ times the square root of some number.
+
+23
+00:05:04,481 --> 00:05:25,636
+这等价于取整数多项式环 $Z[x]$ 模去理想 $(x^2 - d)$ 的商环； 如果我们希望它是一个不可约多项式，我们需要 $d$ 不是完全平方数，从而所有这些环都属于这种形式。
+And so that would be the same thing as taking the quotient of the polynomials in $Z$ by the ideal $(x^2 - d)$,   and if we wanted this to be an irreducible polynomial, we want $d$ not to be equal to a square, so that all of these rings are of this sort, of this form.
+
+24
+00:05:25,636 --> 00:05:45,991
+好，我们可以研究这些环，但这还不太对。 这并不是最恰当的类比，非常接近，但还不完全是$Z[i]$ 的正确类比。
+Okay, now the reason... so we could study those rings, but this isn't quite right.   This is not quite the right analog, very close, but not quite the right analog of $Z[i]$.
+
+25
+00:05:45,991 --> 00:06:17,389
+我给你们举个例子，说明为什么这样做略有欠缺：考虑多项式 $f(x) = x^2 + x + 1$。 由求根公式，该多项式的根 $\alpha$ 为 $(-1 \pm \sqrt{-3})/2$，对吧？
+And I'll give you an example to show you why this is slightly wrong thing to do, because consider the polynomial $f(x) = x^2 + x + 1$.   So the roots of that polynomial are $\alpha$, by the quadratic formula, $(-1 \pm \sqrt{-3})/2$, okay?
+
+26
+00:06:17,389 --> 00:06:42,029
+现在如果取环 $R = Z[x]/(f(x))$，这是一个2 次首一不可约多项式，所以该环为 $Z + Z\alpha$。
+Now if you take the ring $R$, which is $Z[x]$ modulo the ideal $(f(x))$, this is a monic irreducible polynomial of degree 2, so this ring is $Z + Z\alpha$.
+
+27
+00:06:42,254 --> 00:06:47,540
+它包含两份整数环：$Z \cdot 1 + Z \cdot \alpha$，其中 $\alpha$ 是 $f(x)$ 的根；
+It has two copies of the integers, $Z \times 1 + Z \times \alpha$, $\alpha$ being the root of $f(x)$.
+
+28
+00:06:47,540 --> 00:06:56,339
+而 $\alpha$ 的任何高次多项式 $\alpha^2$、$\alpha^3$，都可以利用这个关系式重新用 $\alpha$ 和 1 表达。
+And any higher polynomial in $\alpha$, $\alpha^2$, $\alpha^3$, can be re-expressed in terms of $\alpha$ and 1 using this relation.
+
+29
+00:06:56,339 --> 00:07:16,009
+这个环包含了环 $Z[\sqrt{-3}]$， 因为如果我把 $\alpha$ 乘以 2 得到 $2\alpha$，再加上 1，就变成了 $\pm \sqrt{-3}$，
+Now that ring contains the ring $Z[\sqrt{-3}]$,   because if I multiply $\alpha$ by 2, $2\alpha$, and I add 1 to it, that becomes $\pm \sqrt{-3}$,
+
+30
+00:07:16,009 --> 00:07:26,246
+所以在该环内部显然有表达式 $2\alpha + 1$，从而包含 $\sqrt{-3}$，也包含 1，因此它包含了这个环。
+so inside of this ring I certainly have the expression $2\alpha + 1$, so I have $\sqrt{-3}$, I also have 1, so I have this ring.
+
+31
+00:07:26,246 --> 00:07:35,575
+但这二者并不相等，因为我无法把 $\alpha$ 写成整数加上整数倍的 $\sqrt{-3}$，我必须除以 2。
+But these two rings aren't equal, because I cannot write $\alpha$ as an integer plus an integer times $\sqrt{-3}$, I have to divide by 2.
+
+32
+00:07:35,575 --> 00:08:07,354
+事实上前一个环在后一个环中的指数为 2， 并且二者具有相同的分式域，它们都是整环，整环，分式域均为 $Q(\sqrt{-3})$，即有理数域添加 $\sqrt{-3}$。
+And in fact this ring has index 2 in this ring,   and both of them have the same fraction field, are integral domains integral domains, with field of fractions $Q(\sqrt{-3})$, the rational numbers adjoin the square root of -3.
+
+33
+00:08:07,354 --> 00:08:20,557
+显然，我们希望在分式域内部寻找最大的天然环来进行研究，这意味着我们未必想用 $Z[\sqrt{-3}]$， 用扩大的环可能更好。
+And obviously we want to work with the largest natural ring we could inside of this field of fractions, which means we wouldn't necessarily want to work with this ring,   it might be better to work with this ring.
+
+34
+00:08:20,557 --> 00:08:48,625
+小环中的某些理想在乘以大环元素后不一定保持封闭；因此我们更倾向于始终在更大的环中工作。 有时我们可以在分式域中把这个环扩大。
+Any some ideals for this ring would not be stable under multiplication by this ring, so that the preference is to always work for the larger ring.   Sometimes we can enlarge this ring inside the field of fractions.
+
+35
+00:08:48,625 --> 00:09:05,677
+所以为了搞清楚在这一设定下高斯整数的正确类比是什么， 首要任务就是弄清何时能够扩充它、我们究竟想跟什么样的环打交道。
+So the first thing we're going to have to do to figure out what the analog is of the Gaussian integers in this kind of setting,   is to figure out when we can enlarge it, what kind of rings we want to work with.
+
+36
+00:09:05,677 --> 00:09:25,327
+事实表明，比如采用大环的一个重要原因在于：这个大环是欧几里得环，而那个小环不是！ 这是欧拉做出的重大发现：研究由该元素生成的环，比单纯研究 $\sqrt{-3}$ 好得多。
+It turns out, for example, that one reason that it's better to work with this ring is that this ring is a Euclidean ring, this ring isn't!   So that was a big discovery that Euler made, that it was better to study the ring generated by this than just $\sqrt{-3}$.
+
+37
+00:09:25,327 --> 00:09:41,412
+所以在揭晓我们在本课程余下时间里要研究的恰当环之前，我们先退后一步，讲一讲代数整数。 我先把黑板留一会儿。这里顺便提一下作业。
+Okay, so we're going to back off a little bit before we tell you what the right rings are that we're going to study for the rest of the course, and talk a little bit about algebraic integers.   I'll keep this up for a second. Now I should say about the homework.
+
+38
+00:09:41,412 --> 00:09:47,539
+由于我的进度稍微落后了一点，所以我让彼得修改了网站上的作业。
+So I've gotten a little bit behind schedule, so I had Peter change the homework on the web.
+
+39
+00:09:47,539 --> 00:10:04,158
+你们今天放假一天，可以赶赶进度、梳理一下、为最后的冲刺做准备； 接下来我们还有三次作业：一次在周三课后，一次在周五课后，一次在周一课后。 彼得贴出的作业都顺延了一天。
+You get a day off today, just to sort of catch up, orient yourself, get ready for the final push,   and then we're going to have three more assignments: one after class Wednesday, one after class Friday, and one after class Monday.   And those are the assignments that Peter had posted, all moved back a day.
+
+40
+00:10:04,158 --> 00:10:14,786
+你可能会问：“如果我周一下午要赶飞机，周一课后的作业什么时候交？” 好，这需要你们提前规划。
+Now you may say, "When am I going to hand in the assignment after class Monday if I'm catching a flight Monday afternoon?"   Okay, that's for you to plan ahead on.
+
+41
+00:10:14,786 --> 00:10:35,682
+如果你周二还在学校，就在周二交；如果你周一课后立刻就要离开， 或者更糟——周一课前就要动身，那你就得想办法用其他途径把作业交给彼得或莉兹。 他们人很好，通融接受稍迟一点交。
+If you're going to be around Tuesday, hand in Tuesday. If you're not going to be around because you're leaving directly after class on Monday,   or God forbid you're leaving before class on Monday, then you should try to get that homework assignment to Peter and Liz in some other way,   okay? They'll be gracious and take it in a little late, okay.
+
+42
+00:10:35,682 --> 00:10:42,182
+好了，为了找到正确的类比，我们必须讨论代数整数。
+Now to get the right analog, we have to talk about algebraic integers.
+
+43
+00:10:42,182 --> 00:11:09,134
+我们定义一个复数为代数整数：若 $\alpha$ 是整系数首一多项式 $f(x) = x^n - a_{n-1}x^{n-1} \dots$ 的根，
+So we say a complex number is an algebraic integer, a complex number is an algebraic integer if $\alpha$ is the root of a monic polynomial $f(x)$ with integer coefficients,
+
+44
+00:11:09,134 --> 00:11:36,835
+任意首一多项式——首一（monic）意味着最高次项系数为 1——且系数为整数。 例如，每个整数都是代数整数，因为整数是该多项式的根。
+$x^n - a_{n-1}x^{n-1} \dots$ any monic polynomial — monic means first coefficient 1, integer coefficients, okay?   So example, every integer is an algebraic integer, because an integer is the root of this polynomial.
+
+45
+00:11:36,835 --> 00:11:54,235
+好，另一个例子：对于 $d \in Z$，$\sqrt{d}$ 是代数整数， 因为它是多项式 $x^2 - d$ 的根；又例如：$(-1 \pm \sqrt{-3})/2$ 是代数整数，因为它是该首一整系数多项式的根。
+Okay, another example: $\sqrt{d}$ for $d \in Z$,   because that's the root of the polynomial $x^2 - d$, like that's an algebraic integer.
+
+46
+00:11:54,235 --> 00:12:18,346
+它看起来并不太像个整数，分母上甚至还有个 2，但它确实是那个整系数首一多项式的根，这些都是代数整数的例子。
+Another example: this is an algebraic integer, because it's the root of this polynomial which is monic with integer coefficients.   It doesn't look too integral, like it looks like it has a 2 in the denominator, but in fact it's the root of that polynomial, so these are all examples of algebraic integers.
+
+47
+00:12:18,346 --> 00:12:31,959
+现在我们想知道：如果一个元素是有理系数多项式的根， 它是否为代数整数？
+Okay, now we want to know, if an element is a root of a polynomial with rational coefficients,   is it an algebraic integer?
+
+48
+00:12:31,959 --> 00:12:36,679
+这是第一个问题。
+So that's the first question.
+
+49
+00:12:36,679 --> 00:12:48,902
+假设 $\alpha$ 满足有理系数多项式 $f(x) = 0$， 并且假设 $f(x)$ 是首一且不可约的，
+Suppose $\alpha$ satisfies $f(x)$ with rational coefficients,   and let's assume that $f(x)$ is monic and irreducible,
+
+50
+00:12:48,902 --> 00:13:12,163
+即我们找到了 $\alpha$ 满足的有理系数最低次数多项式（极小多项式），好吗？ 问题是：$\alpha$ 是代数整数吗？这对我们至关重要。
+namely we find the polynomial of least degree that's satisfied by $\alpha$ with rational coefficients, okay?   And the question is: is $\alpha$ an algebraic integer? This will be an important thing for us to decide.
+
+51
+00:13:12,163 --> 00:13:20,798
+显然，若 $f$ 具有整系数，那当然是；但我断言这是充要条件。
+Well, certainly if $f$ has integral coefficients, it is, but I claim that it's if and only if.
+
+52
+00:13:20,798 --> 00:13:51,709
+断言：$\alpha$ 是代数整数，当且仅当 $\alpha$ 满足的有理系数首一不可约多项式 $f(x)$  具有整系数。
+Claim: $\alpha$ is an algebraic integer if and only if the monic irreducible $f(x)$ with rational coefficients   satisfied by $\alpha$ has integral coefficients.
+
+53
+00:13:54,389 --> 00:14:06,509
+你可能会说：“你怎么知道呢？也许它还满足某个其他整系数多项式呢？ 仅仅因为极小多项式不是整系数的，万一还有别的整系数多项式呢？”答案是：绝无可能。
+So you might say, "Well, how do you know that? There could be some other polynomial with integer coefficients that it satisfies,   just because it satisfied that one and that one didn't have integer coefficients, maybe there's some other one?" But the answer is, there isn't.
+
+54
+00:14:06,509 --> 00:14:29,790
+例如，这证明了：1/2 不是代数整数， 它不是代数整数，因为它满足首一不可约多项式 $x - 1/2 = 0$，对吧？
+So for example, this proves... example: 1/2 is not an algebraic integer,   is not an algebraic integer, because it satisfies the following polynomial which is monic and irreducible, right?
+
+55
+00:14:29,790 --> 00:14:33,152
+而该多项式不具有整系数。
+And that polynomial does not have integer coefficients.
+
+56
+00:14:33,152 --> 00:15:03,082
+特别地，任何非整数的有理数都不是代数整数，因此任何有理数 $\alpha$若不是整数就绝不是代数整数。另一个例子：$\alpha = \sqrt{2}/3$ 不是代数整数。
+In particular, any rational number that's not an integer is not, so any $\alpha$ which is in the rationals which is not an integer is not an algebraic integer. Another example: $\alpha = \sqrt{2}/3$ is not an algebraic integer.
+
+57
+00:15:03,082 --> 00:15:16,205
+证明：它满足多项式 $x^2 - 2/9 = 0$，这是首一不可约多项式，但它不具有整系数。
+Proof: it satisfies the polynomial $x^2 - 2/9 = 0$, and that's an irreducible polynomial, monic, but it doesn't have integer coefficients.
+
+58
+00:15:16,205 --> 00:15:26,377
+所以这个判据非常好用，能告诉你哪些是代数整数、哪些不是代数整数。 好的，现在我们来证明这个断言。
+So this is really quite good, it tells you things which are algebraic integers, tells you things that aren't algebraic integers.   Okay, now we're going to prove the claim.
+
+59
+00:15:26,377 --> 00:15:57,219
+好的，设 $g(x)$ 为本原多项式……或者我们把它记作 $f_0(x)$，它是整系数多项式，满足不可约多项式 $f(x)$ 等于其容量乘以 $f_0(x)$。 任何多项式都可唯一写成这种形式，对吧？
+All right, let $g(x)$ be the primitive polynomial... well, maybe let's call it $f_0(x)$, polynomial over $Z$, with our irreducible $f(x)$ being its content times $f_0(x)$.   We can write any polynomial uniquely in that way, right?
+
+60
+00:15:57,219 --> 00:16:08,129
+这是容量，这里是整系数本原多项式，而容量是一个有理数。
+And this is the content, and here is our primitive polynomial with coefficients in the integers, and the content is a rational number.
+
+61
+00:16:08,129 --> 00:16:20,462
+现在 $\alpha$ 显然也满足 $f_0$。问题是 $f_0$ 未必是首一的。
+Okay, now $\alpha$ certainly satisfies $f_0$. The problem is that $f_0$ may or may not be monic, okay?
+
+62
+00:16:20,462 --> 00:16:54,982
+我断言：$\alpha$ 满足的任何整系数多项式 $g(x)$（$g(\alpha) = 0$）都是 $f_0$ 的倍式， 具有形式 $g(x) = f_0(x) q(x)$，其中$q(x) \in Z[x]$。
+I claim that any polynomial satisfied by $\alpha$ over the integers, with $g(\alpha) = 0$, is a multiple of $f_0$,   has the form $g(x) = f_0(x) q(x)$, where this is in $Z[x]$.
+
+63
+00:16:54,982 --> 00:17:17,133
+如果我能证明这一点，原断言就得证了。为什么呢？若 $f(x)$ 具有……若 $f(x)$ 具有整系数，则 $f = f_0$，因为它是首一的，系数的最大公因数是 1；对吧？
+Now if I can prove that, that proves that statement. Because why? If $f(x)$ has... $f(x)$ has integral coefficients, then $f = f_0$, because the GCD of the coefficients is 1, because the thing was monic, correct?
+
+64
+00:17:17,133 --> 00:17:44,082
+若 $f$ 不具有整系数，则 $f \ne f_0$， 因为 $f_0$ 具有整系数，特别是特别是 $f_0$ 的首项系数不等于 1， 因为 $f_0$ 是 $f$ 的标量倍数；若 $f_0$ 是首一的，它就会等于 $f$。
+If $f$ does not have integral coefficients, then $f \ne f_0$,   because in particular this has integral coefficients, in particular we've had to multiply... in particular, $f_0$'s leading coefficient, its first coefficient, is not equal to 1,   because $f_0$ is a scalar multiple of $f$.
+
+65
+00:17:44,082 --> 00:18:00,318
+因此如果 $f(x)$ 不具有整系数，那么 $f_0(x)$的首项就会带有非 1 的系数，比如 $2x^n$ 或 $7x^n$ 之类。
+If $f_0$ were monic, right, it would be equal to $f$.   So if $f(x)$ does not have integral coefficients, then $f_0(x)$ starts off with some coefficient like $2x^n$ or $7x^n$ or something of that nature.
+
+66
+00:18:00,318 --> 00:18:19,200
+而 $f_0$ 的任何整倍式的首项系数也绝不可能是 1， 从而 $\alpha$ 满足的任何整系数多项式都不可能是首一的，因此不可能满足代数整数的条件。
+Well, any multiple of $f_0$ would also start off with the first coefficient that was not monic,   and consequently any polynomial that was satisfied by $\alpha$ would not be monic, so it would not satisfy this condition.
+
+67
+00:18:19,200 --> 00:18:36,919
+所以我们看到：只要能证明 $\alpha$ 满足的任意整系数多项式都是该本原多项式的倍式即可。现在来证明这一点。 这由高斯引理给出。
+All right, so we see that this is true if we can only prove that any polynomial satisfied by $\alpha$ is a multiple of this primitive polynomial. Let's prove that.   Well, we know this always comes from Gauss's lemma.
+
+68
+00:18:36,919 --> 00:19:13,047
+我们知道$g(x) = f_0(x) q(x)$，其中 $q(x)$ 具有有理系数， 因为由 $f$ 生成的理想（亦即由 $f_0$ 生成的理想）正是 $Q[x]$ 中在 $\alpha$ 处取值为 0 的全部多项式构成的理想。
+We know that $g(x) = f_0(x) q(x)$, where $q(x)$ has rational coefficients,   as the ideal generated by $f$, which is the same as the ideal generated by $f_0$, is the full ideal of polynomials in $Q[x]$ vanishing at $\alpha$.
+
+69
+00:19:13,047 --> 00:19:23,223
+$Q[x]$ 中在 $\alpha$ 处取值为 0 的多项式构成主理想， 由 $\alpha$ 满足的不可约多项式 $f(x)$ 生成；
+The polynomials in $Q[x]$ that vanish at $\alpha$ form an ideal,   and it's generated by the irreducible polynomial satisfied by $\alpha$, which is our $f(x)$.
+
+70
+00:19:23,223 --> 00:19:33,791
+它是不可约多项式，因而是 $\alpha$ 满足的次数最低的多项式， 从而生成了在 $\alpha$ 处消失的理想。
+It's an irreducible polynomial, so it's the polynomial of smallest degree satisfied by $\alpha$,   so it generates the ideal of all polynomials vanishing at $\alpha$.
+
+71
+00:19:33,791 --> 00:19:42,400
+于是既然该多项式具有整系数，它当然具有有理系数且属于该理想， 这意味着它等于 $f_0$ 乘上某个有理系数多项式。
+So since this polynomial has got integer coefficients, it certainly has rational coefficients, it's in that ideal,   which means it's a multiple of $f_0$ by some polynomial with rational coefficients.
+
+72
+00:19:42,400 --> 00:19:55,001
+将其写成本原形式， 即写成 $f_0$ 乘以 $q$ 的容量（记为 $d$）再乘以 $q_0$，其中$q_0$ 是本原的。
+Write this in its primitive form,   namely write this as $f_0$ times the content of $q$, let's call it $d$, times $q_0$, where this is now primitive.
+
+73
+00:19:55,001 --> 00:20:13,662
+对任何有理多项式我们都能这样做。 重新组合各项：$d \cdot f_0 \cdot q_0$。由高斯引理，$f_0 \cdot q_0$ 仍是本原多项式，对吧？
+We can do that for any polynomial with rational coefficients.   Regroup the terms, so this becomes $d \times f_0 \times q_0$. By Gauss's lemma, this is a primitive polynomial, right?
+
+74
+00:20:13,662 --> 00:20:18,135
+现在我们得到了 $g$ 表示为容量乘以本原多项式。
+And now we have an expression for $g$ as a content times a primitive polynomial.
+
+75
+00:20:18,135 --> 00:20:39,020
+但 $g$ 本身是整系数多项式，所以它的容量必须是整数，$g(x) \in Z[x]$，容量属于 $Z$， 从而 $q = d \cdot q_0$ 必属于 $Z[x]$。
+But $g$ was supposed to have coefficients in the integers, so its content is an integer, $g(x)$ is in $Z[x]$, the content is in $Z$,   which implies that $q$, which was $d \times q_0$, is in $Z[x]$.
+
+76
+00:20:39,020 --> 00:20:45,390
+因此在有理数域上的因式分解实际上发生在整数环中。
+So the factorization that we know about over the rationals actually takes place over the integers.
+
+77
+00:20:45,390 --> 00:20:53,637
+既然 $f_0$ 具有非首一的首项系数，任何 $f_0$ 的倍式也都具有非首一的首项系数，因而在 $f \ne f_0$ 时，
+And since $f_0$ had a non-monic coefficient, any multiple of $f_0$ has a non-monic coefficient, so there are no monic polynomials
+
+78
+00:20:53,637 --> 00:21:08,001
+$\alpha$ 满足的整系数多项式绝无首一多项式。 好，所以这是判定代数整数的一个强有力判据。
+satisfied by $\alpha$ if $f \ne f_0$.   Okay, so this is a useful test for something being an algebraic integer.
+
+79
+00:21:08,001 --> 00:21:21,250
+现在我们要应用这个判据，首先从拿一根大号粉笔开始。
+And now we're going to apply this test, and we're going to start with a bigger piece of chalk.
+
+80
+00:21:26,229 --> 00:21:54,557
+我们来做个应用：我们要确定所有的代数整数， 即域 $Q(\sqrt{d}) = Q + Q\sqrt{d}$ 中的代数整数，其中 $d$ 是一个整数。
+We're going to do an application: we're going to determine all algebraic integers   in the field $Q(\sqrt{d}) = Q + Q\sqrt{d}$, where $d$ is an integer.
+
+81
+00:21:54,557 --> 00:22:25,705
+不妨假设 $d$ 是无平方因子整数（square-free），因为开方时可以提出平方因子， 其素因数分解只包含素数的 1 次幂，$d$ 中没有平方因子。 若有任何平方因子，在开方时直接提出来即可。
+And we might as well assume, since we're taking square roots and we can modify $d$,   that $d$ is square-free, so its prime factorization only involves primes to the first power, no squares in $d$.   If there are any squares in $d$, you could just pull them out when you're taking the square root anyhow.
+
+82
+00:22:25,705 --> 00:22:36,454
+因此我们从这个域出发，对一个非完全平方数开方， 得到一个优美的域，它在有理数域上的维数是 2。
+So we're going to start with this field, where we take the square root of a non-square,   you get a nice field which has dimension 2 over the rational numbers.
+
+83
+00:22:36,454 --> 00:22:47,892
+这等同于 $Q[x]/(x^2 - d)$， 在有理数域上是 2 维的，它是一个域，因为该多项式不可约。
+This is the same thing as $Q[x]/(x^2 - d)$,   dimension 2 over the rational numbers, it's a field because this polynomial is irreducible.
+
+84
+00:22:47,892 --> 00:23:11,862
+我们将确定这里的哪些元素是代数整数，哪些元素满足整系数…… 我们已知 $Z+ Z\sqrt{d}$ 中的每个元素都是代数整数。
+And we're going to determine which elements here are algebraic integers, which of them satisfy polynomials with...   Now we know that every element of $Z + Z\sqrt{d}$ is an algebraic integer.
+
+85
+00:23:11,862 --> 00:23:20,194
+我马上就给你们证明这种形式的每个元素确实都是代数整数。
+I'm going to show you that right now, that every element of this form is an algebraic integer.
+
+86
+00:23:20,194 --> 00:23:40,809
+但有时我们会得到更多，正如我们在 $\sqrt{-3}$ 的情形所见，会出现一些出乎意料、之前未曾识别出的代数整数。 好的，我们要用刚才的判据，我把判据留在黑板上。
+But sometimes we're going to get more, like we saw for $\sqrt{-3}$, we'll get some surprising algebraic integers that we wouldn't have recognized.   All right, so we're going to use this criterion, so I'll keep it up.
+
+87
+00:23:40,809 --> 00:23:48,429
+首先，为什么形如 $a + b\sqrt{d}$（其中 $a, b$ 为整数）的每个元素都是代数整数？
+First of all, why is everything of the form $a + b\sqrt{d}$, where $a$ and $b$ are integers, an algebraic integer?
+
+88
+00:23:48,429 --> 00:23:53,994
+我必须写出它满足的多项式。
+I have to write down a polynomial it satisfies.
+
+89
+00:23:53,994 --> 00:24:19,864
+$a + b\sqrt{d}$（记为 $\alpha$）满足二次多项式……我把它写成这样：$(x - \alpha)(x - \alpha')$，其中 $\alpha'$ 是 $a - b\sqrt{d}$。
+$a + b\sqrt{d}$, let's call it $\alpha$, satisfies the quadratic polynomial... well, I'll write it like this: $(x - \alpha)(x - \alpha')$, where $\alpha'$ is $a - b\sqrt{d}$.
+
+90
+00:24:19,864 --> 00:24:35,169
+我们来看看为什么这是个……展开后是怎样的。非常漂亮：展开后得到 $x^2 - (\alpha + \alpha')x$， 但如果把$\alpha$ 与 $\alpha'$ 相加，正好得到 $2a$。
+Let's see why that's a... let's see how that works out. It's nice: when you multiply this out, you get $x^2 - (\alpha + \alpha')x$,   but if you add $\alpha$ to $\alpha'$, you just get $2a$.
+
+91
+00:24:35,169 --> 00:25:07,369
+然后常数项是 $\alpha \cdot \alpha'$， 但两者相乘时，根号再次抵消，得到 $a^2 - db^2$。 所以该域中的任何 $\alpha$ 都满足这个具有有理系数的二次多项式，对吧？
+And then you have to multiply $\alpha$ by $\alpha'$,   but if you multiply $\alpha \cdot \alpha'$, the square roots again cancel out, and you get $a^2 - db^2$.   So any $\alpha$ in this field satisfies this quadratic polynomial with rational coefficients, right?
+
+92
+00:25:07,369 --> 00:25:21,570
+因为若在数域中，$a, b$ 是有理数； 若在环中，$a, b$ 是整数。我们注意到该多项式的系数也都是整数，对吧？当然。
+Because if it's in the field, $a$ and $b$ are rational numbers;   if it's in this ring, $a$ and $b$ are integers, and we notice that the coefficients of the polynomial are also integers, right? Sure.
+
+93
+00:25:21,570 --> 00:25:37,430
+任何属于该数域的元素 $\alpha = a + b\sqrt{d}$，意味着 $a$ 和 $b$ 是有理数，都满足这个有理系数二次多项式， 因为系数里已经没有 $\sqrt{d}$ 了。
+Any element $\alpha = a + b\sqrt{d}$ which lies in this field, so means $a$ and $b$ are rational numbers, satisfies this quadratic polynomial with rational coefficients,   because the coefficients don't have $\sqrt{d}$ anymore.
+
+94
+00:25:37,430 --> 00:25:49,662
+我特意选取了 $(x - \alpha)(x - \alpha')$， 虽然在有理数域上不能直接这样分解，这是该多项式在二次域中的因式分解，
+And I've carefully arranged by choosing $(x - \alpha)(x - \alpha')$,   this is a polynomial which you don't think of as over the rational numbers, this is a factorization of the polynomial in that field,
+
+95
+00:25:49,662 --> 00:26:00,890
+但展开后在有理数域上得到一个二次多项式， 它可能可约也可能不可约，但无论如何它都具有有理系数，因为若 $a, b$ 是有理数且 $d$ 是整数，这些系数显然是有理数。
+but over the rational numbers you get a quadratic polynomial,   might be reducible, it might not, but anyhow it has rational coefficients, because if $a$ and $b$ are rational, $d$ is an integer, these are certainly rational numbers.
+
+96
+00:26:00,890 --> 00:26:21,314
+所以每个元素都满足一个有理系数首一多项式。 好，若 $\alpha \in Z[\sqrt{d}]$，它满足整系数多项式。
+So everything satisfies a monic polynomial with rational coefficients.   Okay, if it's in here, right, it satisfies a polynomial with integer coefficients.
+
+97
+00:26:21,314 --> 00:26:45,291
+好，若该多项式是不可约的——顺便说，当 $b \ne 0$ 时它确实是不可约的，因为若 $b \ne 0$，这个数就不是有理数。（有人电话响了）。
+Okay, so if this polynomial is irreducible — and I should say this is irreducible if $b \ne 0$, because if $b \ne 0$, this number is not a rational number. Someone has telephone call.
+
+98
+00:26:45,291 --> 00:26:58,035
+所以若 $b \ne 0$，我们看到这个数是代数整数，当且仅当 $2a$ 是整数且……抱歉，所以对于$b \ne 0$ 的情形，
+So if $b \ne 0$, we see that this number is going to be an algebraic integer only when $2a$ is an integer and this is an... sorry, so for $b \ne 0$,
+
+99
+00:26:58,035 --> 00:27:27,516
+$\alpha$ 是代数整数当且仅当满足两个条件： $2a$ 是整数，且 $a^2 - db^2$是整数。
+$\alpha$ is an algebraic integer if and only if you have the two conditions:   $2a$ is an integer, and $a^2 - db^2$ is an integer.
+
+100
+00:27:28,876 --> 00:27:41,890
+若 $b = 0$，则 $\alpha = a$ 是代数整数当且仅当 $a$ 是整数， 因为此时我们面对的是有理数。
+If $b = 0$, then $\alpha = a$ is an algebraic integer only when $a$ is an integer,   because in that case we have a rational number.
+
+101
+00:27:41,890 --> 00:27:57,948
+若该多项式可约，意味着它有有理根， 而该有理根就是 $\alpha$，并且由前面的论证我们知道，有理数中唯一的代数整数就是整数本身。
+If this polynomial isn't irreducible, that means that it has a rational root,   and the rational root will be $\alpha$, and so we've seen by the previous argument that the only rational numbers that are algebraic integers are the integers.
+
+102
+00:27:57,948 --> 00:28:13,013
+现在仔细想想，这个判据对 $b = 0$ 也同样成立！因为若 $b = 0$，它要求 $a^2$ 必须是整数。 然而有理数 $a$ 的平方为整数的唯一可能就是 $a$ 本身是整数，对吧？
+Now if you think about it, this also works for $b = 0$, because it says if $b = 0$, it says that $a^2$ has to be an integer.   Well, the only way $a^2$ can be an integer is if $a$ is an integer, correct?
+
+103
+00:28:13,013 --> 00:28:26,238
+若 $a$ 的分母含有素因子，当你平方后，该素因子仍然留在分母中。 所以我们现在可以去掉这个条件，或者加个引号，你并不真正需要它。
+If you have a prime in the denominator of $a$, and you square it, you still have that prime in the denominator.   So we can now erase this condition, or just put it in quotes or something, you don't really need it.
+
+104
+00:28:26,238 --> 00:28:38,295
+因此，$\alpha \in Q(\sqrt{d})$ 是代数整数当且仅当它的系数—— 这两个先验为有理数的 $a$ 和 $b$——满足这两个条件。
+So $\alpha$ is an algebraic integer in $Q(\sqrt{d})$ if and only if the coefficients of it,   this $a$ and $b$ which are a priori rational numbers, satisfy these two conditions.
+
+105
+00:28:38,295 --> 00:28:51,059
+如果 $a$ 和 $b$ 都是整数，这当然成立； 但我们可能会得到更多满足该条件的数，现在我们就要找出具体是哪些数。好，现在我们来推导：$a$ 和 $b$ 在何时满足这些条件？
+And that's certainly true if $a$ and $b$ are both integers,   but we may get a little bit more that satisfy that condition, and we're going to now find out what does it. Okay, so now we're going to work out: when do $a$ and $b$ satisfy these conditions?
+
+106
+00:28:51,059 --> 00:28:58,159
+记住，$\alpha = a + b\sqrt{d}$。
+Remember, $\alpha = a + b\sqrt{d}$.
+
+107
+00:29:03,560 --> 00:29:16,746
+分成两种情形：看第一个条件，它要求 $2a$ 是整数。 那么它既可以是偶数，也可以是奇数。
+So the two cases: if you look at the first condition, it says that $2a$ is an integer.   Well, it can either be an even integer or an odd integer.
+
+108
+00:29:16,746 --> 00:29:26,926
+如果是偶数，$a$ 本身就已经是整数。 我们先看这种情形。情形 1：$a$ 是整数。
+If it's an even integer, $a$ was already an integer.   So let's do that case first. Case 1: $a$ is an integer.
+
+109
+00:29:26,926 --> 00:29:52,620
+这意味着 $b^2 d$ 是整数。 我断言这蕴含了 $b^2$ 是整数，因为 $d$ 是无平方因子的。
+Well, that means that $b^2 d$ is an integer.   Now I claim that implies that $b^2$ is an integer, because $d$ is square-free.
+
+110
+00:29:52,620 --> 00:30:02,162
+如果$b$ 的分母含有任何素因子，平方后 $p^2$ 就会在 $b^2$ 的分母中， 而无法被 $d$ 中的一次素因子消去；对吧？
+So if you have any prime in the denominator of $b$, when you squared it, $p^2$ would be in the denominator of $b^2$   and could not be cancelled by the prime in $d$, okay?
+
+111
+00:30:02,162 --> 00:30:11,221
+既然 $b^2$ 是整数，这蕴含了 $b$ 是整数。
+And since $b^2$ is an integer, that implies $b$ is an integer.
+
+112
+00:30:11,221 --> 00:30:21,810
+所以在情形 1 中，当 $a$ 为整数时，$b$ 必为整数，我们就回到了已知是代数整数的那些数，没有发现任何新东西。
+So in Case 1, when $a$ is an integer, $b$ is an integer, and we're just back to the numbers that we already knew were algebraic integers, nothing new was found.
+
+113
+00:30:21,810 --> 00:30:45,998
+因为这是整数，一旦 $a$ 是整数，$a^2$ 就是整数……抱歉，因为 $a^2 - db^2$ 是整数，所以 $db^2$ 必是整数，好吗？
+Because this is an integer, once $a$ is an integer, $a^2$ is an integer... sorry, since $a^2 - db^2$ is an integer, then $db^2$ is an integer, okay?
+
+114
+00:30:45,998 --> 00:30:52,480
+我们结合了这两个条件。好，现在我们来看第二种情形，这有趣得多。
+We're combining the two conditions. All right, now we're going to do the second one, this is much more amusing.
+
+115
+00:30:59,291 --> 00:31:12,950
+情形 2：$a \in \frac{1}{2}\mathbb{Z} \setminus \mathbb{Z}$，即 $2a$ 是奇数。
+Case 2: $a \in \frac{1}{2}\mathbb{Z} \setminus \mathbb{Z}$, i.e., $2a$ is an odd integer.
+
+116
+00:31:12,950 --> 00:31:37,080
+这里 $a$ 不是整数，但 $2a$ 是整数，对吧？ 我们记 $2a = m$，记住它是奇数。于是得到 $a^2 = \frac{1}{4}m^2$。
+So here $a$ wasn't an integer, but $2a$ was, okay?   So let's write $m$: $2a = m$, remember it's odd. So then I get $a ^2 = \frac{1}{4}m^2$, okay?
+
+117
+00:31:37,080 --> 00:32:14,595
+因此 $4a^2$ 是整数，从而得到 $4db^2$ 是一个整数，所以我可以把 $db^2$ 记作 $\frac{1}{4}n$。
+Therefore $4a^2$ is an integer, so I find $4db^2$ is an integer, so I can write $db^2$ as $\frac{1}{4}n$, I think that's the notation I want to do.
+
+118
+00:32:14,595 --> 00:32:42,930
+我断言这个 $n$ 必是奇数，理由是：$4a^2$ 是整数，且 4 乘以两项之差是整数， 这表明 $4db^2$ 是整数，从而$db^2$ 是某个整数除以 4。
+And I claim that this $n$ is an odd integer, and the reason is: well, $4a^2$ is an integer, so since 4 times this difference is certainly an integer,   that shows that $4db^2$ is an integer, so $db^2$ is an integer divided by 4.
+
+119
+00:32:42,930 --> 00:33:00,465
+但我断言该整数 $n$ 必须是奇数，理由是它们的差必须是整数，而这里是某个奇数平方的 $\frac{1}{4}$， 减去此项后必须得到整数。
+But I claim that that integer $n$ has to be an odd integer, and the reason is that this difference has to be an integer, and here I have $\frac{1}{4}$ of some odd square,   and I have to subtract off this to get an integer.
+
+120
+00:33:00,465 --> 00:33:07,822
+若 $n$ 是偶数，这项就只是 $1/2$ 乘以某数， 就无法消去分母上的 4，对吧？
+Now if $n$ were even, this would just be $1/2$ times something,   and I'd have nothing to cancel the 4 in the denominator, right?
+
+121
+00:33:07,822 --> 00:33:20,432
+如果比如 $n$ 能被 4 整除，此项成了整数， 两数相减绝不可能得到整数，因为前项分母带 4，绝非整数；因此后项分母也必须是 4，这意味着 $n$ 必须是奇数。
+If this were... if for example $n$ were divisible by 4, so this was actually an integer,   then you couldn't subtract this and get an integer, because this is certainly not an integer, it's got 4 in the denominator.
+
+122
+00:33:20,432 --> 00:33:54,459
+好，现在我断言：这意味着$d$ 是整数，但 $b$ 呢？我断言这意味着 $b$ 是……我想想怎么写。
+So this also has to have 4 in the denominator, which means that $n$ has to be odd.   Okay, now I claim that means that $d$ is an integer, but we don't know about $b$. I claim that means that $b$ is... hmm, how do I want to write this.
+
+123
+00:33:54,459 --> 00:34:05,650
+这样写吧：$b = \frac{1}{2}n_0$，其中 $n_0$ 是奇数。
+All right, why not: $b = \frac{1}{2}n_0$, with $n_0$ an odd integer.
+
+124
+00:34:05,650 --> 00:34:15,213
+看，$d$ 是整数，所以它分母带 4 的唯一可能就是 $b$ 的分母带有 2，从而 $b^2$ 的分母带有 4。
+See, $d$ is an integer, so the only way this could have a 4 in the denominator is if $b$ had a 2 in the denominator, $b^2$ would then have a 4 in the denominator.
+
+125
+00:34:15,213 --> 00:34:21,607
+$b$ 的分母只能恰好是 2，既不能是整数，也不能有其他素因子。
+$b$ has to have exactly 2 in the denominator, can't be an integer and can't have anything else.
+
+126
+00:34:21,607 --> 00:34:32,348
+因此 $b$具有形式 $\frac{1}{2}n_0$，其中 $n_0$ 为奇数。我们还没完，我们还没完， 因为我们还必须检验这个差确实是整数。
+And so $b$ is of the form $\frac{1}{2}n_0$, with $n_0$ an odd integer. We're not done yet, we're not done yet,   because we still have to check that this thing is an integer.
+
+127
+00:34:32,348 --> 00:34:49,906
+我们把它写下来：$a^2$ 是 $\frac{1}{4}m^2$， 所以 $a^2 - db^2$ 是 $\frac{1}{4}m^2- d \cdot \frac{1}{4}n_0^2$，
+So let's write down what that looks like: $a^2$ is $\frac{1}{4}m^2$,   so $a^2 - db^2$ is $\frac{1}{4}m^2 - d \times \frac{1}{4}n_0^2$, and that has to be an integer.
+
+128
+00:34:49,906 --> 00:35:19,720
+这必须是整数。换句话说，$\frac{1}{4}(m^2 - d n_0^2)$必须是整数，这意味着里面的数必须能被 4 整除： $m^2 - d n_0^2 \equiv 0 \pmod 4$。
+In other words, $\frac{1}{4}(m^2 - d n_0^2)$ must be an integer, which means that this number in here has to be divisible by 4:   $m^2 - d n_0^2 \equiv 0 \pmod 4$.
+
+129
+00:35:19,720 --> 00:35:48,575
+这是最终条件。现在看：$m$ 是奇数，所以其平方模 4 余 1； $n_0$ 同样如此。这表明你必须有 $d \equiv 1 \pmod 4$！
+That's our final condition. Now look at this: $m$ is an odd number, so its square is congruent to 1 mod 4;   same thing with $n_0$. So this shows that you have to have $d \equiv 1 \pmod 4$!
+
+130
+00:35:48,575 --> 00:36:07,030
+确实，并非对任意 $d$ 都能成立： 能产生额外代数整数（即 $a$ 和 $b$ 不全为整数）的唯一途径，就是 $a$ 为半整数、$b$ 为半整数， 且 $d \equiv 1 \pmod 4$。
+Really, you can't do this for every $d$:   the only way you can get extra algebraic integers where $a$ and $b$ are not both integers, would be to have $a$ a half-integer, $b$ a half-integer,   and $d$ congruent to 1 mod 4.
+
+131
+00:36:16,639 --> 00:36:39,169
+这就行得通了，这也正是我们之前所看例子的情形：$(-1 + \sqrt{-3})/2$ 这个数， 其中 $a$是 -1/2，$b$ 是 1/2，$d$ 是 -3，而 -3 模 4 确实同余于 1。
+That works, and that's what happened in the case that we looked at: this number $(-1 + \sqrt{-3})/2$,   this is the case where $a$ was -1/2, and $b$ was 1/2, and $d$ was -3, and -3 is congruent to 1 mod 4.
+
+132
+00:36:39,169 --> 00:36:56,934
+所以若满足所有这些条件且 $d \equiv 1 \pmod 4$，你就能使 $2a$ 与 $a^2 - db^2$ 都为整数， 而无需 $a$ 和 $b$本身是整数，从而得到了额外的代数整数。
+So if you have all these conditions and $d$ is 1 mod 4, then you can arrange this to be an integer and this to be an integer   without both $a$ and $b$ being integers, so you get extra algebraic integers.
+
+133
+00:36:56,934 --> 00:37:28,160
+好的，让我们整理并总结一下目前的结论。我们到这边黑板来。这是我们的总结：设 $d$ 为无平方因子整数。
+All right, so let us regroup and summarize what we've got. Let's go over here. So here's our summary: $d$ is a square-free integer.
+
+134
+00:37:28,160 --> 00:37:53,130
+代数整数环为：(1) 若 $d \equiv 2$ 或 $3 \pmod 4$——顺便说，$d$ 不可能被 4 整除，因为它是无平方因子的，对吧？ 若被 4 整除就含有 $2^2$；因此模4 的余数只能是 1、2 或 3。
+So the algebraic integers: (1) if $d \equiv 2$ or $3 \pmod 4$ — by the way, $d$ can't be divisible by 4 because it's square-free, right?   If it were divisible by 4, it's got $2^2$ in it, so the remainder after division by 4 is either 1, 2, or 3.
+
+135
+00:37:53,130 --> 00:38:10,690
+若 $d \equiv 2$ 或 $3 \pmod 4$， 则 $Q(\sqrt{d})$ 中的代数整数构成环 $Z +Z\sqrt{d}$，这很简洁。
+If it's 2 or 3 mod 4,   then the algebraic integers in $Q(\sqrt{d})$ form the ring $Z + Z\sqrt{d}$, that was simple.
+
+136
+00:38:10,690 --> 00:38:38,298
+(2) 若 $d \equiv 1 \pmod 4$， 则 $Q(\sqrt{d})$ 中的代数整数构成更大的环：
+(2) If $d$ is congruent to 1 mod 4,   the algebraic integers in $Q(\sqrt{d})$ form the larger ring,
+
+137
+00:38:38,298 --> 00:38:53,060
+$Z + Z \cdot \frac{1 + \sqrt{d}}{2}$， 因为在这种情形下$a$ 和 $b$ 是半整数，对吧？
+$Z + Z \times \frac{1 + \sqrt{d}}{2}$,   because this is in a case where $a$ and $b$ are half-integers, right?
+
+138
+00:38:53,060 --> 00:39:02,181
+将此元素乘以 2 并减 1 就能得到元素 $\sqrt{d}$，所以你能得到情形 1 中的所有元素。
+And if you multiply this by 2, you can get the element $\sqrt{d}$, so you can get all the things in Case 1.
+
+139
+00:39:02,181 --> 00:39:08,745
+因此只要添加这个代数整数元， 你就得到了完整的代数整数大环。
+So if you just adjoin this element, which is an algebraic integer,   then you get the full... you get the large ring of algebraic integers.
+
+140
+00:39:08,745 --> 00:39:22,430
+所以在多数情况下，你得到的正如你所预期的：1 和 $\sqrt{d}$ 的整数线性组合；但在 $d \equiv 1 \pmod 4$ 时，你会得到一个稍大一点的代数整数环。这就是我们刚才证明的结论，好。
+So in most cases you just get exactly what you thought you'd get: the simple integer multiples of 1 and $\sqrt{d}$, but when $d$ is 1 mod 4, you get a slightly larger ring of algebraic integers. That's what we've now shown, okay?
+
+141
+00:39:22,430 --> 00:39:39,979
+现在事实证明：最好不要用这个无平方因子整数 $d$ 来为这些环编索引； 最好用所添加元素满足的不可约多项式的判别式来编索引。
+Now it turns out that it's best not to index these rings by this square-free integer $d$;   it's best to index it by the discriminant of the irreducible polynomial satisfied by the element that you're adjoining.
+
+142
+00:39:39,979 --> 00:39:57,579
+我们来看看不可约多项式是什么。请讲？也就是说，看起来我们现在为每个无平方因子整数都得到了一个环，对吧？
+So let's see what the irreducible polynomials are. Yes? Well, namely it looks like we've got a ring now for every square-free integer, right?
+
+143
+00:39:57,579 --> 00:40:01,049
+它类似于高斯整数环——对应于 $d = -1$ 的情形。
+Which is analogous to the Gaussian integers, which would be the case $d = -1$.
+
+144
+00:40:01,049 --> 00:40:10,379
+现在对每个无平方因子整数，$\sqrt{2}$，$\sqrt{7}$，$\sqrt{-7}$，我们都有了一个环。
+Now for every square-free integer, $\sqrt{2}$, and you know, $\sqrt{7}$, $\sqrt{-7}$, we have now a ring.
+
+145
+00:40:10,379 --> 00:40:19,410
+有时它是较小的平凡环，有时我们得到更大的环。所以我本可以说这些环由数字 $d$ 编索引， 即对每个 $d$ 都有一个环。
+Sometimes it's the smaller ring, and occasionally we get this larger ring. So I could say that ring was indexed by the number $d$,   namely for every $d$ I had such a ring.
+
+146
+00:40:19,410 --> 00:40:51,414
+但事实证明我想使用一个稍有不同的不变量，它是 $d$ 的倍数，你们马上就会看到。请讲？我该怎么记？噢，就叫……你想给环起个名字？叫它 $R$ 吧，对，可以记作环 $R$，如何？
+But it turns out there's a slightly different invariant that I want to use, it's a multiple of $d$, which you're going to see. Yeah? How would I write this? Oh, just call... I don't know, you mean you want a name for the ring? Call it $R$, yeah, I mean it could be the ring $R$, how's that?
+
+147
+00:40:51,414 --> 00:40:56,100
+然后把这个数域记作 $F$，或许可以把环记作 $R_d$ 之类的，行。
+And then we could call this field $F$, so I could call this $R_d$ maybe or something like that, okay?
+
+148
+00:40:56,100 --> 00:41:03,420
+但我刚才说的是：我想用不同于 $d$ 的量来编索引。这是你的问题吗？
+But I want to use something different than $d$ to index it, that's what I just was saying. Is that... was that your question?
+
+149
+00:41:03,420 --> 00:41:07,280
+好，你需要一个符号：从现在起，它就叫做 $R$。
+Okay, do you need... you need a name for it: from now on it's called $R$.
+
+150
+00:41:07,280 --> 00:41:35,965
+好，现在 $\sqrt{d}$ 满足的多项式是 $x^2 - d$。 它的判别式……对于一般的二次多项式，判别式是 $b^2 - 4ac$，对吧？
+Okay, now the polynomial satisfied by $\sqrt{d}$ is this polynomial $x^2 - d$.   Its discriminant... for a general quadratic polynomial the discriminant is $b^2 - 4ac$, right?
+
+151
+00:41:35,965 --> 00:41:44,060
+这里的判别式正好是 $4d$，对吧？
+The discriminant here would just be $4d$, correct?
+
+152
+00:41:44,060 --> 00:42:03,515
+好，现在来看 $(1 + \sqrt{d})/2$ 满足的多项式，这更有意思。
+Okay, now the polynomial satisfied by $(1 + \sqrt{d})/2$, let's take a look at that polynomial,   that's more interesting.
+
+153
+00:42:03,515 --> 00:42:20,676
+它形如 $x^2 - x +$，然后必须将其乘以其共轭， 得到 $(1 - d)/4$。
+That looks like $x ^2 - x +$, and then you have to multiply this by its conjugate,   and that gives you, I believe, $(1 - d)/4$.
+
+154
+00:42:20,676 --> 00:42:39,400
+这看起来不像是整系数多项式，但它确实具有整系数， 因为别忘了 $d$ 模 4 余 1，所以这里的差能被 4 整除，所以它具有整系数。它的判别式是多少？
+Now that doesn't look like it has integer coefficients, but in fact it has integer coefficients,   because remember this $d$ left a remainder of 1 after division by 4, so this difference is divisible by 4, so that's got integer coefficients. What's its discriminant?
+
+155
+00:42:43,880 --> 00:42:51,410
+它的判别式是多少？你要算 $b^2 - 4ac$。 $b^2$ 是 1，对吧？
+Well, what's its discriminant? Well, you have to take $b^2 - 4ac$.   So $b^2$ is 1, right?
+
+156
+00:42:51,410 --> 00:43:03,695
+减去 4 倍常数项即 $-(1 - d)$，判别式正好就是 $d$，而不是 $4d$！ 我们将用这个数来为这些环编索引。
+Minus 4 times this, which is $-(1 - d)$, well, its discriminant just turns out to be $d$, not $4d$!   And we're going to use that number to index the rings.
+
+157
+00:43:03,695 --> 00:43:17,046
+所以我们把这里的判别式记作大写 $D$，把那里的判别式也记作大写 $D$。 第一种情形判别式是 $4d$，第二种情形判别式就是 $d$。
+So we're going to call this capital $D$, and we're going to call this capital $D$.   So here the discriminant is $4d$, and here the discriminant is just $d$.
+
+158
+00:43:17,046 --> 00:43:23,191
+正是这个数、这个整数，我们要用来为这些环编索引。
+And it's this number, it's this integer we're going to use to index these rings.
+
+159
+00:43:23,191 --> 00:43:59,006
+注意这个数不一定是无平方因子的，但它满足以下性质：该判别式具有如下性质——你们得多算算才能体会为什么用大写 $D$ 来编索引更好—— 但 $D$ 满足以下性质：(A) 它是一个模 4 同余于 0 或 1 的整数。
+So notice this number is not always square-free, but it has the following property: the discriminant has the property — and again, you have to do this a little bit to realize why it's better to go to this capital $D$ to index things —   but $D$ has the following properties: (A) It's an integer which is congruent either to 0 or 1 mod 4.
+
+160
+00:43:59,006 --> 00:44:08,822
+你看，在此情形下它模 4 余 1，而在那种情形下它模 4 余 0，对吧？
+You see, in this case it's congruent to 1 mod 4, and in this case it's congruent to 0 mod 4, right?
+
+161
+00:44:08,822 --> 00:44:36,886
+且 (B) 在满足条件 (A) 的前提下，$D$ 尽可能无平方因子，即唯一平方能整除它的素数只有 2。
+And (B) $D$ is as square-free as possible given condition (A), as square-free as possible given condition (A), namely the only prime such that the second power can divide it is 2.
+
+162
+00:44:36,886 --> 00:44:44,955
+原因是：第一种情形下你必须让判别式能被 4 整除。
+And the reason is you have to arrange in the first cases for the discriminant to be divisible by 4.
+
+163
+00:44:44,955 --> 00:44:57,046
+你看，$d$ 本身不能被 4 整除；在 $d \equiv 2 \pmod 4$ 时你会发现判别式大写 $D$ 能被 8 整除；而在 $d \equiv 3 \pmod 4$ 时它恰好能被 4 整除； 但绝没有其他素数的平方能整除判别式。
+You see, these things aren't divisible by 4; in this case you'll find the discriminant, the capital $D$, is divisible by 8, and in this case you'll find it's exactly divisible by 4,   but no other prime's square can divide the discriminant.
+
+164
+00:44:57,046 --> 00:45:04,404
+我们将按照判别式大写 $D$ 来列出这些环。
+And we're going to list these rings according to their discriminants, capital $D$.
+
+165
+00:45:04,404 --> 00:45:13,969
+我给你们列举一些例子，所以很容易只需遍历模 4 余 0 或 1 的数，找出在条件 (A) 下尽可能无平方因子的数。
+So I'll give you the examples, so it's very easy to just go through the numbers which are 0 and 1 mod 4, and see the ones that are as square-free as possible given this condition (A).
+
+166
+00:45:13,969 --> 00:45:33,288
+若 $D < 0$，我们称 $R$ 为虚二次环；若 $D > 0$，称 $R$ 为实二次环。
+So if $D < 0$, you say $R$ is an imaginary quadratic ring; and if $D > 0$, you say $R$ is a real quadratic ring.
+
+167
+00:45:33,288 --> 00:45:49,360
+引入虚和实的原因在于：若对正数开平方，在实数范围内就能完成； 而若对负数开平方，就必须用到虚数。
+And the reason imaginary and real come in is if you're taking the square root of a positive number, then you can do it in the real numbers;   and if you're taking the square root of a negative number, you have to use the imaginary numbers.
+
+168
+00:45:49,360 --> 00:46:12,062
+所以我来列出满足该条件且小于 0 的 $D$ 值：-3, -4, -7, -8,-11, -12……-12 能列入吗？它能被 4 整除，但若除以 4 得到 -3，
+So let me list the $D$'s which are less than 0 that satisfy this condition: -3, -4, -7, -8, -11, -12... does -12 get listed? Well, it's divisible by 4, but if I divide it by 4, I get -3,
+
+169
+00:46:12,062 --> 00:46:29,338
+它已经是一个合法的判别式，所以在条件 (A) 下它不是尽可能无平方因子的，因此它不是基本判别式。 所以下一个是 -15。再下一个呢？
+which is a permissible discriminant, so it's not as square-free as possible given condition (A), so it's not a discriminant.   So the next one becomes -15. Then what is next?
+
+170
+00:46:29,338 --> 00:46:33,984
+-16 行吗？不行，-16 不行，因为除以 4 得到 -4，已经在列表里了。 所以它不在列表中。
+Is -16 good? No, -16 is no good, because if I divided it by 4, I get something here (-4).   So that's not in the list.
+
+171
+00:46:33,984 --> 00:46:49,463
+接下来是-19, -20……当然，-20 能被 4 整除，但若除以 4 得到 -5， 不满足条件 (A)（-5 ≡ 3 mod 4，判别式应为 4d = -20），所以 -20 是尽可能无平方因子的。
+Then I get -19, -20... sure, -20 is divisible by 4, but if I try to divide it out by 4,   it doesn't satisfy this condition, because I get -5, so it is as square-free as possible.
+
+172
+00:46:49,463 --> 00:46:53,189
+然后是 -23, -24 等等。 以上就是所有负数判别式。
+Then -23, -24, and so on.   So you've got all those negative numbers.
+
+173
+00:46:53,189 --> 00:47:16,941
+而对于 $D > 0$，得到的环满足……顺便提一下，这就是高斯整数环，-4 对应 $Z[i]$，对吧？ 因为 $i^2 = -1$，所以判别式是 -4。-3 这个环则是欧拉发现的环 $Z[x]/(x^2 + x + 1)$。
+And for $D > 0$, you get the rings where... By the way, this is the Gaussian integers, this one is $Z[i]$, right?   Because $i^2 = -1$, so the discriminant would be -4. This one is the ring that Euler discovered, $Z[x]/(x^2 + x + 1)$.
+
+174
+00:47:18,644 --> 00:47:30,390
+对于 $D > 0$，第一个合法的判别式是 5，因为 4不行；接下来是 8，因为 8 ≡ 0 (mod 4)；9 是完全平方数，所以不行；
+For $D > 0$, the first good discriminant is 5, because 4 doesn't work; 8, because 8 is 0 mod 4; 9 is a square, so that's no good;
+
+175
+00:47:30,390 --> 00:47:50,147
+所以接下来是 12, 13, 17；20 是 $4 \times 5$，所以不行； 然后是 21；接着是 24……24 在这里行吗？
+so the next one is 12, 13, 17; 20 is $4 \times 5$, so it doesn't work;   so then 21; then 24... does 24 work here?
+
+176
+00:47:50,147 --> 00:48:06,455
+$4 \times 6$，行，24 可以；28 是 $4 \times 7$，所以也行；29…… 所以你可以把模 4 余 0 或 1 的数都列出来，
+$4 \times 6$, yeah, 24 works, 28 ($4 \times 7$, so that's fine), 29...   So you can make a listing of the numbers congruent to 0 or 1 mod 4 that are as square-free as possible,
+
+177
+00:48:06,455 --> 00:48:16,233
+只要在条件 (A) 下尽可能无平方因子，对于每一个这样的数我们都得到一个环。 环就在这里。
+and for every one of these numbers we get a ring, we get a ring.   And the ring is here.
+
+178
+00:48:16,233 --> 00:48:28,056
+因此存在无穷多个与高斯整数环类似的环， 现在我们有幸可以把玩它们，而且要在学期结束前一直研究它们。
+So there are an infinite number of rings that are analogous to the Gaussian integers,   and we now have the fun of playing with them, and we're going to play with them until the end of term.
+
+179
+00:48:28,056 --> 00:48:34,853
+我得说，你甚至可以花上一辈子的时间来研究这些环——确实有人这么做！ 我是说，这真是极其严肃深邃的学问。
+Now I should say that you could spend the rest of your life playing with these rings — people do!   I mean, this is, this is serious stuff.
+
+180
+00:48:34,853 --> 00:48:46,662
+例如，高斯曾提出的一个重大问题——一个极其重大的问题是： 这些环中哪些具有性质：其中的每个理想都是主理想？
+So for example, a big question which Gauss asked, a huge question which Gauss asked,   is: which of these rings have the property that every ideal in them is principal?
+
+181
+00:48:46,662 --> 00:48:54,280
+每个理想都是主理想。 高斯整数环满足该性质，我们可以把它圈出来；-3 对应欧几里得环，我们也可以圈出来，好。
+Every ideal is principal.   The Gaussian numbers did, so we can circle this. This is a Euclidean ring, we can circle that, okay.
+
+182
+00:48:54,280 --> 00:49:16,157
+在这份列表中，高斯做出了非常敏锐的猜测， 他猜想：这个、这个、这个、这个、这个、这个（-3, -4, -7, -8, -11），还有 -19，以及另外三个：-43、-67 和 -163—
+So on this list Gauss made a very good guess,   and he guessed that this one, this one, this one, this one, this one, this one, and -19, and three more: -43, -67, and -163 —   one, two,
+
+183
+00:49:16,157 --> 00:49:30,270
+— 一、二、三、四、五、六、七、八、九——这九个环具有每个理想都是主理想的性质（类数 h=1），而其余的都没有！这在 20 世纪 60 年代得到了最终证明（贝克-斯塔克定理）。
+three, four, five, six, seven, eight, nine — those nine rings had the property that every ideal was principal, and the others didn't! That was proved in the 1960s.
+
+184
+00:49:30,270 --> 00:49:42,467
+好，高斯还猜测：在这些正判别式的环中， 有无穷多个环满足每个理想都是主理想。
+All right, Gauss also guessed that of these rings, the ones with positive discriminants,   there were an infinite number that had the property that every ideal was principal.
+
+185
+00:49:42,467 --> 00:49:49,739
+他无法指出是哪些，但断言有无穷多个。这至今仍未被完全证明！
+He couldn't say which ones, but there were an infinite number. That still has never been shown!
+
+186
+00:49:49,739 --> 00:49:56,944
+事实上在统计意义上，这些实二次环中大约 97%按概率都应该具有主理想整环性质， 然而至今没人能证明哪怕存在无穷多个！
+In fact, of these rings, in some sense about 97% of them should have this principal ideal property statistically,   and no one can prove that there are even an infinite number!
+
+187
+00:49:56,944 --> 00:50:08,040
+所以这就是我所说的：它至今仍是数学界活跃研究的热门前沿。 因此我们将把注意力聚焦于虚二次环的情形。
+So that's what I mean about this being now a subject which is actively investigated mathematically.   So we're going to focus our attention on this case: the imaginary quadratic rings.
+
+188
+00:50:08,040 --> 00:50:17,330
+它们容易得多，理由我马上讲……我就先告诉大家为什么它们更容易，然后下次课我们接着讲。
+They're much easier, for a reason I'm now going... well, I'll just tell you why they're easier, and then we'll pick up with this next time.
+
+189
+00:50:22,710 --> 00:50:30,310
+在开始研究理想、主理想等等之前，关于一个环你首先想知道的是： 单位群（可逆元群）是什么？
+So the first thing you want to know about rings before you start doing ideals and principal ideals and everything,   is: what is the unit group?
+
+190
+00:50:30,310 --> 00:50:40,328
+单位群是什么？在高斯整数中，我们发现单位群是由 $i$ 生成的 4 阶有限群。
+What is the unit group? So in the Gaussian integers, we found the unit group was a finite group of order 4 generated by $i$.
+
+191
+00:50:40,328 --> 00:50:54,439
+所以若 $D < 0$，单位群是有限群：$D = -4$ 时为 4 阶，$D < -4$ 时只有 2 阶。
+So if $D < 0$, the unit group is a finite group: for $D = -4$ it's order 4, and for $D < -4$ it has order 2.
+
+192
+00:50:54,439 --> 00:51:00,860
+事实上在这种情形下，$R^\times$ 与 $Z^\times$ 相同，就是 $\pm 1$。
+In fact, in this case, $R^\times$ is the same thing as $Z^\times$, which is $\pm 1$.
+
+193
+00:51:00,860 --> 00:51:24,234
+因此虚二次环的单位群极易确定；下次课我将从这里讲起。 然而在实二次环的情形下，$R^\times$ 永远是无穷群，永远都是！
+So the units are very easy to determine in the imaginary quadratic case, and I'm going to start with that next time.   However, in the real quadratic case, $R^\times$ is an infinite group, always, always!
+
+194
+00:51:24,234 --> 00:51:34,710
+所以单单是单位群的处理就极为棘手， 这实际上让判断理想是否为主理想等各类问题变得异常复杂。
+So already the units are a difficult situation to deal with,   and in fact that complicates all kinds of questions of deciding whether ideals are principal or not.
+
+195
+00:51:34,710 --> 00:51:43,324
+在实二次的每种情形中，单位群都是无穷群； 而在虚二次的所有情形中，一旦离开这两种，除了普通整数中已有的单位$\pm 1$ 外，你不会得到任何新的单位。
+In every one of these cases, the units are an infinite group;   in all of these cases, once you leave these two, you don't get any more units than you had already in the integers.
+
+196
+00:51:43,324 --> 00:51:56,751
+我们下次课就从这里开始， 接下来的三讲将深入研究虚二次代数整数环的理想理论。
+So we'll start with that next time,   and the next three lectures are going to be an investigation of the ideal theory of these rings of imaginary quadratic integers.
+
+197
+00:51:56,751 --> 00:52:00,886
+好的，下课。
+Okay, good.

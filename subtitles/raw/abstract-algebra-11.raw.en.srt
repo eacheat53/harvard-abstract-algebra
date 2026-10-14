@@ -1,0 +1,3320 @@
+1
+00:00:11,920 --> 00:00:18,560
+then we're going to cover that material
+
+2
+00:00:15,320 --> 00:00:20,960
+on Friday review it on Monday and then
+
+3
+00:00:18,560 --> 00:00:25,100
+there's a midterm next Wednesday in
+
+4
+00:00:20,960 --> 00:00:27,080
+class October 15th so one hour mid
+
+5
+00:00:25,100 --> 00:00:29,690
+actually we don't have class next Monday
+
+6
+00:00:27,080 --> 00:00:32,210
+that's the whole point right next Monday
+
+7
+00:00:29,690 --> 00:00:33,890
+is a holiday so I was a little confused
+
+8
+00:00:32,210 --> 00:00:35,870
+this material will be covered Friday
+
+9
+00:00:33,890 --> 00:00:38,570
+that will be all the material that we
+
+10
+00:00:35,870 --> 00:00:39,800
+have on the exam we have a midterm next
+
+11
+00:00:38,570 --> 00:00:42,320
+week on Wednesday
+
+12
+00:00:39,800 --> 00:00:44,750
+it's an hour during class time close
+
+13
+00:00:42,320 --> 00:00:46,519
+book all the assigned materials so all
+
+14
+00:00:44,750 --> 00:00:50,570
+the material in groups all the material
+
+15
+00:00:46,519 --> 00:00:55,010
+on vector spaces Peter will have revised
+
+16
+00:00:50,570 --> 00:00:56,269
+office hours Tuesdays 5:37 p.m. so in
+
+17
+00:00:55,010 --> 00:00:58,370
+particular that will be the Tuesday
+
+18
+00:00:56,269 --> 00:01:00,290
+before the exam so you can come in that
+
+19
+00:00:58,370 --> 00:01:02,140
+will probably go from 5:30 to 11:00 p.m.
+
+20
+00:01:00,290 --> 00:01:04,850
+but never mind
+
+21
+00:01:02,140 --> 00:01:08,000
+remember that there's no class Monday
+
+22
+00:01:04,850 --> 00:01:09,470
+because of Columbus Day now here's an
+
+23
+00:01:08,000 --> 00:01:11,930
+interesting phenomenon about the
+
+24
+00:01:09,470 --> 00:01:15,020
+add/drop datas which is you know usually
+
+25
+00:01:11,930 --> 00:01:18,140
+the fifth Monday vus of the term this
+
+26
+00:01:15,020 --> 00:01:20,270
+year it's Tuesday which is a day before
+
+27
+00:01:18,140 --> 00:01:21,830
+the hour exam so we tried to move the
+
+28
+00:01:20,270 --> 00:01:23,660
+hour exam up so you'd have an idea
+
+29
+00:01:21,830 --> 00:01:25,250
+before the add/drop deadline it was just
+
+30
+00:01:23,660 --> 00:01:26,540
+impossible to do so but you should have
+
+31
+00:01:25,250 --> 00:01:28,190
+a pretty good idea while you're
+
+32
+00:01:26,540 --> 00:01:33,050
+preparing for the hour exam how you're
+
+33
+00:01:28,190 --> 00:01:35,540
+doing okay good so I will announce this
+
+34
+00:01:33,050 --> 00:01:37,640
+again on Friday there's also a midterm
+
+35
+00:01:35,540 --> 00:01:41,930
+coming up for the people taking this
+
+36
+00:01:37,640 --> 00:01:48,110
+course online that takes place Tuesday
+
+37
+00:01:41,930 --> 00:01:50,480
+October 14th hi people online okay let's
+
+38
+00:01:48,110 --> 00:01:52,010
+go back and go over some of the material
+
+39
+00:01:50,480 --> 00:01:56,300
+that Peter covered because this business
+
+40
+00:01:52,010 --> 00:01:58,970
+with vector spaces Basie's linear
+
+41
+00:01:56,300 --> 00:02:01,580
+operators and matrices is just
+
+42
+00:01:58,970 --> 00:02:09,440
+fundamental allows us to gives us a lot
+
+43
+00:02:01,580 --> 00:02:11,750
+of good examples and so remember chapter
+
+44
+00:02:09,440 --> 00:02:13,909
+4 is not about vector spaces but about
+
+45
+00:02:11,750 --> 00:02:18,040
+linear operators so V and W in this
+
+46
+00:02:13,909 --> 00:02:21,310
+lecture will be finite dimensional
+
+47
+00:02:18,040 --> 00:02:24,880
+vector spaces over
+
+48
+00:02:21,310 --> 00:02:26,650
+the field app and again we want to see
+
+49
+00:02:24,880 --> 00:02:28,750
+what we can do about vector spaces over
+
+50
+00:02:26,650 --> 00:02:31,450
+any field not necessarily the real
+
+51
+00:02:28,750 --> 00:02:33,040
+numbers of the complex numbers and in
+
+52
+00:02:31,450 --> 00:02:39,550
+this lecture of the know T to be a
+
+53
+00:02:33,040 --> 00:02:43,780
+linear operator from V to W so that's
+
+54
+00:02:39,550 --> 00:02:45,940
+just a homomorphism in the language of
+
+55
+00:02:43,780 --> 00:02:48,069
+vector spaces it preserves the addition
+
+56
+00:02:45,940 --> 00:03:00,430
+and it preserves the scalar
+
+57
+00:02:48,069 --> 00:03:03,010
+multiplication so a famous linear
+
+58
+00:03:00,430 --> 00:03:05,370
+operator and in one sense the the basis
+
+59
+00:03:03,010 --> 00:03:08,380
+of the theory of linear operators is
+
+60
+00:03:05,370 --> 00:03:11,350
+differentiation so if our first vector
+
+61
+00:03:08,380 --> 00:03:16,239
+space were for example the polynomials
+
+62
+00:03:11,350 --> 00:03:19,739
+in X / f of degree less than or equal to
+
+63
+00:03:16,239 --> 00:03:23,950
+n and our second vector space where the
+
+64
+00:03:19,739 --> 00:03:26,709
+polynomials in X of degree less than or
+
+65
+00:03:23,950 --> 00:03:28,690
+equal to n minus 1 so this is a finite
+
+66
+00:03:26,709 --> 00:03:30,610
+dimensional vector space of dimension n
+
+67
+00:03:28,690 --> 00:03:33,430
+plus 1 this is a finite dimensional
+
+68
+00:03:30,610 --> 00:03:35,590
+vector space of dimension n remember you
+
+69
+00:03:33,430 --> 00:03:43,980
+have the constants then there's a linear
+
+70
+00:03:35,590 --> 00:03:46,299
+operator d by DX is a map from v to w
+
+71
+00:03:43,980 --> 00:03:47,920
+namely if you take a polynomial whose
+
+72
+00:03:46,299 --> 00:03:49,510
+degree is less than or equal to N and
+
+73
+00:03:47,920 --> 00:03:51,430
+you differentiate it with respect to get
+
+74
+00:03:49,510 --> 00:03:54,280
+a polynomial of degree less than or
+
+75
+00:03:51,430 --> 00:03:56,470
+equal to n minus 1 correct and it's
+
+76
+00:03:54,280 --> 00:03:58,690
+linear because you have the formulas for
+
+77
+00:03:56,470 --> 00:04:01,150
+differentiation that you differentiate
+
+78
+00:03:58,690 --> 00:04:03,070
+the sum of two functions you get the sum
+
+79
+00:04:01,150 --> 00:04:04,660
+of their derivatives and if you
+
+80
+00:04:03,070 --> 00:04:07,269
+differentiate a constant times a
+
+81
+00:04:04,660 --> 00:04:09,010
+function you get a constant times the
+
+82
+00:04:07,269 --> 00:04:10,450
+derivative of the function well that's
+
+83
+00:04:09,010 --> 00:04:12,459
+over the real numbers but you can
+
+84
+00:04:10,450 --> 00:04:16,780
+differentiate polynomials over any field
+
+85
+00:04:12,459 --> 00:04:21,160
+by the usual algebraic rules so it works
+
+86
+00:04:16,780 --> 00:04:23,710
+over any field and the study of calculus
+
+87
+00:04:21,160 --> 00:04:25,479
+is what brought linear operators into
+
+88
+00:04:23,710 --> 00:04:28,300
+mathematics not the other way around
+
+89
+00:04:25,479 --> 00:04:29,979
+when you do when you do calculus of
+
+90
+00:04:28,300 --> 00:04:33,930
+several variables you'll find that the
+
+91
+00:04:29,979 --> 00:04:33,930
+total derivative is a linear map
+
+92
+00:04:37,230 --> 00:04:48,940
+of a function from RN to RM at a point X
+
+93
+00:04:45,940 --> 00:04:51,160
+is a linear map and in fact it's the
+
+94
+00:04:48,940 --> 00:04:52,960
+linear map from RN to RM that best
+
+95
+00:04:51,160 --> 00:04:55,300
+approximates the function at that point
+
+96
+00:04:52,960 --> 00:04:58,330
+so that's where linear operators came
+
+97
+00:04:55,300 --> 00:04:59,800
+into mathematics out of calculus now if
+
+98
+00:04:58,330 --> 00:05:01,900
+you think there are things that change
+
+99
+00:04:59,800 --> 00:05:04,480
+over an arbitrary field - you shouldn't
+
+100
+00:05:01,900 --> 00:05:06,220
+think it's that easy so for example if
+
+101
+00:05:04,480 --> 00:05:07,870
+you do this where F is the real numbers
+
+102
+00:05:06,220 --> 00:05:11,020
+and you consider this differentiation
+
+103
+00:05:07,870 --> 00:05:13,960
+map from V to W right the dimension of V
+
+104
+00:05:11,020 --> 00:05:16,840
+is n plus 1 the dimension of W is n so
+
+105
+00:05:13,960 --> 00:05:19,630
+you can ask is there Maps objective is
+
+106
+00:05:16,840 --> 00:05:22,840
+it has a kernel etc so is every
+
+107
+00:05:19,630 --> 00:05:25,530
+polynomial of degree n minus 1 or less a
+
+108
+00:05:22,840 --> 00:05:27,730
+derivative of a polynomial of degree n
+
+109
+00:05:25,530 --> 00:05:29,470
+yeah that's not so hard
+
+110
+00:05:27,730 --> 00:05:32,020
+and what's the kernel of the mapping
+
+111
+00:05:29,470 --> 00:05:35,740
+well the kernel of the functions who
+
+112
+00:05:32,020 --> 00:05:37,300
+have derivative zero are the constant so
+
+113
+00:05:35,740 --> 00:05:39,250
+this would have a one-dimensional kernel
+
+114
+00:05:37,300 --> 00:05:41,710
+and it would be surjective that's not
+
+115
+00:05:39,250 --> 00:05:44,080
+true over an arbitrary field so you
+
+116
+00:05:41,710 --> 00:05:52,300
+might try to think about what is the
+
+117
+00:05:44,080 --> 00:05:56,580
+kernel is the kernel of V by DX when say
+
+118
+00:05:52,300 --> 00:06:01,390
+for example f is equal to Z mod PZ
+
+119
+00:05:56,580 --> 00:06:03,550
+that's a perfectly good field well it
+
+120
+00:06:01,390 --> 00:06:08,050
+always contains the constants kernel of
+
+121
+00:06:03,550 --> 00:06:10,530
+T contains F always whenever you
+
+122
+00:06:08,050 --> 00:06:15,780
+differentiate a constant you get 0 but
+
+123
+00:06:10,530 --> 00:06:18,460
+but if n is bigger than or equal to P
+
+124
+00:06:15,780 --> 00:06:23,340
+the degree of the polynomial is bigger
+
+125
+00:06:18,460 --> 00:06:28,290
+than equal to P this P also have
+
+126
+00:06:23,340 --> 00:06:32,860
+polynomial X to the P in the kernel
+
+127
+00:06:28,290 --> 00:06:36,040
+because the derivative respect to X of X
+
+128
+00:06:32,860 --> 00:06:38,440
+to the P is by our usual formula P X to
+
+129
+00:06:36,040 --> 00:06:42,640
+the P minus 1 which looks pretty good
+
+130
+00:06:38,440 --> 00:06:45,970
+except multiplication by P is 0 in Z my
+
+131
+00:06:42,640 --> 00:06:47,560
+PZ remember so all kinds of strange
+
+132
+00:06:45,970 --> 00:06:48,249
+things can start happening when you work
+
+133
+00:06:47,560 --> 00:06:52,139
+on general
+
+134
+00:06:48,249 --> 00:06:57,309
+fields but still it's a linear operator
+
+135
+00:06:52,139 --> 00:06:59,109
+okay so that's an interesting question
+
+136
+00:06:57,309 --> 00:07:01,169
+what's the kernel and coke kernel in the
+
+137
+00:06:59,109 --> 00:07:03,759
+general case you might think about that
+
+138
+00:07:01,169 --> 00:07:05,799
+all right now if we have a linear
+
+139
+00:07:03,759 --> 00:07:08,589
+operator we define the kernel of T as
+
+140
+00:07:05,799 --> 00:07:11,499
+before like fur group homomorphism is a
+
+141
+00:07:08,589 --> 00:07:14,739
+set of vectors V and V such that T V is
+
+142
+00:07:11,499 --> 00:07:19,119
+equal to zero and that's a subspace in V
+
+143
+00:07:14,739 --> 00:07:22,869
+and we define the image of ki as the set
+
+144
+00:07:19,119 --> 00:07:30,189
+of vectors W in W which are of the form
+
+145
+00:07:22,869 --> 00:07:31,719
+T of V and that's a subspace of W and
+
+146
+00:07:30,189 --> 00:07:34,269
+we're going to prove a big formula about
+
+147
+00:07:31,719 --> 00:07:38,649
+the dimensions of these spaces so here's
+
+148
+00:07:34,269 --> 00:07:40,709
+our here's our dimension formula which
+
+149
+00:07:38,649 --> 00:07:43,089
+we've already proved in various guises
+
+150
+00:07:40,709 --> 00:07:45,579
+but can't do it you can't do this one
+
+151
+00:07:43,089 --> 00:07:50,199
+too many times that the dimension of V
+
+152
+00:07:45,579 --> 00:07:57,039
+is the dimension of the kernel plus the
+
+153
+00:07:50,199 --> 00:08:01,689
+dimension of the image of T so in
+
+154
+00:07:57,039 --> 00:08:04,509
+particular you take this case this map
+
+155
+00:08:01,689 --> 00:08:09,159
+is surjective if and only if it's kernel
+
+156
+00:08:04,509 --> 00:08:11,589
+has dimension 1 so the fact that in the
+
+157
+00:08:09,159 --> 00:08:14,649
+case where we were over this field we
+
+158
+00:08:11,589 --> 00:08:16,869
+had more elements in the kernel would
+
+159
+00:08:14,649 --> 00:08:19,029
+indicate that the map couldn't be
+
+160
+00:08:16,869 --> 00:08:21,189
+surjective in that case because we had
+
+161
+00:08:19,029 --> 00:08:23,469
+at least a two-dimensional kernel can
+
+162
+00:08:21,189 --> 00:08:25,989
+someone see some polynomial in W which
+
+163
+00:08:23,469 --> 00:08:31,929
+is not in the image because X to the P
+
+164
+00:08:25,989 --> 00:08:37,839
+is in the kernel very good X to the P
+
+165
+00:08:31,929 --> 00:08:40,149
+minus 1 in W is not in the image because
+
+166
+00:08:37,839 --> 00:08:42,039
+if you want it's just like kind of just
+
+167
+00:08:40,149 --> 00:08:43,629
+like 1 over X is not in the image of
+
+168
+00:08:42,039 --> 00:08:45,459
+differentiation in the general case you
+
+169
+00:08:43,629 --> 00:08:47,170
+have to have a new function and there's
+
+170
+00:08:45,459 --> 00:08:48,699
+there's no function no multiple of X to
+
+171
+00:08:47,170 --> 00:08:51,160
+the P will ever have nonzero derivative
+
+172
+00:08:48,699 --> 00:08:55,180
+because it is formula so you'll never
+
+173
+00:08:51,160 --> 00:08:58,649
+hit this this polynomial cool all right
+
+174
+00:08:55,180 --> 00:09:02,060
+so let's prove this proof
+
+175
+00:08:58,649 --> 00:09:10,540
+let's W be the sub sorry can't call W
+
+176
+00:09:02,060 --> 00:09:19,370
+let them be won through VK be a basis of
+
+177
+00:09:10,540 --> 00:09:31,400
+the kernel of T and extend this to a
+
+178
+00:09:19,370 --> 00:09:36,080
+basis V 1 or V K and then VK plus 1 up
+
+179
+00:09:31,400 --> 00:09:38,270
+to VN of V so in other words we take
+
+180
+00:09:36,080 --> 00:09:40,370
+these first you can always first of all
+
+181
+00:09:38,270 --> 00:09:43,270
+this a subspace so it has a basis finite
+
+182
+00:09:40,370 --> 00:09:46,820
+dimensional vector spaces have basis and
+
+183
+00:09:43,270 --> 00:09:49,330
+once we have a sub set which is linearly
+
+184
+00:09:46,820 --> 00:09:57,740
+independent which we know it is in V
+
+185
+00:09:49,330 --> 00:10:00,380
+since linearly independent in V we can
+
+186
+00:09:57,740 --> 00:10:02,450
+extend to a basis of the vector space by
+
+187
+00:10:00,380 --> 00:10:04,370
+continuing to add one vector until we
+
+188
+00:10:02,450 --> 00:10:11,390
+get to a spanning set all still linearly
+
+189
+00:10:04,370 --> 00:10:30,410
+independent okay claim that will prove
+
+190
+00:10:11,390 --> 00:10:37,580
+our theorem then W WI is equal to P of B
+
+191
+00:10:30,410 --> 00:10:44,500
+of K plus I is a basis for the image of
+
+192
+00:10:37,580 --> 00:10:51,500
+T in other words w1 is P of VK plus 1
+
+193
+00:10:44,500 --> 00:10:55,070
+all the way down to WN minus K which is
+
+194
+00:10:51,500 --> 00:10:57,880
+T of VK so if you take the image of
+
+195
+00:10:55,070 --> 00:11:02,450
+these remaining basis vectors over here
+
+196
+00:10:57,880 --> 00:11:05,450
+and you call this W 1 and this w 2 etc
+
+197
+00:11:02,450 --> 00:11:08,000
+then that's a basis of the image and if
+
+198
+00:11:05,450 --> 00:11:09,710
+that's true we're done because the
+
+199
+00:11:08,000 --> 00:11:11,900
+dimension and the kernel here would be K
+
+200
+00:11:09,710 --> 00:11:14,210
+and the dimension of the image would be
+
+201
+00:11:11,900 --> 00:11:15,630
+n minus K and those two things would add
+
+202
+00:11:14,210 --> 00:11:18,450
+up to the dimension of V
+
+203
+00:11:15,630 --> 00:11:19,830
+which is n so if we can prove this
+
+204
+00:11:18,450 --> 00:11:23,460
+statement we have this what they call
+
+205
+00:11:19,830 --> 00:11:25,320
+the counting formula okay well the first
+
+206
+00:11:23,460 --> 00:11:27,300
+is to prove that there are basis you
+
+207
+00:11:25,320 --> 00:11:29,910
+have to check that they span and that
+
+208
+00:11:27,300 --> 00:11:37,290
+they're linearly independent so spanning
+
+209
+00:11:29,910 --> 00:11:41,010
+is easy because they span as any W in
+
+210
+00:11:37,290 --> 00:11:44,330
+the image is T of V can be written as T
+
+211
+00:11:41,010 --> 00:11:50,310
+of the summation from I equal 1 to K of
+
+212
+00:11:44,330 --> 00:11:58,620
+AI times VI plus the summation from k
+
+213
+00:11:50,310 --> 00:12:01,260
+plus 1 up to n of di di so any vector in
+
+214
+00:11:58,620 --> 00:12:03,540
+V because these V is gave a basis of V
+
+215
+00:12:01,260 --> 00:12:05,730
+can be written as a sum of terms these
+
+216
+00:12:03,540 --> 00:12:07,980
+terms under the transformation all go to
+
+217
+00:12:05,730 --> 00:12:10,620
+0 because the V is our in the kernel
+
+218
+00:12:07,980 --> 00:12:15,620
+this because it's a homomorphism is the
+
+219
+00:12:10,620 --> 00:12:19,350
+summation of AI T of V I I equal 1 to K
+
+220
+00:12:15,620 --> 00:12:22,680
+plus the summation from k plus 1 to N of
+
+221
+00:12:19,350 --> 00:12:26,580
+BI T of V I that's because he is a
+
+222
+00:12:22,680 --> 00:12:28,950
+homomorphism these are all 0 because the
+
+223
+00:12:26,580 --> 00:12:31,470
+original vectors were chosen to be basis
+
+224
+00:12:28,950 --> 00:12:36,270
+of the kernel so this is the summation
+
+225
+00:12:31,470 --> 00:12:40,260
+of VI P of VI which is the same as the
+
+226
+00:12:36,270 --> 00:12:44,130
+summation of BI WI from I equal 1 to n
+
+227
+00:12:40,260 --> 00:12:46,620
+minus K and that shows that any vector
+
+228
+00:12:44,130 --> 00:12:55,290
+in the range is a linear combination of
+
+229
+00:12:46,620 --> 00:12:58,130
+the W's so they span second thing they
+
+230
+00:12:55,290 --> 00:12:58,130
+are linearly independent
+
+231
+00:13:01,290 --> 00:13:12,660
+so we assume that assume we have a
+
+232
+00:13:08,930 --> 00:13:17,120
+relation and our relation we write is
+
+233
+00:13:12,660 --> 00:13:22,260
+the summation of B I WI is equal to zero
+
+234
+00:13:17,120 --> 00:13:27,480
+so we have to show that um that those
+
+235
+00:13:22,260 --> 00:13:36,480
+things are that the B is are all zero so
+
+236
+00:13:27,480 --> 00:13:43,260
+consider the vector summation of VI VI
+
+237
+00:13:36,480 --> 00:13:46,800
+where I goes from k plus 1 and well v i+
+
+238
+00:13:43,260 --> 00:13:50,040
+lets go from I equal 1 to N minus K and
+
+239
+00:13:46,800 --> 00:13:52,650
+be I times VI plus K in other words pull
+
+240
+00:13:50,040 --> 00:13:56,310
+this relation back to V maybe these VI
+
+241
+00:13:52,650 --> 00:14:03,690
+map to the wi-vi plus K maps to the W I
+
+242
+00:13:56,310 --> 00:14:07,350
+so consider this vector in V I claim
+
+243
+00:14:03,690 --> 00:14:18,000
+let's call this vector V 0 or something
+
+244
+00:14:07,350 --> 00:14:21,690
+I claim that T of V 0 is equal to 0 why
+
+245
+00:14:18,000 --> 00:14:23,730
+because T of this vector is this vector
+
+246
+00:14:21,690 --> 00:14:29,550
+and this vector was assumed to be the
+
+247
+00:14:23,730 --> 00:14:33,990
+zero vector in W what does that mean
+
+248
+00:14:29,550 --> 00:14:43,550
+about V 0 if P of V 0 is 0 what does
+
+249
+00:14:33,990 --> 00:14:47,730
+that say about V 0 it's in the kernel ok
+
+250
+00:14:43,550 --> 00:14:49,800
+since V 0 is in the kernel we can
+
+251
+00:14:47,730 --> 00:14:52,190
+express it in terms of the basis of our
+
+252
+00:14:49,800 --> 00:14:52,190
+criminal
+
+253
+00:14:54,100 --> 00:15:06,430
+I equal 1 to k AI VI but on the other
+
+254
+00:15:03,370 --> 00:15:13,589
+hand it's also the summation from I
+
+255
+00:15:06,430 --> 00:15:13,589
+equal 1 to n minus K VI VI plus K
+
+256
+00:15:14,430 --> 00:15:19,449
+because this was the definition of v-0
+
+257
+00:15:17,380 --> 00:15:21,100
+and this follows because it's in the
+
+258
+00:15:19,449 --> 00:15:23,680
+kernel and these elements the first
+
+259
+00:15:21,100 --> 00:15:25,480
+elements in our basis of V give a basis
+
+260
+00:15:23,680 --> 00:15:28,949
+of the kernel so we can express it and
+
+261
+00:15:25,480 --> 00:15:34,360
+that gives us a linear relation hence
+
+262
+00:15:28,949 --> 00:15:40,269
+the summation of AI VI from 1 to K minus
+
+263
+00:15:34,360 --> 00:15:44,500
+the summation of BI VI plus K from 1 to
+
+264
+00:15:40,269 --> 00:15:48,910
+n minus K is equal to 0 that's a linear
+
+265
+00:15:44,500 --> 00:15:50,800
+relation on the V is the V is where this
+
+266
+00:15:48,910 --> 00:15:55,209
+thing was extended to be a basis so they
+
+267
+00:15:50,800 --> 00:16:05,550
+were linearly independent this is a
+
+268
+00:15:55,209 --> 00:16:13,680
+linear relation on our basis of me so
+
+269
+00:16:05,550 --> 00:16:16,329
+all AI equals 0 and all VI equals 0 and
+
+270
+00:16:13,680 --> 00:16:19,630
+since all the bis are equal to zero
+
+271
+00:16:16,329 --> 00:16:21,910
+we've just shown that the vectors WI are
+
+272
+00:16:19,630 --> 00:16:24,310
+linearly independent because any time we
+
+273
+00:16:21,910 --> 00:16:31,509
+had a relation we've just proved the bi
+
+274
+00:16:24,310 --> 00:16:33,220
+zero done this isn't difficult and we've
+
+275
+00:16:31,509 --> 00:16:35,769
+done this kind of argument a few times
+
+276
+00:16:33,220 --> 00:16:37,839
+in different guises but it's nice to
+
+277
+00:16:35,769 --> 00:16:40,779
+understand so this is a fundamental
+
+278
+00:16:37,839 --> 00:16:42,670
+counting formula which is used all the
+
+279
+00:16:40,779 --> 00:16:44,439
+time in vector space theory if you have
+
+280
+00:16:42,670 --> 00:16:46,329
+a map between two vector spaces of the
+
+281
+00:16:44,439 --> 00:16:48,040
+same dimension and you want to prove its
+
+282
+00:16:46,329 --> 00:16:52,949
+search active all you have to do is
+
+283
+00:16:48,040 --> 00:16:52,949
+prove it has no kernel okay
+
+284
+00:16:55,540 --> 00:17:05,980
+okay another corollary of this can i
+
+285
+00:17:02,420 --> 00:17:05,980
+erase some of this sure why not
+
+286
+00:17:12,059 --> 00:17:28,089
+another way of stating this corollary if
+
+287
+00:17:22,350 --> 00:17:35,049
+B is finite-dimensional and W is a
+
+288
+00:17:28,089 --> 00:17:38,200
+subspace of V and dimension of W plus
+
+289
+00:17:35,049 --> 00:17:41,279
+the dimension of the quotient space V
+
+290
+00:17:38,200 --> 00:17:54,519
+over W is equal to the dimension of V
+
+291
+00:17:41,279 --> 00:17:58,419
+proof there is a homomorphism P from V
+
+292
+00:17:54,519 --> 00:18:08,980
+to the quotient space taking a vector to
+
+293
+00:17:58,419 --> 00:18:15,639
+its co set of W which is surjective with
+
+294
+00:18:08,980 --> 00:18:17,740
+kernel W right we have any time we have
+
+295
+00:18:15,639 --> 00:18:20,470
+a subspace it gives us a homomorphism to
+
+296
+00:18:17,740 --> 00:18:21,970
+the quotient space this is on two so the
+
+297
+00:18:20,470 --> 00:18:24,519
+dimension of the image is this dimension
+
+298
+00:18:21,970 --> 00:18:35,919
+here the dimension of the kernel is the
+
+299
+00:18:24,519 --> 00:18:38,380
+dimension of W hence this okay now by
+
+300
+00:18:35,919 --> 00:18:41,559
+the way these things have names in the
+
+301
+00:18:38,380 --> 00:18:44,169
+literature because these fundamental
+
+302
+00:18:41,559 --> 00:18:45,940
+concepts of kernel and image arose in a
+
+303
+00:18:44,169 --> 00:18:50,049
+lot of different places in mathematics
+
+304
+00:18:45,940 --> 00:18:52,210
+before they were all formalized so the
+
+305
+00:18:50,049 --> 00:18:57,789
+image the dimension of the image is
+
+306
+00:18:52,210 --> 00:19:01,559
+sometimes called the rank of T this is
+
+307
+00:18:57,789 --> 00:19:01,559
+sometimes called the nullity of T
+
+308
+00:19:02,190 --> 00:19:06,070
+development of linear algebra is a very
+
+309
+00:19:04,269 --> 00:19:08,590
+interesting subject as I say it grew out
+
+310
+00:19:06,070 --> 00:19:09,730
+of calculus a lot of subtle things came
+
+311
+00:19:08,590 --> 00:19:12,220
+out of calculus we're going to
+
+312
+00:19:09,730 --> 00:19:14,169
+eventually get to orthogonal groups and
+
+313
+00:19:12,220 --> 00:19:15,490
+quadratic forms that also came out of
+
+314
+00:19:14,169 --> 00:19:17,289
+calculus when you did the second
+
+315
+00:19:15,490 --> 00:19:19,779
+derivative test if any of you have
+
+316
+00:19:17,289 --> 00:19:21,100
+studied multivariable calculus you know
+
+317
+00:19:19,779 --> 00:19:23,320
+that the first derivative is a linear
+
+318
+00:19:21,100 --> 00:19:24,850
+operator the second derivative is this n
+
+319
+00:19:23,320 --> 00:19:27,580
+by of a function
+
+320
+00:19:24,850 --> 00:19:29,770
+from RN to R is an N by n symmetric
+
+321
+00:19:27,580 --> 00:19:31,240
+matrix which gives a quadratic form and
+
+322
+00:19:29,770 --> 00:19:32,890
+the number of positive and negative
+
+323
+00:19:31,240 --> 00:19:34,360
+eigenvalues tells you all kinds of
+
+324
+00:19:32,890 --> 00:19:36,940
+things about saddle points that all grew
+
+325
+00:19:34,360 --> 00:19:38,620
+out of calculus and linear algebra as we
+
+326
+00:19:36,940 --> 00:19:45,150
+study it today was only formalized at
+
+327
+00:19:38,620 --> 00:19:45,150
+the end of the 19th century okay
+
+328
+00:19:45,330 --> 00:19:52,720
+now Peter talked a little bit about
+
+329
+00:19:48,400 --> 00:19:54,460
+matrices last time and I'm going to
+
+330
+00:19:52,720 --> 00:19:56,380
+review that one shouldn't get too
+
+331
+00:19:54,460 --> 00:19:57,640
+carried away with this the end of the
+
+332
+00:19:56,380 --> 00:19:59,410
+19th century people became totally
+
+333
+00:19:57,640 --> 00:20:00,970
+carried away with matrices if you go to
+
+334
+00:19:59,410 --> 00:20:03,130
+the basement of Cabot library you can
+
+335
+00:20:00,970 --> 00:20:05,560
+find shelves and shelves of 19th century
+
+336
+00:20:03,130 --> 00:20:07,420
+books which are about matrix algebra and
+
+337
+00:20:05,560 --> 00:20:08,620
+people lost sight of the fact that all
+
+338
+00:20:07,420 --> 00:20:10,840
+they were talking about was linear
+
+339
+00:20:08,620 --> 00:20:13,750
+operators they got so involved with the
+
+340
+00:20:10,840 --> 00:20:16,150
+notation so let's recall how matrices
+
+341
+00:20:13,750 --> 00:20:18,550
+come up when you have a vector space V
+
+342
+00:20:16,150 --> 00:20:21,760
+and you pick a basis for it v1 through
+
+343
+00:20:18,550 --> 00:20:23,710
+VN then we're going to have another
+
+344
+00:20:21,760 --> 00:20:30,040
+vector space W and we're going to pick a
+
+345
+00:20:23,710 --> 00:20:34,360
+basis for it W 1 through W M now the
+
+346
+00:20:30,040 --> 00:20:40,480
+basis I as I think Peter showed you last
+
+347
+00:20:34,360 --> 00:20:45,670
+time basis gives an isomorphism between
+
+348
+00:20:40,480 --> 00:20:50,110
+V and the finite dimensional vector
+
+349
+00:20:45,670 --> 00:20:53,740
+space F to the N which takes an
+
+350
+00:20:50,110 --> 00:20:56,050
+arbitrary vector V to its coordinates
+
+351
+00:20:53,740 --> 00:21:00,430
+with respect to this basis so you write
+
+352
+00:20:56,050 --> 00:21:03,310
+V is the summation of AI V I I equal 1
+
+353
+00:21:00,430 --> 00:21:05,350
+to N now that's a unique expression
+
+354
+00:21:03,310 --> 00:21:10,960
+because this is a basis and your map V
+
+355
+00:21:05,350 --> 00:21:12,700
+to the N tuple a 1 a 2 and ya and if you
+
+356
+00:21:10,960 --> 00:21:14,200
+add vectors you add their coordinates
+
+357
+00:21:12,700 --> 00:21:16,000
+and if you multiply by vector by a
+
+358
+00:21:14,200 --> 00:21:17,740
+scalar you multiply by a coordinate so
+
+359
+00:21:16,000 --> 00:21:21,720
+you've got a natural homomorphism here
+
+360
+00:21:17,740 --> 00:21:21,720
+which is in fact an isomorphism
+
+361
+00:21:23,950 --> 00:21:29,510
+it's clearly on two because any
+
+362
+00:21:26,720 --> 00:21:31,220
+coordinate gives you a vector and it's
+
+363
+00:21:29,510 --> 00:21:32,980
+kernel is zero because if the
+
+364
+00:21:31,220 --> 00:21:35,300
+coordinates of a vector are all zero
+
+365
+00:21:32,980 --> 00:21:37,730
+then the vector is the zero vector
+
+366
+00:21:35,300 --> 00:21:39,560
+so a choice of a basis gives you an
+
+367
+00:21:37,730 --> 00:21:41,510
+isomorphism of vector spaces between
+
+368
+00:21:39,560 --> 00:21:45,500
+your abstract space and this very
+
+369
+00:21:41,510 --> 00:21:49,060
+concrete space likewise your basis of W
+
+370
+00:21:45,500 --> 00:21:52,780
+gives you an isomorphism from W - FM
+
+371
+00:21:49,060 --> 00:21:55,910
+similar isomorphism
+
+372
+00:21:52,780 --> 00:21:57,860
+now the question is what does a linear
+
+373
+00:21:55,910 --> 00:22:11,320
+operator look like once we've chosen
+
+374
+00:21:57,860 --> 00:22:19,850
+these isomorphisms once these
+
+375
+00:22:11,320 --> 00:22:22,930
+isomorphisms have been chosen that's the
+
+376
+00:22:19,850 --> 00:22:24,710
+big question that leads to matrices so
+
+377
+00:22:22,930 --> 00:22:26,840
+obviously it's going if you have a
+
+378
+00:22:24,710 --> 00:22:28,190
+linear map from V to W and you choose an
+
+379
+00:22:26,840 --> 00:22:30,350
+isomorphism here it's going to give you
+
+380
+00:22:28,190 --> 00:22:32,120
+a linear map from FN to F M so we're
+
+381
+00:22:30,350 --> 00:22:33,920
+going to have little diagram that looks
+
+382
+00:22:32,120 --> 00:22:35,930
+like this if you'll let me write it
+
+383
+00:22:33,920 --> 00:22:37,730
+here's our linear operator key here's
+
+384
+00:22:35,930 --> 00:22:40,550
+our isomorphism which I'll denote by a
+
+385
+00:22:37,730 --> 00:22:44,810
+little squiggle under the arrow with FM
+
+386
+00:22:40,550 --> 00:22:47,900
+here's our isomorphism here with FM and
+
+387
+00:22:44,810 --> 00:22:50,600
+the question is what does it look like
+
+388
+00:22:47,900 --> 00:22:55,040
+over on this map from FN to FM once we
+
+389
+00:22:50,600 --> 00:22:57,650
+use this isomorphism ok we'll come back
+
+390
+00:22:55,040 --> 00:23:04,960
+to that well let's see what this basis
+
+391
+00:22:57,650 --> 00:23:11,020
+does with a linear operator if I apply
+
+392
+00:23:04,960 --> 00:23:16,070
+the linear operator to a basis of V each
+
+393
+00:23:11,020 --> 00:23:19,190
+key of B I for every vector in the basis
+
+394
+00:23:16,070 --> 00:23:22,460
+of V if I apply my linear operator I get
+
+395
+00:23:19,190 --> 00:23:25,760
+a vector in W and I can write it out in
+
+396
+00:23:22,460 --> 00:23:29,630
+terms of my basis of W so in fact I'll
+
+397
+00:23:25,760 --> 00:23:34,730
+do it for V J is the summation sorry
+
+398
+00:23:29,630 --> 00:23:40,760
+over I equal 1 to M of a IJ
+
+399
+00:23:34,730 --> 00:23:45,770
+times WI and that is for J equal 1/2 all
+
+400
+00:23:40,760 --> 00:23:50,660
+the way up to n and these AI J are
+
+401
+00:23:45,770 --> 00:23:53,240
+elements in my field F right because
+
+402
+00:23:50,660 --> 00:23:55,280
+when I apply T to my basis vector of V I
+
+403
+00:23:53,240 --> 00:23:58,060
+get a vector in W and I can write it as
+
+404
+00:23:55,280 --> 00:24:04,670
+a linear combination of the WI WI
+
+405
+00:23:58,060 --> 00:24:13,270
+uniquely so these a IJ are elements in F
+
+406
+00:24:04,670 --> 00:24:13,270
+determined by T and the choice of basis
+
+407
+00:24:13,930 --> 00:24:19,370
+and you have to choose both bases before
+
+408
+00:24:17,180 --> 00:24:23,990
+you get the a IJ otherwise couldn't do
+
+409
+00:24:19,370 --> 00:24:28,550
+it conversely if I have bases of V and W
+
+410
+00:24:23,990 --> 00:24:41,630
+and I give you these a IJ they determine
+
+411
+00:24:28,550 --> 00:24:47,210
+T the scalars a IJ determine T you need
+
+412
+00:24:41,630 --> 00:24:52,580
+all of them I equal 1 to N J equal 1 to
+
+413
+00:24:47,210 --> 00:24:54,200
+M sorry J is equal sorry we're going
+
+414
+00:24:52,580 --> 00:24:58,700
+getting a little ahead of ourselves here
+
+415
+00:24:54,200 --> 00:25:04,130
+J is equal to 1 up to n I is equal to 1
+
+416
+00:24:58,700 --> 00:25:07,000
+up to M so M n scalars m and scalars
+
+417
+00:25:04,130 --> 00:25:09,740
+determine the transformation T why
+
+418
+00:25:07,000 --> 00:25:12,920
+because if I want to know what T does to
+
+419
+00:25:09,740 --> 00:25:16,580
+any vector of V I write V as a linear
+
+420
+00:25:12,920 --> 00:25:19,040
+combination of the BJ I know what T of V
+
+421
+00:25:16,580 --> 00:25:25,820
+J is so therefore I know what T of
+
+422
+00:25:19,040 --> 00:25:34,190
+anything is why write V is equal to the
+
+423
+00:25:25,820 --> 00:25:38,150
+summation of X J VJ j equal 1 to n then
+
+424
+00:25:34,190 --> 00:25:44,720
+T of V is equal to the summation from J
+
+425
+00:25:38,150 --> 00:25:49,170
+equal 1 to N XJ times T of V J which is
+
+426
+00:25:44,720 --> 00:25:55,630
+the summation AI J
+
+427
+00:25:49,170 --> 00:25:57,130
+from I equal one to M of WI and that
+
+428
+00:25:55,630 --> 00:26:00,720
+tells me what the vector is so I know
+
+429
+00:25:57,130 --> 00:26:03,520
+what T does to any vector it's a formula
+
+430
+00:26:00,720 --> 00:26:06,330
+okay now if you make that formula
+
+431
+00:26:03,520 --> 00:26:10,210
+precise it's a matrix multiplication
+
+432
+00:26:06,330 --> 00:26:14,860
+that's the big thing here so that to
+
+433
+00:26:10,210 --> 00:26:23,740
+make this precise if we define a to be
+
+434
+00:26:14,860 --> 00:26:26,010
+the M by n matrix a IJ which means and I
+
+435
+00:26:23,740 --> 00:26:31,830
+always remember it this way that you put
+
+436
+00:26:26,010 --> 00:26:31,830
+the image of T of BJ in the Jade column
+
+437
+00:26:32,309 --> 00:26:38,410
+and these are the coordinates of the
+
+438
+00:26:35,799 --> 00:26:47,080
+vector T of BJ with respect to the basis
+
+439
+00:26:38,410 --> 00:26:49,330
+WI okay then this formula is given if we
+
+440
+00:26:47,080 --> 00:26:53,429
+wrote this out as a formula as a
+
+441
+00:26:49,330 --> 00:27:00,809
+summation of Y let's rewrite it here as
+
+442
+00:26:53,429 --> 00:27:03,640
+the summation of Y I WI I equal 1 to M
+
+443
+00:27:00,809 --> 00:27:05,980
+then we would find that the Y's are
+
+444
+00:27:03,640 --> 00:27:09,580
+given by taking this matrix and applying
+
+445
+00:27:05,980 --> 00:27:19,419
+it to the X J's so Y as it as it as a
+
+446
+00:27:09,580 --> 00:27:25,210
+column vector which means y1 down to Y M
+
+447
+00:27:19,419 --> 00:27:29,679
+is equal to a X which means a applied to
+
+448
+00:27:25,210 --> 00:27:35,640
+the column vector x1 down to xn that's
+
+449
+00:27:29,679 --> 00:27:37,419
+what that formula says so that
+
+450
+00:27:35,640 --> 00:27:41,020
+associated to a linear transformation
+
+451
+00:27:37,419 --> 00:27:44,140
+and the choices of bases on the first
+
+452
+00:27:41,020 --> 00:27:47,290
+base and the second we get a collection
+
+453
+00:27:44,140 --> 00:27:49,540
+of scalars MN scalars which we put into
+
+454
+00:27:47,290 --> 00:27:53,169
+a matrix and that the linear
+
+455
+00:27:49,540 --> 00:27:54,850
+transformation is given by applying that
+
+456
+00:27:53,169 --> 00:27:57,160
+matrix left multiplying that matrix
+
+457
+00:27:54,850 --> 00:28:00,190
+times the vector in other words this
+
+458
+00:27:57,160 --> 00:28:00,550
+diagram fills in like this this map here
+
+459
+00:28:00,190 --> 00:28:07,260
+is
+
+460
+00:28:00,550 --> 00:28:07,260
+left multiplication by the matrix a
+
+461
+00:28:07,590 --> 00:28:13,330
+where this is considered as an a column
+
+462
+00:28:11,260 --> 00:28:17,650
+vector and this is the resulting column
+
+463
+00:28:13,330 --> 00:28:19,570
+vector Peter you did this on Yom Kippur
+
+464
+00:28:17,650 --> 00:28:21,520
+right it should be a certain amount of
+
+465
+00:28:19,570 --> 00:28:27,190
+suffering on Yom Kippur that's what you
+
+466
+00:28:21,520 --> 00:28:29,080
+had yes let's pause there are a lot of
+
+467
+00:28:27,190 --> 00:28:32,040
+indices here and it's really important
+
+468
+00:28:29,080 --> 00:28:32,040
+to get the indices right
+
+469
+00:28:57,980 --> 00:29:07,440
+yes you know I think these should be
+
+470
+00:29:04,460 --> 00:29:09,600
+eyes I've been using jays for the v's
+
+471
+00:29:07,440 --> 00:29:13,230
+because those turn out to be like the
+
+472
+00:29:09,600 --> 00:29:15,059
+column vectors and eyes for the W's so
+
+473
+00:29:13,230 --> 00:29:17,130
+if you write it so as I say you have to
+
+474
+00:29:15,059 --> 00:29:19,320
+work this formula together and see how
+
+475
+00:29:17,130 --> 00:29:21,270
+you get y:i out of this and it's a
+
+476
+00:29:19,320 --> 00:29:23,190
+matrix multiplication that's the claim
+
+477
+00:29:21,270 --> 00:29:25,290
+and the matrix multiplication is you
+
+478
+00:29:23,190 --> 00:29:28,650
+take the matrix a that i've defined in
+
+479
+00:29:25,290 --> 00:29:31,790
+this way let's do an example let's do an
+
+480
+00:29:28,650 --> 00:29:35,340
+example we can't hurt okay
+
+481
+00:29:31,790 --> 00:29:40,100
+so everyone sees how this works example
+
+482
+00:29:35,340 --> 00:29:44,910
+let's take the map P from F 2 to F -
+
+483
+00:29:40,100 --> 00:29:49,040
+well sorry B to W where each or
+
+484
+00:29:44,910 --> 00:29:54,960
+two-dimensional B as a basis V 1 V 2 and
+
+485
+00:29:49,040 --> 00:29:57,299
+W has a basis W sorry basis we want to
+
+486
+00:29:54,960 --> 00:30:04,230
+be two very basis W one be W 2 and
+
+487
+00:29:57,299 --> 00:30:12,120
+suppose that T of V 1 is a to W 1 and T
+
+488
+00:30:04,230 --> 00:30:13,950
+of V 2 is 3 W 1 plus 4 W - okay that
+
+489
+00:30:12,120 --> 00:30:16,710
+could be an example of a linear operator
+
+490
+00:30:13,950 --> 00:30:20,520
+in terms of the basis then the matrix I
+
+491
+00:30:16,710 --> 00:30:23,220
+would get would be the following 2x2
+
+492
+00:30:20,520 --> 00:30:26,040
+matrix in the first column I put the
+
+493
+00:30:23,220 --> 00:30:29,700
+coordinates of P V 1 in terms of the
+
+494
+00:30:26,040 --> 00:30:33,570
+basis W 1 W 2 so you have to see this as
+
+495
+00:30:29,700 --> 00:30:41,309
+this + 0 W 2 so the first column would
+
+496
+00:30:33,570 --> 00:30:48,660
+be to 0 the second column T of V 2 would
+
+497
+00:30:41,309 --> 00:30:55,530
+be 3/4 now suppose I had a vector in V
+
+498
+00:30:48,660 --> 00:30:58,919
+which was the vector 7 V 1 plus 8 V 2
+
+499
+00:30:55,530 --> 00:31:01,620
+and I and I wanted to see what the
+
+500
+00:30:58,919 --> 00:31:03,450
+linear operator did to it now what I
+
+501
+00:31:01,620 --> 00:31:07,290
+could do is just substitute it in with
+
+502
+00:31:03,450 --> 00:31:11,010
+this formula right I could say well T of
+
+503
+00:31:07,290 --> 00:31:15,120
+V 1 is 2 W 1 so T of 7 V 1 is 14
+
+504
+00:31:11,010 --> 00:31:19,320
+you want P of B - is this so T of 8 V 2
+
+505
+00:31:15,120 --> 00:31:21,870
+is 24 of W 1 plus 32 W 2 add them all
+
+506
+00:31:19,320 --> 00:31:24,570
+together and reassemble but I could also
+
+507
+00:31:21,870 --> 00:31:30,540
+do the matrix multiplication I could say
+
+508
+00:31:24,570 --> 00:31:34,890
+that T of V is given by the matrix a
+
+509
+00:31:30,540 --> 00:31:45,080
+time's the column vector 7 8 which is
+
+510
+00:31:34,890 --> 00:31:45,080
+equal to the column vector 14 plus 24 38
+
+511
+00:31:45,320 --> 00:32:00,930
+0 plus 32 which means that T of V is
+
+512
+00:31:52,230 --> 00:32:04,560
+equal to 38 w1 plus 32 W 2 so this is
+
+513
+00:32:00,930 --> 00:32:06,960
+just a way of rewriting the fact that we
+
+514
+00:32:04,560 --> 00:32:11,460
+know a transformation once we know it on
+
+515
+00:32:06,960 --> 00:32:13,320
+the basis and these scalars tell us what
+
+516
+00:32:11,460 --> 00:32:14,850
+the transformation does to the basis so
+
+517
+00:32:13,320 --> 00:32:16,860
+there must be a way of recovering the
+
+518
+00:32:14,850 --> 00:32:19,470
+linear transformation from all these
+
+519
+00:32:16,860 --> 00:32:22,110
+scalars and the recipe is matrix
+
+520
+00:32:19,470 --> 00:32:26,220
+multiplication that's why matrix
+
+521
+00:32:22,110 --> 00:32:30,390
+multiplication is important okay
+
+522
+00:32:26,220 --> 00:32:32,100
+did that help catch up other questions
+
+523
+00:32:30,390 --> 00:32:37,890
+this is so important you got to get it
+
+524
+00:32:32,100 --> 00:32:40,770
+all right now in particular and we're
+
+525
+00:32:37,890 --> 00:32:50,070
+going to use this a lot if V is equal to
+
+526
+00:32:40,770 --> 00:32:53,420
+W and we just choose one basis and we
+
+527
+00:32:50,070 --> 00:32:56,310
+have a linear transformation from V to V
+
+528
+00:32:53,420 --> 00:32:58,080
+then it's it's customary to write the
+
+529
+00:32:56,310 --> 00:32:59,850
+transformation in terms of this one
+
+530
+00:32:58,080 --> 00:33:04,410
+basis where you use it both on the
+
+531
+00:32:59,850 --> 00:33:08,250
+domain and on the range so this is what
+
+532
+00:33:04,410 --> 00:33:11,880
+we would call an endomorphism that means
+
+533
+00:33:08,250 --> 00:33:14,700
+a map from a vectors a homomorphism from
+
+534
+00:33:11,880 --> 00:33:22,050
+a vector space to itself then we get a
+
+535
+00:33:14,700 --> 00:33:23,200
+square matrix matrix of key with respect
+
+536
+00:33:22,050 --> 00:33:27,820
+to the same base
+
+537
+00:33:23,200 --> 00:33:29,440
+ease of domain and range that makes
+
+538
+00:33:27,820 --> 00:33:34,090
+sense because the domain and range are
+
+539
+00:33:29,440 --> 00:33:43,720
+the same space is equal to an N by n
+
+540
+00:33:34,090 --> 00:33:52,870
+matrix that's where we're really going
+
+541
+00:33:43,720 --> 00:33:54,610
+to use this and this is very cool if we
+
+542
+00:33:52,870 --> 00:34:03,610
+have another end of morphism so if we
+
+543
+00:33:54,610 --> 00:34:06,610
+have t from s e and this is given in
+
+544
+00:34:03,610 --> 00:34:14,800
+terms of the basis v by this has matrix
+
+545
+00:34:06,610 --> 00:34:19,089
+a and this has matrix b both n by n
+
+546
+00:34:14,800 --> 00:34:29,349
+matrices and we want to know what is the
+
+547
+00:34:19,089 --> 00:34:33,490
+matrix of s composed with P which is a
+
+548
+00:34:29,349 --> 00:34:35,500
+new transformation from V to V the
+
+549
+00:34:33,490 --> 00:34:39,099
+answer is when you blow it all out and
+
+550
+00:34:35,500 --> 00:34:43,359
+you calculate with coordinates etc it is
+
+551
+00:34:39,099 --> 00:34:48,970
+B times a where this is matrix
+
+552
+00:34:43,359 --> 00:34:50,889
+multiplication that is the correct
+
+553
+00:34:48,970 --> 00:34:53,020
+definition of matrix multiplication
+
+554
+00:34:50,889 --> 00:34:55,030
+that's where matrix multiplication found
+
+555
+00:34:53,020 --> 00:34:55,929
+itself as the composition of linear
+
+556
+00:34:55,030 --> 00:34:58,270
+operators
+
+557
+00:34:55,929 --> 00:34:59,950
+that's why matrix multiplication is
+
+558
+00:34:58,270 --> 00:35:01,720
+associative that's the miracle of Y
+
+559
+00:34:59,950 --> 00:35:03,730
+matrix multiplication is associative
+
+560
+00:35:01,720 --> 00:35:06,099
+because composition of operators is
+
+561
+00:35:03,730 --> 00:35:08,079
+associated so again you must check that
+
+562
+00:35:06,099 --> 00:35:09,400
+from the definition of the matrix so the
+
+563
+00:35:08,079 --> 00:35:11,230
+definition of the composition of
+
+564
+00:35:09,400 --> 00:35:17,579
+operators it's a horrible computation
+
+565
+00:35:11,230 --> 00:35:17,579
+but this is what comes out in particular
+
+566
+00:35:22,730 --> 00:35:37,530
+we have the following result proposition
+
+567
+00:35:29,570 --> 00:35:42,600
+following our equivalent for a matrix
+
+568
+00:35:37,530 --> 00:35:48,000
+for a transformation T from V to V 1 P
+
+569
+00:35:42,600 --> 00:35:51,270
+is an isomorphism or we might say an
+
+570
+00:35:48,000 --> 00:35:56,510
+automorphism that means an isomorphism
+
+571
+00:35:51,270 --> 00:36:04,500
+from V to itself a vector spaces to the
+
+572
+00:35:56,510 --> 00:36:16,350
+kernel of T is 0 3 the image of T is all
+
+573
+00:36:04,500 --> 00:36:24,570
+of d4 if he is given if sorry the matrix
+
+574
+00:36:16,350 --> 00:36:37,370
+a of T with respect to the basis v1
+
+575
+00:36:24,570 --> 00:36:46,490
+through VN is a then a is invertible as
+
+576
+00:36:37,370 --> 00:36:49,620
+an N by n matrix and finally by the
+
+577
+00:36:46,490 --> 00:36:56,880
+determinant of the matrix a is not equal
+
+578
+00:36:49,620 --> 00:36:57,840
+to 0 in the field F so again this is
+
+579
+00:36:56,880 --> 00:36:59,700
+sort of thing we've been through a
+
+580
+00:36:57,840 --> 00:37:02,790
+couple of times I'll I'll wave my hands
+
+581
+00:36:59,700 --> 00:37:05,520
+at it so you get the idea if you have an
+
+582
+00:37:02,790 --> 00:37:07,560
+isomorphism then its kernel is clearly 0
+
+583
+00:37:05,520 --> 00:37:12,150
+and its image is everything so 1 implies
+
+584
+00:37:07,560 --> 00:37:14,520
+2 and 3 that's clear if you have two in
+
+585
+00:37:12,150 --> 00:37:16,470
+the kernel eyes dimension 0 so the image
+
+586
+00:37:14,520 --> 00:37:18,060
+has the dimension of V so the image has
+
+587
+00:37:16,470 --> 00:37:20,550
+to be all of V because you can take a
+
+588
+00:37:18,060 --> 00:37:21,900
+basis for the image and extend it to a
+
+589
+00:37:20,550 --> 00:37:23,550
+basis for V but they have the same
+
+590
+00:37:21,900 --> 00:37:28,290
+number of elements so the image is all
+
+591
+00:37:23,550 --> 00:37:30,600
+of V so this implies this both of them
+
+592
+00:37:28,290 --> 00:37:32,020
+imply this by the and they all imply
+
+593
+00:37:30,600 --> 00:37:36,430
+each other by the
+
+594
+00:37:32,020 --> 00:37:38,770
+a formula for dimensions if P is an
+
+595
+00:37:36,430 --> 00:37:40,720
+isomorphism then we can we can find a
+
+596
+00:37:38,770 --> 00:37:43,420
+linear operator that inverts it back to
+
+597
+00:37:40,720 --> 00:37:45,610
+the identity and since the composition
+
+598
+00:37:43,420 --> 00:37:47,650
+of linear operators is matrix
+
+599
+00:37:45,610 --> 00:37:49,330
+multiplication the matrix of that
+
+600
+00:37:47,650 --> 00:37:50,710
+inverting operator would have the
+
+601
+00:37:49,330 --> 00:37:52,810
+property that when you multiplied it by
+
+602
+00:37:50,710 --> 00:37:57,040
+a you'd get the identity that means a is
+
+603
+00:37:52,810 --> 00:37:58,930
+an invertible matrix conversely if a is
+
+604
+00:37:57,040 --> 00:38:00,970
+an invertible matrix you'll find that
+
+605
+00:37:58,930 --> 00:38:03,370
+the kernel of T which is what's the the
+
+606
+00:38:00,970 --> 00:38:04,990
+nullity of the matrix a is 0 and the
+
+607
+00:38:03,370 --> 00:38:06,460
+image of T is everything that's really
+
+608
+00:38:04,990 --> 00:38:08,320
+what we know about invertible matrices
+
+609
+00:38:06,460 --> 00:38:10,480
+and matrix multiplication on column
+
+610
+00:38:08,320 --> 00:38:12,010
+vectors and finally we've seen that this
+
+611
+00:38:10,480 --> 00:38:14,380
+is equivalent to the matrix being
+
+612
+00:38:12,010 --> 00:38:18,640
+invertible by the usual matrix of
+
+613
+00:38:14,380 --> 00:38:20,650
+cofactors so all of these conditions are
+
+614
+00:38:18,640 --> 00:38:28,080
+what tells you what an isomorphism is
+
+615
+00:38:20,650 --> 00:38:28,080
+and the set of T from B to B which are
+
+616
+00:38:28,170 --> 00:38:32,950
+isomorphisms that's the group that forms
+
+617
+00:38:31,480 --> 00:38:33,940
+a group which we which I think Peter
+
+618
+00:38:32,950 --> 00:38:38,110
+called glv
+
+619
+00:38:33,940 --> 00:38:41,410
+and which is isomorphic to the group GL
+
+620
+00:38:38,110 --> 00:38:44,020
+n of f of n by n matrices with nonzero
+
+621
+00:38:41,410 --> 00:38:46,240
+determinant in F we started off by
+
+622
+00:38:44,020 --> 00:38:48,370
+defining the group GL n R the first time
+
+623
+00:38:46,240 --> 00:38:51,250
+right so here we get a group for any
+
+624
+00:38:48,370 --> 00:38:55,260
+field of invertible and by n matrices
+
+625
+00:38:51,250 --> 00:38:57,400
+over the field under multiplication and
+
+626
+00:38:55,260 --> 00:38:59,470
+though it's the same as the group a
+
+627
+00:38:57,400 --> 00:39:01,240
+better way to think of it is invertible
+
+628
+00:38:59,470 --> 00:39:03,720
+linear transformations of an n
+
+629
+00:39:01,240 --> 00:39:05,950
+dimensional vector space over that field
+
+630
+00:39:03,720 --> 00:39:09,520
+so some of these groups by the way are
+
+631
+00:39:05,950 --> 00:39:12,550
+finite groups so you might it's an
+
+632
+00:39:09,520 --> 00:39:14,230
+interesting question what is let's just
+
+633
+00:39:12,550 --> 00:39:15,400
+try one of these finite groups just to
+
+634
+00:39:14,230 --> 00:39:17,380
+warm up and then I'm going to get to
+
+635
+00:39:15,400 --> 00:39:20,950
+another question we're going to get into
+
+636
+00:39:17,380 --> 00:39:27,390
+on Friday so for example if F is the
+
+637
+00:39:20,950 --> 00:39:27,390
+field of two elements what is the group
+
+638
+00:39:28,680 --> 00:39:32,340
+GL two of F
+
+639
+00:39:33,500 --> 00:39:38,760
+two by two invertible matrices over the
+
+640
+00:39:36,810 --> 00:39:41,190
+field F well if you thought about
+
+641
+00:39:38,760 --> 00:39:44,220
+filling up a matrix a two-by-two matrix
+
+642
+00:39:41,190 --> 00:39:47,460
+with scalars from the field F how many
+
+643
+00:39:44,220 --> 00:39:49,110
+matrices can you make it's the total
+
+644
+00:39:47,460 --> 00:39:50,480
+number of matrices I can make out of the
+
+645
+00:39:49,110 --> 00:39:55,890
+field of two elements
+
+646
+00:39:50,480 --> 00:39:58,680
+how many 16 right so you have 16 choices
+
+647
+00:39:55,890 --> 00:40:03,480
+because a can be 0 or 1 B can be 0 1 C
+
+648
+00:39:58,680 --> 00:40:09,780
+can be 0 1 or D can be 0 1 16 choices of
+
+649
+00:40:03,480 --> 00:40:14,580
+2 by 2 matrices well they're not all
+
+650
+00:40:09,780 --> 00:40:22,650
+they're not all invertible so in fact
+
+651
+00:40:14,580 --> 00:40:24,690
+the six of em invertible and you'll find
+
+652
+00:40:22,650 --> 00:40:26,820
+so you get a little finite group of
+
+653
+00:40:24,690 --> 00:40:28,440
+water 6 2 by 2 inverted matrices over
+
+654
+00:40:26,820 --> 00:40:30,390
+the field of two elements under
+
+655
+00:40:28,440 --> 00:40:34,830
+multiplication you'll find that this
+
+656
+00:40:30,390 --> 00:40:36,660
+group and that and GL 2 of F is actually
+
+657
+00:40:34,830 --> 00:40:41,700
+isomorphic to the symmetric group on
+
+658
+00:40:36,660 --> 00:40:43,320
+three letters how can I see that well
+
+659
+00:40:41,700 --> 00:40:45,180
+think about what this thing really is
+
+660
+00:40:43,320 --> 00:40:47,070
+before we actually see this is the
+
+661
+00:40:45,180 --> 00:40:49,560
+difference between writing down matrices
+
+662
+00:40:47,070 --> 00:40:51,840
+and calculating determinants and doing
+
+663
+00:40:49,560 --> 00:40:53,280
+all these computations and actually
+
+664
+00:40:51,840 --> 00:40:55,980
+stepping back and seeing what the heck
+
+665
+00:40:53,280 --> 00:40:58,440
+we're doing so what we're doing is this
+
+666
+00:40:55,980 --> 00:41:03,330
+group operates on the vector space F
+
+667
+00:40:58,440 --> 00:41:05,550
+squared all right what does the vector
+
+668
+00:41:03,330 --> 00:41:07,920
+space F squared look like when the field
+
+669
+00:41:05,550 --> 00:41:12,750
+has two elements in it it has the vector
+
+670
+00:41:07,920 --> 00:41:15,750
+0 0 in it it has the vector 0 1 in it it
+
+671
+00:41:12,750 --> 00:41:20,250
+has the vector 1 0 in it and it has the
+
+672
+00:41:15,750 --> 00:41:22,800
+vector 1 1 in it that's it there are
+
+673
+00:41:20,250 --> 00:41:24,300
+only four vectors in the two dimensional
+
+674
+00:41:22,800 --> 00:41:26,880
+vector space over the field of two
+
+675
+00:41:24,300 --> 00:41:29,070
+elements so if I have an element in this
+
+676
+00:41:26,880 --> 00:41:31,650
+group it's acting on this vector space
+
+677
+00:41:29,070 --> 00:41:34,500
+it's permuting these vectors around at
+
+678
+00:41:31,650 --> 00:41:37,020
+the very least correct it has to fix
+
+679
+00:41:34,500 --> 00:41:38,460
+this vector because that's the origin of
+
+680
+00:41:37,020 --> 00:41:41,190
+the vector space any linear
+
+681
+00:41:38,460 --> 00:41:42,870
+transformation takes zero to zero so
+
+682
+00:41:41,190 --> 00:41:43,480
+it's doing a little permutation action
+
+683
+00:41:42,870 --> 00:41:46,630
+on these three
+
+684
+00:41:43,480 --> 00:41:48,250
+vectors show that you can get any
+
+685
+00:41:46,630 --> 00:41:50,530
+permutation you wish of those three
+
+686
+00:41:48,250 --> 00:41:52,900
+vectors and that of course determines
+
+687
+00:41:50,530 --> 00:41:54,520
+the linear transformation so that gives
+
+688
+00:41:52,900 --> 00:41:56,490
+you your isomorphism with the symmetric
+
+689
+00:41:54,520 --> 00:42:03,990
+group on three letters
+
+690
+00:41:56,490 --> 00:42:03,990
+cool huh very cool okay
+
+691
+00:42:05,970 --> 00:42:13,270
+now I want to make one more point
+
+692
+00:42:09,930 --> 00:42:15,130
+because Peter touched on it last time to
+
+693
+00:42:13,270 --> 00:42:17,140
+get a matrix for a transformation you
+
+694
+00:42:15,130 --> 00:42:19,090
+have to choose a basis what happens when
+
+695
+00:42:17,140 --> 00:42:26,070
+you change the basis so this is truly
+
+696
+00:42:19,090 --> 00:42:32,530
+horrible computation if a is the matrix
+
+697
+00:42:26,070 --> 00:42:37,140
+of a transformation T from V to V with
+
+698
+00:42:32,530 --> 00:42:44,590
+respect to the basis B one through the N
+
+699
+00:42:37,140 --> 00:42:53,800
+what is the matrix with respect to a
+
+700
+00:42:44,590 --> 00:42:59,260
+different basis v1 prime to the N prime
+
+701
+00:42:53,800 --> 00:43:04,510
+you got a new matrix a prime how are a
+
+702
+00:42:59,260 --> 00:43:05,800
+prime related well the answer is and I'm
+
+703
+00:43:04,510 --> 00:43:07,300
+going to let you look at art and for the
+
+704
+00:43:05,800 --> 00:43:09,810
+computation here because I've never
+
+705
+00:43:07,300 --> 00:43:12,970
+found this computation to be at all
+
+706
+00:43:09,810 --> 00:43:20,020
+illuminating at the blackboard that a
+
+707
+00:43:12,970 --> 00:43:28,030
+prime is equal to P a P inverse where P
+
+708
+00:43:20,020 --> 00:43:30,900
+is the invertible n by n matrix giving
+
+709
+00:43:28,030 --> 00:43:30,900
+the change of basis
+
+710
+00:43:33,299 --> 00:43:37,240
+namely if you write the coordinates of
+
+711
+00:43:35,410 --> 00:43:39,099
+one basis in terms of the other basis
+
+712
+00:43:37,240 --> 00:43:40,480
+that gives you the matrix P I won't say
+
+713
+00:43:39,099 --> 00:43:45,069
+which basis in terms of which other
+
+714
+00:43:40,480 --> 00:43:57,640
+basis to horrible and you take this is
+
+715
+00:43:45,069 --> 00:44:00,010
+called the conjugate matrix so more
+
+716
+00:43:57,640 --> 00:44:02,020
+generally Artin works out the formula if
+
+717
+00:44:00,010 --> 00:44:04,510
+you have a transformation from V to W
+
+718
+00:44:02,020 --> 00:44:07,210
+you change your basis on V with the
+
+719
+00:44:04,510 --> 00:44:10,089
+matrix P you change your basis on W with
+
+720
+00:44:07,210 --> 00:44:14,650
+the matrix q then the new matrix is Q a
+
+721
+00:44:10,089 --> 00:44:17,349
+P inverse okay Peter did you do that did
+
+722
+00:44:14,650 --> 00:44:17,710
+you attempt that computation no thank
+
+723
+00:44:17,349 --> 00:44:20,470
+God
+
+724
+00:44:17,710 --> 00:44:22,030
+okay look carefully at that computation
+
+725
+00:44:20,470 --> 00:44:24,760
+and art and it's important it's critical
+
+726
+00:44:22,030 --> 00:44:27,309
+there has to be a formula for a prime in
+
+727
+00:44:24,760 --> 00:44:29,020
+terms of a right so when you actually
+
+728
+00:44:27,309 --> 00:44:31,869
+work it out you get this beautiful
+
+729
+00:44:29,020 --> 00:44:34,000
+conjugation form in other words if we're
+
+730
+00:44:31,869 --> 00:44:36,369
+only interested in studying elements in
+
+731
+00:44:34,000 --> 00:44:38,910
+one of these groups up to conjugacy
+
+732
+00:44:36,369 --> 00:44:42,819
+which is going to be very useful to us
+
+733
+00:44:38,910 --> 00:44:46,569
+we can choose our basis carefully and
+
+734
+00:44:42,819 --> 00:44:48,819
+get a particularly nice matrix maybe so
+
+735
+00:44:46,569 --> 00:44:50,440
+the advantage of this abstract vector
+
+736
+00:44:48,819 --> 00:44:52,990
+space point of view and it is a
+
+737
+00:44:50,440 --> 00:44:56,470
+tremendous advantage is that you can
+
+738
+00:44:52,990 --> 00:44:58,390
+render a linear operator more
+
+739
+00:44:56,470 --> 00:45:10,270
+transparent by the choice of an
+
+740
+00:44:58,390 --> 00:45:23,200
+intelligent basis of the the key point
+
+741
+00:45:10,270 --> 00:45:27,809
+of view over the F to the N a point of
+
+742
+00:45:23,200 --> 00:45:27,809
+view is
+
+743
+00:45:28,740 --> 00:45:51,570
+by choosing a convenient basis we can
+
+744
+00:45:41,190 --> 00:45:54,000
+get a simpler form for our operator if
+
+745
+00:45:51,570 --> 00:45:55,770
+you're just fixed on a matrix you're
+
+746
+00:45:54,000 --> 00:45:57,180
+stuck with that matrix I mean you might
+
+747
+00:45:55,770 --> 00:45:58,880
+have some horrible matrix and you don't
+
+748
+00:45:57,180 --> 00:46:02,010
+know what the operator is doing at all
+
+749
+00:45:58,880 --> 00:46:04,710
+but since we're only interested in the
+
+750
+00:46:02,010 --> 00:46:06,089
+underlying linear transformation we
+
+751
+00:46:04,710 --> 00:46:07,950
+should feel free to choose a different
+
+752
+00:46:06,089 --> 00:46:09,599
+basis that will have the property of
+
+753
+00:46:07,950 --> 00:46:12,650
+conjugating the matrix and possibly
+
+754
+00:46:09,599 --> 00:46:15,210
+turning it into a much simpler form and
+
+755
+00:46:12,650 --> 00:46:17,700
+we're going to be doing that next time
+
+756
+00:46:15,210 --> 00:46:22,830
+when we talk a look at someone has a
+
+757
+00:46:17,700 --> 00:46:26,359
+call okay let me give you an example of
+
+758
+00:46:22,830 --> 00:46:26,359
+that and then we'll stop
+
+759
+00:46:29,279 --> 00:46:34,200
+example from our first proposition
+
+760
+00:46:35,099 --> 00:46:46,769
+proposition the one where we had the map
+
+761
+00:46:39,460 --> 00:46:57,039
+from T from V to W there exists a basis
+
+762
+00:46:46,769 --> 00:47:03,249
+of V and a basis of W so that the matrix
+
+763
+00:46:57,039 --> 00:47:04,869
+of T is particularly simple matrix which
+
+764
+00:47:03,249 --> 00:47:12,069
+looks like this you get the identity
+
+765
+00:47:04,869 --> 00:47:14,799
+matrix r by r matrix and then the rest
+
+766
+00:47:12,069 --> 00:47:18,670
+of the entries are all zeros where r is
+
+767
+00:47:14,799 --> 00:47:20,680
+equal to the rank of T the dimension of
+
+768
+00:47:18,670 --> 00:47:23,499
+the image so you get a matrix of all
+
+769
+00:47:20,680 --> 00:47:25,150
+ones and zeros and you have R ones
+
+770
+00:47:23,499 --> 00:47:27,220
+running them down the diagonal a little
+
+771
+00:47:25,150 --> 00:47:28,630
+block like this of r by r identity
+
+772
+00:47:27,220 --> 00:47:37,960
+matrix so this would be this is written
+
+773
+00:47:28,630 --> 00:47:41,019
+in the book like this ir 0 0 0 couldn't
+
+774
+00:47:37,960 --> 00:47:43,989
+have a simpler matrix than that ok what
+
+775
+00:47:41,019 --> 00:47:48,759
+basis do we take well we take our basis
+
+776
+00:47:43,989 --> 00:47:52,720
+of V to start off with those vectors V k
+
+777
+00:47:48,759 --> 00:47:56,769
+plus 1 BK plus n that I called and then
+
+778
+00:47:52,720 --> 00:47:58,329
+the final ones are V 1 through BK where
+
+779
+00:47:56,769 --> 00:48:00,880
+these things are in the kernel and these
+
+780
+00:47:58,329 --> 00:48:04,089
+things map to the basis of the image and
+
+781
+00:48:00,880 --> 00:48:09,700
+we take our basis of W to be T of VK
+
+782
+00:48:04,089 --> 00:48:11,890
+plus 1 up to T of VK plus N and then we
+
+783
+00:48:09,700 --> 00:48:13,299
+just complete that to be some basis of W
+
+784
+00:48:11,890 --> 00:48:16,480
+that we don't care about the rest of it
+
+785
+00:48:13,299 --> 00:48:18,339
+and then look at look at what happens in
+
+786
+00:48:16,480 --> 00:48:20,259
+the first proposition the image of this
+
+787
+00:48:18,339 --> 00:48:22,059
+vector is this vector so the first
+
+788
+00:48:20,259 --> 00:48:24,519
+column of the matrix just has a 1 and
+
+789
+00:48:22,059 --> 00:48:26,140
+all zeros the image of the next vector
+
+790
+00:48:24,519 --> 00:48:27,789
+is the next vector so the second column
+
+791
+00:48:26,140 --> 00:48:30,099
+has a 1 in the second place and all the
+
+792
+00:48:27,789 --> 00:48:31,210
+rest zeros same thing happens all the
+
+793
+00:48:30,099 --> 00:48:34,779
+way down here and the image of these
+
+794
+00:48:31,210 --> 00:48:37,869
+vectors is just 0 because they're in the
+
+795
+00:48:34,779 --> 00:48:41,009
+kernel so what's not a clever choice of
+
+796
+00:48:37,869 --> 00:48:41,009
+basis yeah
+
+797
+00:48:42,460 --> 00:48:48,730
+I'm sorry B sub n thank you very much so
+
+798
+00:48:45,770 --> 00:48:51,770
+the number of these vectors is our a
+
+799
+00:48:48,730 --> 00:48:55,370
+number of such vectors is our sorry this
+
+800
+00:48:51,770 --> 00:48:57,980
+is V sub n thank you very much getting a
+
+801
+00:48:55,370 --> 00:49:01,430
+little ahead of myself now this was too
+
+802
+00:48:57,980 --> 00:49:03,260
+easy this was too easy the basis choice
+
+803
+00:49:01,430 --> 00:49:06,170
+because we had a choice of basis of V
+
+804
+00:49:03,260 --> 00:49:12,430
+and W a much more interesting question
+
+805
+00:49:06,170 --> 00:49:15,020
+is when we have a map T from V to V and
+
+806
+00:49:12,430 --> 00:49:16,400
+we're only allowed to choose one basis
+
+807
+00:49:15,020 --> 00:49:20,690
+we're not allowed to choose the basis on
+
+808
+00:49:16,400 --> 00:49:22,940
+the domain and image independently can
+
+809
+00:49:20,690 --> 00:49:26,030
+we choose a nice basis of V to render
+
+810
+00:49:22,940 --> 00:49:28,760
+this operator particularly simple well
+
+811
+00:49:26,030 --> 00:49:31,040
+the simplest way this would happen is if
+
+812
+00:49:28,760 --> 00:49:32,690
+we could find a basis of what are called
+
+813
+00:49:31,040 --> 00:49:36,530
+eigenvectors this brings in the whole
+
+814
+00:49:32,690 --> 00:49:38,660
+subject of eigenvectors an eigenvector
+
+815
+00:49:36,530 --> 00:49:41,870
+would be a vector such that T of V is
+
+816
+00:49:38,660 --> 00:49:44,870
+some scalar times B it's just scaled if
+
+817
+00:49:41,870 --> 00:49:47,480
+you had a basis of such the matrix would
+
+818
+00:49:44,870 --> 00:49:52,750
+be a diagonal matrix we're not all ones
+
+819
+00:49:47,480 --> 00:49:59,840
+in it right but if we found a basis if
+
+820
+00:49:52,750 --> 00:50:05,230
+we found a basis of such then the matrix
+
+821
+00:49:59,840 --> 00:50:09,890
+would look like this C 1 C 2 C n 0
+
+822
+00:50:05,230 --> 00:50:11,240
+that's an easy matrix to manipulate so
+
+823
+00:50:09,890 --> 00:50:14,630
+that's what we're going to deal with
+
+824
+00:50:11,240 --> 00:50:15,910
+next time can we always find the basis
+
+825
+00:50:14,630 --> 00:50:19,070
+of eigenvectors
+
+826
+00:50:15,910 --> 00:50:21,890
+when can we when can't we you know what
+
+827
+00:50:19,070 --> 00:50:24,050
+do we do if we can't that's the next
+
+828
+00:50:21,890 --> 00:50:26,090
+question to try to find basis that put
+
+829
+00:50:24,050 --> 00:50:31,330
+certain linear operators in nice form
+
+830
+00:50:26,090 --> 00:50:31,330
+and that'll be the topic for Friday good
+

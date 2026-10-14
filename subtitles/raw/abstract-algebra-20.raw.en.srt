@@ -1,0 +1,4308 @@
+1
+00:00:13,599 --> 00:00:18,460
+to prove that any group of order p^ s
+
+2
+00:00:17,000 --> 00:00:22,679
+was a
+
+3
+00:00:18,460 --> 00:00:22,679
+[Applause]
+
+4
+00:00:25,720 --> 00:00:32,279
+[Applause]
+
+5
+00:00:28,160 --> 00:00:34,399
+billion now we already knew that any G
+
+6
+00:00:32,279 --> 00:00:36,960
+of order
+
+7
+00:00:34,399 --> 00:00:39,280
+p is
+
+8
+00:00:36,960 --> 00:00:42,879
+cyclic so therefore
+
+9
+00:00:39,280 --> 00:00:44,719
+isomorphic to to the group zmod pz by
+
+10
+00:00:42,879 --> 00:00:46,920
+sending a generator of the cyclic group
+
+11
+00:00:44,719 --> 00:00:46,920
+to
+
+12
+00:00:47,680 --> 00:00:52,960
+one and uh we're going to start to
+
+13
+00:00:49,920 --> 00:00:54,800
+develop methods that allow us to analyze
+
+14
+00:00:52,960 --> 00:00:56,000
+G what
+
+15
+00:00:54,800 --> 00:01:00,199
+[Applause]
+
+16
+00:00:56,000 --> 00:01:04,080
+about G of order
+
+17
+00:01:00,199 --> 00:01:07,080
+PQ or P cubed slightly more complicated
+
+18
+00:01:04,080 --> 00:01:10,400
+products of primes uh so we're going to
+
+19
+00:01:07,080 --> 00:01:12,799
+need here I gave we know not non ailion
+
+20
+00:01:10,400 --> 00:01:17,200
+groups of of these orders at least of
+
+21
+00:01:12,799 --> 00:01:19,799
+order six we have S3 of order
+
+22
+00:01:17,200 --> 00:01:22,360
+six and last time I gave you an example
+
+23
+00:01:19,799 --> 00:01:24,119
+of a non-ab bilan group of order P cubed
+
+24
+00:01:22,360 --> 00:01:26,360
+where you took these matrices over the
+
+25
+00:01:24,119 --> 00:01:28,400
+field of P
+
+26
+00:01:26,360 --> 00:01:29,960
+elements so there are interesting groups
+
+27
+00:01:28,400 --> 00:01:32,399
+of these orders and we might want to
+
+28
+00:01:29,960 --> 00:01:33,840
+classify them and to do that we're going
+
+29
+00:01:32,399 --> 00:01:36,840
+to need to develop a little bit more
+
+30
+00:01:33,840 --> 00:01:38,600
+Machinery internal to finite groups now
+
+31
+00:01:36,840 --> 00:01:41,119
+let's proceed with this theorem a little
+
+32
+00:01:38,600 --> 00:01:43,200
+bit I claim that once we know that any
+
+33
+00:01:41,119 --> 00:01:45,320
+group of order p^ squ is a billion there
+
+34
+00:01:43,200 --> 00:01:49,240
+are only two possibilities for
+
+35
+00:01:45,320 --> 00:01:52,719
+it only two such
+
+36
+00:01:49,240 --> 00:01:52,719
+groups up to
+
+37
+00:01:53,399 --> 00:01:58,240
+isomorphism namely any group of order p^
+
+38
+00:01:55,960 --> 00:02:00,200
+s is going to be isomorphic to one of
+
+39
+00:01:58,240 --> 00:02:02,000
+two groups any group of order p is
+
+40
+00:02:00,200 --> 00:02:04,680
+isomorphic to this
+
+41
+00:02:02,000 --> 00:02:07,640
+group so there's only one group up to
+
+42
+00:02:04,680 --> 00:02:10,160
+isomorphism of order P so a group of
+
+43
+00:02:07,640 --> 00:02:14,879
+order P squ there are two possibilities
+
+44
+00:02:10,160 --> 00:02:14,879
+the first case is that there is an
+
+45
+00:02:16,640 --> 00:02:20,519
+element G and
+
+46
+00:02:18,800 --> 00:02:23,879
+G of
+
+47
+00:02:20,519 --> 00:02:25,480
+order p^ S I mean the possible orders
+
+48
+00:02:23,879 --> 00:02:29,360
+for an element in a group of order p^
+
+49
+00:02:25,480 --> 00:02:30,959
+squ are 1 P and p^ S okay that's it cuz
+
+50
+00:02:29,360 --> 00:02:33,680
+the order has to divide the order of the
+
+51
+00:02:30,959 --> 00:02:40,599
+group if there's an element of order p^
+
+52
+00:02:33,680 --> 00:02:42,879
+s then G is isomorphic to Z mod p^2 Z by
+
+53
+00:02:40,599 --> 00:02:45,959
+the element that takes G the isomorphism
+
+54
+00:02:42,879 --> 00:02:51,080
+that takes G to one mod
+
+55
+00:02:45,959 --> 00:02:54,680
+p^2 and that takes G to the a to a mod
+
+56
+00:02:51,080 --> 00:02:57,400
+p^ s that's a one: one onto map which is
+
+57
+00:02:54,680 --> 00:03:01,840
+an isomorphism of groups so if you have
+
+58
+00:02:57,400 --> 00:03:01,840
+an element of order p^ s it's a cyclic
+
+59
+00:03:02,310 --> 00:03:06,840
+[Applause]
+
+60
+00:03:03,440 --> 00:03:11,519
+group and is isomorphic to this cyclic
+
+61
+00:03:06,840 --> 00:03:13,319
+group the second possibility is there is
+
+62
+00:03:11,519 --> 00:03:16,799
+no
+
+63
+00:03:13,319 --> 00:03:18,400
+element of order p^
+
+64
+00:03:16,799 --> 00:03:20,000
+s
+
+65
+00:03:18,400 --> 00:03:24,000
+so
+
+66
+00:03:20,000 --> 00:03:26,319
+every G not equal to the identity has
+
+67
+00:03:24,000 --> 00:03:26,319
+order
+
+68
+00:03:27,680 --> 00:03:31,680
+P correct
+
+69
+00:03:32,760 --> 00:03:37,640
+then the
+
+70
+00:03:35,120 --> 00:03:39,319
+field Zod
+
+71
+00:03:37,640 --> 00:03:43,319
+pz
+
+72
+00:03:39,319 --> 00:03:46,319
+acts on the group
+
+73
+00:03:43,319 --> 00:03:46,319
+G
+
+74
+00:03:47,280 --> 00:03:53,319
+by well I could say a in this field
+
+75
+00:03:51,120 --> 00:03:56,360
+times an element G in the
+
+76
+00:03:53,319 --> 00:03:57,680
+group is g to the eth
+
+77
+00:03:56,360 --> 00:04:01,159
+[Applause]
+
+78
+00:03:57,680 --> 00:04:04,680
+power and that makes sense
+
+79
+00:04:01,159 --> 00:04:06,879
+because uh If I multiply by P here which
+
+80
+00:04:04,680 --> 00:04:07,840
+is zero in this G to the p is the
+
+81
+00:04:06,879 --> 00:04:11,400
+identity
+
+82
+00:04:07,840 --> 00:04:13,879
+element so this you have to understand
+
+83
+00:04:11,400 --> 00:04:16,880
+that 0 * G is is
+
+84
+00:04:13,879 --> 00:04:18,400
+e the identity element in the group in
+
+85
+00:04:16,880 --> 00:04:22,560
+fact it's better if you think of this
+
+86
+00:04:18,400 --> 00:04:24,919
+group which has no element of order p^ s
+
+87
+00:04:22,560 --> 00:04:27,320
+additively and therefore G to the a
+
+88
+00:04:24,919 --> 00:04:29,320
+namely as a as a plus sign instead of
+
+89
+00:04:27,320 --> 00:04:32,520
+multiplying elements G * H you think of
+
+90
+00:04:29,320 --> 00:04:34,759
+it as G plus h that makes sense because
+
+91
+00:04:32,520 --> 00:04:37,360
+G is a billion so we can think of G plus
+
+92
+00:04:34,759 --> 00:04:44,479
+h is the same thing as H+ G so this
+
+93
+00:04:37,360 --> 00:04:44,479
+would just be G + G+ G Plus G A
+
+94
+00:04:44,800 --> 00:04:51,080
+* and this would just be the identity
+
+95
+00:04:47,680 --> 00:04:53,759
+element we could think of as a zero in
+
+96
+00:04:51,080 --> 00:04:53,759
+the additive
+
+97
+00:04:55,520 --> 00:05:00,960
+group and consequently what we get in
+
+98
+00:04:58,320 --> 00:05:05,560
+this case is that the Group G is
+
+99
+00:05:00,960 --> 00:05:05,560
+actually a vector space over this
+
+100
+00:05:15,160 --> 00:05:20,520
+field namely it's an a bilion group
+
+101
+00:05:18,440 --> 00:05:23,680
+together with an operation of a
+
+102
+00:05:20,520 --> 00:05:25,600
+field on the group here's the oper
+
+103
+00:05:23,680 --> 00:05:28,240
+here's scalar multiplication of the
+
+104
+00:05:25,600 --> 00:05:31,639
+field on the group and consequently it's
+
+105
+00:05:28,240 --> 00:05:35,280
+a vector space over Z pz it has order p^
+
+106
+00:05:31,639 --> 00:05:35,280
+s so it has Dimension
+
+107
+00:05:37,600 --> 00:05:42,199
+two so as an ailan Group G is isomorphic
+
+108
+00:05:40,960 --> 00:05:44,800
+to Z mod
+
+109
+00:05:42,199 --> 00:05:46,280
+pz squared because that's the
+
+110
+00:05:44,800 --> 00:05:47,440
+two-dimensional Vector space over the
+
+111
+00:05:46,280 --> 00:05:48,960
+field of P elements every
+
+112
+00:05:47,440 --> 00:05:51,759
+two-dimensional Vector space is
+
+113
+00:05:48,960 --> 00:05:54,680
+isomorphic to this one by the choice of
+
+114
+00:05:51,759 --> 00:05:56,280
+a basis so to make this specific
+
+115
+00:05:54,680 --> 00:05:59,160
+isomorphism you'd have to find two
+
+116
+00:05:56,280 --> 00:06:01,400
+different elements G1 and G2 and G that
+
+117
+00:05:59,160 --> 00:06:06,479
+gave a basis for it as a vector space
+
+118
+00:06:01,400 --> 00:06:13,199
+over Z mod pz and you take G1 to the A1
+
+119
+00:06:06,479 --> 00:06:13,199
+G2 to the A2 to the coordinates A1
+
+120
+00:06:13,360 --> 00:06:18,039
+A2 so if every element has order P then
+
+121
+00:06:16,240 --> 00:06:19,520
+you have an action of the field on the
+
+122
+00:06:18,039 --> 00:06:21,840
+group turning the group into a
+
+123
+00:06:19,520 --> 00:06:25,000
+two-dimensional Vector space and you get
+
+124
+00:06:21,840 --> 00:06:26,240
+this and that group is not isomorphic to
+
+125
+00:06:25,000 --> 00:06:28,440
+this group because this group has
+
+126
+00:06:26,240 --> 00:06:30,639
+elements of order p^ s whereas in this
+
+127
+00:06:28,440 --> 00:06:32,520
+group everything has order p
+
+128
+00:06:30,639 --> 00:06:34,680
+this is not a vector space over the
+
+129
+00:06:32,520 --> 00:06:36,960
+field of P elements because in a vector
+
+130
+00:06:34,680 --> 00:06:40,080
+space over the field of P elements P *
+
+131
+00:06:36,960 --> 00:06:41,440
+anything is zero whereas here you have
+
+132
+00:06:40,080 --> 00:06:43,720
+things where you have to multiply by p^
+
+133
+00:06:41,440 --> 00:06:46,360
+S till you get
+
+134
+00:06:43,720 --> 00:06:47,880
+zero this by the way gives a very
+
+135
+00:06:46,360 --> 00:06:49,800
+interesting construction of a group in
+
+136
+00:06:47,880 --> 00:06:52,840
+general in
+
+137
+00:06:49,800 --> 00:06:56,479
+general if n is bigger than equal to one
+
+138
+00:06:52,840 --> 00:06:57,360
+we have the group G which is Zod pz to
+
+139
+00:06:56,479 --> 00:07:01,520
+the
+
+140
+00:06:57,360 --> 00:07:01,520
+n and n dimensional vector
+
+141
+00:07:02,400 --> 00:07:12,720
+space over Zod pz this has
+
+142
+00:07:08,680 --> 00:07:15,280
+order P to the N every
+
+143
+00:07:12,720 --> 00:07:17,680
+element not equal to the identity of
+
+144
+00:07:15,280 --> 00:07:17,680
+order
+
+145
+00:07:18,479 --> 00:07:23,400
+P just like in this case and that's a
+
+146
+00:07:22,000 --> 00:07:25,039
+that's such a nice group that it has a
+
+147
+00:07:23,400 --> 00:07:26,400
+name for it just like the cyclic group
+
+148
+00:07:25,039 --> 00:07:31,520
+has a name for it this is called an
+
+149
+00:07:26,400 --> 00:07:31,520
+elementary ailion group Elementary
+
+150
+00:07:32,280 --> 00:07:37,199
+a bilion p
+
+151
+00:07:34,840 --> 00:07:39,080
+group it's sort of the opposite kind of
+
+152
+00:07:37,199 --> 00:07:40,879
+ailan P group than a cyclic group and
+
+153
+00:07:39,080 --> 00:07:43,720
+that the elements have as small order as
+
+154
+00:07:40,879 --> 00:07:45,000
+possible P whereas the the contrast in
+
+155
+00:07:43,720 --> 00:07:46,360
+this case would be a cyclic group of
+
+156
+00:07:45,000 --> 00:07:49,240
+order P to the
+
+157
+00:07:46,360 --> 00:07:52,240
+n and in order P squ there are only two
+
+158
+00:07:49,240 --> 00:07:57,440
+possibilities cyclic or
+
+159
+00:07:52,240 --> 00:07:59,000
+this okay now to go on to groups of more
+
+160
+00:07:57,440 --> 00:08:00,960
+complicated order we have to actually
+
+161
+00:07:59,000 --> 00:08:02,800
+develop General theorems it's enough to
+
+162
+00:08:00,960 --> 00:08:04,960
+do we're able to do groups of order p
+
+163
+00:08:02,800 --> 00:08:06,840
+and p^ squ with our bare hands now we
+
+164
+00:08:04,960 --> 00:08:08,120
+have to develop some general theorems
+
+165
+00:08:06,840 --> 00:08:09,440
+and the general theorems we're going to
+
+166
+00:08:08,120 --> 00:08:11,919
+develop were discovered at the end of
+
+167
+00:08:09,440 --> 00:08:14,000
+the 19th century by a Norwegian
+
+168
+00:08:11,919 --> 00:08:16,000
+mathematician whose name is
+
+169
+00:08:14,000 --> 00:08:17,759
+CAF and we're going to we're going to
+
+170
+00:08:16,000 --> 00:08:20,960
+prove now or we going to start the proof
+
+171
+00:08:17,759 --> 00:08:20,960
+of What's called the coff
+
+172
+00:08:23,039 --> 00:08:29,280
+theorems today and I will probably get
+
+173
+00:08:27,000 --> 00:08:31,719
+through the proof today it's it's not
+
+174
+00:08:29,280 --> 00:08:34,399
+it's a serious
+
+175
+00:08:31,719 --> 00:08:35,959
+argument uh and we'll start doing
+
+176
+00:08:34,399 --> 00:08:37,800
+applications of the proof to groups of
+
+177
+00:08:35,959 --> 00:08:41,880
+order PQ
+
+178
+00:08:37,800 --> 00:08:43,440
+Etc uh on Wednesday I should point out
+
+179
+00:08:41,880 --> 00:08:44,560
+that I'm out of town on Friday I have to
+
+180
+00:08:43,440 --> 00:08:46,600
+go to the West Coast to raise
+
+181
+00:08:44,560 --> 00:08:50,720
+unimaginably large sums of money from
+
+182
+00:08:46,600 --> 00:08:52,360
+movie Moguls for Harvard College so uh
+
+183
+00:08:50,720 --> 00:08:53,839
+and Peter Green is out the rest of this
+
+184
+00:08:52,360 --> 00:08:55,600
+week too because he's going down to
+
+185
+00:08:53,839 --> 00:08:57,360
+Princeton to participate in a conference
+
+186
+00:08:55,600 --> 00:09:00,000
+on a major mathematical problem to which
+
+187
+00:08:57,360 --> 00:09:01,720
+he's making fundamental contributions uh
+
+188
+00:09:00,000 --> 00:09:03,200
+but on Friday you're lucky that my
+
+189
+00:09:01,720 --> 00:09:04,360
+colleague Richard Taylor who is one of
+
+190
+00:09:03,200 --> 00:09:06,519
+the people involved in the proof of
+
+191
+00:09:04,360 --> 00:09:08,000
+fma's Last Theorem a great great number
+
+192
+00:09:06,519 --> 00:09:10,399
+theorist is going to come to lecture to
+
+193
+00:09:08,000 --> 00:09:13,440
+you and then Peter will sub for me on
+
+194
+00:09:10,399 --> 00:09:15,600
+Monday as I'm recovering from my various
+
+195
+00:09:13,440 --> 00:09:18,279
+travels I'll be back on Wednesday but
+
+196
+00:09:15,600 --> 00:09:22,200
+I'll talk about applications of this on
+
+197
+00:09:18,279 --> 00:09:24,640
+Wednesday so recall EXC me yes sorry
+
+198
+00:09:22,200 --> 00:09:27,519
+before you go on I'm just I might lose
+
+199
+00:09:24,640 --> 00:09:30,800
+the point over here okay this is just an
+
+200
+00:09:27,519 --> 00:09:34,320
+example so that General is the example I
+
+201
+00:09:30,800 --> 00:09:36,600
+did in order p^ s if you want to know a
+
+202
+00:09:34,320 --> 00:09:39,240
+nice way of going from Vector spaces to
+
+203
+00:09:36,600 --> 00:09:43,040
+groups and you take the vector space of
+
+204
+00:09:39,240 --> 00:09:45,120
+Dimension n over the field of P elements
+
+205
+00:09:43,040 --> 00:09:46,959
+that gives you in particular an ailion
+
+206
+00:09:45,120 --> 00:09:49,120
+group because a vector space has
+
+207
+00:09:46,959 --> 00:09:51,279
+underlying it an a bilion group but it's
+
+208
+00:09:49,120 --> 00:09:54,040
+a finite a bilion group it has order P
+
+209
+00:09:51,279 --> 00:09:56,240
+to the N the P to the N choices for
+
+210
+00:09:54,040 --> 00:09:58,399
+these coordinates every element in the
+
+211
+00:09:56,240 --> 00:09:59,920
+group has order P because when you when
+
+212
+00:09:58,399 --> 00:10:01,680
+you think about how you add things in
+
+213
+00:09:59,920 --> 00:10:04,000
+this group if you if you add anything to
+
+214
+00:10:01,680 --> 00:10:06,279
+itself P times you get to the
+
+215
+00:10:04,000 --> 00:10:08,320
+origin and we call this because it's
+
+216
+00:10:06,279 --> 00:10:11,000
+such a nice example the elementary ailan
+
+217
+00:10:08,320 --> 00:10:13,240
+Peak group okay just like we have a name
+
+218
+00:10:11,000 --> 00:10:15,200
+for groups so we're we're developing a
+
+219
+00:10:13,240 --> 00:10:17,240
+kind of managerie of finite groups we
+
+220
+00:10:15,200 --> 00:10:18,680
+already know the finite cyclic groups
+
+221
+00:10:17,240 --> 00:10:22,000
+I've just told you about the elementary
+
+222
+00:10:18,680 --> 00:10:25,480
+ailion P groups we'll even have names
+
+223
+00:10:22,000 --> 00:10:25,480
+for non-ab bilan groups as we'll
+
+224
+00:10:26,920 --> 00:10:31,320
+see the group that I showed you which
+
+225
+00:10:29,160 --> 00:10:34,040
+was this non ailan group of order P
+
+226
+00:10:31,320 --> 00:10:35,680
+cubed given by those matrices those
+
+227
+00:10:34,040 --> 00:10:38,720
+matrices with entries in the upper
+
+228
+00:10:35,680 --> 00:10:40,519
+triangular is called a Heisenberg group
+
+229
+00:10:38,720 --> 00:10:42,240
+because it's the analog of a group that
+
+230
+00:10:40,519 --> 00:10:44,920
+Heisenberg considered over the real
+
+231
+00:10:42,240 --> 00:10:46,639
+numbers we'll come back to that part of
+
+232
+00:10:44,920 --> 00:10:48,959
+the lore of finite groups is naming
+
+233
+00:10:46,639 --> 00:10:50,880
+everything okay the CeeLo theorems we
+
+234
+00:10:48,959 --> 00:10:53,120
+have to discuss the operation of G by
+
+235
+00:10:50,880 --> 00:10:58,920
+conjugation so remember the G
+
+236
+00:10:53,120 --> 00:10:58,920
+A on G by conjugation
+
+237
+00:10:59,880 --> 00:11:06,160
+so this you think of as the set namely
+
+238
+00:11:02,079 --> 00:11:06,160
+it takes an element s to GSG
+
+239
+00:11:06,839 --> 00:11:14,399
+inverse and the
+
+240
+00:11:09,279 --> 00:11:14,399
+orbits are called conjugacy
+
+241
+00:11:14,639 --> 00:11:19,920
+classes of
+
+242
+00:11:17,440 --> 00:11:22,800
+elements and the stabilizers this is
+
+243
+00:11:19,920 --> 00:11:26,959
+like o of s conjugacy class of the
+
+244
+00:11:22,800 --> 00:11:31,200
+element s and the stabilizer G of s is
+
+245
+00:11:26,959 --> 00:11:31,200
+called the centralizer of s
+
+246
+00:11:32,120 --> 00:11:37,360
+so that's the set of G such that GS G
+
+247
+00:11:35,079 --> 00:11:39,880
+inverse is equal to S the elements that
+
+248
+00:11:37,360 --> 00:11:42,279
+commute with s so we've taken a look at
+
+249
+00:11:39,880 --> 00:11:45,680
+this action when we did the class
+
+250
+00:11:42,279 --> 00:11:47,839
+equation now it doesn't just act on G it
+
+251
+00:11:45,680 --> 00:11:53,040
+acts on subsets G
+
+252
+00:11:47,839 --> 00:11:55,399
+acts on the set of or maybe I should say
+
+253
+00:11:53,040 --> 00:12:00,760
+alsoo because this a different action on
+
+254
+00:11:55,399 --> 00:12:04,399
+the set let's call it uh
+
+255
+00:12:00,760 --> 00:12:04,399
+h of all
+
+256
+00:12:05,440 --> 00:12:10,360
+subgroups of G by
+
+257
+00:12:10,720 --> 00:12:17,120
+conjugation so if I have a subgroup h
+
+258
+00:12:14,519 --> 00:12:20,440
+and I want to know what G does to it it
+
+259
+00:12:17,120 --> 00:12:25,160
+takes it to the subgroup GH G
+
+260
+00:12:20,440 --> 00:12:25,160
+inverse which is another subgroup
+
+261
+00:12:30,120 --> 00:12:32,760
+okay
+
+262
+00:12:35,560 --> 00:12:44,000
+yeah of of all subgroups of G or g g g g
+
+263
+00:12:40,720 --> 00:12:45,639
+g g g acts on its own subgroups doesn't
+
+264
+00:12:44,000 --> 00:12:49,320
+necessarily act on subgroups of another
+
+265
+00:12:45,639 --> 00:12:51,560
+group so here G is acting on its
+
+266
+00:12:49,320 --> 00:12:53,240
+elements by conjugation you take an
+
+267
+00:12:51,560 --> 00:12:56,160
+arbitrary element in the group to this
+
+268
+00:12:53,240 --> 00:12:57,880
+element in the group but this doesn't
+
+269
+00:12:56,160 --> 00:13:00,360
+just take elements to elements if you
+
+270
+00:12:57,880 --> 00:13:01,680
+think about what conjugation does it if
+
+271
+00:13:00,360 --> 00:13:03,440
+you apply it to the elements of a
+
+272
+00:13:01,680 --> 00:13:07,240
+subgroup so this is consists of all
+
+273
+00:13:03,440 --> 00:13:10,480
+things of the form GH G inverse such
+
+274
+00:13:07,240 --> 00:13:12,880
+that H is in h it's a subset of G but in
+
+275
+00:13:10,480 --> 00:13:15,000
+fact it's a subgroup if you multiply two
+
+276
+00:13:12,880 --> 00:13:16,600
+things here you stay in it so that gives
+
+277
+00:13:15,000 --> 00:13:18,880
+away of going from one subgroup to
+
+278
+00:13:16,600 --> 00:13:20,639
+another and that's a g-action namely the
+
+279
+00:13:18,880 --> 00:13:21,480
+identity preserves all subgroups and
+
+280
+00:13:20,639 --> 00:13:23,560
+it's
+
+281
+00:13:21,480 --> 00:13:25,639
+associative so we had the action the
+
+282
+00:13:23,560 --> 00:13:27,519
+notion of G acting on sets here it's
+
+283
+00:13:25,639 --> 00:13:29,920
+acting on the set of its own elements
+
+284
+00:13:27,519 --> 00:13:32,680
+here it's acting on the set of its own
+
+285
+00:13:29,920 --> 00:13:35,199
+subgroups okay and we want to know what
+
+286
+00:13:32,680 --> 00:13:39,519
+the orbit is so the orbit of
+
+287
+00:13:35,199 --> 00:13:39,519
+H is the set of
+
+288
+00:13:42,040 --> 00:13:45,040
+subgroups
+
+289
+00:13:45,199 --> 00:13:51,440
+conjugate to H conjugate meaning of this
+
+290
+00:13:48,839 --> 00:13:57,680
+form and the stabilizer of
+
+291
+00:13:51,440 --> 00:13:59,720
+H is the set of G such that GH G inverse
+
+292
+00:13:57,680 --> 00:14:02,360
+is equal to H
+
+293
+00:13:59,720 --> 00:14:04,399
+now that doesn't mean element by
+
+294
+00:14:02,360 --> 00:14:06,839
+element that doesn't mean element by
+
+295
+00:14:04,399 --> 00:14:08,560
+element it says it means that this set
+
+296
+00:14:06,839 --> 00:14:11,079
+is equal to this set it could move the
+
+297
+00:14:08,560 --> 00:14:12,759
+elements of H around so you don't think
+
+298
+00:14:11,079 --> 00:14:14,519
+of that as the centralizer of H it
+
+299
+00:14:12,759 --> 00:14:16,560
+doesn't centralize everything in h it
+
+300
+00:14:14,519 --> 00:14:18,560
+just takes the set to itself so this is
+
+301
+00:14:16,560 --> 00:14:21,440
+what's called in group Theory the
+
+302
+00:14:18,560 --> 00:14:21,440
+normalizer of
+
+303
+00:14:26,120 --> 00:14:31,440
+H and I'm going to make two comments
+
+304
+00:14:28,399 --> 00:14:33,120
+about the normal izer of H so first of
+
+305
+00:14:31,440 --> 00:14:35,000
+all it's a subgroup because it's the
+
+306
+00:14:33,120 --> 00:14:37,079
+stabilizer of something the stabilizer
+
+307
+00:14:35,000 --> 00:14:39,360
+of something is always a subgroup and
+
+308
+00:14:37,079 --> 00:14:43,360
+it's a subgroup that sits
+
+309
+00:14:39,360 --> 00:14:43,360
+between H and
+
+310
+00:14:44,440 --> 00:14:50,399
+G because H has the property that it
+
+311
+00:14:47,880 --> 00:14:54,079
+normalizes
+
+312
+00:14:50,399 --> 00:14:57,000
+itself moreover it's a normal it's a
+
+313
+00:14:54,079 --> 00:15:00,600
+subgroup that sits between H and G and H
+
+314
+00:14:57,000 --> 00:15:03,519
+is normal in its own normaliz
+
+315
+00:15:00,600 --> 00:15:05,000
+izer clear if you forget the fact that
+
+316
+00:15:03,519 --> 00:15:07,120
+you're acting by G and you're just
+
+317
+00:15:05,000 --> 00:15:12,240
+acting by elements in the normalizer
+
+318
+00:15:07,120 --> 00:15:12,240
+they preserve H and it's the largest
+
+319
+00:15:15,040 --> 00:15:19,120
+subgroup of G containing
+
+320
+00:15:20,399 --> 00:15:24,360
+H in which H is
+
+321
+00:15:24,639 --> 00:15:29,959
+normal I mean if H is a normal subgroup
+
+322
+00:15:27,440 --> 00:15:31,600
+of G it's stabiliz there is the entire
+
+323
+00:15:29,959 --> 00:15:33,720
+group under this
+
+324
+00:15:31,600 --> 00:15:36,399
+action right that's what it means to be
+
+325
+00:15:33,720 --> 00:15:38,319
+normal in G that this this subgroup is
+
+326
+00:15:36,399 --> 00:15:41,959
+equal to H for all
+
+327
+00:15:38,319 --> 00:15:44,240
+G it's certainly equal to H for all H so
+
+328
+00:15:41,959 --> 00:15:46,519
+you keep you see what you can add to H
+
+329
+00:15:44,240 --> 00:15:48,759
+that preserves H in this conjugation
+
+330
+00:15:46,519 --> 00:15:52,560
+business and it's the largest subgroup
+
+331
+00:15:48,759 --> 00:15:52,560
+of G that normalizes
+
+332
+00:15:52,639 --> 00:15:57,800
+H so I'll give you two examples of
+
+333
+00:15:55,000 --> 00:16:00,920
+normalizers it's an important Concept in
+
+334
+00:15:57,800 --> 00:16:00,920
+the group S3
+
+335
+00:16:01,680 --> 00:16:07,040
+if we took a look at the subgroup
+
+336
+00:16:04,600 --> 00:16:09,759
+A3 the alternating Group which is the
+
+337
+00:16:07,040 --> 00:16:12,040
+identity the permutation 1 two 3 in our
+
+338
+00:16:09,759 --> 00:16:15,000
+new notation and the permutation
+
+339
+00:16:12,040 --> 00:16:17,279
+132 namely the elements of order three
+
+340
+00:16:15,000 --> 00:16:19,800
+and the identity that's a normal
+
+341
+00:16:17,279 --> 00:16:23,959
+subgroup of S3 it's the only subgroup of
+
+342
+00:16:19,800 --> 00:16:28,399
+order three so the normalizer of this
+
+343
+00:16:23,959 --> 00:16:30,360
+group is A3 is normalizer of A3 is equal
+
+344
+00:16:28,399 --> 00:16:33,519
+to S3
+
+345
+00:16:30,360 --> 00:16:36,040
+three however if you took instead the
+
+346
+00:16:33,519 --> 00:16:40,360
+group
+
+347
+00:16:36,040 --> 00:16:43,600
+E12 of order two inside of
+
+348
+00:16:40,360 --> 00:16:46,600
+S3 and you asked what elements normalize
+
+349
+00:16:43,600 --> 00:16:48,560
+this well if they normalize this they
+
+350
+00:16:46,600 --> 00:16:50,759
+would have to take this element to
+
+351
+00:16:48,560 --> 00:16:52,360
+itself because there's no other element
+
+352
+00:16:50,759 --> 00:16:54,639
+of order two in the group you see here
+
+353
+00:16:52,360 --> 00:16:56,839
+you can normalize this by permuting
+
+354
+00:16:54,639 --> 00:16:58,959
+these two elements that would be okay
+
+355
+00:16:56,839 --> 00:17:01,040
+and in fact when you conjugate this
+
+356
+00:16:58,959 --> 00:17:03,040
+Group by this element you'll see it
+
+357
+00:17:01,040 --> 00:17:04,600
+permutes those two elements it doesn't
+
+358
+00:17:03,040 --> 00:17:06,600
+it doesn't centralize it but it
+
+359
+00:17:04,600 --> 00:17:08,600
+normalizes it here if you have a group
+
+360
+00:17:06,600 --> 00:17:11,240
+of order two and you have something that
+
+361
+00:17:08,600 --> 00:17:12,880
+normalizes that it has to centralize it
+
+362
+00:17:11,240 --> 00:17:15,000
+and if you calculate what elements
+
+363
+00:17:12,880 --> 00:17:17,319
+commute with this element there are no
+
+364
+00:17:15,000 --> 00:17:19,280
+other elements but this element and so
+
+365
+00:17:17,319 --> 00:17:21,760
+in this case one finds the normalizer of
+
+366
+00:17:19,280 --> 00:17:24,559
+H is just
+
+367
+00:17:21,760 --> 00:17:26,559
+H so those are the two extremes you can
+
+368
+00:17:24,559 --> 00:17:28,400
+have nothing else preserving the group
+
+369
+00:17:26,559 --> 00:17:30,640
+subgroup or you can have the entire
+
+370
+00:17:28,400 --> 00:17:32,360
+group or you can have things in between
+
+371
+00:17:30,640 --> 00:17:35,600
+if you want an example of something in
+
+372
+00:17:32,360 --> 00:17:38,000
+between and this is also an important
+
+373
+00:17:35,600 --> 00:17:40,200
+special
+
+374
+00:17:38,000 --> 00:17:43,080
+example if you take the matri if you
+
+375
+00:17:40,200 --> 00:17:46,640
+take the subgroup H inside of 2x two
+
+376
+00:17:43,080 --> 00:17:46,640
+matrices that looks like
+
+377
+00:17:47,360 --> 00:17:55,840
+this a b like this inside of G which is
+
+378
+00:17:53,960 --> 00:17:58,960
+GL2 over a
+
+379
+00:17:55,840 --> 00:18:00,480
+field any field you'll find that the
+
+380
+00:17:58,960 --> 00:18:05,400
+normalizer of
+
+381
+00:18:00,480 --> 00:18:05,400
+H are the set of matrices that look like
+
+382
+00:18:12,120 --> 00:18:17,559
+this so there's a case where the
+
+383
+00:18:14,159 --> 00:18:21,000
+normalizer is larger but is not all of
+
+384
+00:18:17,559 --> 00:18:22,480
+G okay so this language is important
+
+385
+00:18:21,000 --> 00:18:24,520
+when you state the CeeLo theorems to
+
+386
+00:18:22,480 --> 00:18:27,200
+have a notion of G acting on its set of
+
+387
+00:18:24,520 --> 00:18:29,280
+subgroups by conjugation we've already
+
+388
+00:18:27,200 --> 00:18:32,200
+seen the set of subgroups con get to a
+
+389
+00:18:29,280 --> 00:18:34,799
+given one is important in the notion of
+
+390
+00:18:32,200 --> 00:18:37,159
+group actions on a set because if G acts
+
+391
+00:18:34,799 --> 00:18:37,159
+on a
+
+392
+00:18:37,640 --> 00:18:42,960
+set and we know the stabilizer of s that
+
+393
+00:18:41,600 --> 00:18:45,960
+is
+
+394
+00:18:42,960 --> 00:18:47,960
+conjugate to the stabiliz sorry acts
+
+395
+00:18:45,960 --> 00:18:50,880
+transitively on
+
+396
+00:18:47,960 --> 00:18:53,000
+S then the stabilizer of s is conjugate
+
+397
+00:18:50,880 --> 00:18:55,200
+to the stabilizer of another point and
+
+398
+00:18:53,000 --> 00:18:59,039
+the different stabilizers form a
+
+399
+00:18:55,200 --> 00:19:00,400
+conjugacy class of subgroups
+
+400
+00:18:59,039 --> 00:19:02,840
+so we've already seen these kind of
+
+401
+00:19:00,400 --> 00:19:05,120
+orbits already but we have to have a
+
+402
+00:19:02,840 --> 00:19:07,840
+name for the notion of the stabilizer as
+
+403
+00:19:05,120 --> 00:19:10,159
+I say remember that it does not preserve
+
+404
+00:19:07,840 --> 00:19:13,480
+the points of H pointwise it just takes
+
+405
+00:19:10,159 --> 00:19:15,159
+this set into this
+
+406
+00:19:13,480 --> 00:19:19,280
+set
+
+407
+00:19:15,159 --> 00:19:19,280
+okay now let's State the CeeLo
+
+408
+00:19:22,200 --> 00:19:27,360
+theorems I need a Blackboard for that
+
+409
+00:19:30,240 --> 00:19:34,480
+so they're really they're generally
+
+410
+00:19:32,720 --> 00:19:36,559
+broken up into three parts although when
+
+411
+00:19:34,480 --> 00:19:38,520
+clo discovered them seof discovered them
+
+412
+00:19:36,559 --> 00:19:41,290
+they were kind of
+
+413
+00:19:38,520 --> 00:19:43,919
+mishmash
+
+414
+00:19:41,290 --> 00:19:45,880
+[Applause]
+
+415
+00:19:43,919 --> 00:19:50,760
+theum
+
+416
+00:19:45,880 --> 00:19:50,760
+assume G is a finite
+
+417
+00:19:51,480 --> 00:19:56,080
+group of
+
+418
+00:19:54,520 --> 00:20:03,679
+order
+
+419
+00:19:56,080 --> 00:20:06,240
+n which is factored as P to the m * n
+
+420
+00:20:03,679 --> 00:20:09,400
+some power of a prime P times a number
+
+421
+00:20:06,240 --> 00:20:09,400
+where n is prime to
+
+422
+00:20:11,600 --> 00:20:18,320
+P so that this is the highest power of P
+
+423
+00:20:15,080 --> 00:20:18,320
+that divides the order of the
+
+424
+00:20:19,000 --> 00:20:23,360
+group okay
+
+425
+00:20:24,159 --> 00:20:30,320
+then
+
+426
+00:20:25,760 --> 00:20:30,320
+one there is a subgroup
+
+427
+00:20:32,280 --> 00:20:36,360
+h of
+
+428
+00:20:34,039 --> 00:20:38,919
+G of
+
+429
+00:20:36,360 --> 00:20:42,679
+order P to the
+
+430
+00:20:38,919 --> 00:20:44,400
+m namely we have a possible order for a
+
+431
+00:20:42,679 --> 00:20:46,480
+subgroup because this divides the order
+
+432
+00:20:44,400 --> 00:20:48,720
+of the group in fact you can always find
+
+433
+00:20:46,480 --> 00:20:51,440
+a subgroup which has order the highest
+
+434
+00:20:48,720 --> 00:20:55,360
+power of P dividing the order of the
+
+435
+00:20:51,440 --> 00:20:55,360
+group okay
+
+436
+00:20:55,559 --> 00:21:00,360
+two this subgroup these subgroups by the
+
+437
+00:20:58,159 --> 00:21:02,240
+way of order P to the m are
+
+438
+00:21:00,360 --> 00:21:06,039
+called
+
+439
+00:21:02,240 --> 00:21:06,039
+claw P
+
+440
+00:21:06,679 --> 00:21:11,200
+subgroups sometimes you you you you omit
+
+441
+00:21:09,600 --> 00:21:15,600
+the P if you know what prime you're
+
+442
+00:21:11,200 --> 00:21:20,520
+talking about just a clof subgroup two
+
+443
+00:21:15,600 --> 00:21:20,520
+if K is a
+
+444
+00:21:20,880 --> 00:21:27,559
+subgroup of
+
+445
+00:21:22,919 --> 00:21:29,880
+order P to the a any a we know a is less
+
+446
+00:21:27,559 --> 00:21:31,679
+than or equal to m
+
+447
+00:21:29,880 --> 00:21:33,400
+because the order of a subgroup has to
+
+448
+00:21:31,679 --> 00:21:38,799
+divide the order of a
+
+449
+00:21:33,400 --> 00:21:38,799
+group then K is
+
+450
+00:21:40,679 --> 00:21:44,320
+contained in a
+
+451
+00:21:44,679 --> 00:21:52,559
+conjugate of H the c p subgroup that we
+
+452
+00:21:48,880 --> 00:21:55,840
+found up there so as a particular case
+
+453
+00:21:52,559 --> 00:21:55,840
+of two in
+
+454
+00:21:56,799 --> 00:22:00,520
+particular any two
+
+455
+00:22:00,640 --> 00:22:05,360
+P
+
+456
+00:22:02,360 --> 00:22:05,360
+CLW
+
+457
+00:22:05,720 --> 00:22:12,080
+subgroups H and H
+
+458
+00:22:08,760 --> 00:22:12,080
+Prime are
+
+459
+00:22:15,080 --> 00:22:23,320
+conjugate because take the case where K
+
+460
+00:22:18,559 --> 00:22:26,640
+has order P to the m so is a cow P
+
+461
+00:22:23,320 --> 00:22:28,600
+subgroup then the SE that K is contained
+
+462
+00:22:26,640 --> 00:22:30,400
+in a conjugate of H well the conjugate
+
+463
+00:22:28,600 --> 00:22:31,880
+of H have the same order and if you have
+
+464
+00:22:30,400 --> 00:22:34,320
+two groups of the same order one
+
+465
+00:22:31,880 --> 00:22:37,320
+contained in the other they're equal so
+
+466
+00:22:34,320 --> 00:22:40,640
+that would say that K is a conjugate of
+
+467
+00:22:37,320 --> 00:22:43,679
+H so there are subgroups of this
+
+468
+00:22:40,640 --> 00:22:46,559
+order any two of them are
+
+469
+00:22:43,679 --> 00:22:48,559
+conjugate conversely any conjugate of H
+
+470
+00:22:46,559 --> 00:22:49,360
+is a celo p subgroup because it has the
+
+471
+00:22:48,559 --> 00:22:52,080
+same
+
+472
+00:22:49,360 --> 00:22:55,240
+order so the celo P subgroups form a
+
+473
+00:22:52,080 --> 00:22:56,559
+single conjugacy class that's important
+
+474
+00:22:55,240 --> 00:22:59,880
+thing to know you can't have any better
+
+475
+00:22:56,559 --> 00:23:01,600
+than that and finally
+
+476
+00:22:59,880 --> 00:23:04,520
+the third part of the celo theorem gives
+
+477
+00:23:01,600 --> 00:23:07,279
+you an estimate of how many celo P
+
+478
+00:23:04,520 --> 00:23:11,880
+groups are in that conjugacy
+
+479
+00:23:07,279 --> 00:23:11,880
+class three the
+
+480
+00:23:14,480 --> 00:23:20,559
+number let's give that number a number a
+
+481
+00:23:17,559 --> 00:23:20,559
+name
+
+482
+00:23:21,520 --> 00:23:26,919
+um I was going to call it s for CeeLo
+
+483
+00:23:24,200 --> 00:23:30,440
+but I better use something else uh the
+
+484
+00:23:26,919 --> 00:23:33,000
+number uh
+
+485
+00:23:30,440 --> 00:23:36,279
+L of
+
+486
+00:23:33,000 --> 00:23:36,279
+CLW P
+
+487
+00:23:37,279 --> 00:23:43,080
+subgroups of
+
+488
+00:23:39,159 --> 00:23:43,080
+G in this single
+
+489
+00:23:48,080 --> 00:23:51,640
+conjugacy divides
+
+490
+00:23:52,279 --> 00:23:59,799
+M the number here that sorry divides n
+
+491
+00:23:55,440 --> 00:24:02,840
+the number that's left over I'm sorry
+
+492
+00:23:59,799 --> 00:24:02,840
+divides n and
+
+493
+00:24:04,240 --> 00:24:11,120
+satisfies L congruent to one mod
+
+494
+00:24:08,600 --> 00:24:13,840
+P leaves a remainder of one after
+
+495
+00:24:11,120 --> 00:24:16,720
+dividing by
+
+496
+00:24:13,840 --> 00:24:20,000
+P so there's a restriction on the number
+
+497
+00:24:16,720 --> 00:24:22,640
+of CP there is always a c p any two of
+
+498
+00:24:20,000 --> 00:24:25,720
+them are first of all even the first
+
+499
+00:24:22,640 --> 00:24:28,840
+part of this theorem is remarkable it's
+
+500
+00:24:25,720 --> 00:24:30,159
+absolutely remarkable if you take groups
+
+501
+00:24:28,840 --> 00:24:34,279
+of order
+
+502
+00:24:30,159 --> 00:24:37,000
+12 it's not necessarily true so let's
+
+503
+00:24:34,279 --> 00:24:40,840
+just let's make that remark so that we
+
+504
+00:24:37,000 --> 00:24:40,840
+start to appreciate this before we prove
+
+505
+00:24:41,760 --> 00:24:47,760
+it
+
+506
+00:24:43,559 --> 00:24:50,120
+note if D
+
+507
+00:24:47,760 --> 00:24:53,080
+divides the
+
+508
+00:24:50,120 --> 00:24:54,679
+order n of
+
+509
+00:24:53,080 --> 00:24:59,039
+G
+
+510
+00:24:54,679 --> 00:24:59,039
+there need not
+
+511
+00:24:59,360 --> 00:25:02,039
+be a
+
+512
+00:25:02,080 --> 00:25:07,799
+subgroup of order
+
+513
+00:25:04,919 --> 00:25:09,960
+D and an
+
+514
+00:25:07,799 --> 00:25:12,840
+example if you take G to be the
+
+515
+00:25:09,960 --> 00:25:14,960
+alternating group on four letters has
+
+516
+00:25:12,840 --> 00:25:19,480
+order
+
+517
+00:25:14,960 --> 00:25:19,480
+12 but it has no subgroup of order
+
+518
+00:25:27,159 --> 00:25:31,760
+six okay
+
+519
+00:25:29,399 --> 00:25:34,480
+so this is now notice that this is not
+
+520
+00:25:31,760 --> 00:25:37,679
+the power of a prime what the claw
+
+521
+00:25:34,480 --> 00:25:37,679
+theorems would tell us
+
+522
+00:25:38,799 --> 00:25:43,279
+is there exists an H of order
+
+523
+00:25:43,840 --> 00:25:49,240
+three a CeeLo 3 subgroup and there would
+
+524
+00:25:46,399 --> 00:25:51,480
+be an H Prime of order
+
+525
+00:25:49,240 --> 00:25:55,080
+four those things are forced by the
+
+526
+00:25:51,480 --> 00:25:58,440
+CeeLo theorem but this is
+
+527
+00:25:55,080 --> 00:26:00,240
+PQ CEO theorem says nothing about that
+
+528
+00:25:58,440 --> 00:26:02,200
+so sometimes this is called a local
+
+529
+00:26:00,240 --> 00:26:05,279
+theorem in group Theory local because
+
+530
+00:26:02,200 --> 00:26:08,399
+it's localized at One Prime you only
+
+531
+00:26:05,279 --> 00:26:08,399
+focus in on One
+
+532
+00:26:09,559 --> 00:26:15,559
+Prime okay let's start the
+
+533
+00:26:13,279 --> 00:26:18,159
+proof so there are many many proofs
+
+534
+00:26:15,559 --> 00:26:20,039
+known many many proofs I think there now
+
+535
+00:26:18,159 --> 00:26:22,279
+must be 20 or 30 proofs of this theorem
+
+536
+00:26:20,039 --> 00:26:23,720
+that have been discovered and I like the
+
+537
+00:26:22,279 --> 00:26:25,320
+one in arton very much I'm going to
+
+538
+00:26:23,720 --> 00:26:28,080
+imitate it I'll probably try to give you
+
+539
+00:26:25,320 --> 00:26:31,080
+some others later so arton is basing it
+
+540
+00:26:28,080 --> 00:26:31,080
+on the following
+
+541
+00:26:34,039 --> 00:26:39,080
+fact that if you take the order of G and
+
+542
+00:26:37,320 --> 00:26:43,080
+you take the number of you take the
+
+543
+00:26:39,080 --> 00:26:46,360
+binomial coefficient n choose P to the
+
+544
+00:26:43,080 --> 00:26:48,440
+n n is this number P to the m sorry P to
+
+545
+00:26:46,360 --> 00:26:50,440
+the m I keep using my notation wrong P
+
+546
+00:26:48,440 --> 00:26:54,120
+to the
+
+547
+00:26:50,440 --> 00:26:54,120
+m is prime to
+
+548
+00:26:54,640 --> 00:26:58,559
+P that's the fact we're going to use
+
+549
+00:26:56,720 --> 00:27:01,159
+from outside of group Theory so so why
+
+550
+00:26:58,559 --> 00:27:04,919
+is that well write down this binomial
+
+551
+00:27:01,159 --> 00:27:07,480
+coefficient it looks like this n n
+
+552
+00:27:04,919 --> 00:27:14,799
+minus1 n -
+
+553
+00:27:07,480 --> 00:27:20,000
+2 down to nus P the m + 1
+
+554
+00:27:14,799 --> 00:27:23,399
+/ P to the m p the M minus
+
+555
+00:27:20,000 --> 00:27:23,399
+1 down to
+
+556
+00:27:23,919 --> 00:27:30,000
+one
+
+557
+00:27:26,200 --> 00:27:32,039
+okay if you take a look at this
+
+558
+00:27:30,000 --> 00:27:33,880
+term now we're just going to see the
+
+559
+00:27:32,039 --> 00:27:35,720
+power of P dividing the numerator and
+
+560
+00:27:33,880 --> 00:27:38,080
+the power of P dividing the denominator
+
+561
+00:27:35,720 --> 00:27:40,159
+are the same that's how we're going to
+
+562
+00:27:38,080 --> 00:27:41,440
+this happens to be an integer and the
+
+563
+00:27:40,159 --> 00:27:42,760
+way we're going to prove its prime to P
+
+564
+00:27:41,440 --> 00:27:44,919
+is we're going to calculate the power of
+
+565
+00:27:42,760 --> 00:27:46,480
+P dividing the numerator the power of P
+
+566
+00:27:44,919 --> 00:27:49,600
+dividing the denominator and we'll show
+
+567
+00:27:46,480 --> 00:27:49,600
+the same
+
+568
+00:28:02,640 --> 00:28:07,399
+so that's a nice thing you can do about
+
+569
+00:28:04,720 --> 00:28:09,559
+uh fractions it's based on uniqueness of
+
+570
+00:28:07,399 --> 00:28:12,039
+prime factorization well the power of P
+
+571
+00:28:09,559 --> 00:28:14,559
+dividing n is the is is p to the m so we
+
+572
+00:28:12,039 --> 00:28:18,000
+have the same power of P here what's the
+
+573
+00:28:14,559 --> 00:28:18,000
+power of P dividing n minus
+
+574
+00:28:18,919 --> 00:28:23,960
+one zero has to be zero because this is
+
+575
+00:28:21,559 --> 00:28:25,519
+divisible by p and p is bigger than two
+
+576
+00:28:23,960 --> 00:28:27,799
+that's exactly the power of P dividing
+
+577
+00:28:25,519 --> 00:28:29,799
+this term now what's the power of P
+
+578
+00:28:27,799 --> 00:28:33,519
+dividing nus 2 well that depends P might
+
+579
+00:28:29,799 --> 00:28:35,679
+be two right and if p is two you have
+
+580
+00:28:33,519 --> 00:28:37,960
+one power of P dividing
+
+581
+00:28:35,679 --> 00:28:39,000
+this and you have one power of P
+
+582
+00:28:37,960 --> 00:28:42,440
+dividing
+
+583
+00:28:39,000 --> 00:28:42,440
+this so in
+
+584
+00:28:43,960 --> 00:28:50,039
+general this is called by the way the
+
+585
+00:28:46,120 --> 00:28:54,399
+order of P of whatever the order the
+
+586
+00:28:50,039 --> 00:28:58,200
+power of P dividing n minus K is equal
+
+587
+00:28:54,399 --> 00:28:59,600
+to the power of P dividing P to the m
+
+588
+00:28:58,200 --> 00:29:02,159
+minus
+
+589
+00:28:59,600 --> 00:29:04,840
+K and I'll let you check that
+
+590
+00:29:02,159 --> 00:29:08,519
+out these K's by the way are
+
+591
+00:29:04,840 --> 00:29:11,720
+all less than
+
+592
+00:29:08,519 --> 00:29:14,799
+uh uh P to the
+
+593
+00:29:11,720 --> 00:29:18,000
+m so in particular the power of P
+
+594
+00:29:14,799 --> 00:29:21,000
+dividing K is less than or equal to M
+
+595
+00:29:18,000 --> 00:29:23,080
+minus1 so this whatever this order is
+
+596
+00:29:21,000 --> 00:29:25,279
+it's easily calculated by the power of P
+
+597
+00:29:23,080 --> 00:29:28,559
+dividing K and that's exactly the same
+
+598
+00:29:25,279 --> 00:29:30,399
+as the order here
+
+599
+00:29:28,559 --> 00:29:32,519
+so in each term you get a matching of
+
+600
+00:29:30,399 --> 00:29:34,240
+the powers of P dividing the terms right
+
+601
+00:29:32,519 --> 00:29:36,360
+down to here where this is not divisible
+
+602
+00:29:34,240 --> 00:29:37,720
+by P neither is this and so when you add
+
+603
+00:29:36,360 --> 00:29:39,039
+them up the power of p in the numerator
+
+604
+00:29:37,720 --> 00:29:40,960
+is the same as the power of p in the
+
+605
+00:29:39,039 --> 00:29:45,240
+denominator and when you calculate this
+
+606
+00:29:40,960 --> 00:29:47,360
+number it's not divisible by P okay now
+
+607
+00:29:45,240 --> 00:29:52,000
+that's the key to the proof because what
+
+608
+00:29:47,360 --> 00:29:53,799
+we do is we have the group act on a set
+
+609
+00:29:52,000 --> 00:29:56,279
+which has this
+
+610
+00:29:53,799 --> 00:30:02,720
+size let
+
+611
+00:29:56,279 --> 00:30:03,679
+G Act on the set this is a weird set s
+
+612
+00:30:02,720 --> 00:30:06,279
+of
+
+613
+00:30:03,679 --> 00:30:11,240
+all
+
+614
+00:30:06,279 --> 00:30:11,240
+subsets of G which
+
+615
+00:30:11,440 --> 00:30:17,039
+have
+
+616
+00:30:13,200 --> 00:30:18,720
+order P to the m we don't we're trying
+
+617
+00:30:17,039 --> 00:30:20,519
+to prove there's a subgroup of this
+
+618
+00:30:18,720 --> 00:30:23,559
+order but we don't know that we can
+
+619
+00:30:20,519 --> 00:30:25,720
+certainly find subsets of that order
+
+620
+00:30:23,559 --> 00:30:28,399
+right because this order is less than or
+
+621
+00:30:25,720 --> 00:30:31,559
+equal to n and the number of Subs of
+
+622
+00:30:28,399 --> 00:30:33,960
+that order is this binomial
+
+623
+00:30:31,559 --> 00:30:38,640
+coefficient so we just know that the
+
+624
+00:30:33,960 --> 00:30:38,640
+number of elements in s is prime to
+
+625
+00:30:41,000 --> 00:30:47,559
+P okay now we're going to get our celo
+
+626
+00:30:44,320 --> 00:30:50,000
+subgroup as the stabilizer of something
+
+627
+00:30:47,559 --> 00:30:50,000
+in that
+
+628
+00:30:54,720 --> 00:30:59,240
+set as a stabilizer
+
+629
+00:31:01,000 --> 00:31:09,480
+GS for this action and that's one way of
+
+630
+00:31:05,600 --> 00:31:11,120
+getting subgroups out of actions on sets
+
+631
+00:31:09,480 --> 00:31:14,080
+any anything that stabilizes the point
+
+632
+00:31:11,120 --> 00:31:15,679
+is a subgroup right so the thing we're
+
+633
+00:31:14,080 --> 00:31:17,360
+acting on are not subgroups but we're
+
+634
+00:31:15,679 --> 00:31:19,919
+going to see that one of these sets is
+
+635
+00:31:17,360 --> 00:31:21,080
+stabilized by a group h of order P to
+
+636
+00:31:19,919 --> 00:31:23,960
+the
+
+637
+00:31:21,080 --> 00:31:28,320
+m
+
+638
+00:31:23,960 --> 00:31:32,320
+okay why well we use our usual orbit
+
+639
+00:31:28,320 --> 00:31:32,320
+method to break this action into
+
+640
+00:31:40,080 --> 00:31:45,080
+orbits which tells us that the number of
+
+641
+00:31:42,480 --> 00:31:45,080
+elements in
+
+642
+00:31:45,639 --> 00:31:50,720
+s is equal to the number of elements in
+
+643
+00:31:48,240 --> 00:31:52,960
+the first orbit plus the number of
+
+644
+00:31:50,720 --> 00:31:55,880
+elements in the second
+
+645
+00:31:52,960 --> 00:31:58,760
+orbit plus the number of elements in the
+
+646
+00:31:55,880 --> 00:32:01,720
+nth orbit and on each orbit the group
+
+647
+00:31:58,760 --> 00:32:05,320
+acts transitively so in the first orbit
+
+648
+00:32:01,720 --> 00:32:07,120
+has size the order of G divided by the
+
+649
+00:32:05,320 --> 00:32:09,840
+stabilizer of
+
+650
+00:32:07,120 --> 00:32:12,399
+S1 and the second orbit has size the
+
+651
+00:32:09,840 --> 00:32:14,320
+order of G divided by the stabilizer of
+
+652
+00:32:12,399 --> 00:32:17,399
+S2 down
+
+653
+00:32:14,320 --> 00:32:19,799
+to the order of G divided by the
+
+654
+00:32:17,399 --> 00:32:21,960
+stabilizer of SN so that we've been
+
+655
+00:32:19,799 --> 00:32:24,679
+doing in general for group actions on
+
+656
+00:32:21,960 --> 00:32:26,919
+sets it's a finite set we break it into
+
+657
+00:32:24,679 --> 00:32:28,840
+orbits on each orbit the group acts
+
+658
+00:32:26,919 --> 00:32:31,960
+transitively so the size of the orbit is
+
+659
+00:32:28,840 --> 00:32:33,760
+G modulo the stabilizer because the
+
+660
+00:32:31,960 --> 00:32:35,760
+transitive action is modeled on the
+
+661
+00:32:33,760 --> 00:32:39,200
+action of coets of the
+
+662
+00:32:35,760 --> 00:32:42,720
+stabilizer okay this has order prime to
+
+663
+00:32:39,200 --> 00:32:45,679
+P if every one of these orbits were
+
+664
+00:32:42,720 --> 00:32:47,000
+divis had size divisible by P there's no
+
+665
+00:32:45,679 --> 00:32:50,720
+way you could add them all up and get
+
+666
+00:32:47,000 --> 00:32:53,440
+some number Prime to P correct so the
+
+667
+00:32:50,720 --> 00:32:56,919
+conclusion is that one orbit has order
+
+668
+00:32:53,440 --> 00:32:56,919
+prime to p
+
+669
+00:33:04,960 --> 00:33:09,240
+there is at
+
+670
+00:33:06,639 --> 00:33:11,480
+least one
+
+671
+00:33:09,240 --> 00:33:14,960
+orbit of
+
+672
+00:33:11,480 --> 00:33:14,960
+order prime to
+
+673
+00:33:15,880 --> 00:33:19,840
+P
+
+674
+00:33:17,679 --> 00:33:23,720
+correct okay let's call that the orbit
+
+675
+00:33:19,840 --> 00:33:27,000
+of S1 say size of
+
+676
+00:33:23,720 --> 00:33:29,399
+os1 is prime to P by reordering or let's
+
+677
+00:33:27,000 --> 00:33:32,679
+just call it OS
+
+678
+00:33:29,399 --> 00:33:32,679
+s is one of these
+
+679
+00:33:34,919 --> 00:33:40,760
+SI okay now we see what that says about
+
+680
+00:33:39,399 --> 00:33:42,960
+the
+
+681
+00:33:40,760 --> 00:33:47,639
+stabilizer since the
+
+682
+00:33:42,960 --> 00:33:51,840
+order of os is equal to the order of g p
+
+683
+00:33:47,639 --> 00:33:55,559
+to the m * n / the order of
+
+684
+00:33:51,840 --> 00:33:55,559
+GS is prime to
+
+685
+00:33:56,159 --> 00:34:02,840
+P we must have this power of P dividing
+
+686
+00:34:00,159 --> 00:34:02,840
+the order of the
+
+687
+00:34:11,440 --> 00:34:16,599
+stabilizer okay
+
+688
+00:34:14,240 --> 00:34:18,159
+because if you have a r if you have a
+
+689
+00:34:16,599 --> 00:34:20,159
+number expresses an integer over an
+
+690
+00:34:18,159 --> 00:34:22,879
+integer and it's Prime to P the power of
+
+691
+00:34:20,159 --> 00:34:24,879
+P dividing the denominator must equal
+
+692
+00:34:22,879 --> 00:34:27,000
+the power of P dividing the
+
+693
+00:34:24,879 --> 00:34:28,720
+numerator same argument we did for the
+
+694
+00:34:27,000 --> 00:34:31,040
+binomial Co
+
+695
+00:34:28,720 --> 00:34:32,560
+efficient so P to the m divides the
+
+696
+00:34:31,040 --> 00:34:35,040
+order of the stabilizer so this is
+
+697
+00:34:32,560 --> 00:34:37,599
+beginning to look good if we could just
+
+698
+00:34:35,040 --> 00:34:40,240
+show that it wasn't any larger than P to
+
+699
+00:34:37,599 --> 00:34:43,599
+the m then we'd have our celo
+
+700
+00:34:40,240 --> 00:34:43,599
+subgroup but I
+
+701
+00:34:49,839 --> 00:34:58,440
+claim and this is the the key thing that
+
+702
+00:34:53,320 --> 00:34:58,440
+the stabilizer has order less
+
+703
+00:35:04,640 --> 00:35:07,720
+okay we're going to see that in a
+
+704
+00:35:09,880 --> 00:35:15,000
+second I should have said by the way oh
+
+705
+00:35:12,599 --> 00:35:16,119
+my god I didn't even tell you how G
+
+706
+00:35:15,000 --> 00:35:18,839
+acted on the
+
+707
+00:35:16,119 --> 00:35:22,040
+sets I said let it act on the sets but I
+
+708
+00:35:18,839 --> 00:35:24,680
+didn't tell you how it acted so no I
+
+709
+00:35:22,040 --> 00:35:28,400
+don't want it to do that I wanted to act
+
+710
+00:35:24,680 --> 00:35:29,800
+on the sets by translation sorry
+
+711
+00:35:28,400 --> 00:35:33,400
+by
+
+712
+00:35:29,800 --> 00:35:35,800
+translation so if I have a set if I have
+
+713
+00:35:33,400 --> 00:35:39,400
+a subset of G which I better not call H
+
+714
+00:35:35,800 --> 00:35:41,079
+I'll call it J in G goes
+
+715
+00:35:39,400 --> 00:35:45,839
+to
+
+716
+00:35:41,079 --> 00:35:49,760
+GJ in G by left translation so this set
+
+717
+00:35:45,839 --> 00:35:49,760
+has the same size as this
+
+718
+00:35:49,839 --> 00:35:54,839
+set yeah just to be you're
+
+719
+00:35:55,680 --> 00:36:01,280
+using in the same way interchange
+
+720
+00:35:58,280 --> 00:36:03,920
+interchangeably I'm sorry so this also
+
+721
+00:36:01,280 --> 00:36:06,359
+means the order of GS I should be more
+
+722
+00:36:03,920 --> 00:36:08,319
+systematic and if I were webuy I would
+
+723
+00:36:06,359 --> 00:36:09,760
+have chosen one and used that one but
+
+724
+00:36:08,319 --> 00:36:13,599
+I'm using them interchangeably good
+
+725
+00:36:09,760 --> 00:36:16,079
+point good point um so let's go over the
+
+726
+00:36:13,599 --> 00:36:17,640
+action on the set is like it acts on
+
+727
+00:36:16,079 --> 00:36:21,440
+points of the group by left translation
+
+728
+00:36:17,640 --> 00:36:26,560
+not by conjugation so it takes a set J
+
+729
+00:36:21,440 --> 00:36:28,319
+to this set J and so the the the rest of
+
+730
+00:36:26,560 --> 00:36:30,240
+this argument didn't depend on what the
+
+731
+00:36:28,319 --> 00:36:31,920
+action was made no reference to the
+
+732
+00:36:30,240 --> 00:36:33,680
+action just used the fact that the
+
+733
+00:36:31,920 --> 00:36:35,000
+number of things it's acting on is prime
+
+734
+00:36:33,680 --> 00:36:36,920
+to P therefore there has to be some
+
+735
+00:36:35,000 --> 00:36:38,280
+orbit of order prime to P therefore
+
+736
+00:36:36,920 --> 00:36:40,200
+there has to be some stabilizer
+
+737
+00:36:38,280 --> 00:36:42,560
+divisible by that but now I'm going to
+
+738
+00:36:40,200 --> 00:36:45,400
+claim using the action that the order of
+
+739
+00:36:42,560 --> 00:36:48,839
+GS is less than or equal to P to the m
+
+740
+00:36:45,400 --> 00:36:52,079
+in fact I
+
+741
+00:36:48,839 --> 00:36:56,839
+claim in
+
+742
+00:36:52,079 --> 00:36:56,839
+fact the orbit of s
+
+743
+00:36:57,800 --> 00:37:00,359
+is a
+
+744
+00:37:00,520 --> 00:37:06,960
+union of
+
+745
+00:37:02,640 --> 00:37:10,839
+um sorry uh let's see how I want to say
+
+746
+00:37:06,960 --> 00:37:10,839
+this always get confused at this
+
+747
+00:37:12,720 --> 00:37:16,520
+point ah yes yes
+
+748
+00:37:17,839 --> 00:37:25,920
+yes um this s is a subset J so uh s
+
+749
+00:37:23,079 --> 00:37:28,119
+corresponds to some
+
+750
+00:37:25,920 --> 00:37:29,760
+subset J
+
+751
+00:37:28,119 --> 00:37:32,160
+in
+
+752
+00:37:29,760 --> 00:37:36,960
+G and I have an element of the
+
+753
+00:37:32,160 --> 00:37:40,800
+stabilizer of that subset so uh let's
+
+754
+00:37:36,960 --> 00:37:44,560
+write so if G is in
+
+755
+00:37:40,800 --> 00:37:48,520
+Gs then
+
+756
+00:37:44,560 --> 00:37:50,400
+GJ well it's equal to J I mean it it
+
+757
+00:37:48,520 --> 00:37:51,920
+it's this it it has to be a set of the
+
+758
+00:37:50,400 --> 00:37:55,760
+same size so it's equal to J it's
+
+759
+00:37:51,920 --> 00:37:59,359
+contained in J and then I claim that
+
+760
+00:37:55,760 --> 00:38:02,079
+this implies that J a is a union of left
+
+761
+00:37:59,359 --> 00:38:02,079
+coets of
+
+762
+00:38:15,880 --> 00:38:22,520
+GS for the stabilizer in particular the
+
+763
+00:38:19,920 --> 00:38:26,720
+the order of J the size of J which we
+
+764
+00:38:22,520 --> 00:38:29,000
+know is p to the m is a sum of the order
+
+765
+00:38:26,720 --> 00:38:31,240
+of GS and number of times in particular
+
+766
+00:38:29,000 --> 00:38:33,680
+the order of GS is less than or equal to
+
+767
+00:38:31,240 --> 00:38:37,280
+the order of
+
+768
+00:38:33,680 --> 00:38:40,119
+J the size of the subset I claim that if
+
+769
+00:38:37,280 --> 00:38:43,200
+you have an element in the
+
+770
+00:38:40,119 --> 00:38:46,599
+stabilizer you have this and that for is
+
+771
+00:38:43,200 --> 00:38:50,040
+J to be a union of coets for GS because
+
+772
+00:38:46,599 --> 00:38:53,119
+if you think of the action of G
+
+773
+00:38:50,040 --> 00:38:56,119
+on here the coets of
+
+774
+00:38:53,119 --> 00:38:56,119
+GS
+
+775
+00:38:56,440 --> 00:39:04,839
+um if you have one element in J then you
+
+776
+00:39:01,839 --> 00:39:07,839
+have all the elements in that coet in
+
+777
+00:39:04,839 --> 00:39:10,000
+J
+
+778
+00:39:07,839 --> 00:39:15,760
+right uh let's see if I've got it the
+
+779
+00:39:10,000 --> 00:39:17,839
+right way GJ G GS yeah if I have an
+
+780
+00:39:15,760 --> 00:39:21,400
+element in one of these coets suppose I
+
+781
+00:39:17,839 --> 00:39:23,640
+have an element in in this coet J then I
+
+782
+00:39:21,400 --> 00:39:26,119
+claim that I have all of GS in J because
+
+783
+00:39:23,640 --> 00:39:28,079
+G stabilizes that by left multiplication
+
+784
+00:39:26,119 --> 00:39:30,079
+so I stay in that coose and I can get
+
+785
+00:39:28,079 --> 00:39:32,480
+anything in that coet from anything else
+
+786
+00:39:30,079 --> 00:39:34,440
+in that coet by translation by GS
+
+787
+00:39:32,480 --> 00:39:36,640
+likewise if my element J contains some
+
+788
+00:39:34,440 --> 00:39:38,599
+element in another coset then by the
+
+789
+00:39:36,640 --> 00:39:41,079
+fact that G stabilizes that I can get
+
+790
+00:39:38,599 --> 00:39:44,079
+anything in that coet by translating by
+
+791
+00:39:41,079 --> 00:39:46,920
+GS and consequently the only stable
+
+792
+00:39:44,079 --> 00:39:48,960
+subsets I can make under this Gs are a
+
+793
+00:39:46,920 --> 00:39:51,119
+union of these left coets and
+
+794
+00:39:48,960 --> 00:39:53,119
+consequently the order of J has to be
+
+795
+00:39:51,119 --> 00:39:55,400
+bigger than the order of GS because the
+
+796
+00:39:53,119 --> 00:39:57,680
+order of GS is the size of one of the
+
+797
+00:39:55,400 --> 00:39:59,560
+coets and that's the end of the proof
+
+798
+00:39:57,680 --> 00:40:01,240
+the first is that P to the m divides
+
+799
+00:39:59,560 --> 00:40:04,000
+this order but on the other hand the
+
+800
+00:40:01,240 --> 00:40:06,520
+stabilizer of a subset has order less
+
+801
+00:40:04,000 --> 00:40:08,680
+than or equal to P the m and in fact
+
+802
+00:40:06,520 --> 00:40:10,920
+you'll find that a subset has stabilizer
+
+803
+00:40:08,680 --> 00:40:13,800
+of order exactly P to the m if and only
+
+804
+00:40:10,920 --> 00:40:16,160
+if it's a celo p
+
+805
+00:40:13,800 --> 00:40:19,640
+subgroup and that's the that's the end
+
+806
+00:40:16,160 --> 00:40:19,640
+of the argument although you don't need
+
+807
+00:40:19,960 --> 00:40:23,160
+it in
+
+808
+00:40:24,560 --> 00:40:29,319
+fact J has stabilizer
+
+809
+00:40:29,400 --> 00:40:34,760
+of
+
+810
+00:40:30,400 --> 00:40:38,720
+order P to the S if and only if J is
+
+811
+00:40:34,760 --> 00:40:42,200
+equal to H is a c
+
+812
+00:40:38,720 --> 00:40:42,200
+p in which
+
+813
+00:40:42,680 --> 00:40:51,520
+case J is equal to GS is equal to
+
+814
+00:40:47,520 --> 00:40:54,400
+H so the only subsets that have a
+
+815
+00:40:51,520 --> 00:40:57,000
+stabilizer of this order and we have to
+
+816
+00:40:54,400 --> 00:40:59,880
+have one subset whose stabilizer is
+
+817
+00:40:57,000 --> 00:41:02,160
+divis ible by this are the subgroups
+
+818
+00:40:59,880 --> 00:41:04,240
+which are c p subgroups and that's the
+
+819
+00:41:02,160 --> 00:41:06,839
+proof of the existence of a subgroup of
+
+820
+00:41:04,240 --> 00:41:08,480
+order P to the m so again this is a
+
+821
+00:41:06,839 --> 00:41:11,119
+fairly complicated argument you got to
+
+822
+00:41:08,480 --> 00:41:13,160
+go through it yourself slowly a
+
+823
+00:41:11,119 --> 00:41:15,280
+divisibility argument shows that you
+
+824
+00:41:13,160 --> 00:41:18,760
+have to have some stabilizer divisible
+
+825
+00:41:15,280 --> 00:41:21,040
+by this number but any stabilizer has
+
+826
+00:41:18,760 --> 00:41:22,200
+order less than or equal to that number
+
+827
+00:41:21,040 --> 00:41:24,720
+therefore there has to be some
+
+828
+00:41:22,200 --> 00:41:26,200
+stabilizer of order equal to that number
+
+829
+00:41:24,720 --> 00:41:27,270
+and that happens to be your celo p
+
+830
+00:41:26,200 --> 00:41:29,119
+subgroup
+
+831
+00:41:27,270 --> 00:41:33,200
+[Music]
+
+832
+00:41:29,119 --> 00:41:33,200
+okay that's the easy part of the
+
+833
+00:41:34,079 --> 00:41:38,560
+theorem now let's prove part
+
+834
+00:41:42,720 --> 00:41:50,720
+two all right now this is quite cute
+
+835
+00:41:47,440 --> 00:41:53,220
+suppose I take my celo subgroup H is my
+
+836
+00:41:50,720 --> 00:41:56,390
+celo subgroup found by one
+
+837
+00:41:53,220 --> 00:41:56,390
+[Applause]
+
+838
+00:42:00,839 --> 00:42:07,480
+this is part two and I
+
+839
+00:42:03,079 --> 00:42:10,480
+choose and I have the group action
+
+840
+00:42:07,480 --> 00:42:10,480
+GX
+
+841
+00:42:10,880 --> 00:42:18,480
+transitively on the coet space of
+
+842
+00:42:15,040 --> 00:42:18,480
+H which has
+
+843
+00:42:19,480 --> 00:42:26,079
+order n Prime to
+
+844
+00:42:23,359 --> 00:42:29,000
+P so before I knew the existence of a
+
+845
+00:42:26,079 --> 00:42:31,640
+celo p subgroup I had to work quite hard
+
+846
+00:42:29,000 --> 00:42:33,640
+to find a an action of the group on a
+
+847
+00:42:31,640 --> 00:42:37,839
+set of order prime to p on the set of
+
+848
+00:42:33,640 --> 00:42:40,440
+all subsets of order P to the N but here
+
+849
+00:42:37,839 --> 00:42:43,359
+I have a natural transitive action on a
+
+850
+00:42:40,440 --> 00:42:46,839
+set of order prime to
+
+851
+00:42:43,359 --> 00:42:46,839
+P okay the
+
+852
+00:42:48,359 --> 00:42:57,319
+stabilizers of any point s in s g Subs
+
+853
+00:42:57,640 --> 00:43:00,119
+are the
+
+854
+00:43:01,680 --> 00:43:06,760
+conjugates of
+
+855
+00:43:03,520 --> 00:43:08,880
+H right because it's a transitive action
+
+856
+00:43:06,760 --> 00:43:11,480
+H is the element that stabilizes the
+
+857
+00:43:08,880 --> 00:43:15,160
+identity coet the other coets are
+
+858
+00:43:11,480 --> 00:43:18,240
+stabilized by conjugates so G Subs would
+
+859
+00:43:15,160 --> 00:43:22,040
+be the coet maybe sh and it would be the
+
+860
+00:43:18,240 --> 00:43:22,040
+conjugate sh s
+
+861
+00:43:25,079 --> 00:43:30,240
+inverse sorry G Subs
+
+862
+00:43:27,640 --> 00:43:32,839
+would be this if it acted
+
+863
+00:43:30,240 --> 00:43:35,599
+on
+
+864
+00:43:32,839 --> 00:43:38,720
+sorry the stabilizer of that coet would
+
+865
+00:43:35,599 --> 00:43:41,240
+be this conjugate so that's also a pclo
+
+866
+00:43:38,720 --> 00:43:43,400
+subgroup and we get all the conjugates
+
+867
+00:43:41,240 --> 00:43:46,480
+of pelo subgroups by taking the
+
+868
+00:43:43,400 --> 00:43:50,359
+stabilizers of points in this
+
+869
+00:43:46,480 --> 00:43:53,040
+action okay now let's see why any P
+
+870
+00:43:50,359 --> 00:43:57,359
+group is contained in one of
+
+871
+00:43:53,040 --> 00:43:57,359
+these let k
+
+872
+00:43:58,119 --> 00:44:03,079
+sure I'll stop so we're going to try to
+
+873
+00:44:00,920 --> 00:44:04,559
+prove that any this by the way these
+
+874
+00:44:03,079 --> 00:44:08,680
+things are called P
+
+875
+00:44:04,559 --> 00:44:11,160
+groups groups of order P to the a so we
+
+876
+00:44:08,680 --> 00:44:13,240
+found one CeeLo group I claim that its
+
+877
+00:44:11,160 --> 00:44:16,240
+conjugates are the stabilizers of other
+
+878
+00:44:13,240 --> 00:44:18,559
+points in this set for the left
+
+879
+00:44:16,240 --> 00:44:21,160
+action if you want to stabilize this
+
+880
+00:44:18,559 --> 00:44:23,480
+coet you get this conjugate and any
+
+881
+00:44:21,160 --> 00:44:25,400
+conjugate comes from such a
+
+882
+00:44:23,480 --> 00:44:28,599
+stabilizer and now I'm going to start
+
+883
+00:44:25,400 --> 00:44:31,920
+with another P group
+
+884
+00:44:28,599 --> 00:44:35,440
+another p
+
+885
+00:44:31,920 --> 00:44:35,440
+subgroup and have
+
+886
+00:44:35,760 --> 00:44:40,319
+K act by the
+
+887
+00:44:41,160 --> 00:44:48,040
+Restriction of the
+
+888
+00:44:44,079 --> 00:44:50,200
+g-action on S namely have K act on the
+
+889
+00:44:48,040 --> 00:44:53,200
+coets of H by left translation just
+
+890
+00:44:50,200 --> 00:44:58,119
+restrict the G action to K that makes
+
+891
+00:44:53,200 --> 00:45:03,079
+sense okay again since this order of the
+
+892
+00:44:58,119 --> 00:45:03,079
+set is order prime to P there must be an
+
+893
+00:45:06,280 --> 00:45:09,800
+orbit say the
+
+894
+00:45:09,839 --> 00:45:17,160
+orbit of
+
+895
+00:45:13,119 --> 00:45:17,160
+sh of order prime to
+
+896
+00:45:19,319 --> 00:45:24,960
+P because if all the orbits had size
+
+897
+00:45:22,559 --> 00:45:27,559
+divisible by P the entire set would have
+
+898
+00:45:24,960 --> 00:45:30,280
+size divisible by P but it doesn't so
+
+899
+00:45:27,559 --> 00:45:34,160
+there must be an orbit say this orbit of
+
+900
+00:45:30,280 --> 00:45:34,160
+order prime to P which
+
+901
+00:45:36,119 --> 00:45:39,559
+means that it's
+
+902
+00:45:40,400 --> 00:45:46,240
+stabilizer
+
+903
+00:45:42,559 --> 00:45:49,359
+so uh the size of the Orbit's Prime to P
+
+904
+00:45:46,240 --> 00:45:51,680
+so the order of K divided by the order
+
+905
+00:45:49,359 --> 00:45:51,680
+of the
+
+906
+00:45:53,800 --> 00:45:58,520
+stabilizer is prime to p
+
+907
+00:46:00,440 --> 00:46:05,599
+the order of K is a power of
+
+908
+00:46:03,240 --> 00:46:07,359
+P so that means that the order of the
+
+909
+00:46:05,599 --> 00:46:08,520
+stabilizer has to be equal to the order
+
+910
+00:46:07,359 --> 00:46:13,359
+of
+
+911
+00:46:08,520 --> 00:46:13,359
+K so there must be an orbit fixed by
+
+912
+00:46:14,680 --> 00:46:19,559
+K
+
+913
+00:46:16,240 --> 00:46:23,960
+but the order of K is p to the
+
+914
+00:46:19,559 --> 00:46:23,960
+a so we must
+
+915
+00:46:24,240 --> 00:46:31,160
+have the order of the stabilizer of that
+
+916
+00:46:28,400 --> 00:46:33,960
+orbit is equal to the order of
+
+917
+00:46:31,160 --> 00:46:37,680
+K what is the stabilizer of this orbit
+
+918
+00:46:33,960 --> 00:46:39,760
+in K that's just the group K
+
+919
+00:46:37,680 --> 00:46:42,440
+intersect G
+
+920
+00:46:39,760 --> 00:46:45,520
+Subs it's the elements in the stabilizer
+
+921
+00:46:42,440 --> 00:46:49,559
+in G which lie in
+
+922
+00:46:45,520 --> 00:46:50,840
+K correct G Subs we saw was a conjugate
+
+923
+00:46:49,559 --> 00:46:53,999
+of H
+
+924
+00:46:50,840 --> 00:46:53,999
+[Applause]
+
+925
+00:46:57,880 --> 00:47:02,119
+so the order of this group has to be the
+
+926
+00:47:00,160 --> 00:47:04,359
+order of this group and the only way
+
+927
+00:47:02,119 --> 00:47:07,240
+that that can happen is if this group is
+
+928
+00:47:04,359 --> 00:47:07,240
+contained in this
+
+929
+00:47:09,680 --> 00:47:13,960
+group if K isn't totally contained in
+
+930
+00:47:12,359 --> 00:47:15,200
+this group that when you intersect it
+
+931
+00:47:13,960 --> 00:47:17,400
+with this subgroup you're going to get
+
+932
+00:47:15,200 --> 00:47:20,119
+something strictly smaller than K but
+
+933
+00:47:17,400 --> 00:47:23,160
+the order of this is the order of
+
+934
+00:47:20,119 --> 00:47:26,440
+K that shows that our P group that we
+
+935
+00:47:23,160 --> 00:47:29,520
+started with had to be contained in some
+
+936
+00:47:26,440 --> 00:47:30,839
+conjugate of our celo p subgroup and in
+
+937
+00:47:29,520 --> 00:47:33,720
+particular that if we started with a
+
+938
+00:47:30,839 --> 00:47:36,480
+celo p subgroup it was actually
+
+939
+00:47:33,720 --> 00:47:38,960
+conjugate now this is very indirect
+
+940
+00:47:36,480 --> 00:47:44,599
+let's see why it's so indirect we don't
+
+941
+00:47:38,960 --> 00:47:47,880
+know which conjugate of H contains K
+
+942
+00:47:44,599 --> 00:47:50,280
+because we don't know which orbit here
+
+943
+00:47:47,880 --> 00:47:52,960
+has order prime to P we just know there
+
+944
+00:47:50,280 --> 00:47:54,640
+has to be one of them and you can't
+
+945
+00:47:52,960 --> 00:47:56,920
+actually find it by this method it's
+
+946
+00:47:54,640 --> 00:47:58,520
+just an existence proof that's one one
+
+947
+00:47:56,920 --> 00:48:00,599
+of the problems of the CeeLo theorems
+
+948
+00:47:58,520 --> 00:48:03,040
+they're not they're not that
+
+949
+00:48:00,599 --> 00:48:06,720
+constructive finally let me try to do
+
+950
+00:48:03,040 --> 00:48:08,559
+three we may not have enough time but um
+
+951
+00:48:06,720 --> 00:48:10,480
+but I'll I'll start this again on
+
+952
+00:48:08,559 --> 00:48:12,200
+Wednesday take a look through these
+
+953
+00:48:10,480 --> 00:48:14,839
+proofs they're exceedingly clever
+
+954
+00:48:12,200 --> 00:48:16,160
+counting arguments no one would suggest
+
+955
+00:48:14,839 --> 00:48:18,520
+that one should just sit down and do
+
+956
+00:48:16,160 --> 00:48:18,520
+these for
+
+957
+00:48:19,079 --> 00:48:26,359
+homework
+
+958
+00:48:21,240 --> 00:48:29,440
+three okay I think we can find it now
+
+959
+00:48:26,359 --> 00:48:29,440
+the number number of celo
+
+960
+00:48:30,280 --> 00:48:34,839
+subgroups the number of
+
+961
+00:48:33,319 --> 00:48:38,160
+celo
+
+962
+00:48:34,839 --> 00:48:40,960
+subgroups which we called L is I claim
+
+963
+00:48:38,160 --> 00:48:45,000
+the order of G divided by the the order
+
+964
+00:48:40,960 --> 00:48:45,000
+of the normalizer of a SEO
+
+965
+00:48:47,880 --> 00:48:58,440
+subgroup of a c
+
+966
+00:48:51,160 --> 00:48:59,400
+p because as G Acts transitively
+
+967
+00:48:58,440 --> 00:49:03,119
+on the
+
+968
+00:48:59,400 --> 00:49:03,119
+set of cop
+
+969
+00:49:05,480 --> 00:49:08,760
+PS by
+
+970
+00:49:09,640 --> 00:49:13,119
+conjugation that's part
+
+971
+00:49:13,440 --> 00:49:16,799
+two and the
+
+972
+00:49:17,599 --> 00:49:23,799
+stabilizer of H is what we call the
+
+973
+00:49:20,559 --> 00:49:26,240
+normalizer of h under the conjugacy
+
+974
+00:49:23,799 --> 00:49:28,280
+action so the number of celos is the
+
+975
+00:49:26,240 --> 00:49:29,880
+order of G divided by the stabilizer of
+
+976
+00:49:28,280 --> 00:49:32,799
+a point in that action that's the
+
+977
+00:49:29,880 --> 00:49:34,319
+normalizer whatever the normalizer it is
+
+978
+00:49:32,799 --> 00:49:37,240
+it contains
+
+979
+00:49:34,319 --> 00:49:40,240
+H right so the order of the
+
+980
+00:49:37,240 --> 00:49:43,359
+normalizer is at least P to the
+
+981
+00:49:40,240 --> 00:49:47,079
+m and therefore the number of them
+
+982
+00:49:43,359 --> 00:49:50,319
+divides what's left n that's the first
+
+983
+00:49:47,079 --> 00:49:53,319
+part that the number divides
+
+984
+00:49:50,319 --> 00:49:53,319
+n
+
+985
+00:49:54,599 --> 00:50:03,319
+since H is contained in normalizer of
+
+986
+00:49:58,960 --> 00:50:04,920
+H normalizer of H has
+
+987
+00:50:03,319 --> 00:50:08,000
+order
+
+988
+00:50:04,920 --> 00:50:10,880
+divisible by P to the
+
+989
+00:50:08,000 --> 00:50:16,079
+N so
+
+990
+00:50:10,880 --> 00:50:19,200
+L divides what's left which is m n
+
+991
+00:50:16,079 --> 00:50:20,960
+Little M I'm sorry which is capital N /
+
+992
+00:50:19,200 --> 00:50:24,160
+P to the
+
+993
+00:50:20,960 --> 00:50:26,760
+m that's the divisibility statement now
+
+994
+00:50:24,160 --> 00:50:28,440
+we have to prove the congruent statement
+
+995
+00:50:26,760 --> 00:50:32,160
+again this is going to be one of these
+
+996
+00:50:28,440 --> 00:50:34,200
+setting up a g orbit
+
+997
+00:50:32,160 --> 00:50:37,559
+problem
+
+998
+00:50:34,200 --> 00:50:42,119
+now consider the action of We Know the
+
+999
+00:50:37,559 --> 00:50:44,720
+group acts transitively by conjugation
+
+1000
+00:50:42,119 --> 00:50:47,200
+restrict the
+
+1001
+00:50:44,720 --> 00:50:50,520
+action of
+
+1002
+00:50:47,200 --> 00:50:50,520
+conjugation on the
+
+1003
+00:50:51,400 --> 00:50:58,119
+CEOs to the subgroup H itself
+
+1004
+00:50:59,160 --> 00:51:02,920
+so we have a set of
+
+1005
+00:51:03,480 --> 00:51:08,079
+lsos and now we just let the subgroup H
+
+1006
+00:51:06,440 --> 00:51:10,280
+act by
+
+1007
+00:51:08,079 --> 00:51:12,720
+conjugation I claim there's an orbit
+
+1008
+00:51:10,280 --> 00:51:12,720
+with one
+
+1009
+00:51:14,100 --> 00:51:20,280
+[Applause]
+
+1010
+00:51:16,680 --> 00:51:23,920
+element has one
+
+1011
+00:51:20,280 --> 00:51:23,920
+element all other
+
+1012
+00:51:25,160 --> 00:51:29,760
+orbits have
+
+1013
+00:51:27,280 --> 00:51:34,040
+P to the a
+
+1014
+00:51:29,760 --> 00:51:38,240
+elements with a greater than equal to
+
+1015
+00:51:34,040 --> 00:51:41,280
+one that's the claim if that's the case
+
+1016
+00:51:38,240 --> 00:51:44,000
+then the total number in the set L is
+
+1017
+00:51:41,280 --> 00:51:46,960
+congruent to one mod P because it's one
+
+1018
+00:51:44,000 --> 00:51:48,440
+the number of orbits in the set h plus P
+
+1019
+00:51:46,960 --> 00:51:52,200
+times other
+
+1020
+00:51:48,440 --> 00:51:55,000
+things okay why do all other orbits have
+
+1021
+00:51:52,200 --> 00:51:56,720
+P to the a elements well they have some
+
+1022
+00:51:55,000 --> 00:51:59,680
+power of P elements because it's an
+
+1023
+00:51:56,720 --> 00:52:03,960
+orbit of H which has
+
+1024
+00:51:59,680 --> 00:52:06,680
+order P to the m and so the the size of
+
+1025
+00:52:03,960 --> 00:52:08,599
+any orbit divides this so has to be some
+
+1026
+00:52:06,680 --> 00:52:11,040
+power of P you just have to show it
+
+1027
+00:52:08,599 --> 00:52:11,040
+can't be
+
+1028
+00:52:15,599 --> 00:52:23,160
+one so so Suppose there was another cop
+
+1029
+00:52:19,040 --> 00:52:28,599
+P that was stable under conjugation by H
+
+1030
+00:52:23,160 --> 00:52:31,680
+if H Prime were in in an
+
+1031
+00:52:28,599 --> 00:52:36,760
+orbit of size
+
+1032
+00:52:31,680 --> 00:52:36,760
+one then H
+
+1033
+00:52:37,000 --> 00:52:41,960
+normalizes H
+
+1034
+00:52:40,160 --> 00:52:44,079
+Prime
+
+1035
+00:52:41,960 --> 00:52:47,040
+right that just says that under
+
+1036
+00:52:44,079 --> 00:52:51,200
+conjugation by H H Prime is stable so H
+
+1037
+00:52:47,040 --> 00:52:53,760
+normalizes H Prime so H and H Prime are
+
+1038
+00:52:51,200 --> 00:52:56,760
+two subgroups of the normalizer of H
+
+1039
+00:52:53,760 --> 00:52:56,760
+Prime
+
+1040
+00:52:57,040 --> 00:53:01,400
+now this is a killer are you
+
+1041
+00:52:59,359 --> 00:53:04,160
+ready watch
+
+1042
+00:53:01,400 --> 00:53:07,799
+this this is a subgroup of
+
+1043
+00:53:04,160 --> 00:53:11,520
+G so its order is some power of p in
+
+1044
+00:53:07,799 --> 00:53:14,280
+fact it has to be P to the m times some
+
+1045
+00:53:11,520 --> 00:53:17,200
+n Prime maybe some M Prime but in
+
+1046
+00:53:14,280 --> 00:53:19,280
+particular this power of p is the same
+
+1047
+00:53:17,200 --> 00:53:20,920
+power of P that divided the order of G
+
+1048
+00:53:19,280 --> 00:53:23,799
+it has to be there because it's in these
+
+1049
+00:53:20,920 --> 00:53:28,359
+two things therefore these two things
+
+1050
+00:53:23,799 --> 00:53:31,240
+are celo P subgroups of this
+
+1051
+00:53:28,359 --> 00:53:34,319
+correct we forget about G now they're
+
+1052
+00:53:31,240 --> 00:53:34,319
+now both celo
+
+1053
+00:53:37,839 --> 00:53:43,920
+PS of this and we can apply the celo
+
+1054
+00:53:41,520 --> 00:53:45,839
+theorems to any finite group so now we
+
+1055
+00:53:43,920 --> 00:53:47,559
+apply it to this group and part two
+
+1056
+00:53:45,839 --> 00:53:49,760
+which we've proved already says that
+
+1057
+00:53:47,559 --> 00:53:52,040
+they're conjugate in that
+
+1058
+00:53:49,760 --> 00:53:55,280
+group so
+
+1059
+00:53:52,040 --> 00:53:57,040
+conjugate in the normalizer of H Prime
+
+1060
+00:53:55,280 --> 00:53:59,319
+but in the normalizer of H H Prime the
+
+1061
+00:53:57,040 --> 00:54:01,480
+only thing conjugate to H Prime is
+
+1062
+00:53:59,319 --> 00:54:03,520
+H if you look at the action of
+
+1063
+00:54:01,480 --> 00:54:05,920
+conjugation on H Prime inside of this
+
+1064
+00:54:03,520 --> 00:54:07,839
+group it doesn't move it at
+
+1065
+00:54:05,920 --> 00:54:11,680
+all
+
+1066
+00:54:07,839 --> 00:54:14,319
+so H Prime is equal to H and that shows
+
+1067
+00:54:11,680 --> 00:54:17,359
+there's only one orbit of size
+
+1068
+00:54:14,319 --> 00:54:19,520
+one it's a totally cool killer argument
+
+1069
+00:54:17,359 --> 00:54:22,359
+because you leave the group
+
+1070
+00:54:19,520 --> 00:54:24,160
+G and you just apply the CeeLo theorems
+
+1071
+00:54:22,359 --> 00:54:26,839
+to a subgroup the parts that you've
+
+1072
+00:54:24,160 --> 00:54:29,079
+proved one and two
+
+1073
+00:54:26,839 --> 00:54:31,200
+so take a look at this amazing argument
+
+1074
+00:54:29,079 --> 00:54:32,480
+we'll come back and review it a little
+
+1075
+00:54:31,200 --> 00:54:33,920
+Wednesday and then I'm going to give you
+
+1076
+00:54:32,480 --> 00:54:38,119
+some examples to show you how you
+
+1077
+00:54:33,920 --> 00:54:38,119
+classify groups of order PQ
+

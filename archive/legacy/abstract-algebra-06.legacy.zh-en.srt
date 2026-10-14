@@ -1,0 +1,1464 @@
+1
+00:00:12,800 --> 00:00:14,670
+好的，我们开始上课。
+Okay, let's get started.
+
+2
+00:00:14,720 --> 00:00:19,747
+那么，今天的课要讲什么？
+Now, what do we want to do in today's lecture?
+
+3
+00:00:19,797 --> 00:00:24,720
+今天这节课有两个主要目标。
+There are two main goals for today's lecture.
+
+4
+00:00:33,440 --> 00:00:39,989
+今天这节课的第一个目标是……
+The first goal for today's lecture is...
+
+5
+00:00:40,039 --> 00:00:48,129
+不好意思，后排的同学请不要再讲话了，谢谢。
+Um, excuse me — could you stop talking in the back, please? Thank you.
+
+6
+00:00:48,179 --> 00:01:00,000
+……是推广我所说的"奇偶算术"。
+...is to generalize the arithmetic of what I'll call evens and odds.
+
+7
+00:01:02,359 --> 00:01:05,485
+这是什么意思呢？
+So what do I mean by that?
+
+8
+00:01:05,535 --> 00:01:08,750
+我指的是大家很小很小的时候就多少会发现的一件事。
+Well, I mean something that you sort of discover when you're really, really young.
+
+9
+00:01:08,800 --> 00:01:19,450
+只靠偶数和奇数本身，就能做一套很漂亮的计算，完全不必涉及整个整数的算术。
+There's a nice way of computing with evens and odds independently of the whole arithmetic of all the integers.
+
+10
+00:01:19,500 --> 00:01:30,476
+我的意思是：如果用 0-bar 表示所有偶数、用 1-bar 表示所有奇数……
+So what I mean by that is: if I denote by 0-bar all the even numbers, and by 1-bar all the odd numbers...
+
+11
+00:01:30,526 --> 00:01:34,402
+……那么它们之间有一种自然的加法运算。
+...there's a sort of natural addition operation.
+
+12
+00:01:34,452 --> 00:01:39,995
+偶数加偶数，得偶数。
+If I add an even to an even, I get an even.
+
+13
+00:01:40,045 --> 00:01:43,459
+奇数加奇数，得偶数。
+If I add an odd to an odd, I get an even.
+
+14
+00:01:43,509 --> 00:01:49,340
+但奇数加偶数、偶数加奇数，结果都是奇数。
+But if I add an odd to an even, or an even to an odd, I get something odd.
+
+15
+00:01:49,390 --> 00:01:56,589
+乘法也一样，奇数和偶数之间也有这样一张乘法表。
+Likewise, there's a sort of multiplication table for evens and odds.
+
+16
+00:01:56,639 --> 00:02:06,818
+偶数乘奇数、偶数乘偶数，结果当然都是偶数。
+If I multiply something that's even by something that's odd or even, I certainly get something that's even.
+
+17
+00:02:06,868 --> 00:02:11,444
+但奇数乘奇数，结果就是奇数。
+But if I multiply something odd by something odd, I get something odd.
+
+18
+00:02:11,494 --> 00:02:15,543
+所以偶数和奇数之间有这样一整套简单的算术。
+So there's this whole simple arithmetic that goes on with evens and odds.
+
+19
+00:02:15,593 --> 00:02:19,061
+但你得问一句：数字 2 究竟有什么特别之处？
+But you have to ask the question: what's so special about the number two?
+
+20
+00:02:19,111 --> 00:02:21,613
+答案是：2 并没有什么特别之处。
+Well, the answer is: there's nothing special about the number two.
+
+21
+00:02:21,663 --> 00:02:29,910
+所以今天要讲的内容之一，就是把 2 换成任意一个 n 会怎样。
+And so one of the things we're going to talk about today is how to go from two to any n.
+
+22
+00:02:29,960 --> 00:02:34,037
+第二件事，
+The second thing I'd like to do
+
+23
+00:02:34,087 --> 00:02:54,530
+是把上次讲的陪集与等价关系落实成具体的例子。
+is make concrete what we did last time with cosets and equivalence relations.
+
+24
+00:02:54,580 --> 00:03:07,485
+到头来你会发现，这两者本质上是一回事——至少在研究整数的子群时是这样。
+And it's going to turn out that these are really one and the same thing, at least when it comes to studying subgroups of the integers.
+
+25
+00:03:07,535 --> 00:03:10,874
+那我们就从这里开始。
+So let's get started on that.
+
+26
+00:03:10,924 --> 00:03:22,944
+这节课要引入的主要新概念——也是今天阅读材料里的内容——
+The main concept that's going to be new in this lecture, and which was in the reading for today,
+
+27
+00:03:22,994 --> 00:03:31,760
+是模 n 同余以及它的算术。
+is that of congruence mod n and its arithmetic.
+
+28
+00:03:38,560 --> 00:03:56,013
+我们固定一个正整数 n，在整数集上定义一个关系。
+So let's fix some n, a positive integer, and define a relation on the integers.
+
+29
+00:03:56,913 --> 00:04:05,255
+这个关系是：a 与 b 相关，当且仅当 n 整除 a − b。
+The relation is going to be: a is related to b if and only if n divides a minus b.
+
+30
+00:04:05,305 --> 00:04:22,294
+换句话说，a − b ∈ nZ，其中 nZ 是整数的一个子群，也就是所有 n 的倍数组成的集合。
+Or put another way, a minus b is in nZ — the subgroup nZ of the integers, which is just the set of multiples of n.
+
+31
+00:04:22,344 --> 00:04:36,743
+不难看出，这是一个等价关系。为什么？
+Well, it's not hard to see that this is an equivalence relation. Why?
+
+32
+00:04:36,793 --> 00:04:46,165
+首先它显然是自反的——因为 a − a = 0，而 0 当然是 n 的倍数。
+First of all, it's certainly reflexive — that just follows from the fact that a minus a is 0, which is certainly a multiple of n.
+
+33
+00:04:46,215 --> 00:04:52,031
+如果 a 与 b 相关，那么 b 当然也与 a 相关。
+If a is related to b, then certainly b is related to a.
+
+34
+00:04:52,081 --> 00:05:04,574
+因为这意味着 a − b 是 n 的倍数；而 b − a 当然也是 n 的倍数，所以 b 与 a 相关。
+Because what does this mean? a minus b is a multiple of n — but then b minus a is certainly also a multiple of n, so b is related to a.
+
+35
+00:05:04,624 --> 00:05:08,206
+最后，如果 a 与 b 相关、b 与 c 相关……
+And finally, if a is related to b and b is related to c...
+
+36
+00:05:08,256 --> 00:05:16,910
+……这意味着什么？这意味着 a − b 和 b − c 都在 nZ 中，也就是都是 n 的倍数。
+...well, what do these mean? This means a minus b and b minus c are in nZ — in other words, they're multiples of n.
+
+37
+00:05:16,960 --> 00:05:27,277
+把这两式相加就得到 a − c，所以 a 与 c 相关。
+And so then, if you add a minus b and b minus c, you get a minus c, so a is related to c.
+
+38
+00:05:27,327 --> 00:05:32,300
+所以这确实是一个等价关系。
+So this is definitely an equivalence relation.
+
+39
+00:05:32,350 --> 00:05:42,380
+在记号上，只写这个表示关系的符号——那个波浪号——往往还不够。
+Now, for notational purposes, it's often not sufficient just to write this relation symbol — the twiddle.
+
+40
+00:05:42,430 --> 00:05:56,830
+所以我们还有另一种记号：a ≡ b (mod n)。
+So we have another piece of notation, and that is: a is congruent to b mod n.
+
+41
+00:05:56,880 --> 00:06:13,047
+它是 "a ~ b" 的同义写法，只是把 n 明确写了出来。
+So this is a synonym for "a twiddle b", with n made explicit.
+
+42
+00:06:13,097 --> 00:06:25,877
+读法就是"a 模 n 同余于 b"。所以这只是说法上的问题。
+And the way we say this is: a is congruent to b mod n. So this is just a linguistic issue.
+
+43
+00:06:25,927 --> 00:06:30,993
+那么，等价类是什么？
+Well, what are the equivalence classes?
+
+44
+00:06:31,043 --> 00:06:38,917
+每当我们有一个等价关系，最先要问的问题之一就是：这些等价类的结构是什么样的？
+Whenever you have an equivalence relation, one of the first questions you ask is: what is the structure of the equivalence classes?
+
+45
+00:06:38,967 --> 00:06:53,918
+这正是我们上次开始讨论的内容。我们把它们写出来。
+I mean, this is the sort of thing we started talking about last time, so let's write them down.
+
+46
+00:06:53,968 --> 00:07:00,484
+给定整数 a，至少今天
+If I have an integer a, then — at least for today —
+
+47
+00:07:00,534 --> 00:07:15,350
+我们会把 a 的等价类记作 a-bar（在 a 上加一横）。
+we're going to write a with an overline, a-bar, to denote the equivalence class of a.
+
+48
+00:07:15,400 --> 00:07:27,537
+那么 a-bar 长什么样？怎么把它写成一个明确的集合？请讲。
+And what does a-bar look like? What's a way of writing a-bar down just as an explicit set? Go ahead.
+
+49
+00:07:27,587 --> 00:07:40,565
+对，对——所有形如 nz + a 的数组成的集合，正是如此。
+Yes, yes — the set of all numbers of the form nz + a; exactly.
+
+50
+00:07:40,615 --> 00:07:51,187
+所以 a-bar 就是 a + nZ；或者像你说的，所有形如 a + kn 的数，其中 k 取遍 Z。
+So a-bar looks like a + nZ, or, as you put it, all things of the form a + kn as k ranges over Z.
+
+51
+00:07:51,237 --> 00:07:54,369
+这两种说法是一回事。
+These are the same thing.
+
+52
+00:07:54,419 --> 00:08:02,683
+这个形式看起来眼熟吗？上次我们对这种东西是不是还有另一个术语？
+Now, does this look familiar from last time? Did we have another piece of terminology for things of this form?
+
+53
+00:08:02,733 --> 00:08:16,120
+陪集——没错！这就是陪集的一个例子。
+Coset — exactly! This is an example of a coset.
+
+54
+00:08:16,520 --> 00:08:32,709
+用上次的语言来说：设 H 是某个群 G 的子群，我们有一些形如 aH 的东西……
+So in the language from last time, where we had some subgroup H of some group G, we had these things that look like aH...
+
+55
+00:08:32,759 --> 00:08:48,454
+……或者更确切地写成 a·H。但这里考虑的是 nZ，即 Z 的子群，而 Z 的群运算用加号表示……
+...or perhaps better written a times H. But we're working with nZ, the subgroup of Z, where the group operation is denoted plus...
+
+56
+00:08:48,504 --> 00:08:54,501
+……所以这种乘法形式的记号并不合适。
+...so this sort of multiplicative notation is not really appropriate.
+
+57
+00:08:54,551 --> 00:09:05,482
+我们实际用的是 a + H，也就是 a + nZ，即 nZ 的陪集。
+So what we're really working with is a + H or, what is the same, a + nZ: the set of cosets of nZ.
+
+58
+00:09:05,532 --> 00:09:13,519
+陪集就是这种形式的东西，所以这些等价类其实就是陪集。
+The cosets are things of this form, so these equivalence classes are just cosets.
+
+59
+00:09:15,840 --> 00:09:26,079
+这里有一个重要的主题：从全体整数过渡到陪集，会丢掉大量信息……
+So one of the important themes here is that you lose a lot of information when you pass from all of the integers to the cosets...
+
+60
+00:09:26,129 --> 00:09:34,281
+……正如从全体整数过渡到偶数和奇数时，信息也丢掉了许多。
+...just as you lose a lot of information when you pass from all of the integers to evens and odds.
+
+61
+00:09:34,331 --> 00:09:54,609
+比如 n = 12 时：请注意，从 12Z 的陪集的角度看，2 和 26 是无法区分的。
+For instance, if n = 12: bear in mind that from the point of view of the cosets of 12Z, 2 and 26 are indistinguishable.
+
+62
+00:09:54,659 --> 00:10:00,390
+换句话说，2-bar = 26-bar。
+Or put another way, 2-bar equals 26-bar.
+
+63
+00:10:00,440 --> 00:10:17,995
+这里有一个观察：我们可以把所有陪集完全具体地写出来。
+Now here's an observation: we can very explicitly write down all of the cosets.
+
+64
+00:10:18,045 --> 00:10:30,980
+nZ 一共有 n 个不同的陪集，而且可以全部明确写出。
+There are n distinct cosets of nZ, and we can write them down completely explicitly.
+
+65
+00:10:31,030 --> 00:10:37,013
+换句话说，就是"模 n 的等价类"。
+Put another way: equivalence classes modulo n.
+
+66
+00:10:37,063 --> 00:10:47,336
+这些都是同一件事的不同说法，有点重复；但你以后都会听到，所以最好先熟悉一下。
+These are all sort of redundant ways of saying the same thing, but you'll hear them all, so it's good to practice hearing them.
+
+67
+00:10:47,386 --> 00:10:55,310
+那么它们是什么？谁能列举一下？请讲。
+So what are they? Well, can somebody list them? Go ahead.
+
+68
+00:10:55,360 --> 00:11:08,452
+对——或者用更简短的写法：0, 1, 2, …, n − 1。
+Right — or, in a shorter notation: 0, 1, 2, up to n minus one.
+
+69
+00:11:08,502 --> 00:11:22,114
+为什么？谁能给出一个简短的证明——至少证明每个陪集、也就是每个等价类，都是这种形式？好，请讲。
+Why is that? Can anybody give me a quick proof — at least that every coset, or every equivalence class, is of this form? Yeah, go ahead.
+
+70
+00:11:22,164 --> 00:11:31,040
+正是——这要用到带余除法。
+Exactly — so this is a matter of taking advantage of the division algorithm.
+
+71
+00:11:31,600 --> 00:11:40,718
+为什么？至少其中一半就是带余除法：
+Why? Well, at least in one part it's the division algorithm:
+
+72
+00:11:40,768 --> 00:11:56,619
+给定 a，可以把它写成 nq + r 的形式，其中 q 和 r 都是整数。
+if I have some a, then I can write it in the form nq + r, where q and r are both integers.
+
+73
+00:11:56,669 --> 00:12:00,149
+而且 0 ≤ r < n。
+But moreover, 0 is less than or equal to r, and r is less than n.
+
+74
+00:12:00,199 --> 00:12:07,761
+这就说明 a-bar = r-bar。
+And then this is just saying that a-bar equals r-bar.
+
+75
+00:12:07,811 --> 00:12:11,670
+所以在这个范围里一定有一个代表元。
+So we certainly have a representative in this range.
+
+76
+00:12:11,720 --> 00:12:18,336
+而且这些类彼此都不同——因为如果 a-bar = b-bar……
+Moreover, these are all distinct — because if a-bar is the same as b-bar...
+
+77
+00:12:18,386 --> 00:12:29,230
+……而这两个数都落在 0 到 n − 1 的范围里，也就是这种形式的数……
+...and both of these things lie in the range 0 to n minus 1, things that look like this...
+
+78
+00:12:29,280 --> 00:12:42,115
+……那么两者之差的大小介于 0 与 n 之间。
+...well, then the magnitude of the difference between these things is bounded between 0 and n.
+
+79
+00:12:42,165 --> 00:12:53,921
+又由假设，它们在同一个等价类里，所以 b − a 与 a − b 都能被 n 整除。
+And moreover, we know by hypothesis that these are in the same equivalence class, so b minus a and a minus b are both divisible by n.
+
+80
+00:12:53,971 --> 00:12:59,330
+于是这个差属于 nZ——但在这个范围内，nZ 中只有 0。
+So this thing is in nZ — but the only thing in this range in nZ is zero.
+
+81
+00:12:59,380 --> 00:13:11,007
+所以这个差只能是 0，也就是 a = b。
+So this thing is just zero, or, what is the same, a equals b.
+
+82
+00:13:11,057 --> 00:13:15,750
+因此这些类两两不同。
+So these things are each distinct.
+
+83
+00:13:15,800 --> 00:13:19,029
+那么，这个集合该怎么表示呢？
+Now, how do we describe this thing?
+
+84
+00:13:19,079 --> 00:13:30,276
+按照上次的记号，你可能会想用 Z/∼ 来表示 Z 模 n（或模 nZ）的等价类……
+Following the notation from last time, you might think we're going to denote the equivalence classes of Z modulo n, or modulo nZ, by Z/∼...
+
+85
+00:13:30,326 --> 00:13:37,249
+……因为上次我们就是用 G/∼ 表示等价类集合的。
+...because last time we had this sort of notation, G/∼, for the set of equivalence classes.
+
+86
+00:13:37,299 --> 00:13:43,493
+但这个记号不太好，因为它丢掉了你正在处理的 n。
+This is not such a great notation, because you lose which n you're working with.
+
+87
+00:13:43,543 --> 00:13:46,040
+所以常用的记号是 Z/nZ。
+So the usual notation is Z/nZ.
+
+88
+00:13:54,400 --> 00:14:12,896
+表示等价类集合时，通常写作 Z/nZ，
+For sets of classes, the notation is Z/nZ —
+
+89
+00:14:12,946 --> 00:14:21,392
+有时简写成 Z/n，有时还会在 n 外面加括号。
+or sometimes just shortened to Z/n, where sometimes brackets are put around the n.
+
+90
+00:14:21,442 --> 00:14:28,040
+这些写法都是同义的。
+These are all synonymous.
+
+91
+00:14:28,529 --> 00:14:29,570
+接下来呢？
+What next?
+
+92
+00:14:29,620 --> 00:14:50,190
+还是沿用上次处理等价关系的做法：有一个自然的映射 Z → Z/nZ，把 a 映到它的等价类，它的纤维正是各个等价类。
+Well, again following what we saw last time vis-à-vis equivalence relations, there is a natural map from Z to Z/nZ that takes a to its equivalence class, and the fibers are the equivalence classes themselves.
+
+93
+00:14:50,240 --> 00:15:01,279
+但我们接下来要做的，是在 Z/nZ 上再附加一层结构：把它变成一个群。
+But what we're about to do is put some additional structure on Z/nZ: we're going to make this a group.
+
+94
+00:15:01,329 --> 00:15:05,149
+而这个映射届时会成为群同态。
+And this thing is actually going to become a homomorphism.
+
+95
+00:15:05,199 --> 00:15:15,569
+那我们就看看它是怎么从 Z 继承算术的。
+So let's start studying how this thing inherits an arithmetic from Z.
+
+96
+00:15:15,619 --> 00:15:27,025
+我们能在 Z/nZ 里做算术吗？
+Can we do arithmetic in Z/nZ?
+
+97
+00:15:27,075 --> 00:15:35,802
+比如，两个元素的和怎么定义？
+So how do we define, for instance, a sum of two things?
+
+98
+00:15:35,852 --> 00:15:46,159
+我们把它定义为 a + b 所在的等价类——当然，还要验证这样定义是良定义的。
+We're going to define it — although we should verify that this is well defined — by the equivalence class of a plus b.
+
+99
+00:15:46,209 --> 00:16:00,068
+同样，我们定义乘法：a-bar · b-bar = (ab)-bar。
+And likewise, we define a multiplication by: a-bar times b-bar is defined to be the class of ab, (ab)-bar.
+
+100
+00:16:00,118 --> 00:16:02,283
+为什么这是良定义的？
+Now, why is this well defined?
+
+101
+00:16:02,333 --> 00:16:12,617
+这只需要简单的验证，但确实必须验证，因为我们随手就有很多不同的写法。
+Well, it's just a sort of simple verification, but it's certainly important to check, because we do off hand have a lot of different ways of writing a-bar.
+
+102
+00:16:12,667 --> 00:16:20,445
+比如模 12 时，2-bar 也可以写成 26-bar……
+So for instance, mod 12, we could write 2-bar as 26-bar...
+
+103
+00:16:20,495 --> 00:16:37,350
+……所以必须验证：换一个代表元，右边的结果不会改变。
+...and there is some sort of verification necessary to ensure that if we change the representative, we aren't changing the outcome on the right-hand side.
+
+104
+00:16:37,400 --> 00:16:47,398
+那么它是良定义的吗？答案当然是响亮的"是"。
+So is this well defined? The answer is, of course, a resounding yes.
+
+105
+00:16:47,448 --> 00:16:55,619
+说得再明确一点：
+And so, just to make this completely explicit:
+
+106
+00:16:55,669 --> 00:17:03,382
+如果 a₁-bar = b₁-bar，且 a₂-bar = b₂-bar……
+if I have a1-bar equal to b1-bar, and a2-bar equal to b2-bar...
+
+107
+00:17:03,432 --> 00:17:21,970
+……那么 a₁ + a₂-bar = b₁ + b₂-bar；
+...then a1 + a2-bar is b1 + b2-bar,
+
+108
+00:17:22,020 --> 00:17:27,640
+同样地，a₁a₂-bar = b₁b₂-bar。
+and likewise a1·a2-bar is b1·b2-bar.
+
+109
+00:17:27,690 --> 00:17:37,847
+这是一个非常容易的验证，你们自己动手做一下就好。
+And it's a very, very easy verification — I'll just let you do that yourself.
+
+110
+00:17:45,809 --> 00:18:00,200
+但关键的第一点是：这条加法法则让 Z/nZ 成为一个群。
+But the critical observation here — or the first critical observation here — is that this addition law makes Z/nZ into a group.
+
+111
+00:18:04,359 --> 00:18:15,600
+也就是说，这个集合是一个群。
+So the observation is that this thing is a group.
+
+112
+00:18:15,889 --> 00:18:29,353
+为什么？为什么加法满足结合律？请讲。
+Well, why? Why is the thing associative — why is this plus operation associative? Go ahead.
+
+113
+00:18:29,403 --> 00:18:33,976
+正是因为——它从整数继承而来。
+Because the integers — exactly, it inherits it from the integers.
+
+114
+00:18:34,026 --> 00:18:52,139
+这以后会反复出现：我们会考察这个想法的推广；凡是这样构造出来的东西，结合律都来自构造它的原料本身。
+This is going to be a sort of repeated theme: we're going to look at a generalization of this idea, and always the things that look similar to this are going to be associative, because the thing we constructed them out of was associative.
+
+115
+00:18:52,245 --> 00:18:55,521
+也就是说，结合律来自 Z 的加法。
+So: associative because Z with addition was.
+
+116
+00:18:55,571 --> 00:19:10,720
+换句话说，无论写成 (a-bar + b-bar) + c-bar 还是 a-bar + (b-bar + c-bar)，都等于 (a + b + c)-bar。
+In other words, if I write (a-bar + b-bar) + c-bar, or a-bar + (b-bar + c-bar), both of these things equal (a + b + c)-bar.
+
+117
+00:19:15,227 --> 00:19:27,405
+这个群有单位元——是什么？0 所在的等价类，0-bar。
+The thing has an identity element — what is it? The class of zero, 0-bar.
+
+118
+00:19:27,455 --> 00:19:35,408
+它也有逆元——没错。
+It has inverses — absolutely.
+
+119
+00:19:35,458 --> 00:19:54,912
+逆元有几种写法。a-bar 的逆元——以前我们用的是幂记号，因为那时把群写成乘法形式，把运算当作乘法。
+There are a couple of different ways of writing it, so the inverse of a-bar — previously we used a sort of notation which was a power notation, because we'd written our groups very multiplicatively, as if the operation was multiplication.
+
+120
+00:19:54,962 --> 00:20:04,758
+而这里群运算用加号表示，所以很自然地，把一个元素的逆元写成那个元素取负。
+Here we're writing our group with a plus sign, so it's very natural to write the inverse of an element as minus that thing.
+
+121
+00:20:04,808 --> 00:20:18,390
+正如有人指出的，这个逆元有很多种写法：可以写成 n − a-bar，也可以直接写成 −a-bar。
+And so, as someone pointed out, there are many, many ways of writing this, but one can write it as n minus a-bar, or just minus a-bar.
+
+122
+00:20:18,440 --> 00:20:27,592
+回到上次的语言——
+And so, in the language from last time —
+
+123
+00:20:27,642 --> 00:20:37,758
+也就是前面的内容：
+again, just returning to what we did before —
+
+124
+00:20:37,808 --> 00:20:55,566
+用上次的语言说，Z 的子群 nZ 的全体陪集构成一个群。
+in the language from last time, the set of cosets of the subgroup nZ of Z forms a group.
+
+125
+00:20:55,616 --> 00:21:02,311
+nZ 是 Z 的正规子群吗？请讲。
+Is nZ a normal subgroup of Z? Go ahead.
+
+126
+00:21:02,361 --> 00:21:08,151
+是的——因为 Z 是交换群。
+Yes, yes it is — because Z is an abelian group.
+
+127
+00:21:08,201 --> 00:21:20,167
+而对一般的群来说，这件事并不总成立：随便取一个子群，它的陪集未必构成群。
+And it's going to turn out that this isn't going to be true for arbitrary subgroups of a group: it's not going to be true that if I just have any subgroup, then the set of cosets is going to form a group.
+
+128
+00:21:20,217 --> 00:21:24,306
+但对正规子群，这件事一定成立。
+But it is going to be true in the case of normal subgroups.
+
+129
+00:21:24,356 --> 00:21:29,342
+在这里这只是平凡的情形，因为 Z 是交换群，所以每个子群都是正规子群。
+But here that's just a trivial thing, because Z is abelian, so every subgroup is a normal subgroup.
+
+130
+00:21:29,392 --> 00:21:41,746
+清楚吗？有问题吗？好。请讲——你是指我刚才那一长段？想让我再说一遍？
+Is that clear? Are there any questions? Great. Oh, go ahead — you just the long thing that you said just before... Any questions — could you repeat that?
+
+131
+00:21:41,796 --> 00:21:57,275
+我刚才说的是：如果随便取一个子群，它的陪集未必构成群——这一点我们以后会看到。
+Oh, I was just saying that: so it's not true that if I have some arbitrary subgroup — it's not going to be true, we're going to see this later on — but it's not going to be true that if I have an arbitrary subgroup of a group, then the set of cosets of that subgroup form a group.
+
+132
+00:21:57,325 --> 00:21:59,999
+只有加上"正规"这个假设，陪集才构成群；
+But it will be true under the hypothesis that H is normal.
+
+133
+00:22:00,049 --> 00:22:15,760
+而在 Z 的情形，这个假设是平凡的，因为 Z 的所有子群都是正规的。
+In the case of Z, this is a trivial hypothesis, because all of its subgroups are normal.
+
+134
+00:22:17,839 --> 00:22:33,315
+再讲一个观察。一周前有人问过：对每个 n，是否都存在一个 n 阶循环群？
+So another observation: a week ago somebody asked the question, is there a cyclic group of order n for every n?
+
+135
+00:22:33,365 --> 00:22:44,486
+我们当时在 Sₙ（n 个字母上的对称群）里找到了一个例子：
+And we gave an example of a subgroup of S_n, the symmetric group on n letters, which was cyclic of order n:
+
+136
+00:22:44,536 --> 00:22:49,933
+循环置换 1 → 2 → 3 → … → n → 1，它是一个 n 阶循环群。
+it's just this sort of cycle that goes 1 to 2, 2 to 3, up to n, which goes back to 1.
+
+137
+00:22:49,983 --> 00:23:04,347
+这里还有一个构造这种群的好办法：Z/nZ 也是 n 阶循环群。
+Well, here's another nice construction of such a group: Z/nZ is also cyclic of order n.
+
+138
+00:23:04,397 --> 00:23:12,462
+它是 n 阶循环群的一个很好的模型——记得我们见过，所有 n 阶循环群都同构。
+And it's a nice sort of model for a cyclic group of order n. Remember, we saw that all cyclic groups of order n are isomorphic.
+
+139
+00:23:12,512 --> 00:23:19,817
+于是我们就有了研究 n 阶循环群的简单办法。
+So here is a very simple sort of way of studying cyclic groups of order n.
+
+140
+00:23:19,867 --> 00:23:31,463
+当然，它由 1-bar 生成：把 1-bar 自加 k 次
+Of course, this is just generated by 1-bar, because if I add 1-bar to itself k times,
+
+141
+00:23:31,513 --> 00:23:35,078
+就得到 k-bar，
+then this thing is just k-bar,
+
+142
+00:23:35,128 --> 00:23:56,480
+于是我们得到 1-bar, 2-bar, …，(n − 1)-bar，还有 n-bar，而 n-bar = 0-bar。
+so I get all of 1-bar, 2-bar, up to (n − 1)-bar, and n-bar, which is just 0-bar.
+
+143
+00:24:03,839 --> 00:24:10,972
+那么为什么——问题是：为什么由 1-bar 生成的循环群就是整个 Z/nZ？
+So why — the question is: why is the cyclic group generated by 1-bar all of Z/nZ?
+
+144
+00:24:11,022 --> 00:24:30,262
+什么是循环群？用某种记号说，它是幂的集合；但在我们的记号里这不太合适——我们要的不是幂，而是倍数。
+Well, what is the cyclic group? It's the set of — in one notation, the powers — but in our notation this is sort of inappropriate. We don't want powers, we want multiples.
+
+145
+00:24:30,312 --> 00:24:39,350
+这些是形如 g + g + … + g（n 次）的东西；遇到负倍数时，就把逆元用进去。
+So these are things that look like g + g + ... + g, n times — or, when there are negative multiples, putting in the inverses.
+
+146
+00:24:39,400 --> 00:24:53,127
+当 n 取遍 Z 时，由 1-bar 生成的循环子群特别包含 1-bar, 1-bar + 1-bar, 1-bar + 1-bar + 1-bar, ……
+So as n ranges over Z, in particular the cyclic subgroup generated by 1-bar contains 1-bar, 1-bar + 1-bar, 1-bar + 1-bar + 1-bar...
+
+147
+00:24:53,177 --> 00:24:55,917
+……所以它当然包含 1-bar 自加 k 次的结果。
+...so it certainly contains 1-bar added to itself k times.
+
+148
+00:24:55,967 --> 00:25:10,269
+把 1-bar 自加 k 次，就得到 k-bar——因为由结合律，1-bar 自加 k 次就是 (1 + 1 + … + 1)-bar，也就是 k-bar。
+Well, if I add 1-bar to itself k times, then I get k-bar — because by associativity, 1-bar plus itself k times is just (1 + 1 + ... + 1)-bar, and that is k-bar.
+
+149
+00:25:10,319 --> 00:25:21,816
+这就是 k-bar。特别地，由 1-bar 生成的循环子群里含有 1-bar, 2-bar, … 一直到 (n − 1)-bar，以及 n-bar，而 n-bar 就是 0。
+So that's k-bar. In particular, in the cyclic subgroup generated by 1-bar I have 1-bar, 2-bar, all the way up to (n − 1)-bar, and n-bar, which is 0.
+
+150
+00:25:21,866 --> 00:25:30,835
+但我们之前看到，这就是全部元素——它穷尽了 Z/nZ 的所有元素。
+But we saw before that's all of the elements — that exhausts all the elements of Z/nZ.
+
+151
+00:25:30,885 --> 00:25:38,533
+既然这里的元素都在那个子群里，两者必须相等。
+So if everything that's in here is in there, these must be equal.
+
+152
+00:25:38,583 --> 00:25:46,399
+清楚吗？好。
+Is that clear? Great.
+
+153
+00:25:47,800 --> 00:25:55,909
+也许我该把那边写的内容再说明确一些。
+So, I just — maybe I'll make something I wrote over there even more explicit.
+
+154
+00:25:55,959 --> 00:26:12,240
+记号约定：当群运算用加号表示时……
+Notation: when we use plus for our group operation...
+
+155
+00:26:13,981 --> 00:26:26,309
+……我们写 n·g，也就是 g 自加 n 次；而不是更偏乘法记号的 g^n。
+...we write n·g — g added to itself n times — not the more multiplicative notation g^n.
+
+156
+00:26:26,359 --> 00:26:39,760
+要小心：我们在 Z/nZ 上定义了两个运算；它们是不同的运算，记号也不同。
+So be careful, because for instance there are certainly two operations that we've defined on Z/nZ; they're different operations and they have different notations.
+
+157
+00:26:47,136 --> 00:26:57,178
+好，我们再看一件关于这两个运算的事情。
+Okay, so let's just make a further observation about these two things.
+
+158
+00:26:57,228 --> 00:27:00,240
+再看一个观察：
+Here's a further observation:
+
+159
+00:27:05,240 --> 00:27:18,974
+Z/nZ 上的加法和乘法满足分配律，
+the addition and multiplication on Z/nZ distribute,
+
+160
+00:27:19,024 --> 00:27:32,179
+确切地说，a-bar·(b-bar + c-bar) 等于 a-bar·b-bar + a-bar·c-bar。
+in the precise sense that a-bar·(b-bar + c-bar) is the same as a-bar·b-bar + a-bar·c-bar.
+
+161
+00:27:32,229 --> 00:27:47,630
+当然，这看起来是显然的，因为它只是从整数继承过来的——它是从 Z 继承的。
+Now, of course, this seems like an utterly obvious thing, because it's just inheriting what's going on from the integers — this is inherited from Z.
+
+162
+00:27:47,680 --> 00:27:59,789
+这是一个非常简单的验证，但它非常重要。这也会反复出现，因为后面有很多东西的运作方式与之非常相似。
+And so it's a very, very simple verification. Nonetheless, it's a very important point. It becomes a sort of repeated theme, because we're going to have a lot of things that work very, very similarly to this.
+
+163
+00:27:59,839 --> 00:28:10,158
+等我们讲到课程第二部分——环论时，这会是一个主要主题。
+And this is going to be a major theme when we get to the second part of the course, on ring theory.
+
+164
+00:28:10,208 --> 00:28:22,640
+好，下面看一个例子，说明模算术的用处。
+Okay, so here's an example of the usefulness of modular arithmetic.
+
+165
+00:28:30,400 --> 00:28:49,804
+谁能告诉我，怎么计算 2^1000 的十进制展开式的最后两位数字？请讲。
+So somebody tell me how to compute the last two digits in the decimal expansion of 2^1000. Go ahead.
+
+166
+00:28:49,854 --> 00:28:56,991
+正是。答案是：
+Exactly. The answer is:
+
+167
+00:28:59,520 --> 00:29:11,737
+我们只需要算 2^1000 mod 100，
+all we have to compute is 2^1000 mod 100,
+
+168
+00:29:11,787 --> 00:29:17,762
+整个问题就变得非常容易处理。
+which makes the whole problem extremely manageable.
+
+169
+00:29:17,812 --> 00:29:29,000
+我完整地算一遍——既让你们看到这有多容易，也因为这是计算机在用的一项基本技术。
+Completely explicitly — just to show you how easy this is, and also because this is an essential technique used by computers.
+
+170
+00:29:29,050 --> 00:29:36,390
+比如，当你需要做类似计算 2^1000 末几位这种问题时，计算机就是这么做的。
+In the case that you need to do things which are analogous to computing the last couple digits in 2^1000, for instance, this is how computers do it.
+
+171
+00:29:36,440 --> 00:29:46,269
+它们不会把 2^1000 整个算出来——那个数相当大——再转成十进制写法；那样效率并不高。
+They don't crank out all of 2^1000 — because that's a rather large number — and convert it to decimal notation; that would not be so efficient.
+
+172
+00:29:46,319 --> 00:29:53,702
+下面是一种非常简单快捷的算法。
+So here's a very simple, short way of computing the thing.
+
+173
+00:29:53,752 --> 00:29:57,691
+首先，2^10 = 1024，它模 100 同余于 24。
+Well, 2^10 is 1024, which is congruent to 24 mod 100.
+
+174
+00:29:57,741 --> 00:30:04,753
+我讲这个，一部分是因为它确实有用——你们得习惯这种记号。
+I do this in part because it's just useful — you have to get used to writing things in this kind of notation.
+
+175
+00:30:04,803 --> 00:30:12,889
+再把它平方，也就是 2^20 = (2^10)^2……
+If I square this, so 2^20 — well, that's (2^10)^2...
+
+176
+00:30:13,376 --> 00:30:25,429
+……这意味着它模 100 同余于 24²，即 576，而 576 ≡ 76 (mod 100)。
+...and that means this is 24^2 mod 100, which is 576, which is congruent to 76 mod 100.
+
+177
+00:30:25,479 --> 00:30:36,481
+到目前为止的计算有问题吗？大家都清楚吗？
+Are there any questions about the computation so far? Is this clear to everyone?
+
+178
+00:30:36,531 --> 00:30:45,525
+现在把 76 平方，得到 5776，它模 100 就等于 76。
+Now if I square 76, this is 5776, which is just 76 mod 100.
+
+179
+00:30:45,575 --> 00:30:52,675
+那么 76^n 模 100 是多少？还是 76！
+What is 76^n mod 100? 76!
+
+180
+00:30:52,725 --> 00:31:03,292
+用归纳法可知，76^n ≡ 76 (mod 100)。
+This implies that 76^n is congruent to 76 mod 100, by induction.
+
+181
+00:31:03,342 --> 00:31:12,396
+于是——2^20 是 2^1000 的 50 次方根……
+And so, well — this thing, 2^20, is the 50th root of 2^1000...
+
+182
+00:31:12,446 --> 00:31:23,470
+……换句话说，2^1000 等于 2^20 的 50 次方，也就是 76^50；所以 2^1000 ≡ 76 (mod 100)。
+...or in other words, 2^1000 equals 2^20 to the 50th power, which is 76^50; so 2^1000 is just congruent to 76 mod 100.
+
+183
+00:31:23,520 --> 00:31:28,639
+问题就这样非常简单地解决了。
+So the question is answered very, very simply.
+
+184
+00:31:41,400 --> 00:32:00,647
+到这里，模算术给了我们一个群：带加法的 Z/nZ。
+So far, modular arithmetic has given us one group: Z/nZ with addition.
+
+185
+00:32:00,697 --> 00:32:14,706
+那么带乘法的 Z/nZ 是群吗？谁来回答——好，请讲。
+With multiplication, is it a group? Somebody — yeah, somebody go ahead.
+
+186
+00:32:14,756 --> 00:32:19,870
+对——它绝不是群。
+Right — so this is definitely not a group.
+
+187
+00:32:19,920 --> 00:32:42,993
+因为 0-bar 不可能有逆元：它与任何元素相乘都得到 0。
+No: because for instance 0-bar cannot possibly have an inverse, since anything you multiply it by gives you zero.
+
+188
+00:32:43,043 --> 00:32:54,063
+那么谁能看出一个子群，或者 Z/nZ 的一个子集，它能构成一个群？
+But can somebody see a subgroup, or can somebody see a subset of Z/nZ which gives a group?
+
+189
+00:32:54,113 --> 00:33:00,501
+请讲。正是——做最简单的事：
+Go ahead. Exactly — you just do the simplest thing:
+
+190
+00:33:00,551 --> 00:33:14,679
+问题在于有些元素没有逆元，那就把所有有逆元的元素挑出来。
+the problem here is that there are things which don't have inverses, so you just take the ones that have inverses.
+
+191
+00:33:16,360 --> 00:33:17,781
+我们定义——
+So we define —
+
+192
+00:33:17,831 --> 00:33:40,105
+Z/nZ 中确实有一个子集，在乘法下构成群：
+we do have a subset of Z/nZ which gives a group under multiplication:
+
+193
+00:33:40,155 --> 00:33:48,368
+就是所有有逆元的元素组成的集合。
+explicitly, the set of things that have inverses.
+
+194
+00:33:48,418 --> 00:33:49,173
+即：
+So:
+
+195
+00:33:49,223 --> 00:34:11,889
+Z/nZ 中满足"存在 c ∈ Z/nZ，使得 a-bar · c-bar = 1-bar"的所有 a-bar。
+the a-bar in Z/nZ such that there is c in Z/nZ such that a-bar · c-bar is 1-bar.
+
+196
+00:34:11,939 --> 00:34:20,276
+这个集合的记号是 (Z/nZ)^×。
+And the notation for this thing is (Z/nZ)^×.
+
+197
+00:34:20,326 --> 00:34:31,262
+这个记号你们应该很熟悉：以前讲实数和复数时，我们在右上角加一个 ×，用来表示非零元素。
+This should be a familiar notation to you, because when we talked about the real numbers and the complex numbers, we added a cross to denote the nonzero elements.
+
+198
+00:34:31,312 --> 00:34:42,800
+而那些非零元素正好就是有逆元的元素，所以这个记号完全一致。
+Well, those are exactly the elements which have inverses, so this is an entirely consistent notation.
+
+199
+00:34:42,850 --> 00:34:56,107
+好，为把这一点完全讲清楚：结合律同样继承自整数。
+Okay, so just to make sure that this is entirely clear: well, the associativity again is inherited from the integers.
+
+200
+00:34:56,157 --> 00:35:02,826
+单位元——我已经说过——是 1-bar。
+The identity — well, I've already said what it is — it's 1-bar.
+
+201
+00:35:02,876 --> 00:35:09,109
+1-bar 有一个自然的逆元，就是它自己，所以它当然在这个集合里。
+1-bar has a natural inverse, namely itself, so it's certainly in there.
+
+202
+00:35:09,159 --> 00:35:17,773
+至于逆元——按定义就有；逆元是构造出来的。
+And the inverses — well, that's by definition; inverses by construction.
+
+203
+00:35:17,823 --> 00:35:27,826
+下面简短回顾一下最大公因数，因为我们想弄清这个集合的结构……
+So let's have a brief recall on gcds, because we're going to want to discover the structure of this thing...
+
+204
+00:35:27,876 --> 00:35:39,910
+……想知道它长什么样；结果这件事跟非常初等的算术联系在一起。
+...we want to know what this thing looks like, and it turns out that this is tied up with some very, very elementary arithmetic.
+
+205
+00:35:39,960 --> 00:35:57,589
+所以，为了理解 (Z/nZ)^×，先回顾最大公因数。
+So, to understand (Z/nZ)^×, review of greatest common divisors.
+
+206
+00:35:57,639 --> 00:36:12,475
+设 m、n 是整数——我假设它们不全为零；这只是一个让定理写起来更方便的假设。
+So if I have m and n integers — and I'm going to assume they're not both zero; it's just a hypothesis that's going to make theorems easier to write down.
+
+207
+00:36:12,525 --> 00:36:27,427
+什么是最大公因数？你们大概在小学就学过：它是最大的正整数……
+So what is the gcd? Well, you were probably taught this in elementary school as the largest positive integer...
+
+208
+00:36:27,477 --> 00:36:44,083
+……这里"正"其实是定义中冗余的一部分——也就是能同时整除 m 和 n 的最大整数。
+...where this is a sort of redundant part of the definition — the largest integer that divides both of these things, dividing m and n.
+
+209
+00:36:44,133 --> 00:37:01,457
+但为了真正理解最大公因数，有一种更好的写法，因为它不涉及整数从实数那里继承来的序结构。
+But for the purposes of understanding the gcd, there's of course a better way of writing this down, because it doesn't make reference to the order structure on the integers inherited from the real numbers.
+
+210
+00:37:01,507 --> 00:37:15,296
+换句话说，它不谈正负。还有一种"序"结构只由乘法诱导出来——也就是元素之间的整除关系。
+In other words, it doesn't talk about positives and negatives. There's another order structure that is induced by just multiplication — or in other words, the division relationship between things.
+
+211
+00:37:15,346 --> 00:37:34,698
+也就是说，它是唯一满足下述条件的正整数 d：d 整除 m 和 n；并且如果 e 也整除 m 和 n，那么 e 整除 d。
+So this is the unique positive integer d such that d divides m and n, and if e divides m and n, then e divides d.
+
+212
+00:37:34,748 --> 00:37:50,280
+很容易验证——你们肯定在别的课上学过——这个数具有上述性质。
+And it's very, very easy to verify — of course, you've surely done this in another course — that this number has this property.
+
+213
+00:37:53,080 --> 00:38:07,017
+接下来是这个主要结论——关于最大公因数我想证明的核心事实：
+Now the major fact — the main fact that I want to prove about gcds —
+
+214
+00:38:07,067 --> 00:38:16,093
+它与我们迄今研究过的 Z 的群结构（子群结构）有关系。
+is that they have a relationship to the group structure, or subgroup structure, on Z that we've studied so far.
+
+215
+00:38:16,143 --> 00:38:16,800
+有问题吗？
+Yes?
+
+216
+00:38:20,561 --> 00:38:27,233
+抱歉，问题是什么？哦——
+Sorry, what's the question? Oh —
+
+217
+00:38:27,283 --> 00:38:40,433
+就是那个唯一正整数 d：它整除 m 和 n，而任何公因数都整除 d；
+the unique positive integer d such that d divides m and n, and if you have another common divisor, then it divides the greatest common divisor;
+
+218
+00:38:40,483 --> 00:38:45,910
+也就是说，它谈的只是整除结构。
+so it's just talking about the division structure of the thing.
+
+219
+00:38:45,960 --> 00:38:59,910
+那么看 mZ + nZ。第一个问题：它们都是 Z 的子群——mZ + nZ 是 Z 的子群吗？
+So: mZ + nZ. First question: these are both subgroups of Z — is mZ + nZ a subgroup of Z?
+
+220
+00:38:59,960 --> 00:39:11,511
+答案是肯定的，而且不难看出：0 当然在其中；它对加法封闭……
+The answer is yes, and it's not hard to see: 0 is certainly in there; it's certainly closed under addition...
+
+221
+00:39:11,561 --> 00:39:20,267
+……其中元素的负元当然也还在其中，因为这些东西都是形如 mr + ns 的元素，取负即可。
+...and the negative of something in here is certainly again in here, because these are just things of the form mr + ns, and you just negate those, etc.
+
+222
+00:39:20,317 --> 00:39:29,265
+所以它当然是子群。而我们知道 Z 的所有子群长什么样：它们都形如某个数——其实是某个正整数——乘以 Z。
+So this is certainly a subgroup. But we know what all the subgroups of Z look like: they look like some number — some positive integer, in fact — times Z.
+
+223
+00:39:29,315 --> 00:39:38,354
+那么有谁猜一猜这是什么？请讲。
+So any guesses as to what this is? Go ahead.
+
+224
+00:39:38,404 --> 00:39:47,683
+dZ！正是。答案是 gcd(m, n)Z。这可不好猜。
+dZ! Exactly. The answer is gcd(m, n)Z. That was a hard one to guess.
+
+225
+00:39:47,733 --> 00:39:56,673
+证明：这其实是一个相当容易的验证，我快速过一遍。
+Proof: well, this is a fairly easy verification, but I'll just go through it very quickly.
+
+226
+00:39:56,723 --> 00:40:02,365
+如我所说，它是 Z 的子群，所以它形如某个子群——
+So as I said, this thing is a subgroup of Z, so it looks like something —
+
+227
+00:40:02,415 --> 00:40:16,240
+它等于 dZ（对某个 d），且可以假设 d 是正整数。
+so it equals dZ for some d, and we can assume d is a positive integer.
+
+228
+00:40:16,513 --> 00:40:34,200
+由于 m ∈ mZ + nZ = dZ，所以 d 一定整除 m。同理，d 整除 n。
+Now, since m is in mZ + nZ, which is exactly dZ, d certainly divides m. Same argument: d divides n.
+
+229
+00:40:34,250 --> 00:40:43,376
+这个刻画性质的前一半就验证完毕了。
+So the first part of this is verified — the first part of this characterizing property is verified.
+
+230
+00:40:43,426 --> 00:40:53,101
+后一半：假设 e 整除 m 和 n。
+Second part: well, suppose I have e dividing m and n.
+
+231
+00:40:53,151 --> 00:41:07,236
+由于 d 在 dZ 中，我可以把 d 写成 mr + ns。
+Well, because d is in dZ, I can write d as mr + ns.
+
+232
+00:41:07,286 --> 00:41:18,957
+而如果 e 整除 m、也整除 n，那么 e 整除 mr + ns，从而 e 整除 d。清楚吗？
+And if e divides m and e divides n, then e divides mr + ns, and hence e divides d. Is that clear?
+
+233
+00:41:19,007 --> 00:41:29,346
+这正好就是刻画性质：d 整除 m 和 n；而任何整除 m 和 n 的东西都整除 d。
+So this is exactly the characterizing property: d divides m and n, and if something divides m and n, then it divides d.
+
+234
+00:41:29,396 --> 00:41:39,250
+性质验证完毕，引理也就证好了。就是这样。
+So we've verified the properties, and we've proved the lemma. There you go.
+
+235
+00:41:39,300 --> 00:41:54,480
+下面用这个事实来证明一个命题。
+Now let's use this fact to prove a proposition.
+
+236
+00:41:54,530 --> 00:42:06,119
+命题：(Z/nZ)^×
+Proposition: (Z/nZ)^×
+
+237
+00:42:08,978 --> 00:42:14,215
+恰好就是 Z/nZ 中满足
+is exactly the set of a-bar in Z/nZ
+
+238
+00:42:14,265 --> 00:42:18,745
+——有谁猜一下？——
+such that — any guesses? —
+
+239
+00:42:18,795 --> 00:42:24,014
+对，正是 gcd(a, n) = 1 的那些 a-bar。
+yes, exactly: gcd(a, n) = 1.
+
+240
+00:42:24,064 --> 00:42:28,143
+或者用一个更简短的词：a 与 n 互素。
+Or, to use a more abbreviated terminology: a and n are relatively prime.
+
+241
+00:42:28,193 --> 00:42:40,200
+既然我们已经建立了关于 Z 的子群的这些基本算术事实，这就很容易证明了。
+Now, this is very easy to prove, now that we've established these basic arithmetic facts about the subgroups of Z.
+
+242
+00:42:41,262 --> 00:42:53,338
+不过这里有一个细微之处。直接写出这个集合，会有什么细微的问题？你请讲。
+Well, there is one subtle point here. What would be a subtle point in just writing down this set? Yes?
+
+243
+00:42:53,388 --> 00:43:14,790
+这么写确实有点问题：你会注意到，左边我写的是 Z/nZ 中的 a-bar，右边我却把横线去掉了。
+Well, there's a bit of an issue with writing this down, because you'll notice that on the left part of this I'm taking a-bar in Z/nZ, and on the right part I'm removing the bar.
+
+244
+00:43:14,840 --> 00:43:24,297
+并没有唯一的提升：一个等价类 a-bar 有很多很多个可能的代表元。
+There's no unique lift: if I have some equivalence class a-bar, there are many, many possible representatives.
+
+245
+00:43:24,347 --> 00:43:36,301
+所以这里有个细微之处：如果等价类中有一个元素与 n 互素，那么这个等价类中的每个元素都与 n 互素。
+So there's a slightly subtle point here: namely, that if I have one element of an equivalence class which is relatively prime to n, then every element of that equivalence class is also relatively prime to n.
+
+246
+00:43:36,351 --> 00:43:43,121
+这一点不难证明，但确实是写下这个集合时的一个细微之处。
+Now, this isn't difficult to show, but it's certainly a bit of a subtlety in writing down this thing.
+
+247
+00:43:43,171 --> 00:43:53,467
+不管怎样，我接着来证明这个命题。
+But anyway, I'll go on and prove this proposition.
+
+248
+00:43:53,517 --> 00:44:02,190
+第一步：右边包含于左边。
+So, first: the right-hand side is included in the left-hand side.
+
+249
+00:44:02,240 --> 00:44:16,724
+如果 gcd(a, n) = 1，那么由引理——引理说明 aZ + nZ = Z。
+Well, if I have gcd(a, n) = 1, then by the lemma — the lemma implies that aZ + nZ = Z.
+
+250
+00:44:16,774 --> 00:44:30,597
+换句话说——这两者等价，而且也很直接，因为 1 在里面——
+Or put another way — it's equivalent, but it's also just something that follows immediately, because 1 is in there —
+
+251
+00:44:30,647 --> 00:44:33,358
+我可以把 1 写成 ar + ns，其中 r、s 是整数。
+I can write 1 as ar + ns for some r and s.
+
+252
+00:44:33,408 --> 00:44:51,430
+这为什么重要？因为它告诉我们 ar − 1 ∈ nZ……
+So why is this significant? Well, this tells us that ar − 1 is in nZ...
+
+253
+00:44:51,480 --> 00:45:07,116
+……换句话说，a-bar · r-bar = 1-bar。所以 a-bar 当然属于 (Z/nZ)^×。
+...or put another way, a-bar · r-bar = 1-bar. So a-bar is certainly in (Z/nZ)^×.
+
+254
+00:45:10,320 --> 00:45:20,590
+反过来就非常相似：左边包含于右边。
+Now the converse is very, very similar: left-hand side contained in right-hand side.
+
+255
+00:45:20,640 --> 00:45:39,682
+做同样的事：如果 a-bar · c-bar = 1-bar，那么可以写成 ac − 1 = nb，其中 b 是整数。
+Well, do the same sort of thing: if a-bar · c-bar equals 1-bar, then I can write ac − 1 = nb for some integer b.
+
+256
+00:45:39,732 --> 00:45:49,850
+于是 1 = ac − nb，属于 aZ + nZ——而这个子群正是 gcd(a, n)Z。
+So 1, which is ac minus nb, is in aZ + nZ — but this thing is just gcd(a, n)Z.
+
+257
+00:45:49,900 --> 00:46:09,245
+如果 1 在这个形如 dZ 的子群里，那么 d 只能是 ±1；它必须是 1，因为若 d 是 2、3、4 之类的数，1 根本不可能在其中。
+And if 1 is in this subgroup of the form dZ, then that d must be plus or minus one; it must be one, because if it were two, three, four, or something, one couldn't possibly be in there.
+
+258
+00:46:09,295 --> 00:46:19,192
+比如 2 在 Z 里就没有乘法逆元。这就完成了证明，也给出了结构。
+Two does not have a multiplicative inverse in Z, for instance. So this proves the result. This gives a sort of structure.
+
+259
+00:46:19,242 --> 00:46:32,354
+举个例子：(Z/pZ)^× 长什么样？好，请讲。
+So, example: what does (Z/pZ)^× look like? Yeah, go ahead.
+
+260
+00:46:32,404 --> 00:46:34,276
+除了零以外的所有元素。
+Everything except zero.
+
+261
+00:46:34,326 --> 00:46:44,394
+除了 0 以外——1, 2, 3, …, p − 1 都与 p 互素。
+Everything except for zero: all of 1, 2, 3, up to p − 1 are certainly relatively prime to p.
+
+262
+00:46:44,444 --> 00:46:45,640
+所以它是 {1, 2, …}
+So this is 1, 2, ...
+
+263
+00:46:47,911 --> 00:47:10,168
+再看一个更一般的例子：
+So another example, more generally:
+
+264
+00:47:10,218 --> 00:47:17,360
+(Z/p^eZ)^× 的阶是多少？
+what is the order of (Z/p^eZ)^×?
+
+265
+00:47:19,462 --> 00:47:24,029
+有人知道吗？
+Any takers?
+
+266
+00:47:24,475 --> 00:47:26,703
+（学生）p^e − p^{e−1}。
+(student) p^e − p^{e−1}.
+
+267
+00:47:26,753 --> 00:47:39,797
+为什么？他给出的答案基本上是 p^e − p^{e−1}——可以；这个答案背后引用了一些数论知识。
+Why? So the answer he gave is p^e − p^{e−1}, basically — that's okay; the answer he gave makes reference to some number-theoretic background.
+
+268
+00:47:39,847 --> 00:47:47,270
+但有一个非常简单的组合办法可以看出为什么它成立。好，请讲。
+But there's a very simple combinatorial way of seeing why that's true. Yes, go ahead.
+
+269
+00:47:47,320 --> 00:47:52,619
+正是：这就是除 p 的倍数之外的所有元素。
+Exactly: this is everything except the multiples of p.
+
+270
+00:47:52,669 --> 00:48:01,012
+p 的倍数有哪些？它们是 1·p, 2·p, 3·p, …, p^{e−1}·p。
+What are the multiples of p? The multiples of p are 1·p, 2·p, 3·p, up to p^{e−1}·p.
+
+271
+00:48:01,062 --> 00:48:18,384
+这些正好就是与 p 不互素的元素。
+These are exactly the things that are not relatively prime to p.
+
+272
+00:48:18,434 --> 00:48:35,834
+我们从 p^e 个元素出发，去掉 p^{e−1} 个与 p 不互素的元素，剩下 p^e − p^{e−1} 个与 p 互素的元素。
+So we started out with the set of p^e things; we took away p^{e−1} things which were not relatively prime; and we're left over with p^e − p^{e−1} things which are relatively prime.
+
+273
+00:48:35,884 --> 00:48:41,605
+好，这就是对模算术的一次初步介绍。
+Okay, so this is a first sort of introduction to modular arithmetic.
+
+274
+00:48:41,655 --> 00:48:52,078
+下一节课，我们会继续围绕第一部分、也就是这种加法结构做文章。
+But what we're going to be doing in the next class is sort of riffing further on the theme from the first part — which is just this sort of additive structure.
+
+275
+00:48:52,128 --> 00:49:02,540
+而乘法结构要到课程后面才会更详细地展开；不过现在先见一见肯定有用，因为你们会把它当工具来用。
+This multiplicative structure is something that we're going to get to only later in the course, in greater detail, but it's certainly useful to have seen it now, because you need it as a tool.
+
+276
+00:49:02,590 --> 00:49:09,397
+后面我们要开始讨论的是——正如我之前提到过的——
+But what we're going to start discussing later on is that — as I said, as I alluded to before —
+
+277
+00:49:09,447 --> 00:49:15,079
+如果有一个群 G 的正规子群 H，
+if I have some normal subgroup H of G,
+
+278
+00:49:15,129 --> 00:49:23,776
+我们就可以考察陪集空间，记作 G/H。
+we're going to be able to look at the coset space, which we're going to denote G/H.
+
+279
+00:49:23,826 --> 00:49:32,431
+也就是 H 在 G 中的全体陪集组成的集合。
+So this is the set of cosets of H in G.
+
+280
+00:49:32,481 --> 00:49:43,640
+我们会看到，有一个自然的同态映射
+And we're going to see that there's a natural homomorphism
+
+281
+00:49:54,300 --> 00:49:57,760
+G → G/H……
+from G to G/H...
+
+282
+00:49:59,840 --> 00:50:10,902
+……它的像是整个 G/H，核恰好是 H。
+...with full image and kernel exactly H.
+
+283
+00:50:10,953 --> 00:50:25,612
+这也回答上次课上有人提出的问题：给定一个正规子群，是否总有一个以它为核的同态？
+And this will answer a question that one of you had in the last class: if one has a normal subgroup, is there always a homomorphism which has that normal subgroup as its kernel?
+
+284
+00:50:25,662 --> 00:50:31,390
+今天我们已经在群 Z 这个特殊情形回答了这个问题。为什么能做到？
+We've answered that in the special case of the group Z today. Why?
+
+285
+00:50:31,440 --> 00:50:43,680
+因为 Z 的正规子群恰好就是 Z 的子群，而它们都形如 nZ。
+Because the set of normal subgroups of Z is exactly the set of subgroups of Z, which are the things of the form nZ.
+
+286
+00:50:43,730 --> 00:50:55,925
+我们看到有一个自然的映射——我把它叫做 red，是 reduction（约化）的缩写，因为这是惯用术语——从 Z 到 Z/nZ。
+And we saw that there's a natural map — which I called "red", short for reduction, because this is the terminology used — from Z to Z/nZ.
+
+287
+00:50:55,975 --> 00:51:04,878
+这个映射是同态——我没有验证，但验证起来非常容易。
+And I didn't verify this, but it's a very easy verification, that this map is a homomorphism.
+
+288
+00:51:04,928 --> 00:51:22,582
+某种意义上我其实做过了。因为 a-bar + c-bar 就等于 (a + c)-bar，而这个映射只是把 a 送到 a-bar……
+Well, I did do it in some sense. I mean, that was just the idea that a-bar plus c-bar was the same thing as (a + c)-bar, because this map is just taking a to a-bar...
+
+289
+00:51:22,632 --> 00:51:27,150
+……这就验证了它是同态。
+...so this is a verification of the fact that this is a homomorphism.
+
+290
+00:51:27,200 --> 00:51:35,888
+而且，由构造可知它是满射。
+Moreover, it's surjective by construction.
+
+291
+00:51:35,978 --> 00:51:41,968
+最后——这个验证很漂亮——它的核恰好是 nZ。
+And finally — this is a good verification — the kernel is exactly nZ.
+
+292
+00:51:42,018 --> 00:51:54,230
+所以下次课我们要看看，这件事为什么对任意群的正规子群都成立。
+So what we're going to do next time is see why this continues to work for any normal subgroup of a group.
+
+293
+00:51:54,280 --> 00:51:59,080
+好，谢谢大家！
+Great, thanks!

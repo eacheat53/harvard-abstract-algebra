@@ -1,0 +1,1004 @@
+1
+00:00:11,480 --> 00:00:24,084
+好的，在开始之前先通知一件事：下周一不上课，让我把这个写在黑板上。
+All right, so just an announcement before we get started: there's no class Monday, so let me put that up again.
+
+2
+00:00:24,084 --> 00:00:30,670
+下次课是周三，但我们不上正课，因为周三我们要在课上进行第一次小时考（期中考），考试会涵盖群论的所有内容以及我们在向量空间上讲过的内容。
+The next class is on Wednesday, but we won't have a lecture because we're going to have our first hour exam on Wednesday in class.
+
+3
+00:00:30,670 --> 00:00:49,802
+截至周三的作业是第 4.3 节和第 4.4 节的这些题目。如果大家今天稍晚一点查看，我和助教 Peter 会把一份模拟试卷发在网站上，就在放置周三截止作业的同一位置。
+It will cover all the material on groups and what we've done on vector spaces. The homework through Wednesday are these problems from Section 4 .3 and Section 4.4. And if you wait until a little later today, Peter and I are going to post a practice exam on the website in the same place as the homework due Wednesday.
+
+4
+00:00:49,802 --> 00:00:56,628
+上面会清楚标明哪些是作业、哪些是模拟卷。你们不需要交模拟考卷，这纯粹是为了你们自己的复习。
+It'll be clearly delineated what's homework and what's a practice exam. You don't have to hand in the practice exam, it's just for your own benefit.
+
+5
+00:00:56,628 --> 00:01:03,149
+如果我们周一动作够快的话，甚至可能会发一份模拟考的解答，以便你们核对做得如何。
+If we're really ambitious on Monday, we might even post solutions to the practice exam so you see whether you did it well.
+
+6
+00:01:03,149 --> 00:01:15,192
+此外，在周二会有两场答疑复习课，对吧？Liz，你周二有常规的讨论班；Peter 则在周二晚上在马瑟学院有答疑时间。
+And on Tuesday there are two review sessions, is that right? So Liz, you're having your regular section on Tuesday, and Peter is having a section Tuesday night at Mather office hours.
+
+7
+00:01:15,192 --> 00:01:27,554
+但无论如何，如果大家在考前最后一刻有问题，那是去答疑的两个好去处。很好。好的，上次我们讨论了为给定的线性算子选取一组好的基。
+But in any case, if people have questions at the last minute about the exam, those would be two good places to check up. Good. All right, now the last time we were talking about choosing a good basis for a given linear operator.
+
+8
+00:01:27,554 --> 00:02:08,042
+我们从一个线性算子 T: V → V 出发，我们能否找到一组好的基，使得 T 的矩阵具有简单的形式？让我们来思考一下这个问题。首先，你有一个概念——当你在向量空间上有一个线性算子时，你有一个“不变子空间”的概念。
+So we start off with a linear operator from V to V, and can we find a good basis so that the matrix of T is in simple form? So let's think about that a little bit. First of all, you have a notion—when you have a linear operator on a vector space, you have a notion of an invariant subspace.
+
+9
+00:02:08,042 --> 00:02:20,802
+所谓不变子空间，是 V 的一个子空间，它在 T 的作用下保持不变，即 T(W) 包含于 W 中。
+If you have an invariant subspace, it is a subspace of V which is preserved under T, such that T(W) is contained in W.
+
+10
+00:02:20,802 --> 00:02:28,350
+也就是说，如果你把 T 作用于 W 中的任意向量，结果仍然留在 W 中：这就是“在 T 下不变”的含义。
+So if you apply T to any vector in W, you stay in W: that's what it means: invariant under T.
+
+11
+00:02:28,350 --> 00:02:43,611
+现在如果你已经有了一个不变子空间，并且你选取基时先从 W 的基元素开始，然后将它们扩充为 V 的基元素，那么 T 的矩阵就具有一种特殊的形式。
+Now if you have an invariant subspace already, and you choose your basis so that you start off with basis elements of W and then you complete them to basis elements of V, then the matrix of T has a special form.
+
+12
+00:02:43,611 --> 00:02:56,556
+也就是说，如果你从 W 中的基向量出发（比如说前几个基向量落在 W 中），当你在 T 作用下变换它们时，坐标仍落在 W 中，因此只涉及前几项。
+Namely, if you start off with your basis vectors in W, say the first few basis vectors in W, the coordinates when you transform them under T lie in W, so only involve the first few terms.
+
+13
+00:02:56,556 --> 00:03:10,998
+所以你在这里得到一个小方阵——不妨称该矩阵为 A——而在其下方，你得到全零，因为当你把它作用于 W 中的向量时，它不涉及 W 之外的任何基向量。
+So you get a little square matrix here—we'll call that matrix A, maybe—and then down here you get all zeros, because when you apply it to a vector in W, it doesn't involve any of the basis vectors that are beyond W.
+
+14
+00:03:10,998 --> 00:03:26,106
+然后当你把它作用于其余的基向量时，你对结果一无所知，所以你可能在这里得到一个 B，在这里得到一个 D，但你在矩阵中得到了很多零——只要你有一个不变子空间，且选取的基的前几个基向量落在 W 中。
+And then when you apply that to the other basis vectors, you don't know anything about it at all, so you might get a B here and a D here, but you get a lot of zeros in the matrix if you have an invariant subspace and you choose your basis so the first basis vectors are in W.
+
+15
+00:03:26,106 --> 00:03:43,749
+现在，比不变子空间更好的是具有不变补空间的不变子空间。
+Now even better than an invariant subspace is an invariant subspace with an invariant complement.
+
+16
+00:03:44,419 --> 00:04:03,029
+拥有不变补空间 W' 意味着 V 的另一个子空间，使得 V 中的任意向量都可以唯一地表示为 W 中的向量加上 W' 中的向量的形式，我们记作 V 是 W 与 W' 的直和，V = W ⊕ W'。
+To have an invariant complement W' means another subspace of V such that any vector in V is uniquely of the form of a vector in W plus a vector in W', and we write that V is the direct sum of W and W', V = W ⊕ W'.
+
+17
+00:04:03,029 --> 00:04:26,830
+于是你得到两个子空间，且任意向量都唯一表示为 W 中向量与 W' 中向量之和。并且 T(W')包含在 W' 中，也就是说它也是一个不变子空间。
+So you get two subspaces, and any vector is uniquely of the form of a vector in W plus a vector in W'. And T(W') is contained in W', namely it's another invariant subspace.
+
+18
+00:04:26,830 --> 00:04:49,755
+那么变换的矩阵看起来更简单：如果我们选取 W 的一组基，并将其与 W' 的一组基合并以得到 V 的完整基，那么我们的矩阵 A 看起来就像这样：在 W 上有一个方阵，在W' 上有一个方阵，其余位置全为零。
+Then the matrix looks even simpler: the matrix A of the transformation, if we choose a basis of W and adjoin it to a basis of W' to get a full basis of V, then our matrix A looks like this: a square matrix on W, a square matrix on W', and zeros elsewhere.
+
+19
+00:04:49,755 --> 00:05:18,610
+也就是说，该矩阵越来越像矩阵的对角和；这一块对应 W，那一块对应 W'，但这是相对于一组巧妙选取的基——即 W 的基与 W' 的基的并集而言的。现在这种情形的一个极端特例是：如果 W 是一维的。
+Namely the matrix starts to look more and more like a diagonal sum of matrices; so this is on W and this on W', but that's with respect to a basis that's intelligently chosen, namely the union of a basis of W and a basis of W'. Now an extreme case of this is if we had W one-dimensional.
+
+20
+00:05:18,610 --> 00:05:36,074
+如果 W 是一维的，它由某个固定向量 w 的所有标量倍组成；  如果它是不变的，那么 T(w) 必须是w 的常数倍，即 c · w，
+If W is one-dimensional, it consists of all multiples of some fixed vector w;   and if it's invariant, then T(w) has to be a constant times w, c · w,
+
+21
+00:05:36,074 --> 00:05:55,209
+因为这个子空间中只有这一类向量，对吧？此时我们称 w 为特征向量，c 为特征值。它源自德语词“eigen”，意为“自身的”或“固有的”。
+because that's the only thing in this subspace, correct? So then we say w is an eigenvector, and c is an eigenvalue. It comes from the German "eigen", meaning "same" or "own".
+
+22
+00:05:55,209 --> 00:06:07,051
+有时在英语中人们曾试图引入“本征向量”（proper vector）或“本征值”的术语，但从未流行开来。我是说它纯粹是来自德语。
+Sometimes in English people have tried to introduce the terminology "proper vector" or "proper values", but it never caught on. I mean it just comes from the German.
+
+23
+00:06:07,051 --> 00:06:22,246
+是的，W：这意味着它是一个以小写 w 为基的一维向量空间，即它由形如c · w 的所有元素构成（c 属于基域）。这就是一维向量空间的样子：你在其中有一个向量，你拥有它的所有标量倍数，对吧？
+Yeah, W: it means that it's a one-dimensional vector space with basis little w, namely it consists of all things of the form c · w, with c in the field. That's what a one-dimensional vector space looks like: you have one vector in it, you have all multiples of it, right?
+
+24
+00:06:22,246 --> 00:06:42,269
+所以如果这个一维子空间是不变的，那就意味着当你把 T 作用于 w 时，你必然得到该空间中的另一个元素 c · w，并且这被称为特征向量，c 称为特征值。但你可能根本没有任何一维不变子空间；你可能只有二维空间不变。
+So if that one-dimensional subspace is invariant, then what it means is that when you apply T to w, you must get another element of the space, c · w, and that's called an eigenvector, and c is an eigenvalue. But you might not have any one-dimensional subspaces invariant; you might have two-dimensional spaces invariant.
+
+25
+00:06:42,269 --> 00:07:01,137
+如果你能找到、如果存在一组由特征向量构成的 V 的基 v₁, ..., vₙ，  那是最好的情形，
+If you can find, if there is a basis v_1, ..., v_n of V consisting of eigenvectors,   that's the best possible situation,
+
+26
+00:07:01,137 --> 00:07:13,433
+具有特征值 T(vᵢ)= cᵢ vᵢ（不同的特征值），那么 T 的矩阵就是一个对角矩阵：对角线上是 c₁, c₂, ..., cₙ，其余位置为 0。
+with eigenvalues T(v_i) = c_i v_i (different eigenvalues), then the matrix of T is a diagonal matrix: c_1, c_2, ..., c_n, with zeros elsewhere.
+
+27
+00:07:13,433 --> 00:07:29,310
+那是这种情形的一个真正的极端特例：你因为拥有不变子空间而将其分解为若干分块，而这些分块都是 1×1 矩阵，因为这些不变子空间具有维度 1。
+That's a real extreme case of this, where you break up into blocks because you have invariant subspaces, and the blocks are each 1-by-1 matrices because the invariant subspaces have dimension 1.
+
+28
+00:07:33,709 --> 00:07:49,759
+整个空间，是的，它给出了空间关于直线的分解（即一维向量空间），每条直线在 T 的作用下都是稳定的，并且使得该向量空间是这些直线的直和，
+The entire space, yeah, it gives a decomposition of the space into lines (one-dimensional vector spaces), each stable under T, and such that the vector space is the direct sum of those lines,
+
+29
+00:07:49,759 --> 00:07:59,970
+在这个图景中 T 变得极其简单。好，如果存在这样的一组基的话。那么我们可能想知道：何时存在这样的一组基？
+and T is just rendered very simply in this picture. Okay, if there is such a basis. So we might want to know: when is there such a basis?
+
+30
+00:07:59,970 --> 00:08:10,904
+我们如何求出特征值是什么？仅给定算子 T 时诸如此类的问题。首先要知道的是……那么我可以擦掉黑板上的这些信息吗？
+How do we find what the eigenvalues are? Questions of that nature, just given the operator T. Now the first thing to know is... so can I erase this information?
+
+31
+00:08:10,904 --> 00:08:15,749
+大家都记下了吧：周一没课、周三交作业、小时考、模拟试卷稍后发布？
+Has everyone got that: no class Monday, homework Wednesday, hour exam, practice exam will be posted?
+
+32
+00:08:15,749 --> 00:08:23,594
+现在，大家不要总以为一定会存在由特征向量构成的基——那太天真了，太简单化了！
+Now you shouldn't always think there's going to be a basis of eigenvectors—that's too simple, that's too simple!
+
+33
+00:08:23,594 --> 00:08:41,153
+例如，在 ℝ² 上一个非常简单、简单的变换（我们之后会研究它），就是取一个向量 v 并将其旋转一个角度 θ 的变换。
+For example, a very simple, simple transformation of R^2 which we're going to study is the transformation that takes a vector v and it rotates it through an angle θ.
+
+34
+00:08:41,153 --> 00:08:45,835
+它具有将平面刚性旋转一个角度 θ 的性质。
+So it has the property of just rotating the plane through an angle of θ.
+
+35
+00:08:45,835 --> 00:09:06,476
+这显然是一个线性变换；如果你写出它相对于ℝ² 的标准基的矩阵，T 的矩阵看起来就是 cos θ, -sin θ（无论符号具体如何）, sin θ, cos θ。
+That turns out to be a linear transformation; and if you take its matrix with respect to the standard basis of R^2, and you take the matrix of T, it's this matrix that looks like cos θ, -sin θ, whatever it is, sin θ, cos θ.
+
+36
+00:09:06,476 --> 00:09:12,699
+这就是旋转角度 θ 的矩阵。
+That's the matrix of this rotation through an angle of θ.
+
+37
+00:09:17,480 --> 00:09:25,983
+你看，它把 e₁，即向量 (1, 0)，映到了坐标为 cos θ 和 sin θ 的向量，对吧？
+See, it takes this e_1, the vector (1, 0), and that's taken to the vector whose coordinates are cos θ and sin θ, right?
+
+38
+00:09:25,983 --> 00:09:48,298
+现在这个变换显然没有特征向量——在 ℝ² 中没有非零特征向量 v ≠ 0，因为任何特征向量都对应一条映射到自身的直线，而没有任何直线被映到自身；它被旋转了偏离了 θ 角度的另一条直线。
+Now this clearly has no eigenvectors—has no eigenvectors v != 0 in R^2, because any eigenvector would be a line taken into itself, and no line is taken into itself; it's rotated to another line θ distance away.
+
+39
+00:09:48,298 --> 00:09:50,649
+所以这是不可能的，我们不可能在那里找到特征向量基。
+So that's hopeless, so we're not going to find a basis of eigenvectors there.
+
+40
+00:09:50,649 --> 00:10:03,986
+另一个例子：你可能拥有一个特征向量，因此你有一个像这样的不变子空间，但你可能无法消去那个分块 B；你可能永远无法化为这样的对角矩阵。
+Another example: you can have one eigenvector, so you have an invariant subspace like this, but you may not be able to get rid of the B; you may never be able to get to a matrix like this.
+
+41
+00:10:03,986 --> 00:10:22,082
+因此你可能拥有一个没有不变补空间的不变子空间。另一个例子、另一个问题：考虑从 ℝ² 到 ℝ² 的线性算子——事实上何必局限于 ℝ？
+So you can have an invariant subspace without an invariant complement. So another example, another problem: consider the linear operator from R^2 to R^2—in fact, why do R?
+
+42
+00:10:22,082 --> 00:10:43,054
+这在任何域 F 上都成立，从 F² 到 F²，它把 T(e₁) 映为 e₁。这是一个非常完好的特征向量，特征值为 1。并且它将第二个基向量 T(e₂) 映为 e₁ + e₂。
+This works over any field F, from F^2 to F^2, that takes T(e_1) to e_1. That's a perfectly nice eigenvector with eigenvalue 1, and it takes T(e_2), the second basis vector, to e_1 + e_2.
+
+43
+00:10:43,054 --> 00:11:01,230
+好的，现在如果你写出该 T 的矩阵，它看起来像这样：[[1, 1], [0, 1]]。这是一个这种形式的矩阵，其中各个分块都是 1×1 矩阵。这里 T(e₁) 是 e₁ +0 e₂；这里 T(e₂) 是 e₁ + e₂。
+Okay, now if you take the matrix of that T, it looks like this: [[1, 1], [0, 1]]. That's a matrix of this form where the blocks each are 1-by-1 matrices. Here's T(e_1) is e_1 + 0 e_2; here's T(e_2) is e_1 + e_2.
+
+44
+00:11:01,230 --> 00:11:07,269
+我断言这里不存在由特征向量构成的基。
+I claim there is no basis of eigenvectors.
+
+45
+00:11:13,150 --> 00:11:22,160
+即使这里有一个特征向量——之前那个例子里一个特征向量都没有，而这里有一个特征值为 c = 1 的特征向量——但不存在由特征向量构成的基。
+Even though there's one of them—here there were no eigenvectors, here there's an eigenvector where c is equal to 1—but there's no basis of eigenvectors.
+
+46
+00:11:22,160 --> 00:11:46,914
+你找不到第二个特征向量，你找不到……在这里我们有一个没有不变补空间的不变子空间，换句话说，不存在一个T-不变的补空间 W'（其中 W 是由 F e₁ 生成的子空间）。好，让我们来验证这一点。
+You can't find another one, you can't find... Here we have an invariant subspace without an invariant complement, or in other words there is no complement W' which is T-invariant, where W is the subspace F e_1.
+
+47
+00:11:46,914 --> 00:12:17,052
+来看看作为特征向量意味着什么。假设v 是 a e₁ + b e₂，我们把 T 作用于它。因为 T(e₁) 是 e₁，所以我们在这里得到 a e₁，加上 b 乘以 (e₁ + e₂)，因此它等于 (a + b) e₁ + b e₂。
+Okay, let's convince ourselves of that. Well, let's see what it would mean to be an eigenvector. Suppose v was a e_1 + b e_2, and we apply T to it. Well, T(e_1) is e_1, so we get a e_1 here, plus b times (e_1 + e_2), so it's equal to (a + b) e_1 + b e_2.
+
+48
+00:12:17,052 --> 00:12:39,619
+一旦我们知道 T 对基向量的作用，就可以算出 T 对任何向量的作用。现在假设那等于……那能否等于 c · v 呢？那么 c 乘以v 就是 c a e₁ + c b e₂，对吧，因为这就是 v。
+We can work out what T does to anything once we know what it does to the basis vectors. Now suppose that were equal to... could that be equal to c · v? Well, c times v is c a e_1 + c b e_2, right, because here's v.
+
+49
+00:12:39,619 --> 00:13:07,658
+好，如果二者相等，那么必须有……这意味着，我们来看：c a 等于……e₁ 的系数必须相同，所以 c a = a + b，抱歉，且 c b 等于 b。
+Okay, so if that's equal, then I have to have... so that implies, let's see: c a is equal to... the coefficients of e_1 have to be the same, and c b is equal to... sorry, c a is a + b, sorry, and c b is equal to b.
+
+50
+00:13:07,658 --> 00:13:18,050
+好的，现在如果 b ≠ 0，你可以两边乘上 b⁻¹，得到 c 必须等于 1。
+Okay, now if b is not equal to 0, you can multiply this by b^{-1} and get c has to be equal to 1.
+
+51
+00:13:18,050 --> 00:13:38,569
+这在任何域中都成立。如果 c 等于 1，代入上一式我们得到 a = a + b，所以两边减去 a，b 等于 0：矛盾！
+That's true in any field. If c is equal to 1, reading this we get that a is equal to a + b, so subtracting a from both sides, b is equal to 0: contradiction!
+
+52
+00:13:38,757 --> 00:13:49,628
+因此这能成为特征向量的唯一可能就是 b = 0，在此情况下 c等于 1。
+So the only way that this can be an eigenvector is if b is equal to 0, in which case c is equal to 1.
+
+53
+00:13:49,628 --> 00:14:02,938
+但这表明唯一的特征向量都落在直线上：如果 b = 0，我们的特征向量 v 就是e₁ 的倍数。
+Well, but that says that the only eigenvectors lie on the line: so if b is equal to 0, our eigenvector v is a multiple of e_1.
+
+54
+00:14:02,938 --> 00:14:13,810
+所以它已经落在了我们已知为不变的子空间 W 中；我们早就知道 e₁ 的任何标量倍都是特征向量，而这里的简单论证说明再没有别的特征向量了。
+So it lies in the subspace W already, which we knew was invariant; we already knew that any multiple of e_1 is an eigenvector, and this argument here, this simple argument shows there are no more.
+
+55
+00:14:13,810 --> 00:14:25,922
+所以不可能找到一个与该子空间互补且同样不变的子空间，因此你永远无法用特征向量将这个算子对角化。
+So it's impossible to find a space that isn't this subspace which is complementary to it, so you'll never diagonalize this operator with eigenvectors.
+
+56
+00:14:25,922 --> 00:14:43,160
+好，在我们回答何时拥有由特征向量构成的基之前，我们不妨先问自己：给定变换 T，在我们去寻找特征向量之前，能否先限定可能的特征值有哪些？
+Okay, now before we get into the answer of when we have a basis of eigenvectors, we might ask ourselves: given the transformation T, before we go find any eigenvectors, can we limit what are the possible eigenvalues?
+
+57
+00:14:56,360 --> 00:15:06,710
+因为这会对我们很有帮助。你看，在第一种情形中我们将能看出根本没有可能的特征值；而在第二种情形中我们能看出只有一个可能的特征值 1，仅此而已。
+Because that might help us. You see, in this case we're going to be able to see that there are no possible eigenvalues; here we're going to see there's a possible eigenvalue of 1, that's it.
+
+58
+00:15:06,710 --> 00:15:23,555
+好的，思考这个的方式是——（抱歉，我讨厌这种粉笔）如果 T 作用在w 上等于 c · w，然后你考虑新算子 T 减去恒等算子——
+Okay, so the way you think of this is—I hate this kind of chalk, sorry—if T of w is equal to c · w, and you consider the new operator T minus the identity operator—
+
+59
+00:15:23,555 --> 00:15:38,420
+恒等算子把每个向量映到自身，再把恒等算子乘以常数 c，就会把任何向量映为其自身的 c 倍——当你把 (T - c I) 作用于向量 w 时，你得到 0。
+the identity operator takes every vector to itself, and you multiply the identity by the constant c, so that takes any vector to c times itself—and you apply that to the vector w, you get 0.
+
+60
+00:15:38,420 --> 00:15:56,120
+换句话说，w 属于该算子的核，即线性算子 (T - c I) 的核。
+In other words, w is in the kernel of the operator, the linear operator T minus the eigenvalue times the identity operator.
+
+61
+00:15:56,120 --> 00:16:20,400
+特别地，这个算子是不可逆的：所以 (T - c I) 不可逆，因为它有非零核，并且它是从一个空间到自身的映射，因此它可逆当且仅当其核为 0 或其像为整个空间。
+And in particular, this operator is not invertible: so (T - c I) is not invertible, because it has a kernel, and it's a map from a space to itself, so it's invertible if and only if its kernel is 0 or its image is everything.
+
+62
+00:16:20,400 --> 00:16:22,714
+但这里我们有一个非零核。
+But here we have a kernel.
+
+63
+00:16:22,714 --> 00:17:03,736
+反过来，如果这个算子有核——我最好在黑板上保留一部分内容，因为我想回头引用这些——反过来，如果 (T - c I) 有非零核，  或者说不可逆，  那么 c 就是 T 的特征值。
+Conversely, if this operator had a kernel—I better keep some of this up because I want to go back to this— conversely, if (T - c I) has a kernel,   or just is not invertible,   then c is an eigenvalue for T.
+
+64
+00:17:03,736 --> 00:17:20,118
+因为说这个算子有核，意味着存在某个非零向量 w 被它映为 0，这意味着存在向量 w 满足 T(w) 等于常数 c 乘以 w，这意味着它是一个特征向量！
+Because to say this operator has a kernel means there's some vector w that it takes to 0, which means that there's some vector w such that T(w) is the constant times w, which means it's an eigenvector!
+
+65
+00:17:20,118 --> 00:17:25,120
+所以我们只需要确定：对哪些常数值 c，该算子具有非零核？
+So we just have to determine: for which values c does this operator have a kernel?
+
+66
+00:17:25,120 --> 00:17:58,536
+因此特征值的集合包含在使得 (T - c I) 不可逆的常数 c ∈ F 的集合中。我们来看看能否找出使得该算子不可逆的常数——事实上它恰好等于这个集合；我刚刚已经证明了这一点，谢谢，我们要严谨一些。
+So the set of eigenvalues is contained in the set of constants c in F such that (T - c I) is not invertible. We go and see if we can find which constants this operator is not invertible.
+
+67
+00:17:58,536 --> 00:18:17,285
+很好。那么我如何判断一个算子是否不可逆呢？
+In fact, it's equal to that set; I just proved that, thank you, let's be strong here. Good. Now how do I tell if an operator is not invertible?
+
+68
+00:18:17,285 --> 00:18:22,983
+我为 V 选取一组基并写出它的矩阵，然后计算该矩阵相对于 V 的某组基的行列式。
+Well, I choose some basis for V and take its matrix, and I take the determinant of that matrix with respect to some basis of V.
+
+69
+00:18:22,983 --> 00:18:53,352
+如果行列式为 0，则算子不可逆。因此这等价于 det(A - c I) = 0，其中 A 是T 相对于某组基的矩阵。
+And if that determinant is 0, the operator is not invertible. So this is equivalent to the determinant of A - c · I is equal to 0, where A is the matrix of T with respect to some basis.
+
+70
+00:18:53,352 --> 00:19:01,327
+恒等算子的矩阵是相同的，就是单位矩阵，恒等算子始终具有单位矩阵，无论你选取什么基；常数倍的单位矩阵亦然。
+The matrix of the identity operator is the same, it's the identity matrix, and the identity operator always has the identity matrix no matter what basis you choose; same thing for a constant times the identity.
+
+71
+00:19:01,327 --> 00:19:15,961
+所以你选取一组基，写出算子的矩阵，并且然后计算这个算子的矩阵（这稍有不同）：你取它的行列式，如果行列式为 0，那么该算子就不可逆，从而 c 就是特征值！
+So you choose some basis, you take the matrix of your operator, and then you calculate the matrix of this operator, which is a little different: you take its determinant, and if its determinant is 0, then this operator is not invertible, and consequently c is an eigenvalue!
+
+72
+00:19:15,961 --> 00:19:22,405
+这看起来像是：这有什么帮助呢？但它在以下方面大有助益。
+Now that looks like: well, how does that help? But it helps in the following way.
+
+73
+00:19:22,405 --> 00:19:47,884
+我们稍后会回到这个例子：记住，那个矩阵 [[1, 1], [0, 1]] 没有特征向量基。
+We'll come back to this case: so that case, remember, was the matrix [[1, 1], [0, 1]] has no basis of eigenvectors.
+
+74
+00:19:47,884 --> 00:20:06,489
+好，由此我们得出一个绝妙的结论：考虑矩阵t 倍单位矩阵减去 A 的行列式，det(t I - A)。
+Okay, so from this we get the wonderful thing: consider the determinant of the matrix t times the identity minus A.
+
+75
+00:20:06,489 --> 00:20:27,069
+现在，这里的行列式为 0，与你取该矩阵的相反数的行列式是一回事：det(c I - A) = 0。因为这里我只是把矩阵乘以了 -1，这会使它的行列式乘以 -1 的某个幂次（取决于 n×n 矩阵的阶数 n）。
+Now the determinant here being 0 is the same thing as if you took the negative of that matrix: the determinant of c I - A equals 0. Because here I've just multiplied the matrix by -1, which multiplies its determinant by a power of -1, depending on what the n-by-n matrix is.
+
+76
+00:20:27,069 --> 00:20:32,280
+因此该行列式为零当且仅当另一个行列式为零。所以考虑这个行列式。这到底意味着什么呢？
+So this determinant vanishes if and only if this one does. So consider this determinant. Now what does that mean?
+
+77
+00:20:32,280 --> 00:21:01,679
+这意味着这将是形如这样的矩阵的行列式：t - a₁₁, -a₁₂, ..., -a₁ₙ；-a₂₁（抱歉，带有负号，谢谢提醒），t - a₂₂，...，直到 t - aₙₙ，而这里是 -aₙ₁。
+That means this would be the determinant of the matrix that looks like this: t - a_11, -a_12, ..., -a_1n; -a_21 (sorry, with minus signs, thank you, thank you), t - a_22, ..., t - a_nn, and this would be -a_n1.
+
+78
+00:21:01,679 --> 00:21:17,406
+所以这些矩阵元就是-A 的各个元素，除了在对角线上你要加上 t 倍的单位矩阵。因为 t 倍单位矩阵在对角线上都是 t，而这个看起来像 -A。
+So it would be entries where the entries were the entries of -A, except along the diagonal you would add to that t times the identity matrix. Because t times the identity matrix looks like t, t, ..., t, and this looks like -A.
+
+79
+00:21:17,406 --> 00:21:22,724
+因此你得到了一个 n×n 矩阵，其元素不是普通的标量，而是把 t 视为一个变量。
+So you have an n-by-n matrix where the entries are not scalars, but t you think of as a variable.
+
+80
+00:21:22,724 --> 00:21:50,700
+现在你可以用通常的行列式公式来计算该行列式，结果它是一个关于 t 的多项式：下一项是 -(a₁₁ + a₂₂ +... + aₙₙ) tⁿ⁻¹，中间还有若干项，而最后一项则是正或负的 (-1)ⁿ det(A)。
+Now you can calculate this determinant by the usual determinant formula, and it turns out to be a polynomial in t: the next term turns out to be -(a_11 + a_22 + ... + a_nn) t^{n-1}, and then you have terms, and then the last term turns out to be plus or minus 1 to the n, (-1)^n det(A).
+
+81
+00:21:50,700 --> 00:22:10,274
+这是一个在域 F 中取系数的关于 t 的 n 次多项式，明白吗？
+It's a polynomial in t of degree n with coefficients in the field F, okay?
+
+82
+00:22:10,274 --> 00:22:24,106
+并且我们可以通过为向量空间任意选取一组基，计算 T 相对于该基的矩阵，并计算出这个多项式。
+And that we get by choosing any basis we wish for our vector space, calculating the matrix of T with respect to that basis, and calculating this polynomial.
+
+83
+00:22:24,106 --> 00:22:28,570
+因此，这个多项式被称为 T 的特征多项式。
+So this polynomial is called the characteristic polynomial of T.
+
+84
+00:22:34,120 --> 00:22:40,120
+现在你可能会问我：特征多项式是良定义的吗？
+Now you may say to me: is the characteristic polynomial well-defined?
+
+85
+00:22:40,120 --> 00:22:55,173
+因为在教我如何计算它时，你为 V 选取了一组基，写出了T 相对于该基的矩阵，并取了行列式。我必须检验它与我为 V 选取的基无关。
+Because to tell me how to calculate it, you chose a basis for V, wrote the matrix of T with respect to the basis, and took some determinants. And I have to check that that's independent of the choice of basis that I choose for V.
+
+86
+00:22:55,173 --> 00:23:08,545
+所以我接下来要证明它仅依赖于 T，尽管我们需要选取一个矩阵来计算它。
+So I'm going to next observe that this depends only on T, even though we needed to choose a matrix to calculate it.
+
+87
+00:23:08,545 --> 00:23:19,529
+特征多项式——我们记作 f(t)……哎呀，我刚刚写出了板书象限的范围！
+The characteristic polynomial, which we'll call f(t)... Here it is: I've just gone beyond the quadrant!
+
+88
+00:23:19,529 --> 00:23:32,051
+我觉得自己好像回到了《忍者神龟》或者什么动画片里：我超出了这个象限，现在被传送到了“X 维空间”！你们小时候有多少人看过《忍者神龟》？有多少人买齐了所有的忍者神龟玩偶？
+I feel like, you know, I'm back in Teenage Mutant Ninja Turtles or something: I've gone beyond the quadrant, I'm now being sent into Dimension X! How many of you watched Teenage Mutant Ninja Turtles when you were young?
+
+89
+00:23:32,051 --> 00:23:40,631
+是的，我儿子也是——或者说是我得去给他买。我觉得《忍者神龟》有一点很好，其实有两点很好：首先，它教会了他四位重要的文艺复兴艺术家的名字；
+How many of you bought all the Mutant Ninja Turtle action figures? Yes, so did my son; or rather, I had to go get them. I thought there was one good thing about Teenage Mutant Ninja Turtles—actually,
+
+90
+00:23:40,631 --> 00:23:53,340
+其次，我很喜欢那首主题曲，但我们一直没听清……在歌里，我记得其中一个家伙好像被唱作“a piece of bad news”（惹事精）——
+there were two good things: first of all, it taught him the names of four important Renaissance artists; secondly, I liked the song very much, but we could never figure out... In the song,
+
+91
+00:23:53,340 --> 00:24:11,319
+“他是个麻烦精”，我忘了是米开朗基罗还是谁——而我儿子过去总把他叫成“a pizza bad dude”（吃披萨的酷家伙）！所以那是对歌词的小小听错。
+I think one of the guys was supposed to be "a piece of bad news"—he's a piece of bad news, I forget whether it was Michelangelo or whatever—and my son used to call him "a pizza bad dude"! So that was a slight transcription of the song.
+
+92
+00:24:11,319 --> 00:24:13,224
+噢不，我说真的！
+Oh no, I mean it!
+
+93
+00:24:13,224 --> 00:24:27,382
+我是说，你不得不承认这是一个绝妙的点子：居然有人能靠这么蠢的东西赚进上亿美元。你们现在体会不到，但你们要知道，当年你们的父母全都和我一样在玩具店里买这些破玩意儿！
+I mean you have to admit that it was a brilliant idea that someone could make a billion dollars out of something this stupid. And you guys don't appreciate it, but you know your parents were all in the stores with me buying this crap!
+
+94
+00:24:27,382 --> 00:24:37,313
+好了，言归正传，我写字越过了象限线——录像规定我得待在不同的板书象限里，所以刚才向那个象限的“X 维空间”做了个延展。象限。
+All right, so I'm going beyond the quadrant here—I'm supposed to stay within various quadrants, so there's been an extension to Dimension X of that quadrant.
+
+95
+00:24:37,313 --> 00:25:02,707
+好，特征多项式 f(t) 仅依赖于 T，  而与用来求出矩阵 A 的 V 的基无关，这一点令人鼓舞。
+Okay, the characteristic polynomial f(t) depends only on T,   not on the basis of V used to obtain the matrix A to calculate it.
+
+96
+00:25:02,707 --> 00:25:21,478
+原因如下：如果我们使用另一组基，那么我们会得到矩阵 A'，它是 A 的共轭矩阵。
+And that's encouraging. And the reason is this: if we used a different basis, then we get the matrix A' which is a conjugate of A.
+
+97
+00:25:21,478 --> 00:25:43,107
+那么让我们计算用 A' 得到的结果：我们发现我们必须计算 t I - A' 的行列式。那就是我们新的特征多项式 f'(t)——哎呀，最好别用撇号，好吧，随便了，记作 f*(t) 吧；我们把这个新基对应的矩阵叫作 A*。
+So let's calculate what we get with A': we get that we have to calculate the determinant of t I - A'. That would be our new characteristic polynomial f'(t)—whoops, better not use prime, well, whatever, f*(t); let's call this A*.
+
+98
+00:25:43,107 --> 00:25:48,703
+对于不同的一组新基，f*(t) 将是这个行列式。
+For a new different basis, f*(t) would be this.
+
+99
+00:25:48,703 --> 00:25:56,449
+但另一方面，我们利用这个公式，我们看到它是 t I - P A P⁻¹ 的行列式。
+But on the other hand, we use this formula, and we see that it's the determinant of t I - P A P^{-1}.
+
+100
+00:25:56,449 --> 00:26:10,527
+然后我们注意到，如果你用 P 来共轭单位矩阵（或它的任何标量倍），得到的仍然是该矩阵，因为单位矩阵与任何矩阵都对易。
+And then we note that if you conjugate the identity matrix or any scalar multiple of it by P, you get the identity matrix, because the identity matrix commutes with any matrix.
+
+101
+00:26:10,527 --> 00:26:17,981
+所以这可以改写为 P(t I - A)P⁻¹ 的行列式。
+So this could be rewritten as the determinant of P(t I - A)P^{-1}.
+
+102
+00:26:17,981 --> 00:26:25,334
+接着我们利用“矩阵乘积的行列式等于行列式的乘积”这一事实。
+And then we use the fact that the determinant of a product of matrices is the product of the determinants.
+
+103
+00:26:25,334 --> 00:26:34,240
+于是我们得到：P 的行列式乘以这个矩阵的行列式——也就是我们所说的 f(t)——再乘以 P⁻¹ 的行列式。
+So we get: the determinant of P times the determinant of this matrix— which is what we called f(t)—times the determinant of P^{-1}.
+
+104
+00:26:34,240 --> 00:26:47,197
+但 P⁻¹ 的行列式在我们域中就是 (det P)⁻¹，并且我们域中的乘法是可交换的，所以我们可以将这两项消去，最终直接得到 f(t)！
+But the determinant of P^{-1} is (det P)^{-1} in our field, and multiplication in our field is commutative, so we can cancel this and this, and we just get f(t)!
+
+105
+00:26:47,197 --> 00:27:03,854
+因此特征多项式的奇妙之处在于：虽然在计算它时你必须选取一个矩阵并计算其行列式，但最终产物与你用来计算它的矩阵无关、与你选取的基无关。
+So the miracle of the characteristic polynomial is that even though to calculate it you have to choose a matrix and take its determinant, the end product is independent of the matrix you choose, the basis you choose to calculate it.
+
+106
+00:27:03,854 --> 00:27:08,361
+这里最关键的是：特征值就是特征多项式的根！
+And here's the key thing: the eigenvalues are the roots of the characteristic polynomial!
+
+107
+00:27:08,361 --> 00:27:18,919
+它的根——哎呀，c——就是特征值，即 T 的特征值。
+Its roots—whoops, c—are the eigenvalues of T.
+
+108
+00:27:18,919 --> 00:27:36,451
+换言之，如果你找到一个值 c，使得将它代入该多项式后发现 f(c)等于 0——这就是多项式的根的定义——那么这就意味着 det(c I - A) = 0，而这恰好就是得到特征值所需要的条件！
+Namely, if you find a value c such that when you substitute it into this polynomial, you find that f(c) is equal to 0—that's what a root of a polynomial means—then that meant that the determinant of c I - A was 0, which is exactly what we need to get an eigenvalue!
+
+109
+00:27:36,451 --> 00:27:55,785
+所以可能的特征值必定落在 f(t) 的根当中。这里有一个关键要点：域上一个 n 次多项式至多有 n 个不同的根在域中！
+So the possible eigenvalues occur among the roots of f(t). And here's a key point: a polynomial of degree n over a field has at most n distinct roots in the field!
+
+110
+00:27:55,785 --> 00:28:35,938
+因此特征值集合只有有限种可能。  让我们在黑板上写一个小引理：引理。若 f(t) 是域 F 上的 n 次多项式，则它在 F 中至多有 n 个互不相同的根 c ∈ F。“根”是指使得 f(c) = 0 的点。
+So there's a finite possibility for the set of eigenvalues.   Let's put a little lemma up: Lemma. If f(t) has degree n over a field F, then it has at most n distinct roots c in F. Roots means points where f(c) is equal to 0.
+
+111
+00:28:35,938 --> 00:28:46,748
+因此你不可能……对于二维空间上的变换，你至多只能有两个不同的特征值；也可能一个都没有。
+So you can't have... for a transformation of a two-dimensional space, you could have at most two different eigenvalues; you may have none.
+
+112
+00:28:46,748 --> 00:28:57,229
+但这个引理的证明是十分基础的，你们在实数等情况下都见过，就是多项式满足带余除法。
+But the proof of this, which is fundamental and you've seen it for the reals, etc., is that there's a Euclidean algorithm for polynomials.
+
+113
+00:28:57,229 --> 00:29:26,528
+因此你总可以把多项式 f(t) 写为 (t - c)乘以另一个多项式——抱歉，写成 (t - c) g(t) 加上一个常数。你总是可以做带余除法，其中多项式 g(t) 的次数等于 n - 1。
+So you can always write a polynomial f(t) as (t - c) times another polynomial—sorry, as (t - c) g(t) plus a constant. You can always do a division with degree of g(t) equal to n - 1.
+
+114
+00:29:26,528 --> 00:29:37,001
+因此对于 F 中的任意 c，你可以用多项式(t - c) 去除多项式 f(t)：商是一个 n - 1 次多项式，余式是一个常数 d ∈ F。
+So for any c in F, you can make a division of the polynomial f(t) by the polynomial (t - c): the quotient is a polynomial of degree n - 1, which you work out, and the remainder is a constant d in F.
+
+115
+00:29:37,001 --> 00:29:58,085
+如果 f(c) 等于 0，那么 d 就等于 0，因为你只要把 c 代入该表达式：f(c) 是 0，c - c 当然是 0，所以剩下的 d 就是 0。
+If f(c) is equal to 0, then d is equal to 0, because you just substitute c into this expression: f(c) is 0, c - c is certainly 0, so you're left with 0.
+
+116
+00:29:58,085 --> 00:30:02,655
+因此 f(t) = (t - c) g(t)。
+So f(t) is equal to (t - c) g(t).
+
+117
+00:30:02,655 --> 00:30:22,050
+然后如果你有另一个不同的根——它不是前面这个根——如果 c' 是另一个根且 c' ≠ c，那么我断言 g(c') 等于 0。
+And then if you had a different root—it's not a root here— if c' is another root with c' != c, then I claim that g(c') is equal to 0.
+
+118
+00:30:22,050 --> 00:30:34,225
+原因在于：如果你把它代入这里，左边是 0，但 c' - c 非零，所以你可以乘上它的逆元，从而得出g(c') 必须等于 0。
+And the reason is that if you substitute it in here, this is 0, but c' - c is non-zero, so you can multiply by its inverse to see that g(c') has to be 0.
+
+119
+00:30:34,225 --> 00:30:58,719
+然后你对 g 重复同样的论证；接着对 g 的次数进行归纳，得出一个 n 次多项式至多有 n 个不同的根：我们找到了一个根 c，然后剩下了一个至多有 n - 1 个根的 n - 1 次多项式，所以 f 至多有 n 个根。是的，对每一个域都成立！
+And then you do the same argument with g; then by induction on the degree of g, a polynomial of degree n has at most n distinct roots: we found one root c, and then we're left with a polynomial of degree n - 1 that has at most n - 1 roots, so there's at most n roots for f. Yeah, every field!
+
+120
+00:30:58,719 --> 00:31:11,123
+我在这里用到的每一步在域上都成立。[学生提问] 不，那不是域，那不是域！好的，我需要乘法逆元！
+There's nothing I've used here that doesn't work for a field. [Student: What about Z/8Z?] No, that's not a field, it's not a field! Okay, I need an inverse!
+
+121
+00:31:11,123 --> 00:31:17,360
+有些性质对整环也成立——我们后面会讲到——好的，但这在一般的环上不成立。
+There are things that work for integral domains—we'll get there—okay, but it doesn't work for a general ring.
+
+122
+00:31:17,360 --> 00:31:41,145
+比如如果你取环——这个是一个很漂亮的环，Z/8Z，即模 8 整数环，你考虑多项式 f(t) = t² - 1：你会发现它在那个环中有四个互不相同的根，即 1、3、5 和 7！
+Okay, for example, if you take the ring—this is a very nice ring, Z/8Z, the integers mod 8, and you take the polynomial f(t) = t^2 - 1: you'll find that it has four distinct... four distinct roots in that ring, namely 1, 3, 5, and 7!
+
+123
+00:31:41,145 --> 00:31:54,875
+所以有某种性质失效了，在这种情况下的确出错了——我们之后会弄清楚，这基本上是因为消去律失效了——但在域上这个原理行之有效，而我们这里正是在域上讨论。
+So there's something that goes wrong in this case—we'll have to figure it out, it's basically this cancellation law—but over a field this principle works brilliantly, and we're over a field here.
+
+124
+00:31:54,875 --> 00:32:10,276
+因此，特征多项式仅依赖于变换本身，它的根就是特征值，所以对于 n 维向量空间的变换，我们至多有 n 个互不相同的特征值。
+So consequently, the characteristic polynomial depends only on the transformation, its roots are the eigenvalues, and therefore we have, for a transformation of an n-dimensional vector space, at most n distinct eigenvalues.
+
+125
+00:32:10,276 --> 00:32:40,666
+让我们把这写下来：“多项式的根就是特征值，因此至多有 n 个不同的特征值，其中 n 是 V 的维度。”  现在让我们回头看看之前的例子，
+Let's write that down: Roots are eigenvalues, so at most n distinct eigenvalues, where n is the dimension of V.   Now let's take a look at these cases and see what happens.
+
+126
+00:32:40,666 --> 00:33:01,292
+看看发生了什么。在那个旋转变换的例子中，特征多项式形如：f(t) = t² - 2(cos θ)t + 1，因为我们必须计算t I - A 的行列式。
+In this case, the characteristic polynomial looks like this: f(t) is equal to t^2 - 2(cos θ)t + 1, because we have to calculate the determinant of t I - A.
+
+127
+00:33:01,292 --> 00:33:19,209
+t I - A 看起来就像矩阵 [[t - cos θ, sin θ], [-sin θ, t - cos θ]]；如果你计算它的行列式，就会得到这个结果。请相信我！
+So t I - A looks like the matrix [[t - cos θ, sin θ], [-sin θ, t - cos θ]]; if you take the determinant of this, you get this. Just believe me!
+
+128
+00:33:19,209 --> 00:33:53,659
+好的，现在我断言它没有实根——它有复根，但没有实根，原因在于：这里的这个数，不管它是多少……对，2 cos θ 的绝对值是……如果 θ 不等于 0或 π（等等，假设 θ ≠ 0 且 θ ≠ π），这个值的绝对值严格小于 2。
+Okay, now I claim that that has no real roots—it has complex roots, but it has no real roots. And the reason is that this number here, whatever it is... right, the absolute value of 2 cos θ is... well, if θ is not equal to 0 or π (wait a minute, assuming θ != 0 or π), the absolute value of this is strictly less than 2.
+
+129
+00:33:53,659 --> 00:34:14,531
+（刚才被 θ 等于……弄糊涂了一下：这是对的）。假设 θ 不等于 0 或 π。如果 θ 为 0，显然每个非零向量都是特征向量，因为它是单位矩阵。
+(A little puzzled by θ equal... this is correct, yeah). Assuming θ is not equal to 0 or π. If θ is 0, obviously everything's an eigenvector because it's the identity matrix.
+
+130
+00:34:14,531 --> 00:34:22,376
+如果 θ 是 π，那么你旋转了 180 度，得到负的单位矩阵，所以此时是有特征值的。
+If θ is π, then you're rotating around 180 degrees, you're getting minus the identity matrix, so there are eigenvalues there.
+
+131
+00:34:22,376 --> 00:34:30,044
+但如果 θ ≠ 0 且 θ ≠ π，那么 |2 cos θ| < 2，因此如果你计算这个多项式的判别式，你会发现它是负的：
+But if θ is not equal to 0 or π, |2 cos θ| is less than 2, and consequently if you calculate the discriminant of this polynomial, you'll find it's negative:
+
+132
+00:34:30,044 --> 00:34:50,081
+b² - 4ac对应那个二次多项式是负数，因此它的根是复数而不是实数！所以该多项式没有实根，从而在实数域上没有特征值。
+b^2 - 4ac is for that quadratic polynomial, and consequently its roots are complex, not real! So this polynomial has no real roots and consequently no eigenvalues over the reals.
+
+133
+00:34:50,081 --> 00:34:55,879
+在另一个例子中，特征多项式 f(t) 恰好是 (t - 1)²。
+In this other case, the characteristic polynomial f(t) just turns out to be (t - 1)^2.
+
+134
+00:34:55,879 --> 00:35:06,627
+所以你只得到一个不同的根；对那个根我们得到了一个特征值和一个特征向量，但我们得不到任何其他的特征向量。
+So you only get one distinct root, and we got an eigenvalue and an eigenvector for that root, but we don't get any other eigenvectors.
+
+135
+00:35:06,627 --> 00:35:19,683
+好，所以到目前为止情况变得复杂得多，我只给你们一个简化的版本。
+Okay, so at this point the situation becomes much more difficult, and I'll just give you a simple version of it.
+
+136
+00:35:19,683 --> 00:35:49,687
+让我们再做一个计算，以便确信我们掌握了特征多项式的算法。让我们来算一个一般的 2×2 矩阵及其特征多项式。我断言 f(t) = t² - (a + d)t + (ad - bc)。
+Let's do one more calculation, so that we can be confident that we know how to calculate a characteristic polynomial. Let's do a general 2-by-2 matrix and its characteristic polynomial. Now I claim that f(t) is t^2 - (a + d)t + (ad - bc).
+
+137
+00:35:49,687 --> 00:35:54,576
+这对大家来说是一个很好的练习，可以用来确保你们会计算特征多项式。
+So that's a good exercise for you guys to do to make sure you can calculate a characteristic polynomial.
+
+138
+00:35:54,576 --> 00:36:06,680
+顺便说一下，特征多项式中的这两项非常著名：这一项被称为 T 的迹，即矩阵对角线元素之和；而这一项当然就是 T 的行列式。
+By the way, the two terms in the characteristic polynomial are quite famous: this term is called the trace of T, the sum of the diagonal entries of the matrix; and this is of course the determinant of T.
+
+139
+00:36:06,680 --> 00:36:13,600
+这两项——事实上所有的系数——都仅依赖于 T，而与具体矩阵 A 无关。
+And those two terms—in fact all the coefficients—depend only on T, not on the matrix A.
+
+140
+00:36:13,600 --> 00:36:23,702
+所以在旋转矩阵的例子中，我能看出那一项是这个，因为那是该矩阵的迹，而这里的矩阵行列式是 1（即 cos² θ +sin² θ）。
+So here I could see that the term was this because that's the trace of this matrix, and the determinant of this matrix here is 1, cos^2 θ + sin^2 θ.
+
+141
+00:36:23,702 --> 00:36:26,022
+所以一般情况下你有这个公式。
+So in general you get this formula.
+
+142
+00:36:26,022 --> 00:36:55,149
+举个例子，如果我给你这个矩阵，问你它的特征值是什么，你会说：瞧，f(t) 是 t² - 7t + 10——算行列式得 12 - 2 = 10。然后我们会问：能因式分解吗？看起来它是 (t - 5)(t - 2)。
+So for example, if I gave you this matrix and I asked you what its eigenvalues are, you would say: well, look, f(t) is t^2 - 7t + 10—so we have to do the determinant: 12 - 2 = 10. Then we'd say: well, can I factor that? So it looks like (t - 5)(t - 2).
+
+143
+00:36:55,149 --> 00:37:00,150
+因此 5 和 2 就是特征值！
+So 5 and 2 are eigenvalues!
+
+144
+00:37:04,960 --> 00:37:18,369
+也就是说，我们有一个向量 v₁ 满足 T(v₁) = 5 v₁，并且有一个向量 v₂ 满足 T(v₂) = 2 v₂。看起来很棒，对吧？
+Namely, we have a vector v_1 such that T(v_1) = 5 v_1, and we have a vector v_2 such that T(v_2) = 2 v_2. Looks good, huh?
+
+145
+00:37:18,369 --> 00:37:51,704
+看来我们可能拥有一组由特征向量构成的基，对吧？我们有两个特征向量。它们线性无关吗？这两个向量线性无关吗？为什么？为什么线性无关？
+Looks like we might have a basis of eigenvectors, right? We have two of them. Are they linearly independent? Are these two vectors linearly independent? Why? Why are they linearly independent?
+
+146
+00:37:51,704 --> 00:38:08,876
+因为……除非 5 等于 2——5 能等于 2 吗？5 能等于 2 吗？对，5 不能等于 2！
+Because... so unless 5 is equal to 2—can 5 be equal to 2? Can 5 be equal to 2? Right, 5 can't be equal to 2!
+
+147
+00:38:08,876 --> 00:38:30,520
+好，很好：如果 2 ≠ 5 在我们的基域 F 中成立，我们就得到了一组特征向量基，因为在 2 ≠ 5 的情况下，这两个向量不可能落在同一条直线上！
+Ah, so okay, good: if 2 is not equal to 5 in our field F, we get a basis of eigenvectors, because in the case where 2 is not equal to 5, these two vectors cannot lie on the same line!
+
+148
+00:38:30,520 --> 00:38:43,090
+因为在 v₁ 生成的直线上的任意向量，当你把 T 作用于它时都会乘以 5；而 v₂ 并不是乘以 5，它是乘以 2，而 2不等于 5。
+Because anything on the line spanned by v_1, when you apply T to it, is multiplied by 5; whereas v_2 is not multiplied by 5, it's multiplied by 2, and 2 is not equal to 5.
+
+149
+00:38:43,090 --> 00:38:55,309
+所以如果这两个特征值在我们的域中是互不相同的——这不一定总是对的，因为我们的域可能是有 3 个元素的有限域 F₃，在那里 5 恰好等于 2—
+So if these two eigenvalues are distinct in our field—which is not necessarily true, because our field might have been the field of three elements F_3, where 5 happens to be equal to 2—
+
+150
+00:38:55,309 --> 00:39:10,150
+—但如果我们在实数域或者 11 个元素的域 F₁₁ 中，这两个数互不相等，我们就从v₁ 和 v₂ 得到了一组由特征向量构成的基！
+but if we were in say the real numbers or the field of 11 elements F_11, and these two numbers were distinct, we get a basis of eigenvectors from v_1 and v_2!
+
+151
+00:39:10,150 --> 00:39:12,287
+一般情况下也是成立的。然后我来回答提问。
+And in general that's true. And then I'll take the question.
+
+152
+00:39:12,287 --> 00:39:40,483
+在一般情况下，如果你足够幸运，特征多项式能够完全分解  为互不相同的根：(t - c₁)(t - c₂)···(t - cₙ)（在 F 中，且 cᵢ 互不相同）——这并非过分的要求，
+In general, if you are so lucky that your characteristic polynomial factors completely   into distinct roots: (t - c_1)(t - c_2)...(t - c_n) in F with the c_i distinct— and that's not an unreasonable thing to ask,
+
+153
+00:39:40,483 --> 00:39:57,484
+虽然在刚才那两个例子中不成立：在一个例子中没有实根，在另一个例子中有重根——但假设它确实分解为互不相同的根，那么我断言你可以通过对每个特征值各取一个特征向量，来得到一组基。
+although it fails in these two cases: in this case we had no roots, and in this case we had a multiple root—but suppose it factors into distinct roots, then I claim you can get a basis of eigenvectors by taking, for each one of these eigenvalues, an eigenvector.
+
+154
+00:39:57,484 --> 00:40:05,836
+并且断言是（这是前面特例的推广）：它们构成一个线性无关集。这比两个向量的情形稍微多花一点功夫，但证明完全行得通。
+And then the claim is—which is a generalization of this—that those form a linearly independent set. That's a little bit more work than it is for two, but it works.
+
+155
+00:40:05,836 --> 00:40:13,483
+然而，这两个反例告诉大家：如果没有根，或者有重根，结论就可能不成立。
+However, these two cases show you that if you have no roots, or you have multiple roots, that may not be true.
+
+156
+00:40:13,483 --> 00:40:19,879
+于是这就演变成关于实际情况的更复杂的分析，我们在此不展开。
+And then it becomes a more complicated analysis of what actually goes on here, which we're not going to do.
+
+157
+00:40:19,879 --> 00:40:32,091
+但我希望大家至少记住一个简单原理：如果你计算像这样一个算子的特征多项式，并且找到了两个不同的根，那么你就能找到一组由特征向量构成的基。
+But I want you to remember at least a simple principle: that if you calculate the characteristic polynomial of an operator like this and you find two distinct roots, then you can find a basis of eigenvectors.
+
+158
+00:40:32,091 --> 00:40:38,462
+在这种情况下我们能够断言：只要在域 F 中满足该不等式（2 ≠ 5），我们就拥有一组特征向量基。
+In this case we would be able to say, as long as we have this inequality (2 != 5) in F, we'd have a basis of eigenvectors.
+
+159
+00:40:38,462 --> 00:40:51,567
+我们目前还不知道它们具体是什么；那是另一个问题——如何求出特征向量，但至少我们知道它们是存在的。刚才后面有个提问……不，我已经回答过了。天哪，你们几个迟到了，你们错过了精彩的讲座！
+We don't know what they are yet; that's another problem, how to find the eigenvectors, but at least we know they exist. Now there was a question back there... no, I answered it. God, you guys are late, you've missed the fabulous lecture!
+
+160
+00:40:51,567 --> 00:41:00,239
+好吧，你们可以在录像里看。但我警告你们：我刚才写字超出了摄像象限，所以那部分可能录不到，知道吧？
+Okay, you'll look at it on the video. Okay, but I warn you: I went beyond the quadrant here, so that may be lost, okay?
+
+161
+00:41:00,239 --> 00:41:13,764
+好，我们还讨论了《忍者神龟》，你们最好也补课一下！好了，这在某种意义上只是特征多项式乐趣的开端。
+Okay, we also discussed Teenage Mutant Ninja Turtles, you'll want to catch up on that! Okay, now this is in some sense just the beginning of the fun with the characteristic polynomial.
+
+162
+00:41:13,764 --> 00:41:23,371
+如果时间充裕的话，我会回头给你们多讲讲特征多项式，以及当它有重根时该怎么做等等。但我们现在暂且略过。
+And if I had sufficient time, I would go back and tell you a little bit more about the characteristic polynomial, and what you do when it has multiple roots, etc. But we're going to leave this for the moment.
+
+163
+00:41:23,371 --> 00:41:33,640
+你们中的许多人在 Math 55 里可能学过：若尔当标准型，或者在无法对角化时所做的处理。那里有各种有趣的内容！
+Many of you may have done this in Math 55: Jordan canonical form, or the things you do when it doesn't diagonalize. There's all kinds of interesting stuff!
+
+164
+00:41:33,640 --> 00:41:45,930
+但我只想再告诉大家关于特征多项式的一件神奇的事情，这在某种意义上是我在线性代数中最喜欢的定理，我们在此同样不予证明。
+But I just want to tell you one more amazing thing about the characteristic polynomial, which is in some sense my favorite theorem of linear algebra, which again we're not going to prove.
+
+165
+00:41:50,630 --> 00:42:11,154
+好，让我们稍微回顾铺垫一下。考试不要求这个，但这是我最喜欢的定理，你们可以看到前方的广阔领域：我们还远没有穷尽线性代数的乐趣！
+Okay, so let's backtrack a little bit. Now this is not required, but it's my favorite theorem, so you can see that there's a subject ahead here: we haven't exhausted the joys of linear algebra!
+
+166
+00:42:11,154 --> 00:42:21,549
+考虑有限维向量空间 V 上的一个线性算子，取其矩阵——嗯，其实我想直接将其视为一个向量空间中的元素，
+So take a linear operator on a finite-dimensional vector space V, and take its matrix—well, you know that's all I need, I guess—
+
+167
+00:42:21,549 --> 00:42:46,535
+即所有从 V 到 V 的映射（所有线性映射，Hom(V, V)）所构成的向量空间中的一个向量，它是 F 上一个 n² 维的向量空间，对吧？其中 V 的维度是 n。
+and consider it as an element in the vector space, a vector in the vector space of all maps from V to V, all linear maps from V to V, Hom(V, V), which is a vector space over F of dimension n^2, okay? Where V has dimension n.
+
+168
+00:42:46,535 --> 00:42:52,966
+或者你直接把它想成矩阵，你可以将 n×n 矩阵相加，所以这是一个 n² 维向量空间。
+Or maybe you just think of it as a matrix, and you can add n-by-n matrices, so that's a vector space of dimension n^2.
+
+169
+00:42:52,966 --> 00:43:09,330
+好的，这里有一些元素：在这个 n² 维向量空间中，你得到以下元素：单位矩阵 I，算子 T，T²，T³，T⁴……你可以不断迭代，你可以计算幂次，把该算子与自身复合任意多次。
+Okay, so here are some elements: you get the following elements in this vector space of dimension n^2: you have the identity matrix I, you have T, you have T^2, you have T^3, you have T^4... You can keep iterating, you can take powers, you can compose the operator with itself as many times as you want.
+
+170
+00:43:09,330 --> 00:43:24,024
+最终你可以一直写到……写到 T^{n²}。它们都落在这个向量空间中，一共有 n²+ 1 个元素！
+Eventually you get to... let's go all the way to T^{n^2}. So they all lie in this vector space, and there are n^2 + 1 of them!
+
+171
+00:43:24,024 --> 00:43:30,880
+所以它们必定是线性相关的，正是如此！
+So they must be linearly dependent, exactly!
+
+172
+00:43:33,780 --> 00:44:01,514
+线性相关关系意味着形如 a₀ · I + a₁ · T + a₂ · T² + ... + a_{n²} · T^{n²}= 0 在这个向量空间 Hom(V, V) 中成立。
+A linear relation means something of the form a_0 · I + a_1 · T + a_2 · T^2 + ... + a_{n^2} · T^{n^2} = 0 in this vector space Hom(V, V).
+
+173
+00:44:01,514 --> 00:44:19,161
+换句话说，即 T 满足一个次数不超过 n² 的多项式，其系数在基域中！
+In other words, i.e., T satisfies a polynomial of degree less than or equal to n^2 with coefficients in the field!
+
+174
+00:44:19,161 --> 00:44:37,812
+是的，也就是说，如果你取这个多项式 a₀ + a₁ t + ... + a_{n²} t^{n²}，把这个多项式叫作 F(t)，并将算子 T 代入其中，
+Yeah, namely, if you took this polynomial a_0 + a_1 t + ... + a_{n^2} t^{n^2}, and you call that polynomial F(t), and you plug in the operator T, it would give you the zero operator—
+
+175
+00:44:37,812 --> 00:44:51,096
+它就会给出零算子——这就是零算子，整个矩阵变成零。这仅仅是因为我们能由 T 的各次幂构造出一个线性关系，并且该线性关系给出了一个被 T 所满足的多项式。
+this is the zero operator, the whole matrix becomes zero. And that's just because we can construct, from powers of T, a linear relation, and that linear relation gives a polynomial satisfied by T.
+
+176
+00:44:51,096 --> 00:45:00,510
+所以必然存在某个次数不超过 n² 的多项式被 T 满足。好的，那么你可能会问：这是最优的次数吗？
+So there has to be some polynomial of degree less than or equal to n^2 satisfied by T. Okay, so you can ask: is this the best possible degree?
+
+177
+00:45:00,510 --> 00:45:12,600
+会不会存在某个更低次数的多项式被 T 所满足？这就是我最喜欢的定理，它叫作凯莱-哈密顿定理。
+Maybe there's a polynomial of some smaller degree satisfied by T? So that's my favorite theorem, that's called the Cayley-Hamilton theorem.
+
+178
+00:45:12,600 --> 00:45:32,186
+它说：凯莱是……哈密顿是有史以来最伟大的爱尔兰数学家！他生活在 19 世纪中叶，主要工作也是在 19 世纪中叶完成的。
+And it says: Cayley was... Hamilton was the greatest Irish mathematician ever to live! He lived in the middle, did most of his work in the middle of the 19th century.
+
+179
+00:45:32,186 --> 00:45:44,792
+他发现了一种名为“四元数”的新数系，你可以在都柏林的一座桥上看到他刻下的公式——他在发现它之后立刻将其刻在了石桥上。凯莱则是一位英国数学家，他拓展了哈密顿的工作，在 19 世纪末对线性代数做出了大量贡献。
+He discovered a new system of numbers called the quaternions, which you can find etched on a bridge in Dublin, which he etched on the bridge after he discovered it.
+
+180
+00:45:48,760 --> 00:46:13,840
+定理断言：T 恒满足其自身的特征多项式！  而那是一个 n 次多项式！酷吧？
+It says T always satisfies its own characteristic polynomial!   And that's a polynomial of degree n! Isn't that cool?
+
+181
+00:46:13,840 --> 00:46:41,030
+所以在 2×2 的情形下，它是说：如果你取这个矩阵并将其代入这个特征多项式，你会得到零矩阵！让我们来看看，看我们能否实际验证它。我们首先必须计算 A²。
+So that in this case it would say: if you took this matrix and you plugged it into this polynomial, you would get the zero matrix! Let's see it, let's see if we can actually do it. Well, we have to calculate A^2 first.
+
+182
+00:46:41,030 --> 00:47:03,865
+所以 A²——我把矩阵 [[a, b], [c, d]] 写在这里以便实际计算乘法——是 a² + bc，然后下一项是 ab + bd，对吧？然后是 ac + cd，最后是 bc + d²。
+So A^2—I'll put the matrix [[a, b], [c, d]] here so I can actually do the multiplication—is a^2 + bc, and then the next term is ab + bd, right? And then it's ac + cd, and then it's bc + d^2.
+
+183
+00:47:03,865 --> 00:47:08,943
+然后我们必须从中减去 (a + d) 乘以该矩阵。
+Then we have to subtract from that (a + d) times that matrix.
+
+184
+00:47:08,943 --> 00:47:36,475
+所以那项变成 a² + ad，然后是 ab + bd，然后是 (a +d)c = ac + cd，再接着是 ad + d²。然后我们必须加上行列式乘以单位矩阵：加上 [[ad - bc, 0], [0, ad - bc]]。
+So that becomes a^2 + ad, and then ab + bd, and then (a + d)c = ac + cd, and then ad + d^2. And then we have to add to it the determinant times the identity matrix: plus [[ad - bc, 0], [0, ad - bc]].
+
+185
+00:47:36,475 --> 00:47:43,314
+如果你把它们全部加起来，问题是：你是否会得到形如 [[0, 0], [0, 0]] 的矩阵？
+And if you add that all up, the question is: do you get the matrix that looks like [[0, 0], [0, 0]]?
+
+186
+00:47:43,314 --> 00:47:57,036
+那就意味着满足其自身的特征多项式。事实证明确实如此！这里我们有 a² - a²，bc - ad，然后我们加上ad - bc，因此该位置元素为 0。
+That would be satisfying its own characteristic polynomial. And indeed it works! Here we have a^2 - a^2, bc - ad, and then we add to that ad - bc, so that entry is 0.
+
+187
+00:47:57,036 --> 00:48:06,560
+这里我们有 ab + bd，减去 ab + bd，所以也变为 0。其余位置同理，因此这并不是凭空发生的奇迹。
+Here we have ab + bd, and we subtract ab + bd, so that goes to 0. Likewise for the others, so it's not a miracle.
+
+188
+00:48:06,560 --> 00:48:28,409
+好，现在为什么这是真的呢？那么，在某种特殊情况下的证明：当 f(t) 等于 (t - c₁)(t - c₂)······(t - cₙ)（所有 cᵢ 互不相同）：
+Okay, now why should this be true? Well, in the case... proof when f(t) is equal to (t - c_1)(t - c_2)... ...(t - c_n), all c_i distinct: so if the characteristic polynomial happens to factor
+
+189
+00:48:28,409 --> 00:48:37,863
+如果特征多项式恰好能完全分解且所有的根都互不相同，我来向大家证明算子必然满足其特征多项式。
+completely and all the roots are distinct, I'll prove to you that an operator satisfies its own characteristic polynomial.
+
+190
+00:48:37,863 --> 00:48:46,990
+因为那时我们可以选取一组基使得 A 看起来是对角矩阵 diag(c₁, ..., cₙ)；也就是说你能找到由特征向量构成的基。
+Because then we can choose a basis so that A looks like the diagonal matrix diag(c_1, ..., c_n); namely you can find a basis of eigenvectors.
+
+191
+00:48:46,990 --> 00:49:09,547
+现在考虑当你把这个矩阵代入特征多项式时会发生什么。那么 f(A) 就等价于计算矩阵乘积 (A - c₁ I)(A - c₂ I)···(A - cₙ I)。
+Now consider what happens when you put this matrix into this characteristic polynomial. Then f(A) is the same as calculating the matrix f(A), which looks like (A - c_1 I)(A - c_2 I)...(A - c_n I).
+
+192
+00:49:09,740 --> 00:49:18,192
+并且当你计算 (A - c₁ I) 时，你得到一个对角矩阵，其对角线上是：0, c₂ - c₁, ..., cₙ - c₁。
+And when you calculate (A - c_1 I), you get a matrix that looks like this: [0, c_2 - c_1, ..., c_n - c_1] on the diagonal.
+
+193
+00:49:18,192 --> 00:49:23,808
+而且这些全是对角矩阵！因此当你将它们相乘时，只需将对角线上的元素相乘即可。
+And these are all diagonal matrices! So when you multiply them, you just multiply the diagonal elements.
+
+194
+00:49:23,808 --> 00:49:33,300
+所以第一对角元必定是 0，而第二个矩阵在第二对角元上必定是 0，最后一个矩阵在第 n 对角元上必定是 0。
+So the top diagonal entry will always be 0, and this second matrix will have a diagonal entry of 0 in the second place, and this last matrix will have a diagonal entry of 0 in the n-th place.
+
+195
+00:49:33,300 --> 00:49:40,797
+因此当你将所有这些矩阵相乘时，对角线上的每个位置都会得到 0！那就是零矩阵！
+So as you multiply those matrices, you're going to get 0 everywhere on the diagonal! And that's the zero matrix!
+
+196
+00:49:40,797 --> 00:49:51,337
+所以，如果我们足够幸运，得到了一个特征值都在基域中且互不相同的特征多项式，我们就能证明凯莱-哈密顿定理。
+So if we were so lucky that we got a characteristic polynomial where the eigenvalues were all in the field and they were all distinct, we could prove the Cayley-Hamilton theorem.
+
+197
+00:49:51,337 --> 00:50:05,124
+而一般的证明在某种程度上可以化约为这种情形，尽管你并不总能对角化。这是线性代数中的一个大定理；它开启了该学科非常有趣的一部分。
+And the general proof is somehow a reduction to that case, even though you can't always get that case. It's a big theorem in linear algebra; it's the beginning of a really interesting part of the subject.
+
+198
+00:50:05,124 --> 00:50:08,751
+我们现在不深入讲了，但这会吸引你们选修后续的高阶课程！
+We won't cover it now, but that will induce you to take more courses in the subject!
+
+199
+00:50:08,751 --> 00:50:19,484
+所以在考试之后——这次考试只考特征多项式的定义以及它的根是特征值这一事实，好吗？不考这些深奥花哨的内容。
+So after the exam—the exam will only cover the definition of the characteristic polynomial and the fact that its roots are eigenvalues, okay? None of this fancy stuff.
+
+200
+00:50:19,484 --> 00:50:32,353
+然后在考试之后，我们将回到群论并讲授更深入的内容，特别是源自特殊类型线性变换的群——称为正交群。
+And then after the exam we're going to return and do some deeper material on the theory of groups, and in particular the groups that come from special types of linear transformations called orthogonal groups.
+
+201
+00:50:32,353 --> 00:50:36,576
+祝大家假期愉快！
+So have a nice vacation!

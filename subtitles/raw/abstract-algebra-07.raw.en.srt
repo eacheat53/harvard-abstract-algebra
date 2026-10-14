@@ -1,0 +1,3836 @@
+1
+00:00:11,710 --> 00:00:17,570
+okay let's get started so I've put up
+
+2
+00:00:16,130 --> 00:00:19,369
+the homework that's due on Wednesday
+
+3
+00:00:17,570 --> 00:00:21,740
+where we're going to finish up this
+
+4
+00:00:19,369 --> 00:00:23,119
+first chapter on group theory and then
+
+5
+00:00:21,740 --> 00:00:24,860
+we're going to take a little time away
+
+6
+00:00:23,119 --> 00:00:27,650
+from group theory and enter into the
+
+7
+00:00:24,860 --> 00:00:36,890
+theory of vector spaces over general
+
+8
+00:00:27,650 --> 00:00:39,080
+fields so you probably studied vector
+
+9
+00:00:36,890 --> 00:00:40,460
+spaces over the real and complex numbers
+
+10
+00:00:39,080 --> 00:00:43,070
+we're going to study them a little bit
+
+11
+00:00:40,460 --> 00:00:44,960
+more abstractly and do linear algebra
+
+12
+00:00:43,070 --> 00:00:47,360
+and it's full level of generality and
+
+13
+00:00:44,960 --> 00:00:49,729
+then we're going to return to do more on
+
+14
+00:00:47,360 --> 00:00:52,580
+groups so let me remember where Peter
+
+15
+00:00:49,729 --> 00:00:55,629
+left you last time we have this
+
+16
+00:00:52,580 --> 00:00:59,420
+wonderful group which is the integers
+
+17
+00:00:55,629 --> 00:01:04,839
+under addition that's our basic group
+
+18
+00:00:59,420 --> 00:01:04,839
+and we identified all the sub groups
+
+19
+00:01:07,330 --> 00:01:17,090
+have the form n times the integers where
+
+20
+00:01:15,350 --> 00:01:20,210
+n is some integer greater than or equal
+
+21
+00:01:17,090 --> 00:01:22,640
+to zero so the multiples of some fixed
+
+22
+00:01:20,210 --> 00:01:24,230
+integer that's what we showed way back
+
+23
+00:01:22,640 --> 00:01:26,000
+when we did it the structure of this
+
+24
+00:01:24,230 --> 00:01:29,390
+group remember we use the Euclidean
+
+25
+00:01:26,000 --> 00:01:38,600
+algorithm to prove that and last time
+
+26
+00:01:29,390 --> 00:01:41,690
+Peter associated to every subgroup so
+
+27
+00:01:38,600 --> 00:01:50,330
+this is our sub group H this is our
+
+28
+00:01:41,690 --> 00:01:56,659
+group G each H in G a new group which he
+
+29
+00:01:50,330 --> 00:01:58,610
+denoted Z mod n Z so that's notation
+
+30
+00:01:56,659 --> 00:02:06,680
+that's due to Gauss so this would be
+
+31
+00:01:58,610 --> 00:02:09,019
+called Z mod n this notation in this
+
+32
+00:02:06,680 --> 00:02:11,780
+group was defined on the first sentence
+
+33
+00:02:09,019 --> 00:02:15,769
+of Gauss's great book the disquisition
+
+34
+00:02:11,780 --> 00:02:19,340
+A's arithmetic I published in 1801 where
+
+35
+00:02:15,769 --> 00:02:22,870
+this is the notation mod n comes from
+
+36
+00:02:19,340 --> 00:02:22,870
+the Latin word modulus
+
+37
+00:02:23,819 --> 00:02:28,620
+the disquisition age is written in Latin
+
+38
+00:02:26,340 --> 00:02:30,030
+if I can get the first two pages from
+
+39
+00:02:28,620 --> 00:02:31,920
+you from Houghton library I'll print
+
+40
+00:02:30,030 --> 00:02:34,620
+them out and distribute there there are
+
+41
+00:02:31,920 --> 00:02:39,870
+precis of mathematical writing and this
+
+42
+00:02:34,620 --> 00:02:43,260
+new group Z mod n Z consists of the
+
+43
+00:02:39,870 --> 00:02:45,450
+classes of integers where you only keep
+
+44
+00:02:43,260 --> 00:02:50,640
+track of their remainder after division
+
+45
+00:02:45,450 --> 00:02:56,790
+by n so we we have elements a bar in Z
+
+46
+00:02:50,640 --> 00:03:06,480
+mod n Z and a bar depends on the
+
+47
+00:02:56,790 --> 00:03:13,709
+remainder of the integer a after
+
+48
+00:03:06,480 --> 00:03:19,290
+division by n so in particular if a and
+
+49
+00:03:13,709 --> 00:03:21,980
+B are integers we have a bar equal to B
+
+50
+00:03:19,290 --> 00:03:27,329
+bar or as Gauss would write it a
+
+51
+00:03:21,980 --> 00:03:29,400
+congruent to B mod n that's Gauss's
+
+52
+00:03:27,329 --> 00:03:33,000
+notation we'd say a bar is equal to B
+
+53
+00:03:29,400 --> 00:03:43,829
+bar in the group Z mod n Z if and only
+
+54
+00:03:33,000 --> 00:03:46,230
+if n divides a minus B and so in
+
+55
+00:03:43,829 --> 00:03:48,569
+particular this new group which only
+
+56
+00:03:46,230 --> 00:03:51,510
+depends on the remainder has only n
+
+57
+00:03:48,569 --> 00:03:54,180
+elements in it so this new group you
+
+58
+00:03:51,510 --> 00:03:59,040
+could say consists of the elements 0 bar
+
+59
+00:03:54,180 --> 00:04:00,209
+1 bar 2 bar up to n minus 1 bar because
+
+60
+00:03:59,040 --> 00:04:02,970
+those are the only things that are
+
+61
+00:04:00,209 --> 00:04:06,120
+possible remainders that's the group Z
+
+62
+00:04:02,970 --> 00:04:08,400
+mod n Z and the addition law is by
+
+63
+00:04:06,120 --> 00:04:11,669
+adding two things in the integers and
+
+64
+00:04:08,400 --> 00:04:17,489
+then calculating the remainder after
+
+65
+00:04:11,669 --> 00:04:23,340
+division by n so a bar plus B bar in Z
+
+66
+00:04:17,489 --> 00:04:26,639
+mod n Z is equal to a plus B bar namely
+
+67
+00:04:23,340 --> 00:04:29,010
+add them in the integers this is in Z
+
+68
+00:04:26,639 --> 00:04:31,409
+and then take the remainder after
+
+69
+00:04:29,010 --> 00:04:34,380
+reducing mod n and this gives the
+
+70
+00:04:31,409 --> 00:04:37,580
+structure of a group on this set of n
+
+71
+00:04:34,380 --> 00:04:47,150
+elements and in fact it's
+
+72
+00:04:37,580 --> 00:04:50,539
+cyclic group of order n generated by the
+
+73
+00:04:47,150 --> 00:04:52,400
+class one bar because if you take one
+
+74
+00:04:50,539 --> 00:04:54,020
+bar and you add it to itself you get two
+
+75
+00:04:52,400 --> 00:04:55,729
+bar and then if you add one bar you get
+
+76
+00:04:54,020 --> 00:04:57,530
+three bar and yet another one you get
+
+77
+00:04:55,729 --> 00:04:59,569
+four bar and you get up to n minus one
+
+78
+00:04:57,530 --> 00:05:01,969
+bar and then you add one to that you get
+
+79
+00:04:59,569 --> 00:05:04,189
+back to the identity element so this
+
+80
+00:05:01,969 --> 00:05:06,020
+gives another description of a cyclic
+
+81
+00:05:04,189 --> 00:05:08,689
+group of order n remember we claimed
+
+82
+00:05:06,020 --> 00:05:10,759
+that there was one for each value n this
+
+83
+00:05:08,689 --> 00:05:12,979
+is the notation I'll use for a cyclic
+
+84
+00:05:10,759 --> 00:05:15,199
+group of order n it has the advantage
+
+85
+00:05:12,979 --> 00:05:18,680
+that it not only is a cyclic group but
+
+86
+00:05:15,199 --> 00:05:20,900
+it has a natural generator one bar just
+
+87
+00:05:18,680 --> 00:05:25,039
+like the integers are a cyclic group
+
+88
+00:05:20,900 --> 00:05:26,990
+with a natural generator one this is an
+
+89
+00:05:25,039 --> 00:05:30,500
+infinite cyclic group this is a finite
+
+90
+00:05:26,990 --> 00:05:33,620
+cyclic group of every order n moreover
+
+91
+00:05:30,500 --> 00:05:39,199
+we have a natural group homomorphism F
+
+92
+00:05:33,620 --> 00:05:43,460
+from Z to Z mod n Z which takes the
+
+93
+00:05:39,199 --> 00:05:49,039
+class of a to the class of a bar ie
+
+94
+00:05:43,460 --> 00:05:51,620
+a mod n the remainder of a after
+
+95
+00:05:49,039 --> 00:05:59,180
+division by n and this is a group
+
+96
+00:05:51,620 --> 00:06:02,479
+homomorphism homomorphism which is on to
+
+97
+00:05:59,180 --> 00:06:05,210
+which is surjective because every class
+
+98
+00:06:02,479 --> 00:06:11,990
+in this group is the remainder of
+
+99
+00:06:05,210 --> 00:06:14,240
+something surjective with kernel and z
+
+100
+00:06:11,990 --> 00:06:17,539
+namely the things that go to zero bar
+
+101
+00:06:14,240 --> 00:06:21,409
+are exactly the things divisible by n so
+
+102
+00:06:17,539 --> 00:06:23,150
+there's our subgroup so to recapitulate
+
+103
+00:06:21,409 --> 00:06:25,069
+what Peter did last time and this is a
+
+104
+00:06:23,150 --> 00:06:26,750
+great construction of Gauss's which is
+
+105
+00:06:25,069 --> 00:06:32,060
+the first example of this in the
+
+106
+00:06:26,750 --> 00:06:33,770
+literature in 1801 before Galois had
+
+107
+00:06:32,060 --> 00:06:36,229
+invented the general notion of a group
+
+108
+00:06:33,770 --> 00:06:39,440
+associated to each subgroup of the
+
+109
+00:06:36,229 --> 00:06:41,810
+integers under addition we construct a
+
+110
+00:06:39,440 --> 00:06:44,990
+new group which is called the quotient
+
+111
+00:06:41,810 --> 00:06:48,490
+group we're going to do that more
+
+112
+00:06:44,990 --> 00:06:51,280
+generally this time the quotient group
+
+113
+00:06:48,490 --> 00:06:52,930
+such that there is a surjective
+
+114
+00:06:51,280 --> 00:06:57,120
+homomorphism from the group to the
+
+115
+00:06:52,930 --> 00:07:01,240
+quotient group with colonel the subgroup
+
+116
+00:06:57,120 --> 00:07:03,820
+okay now this is a much richer case than
+
+117
+00:07:01,240 --> 00:07:05,620
+the average group and the reason it's a
+
+118
+00:07:03,820 --> 00:07:07,810
+richer case and Peter went into this a
+
+119
+00:07:05,620 --> 00:07:10,810
+little bit last time n will return to it
+
+120
+00:07:07,810 --> 00:07:14,740
+is that the integers have a much richer
+
+121
+00:07:10,810 --> 00:07:16,750
+structure than just addition right the
+
+122
+00:07:14,740 --> 00:07:19,180
+integers also can have the product
+
+123
+00:07:16,750 --> 00:07:20,889
+structure multiplication mainly the
+
+124
+00:07:19,180 --> 00:07:24,400
+integers not only form a group under
+
+125
+00:07:20,889 --> 00:07:33,610
+addition they form a ring so this also
+
+126
+00:07:24,400 --> 00:07:35,380
+also have the operation times and when
+
+127
+00:07:33,610 --> 00:07:36,970
+you have both in a group addition and a
+
+128
+00:07:35,380 --> 00:07:39,400
+multiplication structure and they're
+
+129
+00:07:36,970 --> 00:07:42,580
+suitably compatible that's what we call
+
+130
+00:07:39,400 --> 00:07:46,090
+a ring and we're going to get to that I
+
+131
+00:07:42,580 --> 00:07:49,330
+promise you this term and in fact this
+
+132
+00:07:46,090 --> 00:07:53,650
+quotient group also has the structure of
+
+133
+00:07:49,330 --> 00:07:55,870
+a ring you can multiply remainders and
+
+134
+00:07:53,650 --> 00:07:59,919
+it's still compatible namely you can
+
+135
+00:07:55,870 --> 00:08:02,979
+define a bar times B bar by taking a
+
+136
+00:07:59,919 --> 00:08:04,750
+times B in the integers and then taking
+
+137
+00:08:02,979 --> 00:08:08,320
+its remainder and that's a well-defined
+
+138
+00:08:04,750 --> 00:08:11,500
+multiplication so this is not just a
+
+139
+00:08:08,320 --> 00:08:13,600
+finite cyclic group of order n but it
+
+140
+00:08:11,500 --> 00:08:16,090
+also allows you to multiply elements in
+
+141
+00:08:13,600 --> 00:08:18,280
+it that's a remarkable property and most
+
+142
+00:08:16,090 --> 00:08:24,180
+of the disquisition a's in fact one
+
+143
+00:08:18,280 --> 00:08:27,010
+might say all of the disquisition A's is
+
+144
+00:08:24,180 --> 00:08:29,470
+concerned with the properties of those
+
+145
+00:08:27,010 --> 00:08:33,280
+finite rings quadratic reciprocity
+
+146
+00:08:29,470 --> 00:08:35,169
+theorem quartic reciprocity all these
+
+147
+00:08:33,280 --> 00:08:37,659
+great results that Gauss discovered are
+
+148
+00:08:35,169 --> 00:08:40,659
+about the properties of this finite ring
+
+149
+00:08:37,659 --> 00:08:42,400
+and Peter discovered what introduced you
+
+150
+00:08:40,659 --> 00:08:45,040
+last time to another thing you see if
+
+151
+00:08:42,400 --> 00:08:47,410
+you have a ring and I'm just going to
+
+152
+00:08:45,040 --> 00:08:49,690
+say this very briefly it's not necessary
+
+153
+00:08:47,410 --> 00:08:52,720
+right now so you have a boat it's a
+
+154
+00:08:49,690 --> 00:08:54,850
+group under plus with an Origin and then
+
+155
+00:08:52,720 --> 00:09:00,150
+there's a times operation with an
+
+156
+00:08:54,850 --> 00:09:04,120
+identity element one but not not
+
+157
+00:09:00,150 --> 00:09:05,410
+necessarily inverses for example zero
+
+158
+00:09:04,120 --> 00:09:07,839
+has no inverse
+
+159
+00:09:05,410 --> 00:09:11,920
+you can't multiply anything by zero and
+
+160
+00:09:07,839 --> 00:09:14,320
+get to one nonetheless you get a subset
+
+161
+00:09:11,920 --> 00:09:16,260
+of the ring called R star which is
+
+162
+00:09:14,320 --> 00:09:20,709
+sometimes called the units of the Ring
+
+163
+00:09:16,260 --> 00:09:23,800
+which is the set of elements a in R such
+
+164
+00:09:20,709 --> 00:09:27,760
+that there exists a B such that a B is
+
+165
+00:09:23,800 --> 00:09:31,329
+equal to one so they're they're the
+
+166
+00:09:27,760 --> 00:09:37,600
+elements which have multiplicative
+
+167
+00:09:31,329 --> 00:09:42,010
+inverses everything has an additive
+
+168
+00:09:37,600 --> 00:09:45,670
+inverse now that can be a rather small
+
+169
+00:09:42,010 --> 00:09:47,980
+and this is another group so ring has is
+
+170
+00:09:45,670 --> 00:09:49,480
+a group under addition and you get a
+
+171
+00:09:47,980 --> 00:09:51,579
+second group from a ring which is the
+
+172
+00:09:49,480 --> 00:09:55,720
+unit group which is a group under
+
+173
+00:09:51,579 --> 00:09:59,440
+multiplication and it can be a rather
+
+174
+00:09:55,720 --> 00:10:02,019
+small group for example this is the most
+
+175
+00:09:59,440 --> 00:10:04,779
+famous ring of them all the integers all
+
+176
+00:10:02,019 --> 00:10:07,089
+rings are modeled on the integers if you
+
+177
+00:10:04,779 --> 00:10:10,029
+ask yourself what is the multiplicative
+
+178
+00:10:07,089 --> 00:10:12,070
+group associated to the integers namely
+
+179
+00:10:10,029 --> 00:10:14,800
+which integers have multiplicative
+
+180
+00:10:12,070 --> 00:10:18,250
+inverses the answer is very simple just
+
+181
+00:10:14,800 --> 00:10:20,560
+plus 1 and minus 1 there is no
+
+182
+00:10:18,250 --> 00:10:24,070
+multiplicative inverse for two because
+
+183
+00:10:20,560 --> 00:10:26,770
+one half is not an integer so for this
+
+184
+00:10:24,070 --> 00:10:29,110
+ring we would find that the
+
+185
+00:10:26,770 --> 00:10:32,589
+multiplicative group here is just the
+
+186
+00:10:29,110 --> 00:10:34,630
+group on two elements plus or minus one
+
+187
+00:10:32,589 --> 00:10:37,149
+it's a kind of a stupid group but there
+
+188
+00:10:34,630 --> 00:10:39,579
+it is on the other hand as Peter pointed
+
+189
+00:10:37,149 --> 00:10:41,920
+out these finite rings have very
+
+190
+00:10:39,579 --> 00:10:44,649
+interesting multiplicative groups very
+
+191
+00:10:41,920 --> 00:10:46,779
+interesting and we're going to get into
+
+192
+00:10:44,649 --> 00:10:49,089
+that later when we do the ring theory
+
+193
+00:10:46,779 --> 00:10:51,459
+and Gauss was the first person to work
+
+194
+00:10:49,089 --> 00:10:54,520
+out the structure of the multiplicative
+
+195
+00:10:51,459 --> 00:10:56,230
+group of units in those rings but right
+
+196
+00:10:54,520 --> 00:10:57,850
+now for this point of view of this
+
+197
+00:10:56,230 --> 00:11:00,130
+lecture it's only important that we
+
+198
+00:10:57,850 --> 00:11:01,899
+inherit the additive group structure and
+
+199
+00:11:00,130 --> 00:11:05,800
+that we have this additive group
+
+200
+00:11:01,899 --> 00:11:07,300
+homomorphism before I go any further are
+
+201
+00:11:05,800 --> 00:11:08,949
+there questions on this construction
+
+202
+00:11:07,300 --> 00:11:10,240
+because it's very basic it's the model
+
+203
+00:11:08,949 --> 00:11:15,190
+for what we're going to follow when we
+
+204
+00:11:10,240 --> 00:11:16,810
+do a quotient group in general okay so
+
+205
+00:11:15,190 --> 00:11:17,720
+let me be a little bit more general than
+
+206
+00:11:16,810 --> 00:11:20,540
+this
+
+207
+00:11:17,720 --> 00:11:22,250
+now this is a particularly simple group
+
+208
+00:11:20,540 --> 00:11:25,010
+as I said to you this is an abelian
+
+209
+00:11:22,250 --> 00:11:26,810
+group so we have to pay attention and
+
+210
+00:11:25,010 --> 00:11:29,540
+see what properties are we really using
+
+211
+00:11:26,810 --> 00:11:31,910
+of these subgroups when we construct
+
+212
+00:11:29,540 --> 00:11:33,950
+this quotient group can we do it for any
+
+213
+00:11:31,910 --> 00:11:37,490
+subgroup or is there some peculiar
+
+214
+00:11:33,950 --> 00:11:39,310
+property of the subgroup that we need so
+
+215
+00:11:37,490 --> 00:11:42,170
+let me start off in a simple situation
+
+216
+00:11:39,310 --> 00:11:48,530
+where the subgroup is defined by a group
+
+217
+00:11:42,170 --> 00:11:51,320
+homomorphism by the way these classes in
+
+218
+00:11:48,530 --> 00:12:01,250
+Z mod NZ are just the co sets of this
+
+219
+00:11:51,320 --> 00:12:04,670
+subgroup represent the co sets of NZ the
+
+220
+00:12:01,250 --> 00:12:07,550
+distinct Co sets so the quotient group
+
+221
+00:12:04,670 --> 00:12:09,650
+is a set is the set of Co sets of the
+
+222
+00:12:07,550 --> 00:12:12,080
+subgroup and yet we're able to give a
+
+223
+00:12:09,650 --> 00:12:18,140
+multiplication on it so that's going to
+
+224
+00:12:12,080 --> 00:12:33,040
+be our question when can we put a group
+
+225
+00:12:18,140 --> 00:12:33,040
+structure on the set of all Co sets H
+
+226
+00:12:33,700 --> 00:12:48,230
+for a subgroup H in G we always get a we
+
+227
+00:12:45,860 --> 00:12:50,510
+have a subgroup we get a set it's set of
+
+228
+00:12:48,230 --> 00:12:52,760
+Co sets and we've seen that that gives a
+
+229
+00:12:50,510 --> 00:12:57,470
+partition of the group here's our group
+
+230
+00:12:52,760 --> 00:12:59,150
+here's H here's a H here's B H so we get
+
+231
+00:12:57,470 --> 00:13:03,370
+a nice partition of the group into Co
+
+232
+00:12:59,150 --> 00:13:05,960
+sets so the set of Co sets is a nice set
+
+233
+00:13:03,370 --> 00:13:12,020
+when can we get a group structure on it
+
+234
+00:13:05,960 --> 00:13:16,130
+so one case case one suppose H is equal
+
+235
+00:13:12,020 --> 00:13:18,890
+to the kernel of a homomorphism F from
+
+236
+00:13:16,130 --> 00:13:24,040
+GE to G prime that's one way we get
+
+237
+00:13:18,890 --> 00:13:24,040
+subgroups then
+
+238
+00:13:24,160 --> 00:13:36,650
+the set of cosets aah is in by jek ssin
+
+239
+00:13:33,190 --> 00:13:39,680
+with what what do we how do we get a co
+
+240
+00:13:36,650 --> 00:13:42,050
+set out of a homomorphism remember that
+
+241
+00:13:39,680 --> 00:13:48,050
+H was the kernel of it what are the
+
+242
+00:13:42,050 --> 00:13:50,990
+other co sets the yeah the fibers
+
+243
+00:13:48,050 --> 00:13:54,530
+exactly right namely we had a map here
+
+244
+00:13:50,990 --> 00:13:57,830
+from G to G Prime it needn't be a
+
+245
+00:13:54,530 --> 00:14:02,660
+surjective map but above each point in G
+
+246
+00:13:57,830 --> 00:14:06,230
+Prime a bar we have the fiber which is
+
+247
+00:14:02,660 --> 00:14:09,770
+an entire co set of the kernel and we
+
+248
+00:14:06,230 --> 00:14:13,010
+have another point here B bar you got
+
+249
+00:14:09,770 --> 00:14:16,370
+its fiber all the things mapping to B
+
+250
+00:14:13,010 --> 00:14:21,740
+bar right so the set of Co sets are the
+
+251
+00:14:16,370 --> 00:14:24,620
+fibers of the map so therefore can they
+
+252
+00:14:21,740 --> 00:14:31,730
+can be identified by ejected Li with the
+
+253
+00:14:24,620 --> 00:14:33,910
+points a bar in the image which is
+
+254
+00:14:31,730 --> 00:14:36,980
+contained in G Prime
+
+255
+00:14:33,910 --> 00:14:38,990
+correct each coset corresponds by
+
+256
+00:14:36,980 --> 00:14:43,760
+ejected Li to a point in the image which
+
+257
+00:14:38,990 --> 00:14:49,300
+is some little thing in here image of F
+
+258
+00:14:43,760 --> 00:14:54,800
+and the image of a homomorphism is what
+
+259
+00:14:49,300 --> 00:15:03,470
+among other things it's a subgroup but
+
+260
+00:14:54,800 --> 00:15:05,570
+but the image of F is a subgroup it's
+
+261
+00:15:03,470 --> 00:15:11,180
+stable under multiplication in G prime
+
+262
+00:15:05,570 --> 00:15:13,850
+of G Prime therefore since the set of Co
+
+263
+00:15:11,180 --> 00:15:16,010
+sets is in by jek ssin with a set of the
+
+264
+00:15:13,850 --> 00:15:18,800
+image and we have a group structure on
+
+265
+00:15:16,010 --> 00:15:20,810
+the set on the image set that gives us a
+
+266
+00:15:18,800 --> 00:15:25,490
+group structure on the set of Co sets
+
+267
+00:15:20,810 --> 00:15:27,440
+right good so we transfer sometimes
+
+268
+00:15:25,490 --> 00:15:30,500
+mathematicians they wanted to be
+
+269
+00:15:27,440 --> 00:15:34,520
+sophisticated would say we we transport
+
+270
+00:15:30,500 --> 00:15:36,960
+the structure of the image onto the set
+
+271
+00:15:34,520 --> 00:15:38,340
+of Co sets or if you want it to be even
+
+272
+00:15:36,960 --> 00:15:40,710
+are sophisticated you say it in French
+
+273
+00:15:38,340 --> 00:15:43,470
+because that's a favorite expression of
+
+274
+00:15:40,710 --> 00:15:44,760
+Bourbaki that wrote up a lot of 20th
+
+275
+00:15:43,470 --> 00:15:48,780
+century mathematics you'd say part
+
+276
+00:15:44,760 --> 00:15:51,240
+transport this structure or honoring a
+
+277
+00:15:48,780 --> 00:15:53,370
+structure of the group su Li la sombra
+
+278
+00:15:51,240 --> 00:15:55,890
+de Cosette okay Cosette is what in
+
+279
+00:15:53,370 --> 00:15:56,280
+French Cosette did I do that right not
+
+280
+00:15:55,890 --> 00:15:59,370
+bad
+
+281
+00:15:56,280 --> 00:16:00,870
+you must learn French if you aspire to
+
+282
+00:15:59,370 --> 00:16:02,070
+be a mathematician you want to say
+
+283
+00:16:00,870 --> 00:16:04,950
+things precisely
+
+284
+00:16:02,070 --> 00:16:06,450
+they must be said in French English is
+
+285
+00:16:04,950 --> 00:16:09,090
+of course the worldwide language of
+
+286
+00:16:06,450 --> 00:16:11,790
+mathematics and science nowadays and has
+
+287
+00:16:09,090 --> 00:16:14,430
+become even more so in the last in the
+
+288
+00:16:11,790 --> 00:16:15,720
+last 25 years but there's certain types
+
+289
+00:16:14,430 --> 00:16:18,000
+of mathematics you can only say in
+
+290
+00:16:15,720 --> 00:16:33,690
+threads so we say Paris folder structure
+
+291
+00:16:18,000 --> 00:16:39,630
+oh we get a group structure on the set
+
+292
+00:16:33,690 --> 00:16:42,930
+and we'll call that set G mod H of Co
+
+293
+00:16:39,630 --> 00:16:45,090
+sets and the group structure has the
+
+294
+00:16:42,930 --> 00:16:50,490
+following form when you multiply the co
+
+295
+00:16:45,090 --> 00:16:53,670
+set a H by the co set B H then I claim
+
+296
+00:16:50,490 --> 00:16:56,250
+that the answer is which Cosette is the
+
+297
+00:16:53,670 --> 00:17:06,420
+product it's just the co set of a B
+
+298
+00:16:56,250 --> 00:17:08,520
+times H why because if I want to figure
+
+299
+00:17:06,420 --> 00:17:11,100
+out how to multiply this co set by this
+
+300
+00:17:08,520 --> 00:17:14,280
+Co set I have to figure out how to
+
+301
+00:17:11,100 --> 00:17:15,750
+multiply a bar by B bar right that's the
+
+302
+00:17:14,280 --> 00:17:18,750
+multiplication law I'm going to use the
+
+303
+00:17:15,750 --> 00:17:24,390
+multiplication law and G Prime so what
+
+304
+00:17:18,750 --> 00:17:25,980
+is a bar times B bar well it's the bar
+
+305
+00:17:24,390 --> 00:17:28,950
+of something because it's in the image
+
+306
+00:17:25,980 --> 00:17:31,790
+what is it the bar of well we figure
+
+307
+00:17:28,950 --> 00:17:35,790
+this out by writing a bar as f of a and
+
+308
+00:17:31,790 --> 00:17:42,060
+writing B bars F of B and then using the
+
+309
+00:17:35,790 --> 00:17:43,980
+fact that F is a homomorphism and then
+
+310
+00:17:42,060 --> 00:17:48,870
+this number is just what we would call a
+
+311
+00:17:43,980 --> 00:17:50,780
+b bar so the product of the image
+
+312
+00:17:48,870 --> 00:17:53,600
+element a bar by the image element
+
+313
+00:17:50,780 --> 00:17:56,990
+B bar is the bar of a B where this
+
+314
+00:17:53,600 --> 00:17:58,340
+multiplication takes place in G so
+
+315
+00:17:56,990 --> 00:18:00,740
+that's what I mean so when you want to
+
+316
+00:17:58,340 --> 00:18:02,450
+multiply two Co sets you just take an
+
+317
+00:18:00,740 --> 00:18:04,130
+element a in one of them you take an
+
+318
+00:18:02,450 --> 00:18:05,540
+element and B in the other you take the
+
+319
+00:18:04,130 --> 00:18:15,890
+product of those elements and you take
+
+320
+00:18:05,540 --> 00:18:21,980
+its coset and moreover this makes the
+
+321
+00:18:15,890 --> 00:18:28,490
+map F new map let's call it a capital F
+
+322
+00:18:21,980 --> 00:18:38,440
+from G to G mod H taking a to the coset
+
+323
+00:18:28,490 --> 00:18:46,250
+a H a group homomorphism a surjective
+
+324
+00:18:38,440 --> 00:18:47,870
+group homomorphism because this is the
+
+325
+00:18:46,250 --> 00:18:49,340
+multiplication law it's just it's coming
+
+326
+00:18:47,870 --> 00:18:51,290
+it's inherited from the multiplication
+
+327
+00:18:49,340 --> 00:18:54,880
+law in G so if we have a group
+
+328
+00:18:51,290 --> 00:18:57,590
+homomorphism and we let H be the kernel
+
+329
+00:18:54,880 --> 00:18:59,900
+then by using the multiplication on the
+
+330
+00:18:57,590 --> 00:19:02,420
+image we can make the set of Co sets
+
+331
+00:18:59,900 --> 00:19:07,210
+which is denoted like this into a group
+
+332
+00:19:02,420 --> 00:19:10,880
+which is called the quotient group and
+
+333
+00:19:07,210 --> 00:19:14,930
+the multiplication law looks like this
+
+334
+00:19:10,880 --> 00:19:17,810
+and if you think about what we did for Z
+
+335
+00:19:14,930 --> 00:19:20,540
+mod NZ that's very it's it's a similar
+
+336
+00:19:17,810 --> 00:19:24,050
+multiplication law yeah good when you
+
+337
+00:19:20,540 --> 00:19:27,120
+were saying that the map little F
+
+338
+00:19:24,050 --> 00:19:30,940
+creates a
+
+339
+00:19:27,120 --> 00:19:34,090
+no no no no there's always a group on
+
+340
+00:19:30,940 --> 00:19:35,800
+big G and there's a group on little on G
+
+341
+00:19:34,090 --> 00:19:38,559
+Prime and there's a homomorphism between
+
+342
+00:19:35,800 --> 00:19:40,390
+them now there's a group structure on
+
+343
+00:19:38,559 --> 00:19:44,950
+the image because that we agreed was a
+
+344
+00:19:40,390 --> 00:19:47,470
+subgroup of G Prime okay now the co sets
+
+345
+00:19:44,950 --> 00:19:49,870
+are identified by ejected ly one to one
+
+346
+00:19:47,470 --> 00:19:52,210
+with the points in the image therefore
+
+347
+00:19:49,870 --> 00:19:54,610
+it tells us how to multiply one co set
+
+348
+00:19:52,210 --> 00:19:56,559
+by another co set and get a third co set
+
+349
+00:19:54,610 --> 00:19:58,360
+that's different than multiplying
+
+350
+00:19:56,559 --> 00:20:01,450
+elements in G we're multiplying elements
+
+351
+00:19:58,360 --> 00:20:05,890
+of a different set and the
+
+352
+00:20:01,450 --> 00:20:08,160
+multiplication law is this by inheriting
+
+353
+00:20:05,890 --> 00:20:12,610
+the structure of the group on the image
+
+354
+00:20:08,160 --> 00:20:16,809
+okay now this worked pretty well let's
+
+355
+00:20:12,610 --> 00:20:23,110
+forget that we had a homomorphism all
+
+356
+00:20:16,809 --> 00:20:32,440
+right so not try better better let H in
+
+357
+00:20:23,110 --> 00:20:37,350
+G be any subgroup okay
+
+358
+00:20:32,440 --> 00:20:44,770
+let the Co sets G mod H be the set of
+
+359
+00:20:37,350 --> 00:20:47,110
+all cosets aah that's a good set we
+
+360
+00:20:44,770 --> 00:20:50,020
+defined that for any subgroup now we
+
+361
+00:20:47,110 --> 00:20:56,770
+know what a co set is that gives a
+
+362
+00:20:50,020 --> 00:21:07,059
+partition of G okay define a group
+
+363
+00:20:56,770 --> 00:21:10,420
+structure on G mod H by setting the
+
+364
+00:21:07,059 --> 00:21:13,890
+product a times H times the co set B
+
+365
+00:21:10,420 --> 00:21:16,600
+times H to be the co set of a B times H
+
+366
+00:21:13,890 --> 00:21:19,110
+that's what we did here that's what
+
+367
+00:21:16,600 --> 00:21:22,420
+worked hold on hold on hold on hold on
+
+368
+00:21:19,110 --> 00:21:26,500
+so I'm now going to try maybe I should
+
+369
+00:21:22,420 --> 00:21:29,170
+say to try to define a group structure
+
+370
+00:21:26,500 --> 00:21:32,260
+on the set of Co sets by that law that's
+
+371
+00:21:29,170 --> 00:21:34,390
+what worked for us here if we multiply
+
+372
+00:21:32,260 --> 00:21:38,420
+two Co sets here we got a third co set
+
+373
+00:21:34,390 --> 00:21:43,400
+why don't we try it here okay
+
+374
+00:21:38,420 --> 00:21:45,020
+now I said try this fails it fails I'm
+
+375
+00:21:43,400 --> 00:21:46,310
+going to show you now it fails so you
+
+376
+00:21:45,020 --> 00:21:48,260
+shouldn't get too optimistic but you
+
+377
+00:21:46,310 --> 00:21:49,880
+should always try you never get anything
+
+378
+00:21:48,260 --> 00:21:51,260
+in math by just saying well everyone's
+
+379
+00:21:49,880 --> 00:21:53,300
+always done it that way I'll do it this
+
+380
+00:21:51,260 --> 00:21:56,650
+way right you have to try something else
+
+381
+00:21:53,300 --> 00:22:01,010
+so the reason it fails is the following
+
+382
+00:21:56,650 --> 00:22:02,480
+you have to ask before you get the group
+
+383
+00:22:01,010 --> 00:22:04,250
+structure and everything by the way you
+
+384
+00:22:02,480 --> 00:22:05,810
+have to check that this is associative
+
+385
+00:22:04,250 --> 00:22:07,310
+you have to figure out what the identity
+
+386
+00:22:05,810 --> 00:22:10,310
+element by the way what's the identity
+
+387
+00:22:07,310 --> 00:22:13,370
+element in the quotient group the
+
+388
+00:22:10,310 --> 00:22:15,290
+identity element identity element has to
+
+389
+00:22:13,370 --> 00:22:19,670
+be the image of the identity under this
+
+390
+00:22:15,290 --> 00:22:23,030
+homomorphism is equal to e bar which is
+
+391
+00:22:19,670 --> 00:22:25,310
+the co set of e which is just the co set
+
+392
+00:22:23,030 --> 00:22:27,020
+H that's the only distinguished Co set
+
+393
+00:22:25,310 --> 00:22:30,860
+you have so this becomes the identity
+
+394
+00:22:27,020 --> 00:22:32,390
+element in the quotient group how about
+
+395
+00:22:30,860 --> 00:22:34,190
+the inverse element now that we know the
+
+396
+00:22:32,390 --> 00:22:38,690
+ID d inverse what's the inverse of the
+
+397
+00:22:34,190 --> 00:22:42,590
+co set a H what could it be the co set
+
+398
+00:22:38,690 --> 00:22:45,470
+of a inverse C because a times a inverse
+
+399
+00:22:42,590 --> 00:22:50,990
+is the identity element so if I took
+
+400
+00:22:45,470 --> 00:22:53,660
+inverse it would be a H inverse is a
+
+401
+00:22:50,990 --> 00:22:54,950
+inverse H but those are all details I
+
+402
+00:22:53,660 --> 00:22:56,690
+mean first you have to have a
+
+403
+00:22:54,950 --> 00:22:58,490
+multiplication law before you get the
+
+404
+00:22:56,690 --> 00:23:02,060
+identity in the inverse and associative
+
+405
+00:22:58,490 --> 00:23:04,190
+and this and that the other thing so why
+
+406
+00:23:02,060 --> 00:23:07,010
+what would be the problem with this as a
+
+407
+00:23:04,190 --> 00:23:09,290
+multiplication law what is the problem
+
+408
+00:23:07,010 --> 00:23:10,940
+with this as a multiplication law it
+
+409
+00:23:09,290 --> 00:23:12,740
+looks pretty good I tell you how to
+
+410
+00:23:10,940 --> 00:23:23,000
+multiply this co set by this Co set I
+
+411
+00:23:12,740 --> 00:23:25,010
+tell you it's that co set yeah exactly
+
+412
+00:23:23,000 --> 00:23:33,560
+namely the question is is this
+
+413
+00:23:25,010 --> 00:23:38,420
+well-defined because the co set is not
+
+414
+00:23:33,560 --> 00:23:42,380
+uniquely written as a h namely if a H is
+
+415
+00:23:38,420 --> 00:23:45,980
+equal to a prime H if a and a primer in
+
+416
+00:23:42,380 --> 00:23:50,140
+the same co set and B H is equal to B
+
+417
+00:23:45,980 --> 00:23:50,140
+prime H is
+
+418
+00:23:50,170 --> 00:23:58,940
+abh equal to a prime B prime H namely if
+
+419
+00:23:57,140 --> 00:24:00,830
+we're saying of this co set times this
+
+420
+00:23:58,940 --> 00:24:02,090
+co said is this co set we better make
+
+421
+00:24:00,830 --> 00:24:04,040
+sure that doesn't depend on what
+
+422
+00:24:02,090 --> 00:24:06,770
+representative we've chosen for the co
+
+423
+00:24:04,040 --> 00:24:09,110
+set and there's no unique way of writing
+
+424
+00:24:06,770 --> 00:24:11,300
+a non-trivial coset you just have to
+
+425
+00:24:09,110 --> 00:24:14,180
+pick something in it here we called it a
+
+426
+00:24:11,300 --> 00:24:15,590
+H because the element a was in it but we
+
+427
+00:24:14,180 --> 00:24:18,110
+could have had another element a prime
+
+428
+00:24:15,590 --> 00:24:19,700
+in it and written it is a prime H and if
+
+429
+00:24:18,110 --> 00:24:22,190
+we say that this multiplication law
+
+430
+00:24:19,700 --> 00:24:23,960
+depends only on the co set we better
+
+431
+00:24:22,190 --> 00:24:26,300
+make sure that no matter what
+
+432
+00:24:23,960 --> 00:24:27,920
+representative we choose it works now
+
+433
+00:24:26,300 --> 00:24:30,410
+this case it has to work because it's
+
+434
+00:24:27,920 --> 00:24:31,640
+the law on the image all right but I'm
+
+435
+00:24:30,410 --> 00:24:39,830
+going to show you that it doesn't always
+
+436
+00:24:31,640 --> 00:24:47,270
+work so the answer to this first
+
+437
+00:24:39,830 --> 00:24:50,300
+question is one okay if H is equal to
+
+438
+00:24:47,270 --> 00:25:01,900
+the kernel of a homomorphism from G to G
+
+439
+00:24:50,300 --> 00:25:01,900
+prime AR one - not in general suppose
+
+440
+00:25:04,150 --> 00:25:19,310
+eh-eh-eh inverse is not equal to H ie
+
+441
+00:25:11,300 --> 00:25:25,790
+a H is not equal to H a okay for some
+
+442
+00:25:19,310 --> 00:25:28,250
+element in the group a for some a the
+
+443
+00:25:25,790 --> 00:25:31,760
+conjugate of H is not equal to itself as
+
+444
+00:25:28,250 --> 00:25:34,310
+a set then I'm going to show you that
+
+445
+00:25:31,760 --> 00:25:37,520
+this definition encounters some serious
+
+446
+00:25:34,310 --> 00:25:44,120
+problems some serious problems because
+
+447
+00:25:37,520 --> 00:25:50,090
+let's multiply the co set a H by the co
+
+448
+00:25:44,120 --> 00:25:54,500
+set a inverse H under this definition it
+
+449
+00:25:50,090 --> 00:25:56,600
+would get me what Co set it would get me
+
+450
+00:25:54,500 --> 00:26:00,540
+the co set H because a times a inverse
+
+451
+00:25:56,600 --> 00:26:07,940
+is e so this would be e
+
+452
+00:26:00,540 --> 00:26:10,610
+H is equal to H under this definition
+
+453
+00:26:07,940 --> 00:26:14,280
+now if you think about this requirement
+
+454
+00:26:10,610 --> 00:26:16,860
+this says since this would be true for
+
+455
+00:26:14,280 --> 00:26:19,230
+any a prime and aah and this would be
+
+456
+00:26:16,860 --> 00:26:21,720
+true for any B Prime and B H it says
+
+457
+00:26:19,230 --> 00:26:24,390
+that this definition will only work if
+
+458
+00:26:21,720 --> 00:26:26,940
+the product of anything in here times
+
+459
+00:26:24,390 --> 00:26:31,140
+the product of anything in here is in
+
+460
+00:26:26,940 --> 00:26:34,080
+this co set right because I could think
+
+461
+00:26:31,140 --> 00:26:36,810
+anything here is my a prime and anything
+
+462
+00:26:34,080 --> 00:26:39,000
+here is my B Prime and then I may better
+
+463
+00:26:36,810 --> 00:26:40,440
+make sure that a prime B prime is in
+
+464
+00:26:39,000 --> 00:26:45,660
+this co set in other words that this
+
+465
+00:26:40,440 --> 00:26:46,590
+code set is equal to that coset so if I
+
+466
+00:26:45,660 --> 00:26:49,080
+were going to use this as my
+
+467
+00:26:46,590 --> 00:26:51,840
+multiplication law I would have to say
+
+468
+00:26:49,080 --> 00:26:57,030
+that anything in here times anything in
+
+469
+00:26:51,840 --> 00:26:58,050
+here was in H right now I'm going to
+
+470
+00:26:57,030 --> 00:27:00,780
+show you that's false
+
+471
+00:26:58,050 --> 00:27:01,610
+that's false so that definition is out
+
+472
+00:27:00,780 --> 00:27:04,290
+the window
+
+473
+00:27:01,610 --> 00:27:06,420
+can someone give me a product of
+
+474
+00:27:04,290 --> 00:27:13,140
+something in here times something in
+
+475
+00:27:06,420 --> 00:27:15,930
+here which is not in H yeah Emily okay
+
+476
+00:27:13,140 --> 00:27:21,330
+so this says here that there exists an
+
+477
+00:27:15,930 --> 00:27:25,770
+element H and H such that a H a inverse
+
+478
+00:27:21,330 --> 00:27:27,870
+is not in H right that's this statement
+
+479
+00:27:25,770 --> 00:27:29,580
+here there exist one element in here
+
+480
+00:27:27,870 --> 00:27:34,050
+such that when I conjugate it I get out
+
+481
+00:27:29,580 --> 00:27:38,820
+of H ok so I take as a suggestion the
+
+482
+00:27:34,050 --> 00:27:42,540
+element a H in here right and I take the
+
+483
+00:27:38,820 --> 00:27:45,870
+element in here a inverse times e which
+
+484
+00:27:42,540 --> 00:27:48,780
+is certainly good and I take their
+
+485
+00:27:45,870 --> 00:27:51,470
+product and I get a H a inverse which is
+
+486
+00:27:48,780 --> 00:27:51,470
+not an H
+
+487
+00:27:55,120 --> 00:28:02,900
+by my hypothesis so if I have a subgroup
+
+488
+00:28:00,740 --> 00:28:05,990
+which has the property that some
+
+489
+00:28:02,900 --> 00:28:08,090
+conjugate leaves the subgroup I can
+
+490
+00:28:05,990 --> 00:28:10,160
+forget about this definition because
+
+491
+00:28:08,090 --> 00:28:11,930
+it's not well defined before I even
+
+492
+00:28:10,160 --> 00:28:13,070
+checked any product properties of it
+
+493
+00:28:11,930 --> 00:28:15,470
+it's not even a well-defined
+
+494
+00:28:13,070 --> 00:28:17,600
+multiplication it's not true that the
+
+495
+00:28:15,470 --> 00:28:19,250
+product of anything in this co set times
+
+496
+00:28:17,600 --> 00:28:24,710
+the product of anything in this co set
+
+497
+00:28:19,250 --> 00:28:27,380
+is in here okay now how come if we're so
+
+498
+00:28:24,710 --> 00:28:30,170
+if we're now we have to sort of sort how
+
+499
+00:28:27,380 --> 00:28:33,140
+come it worked in one but not in general
+
+500
+00:28:30,170 --> 00:28:38,030
+what was so special about the H that
+
+501
+00:28:33,140 --> 00:28:41,680
+we're in one yeah it's a billion not
+
+502
+00:28:38,030 --> 00:28:45,770
+quite but close it's a normal subgroup
+
+503
+00:28:41,680 --> 00:28:50,630
+namely the kernel of a homomorphism has
+
+504
+00:28:45,770 --> 00:28:55,610
+the property that a h a inverse is equal
+
+505
+00:28:50,630 --> 00:28:58,750
+to h for all a in g that's what we call
+
+506
+00:28:55,610 --> 00:29:05,510
+a normal scale Watts terminology
+
+507
+00:28:58,750 --> 00:29:08,570
+subgroup because if you apply the
+
+508
+00:29:05,510 --> 00:29:11,420
+homomorphism to anything of the form a h
+
+509
+00:29:08,570 --> 00:29:14,390
+a inverse using the fact that f of h is
+
+510
+00:29:11,420 --> 00:29:16,910
+the identity you get F of a times F of
+
+511
+00:29:14,390 --> 00:29:18,590
+the identity times F of a inverse and F
+
+512
+00:29:16,910 --> 00:29:20,270
+of a inverse is the same as F of a
+
+513
+00:29:18,590 --> 00:29:21,980
+inverse so the product of those things
+
+514
+00:29:20,270 --> 00:29:24,170
+is the identity and you're still in h
+
+515
+00:29:21,980 --> 00:29:26,510
+you're still in the kernel the kernel is
+
+516
+00:29:24,170 --> 00:29:29,240
+not an arbitrary subgroup it's a normal
+
+517
+00:29:26,510 --> 00:29:31,880
+subgroup and so since it worked in this
+
+518
+00:29:29,240 --> 00:29:34,970
+case we might see and it doesn't work in
+
+519
+00:29:31,880 --> 00:29:38,560
+general if this happens we might see if
+
+520
+00:29:34,970 --> 00:29:38,560
+normality is what we need
+
+521
+00:29:44,880 --> 00:30:06,010
+three assume that H is normal in G so a
+
+522
+00:29:58,590 --> 00:30:08,740
+H a inverse is equal to H for all a in G
+
+523
+00:30:06,010 --> 00:30:15,820
+in other words we could write this is a
+
+524
+00:30:08,740 --> 00:30:17,560
+H is equal to H a as sets okay does it
+
+525
+00:30:15,820 --> 00:30:19,510
+mean that a commutes with everything in
+
+526
+00:30:17,560 --> 00:30:23,860
+H it means that if you have an element
+
+527
+00:30:19,510 --> 00:30:29,980
+in H that a H can be written as sum H
+
+528
+00:30:23,860 --> 00:30:32,260
+prime a or H Prime and H okay it just
+
+529
+00:30:29,980 --> 00:30:36,700
+preserves it as a set doesn't commute
+
+530
+00:30:32,260 --> 00:30:47,790
+with everything in H okay now in this
+
+531
+00:30:36,700 --> 00:30:51,550
+case the naive multiplication law on
+
+532
+00:30:47,790 --> 00:30:53,500
+cosets and by the naive multiplication
+
+533
+00:30:51,550 --> 00:30:56,410
+law and cosets oh I'm going to violate a
+
+534
+00:30:53,500 --> 00:30:58,800
+cinematic principle here I mean this
+
+535
+00:30:56,410 --> 00:31:00,070
+thing which is in a different quadrant
+
+536
+00:30:58,800 --> 00:31:03,730
+apologies
+
+537
+00:31:00,070 --> 00:31:08,560
+okay the naive multiplication law and
+
+538
+00:31:03,730 --> 00:31:17,190
+cosets actually works it is well defined
+
+539
+00:31:08,560 --> 00:31:17,190
+and defines a group structure
+
+540
+00:31:19,999 --> 00:31:26,279
+Angemon each on the set of cosets now
+
+541
+00:31:23,639 --> 00:31:28,349
+that wasn't obvious from - all we said
+
+542
+00:31:26,279 --> 00:31:29,429
+was if this didn't work then you didn't
+
+543
+00:31:28,349 --> 00:31:31,289
+get a group from the naive
+
+544
+00:31:29,429 --> 00:31:33,359
+multiplication law so we still have
+
+545
+00:31:31,289 --> 00:31:34,830
+something to check namely we just said
+
+546
+00:31:33,359 --> 00:31:36,690
+well this didn't work let's assume this
+
+547
+00:31:34,830 --> 00:31:41,369
+works now everything's ok we have to
+
+548
+00:31:36,690 --> 00:31:43,589
+check that correct so let's check it we
+
+549
+00:31:41,369 --> 00:31:45,389
+have to show that if you take all things
+
+550
+00:31:43,589 --> 00:31:47,789
+in this Co set and you multiply them by
+
+551
+00:31:45,389 --> 00:32:01,349
+all things in this co set you get a co
+
+552
+00:31:47,789 --> 00:32:07,169
+set namely this Cosette check well
+
+553
+00:32:01,349 --> 00:32:10,349
+suppose we multiply a H by BH in this
+
+554
+00:32:07,169 --> 00:32:12,509
+and you just this means by this I mean
+
+555
+00:32:10,349 --> 00:32:15,329
+take any element in here and multiply it
+
+556
+00:32:12,509 --> 00:32:18,899
+by any element in there as sets let's
+
+557
+00:32:15,329 --> 00:32:28,799
+just calculate the set by calculating
+
+558
+00:32:18,899 --> 00:32:34,709
+the set of all products so this means
+
+559
+00:32:28,799 --> 00:32:39,719
+everything of a form aah be H Prime in G
+
+560
+00:32:34,709 --> 00:32:44,820
+that's that set okay where H is anything
+
+561
+00:32:39,719 --> 00:32:46,559
+at H and H prime is anything at H that's
+
+562
+00:32:44,820 --> 00:32:48,119
+what I need to take all all things in
+
+563
+00:32:46,559 --> 00:32:50,669
+this set and take all products with
+
+564
+00:32:48,119 --> 00:32:53,339
+things in this set now how do we
+
+565
+00:32:50,669 --> 00:32:57,299
+calculate that well first of all we
+
+566
+00:32:53,339 --> 00:33:07,229
+rewrite this a H as H a because this set
+
+567
+00:32:57,299 --> 00:33:15,950
+is the same as this set right ok now I
+
+568
+00:33:07,229 --> 00:33:22,289
+claim that that's the same set as H a be
+
+569
+00:33:15,950 --> 00:33:26,070
+H by associativity okay I mean this is
+
+570
+00:33:22,289 --> 00:33:28,409
+the set of all things H a be H Prime so
+
+571
+00:33:26,070 --> 00:33:29,760
+associate a B it's a set of all things H
+
+572
+00:33:28,409 --> 00:33:35,820
+a be
+
+573
+00:33:29,760 --> 00:33:39,960
+each prime by associativity and now I
+
+574
+00:33:35,820 --> 00:33:45,990
+use the normality of H once again to
+
+575
+00:33:39,960 --> 00:33:50,580
+rewrite this as a B times H times H by
+
+576
+00:33:45,990 --> 00:33:53,220
+normality now this time with respect to
+
+577
+00:33:50,580 --> 00:33:57,420
+the element a B not respect to the
+
+578
+00:33:53,220 --> 00:34:00,420
+element a this is by normality because
+
+579
+00:33:57,420 --> 00:34:02,580
+for any element a and G this is the case
+
+580
+00:34:00,420 --> 00:34:04,860
+we didn't just assume it for the unique
+
+581
+00:34:02,580 --> 00:34:10,350
+element a to be a normal subgroup has to
+
+582
+00:34:04,860 --> 00:34:12,480
+be for any element and now we look at
+
+583
+00:34:10,350 --> 00:34:14,190
+this and say well my gosh if I take a
+
+584
+00:34:12,480 --> 00:34:17,010
+product of anything in H times anything
+
+585
+00:34:14,190 --> 00:34:18,690
+in H what do I get something at H
+
+586
+00:34:17,010 --> 00:34:24,000
+because H is a subgroup so this is the
+
+587
+00:34:18,690 --> 00:34:27,690
+same thing as a B times H as H is a
+
+588
+00:34:24,000 --> 00:34:29,010
+subgroup and that shows that as a set if
+
+589
+00:34:27,690 --> 00:34:30,990
+you take the product of anything in this
+
+590
+00:34:29,010 --> 00:34:32,610
+co set times anything in this co set you
+
+591
+00:34:30,990 --> 00:34:34,320
+get the elements of this co set and
+
+592
+00:34:32,610 --> 00:34:38,460
+that's what we needed for this
+
+593
+00:34:34,320 --> 00:34:39,899
+multiplication to be well-defined ok so
+
+594
+00:34:38,460 --> 00:34:42,659
+this is something you must go through
+
+595
+00:34:39,899 --> 00:34:44,940
+carefully yourself I can do it at the
+
+596
+00:34:42,659 --> 00:34:47,850
+board 50 times but the difference is
+
+597
+00:34:44,940 --> 00:34:50,940
+taking products of sets and products of
+
+598
+00:34:47,850 --> 00:34:52,860
+elements this looks so good but that's
+
+599
+00:34:50,940 --> 00:34:55,500
+because I've got a preferential writing
+
+600
+00:34:52,860 --> 00:34:56,940
+for this co set don't ever be deceived
+
+601
+00:34:55,500 --> 00:35:01,590
+into thinking you have a good way of
+
+602
+00:34:56,940 --> 00:35:04,380
+writing down a co set you don't okay
+
+603
+00:35:01,590 --> 00:35:05,820
+the integers mod n are very bizarre in
+
+604
+00:35:04,380 --> 00:35:07,530
+that you have rather natural
+
+605
+00:35:05,820 --> 00:35:09,600
+representatives from the co sets the
+
+606
+00:35:07,530 --> 00:35:12,810
+numbers from 1 to N but you could have
+
+607
+00:35:09,600 --> 00:35:16,050
+also taken the numbers from 0 to minus n
+
+608
+00:35:12,810 --> 00:35:17,610
+what's so good about positive numbers or
+
+609
+00:35:16,050 --> 00:35:20,040
+you could have taken you could have gone
+
+610
+00:35:17,610 --> 00:35:21,630
+from minus n over 2 to plus n over 2
+
+611
+00:35:20,040 --> 00:35:24,270
+there are all kinds of ways you could
+
+612
+00:35:21,630 --> 00:35:25,980
+have represented the co sets and even
+
+613
+00:35:24,270 --> 00:35:28,650
+taking the numbers from 1 to m which
+
+614
+00:35:25,980 --> 00:35:30,150
+looks so great when you add two of them
+
+615
+00:35:28,650 --> 00:35:32,730
+you overflow and you have to go back
+
+616
+00:35:30,150 --> 00:35:35,130
+right so you don't have natural
+
+617
+00:35:32,730 --> 00:35:36,990
+representatives and that's why this kind
+
+618
+00:35:35,130 --> 00:35:39,120
+of beautiful-looking multiplication is
+
+619
+00:35:36,990 --> 00:35:40,670
+just Wong in general however the more
+
+620
+00:35:39,120 --> 00:35:43,190
+the miracle of normal
+
+621
+00:35:40,670 --> 00:35:45,650
+is that it actually works out to be okay
+
+622
+00:35:43,190 --> 00:35:51,710
+it defines a group structure on G mod H
+
+623
+00:35:45,650 --> 00:35:57,590
+with identity the co set eh and in
+
+624
+00:35:51,710 --> 00:36:01,190
+verses a H inverse is equal to the co
+
+625
+00:35:57,590 --> 00:36:05,120
+set a and verse 8 so that you have to
+
+626
+00:36:01,190 --> 00:36:07,640
+check so that's the answer in general
+
+627
+00:36:05,120 --> 00:36:10,250
+you can make a group structure on the
+
+628
+00:36:07,640 --> 00:36:18,470
+set of all Co sets for a subgroup if and
+
+629
+00:36:10,250 --> 00:36:21,740
+only if H is normal if and only if H is
+
+630
+00:36:18,470 --> 00:36:25,520
+a normal subgroup otherwise there's no
+
+631
+00:36:21,740 --> 00:36:27,080
+natural group structure there may be
+
+632
+00:36:25,520 --> 00:36:28,880
+ways you can put a group structure on
+
+633
+00:36:27,080 --> 00:36:32,270
+the set but not in some natural way that
+
+634
+00:36:28,880 --> 00:36:35,270
+reflects the addition law in G now let's
+
+635
+00:36:32,270 --> 00:36:37,100
+go a little further on this because we
+
+636
+00:36:35,270 --> 00:36:39,140
+have not only a group structure on the
+
+637
+00:36:37,100 --> 00:36:45,650
+set of Co sets we get a natural
+
+638
+00:36:39,140 --> 00:36:51,890
+homomorphism so if H is normal in G get
+
+639
+00:36:45,650 --> 00:37:01,090
+a group structure on G mod H the
+
+640
+00:36:51,890 --> 00:37:07,990
+quotient group and a surjective
+
+641
+00:37:01,090 --> 00:37:07,990
+homomorphism group homomorphism
+
+642
+00:37:11,310 --> 00:37:18,990
+f-from g2g mod h that takes the element
+
+643
+00:37:16,570 --> 00:37:22,120
+a into its Cosette
+
+644
+00:37:18,990 --> 00:37:25,060
+that's surjective because every Cosette
+
+645
+00:37:22,120 --> 00:37:27,820
+is the cosine of something and it's a
+
+646
+00:37:25,060 --> 00:37:31,930
+homomorphism because we've defined the
+
+647
+00:37:27,820 --> 00:37:36,370
+group law in this way and it's a
+
+648
+00:37:31,930 --> 00:37:44,260
+homomorphism because F of a times f of B
+
+649
+00:37:36,370 --> 00:37:53,590
+is the co set of a BH which is f of a B
+
+650
+00:37:44,260 --> 00:37:55,510
+and one more thing since it's surjective
+
+651
+00:37:53,590 --> 00:37:59,500
+we know what the image of this map is
+
+652
+00:37:55,510 --> 00:38:01,270
+what is the kernel of this map the
+
+653
+00:37:59,500 --> 00:38:04,600
+kernel is the things that map to the
+
+654
+00:38:01,270 --> 00:38:08,260
+identity in here the identity is the co
+
+655
+00:38:04,600 --> 00:38:14,950
+set eh what elements in G mapped to the
+
+656
+00:38:08,260 --> 00:38:17,230
+co set of e yeah the elements of H the
+
+657
+00:38:14,950 --> 00:38:20,170
+co set of e consists of the elements in
+
+658
+00:38:17,230 --> 00:38:29,130
+h so the elements in G that map to the
+
+659
+00:38:20,170 --> 00:38:34,660
+identity eep rhyme F inverse of D H
+
+660
+00:38:29,130 --> 00:38:36,940
+which is the co set H and that finally
+
+661
+00:38:34,660 --> 00:38:38,850
+is the answer to a question that was
+
+662
+00:38:36,940 --> 00:38:42,580
+asked a week ago
+
+663
+00:38:38,850 --> 00:38:46,390
+every group homomorphism has as its
+
+664
+00:38:42,580 --> 00:38:50,080
+kernel a normal subgroup conversely
+
+665
+00:38:46,390 --> 00:38:53,320
+every normal subgroup is the kernel of a
+
+666
+00:38:50,080 --> 00:38:55,330
+group homomorphism here it is you have a
+
+667
+00:38:53,320 --> 00:38:57,820
+normal subgroup here's a group
+
+668
+00:38:55,330 --> 00:39:02,140
+homomorphism which exhibits it as a
+
+669
+00:38:57,820 --> 00:39:04,770
+kernel let's put that down because it's
+
+670
+00:39:02,140 --> 00:39:04,770
+so important
+
+671
+00:39:12,120 --> 00:39:30,970
+corollary every normal subgroup hg is
+
+672
+00:39:25,410 --> 00:39:34,650
+the kernel of a group homomorphism it's
+
+673
+00:39:30,970 --> 00:39:34,650
+the only way to get normal subgroups
+
+674
+00:39:37,680 --> 00:39:45,850
+with image well yeah it's the kernel of
+
+675
+00:39:42,550 --> 00:39:48,730
+a group on your baptism all right now
+
+676
+00:39:45,850 --> 00:39:51,220
+the final result I'm going to deal with
+
+677
+00:39:48,730 --> 00:39:54,970
+today is more or less thought illogical
+
+678
+00:39:51,220 --> 00:39:57,220
+but it's got a fancy name it's called
+
+679
+00:39:54,970 --> 00:40:00,460
+the first isomorphism theory of group
+
+680
+00:39:57,220 --> 00:40:05,890
+theory I don't know his names are
+
+681
+00:40:00,460 --> 00:40:09,310
+idiotic the fundamental theorem of
+
+682
+00:40:05,890 --> 00:40:11,140
+algebra is not a theorem in algebra at
+
+683
+00:40:09,310 --> 00:40:13,300
+all it's a theorem in complex analysis
+
+684
+00:40:11,140 --> 00:40:16,090
+but never mind we're going to skip the
+
+685
+00:40:13,300 --> 00:40:19,210
+the pretentiousness of this name but
+
+686
+00:40:16,090 --> 00:40:20,800
+it's a nice result and it somehow ties
+
+687
+00:40:19,210 --> 00:40:23,440
+the kernels and everything we've been
+
+688
+00:40:20,800 --> 00:40:25,990
+working together alright so this is
+
+689
+00:40:23,440 --> 00:40:27,700
+called the isomorphism theorem you'll
+
+690
+00:40:25,990 --> 00:40:30,490
+see where the isomorphism is it's
+
+691
+00:40:27,700 --> 00:40:32,110
+tautological as all good theorems are
+
+692
+00:40:30,490 --> 00:40:34,320
+namely you've built up enough ammunition
+
+693
+00:40:32,110 --> 00:40:36,510
+so you just kill the theorem right there
+
+694
+00:40:34,320 --> 00:40:41,260
+so we've built up enough information
+
+695
+00:40:36,510 --> 00:40:51,420
+just kill this it says if F from G to G
+
+696
+00:40:41,260 --> 00:40:51,420
+prime is a surjective group homomorphism
+
+697
+00:40:53,700 --> 00:41:02,020
+with Colonel H and here's an example of
+
+698
+00:41:00,070 --> 00:41:05,260
+one here's a surjective group
+
+699
+00:41:02,020 --> 00:41:15,150
+homomorphism with Colonel H namely the G
+
+700
+00:41:05,260 --> 00:41:15,150
+mod H then F induces an isomorphism
+
+701
+00:41:16,599 --> 00:41:24,430
+which I'll call F bar from gmod H to G
+
+702
+00:41:23,690 --> 00:41:26,869
+Prime
+
+703
+00:41:24,430 --> 00:41:27,349
+sometimes isomorphisms are denoted like
+
+704
+00:41:26,869 --> 00:41:31,190
+that
+
+705
+00:41:27,349 --> 00:41:36,010
+so invertible homomorphism nice and
+
+706
+00:41:31,190 --> 00:41:38,810
+morph is above if you have a surjective
+
+707
+00:41:36,010 --> 00:41:42,080
+homomorphism and you know the kernel you
+
+708
+00:41:38,810 --> 00:41:44,450
+know the image as a group the image is
+
+709
+00:41:42,080 --> 00:41:46,010
+exactly the group structure on this
+
+710
+00:41:44,450 --> 00:41:49,550
+quotient group you can construct the
+
+711
+00:41:46,010 --> 00:41:55,430
+image from the kernel and this map f bar
+
+712
+00:41:49,550 --> 00:41:59,240
+of the co set a h is equal to by
+
+713
+00:41:55,430 --> 00:42:02,570
+definition f of a and you have to check
+
+714
+00:41:59,240 --> 00:42:05,810
+that that's well defined namely that the
+
+715
+00:42:02,570 --> 00:42:08,000
+value of F is independent on what co set
+
+716
+00:42:05,810 --> 00:42:11,630
+representative I choose but that's just
+
+717
+00:42:08,000 --> 00:42:16,430
+because the kernel of F is H so F of a
+
+718
+00:42:11,630 --> 00:42:19,130
+is equal to F of a prime if a prime is
+
+719
+00:42:16,430 --> 00:42:21,800
+another element in H that's just because
+
+720
+00:42:19,130 --> 00:42:23,810
+H is the kernel and you have to check
+
+721
+00:42:21,800 --> 00:42:25,849
+that this is an isomorphism so that
+
+722
+00:42:23,810 --> 00:42:27,200
+shows that it's a well defined map then
+
+723
+00:42:25,849 --> 00:42:29,660
+you have to check that it's a group
+
+724
+00:42:27,200 --> 00:42:32,480
+homomorphism well that's because our our
+
+725
+00:42:29,660 --> 00:42:38,750
+our multiplication law in the quotient
+
+726
+00:42:32,480 --> 00:42:40,339
+group is that a H times BH is a BH so
+
+727
+00:42:38,750 --> 00:42:42,020
+you check that using a multiplication
+
+728
+00:42:40,339 --> 00:42:45,290
+law in the quotient group this is
+
+729
+00:42:42,020 --> 00:42:46,820
+actually a homomorphism it's surjective
+
+730
+00:42:45,290 --> 00:42:48,440
+because the original thing was
+
+731
+00:42:46,820 --> 00:42:51,080
+surjective so if you wanted to hit
+
+732
+00:42:48,440 --> 00:42:53,660
+something in G prime you'd find it a and
+
+733
+00:42:51,080 --> 00:42:55,580
+G that map to it because this is assumed
+
+734
+00:42:53,660 --> 00:42:57,440
+surjective and you take the image of
+
+735
+00:42:55,580 --> 00:43:01,460
+that co set and you hit your element in
+
+736
+00:42:57,440 --> 00:43:04,760
+G prime one moment and there is it has
+
+737
+00:43:01,460 --> 00:43:06,290
+no kernel because the original well it
+
+738
+00:43:04,760 --> 00:43:09,560
+has a trivial kernel because the
+
+739
+00:43:06,290 --> 00:43:12,080
+original kernel was the subgroup H but H
+
+740
+00:43:09,560 --> 00:43:14,180
+has been collapsed down to the identity
+
+741
+00:43:12,080 --> 00:43:16,490
+in this group so the only things that
+
+742
+00:43:14,180 --> 00:43:19,099
+map to the identity and G prime are in
+
+743
+00:43:16,490 --> 00:43:21,320
+the co set H which is the identity
+
+744
+00:43:19,099 --> 00:43:23,359
+element of this group so I've got a
+
+745
+00:43:21,320 --> 00:43:26,630
+construction that somehow collapses the
+
+746
+00:43:23,359 --> 00:43:29,210
+kernel down and makes a new group where
+
+747
+00:43:26,630 --> 00:43:29,480
+now I have a trivial kernel and the same
+
+748
+00:43:29,210 --> 00:43:33,830
+as
+
+749
+00:43:29,480 --> 00:43:35,900
+seneschal homomorphism I'm sorry I just
+
+750
+00:43:33,830 --> 00:43:41,810
+wanted to get all that out now let's go
+
+751
+00:43:35,900 --> 00:43:45,619
+back and get the question induces a nice
+
+752
+00:43:41,810 --> 00:43:49,310
+and worth ISM namely this map induce
+
+753
+00:43:45,619 --> 00:43:51,680
+gives another group homomorphism this is
+
+754
+00:43:49,310 --> 00:43:54,680
+the induced homomorphism it's sort of a
+
+755
+00:43:51,680 --> 00:43:57,140
+so tautological that i you know if this
+
+756
+00:43:54,680 --> 00:43:58,490
+the definition of f bar follows from the
+
+757
+00:43:57,140 --> 00:44:01,670
+definition of f that's what I mean by
+
+758
+00:43:58,490 --> 00:44:05,030
+induces a and then the key thing is that
+
+759
+00:44:01,670 --> 00:44:08,480
+it's an isomorphism both surjective
+
+760
+00:44:05,030 --> 00:44:11,990
+which the original one was but now with
+
+761
+00:44:08,480 --> 00:44:13,400
+trivial kernel one to one because i've
+
+762
+00:44:11,990 --> 00:44:16,160
+collapsed the kernel down in this
+
+763
+00:44:13,400 --> 00:44:18,590
+quotient group process so anytime I have
+
+764
+00:44:16,160 --> 00:44:20,990
+a surjective homomorphism I can turn it
+
+765
+00:44:18,590 --> 00:44:32,060
+into an isomorphism by going to the
+
+766
+00:44:20,990 --> 00:44:35,420
+quotient group here yeah we can define G
+
+767
+00:44:32,060 --> 00:44:37,850
+mod H a quotient group on G for any
+
+768
+00:44:35,420 --> 00:44:40,940
+subgroup that's normal that's what we
+
+769
+00:44:37,850 --> 00:44:43,130
+first checked but the beautiful thing is
+
+770
+00:44:40,940 --> 00:44:46,180
+that the kernel of any homomorphism is a
+
+771
+00:44:43,130 --> 00:44:49,160
+normal subgroup so from this definition
+
+772
+00:44:46,180 --> 00:44:55,940
+from the fact that h is normal in g i go
+
+773
+00:44:49,160 --> 00:44:58,790
+construct G mod H as a group and then
+
+774
+00:44:55,940 --> 00:45:01,160
+the theorem says that this map which is
+
+775
+00:44:58,790 --> 00:45:04,580
+not an isomorphous and induces an
+
+776
+00:45:01,160 --> 00:45:07,040
+isomorphism on the quotient group ok
+
+777
+00:45:04,580 --> 00:45:09,290
+it's not a deep result because we've
+
+778
+00:45:07,040 --> 00:45:11,540
+done all the work namely all the work is
+
+779
+00:45:09,290 --> 00:45:14,300
+figuring out which subgroups we can
+
+780
+00:45:11,540 --> 00:45:15,800
+associate quotient groups to and what
+
+781
+00:45:14,300 --> 00:45:18,470
+the multiplication is in the quotient
+
+782
+00:45:15,800 --> 00:45:22,670
+group and defining a map from G to G mod
+
+783
+00:45:18,470 --> 00:45:24,890
+H like this now Peter would say that a
+
+784
+00:45:22,670 --> 00:45:29,480
+better way to write this is to take the
+
+785
+00:45:24,890 --> 00:45:31,700
+original homomorphism like this to
+
+786
+00:45:29,480 --> 00:45:37,250
+construct our nice homomorphism
+
+787
+00:45:31,700 --> 00:45:39,410
+surjective - G mod H like this where H
+
+788
+00:45:37,250 --> 00:45:41,190
+is the kernel so this would be a
+
+789
+00:45:39,410 --> 00:45:43,859
+surjective map
+
+790
+00:45:41,190 --> 00:45:46,740
+right so this we could construct let's
+
+791
+00:45:43,859 --> 00:45:51,690
+call this map capital app so we
+
+792
+00:45:46,740 --> 00:45:53,730
+construct F like this and if you think
+
+793
+00:45:51,690 --> 00:45:56,670
+about the construction of this map f bar
+
+794
+00:45:53,730 --> 00:46:01,440
+it just says that we can construct a map
+
+795
+00:45:56,670 --> 00:46:05,910
+up here f bar such that the composition
+
+796
+00:46:01,440 --> 00:46:09,180
+of these two maps is this map because
+
+797
+00:46:05,910 --> 00:46:14,099
+this map capital F takes a to the co set
+
+798
+00:46:09,180 --> 00:46:17,970
+aah and then f bar takes the co set a h2
+
+799
+00:46:14,099 --> 00:46:19,980
+what F did to a so Peter would say that
+
+800
+00:46:17,970 --> 00:46:22,819
+a better way of stating the isomorphism
+
+801
+00:46:19,980 --> 00:46:29,839
+theorem is to say that any homomorphism
+
+802
+00:46:22,819 --> 00:46:29,839
+factors through the quotient group okay
+
+803
+00:46:39,380 --> 00:46:51,060
+the quotient this canonical homomorphism
+
+804
+00:46:44,750 --> 00:46:52,560
+by the kernel so not only remember that
+
+805
+00:46:51,060 --> 00:46:54,510
+when you construct the group structure
+
+806
+00:46:52,560 --> 00:46:56,430
+on G mod H you're not just constructing
+
+807
+00:46:54,510 --> 00:47:00,330
+a new group you're constructing a new
+
+808
+00:46:56,430 --> 00:47:02,670
+group that comes with an app and the
+
+809
+00:47:00,330 --> 00:47:05,180
+isomorphism theorem says that you can
+
+810
+00:47:02,670 --> 00:47:07,710
+factor a homomorphism through that map
+
+811
+00:47:05,180 --> 00:47:09,150
+when you get on and you do category
+
+812
+00:47:07,710 --> 00:47:10,650
+theory where the only thing you do is
+
+813
+00:47:09,150 --> 00:47:12,720
+write down little things and arrows
+
+814
+00:47:10,650 --> 00:47:16,230
+between them this will be a useful way
+
+815
+00:47:12,720 --> 00:47:17,940
+of stating it okay but this is a good
+
+816
+00:47:16,230 --> 00:47:20,190
+way to think about it that you convert a
+
+817
+00:47:17,940 --> 00:47:22,200
+homomorphism into an isomorphism by the
+
+818
+00:47:20,190 --> 00:47:24,050
+quotient construction now I'm going to
+
+819
+00:47:22,200 --> 00:47:27,120
+give you a little bit of notation now
+
+820
+00:47:24,050 --> 00:47:30,050
+and to give you also a little bit of
+
+821
+00:47:27,120 --> 00:47:30,050
+warning about it
+
+822
+00:47:35,350 --> 00:47:48,970
+so I'm going to tell you what an exact
+
+823
+00:47:37,240 --> 00:47:50,470
+sequence of groups is actually I'm going
+
+824
+00:47:48,970 --> 00:47:55,240
+to tell you what a short exact sequence
+
+825
+00:47:50,470 --> 00:47:57,250
+of groups is so exact sequences is a
+
+826
+00:47:55,240 --> 00:47:58,570
+notation that comes up in houma logical
+
+827
+00:47:57,250 --> 00:47:59,950
+algebra when you take a course in
+
+828
+00:47:58,570 --> 00:48:01,690
+algebraic topology you'll see a
+
+829
+00:47:59,950 --> 00:48:04,570
+million-in-one exact sequences the
+
+830
+00:48:01,690 --> 00:48:07,000
+notation the actual terminology exact
+
+831
+00:48:04,570 --> 00:48:09,280
+sequence was invented by Island Berg and
+
+832
+00:48:07,000 --> 00:48:12,100
+MacLean in the 40s after much thought as
+
+833
+00:48:09,280 --> 00:48:14,080
+to what the heck they should call it an
+
+834
+00:48:12,100 --> 00:48:16,570
+exact short exact sequence of groups is
+
+835
+00:48:14,080 --> 00:48:18,160
+a diagram of five groups you start off
+
+836
+00:48:16,570 --> 00:48:20,590
+with the identity group that's that's
+
+837
+00:48:18,160 --> 00:48:22,990
+called the identity group 1 then you
+
+838
+00:48:20,590 --> 00:48:26,620
+have a sub group H then you have a group
+
+839
+00:48:22,990 --> 00:48:29,740
+G then you have a group G Prime and then
+
+840
+00:48:26,620 --> 00:48:30,970
+you have another group 1 this is a grand
+
+841
+00:48:29,740 --> 00:48:39,600
+everything in this is a group
+
+842
+00:48:30,970 --> 00:48:42,070
+homomorphism F and G are group
+
+843
+00:48:39,600 --> 00:48:44,260
+homomorphisms so are these maps I mean
+
+844
+00:48:42,070 --> 00:48:45,850
+any group açaí can always map the
+
+845
+00:48:44,260 --> 00:48:47,830
+identity into a group that's a group
+
+846
+00:48:45,850 --> 00:48:50,080
+homomorphism one goes for the identity
+
+847
+00:48:47,830 --> 00:48:51,790
+if you map everything in G prime to the
+
+848
+00:48:50,080 --> 00:48:55,300
+identity element in this group that's a
+
+849
+00:48:51,790 --> 00:49:00,190
+group homomorphism - ok their group
+
+850
+00:48:55,300 --> 00:49:05,380
+homomorphisms hmm G of H has to be the
+
+851
+00:49:00,190 --> 00:49:08,140
+kernel of F that's what it means to be a
+
+852
+00:49:05,380 --> 00:49:17,710
+short exact sequence of groups so that
+
+853
+00:49:08,140 --> 00:49:19,870
+it identifies and f is surjective and H
+
+854
+00:49:17,710 --> 00:49:21,610
+and G is injective sorry grew up on the
+
+855
+00:49:19,870 --> 00:49:24,910
+wharf isms let me write this again so I
+
+856
+00:49:21,610 --> 00:49:31,820
+get it actually right g is injective G
+
+857
+00:49:24,910 --> 00:49:34,670
+is one-to-one and and F is on two
+
+858
+00:49:31,820 --> 00:49:37,880
+so this is a search action so G prime is
+
+859
+00:49:34,670 --> 00:49:41,480
+the image this is an injection so it
+
+860
+00:49:37,880 --> 00:49:45,020
+identifies H with the kernel of F so
+
+861
+00:49:41,480 --> 00:49:48,530
+that G is built out of these two groups
+
+862
+00:49:45,020 --> 00:49:50,870
+H and G prime so G prime would be
+
+863
+00:49:48,530 --> 00:49:54,440
+identified by the way by the isomorphism
+
+864
+00:49:50,870 --> 00:49:56,900
+theorem with G mod H because this would
+
+865
+00:49:54,440 --> 00:49:59,900
+be a homomorphism with Colonel H and
+
+866
+00:49:56,900 --> 00:50:03,950
+image G Prime so by the isomorphism
+
+867
+00:49:59,900 --> 00:50:06,650
+theorem it identifies them so this is a
+
+868
+00:50:03,950 --> 00:50:09,230
+way of saying that a group is built out
+
+869
+00:50:06,650 --> 00:50:12,320
+of two smaller objects an image group
+
+870
+00:50:09,230 --> 00:50:13,820
+and a kernel group it's not important
+
+871
+00:50:12,320 --> 00:50:15,050
+that you get all this now but you're
+
+872
+00:50:13,820 --> 00:50:17,900
+going to see it a million times and
+
+873
+00:50:15,050 --> 00:50:21,860
+here's the warning do not think that
+
+874
+00:50:17,900 --> 00:50:35,500
+because you know H and G prime you know
+
+875
+00:50:21,860 --> 00:50:35,500
+G note the inputs H and G prime do not
+
+876
+00:50:35,650 --> 00:50:42,920
+determine the group G and I'm going to
+
+877
+00:50:41,180 --> 00:50:45,680
+give you two examples of it so you
+
+878
+00:50:42,920 --> 00:50:47,570
+remember this for all time take the
+
+879
+00:50:45,680 --> 00:50:50,960
+group the symmetric group on three
+
+880
+00:50:47,570 --> 00:50:54,890
+letters that has as normal subgroup the
+
+881
+00:50:50,960 --> 00:50:57,590
+alternating group on three letters the
+
+882
+00:50:54,890 --> 00:51:02,150
+quotient group is the group plus or
+
+883
+00:50:57,590 --> 00:51:04,880
+minus one of two elements the sign map
+
+884
+00:51:02,150 --> 00:51:10,520
+this is the sign map this is the obvious
+
+885
+00:51:04,880 --> 00:51:12,710
+inclusion that's an exact sequence of
+
+886
+00:51:10,520 --> 00:51:14,840
+groups here's a group with six elements
+
+887
+00:51:12,710 --> 00:51:18,500
+the subgroup has three elements the
+
+888
+00:51:14,840 --> 00:51:19,850
+quotient group has two elements okay I'm
+
+889
+00:51:18,500 --> 00:51:23,890
+going to write you down another exact
+
+890
+00:51:19,850 --> 00:51:28,760
+sequence the cyclic group of water six
+
+891
+00:51:23,890 --> 00:51:30,980
+maps to the cyclic group of order two by
+
+892
+00:51:28,760 --> 00:51:33,290
+taking a congruence mod six and just
+
+893
+00:51:30,980 --> 00:51:35,480
+looking at it mod two so the odd
+
+894
+00:51:33,290 --> 00:51:37,910
+elements in here go to one here and the
+
+895
+00:51:35,480 --> 00:51:41,150
+even elements mod six go to to go to
+
+896
+00:51:37,910 --> 00:51:43,750
+zero the kernel is the cyclic group of
+
+897
+00:51:41,150 --> 00:51:43,750
+order three
+
+898
+00:51:44,430 --> 00:51:50,440
+that's another exact sequence so this
+
+899
+00:51:46,900 --> 00:51:56,890
+takes a to a mod to which is well
+
+900
+00:51:50,440 --> 00:52:01,030
+defined and this Z mod 3z is really the
+
+901
+00:51:56,890 --> 00:52:04,930
+elements divisible by 2 to Z mod 60 it's
+
+902
+00:52:01,030 --> 00:52:06,400
+the same group okay those are two exact
+
+903
+00:52:04,930 --> 00:52:09,160
+sequences if you think about them
+
+904
+00:52:06,400 --> 00:52:11,440
+there's a kernel there's an image okay
+
+905
+00:52:09,160 --> 00:52:14,170
+this group is isomorphic to this group
+
+906
+00:52:11,440 --> 00:52:16,270
+because all groups of order 3 are cyclic
+
+907
+00:52:14,170 --> 00:52:17,290
+we prove that for groups of prime order
+
+908
+00:52:16,270 --> 00:52:19,900
+right
+
+909
+00:52:17,290 --> 00:52:23,320
+this group is isomorphic to this group
+
+910
+00:52:19,900 --> 00:52:26,290
+because all groups of water 2 are cyclic
+
+911
+00:52:23,320 --> 00:52:28,030
+and therefore they're equal but this
+
+912
+00:52:26,290 --> 00:52:29,890
+group is not the same as this group
+
+913
+00:52:28,030 --> 00:52:34,240
+because this is an abelian group of
+
+914
+00:52:29,890 --> 00:52:35,920
+water 6 and this is non abelian so even
+
+915
+00:52:34,240 --> 00:52:37,900
+though you can sometimes break a group
+
+916
+00:52:35,920 --> 00:52:40,060
+up into a subgroup and a quotient group
+
+917
+00:52:37,900 --> 00:52:41,740
+and you've learned something by
+
+918
+00:52:40,060 --> 00:52:44,530
+decomposing it that way
+
+919
+00:52:41,740 --> 00:52:46,150
+the pieces at the ends do not determine
+
+920
+00:52:44,530 --> 00:52:48,820
+necessarily the group in the middle
+
+921
+00:52:46,150 --> 00:52:50,350
+there's more information you need to put
+
+922
+00:52:48,820 --> 00:52:51,940
+these two groups together into this
+
+923
+00:52:50,350 --> 00:52:58,090
+group or to this group to say which one
+
+924
+00:52:51,940 --> 00:52:59,680
+you're getting yeah those ones are just
+
+925
+00:52:58,090 --> 00:53:02,830
+the trivial group sorry suppose I wrote
+
+926
+00:52:59,680 --> 00:53:04,320
+it like this they're what they mean to
+
+927
+00:53:02,830 --> 00:53:08,050
+indicate in this exact sequence
+
+928
+00:53:04,320 --> 00:53:10,720
+terminology is that this map is an
+
+929
+00:53:08,050 --> 00:53:14,830
+inclusion and this map is on and this
+
+930
+00:53:10,720 --> 00:53:16,930
+map is on - if I could say it the
+
+931
+00:53:14,830 --> 00:53:18,760
+following way to say this map is an
+
+932
+00:53:16,930 --> 00:53:20,910
+inclusion is to say that the image of
+
+933
+00:53:18,760 --> 00:53:23,170
+this map is the kernel of the next map
+
+934
+00:53:20,910 --> 00:53:24,820
+that's how it comes up as an exact
+
+935
+00:53:23,170 --> 00:53:25,480
+sequence the exact sequence means the
+
+936
+00:53:24,820 --> 00:53:27,370
+imagism
+
+937
+00:53:25,480 --> 00:53:29,950
+is the kernel of the next map so the
+
+938
+00:53:27,370 --> 00:53:31,750
+image of this is just e so if that's the
+
+939
+00:53:29,950 --> 00:53:34,330
+kernel of G that says this map is an
+
+940
+00:53:31,750 --> 00:53:38,680
+injection because it's kernel is trivial
+
+941
+00:53:34,330 --> 00:53:40,660
+and likewise if this map is on - then it
+
+942
+00:53:38,680 --> 00:53:42,670
+says that the image of this map should
+
+943
+00:53:40,660 --> 00:53:44,370
+be the kernel of this map well this map
+
+944
+00:53:42,670 --> 00:53:48,400
+takes everything to the identity element
+
+945
+00:53:44,370 --> 00:53:50,260
+so it's kernel is everything but usually
+
+946
+00:53:48,400 --> 00:53:53,970
+you don't indicate the group II what you
+
+947
+00:53:50,260 --> 00:53:53,970
+just write it as the group 1 like this
+
+948
+00:53:54,360 --> 00:53:59,170
+this is just the notation that signifies
+
+949
+00:53:57,730 --> 00:54:02,650
+that this group is built out of this
+
+950
+00:53:59,170 --> 00:54:04,000
+subgroup in this quotient group okay but
+
+951
+00:54:02,650 --> 00:54:05,650
+those of you who will see this in
+
+952
+00:54:04,000 --> 00:54:07,000
+algebraic topology courses should at
+
+953
+00:54:05,650 --> 00:54:09,370
+least see what it means in group theory
+
+954
+00:54:07,000 --> 00:54:11,500
+we're not going to use this notation you
+
+955
+00:54:09,370 --> 00:54:13,210
+can put it away but just remember when
+
+956
+00:54:11,500 --> 00:54:14,950
+you encounter it that you don't get the
+
+957
+00:54:13,210 --> 00:54:16,630
+group in the middle from the from the
+
+958
+00:54:14,950 --> 00:54:21,600
+sub the normal subgroup and the quotient
+
+959
+00:54:16,630 --> 00:54:21,600
+group okay Wednesday
+

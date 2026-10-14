@@ -1,0 +1,4220 @@
+1
+00:00:12,759 --> 00:00:18,640
+I hope you all enjoyed uh hearing
+
+2
+00:00:14,879 --> 00:00:21,560
+Richard Taylor on Friday and uh Peter on
+
+3
+00:00:18,640 --> 00:00:23,560
+uh Monday so those two lectures conclude
+
+4
+00:00:21,560 --> 00:00:25,480
+our treatment of groups for this
+
+5
+00:00:23,560 --> 00:00:28,080
+semester and now we're going to go on to
+
+6
+00:00:25,480 --> 00:00:29,759
+the second topic while we've done groups
+
+7
+00:00:28,080 --> 00:00:31,880
+we've also done Vector spaces so this
+
+8
+00:00:29,759 --> 00:00:37,040
+could our third topic
+
+9
+00:00:31,880 --> 00:00:40,160
+rings so uh rings
+
+10
+00:00:37,040 --> 00:00:44,840
+are we've seen examples of them like the
+
+11
+00:00:40,160 --> 00:00:44,840
+integers z n so
+
+12
+00:00:46,960 --> 00:00:55,680
+examples Z Z mod
+
+13
+00:00:51,120 --> 00:00:58,120
+NZ uh the complex numbers any
+
+14
+00:00:55,680 --> 00:01:01,399
+field so there there structures in
+
+15
+00:00:58,120 --> 00:01:03,000
+mathematics which are sets
+
+16
+00:01:01,399 --> 00:01:06,680
+which
+
+17
+00:01:03,000 --> 00:01:06,680
+are a bilan
+
+18
+00:01:07,799 --> 00:01:14,159
+groups under an addition operation With
+
+19
+00:01:12,080 --> 00:01:16,680
+An Origin with an identity element
+
+20
+00:01:14,159 --> 00:01:16,680
+denoted
+
+21
+00:01:20,079 --> 00:01:25,960
+zero and um they are first the bilan
+
+22
+00:01:23,079 --> 00:01:25,960
+groups then they have a
+
+23
+00:01:27,400 --> 00:01:32,600
+multiplication which is denoted times
+
+24
+00:01:30,240 --> 00:01:32,600
+which is
+
+25
+00:01:33,200 --> 00:01:40,360
+associative and it has an identity
+
+26
+00:01:36,600 --> 00:01:42,000
+element equal to one but it not need not
+
+27
+00:01:40,360 --> 00:01:46,000
+be
+
+28
+00:01:42,000 --> 00:01:49,759
+um another example of ring is n byn
+
+29
+00:01:46,000 --> 00:01:49,759
+matricies over a field
+
+30
+00:01:54,040 --> 00:01:59,960
+F so
+
+31
+00:01:57,200 --> 00:02:02,920
+um the ailion group under addition that
+
+32
+00:01:59,960 --> 00:02:04,320
+we understand the multiplication there
+
+33
+00:02:02,920 --> 00:02:09,280
+should be a product
+
+34
+00:02:04,320 --> 00:02:10,640
+law uh a * B uh it should be associative
+
+35
+00:02:09,280 --> 00:02:12,120
+when you multiply three things it
+
+36
+00:02:10,640 --> 00:02:14,040
+shouldn't depend on the order in which
+
+37
+00:02:12,120 --> 00:02:16,560
+you multiply them if you multiply
+
+38
+00:02:14,040 --> 00:02:18,560
+anything by one you get back itself but
+
+39
+00:02:16,560 --> 00:02:19,560
+you needn't have multiplicative inverses
+
+40
+00:02:18,560 --> 00:02:21,680
+so
+
+41
+00:02:19,560 --> 00:02:24,720
+not
+
+42
+00:02:21,680 --> 00:02:26,319
+necessarily uh
+
+43
+00:02:24,720 --> 00:02:30,319
+inverses
+
+44
+00:02:26,319 --> 00:02:30,319
+or commutative
+
+45
+00:02:33,360 --> 00:02:37,680
+uh you get inverses in a field for
+
+46
+00:02:35,840 --> 00:02:40,159
+everything other than
+
+47
+00:02:37,680 --> 00:02:42,040
+zero here you only have inverses for
+
+48
+00:02:40,159 --> 00:02:44,560
+plus or minus one under multiplication
+
+49
+00:02:42,040 --> 00:02:46,239
+there's no inverse for two or for three
+
+50
+00:02:44,560 --> 00:02:50,080
+because You' need things like a half or
+
+51
+00:02:46,239 --> 00:02:52,800
+a third that are not in the set and here
+
+52
+00:02:50,080 --> 00:02:54,800
+you get inverses for invertible matrices
+
+53
+00:02:52,800 --> 00:02:57,319
+but here's a non-commutative ring where
+
+54
+00:02:54,800 --> 00:03:00,319
+the multiplication law a * B is not the
+
+55
+00:02:57,319 --> 00:03:02,519
+same necessarily as B * a so rings are
+
+56
+00:03:00,319 --> 00:03:04,480
+very general objects which have the
+
+57
+00:03:02,519 --> 00:03:06,840
+ailan group structure under addition
+
+58
+00:03:04,480 --> 00:03:08,239
+like a vector space does but instead of
+
+59
+00:03:06,840 --> 00:03:09,720
+assuming additionally that you have a
+
+60
+00:03:08,239 --> 00:03:11,519
+scalar multiplication here you have a
+
+61
+00:03:09,720 --> 00:03:15,159
+multiplication of two objects in the
+
+62
+00:03:11,519 --> 00:03:19,720
+ring you know a * b is another element
+
+63
+00:03:15,159 --> 00:03:22,480
+in our ring so usually rings are denoted
+
+64
+00:03:19,720 --> 00:03:24,280
+R so we've seen examples of them and now
+
+65
+00:03:22,480 --> 00:03:26,360
+we want to try to develop some general
+
+66
+00:03:24,280 --> 00:03:29,200
+theory of them analogous to the way we
+
+67
+00:03:26,360 --> 00:03:32,599
+did for groups so you could imagine what
+
+68
+00:03:29,200 --> 00:03:32,599
+a sub ring of a ring
+
+69
+00:03:35,680 --> 00:03:42,280
+is would be a a
+
+70
+00:03:39,280 --> 00:03:42,280
+subset
+
+71
+00:03:42,720 --> 00:03:47,480
+containing the key elements zero and
+
+72
+00:03:45,840 --> 00:03:51,959
+one
+
+73
+00:03:47,480 --> 00:03:56,239
+closed under addition and should form a
+
+74
+00:03:51,959 --> 00:03:56,239
+subgroup and it should be closed under
+
+75
+00:03:57,640 --> 00:04:02,720
+multiplication that's it that turns out
+
+76
+00:04:00,480 --> 00:04:04,159
+not to be a very useful notion a sub
+
+77
+00:04:02,720 --> 00:04:06,519
+ring that turns out to be the wrong
+
+78
+00:04:04,159 --> 00:04:08,799
+notion that's the notion like a subgroup
+
+79
+00:04:06,519 --> 00:04:10,799
+for groups and what we're going to want
+
+80
+00:04:08,799 --> 00:04:14,120
+to know is what the notion is of a
+
+81
+00:04:10,799 --> 00:04:15,280
+normal subgroup what's a kernel so
+
+82
+00:04:14,120 --> 00:04:18,359
+that's going to be a little bit better
+
+83
+00:04:15,280 --> 00:04:21,359
+than a subing so examples so we could
+
+84
+00:04:18,359 --> 00:04:21,359
+look at sub rings of
+
+85
+00:04:24,320 --> 00:04:28,680
+C of the complex numbers that's how
+
+86
+00:04:26,800 --> 00:04:30,400
+Rings first came about people started
+
+87
+00:04:28,680 --> 00:04:33,440
+looking at sub rings of the complex
+
+88
+00:04:30,400 --> 00:04:35,280
+numbers so example would be the reals
+
+89
+00:04:33,440 --> 00:04:38,320
+that's closed under addition and
+
+90
+00:04:35,280 --> 00:04:39,560
+multiplication or the rational numbers
+
+91
+00:04:38,320 --> 00:04:41,479
+that's closed under addition and
+
+92
+00:04:39,560 --> 00:04:44,000
+multiplication or the
+
+93
+00:04:41,479 --> 00:04:47,199
+integers so all of our
+
+94
+00:04:44,000 --> 00:04:48,800
+friends are are perfectly good sub rings
+
+95
+00:04:47,199 --> 00:04:50,560
+and gaus discovered another very
+
+96
+00:04:48,800 --> 00:04:52,520
+interesting sub ring so this is all the
+
+97
+00:04:50,560 --> 00:04:55,919
+things of the form a plus
+
+98
+00:04:52,520 --> 00:04:57,199
+bi where A and B are real numbers right
+
+99
+00:04:55,919 --> 00:04:59,800
+that's how you think of the complex
+
+100
+00:04:57,199 --> 00:05:02,400
+plane so gaus said why not consider the
+
+101
+00:04:59,800 --> 00:05:05,160
+following ring Z Plus
+
+102
+00:05:02,400 --> 00:05:08,919
+Z so all the things are the form a plus
+
+103
+00:05:05,160 --> 00:05:13,080
+b i where A and B are
+
+104
+00:05:08,919 --> 00:05:13,080
+integers those are called the gaussian
+
+105
+00:05:14,199 --> 00:05:17,960
+integers and you see if you add two of
+
+106
+00:05:16,479 --> 00:05:19,639
+these things you just add the A's and
+
+107
+00:05:17,960 --> 00:05:21,840
+B's so that when you add integers you
+
+108
+00:05:19,639 --> 00:05:23,720
+stay an integer and when you multiply a
+
+109
+00:05:21,840 --> 00:05:28,000
+plus b
+
+110
+00:05:23,720 --> 00:05:37,120
+i time C plus di in the complex numbers
+
+111
+00:05:28,000 --> 00:05:39,440
+you get AC - b d plus a d + BC * I and
+
+112
+00:05:37,120 --> 00:05:40,840
+if a b c and d are all integers so is
+
+113
+00:05:39,440 --> 00:05:42,560
+this an integer and so is this an
+
+114
+00:05:40,840 --> 00:05:44,280
+integer so it's stable under
+
+115
+00:05:42,560 --> 00:05:45,680
+multiplication so it's a very
+
+116
+00:05:44,280 --> 00:05:48,160
+interesting ring which we're going to
+
+117
+00:05:45,680 --> 00:05:50,840
+investigate later it has a lot of uh
+
+118
+00:05:48,160 --> 00:05:52,560
+structure similar uh to the integers
+
+119
+00:05:50,840 --> 00:05:55,000
+that's what what gaus was able to show
+
+120
+00:05:52,560 --> 00:05:57,400
+and that's somehow initiated the subject
+
+121
+00:05:55,000 --> 00:05:59,080
+of ring Theory I should say that there's
+
+122
+00:05:57,400 --> 00:06:00,800
+one relation between addition and
+
+123
+00:05:59,080 --> 00:06:03,199
+multiplication
+
+124
+00:06:00,800 --> 00:06:05,360
+uh which one has to assume namely the
+
+125
+00:06:03,199 --> 00:06:10,720
+distributive law namely If I multiply a
+
+126
+00:06:05,360 --> 00:06:13,080
+* b + C that's a plus a it's the sum of
+
+127
+00:06:10,720 --> 00:06:14,800
+the product so if you it says that you
+
+128
+00:06:13,080 --> 00:06:16,960
+get the same answer whether you add
+
+129
+00:06:14,800 --> 00:06:18,960
+first and then multiply or multiply
+
+130
+00:06:16,960 --> 00:06:20,360
+first and then add and then you also
+
+131
+00:06:18,960 --> 00:06:22,360
+have to do this in the opposite
+
+132
+00:06:20,360 --> 00:06:24,800
+direction because you're not assuming
+
+133
+00:06:22,360 --> 00:06:28,120
+the ring is necessarily commutative this
+
+134
+00:06:24,800 --> 00:06:30,319
+should be the same same as BA Plus CA so
+
+135
+00:06:28,120 --> 00:06:33,160
+you have to assume two different
+
+136
+00:06:30,319 --> 00:06:33,160
+uh distributive
+
+137
+00:06:35,080 --> 00:06:41,240
+laws now almost everything we're going
+
+138
+00:06:38,160 --> 00:06:43,199
+to do after this lecture almost
+
+139
+00:06:41,240 --> 00:06:46,120
+everything we're going to do is going to
+
+140
+00:06:43,199 --> 00:06:47,759
+be on the subject of commutative Rings
+
+141
+00:06:46,120 --> 00:06:49,360
+it turns out there's a lot more
+
+142
+00:06:47,759 --> 00:06:51,280
+structure to commutative rings than
+
+143
+00:06:49,360 --> 00:06:53,000
+there is to non-commutative rings so
+
+144
+00:06:51,280 --> 00:06:54,360
+that we would accept all of these things
+
+145
+00:06:53,000 --> 00:06:56,360
+which are commutative Rings because it
+
+146
+00:06:54,360 --> 00:06:58,360
+doesn't make any difference in what
+
+147
+00:06:56,360 --> 00:07:00,039
+order you do the operation but it would
+
+148
+00:06:58,360 --> 00:07:02,000
+eliminate this one
+
+149
+00:07:00,039 --> 00:07:04,319
+however for this lecture I want to stay
+
+150
+00:07:02,000 --> 00:07:06,599
+in the language of non-commutative rings
+
+151
+00:07:04,319 --> 00:07:08,960
+we'll see some other
+
+152
+00:07:06,599 --> 00:07:10,759
+examples how about examples of a ring
+
+153
+00:07:08,960 --> 00:07:14,160
+that isn't a sub ring of the complex
+
+154
+00:07:10,759 --> 00:07:15,879
+numbers well we could do the following
+
+155
+00:07:14,160 --> 00:07:23,160
+we could take polinomial over the
+
+156
+00:07:15,879 --> 00:07:23,160
+complex numbers so we could let R be all
+
+157
+00:07:23,919 --> 00:07:27,440
+pols in one
+
+158
+00:07:27,560 --> 00:07:36,680
+variable X over C so those consist of
+
+159
+00:07:31,560 --> 00:07:41,919
+all things of the form a n x the N plus
+
+160
+00:07:36,680 --> 00:07:43,919
+plus a1x plus a0 such that AI are
+
+161
+00:07:41,919 --> 00:07:45,520
+complex numbers and we don't we don't
+
+162
+00:07:43,919 --> 00:07:48,400
+bound the degree of the
+
+163
+00:07:45,520 --> 00:07:50,520
+polinomial now we know how to add pols
+
+164
+00:07:48,400 --> 00:07:53,319
+you add the coefficients we know how to
+
+165
+00:07:50,520 --> 00:07:55,759
+multiply pols that increases the degree
+
+166
+00:07:53,319 --> 00:07:58,319
+and one checks pretty easily that those
+
+167
+00:07:55,759 --> 00:08:01,440
+satisfy the axioms of a ring and this
+
+168
+00:07:58,319 --> 00:08:01,440
+ring would be denoted
+
+169
+00:08:02,199 --> 00:08:09,280
+CX polinomial is in X you could do that
+
+170
+00:08:05,560 --> 00:08:09,280
+or or more
+
+171
+00:08:12,120 --> 00:08:19,000
+generally if
+
+172
+00:08:14,120 --> 00:08:19,000
+R is a commutative
+
+173
+00:08:20,919 --> 00:08:28,800
+ring so is R
+
+174
+00:08:25,159 --> 00:08:31,400
+ofx so our pols over R where now you
+
+175
+00:08:28,800 --> 00:08:34,599
+just take four Al expressions of this
+
+176
+00:08:31,400 --> 00:08:37,080
+form where the AI now are in R are
+
+177
+00:08:34,599 --> 00:08:38,839
+elements in R and you multiply them by
+
+178
+00:08:37,080 --> 00:08:40,680
+the usual laws of multiplication of
+
+179
+00:08:38,839 --> 00:08:43,000
+polinomial and you'll see that that
+
+180
+00:08:40,680 --> 00:08:46,080
+involves multiplication and addition of
+
+181
+00:08:43,000 --> 00:08:50,519
+coefficients and so for example if we if
+
+182
+00:08:46,080 --> 00:08:53,720
+we had U pols over let's take R is equal
+
+183
+00:08:50,519 --> 00:08:57,200
+to ZM 2 and we wanted to multiply the
+
+184
+00:08:53,720 --> 00:08:59,959
+polinomial x + 1 by say the polinomial x
+
+185
+00:08:57,200 --> 00:09:04,959
++ 1 we'd get
+
+186
+00:08:59,959 --> 00:09:06,600
+x^2 + 2x + 1 as we would in in Z but
+
+187
+00:09:04,959 --> 00:09:11,240
+that would be the same as the polinomial
+
+188
+00:09:06,600 --> 00:09:13,839
+x^2 + one because two is zero in that
+
+189
+00:09:11,240 --> 00:09:15,720
+ring so you do multiplication just as
+
+190
+00:09:13,839 --> 00:09:17,720
+you do normal multiplication you gather
+
+191
+00:09:15,720 --> 00:09:19,200
+coefficients so this is a general way of
+
+192
+00:09:17,720 --> 00:09:21,399
+starting with a ring and generating
+
+193
+00:09:19,200 --> 00:09:23,640
+bigger rings so in particular we could
+
+194
+00:09:21,399 --> 00:09:27,160
+do polinomial over this
+
+195
+00:09:23,640 --> 00:09:30,279
+ring pols in y whose coefficients were
+
+196
+00:09:27,160 --> 00:09:33,880
+pols in X that would be pooms in two
+
+197
+00:09:30,279 --> 00:09:38,320
+variables so c
+
+198
+00:09:33,880 --> 00:09:39,480
+x y is sometimes the noted like this
+
+199
+00:09:38,320 --> 00:09:40,920
+because it doesn't really make any
+
+200
+00:09:39,480 --> 00:09:43,160
+difference what you did first and this
+
+201
+00:09:40,920 --> 00:09:43,160
+is
+
+202
+00:09:43,920 --> 00:09:47,440
+polinomial in two
+
+203
+00:09:48,480 --> 00:09:52,839
+variables X and
+
+204
+00:09:50,480 --> 00:09:54,480
+Y and then we could do three variables
+
+205
+00:09:52,839 --> 00:09:56,720
+and four variables each time adding a
+
+206
+00:09:54,480 --> 00:09:58,560
+new variable right so if you think of a
+
+207
+00:09:56,720 --> 00:10:00,399
+polinomial in two variables X and Y you
+
+208
+00:09:58,560 --> 00:10:03,480
+can think of that as a polinomial in y
+
+209
+00:10:00,399 --> 00:10:04,920
+whose coefficients are pols in X by
+
+210
+00:10:03,480 --> 00:10:08,959
+gathering up the terms with the same
+
+211
+00:10:04,920 --> 00:10:09,760
+degree in y so these Rings Rings like
+
+212
+00:10:08,959 --> 00:10:12,160
+the
+
+213
+00:10:09,760 --> 00:10:14,480
+integers and the gaussian integers and
+
+214
+00:10:12,160 --> 00:10:15,959
+their relatives were the rings that
+
+215
+00:10:14,480 --> 00:10:17,920
+eventually form the subject called
+
+216
+00:10:15,959 --> 00:10:20,839
+number
+
+217
+00:10:17,920 --> 00:10:23,399
+Theory and the rings of this
+
+218
+00:10:20,839 --> 00:10:25,120
+nature polinomial rings in one and
+
+219
+00:10:23,399 --> 00:10:29,399
+several variables form the subject
+
+220
+00:10:25,120 --> 00:10:29,399
+that's now called algebraic geometry
+
+221
+00:10:31,440 --> 00:10:34,959
+and somehow the point of ring Theory
+
+222
+00:10:33,600 --> 00:10:37,320
+which was developed at the end of the
+
+223
+00:10:34,959 --> 00:10:39,240
+19th century was to realize what
+
+224
+00:10:37,320 --> 00:10:41,000
+techniques were used in both fields that
+
+225
+00:10:39,240 --> 00:10:43,839
+could be just abstracted to be said
+
+226
+00:10:41,000 --> 00:10:46,120
+about any ring there
+
+227
+00:10:43,839 --> 00:10:49,120
+sometimes people noticed that what they
+
+228
+00:10:46,120 --> 00:10:51,639
+had been considering in number Theory uh
+
+229
+00:10:49,120 --> 00:10:53,680
+in in the solving of equations and fmas
+
+230
+00:10:51,639 --> 00:10:55,000
+L theorem Etc were the same issues that
+
+231
+00:10:53,680 --> 00:10:57,360
+people were dealing with when they were
+
+232
+00:10:55,000 --> 00:10:58,760
+studying polinomial in several variables
+
+233
+00:10:57,360 --> 00:11:00,639
+and that many of it could just be put in
+
+234
+00:10:58,760 --> 00:11:03,000
+the same language where you didn't
+
+235
+00:11:00,639 --> 00:11:05,560
+really worry whether it was Z or pols in
+
+236
+00:11:03,000 --> 00:11:07,760
+seven variables and you just called it R
+
+237
+00:11:05,560 --> 00:11:11,200
+so that's the that's the origin of of
+
+238
+00:11:07,760 --> 00:11:12,519
+ring Theory all right now I want to deal
+
+239
+00:11:11,200 --> 00:11:14,600
+with one thing first which is a
+
+240
+00:11:12,519 --> 00:11:18,440
+hilarious question you know how small
+
+241
+00:11:14,600 --> 00:11:19,959
+can a ring be how small can a ring be
+
+242
+00:11:18,440 --> 00:11:21,519
+well it's got to be an a bilan group
+
+243
+00:11:19,959 --> 00:11:23,600
+with an addition law and an identity
+
+244
+00:11:21,519 --> 00:11:26,760
+element so it's got to definitely have
+
+245
+00:11:23,600 --> 00:11:28,959
+zero in it all right then it's supposed
+
+246
+00:11:26,760 --> 00:11:31,320
+to have a multiplication law and the
+
+247
+00:11:28,959 --> 00:11:33,360
+ident element is one but we didn't say
+
+248
+00:11:31,320 --> 00:11:35,560
+that one couldn't be equal to zero one
+
+249
+00:11:33,360 --> 00:11:38,040
+might be able to be equal to zero so the
+
+250
+00:11:35,560 --> 00:11:38,040
+smallest
+
+251
+00:11:40,760 --> 00:11:47,200
+ring is are the ring with one element
+
+252
+00:11:45,360 --> 00:11:49,000
+Fields have to have two elements because
+
+253
+00:11:47,200 --> 00:11:51,120
+non-zero elements have to be invertible
+
+254
+00:11:49,000 --> 00:11:54,600
+so in a field you need a you need a real
+
+255
+00:11:51,120 --> 00:11:58,079
+honest to God invertible element one but
+
+256
+00:11:54,600 --> 00:12:01,600
+in a ring you can have 1 equal to
+
+257
+00:11:58,079 --> 00:12:05,320
+zero and and uh it satisfies all the you
+
+258
+00:12:01,600 --> 00:12:06,800
+know 0 + 0 is 0 0 * 0 is 0 it satisfies
+
+259
+00:12:05,320 --> 00:12:08,720
+everything there's nothing wrong with
+
+260
+00:12:06,800 --> 00:12:10,160
+the ring with zero in it and it's
+
+261
+00:12:08,720 --> 00:12:12,600
+important to realize that you can have
+
+262
+00:12:10,160 --> 00:12:14,760
+such a ring however I'm going to prove a
+
+263
+00:12:12,600 --> 00:12:16,880
+little Lema for you which is very stupid
+
+264
+00:12:14,760 --> 00:12:19,920
+but we'll do it once that if you have
+
+265
+00:12:16,880 --> 00:12:23,560
+any ring which is not that ring that one
+
+266
+00:12:19,920 --> 00:12:23,560
+is not equal to zero in that
+
+267
+00:12:24,279 --> 00:12:31,160
+ring so that all other Rings one is
+
+268
+00:12:28,360 --> 00:12:31,160
+distinct from zero
+
+269
+00:12:33,320 --> 00:12:39,320
+if R is not the zero ring then one is
+
+270
+00:12:36,880 --> 00:12:41,279
+not equal to zero in R they're different
+
+271
+00:12:39,320 --> 00:12:44,480
+elements of the
+
+272
+00:12:41,279 --> 00:12:46,959
+set so this is kind of stupid take an
+
+273
+00:12:44,480 --> 00:12:46,959
+element in
+
+274
+00:12:50,600 --> 00:12:53,800
+R and
+
+275
+00:12:54,040 --> 00:12:59,199
+suppose that one were equal to zero
+
+276
+00:12:57,199 --> 00:13:01,920
+we're going to get we're going to show
+
+277
+00:12:59,199 --> 00:13:07,440
+that a is equal to zero
+
+278
+00:13:01,920 --> 00:13:08,839
+then a is equal to 1 * a because 1 is a
+
+279
+00:13:07,440 --> 00:13:11,000
+multiplicative inverse so if you
+
+280
+00:13:08,839 --> 00:13:13,360
+multiply 1 time anything you get back to
+
+281
+00:13:11,000 --> 00:13:16,800
+thing on the other hand if 1 is equal to
+
+282
+00:13:13,360 --> 00:13:16,800
+Z this is 0 *
+
+283
+00:13:16,920 --> 00:13:21,560
+a okay now I
+
+284
+00:13:20,040 --> 00:13:28,720
+claim
+
+285
+00:13:21,560 --> 00:13:31,000
+but 0 * a is equal to 0 + 0 * a because
+
+286
+00:13:28,720 --> 00:13:33,920
+0 is the sum of zero in itself it's an
+
+287
+00:13:31,000 --> 00:13:35,959
+additive identity in the group and by
+
+288
+00:13:33,920 --> 00:13:39,360
+the distributive law this is equal to 0
+
+289
+00:13:35,959 --> 00:13:42,560
+* a + 0 *
+
+290
+00:13:39,360 --> 00:13:43,880
+a and then if you subtract 0 * a from
+
+291
+00:13:42,560 --> 00:13:47,600
+both
+
+292
+00:13:43,880 --> 00:13:50,199
+sides subtract whatever the element is 0
+
+293
+00:13:47,600 --> 00:13:51,480
+* a in the in the additive group When
+
+294
+00:13:50,199 --> 00:13:55,839
+You Subtract it from here you get the
+
+295
+00:13:51,480 --> 00:14:00,240
+element zero and you just left with 0 *
+
+296
+00:13:55,839 --> 00:14:02,320
+a so not only is 1 * a equal to a 0 * a
+
+297
+00:14:00,240 --> 00:14:05,079
+is always equal to zero in a
+
+298
+00:14:02,320 --> 00:14:06,519
+ring and consequently this thing is
+
+299
+00:14:05,079 --> 00:14:09,720
+equal to
+
+300
+00:14:06,519 --> 00:14:12,600
+zero in
+
+301
+00:14:09,720 --> 00:14:14,800
+R so we've just shown that if one is
+
+302
+00:14:12,600 --> 00:14:16,480
+equal to zero any element in the ring is
+
+303
+00:14:14,800 --> 00:14:18,199
+equal to the zero element there's a
+
+304
+00:14:16,480 --> 00:14:20,360
+unique zero element so therefore the
+
+305
+00:14:18,199 --> 00:14:22,519
+ring reduces to one element so if the
+
+306
+00:14:20,360 --> 00:14:24,240
+ring has any elements other than zero
+
+307
+00:14:22,519 --> 00:14:26,480
+one can't be equal to
+
+308
+00:14:24,240 --> 00:14:28,639
+zero and you can have a ring with two
+
+309
+00:14:26,480 --> 00:14:31,519
+elements this is the smallest ring the
+
+310
+00:14:28,639 --> 00:14:31,519
+next smallest
+
+311
+00:14:32,800 --> 00:14:39,480
+ring is the ring Z 2 which has two
+
+312
+00:14:37,160 --> 00:14:40,320
+elements in it but there one is but
+
+313
+00:14:39,480 --> 00:14:43,279
+that's a
+
+314
+00:14:40,320 --> 00:14:46,600
+field because one is
+
+315
+00:14:43,279 --> 00:14:48,120
+invertible and in fact we have a ring
+
+316
+00:14:46,600 --> 00:14:49,839
+with any number of finite number of
+
+317
+00:14:48,120 --> 00:14:52,720
+elements
+
+318
+00:14:49,839 --> 00:14:56,320
+zmn that's a ring
+
+319
+00:14:52,720 --> 00:14:56,320
+with n
+
+320
+00:14:57,600 --> 00:15:03,720
+elements there are
+
+321
+00:14:59,639 --> 00:15:05,440
+you get several rings by the way with
+
+322
+00:15:03,720 --> 00:15:07,160
+you know four there are two rings with
+
+323
+00:15:05,440 --> 00:15:08,720
+four elements so you can get more rings
+
+324
+00:15:07,160 --> 00:15:10,480
+in this but if you wanted a finite ring
+
+325
+00:15:08,720 --> 00:15:13,440
+with n elements here you are here's an
+
+326
+00:15:10,480 --> 00:15:13,440
+example of an infinite
+
+327
+00:15:13,759 --> 00:15:18,800
+ring now the way Rings really come up in
+
+328
+00:15:16,800 --> 00:15:20,839
+math is from the theory of a bilan
+
+329
+00:15:18,800 --> 00:15:25,720
+groups so I'll tell you that even though
+
+330
+00:15:20,839 --> 00:15:25,720
+art doesn't tell you a secret
+
+331
+00:15:29,079 --> 00:15:32,880
+and we'll see a lot of our examples that
+
+332
+00:15:33,040 --> 00:15:37,040
+way fact everything and that's the best
+
+333
+00:15:35,440 --> 00:15:38,519
+way to arton goes through a whole
+
+334
+00:15:37,040 --> 00:15:39,880
+section where he shows that the integers
+
+335
+00:15:38,519 --> 00:15:42,759
+are a
+
+336
+00:15:39,880 --> 00:15:45,600
+ring and uh it's quite complicated
+
+337
+00:15:42,759 --> 00:15:48,120
+that's section 10.2 and it's not very
+
+338
+00:15:45,600 --> 00:15:50,040
+helpful either um and if you really want
+
+339
+00:15:48,120 --> 00:15:51,920
+to see why the integers form a ring and
+
+340
+00:15:50,040 --> 00:15:55,519
+satisfy all the axioms it's best to see
+
+341
+00:15:51,920 --> 00:15:55,519
+it in this way so the
+
+342
+00:15:55,880 --> 00:16:00,920
+best way to get ring
+
+343
+00:16:02,759 --> 00:16:06,279
+which are called endomorphism
+
+344
+00:16:09,199 --> 00:16:12,639
+Rings is to
+
+345
+00:16:13,639 --> 00:16:17,519
+start with an ailan
+
+346
+00:16:20,000 --> 00:16:23,000
+group
+
+347
+00:16:23,079 --> 00:16:27,720
+a you know with the usual addition and
+
+348
+00:16:26,000 --> 00:16:31,319
+identity element
+
+349
+00:16:27,720 --> 00:16:31,319
+zero and to let
+
+350
+00:16:31,720 --> 00:16:38,519
+R which is called The endomorphism Ring
+
+351
+00:16:34,399 --> 00:16:41,120
+of a be the set of all homomorphisms F
+
+352
+00:16:38,519 --> 00:16:41,120
+from a to
+
+353
+00:16:47,600 --> 00:16:52,120
+a all maps from the ailan group to
+
+354
+00:16:50,639 --> 00:16:55,079
+itself which are group
+
+355
+00:16:52,120 --> 00:16:57,160
+homomorphisms now that's a set so to
+
+356
+00:16:55,079 --> 00:16:59,279
+turn it into a ring I have to tell you
+
+357
+00:16:57,160 --> 00:17:01,519
+what the addition law is what the
+
+358
+00:16:59,279 --> 00:17:03,440
+identity under addition law is what the
+
+359
+00:17:01,519 --> 00:17:07,439
+multiplication law is what the identity
+
+360
+00:17:03,440 --> 00:17:09,640
+under multiplication is etc etc okay so
+
+361
+00:17:07,439 --> 00:17:12,559
+I'll tell you that so the plus law I
+
+362
+00:17:09,640 --> 00:17:14,799
+have to tell you what f plus G is as a
+
+363
+00:17:12,559 --> 00:17:18,839
+homomorphism from a to
+
+364
+00:17:14,799 --> 00:17:18,839
+a so we're going to define the
+
+365
+00:17:23,679 --> 00:17:29,640
+structure f+ G is the homomorphism that
+
+366
+00:17:27,160 --> 00:17:34,640
+takes a to F of a
+
+367
+00:17:29,640 --> 00:17:37,760
+plus G of a and this is addition in a
+
+368
+00:17:34,640 --> 00:17:41,200
+and this is addition in
+
+369
+00:17:37,760 --> 00:17:45,280
+R so you you you you apply F to a and
+
+370
+00:17:41,200 --> 00:17:48,039
+you add it in the ailion group to G of
+
+371
+00:17:45,280 --> 00:17:51,120
+a now that's clearly commutative because
+
+372
+00:17:48,039 --> 00:17:54,440
+the addition law in the in the group is
+
+373
+00:17:51,120 --> 00:17:57,799
+commutative the identity element zero
+
+374
+00:17:54,440 --> 00:18:00,000
+takes any element a to zero of the ailan
+
+375
+00:17:57,799 --> 00:18:02,120
+group a that's a hom orphism of a ailan
+
+376
+00:18:00,000 --> 00:18:04,600
+group takes every element to the zero
+
+377
+00:18:02,120 --> 00:18:07,760
+element that has the property that if
+
+378
+00:18:04,600 --> 00:18:09,960
+you add it to an arbitrary
+
+379
+00:18:07,760 --> 00:18:12,919
+homomorphism right you don't change
+
+380
+00:18:09,960 --> 00:18:15,320
+anything because you're adding F of a to
+
+381
+00:18:12,919 --> 00:18:22,000
+zero so you get the same
+
+382
+00:18:15,320 --> 00:18:22,000
+homomorphism so 0 + f is equal to
+
+383
+00:18:22,240 --> 00:18:30,320
+F the the minus operation minus F of
+
+384
+00:18:26,240 --> 00:18:32,159
+a is minus f of a that's kind of a funny
+
+385
+00:18:30,320 --> 00:18:34,360
+way of writing it um maybe I'll write it
+
+386
+00:18:32,159 --> 00:18:34,360
+like
+
+387
+00:18:34,600 --> 00:18:42,320
+this minus F of a where this is the
+
+388
+00:18:38,480 --> 00:18:44,840
+minus in the ailan group a so that is
+
+389
+00:18:42,320 --> 00:18:46,760
+the property that if you if you define
+
+390
+00:18:44,840 --> 00:18:49,080
+this it's a homomorphism you have to
+
+391
+00:18:46,760 --> 00:18:51,679
+check that and that if you add this
+
+392
+00:18:49,080 --> 00:18:53,919
+homomorphism to the homomorphism f using
+
+393
+00:18:51,679 --> 00:18:56,400
+this you get to the homomorphism zero
+
+394
+00:18:53,919 --> 00:19:00,120
+because if you add F of a to minus F of
+
+395
+00:18:56,400 --> 00:19:02,919
+a you get zero for any a
+
+396
+00:19:00,120 --> 00:19:05,400
+so there's the addition law in this ring
+
+397
+00:19:02,919 --> 00:19:08,760
+kind of nutty but there it is it's just
+
+398
+00:19:05,400 --> 00:19:12,080
+using nothing but the addition law on
+
+399
+00:19:08,760 --> 00:19:17,840
+a okay now how about the multiplication
+
+400
+00:19:12,080 --> 00:19:17,840
+law what's f * G of
+
+401
+00:19:18,799 --> 00:19:22,400
+a well here's here's where you get
+
+402
+00:19:21,039 --> 00:19:23,960
+something interesting we have to come up
+
+403
+00:19:22,400 --> 00:19:25,799
+with something associative that's always
+
+404
+00:19:23,960 --> 00:19:28,520
+hard to do remember associativity is
+
+405
+00:19:25,799 --> 00:19:30,760
+tricky to prove so the only thing we
+
+406
+00:19:28,520 --> 00:19:32,840
+know no or associative is composition of
+
+407
+00:19:30,760 --> 00:19:34,760
+mappings that's how we construct it like
+
+408
+00:19:32,840 --> 00:19:36,799
+the symmetric group composition of maps
+
+409
+00:19:34,760 --> 00:19:39,400
+from a set to a set so we'll do the same
+
+410
+00:19:36,799 --> 00:19:41,360
+thing here why don't we just call this F
+
+411
+00:19:39,400 --> 00:19:43,760
+of G of
+
+412
+00:19:41,360 --> 00:19:47,120
+a and now you see why I had to go from
+
+413
+00:19:43,760 --> 00:19:48,679
+an ailan group to itself to compose Maps
+
+414
+00:19:47,120 --> 00:19:51,559
+you have to make sure that g of a is an
+
+415
+00:19:48,679 --> 00:19:53,799
+element in a so I can apply F to it this
+
+416
+00:19:51,559 --> 00:19:58,080
+is a new homomorphism note that this
+
+417
+00:19:53,799 --> 00:19:59,240
+need not be equal to possibly G * F
+
+418
+00:19:58,080 --> 00:20:03,039
+because there's no reason the
+
+419
+00:19:59,240 --> 00:20:03,039
+composition in the two directions is the
+
+420
+00:20:03,120 --> 00:20:07,880
+same okay and then you have to check oh
+
+421
+00:20:05,919 --> 00:20:12,240
+the identity what's
+
+422
+00:20:07,880 --> 00:20:14,840
+one one of a well what homomorphism
+
+423
+00:20:12,240 --> 00:20:16,440
+should we use to you to to to preserve
+
+424
+00:20:14,840 --> 00:20:19,400
+when we did multiplication to preserve
+
+425
+00:20:16,440 --> 00:20:23,200
+the map where should it take an
+
+426
+00:20:19,400 --> 00:20:25,440
+element a it's the identity map on
+
+427
+00:20:23,200 --> 00:20:28,080
+a identity
+
+428
+00:20:25,440 --> 00:20:30,039
+homomorphism that always exists if you
+
+429
+00:20:28,080 --> 00:20:31,679
+map an a group to itself taking every
+
+430
+00:20:30,039 --> 00:20:34,679
+element to
+
+431
+00:20:31,679 --> 00:20:34,679
+itself
+
+432
+00:20:35,200 --> 00:20:40,640
+okay so
+
+433
+00:20:37,640 --> 00:20:42,480
+uh now notice here that you don't
+
+434
+00:20:40,640 --> 00:20:45,120
+necessarily have an
+
+435
+00:20:42,480 --> 00:20:46,440
+inverse nor we already noticed it
+
+436
+00:20:45,120 --> 00:20:48,480
+doesn't have to be commutative there's
+
+437
+00:20:46,440 --> 00:20:49,960
+no reason that composition of maps be
+
+438
+00:20:48,480 --> 00:20:52,919
+commutative I'll give you examples of
+
+439
+00:20:49,960 --> 00:20:55,840
+that but also when will an element F
+
+440
+00:20:52,919 --> 00:20:57,720
+here have an inverse another when will
+
+441
+00:20:55,840 --> 00:20:59,760
+we be able to find um or when will an
+
+442
+00:20:57,720 --> 00:21:02,280
+element G have aners when we be a find
+
+443
+00:20:59,760 --> 00:21:04,880
+an element F that inverts this procedure
+
+444
+00:21:02,280 --> 00:21:11,600
+and takes G of a back to
+
+445
+00:21:04,880 --> 00:21:11,600
+a yeah exactly so uh F has an
+
+446
+00:21:12,240 --> 00:21:20,360
+inverse if and only if it is an
+
+447
+00:21:17,919 --> 00:21:23,679
+isomorphism of
+
+448
+00:21:20,360 --> 00:21:25,960
+groups and for example this thing won't
+
+449
+00:21:23,679 --> 00:21:28,640
+have an inverse once our ailan group has
+
+450
+00:21:25,960 --> 00:21:31,840
+more than one element in it
+
+451
+00:21:28,640 --> 00:21:35,799
+so this ring by the way this zero ring
+
+452
+00:21:31,840 --> 00:21:38,919
+is the endomorphism ring of the zero
+
+453
+00:21:35,799 --> 00:21:40,320
+group kind of stupid but there it is
+
+454
+00:21:38,919 --> 00:21:42,600
+where could it I mean there's only one
+
+455
+00:21:40,320 --> 00:21:44,520
+homomorphism from zero the zero group to
+
+456
+00:21:42,600 --> 00:21:47,120
+itself takes Z to
+
+457
+00:21:44,520 --> 00:21:49,360
+zero okay now let's go through the
+
+458
+00:21:47,120 --> 00:21:52,480
+examples and see how we got our
+
+459
+00:21:49,360 --> 00:21:54,279
+endomorphism Rings first of all I claim
+
+460
+00:21:52,480 --> 00:21:56,559
+and this is the coolest construction
+
+461
+00:21:54,279 --> 00:21:58,559
+possible and the only way to explain to
+
+462
+00:21:56,559 --> 00:22:00,080
+your third gr grader why mult
+
+463
+00:21:58,559 --> 00:22:02,279
+multiplication of two negative numbers
+
+464
+00:22:00,080 --> 00:22:03,559
+is negative is positive excuse me you
+
+465
+00:22:02,279 --> 00:22:06,240
+don't want to prove it's
+
+466
+00:22:03,559 --> 00:22:07,440
+negative okay I erased all the examples
+
+467
+00:22:06,240 --> 00:22:12,000
+but I'm going to show you how you get
+
+468
+00:22:07,440 --> 00:22:12,000
+all these from the from the
+
+469
+00:22:12,480 --> 00:22:22,559
+uh so for example Z is the endomorphism
+
+470
+00:22:17,559 --> 00:22:27,159
+ring of Z under addition that's zero I
+
+471
+00:22:22,559 --> 00:22:27,159
+claim that that's how you get the ring Z
+
+472
+00:22:29,840 --> 00:22:35,600
+and so just once we understand addition
+
+473
+00:22:32,960 --> 00:22:38,159
+and subtraction of integers then we can
+
+474
+00:22:35,600 --> 00:22:39,960
+construct a new system of numbers really
+
+475
+00:22:38,159 --> 00:22:42,760
+on the same set that includes
+
+476
+00:22:39,960 --> 00:22:45,000
+multiplication how do I do this the
+
+477
+00:22:42,760 --> 00:22:47,520
+identification of an endomorphism so
+
+478
+00:22:45,000 --> 00:22:50,960
+suppose I have some map from F from Z to
+
+479
+00:22:47,520 --> 00:22:50,960
+Z a group
+
+480
+00:22:52,120 --> 00:22:58,720
+homomorphism how do I identify that with
+
+481
+00:22:55,559 --> 00:23:00,200
+an integer how would I how would I make
+
+482
+00:22:58,720 --> 00:23:02,400
+the identification of the group of
+
+483
+00:23:00,200 --> 00:23:05,120
+endomorph the Ring of endomorphisms of
+
+484
+00:23:02,400 --> 00:23:07,799
+this ailan group with an
+
+485
+00:23:05,120 --> 00:23:10,279
+integer well what determines a group
+
+486
+00:23:07,799 --> 00:23:11,960
+homomorphism from Z to z f of zero is
+
+487
+00:23:10,279 --> 00:23:16,360
+zero right that we
+
+488
+00:23:11,960 --> 00:23:20,039
+know yeah F of one is an integer F of
+
+489
+00:23:16,360 --> 00:23:22,720
+one is equal to some integer n in Z
+
+490
+00:23:20,039 --> 00:23:22,720
+determines
+
+491
+00:23:24,559 --> 00:23:30,640
+everything because if I want to know
+
+492
+00:23:27,039 --> 00:23:34,799
+what F of two is that's F of 1 plus F of
+
+493
+00:23:30,640 --> 00:23:39,679
+1 so it's 2 N and likewise F of an
+
+494
+00:23:34,799 --> 00:23:42,080
+arbitrary integer K is K * n so once I
+
+495
+00:23:39,679 --> 00:23:45,000
+know what F of one is I've got my
+
+496
+00:23:42,080 --> 00:23:48,720
+homomorphism moreover F of one can be
+
+497
+00:23:45,000 --> 00:23:51,039
+anything I want because this map is a
+
+498
+00:23:48,720 --> 00:23:55,000
+homomorphism of a billion
+
+499
+00:23:51,039 --> 00:23:58,919
+groups so I take F and I associate to it
+
+500
+00:23:55,000 --> 00:24:02,640
+the integer F of one
+
+501
+00:23:58,919 --> 00:24:05,679
+and I claim that that gives this set a
+
+502
+00:24:02,640 --> 00:24:08,159
+ring structure where the product of two
+
+503
+00:24:05,679 --> 00:24:10,200
+negative numbers is a positive
+
+504
+00:24:08,159 --> 00:24:13,000
+number let's
+
+505
+00:24:10,200 --> 00:24:14,919
+see let's see why this is the right way
+
+506
+00:24:13,000 --> 00:24:17,200
+to to think of the integers under
+
+507
+00:24:14,919 --> 00:24:20,880
+multiplication suppose I compose f with
+
+508
+00:24:17,200 --> 00:24:23,720
+G so suppose F of K is K * n so F we've
+
+509
+00:24:20,880 --> 00:24:24,720
+Associated to the number n and suppose G
+
+510
+00:24:23,720 --> 00:24:27,360
+of
+
+511
+00:24:24,720 --> 00:24:32,279
+K is K *
+
+512
+00:24:27,360 --> 00:24:36,520
+m so G is associated to the integer M
+
+513
+00:24:32,279 --> 00:24:42,480
+what is f * G of
+
+514
+00:24:36,520 --> 00:24:45,679
+K well G of K is KM and I have to apply
+
+515
+00:24:42,480 --> 00:24:51,159
+F of that F takes anything integer and
+
+516
+00:24:45,679 --> 00:24:51,159
+it multiplies it by n so this is K *
+
+517
+00:24:51,760 --> 00:24:58,600
+MN right so that F time G in the ring
+
+518
+00:24:56,039 --> 00:25:00,640
+structure that I put on this using this
+
+519
+00:24:58,600 --> 00:25:02,919
+identification becomes multiplication of
+
+520
+00:25:00,640 --> 00:25:02,919
+M and
+
+521
+00:25:09,080 --> 00:25:15,240
+N and if you think of what it means for
+
+522
+00:25:13,480 --> 00:25:17,360
+a group homomorphism here to be
+
+523
+00:25:15,240 --> 00:25:20,000
+Associated to a negative integer it
+
+524
+00:25:17,360 --> 00:25:22,440
+means it takes one to a negative
+
+525
+00:25:20,000 --> 00:25:25,000
+integer right so it takes all positive
+
+526
+00:25:22,440 --> 00:25:26,640
+integers to all negative integers if you
+
+527
+00:25:25,000 --> 00:25:28,000
+take two of those things and takes all
+
+528
+00:25:26,640 --> 00:25:29,559
+negative integers to all positive
+
+529
+00:25:28,000 --> 00:25:34,080
+integers
+
+530
+00:25:29,559 --> 00:25:34,080
+so if f is associated to a negative
+
+531
+00:25:34,240 --> 00:25:40,760
+number it switches these two halves of
+
+532
+00:25:37,679 --> 00:25:42,039
+the real line right likewise if G is
+
+533
+00:25:40,760 --> 00:25:43,720
+associated to a negative number it
+
+534
+00:25:42,039 --> 00:25:45,240
+switches them again so if you compose
+
+535
+00:25:43,720 --> 00:25:47,200
+those two things you preserve positive
+
+536
+00:25:45,240 --> 00:25:48,600
+and negative that's why the product of
+
+537
+00:25:47,200 --> 00:25:50,360
+two negative numbers is a positive
+
+538
+00:25:48,600 --> 00:25:52,559
+number that's the only way to do it it's
+
+539
+00:25:50,360 --> 00:25:54,960
+not a convention it's because that's the
+
+540
+00:25:52,559 --> 00:25:56,279
+structure of the ring and the way to get
+
+541
+00:25:54,960 --> 00:25:57,760
+the structure of the ring is to think of
+
+542
+00:25:56,279 --> 00:26:02,760
+it as the endomorphism Ring of this
+
+543
+00:25:57,760 --> 00:26:05,399
+ailan group likewise I claim zmod n as a
+
+544
+00:26:02,760 --> 00:26:08,120
+ring is the endomorphism ring of the
+
+545
+00:26:05,399 --> 00:26:10,760
+aelan group Zod n under plus this is
+
+546
+00:26:08,120 --> 00:26:12,559
+very special very special usually when
+
+547
+00:26:10,760 --> 00:26:14,080
+you get endomorphisms aan group you
+
+548
+00:26:12,559 --> 00:26:17,000
+can't identify it as a set with the
+
+549
+00:26:14,080 --> 00:26:21,600
+group but again it's the same reason you
+
+550
+00:26:17,000 --> 00:26:24,279
+identify an F with f of one and once I
+
+551
+00:26:21,600 --> 00:26:27,240
+know F of one since this group is cyclic
+
+552
+00:26:24,279 --> 00:26:30,840
+generated by one I know everything so
+
+553
+00:26:27,240 --> 00:26:30,840
+this is a phenomenon for cyclic
+
+554
+00:26:31,960 --> 00:26:37,080
+groups to give a ring
+
+555
+00:26:37,640 --> 00:26:44,399
+structure on cyclic groups not General
+
+556
+00:26:42,279 --> 00:26:46,399
+cyclic groups and we know that the only
+
+557
+00:26:44,399 --> 00:26:49,159
+cyclic groups if they're finite or Z mod
+
+558
+00:26:46,399 --> 00:26:51,520
+n and if they're infinite are Z so we're
+
+559
+00:26:49,159 --> 00:26:52,760
+done with that any other anytime we take
+
+560
+00:26:51,520 --> 00:26:54,919
+another a bilion group we're not going
+
+561
+00:26:52,760 --> 00:26:56,559
+to be able to identify its endomorphisms
+
+562
+00:26:54,919 --> 00:26:57,840
+with the elements in the group because
+
+563
+00:26:56,559 --> 00:27:00,240
+we're going to have to know more than F
+
+564
+00:26:57,840 --> 00:27:00,240
+of one
+
+565
+00:27:00,320 --> 00:27:04,360
+okay so let's take another ailion group
+
+566
+00:27:02,840 --> 00:27:07,720
+that's a little bit more complicated
+
+567
+00:27:04,360 --> 00:27:12,480
+than a cyclic group and see what we
+
+568
+00:27:07,720 --> 00:27:14,200
+get well our next case suppose we took a
+
+569
+00:27:12,480 --> 00:27:18,159
+to be Zod
+
+570
+00:27:14,200 --> 00:27:18,159
+p z
+
+571
+00:27:19,440 --> 00:27:26,240
+squ so
+
+572
+00:27:21,360 --> 00:27:28,600
+pairs of elements A1 A2 where the AIS
+
+573
+00:27:26,240 --> 00:27:31,360
+are in z pz
+
+574
+00:27:28,600 --> 00:27:34,799
+that's an ailan group of order p^ squ
+
+575
+00:27:31,360 --> 00:27:34,799
+what's its endomorphism ring of
+
+576
+00:27:35,799 --> 00:27:41,799
+a this the ring we've
+
+577
+00:27:38,320 --> 00:27:44,000
+seen you have to have a
+
+578
+00:27:41,799 --> 00:27:46,840
+map you could think of this as a column
+
+579
+00:27:44,000 --> 00:27:49,200
+Vector if it helps that takes a pair of
+
+580
+00:27:46,840 --> 00:27:51,760
+elements in Zod p^ squ and produces
+
+581
+00:27:49,200 --> 00:27:54,120
+another pair of elements in Zod p^ squ
+
+582
+00:27:51,760 --> 00:27:56,279
+in a way that preserves the addition in
+
+583
+00:27:54,120 --> 00:27:58,840
+z p squ it's an endomorphism of thean
+
+584
+00:27:56,279 --> 00:28:00,840
+group what's that
+
+585
+00:27:58,840 --> 00:28:04,200
+you've got it exactly this is 2x two
+
+586
+00:28:00,840 --> 00:28:04,200
+matrices over Zod
+
+587
+00:28:04,559 --> 00:28:10,679
+PC and you apply it if you have an
+
+588
+00:28:07,919 --> 00:28:12,360
+element in this 2 by two matrices ring
+
+589
+00:28:10,679 --> 00:28:16,480
+which I can't use the letter A for
+
+590
+00:28:12,360 --> 00:28:16,480
+because I've so if I have a matrix
+
+591
+00:28:18,480 --> 00:28:28,760
+B then I say B of A1
+
+592
+00:28:23,279 --> 00:28:31,200
+A2 is f of my element a i apply B to
+
+593
+00:28:28,760 --> 00:28:33,799
+this column vector and th those are the
+
+594
+00:28:31,200 --> 00:28:36,080
+only endomorphisms of the ailion group I
+
+595
+00:28:33,799 --> 00:28:37,360
+get they happen to preserve scal or
+
+596
+00:28:36,080 --> 00:28:39,880
+multiplication because scaler
+
+597
+00:28:37,360 --> 00:28:43,600
+multiplication in this in this weird
+
+598
+00:28:39,880 --> 00:28:46,159
+ailion this weird Vector space is just
+
+599
+00:28:43,600 --> 00:28:50,640
+given by multiplication by elements of
+
+600
+00:28:46,159 --> 00:28:50,640
+Z so here is a non-commutative
+
+601
+00:28:51,960 --> 00:28:56,880
+ring it's very rare for an endomorphism
+
+602
+00:28:55,039 --> 00:28:58,679
+ring to be commutative there's really no
+
+603
+00:28:56,880 --> 00:29:00,320
+reason that composition is the same in
+
+604
+00:28:58,679 --> 00:29:02,399
+both directions it is for these cyclic
+
+605
+00:29:00,320 --> 00:29:05,559
+groups because it's so
+
+606
+00:29:02,399 --> 00:29:08,760
+stupid and more generally if I had a the
+
+607
+00:29:05,559 --> 00:29:12,840
+elementary ailan group of of order P to
+
+608
+00:29:08,760 --> 00:29:18,000
+the N then the endomorphism Ring of a
+
+609
+00:29:12,840 --> 00:29:18,000
+turns out to be n byn matrices over Zod
+
+610
+00:29:19,320 --> 00:29:24,840
+PC so that gives you quite a nice
+
+611
+00:29:22,240 --> 00:29:27,840
+collection of of uh non-commutative
+
+612
+00:29:24,840 --> 00:29:27,840
+rings
+
+613
+00:29:29,200 --> 00:29:35,480
+okay so uh the first the first two
+
+614
+00:29:33,720 --> 00:29:37,919
+sections are really just the definition
+
+615
+00:29:35,480 --> 00:29:40,399
+of a ring some examples of a ring as I
+
+616
+00:29:37,919 --> 00:29:42,240
+say if you know the Ring of integers you
+
+617
+00:29:40,399 --> 00:29:44,480
+know the Ring of polinomial and you know
+
+618
+00:29:42,240 --> 00:29:46,360
+the Ring of matrices you know all the
+
+619
+00:29:44,480 --> 00:29:50,200
+key examples of rings everything is a
+
+620
+00:29:46,360 --> 00:29:53,279
+variation of those or sub rings of those
+
+621
+00:29:50,200 --> 00:29:54,960
+Etc okay now what I want to do is
+
+622
+00:29:53,279 --> 00:29:56,480
+establish a little bit of the language
+
+623
+00:29:54,960 --> 00:29:58,080
+of ring theory in this lecture we'll
+
+624
+00:29:56,480 --> 00:30:00,240
+come back to do it now I know we've had
+
+625
+00:29:58,080 --> 00:30:03,640
+had a huge number of words and lingos
+
+626
+00:30:00,240 --> 00:30:05,240
+and things like that and and um but
+
+627
+00:30:03,640 --> 00:30:08,720
+since you've now become familiar with
+
+628
+00:30:05,240 --> 00:30:11,080
+group Theory um you're going to uh find
+
+629
+00:30:08,720 --> 00:30:13,760
+some of these at least analogous to
+
+630
+00:30:11,080 --> 00:30:17,760
+things we've done in group
+
+631
+00:30:13,760 --> 00:30:20,240
+Theory okay now in group Theory we had
+
+632
+00:30:17,760 --> 00:30:21,799
+the notion of a subgroup but that wasn't
+
+633
+00:30:20,240 --> 00:30:23,640
+really the critical thing the critical
+
+634
+00:30:21,799 --> 00:30:26,320
+thing was a normal subgroup which was a
+
+635
+00:30:23,640 --> 00:30:28,960
+kernel of a homomorphism so the first
+
+636
+00:30:26,320 --> 00:30:32,000
+thing when we when we when we Define a
+
+637
+00:30:28,960 --> 00:30:34,080
+new object in mathematics like a ring we
+
+638
+00:30:32,000 --> 00:30:36,320
+want to know what's the map what are the
+
+639
+00:30:34,080 --> 00:30:38,360
+maps between those objects in groups
+
+640
+00:30:36,320 --> 00:30:39,840
+they were called homomorphisms in Vector
+
+641
+00:30:38,360 --> 00:30:42,240
+spaces they were called linear
+
+642
+00:30:39,840 --> 00:30:44,640
+Transformations so what should be a map
+
+643
+00:30:42,240 --> 00:30:44,640
+a ring
+
+644
+00:30:50,440 --> 00:30:55,039
+homomorphism between two rings
+
+645
+00:30:58,760 --> 00:31:02,000
+well it should preserve the structure of
+
+646
+00:31:00,360 --> 00:31:03,880
+the Ring that's all we want it to do
+
+647
+00:31:02,000 --> 00:31:08,120
+it's a set mapping that preserves the
+
+648
+00:31:03,880 --> 00:31:08,120
+structure so it should be a map of
+
+649
+00:31:08,840 --> 00:31:12,760
+sets it should be a group
+
+650
+00:31:13,440 --> 00:31:18,679
+homomorphism four plus in particular it
+
+651
+00:31:16,679 --> 00:31:23,559
+should take the I it should take Zer to
+
+652
+00:31:18,679 --> 00:31:27,000
+zero it should take one to one prime and
+
+653
+00:31:23,559 --> 00:31:28,760
+it should take the products in R to the
+
+654
+00:31:27,000 --> 00:31:31,480
+products in R Prime
+
+655
+00:31:28,760 --> 00:31:35,279
+Prime that's
+
+656
+00:31:31,480 --> 00:31:36,399
+it so just preserving the structure of
+
+657
+00:31:35,279 --> 00:31:39,320
+of the
+
+658
+00:31:36,399 --> 00:31:41,200
+ring so sub rings are an example of a
+
+659
+00:31:39,320 --> 00:31:43,840
+ring homomorphism if I have one ring
+
+660
+00:31:41,200 --> 00:31:49,720
+included in another so
+
+661
+00:31:43,840 --> 00:31:52,919
+if R is in RP Prime is a sub
+
+662
+00:31:49,720 --> 00:31:52,919
+ring the
+
+663
+00:31:53,639 --> 00:32:00,799
+inclusion F from R into RP Prime is a
+
+664
+00:31:58,519 --> 00:32:00,799
+ring
+
+665
+00:32:02,080 --> 00:32:05,600
+homomorphism but that's too stupid we're
+
+666
+00:32:04,159 --> 00:32:07,960
+going to have a lot of other ring
+
+667
+00:32:05,600 --> 00:32:11,000
+homomorphisms much more interesting than
+
+668
+00:32:07,960 --> 00:32:13,639
+that and if we wanted to figure out what
+
+669
+00:32:11,000 --> 00:32:16,240
+a normal subgroup is as opposed to a
+
+670
+00:32:13,639 --> 00:32:19,039
+subgroup we might ask what does the
+
+671
+00:32:16,240 --> 00:32:21,279
+kernel of a ring homomorphism look like
+
+672
+00:32:19,039 --> 00:32:24,519
+so we Define the kernel of
+
+673
+00:32:21,279 --> 00:32:25,919
+f as the group theoretic kernel it's all
+
+674
+00:32:24,519 --> 00:32:28,799
+A and
+
+675
+00:32:25,919 --> 00:32:33,080
+R such that f ofx
+
+676
+00:32:28,799 --> 00:32:33,080
+is equal to the zero element in R
+
+677
+00:32:36,000 --> 00:32:43,760
+Prime okay and the
+
+678
+00:32:39,279 --> 00:32:43,760
+kernel has the following interesting
+
+679
+00:32:51,240 --> 00:32:55,240
+properties this was a really huge
+
+680
+00:32:53,639 --> 00:32:58,639
+breakthrough in mathematics when they
+
+681
+00:32:55,240 --> 00:33:00,240
+realized that um the ring morphisms that
+
+682
+00:32:58,639 --> 00:33:02,320
+kernels were were a little bit more
+
+683
+00:33:00,240 --> 00:33:04,679
+interesting than you'd expect so the
+
+684
+00:33:02,320 --> 00:33:04,679
+first
+
+685
+00:33:07,240 --> 00:33:10,600
+property it's a
+
+686
+00:33:11,799 --> 00:33:17,799
+subgroup under plus because the kernel
+
+687
+00:33:14,960 --> 00:33:20,120
+of any group homomorphism is a subgroup
+
+688
+00:33:17,799 --> 00:33:22,200
+and whatever f is it's a homomorphism of
+
+689
+00:33:20,120 --> 00:33:24,200
+groups and we're looking at its kernel
+
+690
+00:33:22,200 --> 00:33:25,399
+in the sense of a homomorphism for group
+
+691
+00:33:24,200 --> 00:33:28,639
+so it's a
+
+692
+00:33:25,399 --> 00:33:30,960
+subgroup okay now
+
+693
+00:33:28,639 --> 00:33:33,480
+what people first thought would be the
+
+694
+00:33:30,960 --> 00:33:35,519
+case is that like a sub ring it would be
+
+695
+00:33:33,480 --> 00:33:36,720
+stable under multiplication and it
+
+696
+00:33:35,519 --> 00:33:40,399
+certainly
+
+697
+00:33:36,720 --> 00:33:46,080
+is if a and b are in
+
+698
+00:33:40,399 --> 00:33:47,880
+R so is a * b and btimes a well we're
+
+699
+00:33:46,080 --> 00:33:49,960
+only gonna from now on in this lecture
+
+700
+00:33:47,880 --> 00:33:53,440
+let's just do commutative
+
+701
+00:33:49,960 --> 00:33:55,760
+rings and from now on in fact for the
+
+702
+00:33:53,440 --> 00:33:57,080
+rest of this semester we're going to
+
+703
+00:33:55,760 --> 00:33:58,880
+assume our ring is commutative
+
+704
+00:33:57,080 --> 00:34:01,399
+non-commutative Rings is a beautiful
+
+705
+00:33:58,880 --> 00:34:03,480
+beautiful subject quite closely related
+
+706
+00:34:01,399 --> 00:34:05,480
+to groups it turns out so we're skipping
+
+707
+00:34:03,480 --> 00:34:07,799
+over this large section of the book
+
+708
+00:34:05,480 --> 00:34:09,240
+which is called group representations if
+
+709
+00:34:07,799 --> 00:34:11,320
+I have any chance at the end I'll tell
+
+710
+00:34:09,240 --> 00:34:12,679
+you what you missed but you can't do
+
+711
+00:34:11,320 --> 00:34:14,280
+group representations without
+
+712
+00:34:12,679 --> 00:34:15,639
+non-commutative rings but we're going to
+
+713
+00:34:14,280 --> 00:34:19,000
+skip that and for now we're going to
+
+714
+00:34:15,639 --> 00:34:19,000
+just concentrate on commutative
+
+715
+00:34:19,480 --> 00:34:22,839
+Rings the reason I didn't want to assume
+
+716
+00:34:21,760 --> 00:34:26,040
+that initially is that these
+
+717
+00:34:22,839 --> 00:34:28,359
+endomorphism rings are very rarely
+
+718
+00:34:26,040 --> 00:34:31,320
+commutative okay
+
+719
+00:34:28,359 --> 00:34:37,480
+so if I have two elements in R so is a *
+
+720
+00:34:31,320 --> 00:34:40,960
+B Because F of a * B is f of a * F of B
+
+721
+00:34:37,480 --> 00:34:44,440
+which is 0 * 0 which is
+
+722
+00:34:40,960 --> 00:34:47,839
+0o so far so
+
+723
+00:34:44,440 --> 00:34:51,000
+good yeah so then so is if A and B is in
+
+724
+00:34:47,839 --> 00:34:54,320
+sorry thank you Colonel so is a Time B
+
+725
+00:34:51,000 --> 00:34:56,320
+colel Val here's the proof so it just
+
+726
+00:34:54,320 --> 00:34:58,079
+looks like it's a sub ring right this
+
+727
+00:34:56,320 --> 00:35:01,480
+would just mean a sub ring it's a group
+
+728
+00:34:58,079 --> 00:35:03,960
+it's closed under plus contains zero
+
+729
+00:35:01,480 --> 00:35:06,920
+um and it's closed under product it
+
+730
+00:35:03,960 --> 00:35:10,760
+doesn't necessarily contain
+
+731
+00:35:06,920 --> 00:35:13,119
+one okay but what the cool thing is is
+
+732
+00:35:10,760 --> 00:35:15,880
+that there's an additional
+
+733
+00:35:13,119 --> 00:35:18,880
+property
+
+734
+00:35:15,880 --> 00:35:18,880
+stronger
+
+735
+00:35:19,119 --> 00:35:27,119
+property if a is in the kernel of
+
+736
+00:35:22,839 --> 00:35:29,320
+F and B is any element of the Ring not
+
+737
+00:35:27,119 --> 00:35:34,040
+an element in the kernel but any element
+
+738
+00:35:29,320 --> 00:35:36,200
+in the ring then a * B is in the kernel
+
+739
+00:35:34,040 --> 00:35:36,200
+of
+
+740
+00:35:37,079 --> 00:35:42,200
+f so it's not just stable under product
+
+741
+00:35:40,640 --> 00:35:43,680
+it's stable under product where you
+
+742
+00:35:42,200 --> 00:35:45,880
+where you take any element in the ring
+
+743
+00:35:43,680 --> 00:35:52,440
+and you take the product and the proof
+
+744
+00:35:45,880 --> 00:35:56,480
+is f of a * B is f of a * F of B which
+
+745
+00:35:52,440 --> 00:35:58,160
+is 0 * F of B and we just saw in the
+
+746
+00:35:56,480 --> 00:35:59,920
+proof where that 1 is equal to Zer
+
+747
+00:35:58,160 --> 00:36:04,319
+business that for any element in the
+
+748
+00:35:59,920 --> 00:36:06,800
+ring 0 * the element is zero and so a *
+
+749
+00:36:04,319 --> 00:36:06,800
+B is in the
+
+750
+00:36:07,359 --> 00:36:11,960
+kernel
+
+751
+00:36:08,880 --> 00:36:14,280
+okay so it's better than stable under
+
+752
+00:36:11,960 --> 00:36:15,480
+Plus in multiplication it's stable under
+
+753
+00:36:14,280 --> 00:36:17,920
+plus and it's stable under
+
+754
+00:36:15,480 --> 00:36:19,760
+multiplication even when you leave it
+
+755
+00:36:17,920 --> 00:36:20,960
+even when you leave it the second
+
+756
+00:36:19,760 --> 00:36:24,119
+element can be
+
+757
+00:36:20,960 --> 00:36:25,839
+anywhere so those subsets the the things
+
+758
+00:36:24,119 --> 00:36:28,920
+which are kernels of
+
+759
+00:36:25,839 --> 00:36:30,640
+homomorphisms are called for historical
+
+760
+00:36:28,920 --> 00:36:34,720
+reasons which I'll try to explain to you
+
+761
+00:36:30,640 --> 00:36:34,720
+as we get on in the subject
+
+762
+00:36:35,280 --> 00:36:38,839
+ideals so a
+
+763
+00:36:39,640 --> 00:36:45,720
+subset I in R which is a
+
+764
+00:36:46,960 --> 00:36:52,560
+subgroup under
+
+765
+00:36:49,359 --> 00:36:55,480
+plus and is
+
+766
+00:36:52,560 --> 00:36:58,560
+closed
+
+767
+00:36:55,480 --> 00:37:03,079
+under by any
+
+768
+00:36:58,560 --> 00:37:03,079
+element B in R is
+
+769
+00:37:03,720 --> 00:37:06,960
+called an
+
+770
+00:37:07,480 --> 00:37:14,240
+ideal the the the the the actual word
+
+771
+00:37:11,160 --> 00:37:16,200
+came from the platonic notion of ideals
+
+772
+00:37:14,240 --> 00:37:17,560
+and we're going to see why it was chosen
+
+773
+00:37:16,200 --> 00:37:20,960
+as we get a little further in the
+
+774
+00:37:17,560 --> 00:37:23,240
+subject it's called an
+
+775
+00:37:20,960 --> 00:37:25,520
+ideal it came from algebraic number
+
+776
+00:37:23,240 --> 00:37:27,000
+Theory and what it was discovered by a
+
+777
+00:37:25,520 --> 00:37:31,000
+mathematician in the middle of the 19th
+
+778
+00:37:27,000 --> 00:37:33,760
+century called called kumr and kumr
+
+779
+00:37:31,000 --> 00:37:34,839
+realized that people had been working
+
+780
+00:37:33,760 --> 00:37:37,640
+with
+
+781
+00:37:34,839 --> 00:37:39,960
+certain subsets of rings which were
+
+782
+00:37:37,640 --> 00:37:42,440
+ideals and he wanted a more General
+
+783
+00:37:39,960 --> 00:37:44,599
+notion which was just a subgroup closed
+
+784
+00:37:42,440 --> 00:37:46,560
+under this and that was such a novel
+
+785
+00:37:44,599 --> 00:37:48,319
+notion in algebra at the time that you
+
+786
+00:37:46,560 --> 00:37:50,319
+discover that you define something by
+
+787
+00:37:48,319 --> 00:37:53,040
+its General properties rather than just
+
+788
+00:37:50,319 --> 00:37:55,839
+by this is an example of such and so he
+
+789
+00:37:53,040 --> 00:37:57,880
+called it a an ideal because in it was a
+
+790
+00:37:55,839 --> 00:38:00,680
+generalization of what they knew was the
+
+791
+00:37:57,880 --> 00:38:02,560
+idealized version of it the platonic
+
+792
+00:38:00,680 --> 00:38:04,560
+ideal so an
+
+793
+00:38:02,560 --> 00:38:09,359
+example
+
+794
+00:38:04,560 --> 00:38:09,359
+examples one any kernel of a
+
+795
+00:38:15,560 --> 00:38:23,599
+homomorphism two the zero
+
+796
+00:38:20,000 --> 00:38:25,560
+set is an ideal it's the kernel of a
+
+797
+00:38:23,599 --> 00:38:28,800
+homomorphism that takes everything in R
+
+798
+00:38:25,560 --> 00:38:28,800
+to zero
+
+799
+00:38:33,599 --> 00:38:36,160
+the zero
+
+800
+00:38:38,319 --> 00:38:43,599
+ring if you map everything in R of the
+
+801
+00:38:40,720 --> 00:38:46,800
+zero ring that's a ring homomorphism and
+
+802
+00:38:43,599 --> 00:38:49,359
+its kernel is every sorry sorry sorry
+
+803
+00:38:46,800 --> 00:38:51,800
+it's the kernel of the map excuse me
+
+804
+00:38:49,359 --> 00:38:53,560
+from R to R which is the identity map
+
+805
+00:38:51,800 --> 00:38:58,359
+thank
+
+806
+00:38:53,560 --> 00:38:59,680
+you and the third example sorry is r
+
+807
+00:38:58,359 --> 00:39:03,160
+and that's the
+
+808
+00:38:59,680 --> 00:39:06,040
+kernel of the map
+
+809
+00:39:03,160 --> 00:39:09,800
+R goes by taking everything to the zero
+
+810
+00:39:06,040 --> 00:39:12,440
+ring sorry thank you so these are very
+
+811
+00:39:09,800 --> 00:39:14,240
+extreme ideals this is as small as you
+
+812
+00:39:12,440 --> 00:39:17,040
+can get an ideal this is as large as you
+
+813
+00:39:14,240 --> 00:39:19,920
+can get an ideal we're going to show
+
+814
+00:39:17,040 --> 00:39:22,640
+just like normal subgroups that every
+
+815
+00:39:19,920 --> 00:39:24,920
+ideal is the kernel of a homomorphism
+
+816
+00:39:22,640 --> 00:39:26,800
+every ideal is the kernel of a
+
+817
+00:39:24,920 --> 00:39:28,000
+homomorphism so that this is the most
+
+818
+00:39:26,800 --> 00:39:32,240
+General but I'll give you another
+
+819
+00:39:28,000 --> 00:39:34,720
+example if you take an element a in
+
+820
+00:39:32,240 --> 00:39:37,680
+R and you consider everything in R
+
+821
+00:39:34,720 --> 00:39:37,680
+that's a multiple of
+
+822
+00:39:43,079 --> 00:39:50,200
+a that's an ideal and it's called the
+
+823
+00:39:46,400 --> 00:39:50,200
+principal ideal generated by
+
+824
+00:39:55,119 --> 00:40:00,880
+a see if you if you add two of these
+
+825
+00:39:58,040 --> 00:40:03,800
+things you get another one because of
+
+826
+00:40:00,880 --> 00:40:05,640
+the distributive law and if you multiply
+
+827
+00:40:03,800 --> 00:40:07,359
+this by anything in R you just use the
+
+828
+00:40:05,640 --> 00:40:10,599
+associative law to recombine that as
+
+829
+00:40:07,359 --> 00:40:13,280
+another multiple of a so this is another
+
+830
+00:40:10,599 --> 00:40:13,280
+example of an
+
+831
+00:40:13,359 --> 00:40:16,359
+ideal
+
+832
+00:40:16,480 --> 00:40:20,520
+okay now having
+
+833
+00:40:20,599 --> 00:40:23,599
+yeah
+
+834
+00:40:24,000 --> 00:40:28,400
+pardon ah good
+
+835
+00:40:29,359 --> 00:40:33,920
+well what do you think suppose I wanted
+
+836
+00:40:32,119 --> 00:40:35,599
+to make a normal subgroup the kernel of
+
+837
+00:40:33,920 --> 00:40:38,640
+a homomorphism what would I make it as a
+
+838
+00:40:35,599 --> 00:40:40,400
+kernel of a homomorphism too what's the
+
+839
+00:40:38,640 --> 00:40:43,200
+normal subgroup the kernel of a it's
+
+840
+00:40:40,400 --> 00:40:46,520
+kernel of a natural homomorphism to
+
+841
+00:40:43,200 --> 00:40:49,119
+what ah so why don't we try to build a
+
+842
+00:40:46,520 --> 00:40:52,280
+new ring out of an ideal called the
+
+843
+00:40:49,119 --> 00:40:54,240
+quotient ring so and let since you've
+
+844
+00:40:52,280 --> 00:40:57,520
+asked me this why why am I hiding it for
+
+845
+00:40:54,240 --> 00:41:00,200
+you any ideal
+
+846
+00:40:57,520 --> 00:41:04,480
+I is the
+
+847
+00:41:00,200 --> 00:41:04,480
+kernel of a natural ring
+
+848
+00:41:11,319 --> 00:41:19,359
+homomorphism or to a new ring called Rod
+
+849
+00:41:15,680 --> 00:41:19,359
+I the quotient
+
+850
+00:41:22,280 --> 00:41:27,359
+ring okay without giving you any detail
+
+851
+00:41:24,760 --> 00:41:29,160
+so it takes an element a here to the co
+
+852
+00:41:27,359 --> 00:41:30,760
+set of I which I'm going to write
+
+853
+00:41:29,160 --> 00:41:33,720
+additively like that because it's an
+
+854
+00:41:30,760 --> 00:41:34,920
+ailan group so this is just the quotient
+
+855
+00:41:33,720 --> 00:41:37,119
+ailion
+
+856
+00:41:34,920 --> 00:41:38,960
+group and I just have to tell you how to
+
+857
+00:41:37,119 --> 00:41:42,359
+multiply things in
+
+858
+00:41:38,960 --> 00:41:45,960
+here right to give you the ring
+
+859
+00:41:42,359 --> 00:41:45,960
+structure the quotient
+
+860
+00:41:47,640 --> 00:41:52,319
+group
+
+861
+00:41:49,160 --> 00:41:57,760
+with multiplication
+
+862
+00:41:52,319 --> 00:42:00,720
+law a + I * b + I
+
+863
+00:41:57,760 --> 00:42:03,400
+is equal to a plus
+
+864
+00:42:00,720 --> 00:42:05,000
+I and you take the coet of a you
+
+865
+00:42:03,400 --> 00:42:08,560
+multiply by the coet of B you get the
+
+866
+00:42:05,000 --> 00:42:10,800
+coet of a * B okay what you have to
+
+867
+00:42:08,560 --> 00:42:12,640
+check is that that's a well- defined
+
+868
+00:42:10,800 --> 00:42:14,720
+multiplication and when you check that
+
+869
+00:42:12,640 --> 00:42:18,599
+that's a wellfine multiplication you'll
+
+870
+00:42:14,720 --> 00:42:18,599
+see that you need this
+
+871
+00:42:20,680 --> 00:42:24,160
+property I'm going to go over that I'm
+
+872
+00:42:22,800 --> 00:42:25,960
+getting a little ahead of myself but
+
+873
+00:42:24,160 --> 00:42:28,000
+since you asked the question and we know
+
+874
+00:42:25,960 --> 00:42:29,839
+the answer for groups we might as well
+
+875
+00:42:28,000 --> 00:42:32,240
+you know that's why I say all this new
+
+876
+00:42:29,839 --> 00:42:34,839
+notation isn't so difficult because we
+
+877
+00:42:32,240 --> 00:42:37,000
+know how to form the quotient group you
+
+878
+00:42:34,839 --> 00:42:38,880
+could do that for any subgroup of R but
+
+879
+00:42:37,000 --> 00:42:40,800
+to get a well- defined multiplication on
+
+880
+00:42:38,880 --> 00:42:42,520
+the quotient group you need this extra
+
+881
+00:42:40,800 --> 00:42:45,520
+property that the subset be closed under
+
+882
+00:42:42,520 --> 00:42:47,760
+multiplication by any element so if you
+
+883
+00:42:45,520 --> 00:42:50,960
+believe this there's your homomorphism
+
+884
+00:42:47,760 --> 00:42:52,880
+with kernel I so that the ideals are
+
+885
+00:42:50,960 --> 00:42:56,880
+precisely the kernels of ring
+
+886
+00:42:52,880 --> 00:42:56,880
+homomorphisms now
+
+887
+00:42:57,280 --> 00:43:02,800
+let's go back to this case and let's
+
+888
+00:42:59,520 --> 00:43:02,800
+work out the ideals of the
+
+889
+00:43:03,440 --> 00:43:06,440
+integers
+
+890
+00:43:08,200 --> 00:43:13,040
+please yes yes very good question there
+
+891
+00:43:11,280 --> 00:43:15,280
+are Notions you have to be careful
+
+892
+00:43:13,040 --> 00:43:17,960
+though for non-commutative brings there
+
+893
+00:43:15,280 --> 00:43:20,319
+are Notions of left ideals then there
+
+894
+00:43:17,960 --> 00:43:22,119
+are Notions of right ideals then there
+
+895
+00:43:20,319 --> 00:43:23,440
+are Notions of two-sided ideals
+
+896
+00:43:22,119 --> 00:43:26,280
+depending on which side you want to
+
+897
+00:43:23,440 --> 00:43:29,760
+multiply and stay closed two-sided
+
+898
+00:43:26,280 --> 00:43:33,720
+ideals are very good good uh things to
+
+899
+00:43:29,760 --> 00:43:37,880
+have um and then their Notions of simple
+
+900
+00:43:33,720 --> 00:43:40,520
+Rings ones which have the only ideals
+
+901
+00:43:37,880 --> 00:43:42,800
+are this and this just like we have
+
+902
+00:43:40,520 --> 00:43:44,480
+SIMPLE groups so again our our our
+
+903
+00:43:42,800 --> 00:43:46,680
+terminology that we're beginning to
+
+904
+00:43:44,480 --> 00:43:50,079
+develop from group Theory objects
+
+905
+00:43:46,680 --> 00:43:53,000
+homomorphisms subobjects kernels normal
+
+906
+00:43:50,079 --> 00:43:55,440
+simple all goes over nicely into
+
+907
+00:43:53,000 --> 00:43:58,000
+rings
+
+908
+00:43:55,440 --> 00:44:01,920
+okay good
+
+909
+00:43:58,000 --> 00:44:04,760
+um let me just give you a an important
+
+910
+00:44:01,920 --> 00:44:04,760
+statement
+
+911
+00:44:05,079 --> 00:44:09,000
+fact the
+
+912
+00:44:07,119 --> 00:44:12,599
+only
+
+913
+00:44:09,000 --> 00:44:15,960
+ideals I in
+
+914
+00:44:12,599 --> 00:44:15,960
+Z have the
+
+915
+00:44:19,680 --> 00:44:24,720
+form I equal
+
+916
+00:44:21,800 --> 00:44:30,280
+n the
+
+917
+00:44:24,720 --> 00:44:30,280
+quotient ring is is ZM n
+
+918
+00:44:30,440 --> 00:44:35,520
+z so the only ideals of the integers are
+
+919
+00:44:33,559 --> 00:44:38,240
+the ones of type four if you have
+
+920
+00:44:35,520 --> 00:44:40,400
+anything that's stable under
+
+921
+00:44:38,240 --> 00:44:43,040
+multiplication by an arbitrary element
+
+922
+00:44:40,400 --> 00:44:45,319
+in the ring stable under addition then
+
+923
+00:44:43,040 --> 00:44:47,640
+it's all multiples of n so this in other
+
+924
+00:44:45,319 --> 00:44:50,880
+words you could write n *
+
+925
+00:44:47,640 --> 00:44:54,040
+Z and a
+
+926
+00:44:50,880 --> 00:44:59,040
+proof let N be the
+
+927
+00:44:54,040 --> 00:44:59,040
+small be the smallest
+
+928
+00:44:59,440 --> 00:45:01,839
+positive
+
+929
+00:45:02,240 --> 00:45:07,800
+integer in I use the ukian
+
+930
+00:45:08,800 --> 00:45:13,440
+algorithm so just as we classified the
+
+931
+00:45:11,599 --> 00:45:15,760
+sub well those are the only subgroups so
+
+932
+00:45:13,440 --> 00:45:18,319
+they're the only possibility right we
+
+933
+00:45:15,760 --> 00:45:20,240
+classified the subgroups of Z and they
+
+934
+00:45:18,319 --> 00:45:22,960
+were all all of this form now each one
+
+935
+00:45:20,240 --> 00:45:25,280
+of these forms is an ideal so the only
+
+936
+00:45:22,960 --> 00:45:27,359
+ideals are these things generated by a
+
+937
+00:45:25,280 --> 00:45:28,760
+single element
+
+938
+00:45:27,359 --> 00:45:31,040
+now I can give you the definition of the
+
+939
+00:45:28,760 --> 00:45:32,880
+word ideal when people started out in
+
+940
+00:45:31,040 --> 00:45:35,079
+ring Theory and they were working in
+
+941
+00:45:32,880 --> 00:45:39,359
+rings analogous to the integers doing
+
+942
+00:45:35,079 --> 00:45:42,640
+algebraic number Theory like Z Plus
+
+943
+00:45:39,359 --> 00:45:45,800
+Z they had the ideal they they had the
+
+944
+00:45:42,640 --> 00:45:49,599
+idea excuse me that the only way to get
+
+945
+00:45:45,800 --> 00:45:51,960
+a multiplicative closed subset like this
+
+946
+00:45:49,599 --> 00:45:53,599
+was to take all multiples of a given
+
+947
+00:45:51,960 --> 00:45:54,520
+element namely just to take things of
+
+948
+00:45:53,599 --> 00:45:57,800
+this
+
+949
+00:45:54,520 --> 00:46:00,680
+form and kummer found examples not this
+
+950
+00:45:57,800 --> 00:46:03,040
+case but other cases of rings where
+
+951
+00:46:00,680 --> 00:46:05,000
+there were more General ideals than that
+
+952
+00:46:03,040 --> 00:46:07,520
+there were ideals that could not be
+
+953
+00:46:05,000 --> 00:46:09,160
+generated by a single element and that
+
+954
+00:46:07,520 --> 00:46:10,040
+exploded the subject that's what we're
+
+955
+00:46:09,160 --> 00:46:15,480
+going to
+
+956
+00:46:10,040 --> 00:46:15,480
+study so this is very special it turns
+
+957
+00:46:16,319 --> 00:46:22,040
+out even though the most familiar rings
+
+958
+00:46:20,040 --> 00:46:24,920
+have this property that every ideal is
+
+959
+00:46:22,040 --> 00:46:27,520
+generated by one element okay I want to
+
+960
+00:46:24,920 --> 00:46:30,040
+give you one more piece of notation and
+
+961
+00:46:27,520 --> 00:46:31,359
+then you'll read 10.3 learn about this
+
+962
+00:46:30,040 --> 00:46:33,280
+and we'll come back and talk about it
+
+963
+00:46:31,359 --> 00:46:35,200
+more on Wednesday this is again in the
+
+964
+00:46:33,280 --> 00:46:38,920
+notion of just developing
+
+965
+00:46:35,200 --> 00:46:42,280
+language so we now know what an ideal
+
+966
+00:46:38,920 --> 00:46:45,839
+is and the the SEC the final piece of
+
+967
+00:46:42,280 --> 00:46:45,839
+terminology is what a unit
+
+968
+00:46:47,319 --> 00:46:53,640
+is a unit is an element a in r with a
+
+969
+00:46:51,720 --> 00:46:58,760
+multiplicative
+
+970
+00:46:53,640 --> 00:46:58,760
+inverse multiplicative inverse
+
+971
+00:46:59,920 --> 00:47:05,480
+I.E there exists some element B such
+
+972
+00:47:02,359 --> 00:47:05,480
+that a * B is
+
+973
+00:47:08,559 --> 00:47:14,760
+1 okay we saw in endomorphism rings the
+
+974
+00:47:12,200 --> 00:47:17,079
+units were the isomorphisms the
+
+975
+00:47:14,760 --> 00:47:19,599
+invertible elements are the isomorphisms
+
+976
+00:47:17,079 --> 00:47:22,599
+the set of all units is denoted by R
+
+977
+00:47:19,599 --> 00:47:22,599
+star
+
+978
+00:47:28,280 --> 00:47:32,960
+that's not closed under addition anymore
+
+979
+00:47:30,920 --> 00:47:37,240
+as we're going to see but it's closed
+
+980
+00:47:32,960 --> 00:47:37,240
+under multiplication and it forms a
+
+981
+00:47:42,280 --> 00:47:45,520
+group with
+
+982
+00:47:45,760 --> 00:47:50,599
+identity
+
+983
+00:47:47,319 --> 00:47:53,119
+element one see I've just set it up I've
+
+984
+00:47:50,599 --> 00:47:54,680
+just taken the subset that I find find a
+
+985
+00:47:53,119 --> 00:47:56,440
+multiplicative inverse so it's closed
+
+986
+00:47:54,680 --> 00:47:57,839
+under multiplication if you can invert a
+
+987
+00:47:56,440 --> 00:48:01,480
+and you can invert B it can convert
+
+988
+00:47:57,839 --> 00:48:03,319
+their product and it forms a nice subset
+
+989
+00:48:01,480 --> 00:48:05,400
+which is a group and it's frequently an
+
+990
+00:48:03,319 --> 00:48:08,599
+interesting question what is the it's
+
+991
+00:48:05,400 --> 00:48:08,599
+called the unit group of
+
+992
+00:48:09,839 --> 00:48:14,520
+course so the additive group of a ring
+
+993
+00:48:12,280 --> 00:48:17,559
+is often very stupid but the unit group
+
+994
+00:48:14,520 --> 00:48:20,880
+is very interesting so for a field which
+
+995
+00:48:17,559 --> 00:48:20,880
+are examples of communative
+
+996
+00:48:22,160 --> 00:48:29,079
+Rings our star is everything other than
+
+997
+00:48:26,520 --> 00:48:31,040
+the zero element that's the definition
+
+998
+00:48:29,079 --> 00:48:32,800
+of a field everything is invertible
+
+999
+00:48:31,040 --> 00:48:36,200
+sometimes I put two crosses sometimes I
+
+1000
+00:48:32,800 --> 00:48:38,400
+put three don't ask me why so everything
+
+1001
+00:48:36,200 --> 00:48:41,240
+in a field but the zero element is
+
+1002
+00:48:38,400 --> 00:48:42,240
+invertible but this is very unusual if
+
+1003
+00:48:41,240 --> 00:48:46,040
+you take
+
+1004
+00:48:42,240 --> 00:48:48,400
+Zar you just get the group with two
+
+1005
+00:48:46,040 --> 00:48:50,960
+elements there are only two invertible
+
+1006
+00:48:48,400 --> 00:48:57,119
+elements in the
+
+1007
+00:48:50,960 --> 00:48:57,119
+integers if you take zmod n z star
+
+1008
+00:48:57,760 --> 00:49:00,880
+is a
+
+1009
+00:48:59,280 --> 00:49:03,280
+group
+
+1010
+00:49:00,880 --> 00:49:06,400
+with the of n
+
+1011
+00:49:03,280 --> 00:49:07,880
+elements the oil number of the number of
+
+1012
+00:49:06,400 --> 00:49:11,960
+things between one and N that are
+
+1013
+00:49:07,880 --> 00:49:14,119
+relatively prime to n because uh
+
+1014
+00:49:11,960 --> 00:49:16,520
+invertible in this ring means relatively
+
+1015
+00:49:14,119 --> 00:49:18,079
+prime to n and this is a very
+
+1016
+00:49:16,520 --> 00:49:19,720
+interesting group whose structure was
+
+1017
+00:49:18,079 --> 00:49:22,480
+first determined by gaus it's not
+
+1018
+00:49:19,720 --> 00:49:25,359
+obvious what the structure that group is
+
+1019
+00:49:22,480 --> 00:49:25,359
+it's an a bilion
+
+1020
+00:49:25,400 --> 00:49:30,880
+group because multiplication is
+
+1021
+00:49:27,839 --> 00:49:34,079
+commutative if we take we can Define the
+
+1022
+00:49:30,880 --> 00:49:37,200
+units in a non-commutative ring and if
+
+1023
+00:49:34,079 --> 00:49:38,880
+we took the units in the N byn matrices
+
+1024
+00:49:37,200 --> 00:49:42,799
+over a field
+
+1025
+00:49:38,880 --> 00:49:46,240
+F they would be the group gln of f the
+
+1026
+00:49:42,799 --> 00:49:46,240
+invertible matrices under
+
+1027
+00:49:47,640 --> 00:49:51,760
+multiplication so the the two sort of
+
+1028
+00:49:50,000 --> 00:49:53,480
+New pieces of terminology things we
+
+1029
+00:49:51,760 --> 00:49:56,799
+really have to get into our heads about
+
+1030
+00:49:53,480 --> 00:49:58,839
+rings that we want to study are the the
+
+1031
+00:49:56,799 --> 00:50:00,760
+set of the ideals of a ring we're going
+
+1032
+00:49:58,839 --> 00:50:02,599
+to work a great deal on that and the
+
+1033
+00:50:00,760 --> 00:50:05,280
+unit group of a ring which you can be
+
+1034
+00:50:02,599 --> 00:50:07,799
+quite sophisticated quite
+
+1035
+00:50:05,280 --> 00:50:10,319
+sophisticated and uh I'll pick up on
+
+1036
+00:50:07,799 --> 00:50:12,319
+that on Wednesday those of you I I think
+
+1037
+00:50:10,319 --> 00:50:13,799
+the the final material on group was
+
+1038
+00:50:12,319 --> 00:50:15,079
+really quite involved and quite
+
+1039
+00:50:13,799 --> 00:50:18,119
+complicated those of you had trouble
+
+1040
+00:50:15,079 --> 00:50:20,240
+with the homework I sympathize it's hard
+
+1041
+00:50:18,119 --> 00:50:23,160
+the stuff on the symmetric group is hard
+
+1042
+00:50:20,240 --> 00:50:26,280
+the stuff I was talking about
+
+1043
+00:50:23,160 --> 00:50:28,839
+about uh group the group of motions is
+
+1044
+00:50:26,280 --> 00:50:30,319
+hard conjugacy class so hard but now
+
+1045
+00:50:28,839 --> 00:50:32,040
+we're taking a step back we're going
+
+1046
+00:50:30,319 --> 00:50:34,280
+into more introductory material this
+
+1047
+00:50:32,040 --> 00:50:35,559
+will be a chance to get started again if
+
+1048
+00:50:34,280 --> 00:50:37,319
+you a little confused at the end of
+
+1049
+00:50:35,559 --> 00:50:40,119
+group that's not going to hurt you we're
+
+1050
+00:50:37,319 --> 00:50:41,920
+going to start all over again and we're
+
+1051
+00:50:40,119 --> 00:50:43,880
+right now at the stage of just acquiring
+
+1052
+00:50:41,920 --> 00:50:46,760
+the basic terminology figuring out what
+
+1053
+00:50:43,880 --> 00:50:50,520
+the key questions are and then that'll
+
+1054
+00:50:46,760 --> 00:50:55,440
+occupy us for the rest of the term good
+
+1055
+00:50:50,520 --> 00:50:55,440
+good okay see you on Friday
+

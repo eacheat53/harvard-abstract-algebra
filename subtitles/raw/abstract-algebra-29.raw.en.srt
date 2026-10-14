@@ -1,0 +1,4284 @@
+1
+00:00:13,679 --> 00:00:24,039
+got 100 or plus uh nine got 90 to
+
+2
+00:00:21,279 --> 00:00:28,960
+100 sorry 12 got
+
+3
+00:00:24,039 --> 00:00:34,160
+90 11 people got 80 to
+
+4
+00:00:28,960 --> 00:00:39,120
+90% four people 70 to
+
+5
+00:00:34,160 --> 00:00:40,680
+80 uh three people 60 to 70 and one
+
+6
+00:00:39,120 --> 00:00:47,559
+person was
+
+7
+00:00:40,680 --> 00:00:51,399
+below so a total of 27 38 42 46
+
+8
+00:00:47,559 --> 00:00:55,480
+exams of which uh these 38 are certainly
+
+9
+00:00:51,399 --> 00:00:57,680
+doing a or or uh highb work which is
+
+10
+00:00:55,480 --> 00:00:59,480
+excellent I have no problem giving that
+
+11
+00:00:57,680 --> 00:01:01,039
+percentage of the class an A or a B if
+
+12
+00:00:59,480 --> 00:01:03,719
+you're doing that kind of work and I
+
+13
+00:01:01,039 --> 00:01:05,400
+noticed a lot of improvement on exams uh
+
+14
+00:01:03,719 --> 00:01:07,960
+from the first time people are much more
+
+15
+00:01:05,400 --> 00:01:11,560
+careful in writing out their
+
+16
+00:01:07,960 --> 00:01:13,360
+answers so uh I thought I would go
+
+17
+00:01:11,560 --> 00:01:16,360
+through uh some of the questions if you
+
+18
+00:01:13,360 --> 00:01:18,640
+had any uh the first problem pretty much
+
+19
+00:01:16,360 --> 00:01:21,280
+everyone got the orthogonal group I took
+
+20
+00:01:18,640 --> 00:01:27,400
+both both answers you could either take
+
+21
+00:01:21,280 --> 00:01:28,920
+the uh the invertible maps E from RN to
+
+22
+00:01:27,400 --> 00:01:30,439
+RN
+
+23
+00:01:28,920 --> 00:01:34,840
+invertible
+
+24
+00:01:30,439 --> 00:01:34,840
+such that preserve the inner
+
+25
+00:01:35,000 --> 00:01:39,720
+product that's a abstract definition of
+
+26
+00:01:37,720 --> 00:01:43,200
+the orthogon group or in matrices people
+
+27
+00:01:39,720 --> 00:01:45,360
+said it was the A and glnr those are the
+
+28
+00:01:43,200 --> 00:01:48,040
+matrices of invertible transformation
+
+29
+00:01:45,360 --> 00:01:50,399
+such that a transpose time a is the
+
+30
+00:01:48,040 --> 00:01:51,960
+identity Matrix both of those were
+
+31
+00:01:50,399 --> 00:01:53,880
+acceptable answers what it was not
+
+32
+00:01:51,960 --> 00:01:55,360
+acceptable some people said it was the
+
+33
+00:01:53,880 --> 00:01:57,320
+the elements where the determinant was
+
+34
+00:01:55,360 --> 00:01:59,280
+plus or minus one that's a consequence
+
+35
+00:01:57,320 --> 00:02:00,680
+but you can have a a matrix of
+
+36
+00:01:59,280 --> 00:02:04,920
+determinant Plus or minus one that
+
+37
+00:02:00,680 --> 00:02:07,680
+doesn't satisfy this condition and the
+
+38
+00:02:04,920 --> 00:02:09,479
+the I asked that's part one the second
+
+39
+00:02:07,680 --> 00:02:12,400
+part I asked to describe the group of
+
+40
+00:02:09,479 --> 00:02:14,480
+motions in in terms of o2 that may not
+
+41
+00:02:12,400 --> 00:02:16,360
+have been too well posed what I meant
+
+42
+00:02:14,480 --> 00:02:19,640
+was that the group of motions consisted
+
+43
+00:02:16,360 --> 00:02:24,160
+of all things of the form V goes to
+
+44
+00:02:19,640 --> 00:02:26,400
+AV plus b where a is in the orthogonal
+
+45
+00:02:24,160 --> 00:02:28,760
+group on two dimensions and B is a
+
+46
+00:02:26,400 --> 00:02:30,560
+translation vector or that the group of
+
+47
+00:02:28,760 --> 00:02:34,239
+motions consisted of
+
+48
+00:02:30,560 --> 00:02:36,519
+of elements in the orthogonal group and
+
+49
+00:02:34,239 --> 00:02:37,640
+translations what sometimes people told
+
+50
+00:02:36,519 --> 00:02:41,120
+me was that
+
+51
+00:02:37,640 --> 00:02:41,120
+O2 was the
+
+52
+00:02:41,879 --> 00:02:47,599
+subgroup of
+
+53
+00:02:45,000 --> 00:02:50,720
+motions
+
+54
+00:02:47,599 --> 00:02:52,239
+preserving the origin which is correct
+
+55
+00:02:50,720 --> 00:02:53,640
+and they got some partial credit for it
+
+56
+00:02:52,239 --> 00:02:56,040
+but it doesn't tell me what the group of
+
+57
+00:02:53,640 --> 00:02:57,680
+motions is in terms of the orthogonal
+
+58
+00:02:56,040 --> 00:02:59,959
+group it just describes this as a
+
+59
+00:02:57,680 --> 00:03:02,680
+subgroup in any case I apologize slight
+
+60
+00:02:59,959 --> 00:03:06,519
+L for a slightly ill posed question
+
+61
+00:03:02,680 --> 00:03:08,080
+there um part two this was actually
+
+62
+00:03:06,519 --> 00:03:08,959
+quite hard I think this may have been
+
+63
+00:03:08,080 --> 00:03:10,879
+the
+
+64
+00:03:08,959 --> 00:03:13,200
+hardest
+
+65
+00:03:10,879 --> 00:03:14,959
+well yeah I think this gave people the
+
+66
+00:03:13,200 --> 00:03:17,080
+hardest time of any of the problems on
+
+67
+00:03:14,959 --> 00:03:19,239
+the exam with except with the extra
+
+68
+00:03:17,080 --> 00:03:21,040
+credit problem a simple group just means
+
+69
+00:03:19,239 --> 00:03:23,319
+that g is
+
+70
+00:03:21,040 --> 00:03:26,760
+simple if and only
+
+71
+00:03:23,319 --> 00:03:28,760
+if uh any
+
+72
+00:03:26,760 --> 00:03:32,120
+normal
+
+73
+00:03:28,760 --> 00:03:35,200
+subgroup n is either equal to the
+
+74
+00:03:32,120 --> 00:03:36,760
+Identity or is the full group those are
+
+75
+00:03:35,200 --> 00:03:38,200
+the those are two obvious normal
+
+76
+00:03:36,760 --> 00:03:40,400
+subgroups and if that's all you have
+
+77
+00:03:38,200 --> 00:03:43,319
+that's a simple group now you supposed
+
+78
+00:03:40,400 --> 00:03:49,159
+to show that if you had the size of G
+
+79
+00:03:43,319 --> 00:03:52,079
+greater than n factorial and G acts on a
+
+80
+00:03:49,159 --> 00:03:55,079
+set of size
+
+81
+00:03:52,079 --> 00:03:58,480
+n then it's not
+
+82
+00:03:55,079 --> 00:04:01,439
+simple as X non-trivially sorry that's a
+
+83
+00:03:58,480 --> 00:04:03,920
+key word
+
+84
+00:04:01,439 --> 00:04:05,920
+okay well the action of G on a set is
+
+85
+00:04:03,920 --> 00:04:08,680
+the same thing as giving a homomorphism
+
+86
+00:04:05,920 --> 00:04:11,920
+from g into the Symmetry group of the
+
+87
+00:04:08,680 --> 00:04:14,920
+set it takes an element G and it takes
+
+88
+00:04:11,920 --> 00:04:17,400
+it to the permutation s goes to G of
+
+89
+00:04:14,920 --> 00:04:20,160
+s that's what an action of a group is on
+
+90
+00:04:17,400 --> 00:04:22,680
+a set it's a group
+
+91
+00:04:20,160 --> 00:04:24,720
+homomorphism and since the set has n
+
+92
+00:04:22,680 --> 00:04:27,199
+elements the Symmetry group is the same
+
+93
+00:04:24,720 --> 00:04:30,600
+as the as the symmetric group on N
+
+94
+00:04:27,199 --> 00:04:33,400
+letters and this is a group of order
+
+95
+00:04:30,600 --> 00:04:35,240
+n factorial now it doesn't mean that
+
+96
+00:04:33,400 --> 00:04:37,160
+this is an injection or anything like
+
+97
+00:04:35,240 --> 00:04:39,320
+that it's just a homomorphism to every
+
+98
+00:04:37,160 --> 00:04:41,240
+element in the group G you get a
+
+99
+00:04:39,320 --> 00:04:43,720
+permutation and when you compose
+
+100
+00:04:41,240 --> 00:04:46,320
+elements in the group you compose
+
+101
+00:04:43,720 --> 00:04:48,479
+permutations okay but if if we have a
+
+102
+00:04:46,320 --> 00:04:50,479
+homomorphism from a group of order
+
+103
+00:04:48,479 --> 00:04:52,759
+greater than n factorial to a group of
+
+104
+00:04:50,479 --> 00:04:55,240
+order n factorial it has to have a
+
+105
+00:04:52,759 --> 00:04:58,360
+kernel because whatever the size of the
+
+106
+00:04:55,240 --> 00:05:00,840
+image is in here it has order dividing n
+
+107
+00:04:58,360 --> 00:05:02,479
+factorial and the order of the image
+
+108
+00:05:00,840 --> 00:05:03,520
+times the order of the kernel has to be
+
+109
+00:05:02,479 --> 00:05:08,639
+the order of
+
+110
+00:05:03,520 --> 00:05:10,960
+G so since uh since the order of G is
+
+111
+00:05:08,639 --> 00:05:14,400
+greater than n factorial the kernel of
+
+112
+00:05:10,960 --> 00:05:16,400
+row is not equal to the identity map now
+
+113
+00:05:14,400 --> 00:05:17,560
+the kernel of row is a normal subgroup
+
+114
+00:05:16,400 --> 00:05:19,600
+because it's the kernel of a
+
+115
+00:05:17,560 --> 00:05:22,880
+homomorphism it's not equal to the
+
+116
+00:05:19,600 --> 00:05:25,360
+identity could it be equal to all of g
+
+117
+00:05:22,880 --> 00:05:27,360
+no because we assume that g acts
+
+118
+00:05:25,360 --> 00:05:29,280
+non-trivially on S namely there's some
+
+119
+00:05:27,360 --> 00:05:32,319
+element in G which is a non-trivial
+
+120
+00:05:29,280 --> 00:05:33,720
+perut ation which means the kernel is
+
+121
+00:05:32,319 --> 00:05:35,400
+not everything because if the kernel
+
+122
+00:05:33,720 --> 00:05:42,840
+were everything the group would act
+
+123
+00:05:35,400 --> 00:05:45,600
+trivially on the set s since G acts
+
+124
+00:05:42,840 --> 00:05:47,720
+non-trivially the kernel of row is not
+
+125
+00:05:45,600 --> 00:05:50,240
+equal to G I have to discard both of
+
+126
+00:05:47,720 --> 00:05:52,400
+those things and consequently the kernel
+
+127
+00:05:50,240 --> 00:05:55,080
+of row which is always a normal subgroup
+
+128
+00:05:52,400 --> 00:05:57,720
+of G is a non-trivial normal subgroup
+
+129
+00:05:55,080 --> 00:06:00,120
+and G isn't
+
+130
+00:05:57,720 --> 00:06:02,360
+simple okay some people did it without
+
+131
+00:06:00,120 --> 00:06:04,600
+the whole homomorphism thing and they
+
+132
+00:06:02,360 --> 00:06:07,080
+said and this is just as good they said
+
+133
+00:06:04,600 --> 00:06:08,960
+look I have more than n factorial
+
+134
+00:06:07,080 --> 00:06:10,919
+elements here I have n factorial
+
+135
+00:06:08,960 --> 00:06:12,599
+elements here by the pigeon hole
+
+136
+00:06:10,919 --> 00:06:14,639
+principle if I have a map from this set
+
+137
+00:06:12,599 --> 00:06:16,919
+to this set two things in this set have
+
+138
+00:06:14,639 --> 00:06:19,160
+to go to the same
+
+139
+00:06:16,919 --> 00:06:21,639
+permutation and call those things G and
+
+140
+00:06:19,160 --> 00:06:24,960
+G Prime then if you make the the element
+
+141
+00:06:21,639 --> 00:06:26,599
+g g * G Prime inverse that goes to the
+
+142
+00:06:24,960 --> 00:06:28,039
+trivial permutation so there are
+
+143
+00:06:26,599 --> 00:06:29,680
+elements that map to a trivial
+
+144
+00:06:28,039 --> 00:06:32,759
+permutation that are not themselves
+
+145
+00:06:29,680 --> 00:06:34,759
+trivial that shows that if you take the
+
+146
+00:06:32,759 --> 00:06:36,919
+subgroup of G of all things mapping to
+
+147
+00:06:34,759 --> 00:06:38,599
+the trivial permutation which is exactly
+
+148
+00:06:36,919 --> 00:06:41,000
+the kernel of this homomorphism that
+
+149
+00:06:38,599 --> 00:06:44,080
+it's a non-trivial subgroup okay that
+
+150
+00:06:41,000 --> 00:06:46,720
+was fine too number three everyone
+
+151
+00:06:44,080 --> 00:06:49,280
+basically got this R is a commutative
+
+152
+00:06:46,720 --> 00:06:51,520
+ring an ideal is
+
+153
+00:06:49,280 --> 00:06:53,759
+closed under
+
+154
+00:06:51,520 --> 00:06:55,479
+plus and
+
+155
+00:06:53,759 --> 00:06:59,120
+under
+
+156
+00:06:55,479 --> 00:07:03,840
+multiplication from R so this say says
+
+157
+00:06:59,120 --> 00:07:08,800
+that a B are in i and r is in R then a
+
+158
+00:07:03,840 --> 00:07:11,840
+plus B is in i and r a is in I and a
+
+159
+00:07:08,800 --> 00:07:15,319
+principal ideal a consists of all the
+
+160
+00:07:11,840 --> 00:07:19,720
+things of the form R A where R is in
+
+161
+00:07:15,319 --> 00:07:25,080
+R so uh all multiples of a fixed element
+
+162
+00:07:19,720 --> 00:07:28,280
+and uh a field has two ideas so r a
+
+163
+00:07:25,080 --> 00:07:32,800
+field has
+
+164
+00:07:28,280 --> 00:07:35,240
+ideals Z Z and R always has those two
+
+165
+00:07:32,800 --> 00:07:37,759
+ideals these two are distinct ideals
+
+166
+00:07:35,240 --> 00:07:41,160
+because this contains the ideal one R is
+
+167
+00:07:37,759 --> 00:07:44,039
+the principal ideal generated by one um
+
+168
+00:07:41,160 --> 00:07:46,520
+and they're distinct and but conver but
+
+169
+00:07:44,039 --> 00:07:50,240
+also if I had any ideal I which is not
+
+170
+00:07:46,520 --> 00:07:51,319
+equal to zero and I take an an element
+
+171
+00:07:50,240 --> 00:07:56,000
+in
+
+172
+00:07:51,319 --> 00:07:59,720
+I which is non zero then if I multiply
+
+173
+00:07:56,000 --> 00:08:03,440
+by r equal a inverse which exists
+
+174
+00:07:59,720 --> 00:08:08,599
+because we're in a field so R * a which
+
+175
+00:08:03,440 --> 00:08:12,400
+is a inverse time a which is 1 is in R
+
+176
+00:08:08,599 --> 00:08:14,720
+so I the ideal is actually all multiples
+
+177
+00:08:12,400 --> 00:08:17,319
+of one which is the ideal R so if it's
+
+178
+00:08:14,720 --> 00:08:19,400
+non zero it has to be this ideal and
+
+179
+00:08:17,319 --> 00:08:21,520
+both ideals are principal generated by
+
+180
+00:08:19,400 --> 00:08:22,840
+zero and one so almost everyone got that
+
+181
+00:08:21,520 --> 00:08:26,520
+one
+
+182
+00:08:22,840 --> 00:08:26,520
+right okay number
+
+183
+00:08:27,720 --> 00:08:32,440
+four a conjugate class in a group
+
+184
+00:08:31,000 --> 00:08:34,719
+consists of all
+
+185
+00:08:32,440 --> 00:08:37,240
+elements so g a
+
+186
+00:08:34,719 --> 00:08:39,880
+group you could say the conjugacy class
+
+187
+00:08:37,240 --> 00:08:42,880
+of an element a consists of all elements
+
+188
+00:08:39,880 --> 00:08:43,640
+of the form g a g inverse such that g is
+
+189
+00:08:42,880 --> 00:08:47,720
+in
+
+190
+00:08:43,640 --> 00:08:50,680
+G the set of equivalence classes to a
+
+191
+00:08:47,720 --> 00:08:52,920
+under the action of conjugation and if G
+
+192
+00:08:50,680 --> 00:08:52,920
+is
+
+193
+00:08:52,959 --> 00:08:58,560
+finite finite we find that while the
+
+194
+00:08:56,399 --> 00:09:00,640
+conjugacy class of a is just always
+
+195
+00:08:58,560 --> 00:09:05,680
+contains the element a but it's equal to
+
+196
+00:09:00,640 --> 00:09:07,519
+a if and only if a is in the center of G
+
+197
+00:09:05,680 --> 00:09:10,880
+because that would mean that all these
+
+198
+00:09:07,519 --> 00:09:12,279
+elements are equal to a and um to say
+
+199
+00:09:10,880 --> 00:09:13,880
+that all these elements are equal to a
+
+200
+00:09:12,279 --> 00:09:16,240
+means that a commutes with everything in
+
+201
+00:09:13,880 --> 00:09:18,399
+G so conjugacy class has a single
+
+202
+00:09:16,240 --> 00:09:21,720
+element only if the element is in the
+
+203
+00:09:18,399 --> 00:09:24,959
+center so the order of G is equal to the
+
+204
+00:09:21,720 --> 00:09:28,640
+sum of the orders of all the conjugacy
+
+205
+00:09:24,959 --> 00:09:31,200
+classes conjugacy classes and we break
+
+206
+00:09:28,640 --> 00:09:32,839
+this sum into the number of conjugacy
+
+207
+00:09:31,200 --> 00:09:34,399
+classes that have one element and the
+
+208
+00:09:32,839 --> 00:09:36,160
+ones that have more than one element and
+
+209
+00:09:34,399 --> 00:09:37,839
+the ones that have one element are just
+
+210
+00:09:36,160 --> 00:09:40,399
+the elements of the center so you get
+
+211
+00:09:37,839 --> 00:09:44,440
+exactly the order of the center that's
+
+212
+00:09:40,399 --> 00:09:47,200
+when CA has one
+
+213
+00:09:44,440 --> 00:09:49,480
+element plus the sum of the orders of
+
+214
+00:09:47,200 --> 00:09:51,360
+the conjugacy classes where it has more
+
+215
+00:09:49,480 --> 00:09:53,680
+than
+
+216
+00:09:51,360 --> 00:09:56,160
+one and that's all that was necessary
+
+217
+00:09:53,680 --> 00:09:56,160
+for that
+
+218
+00:09:56,519 --> 00:10:04,000
+problem okay number five this is a
+
+219
+00:09:59,839 --> 00:10:04,000
+little tricky but most people got
+
+220
+00:10:04,640 --> 00:10:09,440
+it so it was a little unclear in this
+
+221
+00:10:07,600 --> 00:10:10,640
+one too and I apologize to those who
+
+222
+00:10:09,440 --> 00:10:14,839
+pointed out what you were supposed to
+
+223
+00:10:10,640 --> 00:10:17,160
+write down but um for five if you have
+
+224
+00:10:14,839 --> 00:10:19,399
+RX and you want to give a subjective
+
+225
+00:10:17,160 --> 00:10:22,200
+homomorphism between this and x and the
+
+226
+00:10:19,399 --> 00:10:26,079
+ideal generated by x -1 to
+
+227
+00:10:22,200 --> 00:10:28,680
+R uh homomorphism you take a polinomial
+
+228
+00:10:26,079 --> 00:10:29,959
+f ofx and you take it to the value of
+
+229
+00:10:28,680 --> 00:10:31,040
+the polinomial
+
+230
+00:10:29,959 --> 00:10:33,959
+at
+
+231
+00:10:31,040 --> 00:10:36,480
+one that is a ring homomorphism because
+
+232
+00:10:33,959 --> 00:10:38,279
+if you add two pols you add their values
+
+233
+00:10:36,480 --> 00:10:40,000
+at one and if you multiply two
+
+234
+00:10:38,279 --> 00:10:42,079
+polinomial and you evaluate at one you
+
+235
+00:10:40,000 --> 00:10:44,240
+multiply the values at one so that's a
+
+236
+00:10:42,079 --> 00:10:48,399
+ring homomorphism and it has the
+
+237
+00:10:44,240 --> 00:10:52,959
+property that h of the polinomial x -1
+
+238
+00:10:48,399 --> 00:10:56,240
+is equal to zero so h of any multiple X
+
+239
+00:10:52,959 --> 00:11:00,320
+- 1 is equal to zero cuz it's a
+
+240
+00:10:56,240 --> 00:11:04,320
+homomorphism so uh the ideal x - one is
+
+241
+00:11:00,320 --> 00:11:06,200
+in the kernel of H and that means that
+
+242
+00:11:04,320 --> 00:11:08,720
+it induces a homomorphism of this
+
+243
+00:11:06,200 --> 00:11:10,839
+quotient ring into the ring and it's
+
+244
+00:11:08,720 --> 00:11:12,959
+subjective because anything can be the
+
+245
+00:11:10,839 --> 00:11:15,040
+value of f of one just take any constant
+
+246
+00:11:12,959 --> 00:11:18,279
+polinomial to its
+
+247
+00:11:15,040 --> 00:11:20,440
+value so that's the uh the proof that
+
+248
+00:11:18,279 --> 00:11:22,760
+you have a subjective homomorphism from
+
+249
+00:11:20,440 --> 00:11:26,720
+this to the reals to to the
+
+250
+00:11:22,760 --> 00:11:28,600
+ring and we have the exam okay good uh
+
+251
+00:11:26,720 --> 00:11:31,200
+and then the second part is to show that
+
+252
+00:11:28,600 --> 00:11:33,480
+this is actually an isomorphism namely
+
+253
+00:11:31,200 --> 00:11:36,720
+if F of 1 is equal to Z then you're in
+
+254
+00:11:33,480 --> 00:11:36,720
+the ideal xus
+
+255
+00:11:37,600 --> 00:11:44,399
+one to
+
+256
+00:11:40,760 --> 00:11:47,600
+show H is an
+
+257
+00:11:44,399 --> 00:11:49,600
+isomorphism must
+
+258
+00:11:47,600 --> 00:11:55,639
+show
+
+259
+00:11:49,600 --> 00:11:59,360
+that when F of one is equal to z f ofx
+
+260
+00:11:55,639 --> 00:12:01,480
+is equal to x -1 * G of X namely that
+
+261
+00:11:59,360 --> 00:12:04,519
+the kernel of this map is exactly the
+
+262
+00:12:01,480 --> 00:12:06,760
+principle ideal generated by x -1 and
+
+263
+00:12:04,519 --> 00:12:09,560
+for this we use the ukian algorithm that
+
+264
+00:12:06,760 --> 00:12:15,240
+says we can take any polinomial F ofx
+
+265
+00:12:09,560 --> 00:12:17,959
+and write it as x -1 * G ofx plus a
+
+266
+00:12:15,240 --> 00:12:19,839
+constant which is a polinomial of degree
+
+267
+00:12:17,959 --> 00:12:21,920
+less than the degree of xus one and you
+
+268
+00:12:19,839 --> 00:12:25,920
+can do that because this is a monic
+
+269
+00:12:21,920 --> 00:12:30,079
+polinomial and then we find that F of 1
+
+270
+00:12:25,920 --> 00:12:33,000
+is equal to 0 * G of 1 plus C which
+
+271
+00:12:30,079 --> 00:12:35,040
+means that the value of f of 1 is C so
+
+272
+00:12:33,000 --> 00:12:37,519
+that if F of 1 is equal to Z it says
+
+273
+00:12:35,040 --> 00:12:41,120
+this C is equal to Z which means that f
+
+274
+00:12:37,519 --> 00:12:43,959
+ofx is divisible by xus
+
+275
+00:12:41,120 --> 00:12:46,160
+one so to prove that the act the kernel
+
+276
+00:12:43,959 --> 00:12:48,720
+of this ideal is precisely the
+
+277
+00:12:46,160 --> 00:12:52,120
+polinomial generated by x- one multiples
+
+278
+00:12:48,720 --> 00:12:54,320
+of x - one you have to show uh that this
+
+279
+00:12:52,120 --> 00:12:56,079
+ukian algorithm argument
+
+280
+00:12:54,320 --> 00:12:58,519
+works and
+
+281
+00:12:56,079 --> 00:13:00,639
+finally the last problem and the extra
+
+282
+00:12:58,519 --> 00:13:03,160
+credit part of which got me some
+
+283
+00:13:00,639 --> 00:13:04,800
+interesting answers so six we have an
+
+284
+00:13:03,160 --> 00:13:09,560
+order G of
+
+285
+00:13:04,800 --> 00:13:12,560
+order PQ where p is less than Q so we
+
+286
+00:13:09,560 --> 00:13:14,279
+have a CEO subgroup of order
+
+287
+00:13:12,560 --> 00:13:16,839
+Q
+
+288
+00:13:14,279 --> 00:13:19,680
+CEO q
+
+289
+00:13:16,839 --> 00:13:21,040
+subgroup and all are conjugate so
+
+290
+00:13:19,680 --> 00:13:24,480
+they're Norm it's
+
+291
+00:13:21,040 --> 00:13:24,480
+normal will be
+
+292
+00:13:25,320 --> 00:13:30,560
+normal if it's
+
+293
+00:13:27,519 --> 00:13:33,320
+Unique well the number
+
+294
+00:13:30,560 --> 00:13:33,320
+of C
+
+295
+00:13:33,399 --> 00:13:42,040
+Q's has the property that it
+
+296
+00:13:37,399 --> 00:13:45,480
+divides p and it's congruent to one mod
+
+297
+00:13:42,040 --> 00:13:47,839
+q and since p is less than Q the only
+
+298
+00:13:45,480 --> 00:13:50,600
+numbers that divide p and are leave a
+
+299
+00:13:47,839 --> 00:13:53,199
+remainder of one mod Q is one so this
+
+300
+00:13:50,600 --> 00:13:57,480
+number has to be one consequently the C
+
+301
+00:13:53,199 --> 00:14:00,639
+Q subgroup is unique consequently it's
+
+302
+00:13:57,480 --> 00:14:02,480
+normal and the extra credit problem
+
+303
+00:14:00,639 --> 00:14:05,000
+suppose you assume
+
+304
+00:14:02,480 --> 00:14:07,600
+further that your Prime P does not
+
+305
+00:14:05,000 --> 00:14:07,600
+divide Q
+
+306
+00:14:10,040 --> 00:14:16,680
+minus1 then in fact the celo p subgroup
+
+307
+00:14:14,000 --> 00:14:18,759
+is actually a normal subgroup in G
+
+308
+00:14:16,680 --> 00:14:22,639
+that's unusual but it it occurs under
+
+309
+00:14:18,759 --> 00:14:22,639
+this because the number of
+
+310
+00:14:25,199 --> 00:14:32,480
+cops divides
+
+311
+00:14:28,040 --> 00:14:35,199
+Q and it's uh congruent to one mod
+
+312
+00:14:32,480 --> 00:14:36,839
+P that's by the CeeLo theorems on the
+
+313
+00:14:35,199 --> 00:14:40,199
+other hand the only numbers that divide
+
+314
+00:14:36,839 --> 00:14:43,320
+a prime Q are q and one Q is not
+
+315
+00:14:40,199 --> 00:14:43,320
+congruent to one mod
+
+316
+00:14:46,000 --> 00:14:51,839
+P because that's our hypothesis that P
+
+317
+00:14:48,880 --> 00:14:53,680
+does not divide Q minus one so therefore
+
+318
+00:14:51,839 --> 00:14:56,839
+the only number that divides q and is
+
+319
+00:14:53,680 --> 00:14:59,639
+congruent to one mod P is one which says
+
+320
+00:14:56,839 --> 00:15:01,079
+that SP is normal in G
+
+321
+00:14:59,639 --> 00:15:04,079
+well how does that prove that the group
+
+322
+00:15:01,079 --> 00:15:05,920
+is cyclic well think about it what are
+
+323
+00:15:04,079 --> 00:15:08,000
+the possible orders of elements in a
+
+324
+00:15:05,920 --> 00:15:09,920
+group of order PQ you can have an
+
+325
+00:15:08,000 --> 00:15:11,199
+element of order one that would be the
+
+326
+00:15:09,920 --> 00:15:12,519
+identity you could have an element of
+
+327
+00:15:11,199 --> 00:15:13,920
+order P you could have an element of
+
+328
+00:15:12,519 --> 00:15:16,600
+order Q or you could have an element of
+
+329
+00:15:13,920 --> 00:15:19,360
+order PQ we have to prove that there are
+
+330
+00:15:16,600 --> 00:15:21,440
+some elements of order PQ so let's count
+
+331
+00:15:19,360 --> 00:15:24,040
+how many elements there are of order 1 p
+
+332
+00:15:21,440 --> 00:15:26,360
+and Q an element there's one element of
+
+333
+00:15:24,040 --> 00:15:26,360
+order
+
+334
+00:15:27,959 --> 00:15:32,560
+one
+
+335
+00:15:30,839 --> 00:15:34,480
+how many elements are there of order Q
+
+336
+00:15:32,560 --> 00:15:37,120
+well any element of order Q generates a
+
+337
+00:15:34,480 --> 00:15:40,120
+c q subgroup there's a unique c q
+
+338
+00:15:37,120 --> 00:15:42,120
+subgroup right so there are exactly Q
+
+339
+00:15:40,120 --> 00:15:44,880
+minus one elements of order Q in this
+
+340
+00:15:42,120 --> 00:15:47,560
+group so let's put that down now Q minus
+
+341
+00:15:44,880 --> 00:15:50,000
+one elements of order Q any element of
+
+342
+00:15:47,560 --> 00:15:52,279
+order P generates a celo p subgroup but
+
+343
+00:15:50,000 --> 00:15:54,600
+in this case there's a unique celo P
+
+344
+00:15:52,279 --> 00:15:57,079
+subgroup so there are P minus1 elements
+
+345
+00:15:54,600 --> 00:15:57,079
+of order
+
+346
+00:15:57,399 --> 00:16:05,639
+P so the total number of elements we've
+
+347
+00:16:00,120 --> 00:16:09,360
+accounted for is p + Q - one
+
+348
+00:16:05,639 --> 00:16:11,839
+elements of G but the total number of
+
+349
+00:16:09,360 --> 00:16:14,959
+elements in G is
+
+350
+00:16:11,839 --> 00:16:17,000
+PQ right now I claim that this number is
+
+351
+00:16:14,959 --> 00:16:20,920
+strictly less than that
+
+352
+00:16:17,000 --> 00:16:23,600
+number why because p + Q minus one is
+
+353
+00:16:20,920 --> 00:16:28,920
+certainly less than p +
+
+354
+00:16:23,600 --> 00:16:32,839
+q and P + Q is certainly less than 2 * Q
+
+355
+00:16:28,920 --> 00:16:35,839
+because Q is bigger than P right and 2 *
+
+356
+00:16:32,839 --> 00:16:39,120
+Q is certainly less than or equal to P *
+
+357
+00:16:35,839 --> 00:16:42,480
+Q because whatever p is it's bigger than
+
+358
+00:16:39,120 --> 00:16:44,319
+or equal to two it's a prime and so this
+
+359
+00:16:42,480 --> 00:16:46,639
+number is strictly less than this number
+
+360
+00:16:44,319 --> 00:16:48,800
+so there must be more elements of G that
+
+361
+00:16:46,639 --> 00:16:50,600
+are not of order one p or Q so there
+
+362
+00:16:48,800 --> 00:16:54,600
+must be an element of order G of order
+
+363
+00:16:50,600 --> 00:16:54,600
+PQ which proves it's a cyclic
+
+364
+00:16:57,839 --> 00:17:01,720
+group now there's a different way of
+
+365
+00:17:00,079 --> 00:17:03,680
+doing this which is the way I did it in
+
+366
+00:17:01,720 --> 00:17:05,199
+class but I saw this several people came
+
+367
+00:17:03,680 --> 00:17:07,079
+up with this counting argument on the
+
+368
+00:17:05,199 --> 00:17:10,360
+exam which was particularly element
+
+369
+00:17:07,079 --> 00:17:10,360
+elegant the way I did it in
+
+370
+00:17:10,760 --> 00:17:20,199
+class you take an element G of order
+
+371
+00:17:15,520 --> 00:17:22,679
+p and you take an element h of order
+
+372
+00:17:20,199 --> 00:17:26,199
+Q in our normal
+
+373
+00:17:22,679 --> 00:17:28,439
+subgroup SQ and those Exist by the CeeLo
+
+374
+00:17:26,199 --> 00:17:30,360
+theorems and then you consider ghg
+
+375
+00:17:28,439 --> 00:17:32,120
+inverse
+
+376
+00:17:30,360 --> 00:17:35,200
+and that has to be of the form H to the
+
+377
+00:17:32,120 --> 00:17:38,000
+a because it has to be in SQ and SQ is
+
+378
+00:17:35,200 --> 00:17:40,400
+cyclic of order q and this a is determ
+
+379
+00:17:38,000 --> 00:17:42,160
+in mod q and it has the property because
+
+380
+00:17:40,400 --> 00:17:44,240
+if you do this P times you have to get
+
+381
+00:17:42,160 --> 00:17:48,840
+something that commutes with h you find
+
+382
+00:17:44,240 --> 00:17:53,320
+that a to the p is congruent to one mod
+
+383
+00:17:48,840 --> 00:17:56,799
+Q as G to the p is equal to the identity
+
+384
+00:17:53,320 --> 00:18:00,000
+element and this says that the element a
+
+385
+00:17:56,799 --> 00:18:02,840
+has order p in the group of invertible
+
+386
+00:18:00,000 --> 00:18:02,840
+elements mod
+
+387
+00:18:05,640 --> 00:18:12,320
+Q in the units of this ring but this is
+
+388
+00:18:09,520 --> 00:18:15,200
+a group of order Q minus
+
+389
+00:18:12,320 --> 00:18:17,200
+one and if P does not divide well it has
+
+390
+00:18:15,200 --> 00:18:19,760
+order dividing P I'm
+
+391
+00:18:17,200 --> 00:18:22,679
+sorry we just know that its P power is
+
+392
+00:18:19,760 --> 00:18:25,120
+one it might itself be one well if it
+
+393
+00:18:22,679 --> 00:18:27,520
+has order dividing p in this group and
+
+394
+00:18:25,120 --> 00:18:29,520
+this number is not divisible by P then
+
+395
+00:18:27,520 --> 00:18:31,600
+its order is one
+
+396
+00:18:29,520 --> 00:18:34,640
+because the only possible divisors of P
+
+397
+00:18:31,600 --> 00:18:36,039
+are p and one and P does not divide the
+
+398
+00:18:34,640 --> 00:18:39,640
+order of the
+
+399
+00:18:36,039 --> 00:18:42,000
+group which means that a has got to as
+
+400
+00:18:39,640 --> 00:18:45,240
+as P does not divide Q minus one a has
+
+401
+00:18:42,000 --> 00:18:48,000
+to be congruent to one mod
+
+402
+00:18:45,240 --> 00:18:50,760
+Q that's the only thing that has P power
+
+403
+00:18:48,000 --> 00:18:53,039
+one in the invertible group which means
+
+404
+00:18:50,760 --> 00:18:56,919
+that this number is equal to H which
+
+405
+00:18:53,039 --> 00:18:56,919
+means that G and H commute with each
+
+406
+00:18:57,720 --> 00:19:00,720
+other
+
+407
+00:19:01,520 --> 00:19:07,600
+so you find that the element GH which is
+
+408
+00:19:04,720 --> 00:19:10,080
+I don't know K has
+
+409
+00:19:07,600 --> 00:19:12,080
+order PQ that's your element that
+
+410
+00:19:10,080 --> 00:19:14,480
+generates the cyclic group but I found
+
+411
+00:19:12,080 --> 00:19:16,240
+this counting argument even more elegant
+
+412
+00:19:14,480 --> 00:19:17,760
+so either one is perfectly good for
+
+413
+00:19:16,240 --> 00:19:20,919
+extra credit and a lot of people got
+
+414
+00:19:17,760 --> 00:19:23,720
+extra credit looking down it seems to me
+
+415
+00:19:20,919 --> 00:19:25,159
+that uh the sizable number of people
+
+416
+00:19:23,720 --> 00:19:27,159
+what was the total number you gave for
+
+417
+00:19:25,159 --> 00:19:30,720
+extra credit on this Peter Five
+
+418
+00:19:27,159 --> 00:19:30,720
+Points well
+
+419
+00:19:31,000 --> 00:19:34,960
+points yeah no but I say the maximum
+
+420
+00:19:33,360 --> 00:19:39,880
+extra credit you could get on this
+
+421
+00:19:34,960 --> 00:19:42,600
+problem was was um Five Points
+
+422
+00:19:39,880 --> 00:19:44,320
+yeah good okay but a number of people
+
+423
+00:19:42,600 --> 00:19:47,120
+made a good stab as I say the one
+
+424
+00:19:44,320 --> 00:19:50,559
+problem that gave consistent trouble was
+
+425
+00:19:47,120 --> 00:19:52,080
+uh number two and that was because you
+
+426
+00:19:50,559 --> 00:19:53,159
+have to think of a group action as a
+
+427
+00:19:52,080 --> 00:19:55,919
+group
+
+428
+00:19:53,159 --> 00:19:59,760
+homeomorphism so I hope you all enjoyed
+
+429
+00:19:55,919 --> 00:20:01,559
+this exam a little bit more than the um
+
+430
+00:19:59,760 --> 00:20:04,039
+than the first exam as I say I think
+
+431
+00:20:01,559 --> 00:20:06,520
+people did a lot better if uh there are
+
+432
+00:20:04,039 --> 00:20:09,039
+any questions about your performance or
+
+433
+00:20:06,520 --> 00:20:11,760
+you'd like to talk to me about it please
+
+434
+00:20:09,039 --> 00:20:14,679
+do go ahead just real quick
+
+435
+00:20:11,760 --> 00:20:17,880
+question you say so there's an LG of
+
+436
+00:20:14,679 --> 00:20:19,480
+order PQ and that proves that the the
+
+437
+00:20:17,880 --> 00:20:21,600
+group is cyclic because if you have a
+
+438
+00:20:19,480 --> 00:20:23,760
+group of order PQ and you have an
+
+439
+00:20:21,600 --> 00:20:26,000
+element of order PQ then the powers of
+
+440
+00:20:23,760 --> 00:20:27,960
+that element exhaust the group that's
+
+441
+00:20:26,000 --> 00:20:30,240
+what a cyclic group is a cyclic group is
+
+442
+00:20:27,960 --> 00:20:33,000
+a group of order n for which there
+
+443
+00:20:30,240 --> 00:20:34,720
+exists an element of order n that's what
+
+444
+00:20:33,000 --> 00:20:36,320
+a cyclic group is so the powers of that
+
+445
+00:20:34,720 --> 00:20:38,640
+element give you the whole
+
+446
+00:20:36,320 --> 00:20:40,240
+group okay so that's what you're looking
+
+447
+00:20:38,640 --> 00:20:42,400
+for all you're looking for to prove that
+
+448
+00:20:40,240 --> 00:20:44,440
+this group it's better you know I said I
+
+449
+00:20:42,400 --> 00:20:47,440
+said prove it's a bilon this would prove
+
+450
+00:20:44,440 --> 00:20:47,440
+it's a billion right
+
+451
+00:20:47,640 --> 00:20:53,000
+here but um but in fact it's it's if
+
+452
+00:20:51,400 --> 00:20:54,760
+you're told that the group is Clic
+
+453
+00:20:53,000 --> 00:20:56,360
+that's a definite way of proving its a
+
+454
+00:20:54,760 --> 00:21:00,280
+bilion by trying to find an element to
+
+455
+00:20:56,360 --> 00:21:02,559
+the right order okay
+
+456
+00:21:00,280 --> 00:21:05,280
+so let me just do a nice construction
+
+457
+00:21:02,559 --> 00:21:06,600
+today which is in section 10.6 it's in
+
+458
+00:21:05,280 --> 00:21:09,400
+my opinion it's one of the great
+
+459
+00:21:06,600 --> 00:21:11,159
+constructions of of mathematics and it
+
+460
+00:21:09,400 --> 00:21:12,320
+is the construction of What's called the
+
+461
+00:21:11,159 --> 00:21:13,880
+field of
+
+462
+00:21:12,320 --> 00:21:16,679
+fractions
+
+463
+00:21:13,880 --> 00:21:19,960
+and to start it off I have to talk about
+
+464
+00:21:16,679 --> 00:21:22,080
+a special special class of rings which
+
+465
+00:21:19,960 --> 00:21:25,559
+we're going to focus our attention on
+
+466
+00:21:22,080 --> 00:21:27,520
+pretty much from now on and they're
+
+467
+00:21:25,559 --> 00:21:31,279
+nicer rings than the
+
+468
+00:21:27,520 --> 00:21:35,240
+average and they're called integral
+
+469
+00:21:31,279 --> 00:21:37,840
+domains okay so we say a ring a
+
+470
+00:21:35,240 --> 00:21:37,840
+commutative
+
+471
+00:21:39,679 --> 00:21:43,720
+ring is an integral
+
+472
+00:21:43,799 --> 00:21:49,720
+domain or sometimes we'll just use the
+
+473
+00:21:46,559 --> 00:21:52,720
+word domain to be
+
+474
+00:21:49,720 --> 00:21:56,919
+short
+
+475
+00:21:52,720 --> 00:21:56,919
+if it has the following
+
+476
+00:21:57,520 --> 00:22:00,520
+property
+
+477
+00:22:03,400 --> 00:22:08,320
+whenever a * B is equal to Zer in
+
+478
+00:22:09,200 --> 00:22:13,559
+R
+
+479
+00:22:11,440 --> 00:22:18,039
+then
+
+480
+00:22:13,559 --> 00:22:20,039
+either a equals z or B is equal to zero
+
+481
+00:22:18,039 --> 00:22:22,120
+in R namely you can't have a product
+
+482
+00:22:20,039 --> 00:22:23,559
+which is zero without it being a stupid
+
+483
+00:22:22,120 --> 00:22:25,000
+product which is zero one of the
+
+484
+00:22:23,559 --> 00:22:28,960
+elements is
+
+485
+00:22:25,000 --> 00:22:32,080
+zero so um is so those are called
+
+486
+00:22:28,960 --> 00:22:36,400
+domains so in examples of
+
+487
+00:22:32,080 --> 00:22:36,400
+domains R is a
+
+488
+00:22:36,640 --> 00:22:40,440
+field is certainly a
+
+489
+00:22:41,720 --> 00:22:48,919
+domain because if we have the product a
+
+490
+00:22:44,720 --> 00:22:51,320
+* B is equal to Z and a is not equal to
+
+491
+00:22:48,919 --> 00:22:53,200
+zero then we have to prove that b is
+
+492
+00:22:51,320 --> 00:22:55,600
+equal to zero that's the checking of it
+
+493
+00:22:53,200 --> 00:22:57,440
+as a domain well take this as multiply
+
+494
+00:22:55,600 --> 00:22:59,919
+by a
+
+495
+00:22:57,440 --> 00:23:01,120
+inverse
+
+496
+00:22:59,919 --> 00:23:05,240
+to
+
+497
+00:23:01,120 --> 00:23:07,760
+get B is equal to zero multiply both
+
+498
+00:23:05,240 --> 00:23:09,840
+sides of this by a inverse so if you
+
+499
+00:23:07,760 --> 00:23:12,000
+have inverses you certainly have this
+
+500
+00:23:09,840 --> 00:23:15,360
+property but there are other rings that
+
+501
+00:23:12,000 --> 00:23:20,840
+are not fields that are domains R is
+
+502
+00:23:15,360 --> 00:23:23,440
+equal to Z is a domain the
+
+503
+00:23:20,840 --> 00:23:26,320
+integers if you multiply two nonzero
+
+504
+00:23:23,440 --> 00:23:28,760
+integers you get a nonzero integer key
+
+505
+00:23:26,320 --> 00:23:30,600
+fact all right something that isn't the
+
+506
+00:23:28,760 --> 00:23:33,600
+domain just to see that that you don't
+
+507
+00:23:30,600 --> 00:23:38,480
+get this all the time R is equal to Z
+
+508
+00:23:33,600 --> 00:23:38,480
+mod 4 Z is not a
+
+509
+00:23:40,520 --> 00:23:51,760
+domain 2 is not equal to zero mod
+
+510
+00:23:45,159 --> 00:23:51,760
+4 but 2 * 2 is 0o mod
+
+511
+00:23:52,400 --> 00:23:57,440
+4 okay so there you have two nonzero
+
+512
+00:23:55,919 --> 00:24:02,640
+elements when you multiply them you get
+
+513
+00:23:57,440 --> 00:24:03,880
+zero another example of a domain R pols
+
+514
+00:24:02,640 --> 00:24:06,799
+over a
+
+515
+00:24:03,880 --> 00:24:11,400
+field is a
+
+516
+00:24:06,799 --> 00:24:11,400
+domain because if you have two nonzero
+
+517
+00:24:17,120 --> 00:24:21,720
+polinomial of different
+
+518
+00:24:19,200 --> 00:24:24,120
+degrees then they have a nonzero first
+
+519
+00:24:21,720 --> 00:24:27,279
+coefficient right so a n is not equal to
+
+520
+00:24:24,120 --> 00:24:29,159
+zero so it's a it's and BM is not equal
+
+521
+00:24:27,279 --> 00:24:33,200
+to zero those are the first non zero
+
+522
+00:24:29,159 --> 00:24:35,559
+coefficients when you multiply these two
+
+523
+00:24:33,200 --> 00:24:39,240
+pols you don't know much about it but it
+
+524
+00:24:35,559 --> 00:24:42,360
+certainly starts out with a n b m x to
+
+525
+00:24:39,240 --> 00:24:46,039
+the n + m plus lower
+
+526
+00:24:42,360 --> 00:24:47,919
+terms right and this number is non zero
+
+527
+00:24:46,039 --> 00:24:50,279
+because we're in a
+
+528
+00:24:47,919 --> 00:24:53,200
+field
+
+529
+00:24:50,279 --> 00:24:55,440
+okay so that the if you have two
+
+530
+00:24:53,200 --> 00:24:57,320
+polinomial which are nonzero their
+
+531
+00:24:55,440 --> 00:25:01,480
+product is non zero more generally this
+
+532
+00:24:57,320 --> 00:25:03,320
+argument shows that if R is a domain and
+
+533
+00:25:01,480 --> 00:25:06,240
+you'll have to do this for
+
+534
+00:25:03,320 --> 00:25:10,880
+homework so
+
+535
+00:25:06,240 --> 00:25:12,039
+is the ring of pols over R same argument
+
+536
+00:25:10,880 --> 00:25:13,640
+I didn't need that A and B were
+
+537
+00:25:12,039 --> 00:25:17,039
+invertible just that their product was
+
+538
+00:25:13,640 --> 00:25:18,679
+non zero if they were non zero right and
+
+539
+00:25:17,039 --> 00:25:20,600
+so not only is polinomial in one
+
+540
+00:25:18,679 --> 00:25:22,799
+variable but so are polinomial in two
+
+541
+00:25:20,600 --> 00:25:24,640
+variables because you just iterate this
+
+542
+00:25:22,799 --> 00:25:27,000
+argument you start with a domain
+
+543
+00:25:24,640 --> 00:25:29,080
+polinomial is in one variable domain so
+
+544
+00:25:27,000 --> 00:25:31,480
+polinomial over this ring in another
+
+545
+00:25:29,080 --> 00:25:33,559
+variable or a domain and that's pols
+
+546
+00:25:31,480 --> 00:25:35,520
+over R in two variables so there are an
+
+547
+00:25:33,559 --> 00:25:37,840
+awful lot of domains out
+
+548
+00:25:35,520 --> 00:25:40,840
+there so domains have the following
+
+549
+00:25:37,840 --> 00:25:44,120
+wonderful cancellation property which is
+
+550
+00:25:40,840 --> 00:25:45,720
+going to be useful for us if a * B is
+
+551
+00:25:44,120 --> 00:25:47,559
+equal to a *
+
+552
+00:25:45,720 --> 00:25:50,880
+C in
+
+553
+00:25:47,559 --> 00:25:55,760
+R and A is not equal to
+
+554
+00:25:50,880 --> 00:25:59,200
+zero then B is equal to C in
+
+555
+00:25:55,760 --> 00:26:01,760
+R again that's that's completely false
+
+556
+00:25:59,200 --> 00:26:01,760
+in non-
+
+557
+00:26:02,600 --> 00:26:09,279
+domains yeah so example 2 * 2 is equal
+
+558
+00:26:05,919 --> 00:26:11,600
+to 0 and that's equal to 2 * 0 but 2 is
+
+559
+00:26:09,279 --> 00:26:14,880
+not equal to
+
+560
+00:26:11,600 --> 00:26:16,919
+zero okay why is this true well subtract
+
+561
+00:26:14,880 --> 00:26:20,840
+and Use the distributive law this
+
+562
+00:26:16,919 --> 00:26:23,840
+implies that a minus a c is equal to Zer
+
+563
+00:26:20,840 --> 00:26:27,320
+which means that a * B Min - c is equal
+
+564
+00:26:23,840 --> 00:26:28,919
+to 0 a is not equal to Z so this has to
+
+565
+00:26:27,320 --> 00:26:31,760
+be equal to Z
+
+566
+00:26:28,919 --> 00:26:36,399
+that's the domain property so we can do
+
+567
+00:26:31,760 --> 00:26:38,760
+cancellation in domains not in arbitrary
+
+568
+00:26:36,399 --> 00:26:40,279
+rings and the Rings we're going to study
+
+569
+00:26:38,760 --> 00:26:42,200
+for the rest of the term are going to be
+
+570
+00:26:40,279 --> 00:26:43,679
+rather natural generalizations of the
+
+571
+00:26:42,200 --> 00:26:45,399
+integers we're going to be doing number
+
+572
+00:26:43,679 --> 00:26:46,919
+theory for the rest of the term this is
+
+573
+00:26:45,399 --> 00:26:49,240
+my preference because I'm a number
+
+574
+00:26:46,919 --> 00:26:50,320
+theorist I want to tell you what I do by
+
+575
+00:26:49,240 --> 00:26:52,600
+the end of this term I'm going to be
+
+576
+00:26:50,320 --> 00:26:55,039
+able to tell you what I worked on in the
+
+577
+00:26:52,600 --> 00:26:57,240
+early 80s since I've forgotten it by now
+
+578
+00:26:55,039 --> 00:26:58,799
+but I'll try to remember it so we're
+
+579
+00:26:57,240 --> 00:27:00,960
+going to be doing number Theory number
+
+580
+00:26:58,799 --> 00:27:03,120
+Theory concerns rings that are very
+
+581
+00:27:00,960 --> 00:27:06,120
+similar to the integers another example
+
+582
+00:27:03,120 --> 00:27:09,000
+of a domain the gaussian
+
+583
+00:27:06,120 --> 00:27:10,760
+integers is a domain if you multiply two
+
+584
+00:27:09,000 --> 00:27:13,080
+nonzero gussian integers you get a
+
+585
+00:27:10,760 --> 00:27:15,039
+nonzero Gan
+
+586
+00:27:13,080 --> 00:27:18,279
+integer
+
+587
+00:27:15,039 --> 00:27:21,960
+Okay Okay now what's incredibly cool
+
+588
+00:27:18,279 --> 00:27:21,960
+about integral domains is the
+
+589
+00:27:22,640 --> 00:27:30,159
+following let's observe that if I have
+
+590
+00:27:24,960 --> 00:27:30,159
+any ring which is a sub ring of a field
+
+591
+00:27:31,320 --> 00:27:36,080
+so here's a
+
+592
+00:27:32,399 --> 00:27:36,080
+field here's a sub
+
+593
+00:27:36,159 --> 00:27:40,000
+ring then R is a
+
+594
+00:27:41,720 --> 00:27:46,919
+domain because if I had a product of two
+
+595
+00:27:44,360 --> 00:27:48,720
+elements in R which was Zero then the
+
+596
+00:27:46,919 --> 00:27:50,960
+same two product of elements in F would
+
+597
+00:27:48,720 --> 00:27:53,919
+be zero but f is a
+
+598
+00:27:50,960 --> 00:27:57,039
+domain okay
+
+599
+00:27:53,919 --> 00:27:59,039
+so now you might ask if you start with a
+
+600
+00:27:57,039 --> 00:28:01,360
+domain is there somehow natural field to
+
+601
+00:27:59,039 --> 00:28:03,640
+put it in and that's the big proposition
+
+602
+00:28:01,360 --> 00:28:03,640
+big
+
+603
+00:28:05,480 --> 00:28:10,799
+theorem if R is a
+
+604
+00:28:11,240 --> 00:28:16,760
+domain there is a
+
+605
+00:28:14,919 --> 00:28:20,960
+field
+
+606
+00:28:16,760 --> 00:28:20,960
+F we can construct from
+
+607
+00:28:22,840 --> 00:28:27,120
+R in a natural way we'll see it called
+
+608
+00:28:25,440 --> 00:28:30,120
+the quotient
+
+609
+00:28:27,120 --> 00:28:30,120
+field
+
+610
+00:28:33,200 --> 00:28:37,080
+and an inclusion of
+
+611
+00:28:39,440 --> 00:28:45,679
+rings are into this
+
+612
+00:28:43,080 --> 00:28:48,080
+field so Associated to any integral
+
+613
+00:28:45,679 --> 00:28:49,799
+domain there's a field such that the
+
+614
+00:28:48,080 --> 00:28:51,919
+domain is naturally included in the
+
+615
+00:28:49,799 --> 00:28:53,480
+field and it's the smallest thing that
+
+616
+00:28:51,919 --> 00:28:55,880
+we can get we we'll we'll we'll
+
+617
+00:28:53,480 --> 00:29:00,039
+characterize it by a property at the
+
+618
+00:28:55,880 --> 00:29:02,000
+end so for example you might wonder what
+
+619
+00:29:00,039 --> 00:29:05,240
+are the fields
+
+620
+00:29:02,000 --> 00:29:07,600
+Associated to these
+
+621
+00:29:05,240 --> 00:29:10,360
+domains well it's somehow the smallest
+
+622
+00:29:07,600 --> 00:29:13,399
+field you could make that contains it so
+
+623
+00:29:10,360 --> 00:29:15,440
+this case the field f is going to be the
+
+624
+00:29:13,399 --> 00:29:18,120
+rational numbers which certainly
+
+625
+00:29:15,440 --> 00:29:22,120
+contains the integers but you also can
+
+626
+00:29:18,120 --> 00:29:23,600
+invert things in it here the field is
+
+627
+00:29:22,120 --> 00:29:26,200
+going to be What's called the gaussian
+
+628
+00:29:23,600 --> 00:29:29,880
+numbers Q of I which is all things of
+
+629
+00:29:26,200 --> 00:29:32,640
+the form Alpha plus beta I where Alpha
+
+630
+00:29:29,880 --> 00:29:35,360
+and beta are now rational numbers it
+
+631
+00:29:32,640 --> 00:29:36,720
+turns out you can invert things there
+
+632
+00:29:35,360 --> 00:29:38,720
+even though you can't with the
+
+633
+00:29:36,720 --> 00:29:40,640
+coefficients of integers and here the
+
+634
+00:29:38,720 --> 00:29:42,760
+field is sometimes denoted like this
+
+635
+00:29:40,640 --> 00:29:44,399
+oops I can't call the field let's call
+
+636
+00:29:42,760 --> 00:29:48,919
+this
+
+637
+00:29:44,399 --> 00:29:51,559
+um this is a let's call it K of X here
+
+638
+00:29:48,919 --> 00:29:54,559
+where K is a
+
+639
+00:29:51,559 --> 00:29:57,519
+field the um quotient field in this case
+
+640
+00:29:54,559 --> 00:30:01,279
+is often denoted by K ofx and it
+
+641
+00:29:57,519 --> 00:30:01,279
+consists of what are called the rational
+
+642
+00:30:02,200 --> 00:30:07,799
+functions which are quotients of pols f
+
+643
+00:30:05,679 --> 00:30:12,159
+ofx over G
+
+644
+00:30:07,799 --> 00:30:14,200
+ofx where G of X is a non-zero
+
+645
+00:30:12,159 --> 00:30:15,640
+polinomial so it's called the field of
+
+646
+00:30:14,200 --> 00:30:17,840
+rational functions and these things can
+
+647
+00:30:15,640 --> 00:30:20,440
+be inverted and multiplied
+
+648
+00:30:17,840 --> 00:30:25,120
+Etc okay
+
+649
+00:30:20,440 --> 00:30:27,799
+yeah me ask this that means included no
+
+650
+00:30:25,120 --> 00:30:30,120
+kernel there no kernel of the map so you
+
+651
+00:30:27,799 --> 00:30:32,200
+could always you could always try to map
+
+652
+00:30:30,120 --> 00:30:34,559
+it to a field by uh I mean there there
+
+653
+00:30:32,200 --> 00:30:36,519
+are many maps of Z to fields for example
+
+654
+00:30:34,559 --> 00:30:37,919
+you could take the map from Z to Z mod 2
+
+655
+00:30:36,519 --> 00:30:39,399
+that would be a perfectly good map from
+
+656
+00:30:37,919 --> 00:30:41,720
+the integers to a field by taking an
+
+657
+00:30:39,399 --> 00:30:43,399
+integer mod two but it would not be an
+
+658
+00:30:41,720 --> 00:30:45,320
+injective homomorphism it wouldn't be
+
+659
+00:30:43,399 --> 00:30:49,240
+one to one because it would take all
+
+660
+00:30:45,320 --> 00:30:51,279
+even integers to zero here so this means
+
+661
+00:30:49,240 --> 00:30:55,600
+that the only thing mapping to zero is
+
+662
+00:30:51,279 --> 00:30:59,159
+zero so what I mean is this is an
+
+663
+00:30:55,600 --> 00:31:01,440
+inclusion of rings
+
+664
+00:30:59,159 --> 00:31:01,440
+no
+
+665
+00:31:01,960 --> 00:31:06,840
+kernel okay and are you always able is
+
+666
+00:31:05,639 --> 00:31:10,240
+that what you're saying that we're
+
+667
+00:31:06,840 --> 00:31:13,360
+always able to find a natural field in
+
+668
+00:31:10,240 --> 00:31:15,440
+which R is included called its field of
+
+669
+00:31:13,360 --> 00:31:17,320
+fraction so in this case the integers
+
+670
+00:31:15,440 --> 00:31:19,760
+turn out to be included in the rational
+
+671
+00:31:17,320 --> 00:31:21,799
+numbers here the gaussian numbers which
+
+672
+00:31:19,760 --> 00:31:23,480
+are all integers plus integers time I
+
+673
+00:31:21,799 --> 00:31:25,679
+are included in rational numbers plus
+
+674
+00:31:23,480 --> 00:31:29,080
+rational numbers time I in this case
+
+675
+00:31:25,679 --> 00:31:32,440
+pols are a special case of rational
+
+676
+00:31:29,080 --> 00:31:33,880
+functions okay but when I enlarg it I
+
+677
+00:31:32,440 --> 00:31:36,200
+actually get
+
+678
+00:31:33,880 --> 00:31:38,200
+inverses okay so the idea is really
+
+679
+00:31:36,200 --> 00:31:40,639
+simple but it's deceptively simple and
+
+680
+00:31:38,200 --> 00:31:45,320
+it's a little tricky the idea is just to
+
+681
+00:31:40,639 --> 00:31:45,320
+formally invert the nonzero
+
+682
+00:31:53,200 --> 00:32:02,399
+elements add
+
+683
+00:31:56,840 --> 00:32:05,600
+elements we'll call them 1/ a for all a
+
+684
+00:32:02,399 --> 00:32:07,600
+not equal to zero in r i mean if we're
+
+685
+00:32:05,600 --> 00:32:09,720
+going to have a field then for every
+
+686
+00:32:07,600 --> 00:32:11,039
+element in R we have to have an inverse
+
+687
+00:32:09,720 --> 00:32:12,320
+right I mean elements in R are going to
+
+688
+00:32:11,039 --> 00:32:14,639
+go to elements in this field they have
+
+689
+00:32:12,320 --> 00:32:16,320
+to have inverses so let's try to make it
+
+690
+00:32:14,639 --> 00:32:20,240
+in the minimal way possible we have to
+
+691
+00:32:16,320 --> 00:32:24,320
+have a symbol which is 1 / a such that a
+
+692
+00:32:20,240 --> 00:32:26,159
+* 1/ a is equal to one in F so I have
+
+693
+00:32:24,320 --> 00:32:28,399
+the initial elements a then I have to
+
+694
+00:32:26,159 --> 00:32:30,919
+put new elements in my field so that
+
+695
+00:32:28,399 --> 00:32:32,480
+they're the inverses now you might say
+
+696
+00:32:30,919 --> 00:32:33,320
+wait a minute those might have already
+
+697
+00:32:32,480 --> 00:32:35,559
+been
+
+698
+00:32:33,320 --> 00:32:37,279
+there right I mean you might have taken
+
+699
+00:32:35,559 --> 00:32:38,760
+an element which was a unit in the ring
+
+700
+00:32:37,279 --> 00:32:40,880
+ring and already there wasn't already a
+
+701
+00:32:38,760 --> 00:32:44,080
+1 over a in the there so you might have
+
+702
+00:32:40,880 --> 00:32:46,240
+added something extra and I'd say you're
+
+703
+00:32:44,080 --> 00:32:48,320
+right that's a problem here's even
+
+704
+00:32:46,240 --> 00:32:51,000
+greater problem suppose we did this for
+
+705
+00:32:48,320 --> 00:32:53,720
+the integers so I had an element like 1
+
+706
+00:32:51,000 --> 00:32:58,919
+16 is in this
+
+707
+00:32:53,720 --> 00:33:00,799
+field for Ral Z and I also had the
+
+708
+00:32:58,919 --> 00:33:03,480
+element
+
+709
+00:33:00,799 --> 00:33:05,080
+1/3 in my field because I have to invite
+
+710
+00:33:03,480 --> 00:33:08,200
+invert three
+
+711
+00:33:05,080 --> 00:33:10,519
+too okay so since I have one six in the
+
+712
+00:33:08,200 --> 00:33:13,440
+field I'd also have two times 1 16 in
+
+713
+00:33:10,519 --> 00:33:15,919
+the field right and I'd have to be able
+
+714
+00:33:13,440 --> 00:33:18,039
+to tell somebody some intelligent third
+
+715
+00:33:15,919 --> 00:33:19,480
+grader who was doing this computation
+
+716
+00:33:18,039 --> 00:33:21,600
+that this number in the field was the
+
+717
+00:33:19,480 --> 00:33:23,240
+same as this number in the field namely
+
+718
+00:33:21,600 --> 00:33:26,039
+these inverses that I'm throwing in
+
+719
+00:33:23,240 --> 00:33:28,000
+arbitrarily aren't so independent from
+
+720
+00:33:26,039 --> 00:33:31,880
+each other some of them are related to
+
+721
+00:33:28,000 --> 00:33:33,320
+each other right so the trick is to make
+
+722
+00:33:31,880 --> 00:33:35,760
+a construction and then put an
+
+723
+00:33:33,320 --> 00:33:37,639
+equivalence relation on it and that's
+
+724
+00:33:35,760 --> 00:33:39,600
+what I'm going to do and it's it's it's
+
+725
+00:33:37,639 --> 00:33:41,919
+incredibly clever if you start to think
+
+726
+00:33:39,600 --> 00:33:45,039
+of about it so here here's the uh
+
+727
+00:33:41,919 --> 00:33:45,039
+construction of f from
+
+728
+00:33:50,799 --> 00:33:59,279
+R you start with the set of all
+
+729
+00:33:55,279 --> 00:34:02,919
+symbols all symbols of the form a over B
+
+730
+00:33:59,279 --> 00:34:04,760
+where a is in R and B is not equal to
+
+731
+00:34:02,919 --> 00:34:08,079
+zero in
+
+732
+00:34:04,760 --> 00:34:11,960
+R so that's a
+
+733
+00:34:08,079 --> 00:34:14,839
+set okay on that set I put the following
+
+734
+00:34:11,960 --> 00:34:19,280
+equivalence relation I say that A over B
+
+735
+00:34:14,839 --> 00:34:19,280
+is equivalent to a prime over B
+
+736
+00:34:19,320 --> 00:34:28,280
+Prime if and only if well what do you
+
+737
+00:34:22,960 --> 00:34:30,960
+think a prime is equal to b a prime
+
+738
+00:34:28,280 --> 00:34:32,919
+in R namely if they look like the same
+
+739
+00:34:30,960 --> 00:34:36,240
+fraction in the rational numbers I mean
+
+740
+00:34:32,919 --> 00:34:40,839
+that's why that's why 2 six is equal to
+
+741
+00:34:36,240 --> 00:34:43,280
+1/3 right 3 * 2 is equal to 6 *
+
+742
+00:34:40,839 --> 00:34:45,359
+1 this would be the symbol 2 six this
+
+743
+00:34:43,280 --> 00:34:49,639
+would be 1/3 they'd be equal because 3 *
+
+744
+00:34:45,359 --> 00:34:51,159
+2 is 6 * 1 in the ring so I I uh first
+
+745
+00:34:49,639 --> 00:34:54,079
+start with a set of
+
+746
+00:34:51,159 --> 00:34:55,760
+symbols like this I say one symbol is
+
+747
+00:34:54,079 --> 00:34:57,920
+equivalent to another if this is the
+
+748
+00:34:55,760 --> 00:34:59,920
+case now I have to check that that an
+
+749
+00:34:57,920 --> 00:35:02,400
+equivalence relation that's not
+
+750
+00:34:59,920 --> 00:35:05,320
+completely obvious what is clear is that
+
+751
+00:35:02,400 --> 00:35:07,280
+a symbol is equivalent to itself and
+
+752
+00:35:05,320 --> 00:35:09,200
+that it's reflexive if A over B is
+
+753
+00:35:07,280 --> 00:35:10,839
+equivalent to a prime over B Prime then
+
+754
+00:35:09,200 --> 00:35:13,280
+a prime over B Prime is equivalent to A
+
+755
+00:35:10,839 --> 00:35:15,640
+over B that's the commuity of the
+
+756
+00:35:13,280 --> 00:35:18,119
+Ring okay what you have to check is
+
+757
+00:35:15,640 --> 00:35:20,480
+transitive so suppose that this is
+
+758
+00:35:18,119 --> 00:35:24,160
+equivalent on the other hand to a prime
+
+759
+00:35:20,480 --> 00:35:30,000
+over B Prime so that would say that a
+
+760
+00:35:24,160 --> 00:35:33,000
+prime B Prime is equal to B Prime able
+
+761
+00:35:30,000 --> 00:35:34,359
+Prime and somehow I have to get so I
+
+762
+00:35:33,000 --> 00:35:35,800
+have this equivalence I have this
+
+763
+00:35:34,359 --> 00:35:37,480
+equivalence I want to show that these
+
+764
+00:35:35,800 --> 00:35:39,839
+two things are actually
+
+765
+00:35:37,480 --> 00:35:41,280
+equivalent okay so now there's a trick
+
+766
+00:35:39,839 --> 00:35:42,760
+you have to multiply by something which
+
+767
+00:35:41,280 --> 00:35:47,119
+I'm going to look up and since I've
+
+768
+00:35:42,760 --> 00:35:47,119
+changed notation I'll undoubtedly get it
+
+769
+00:35:49,119 --> 00:35:53,359
+wrong which one do I multiply
+
+770
+00:35:53,599 --> 00:35:59,040
+by Prime and the and the second equality
+
+771
+00:35:56,640 --> 00:36:02,560
+by all right let's take this and
+
+772
+00:35:59,040 --> 00:36:05,720
+multiply by B Prime so we get a B Prime
+
+773
+00:36:02,560 --> 00:36:11,319
+B Prime is equal
+
+774
+00:36:05,720 --> 00:36:13,560
+to b a prime B Prime and then I want to
+
+775
+00:36:11,319 --> 00:36:16,520
+multiply this one
+
+776
+00:36:13,560 --> 00:36:19,880
+by any
+
+777
+00:36:16,520 --> 00:36:24,400
+ideas by B let's try by B all right so
+
+778
+00:36:19,880 --> 00:36:28,079
+this becomes a prime b b Prime is equal
+
+779
+00:36:24,400 --> 00:36:30,240
+to b b prime a prime all right now let's
+
+780
+00:36:28,079 --> 00:36:33,680
+see if we can get something out of this
+
+781
+00:36:30,240 --> 00:36:38,440
+so here I have
+
+782
+00:36:33,680 --> 00:36:41,640
+B ah so this number here is equal to
+
+783
+00:36:38,440 --> 00:36:42,839
+this number here just it is it's all
+
+784
+00:36:41,640 --> 00:36:46,119
+same three
+
+785
+00:36:42,839 --> 00:36:48,319
+symbols okay therefore this number is
+
+786
+00:36:46,119 --> 00:36:51,280
+equal to this number let's put that up
+
+787
+00:36:48,319 --> 00:36:53,240
+there on the other hand I now use the
+
+788
+00:36:51,280 --> 00:36:56,520
+cancellation law that both of these
+
+789
+00:36:53,240 --> 00:36:58,800
+things are multiplied by B Prime and B
+
+790
+00:36:56,520 --> 00:37:00,040
+Prime is not equal to Z because it was
+
+791
+00:36:58,800 --> 00:37:02,079
+one of the
+
+792
+00:37:00,040 --> 00:37:05,720
+denominators so I can cancel by
+
+793
+00:37:02,079 --> 00:37:11,400
+something that's not equal to zero so
+
+794
+00:37:05,720 --> 00:37:17,000
+cancel the B Prime to get a B
+
+795
+00:37:11,400 --> 00:37:20,040
+Prime uh a b Prime is equal to B able
+
+796
+00:37:17,000 --> 00:37:23,079
+Prime which is the fact that this number
+
+797
+00:37:20,040 --> 00:37:25,160
+is equivalent to this number tricky huh
+
+798
+00:37:23,079 --> 00:37:28,359
+so that's again we've you already used
+
+799
+00:37:25,160 --> 00:37:29,839
+domain right there in the cancel ation
+
+800
+00:37:28,359 --> 00:37:32,960
+to show that this is an equivalence
+
+801
+00:37:29,839 --> 00:37:35,680
+relation and now we
+
+802
+00:37:32,960 --> 00:37:39,680
+Define and this is what's totally
+
+803
+00:37:35,680 --> 00:37:41,000
+cool F to be the set s modulo the
+
+804
+00:37:39,680 --> 00:37:44,079
+equivalence relation the set of
+
+805
+00:37:41,000 --> 00:37:44,920
+equivalence classes of fractions with
+
+806
+00:37:44,079 --> 00:37:47,880
+this
+
+807
+00:37:44,920 --> 00:37:49,560
+relation now that looks good that looks
+
+808
+00:37:47,880 --> 00:37:51,319
+promising I mean that's what we really
+
+809
+00:37:49,560 --> 00:37:53,760
+do for rational numbers if you think
+
+810
+00:37:51,319 --> 00:37:55,760
+about it that you know if if you try to
+
+811
+00:37:53,760 --> 00:37:58,200
+describe to people why 1/3 is equal to
+
+812
+00:37:55,760 --> 00:38:00,319
+26 it's that you have a bunch of symbols
+
+813
+00:37:58,200 --> 00:38:03,240
+some of which are equal to some other
+
+814
+00:38:00,319 --> 00:38:05,160
+symbols but it doesn't solve our problem
+
+815
+00:38:03,240 --> 00:38:08,240
+yet because we now have to show that
+
+816
+00:38:05,160 --> 00:38:08,240
+this has the structure of a
+
+817
+00:38:10,520 --> 00:38:13,760
+field which
+
+818
+00:38:14,640 --> 00:38:18,240
+contains the domain
+
+819
+00:38:19,599 --> 00:38:23,960
+R so we have to put an addition and a
+
+820
+00:38:22,240 --> 00:38:26,520
+multiplication on it such that it has
+
+821
+00:38:23,960 --> 00:38:28,400
+inverses etc etc etc and we have to map
+
+822
+00:38:26,520 --> 00:38:30,200
+R into it it's not enough to say you
+
+823
+00:38:28,400 --> 00:38:32,000
+just take a set moduo this equivalence
+
+824
+00:38:30,200 --> 00:38:34,800
+relation you have to say how you add and
+
+825
+00:38:32,000 --> 00:38:37,359
+multiply okay so let's add and multiply
+
+826
+00:38:34,800 --> 00:38:40,000
+so suppose we have A over B and we want
+
+827
+00:38:37,359 --> 00:38:41,319
+to add it to the symbol C over D and
+
+828
+00:38:40,000 --> 00:38:44,640
+then we also have to tell you what A
+
+829
+00:38:41,319 --> 00:38:47,079
+over B times the symbol C overd is and
+
+830
+00:38:44,640 --> 00:38:49,359
+then we have to tell you what A over B
+
+831
+00:38:47,079 --> 00:38:52,960
+inverse is things like
+
+832
+00:38:49,359 --> 00:38:56,960
+that okay well this is where you go back
+
+833
+00:38:52,960 --> 00:38:58,480
+to third grade this is equal to a plus
+
+834
+00:38:56,960 --> 00:39:02,480
+BC
+
+835
+00:38:58,480 --> 00:39:05,160
+over BD that's by definition we're going
+
+836
+00:39:02,480 --> 00:39:10,960
+to check that that definition works and
+
+837
+00:39:05,160 --> 00:39:14,920
+this symbol is AC / BD by definition and
+
+838
+00:39:10,960 --> 00:39:17,680
+this symbol is B over a you can only do
+
+839
+00:39:14,920 --> 00:39:20,680
+this if a is not equal to
+
+840
+00:39:17,680 --> 00:39:23,760
+zero otherwise you're inverting
+
+841
+00:39:20,680 --> 00:39:26,800
+zero okay
+
+842
+00:39:23,760 --> 00:39:30,880
+now now notice so far I'm okay this is
+
+843
+00:39:26,800 --> 00:39:33,960
+these are per ible symbols because B and
+
+844
+00:39:30,880 --> 00:39:36,680
+D were nonzero so their product is non
+
+845
+00:39:33,960 --> 00:39:37,880
+zero again the fact that I'm in a domain
+
+846
+00:39:36,680 --> 00:39:41,200
+I'm only allowed to put in the
+
+847
+00:39:37,880 --> 00:39:44,520
+denominator something that's nonzero so
+
+848
+00:39:41,200 --> 00:39:46,520
+this is a symbol this is a symbol and
+
+849
+00:39:44,520 --> 00:39:47,839
+this is a symbol if a is not equal to
+
+850
+00:39:46,520 --> 00:39:49,720
+zero which is when I'm going to make an
+
+851
+00:39:47,839 --> 00:39:51,720
+inversion and this is a symbol that has
+
+852
+00:39:49,720 --> 00:39:55,880
+the property that when you multiply it
+
+853
+00:39:51,720 --> 00:39:58,480
+by C over D you get you get AB over AB
+
+854
+00:39:55,880 --> 00:40:00,440
+which is the same thing as one
+
+855
+00:39:58,480 --> 00:40:03,720
+I should say where R goes into this ring
+
+856
+00:40:00,440 --> 00:40:06,520
+by the way R goes into f as you take an
+
+857
+00:40:03,720 --> 00:40:09,560
+element a and you take it to the symbol
+
+858
+00:40:06,520 --> 00:40:11,560
+a over one that's a perfectly good
+
+859
+00:40:09,560 --> 00:40:13,960
+symbol because one is not equal to zero
+
+860
+00:40:11,560 --> 00:40:16,480
+in a domain the zero ring is not a
+
+861
+00:40:13,960 --> 00:40:20,280
+domain doesn't
+
+862
+00:40:16,480 --> 00:40:21,960
+count okay now this isn't done yet this
+
+863
+00:40:20,280 --> 00:40:24,319
+is far from being done this is just the
+
+864
+00:40:21,960 --> 00:40:28,000
+beginning and the reason is that you
+
+865
+00:40:24,319 --> 00:40:30,119
+have to check that this is well defined
+
+866
+00:40:28,000 --> 00:40:32,160
+what do I mean it's well defined well
+
+867
+00:40:30,119 --> 00:40:35,240
+the elements of the field are not
+
+868
+00:40:32,160 --> 00:40:38,160
+symbols they're equivalence classes of
+
+869
+00:40:35,240 --> 00:40:40,000
+symbols so you have to check that if you
+
+870
+00:40:38,160 --> 00:40:44,480
+take another symbol that's equivalent to
+
+871
+00:40:40,000 --> 00:40:47,839
+a if A over B is equivalent to a prime
+
+872
+00:40:44,480 --> 00:40:50,560
+over B Prime and C over D is equivalent
+
+873
+00:40:47,839 --> 00:40:55,800
+to C Prime over D Prime then you have to
+
+874
+00:40:50,560 --> 00:40:58,920
+check that a d + BC over BD is itself
+
+875
+00:40:55,800 --> 00:41:05,079
+equivalent to a prime D prime plus b
+
+876
+00:40:58,920 --> 00:41:07,240
+Prime C Prime over D B Prime D Prime
+
+877
+00:41:05,079 --> 00:41:08,880
+namely otherwise addition isn't well
+
+878
+00:41:07,240 --> 00:41:10,520
+defined you you could choose a different
+
+879
+00:41:08,880 --> 00:41:12,160
+representative of your equivalence class
+
+880
+00:41:10,520 --> 00:41:15,520
+and get a different
+
+881
+00:41:12,160 --> 00:41:18,200
+answer okay well again if you believe
+
+882
+00:41:15,520 --> 00:41:19,640
+that this works it's just a matter I
+
+883
+00:41:18,200 --> 00:41:21,280
+mean how hard can this be you're not
+
+884
+00:41:19,640 --> 00:41:23,359
+allowed to do any calculus here you
+
+885
+00:41:21,280 --> 00:41:25,119
+can't differentiate anything so has to
+
+886
+00:41:23,359 --> 00:41:27,760
+be pretty simple let's see if we can do
+
+887
+00:41:25,119 --> 00:41:30,480
+it B Prime D Prime and I let you check
+
+888
+00:41:27,760 --> 00:41:34,000
+some of the other things so this says
+
+889
+00:41:30,480 --> 00:41:37,400
+that AB Prime is equal to b a prime and
+
+890
+00:41:34,000 --> 00:41:39,480
+this says that CD Prime is equal to d c
+
+891
+00:41:37,400 --> 00:41:41,119
+Prime and what do we have to check here
+
+892
+00:41:39,480 --> 00:41:46,800
+well if you multiply this by this we
+
+893
+00:41:41,119 --> 00:41:51,839
+must check is a d b Prime D prime plus
+
+894
+00:41:46,800 --> 00:41:57,920
+BC B Prime D Prime is that in fact equal
+
+895
+00:41:51,839 --> 00:42:00,920
+to BD a prime D prime plus BD
+
+896
+00:41:57,920 --> 00:42:02,280
+B Prime C Prime well something good must
+
+897
+00:42:00,920 --> 00:42:05,720
+happen here let's see what we've got
+
+898
+00:42:02,280 --> 00:42:10,400
+here um
+
+899
+00:42:05,720 --> 00:42:12,680
+b b d Prime something must just cancel
+
+900
+00:42:10,400 --> 00:42:12,680
+here
+
+901
+00:42:12,839 --> 00:42:18,319
+huh let's see I think one of these is
+
+902
+00:42:15,280 --> 00:42:20,880
+just equal to itself so
+
+903
+00:42:18,319 --> 00:42:23,920
+a let's
+
+904
+00:42:20,880 --> 00:42:27,280
+see help me yeah the first one so you
+
+905
+00:42:23,920 --> 00:42:29,720
+have an A and A B prime a b Prime here
+
+906
+00:42:27,280 --> 00:42:34,160
+and DD Prime and DD Prime and here I
+
+907
+00:42:29,720 --> 00:42:36,359
+have DD Prime b a prime so this is equal
+
+908
+00:42:34,160 --> 00:42:39,280
+to this because there this this thing
+
+909
+00:42:36,359 --> 00:42:42,640
+times DD Prime thank you same thing for
+
+910
+00:42:39,280 --> 00:42:47,960
+the second one here I have a um
+
+911
+00:42:42,640 --> 00:42:50,440
+a b d Prime and here is CB Prime and D C
+
+912
+00:42:47,960 --> 00:42:52,720
+Prime so this is equal to this because
+
+913
+00:42:50,440 --> 00:42:54,599
+this is just multiplied by BD Prime
+
+914
+00:42:52,720 --> 00:42:57,880
+something like that
+
+915
+00:42:54,599 --> 00:43:00,200
+okay good so in fact
+
+916
+00:42:57,880 --> 00:43:02,040
+this fraction is equivalent to this
+
+917
+00:43:00,200 --> 00:43:04,480
+fraction so this addition law makes
+
+918
+00:43:02,040 --> 00:43:07,680
+sense it's easier to check
+
+919
+00:43:04,480 --> 00:43:09,880
+multiplication and uh so this this is
+
+920
+00:43:07,680 --> 00:43:11,280
+really the mathematical generalization
+
+921
+00:43:09,880 --> 00:43:13,280
+of the construction of the rational
+
+922
+00:43:11,280 --> 00:43:15,760
+numbers and if you think about these
+
+923
+00:43:13,280 --> 00:43:18,680
+other rings that I've made if if you
+
+924
+00:43:15,760 --> 00:43:21,359
+take things like a plus b i and you take
+
+925
+00:43:18,680 --> 00:43:24,960
+fractions of the form C plus di I well
+
+926
+00:43:21,359 --> 00:43:29,119
+this is it this is uh can be
+
+927
+00:43:24,960 --> 00:43:29,119
+written this 1 / C plus
+
+928
+00:43:29,960 --> 00:43:38,640
+di could be written as C minus di over
+
+929
+00:43:34,640 --> 00:43:42,760
+c² plus d^2 so you're you're
+
+930
+00:43:38,640 --> 00:43:49,400
+um you're just so that this number would
+
+931
+00:43:42,760 --> 00:43:52,680
+be equivalent to a + b i * C minus d i /
+
+932
+00:43:49,400 --> 00:43:54,119
+c^2 + D ^2 and then consequently here
+
+933
+00:43:52,680 --> 00:43:55,680
+the coefficients in the numerator would
+
+934
+00:43:54,119 --> 00:43:57,640
+all be integers and you're just dividing
+
+935
+00:43:55,680 --> 00:43:59,599
+by a nonzero
+
+936
+00:43:57,640 --> 00:44:03,200
+integers so the co so this would be a
+
+937
+00:43:59,599 --> 00:44:05,280
+rational number Alpha plus beta I so
+
+938
+00:44:03,200 --> 00:44:06,720
+anything of this form in the gine
+
+939
+00:44:05,280 --> 00:44:08,280
+integers could be turned into something
+
+940
+00:44:06,720 --> 00:44:11,200
+of this form where Alpha and beta are
+
+941
+00:44:08,280 --> 00:44:13,000
+rational numbers and likewise for for
+
+942
+00:44:11,200 --> 00:44:14,839
+the rational functions I mean if you
+
+943
+00:44:13,000 --> 00:44:17,520
+just considered things like this where A
+
+944
+00:44:14,839 --> 00:44:19,839
+and B were polinomial and B is nonzero
+
+945
+00:44:17,520 --> 00:44:23,280
+that's exactly what a rational function
+
+946
+00:44:19,839 --> 00:44:24,880
+is so there's no no really mystery about
+
+947
+00:44:23,280 --> 00:44:27,480
+this but it's just such a cool
+
+948
+00:44:24,880 --> 00:44:29,440
+construction that you can put a few
+
+949
+00:44:27,480 --> 00:44:31,520
+structure on the set of these
+
+950
+00:44:29,440 --> 00:44:33,040
+equivalence classes whereas it would be
+
+951
+00:44:31,520 --> 00:44:35,880
+extremely awkward to try to start
+
+952
+00:44:33,040 --> 00:44:38,559
+talking about the original uh set itself
+
+953
+00:44:35,880 --> 00:44:40,839
+so this is a process in mathematics that
+
+954
+00:44:38,559 --> 00:44:42,640
+it's a generalization which was
+
+955
+00:44:40,839 --> 00:44:44,640
+developed a great deal in the 50s and
+
+956
+00:44:42,640 --> 00:44:47,319
+60s in ring Theory called
+
+957
+00:44:44,640 --> 00:44:49,359
+localization when you take math
+
+958
+00:44:47,319 --> 00:44:52,680
+250 you'll
+
+959
+00:44:49,359 --> 00:44:55,319
+spend huge amounts of time uh doing
+
+960
+00:44:52,680 --> 00:44:57,720
+localization but uh for all practical
+
+961
+00:44:55,319 --> 00:45:00,599
+purposes just the construction of of the
+
+962
+00:44:57,720 --> 00:45:02,240
+uh quotient field is the main example of
+
+963
+00:45:00,599 --> 00:45:04,440
+localization and now I'll show you
+
+964
+00:45:02,240 --> 00:45:07,280
+what's so cool about the quotient
+
+965
+00:45:04,440 --> 00:45:09,800
+field and why it's the best field to
+
+966
+00:45:07,280 --> 00:45:11,240
+construct so this is called a sometimes
+
+967
+00:45:09,800 --> 00:45:13,240
+when you make a construction like this
+
+968
+00:45:11,240 --> 00:45:15,000
+you're making all kinds of what seems to
+
+969
+00:45:13,240 --> 00:45:16,760
+you arbitrary choices and you don't know
+
+970
+00:45:15,000 --> 00:45:18,720
+how to characterize what you've ended up
+
+971
+00:45:16,760 --> 00:45:20,359
+with so here's the characterization of
+
+972
+00:45:18,720 --> 00:45:24,200
+the quotient
+
+973
+00:45:20,359 --> 00:45:24,200
+field the Universal
+
+974
+00:45:25,960 --> 00:45:28,960
+Property
+
+975
+00:45:33,640 --> 00:45:43,119
+if R to K is any inclusion any ring
+
+976
+00:45:43,280 --> 00:45:49,720
+inclusion into a
+
+977
+00:45:46,839 --> 00:45:52,040
+field that's the field K and F is the
+
+978
+00:45:49,720 --> 00:45:55,880
+quotient field of R so we have a natural
+
+979
+00:45:52,040 --> 00:45:55,880
+inclusion this is the quotient
+
+980
+00:45:55,920 --> 00:46:00,319
+field
+
+981
+00:45:57,880 --> 00:46:04,480
+then there is a natural map of
+
+982
+00:46:00,319 --> 00:46:04,480
+fields a homomorphism of
+
+983
+00:46:05,160 --> 00:46:10,880
+fields that makes the combination of
+
+984
+00:46:07,559 --> 00:46:13,119
+these two maps equal to that one so that
+
+985
+00:46:10,880 --> 00:46:15,119
+any map from a ring into a field in some
+
+986
+00:46:13,119 --> 00:46:16,720
+sense factors through its quotient field
+
+987
+00:46:15,119 --> 00:46:18,079
+first you'd put it in its quotient field
+
+988
+00:46:16,720 --> 00:46:20,319
+then you put the quotient field in the
+
+989
+00:46:18,079 --> 00:46:22,839
+bigger field so for example you could
+
+990
+00:46:20,319 --> 00:46:26,359
+put the integers the integers could
+
+991
+00:46:22,839 --> 00:46:27,800
+certainly be put inside of Q ofi just as
+
+992
+00:46:26,359 --> 00:46:30,119
+the things where the first coordinate
+
+993
+00:46:27,800 --> 00:46:32,880
+was an integer right but that would
+
+994
+00:46:30,119 --> 00:46:34,960
+Factor through the inclusion of the the
+
+995
+00:46:32,880 --> 00:46:37,720
+rationals in Q ofi and the map from the
+
+996
+00:46:34,960 --> 00:46:39,800
+integers to its own quotient field so
+
+997
+00:46:37,720 --> 00:46:43,240
+it's it's sort of the smallest field
+
+998
+00:46:39,800 --> 00:46:45,760
+that you can put R into yeah naturism
+
+999
+00:46:43,240 --> 00:46:48,559
+then would also be injected yes that
+
+1000
+00:46:45,760 --> 00:46:50,520
+would also be a homomorphism of fields
+
+1001
+00:46:48,559 --> 00:46:52,440
+uh is is always injected because it
+
+1002
+00:46:50,520 --> 00:46:55,839
+takes I should have said that a
+
+1003
+00:46:52,440 --> 00:46:58,839
+homomorphism field is always injective
+
+1004
+00:46:55,839 --> 00:46:58,839
+because
+
+1005
+00:46:58,880 --> 00:47:01,839
+because remember that a homomorphism has
+
+1006
+00:47:01,079 --> 00:47:04,640
+a
+
+1007
+00:47:01,839 --> 00:47:07,200
+kernel a kernel is an ideal the only
+
+1008
+00:47:04,640 --> 00:47:08,520
+ideals of a field are the field and zero
+
+1009
+00:47:07,200 --> 00:47:11,720
+it can't be the field because the
+
+1010
+00:47:08,520 --> 00:47:14,800
+homomorphism has to take one to one so
+
+1011
+00:47:11,720 --> 00:47:20,000
+therefore the kernel has to be zero as
+
+1012
+00:47:14,800 --> 00:47:24,240
+kernel is equal to an ideal and the only
+
+1013
+00:47:20,000 --> 00:47:26,079
+ideals are zero and one so homomorphisms
+
+1014
+00:47:24,240 --> 00:47:28,079
+of fields are always injective so it
+
+1015
+00:47:26,079 --> 00:47:30,680
+always factors through the quotient
+
+1016
+00:47:28,079 --> 00:47:32,200
+field so this is a nice characterization
+
+1017
+00:47:30,680 --> 00:47:33,440
+of what the quotient field is but then
+
+1018
+00:47:32,200 --> 00:47:34,880
+you still have to prove that such a
+
+1019
+00:47:33,440 --> 00:47:36,559
+field exists so you have to go through
+
+1020
+00:47:34,880 --> 00:47:37,880
+the fraction construction but once
+
+1021
+00:47:36,559 --> 00:47:40,440
+you've gone through it I'll show you
+
+1022
+00:47:37,880 --> 00:47:42,880
+that that any homomorphism to a field
+
+1023
+00:47:40,440 --> 00:47:45,960
+factors through the quotient field so
+
+1024
+00:47:42,880 --> 00:47:48,960
+let's call this homomorphism
+
+1025
+00:47:45,960 --> 00:47:51,440
+H um and I have to tell you what this
+
+1026
+00:47:48,960 --> 00:47:53,440
+homomorphism is so this let's call this
+
+1027
+00:47:51,440 --> 00:47:55,839
+thing H star or something like this the
+
+1028
+00:47:53,440 --> 00:47:58,839
+thing that I have to construct so
+
+1029
+00:47:55,839 --> 00:47:58,839
+definition of h
+
+1030
+00:48:00,000 --> 00:48:05,119
+star well I have to tell you what H star
+
+1031
+00:48:02,920 --> 00:48:07,599
+is to an equivalence class of fractions
+
+1032
+00:48:05,119 --> 00:48:07,599
+A over
+
+1033
+00:48:07,640 --> 00:48:13,800
+B right I know what h of a is I know
+
+1034
+00:48:11,319 --> 00:48:20,359
+what h of B is so why don't I just
+
+1035
+00:48:13,800 --> 00:48:23,480
+Define this as h of a * h of B
+
+1036
+00:48:20,359 --> 00:48:26,000
+inverse because I'm in a field so
+
+1037
+00:48:23,480 --> 00:48:28,119
+whatever h of B is it's invertible if B
+
+1038
+00:48:26,000 --> 00:48:32,760
+is non zero so sorry B is not B is not
+
+1039
+00:48:28,119 --> 00:48:34,400
+equal to zero h of B is also not equal
+
+1040
+00:48:32,760 --> 00:48:37,839
+to zero because it's an injective
+
+1041
+00:48:34,400 --> 00:48:42,359
+homomorphism so it can be inverted so h
+
+1042
+00:48:37,839 --> 00:48:42,359
+of B inverse exists in
+
+1043
+00:48:42,599 --> 00:48:48,680
+K so if we Define a new homomorphism
+
+1044
+00:48:46,079 --> 00:48:51,799
+here then you find that the original
+
+1045
+00:48:48,680 --> 00:48:54,799
+thing factors through
+
+1046
+00:48:51,799 --> 00:48:56,160
+this uh and in some sense that that
+
+1047
+00:48:54,799 --> 00:48:58,520
+shows that the quotient field is the
+
+1048
+00:48:56,160 --> 00:49:00,960
+smallest field that can contain a domain
+
+1049
+00:48:58,520 --> 00:49:03,319
+and it's a very very useful object in a
+
+1050
+00:49:00,960 --> 00:49:05,000
+lot of manipulations of ring Theory
+
+1051
+00:49:03,319 --> 00:49:06,559
+using domains you feel much more
+
+1052
+00:49:05,000 --> 00:49:08,680
+comfortable to think of them as sitting
+
+1053
+00:49:06,559 --> 00:49:11,119
+inside of a field you may not have the
+
+1054
+00:49:08,680 --> 00:49:12,880
+inverse inside the domain but you can go
+
+1055
+00:49:11,119 --> 00:49:13,680
+to this larger object where you can find
+
+1056
+00:49:12,880 --> 00:49:16,440
+the
+
+1057
+00:49:13,680 --> 00:49:18,760
+inverse okay the proof of the fact that
+
+1058
+00:49:16,440 --> 00:49:21,160
+this makes that little di this is what's
+
+1059
+00:49:18,760 --> 00:49:22,799
+called a diagram that commutes that
+
+1060
+00:49:21,160 --> 00:49:25,280
+means that this homomorphism is the
+
+1061
+00:49:22,799 --> 00:49:27,000
+composition of these two uh the proof
+
+1062
+00:49:25,280 --> 00:49:29,079
+that it commutes is easy in and that's
+
+1063
+00:49:27,000 --> 00:49:32,160
+given in arton so I'll let you guys
+
+1064
+00:49:29,079 --> 00:49:34,200
+finish reading that part of section 10.6
+
+1065
+00:49:32,160 --> 00:49:35,839
+and let you out a little early today
+
+1066
+00:49:34,200 --> 00:49:37,200
+have a wonderful vacation when we come
+
+1067
+00:49:35,839 --> 00:49:38,799
+back we're going to have two wonderful
+
+1068
+00:49:37,200 --> 00:49:40,280
+weeks of number Theory where we're going
+
+1069
+00:49:38,799 --> 00:49:45,160
+to see where all these techniques of
+
+1070
+00:49:40,280 --> 00:49:45,160
+rings really get us somewhere
+
+1071
+00:49:46,440 --> 00:49:49,440
+okay
+

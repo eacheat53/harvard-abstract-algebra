@@ -1,0 +1,739 @@
+1
+00:00:11,920 --> 00:00:32,720
+周一我不会来上课，因为我要休假过赎罪日；Peter 已经同意牺牲他在生命之书中的位置来替我代课，供来上课的同学参考；作业是阅读第 3.4 节并完成这些课后作业。
+I won't be lecturing Monday uh because I take the day off for Yom Kippur uh Peter has agreed to uh sacrifice his position in the Book of Life and stand in for me uh for those of you attending and uh the assignment is to read section 3.4 and these homework uh assignments
+
+2
+00:00:32,720 --> 00:00:46,764
+此外，去年参加过的同学应该知道普特南数学竞赛是一项面向全美数学专业学生的有趣竞赛；我们通常表现得相当不错，以哈佛典型的“考前不复习却能拿高分”的风格拿下；
+also uh those of you who participated last year will know the Putnam competition uh is a fun competition which is given nationally to math students we've usually done pretty well in this standard Harvard way of not studying for the exam but acing it
+
+3
+00:00:46,764 --> 00:00:55,001
+竞赛定于 12 月 6 日周六举行，如果你想报名，请到五楼布告栏登记，就在 Taubes 教授办公室对面；
+and uh it's given Saturday December 6th if you want to sign up sign up on the fifth floor bulletin board uh opposite Professor Taubes's office
+
+4
+00:00:55,001 --> 00:01:07,651
+即使你最终不去考也请先报个名，因为我们拿到足够多的试卷非常重要，那天总会有几位临时赶来的同学，如果试卷充足他们就能参赛，不够就没办法了。
+and uh even if you're not going to take it sign up because it's very important that we get enough exams we always get a couple of walk-ins that day uh and if we have enough exams they can take it and if uh if we don't they can't
+
+5
+00:01:07,651 --> 00:01:22,960
+好，上次我们定义了什么是域，举了实数域以及模 p 整数有限域等不同例子；接着我们引入了向量空间 V 的概念，
+okay so last time we defined what a field was we had various examples like the real numbers and the finite field the integers mod p and then we had the notion of V
+
+6
+00:01:22,960 --> 00:01:49,939
+即域 F 上的向量空间，它是一个阿贝尔群配上来自 F 的数乘法则；我们还定义了线性映射的概念，即 F-向量空间的同态。
+a vector space over F which was an abelian group together with a scalar multiplication law from F and we defined the notion of a linear map homomorphism of F-vector spaces
+
+7
+00:01:49,939 --> 00:02:06,320
+今天我们将更详细地探讨向量空间，引入生成空间与基的概念。你们很多人在实向量空间中见过这些，关键在于它对任意域上的向量空间都完全适用；复习一下也绝无坏处，因为这太重要了。
+so today we're going to investigate vector spaces in more detail and do the notion of span and basis now many of you have seen this for real vector spaces and the key thing is that it works perfectly well for vector spaces over an arbitrary field and it can't hurt to review it because it's so important
+
+8
+00:02:06,320 --> 00:02:34,215
+如果我们有一个有限向量组 v₁……在整堂讲座中，我首先假设我们有一个固定域 F 上的向量空间，且我取一个有序向量组，这意味着哪个排第一、哪个排最后是有区别的；那将是 V 中的一个有序有限向量组；
+so uh if we have a finite set v1 so in all this lecture I'm going to start with the hypothesis that I have a vector space over a fixed field F and I take an ordered set of vectors which means it matters which one goes first and which one comes last so that'll be an ordered set of vectors in V ordered finite set
+
+9
+00:02:34,215 --> 00:02:49,952
+如果我想忽略顺序，只保留集合本身，我把该集合记为 S，即忽略顺序的集合 {v₁, ..., vₙ}；所以那只是个集合。
+and if I just if I want to forget the order and I just remember the set I'll call the set S which is the collection {v1, ..., vn} where I forget the order so that's just the set
+
+10
+00:02:49,952 --> 00:03:18,141
+好，我们说这些向量的一个线性组合，就是指任何可以表示为标量乘 v₁ 加上标量乘 v₂ 加……加标量乘 vₙ 的向量，其中 aᵢ 是域 F 中的元素；
+okay so you say a linear combination of these vectors is just any vector that you can express as a scalar times v1 plus a scalar times v2 plus plus a scalar times vn uh so where the ai are elements of your field F
+
+11
+00:03:18,141 --> 00:03:30,319
+aᵢ · vᵢ 是标量与向量的数乘运算，然后你把这一项项加起来；所以这就是由该有序向量组中固定向量的所有组合所能得到的向量全体；
+so ai * vi is the operation of the scalar times the vector and then you add it to this and this and this so it's all the vectors you can get by combinations of the fixed vectors in the ordered set
+
+12
+00:03:30,319 --> 00:03:55,771
+而所有线性组合构成的集合就称为生成空间（Span），且生成空间仅依赖于集合 S，因为向量加法满足交换律，所以如何排列这些向量完全没有区别，在生成空间中会得到相同的向量集合 W；我们把这记为 W，
+and the collection of all linear combinations is called the span and the span only depends on the set S because uh addition is commutative so it doesn't really make any difference how you order the set of vectors you'd get the same vectors W in the span and let's call that W
+
+13
+00:03:55,771 --> 00:04:12,274
+这里的命题或观察是：这是 V 的一个在加法和数乘下封闭的子空间 W，为什么呢？如果你有两个这种形式的向量并将它们相加，显然会得到同形式的向量；所以如果有 W'，
+and the proposition or the observation is this is a subspace W of V closed under addition and scalar multiplication well if you have two vectors of this form and you add them you clearly get another
+
+14
+00:04:12,274 --> 00:04:37,440
+我们来验证一下：设 W' = b₁v₁ + ... + bₙvₙ，如果利用加法的结合律或数乘的分配律，会发现 W + W' = (a₁ + b₁)v₁ + ... + (aₙ + bₙ)vₙ；
+vector of the form so if you have a W' let's just check that W' is b1 v1 plus plus bn vn and if you use the associative law or the distributive law of addition you find that W + W' is (a1 + b1) * v1 + ... + (an + bn) * vn
+
+15
+00:04:37,440 --> 00:04:57,080
+并且会发现标量与 W 的数乘为 c a₁ · v₁ + ... + c aₙ · vₙ；由于域在加法和乘法下封闭，这些向量与原来的形式相同，
+and you find that a scalar times W is c a1 * v1 plus plus c an * vn and since the field is closed under addition and multiplication these vectors are of the same form as the original one they're
+
+16
+00:04:57,080 --> 00:05:08,795
+它们都是 vᵢ 的线性组合，因此你得到了 V 的一个在加法与数乘下封闭的子集，这是一个子空间，称为这些向量的生成空间；好。
+they're linear combinations of the vi and so you have a subset of V that's closed under addition and scalar multiplication it's a subspace that's called the span of those vectors all right
+
+17
+00:05:08,795 --> 00:05:27,989
+现在我们说 V 是有限维的——顺便说一句，我们要定一个约定，你必须对此十分小心，因为在归纳证明中会用到：若 S 是空集（空集当然也是合法的向量集合），而有序组也只是空集，
+now we say that V is finite dimensional oh by the way um we'll decide a convention and you have to be careful about this because it'll come up in induction arguments if S is the empty set which is certainly a perfectly good set of vectors and the ordered set would just
+
+18
+00:05:27,989 --> 00:05:48,755
+那么我们约定 S 的生成空间是 V 中的零子空间 {0}；所以任何向量集的生成空间，无论是否为空，都包含零向量，否则它就不是子空间，否则空集就会带来麻烦；所以这只是一个约定。
+be the empty set then we agree that the span of S is the zero subspace in V so the span of any set of vectors whether it's empty or not contains the zero vector otherwise it wouldn't be a subspace otherwise we'd have problems with the empty set so that's just a convention
+
+19
+00:05:48,755 --> 00:06:24,680
+好，我们称 V 是有限维的，如果 V 中存在一个有限向量集 S，使得 S 的生成空间等于整个空间，从而你可以将任意向量表示为其中有限个向量的线性组合。
+okay and we say V is finite dimensional if there is a finite set S of vectors in V with the span of S equal to the entire space so that you can get any vector as a linear combination of a finite number of them
+
+20
+00:06:24,680 --> 00:06:54,160
+来看一个有限维向量空间与非有限维向量空间的对比例子：例如 V = Fⁿ 是有限维的。若取向量 v₁ 为向量 (1, 0, ..., 0)，v₂ 为向量 (0, 1, ..., 0)，最后 vₙ 为向量 (0, ..., 0, 1)，
+so uh an example of a finite dimensional vector space versus a non-finite dimensional vector space so example V = F^n is finite dimensional if you take the vector v1 to be the vector (1, 0, ..., 0) and v2 to be the vector (0, 1, ..., 0) and finally vn to be the vector
+
+21
+00:06:54,160 --> 00:07:22,520
+那么向量 (a₁, a₂, ..., aₙ)，也就是这个由 F 中元素组成的 n 元组向量空间中的一般元素，就是 aᵢ 乘 vᵢ 从 i = 1 到 n 的求和。这显而易见，所以这 n 个向量生成了这个向量空间，因此它是有限维的。
+(0, ..., 0, 1) then the vector (a1, a2, ..., an) that's a general element of this vector space which is just n-tuples of elements in F is the sum of the ai times the vi i = 1 to n that's more or less obvious so these n vectors span this vector space so that's finite dimensional
+
+22
+00:07:22,520 --> 00:07:42,619
+一个非有限维向量空间（或者我们说无限维向量空间）的反例是 F 上的多项式空间 F[x]；你绝不可能把任意多项式表示为有限个多项式的线性组合，
+an infinite and nonfinite dimensional vector space or we might say infinite dimensional vector space non-example is the polynomials in x with coefficients in F there is no way that you can get any polynomial as a linear combination
+
+23
+00:07:42,619 --> 00:07:55,199
+因为如果你有一个有限多项式集合，其中必有一个具有最高次数，而如果你取次数不超过 n 的多项式的任意线性组合，得到的仍是次数不超过 n 的多项式，
+of a finite number of them because if you have a finite set of polynomials one of them has the largest degree and if you take any linear combination of polynomials of degree less than or equal to n you get a polynomial of degree less
+
+24
+00:07:55,199 --> 00:08:18,999
+但这里存在更高次数的多项式，所以这不是有限维的。证明论据就是利用多项式在 x 上的次数，说明你无法将其表示为有限个多项式的线性组合。
+than or equal to n but there are polynomials of bigger degree so this is not finite dimensional and the argument is use the degree of a polynomial in x to show that you couldn't get it as a linear combination of a finite number of them
+
+25
+00:08:18,999 --> 00:08:29,462
+因此从现在起在这堂课以及整个这一章中，我们只讨论有限维向量空间。无限维向量空间是一个非常有趣的课题，
+so from now on in this talk and really in this chapter we're only going to talk about finite dimensional vector spaces infinite dimensional vector spaces are a very interesting subject it's more
+
+26
+00:08:29,462 --> 00:08:41,983
+它更多属于分析学而非代数学；当人们在 20 世纪初意识到物理学中的大量结果可以用无限维向量空间的语言来表述时，人们对它们着了迷；
+a subject in analysis than algebra uh when people realized at the beginning of the 20th century that a lot of results in physics could be formulated in the language of infinite dimensional vector spaces uh they became fascinated with them
+
+27
+00:08:41,983 --> 00:08:59,800
+但我们今天要把有限维向量空间的理论彻底掌握。因此从现在起，我们假设存在一个有限集合生成我们的向量空间。好，这就是生成空间和有限维性的概念。
+but we're going to get the theory of finite dimensional vector spaces down today so from now on we're going to make the assumption that there's a finite set that spans our vector space okay so that's the notion of span and finite dimensionality
+
+28
+00:08:59,800 --> 00:09:55,360
+现在第二个概念是线性无关的概念，其表述如下：我们称向量组 v₁, ..., vₙ 线性无关，如果线性关系 a₁v₁ + a₂v₂ + ... + aₙvₙ = 0 仅在 a₁ = a₂ = ... = aₙ 全为零标量时才成立。
+now the second uh notion is the notion of linear independence which is expressed as follows you say a set of vectors v1 vn is linearly independent if the relation a1 v1 plus a2 v2 plus an vn equals the zero vector only holds when a1 is equal to a2 is equal to an are all the zero scalar
+
+29
+00:09:55,360 --> 00:10:05,749
+当然，如果你取这些向量的组合，并取 0 · v₁ + 0 · v₂ + ... + 0 · vₙ，你一定会得到零向量，因为 0 乘任何向量都是零向量，
+of course if you take any combination of vectors and you take 0 * v1 plus 0 * v2 plus 0 * vn you get the zero vector because 0 * anything is the zero vector and any sum of zero vectors
+
+30
+00:10:05,749 --> 00:10:21,600
+且零向量之和仍是零向量；如果这是使其线性组合为零的唯一方式，那么你就称这些向量线性无关。很清楚吧，你们以前见过这个记号。
+is the zero vector if that's the only way you can get a linear combination of them to be zero then you say the vectors are linearly independent clear you've seen this notation before
+
+31
+00:10:21,600 --> 00:10:29,781
+好，所以向量空间中全部的张力，都在于“线性无关”与“生成空间”之间。我们来看一个稍微复杂一点的例子：
+okay so the whole tension in vector spaces is between things that are linearly independent and things which span so let's do let's do a little
+
+32
+00:10:29,781 --> 00:10:55,630
+我们取空间 ℝ³， 并取以下向量集合：设 v₁ = (1, 0, 0)，v₂ = (1, 1, 0)，以及 v₃ = (1, 2, 3)。
+bit more complicated example let's take the space R3 and let's take the following collection of vectors v1 = (1, 0, 0), v2 = (1, 1, 0), and v3 = (1, 2, 3)
+
+33
+00:10:55,630 --> 00:11:26,519
+好，集合 {v₁, v₂} 的生成空间是什么？我断言那是所有形如 v = (a, b, 0) 的向量；因为如果我想得到这个向量，它将是 b 乘以后一个向量加上……那个向量，
+okay what is the span of the set {v1, v2} well I claim that's all vectors of the form v equals (a, b, 0) because if I want to get this vector it would be b times this vector plus b minus a times
+
+34
+00:11:26,519 --> 00:11:41,936
+对吧，因为在第一分量上已经有了 b……对不起，是 (a - b)，对不对？来看看，如果我想在这里得到 a，抱歉，是 (a - b)，这就对了！
+that vector right because I'd already had b in the first place I'm sorry a minus b is that right let's see if I want to get a here sorry a minus b there we go
+
+35
+00:11:41,936 --> 00:11:54,270
+但我永远无法在第三个分量上得到非零坐标，因为 v₁ 和 v₂ 在第三个分量上都是 0，所以 v₁ 的任意倍数加上 v₂ 的任意倍数都在该子空间中，因此生成空间就是该子空间；
+but I could never get any coordinate in the third place because both v1 and v2 have zero in the third place so any multiple of v1 plus any multiple of v2 so the span is that subspace
+
+36
+00:11:54,270 --> 00:12:27,144
+我还断言 v₁、v₂ 和 v₃ 是线性无关的。哎呀，它们是线性无关的，因为假设它们之间存在某种关系 a₁v₁ + a₂v₂ + a₃v₃ = 0，那么如果你写出这个向量在第三个分量上的形式，它只有 3a₃，
+and I also claim that v1 v2 and v3 are linearly independent oops are linearly independent because suppose I had some relation between them a1 v1 plus a2 v2 plus a3 v3 equals 0 well if you write down what this vector looks like in the third place it has
+
+37
+00:12:27,144 --> 00:12:44,908
+所以 3a₃ 必须为 0，因为这两个向量在第三个分量上的坐标都是 0；既然 3a₃ = 0，而且我们在一个域中，所以可以除以 3——噢，这里是 ℝ³，很好，1/3 存在——这意味着 a₃ = 0。
+3 a3 so 3 a3 has to be 0 because the coordinate of the third place of these two vectors is both zero so if 3 a3 is equal to 0 and we're in a field so we can divide by three whoops oh this is R3 good so 1/3 exists that means that a3 is equal to zero
+
+38
+00:12:44,908 --> 00:12:59,414
+既然 a₃ = 0，它就是 v₁ 和 v₂ 的组合。现在我断言这个向量的第二分量是 a₂，因为在 v₁ 中没有第二分量；这意味着 a₂ = 0；
+since a3 is equal to zero it's a combination of v1 and v2 now I claim that the second coordinate of this vector is a2 because you get no second coordinate in v1 so that means that a2 is equal to 0
+
+39
+00:12:59,414 --> 00:13:26,990
+而若 a₂ = 0，它就只是 v₁ 的倍数，而 v₁ 的倍数中唯有零倍数才是零向量；因此我们看到，使其线性组合为零的唯一可能就是所有系数都为 0。好，你们大概已经习惯做这类练习了。
+and if a2 is equal to zero it's a multiple of v1 and the only multiple of v1 which is the zero vector is the zero multiple of v1 and so we see that the only way you can have a linear combination which is zero is if all the coefficients are zero okay you're probably used to doing exercises of this nature
+
+40
+00:13:26,990 --> 00:13:43,936
+好，下一位？[学生]：请问……我知道您把它们……[Gross]：事实上这并不重要，这只是集合的问题，因为如果你有这样的线性关系，
+okay next question sure I know you put them in fact it's not significant it's just a question of the set because again if you had a linear relation like this
+
+41
+00:13:43,936 --> 00:13:54,651
+那么重排这些 v 之后同样会得到线性关系。[学生]：我想也是，我只是对记号不太确定。[Gross]：你完全正确，谢谢。这个集合是线性无关的。
+you'd get a linear relation if you reordered the v's I thought so I just didn't know about the notation you're absolutely right thank you the set is linearly independent
+
+42
+00:13:54,651 --> 00:14:22,157
+好，我们称一个有序向量组——注意必须是有序的—— (v₁, ..., vₙ) 是 V 的一组基，如果它生成 V 且线性无关。
+okay we say an ordered and this is important to have it ordered (v1, ..., vn) is a basis of V if it spans V and is linearly independent so you
+
+43
+00:14:22,157 --> 00:14:33,391
+所以你需要满足这两个条件：必须能将每个向量写成这些向量的线性组合（这是生成条件），而且如果某个线性组合为 0，则所有系数必全为 0。
+need both conditions you have to write every vector as a combination of these that's the span and if you had a combination that's 0 all the coefficients are zero
+
+44
+00:14:33,391 --> 00:15:12,233
+这意味着什么呢？有时给出定义并确切理解这一定义的含义是很有用的；它的含义是每个向量 w ∈ V 都可以唯一地表示为线性组合 w = a₁v₁ + ... + aₙvₙ。
+what this means sometimes it's nice to have a definition and to actually know what the definition means what it means is that every vector w in V is uniquely expressed as a linear combination w = a1 v1 plus plus an vn
+
+45
+00:15:12,233 --> 00:15:20,083
+生成空间意味着你可以将其写为线性组合，而线性无关则进一步说明该线性组合是唯一的。
+the span means you can write it as a combination but the linear independence then says that that combination is unique
+
+46
+00:15:20,083 --> 00:15:36,153
+因为假设它能以另一种方式书写，假设写为 b₁v₁ + ... + bₙvₙ（另一种书写方式），然后用这个向量减去那个向量：
+because suppose it were written in another way suppose it were written as b1 v1 plus bn vn another way of writing it and take this vector minus
+
+47
+00:15:36,153 --> 00:15:55,657
+好，那就是 w - w，所以是零向量；另一方面，零向量就会等于 (a₁ - b₁) · v₁ + ... + (aₙ - bₙ)vₙ；
+this vector okay that's w minus w so it's the zero vector on the other hand the zero vector would be (a1 - b1) * v1 plus plus (an - bn) * vn
+
+48
+00:15:55,657 --> 00:16:08,469
+而由线性无关性可知，所有系数都必须为零，所以这个系数为零，那个系数也为零。换言之，a₁ 必须等于 b₁, a₂ 必须等于 b₂，
+and by linear independence that says that all the coefficients have to be zero so this coefficient is zero and this coefficient is zero in other words a1 has to be equal to b1 a2 has to be equal to b2
+
+49
+00:16:08,469 --> 00:16:22,589
+依此类推；因此我们根本没有得到新的表达式，原表达式是唯一的。这就是基的优美之处：不仅能表示为线性组合，而且该组合是唯一的。
+and so consequently we didn't really have a new expression at all and this expression was unique that's the beautiful thing about a basis you can not only express it as a combination but that combination is unique
+
+50
+00:16:22,589 --> 00:16:45,480
+实际上，例如这组向量就构成了 ℝ³ 的一组基：我们验证了它们线性无关；你还需要验证它们能够生成整个空间。我们验证了前两个向量生成了一个相当大的子空间，并且你可以看出加入第三个向量后实际上生成了整个空间。
+in fact for example this forms a basis of R3 we checked that they were linearly independent you also have to check that they span well we checked that the first two spanned a rather large subspace and you can see that this third one actually ends up spanning the entire space
+
+51
+00:16:45,480 --> 00:17:01,240
+好，现在用我们高级语言来表述，什么是基呢？因为你们以前毫无疑问见过基的这种定义，但用我们上次使用的语言来说，
+okay now what is a basis in terms of the in terms of our fancy language because you've seen this definition of a basis undoubtedly before in terms of the language we used last
+
+52
+00:17:01,240 --> 00:17:51,860
+一组基会诱导出一个从 V 到向量空间 Fⁿ 的向量空间同构， 它将 V 中的任意向量 w 映为其在此唯一样式下的坐标（即 w 关于向量组 v₁ 到 vₙ 展开式的系数）。
+time a basis a basis gives rise to an isomorphism of vector spaces from V to the vector space F^n which takes an arbitrary vector w in V to its coordinates in this unique expansion of w with respect to the vectors v1 through vn
+
+53
+00:17:51,860 --> 00:18:07,196
+很好。这是一个同态，因为如果在 V 中将两个向量相加，就相当于把 v₁、v₂、v₃ 的分量相加，也就是把 a₁ 与 b₁ 相加；假设我们有另一个向量，
+okay good now that is a homomorphism because if you add two vectors in V you add the components of v1 v2 v3 so you're adding a1 to b1 suppose we had another
+
+54
+00:18:07,196 --> 00:18:25,664
+现在称之为 w'；如果我们在 V 中把 w 与 w' 相加，得到 (a₁ + b₁)v₁ + ... + (aₙ + bₙ)vₙ；因此当我们对 w + w' 作用 f 时，
+vector now we're going to call this vector w' if we add w to w' in V we get (a1 + b1) v1 plus plus (an + bn) vn and so when we apply f to w + w' we'd get (a1 + b1, ..., an + bn)
+
+55
+00:18:25,664 --> 00:18:39,435
+根据我对 f 的定义，会得到 (a₁ + b₁, ..., aₙ + bₙ)，这正好等于 f(w) + f(w')，对吧？因为这就是该向量空间中的加法法则。
+if you just take the definition of f that I've given here which is exactly f(w) + f(w') right because this is the addition law in this vector space
+
+56
+00:18:39,435 --> 00:18:56,542
+同样，如果我们对数乘 c·w 作用 f：将 w 乘以标量，就等于将所有 vᵢ 的系数乘以该标量，得到 (ca₁, ca₂, ..., caₙ)，
+likewise if we apply f to a constant times w well if you multiply w by a scalar you multiply all the coefficients of the vi by that scalar so you get (c a1, c a2, ..., c an) which is nothing
+
+57
+00:18:56,542 --> 00:19:06,916
+这正是 c · f(w)，因为这就是该向量空间中的数乘运算。不仅如此，我还断言它是——所以这证明了它是向量空间同态。
+but c * f(w) because this is scalar multiplication in this vector space now moreover I claim it's an so that shows that it's a homomorphism of vector spaces
+
+58
+00:19:06,916 --> 00:19:19,239
+我断言它是一个同构：首先它是满射，因为只要你给我任意一个标量组成的 n 元组，我就能在 V 中做出向量 w：
+I claim it's an isomorphism first of all it's onto because if you give me any n-tuple here of scalars I can make this vector w in V I
+
+59
+00:19:19,239 --> 00:19:31,826
+我可以把各个 vᵢ 乘上这些指定的标量并求和，这就在 V 中得到了一个向量，使得 f(w) 恰好等于你给出的这组标量，这就是满射；
+can take my vi and multiply them by those specific scalars and add them up that gives me a vector in V such that f(w) is equal to your set of scalars here that's onto
+
+60
+00:19:31,826 --> 00:19:53,552
+而单射性只需验证：因为它是群同态，只需验证其核是平凡的。若 f(w) 是零向量，意味着所有 aᵢ 均为 0，而这意味着 w 本身就是零向量。好，所以这是向量空间的同构。
+and it's one-to-one well we just have to check because it's a homomorphism of groups that its kernel is trivial well if f(w) is the zero vector that means all the ai are zero which meant that w itself was the zero vector okay so isomorphism of vector spaces
+
+61
+00:19:53,552 --> 00:20:13,988
+反过来，我们将看到对于此类向量空间的每个同构，我们都能得到 V 的一组基；在基与这类将我们的向量空间等同于该向量空间的同构之间，存在真正的一一对应。我还没讲这个，还没讲，这只是后续内容。
+conversely we're going to see that to every isomorphism of vector space of this sort we get a basis of V it's really a one-to-one correspondence between a basis and such isomorphisms identifying our vector space with this vector space I haven't done that yet I haven't done that yet it's just something in the future
+
+62
+00:20:13,988 --> 00:20:28,692
+说到“未来”，既然刚才提到了未来，不妨想想这个：人们常说你无法预见未来，对吧？但我不赞同这一点：你无法预见自己的未来，但你能预见别人的未来！这是一个非常有趣的时间问题，
+so here's since I just mentioned in the future consider the following people say you can't see the future okay but I'm going to disagree with that you can't see your own future you can see other people's future it's a very interesting time question
+
+63
+00:20:28,692 --> 00:20:39,949
+比如下面这个例子说明你如何能看到别人的未来：你正开车行驶在公路上，在道路另一侧你看到堵车堵了足足五英里，你看到那些正迎头开进拥堵车流的人，
+so here's an example of how you can see other people's future you're driving down the highway right and on the other side of the road you see a backup for like five miles and you want to see the people
+
+64
+00:20:39,949 --> 00:20:50,479
+你想对他们喊：在你们的行程上加一个小时吧！你刚刚看到了他们的未来！他们自己看不到，但你看到了他们的未来，对吧？
+who are driving into the backup you want to say to them add an hour to your trip you've just seen their future they can't see it but you've just seen their future true
+
+65
+00:20:50,479 --> 00:21:08,453
+好吧。好，我们来证明几个漂亮的定理，我们将从两个方向来做。刚才有什么好笑的？那只是句题外话，我能看到你们在这门课里的未来！
+okay all right let's prove a couple of nice theorems so we're going to go two ways what was so funny that was just a side comment I can see your future in this course
+
+66
+00:21:08,453 --> 00:21:26,581
+好，如果 S……抱歉？[学生]：饶了我们吧……[Gross]：好吧，你们自己看不到自己的未来，所以我不能剧透，对吧？那会破坏时间结构！《回到未来》里怎么说的？他们老说：“我的天，我们撕裂了时间结构！”
+okay so if S pardon leave us well you can't see your future so I can't tell you your future right that would violate the fabric of time what do they say they always do that in Back to the Future oh my God we've rent the fabric of time
+
+67
+00:21:26,581 --> 00:21:55,254
+好的，设 S 是一个生成 V 的集合。我们知道存在这样的有限集合，因为我们假设了 V 是有限维的。那么 S 的某个子集会给出 V 的一组基。
+all right let S be a set that spans V there we know there is such finite set because we've assumed V is finite dimensional okay then a subset of S gives a basis for V
+
+68
+00:21:55,254 --> 00:22:07,372
+所以任何时候你有一个生成该向量空间的集合，它本身可能就是一组基，但如果不是，其某个子集必是一组基。
+so anytime you have a set that spans the vector space you can maybe it'll be a basis itself but if not some subset of it will be a basis
+
+69
+00:22:07,372 --> 00:22:51,853
+好，证明：若 S 的元素线性无关，我们就证完了，因为那是 S 成为一组基所需的第二个条件；若不是，则存在一个线性关系 a₁v₁ + ... + aₙvₙ = 0——S 中的元素是 v₁ 到 vₙ，
+okay so proof if the elements of S are linearly independent we are done because that's the second condition you need on S to be a basis so if not we have a relation a1 v1 plus plus an vn the elements in S are v1 through vn I should have said that we have
+
+70
+00:22:51,853 --> 00:23:10,102
+我之前应该说清楚的——我们有一个等于零的关系式，且某些 aᵢ 不为零。所以它们要么线性无关，要么存在某种线性关系，而存在线性关系就意味着存在某个系数非零的线性组合。大家明白了吧。
+a relation equal to zero with some ai not equal to zero so either they're linearly independent or there's some linear relation between them and some linear relation would mean some linear combination where one of the coefficients is non zero so you get it
+
+71
+00:23:10,102 --> 00:23:28,591
+既然这个集合起初没有特定顺序，我现在为它排序，使得我们可以假设——重排使其例如 aₙ ≠ 0，即使得这最后一个系数非零，何乐而不为呢？
+so since the set wasn't particularly ordered I now order the set so that we can assume can reorder so that for example an is not equal to zero namely so that this last coefficient
+
+72
+00:23:28,591 --> 00:23:49,919
+好，把其他项移到等号另一边：那么 aₙvₙ = -a₁v₁ - ... - aₙ₋₁vₙ₋₁（在 V 中）。这就是该线性关系的含义。
+is non zero why not okay take this over to the other side then an vn is equal to minus a1 v1 minus ... minus an-1 vn-1 in V that's what that linear relation means
+
+73
+00:23:49,919 --> 00:24:11,077
+现在——这是关键所在——我们利用我们处于一个域中的事实：当你在域中有一个非零元时，你可以写出它的乘法逆元！这是我们在域上唯一定理用到的性质。所以 aₙ⁻¹ 存在。
+and now and this is the key point we use the fact that we're in a field and when you have a nonzero element in the field you can write down its multiplicative inverse this is the only thing we're using about fields okay so an inverse exists
+
+74
+00:24:11,077 --> 00:24:24,650
+如果你回顾在 ℝ 和 ℂ 上学过的全部线性代数，这是真正唯一用到的东西：你完全没有用到实数集中柯西序列收敛之类的分析性质，你仅仅用到了非零元必有逆元。
+that's if you look at all the linear algebra you did over R and C this is the only thing you're really using about it you're not using the fact that you have convergent Cauchy sequences in the reals or anything like that you're just using that if a non-zero element has an inverse
+
+75
+00:24:24,650 --> 00:24:49,125
+所以 aₙ⁻¹ 存在；两边同乘 aₙ⁻¹，就得到 vₙ 等于-(1/aₙ) · (a₁v₁ + ... + aₙ₋₁vₙ₋₁)，这说明该向量落在前面那些向量的生成空间中；
+so an inverse exists multiply by an inverse you get vn is equal to -1 / an * (a1 v1 + ... + an-1 vn-1) which says that this vector is in the span of the previous ones
+
+76
+00:24:49,125 --> 00:25:14,583
+从而任何用前 n 个向量表示的东西，本就可以仅用前 n-1 个向量表示出来，因为你可以在表达式中将 vₙ 的任意倍数替换为该组合的对应倍数。因此 S 的生成空间与集合{v₁, ..., vₙ₋₁} 的生成空间相同，
+so that anything that you wrote using the first n things you could have already written in terms of the first n minus one because you could replace any multiple of vn in your expression by the corresponding multiple of this combination so hence the span of S is the same as the span of the set
+
+77
+00:25:14,583 --> 00:25:35,160
+而我们假设了它等于 V，因为 S 生成 V。所以我们证明了：若该集合线性相关，我们就能从中剔除一个向量而保持生成空间不变；现在我们得到了一个生成 V 的更小集合。
+v1 through vn-1 and this we assumed was V because we said that S spanned V so we've shown that if the set was linearly dependent we'd be able to throw a vector out of it and get the same span and now we have a smaller set that spans V
+
+78
+00:25:35,160 --> 00:26:04,572
+那么它可能是线性无关的：若这个集合线性无关——这里指刚得到的这个集合——我们就完成了； 若仍线性相关，则重复此步骤找到另一个线性关系并再剔除一个向量，从而得到更小的集合；
+so maybe it's linearly independent if this set is linearly independent this set meaning this set we're done if not repeat to find another linear relation and throw another vector out of the set and we get down to a smaller set and since we started with a finite
+
+79
+00:26:04,572 --> 00:26:22,240
+由于我们最初是一个有限集，我们不可能无限次重复该过程，最终必定会缩减到一个线性无关的集合（即一组基），或者一直剔除向量直到缩减为空集——对吧？空集是零向量空间 {0} 的基。
+set we can't repeat this process indefinitely we eventually get down to a set which is either linearly independent a basis or we keep throwing out vectors to the point where we get down to the zero set the empty set right the empty set is a basis for its zero vector space
+
+80
+00:26:22,240 --> 00:26:38,260
+好，证明完成，重复此过程直至完成。因此每次出现线性关系时逐个剔除向量，直到不再存在任何线性关系，我们就得到了基。
+okay so we're done repeat until done and so by throwing out things one at a time every time we get a linear relation until we don't get any more linear relations we get to a point where we get a basis
+
+81
+00:26:38,260 --> 00:26:51,425
+好，现在我们看相反方向：我们不再从生成集出发，而是从线性无关集出发。所以对于生成集，你是向下缩减；对于线性无关集，
+okay let's go the other way now we're not going to start off with a spanning set we're going to start off with something which is linearly independent so spanning sets you go down
+
+82
+00:26:51,425 --> 00:27:28,679
+则是向上扩充。这里有另一个定理：若 L 是一个线性无关的向量集合，它可以被扩充为 V 的一组基，即你可以逐个添加向量以获得一组基。好。
+linear independence you go up so here's another theorem if L is a linearly independent set of vectors it can be extended to form a basis of V namely you can add vectors to it one by one to get a basis okay
+
+83
+00:27:29,800 --> 00:28:15,496
+证明：若 L 生成 V，则已完成，因为它是基；如果不生成，设 S 是生成 V 的有限集合——由于 V 是有限维的，存在生成它的有限集——并设 v 是 S 中不属于 L 的生成空间的一个元素。
+okay so proof if L spans V then we're done because it's a basis if not let S be a finite set spanning V since V is finite dimensional there is some finite set that spans it and let v be an element in S which is not in the span of L
+
+84
+00:28:15,496 --> 00:28:29,768
+S 中必然存在这样一个不在 L 的生成空间中的向量，原因在于：若 S 中的每个元素都能写成 L 中元素的线性组合，且 V 中的每个元素都能写成 S 中元素的线性组合，
+now there has to be such a vector in S which is not in the span of L and the reason is that if everything in S were written as a linear combination of things in L and everything in V can be written as a linear
+
+85
+00:28:29,768 --> 00:28:42,200
+那我们本就可以将 V 中的每个元素写成 L 中元素的线性组合，但这与 L 不生成 V 矛盾；因此 S 中必然存在某个不在 L 的生成空间中的向量。
+combination of things in S we would have written everything in V as a linear combination of things in L but L didn't span V so there has to be some vector in S which is not in the span of L
+
+86
+00:28:42,200 --> 00:29:12,843
+那么我们断言：若取 L 与 {v} 的并集，不妨记为 L'，它是线性无关的！因此若将 v 加入 L——即我们仅向 L 中添加了一个向量——我们便得到了一个线性无关组。之前我们从生成集中剔除一个向量，
+then we claim that you take the union of L and v call that maybe L' is linearly independent so that if you add v to L so we just add one vector to L we get something which is linearly independent here we threw one vector out of the spanning set so let's see why that's
+
+87
+00:29:12,843 --> 00:29:43,867
+现在我们来看看为什么这成立。为什么呢？假设 L 由向量 w₁ 到 wₘ 组成，并假设在 L 与 v 的向量之间存在线性关系，设 ∑ aᵢwᵢ + b v = 0；这就是我们的线性关系。好，现在我断言所有系数都必须为零。
+true why suppose that L were the vectors w1 through wm and suppose we had a linear relation between the vectors in L and v and suppose the sum of ai wi plus b v is equal to zero that would be our linear relation okay now I'm going to claim that all the coefficients are zero
+
+88
+00:29:43,867 --> 00:30:19,159
+首先来看 b 必须为零，否则根据我们刚才用过的技巧，v = -(1/b) ∑ aᵢwᵢ 将落在 L 的生成空间中——再次用到了域中任何非零元都可逆的事实。所以系数 b 必须为零，
+well let's first see that b has to be zero or else by the trick we did last time v is equal to -1 / b times the summation of ai wi is in the span of L again we're using the fact that in a field anything which is nonzero is invertible okay so this coefficient has to be zero
+
+89
+00:30:19,159 --> 00:30:49,839
+从而 ∑ aᵢwᵢ 等于零，因为这个线性关系中不再需要 b；但这蕴含了所有 aᵢ 全为零，因为假设了 L 线性无关。好，所以只要有线性关系，我们刚刚就证明了所有系数必为零，这意味着这是一个线性无关集。
+hence the summation of ai wi is equal to zero because we didn't need b in this linear relation but that implies that all ai are zero as L was assumed to be linearly independent okay so anytime we had a linear relation we've just proved that all the coefficients are zero so that means that this is a linearly independent set
+
+90
+00:30:49,839 --> 00:31:19,519
+接下来我们要问：若 L' 生成 V，那么你就完成了；若不生成，由前述完全相同的论证，S 中存在不属于 L' 生成空间的向量 v'；将其添加到 L' 中，又得到一个线性无关集。
+now the next thing we ask is if L' spans then you're done if not there is a vector v' in S not in the span of L' by the same argument that we did before and then if you adjoin that to L' you get a linearly independent set
+
+91
+00:31:19,519 --> 00:31:31,819
+只要它还不生成 V，你就不断将该有限集中的向量并入 L，不断添加向量，持续得到线性无关集。而你最多只能这样做有限次，因为 S 是一个有限集；
+and you keep adjoining vectors in this finite set to L as long as it doesn't span V you keep adjoining vectors you keep getting linearly independent sets well you can only do that a finite number of times
+
+92
+00:31:31,819 --> 00:31:50,199
+因此最终你或者已经添加了 S 中的全部元素（此时必然生成 V，因为 S 生成 V），或者通过加入其中某些向量，你的有限集已经实际生成了全空间，从而得到了一组基。很好，这样就缩减或扩充得到了基。
+because S is a finite set so ultimately you either adjoined everything in S and you certainly span because S spans or you've gotten to the point where your finite set by joining some of these vectors actually spans and you have a basis okay good okay cutting the bases down
+
+93
+00:31:50,199 --> 00:32:22,890
+现在来看关键命题，这是本讲中唯一稍显非平凡的内容，也是唯一你不希望被复杂符号所淹没的地方。好，我们来看主定理：主定理：若 S = {v₁, ..., vₙ} 生成 V，
+now here's the key proposition which is the one thing that's slightly non-trivial in this lecture and the only thing where you don't want to bury yourself in notation with all right here we go main theorem theorem if S which is {v1, ..., vn} spans V and L
+
+94
+00:32:22,890 --> 00:32:41,559
+且 L = {w₁, ..., wₘ}（注意这里是 m）线性无关，那么你无法断言这些向量与那些向量的具体关系，它们是完全不同的向量组；
+which is {w1, ..., wm} this is an m is linearly independent then you can't say anything about these vectors and these vectors they're just completely different vectors but the only thing you can conclude
+
+95
+00:32:41,559 --> 00:32:58,159
+但你唯一能断言的是：生成集中的向量个数至少与线性无关集中的向量个数一样多（n ≥ m）。这就是我们要证明的：生成集的大小大于或等于线性无关集。
+is that the number of vectors in the spanning set is at least as large as the number of vectors in the linearly independent set that's what we're going to prove so spanning sets are bigger than or equal to linearly independent sets
+
+96
+00:32:58,159 --> 00:33:39,638
+好，我们来证明。证明：因为 S 生成 V，我们可以把 L 中的每个元素（我记为 w_j）表示为 V 中基底元素的线性组合： 我将其写为 ∑_{i=1}^n a_{ij} vᵢ，对吧。
+okay so let's prove this proof since S spans we may write every element in L which I'll call wj as a linear combination of the elements in V so I'll write that as the sum from i = 1 to n of aij vi okay
+
+97
+00:33:41,098 --> 00:33:56,662
+有问题？是的，假设……抱歉，这里是在 V 中线性无关。所有向量都在同一个向量空间中，但它们是不同的向量组。我有一个包含 n 个元素的生成集，另一个包含 m 个元素的线性无关集；
+question yeah assuming yeah sorry this is linearly independent in V everything is in the same vector space but they're just different sets of vectors so I have one set with n elements that spans another set with m elements that's linearly independent I'm going
+
+98
+00:33:56,662 --> 00:34:11,120
+我要证明无论它们具体是什么，第一个集合的元素个数至少与第二个集合一样多。所以我将第二个集合（其元素都在 V 中）中的每个元素用生成集按这种方式展开。
+to show that whatever those are the number of elements in the first is at least as large as the number of elements in the second so I say I write every element in the second which is an element in V in terms of the spanning set like this
+
+99
+00:34:11,120 --> 00:34:43,913
+好，现在假设我想在 w 上构造一个线性关系—— 尝试在 {w_j} 之间构造一个非平凡线性关系。换言之，我要把 V 中的零向量写成 ∑_{j=1}^m c_j w_j 的线性组合。
+okay now suppose I want to make a linear relation on the w try to make a non-trivial linear relation on the w the wj so in other words I'd write zero in V as a combination of cj wj sum j = 1 to m we're not
+
+100
+00:34:43,913 --> 00:34:50,765
+根据假设，除非所有 c_j 均为零，否则我们不应该能做到这一点，对吧？因为假设了 {w_j} 是线性无关的。
+supposed to be able to do that unless all the c's are zero right that's the hypothesis that the w are linearly independent
+
+101
+00:34:50,765 --> 00:34:56,320
+但让我们看看这样的线性关系究竟意味着什么：现在我把 w_j 替换为那边的展开式：
+but let's see if we can see what such a linear relation would mean well now I replace wj by that sum over
+
+102
+00:34:56,320 --> 00:35:19,720
+也就是 ∑_{j=1}^m c_j · (∑_{i=1}^n a_{ij} vᵢ)。换言之，我把我打算在 w 上构造的关系，转化为了关于 vᵢ 的线性关系。
+there so that's the sum from j = 1 to m cj times the sum from i = 1 to n of aij * vi in other words I take this relation that I'm going to make on the w's and I turn it into a linear relation on the vi
+
+103
+00:35:19,720 --> 00:35:35,453
+换言之它变成了求和式——我要交换关于 i 和 j 的求和次序，天哪，我在中途改了记号，来看看我们能否顺利完成：
+in other words it becomes the sum and I'm going to change the order of summation between i and j oh my God I changed my notation
+
+104
+00:35:35,453 --> 00:36:01,800
+它变成了从 i = 1 到 n 对外层求和，内层是对 j = 1 到 m 求和：∑_{j=1}^m a_{ij} c_j · vᵢ。好的。
+here in the middle so you see we'll see if we can actually do this it becomes i = 1 to n of the summation over j = 1 to m aij * cj times vi okay
+
+105
+00:36:01,800 --> 00:36:28,159
+现在如果我们能构造出……我们正试图寻找这个线性关系，即寻找一个向量 (c₁, ..., cₘ)，它不等于零向量。要使这个关系式为零，一种方式就是让所有这些系数全为零。
+now if we can arrange that we're trying to look for this linear relation so we're trying to look for a vector (c1, ..., cm) which is not equal to the zero vector now one way we could get this relation this could be zero is if all these coefficients were zero
+
+106
+00:36:28,159 --> 00:37:00,685
+所以如果我们能做到——论证是这样的：如果我们能使得对所有 i 都有 ∑_{j=1}^m a_{ij} c_j = 0，那么这个向量显然就是零向量，
+so if we can make so here's the argument if we can arrange that the summation over j aij cj is equal to zero for all i then this vector is certainly the zero vector because the coefficients
+
+107
+00:37:00,685 --> 00:37:27,286
+因为 vᵢ 的系数就是这些和式；因此只要能实现这一点，我们当然就能使该式为零；若能使此式成立且存在某个 c_j ≠ 0，那么 {w_j} 就不可能线性无关。
+of vi are these sums so we could certainly get this equal to zero if we could arrange this if we could arrange this with some cj not equal to zero then the wj could not be linearly independent
+
+108
+00:37:27,286 --> 00:37:54,755
+现在我们能否做到这一点呢？来看看这是什么：指标 i 从 1 到 n，所以这是 n 个方程，而我们要解的是 c_j，所以有 m 个未知数。它们是齐次线性方程组，
+now can we arrange that well let's think of what this is the i's go from 1 to n so this is n equations and we're trying to solve for the cj so that would be m unknowns they're actually linear equations and it's a general
+
+109
+00:37:54,755 --> 00:38:07,240
+而线性方程组的通用理论告诉我们（大家也都知道，我稍后简要勾勒一下）：只要未知数个数多于方程个数，就总能找到非平凡解！
+theory in linear equations which you all know and I'll just sketch out for you briefly that if you have more unknowns than equations you can always find a non-trivial solution
+
+110
+00:38:07,240 --> 00:38:48,168
+因此如果 m > n—— 未知数 c_j 的个数多于方程个数 n——我们就能找到一个非平凡解，即我们能找到该方程组的一个解使得某些 c_j 非零。但这就会带来矛盾：这将导致那个和式为零向量，
+so if m were bigger than n more unknowns cj than the i equations we can find a non-trivial solution namely we can find a solution to this system of equations with some of the cj non zero but that would be a problem for us this would imply that this sum was the zero vector and it would be a combination
+
+111
+00:38:48,168 --> 00:39:11,714
+从而构成 {w_j} 具有非平凡系数的线性组合，这将矛盾于假设 L 集合是线性无关的！因此若 m > n，便与这两个假设矛盾；因此，这两个假设必然推出 n 必须大于或等于 m（n ≥ m）。
+with non-trivial coefficients of the wj which would contradict our hypothesis that the set L was linearly independent so if m is bigger than n we get a contradiction to these two hypotheses and consequently these two hypotheses imply that n has to be bigger than or equal to m
+
+112
+00:39:11,714 --> 00:39:22,218
+现在我们复习一下：当你有线性方程组且未知数多于方程时，为什么总能找到非平凡解？这是怎么运作的？
+now let's review this when you have linear equations and you have more unknowns than equations you can find a non-trivial solution
+
+113
+00:39:22,218 --> 00:39:36,848
+这是初二（八年级）就学过的内容：我是说，若你从包含两个未知数的一个方程开始，比如 2x + 3y = 0，你可以找到非零解 (x, y)；
+how does that work well this is the sort of thing one learns in eighth grade I mean if you start with one equation in two unknowns like 2x + 3y = 0 you can find a nonzero solution (x, y)
+
+114
+00:39:36,848 --> 00:39:59,172
+同样如果你有两个方程，比如 x + 2y + 4z = 0 以及 2x + 7y + 8z = 0：如果有两个方程和三个未知数，你也同样可以找到非平凡解。
+and likewise if you started with two equations yeah x + 2y + 4z = 0 and 2x + 7y + 8z = 0 if you had two equations and three unknowns then you could also find a non-trivial solution you just eliminate
+
+115
+00:39:59,172 --> 00:40:07,628
+你只需通过两式相减消去其中一个变量，便得到包含两个未知数的一个方程，而我们知道如何解两个未知数的一个方程；
+one of the variables by subtracting one of the equations from the other then you get one equation and two unknowns and we know how to solve one equation in two unknowns
+
+116
+00:40:07,628 --> 00:40:25,839
+类似地，当你面对一个线性方程组时，你不断消去一个方程和一个未知数，最终化简到一个系统：若未知数多于方程，你会得到包含若干未知数的零个方程，
+and likewise and when you start off with a system of linear equations you keep eliminating one equation and one unknown and eventually you get down to a system where if you have more unknowns than equations you have zero equations
+
+117
+00:40:25,839 --> 00:40:39,910
+你只需将这些自由未知数设为任意非零值并回代即可。这就是消元法（Elimination Theory）的过程，你们在初中代数里针对两三个方程学过；
+in a certain number of unknowns you just set the unknowns equal to anything you want and go back so this is the process of elimination theory which you you study in eighth grade algebra in the context of two equations or three equations
+
+118
+00:40:39,910 --> 00:40:52,934
+当然，当方程个数与未知数个数恰好相等时，这会变成一个非常引人入胜的课题，那极为有趣；但当未知数多于方程时，你在齐次线性方程中总有自由度去选取非零解。
+of course it becomes a very interesting question when you have exactly as many equations as unknowns that's totally interesting but when you have more unknowns than equations you have freedom in linear equations always to choose a non-zero solution
+
+119
+00:40:52,934 --> 00:41:10,426
+如果你想复习这一点，教材第一章有详细阐述，其中 Artin 展示了如何具体求出非平凡解。这是这类定理中最好自己亲手写一遍证明的一个，这样你才能真正理解记号以及这里的实质操作。
+so if you want to review this this is reviewed in chapter 1 where he shows you how you actually find the non-trivial solution and this is kind of one of these theorems where it's best to write out the proof yourself so you understand the notation and what you're actually doing here
+
+120
+00:41:10,426 --> 00:41:24,467
+而这个方程组正是由我们得到的系数系统 a_{ij} 所决定的，它们给出了方程的系数。你真正求解的方程组就是像这样的形式，如果我把方程写成这样：
+but the system of equations is determined by this coefficient system aij that we got here they give you the coefficients of the equation in the equations you're really solving are things like this if I wrote the equation
+
+121
+00:41:24,467 --> 00:41:37,888
+你试图求解 x_j（也就是我们这里的 c_j）：方程有一定数量，但未知数多于方程，你就总能找到一组解 c_j，给出 {w_j} 之间的非平凡线性相关性。
+like this and you were trying to solve for the xj calling them cj so you had a certain number of equations you had more unknowns than equations you'd be able to find a solution cj that would give you this non-trivial dependence on the wj
+
+122
+00:41:37,888 --> 00:42:14,192
+好，这是核心大定理，因为它使我们能够得出以下推论：让我来写下这个推论。第一：V 的所有基都具有相同数量的元素，
+okay this is the big theorem because this allows us to say the following let me make a corollary of this all bases of V have the same number of elements and that number
+
+123
+00:42:14,192 --> 00:42:24,312
+且该元素个数按定义称为 V 的维数（dim V）。所以它是一个整数，即一组基中元素的个数。这是第一个陈述。
+of elements is by definition called the dimension of V so it's an integer that is the number of elements in a basis that's the first statement
+
+124
+00:42:24,312 --> 00:42:56,760
+第二个陈述是：所有生成集中的元素个数至少等于 V 的维数：|S| ≥ dim V。第三个陈述：所有线性无关集中的元素个数都小于或等于 V 的维数：|L| ≤ dim V。
+the second statement is all spanning sets have the number of elements in S at least the dimension of V all three all linearly independent sets have the number of elements in the linearly independent set less than or equal to the dimension of V
+
+125
+00:42:57,960 --> 00:43:13,120
+陈述 2 和 3 由陈述 1 直接导出，因为根据我们关于生成集的定理，如果有一个生成集，我们总能将其缩减为一组基，对吧？所以其中的元素个数必然至少等于基中的元素个数；
+so two and three follow from one because we saw that if the theorem we had on spanning sets is if we had a spanning set we could always reduce it to get a basis right so the number of elements in it has to be at least the number of elements in a basis
+
+126
+00:43:13,120 --> 00:43:24,620
+而陈述 3 则来自我们关于线性无关集的定理，因为线性无关集总能扩充为一组基，所以其元素个数必然小于或等于基中的元素个数。
+and this thing follows from our theorem on linearly independent sets because we saw a linearly independent set we could always increase it to get a basis so the number of elements in it has to be less than or equal to the number of elements in a basis
+
+127
+00:43:24,620 --> 00:43:51,720
+[学生]：零空间的维数是多少？[Gross]：谢谢，零空间 {0} 的维数等于 0。空间 Fⁿ 的维数结果是 n。所以对任意非负整数都存在对应维数的向量空间；这里的维数是一个非负整数，问得好。
+is the dimension of the zero thank you the dimension of this is equal to zero the dimension of the space F^n turns out to be n so there's a vector space of any positive dimension this dimension is supposed to be a non-negative integer good question
+
+128
+00:43:51,720 --> 00:44:05,154
+好，现在我们得到了任意给定维数的向量空间。我们需要证明这个事实，但这并不难，因为你只需写出一个线性无关的生成集；证明方法就是使用标准基，
+okay so we now have got a vector space of any given dimension we're going to have to prove this but it's not hard because you just have to write down a linearly independent spanning set and the proof of this is use
+
+129
+00:44:05,154 --> 00:44:27,640
+其中 vᵢ 是仅在第 i 个位置为 1 的向量。很容易证明它既生成全空间又线性无关，这就证明了该空间的维数是 n，正如大家所预期的那样。
+the standard basis where vi is the vector which has just a one in the i-th place it's easy to show that spans and linearly independent so that shows the dimension of this space is n as you might expect
+
+130
+00:44:27,640 --> 00:44:58,225
+好，我们来证明这个推论：基是既线性无关又生成空间的集合，所以设第一个基为 B，第二个基为 B'；既然 B 生成 V 且 B' 线性无关，由主定理可知 B 的元素个数至少等于 B' 的元素个数：
+okay let's prove the corollary well a basis is a set that's linearly independent and spans so let's let the first basis B be the first basis and the second basis be B' and since B spans and B' is linearly independent we know that the number of elements in B is at least
+
+131
+00:44:58,225 --> 00:45:22,960
+|B| ≥ |B'|；又因为 B' 生成 V 且 B 线性无关，我们知道 B' 的元素个数至少等于 B 的元素个数：|B'| ≥ |B|。如果你有两个整数，它们互大于等于对方，那么它们必须相等！
+the number of elements in B' by the main theorem and since B' spans and B is linearly independent we know the number elements in B' is at least the number of elements in B and if you have two integers and they're both greater and equal to each other they have to be equal
+
+132
+00:45:24,879 --> 00:45:50,131
+好。再给你们讲一个令人赞叹的事实：基是分析向量空间的关键。我们将看到，向量空间本身虽然优美、对称等等，但如果你想真正深入细节，通常需要选取一组基。关于基我再告诉你们一个非常酷的结论：
+okay and let me give you one more amazing the bases are the key to analyzing vector spaces we're going to see that a vector space itself is beautiful and symmetric and etc but if you really want to get down to the nitty-gritty you usually choose a basis and I'll give you one more very cool thing about bases
+
+133
+00:45:50,131 --> 00:46:38,894
+假设 W 是 V 的一个子空间——它们都是有限维的—— 且 {w₁, ..., wₘ} 是 W 的一组基，那么我们可以将其扩充为 V 的一组基。具体而言，我的意思是你取基的前面元素为 w₁, ..., wₘ，
+so suppose suppose W is a subspace of V they're all finite dimensional and w1 through wm is a basis for W then we may extend to a basis for V namely what I mean by that is you take the first elements of your basis to be w1 through wm
+
+134
+00:46:38,894 --> 00:46:55,492
+然后添加一些新向量：v_{m+1}, v_{m+2}, ..., vₙ；你可以向该集合添加元素，最终得到一个成为 V 的基的集合。你可以从 W 原有的基出发，不断向外扩充得到 V 的一组基。
+and then you add some new things vm+1 vm+2 you can you can adjoin elements to that set so that you eventually get to a set which is a basis for V you can use your original basis for W and just keep pushing it out to get a basis for V
+
+135
+00:46:55,492 --> 00:47:12,454
+为什么呢？因为原集合线性无关且生成 W。既然它线性无关，它在 V 中也线性无关：若没有任何非平凡线性组合为零向量，这在 V 中同样成立，你在 V 中并不会产生比在 W 中更多的线性组合，
+why is that because the original set was linearly independent and spanned W well if it's linearly independent it's linearly independent in V if no linear combination is the zero vector but the zero linear combination that's also true in V you don't have any more linear combinations of this
+
+136
+00:47:12,454 --> 00:47:43,789
+所以这仍然是一个线性无关集合。在 V 中它是线性无关集，而我们证明过任何线性无关集都可以扩充为基，所以结论成立！对吧？那是我们关于线性无关集的命题之一。
+thing in V than you did in W so that this is a linearly independent set is linearly independent in V and we saw that you can always take a linearly independent set and extend it to a basis so there it is right that was one of our propositions on linearly independent sets
+
+137
+00:47:43,789 --> 00:47:56,337
+现在，这使得这种情况下的商空间等结构变得极其透明！因为请记住，当我们有一个子空间时（这比一般群的理论要优美得多）：当我们有一个子空间 W 时，
+now that makes the structure of quotient spaces etc in this situation extremely transparent because remember that when we had a subspace and this is much nicer than the theory of arbitrary groups
+
+138
+00:47:56,337 --> 00:48:26,255
+我们有商空间，给出了从 V 到 W 的陪集空间的映射。在该映射下，前 m 个向量映为零，因为它们落在核中，对吧？这就给出了一个同态 f。
+and when we had a subspace W we had a quotient space gives a map V to the cosets of W now in that map the first m vectors go to zero because they're in the kernel right so gives a homomorphism f
+
+139
+00:48:26,255 --> 00:48:58,720
+因此有这样一个事实（我不知道 Peter 有没有把这留作课后作业）：f(v_{m+1}), ..., f(vₙ) 这个有序向量组构成了商空间 V/W 的一组基；
+so fact I don't know if Peter assigned this to you for homework the f(vm+1), ..., f(vn) that ordered set of vectors gives a basis for V/W
+
+140
+00:48:58,720 --> 00:49:18,840
+因此， V 的维数等于 W 的维数加上 V/W 的维数：dim V = dim W + dim(V/W)。因为 n 是 V 的维数，而我们需要 m 个向量来构成 W 的基，我断言其余这些向量给出了 V/W 的一组基。大家课后去验证一下！
+and consequently the dimension of V is the dimension of W plus the dimension of V/W because n is the dimension of V and we needed m vectors to give a basis of W and I claim the rest of these things give a basis for V/W go and verify that
+
+141
+00:49:18,840 --> 00:49:47,960
+现在注意这里发生了什么：我们在 V 中真正找到了一个映射到 V/W 的子空间。如果我们令 W' 为由 v_{m+1} 到 vₙ 张成的子空间，
+now notice what's going on here we've really got a subspace of V that's mapping to V/W so if we let W' be the span of vm+1 up to vn um is a subspace
+
+142
+00:49:47,960 --> 00:50:01,608
+它是 V 的一个同构地映到 V/W 的子空间。所以在某种意义上，这不仅是一个商空间，不仅是 V 的同态像：你甚至可以把它看作是包含在 V 之内的！
+of V mapping isomorphically to V/W so in some sense this isn't just a quotient it's not just a homomorphic image of V you can think of it as inside of V
+
+143
+00:50:01,608 --> 00:50:14,852
+现在，这在群论中是做不到的！千万别以为对群也能这么做：如果你取群 Z/4Z，那是一个非常好的群 G，它有一个很好的子群，
+now that you can't do for groups don't ever think you can do that for groups if you take the group Z/4Z that's a perfectly nice group G and it has a very nice subgroup
+
+144
+00:50:14,852 --> 00:50:29,399
+称之为 H，可以写成 2Z/4Z，它同构于 Z/2Z（模 4 的偶数元素）。所以这是一个 4 阶循环群，它包含一个 2 阶循环子群；
+which is call H which you could write as 2Z/4Z which is isomorphic to Z/2Z the even things mod 4 so this is a cyclic group of four it contains a cyclic group of order two
+
+145
+00:50:29,399 --> 00:50:45,000
+商群是 2 阶循环群，因为它的阶必须是 2，而任何 2 阶群都是循环群；在这里除了 H 之外，不存在其他 2 阶循环群。所以你无法找到另一个 2 阶循环群：
+the quotient group is cyclic of order two because it has to be of order two and any group of order two is cyclic there is no other cyclic group of order two except for H in here so you cannot find another cyclic group of order two
+
+146
+00:50:45,000 --> 00:51:02,995
+在 G 中不存在子群 H' 能同构地映到 G/H，因为 H' 必须是 2 阶的，但唯一的 2 阶子群就是 H；而且如果你取 H 在映向 G/H 的映射下的像，它是零元（平凡子群）。
+there does not exist an H' in G mapping isomorphically to G/H because H' would have to be of order two but the only subgroup of order 2 is H and if you take the image of H in the map to G/H it's zero
+
+147
+00:51:02,995 --> 00:51:17,135
+所以这是向量空间的一个非凡事实：由于基的存在性，你总能找到一个在某种意义上“提升”了商空间的子空间！千万别以为对一般同态也能这么做，我已经警告过你们了，好吗？
+so it's a remarkable fact of vector spaces that because of the existence of bases you can find a subspace that in some sense lifts this don't think you can do that for a general homomorphism I've just warned you okay
+
+148
+00:51:17,135 --> 00:51:30,766
+我们在这旁边画一个布尔巴基危险弯道标志。出发！祝大家周末愉快。Peter，周一见！
+we'll put a little Bourbaki sign next to it Roulez okay have a good weekend Peter I'll see you Monday

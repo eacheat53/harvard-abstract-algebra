@@ -1,0 +1,473 @@
+{
+  "description": "Context-reviewed joins: attach confirmations to their statement, explanations to their prompt, and notation dialogue to its resolution. No maximum/minimum cue duration rule.",
+  "lectures": {
+    "08": {
+      "en_sha256": "be8a2b58390cb33e1d27a899487ca6049717f2da11308c17adabaa21f2455113",
+      "joins": [
+        {
+          "en_offset": 864,
+          "left_tail": "Now if this is true for all g in G, it's certainly true for all g in the subgroup K, which is the statement that H is normal in K.",
+          "right_head": "That's easy.",
+          "reason": "keep the reference, reply or proof step with its immediate context"
+        },
+        {
+          "en_offset": 3137,
+          "left_tail": "quotient group is zero, that means that K corresponds to pZ because it's given by the union of cosets in that subgroup and the only coset in that subgroup is H.",
+          "right_head": "So you get pZ.",
+          "reason": "keep the reference, reply or proof step with its immediate context"
+        },
+        {
+          "en_offset": 11748,
+          "left_tail": "And there are a lot of things in between.",
+          "right_head": "Believe me, there is not here, but between here and here there are a lot of interesting fields.",
+          "reason": "keep the reference, reply or proof step with its immediate context"
+        },
+        {
+          "en_offset": 16962,
+          "left_tail": "er because I did this business about subgroups of Z containing pZ a little earlier. Okay, so there's my inverse. It's true for every nonzero element of the set.",
+          "right_head": "So there's my field.",
+          "reason": "keep the reference, reply or proof step with its immediate context"
+        },
+        {
+          "en_offset": 26587,
+          "left_tail": "complex numbers or Z mod 2 or something like that. But the beautiful thing is that much of the theory of vector spaces is independent of what field you're over.",
+          "right_head": "That's what we're going to develop in this chapter.",
+          "reason": "keep the reference, reply or proof step with its immediate context"
+        }
+      ]
+    },
+    "10": {
+      "en_sha256": "1a0f2afd2741474919e364aceb32ac91cebfb749f1c84756321665725d873845",
+      "joins": [
+        {
+          "en_offset": 14024,
+          "left_tail": "Yes, exactly.",
+          "right_head": "Paraphrasing, and introducing a bit of notation which isn't standard—it's not in the book or anything, but it's going to be a useful notation for the purposes o",
+          "reason": "keep the reference, reply or proof step with its immediate context"
+        },
+        {
+          "en_offset": 1857,
+          "left_tail": "What's the product?",
+          "right_head": "Well, this was part of the reading for one of the sections in the last chapter, but just to refresh your memories, this is the set of ordered pairs (w, w'), whe",
+          "reason": "context review after ASR timing: keep conclusion with argument, prompt with answer, or duplicate source with its proof step"
+        },
+        {
+          "en_offset": 5522,
+          "left_tail": "map, so canonical quotient map which just takes this W' and maps it to the coset of W', the W-coset of W' Prime, such that this composite map is an isomorphism.",
+          "right_head": "So this is a great result.",
+          "reason": "context review after ASR timing: keep conclusion with argument, prompt with answer, or duplicate source with its proof step"
+        },
+        {
+          "en_offset": 5985,
+          "left_tail": "Exactly.",
+          "right_head": "So paraphrasing: the point is that we take a basis, well, v_1 through v_n of W, extend to basis v_1, ..., v_n, v_{n+1} up through v_m of V—we're allowed to do t",
+          "reason": "context review after ASR timing: keep conclusion with argument, prompt with answer, or duplicate source with its proof step"
+        }
+      ]
+    },
+    "11": {
+      "en_sha256": "386d47a584a583f3b57ac293aa9832057dde484cd575e8bf0e24c109f9274e54",
+      "joins": [
+        {
+          "en_offset": 5095,
+          "left_tail": "Very good!",
+          "right_head": "x^{p-1} in W is not in the image, because if you want, it's just like—kind of just like 1/x is not in the image of differentiation in the general case, you have",
+          "reason": "keep the reference, reply or proof step with its immediate context"
+        },
+        {
+          "en_offset": 12940,
+          "left_tail": "Why?",
+          "right_head": "Because if I want to know what T does to any vector of V, I write v as a linear combination of the v_j; I know what T of v_j is, so therefore I know what T of a",
+          "reason": "keep the reference, reply or proof step with its immediate context"
+        },
+        {
+          "en_offset": 24558,
+          "left_tail": "Yeah. I'm sorry, v_n, thank you very much! So the number of these vectors is r, the number of such vectors is r. Sorry, this is v_n, thank you very much.",
+          "right_head": "Getting a little ahead of myself!",
+          "reason": "context review after ASR timing: keep conclusion with argument, prompt with answer, or duplicate source with its proof step"
+        }
+      ]
+    },
+    "14": {
+      "en_sha256": "4afb23cec1760540821ba5baffeab8c5c20d67adeb063051dfdf92396427f6bd",
+      "joins": [
+        {
+          "en_offset": 2229,
+          "left_tail": "inner product of v with v be zero for a nonzero vector. Just the sum of the squares of the coordinates could be zero. But in the real numbers that can't happen.",
+          "right_head": "So you get a notion of a norm.",
+          "reason": "keep the reference, reply or proof step with its immediate context"
+        },
+        {
+          "en_offset": 8073,
+          "left_tail": "So we get an isomorphism of groups.",
+          "right_head": "It turns out, of groups between SO(2)—going to call it f—and the set of z in the complex numbers such that the absolute value of z is equal to 1 under multiplic",
+          "reason": "keep the reference, reply or proof step with its immediate context"
+        },
+        {
+          "en_offset": 19575,
+          "left_tail": "that A preserves a plane orthogonal to v. In other words, there's a plane through the origin here which is orthogonal to this vector. Even worse drawing, right?",
+          "right_head": "But everyone can see that.",
+          "reason": "keep the reference, reply or proof step with its immediate context"
+        },
+        {
+          "en_offset": 25243,
+          "left_tail": "Sorry. Otherwise... sorry. Euler also knew the determinant.",
+          "right_head": "I'm sorry.",
+          "reason": "keep the reference, reply or proof step with its immediate context"
+        },
+        {
+          "en_offset": 1669,
+          "left_tail": " because it turns out to have beautiful geometric content, to the case where F is equal to the reals. Well, of course in the real numbers -1 is not equal to +1.",
+          "right_head": "So we do get a subgroup of index 2.",
+          "reason": "context review after ASR timing: keep conclusion with argument, prompt with answer, or duplicate source with its proof step"
+        },
+        {
+          "en_offset": 17924,
+          "left_tail": "It's because there's room here.",
+          "right_head": "But over the real numbers by the intermediate value theorem, the most useful theorem in calculus, we have a real root.",
+          "reason": "context review after ASR timing: keep conclusion with argument, prompt with answer, or duplicate source with its proof step"
+        }
+      ]
+    },
+    "15": {
+      "en_sha256": "febeca146dd577d7d1036e8b9625626f550cff813b579280ccf07c14a18ca1f3",
+      "joins": [
+        {
+          "en_offset": 11651,
+          "left_tail": "It takes it to the other side of L. What's this angle here? -theta, exactly! So what I've done is I've taken P and I've rotated it by -theta.",
+          "right_head": "So that's the formula!",
+          "reason": "keep the reference, reply or proof step with its immediate context"
+        }
+      ]
+    },
+    "16": {
+      "en_sha256": "68b82caeb19f809351b44d872d12534db8f71e9ef2de1bf809b8e3861946a007",
+      "joins": [
+        {
+          "en_offset": 5365,
+          "left_tail": "Is this the same notation? Sorry.",
+          "right_head": "Is this the same? What?",
+          "reason": "keep the reference, reply or proof step with its immediate context"
+        },
+        {
+          "en_offset": 5384,
+          "left_tail": "Is this the same? What?",
+          "right_head": "Is this the same notation?",
+          "reason": "keep the reference, reply or proof step with its immediate context"
+        },
+        {
+          "en_offset": 5406,
+          "left_tail": "Is this the same notation?",
+          "right_head": "No, no, no, no, no. I said that last time.",
+          "reason": "keep the reference, reply or proof step with its immediate context"
+        },
+        {
+          "en_offset": 5439,
+          "left_tail": "No, no, no, no, no. I said that last time.",
+          "right_head": "Okay. Sorry.",
+          "reason": "keep the reference, reply or proof step with its immediate context"
+        },
+        {
+          "en_offset": 5450,
+          "left_tail": "Okay. Sorry.",
+          "right_head": "I said that last time. I'm using the notation where in D_{2n}, this is the order of the group.",
+          "reason": "keep the reference, reply or proof step with its immediate context"
+        },
+        {
+          "en_offset": 13729,
+          "left_tail": "Then I claim that all vectors in L are just multiples of b.",
+          "right_head": "Namely, I'm in Case 2.",
+          "reason": "keep the reference, reply or proof step with its immediate context"
+        },
+        {
+          "en_offset": 15607,
+          "left_tail": "it were infinite, you have an infinite number of elements in a bounded set. An infinite number of elements in a bounded set has a convergent subsequence, right?",
+          "right_head": "That's what we prove about compactness.",
+          "reason": "context review after ASR timing: keep conclusion with argument, prompt with answer, or duplicate source with its proof step"
+        }
+      ]
+    },
+    "20": {
+      "en_sha256": "5b81da1103682dcd3755ba02c29b1a751aa608cb50c9f00ec063d9565c6fa9ef",
+      "joins": [
+        {
+          "en_offset": 17853,
+          "left_tail": "Good point, good point!",
+          "right_head": "So let's go over it: the action on the set is like it acts on points of the group by left translation, not by conjugation; so it takes a set J to this set gJ. A",
+          "reason": "keep the reference, reply or proof step with its immediate context"
+        },
+        {
+          "en_offset": 11682,
+          "left_tail": "Well, the conjugates of H have the same order, and if you have two groups of the same order, one contained in the other, they're equal!",
+          "right_head": "So that would say that K is a conjugate of H.",
+          "reason": "context review after ASR timing: keep conclusion with argument, prompt with answer, or duplicate source with its proof step"
+        },
+        {
+          "en_offset": 22713,
+          "left_tail": "If K isn't totally contained in this group, when you intersect it with this subgroup you're going to get something strictly smaller than K.",
+          "right_head": "But the order of this intersection is the order of K.",
+          "reason": "context review after ASR timing: keep conclusion with argument, prompt with answer, or duplicate source with its proof step"
+        }
+      ]
+    },
+    "21": {
+      "en_sha256": "747bc2c481f6c36e0b3ccd99ae95e6abf1b66e67816dbbc0147396422279895d",
+      "joins": [
+        {
+          "en_offset": 1422,
+          "left_tail": "e content of the Sylow theorems. Yes? No questions, a stretch? You see, if there's... one number \\ell that divides m and is congruent to 1 mod p is 1, \\ell = 1.",
+          "right_head": "You can always try \\ell = 1.",
+          "reason": "keep the reference, reply or proof step with its immediate context"
+        },
+        {
+          "en_offset": 5367,
+          "left_tail": "e, we have the transitive action of G by conjugation—not by translation—on the set \\mathcal{H} of all Sylows. This is the set that we're trying to count, right?",
+          "right_head": "This set.",
+          "reason": "keep the reference, reply or proof step with its immediate context"
+        },
+        {
+          "en_offset": 8030,
+          "left_tail": "The start is always the Sylow theorems, always the Sylow theorems!",
+          "right_head": "Because it gives you immediately, for any finite group, a large host of subgroups where you know they're all conjugate, you know about how many of them there ar",
+          "reason": "context review after ASR timing: keep conclusion with argument, prompt with answer, or duplicate source with its proof step"
+        },
+        {
+          "en_offset": 19933,
+          "left_tail": "And why do they give the same group?",
+          "right_head": "Well, suppose I made a group where I had this multiplicative relation: now what's \\tau? Well, \\tau is just one of the elements in here, right?",
+          "reason": "context review after ASR timing: keep conclusion with argument, prompt with answer, or duplicate source with its proof step"
+        }
+      ]
+    },
+    "22": {
+      "en_sha256": "c33c5243ce5ed166ff47305ec4a6f360851c65d7ab6ab60034c268853dc5fc4c",
+      "joins": [
+        {
+          "en_offset": 20005,
+          "left_tail": "The order of S_p is p factorial. What power of p divides this? Just once. Can somebody give me a Sylow p-subgroup, if you talked about Sylow subgroups?",
+          "right_head": "Yeah, of S_p.",
+          "reason": "keep the reference, reply or proof step with its immediate context"
+        }
+      ]
+    },
+    "23": {
+      "en_sha256": "eade072dcb401947699e770c6e8316d219097a24ecf89bbd926770bb17320656",
+      "joins": [
+        {
+          "en_offset": 17999,
+          "left_tail": "But suppose g is not in H.",
+          "right_head": "Well, g H is then equal to all the things—because this thing has index 2—is equal to all the things in G that are not in H; I mean, I just partitioned the group",
+          "reason": "keep the reference, reply or proof step with its immediate context"
+        }
+      ]
+    },
+    "24": {
+      "en_sha256": "56326db27a9b8540d6c2f296d5878b24bc42c20dc586640e06d68574db32dc3d",
+      "joins": [
+        {
+          "en_offset": 6611,
+          "left_tail": "How small can a ring be?",
+          "right_head": "Well, it's got to be an abelian group with an addition law and an identity element, so it's got to definitely have zero in it.",
+          "reason": "keep the reference, reply or proof step with its immediate context"
+        },
+        {
+          "en_offset": 12718,
+          "left_tail": "How do I do this?",
+          "right_head": "The identification of an endomorphism: suppose I have some map f from Z to Z, a group homomorphism; how do I identify that with an integer? How would I make the",
+          "reason": "context review after ASR timing: keep conclusion with argument, prompt with answer, or duplicate source with its proof step"
+        }
+      ]
+    },
+    "27": {
+      "en_sha256": "f93971b393536bdd0dde55fdbac34459b22b50a431a46b9179d84373f2ec1242",
+      "joins": [
+        {
+          "en_offset": 136,
+          "left_tail": "'s get going. So the material on the exam will cover everything up through this lecture;   the review on Friday will cover the material up through this lecture.",
+          "right_head": "It's up already.",
+          "reason": "keep the reference, reply or proof step with its immediate context"
+        },
+        {
+          "en_offset": 22602,
+          "left_tail": "No, it isn't!",
+          "right_head": "Because mod 5: $1^2 \\equiv 1$, $2^2 \\equiv -1$,   $3^2 \\equiv well, $2^2 \\equiv 4$; $3^2 = 9 \\equiv 4$; $4^2 \\equiv 1$. So $2$ is not a square mod 5. Looks good",
+          "reason": "context review after ASR timing: keep conclusion with argument, prompt with answer, or duplicate source with its proof step"
+        }
+      ]
+    },
+    "29": {
+      "en_sha256": "5ce9246813d747edc469cd0ea24d6f660ed5c43f0a2c3ce3c4f60170cedfe028",
+      "joins": [
+        {
+          "en_offset": 27831,
+          "left_tail": "Have a wonderful vacation!",
+          "right_head": "When we come back, we're going to have two wonderful weeks of number theory, where we're going to see where all these techniques of rings really get us somewher",
+          "reason": "keep the reference, reply or proof step with its immediate context"
+        }
+      ]
+    },
+    "32": {
+      "en_sha256": "5ba8ce6f7fc8526cc64dac55d14eb99f12234cda98ee8829bb44227d0d8486a3",
+      "joins": [
+        {
+          "en_offset": 11514,
+          "left_tail": "This is simply because the complex absolute value is multiplicative:   $|zw|^2 = |z|^2 |w|^2$.",
+          "right_head": "That's just multiplication in polar coordinates.",
+          "reason": "keep the reference, reply or proof step with its immediate context"
+        }
+      ]
+    },
+    "35": {
+      "en_sha256": "059d93afb3a2e32ccc84e2b7bc72f1101693d26b812c5344f4234fd4a89a9546",
+      "joins": [
+        {
+          "en_offset": 22273,
+          "left_tail": "Two.",
+          "right_head": "The dimension is 2, because you have everything being of the form a + b square root D, so you have these two parameters, these two rational parameters a and b, ",
+          "reason": "keep the reference, reply or proof step with its immediate context"
+        },
+        {
+          "en_offset": 26624,
+          "left_tail": "Well, exactly!",
+          "right_head": "So I mean exactly, I could just take the unit ideal: I just start out with any ideal, I already know it's principal, it's generated by some r, and I just multip",
+          "reason": "keep the reference, reply or proof step with its immediate context"
+        },
+        {
+          "en_offset": 28220,
+          "left_tail": "So this is a new idea, and that is class groups. So this measures how far a Dedekind domain is from being a PID.",
+          "right_head": "Great.",
+          "reason": "keep the reference, reply or proof step with its immediate context"
+        },
+        {
+          "en_offset": 15,
+          "left_tail": "All right, great.",
+          "right_head": "So I want to start today with a clarification of some of the things that we've done involving primes and irreducibles, specifically, I want to just explain some",
+          "reason": "context review after ASR timing: keep conclusion with argument, prompt with answer, or duplicate source with its proof step"
+        }
+      ]
+    },
+    "37": {
+      "en_sha256": "785fb9bdb7c15dae3d27f9a9a2b96d305fbcc097de6206171ec0b7ce1cd34f22",
+      "joins": [
+        {
+          "en_offset": 16019,
+          "left_tail": "That would be a good thing to review.",
+          "right_head": "It's possible.",
+          "reason": "keep the reference, reply or proof step with its immediate context"
+        }
+      ]
+    },
+    "38": {
+      "en_sha256": "3c1e4c44d17395a539891042175cfada472e6775a8c64818405cd5e31455d393",
+      "joins": [
+        {
+          "en_offset": 2484,
+          "left_tail": "Okay, well, I'm gonna get on with rings.",
+          "right_head": "Okay, great.",
+          "reason": "keep the reference, reply or proof step with its immediate context"
+        }
+      ]
+    },
+    "07": {
+      "en_sha256": "cbe5f4d079393c639748c2a111480a6d325534e89a11ff1bc31c262b7e141047",
+      "joins": [
+        {
+          "en_offset": 19054,
+          "left_tail": "t it actually works out to be okay: it defines a group structure on G mod H, with identity the coset eH, and in- verses (aH)^{-1} is equal to the coset a^{-1}H.",
+          "right_head": "So that you have to check.",
+          "reason": "context review after ASR timing: keep conclusion with argument, prompt with answer, or duplicate source with its proof step"
+        }
+      ]
+    },
+    "12": {
+      "en_sha256": "35db299d7a121f72a30dc6f9e3c9d28bb26832b6d9d898ff7bee0699b2ca7f5a",
+      "joins": [
+        {
+          "en_offset": 16950,
+          "left_tail": "So t I - A looks like the matrix [[t - cos θ, sin θ], [-sin θ, t - cos θ]]; if you take the determinant of this, you get this.",
+          "right_head": "Just believe me!",
+          "reason": "context review after ASR timing: keep conclusion with argument, prompt with answer, or duplicate source with its proof step"
+        },
+        {
+          "en_offset": 24590,
+          "left_tail": "Okay, now why should this be true?",
+          "right_head": "Well, in the case... proof when f(t) is equal to (t - c_1)(t - c_2)... ...(t - c_n), all c_i distinct: so if the characteristic polynomial happens to factor com",
+          "reason": "context review after ASR timing: keep conclusion with argument, prompt with answer, or duplicate source with its proof step"
+        }
+      ]
+    },
+    "17": {
+      "en_sha256": "1d4fa708e87d52d736d2741238534791fdc6036db7564d6548cabbd15dc67be6",
+      "joins": [
+        {
+          "en_offset": 5098,
+          "left_tail": "Okay, now where is the second vector of the lattice?",
+          "right_head": "Well, first of all, the second vector has to be outside of this circle, let's say the vector b.",
+          "reason": "context review after ASR timing: keep conclusion with argument, prompt with answer, or duplicate source with its proof step"
+        }
+      ]
+    },
+    "18": {
+      "en_sha256": "e85126ef286f4036a85a8764863d62e72860f219d5997367189554089807023e",
+      "joins": [
+        {
+          "en_offset": 2094,
+          "left_tail": "So this could also be written as the order of G times the sum of 1 over the order of G_{s_i}, the order of the stabilizers, i is equal to 1 to n.",
+          "right_head": "So that's called the counting formula.",
+          "reason": "context review after ASR timing: keep conclusion with argument, prompt with answer, or duplicate source with its proof step"
+        },
+        {
+          "en_offset": 5970,
+          "left_tail": "Well, g would fix s if g s g^{-1} is equal to s, which means that g commutes with s. That's called the centralizer of s: g in G such that g s = s g.",
+          "right_head": "It's called the centralizer of s.",
+          "reason": "context review after ASR timing: keep conclusion with argument, prompt with answer, or duplicate source with its proof step"
+        },
+        {
+          "en_offset": 24971,
+          "left_tail": "n to this one, so I can get from any of the 6 to any other—then the order of the group is the number of vertices times the stabilizer of the vertex, which is 4.",
+          "right_head": "So this group has order 24.",
+          "reason": "context review after ASR timing: keep conclusion with argument, prompt with answer, or duplicate source with its proof step"
+        }
+      ]
+    },
+    "19": {
+      "en_sha256": "80f578cc0fbe0ddc41a688d9b908c76234b20312a6ba8488cc430d058a52ecaf",
+      "joins": [
+        {
+          "en_offset": 27684,
+          "left_tail": "nt g, because g commutes with itself, and this group is strictly larger than the center, okay?   Well, if this group is strictly larger, this now has order p^2.",
+          "right_head": "If this element g, because g commutes with itself, and this group is strictly larger than the center, okay? Well, if this group is strictly larger, this now has",
+          "reason": "context review after ASR timing: keep conclusion with argument, prompt with answer, or duplicate source with its proof step"
+        }
+      ]
+    },
+    "26": {
+      "en_sha256": "24e136fa91a58fed92feb49e4185778b6528d1c1716524d04d375b3d9affd3b7",
+      "joins": [
+        {
+          "en_offset": 2484,
+          "left_tail": "te n as a * b with a > 1 and b > 1; that's what we mean by a composite number. Now that says then f(n) = 0 in R; that's what it means for this to be the kernel.",
+          "right_head": "But f(n) is f(a) * f(b).",
+          "reason": "context review after ASR timing: keep conclusion with argument, prompt with answer, or duplicate source with its proof step"
+        },
+        {
+          "en_offset": 9890,
+          "left_tail": "with kernel I—and whatever this J-bar is, it's an ideal, so it certainly contains 0, and so its inverse image contains the inverse image of 0, so it contains I.",
+          "right_head": "I'll let you check that it's an ideal.",
+          "reason": "context review after ASR timing: keep conclusion with argument, prompt with answer, or duplicate source with its proof step"
+        }
+      ]
+    },
+    "30": {
+      "en_sha256": "1a64a7f781d8114f668368bc9501410950d1c5d4e3034ad7e0d8faa289f110a7",
+      "joins": [
+        {
+          "en_offset": 577,
+          "left_tail": "So as examples of domains, we had the integers, we had polynomials over a field, and if R is an integral domain, so is R[x], polynomials over R.",
+          "right_head": "So we have many examples of domains.",
+          "reason": "context review after ASR timing: keep conclusion with argument, prompt with answer, or duplicate source with its proof step"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,3844 @@
+{
+  "layout_version": "normalized-v1",
+  "policy": "complete bilingual meaning first; optional visible-Chinese-character cap",
+  "max_zh_chars": 100,
+  "timing": "baseline endpoints preserved; moved cuts match original ASR phrase windows (estimated, not forced-aligned)",
+  "created": "2026-10-13T22:27:57",
+  "lectures": [
+    {
+      "lecture": "06",
+      "method": "reviewed + max-zh=100",
+      "before": 118,
+      "after": 118,
+      "identity": {
+        "en": true,
+        "zh": true
+      },
+      "overlaps": 0,
+      "inversions": 0,
+      "min_seconds": 10.023,
+      "max_seconds": 63.821,
+      "interpolated_boundary_count": 0,
+      "raw_alignment_coverage": 0.9766290899092659,
+      "alignment_notes": [],
+      "interpolated_boundary_after_cues": [],
+      "sub_100ms_gaps": 0,
+      "notes": [],
+      "split_notes": {
+        "enabled": true,
+        "max_zh_chars": 100,
+        "cuts": 22,
+        "fallbacks": 0,
+        "notes": []
+      },
+      "over_max_zh_after": 0,
+      "longest_units": [
+        {
+          "cue": 76,
+          "seconds": 63.821,
+          "en": "So so far modular arithmetic has given us one group. Is Z/nZ with multiplication a group? Somebody... yeah, go ahead. Right! So this is definitely not a group, no, because for instance 0-bar cannot possibly have an inverse, because anything you multiply by gives you zero.",
+          "zh": "所以到目前为止模算术给了我们一个群。那么 Z/nZ 在乘法下是一个群吗？请讲。没错！这绝对不是群，不是，因为例如 0-bar 不可能有逆元，因为乘上任何东西都得到 0。"
+        },
+        {
+          "cue": 97,
+          "seconds": 49.28,
+          "en": "go. Now let's use this fact to prove the proposition: (Z/nZ)^× looks like exactly the set of a-bar in Z/nZ such that — any guesses? Yes, exactly: gcd(a, n) = 1; or to use a more abbreviated terminology, a and n are relatively prime.",
+          "zh": "好，现在让我们利用这个事实来证明命题： (Z/nZ)^× 恰好就是由满足条件的 a-bar ∈ Z/nZ 组成的集合——猜猜条件是什么？没错：gcd(a, n) = 1；或者用更简洁的术语说，a 与 n 互素。"
+        },
+        {
+          "cue": 34,
+          "seconds": 46.639,
+          "en": "So the usual notation is Z mod nZ for sets of classes is Z/nZ, or sometimes just shortened to Z/n, where sometimes brackets are put around the n; these are all synonymous.",
+          "zh": "所以通常的记号是 Z mod nZ；用于表示等价类集合的是 Z/nZ，有时简写为 Z/n，有时在 n 外加括号；这些都是同义的。"
+        },
+        {
+          "cue": 26,
+          "seconds": 45.4,
+          "en": "Now here's an observation: we can very explicitly write down all of the cosets. There are n distinct cosets of nZ, and we can write them down completely explicitly; or put another way, equivalence classes modulo n. So these are all sort of redundant ways of saying the same thing, but you'll hear them all, so it's good to just practice hearing them each.",
+          "zh": "现在来看一个观察：我们可以非常明确地写出所有的陪集。 nZ 恰有 n 个互不相同的陪集，我们可以完全明确地写出来；换句话说就是模 n 等价类。这些都是说同一件事的冗余说法，但你都会听到，所以熟悉每种说法很有好处。"
+        },
+        {
+          "cue": 65,
+          "seconds": 45.093,
+          "en": "Okay, so let's make a further observation about just these two things: here's a further observation. The addition and multiplication on Z/nZ distribute in the precise sense that if I multiply a-bar * (b-bar + c-bar), then this is the same as a-bar * b-bar + a-bar * c-bar.",
+          "zh": "好，关于这两个运算我们再做一个观察： Z/nZ 上的加法和乘法满足分配律，精确含义是：a-bar · (b-bar + c-bar) 等同于 a-bar · b-bar+ a-bar · c-bar。"
+        }
+      ]
+    },
+    {
+      "lecture": "07",
+      "method": "conservative-automatic + context-reviewed joins + max-zh=100",
+      "before": 211,
+      "after": 211,
+      "identity": {
+        "en": true,
+        "zh": true
+      },
+      "overlaps": 0,
+      "inversions": 0,
+      "min_seconds": 1.754,
+      "max_seconds": 42.8,
+      "interpolated_boundary_count": 0,
+      "raw_alignment_coverage": 0.9819019177490735,
+      "alignment_notes": [],
+      "interpolated_boundary_after_cues": [],
+      "sub_100ms_gaps": 0,
+      "notes": [
+        {
+          "row": 9,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 39,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 58,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 59,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 60,
+          "reason": "ambiguous bilingual closure; joined with context"
+        },
+        {
+          "row": 63,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 73,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 86,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 167,
+          "reason": "ambiguous bilingual closure; joined with context"
+        }
+      ],
+      "split_notes": {
+        "enabled": true,
+        "max_zh_chars": 100,
+        "cuts": 11,
+        "fallbacks": 0,
+        "notes": []
+      },
+      "over_max_zh_after": 0,
+      "longest_units": [
+        {
+          "cue": 96,
+          "seconds": 42.8,
+          "en": "Suppose aHa^{-1} is not equal to H, i.e., aH is not equal to Ha, okay, for some element in the group a — for some a, the conjugate of H is not equal to itself as a set. Then I'm going to show you that this definition encounters some serious problems, some serious problems.",
+          "zh": "假设aHa⁻¹ 不等于 H，即 aH ≠ Ha，好的，对群中的某个元素 a——对某个 a，H 的共轭子集作为一个集合不等于其自身。那么我要向大家证明，这个定义会遭遇严重的麻烦，极其严重的麻烦。"
+        },
+        {
+          "cue": 72,
+          "seconds": 42.44,
+          "en": "And moreover, this makes the new map, let's call it a capital F, from G to G mod H taking a to the coset aH, a group homomorphism — a surjective group homomorphism, because this is the multiplication law. It's coming — it's inherited from the multiplication law in G.",
+          "zh": "而且，这使得新映射（我们称之为大写 F）从 G 到 G/H 将 a 映为陪集 aH，成为一个群同态——一个满射群同态，因为这就是乘法法则。它直接继承自 G 中的乘法法则。"
+        },
+        {
+          "cue": 77,
+          "seconds": 38.76,
+          "en": "Okay, now this worked pretty well. Let's forget that we had a homomorphism. All right, so now — try — better, better: let H in G be any subgroup. Okay? Let the cosets G mod H be the set of all cosets aH. That's a good set; we defined that for any subgroup.",
+          "zh": "好的，现在这行得通。让我们先忘掉刚才有个同态。好，现在我们尝试——或者更确切地说：设 H 是 G 的任意子群。好的？设陪集空间 G/H 为所有陪集 aH 的集合。这是一个很好的集合；我们对任意子群都定义过它。"
+        },
+        {
+          "cue": 148,
+          "seconds": 35.685,
+          "en": "Let's put that down, because it's so important. Corollary: Every normal subgroup H in G is the kernel of a group homomorphism. It's the only way to get normal subgroups!",
+          "zh": "让我们把这个写下来，因为它是如此重要。推论：G 中的每个正规子群 H 都是某个群同态的核。这是得到正规子群的唯一途径！"
+        },
+        {
+          "cue": 142,
+          "seconds": 34.792,
+          "en": "So if H is normal in G, you get a group structure on G mod H, the quotient group, and a surjective homomorphism — a group homomorphism — f from G to G mod H that takes the element a into its coset.",
+          "zh": "因此若 H 在 G 中正规，你便在商群 G/H 上得到了群结构，以及一个满同态——群同态——f: G → G/H，它把元素 a 映为其陪集 aH。"
+        }
+      ]
+    },
+    {
+      "lecture": "08",
+      "method": "conservative-automatic + context-reviewed joins + max-zh=100",
+      "before": 238,
+      "after": 238,
+      "identity": {
+        "en": true,
+        "zh": true
+      },
+      "overlaps": 0,
+      "inversions": 0,
+      "min_seconds": 1.359,
+      "max_seconds": 51.361,
+      "interpolated_boundary_count": 0,
+      "raw_alignment_coverage": 0.988913612054495,
+      "alignment_notes": [],
+      "interpolated_boundary_after_cues": [],
+      "sub_100ms_gaps": 0,
+      "notes": [
+        {
+          "row": 1,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 2,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 4,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 5,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 10,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 27,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 32,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 37,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 38,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 39,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 41,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 43,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 46,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 47,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 49,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 58,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 61,
+          "reason": "ambiguous bilingual closure; joined with context"
+        },
+        {
+          "row": 63,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 64,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 65,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 73,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 75,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 83,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 88,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 90,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 104,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 105,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 109,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 117,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 119,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 121,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 126,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 131,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 138,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 141,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 144,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 145,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 153,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 155,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 169,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 173,
+          "reason": "ambiguous bilingual closure; joined with context"
+        },
+        {
+          "row": 175,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 179,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 181,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 183,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 189,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 190,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 198,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 219,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 220,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 223,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 226,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 227,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 231,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 233,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        }
+      ],
+      "split_notes": {
+        "enabled": true,
+        "max_zh_chars": 100,
+        "cuts": 3,
+        "fallbacks": 0,
+        "notes": []
+      },
+      "over_max_zh_after": 0,
+      "longest_units": [
+        {
+          "cue": 27,
+          "seconds": 51.361,
+          "en": "Okay. Now suppose I asked you and let p be a prime number and consider the subgroup H which is multiples of p. So I claim, here's the claim. If we have a subgroup of Z which lies between Z and pZ as a subgroup, then either K is equal to the integers or K is equal to pZ.",
+          "zh": "好的。现在假设我问你们，令 p 为一个素数，考虑作为 p 的倍数的子群 H = pZ。那么断言是这样的：如果我们有一个介于 Z 和 pZ 之间的 Z 的子群 K，那么要么 K 等于整数群 Z，要么 K 等于 pZ。"
+        },
+        {
+          "cue": 173,
+          "seconds": 47.285,
+          "en": "Okay. So a vector space over a field is a set V. That's a set of vectors with the following properties. One, V is an abelian group under addition with identity element 0_V, just like it was for the real numbers, etc., etc. And the second—and here's where the field comes in. There's an operation called the scalar product from V",
+          "zh": "好。域上的向量空间是一个集合 V，即向量的集合，具有以下性质：第一，V 在加法下是一个交换群，单位元记作 0_V，就像实数情形一样等等。第二——也是域发挥作用的地方：存在一个运算，称为数乘（标量乘法），"
+        },
+        {
+          "cue": 133,
+          "seconds": 42.401,
+          "en": "Okay, to prove this we must show that if a is not congruent to 0 mod p, so that's a nonzero element of this abelian group, that's an element in F^\\times, then there is an integer b such that a * b is congruent to 1 mod p.",
+          "zh": "好，为了证明这一点，我们必须证明：如果a ≢ 0 (mod p)——即该交换群中的非零元素，也就是 F^× 中的元素——那么存在一个整数 b，使得 a · b ≡ 1 (mod p)。"
+        },
+        {
+          "cue": 18,
+          "seconds": 37.84,
+          "en": "Okay. Conversely, and this is very powerful, any subgroup of G containing H corresponds to a subgroup of G mod H in this manner.",
+          "zh": "好的。反过来——这是非常强有力的性质——包含 H 的 G 的任意子群，都以这种方式对应于 G/H 的一个子群。"
+        },
+        {
+          "cue": 121,
+          "seconds": 37.755,
+          "en": "More generally, if p is a prime number, then Z mod pZ with the multiplication inherited from Z. In other words, a-bar times b-bar is congruent to ab-bar mod p.",
+          "zh": "更一般地，如果 p 是一个素数，那么 Z/pZ 带有从 Z 继承而来的乘法——换言之，a-bar 乘以 b-bar 同余于 ab-bar 模p。"
+        }
+      ]
+    },
+    {
+      "lecture": "09",
+      "method": "reviewed + max-zh=100",
+      "before": 148,
+      "after": 148,
+      "identity": {
+        "en": true,
+        "zh": true
+      },
+      "overlaps": 0,
+      "inversions": 0,
+      "min_seconds": 5.555,
+      "max_seconds": 55.56,
+      "interpolated_boundary_count": 0,
+      "raw_alignment_coverage": 0.9886088221037325,
+      "alignment_notes": [],
+      "interpolated_boundary_after_cues": [],
+      "sub_100ms_gaps": 0,
+      "notes": [],
+      "split_notes": {
+        "enabled": true,
+        "max_zh_chars": 100,
+        "cuts": 53,
+        "fallbacks": 0,
+        "notes": []
+      },
+      "over_max_zh_after": 0,
+      "longest_units": [
+        {
+          "cue": 28,
+          "seconds": 55.56,
+          "en": "now the second uh notion is the notion of linear independence which is expressed as follows you say a set of vectors v1 vn is linearly independent if the relation a1 v1 plus a2 v2 plus an vn equals the zero vector only holds when a1 is equal to a2 is equal to an are all the zero scalar",
+          "zh": "现在第二个概念是线性无关的概念，其表述如下：我们称向量组 v₁, ..., vₙ 线性无关，如果线性关系 a₁v₁ + a₂v₂ + ... + aₙvₙ = 0 仅在 a₁ = a₂ = ... = aₙ 全为零标量时才成立。"
+        },
+        {
+          "cue": 52,
+          "seconds": 50.62,
+          "en": "time a basis a basis gives rise to an isomorphism of vector spaces from V to the vector space F^n which takes an arbitrary vector w in V to its coordinates in this unique expansion of w with respect to the vectors v1 through vn",
+          "zh": "一组基会诱导出一个从 V 到向量空间 Fⁿ 的向量空间同构， 它将 V 中的任意向量 w 映为其在此唯一样式下的坐标（即 w 关于向量组 v₁ 到 vₙ 展开式的系数）。"
+        },
+        {
+          "cue": 133,
+          "seconds": 48.763,
+          "en": "so suppose suppose W is a subspace of V they're all finite dimensional and w1 through wm is a basis for W then we may extend to a basis for V namely what I mean by that is you take the first elements of your basis to be w1 through wm",
+          "zh": "假设 W 是 V 的一个子空间——它们都是有限维的—— 且 {w₁, ..., wₘ} 是 W 的一组基，那么我们可以将其扩充为 V 的一组基。具体而言，我的意思是你取基的前面元素为 w₁, ..., wₘ，"
+        },
+        {
+          "cue": 83,
+          "seconds": 45.696,
+          "en": "okay so proof if L spans V then we're done because it's a basis if not let S be a finite set spanning V since V is finite dimensional there is some finite set that spans it and let v be an element in S which is not in the span of L",
+          "zh": "证明：若 L 生成 V，则已完成，因为它是基；如果不生成，设 S 是生成 V 的有限集合——由于 V 是有限维的，存在生成它的有限集——并设 v 是 S 中不属于 L 的生成空间的一个元素。"
+        },
+        {
+          "cue": 69,
+          "seconds": 44.481,
+          "en": "okay so proof if the elements of S are linearly independent we are done because that's the second condition you need on S to be a basis so if not we have a relation a1 v1 plus plus an vn the elements in S are v1 through vn I should have said that we have",
+          "zh": "好，证明：若 S 的元素线性无关，我们就证完了，因为那是 S 成为一组基所需的第二个条件；若不是，则存在一个线性关系 a₁v₁ + ... + aₙvₙ = 0——S 中的元素是 v₁ 到 vₙ，"
+        }
+      ]
+    },
+    {
+      "lecture": "10",
+      "method": "conservative-automatic + context-reviewed joins + max-zh=100",
+      "before": 188,
+      "after": 188,
+      "identity": {
+        "en": true,
+        "zh": true
+      },
+      "overlaps": 0,
+      "inversions": 0,
+      "min_seconds": 2.401,
+      "max_seconds": 55.491,
+      "interpolated_boundary_count": 1,
+      "raw_alignment_coverage": 0.9899584898201226,
+      "alignment_notes": [],
+      "interpolated_boundary_after_cues": [
+        96
+      ],
+      "sub_100ms_gaps": 0,
+      "notes": [
+        {
+          "row": 42,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 55,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 61,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 62,
+          "reason": "ambiguous bilingual closure; joined with context"
+        },
+        {
+          "row": 76,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 123,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 128,
+          "reason": "ambiguous bilingual closure; joined with context"
+        },
+        {
+          "row": 133,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 134,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 162,
+          "reason": "ambiguous bilingual closure; joined with context"
+        }
+      ],
+      "split_notes": {
+        "enabled": true,
+        "max_zh_chars": 100,
+        "cuts": 22,
+        "fallbacks": 1,
+        "notes": [
+          {
+            "block": 137,
+            "fallbacks": 1
+          }
+        ]
+      },
+      "over_max_zh_after": 0,
+      "longest_units": [
+        {
+          "cue": 39,
+          "seconds": 55.491,
+          "en": "So if W is a subspace of V, then there is another subspace, and there's another subspace W' of V, such that the composite map—so I can certainly just inject W' into V by just letting w' map to w', I mean, this is just sort of the the embedding map, this is sort of the identity map on W',",
+          "zh": "如果 W 是V 的子空间，那么存在另一个子空间，存在 V 的另一个子空间 W'，使得复合映射——我显然可以把 W' 嵌入到 V 中，只需让 w' 映为 w'，我是说，这也就是嵌入映射，相当于 W' 上的恒等映射；"
+        },
+        {
+          "cue": 130,
+          "seconds": 50.105,
+          "en": "Another sort of explicit way of looking at this is: explicitly, if B is v_1 through v_n and B' is, say, w_1 through w_m, then well, given any of these v_j's, we know that we can write its image uniquely as a linear combination of things in this basis B'. That was this defining characteristic of bases.",
+          "zh": "另一种显式的看待方式是：具体来说，如果 B 是 {v_1, ..., v_n} 且 B' 是 {w_1, ..., w_m}，那么给定任意 v_j，我们知道其像可以唯一地写成基 B' 中元素的线性组合。这是基的定义性特征。"
+        },
+        {
+          "cue": 62,
+          "seconds": 48.691,
+          "en": "Now let's use this result on a general linear map. So on a general linear map: so if f: V -> U is a linear transformation, then, well, two things are true: first of all, V is isomorphic to the product of the kernel of f",
+          "zh": "现在让我们把这个结论应用到一般的线性映射上：对一般的线性映射：如果 f: V → U 是一个线性变换，那么有两点成立：首先，V 同构于 ker(f) 与im(f) 的直积；"
+        },
+        {
+          "cue": 40,
+          "seconds": 45.6,
+          "en": "and recall also that there is a canonical map and it's a surjection, there's a canonical quotient map, so canonical quotient map which just takes this W' and maps it to the coset of W', the W-coset of W' Prime, such that this composite map is an isomorphism. So this is a great result.",
+          "zh": "并且回忆一下还有一个正则映射，它是一个满射，有一个正则商映射，它将这个 w' 映为 w' 的陪集，即 w' 所在的 W-陪集w' + W，使得这个复合映射是一个同构。这是一个极好的结论。"
+        },
+        {
+          "cue": 43,
+          "seconds": 43.913,
+          "en": "Exactly. So paraphrasing: the point is that we take a basis, well, v_1 through v_n of W, extend to basis v_1, ..., v_n, v_{n+1} up through v_m of V—we're allowed to do this—then we just let W' be as before the span of—sorry, this should be v_1 up through v_m— span of v_{n+1} up through v_m.",
+          "zh": "完全正确。意译一下：要点在于我们取 W 的一组基 v_1 到 v_n，将其扩充为V 的一组基——我们完全可以这样做——然后像之前一样令 W' 为——抱歉，这里应该是 v_1 到 v_m——v_{n+1} 到 v_m 的张成。"
+        }
+      ]
+    },
+    {
+      "lecture": "11",
+      "method": "conservative-automatic + context-reviewed joins + max-zh=100",
+      "before": 180,
+      "after": 180,
+      "identity": {
+        "en": true,
+        "zh": true
+      },
+      "overlaps": 0,
+      "inversions": 0,
+      "min_seconds": 1.818,
+      "max_seconds": 53.568,
+      "interpolated_boundary_count": 0,
+      "raw_alignment_coverage": 0.9908802046795692,
+      "alignment_notes": [],
+      "interpolated_boundary_after_cues": [],
+      "sub_100ms_gaps": 0,
+      "notes": [
+        {
+          "row": 4,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 6,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 7,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 26,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 28,
+          "reason": "ambiguous bilingual closure; joined with context"
+        },
+        {
+          "row": 30,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 32,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 33,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 37,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 49,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 55,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 71,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 73,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 80,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 180,
+          "reason": "trailing source text retained; manual review required"
+        }
+      ],
+      "split_notes": {
+        "enabled": true,
+        "max_zh_chars": 100,
+        "cuts": 11,
+        "fallbacks": 0,
+        "notes": []
+      },
+      "over_max_zh_after": 0,
+      "longest_units": [
+        {
+          "cue": 120,
+          "seconds": 53.568,
+          "en": "(3) the image of T is all of V; (4) if the matrix A of T with respect to the basis v_1 through v_n is A, then A is invertible as an n by n matrix; and finally, (5) the determinant of the matrix A is not equal to 0 in the field F.",
+          "zh": "(4) 若 T 关于基 {v_1, ..., v_n} 的矩阵为 A，则 A 作为n × n 矩阵是可逆的；最后，(5) 矩阵 A 的行列式在域 F 中非零：det(A) ≠ 0。"
+        },
+        {
+          "cue": 98,
+          "seconds": 51.611,
+          "en": "Let's pause—there are a lot of indices here, and it's really important to get the indices right. Yes, you know, I think these should be i's; I've been using j's for the v's because those turn out to be like the column vectors, and i's for the w's.",
+          "zh": "对，让我们停顿一下——这里的指标很多，把指标理清楚非常重要。是的，我认为这里应该是 i；我对 v 一直用 j，因为它们对应列向量，而对 w 用 i。"
+        },
+        {
+          "cue": 114,
+          "seconds": 48.176,
+          "en": "And this is very cool: if we have another endomorphism: so if we have S and T from V to V, and this is given in terms of the basis B by—this has matrix A and this has matrix B, both n by n matrices, and we want to know what is the matrix of S composed with T, which is a new transformation from V to V?",
+          "zh": "这非常酷：如果我们有另一个自同态，如果我们有两个从 V 到 V 的映射 S 和 T，在基 B 下，T 的矩阵为A，S 的矩阵为 B，二者都是 n × n 矩阵，我们想知道复合映射 S ∘ T（也是从 V 到 V 的新变换）的矩阵是什么？"
+        },
+        {
+          "cue": 160,
+          "seconds": 40.722,
+          "en": "The V point of view over the F to the N point of view is: by choosing a convenient basis we can get a simpler form for our operator.",
+          "zh": "比起 F^n 观点，以抽象空间 V 为出发点的核心在于：通过选取合适的基，我们可以让算子呈现更简单的形式。"
+        },
+        {
+          "cue": 150,
+          "seconds": 39.513,
+          "en": "So this is truly horrible computation: if A is the matrix of a transformation T from V to V with respect to the basis v_1 through v_n, what is the matrix with respect to a different basis v_1 prime to v_n prime? You got a new matrix A prime. How are A and A prime related?",
+          "zh": "这是一场极其可怕的计算：如果 A 是变换 T: V -> V 关于基 {v_1, ..., v_n} 的矩阵，那么关于另一组基 {v_1', ..., v_n'} 的矩阵是什么？你会得到一个新矩阵 A'。A 与 A'是如何关联的？"
+        }
+      ]
+    },
+    {
+      "lecture": "12",
+      "method": "conservative-automatic + context-reviewed joins + max-zh=100",
+      "before": 201,
+      "after": 201,
+      "identity": {
+        "en": true,
+        "zh": true
+      },
+      "overlaps": 0,
+      "inversions": 0,
+      "min_seconds": 1.905,
+      "max_seconds": 41.022,
+      "interpolated_boundary_count": 0,
+      "raw_alignment_coverage": 0.971513813961092,
+      "alignment_notes": [],
+      "interpolated_boundary_after_cues": [],
+      "sub_100ms_gaps": 0,
+      "notes": [
+        {
+          "row": 3,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 42,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 46,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 47,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 67,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 88,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 89,
+          "reason": "ambiguous bilingual closure; joined with context"
+        },
+        {
+          "row": 94,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 96,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 120,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 125,
+          "reason": "ambiguous bilingual closure; joined with context"
+        },
+        {
+          "row": 126,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 128,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 179,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        }
+      ],
+      "split_notes": {
+        "enabled": true,
+        "max_zh_chars": 100,
+        "cuts": 13,
+        "fallbacks": 0,
+        "notes": []
+      },
+      "over_max_zh_after": 0,
+      "longest_units": [
+        {
+          "cue": 63,
+          "seconds": 41.022,
+          "en": "Conversely, if this operator had a kernel—I better keep some of this up because I want to go back to this— conversely, if (T - c I) has a kernel,   or just is not invertible,   then c is an eigenvalue for T.",
+          "zh": "反过来，如果这个算子有核——我最好在黑板上保留一部分内容，因为我想回头引用这些——反过来，如果 (T - c I) 有非零核，  或者说不可逆，  那么 c 就是 T 的特征值。"
+        },
+        {
+          "cue": 8,
+          "seconds": 40.488,
+          "en": "So we start off with a linear operator from V to V, and can we find a good basis so that the matrix of T is in simple form? So let's think about that a little bit. First of all, you have a notion—when you have a linear operator on a vector space, you have a notion of an invariant subspace.",
+          "zh": "我们从一个线性算子 T: V → V 出发，我们能否找到一组好的基，使得 T 的矩阵具有简单的形式？让我们来思考一下这个问题。首先，你有一个概念——当你在向量空间上有一个线性算子时，你有一个“不变子空间”的概念。"
+        },
+        {
+          "cue": 110,
+          "seconds": 40.153,
+          "en": "So there's a finite possibility for the set of eigenvalues.   Let's put a little lemma up: Lemma. If f(t) has degree n over a field F, then it has at most n distinct roots c in F. Roots means points where f(c) is equal to 0.",
+          "zh": "因此特征值集合只有有限种可能。  让我们在黑板上写一个小引理：引理。若 f(t) 是域 F 上的 n 次多项式，则它在 F 中至多有 n 个互不相同的根 c ∈ F。“根”是指使得 f(c) = 0 的点。"
+        },
+        {
+          "cue": 128,
+          "seconds": 34.45,
+          "en": "Okay, now I claim that that has no real roots—it has complex roots, but it has no real roots. And the reason is that this number here, whatever it is... right, the absolute value of 2 cos θ is... well, if θ is not equal to 0 or π (wait a minute, assuming θ != 0 or π), the absolute value of this is strictly less than 2.",
+          "zh": "好的，现在我断言它没有实根——它有复根，但没有实根，原因在于：这里的这个数，不管它是多少……对，2 cos θ 的绝对值是……如果 θ 不等于 0或 π（等等，假设 θ ≠ 0 且 θ ≠ π），这个值的绝对值严格小于 2。"
+        },
+        {
+          "cue": 66,
+          "seconds": 33.416,
+          "en": "So the set of eigenvalues is contained in the set of constants c in F such that (T - c I) is not invertible. We go and see if we can find which constants this operator is not invertible.",
+          "zh": "因此特征值的集合包含在使得 (T - c I) 不可逆的常数 c ∈ F 的集合中。我们来看看能否找出使得该算子不可逆的常数——事实上它恰好等于这个集合；我刚刚已经证明了这一点，谢谢，我们要严谨一些。"
+        }
+      ]
+    },
+    {
+      "lecture": "13",
+      "method": "conservative-automatic + max-zh=100",
+      "before": 219,
+      "after": 219,
+      "identity": {
+        "en": true,
+        "zh": true
+      },
+      "overlaps": 0,
+      "inversions": 0,
+      "min_seconds": 2.32,
+      "max_seconds": 42.413,
+      "interpolated_boundary_count": 0,
+      "raw_alignment_coverage": 0.9757409518381305,
+      "alignment_notes": [],
+      "interpolated_boundary_after_cues": [],
+      "sub_100ms_gaps": 0,
+      "notes": [
+        {
+          "row": 51,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 52,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 115,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 162,
+          "reason": "ambiguous bilingual closure; joined with context"
+        },
+        {
+          "row": 211,
+          "reason": "ambiguous bilingual closure; joined with context"
+        },
+        {
+          "row": 212,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        }
+      ],
+      "split_notes": {
+        "enabled": true,
+        "max_zh_chars": 100,
+        "cuts": 17,
+        "fallbacks": 0,
+        "notes": []
+      },
+      "over_max_zh_after": 0,
+      "longest_units": [
+        {
+          "cue": 172,
+          "seconds": 42.413,
+          "en": "Well, I claim the permutation matrices are in O_n(F), and this gives an injective homomorphism f from the symmetric group on n letters S_n into O_n(F) (no kernel), and that takes the subgroup which is the alternating group on n letters A_n into SO_n(F).",
+          "zh": "我断言所有置换矩阵都在 O_n(F) 中，这就给出了一个从 n 个字母上的对称群 S_n 到 O_n(F) 的单同态 f（核为平凡群），它把作为子群的n 阶交错群 A_n 映入 SO_n(F) 中。"
+        },
+        {
+          "cue": 3,
+          "seconds": 40.482,
+          "en": "with the definition of a cyclic group: a group G is cyclic if there is an element g in G such that any—well, let's call this element a, maybe, the generator—such that any g in G has the form g is equal to a to the n, some n in Z.",
+          "zh": "一个群 G 是循环群，是指如果存在一个元素 g ∈ G，使得任意——好吧，不妨把这个元素记作 a，也就是生成元——使得 G 中任意元素 g 都具有 g = a^n 的形式（某整数 n ∈ Z）。"
+        },
+        {
+          "cue": 26,
+          "seconds": 37.602,
+          "en": "Now what this means if you— so I claim that that means that if you take this right coset, this implies that H * g is actually contained in gH, because this is a subset of this, namely this is H * g * e. So that this right coset is contained in this left coset.",
+          "zh": "现在这意味着如果你——我断言这表明如果你取这个右陪集，它意味着 H · g 实际上包含在 gH 中，因为前者是后者的子集，即这是 H · g · e。所以这个右陪集包含在这个左陪集中。"
+        },
+        {
+          "cue": 140,
+          "seconds": 34.46,
+          "en": "Let's check that; that's a little tricky: if A in GL_n(F) has A^T = A^{-1}, then it preserves the inner product we've defined on the vector space V = F^n.",
+          "zh": "让我们来验证这一点；这稍微有点微妙：如果 A ∈ GL_n(F) 满足 A^T = A⁻¹，那么它保持我们在向量空间 V = F^n 上定义的内积。"
+        },
+        {
+          "cue": 24,
+          "seconds": 31.384,
+          "en": "So let's do it this way: if HgH is a left coset, we're going to prove that H is a normal subgroup. Well, if it is a left coset, it must be the coset gH, because it contains that coset if you take the first element in H to be the identity element—and you take the identity, because this is equal to e * gH, and e is an element in H.",
+          "zh": "我们不妨这样做：如果 HgH 是一个左陪集，我们将证明 H 是一个正规子群。如果它是一个左陪集，那它必然是陪集 gH，因为只要取前面的 H 里的元素为单位元，它就包含该陪集——因为这等于 e · gH，而 e 是 H 中的元素。"
+        }
+      ]
+    },
+    {
+      "lecture": "14",
+      "method": "conservative-automatic + context-reviewed joins + max-zh=100",
+      "before": 314,
+      "after": 314,
+      "identity": {
+        "en": true,
+        "zh": true
+      },
+      "overlaps": 0,
+      "inversions": 0,
+      "min_seconds": 1.344,
+      "max_seconds": 33.351,
+      "interpolated_boundary_count": 0,
+      "raw_alignment_coverage": 0.9836112400471311,
+      "alignment_notes": [],
+      "interpolated_boundary_after_cues": [],
+      "sub_100ms_gaps": 0,
+      "notes": [
+        {
+          "row": 44,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 90,
+          "reason": "ambiguous bilingual closure; joined with context"
+        },
+        {
+          "row": 94,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 95,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 143,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 144,
+          "reason": "ambiguous bilingual closure; joined with context"
+        },
+        {
+          "row": 150,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 175,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 240,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 241,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 263,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 270,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 288,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        }
+      ],
+      "split_notes": {
+        "enabled": true,
+        "max_zh_chars": 100,
+        "cuts": 9,
+        "fallbacks": 0,
+        "notes": []
+      },
+      "over_max_zh_after": 0,
+      "longest_units": [
+        {
+          "cue": 24,
+          "seconds": 33.351,
+          "en": "Let me just make one more observation: if v is an eigenvector for a transformation A in O_n(F)—this is true over any field—with eigenvalue λ, i.e., that means that A(v) = λ v, then λ^2 = 1, i.e., λ is plus or minus 1.",
+          "zh": "让我再做一个观察：如果 v 是变换 A ∈ O_n(F) 的特征向量——这在任意域上都成立——具有特征值 λ，即 A(v) = λ v，那么 λ^2 = 1，也就是说 λ = ±1。"
+        },
+        {
+          "cue": 242,
+          "seconds": 31.705,
+          "en": "So you might study all motions or all transformations— except I don't want to use the word transformation because it sounds like a linear transformation—from R^n to R^n which preserve the distance d(v, w) between two points.",
+          "zh": "因此你可能会研究所有的运动或变换——不过我不想用“变换”这个词，因为听起来太像线性变换了——从 ℝⁿ 到 ℝⁿ 的那些保持两点间距离 d(v, w) 的运动。"
+        },
+        {
+          "cue": 110,
+          "seconds": 30.789,
+          "en": "Because if it didn't, its roots would be complex conjugates, conjugates in the complex numbers; because if you have a polynomial with real coefficients, either it has two roots that are real or its roots are complex conjugates, otherwise the sum of the roots can't be a real number and the product of the roots can't be a real number.",
+          "zh": "因为如果不是这样，它的根就会是复共轭的，在复数中互为共轭；因为如果你有一个实系数多项式，它要么有两个实根，要么它的根互为复共轭，否则根之和不可能是实数，根之积也不可能是实数。"
+        },
+        {
+          "cue": 250,
+          "seconds": 28.76,
+          "en": "Claim: if m is a rigid motion and m of the origin is the origin—and you certainly need that to be a linear transformation— then m is equal to A, is a linear transformation in O_n.",
+          "zh": "断言：如果 m 是一个刚体运动且 m 保持原点不动（m(0) = 0）——要成为线性变换你当然必须满足这一点——那么 m = A，是属于 O_n 的线性变换。"
+        },
+        {
+          "cue": 5,
+          "seconds": 28.596,
+          "en": "And we saw that if we figured out which matrices were in O_n(F), these are the matrices A such that A transpose times A is the identity matrix, or equivalently the matrices A such that the transpose of A was the inverse of A; and that gave a subgroup of the linear group with some additional nice properties.",
+          "zh": "我们看到，若求出哪些矩阵落在 O_n(F) 中，它们就是满足 A 的转置乘以 A 等于单位矩阵的矩阵 A，或等价地满足 A^t = A^{-1} 的矩阵 A；这给出了该线性群的一个具有额外优良性质的子群。"
+        }
+      ]
+    },
+    {
+      "lecture": "15",
+      "method": "conservative-automatic + context-reviewed joins + max-zh=100",
+      "before": 230,
+      "after": 230,
+      "identity": {
+        "en": true,
+        "zh": true
+      },
+      "overlaps": 0,
+      "inversions": 0,
+      "min_seconds": 1.627,
+      "max_seconds": 45.731,
+      "interpolated_boundary_count": 1,
+      "raw_alignment_coverage": 0.9757224191642496,
+      "alignment_notes": [],
+      "interpolated_boundary_after_cues": [
+        122
+      ],
+      "sub_100ms_gaps": 0,
+      "notes": [
+        {
+          "row": 14,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 121,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 123,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 162,
+          "reason": "ambiguous bilingual closure; joined with context"
+        },
+        {
+          "row": 163,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 184,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        }
+      ],
+      "split_notes": {
+        "enabled": true,
+        "max_zh_chars": 100,
+        "cuts": 18,
+        "fallbacks": 0,
+        "notes": []
+      },
+      "over_max_zh_after": 0,
+      "longest_units": [
+        {
+          "cue": 159,
+          "seconds": 45.731,
+          "en": "So I'll give you an abstract recipe: it goes like this.   Let s be any point, any vector,   and consider the vectors gamma(s) where gamma is in this finite group Gamma. So we start with some vector s, and we start applying the group to it:",
+          "zh": "我给大家一个抽象的构造法则：它是这样的。 设 s 为任意点、任意向量， 并考虑向量 gamma(s)，其中 gamma 属于有限群 Gamma。我们从某个向量 s 开始，把群作用在它上面："
+        },
+        {
+          "cue": 205,
+          "seconds": 41.946,
+          "en": "Then the claim is that the element that—this is it then,   and Gamma is a cyclic group generated by this element;   and if the order of Gamma is equal to n, this angle theta is 2pi/n, okay?",
+          "zh": "那么断言是：这就是最小角， 而 Gamma 是由该元素生成的循环群，由这个元素生成； 并且如果 Gamma 的阶等于 n，这个角 theta 就等于 2pi/n，好吗？"
+        },
+        {
+          "cue": 67,
+          "seconds": 37.745,
+          "en": "So if the translation is trivial, O(2) is G_0, and we saw that that contained a subgroup SO(2) which was the rotations around the origin, and then there was a non-trivial coset of that which I'll call r_L, where the elements in this non-trivial coset all had order 2, and they were reflections across a line, a line through the origin.",
+          "zh": "如果平移是平凡的，O(2) 就是 G_0；我们看到它包含一个子群 SO(2)（即绕原点的旋转），此外还有一个非平凡陪集（我记作 r_L），其中的元素阶数全为 2，它们是关于某条直线的反射，一条过原点的直线。"
+        },
+        {
+          "cue": 20,
+          "seconds": 32.858,
+          "en": "Then M(e_1), M(e_2), ..., M(e_n) is another orthonormal basis, right, because this transformation M, which is in G_0, preserves the inner product, and therefore the lengths of these vectors are 1 and they are orthogonal to each other.",
+          "zh": "那么 M(e_1), M(e_2), ..., M(e_n)是另一组标准正交基，对吧，因为 G_0 中的这个变换 M 保持内积，所以这些向量的长度都是 1，并且它们彼此正交。"
+        },
+        {
+          "cue": 203,
+          "seconds": 32.56,
+          "en": "Now if we want to classify it, we're going to do the following argument: let theta be the smallest angle of rotation for any element gamma in Gamma where theta is greater than 0. Of course you have the identity element that rotates through nothing, so we find the smallest angle of rotation.",
+          "zh": "现在如果我们想对其分类，我们要进行如下论证：设 theta 为 Gamma 中任意元素大于 0 的最小旋转角。当然你包含旋转角为 0 的恒等元，所以我们寻找最小的正旋转角。"
+        }
+      ]
+    },
+    {
+      "lecture": "16",
+      "method": "conservative-automatic + context-reviewed joins + max-zh=100",
+      "before": 267,
+      "after": 267,
+      "identity": {
+        "en": true,
+        "zh": true
+      },
+      "overlaps": 0,
+      "inversions": 0,
+      "min_seconds": 1.461,
+      "max_seconds": 44.064,
+      "interpolated_boundary_count": 0,
+      "raw_alignment_coverage": 0.9898492201681918,
+      "alignment_notes": [],
+      "interpolated_boundary_after_cues": [],
+      "sub_100ms_gaps": 0,
+      "notes": [
+        {
+          "row": 40,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 48,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 71,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 153,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 193,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 227,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        }
+      ],
+      "split_notes": {
+        "enabled": true,
+        "max_zh_chars": 100,
+        "cuts": 13,
+        "fallbacks": 0,
+        "notes": []
+      },
+      "over_max_zh_after": 0,
+      "longest_units": [
+        {
+          "cue": 153,
+          "seconds": 44.064,
+          "en": "Okay. Now the question is: are there any points in L on—let's see if I set this up right, I think I have it right. Um, ah, okay: replace this parallelogram. There might be some vector inside the parallelogram that is closer to this line than the point b.",
+          "zh": "好的。现在的问题是：在——看看我设定得对不对，我想是对的——嗯，啊，好的：更换这个平行四边形。在该平行四边形内部，可能存在某个向量比点 b 更靠近这条直线。"
+        },
+        {
+          "cue": 148,
+          "seconds": 40.519,
+          "en": "Proof: if infinite, can choose a convergent subsequence, but this is impossible, as no sequence of elements in L is Cauchy, right? Because the distances between elements can't get arbitrarily close. So this is an interesting combination of group theory and topology.",
+          "zh": "证明：若无限，可选出收敛子列；但这是不可能的，因为 L 中的任何点列都不可能是柯西序列，对吧？因为不同元素间的距离无法任意接近。所以这是群论与拓扑学的一个有趣结合。"
+        },
+        {
+          "cue": 82,
+          "seconds": 33.86,
+          "en": "Let b be a non-zero vector. Take Gamma equal to the cyclic group generated by translations in b. So translations have infinite order. If you start at the origin and here's the vector b, it takes your origin up to b. And then if you do it again, you'd go to 2b.",
+          "zh": "设 b 是一个非零向量。令 Gamma 为由平移 t_b 生成的循环群。平移变换具有无限阶。如果你从原点出发，这里是向量 b，它把原点映到 b。如果你再执行一次，你就到了 2b。"
+        },
+        {
+          "cue": 249,
+          "seconds": 33.159,
+          "en": "Consider the matrix of A with respect to this basis of R^2: the matrix of A with respect to the basis {a, b} has integer entries, because it preserves this lattice. So if you ask what the transformation A does to a,",
+          "zh": "考虑 A 关于 R^2 的这组基的矩阵：A 关于基 {a, b} 的矩阵具有整数矩阵元，因为它保持该点阵不变。因此如果你问变换 A 对 a 做了什么，"
+        },
+        {
+          "cue": 237,
+          "seconds": 33.141,
+          "en": "Suppose I have an element A in Gamma-bar, and suppose it's a rotation. I have to show that the order of A is equal to 1, 2, 3, 4, or 6, because you can determine which dihedral group you have by which rotations you have in it.",
+          "zh": "假设我在 Gamma-bar 中有一个元素 A，并假设它是一个旋转。我必须证明 A 的阶数只能等于 1、2、3、4 或 6，因为你所拥有的二面体群完全由其中包含哪些旋转所决定。"
+        }
+      ]
+    },
+    {
+      "lecture": "17",
+      "method": "conservative-automatic + context-reviewed joins + max-zh=100",
+      "before": 179,
+      "after": 179,
+      "identity": {
+        "en": true,
+        "zh": true
+      },
+      "overlaps": 0,
+      "inversions": 0,
+      "min_seconds": 1.631,
+      "max_seconds": 52.294,
+      "interpolated_boundary_count": 0,
+      "raw_alignment_coverage": 0.8259090486375895,
+      "alignment_notes": [],
+      "interpolated_boundary_after_cues": [],
+      "sub_100ms_gaps": 0,
+      "notes": [
+        {
+          "row": 1,
+          "reason": "ambiguous bilingual closure; joined with context"
+        },
+        {
+          "row": 20,
+          "reason": "ambiguous bilingual closure; joined with context"
+        },
+        {
+          "row": 21,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 55,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 56,
+          "reason": "ambiguous bilingual closure; joined with context"
+        },
+        {
+          "row": 57,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 116,
+          "reason": "ambiguous bilingual closure; joined with context"
+        },
+        {
+          "row": 117,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        }
+      ],
+      "split_notes": {
+        "enabled": true,
+        "max_zh_chars": 100,
+        "cuts": 22,
+        "fallbacks": 0,
+        "notes": []
+      },
+      "over_max_zh_after": 0,
+      "longest_units": [
+        {
+          "cue": 156,
+          "seconds": 52.294,
+          "en": "And the reason that the general case is no more general than this result is that any transitive action is isomorphic to the action on the cosets of a subgroup: if G acts transitively on S, and s is in S with stabilizer G_s, then there is a bijection of G-sets between S and the cosets G/G_s.",
+          "zh": "一般情形之所以不比这个例子更一般，是因为任何传递作用都同构于子群陪集空间上的群作用：若 G 传递地作用在 S 上，取 s 属于 S 及其稳定子群 G_s，那么在 G-集合S 与陪集空间 G/G_s 之间存在双射。"
+        },
+        {
+          "cue": 27,
+          "seconds": 40.683,
+          "en": "So if I change L to A L where A is in O(2), Gamma-bar—I'm not working with Gamma right now—so you get an isomorphic subgroup of O(2), a finite subgroup of O(2) conjugated by an orthogonal matrix; and also changing L to a multiple of L, let's say c · L where c is in R^x,",
+          "zh": "所以如果我把 L 换成 A L（A 属于 O(2)），Gamma_bar——我现在先不考虑 Gamma 本身——你得到的只是 O(2) 的同构子群，由正交矩阵共轭的 O(2) 有限子群；并且将 L 乘以一个标量，"
+        },
+        {
+          "cue": 137,
+          "seconds": 38.678,
+          "en": "in some sense, the model case of a transitive action: let G be any group, let H be any subgroup of G, and let S be the set of left cosets G/H. That's a perfectly nice set.",
+          "zh": "这在某种意义上是传递作用的模型范例：设 G 为任意群，H 为 G 的任意子群，令 S 为左陪集空间 G/H。这是一个极好的集合。"
+        },
+        {
+          "cue": 79,
+          "seconds": 38.303,
+          "en": "Then the only possibility for Gamma-bar—if you're strictly in the interior, not on this boundary point, not on this boundary circle, not on this boundary line, then the only possibility for Gamma-bar is {1} or C_2, correct!",
+          "zh": "那么 Gamma_bar 的唯一可能——如果你严格落在内部，不在这个边界点上，也不在这个边界圆弧上，不在边界垂直线上，那么 Gamma_bar 的唯一可能就是 {1} 或C_2，完全正确！"
+        },
+        {
+          "cue": 148,
+          "seconds": 36.582,
+          "en": "And that happens in any transitive action: more generally, if G acts transitively on S, and we have G_s and you want to compare it with G_{s'}, suppose s' = g · s.",
+          "zh": "这在任何传递作用中都成立：更一般地，若 G 传递地作用在 S 上，且我们有 G_s 并想将它与 G_{s'} 进行比较，设 s' = g · s。"
+        }
+      ]
+    },
+    {
+      "lecture": "18",
+      "method": "conservative-automatic + context-reviewed joins + max-zh=100",
+      "before": 212,
+      "after": 212,
+      "identity": {
+        "en": true,
+        "zh": true
+      },
+      "overlaps": 0,
+      "inversions": 0,
+      "min_seconds": 1.809,
+      "max_seconds": 37.67,
+      "interpolated_boundary_count": 2,
+      "raw_alignment_coverage": 0.9774364068542236,
+      "alignment_notes": [],
+      "interpolated_boundary_after_cues": [
+        64,
+        127
+      ],
+      "sub_100ms_gaps": 0,
+      "notes": [
+        {
+          "row": 117,
+          "reason": "ambiguous bilingual closure; joined with context"
+        },
+        {
+          "row": 122,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 134,
+          "reason": "ambiguous bilingual closure; joined with context"
+        },
+        {
+          "row": 157,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        }
+      ],
+      "split_notes": {
+        "enabled": true,
+        "max_zh_chars": 100,
+        "cuts": 9,
+        "fallbacks": 0,
+        "notes": []
+      },
+      "over_max_zh_after": 0,
+      "longest_units": [
+        {
+          "cue": 90,
+          "seconds": 37.67,
+          "en": "Why? Because the center is a normal subgroup. So if G is of prime power order, and Z is equal to its center, then the quotient group G/Z—let's call that group G_1— also has prime power order, and therefore it has a non-trivial center.",
+          "zh": "为什么？因为中心是一个正规子群。因此若 G 是素数幂阶群，Z 等于其中心，那么商群 G/Z（我们把该群记作 G_1）也具有素数幂阶，因此它也具有非平凡中心。"
+        },
+        {
+          "cue": 183,
+          "seconds": 36.327,
+          "en": "So this has 3 triangles around a vertex; the octahedron has 4 triangles; and then if you put five triangles, you get the icosahedron, which has—which has 20 vertices and 12 faces, all of which are pentagons... I'm sorry, which are triangles, I'm sorry, I'm going the wrong way, yeah!",
+          "zh": "四面体每个顶点周围有 3 个三角形；正八面体有 4 个三角形；如果你放 5 个三角形，就得到了正二十面体，它有——它有 20 个顶点和 12 个面，所有面都是五边形……对不起，是三角形，抱歉，我弄反了，是的！"
+        },
+        {
+          "cue": 44,
+          "seconds": 34.889,
+          "en": "And the formula we wrote before would say that the order of G is equal to the sum over the conjugacy classes of the size of the orbit of s, which can also be written as the sum over the conjugacy classes of G of the order of G divided by the stabilizer. Now what is the stabilizer of an element here?",
+          "zh": "而我们之前写下的公式表明：G 的阶等于各共轭类上 s 的轨道大小之和，这也可以写成在 G 的各共轭类上，G 的阶除以稳定子群的阶之和。那么这里一个元素的稳定子群是什么？"
+        },
+        {
+          "cue": 9,
+          "seconds": 34.584,
+          "en": "It also has the following property: suppose G acts on S, and the order of G and the order of S are both finite, with orbits O(s_1), O(s_2), ... O(s_n). So the first thing is there are only finitely many orbits, because there are only finitely many elements in the set.",
+          "zh": "它还具有以下性质：假设 G 作用在 S 上，且 G 的阶与 S 的阶都是有限的，轨道为 O(s_1), O(s_2), ...O(s_n)。首先，只有有限多个轨道，因为集合中只有有限多个元素。"
+        },
+        {
+          "cue": 88,
+          "seconds": 32.208,
+          "en": "Over here, the order of G is divisible by p, so the number of 1s that we get in this sum has to be divisible by p, which means you can't just have the identity in the center: 1 is not divisible by p, the order of the center is divisible by p, and consequently not equal to 1. And that proves that the center is non-trivial.",
+          "zh": "在等式左边，G 的阶能被 p 整除，因此我们在该和式中得到的 1 的个数必须能被 p 整除，这意味着中心不能只有单位元：1 不能被 p 整除，中心的阶能被 p 整除，因此不等于 1。这就证明了中心是非平凡的。"
+        }
+      ]
+    },
+    {
+      "lecture": "19",
+      "method": "conservative-automatic + context-reviewed joins + max-zh=100",
+      "before": 222,
+      "after": 222,
+      "identity": {
+        "en": true,
+        "zh": true
+      },
+      "overlaps": 0,
+      "inversions": 0,
+      "min_seconds": 1.348,
+      "max_seconds": 53.191,
+      "interpolated_boundary_count": 1,
+      "raw_alignment_coverage": 0.9646762589928057,
+      "alignment_notes": [],
+      "interpolated_boundary_after_cues": [
+        30
+      ],
+      "sub_100ms_gaps": 0,
+      "notes": [
+        {
+          "row": 110,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 186,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 218,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        }
+      ],
+      "split_notes": {
+        "enabled": true,
+        "max_zh_chars": 100,
+        "cuts": 13,
+        "fallbacks": 0,
+        "notes": []
+      },
+      "over_max_zh_after": 0,
+      "longest_units": [
+        {
+          "cue": 1,
+          "seconds": 53.191,
+          "en": "So this is what I put up last time, which was mistaken. This is the homework due Monday the 8th. So let's go back to the regular solids. So we have the finite groups associated to the regular solids in ℝ^3, and the group Gamma is going to be a subgroup of SO(3), the rotations preserving a regular solid S.",
+          "zh": "这是我上次写在黑板上的内容，当时写错了。这是下周一（8号）截止的作业。现在我们回到正多面体。我们在 ℝ^3 中有与正多面体相关联的有限群，群 Gamma 将是SO(3) 的子群，即保持正多面体 S 不变的旋转。"
+        },
+        {
+          "cue": 209,
+          "seconds": 44.519,
+          "en": "If not, if the center of G has order p, take an element in G which is not in the center,   and consider the centralizer of the element center of G has order p, take an element in G which is not in the center, and consider the centralizer of the element element g, because g commutes with itself,",
+          "zh": "如果不是，若G 的中心的阶为 p，取 G 中一个不属于中心的元素 g，  考虑该元素 g 的中心化子G 的中心的阶为 p，取 G 中一个不属于中心的元素 g，考虑该元素 g 的中心化子元素 g 自身，因为 g 与自身对易，"
+        },
+        {
+          "cue": 200,
+          "seconds": 39.79,
+          "en": "So if all of these numbers are... if Z(g) is not equal to G for all g not equal to the identity, then the order of G over the order of Z(g) is divisible by p for all these terms, because this is some power of p, this is some smaller power of p, so you're left with a power of p dividing the quotient.",
+          "zh": "因此如果所有这些数都……如果对所有 g ≠ e，Z(g) 都不等于 G，那么 |G| 除以|Z(g)| 对所有这些项都能被 p 整除，因为分子是 p 的某个幂次，分母是 p 的某个更小的幂次，所以商保留了能被 p 整除的 p 的方幂。"
+        },
+        {
+          "cue": 114,
+          "seconds": 37.843,
+          "en": "Because the order of a conjugacy class of G is equal to the order of G divided by the order of the centralizer of the element from last time, so it must divide the order of G.   And there's a problem here: namely, 15 divides 60, 20 divides 60, but 24 does not divide 60!",
+          "zh": "因为 G 的共轭类的元素个数等于 G 的阶除以该元素中心化子的阶（上次讲过），所以它必须整除 G 的阶。  但这里出现了一个矛盾：即 15 整除 60，20 整除 60，但 24 不能整除 60！"
+        },
+        {
+          "cue": 115,
+          "seconds": 32.84,
+          "en": "So it's possible that all the elements of order 2 are in one conjugacy class, it's possible that all the elements of order 3 are in one conjugacy class, but this has to be at least two classes, because 24 doesn't divide 60.   The elements of order 5 are not all conjugate!",
+          "zh": "所以全体 2 阶元素有可能落在同一个共轭类中，全体 3 阶元素也有可能落在同一个共轭类中，但这部分必须至少分成两个类，因为 24 不能整除 60。  全体 5 阶元素并不全都共轭！"
+        }
+      ]
+    },
+    {
+      "lecture": "20",
+      "method": "conservative-automatic + context-reviewed joins + max-zh=100",
+      "before": 214,
+      "after": 214,
+      "identity": {
+        "en": true,
+        "zh": true
+      },
+      "overlaps": 0,
+      "inversions": 0,
+      "min_seconds": 1.252,
+      "max_seconds": 54.977,
+      "interpolated_boundary_count": 0,
+      "raw_alignment_coverage": 0.9643206256109482,
+      "alignment_notes": [],
+      "interpolated_boundary_after_cues": [],
+      "sub_100ms_gaps": 0,
+      "notes": [
+        {
+          "row": 2,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 7,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 8,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 40,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 41,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 55,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 65,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 84,
+          "reason": "ambiguous bilingual closure; joined with context"
+        },
+        {
+          "row": 91,
+          "reason": "ambiguous bilingual closure; joined with context"
+        },
+        {
+          "row": 92,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 101,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 144,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 172,
+          "reason": "ambiguous bilingual closure; joined with context"
+        }
+      ],
+      "split_notes": {
+        "enabled": true,
+        "max_zh_chars": 100,
+        "cuts": 13,
+        "fallbacks": 0,
+        "notes": []
+      },
+      "over_max_zh_after": 0,
+      "longest_units": [
+        {
+          "cue": 90,
+          "seconds": 54.977,
+          "en": "Theorem: Assume G is a finite group of order N, which is factored as p^m * n, some power of a prime p times a number where n is prime to p, so that this is the highest power of p that divides the order of the group. Okay, then: (1) There is a subgroup H of G of order p^m.",
+          "zh": "定理：设 G 为有限群，阶为 |G| = p^m * n，即素数 p 的某次幂乘上一个数，其中 n 与p 互素，使得 p^m 是整除群阶的 p 的最高次幂。好，那么：(1) 存在 G 的一个阶为 p^m 的子群 H。"
+        },
+        {
+          "cue": 168,
+          "seconds": 54.435,
+          "en": "Okay, that's the easy part of the theorem. Now let's prove part two. All right, now this is quite cute. Suppose I take my Sylow subgroup H, which is the Sylow subgroup found by (1). This is part two: and I have the group G act transitively on the coset space of H, G/H, which has size n prime to p.",
+          "zh": "好，这是该定理容易的部分。现在我们证明第二部分。好，这部分非常巧妙。设 H 是由 (1) 找到的西罗子群。这是第二部分：我们让群 G 传递作用在 H 的陪集空间 G/H 上，其大小为 n，与p 互素。"
+        },
+        {
+          "cue": 100,
+          "seconds": 42.637,
+          "en": "of Sylow p-subgroups of G in this single conjugacy divides n, the number that's left over—I'm sorry, divides n—and satisfies ell congruent to 1 mod p, leaves a remainder of 1 after dividing by p.",
+          "zh": "G 中这单个共轭类内西罗 p-子群的数目 ell，整除剩余的那个数 n——抱歉，整除 n——并且满足 ell ≡ 1 (mod p)，即除以 p 余 1。"
+        },
+        {
+          "cue": 102,
+          "seconds": 37.896,
+          "en": "If you take groups of order 12, it's not necessarily true, so let's just make that remark so that we start to appreciate this before we prove it: Note, if d divides the order |G| of G, there need not be a subgroup of order d.",
+          "zh": "若考察 12 阶群，一般阶的子群未必存在，所以我们先作此评注，以便在证明前领会其精妙：注意，若 d 整除群 G 的阶 |G|，G 中未必存在 d 阶子群。"
+        },
+        {
+          "cue": 93,
+          "seconds": 35.116,
+          "en": "Two: If K is a subgroup of order p^a for any a—we know a <= m because the order of a subgroup has to divide the order of a group—then K is contained in a conjugate of H, the Sylow p-subgroup that we found up there.",
+          "zh": "(2)若 K 为任意 p^a 阶子群（已知 a <= m，因为子群的阶必须整除群的阶）——那么 K 必包含在上面找到的西罗 p-子群 H 的某个共轭子群中。"
+        }
+      ]
+    },
+    {
+      "lecture": "21",
+      "method": "conservative-automatic + context-reviewed joins + max-zh=100",
+      "before": 199,
+      "after": 199,
+      "identity": {
+        "en": true,
+        "zh": true
+      },
+      "overlaps": 0,
+      "inversions": 0,
+      "min_seconds": 1.767,
+      "max_seconds": 56.774,
+      "interpolated_boundary_count": 0,
+      "raw_alignment_coverage": 0.950641940085592,
+      "alignment_notes": [],
+      "interpolated_boundary_after_cues": [],
+      "sub_100ms_gaps": 0,
+      "notes": [
+        {
+          "row": 1,
+          "reason": "ambiguous bilingual closure; joined with context"
+        },
+        {
+          "row": 30,
+          "reason": "ambiguous bilingual closure; joined with context"
+        },
+        {
+          "row": 39,
+          "reason": "ambiguous bilingual closure; joined with context"
+        },
+        {
+          "row": 83,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 84,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 85,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 166,
+          "reason": "ambiguous bilingual closure; joined with context"
+        },
+        {
+          "row": 167,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 193,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        }
+      ],
+      "split_notes": {
+        "enabled": true,
+        "max_zh_chars": 100,
+        "cuts": 11,
+        "fallbacks": 0,
+        "notes": []
+      },
+      "over_max_zh_after": 0,
+      "longest_units": [
+        {
+          "cue": 44,
+          "seconds": 56.774,
+          "en": "That's the first part of the theorem. The second part is: we consider the action of H on this set. Now consider the action of H by conjugation on \\mathcal{H}. Now G permutes them transitively, but H doesn't. For example, H conjugates itself into itself, so this fixes H. And I claim this is the unique fixed point!",
+          "zh": "这是定理第 (3) 部分的前半截。后半截是：我们考虑 H 在此集合上的作用。现在考虑H 通过共轭在 ℋ 上的作用。G 传递地置换它们，但 H 则不然。例如，H 将自身共轭到自身，所以它固定了 H。而我断言这是唯一的不动点！"
+        },
+        {
+          "cue": 85,
+          "seconds": 43.668,
+          "en": "So I'm going to work that out for you. Okay, so the first observation I want to make, which is kind of bizarre, yeah, the first observation I want to make is that this H_q is always a normal subgroup of G. This is completely general: H_p may not be normal, but H_q is always normal, the bigger prime.",
+          "zh": "好的，我想做出的第一个观察（这看起来有点奇妙），是的，第一个观察是：H_q 永远是 G 的正规子群。这是完全普适的：H_p 可能不正规，但 H_q 永远正规，即较大素数对应的子群必正规。"
+        },
+        {
+          "cue": 5,
+          "seconds": 42.874,
+          "en": "So there are subgroups of the maximum power prime order; (2) any two such subgroups are conjugate, so they form a unique conjugacy class of subgroups of that order; and (3) the number \\ell of such subgroups satisfies \\ell divides m, and \\ell is congruent to 1 mod p. So a typical number that can always satisfy this is \\ell = 1.",
+          "zh": "所以存在阶为最大素数幂的子群；(2) 任何两个这样的子群都共轭，因此它们构成该阶子群的唯一共轭类；(3) 此类子群的数目 ℓ 满足 ℓ 整除 m，且 ℓ ≡ 1 mod p。那么一个总是能满足此条件的典型数值就是 ℓ = 1。"
+        },
+        {
+          "cue": 40,
+          "seconds": 41.86,
+          "en": "(3) since all Sylows are conjugate, we have the transitive action of G by conjugation—not by translation—on the set \\mathcal{H} of all Sylows. This is the set that we're trying to count, right? This set.",
+          "zh": "(3) 既然所有西罗子群都共轭，我们就有 G 通过共轭——不是平移——传递地作用在所有西罗子群构成的集合 ℋ 上。这就是我们试图计算基数的集合，对吧？这个集合。"
+        },
+        {
+          "cue": 59,
+          "seconds": 40.063,
+          "en": "So what I'm going to do for you today is I'm going to show how this affects the classification of groups of small order, so you can get some idea of how Sylow's theorem can be used in action to describe all the groups of order 6, or all the groups of order 15, or all the groups of order 21. So remember what we've got so far: we know the classification theorems.",
+          "zh": "所以我今天要做的是，向大家展示这如何影响小阶数群的分类，从而让大家对西罗定理在实际中如何用于刻画所有 6 阶群、所有 15 阶群或所有 21 阶群有些直观感受。请记住我们目前已有的结论：分类定理。"
+        }
+      ]
+    },
+    {
+      "lecture": "22",
+      "method": "conservative-automatic + context-reviewed joins + max-zh=100",
+      "before": 168,
+      "after": 168,
+      "identity": {
+        "en": true,
+        "zh": true
+      },
+      "overlaps": 0,
+      "inversions": 0,
+      "min_seconds": 1.414,
+      "max_seconds": 59.402,
+      "interpolated_boundary_count": 0,
+      "raw_alignment_coverage": 0.9587476416296976,
+      "alignment_notes": [],
+      "interpolated_boundary_after_cues": [],
+      "sub_100ms_gaps": 0,
+      "notes": [
+        {
+          "row": 1,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 4,
+          "reason": "ambiguous bilingual closure; joined with context"
+        },
+        {
+          "row": 6,
+          "reason": "ambiguous bilingual closure; joined with context"
+        },
+        {
+          "row": 7,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 10,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 11,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 55,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 57,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 69,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 72,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 85,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 89,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 90,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 114,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 117,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 119,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 121,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 126,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 129,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 131,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 135,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        }
+      ],
+      "split_notes": {
+        "enabled": true,
+        "max_zh_chars": 100,
+        "cuts": 11,
+        "fallbacks": 0,
+        "notes": []
+      },
+      "over_max_zh_after": 0,
+      "longest_units": [
+        {
+          "cue": 93,
+          "seconds": 59.402,
+          "en": "Okay, so let me formalize that as well, write it down: so first of all, two permutations which are conjugate in S_n the usual words people use are have the same cycle shape. I mentioned it briefly,",
+          "zh": "好的，让我把它形式化地写下来：首先，在对称群 S_n 中相互共轭的两个置换，用通常的说法就是具有相同的轮换形状。我之前简要提过，"
+        },
+        {
+          "cue": 119,
+          "seconds": 56.565,
+          "en": "Okay, and in general, I mean if I had— let me not write it, let me just tell you the answer: if there are a_1 1-cycles, a_1 1-cycles, a_2 2-cycles, and so on, then how many Q satisfy Q^{-1} P Q equals P?",
+          "zh": "好的。一般而言，让我直接告诉大家答案：如果 P 有 a_1 个 1-轮换，a_1 个 1-轮换，a_2 个 2-轮换等等，那么有多少个 Q 满足 Q^{-1} P Q = P？"
+        },
+        {
+          "cue": 122,
+          "seconds": 48.291,
+          "en": "Some question? Let me see. Okay, let me— let me actually do a similar exercise: so let me look at the symmetric group on five letters. How many elements does this have? 5 factorial, so order 120.",
+          "zh": "有问题吗？让我看看。好的，让我——让我来做一个类似的练习：考察 5 个文字上的对称群。它有多少个元素？5!，所以阶是 120。"
+        },
+        {
+          "cue": 37,
+          "seconds": 47.644,
+          "en": "disjoint cycles, up to the various switches I explained you could make: you can reorder the cycles, cyclically permute the elements in a cycle, and you can drop 1-cycles.",
+          "zh": "—在允许我刚才解释的几种调整的前提下是唯一的：可以重排各个轮换，循环轮换单个轮换内部的元素，也可以省略 1-轮换。"
+        },
+        {
+          "cue": 12,
+          "seconds": 47.541,
+          "en": "And so if I'm interested in the product PQ, you're familiar with how you would calculate a product like that? Somebody shake their head? Sorry, right.",
+          "zh": "如果我想求乘积 PQ，你们熟悉怎么计算这样的乘积吗？有人在摇头？抱歉，好的。"
+        }
+      ]
+    },
+    {
+      "lecture": "23",
+      "method": "conservative-automatic + context-reviewed joins + max-zh=100",
+      "before": 184,
+      "after": 184,
+      "identity": {
+        "en": true,
+        "zh": true
+      },
+      "overlaps": 0,
+      "inversions": 0,
+      "min_seconds": 1.759,
+      "max_seconds": 56.374,
+      "interpolated_boundary_count": 0,
+      "raw_alignment_coverage": 0.9677674684490568,
+      "alignment_notes": [],
+      "interpolated_boundary_after_cues": [],
+      "sub_100ms_gaps": 0,
+      "notes": [
+        {
+          "row": 1,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 28,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 31,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 32,
+          "reason": "ambiguous bilingual closure; joined with context"
+        },
+        {
+          "row": 33,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 53,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 118,
+          "reason": "ambiguous bilingual closure; joined with context"
+        },
+        {
+          "row": 172,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 181,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        }
+      ],
+      "split_notes": {
+        "enabled": true,
+        "max_zh_chars": 100,
+        "cuts": 16,
+        "fallbacks": 0,
+        "notes": []
+      },
+      "over_max_zh_after": 0,
+      "longest_units": [
+        {
+          "cue": 81,
+          "seconds": 56.374,
+          "en": "So let's start with the first part of this: the first thing I claim, as I said over here, is that n_2(G) is not equal to 3. So it suffices to show G has no subgroups of index less than 5, since if P is a Sylow 2-subgroup,",
+          "zh": "让我们从第一部分开始：正如我刚才所说，我的第一个断言是：n_2(G) 不等于 3。因此只需证明 G 没有指数小于 5 的真子群；因为若 P 是西罗 2-子群，"
+        },
+        {
+          "cue": 146,
+          "seconds": 48.29,
+          "en": "Well, here's a way of putting it: if we can show there exists a subgroup M of G with index equal to 5, then by the same argument as in Claim 2—in other words, replacing N with M—you can show that G must be isomorphic to A_5.",
+          "zh": "这么说吧：如果我们能证明 G 中存在一个指数等于 5 的子群 M，那么由与断言 2 相同的论证——换句话说，只需将 N 替换为 M——你就可以证明 G 必须同构于 A_5。"
+        },
+        {
+          "cue": 180,
+          "seconds": 43.743,
+          "en": "Well, the simplified version is to show: the proof of this involves showing that G_j must be a subgroup of H for all j, and then showing that A_n, which is generated by all of the G_j's, is a subgroup of H, and so H is all of A_n, H is all of G, contradicting the hypothesis that H is proper!",
+          "zh": "简化版思路是：该证明需要证明对所有 j，稳定子群 G_j 必须是 H 的子群（G_j ⊆ H）；进而说明 A_n——它是由所有这些 G_j 生成的——是 H 的子群，从而 H 是整个 A_n（H = G），与H 是真子群的假设矛盾！"
+        },
+        {
+          "cue": 181,
+          "seconds": 43.504,
+          "en": "So that's a contradiction. So the real point is to show this fact that every G_j is a subgroup of H, and that's just using the sorts of things that we've done so far. And then the last two things are the following: so Claim 2: given tau in H, only 2-cycles can appear in its disjoint cycle decomposition.",
+          "zh": "所以真正的关键是证明每个 G_j 都是 H 的子群；这完全是在运用我们目前所学的方法。接下来的两件事如下：断言 2：在 H 中给定 τ，其不相交轮换分解中只能出现 2-轮换（对换）。"
+        },
+        {
+          "cue": 15,
+          "seconds": 43.344,
+          "en": "And we know by a counting formula that this is exactly the size of the orbit of H under this action. And then, well because of (2) over here, this thing is the same thing as the number of Sylow p- subgroups, and this is just by definition n_p(G).",
+          "zh": "根据计数公式，这恰好是H 在该作用下轨道的阶（大小）。再由第 (2) 条可知，这正好等于全部西罗 p-子群的数目，按定义这就是 n_p(G)。"
+        }
+      ]
+    },
+    {
+      "lecture": "24",
+      "method": "conservative-automatic + context-reviewed joins + max-zh=100",
+      "before": 205,
+      "after": 205,
+      "identity": {
+        "en": true,
+        "zh": true
+      },
+      "overlaps": 0,
+      "inversions": 0,
+      "min_seconds": 2.263,
+      "max_seconds": 59.052,
+      "interpolated_boundary_count": 0,
+      "raw_alignment_coverage": 0.9785254115962777,
+      "alignment_notes": [],
+      "interpolated_boundary_after_cues": [],
+      "sub_100ms_gaps": 0,
+      "notes": [
+        {
+          "row": 61,
+          "reason": "ambiguous bilingual closure; joined with context"
+        },
+        {
+          "row": 75,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 86,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 120,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 121,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 137,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 175,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 200,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        }
+      ],
+      "split_notes": {
+        "enabled": true,
+        "max_zh_chars": 100,
+        "cuts": 7,
+        "fallbacks": 0,
+        "notes": []
+      },
+      "over_max_zh_after": 0,
+      "longest_units": [
+        {
+          "cue": 64,
+          "seconds": 59.052,
+          "en": "So the best way to get rings, which are called endomorphism rings, is to start with an abelian group A, with the usual addition and identity element 0, and to let R, which is called the endomorphism ring of A, be the set of all homomorphisms f from A to A, all maps from the abelian group to itself which are group homomorphisms.",
+          "zh": "所以构造环的最佳方式，即所谓的自同态环，是从一个交换群 A 出发，具有通常的加法和单位元 0；令 R 为 A 的自同态环 End(A)，即所有群同态 f从 A 到A 的集合，即交换群到自身的所有群同态映射。"
+        },
+        {
+          "cue": 154,
+          "seconds": 36.915,
+          "en": "So an example, examples: 1, any kernel of a homomorphism; 2, the zero set is an ideal: it's the kernel of a homomorphism that takes everything in R to 0, the zero ring—",
+          "zh": "来看例子：第一，任何环同态的核；第二，零子集 {0} 是一个理想：它是把 R 中所有元素都映到 0 的同态的核，即零环—"
+        },
+        {
+          "cue": 59,
+          "seconds": 35.813,
+          "en": "And you can have a ring with two elements: this is the smallest ring, the next smallest ring is the ring Z/2Z, which has two elements in it; but that's a field because 1 is invertible, and in fact we have a ring with any finite number of elements: Z/nZ, that's a ring with n elements.",
+          "zh": "环可以有两个元素：这是最小的环，下一个最小的环是 Z/2Z，它含有两个元素；但那其实是一个域，因为 1 是可逆的；事实上我们有任意有限个元素的环：Z/nZ，这是含有 n 个元素的环。"
+        },
+        {
+          "cue": 175,
+          "seconds": 35.297,
+          "en": "Okay, good. Let me just give you an important statement. Fact: the only ideals I in Z have the form I = nZ, the quotient ring is Z/nZ.",
+          "zh": "很好，下面我给出一个重要结论。事实：整数环 Z 中的所有理想 I 都具有形式 I = nZ，其商环正是 Z/nZ。"
+        },
+        {
+          "cue": 5,
+          "seconds": 35.123,
+          "en": "And they are first abelian groups, then they have a multiplication which is denoted times, which is associative, and it has an identity element equal to 1, but it need not be... Another example of a ring is n by n matrices over a field F.",
+          "zh": "它们首先是交换群，然后它们具有记作乘号的乘法运算，乘法满足结合律，并具有等于 1 的单位元，但不一定……环的另一个例子是域上的 n 阶方阵环，域 F。"
+        }
+      ]
+    },
+    {
+      "lecture": "25",
+      "method": "conservative-automatic + max-zh=100",
+      "before": 184,
+      "after": 184,
+      "identity": {
+        "en": true,
+        "zh": true
+      },
+      "overlaps": 0,
+      "inversions": 0,
+      "min_seconds": 3.262,
+      "max_seconds": 54.25,
+      "interpolated_boundary_count": 0,
+      "raw_alignment_coverage": 0.978587354339321,
+      "alignment_notes": [],
+      "interpolated_boundary_after_cues": [],
+      "sub_100ms_gaps": 0,
+      "notes": [
+        {
+          "row": 5,
+          "reason": "ambiguous bilingual closure; joined with context"
+        },
+        {
+          "row": 55,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 56,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 64,
+          "reason": "ambiguous bilingual closure; joined with context"
+        },
+        {
+          "row": 142,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 184,
+          "reason": "trailing source text retained; manual review required"
+        }
+      ],
+      "split_notes": {
+        "enabled": true,
+        "max_zh_chars": 100,
+        "cuts": 14,
+        "fallbacks": 0,
+        "notes": []
+      },
+      "over_max_zh_after": 0,
+      "longest_units": [
+        {
+          "cue": 103,
+          "seconds": 54.25,
+          "en": "Here's a proposition of ideals in the polynomial ring over a field, very important theorem/proposition: every ideal I in the ring R = F[x] is principal: principal generated, so I is a principal ideal generated by the monic polynomial f in I of least degree.",
+          "zh": "这是关于域上一元多项式环中理想的一个命题，非常重要的定理/命题：环 R = F[x] 中的每个理想 I都是主理想：即 I 是由 I 中次数最低的首一多项式 f 所生成的主理想。"
+        },
+        {
+          "cue": 39,
+          "seconds": 40.02,
+          "en": "If R has only two ideals, then R is a field; in fact, if and only if: R has only two ideals if and only if R is a field. And of course those two ideals are R and the zero ideal. So that's an interesting characterization of fields.",
+          "zh": "如果 R 恰好有两个理想，那么 R 是一个域；事实上，是当且仅当：R 恰好有两个理想当且仅当 R 是一个域。当然那两个理想就是 R 和零理想 (0)。所以这是对域的一个很有意思的刻画。"
+        },
+        {
+          "cue": 36,
+          "seconds": 39.2,
+          "en": "Note if R is the zero ring, these are the same ideal; if R is not equal to the zero ring, these two ideals are distinct, because we saw that if you're not equal to the zero ring, 0 is not equal to 1 in R: this ideal doesn't contain 1, and this ideal does contain 1, because it contains everything in R.",
+          "zh": "注意如果 R 是零环，这两个是同一个理想；如果 R 不是零环，这两个理想是不同的，因为我们知道如果 R 不是零环，在 R 中 0 ≠ 1：这个零理想不包含1，而全环理想确实包含 1，因为它包含 R 中的所有元素。"
+        },
+        {
+          "cue": 112,
+          "seconds": 36.062,
+          "en": "If f and g are two polynomials with the degree of f >= the degree of g (the degree makes sense, it's the size of the highest term), then f is equal to g... let me write it: f(x) = g(x) * q(x) + r(x), where this is a polynomial, and this is a remainder polynomial—",
+          "zh": "如果 f 和 g 是两个多项式，且 deg(f) ≥ deg(g)（次数是有良定义的，是最高次项的阶），那么 f 等于 g……让我写下来：f(x) = g(x) q(x) + r(x)，"
+        },
+        {
+          "cue": 33,
+          "seconds": 34.416,
+          "en": "Okay, now we saw that the ideals always contain the following: there are always two natural ideals in a ring, just like there are always two subgroups of a group: two obvious ideals in R: I = (0), the zero ideal just consisting of 0, and I = R.",
+          "zh": "好，现在我们看到环中总包含以下两类：一个环中总是存在两个自然的理想，就像一个群中总是存在两个显然的子群一样：群：R 中有两个显然的理想：I = (0)，仅由 0 组成的零理想，以及 I = R。"
+        }
+      ]
+    },
+    {
+      "lecture": "26",
+      "method": "conservative-automatic + context-reviewed joins + max-zh=100",
+      "before": 199,
+      "after": 199,
+      "identity": {
+        "en": true,
+        "zh": true
+      },
+      "overlaps": 0,
+      "inversions": 0,
+      "min_seconds": 1.932,
+      "max_seconds": 50.587,
+      "interpolated_boundary_count": 0,
+      "raw_alignment_coverage": 0.9752473215385247,
+      "alignment_notes": [],
+      "interpolated_boundary_after_cues": [],
+      "sub_100ms_gaps": 0,
+      "notes": [
+        {
+          "row": 11,
+          "reason": "ambiguous bilingual closure; joined with context"
+        },
+        {
+          "row": 120,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 157,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        }
+      ],
+      "split_notes": {
+        "enabled": true,
+        "max_zh_chars": 100,
+        "cuts": 15,
+        "fallbacks": 0,
+        "notes": []
+      },
+      "over_max_zh_after": 0,
+      "longest_units": [
+        {
+          "cue": 94,
+          "seconds": 50.587,
+          "en": "Well, we could arrange that: if we want a ring R-bar which is an image of R where a-bar is equal to 0, where the image of a is zero, then the largest such quotient is the ring R-bar, which is R modulo the ideal generated by a,   because in this ring a maps to zero.",
+          "zh": "我们可以实现这一点：如果我们想要一个商环 R-bar（作为 R 的同态像），使得 a-bar = 0，即 a 的像为0，那么满足此条件的最大商环就是 R 模去由 a 生成的主理想 (a)，  因为在此环中 a映到 0。"
+        },
+        {
+          "cue": 60,
+          "seconds": 44.307,
+          "en": "So let's see that this f(J) is an ideal of R-bar: well, you have to check that it's closed under addition and multiplication from R-bar. So let's assume that: we have f(a) and f(b) are elements in f(J) where a and b are in J.   Is their sum in f(J)? Why, exactly!",
+          "zh": "你需要验证它在加法下封闭，并且在与 R-bar 的乘法下封闭。我们假设：f(a) 和 f(b) 是 f(J) 中的元素，其中 a, b 在 J 中。  它们的和是否在 f(J) 中？当然！"
+        },
+        {
+          "cue": 110,
+          "seconds": 40.861,
+          "en": "So the first thing I want to notice is the following: So first, let's identify the intersection of I (this ideal) with the integers: namely, which elements lying in this ideal are multiples of 2 + i but have second coordinate 0, so they're just of the form a in Z? That'll be our start to identifying this quotient ring.",
+          "zh": "我注意到的第一件事是：首先让我们确定该理想 I 与整数环 Z 的交集：即该理想中有哪些元素是 2 + i 的倍数，但虚部为 0，即仅仅具有整数 a 的形式？这将是我们确定该商环的起点。"
+        },
+        {
+          "cue": 111,
+          "seconds": 39.628,
+          "en": "OK, so I claim that first of all, I claim that 5 is an element in I \\cap Z, so that I can write 5, the integer 5, as a multiple of 2 + i: here it is, (2 + i)(2 - i). OK, if you multiply these out, the i-terms cancel, you get 4 + 1 = 5.",
+          "zh": "好，我声称：首先，我断言 5 是 I ∩ Z 中的元素，因此我可以将整数 5 写成 2 + i 的倍数：就是 (2 + i)(2 - i)。如果你展开相乘，虚部 i 的项相互抵消，得到 4 + 1 = 5。"
+        },
+        {
+          "cue": 157,
+          "seconds": 39.368,
+          "en": "Well, if you write down that number: 1 * 2 * ... It's construction, construction, we're all safe, we're all perfectly safe! If you take this element ((p - 1)/2)! and you complete it to (p - 1)!, this product, we agree, is congruent to -1.",
+          "zh": "如果你写出那个数：1 * 2 * ...……（笑声）是施工，在搞施工，我们大家很安全，非常安全！如果你取该元素 ((p - 1)/2)! 并把它补齐到 (p - 1)!，我们已知整个乘积同余于 -1。"
+        }
+      ]
+    },
+    {
+      "lecture": "27",
+      "method": "conservative-automatic + context-reviewed joins + max-zh=100",
+      "before": 207,
+      "after": 207,
+      "identity": {
+        "en": true,
+        "zh": true
+      },
+      "overlaps": 0,
+      "inversions": 0,
+      "min_seconds": 2.153,
+      "max_seconds": 45.059,
+      "interpolated_boundary_count": 1,
+      "raw_alignment_coverage": 0.954038191287096,
+      "alignment_notes": [],
+      "interpolated_boundary_after_cues": [
+        122
+      ],
+      "sub_100ms_gaps": 0,
+      "notes": [
+        {
+          "row": 1,
+          "reason": "ambiguous bilingual closure; joined with context"
+        },
+        {
+          "row": 6,
+          "reason": "ambiguous bilingual closure; joined with context"
+        },
+        {
+          "row": 15,
+          "reason": "ambiguous bilingual closure; joined with context"
+        },
+        {
+          "row": 30,
+          "reason": "ambiguous bilingual closure; joined with context"
+        },
+        {
+          "row": 101,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 102,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 143,
+          "reason": "ambiguous bilingual closure; joined with context"
+        },
+        {
+          "row": 144,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        }
+      ],
+      "split_notes": {
+        "enabled": true,
+        "max_zh_chars": 100,
+        "cuts": 31,
+        "fallbacks": 0,
+        "notes": []
+      },
+      "over_max_zh_after": 0,
+      "longest_units": [
+        {
+          "cue": 125,
+          "seconds": 45.059,
+          "en": "Now let $F$ be a field, let $f(x)$ be a monic polynomial with coefficients in $F$.   Consider the ring $R = F[x]/(f(x))$. Say this has degree $n$, an arbitrary monic polynomial.",
+          "zh": "现在设 $F$ 为任意域，设 $f(x)$ 为系数在 $F$ 中的首一多项式。 考虑商环 $R = F[x]/(f(x))$。设其次数为$n$ 次任意首一多项式。"
+        },
+        {
+          "cue": 157,
+          "seconds": 32.175,
+          "en": "we need an irreducible quadratic polynomial $x^2 - c$ over the field of $p$ elements. Well, actually, it doesn't have to look like this, it could be—sorry—$x^2 + bx + c$ over the field of $p$ elements.",
+          "zh": "—我们就需要在 $p$ 元域上找到一个不可约二次多项式 $x^2 - c$。其实，它不一定非要是这种形式，它可以是——抱歉——$p$ 元域上的任意 $x^2 + bx + c$。"
+        },
+        {
+          "cue": 187,
+          "seconds": 31.04,
+          "en": "Because $0$ is a square, so if we're going to find a non-square, it should be some non-zero element; and if that element is a square, it has to be the square of some non-zero element, so it should be in the image of this homomorphism. All right? So the claim is: Claim: $h$ is not surjective.",
+          "zh": "因为 $0$ 是平方数（$0^2=0$），所以如果我们要找非平方数，它必然是非零元；如果该元素是平方数，它就必须是某个非零元的平方，从而必须落在该同态的像集之中。对吧？因此断言就是：断言：$h$ 不是满射。"
+        },
+        {
+          "cue": 87,
+          "seconds": 30.869,
+          "en": "Namely, if we want a larger ring than $R$ containing a new element $\\alpha$ satisfying a monic polynomial $f(x)$ over $R$, we can take the ring $R'$,",
+          "zh": "也就是说，如果我们想要一个比 $R$ 更大的环，包含一个满足 $R$ 上首一多项式 $f(x)$ 的新元素 $\\alpha$，"
+        },
+        {
+          "cue": 126,
+          "seconds": 30.034,
+          "en": "As an abelian group, this ring looks additively like $n$ copies of $F$.   And the question is: when is it a field? When is every non-zero element in it invertible? And the proposition is: Proposition: $R$ is a field if and only if $f(x)$ is irreducible over the field $F$.",
+          "zh": "作为交换群，该环在加法上表现为 $n$ 个 $F$ 的拷贝。 现在的问题是：它何时成为一个域？何时其中的每个非零元都可逆？答案就是以下命题：命题：$R$ 是域当且仅当 $f(x)$ 在域 $F$ 上不可约。"
+        }
+      ]
+    },
+    {
+      "lecture": "28",
+      "method": "conservative-automatic + max-zh=100",
+      "before": 164,
+      "after": 164,
+      "identity": {
+        "en": true,
+        "zh": true
+      },
+      "overlaps": 0,
+      "inversions": 0,
+      "min_seconds": 2.461,
+      "max_seconds": 51.881,
+      "interpolated_boundary_count": 0,
+      "raw_alignment_coverage": 0.9915481754002188,
+      "alignment_notes": [],
+      "interpolated_boundary_after_cues": [],
+      "sub_100ms_gaps": 0,
+      "notes": [
+        {
+          "row": 17,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 40,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 88,
+          "reason": "ambiguous bilingual closure; joined with context"
+        },
+        {
+          "row": 123,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        }
+      ],
+      "split_notes": {
+        "enabled": true,
+        "max_zh_chars": 100,
+        "cuts": 12,
+        "fallbacks": 0,
+        "notes": []
+      },
+      "over_max_zh_after": 0,
+      "longest_units": [
+        {
+          "cue": 86,
+          "seconds": 51.881,
+          "en": "So, so for instance, class equation plus the fact that subgroup of a group must have divisible orders—these facts together can sometimes be used to show a group is simple, we saw an example of this. This isn't really very important, but it's just—it's good that you be aware of this, should you ever need to show that a particular group is simple or not.",
+          "zh": "例如，类方程再加上子群的阶必须整除群的阶这一事实——结合起来有时可以用来判定一个群是否为单群，我们见过这方面的例子。虽然这并不是特别重要，但大家最好能了解这个方法，万一需要证明某个特定群是否为单群。"
+        },
+        {
+          "cue": 128,
+          "seconds": 51.591,
+          "en": "So there is a Euclidean algorithm for F[x], the ring of polynomials with coefficients in F, and that implies that every ideal of F[x] is principal, by the same sort of argument as for the ring of integers, sort of basic Euclidean algorithm thing.",
+          "zh": "所以存在针对F[x]（即系数在 F 中的多项式环）的欧几里得带余除法，这蕴含了 F[x] 的每一个理想都是主理想，其证明与整数环完全类似，都是利用基本的欧几里得算法。"
+        },
+        {
+          "cue": 123,
+          "seconds": 51.559,
+          "en": "So here's an important proposition: if I have a commutative ring, then that ring is a field if and only if—what, sorry? If and only if this ring has exactly two ideals, exactly two ideals, exactly two ideals: namely (0) and the unit ideal (1), which is all of the ring.",
+          "zh": "这里有一个重要的命题：如果我有一个交换环，那么该环是一个域当且仅当——什么？不好意思？当且仅当该环恰好有两个理想，恰好有两个理想，恰好有两个理想：即零理想 (0) 和单位理想 (1)（即整个环）。"
+        },
+        {
+          "cue": 95,
+          "seconds": 47.093,
+          "en": "but can be useful in less basic applications, is that if I have a subgroup G— with order divisible by p, then there is a Sylow p-subgroup of G such that its intersection with this subgroup is a Sylow p-subgroup of it, okay?",
+          "zh": "若 G 中有一个子群 H其阶能被 p 整除，那么存在 G 的一个西罗 p-子群 P 使得它与该子群的交（P ∩ H）是该子群的一个西罗 p-子群，明白吗？"
+        },
+        {
+          "cue": 150,
+          "seconds": 39.161,
+          "en": "The point is that this tells us, by the first isomorphism theorem— so by the first isomorphism theorem, there is a natural isomorphism between F[x] modulo the kernel of this map phi, and F.",
+          "zh": "关键在于，根据第一同构定理，这告诉我们——由第一同构定理可知，在 F[x] 模去该映射 φ 的核与 F 之间存在一个自然同构。"
+        }
+      ]
+    },
+    {
+      "lecture": "29",
+      "method": "conservative-automatic + context-reviewed joins + max-zh=100",
+      "before": 210,
+      "after": 210,
+      "identity": {
+        "en": true,
+        "zh": true
+      },
+      "overlaps": 0,
+      "inversions": 0,
+      "min_seconds": 2.383,
+      "max_seconds": 48.614,
+      "interpolated_boundary_count": 1,
+      "raw_alignment_coverage": 0.9598352214212152,
+      "alignment_notes": [],
+      "interpolated_boundary_after_cues": [
+        150
+      ],
+      "sub_100ms_gaps": 0,
+      "notes": [
+        {
+          "row": 3,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 19,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 24,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 38,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 123,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 142,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 148,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 177,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 210,
+          "reason": "trailing source text retained; manual review required"
+        }
+      ],
+      "split_notes": {
+        "enabled": true,
+        "max_zh_chars": 100,
+        "cuts": 6,
+        "fallbacks": 0,
+        "notes": []
+      },
+      "over_max_zh_after": 0,
+      "longest_units": [
+        {
+          "cue": 191,
+          "seconds": 48.614,
+          "en": "So here's the characterization of the quotient field: the universal property: If R -> K is any ring inclusion into a field K, and F is the quotient field of R—so we have a natural inclusion R ↪ F—then there is a natural homomorphism of fields",
+          "zh": "这里给出了商域的特征刻画：泛性质（Universal Property）：若 R ↪ K 是环到域 K 的任意环包含嵌入，且 F 是 R 的商域——我们有自然的包含映射 R ↪ F——"
+        },
+        {
+          "cue": 92,
+          "seconds": 45.819,
+          "en": "Okay, so we say a ring, a commutative ring is an integral domain—or sometimes we'll just use the word domain to be short—if it has the following property: whenever a * b = 0 in R, then either a = 0 or b = 0 in R.",
+          "zh": "好，我们说一个环，一个交换环是一个整环——有时我们简称为“域”（整环 domain）——如果它满足如下性质：只要在 R 中 a · b = 0，则在 R 中必有 a = 0 或 b = 0。"
+        },
+        {
+          "cue": 117,
+          "seconds": 43.868,
+          "en": "And that's the big proposition, big theorem: If R is a domain, there is a field F we can construct from R in a natural way—we'll see it, called the quotient field— and an inclusion of rings R into this field.",
+          "zh": "这就是关键命题、重要定理：若 R 是整环，则我们可以从 R 出发以一种自然的方式构造一个域 F——我们后面会看到它，称为“商域”（或分式域）——以及一个环的包含映射：R 嵌入到这个域中。"
+        },
+        {
+          "cue": 94,
+          "seconds": 37.25,
+          "en": "So examples of domains: R is a field, is certainly a domain, because if we have the product a * b = 0, and a is not equal to 0, then we have to prove that b is equal to 0—that's the check of it being a domain. Well, multiply both sides of this by a^{-1} to get b = 0; multiply both sides of this by a^{-1}.",
+          "zh": "整环的例子：若 R 是一个域，那当然是一个整环，因为如果我们有乘积 a · b = 0 且 a ≠ 0，那么我们要证明 b必等于 0——这就是检验它是否为整环。两边同乘 a^{-1} 就得到 b = 0；等式两边同乘 a^{-1} 即可。"
+        },
+        {
+          "cue": 97,
+          "seconds": 31.42,
+          "en": "All right, something that isn't a domain, just to see that you don't get this all the time: R = Z/4Z is not a domain: 2 is not equal to 0 mod 4, but 2 * 2 = 0 mod 4. Okay, so there you have two non-zero elements, when you multiply them you get zero.",
+          "zh": "好，来看一个不是整环的例子，让你知道并不是处处都满足整环条件：R = Z/4Z 不是整环：模 4 意义下 2 ≠ 0，但 2 · 2 ≡ 0 mod 4。这里有两个非零元素，它们相乘却得到了零。"
+        }
+      ]
+    },
+    {
+      "lecture": "30",
+      "method": "conservative-automatic + context-reviewed joins + max-zh=100",
+      "before": 206,
+      "after": 206,
+      "identity": {
+        "en": true,
+        "zh": true
+      },
+      "overlaps": 0,
+      "inversions": 0,
+      "min_seconds": 1.859,
+      "max_seconds": 44.873,
+      "interpolated_boundary_count": 0,
+      "raw_alignment_coverage": 0.9747766089808845,
+      "alignment_notes": [],
+      "interpolated_boundary_after_cues": [],
+      "sub_100ms_gaps": 0,
+      "notes": [
+        {
+          "row": 60,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 61,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 118,
+          "reason": "ambiguous bilingual closure; joined with context"
+        },
+        {
+          "row": 156,
+          "reason": "ambiguous bilingual closure; joined with context"
+        },
+        {
+          "row": 157,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 158,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        }
+      ],
+      "split_notes": {
+        "enabled": true,
+        "max_zh_chars": 100,
+        "cuts": 18,
+        "fallbacks": 0,
+        "notes": []
+      },
+      "over_max_zh_after": 0,
+      "longest_units": [
+        {
+          "cue": 99,
+          "seconds": 44.873,
+          "en": "So in particular, the ideal we constructed two weeks ago, with Z[i] modulo that ideal isomorphic to Z/pZ (p congruent to 1 mod 4), is generated by a single element a + bi.",
+          "zh": "特别是两周前我们构造的理想，使得 Z[i] 模该理想同构于 Z/pZ（p ≡ 1 mod 4），它是由单个元素 a + bi 生成的。"
+        },
+        {
+          "cue": 80,
+          "seconds": 42.664,
+          "en": "Delta from the elements of the ring which are nonzero to the positive integers, so each element of the ring has some size, such that for any a and b not equal to 0 in R, we have b is some multiple of a plus a remainder term, with either, sorry, r = 0,",
+          "zh": "Delta 是从环中非零元素到正整数的映射，即环中每个元素都有某种大小，使得对 R 中任意 a 和 b ≠ 0，我们有 b 是 a 的某个倍数加上一个余数项：b = ma + r，其中要么（抱歉）r = 0，"
+        },
+        {
+          "cue": 97,
+          "seconds": 39.793,
+          "en": "Gauss: the ring of Gaussian integers is Euclidean, with size function the absolute value Delta(a + bi) = a^2 + b^2. So that's the absolute value of a + bi quantity squared.",
+          "zh": "高斯定理：高斯整数环 Z[i] 是欧几里得环，其大小函数是绝对值的平方：Delta(a + bi) = a² + b²。也就是 a + bi 的绝对值的平方。"
+        },
+        {
+          "cue": 165,
+          "seconds": 39.591,
+          "en": "So we've shown: the property 'R is Euclidean' implies the property that R is what's called a principal ideal domain, which means every ideal is principal, every ideal I is principal; sometimes this is called a PID for short, principal ideal domain.",
+          "zh": "我们已经证明了：“R 是欧几里得环”蕴涵“R 是所谓的主理想整环”，即每个理想都是主理想，每个理想 I 都是主理想；有时简称为 PID，即主理想整环。"
+        },
+        {
+          "cue": 56,
+          "seconds": 37.028,
+          "en": "So let's see another example where we can get the exact same mileage out of this. Another ring R with a Euclidean algorithm is the polynomials over a field F[x], where F is a field.",
+          "zh": "让我们看另一个能获得完全相同威力与成效的例子。另一个具有欧几里得算法的环 R 是域上的多项式环 F[x]，其中 F 是域。"
+        }
+      ]
+    },
+    {
+      "lecture": "31",
+      "method": "conservative-automatic + max-zh=100",
+      "before": 190,
+      "after": 190,
+      "identity": {
+        "en": true,
+        "zh": true
+      },
+      "overlaps": 0,
+      "inversions": 0,
+      "min_seconds": 1.927,
+      "max_seconds": 38.582,
+      "interpolated_boundary_count": 1,
+      "raw_alignment_coverage": 0.983030764673522,
+      "alignment_notes": [],
+      "interpolated_boundary_after_cues": [
+        24
+      ],
+      "sub_100ms_gaps": 0,
+      "notes": [
+        {
+          "row": 62,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 159,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 162,
+          "reason": "ambiguous bilingual closure; joined with context"
+        },
+        {
+          "row": 170,
+          "reason": "ambiguous bilingual closure; joined with context"
+        },
+        {
+          "row": 177,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        }
+      ],
+      "split_notes": {
+        "enabled": true,
+        "max_zh_chars": 100,
+        "cuts": 15,
+        "fallbacks": 0,
+        "notes": []
+      },
+      "over_max_zh_after": 0,
+      "longest_units": [
+        {
+          "cue": 4,
+          "seconds": 38.582,
+          "en": "and that that implied that every element in R had a unique prime factorization: namely an element in R, a, could be written as a unit times a product of elements in R where these are prime elements, primes in R,",
+          "zh": "并且事实上由其中具有最小 δ 值的元素生成；而这又蕴涵了 R 中的每个元素都具有唯一的素元分解：即 R 中的元素 a 可以写成一个单位乘上 R 中若干元素的乘积，"
+        },
+        {
+          "cue": 107,
+          "seconds": 35.721,
+          "en": "That says if a prime divides all the coefficients of this, that says that the image of this polynomial under this homomorphism is 0, okay, which means, because this is a ring homomorphism, that the product of f_0-bar and g_0-bar is 0, because the image of the product is the product of the images.",
+          "zh": "如果素数 p 整除它的所有系数，那就说明这个多项式在该同态下的像是 0，好，这意味着（因为这是环同态）f̄₀ 与 ḡ₀ 的乘积为 0，因为乘积的像等于像的乘积。"
+        },
+        {
+          "cue": 35,
+          "seconds": 33.877,
+          "en": "So that's what I'm going to show you today: in fact, even though Z[x] is not a principal ideal domain, it has unique factorization, and we'll say what the primes are and everything.",
+          "zh": "这就是我今天要展示给你们的内容：事实上，尽管Z[x] 不是主理想整环，它却具有唯一因子分解性，我们将讲清楚素元是什么等等。"
+        },
+        {
+          "cue": 72,
+          "seconds": 32.914,
+          "en": "And that's very interesting: in fact, if f(x) has rational coefficients, then you can write f(x) as c * f_0(x), where this is primitive in Z[x] and this is a rational number, and this expression is unique.",
+          "zh": "这非常有趣：事实上，若 f(x) 具有有理系数，你也可以将 f(x) 写成 c · f₀(x)，其中 f₀(x) 是 Z[x] 中的本原多项式，而 c 是一个有理数，并且该表达式是唯一的。"
+        },
+        {
+          "cue": 2,
+          "seconds": 30.679,
+          "en": "So, last time we showed if we had a ring R that we had the following implications (this is a domain): that R is Euclidean, which meant we had a size function from R - {0} to the positive integers, so that you could do a division, you could always do",
+          "zh": "那么，上次我们证明了，如果我们有一个环 R（这是一个整环），我们有如下的蕴涵关系：R 是欧几里得整环，这意味着我们有一个尺度函数（大小函数）从 R - {0} 到正整数集，"
+        }
+      ]
+    },
+    {
+      "lecture": "32",
+      "method": "conservative-automatic + context-reviewed joins + max-zh=100",
+      "before": 248,
+      "after": 248,
+      "identity": {
+        "en": true,
+        "zh": true
+      },
+      "overlaps": 0,
+      "inversions": 0,
+      "min_seconds": 1.685,
+      "max_seconds": 38.075,
+      "interpolated_boundary_count": 0,
+      "raw_alignment_coverage": 0.8753129046180406,
+      "alignment_notes": [],
+      "interpolated_boundary_after_cues": [],
+      "sub_100ms_gaps": 0,
+      "notes": [
+        {
+          "row": 52,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 89,
+          "reason": "ambiguous bilingual closure; joined with context"
+        },
+        {
+          "row": 90,
+          "reason": "ambiguous bilingual closure; joined with context"
+        },
+        {
+          "row": 157,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 224,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        }
+      ],
+      "split_notes": {
+        "enabled": true,
+        "max_zh_chars": 100,
+        "cuts": 17,
+        "fallbacks": 0,
+        "notes": []
+      },
+      "over_max_zh_after": 0,
+      "longest_units": [
+        {
+          "cue": 117,
+          "seconds": 38.075,
+          "en": "So the next question is: what are the primes of $R$?   Well, let's call a prime—because I'm going to need $p$ for a rational prime— let's call it $\\pi$. $\\pi$ will be our letter for a prime in $R$.",
+          "zh": "接下来的问题是：$R$ 中的素元是什么？ 我们把高斯素元记作——因为我需要用字母 $p$ 表示有理素数——我们把它记作 $\\pi$。$\\pi$ 将是我们在 $R$ 中表示高斯素元的字母。"
+        },
+        {
+          "cue": 199,
+          "seconds": 33.924,
+          "en": "So in this case, $R/(2)$ is not a field,   but there turns out to be a unique prime ideal in this case: the unique prime $\\pi = 1 + i$, with $R \\supset (\\pi) \\supset (2)$.",
+          "zh": "所以在这种情形下 $R/(2)$ 不是域， 但事实表明存在唯一的素理想包含在其中：唯一的高斯素元 $\\pi = 1 + i$，满足 $R \\supset (\\pi) \\supset (2)$。"
+        },
+        {
+          "cue": 98,
+          "seconds": 30.6,
+          "en": "This holds in the complex numbers, so it has nothing to do with ring arithmetic or integers or anything like that;   it's just a property of the complex modulus. Good. All right, now I claim: $\\alpha$ is a unit if and only if $\\Delta(\\alpha) = 1$.",
+          "zh": "这在复数域中成立，因此与抽象环论或算术本身无关； 它完全源于复数模长的性质。很好。好的，现在我断言：$\\alpha$ 是单位（可逆元）当且仅当 $\\Delta(\\alpha) = 1$。"
+        },
+        {
+          "cue": 204,
+          "seconds": 29.979,
+          "en": "Okay. On the other hand, if $p \\equiv 3 \\pmod 4$,   then $x^2 + 1$ is irreducible mod $p$, and $R/(p)$ is a field!",
+          "zh": "好的。另一方面，如果 $p \\equiv 3 \\pmod 4$（即除以 4 余 3）， 那么 $x^2 + 1$ 模 $p$ 不可约，$R/(p)$ 是一个域！"
+        },
+        {
+          "cue": 2,
+          "seconds": 28.76,
+          "en": "This is a wonderful ring that we've been looking at,   and what we proved two lectures ago is that if we took the function $\\Delta(a + bi)$ and set it to $a^2 + b^2$, which is the same thing as $(a + bi)(a - bi)$,   then this ring was Euclidean with respect to this function.",
+          "zh": "两讲之前我们证明过，如果我们定义函数 $\\Delta(a + bi)$，并令其等于 $a^2 + b^2$——即 $(a + bi)(a - bi)$， 那么这个环关于该函数是欧几里得环。"
+        }
+      ]
+    },
+    {
+      "lecture": "33",
+      "method": "conservative-automatic + max-zh=100",
+      "before": 197,
+      "after": 197,
+      "identity": {
+        "en": true,
+        "zh": true
+      },
+      "overlaps": 0,
+      "inversions": 0,
+      "min_seconds": 3.354,
+      "max_seconds": 37.515,
+      "interpolated_boundary_count": 0,
+      "raw_alignment_coverage": 0.9746177886645832,
+      "alignment_notes": [],
+      "interpolated_boundary_after_cues": [],
+      "sub_100ms_gaps": 0,
+      "notes": [
+        {
+          "row": 2,
+          "reason": "ambiguous bilingual closure; joined with context"
+        },
+        {
+          "row": 22,
+          "reason": "ambiguous bilingual closure; joined with context"
+        },
+        {
+          "row": 27,
+          "reason": "ambiguous bilingual closure; joined with context"
+        },
+        {
+          "row": 41,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 46,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 53,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 65,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 69,
+          "reason": "ambiguous bilingual closure; joined with context"
+        },
+        {
+          "row": 92,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 102,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 122,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 127,
+          "reason": "ambiguous bilingual closure; joined with context"
+        },
+        {
+          "row": 128,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 181,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 197,
+          "reason": "trailing source text retained; manual review required"
+        }
+      ],
+      "split_notes": {
+        "enabled": true,
+        "max_zh_chars": 100,
+        "cuts": 18,
+        "fallbacks": 0,
+        "notes": []
+      },
+      "over_max_zh_after": 0,
+      "longest_units": [
+        {
+          "cue": 117,
+          "seconds": 37.515,
+          "en": "Therefore $4a^2$ is an integer, so I find $4db^2$ is an integer, so I can write $db^2$ as $\\frac{1}{4}n$, I think that's the notation I want to do.",
+          "zh": "因此 $4a^2$ 是整数，从而得到 $4db^2$ 是一个整数，所以我可以把 $db^2$ 记作 $\\frac{1}{4}n$。"
+        },
+        {
+          "cue": 68,
+          "seconds": 36.128,
+          "en": "We know that $g(x) = f_0(x) q(x)$, where $q(x)$ has rational coefficients,   as the ideal generated by $f$, which is the same as the ideal generated by $f_0$, is the full ideal of polynomials in $Q[x]$ vanishing at $\\alpha$.",
+          "zh": "我们知道$g(x) = f_0(x) q(x)$，其中 $q(x)$ 具有有理系数， 因为由 $f$ 生成的理想（亦即由 $f_0$ 生成的理想）正是 $Q[x]$ 中在 $\\alpha$ 处取值为 0 的全部多项式构成的理想。"
+        },
+        {
+          "cue": 159,
+          "seconds": 35.815,
+          "en": "So notice this number is not always square-free, but it has the following property: the discriminant has the property — and again, you have to do this a little bit to realize why it's better to go to this capital $D$ to index things —   but $D$ has the following properties: (A) It's an integer which is congruent either to 0 or 1 mod 4.",
+          "zh": "注意这个数不一定是无平方因子的，但它满足以下性质：该判别式具有如下性质——你们得多算算才能体会为什么用大写 $D$ 来编索引更好—— 但 $D$ 满足以下性质：(A) 它是一个模 4 同余于 0 或 1 的整数。"
+        },
+        {
+          "cue": 62,
+          "seconds": 34.52,
+          "en": "I claim that any polynomial satisfied by $\\alpha$ over the integers, with $g(\\alpha) = 0$, is a multiple of $f_0$,   has the form $g(x) = f_0(x) q(x)$, where this is in $Z[x]$.",
+          "zh": "我断言：$\\alpha$ 满足的任何整系数多项式 $g(x)$（$g(\\alpha) = 0$）都是 $f_0$ 的倍式， 具有形式 $g(x) = f_0(x) q(x)$，其中$q(x) \\in Z[x]$。"
+        },
+        {
+          "cue": 122,
+          "seconds": 34.027,
+          "en": "So this also has to have 4 in the denominator, which means that $n$ has to be odd.   Okay, now I claim that means that $d$ is an integer, but we don't know about $b$. I claim that means that $b$ is... hmm, how do I want to write this.",
+          "zh": "好，现在我断言：这意味着$d$ 是整数，但 $b$ 呢？我断言这意味着 $b$ 是……我想想怎么写。"
+        }
+      ]
+    },
+    {
+      "lecture": "34",
+      "method": "conservative-automatic + max-zh=100",
+      "before": 238,
+      "after": 238,
+      "identity": {
+        "en": true,
+        "zh": true
+      },
+      "overlaps": 0,
+      "inversions": 0,
+      "min_seconds": 1.879,
+      "max_seconds": 33.433,
+      "interpolated_boundary_count": 1,
+      "raw_alignment_coverage": 0.9604295088486776,
+      "alignment_notes": [],
+      "interpolated_boundary_after_cues": [
+        51
+      ],
+      "sub_100ms_gaps": 0,
+      "notes": [
+        {
+          "row": 4,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 98,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 120,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 202,
+          "reason": "ambiguous bilingual closure; joined with context"
+        },
+        {
+          "row": 229,
+          "reason": "ambiguous bilingual closure; joined with context"
+        }
+      ],
+      "split_notes": {
+        "enabled": true,
+        "max_zh_chars": 100,
+        "cuts": 12,
+        "fallbacks": 0,
+        "notes": []
+      },
+      "over_max_zh_after": 0,
+      "longest_units": [
+        {
+          "cue": 4,
+          "seconds": 33.433,
+          "en": "Last time we determined what all the algebraic integers were in the field $\\mathbb{Q}(\\sqrt{d})$, where $d$ was a square-free integer;   and the algebraic integers formed a ring we'll call $R$, and in the case—there were two possible cases.",
+          "zh": "上次我们确定了代数整数环的所有元素——在数域 $\\mathbb{Q}(\\sqrt{d})$ 中（其中 $d$ 为无平方因子整数）； 这些代数整数构成一个环，我们记为 $R$。这里有两种可能的情形。"
+        },
+        {
+          "cue": 61,
+          "seconds": 33.399,
+          "en": "All right, now let's enumerate the units in the negative case. In fact, if $D = -3$, there are 6 units;   if $D = -4$, there are 4 units; and if $D < -4$, there are 2 units.",
+          "zh": "好的，现在我们来列举负判别式情形下的所有单位元。事实上，若 $D = -3$，有 6 个单位元； 若 $D = -4$，有 4 个单位元；而当 $D < -4$ 时，只有 2 个单位元。"
+        },
+        {
+          "cue": 154,
+          "seconds": 33.32,
+          "en": "Well, the first claim is: either $I = (0)$, in which case it's generated by 1 element,   or $I$ has finite index in the ring $R$—in other words, $R/I$ is a finite ring.",
+          "zh": "首先断言：要么 $I = (0)$，此时由 1 个元素（即 0）生成； 要么 $I$ 在环 $R$ 中具有有限指数——换句话说，$R/I$ 是一个有限环。"
+        },
+        {
+          "cue": 116,
+          "seconds": 32.818,
+          "en": "Suppose $2 = \\alpha\\beta$, with neither $\\alpha$ nor $\\beta$ a unit. Then take the norm: the norm of 2, which is equal to 4,   is equal to the norm of $\\alpha$ times the norm of $\\beta$, because the norm is multiplicative.",
+          "zh": "假设 $2 = \\alpha\\beta$，其中$\\alpha$ 和 $\\beta$ 都不是单位。那么取范数：2 的范数等于 4， 它等于 $\\alpha$ 的范数乘 $\\beta$ 的范数，因为范数是可乘的。"
+        },
+        {
+          "cue": 66,
+          "seconds": 30.88,
+          "en": "Okay, now look at this: if $b = 0$, right,   then $a^2$ has to be 1, so $a = \\pm 1$, and there you get the units in $\\mathbb{Z}^\\times$,   those things we already knew about.",
+          "zh": "好，现在看这里：如果 $b = 0$，对吧， 那么 $a^2$ 必须等于 1，所以 $a = \\pm 1$，这就得到了 $\\mathbb{Z}^\\times$ 中的单位元， 即我们早已熟知的那些元素。"
+        }
+      ]
+    },
+    {
+      "lecture": "35",
+      "method": "conservative-automatic + context-reviewed joins + max-zh=100",
+      "before": 220,
+      "after": 220,
+      "identity": {
+        "en": true,
+        "zh": true
+      },
+      "overlaps": 0,
+      "inversions": 0,
+      "min_seconds": 1.442,
+      "max_seconds": 46.36,
+      "interpolated_boundary_count": 0,
+      "raw_alignment_coverage": 0.9837261503928171,
+      "alignment_notes": [],
+      "interpolated_boundary_after_cues": [],
+      "sub_100ms_gaps": 0,
+      "notes": [
+        {
+          "row": 65,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 72,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 86,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 159,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 218,
+          "reason": "ambiguous bilingual closure; joined with context"
+        },
+        {
+          "row": 220,
+          "reason": "ambiguous bilingual closure; joined with context"
+        },
+        {
+          "row": 220,
+          "reason": "trailing source text retained; manual review required"
+        }
+      ],
+      "split_notes": {
+        "enabled": true,
+        "max_zh_chars": 100,
+        "cuts": 12,
+        "fallbacks": 0,
+        "notes": []
+      },
+      "over_max_zh_after": 0,
+      "longest_units": [
+        {
+          "cue": 1,
+          "seconds": 46.36,
+          "en": "All right, great. So I want to start today with a clarification of some of the things that we've done involving primes and irreducibles, specifically, I want to just explain something that was glossed over in a lot of the previous lectures, specifically that prime element and irreducible element are not synonyms.",
+          "zh": "好的，太好了。今天我想先澄清一下我们之前做过的关于素元和不可约元的一些内容，具体来说，我想解释一下在之前的许多讲座中被一带而过的内容，即素元与不可约元并不同义。"
+        },
+        {
+          "cue": 210,
+          "seconds": 41.388,
+          "en": "And the basic point is that... so here's another sort of quick result, and this is easy to prove, an easy proposition: so if I have a Dedekind domain, then R is a PID if and only if the class group of R is trivial.",
+          "zh": "基本要点在于……这里还有另一个快速的结论，这很容易证明，一个容易的命题：如果我有一个戴德金整环，那么 R 是 PID 当且仅当 R 的理想类群是平凡群。"
+        },
+        {
+          "cue": 220,
+          "seconds": 38.891,
+          "en": "And um more generally to calculate these things so to calculate the class group of o q join root D where D is negative look at section 11.10 that's the reading for Monday this is worked out there's an algorithm for finding the class Group which is worked out",
+          "zh": "更一般地，为了计算这些对象——即计算 d 为负时 Q(√d) 的代数整数环的理想类群——请看第 11.10 节，那是周一的阅读材料。这里推导了一切，推导出了一个寻找理想类群的算法。"
+        },
+        {
+          "cue": 204,
+          "seconds": 38.347,
+          "en": "So we're going to let angle brackets I denote the equivalence class of I, we call this the ideal class of I; so angle brackets I is the ideal class of I, it's the equivalence class under this relation. And then we do is we define as a set the set of all ideal classes.",
+          "zh": "我们用 [I] 表示 I 的等价类，称其为 I 的理想类；所以 [I] 是I 的理想类，即在此关系下的等价类。然后我们把所有理想类的集合定义为一个集合。"
+        },
+        {
+          "cue": 163,
+          "seconds": 34.402,
+          "en": "The theorem is that I can be written uniquely: so there's some unique way of writing an ideal; you can't necessarily write elements in some sort of nice unique way, but at least you can get at the ideals in a nice way: so I can be written uniquely as I = P1 through PK, where Pi are nonzero primes, prime ideals.",
+          "zh": "定理指出 I 可以被唯一表示：存在唯一的方式来表示一个理想；你未必能以优美且唯一的方式分解元素，但至少能以优美的方式处理理想：I 可以被唯一表示为 I = P₁ ... P_k，其中 P_i 是非零素理想。"
+        }
+      ]
+    },
+    {
+      "lecture": "36",
+      "method": "reviewed + max-zh=100",
+      "before": 161,
+      "after": 161,
+      "identity": {
+        "en": true,
+        "zh": true
+      },
+      "overlaps": 0,
+      "inversions": 0,
+      "min_seconds": 6.344,
+      "max_seconds": 51.182,
+      "interpolated_boundary_count": 0,
+      "raw_alignment_coverage": 0.9778694158075601,
+      "alignment_notes": [],
+      "interpolated_boundary_after_cues": [],
+      "sub_100ms_gaps": 0,
+      "notes": [],
+      "split_notes": {
+        "enabled": true,
+        "max_zh_chars": 100,
+        "cuts": 61,
+        "fallbacks": 0,
+        "notes": []
+      },
+      "over_max_zh_after": 0,
+      "longest_units": [
+        {
+          "cue": 28,
+          "seconds": 51.182,
+          "en": "Okay, now the big result which Peter probably talked in a slightly different way about last time is the following proposition, and this was proved at the end of the 19th century by a number of mathematicians, Kummer, Dedekind: that the fractional ideals form a group under multiplication. That's the first statement, (1).",
+          "zh": "好，现在彼得上次可能以略微不同的方式讲过的一个重要命题如下，它是在 19 世纪末由多位数学家证明的：库默尔与戴德金证明了：分式理想在乘法下构成一个群。这是第一条陈述 (1)。"
+        },
+        {
+          "cue": 100,
+          "seconds": 45.71,
+          "en": "you have three possibilities: (1) pR can be a prime ideal, so it remains prime; (2) there are two prime ideals between pR and R, each of index p—with, I should have said, the norm of pR equal p^2 because its index is p^2—or this can have index p^2 in R, but not be a prime ideal,",
+          "zh": "(1) pR 本身就是素理想，即保持为素；(2) 在 pR 与 R 之间有两个素理想，每个指数均为 p——我应该先说明 N(pR) = p^2，因为其指数是 p^2——或者 pR 在 R 中的指数为 p^2，"
+        },
+        {
+          "cue": 131,
+          "seconds": 44.093,
+          "en": "Okay, now what is the relation of that with the Riemann hypothesis? The Riemann hypothesis says that this function here, the zeta function, Riemann conjectured that all zeroes of zeta of s with the real part of the zero between 0 and 1 have real part equal to a half.",
+          "zh": "好，现在这与黎曼猜想有什么关系？黎曼猜想指出：对于这里的泽塔函数，黎曼猜想所有零点其实部介于 0 和 1 之间的，其实部全部等于 1/2。"
+        },
+        {
+          "cue": 13,
+          "seconds": 38.436,
+          "en": "A fractional ideal is a generalization of an ideal: it's an I which is a lattice in C stable under multiplication by R, and the only difference is it's not necessarily contained in R; it's contained in the quotient field of R, it's contained in Q(sqrt(D)), but not necessarily contained in the ring.",
+          "zh": "分式理想是理想的推广：它是一个理想 I，是 C 中的格点，在 R 的乘法下稳定，唯一的区别在于它不一定包含在 R 中；它包含在R 的分式域中，即包含在 Q(√D) 中，但不一定包含在环内。"
+        },
+        {
+          "cue": 31,
+          "seconds": 37.638,
+          "en": "under this crazy kind of multiplication will take a fractional ideal into itself? R, good! The identity is the ideal R, yeah, which is generated by 1. So that's pretty clear that I * R is equal to R * I, which is equal to I.",
+          "zh": "很好！单位元就是理想 R，对，它由 1 生成。如果你把任何理想乘以 R，看一下定义，你只是把该理想中的元素乘以 R 中的元素再求和，它们依然是该理想中的元素。所以显然 I * R = R * I = I。"
+        }
+      ]
+    },
+    {
+      "lecture": "37",
+      "method": "conservative-automatic + context-reviewed joins + max-zh=100",
+      "before": 184,
+      "after": 184,
+      "identity": {
+        "en": true,
+        "zh": true
+      },
+      "overlaps": 0,
+      "inversions": 0,
+      "min_seconds": 2.62,
+      "max_seconds": 48.666,
+      "interpolated_boundary_count": 0,
+      "raw_alignment_coverage": 0.9534988038277512,
+      "alignment_notes": [],
+      "interpolated_boundary_after_cues": [],
+      "sub_100ms_gaps": 0,
+      "notes": [
+        {
+          "row": 1,
+          "reason": "ambiguous bilingual closure; joined with context"
+        },
+        {
+          "row": 7,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 9,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 14,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 16,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 17,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 20,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 24,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 25,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 28,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 31,
+          "reason": "ambiguous bilingual closure; joined with context"
+        },
+        {
+          "row": 32,
+          "reason": "ambiguous bilingual closure; joined with context"
+        },
+        {
+          "row": 33,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 37,
+          "reason": "ambiguous bilingual closure; joined with context"
+        },
+        {
+          "row": 38,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 41,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 47,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 57,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 62,
+          "reason": "ambiguous bilingual closure; joined with context"
+        },
+        {
+          "row": 71,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 74,
+          "reason": "ambiguous bilingual closure; joined with context"
+        },
+        {
+          "row": 78,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 79,
+          "reason": "ambiguous bilingual closure; joined with context"
+        },
+        {
+          "row": 87,
+          "reason": "ambiguous bilingual closure; joined with context"
+        },
+        {
+          "row": 91,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 124,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 126,
+          "reason": "ambiguous bilingual closure; joined with context"
+        },
+        {
+          "row": 174,
+          "reason": "ambiguous bilingual closure; joined with context"
+        },
+        {
+          "row": 177,
+          "reason": "ambiguous bilingual closure; joined with context"
+        },
+        {
+          "row": 179,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 182,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 184,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        }
+      ],
+      "split_notes": {
+        "enabled": true,
+        "max_zh_chars": 100,
+        "cuts": 28,
+        "fallbacks": 0,
+        "notes": []
+      },
+      "over_max_zh_after": 0,
+      "longest_units": [
+        {
+          "cue": 12,
+          "seconds": 48.666,
+          "en": "And if it's true, you should give the argument why, so trying to think of a quick, quick and easy... ah well, you know, you could—and again, it would not require... so, 'A group G of order 21 contains a normal subgroup of order 7.",
+          "zh": "如果命题为真，则需要给出证明，我想举一个简明快捷的真命题例子……嗯，大家知道——这里同样不需要写太多——例如：‘阶为 21 的群 G 必包含一个 7 阶正规子群。’"
+        },
+        {
+          "cue": 73,
+          "seconds": 43.846,
+          "en": "So another example we used was the orthogonal group O_n(R), which was a subgroup of GL_n(R), and that was the things that preserved an inner product on R^n; or if you put them in terms of matrices, they were the matrices such that A A^T = I. And we saw that implied that the determinant of an orthogonal matrix was ±1.",
+          "zh": "我们常用的另一个例子是正交群O_n(R)，它是 GL_n(R) 的子群，由保持 R^n 上内积不变的变换组成；若用矩阵表示，就是满足 A A^T = I 的矩阵。我们证明过这意味着正交矩阵的行列式为 ±1。"
+        },
+        {
+          "cue": 20,
+          "seconds": 38.695,
+          "en": "And then the final part of the exam will be four to five problems of a slightly more involved nature, where we'll say, you know, 'Prove that...' We might say, here's an example of such a problem: 'Prove that any finite integral domain ...is a field.",
+          "zh": "试卷的最后一部分将包含 4 到 5 道稍微更深入的综合大题，要求写出证明。例如可能会出这样一道题：‘证明任一有限整环（integral domain）……’‘……必为域（field）。’"
+        },
+        {
+          "cue": 13,
+          "seconds": 34.714,
+          "en": "' And then you'd say True, and the proof would be: there exists a subgroup H of order 7 by the Sylow theorem; the number of such divides 3, which is 21 divided by 7, the index, and is congruent to 1 mod 7.",
+          "zh": "那么你回答 True，证明如下：由西罗定理（Sylow theorem），必存在 7 阶子群 H；此类子群的个数 n_7 整除 3（即指数 [G:H] = 21/7 = 3），且 n_7 ≡ 1 (mod 7)。"
+        },
+        {
+          "cue": 129,
+          "seconds": 34.102,
+          "en": "And when you talk about an abstract vector space, you have to have a field specified before you can give a vector space: so it's an additive group with identity element 0, and inverse elements -v, and then you have a scalar multiplication by elements a in F, namely sending v to av; and that distributes with respect to the addition in various ways.",
+          "zh": "在谈论抽象向量空间时，必须先指定一个标量域，才能给出向量空间的定义：它是一个加法群，具有单位元 0 与逆元 -v，并且具有由域中元素 a 进行的数乘运算，即 v ↦ av；它在各方面对加法满足分配律。"
+        }
+      ]
+    },
+    {
+      "lecture": "38",
+      "method": "conservative-automatic + context-reviewed joins + max-zh=100",
+      "before": 211,
+      "after": 211,
+      "identity": {
+        "en": true,
+        "zh": true
+      },
+      "overlaps": 0,
+      "inversions": 0,
+      "min_seconds": 1.623,
+      "max_seconds": 46.975,
+      "interpolated_boundary_count": 2,
+      "raw_alignment_coverage": 0.9748119405017189,
+      "alignment_notes": [],
+      "interpolated_boundary_after_cues": [
+        25,
+        179
+      ],
+      "sub_100ms_gaps": 0,
+      "notes": [
+        {
+          "row": 1,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 2,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 4,
+          "reason": "ambiguous bilingual closure; joined with context"
+        },
+        {
+          "row": 5,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 11,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 23,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 27,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 28,
+          "reason": "ambiguous bilingual closure; joined with context"
+        },
+        {
+          "row": 30,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 34,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 40,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 50,
+          "reason": "ambiguous bilingual closure; joined with context"
+        },
+        {
+          "row": 56,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 60,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 62,
+          "reason": "ambiguous bilingual closure; joined with context"
+        },
+        {
+          "row": 63,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 81,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 86,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 88,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 89,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 93,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 109,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 114,
+          "reason": "ambiguous bilingual closure; joined with context"
+        },
+        {
+          "row": 126,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 131,
+          "reason": "ambiguous bilingual closure; joined with context"
+        },
+        {
+          "row": 137,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 148,
+          "reason": "ambiguous bilingual closure; joined with context"
+        },
+        {
+          "row": 152,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 158,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 163,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 170,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 171,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 178,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        },
+        {
+          "row": 181,
+          "reason": "ambiguous bilingual closure; joined with context"
+        },
+        {
+          "row": 186,
+          "reason": "ambiguous bilingual closure; joined with context"
+        },
+        {
+          "row": 201,
+          "reason": "unequal bilingual sentence counts; kept whole"
+        }
+      ],
+      "split_notes": {
+        "enabled": true,
+        "max_zh_chars": 100,
+        "cuts": 20,
+        "fallbacks": 0,
+        "notes": []
+      },
+      "over_max_zh_after": 0,
+      "longest_units": [
+        {
+          "cue": 85,
+          "seconds": 46.975,
+          "en": "So M is maximal of course, just by definition, if and only if the only ideals containing M are M and the entire ring R. And this was equivalent to R/M being a field. But okay, yeah, well, I mean it's pretty intuitive stuff.",
+          "zh": "按定义，M 是极大理想，当且仅当包含 M 的理想仅有 M 本身和全环 R。这等价于商环 R/M 是一个域。不过，这都是很符合直觉的内容。"
+        },
+        {
+          "cue": 126,
+          "seconds": 42.929,
+          "en": "Well, obviously the zero ideal is principal because it's generated by 0. But if I have some nonzero ideal, choose an element of the ideal with minimal norm, minimal Euclidean norm, and then it's not hard to show that the ideal—and this element should be nonzero—then I is in fact generated by this x.",
+          "zh": "显然零理想是由 0 生成的主理想；对于任意非零理想，在其中选取具有最小范数的非零元素，最小欧几里得范数，然后不难证明该理想——该元素必须非零——理想 I 实际上正由这个元素 x 生成的主理想。"
+        },
+        {
+          "cue": 115,
+          "seconds": 39.511,
+          "en": "This is false in general, but for fields it's true that if I have a polynomial over a field, that implies as a corollary: if F is a field and f(x) is a polynomial over that field, then the number of roots of f is less than or equal to the degree, which is a nice observation.",
+          "zh": "但对域来说，若多项式定义在域上，则有推论：若 F 是域且 f(x) 是其上的多项式，则 f 的根的个数小于或等于其次数（deg f），这是个优良性质。"
+        },
+        {
+          "cue": 155,
+          "seconds": 38.868,
+          "en": "So For instance, we have the Eisenstein criterion, which said that if I have a polynomial over the integers, call the coefficients a_0 through a_m, and x to the m, and a prime p such that p",
+          "zh": "例如我们有艾森斯坦判别法（Eisenstein's criterion）：对于一个整系数多项式，设其系数为 a_0 到 a_m，次数为 m，"
+        },
+        {
+          "cue": 178,
+          "seconds": 36.927,
+          "en": "Okay, so if I have a prime congruent to 3 mod 4, then the prime above p is, well, just (p). So it's not—not the most interesting case. And in the case where p is congruent to 1 mod 4, then P is generated by some prime element pi of Z adjoin i, such that pi pi-bar is equal to p.",
+          "zh": "接下来如果素数 p ≡ 3 (mod 4)，那么处于 p 之上的素理想就是 (p) 本身，这是最平淡的情形（惰性）。而在p ≡ 1 (mod 4) 的情形，P 由 Z[i] 中的素元 π 生成，满足 π π̄ = p。"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "target": "subtitles/blocks/abstract-algebra-06.blocks.tsv",
+      "staged": "after/abstract-algebra-06.blocks.tsv",
+      "before_sha256": "56c1ad8d7df8a979598edf21cd51f50eec27c6934bb4984ae2316f7748b879ec",
+      "after_sha256": "56c1ad8d7df8a979598edf21cd51f50eec27c6934bb4984ae2316f7748b879ec"
+    },
+    {
+      "target": "videos/abstract-algebra-06.zh-en.srt",
+      "staged": "after/abstract-algebra-06.zh-en.srt",
+      "before_sha256": "7acf3f3e45d629c60c84a8121ce47cb44dc44aa813eed5aa140e6eacd5235b31",
+      "after_sha256": "7acf3f3e45d629c60c84a8121ce47cb44dc44aa813eed5aa140e6eacd5235b31"
+    },
+    {
+      "target": "subtitles/blocks/abstract-algebra-07.blocks.tsv",
+      "staged": "after/abstract-algebra-07.blocks.tsv",
+      "before_sha256": "d9a4963bd30b7d370d37815467cbc468287cfb0c09369115b0ea19f59dc0ffe3",
+      "after_sha256": "d9a4963bd30b7d370d37815467cbc468287cfb0c09369115b0ea19f59dc0ffe3"
+    },
+    {
+      "target": "videos/abstract-algebra-07.zh-en.srt",
+      "staged": "after/abstract-algebra-07.zh-en.srt",
+      "before_sha256": "736fdb6c7508a92a46dc1ba633bcda4dbcd70f3c9e7fd1026701f7d4c0d49879",
+      "after_sha256": "736fdb6c7508a92a46dc1ba633bcda4dbcd70f3c9e7fd1026701f7d4c0d49879"
+    },
+    {
+      "target": "subtitles/blocks/abstract-algebra-08.blocks.tsv",
+      "staged": "after/abstract-algebra-08.blocks.tsv",
+      "before_sha256": "e13ac54f85a8afdedbc0300a8cf1d7f129a33ef9d52b3eca99525965f1b2c5bc",
+      "after_sha256": "e13ac54f85a8afdedbc0300a8cf1d7f129a33ef9d52b3eca99525965f1b2c5bc"
+    },
+    {
+      "target": "videos/abstract-algebra-08.zh-en.srt",
+      "staged": "after/abstract-algebra-08.zh-en.srt",
+      "before_sha256": "b108074575afbba08b069efb48a137a1449fe32dcacbb469f11fe18ac87ae8cc",
+      "after_sha256": "b108074575afbba08b069efb48a137a1449fe32dcacbb469f11fe18ac87ae8cc"
+    },
+    {
+      "target": "subtitles/blocks/abstract-algebra-09.blocks.tsv",
+      "staged": "after/abstract-algebra-09.blocks.tsv",
+      "before_sha256": "ededb9b97926f921f11de3e90e55f850d651fae642fa753b1d1e9efabec9fb39",
+      "after_sha256": "ededb9b97926f921f11de3e90e55f850d651fae642fa753b1d1e9efabec9fb39"
+    },
+    {
+      "target": "videos/abstract-algebra-09.zh-en.srt",
+      "staged": "after/abstract-algebra-09.zh-en.srt",
+      "before_sha256": "19abb6a4a55cdd384366a2d6d0e6cd2d32f4030f63a9a921546dfd51c97c469e",
+      "after_sha256": "19abb6a4a55cdd384366a2d6d0e6cd2d32f4030f63a9a921546dfd51c97c469e"
+    },
+    {
+      "target": "subtitles/blocks/abstract-algebra-10.blocks.tsv",
+      "staged": "after/abstract-algebra-10.blocks.tsv",
+      "before_sha256": "ea70a5d4d0af883167cc29de64ca0725658e27110090af4614f2335773fc3804",
+      "after_sha256": "da2b14c8a56bf62eeafaf5f0bc2b48ae6cf0ac076d06e907bcbd9f26de3e244d"
+    },
+    {
+      "target": "videos/abstract-algebra-10.zh-en.srt",
+      "staged": "after/abstract-algebra-10.zh-en.srt",
+      "before_sha256": "ccf0fb203b8d13ae0ca9bc1dd3ea5f66d60dcff786cc6a4e88742fa309d6ecb2",
+      "after_sha256": "9d6a9bcbebfc6dd1d211291b0bbd4520688e7489c04f37d89990ada979948a4b"
+    },
+    {
+      "target": "subtitles/blocks/abstract-algebra-11.blocks.tsv",
+      "staged": "after/abstract-algebra-11.blocks.tsv",
+      "before_sha256": "2eef69099386fe7720fb4a3449cc1eb44f0be0c55cc3d3c23347a9c356f101a9",
+      "after_sha256": "2eef69099386fe7720fb4a3449cc1eb44f0be0c55cc3d3c23347a9c356f101a9"
+    },
+    {
+      "target": "videos/abstract-algebra-11.zh-en.srt",
+      "staged": "after/abstract-algebra-11.zh-en.srt",
+      "before_sha256": "93336d170d3d499998267cff2327b9f4f705ae919e29a045742262936624e86d",
+      "after_sha256": "93336d170d3d499998267cff2327b9f4f705ae919e29a045742262936624e86d"
+    },
+    {
+      "target": "subtitles/blocks/abstract-algebra-12.blocks.tsv",
+      "staged": "after/abstract-algebra-12.blocks.tsv",
+      "before_sha256": "16d3e4ee8b971cedfc18384a24cb29777a5d92d288384fd418e4fd36508c1c76",
+      "after_sha256": "16d3e4ee8b971cedfc18384a24cb29777a5d92d288384fd418e4fd36508c1c76"
+    },
+    {
+      "target": "videos/abstract-algebra-12.zh-en.srt",
+      "staged": "after/abstract-algebra-12.zh-en.srt",
+      "before_sha256": "2ba4193deb1f5f883624fa6e4cc5aa7888039de5471f0d959a8d572b08386c0d",
+      "after_sha256": "2ba4193deb1f5f883624fa6e4cc5aa7888039de5471f0d959a8d572b08386c0d"
+    },
+    {
+      "target": "subtitles/blocks/abstract-algebra-13.blocks.tsv",
+      "staged": "after/abstract-algebra-13.blocks.tsv",
+      "before_sha256": "50a7c05692c28d7529547efccf6eed1575acd0ed751d87644be49ad83e5de909",
+      "after_sha256": "50a7c05692c28d7529547efccf6eed1575acd0ed751d87644be49ad83e5de909"
+    },
+    {
+      "target": "videos/abstract-algebra-13.zh-en.srt",
+      "staged": "after/abstract-algebra-13.zh-en.srt",
+      "before_sha256": "c7e2301c4e42bdf7eefcb89c187737d9a8248a9844c47475f0e6451f6b0f88e0",
+      "after_sha256": "c7e2301c4e42bdf7eefcb89c187737d9a8248a9844c47475f0e6451f6b0f88e0"
+    },
+    {
+      "target": "subtitles/blocks/abstract-algebra-14.blocks.tsv",
+      "staged": "after/abstract-algebra-14.blocks.tsv",
+      "before_sha256": "78c12d5f9f586ad76f0aa78a737bba63563a812b44bce2a25f48740d01f9b3f8",
+      "after_sha256": "78c12d5f9f586ad76f0aa78a737bba63563a812b44bce2a25f48740d01f9b3f8"
+    },
+    {
+      "target": "videos/abstract-algebra-14.zh-en.srt",
+      "staged": "after/abstract-algebra-14.zh-en.srt",
+      "before_sha256": "5429b97562f319e8cb86144b110d8df847fceb1ed232302cefd2161cfa78544a",
+      "after_sha256": "5429b97562f319e8cb86144b110d8df847fceb1ed232302cefd2161cfa78544a"
+    },
+    {
+      "target": "subtitles/blocks/abstract-algebra-15.blocks.tsv",
+      "staged": "after/abstract-algebra-15.blocks.tsv",
+      "before_sha256": "00455a01edfc8fda73fb187a762626f87ee4496c2404cf10aa7d7fc1cdaad4a8",
+      "after_sha256": "7fd4017bf1ccf21a0e3c0ca9936ffcf3d9f1a82e4fdc3996a0499ac55dc38e1c"
+    },
+    {
+      "target": "videos/abstract-algebra-15.zh-en.srt",
+      "staged": "after/abstract-algebra-15.zh-en.srt",
+      "before_sha256": "470620c69f943ee176aa2490d6bfa1950cbfe0245eca296b96758d8c9caaec48",
+      "after_sha256": "3151c967e41b2b22eadfe156d94ff756fccc3e99339215b5fa45ceb56305d5bd"
+    },
+    {
+      "target": "subtitles/blocks/abstract-algebra-16.blocks.tsv",
+      "staged": "after/abstract-algebra-16.blocks.tsv",
+      "before_sha256": "60c9fc06db9e91391b87622e99201219825c7c8b5f3cba67ac81131cc2866d6a",
+      "after_sha256": "60c9fc06db9e91391b87622e99201219825c7c8b5f3cba67ac81131cc2866d6a"
+    },
+    {
+      "target": "videos/abstract-algebra-16.zh-en.srt",
+      "staged": "after/abstract-algebra-16.zh-en.srt",
+      "before_sha256": "1b91814f7d87b27b5cccd918341a0e9692dd9f15648bc726afa1bd43eb6112f3",
+      "after_sha256": "1b91814f7d87b27b5cccd918341a0e9692dd9f15648bc726afa1bd43eb6112f3"
+    },
+    {
+      "target": "subtitles/blocks/abstract-algebra-17.blocks.tsv",
+      "staged": "after/abstract-algebra-17.blocks.tsv",
+      "before_sha256": "3804ffacf0bc04df99a46b18eb8c1118b5c99ad1513771c54c335013be0b0756",
+      "after_sha256": "3804ffacf0bc04df99a46b18eb8c1118b5c99ad1513771c54c335013be0b0756"
+    },
+    {
+      "target": "videos/abstract-algebra-17.zh-en.srt",
+      "staged": "after/abstract-algebra-17.zh-en.srt",
+      "before_sha256": "67a24c8f247d729aecbf365965ad20d46e03400d0a55d691a31411809b34ff4c",
+      "after_sha256": "67a24c8f247d729aecbf365965ad20d46e03400d0a55d691a31411809b34ff4c"
+    },
+    {
+      "target": "subtitles/blocks/abstract-algebra-18.blocks.tsv",
+      "staged": "after/abstract-algebra-18.blocks.tsv",
+      "before_sha256": "dd94d432e1e9bff8258e05eabaa512d2e52559e16139c764596bef4fc79acf1c",
+      "after_sha256": "7b63ab6c4f60b82d02982ae19111ae3dfa055d6e07c0845fdb597ad1ffa3492a"
+    },
+    {
+      "target": "videos/abstract-algebra-18.zh-en.srt",
+      "staged": "after/abstract-algebra-18.zh-en.srt",
+      "before_sha256": "db88620a7483e14c8e255471fd58155e926b14ff7485f365c16161e75a8edca1",
+      "after_sha256": "ec61c816ec1b6323a984d80f2873f74deb86efecc51e91f1ff21587762e85555"
+    },
+    {
+      "target": "subtitles/blocks/abstract-algebra-19.blocks.tsv",
+      "staged": "after/abstract-algebra-19.blocks.tsv",
+      "before_sha256": "eadc1429b4fa3caa558a9dcc36129976e0ecc494290e49d9986ef7786fe42a7d",
+      "after_sha256": "87079b5b55aa5983c178f65b0cee892676762ae3e11d9a570b986c1919f91a91"
+    },
+    {
+      "target": "videos/abstract-algebra-19.zh-en.srt",
+      "staged": "after/abstract-algebra-19.zh-en.srt",
+      "before_sha256": "5a262f4ed9648f318d74ff8aae014f889b1c7afdee4ff3567d1235d15c3ddafe",
+      "after_sha256": "77c7091941aa3053240501ae766a08729706cfd22e80651b29d205fa1b0c9e35"
+    },
+    {
+      "target": "subtitles/blocks/abstract-algebra-20.blocks.tsv",
+      "staged": "after/abstract-algebra-20.blocks.tsv",
+      "before_sha256": "36254cab96d87321f6821690bdd5e34fec89f853dc398422016fced73ed3700f",
+      "after_sha256": "36254cab96d87321f6821690bdd5e34fec89f853dc398422016fced73ed3700f"
+    },
+    {
+      "target": "videos/abstract-algebra-20.zh-en.srt",
+      "staged": "after/abstract-algebra-20.zh-en.srt",
+      "before_sha256": "833337554926786d944fd17d397e03c84b26319709ac84da27abfc95fca154cd",
+      "after_sha256": "833337554926786d944fd17d397e03c84b26319709ac84da27abfc95fca154cd"
+    },
+    {
+      "target": "subtitles/blocks/abstract-algebra-21.blocks.tsv",
+      "staged": "after/abstract-algebra-21.blocks.tsv",
+      "before_sha256": "5c99b5e092edb633c064c617fe225674d229ddc36094c64009b609bafd4cfa10",
+      "after_sha256": "5c99b5e092edb633c064c617fe225674d229ddc36094c64009b609bafd4cfa10"
+    },
+    {
+      "target": "videos/abstract-algebra-21.zh-en.srt",
+      "staged": "after/abstract-algebra-21.zh-en.srt",
+      "before_sha256": "d02a8548075a7ce0bca6659ba8db41a046e529ddbe11491cda7360174f47116d",
+      "after_sha256": "d02a8548075a7ce0bca6659ba8db41a046e529ddbe11491cda7360174f47116d"
+    },
+    {
+      "target": "subtitles/blocks/abstract-algebra-22.blocks.tsv",
+      "staged": "after/abstract-algebra-22.blocks.tsv",
+      "before_sha256": "e621e8f727b3afb2ca6cd57bae32eb768d2bc821f70632b691db1cc78b99acb0",
+      "after_sha256": "e621e8f727b3afb2ca6cd57bae32eb768d2bc821f70632b691db1cc78b99acb0"
+    },
+    {
+      "target": "videos/abstract-algebra-22.zh-en.srt",
+      "staged": "after/abstract-algebra-22.zh-en.srt",
+      "before_sha256": "30df15d71201f86306648398e832d383048105b3e61b7ae2a3dc6f25c773254a",
+      "after_sha256": "30df15d71201f86306648398e832d383048105b3e61b7ae2a3dc6f25c773254a"
+    },
+    {
+      "target": "subtitles/blocks/abstract-algebra-23.blocks.tsv",
+      "staged": "after/abstract-algebra-23.blocks.tsv",
+      "before_sha256": "ad342a997d6e3af459e718e106eac0a517a7e9085637803e7e2d386bcd4f02dc",
+      "after_sha256": "ad342a997d6e3af459e718e106eac0a517a7e9085637803e7e2d386bcd4f02dc"
+    },
+    {
+      "target": "videos/abstract-algebra-23.zh-en.srt",
+      "staged": "after/abstract-algebra-23.zh-en.srt",
+      "before_sha256": "34bf4167f3ab4488d458d7086e1ed368ca00be78a07771feb096f5862cbcb355",
+      "after_sha256": "34bf4167f3ab4488d458d7086e1ed368ca00be78a07771feb096f5862cbcb355"
+    },
+    {
+      "target": "subtitles/blocks/abstract-algebra-24.blocks.tsv",
+      "staged": "after/abstract-algebra-24.blocks.tsv",
+      "before_sha256": "db6357f6059c7ee30aa2dd0a74408c0e330b97e5f2fc6d0176a29f8622efa226",
+      "after_sha256": "db6357f6059c7ee30aa2dd0a74408c0e330b97e5f2fc6d0176a29f8622efa226"
+    },
+    {
+      "target": "videos/abstract-algebra-24.zh-en.srt",
+      "staged": "after/abstract-algebra-24.zh-en.srt",
+      "before_sha256": "9e04fe5b5518e8d641020d13e9afed226a523d01a3982735e193f3ec7f45b96e",
+      "after_sha256": "9e04fe5b5518e8d641020d13e9afed226a523d01a3982735e193f3ec7f45b96e"
+    },
+    {
+      "target": "subtitles/blocks/abstract-algebra-25.blocks.tsv",
+      "staged": "after/abstract-algebra-25.blocks.tsv",
+      "before_sha256": "cff2fc8fa4db9572284c754301c2fdc03308788b75efdfa93ac669aa55d13979",
+      "after_sha256": "cff2fc8fa4db9572284c754301c2fdc03308788b75efdfa93ac669aa55d13979"
+    },
+    {
+      "target": "videos/abstract-algebra-25.zh-en.srt",
+      "staged": "after/abstract-algebra-25.zh-en.srt",
+      "before_sha256": "e47273775722b3f87845005dad7f3576aa6ca9361118796c80571c988161983b",
+      "after_sha256": "e47273775722b3f87845005dad7f3576aa6ca9361118796c80571c988161983b"
+    },
+    {
+      "target": "subtitles/blocks/abstract-algebra-26.blocks.tsv",
+      "staged": "after/abstract-algebra-26.blocks.tsv",
+      "before_sha256": "83ed2c6825168b94249d3e757215681186c7a73f2ef5bdfd99404cc37e94a73f",
+      "after_sha256": "83ed2c6825168b94249d3e757215681186c7a73f2ef5bdfd99404cc37e94a73f"
+    },
+    {
+      "target": "videos/abstract-algebra-26.zh-en.srt",
+      "staged": "after/abstract-algebra-26.zh-en.srt",
+      "before_sha256": "4af879025c140ec219cca3619cf4ca9c60554788099c28feb95598382846fd0f",
+      "after_sha256": "4af879025c140ec219cca3619cf4ca9c60554788099c28feb95598382846fd0f"
+    },
+    {
+      "target": "subtitles/blocks/abstract-algebra-27.blocks.tsv",
+      "staged": "after/abstract-algebra-27.blocks.tsv",
+      "before_sha256": "64450c4cd329090505976214852d3a150bf8d00e2369778527e551facb9758db",
+      "after_sha256": "ab5a8ecd0d379b2560344c6108af73d6851f57562383f8d559c8706db1a0610b"
+    },
+    {
+      "target": "videos/abstract-algebra-27.zh-en.srt",
+      "staged": "after/abstract-algebra-27.zh-en.srt",
+      "before_sha256": "4d3f72b8712ed574b1a289074a819e05a454e8b7fc5a70187fd752ad3e2e6984",
+      "after_sha256": "57dd9d5f3ad6dc24053303c07ce236b96cb97a713b723613a3ca3b523a1cfa00"
+    },
+    {
+      "target": "subtitles/blocks/abstract-algebra-28.blocks.tsv",
+      "staged": "after/abstract-algebra-28.blocks.tsv",
+      "before_sha256": "bb81f834d93c27fcf94469a4782c7790e014dde34572394d6b6cdc0cdc66b0f2",
+      "after_sha256": "bb81f834d93c27fcf94469a4782c7790e014dde34572394d6b6cdc0cdc66b0f2"
+    },
+    {
+      "target": "videos/abstract-algebra-28.zh-en.srt",
+      "staged": "after/abstract-algebra-28.zh-en.srt",
+      "before_sha256": "c2819282b9bf6e2b4802c13ce4a25901f8f030a4dfc69b257c08cf6e37d5ab01",
+      "after_sha256": "c2819282b9bf6e2b4802c13ce4a25901f8f030a4dfc69b257c08cf6e37d5ab01"
+    },
+    {
+      "target": "subtitles/blocks/abstract-algebra-29.blocks.tsv",
+      "staged": "after/abstract-algebra-29.blocks.tsv",
+      "before_sha256": "ae059b0ec7831c6f56e7c2a6969bd8c66895e9ec8d179ed47c8123a36bbf545a",
+      "after_sha256": "7468454969382b52fe17a4a297101a8b0c4f952d75636819e96eb81dbd76876e"
+    },
+    {
+      "target": "videos/abstract-algebra-29.zh-en.srt",
+      "staged": "after/abstract-algebra-29.zh-en.srt",
+      "before_sha256": "078143b7d1002dddf2b036f6ebfc56d627b72510d85321237d3a03e1dd47199c",
+      "after_sha256": "3f141d0bedb9adb854a12618fae34e9ae569b7e71145a1ba0abfd202965984e0"
+    },
+    {
+      "target": "subtitles/blocks/abstract-algebra-30.blocks.tsv",
+      "staged": "after/abstract-algebra-30.blocks.tsv",
+      "before_sha256": "f292ee6245b08229e5ec067b7b13286f68eedf20184484419b5e82d767ea6d19",
+      "after_sha256": "f292ee6245b08229e5ec067b7b13286f68eedf20184484419b5e82d767ea6d19"
+    },
+    {
+      "target": "videos/abstract-algebra-30.zh-en.srt",
+      "staged": "after/abstract-algebra-30.zh-en.srt",
+      "before_sha256": "7711be56f234ebc00aa424011307ddf2a17bfb012b474d75a7fc8504cbf18a1c",
+      "after_sha256": "7711be56f234ebc00aa424011307ddf2a17bfb012b474d75a7fc8504cbf18a1c"
+    },
+    {
+      "target": "subtitles/blocks/abstract-algebra-31.blocks.tsv",
+      "staged": "after/abstract-algebra-31.blocks.tsv",
+      "before_sha256": "e1213ccb3f5b37f9c745fa0efe21395dc39553a221d1f6b4c0b42f0d8687c5bf",
+      "after_sha256": "240ba66352d7b009eb9d180fabbdce46fcca15b1a0bb32879fe27904708fecf4"
+    },
+    {
+      "target": "videos/abstract-algebra-31.zh-en.srt",
+      "staged": "after/abstract-algebra-31.zh-en.srt",
+      "before_sha256": "c576d573fc7c5e969753eca7cf1c530ed2710d7bf29528e07556844d4db0dbea",
+      "after_sha256": "726e1705776515c37e505c7fcc5efb3ffc4131ca26c534647c797ebb4b54cb55"
+    },
+    {
+      "target": "subtitles/blocks/abstract-algebra-32.blocks.tsv",
+      "staged": "after/abstract-algebra-32.blocks.tsv",
+      "before_sha256": "dacea6379ae536c99ab757ea238596ba84818191b971463a8e8f6535af2998de",
+      "after_sha256": "dacea6379ae536c99ab757ea238596ba84818191b971463a8e8f6535af2998de"
+    },
+    {
+      "target": "videos/abstract-algebra-32.zh-en.srt",
+      "staged": "after/abstract-algebra-32.zh-en.srt",
+      "before_sha256": "7681206996fa085b7cd4fd2bc9f3b4bc4cf9922e3f98eedac75a809a2b3dd49f",
+      "after_sha256": "7681206996fa085b7cd4fd2bc9f3b4bc4cf9922e3f98eedac75a809a2b3dd49f"
+    },
+    {
+      "target": "subtitles/blocks/abstract-algebra-33.blocks.tsv",
+      "staged": "after/abstract-algebra-33.blocks.tsv",
+      "before_sha256": "a420df6376e5036b4e757a25bf93ce62a416de457d4f5c4500a507c182a7896b",
+      "after_sha256": "a420df6376e5036b4e757a25bf93ce62a416de457d4f5c4500a507c182a7896b"
+    },
+    {
+      "target": "videos/abstract-algebra-33.zh-en.srt",
+      "staged": "after/abstract-algebra-33.zh-en.srt",
+      "before_sha256": "49591a90da1b03bab71a1e036f50b524c6bc60ac01da7dd9d17f3c9487f5e1a5",
+      "after_sha256": "49591a90da1b03bab71a1e036f50b524c6bc60ac01da7dd9d17f3c9487f5e1a5"
+    },
+    {
+      "target": "subtitles/blocks/abstract-algebra-34.blocks.tsv",
+      "staged": "after/abstract-algebra-34.blocks.tsv",
+      "before_sha256": "49d16972f4579a07f767d7f0b835349e061fcbd09ad1fb6e3ec4074892501377",
+      "after_sha256": "2d83e4b1aa673514fbfce18f0e0e5209f792d6126ead487b9437f42a5cd9e1d7"
+    },
+    {
+      "target": "videos/abstract-algebra-34.zh-en.srt",
+      "staged": "after/abstract-algebra-34.zh-en.srt",
+      "before_sha256": "4216cc1b09127c1dafb11c690f2f9f98de4f8cbea82a2fdeec61f74f95387869",
+      "after_sha256": "c998845cbde80572a727dbd6eba590c080f636f25e4b0b562bc8b43e1194bfd2"
+    },
+    {
+      "target": "subtitles/blocks/abstract-algebra-35.blocks.tsv",
+      "staged": "after/abstract-algebra-35.blocks.tsv",
+      "before_sha256": "dbb4abd7d1b5aa45769520e546dac20d6f49a631153c35486fc670b07f01fea0",
+      "after_sha256": "dbb4abd7d1b5aa45769520e546dac20d6f49a631153c35486fc670b07f01fea0"
+    },
+    {
+      "target": "videos/abstract-algebra-35.zh-en.srt",
+      "staged": "after/abstract-algebra-35.zh-en.srt",
+      "before_sha256": "02abd802ef6c3037e16c601af7446c4e4e3aa37b5f3722e31c19f0bf4c468555",
+      "after_sha256": "02abd802ef6c3037e16c601af7446c4e4e3aa37b5f3722e31c19f0bf4c468555"
+    },
+    {
+      "target": "subtitles/blocks/abstract-algebra-36.blocks.tsv",
+      "staged": "after/abstract-algebra-36.blocks.tsv",
+      "before_sha256": "f77657479f746597f90441a9c77001e16ce92400947e8fe6d341c90a6d619dbe",
+      "after_sha256": "f77657479f746597f90441a9c77001e16ce92400947e8fe6d341c90a6d619dbe"
+    },
+    {
+      "target": "videos/abstract-algebra-36.zh-en.srt",
+      "staged": "after/abstract-algebra-36.zh-en.srt",
+      "before_sha256": "e2f37dcbe18828fd8e99a5d8d0f25fc80f487f50bd13409b98a83e5595bbdc91",
+      "after_sha256": "e2f37dcbe18828fd8e99a5d8d0f25fc80f487f50bd13409b98a83e5595bbdc91"
+    },
+    {
+      "target": "subtitles/blocks/abstract-algebra-37.blocks.tsv",
+      "staged": "after/abstract-algebra-37.blocks.tsv",
+      "before_sha256": "ab4afbb5b1022806f3dbea6521bdde0f08bdeccb9bfc80680b5eec0348250016",
+      "after_sha256": "dc731af0490f175b437628ab174659630ccbc95b6e4ccf75e2eb12be72777874"
+    },
+    {
+      "target": "videos/abstract-algebra-37.zh-en.srt",
+      "staged": "after/abstract-algebra-37.zh-en.srt",
+      "before_sha256": "32c12b138f26a6df47367e519bfedfb3ed28434acb654af67d2d1a1c205b2afd",
+      "after_sha256": "8342cb2aaed64f30aa603110c14ccd39071416005d688d7b30bdbb14028e7ed7"
+    },
+    {
+      "target": "subtitles/blocks/abstract-algebra-38.blocks.tsv",
+      "staged": "after/abstract-algebra-38.blocks.tsv",
+      "before_sha256": "fe9cfe91c787a8d72eeae4ea9154429a053a68d4b1619f6cca16f054d409e383",
+      "after_sha256": "2b615445663a29dfdcebd20103402626c52309982adad0cb69640a103995d0c7"
+    },
+    {
+      "target": "videos/abstract-algebra-38.zh-en.srt",
+      "staged": "after/abstract-algebra-38.zh-en.srt",
+      "before_sha256": "437ea7cb73475513fffc19af6197dcf5cba15db005dca6ccef41f1a31ca0dc5e",
+      "after_sha256": "70ec5d82bc117c15a8baa8db5767a6334536215861251767b1294c1c022e92b2"
+    }
+  ],
+  "baseline": "/home/deadalux/Documents/Abstract Algebra",
+  "applied": "2026-10-13T22:41:21"
+}

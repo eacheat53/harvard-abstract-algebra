@@ -1,0 +1,1099 @@
+1
+00:00:12,399 --> 00:00:58,759
+好的，太好了。今天我想先澄清一下我们之前做过的关于素元和不可约元的一些内容，具体来说，我想解释一下在之前的许多讲座中被一带而过的内容，即素元与不可约元并不同义。
+All right, great. So I want to start today with a clarification of some of the things that we've done involving primes and irreducibles, specifically, I want to just explain something that was glossed over in a lot of the previous lectures, specifically that prime element and irreducible element are not synonyms.
+
+2
+00:00:58,759 --> 00:01:14,267
+这是重要的一点。有人能告诉我什么是素元吗？对，如果 p 能整除……首先非零，对。其实它也可以是零，真的吗？
+This is an important point. So can anybody tell me what a prime element is? Yes, if p is able to divide... First, not zero, yeah. Well, actually it could be zero, oh really?
+
+3
+00:01:14,267 --> 00:01:26,841
+对，但它不能是别的——它不是单位，完全正确。而且如果它整除乘积，它就整除其中一个或另一个，正是如此。
+Yeah, but it's not something else, it's not a unit, exactly. And if it divides the product of numbers, then it divides one or the other, exactly.
+
+4
+00:01:26,841 --> 00:01:51,745
+所以定义是：素元 p意味着 p 不是单位，且 p | ab 蕴含 p | a 或 p | b，完全正确。什么是不可约元？好的，请讲。
+So the definition is: prime element p means p is not a unit, and p divides ab implies p divides a or p divides b, exactly. What's an irreducible element? Yeah, sure, go ahead.
+
+5
+00:01:51,745 --> 00:02:03,799
+不可约元不等于 0，我很确定……到目前为止是对的，我知道，但我的意思是，对，请继续。
+An irreducible element is not equal to 0, pretty sure of that... Right so far, I know it, but I mean the thing is, yeah, go on.
+
+6
+00:02:03,799 --> 00:02:17,280
+没有其他因子，所以若它只能被单位整除，以及……它的唯一因子是单位，正是如此。
+There are no other divisors, so if it is only divisible by a unit and... its only divisor is a unit, exactly.
+
+7
+00:02:17,280 --> 00:02:39,494
+所以定义如下：r 不是单位，如果我对该元素做因式分解，分解为这里的乘积 ab，那么要么 a 是单位，要么 b 是单位。
+So here's a definition: r is not a unit, and if I have a factorization of the thing into some products here, ab, then either a is a unit or b is a unit.
+
+8
+00:02:39,494 --> 00:02:51,058
+如果该元素为零，这当然就不成立了，因为我总能做这类分解，比如 0 乘以别的数，因此它非零的事实已经由此蕴含了。
+This would of course be false if this thing were zero, because I could always have these sort of factorizations, you know, 0 times something else, so that the fact that it's not zero is implied by this.
+
+9
+00:02:51,058 --> 00:03:13,423
+当然，在任何整环中总存在某种关系，所以我们令 R 是一个整环，回顾一下这意味着没有零因子，换句话说，若 ab = 0，则 a = 0 或 b =0。
+So of course there is a relationship always in any domain, so let's just let R be a domain, which recall means that there are no zero divisors, in other words, if ab = 0, then a is 0 or b equals 0.
+
+10
+00:03:13,423 --> 00:03:24,991
+在那种情况下，我们确实知道某种关系。我们知道什么？在任意整环中，素元与不可约元之间有什么关系？
+In that case, we do know some sort of relationship. What do we know? What's the relationship in an arbitrary domain between a prime and an irreducible?
+
+11
+00:03:24,991 --> 00:03:37,112
+正是如此，任何素元都是不可约的，至少任何非零素元都是。因此若 p ≠ 0 是素元，则 p 是不可约元。大家都知道为什么是这样吗？
+Exactly, any prime is irreducible, at least any nonzero prime. So if p not equal to zero is prime, then p is irreducible. Does everybody know why this is?
+
+12
+00:03:37,112 --> 00:03:43,748
+不知道这个证明的人请举手。你，好的，你没见过这个证明？
+Anybody who doesn't know the proof of this, put up their hand. So, you, okay, so you haven't seen the proof of this?
+
+13
+00:03:43,748 --> 00:03:57,761
+我也许见过，但是……对，好的，显然你从某样东西出发，你想证明某个元素是不可约的，所以你想考察一个因式分解，并证明其中一个因子必须是单位。
+I may have, but... Right, so, well, you start off with something obviously which, you know, you want to prove that something is irreducible, so you want to you know, look at a factorization and show that one of these things must be a unit.
+
+14
+00:03:57,761 --> 00:04:10,909
+如果我有这样一个分解，那么特别地 p 整除ab，这很好，因为接下来我们就可以利用它是素元的事实，来说明要么 p整除 a，要么 p 整除 b。
+Well, if I have a factorization like this, then in particular p divides ab, which is good, because you know we can then sort of use the fact that this thing is a prime to show that either p divides a or p divides b.
+
+15
+00:04:10,909 --> 00:04:45,217
+现在不失一般性，我们可以假设 p 整除 a，于是我们写下，比如 a = pc，但是我们已知 p = ab，所以我们有……抱歉，更正为 a = pc，a = pc，于是我们将其重写为 p = ab = pcb，因为我们可以这样改写 a。
+Now without loss of generality, we can say that p divides a, and so we write, say, p = ca, but we know that p equals ab, so we have... sorry, a = pc rather, a = pc, and so we rewrite this as p equals ab equals pcb, because we have this way of rewriting a.
+
+16
+00:04:45,217 --> 00:04:48,498
+现在，要点之一当然是这是一个整环，对吧？
+Now one of the major points of course is that this is a domain, right?
+
+17
+00:04:48,498 --> 00:05:10,959
+我们需要它作为假设，所以这意味着 p(1 - cb) = 0，并且由于按假设 p 非零，这蕴含 1 - cb = 0，这是整环的定义与我们的假设。所以 c 是 b 的逆元，从而 b 是单位。
+We needed that as a hypothesis, so this means 1 - cb = 0, and since p is not zero by hypothesis, this implies 1 - cb = 0, that's definition of domain, our hypothesis. So c is an inverse for b, so b is a unit.
+
+18
+00:05:10,959 --> 00:05:29,479
+因此我们证明了 p 必须是不可约元。好，那么大问题来了：对任意整环，逆命题是错误的。
+So we've shown that p must be irreducible. Okay, so here's the big problem: the converse is false for an arbitrary domain.
+
+19
+00:05:33,960 --> 00:05:46,522
+有人能给我举个例子吗？我们在上一节课见过一个非常好的例子，请讲。
+Anybody give me an example? We saw a very nice example last class, go ahead.
+
+20
+00:05:46,522 --> 00:05:54,110
+2……完全正确，或者采用我们上次给出的更一般的形式。
+2... Exactly, or in the sort of more general format we gave last time.
+
+21
+00:05:54,110 --> 00:06:04,658
+所以我要给你们完全相同的例子，但我要对任意无平方因子、小于 -1 且模 4 同余于 3 的 d 来做。
+So I mean I'm going to give you exactly the same example, but I'm going to do it for arbitrary d, non-square, or square-free rather, less than -1, congruent to 3 mod 4.
+
+22
+00:06:04,658 --> 00:06:30,431
+情况是这样的：上节课我们看到，如果考察 Z[√d]，其中 d 是无平方因子的，换句话说，任何素数，任何有理素数，任何通常的整素数若整除 d 只能整除一次，d < -1 且 d ≡ 3 (mod 4)，
+So here's the thing: last class we saw that if we look at Z join square root D, where d is square-free, in other words, any prime, any rational, any standard, you know, usual integer prime dividing d only can divide it once,
+
+23
+00:06:30,431 --> 00:07:04,400
+我们看到有这样一个美妙的因式分解：2 · (1 - d)/2 = (1 - √d)(1 + √d)，并且我们证明了 2 是不可约的，我们证明了这一点，但 2 不是素元，这由该公式直接得出。
+d is less than -1, d congruent to 3 mod 4, we saw we had this lovely factorization: 2 * (1 - d)/2 = (1 - root d)(1 + root d), and we showed that 2 is irreducible, we proved this, but 2 is not prime follows from this formula.
+
+24
+00:07:07,119 --> 00:07:21,410
+为什么？正是如此，2 整除 (1 - √d)(1 + √d)，但我们也指出过 2 既不整除 1 + √d，也不整除 1 - √d。
+Why? Exactly, 2 divides (1 - root d)(1 + root d), but we also pointed out that 2 doesn't divide 1 + root d, and it doesn't divide 1 - root d.
+
+25
+00:07:21,410 --> 00:07:29,599
+所以在这个特定的环中，2 是不可约元但不是素元。
+So 2 is irreducible, but 2 is not prime in this particular ring.
+
+26
+00:07:29,599 --> 00:07:45,260
+因此这里的要点是，大家要小心，不要在作业或考试中犯错。请讲？有什么好方法可以证明某个元素不可约吗？
+So the major point here is that you should watch out and not make errors on problem sets or exams. Yes? What is a good way to show that something's irreducible?
+
+27
+00:07:45,260 --> 00:07:53,157
+因为这看起来……我的意思是，看起来需要……你会怎么着手？你需要了解该环的某些结构。
+Because it seems as if... I mean, it seems as if you'd have... How would you go about that? You need to know something about the structure of a ring.
+
+28
+00:07:53,157 --> 00:08:05,679
+在这种情况下，为了证明不可约性，你需要对虚二次环的情况有所了解；你必须使用我们积累的各种假设和各种结构性结果。
+So I mean in this case, to show irreducibility, you needed to know a little something about what it looks like if you're in an imaginary quadratic ring; you had to use various hypotheses and various structural results we accumulated.
+
+29
+00:08:05,679 --> 00:08:13,926
+我能说的确实不多；并没有通用的技巧来判定某个元素在特定环中何时不可约。
+There's really not much else I can say; there's no sort of general technique for deciding when something is irreducible in a particular ring.
+
+30
+00:08:13,926 --> 00:08:19,080
+你只能利用手头已有的结构性结论。
+You have to, you have to just use whatever structural results you have.
+
+31
+00:08:19,080 --> 00:08:30,612
+所以我想快速做个复习，也顺便澄清一下之前给出得有点含糊的几个定义。
+So I just want to quickly run through a review, also to sort of maybe clarify a few definitions which, you know, were sort of given ambiguously.
+
+32
+00:08:30,612 --> 00:08:42,715
+我还想梳理一下我们目前为止讨论过的几类特殊的环。
+I want to also go through some of the special rings that we've talked about so far.
+
+33
+00:08:42,715 --> 00:08:56,688
+我们有这样一种环的过滤：比如所有环，然后我们考察了所有环的一个子类，我们称之为整环，但我简称为整环（domains）因为更简短。
+So we had this sort of filtration of rings: we had like all rings, and then we looked at a subclass of all rings which we called domains, or integral domains, but I'll just abbreviate to domains because it's shorter.
+
+34
+00:08:56,688 --> 00:09:12,539
+这里的要点当然是没有零因子，但没有零因子的真正核心在于消去律成立。这是大家用得最多的性质，即消去律成立。
+And the point here is of course there are no zero divisors, but the really essential thing about there being no zero divisors is that you have a cancellation law. This is the thing that you sort of use most, that you have this cancellation law.
+
+35
+00:09:12,539 --> 00:09:28,868
+我在那边就是那么写的，我是详尽写出来的，但关键在于若 a ≠0 且 ab = ac，那么在整环中我知道 b = c，即使 a 没有逆元。
+I mean I've written it that way over there, I mean I've sort of written it out long hand, but the point is that if I have a not equal to zero and ab = ac, then in a domain I know that b = c, even though I don't have an inverse for a.
+
+36
+00:09:28,868 --> 00:09:30,310
+所以这就是使用整环的主要方式。
+So that's just a sort of main way that you use a domain.
+
+37
+00:09:30,310 --> 00:09:47,932
+但整环本身的结构并不算非常丰富，所以通常会进入更受限的一类，我们称之为唯一分解整环（UFD），因为这是通常的名称。
+But domains don't have a huge amount of structure, so you often pass to a more restricted class, and we called them domains with unique factorization; I'll call them unique factorization domains, because that's the usual name.
+
+38
+00:09:47,932 --> 00:09:59,273
+关于唯一分解，我们之前的讨论存在一点含糊之处，因为我们谈论它时好像"唯一"仅仅是指在重排意义下唯一。
+And there was a bit of a... there was a bit of an ambiguity issue in the way we talked about unique factorization, because we talked about it as if, you know, unique just meant up to reordering.
+
+39
+00:09:59,273 --> 00:10:03,680
+当然还有一点，那就是在相伴元素意义下唯一。
+I mean there's also the point of course that it's unique up to associates.
+
+40
+00:10:03,680 --> 00:10:16,101
+所以素元并不是唯一确定的，它们成类出现，也就是相伴类。如果两个素元互为相伴元，你通常会认为它们是同一个元素。
+So I mean primes are somehow not uniquely defined, they come in classes of associates. I mean you often think of primes as being the same element if they are associate to each other.
+
+41
+00:10:16,101 --> 00:10:25,176
+互为相伴是什么意思？抱歉？完全正确，若两元素相差一个单位因子，则它们互为相伴元。
+What does being associate mean? Sorry? Exactly, so things are associated if they differ by a unit factor.
+
+42
+00:10:25,176 --> 00:10:49,163
+因此唯一分解中的"唯一"意味着在因式分解的重排顺序以及相伴元意义下唯一，清楚了吗？
+So unique factorization, unique means up to reordering of factorization, and up to associates, is that clear?
+
+43
+00:10:49,163 --> 00:11:02,758
+然后我们考察了主理想整环（PID），它们是唯一分解整环的子类。
+And then we looked at PIDs, principal ideal domains, these are a subclass of the unique factorization domains.
+
+44
+00:11:02,758 --> 00:11:36,332
+这些是环，这些整环满足：其中的任意理想都必定由某个元素生成——由某个唯一元素生成——抱歉，不是唯一的，由某个元素生成。然后我们有它的子类：欧几里得整环（ED），在其中带余除法成立。
+So these are the rings, these are the domains where you know that if you have an ideal, then it must be generated by some element, by some unique element—sorry, not unique, by some element. Then we had a subclass of that: the Euclidean domains, where you had a division algorithm.
+
+45
+00:11:36,332 --> 00:11:39,870
+这里存在一点命名术语上的问题：我们曾把带余除法称为欧几里得算法。
+Now there was a bit of a nomenclature issue here: we called the division algorithm a Euclidean algorithm.
+
+46
+00:11:39,870 --> 00:11:47,919
+我的意思是，在某种意义上，"欧几里得算法"更贴切地指代在已知带余除法时计算最大公因数的方法。
+I mean, in some sense the name Euclidean algorithm more properly applies to the method for calculating the gcd given the division algorithm.
+
+47
+00:11:47,919 --> 00:12:02,801
+我想曾有一道习题，要求大家基于带余除法实际写出欧几里得算法，但我们称其为欧几里得整环，是因为你同时拥有带余除法和欧几里得算法。大家都很清楚了吗？
+And I think there was an exercise where you were supposed to actually come up with the Euclidean algorithm based on a division algorithm, but you call the thing Euclidean domain because you have both this division algorithm and a Euclidean algorithm. Is that pretty clear to everyone?
+
+48
+00:12:02,801 --> 00:12:23,517
+好的，记住要点在于你确实有某种我们称之为欧几里得范数的东西，它通常与我们上次引入的范数概念不同。这只是某种一般的尺度函数。
+Okay, so I mean and remember the point is that you do have this sort of this thing we called maybe a Euclidean norm or something, which is distinct in general from the notion of norm that we introduced last time. This is just some sort of general size function.
+
+49
+00:12:23,517 --> 00:12:48,560
+当然，核心思想是——这里遗漏了一个假设：如果从两个元素出发，用来除的那个元素非零，那么你可以写成：对于任意满足 b ≠ 0 的 a, b，存在商与余数使得 a = bq + r，且 r = 0 或 Δ(r) < Δ(b)。
+And of course the idea was—and here's a hypothesis that was left out: if you start out with some elements, the one that you're going to divide by is not zero, then you can write then: so for all a, b such that b is not equal to zero, there exist a quotient and a remainder such that a = bq + r, and r = 0 or Delta of r is less than Delta of b.
+
+50
+00:12:48,560 --> 00:12:56,560
+对欧几里得范数有各种归一化方式等等，但那其实并不那么重要。
+And there are various ways of normalizing the Euclidean norm and so on, but that's really not that important.
+
+51
+00:12:58,200 --> 00:13:13,289
+例如，在我们在课堂上讨论过的一类环中，比如 Z[√d]，我们上节课引入的范数概念——即将 a + b√d 乘以 a - b√d 得到 a² - b²d—
+So for instance, yeah, it is quite possible, for instance, that in one of the sorts of rings that we were talking about in class, these like Z join square root D, that the notion of norm that we introduced last class—where you, you know,
+
+52
+00:13:13,289 --> 00:13:30,447
+—可能不会给出欧几里得范数，但该环上却依然可能存在别的欧几里得范数。这完全可能，没有任何理由能排除这一点。
+multiply a + b root d by a - b root d and get a² - b²d—is not going to give you a Euclidean norm, but that there is nonetheless a Euclidean norm on that ring. This is a distinct possibility, there's nothing to rule that out out.
+
+53
+00:13:30,447 --> 00:13:45,235
+反过来，若仅仅因为你拥有这样一个范数，就认为它以某种方式说明该环存在欧几里得范数，这当然是大错特错的，在任何意义下都不成立。
+And going the other way, of course, it is utterly, utterly, utterly false that just because you have, you know, this norm, that it, you know, in any way tells you that there is a Euclidean norm, and there's absolutely no sense in which that's true.
+
+54
+00:13:45,235 --> 00:13:55,775
+所以这是一个重要的区分：我们有这些常见术语在到处使用，但它们在不同语境下含义不同，所以务必小心。
+So that's an important sort of distinction: we have these sorts of common terms running around, but they mean different things in different contexts, so beware.
+
+55
+00:13:55,775 --> 00:14:14,640
+那么，我能放在这里的最小的一类是什么，即通过某种平凡范数自动成为欧几里得整环的？域。
+And then what would be like sort of the smallest thing that that I might put here, something that's automatically a Euclidean domain by a sort of trivial norm? A field.
+
+56
+00:14:14,640 --> 00:14:19,260
+这便把我们目前为止讨论过的所有不同种类的环联系了起来。
+So this sort of relates all of the different sorts of rings that we've talked about so far.
+
+57
+00:14:19,260 --> 00:14:40,959
+域是最小、限制最强的一类，在某种意义上，这种层级脉络的核心在于：当你沿此方向从域走向所有环时，在两方面复杂度不断增加：理想结构，以及单位群的结构。
+Fields are, you know, the sort of smallest, most restricted class, and in some sense the big, you know, the main thing about this sort of sweep is that there's an increasing complexity as you pass in this direction from fields to all rings in terms of two things: the ideal structure and the structure of the group of units.
+
+58
+00:14:40,959 --> 00:14:53,193
+因此当你沿此方向前行，你会得到越来越多的理想，以及复杂得多的理想格结构，并且得到复杂得多的单位群。
+So as you pass this way, you get more and more ideals and much more complicated ideal lattice structure, and you get much more complicated groups of units.
+
+59
+00:14:53,193 --> 00:15:14,999
+你在环论中所做的大量工作，就是试图探究理想格的结构以及单位群的结构，因为你可以把它们与许多基本的数论问题以及许多其他代数问题联系起来。数学中有许多领域都专门依赖于了解这些结构，所以你需要这种结构理论。
+And a lot of what you do in ring theory is you try to explore the structure of the lattice of ideals and the structure of the group of units, because you can relate that to a lot of sort of basic, you know, number- theoretic problems and a lot of other sort of algebraic problems. There are all these sorts of areas of math which rely specifically on knowing those things, so you need this sort of structural theory.
+
+60
+00:15:14,999 --> 00:15:33,321
+现在我要使用一些缩写：我通常会把唯一分解整环简记为 UFD，主理想整环简记为 PID；我甚至可能把欧几里得整环简记为 ED。我为什么要这么做？不是为了故弄玄虚，而是因为文献中都是这么通用的。
+Now I'm going to make some abbreviations: I'm usually going to refer to things like UFD, unique factorization domains as UFDs, principal ideal domains as PIDs; I might even abbreviate Euclidean domains to EDs. Now why do I do this? Not to confuse, but because this is standard in the literature.
+
+61
+00:15:33,321 --> 00:15:44,160
+如果你去读论文，你不会看到完整的"主理想整环"，你会看到 PID，因为没人想把它全写出来。
+If you ever read a paper, you're not going to read "principal ideal domain", you will read PID, because nobody wants to write it all out.
+
+62
+00:15:47,199 --> 00:16:00,641
+好的，实际上我要移步回到这边。我想非常快速地带大家看一看每一个类别的例子，且不是前一个更窄类别的例子。
+Okay, actually I'm going to move back over here. So I just want to do very, very quickly something where we look at examples of each of these things which is not an example of the previous.
+
+63
+00:16:00,641 --> 00:16:11,634
+例如，是环但不是整环的例子是 Z × Z。谁能给我举一个整环的例子，但它不是 UFD？
+So for instance, an example of a ring which is not a domain is Z cross Z. Someone give me an example of a domain which is not a UFD?
+
+64
+00:16:11,634 --> 00:16:16,519
+我们上节课见过。
+We saw them last class.
+
+65
+00:16:17,960 --> 00:16:28,999
+对，由某个元素生成……对，完全正确：Z[√d]，其中 d 无平方因子、小于 -1 且模 4 同余于 3。
+Yeah, generated by something, right. Exactly, so Z join root D, where d is square-free, less than -1, and congruent to 3 mod 4.
+
+66
+00:16:28,999 --> 00:16:33,840
+所以这不是 UFD；我们上节课证明了这一点，刚才在这里又展示了一遍。
+So this is not a UFD; we showed that last class, and we showed it again over here.
+
+67
+00:16:33,840 --> 00:16:42,181
+好的，那么什么是 UFD 但不是 PID 呢？你们见过很多这样的例子，比如多项式……正是如此。
+Okay, so what's a UFD which is not a PID? You've seen lots of examples of this, like polynomials... Exactly.
+
+68
+00:16:42,181 --> 00:16:52,115
+例如，我们看到过如果你有一个唯一分解整环，那么该 UFD 上的多项式环也必然仍然是 UFD。
+So for instance, we saw that if you have a unique factorization domain, then the polynomial ring of that UFD must still be a UFD.
+
+69
+00:16:52,115 --> 00:17:01,199
+例如 Z[x] 是 UFD，但它却不是 PID，因为它包含像 (x, 2) 这样的理想，它们显然不是主理想。
+So for instance, Z join x is a UFD, but nonetheless it's not a PID, because it has ideals like (x, 2), which are certainly not principal.
+
+70
+00:17:01,199 --> 00:17:11,463
+另一个选择是域添加两个变量，然后考察由这两个变量生成的理想。那么：是 PID 但不是欧几里得整环呢？
+Another option would be a field join two variables, and you consider the ideal generated by those two variables. So: a PID which is not a Euclidean domain.
+
+71
+00:17:11,463 --> 00:17:20,360
+这个很难，我直接告诉你们，绝不能指望大家脱口而出。
+Now this one's hard, I'm just going to give it to you, there's no way that you could really be expected to see this offhand.
+
+72
+00:17:20,360 --> 00:17:37,809
+有一套美妙的理论解释了为什么这是一个主理想整环但不是欧几里得整环：即 Z[(1 + √-19)/2]。是欧几里得整环但不是域的例子？那很容易：比如 Z。
+There's a sort of nice theory that explains why this is a principal ideal domain but not a Euclidean domain, but Z join 1 plus 19 /2... Example of a Euclidean domain which is not a field? Well, that's easy: Z, say.
+
+73
+00:17:37,809 --> 00:18:08,368
+而域呢？考虑实数域，太好了。好，现在对我的第一个说明作一个补充：如果 R 是一个UFD，且 r ∈ R 非零，那么在工作于 UFD 这一非常重要的假设下—
+And fields? Well, consider the real numbers, great. Okay, so now an addendum: the sort of first note I made is that if R is a UFD, and I have some r in R which is not equal to zero, then under this very important hypothesis that I'm working in a UFD—
+
+74
+00:18:08,368 --> 00:18:23,371
+—我们已经看到有很多环不是 UFD，许多非常好的环都不是 UFD，比如这些——但若 R 是 UFD，则 r是不可约元当且仅当它是素元。
+and we've seen that there are a lot of things which are not UFDs, a lot of very nice things which are not UFDs, for instance these—but if R is a UFD, then r is irreducible if and only if it's prime.
+
+75
+00:18:23,371 --> 00:18:39,790
+现在我们已经证明了一个方向；另一个方向很容易，因为你只需考察唯一因式分解，你知道 r 是不可约的，所以它必然整除另一侧，它必然出现在另一侧各项的唯一分解式中。
+Now we've shown this in one direction; the other direction is easy, because you just consider the unique factorization, and you know that r is irreducible, so it must divide the other side, it must be in the unique factorizations of the things on the other side.
+
+76
+00:18:39,790 --> 00:18:41,760
+由此你得到该元素实际上必为素元。
+So you get that the thing must in fact be prime.
+
+77
+00:18:41,760 --> 00:19:04,294
+这就是核心要点：因为你拥有由不可约元构成的唯一因式分解——记住，UFD 意味着在相伴元意义下分解为不可约元——正因如此，我们常常会产生这种混淆。
+That's the essential point: that because you know how you have this unique factorization into irreducibles—remember, this is UFD means factorization up to associates of irreducibles—you have this, and that's why we often make this sort of confusion.
+
+78
+00:19:04,294 --> 00:19:21,480
+所以在UFD 中我们有时会混用素元与不可约元，但不要滥用这一点。
+So in UFDs we sometimes interchange prime and irreducible, but don't misapply this.
+
+79
+00:19:31,680 --> 00:19:52,531
+例如，当你在考试中讨论满足这些假设的 Z[√d] 时，不要误以为某个元素是素元当且仅当它是不可约的。
+For instance, when you're, you know, talking on an exam about Z join square root D satisfying these hypotheses, don't make the mistake of saying that something is prime if and only if it's irreducible.
+
+80
+00:19:52,531 --> 00:20:02,251
+好的，现在我想谈谈如何把"素"的概念推广到理想的世界中。
+Okay, so now I want to talk about sort of the way of taking this notion of prime and bringing it to the world of ideals.
+
+81
+00:20:02,251 --> 00:20:25,839
+看待我接下来要讲的内容的另一种方式是：它是一类比极大理想更宽泛的理想；它包含极大理想，但给出了多得多的对象，正如域必定是整环但反之不成立一样；我们将看到这究竟如何被精确刻画。
+Another way of sort of seeing what I'm about to talk about is it's a broader class than maximal ideals; it encompasses maximal ideals, but it gives a lot more things, in much the same way that a field is a domain, but the converse is false; and we'll see exactly how that can be made precise.
+
+82
+00:20:25,839 --> 00:20:38,704
+所以我要讲素理想与极大理想——我缩写为 max 理想。
+So going to talk about prime and maximal—I abbreviate max—maximal ideals.
+
+83
+00:20:38,704 --> 00:21:08,198
+回顾一下，如果我在环中有一个真理想，我们称其为极大理想，当且仅当夹在该理想与全环之间的任意理想都必须要么是该理想本身，要么是全环，即中间没有任何真包含的理想。
+So recall that if I have a proper ideal in a ring, then we call the thing maximal if and only if any ideal stuck between the this ideal and the entire ring must be either that ideal or the entire ring, so there's nothing sort of properly stuck between.
+
+84
+00:21:08,198 --> 00:21:26,976
+那么我们之前用商环刻画极大理想的巧妙方法是什么？域，完全正确！定理如下：M 是极大理想当且仅当 R/M 是一个域。
+Now what was our sort of clever way of characterizing maximal ideals in terms of quotients of a ring? Fields, exactly! So here's the theorem: M is a maximal ideal if and only if R mod M is a field.
+
+85
+00:21:26,976 --> 00:21:53,240
+这是因为我们了解商环的理想结构：如果我们知道某个环中的理想格，我们就能求出其任意商环中的理想格；而我们知道域的特征是恰好有两个不同的理想：零理想与全理想（单位理想）。
+And this is because we understand this structure of the ideals of a quotient: if we knew the lattice of ideals in a particular ring, then we could figure out the lattice of ideals in any quotient of it; and we know that fields are characterized by they're having these two ideals: the zero ideal and the full ideal, the unit ideal, and them being distinct.
+
+86
+00:21:53,240 --> 00:22:10,314
+这就是我们之前如何看待它的。但现在我想拓宽这一类别，我是这样做的：定义：再次假设在 R 中有一个真理想。
+So that's how we saw that. But now I want to sort of broaden that class, so here's how I'm going to do that. So definition: again suppose I have some proper ideal of R.
+
+87
+00:22:10,314 --> 00:22:30,800
+该理想被称为素理想，如果在 P 中有元素的乘积，那么这些元素中至少有一个在 P 中。
+This thing is called a prime ideal if whenever I have some product of elements in P, then I know that one of those elements is in P.
+
+88
+00:22:30,800 --> 00:22:35,974
+为什么这在某种程度上是素元概念的推广呢？
+Now why is this somehow a generalization of the notion of prime element?
+
+89
+00:22:35,974 --> 00:22:53,994
+不难看出，p 是素元，当且仅当由该元素生成的主理想是素理想。
+Well, it shouldn't be hard to see that p is a prime element if and only if the principal ideal generated by that element is a prime ideal.
+
+90
+00:22:53,994 --> 00:22:59,320
+那么这成立的主要原因是什么？
+So what's the main reason that's true?
+
+91
+00:22:59,320 --> 00:23:12,313
+主要原因在于：说 p 整除某元素，等价于说该元素落在由它生成的理想中，所以定义显然是等价的。
+The main reason that's true is that the statement that p divides something is the same as saying that that element is in the ideal generated by that thing, so the definitions just sort of become, you know, clearly equivalent.
+
+92
+00:23:12,313 --> 00:23:39,300
+换句话说，p | ab 蕴含 p | a 或 p | b 在此对应下可直接翻译为：ab 属于这个由 p 生成的理想，蕴含 a 属于由 p 生成的理想，或 b 属于由 p 生成的理想。清楚了吗？对此有什么疑问吗？
+In other words, p divides a implies p divides a or p divides b can be translated under this into just saying that ab is in this ideal generated by p implies a is in the ideal generated by p or b is in the ideal generated by p. Is that clear? Any questions about this?
+
+93
+00:23:39,300 --> 00:23:53,307
+好的。现在，我有任何理由认为若一般情况下有一个素理想，它就必定是由某个素元生成的主理想吗？
+Okay. Now do I have any reason to think that if I have a prime ideal in general, then it must be generated as the principal ideal by some prime element?
+
+94
+00:23:53,307 --> 00:24:09,437
+绝非如此！事实上，素理想一般由某个素元生成是彻底错误的，所以不要犯这个错误；这是截然不同的概念。
+Absolutely not! In fact, it's absolutely false that in general a prime ideal is going to be generated by some prime element, so don't make this mistake; so these are distinct ideas.
+
+95
+00:24:09,437 --> 00:24:19,284
+谁能给我举一个不是主理想的素理想的好例子？
+So can anybody give me a nice example of a prime ideal which is not principal?
+
+96
+00:24:19,284 --> 00:24:39,473
+即 P 为素理想并不蕴含 P = (p) 对某素元 p 成立。正是如此，得到这类例子最简单的方法之一就是考察多项式理想。
+So P prime does not imply P = (p) for some prime element p. Exactly, one of the easiest ways of getting something like this is by looking at a polynomial ideal.
+
+97
+00:24:39,473 --> 00:24:52,527
+例如，注意到 Z[x, y] 模去由 (x, y) 生成的理想同构于 Z……噢，我一会儿就会证明这蕴含它必为素理想。
+So for instance, note that Z join XY modulo the ideal generated by XY is isomorphic to Z... oh, well, I will show in a minute that this implies that this must be a prime ideal.
+
+98
+00:24:52,527 --> 00:25:02,936
+这里有一个更容易的……好吧，好的，我马上会证明理想的特征是其商环为整环。
+Here's an easier... well, okay, I'm going to show in a minute that ideals are characterized by the fact that their quotients are domains.
+
+99
+00:25:02,936 --> 00:25:18,391
+大家先接受这一事实片刻；这便蕴含由 (x, y) 生成的理想必为素理想，但 (x, y) 不是主理想；我们之前在各种形式下都见过这一点。
+So just accept that fact for a minute; this implies then that the ideal generated by XY must be a prime ideal, but XY is not a principal ideal; we've seen this in various forms previously.
+
+100
+00:25:18,391 --> 00:25:39,120
+现在让我实际证明刚才那条支撑命题：素理想由其商环所刻画。所以这个理想是素理想，但不是主理想。
+So let me actually prove that backup statement that primes are characterized by their quotients. So this thing is prime, but not principal.
+
+101
+00:25:39,120 --> 00:25:50,280
+但为了完全证实这一点，我们需要以下结论：P 是素理想当且仅当 R/P 是整环。
+But in order to completely justify this, we need the following result: that P is prime if and only if R mod P is a domain.
+
+102
+00:25:50,280 --> 00:26:01,627
+这当然与我们这边的命题类似，即极大理想由商环为域来刻画。
+So this is sort of a statement, of course, analogous to the proposition we had over here that maximal is characterized by the quotient being a field.
+
+103
+00:26:01,627 --> 00:26:10,094
+这很显然；有人想看这个证明吗？好的，没问题，那我过一遍证明。
+And this is pretty obvious; does anybody want to go through the proof of this? Okay, sure, so I'll go through a proof of this.
+
+104
+00:26:10,094 --> 00:26:16,781
+先看一个方向：假设我有 xy = 0。
+So going in one direction, suppose I have x y = 0.
+
+105
+00:26:16,781 --> 00:26:19,412
+我们要假设 P 是素理想，并试图证明商环是整环。
+I'm going to assume that P is prime, and I'm going to try to show this thing as a domain.
+
+106
+00:26:19,412 --> 00:26:33,888
+所以假设我们有……让我们确认它们不是零因子：我们可以提升这些元素：将 x 提升为某个 x̃，将 y 提升为某个 ỹ在 R 中。
+So I mean I'm going to say that suppose I have some... let's make sure that they aren't zero divisors: well, I can lift these things: this x to some X Tilda and this y to some y Tilda in R.
+
+107
+00:26:33,888 --> 00:26:46,295
+这些只是在典范同态 R → R/P 下的原像，而且我们知道根据该典范映射的定义，x̃ ỹ 必在核中，即在 P 中。
+So these are just pre-images under the canonical homomorphism from R to R mod P, and we know that by definition of this canonical map, X Tilda Y Tilda must be in the kernel, namely in P.
+
+108
+00:26:46,295 --> 00:26:55,796
+所以我们有 x 和 y 的提升 x̃ 与 ỹ，并且xy = 0 这一事实说明其乘积落在这个素理想中。
+So we have X Tilda and Y Tilda lifts of x and y, and the fact that the multiple of x and y is 0 says that these things are in this prime ideal.
+
+109
+00:26:55,796 --> 00:27:16,791
+现在根据假设，由于 P 是素理想，这蕴含 x̃ ∈ P 或ỹ ∈ P，但这正是说 x = 0 或 y = 0，同样是由于商环的定义。这清楚了吗？
+Now by hypothesis, this implies since P is prime that X Tilda is in P or Y Tilda is in P, but that's just saying that x = 0 or y = 0, because again of the definition of quotient. Is that clear?
+
+110
+00:27:16,791 --> 00:27:32,168
+另一个方向完全相同，只需把论证倒过来：你从这些元素出发，然后取投射（下降）而不是取提升。
+The other direction is identical, you just reverse the argument: I mean you just sort of start out with these things and then you take the descent, rather than taking lifts.
+
+111
+00:27:32,168 --> 00:27:54,553
+所以这是非常容易的结论，是一个极好的刻画；并且在一般情况下思考素理想的最佳方式之一，就是它们的商环是整环。那么这的一个直接推论是什么？我们知道每个域都是整环，对吧？
+So this is a very easy result, it's a very nice characterization; and one of the best ways of thinking in general about domains is, sorry, about prime ideals is that they have quotients being domains. Now what's a sort of immediate corollary of this? We know that every field is a domain, right?
+
+112
+00:27:54,553 --> 00:28:06,370
+因为……如果我们有域中的某个 xy = 0，那么只要其中一个因子不为零，我们总能乘以逆元。
+Because we can take these, because we can, you know, if we had some xy equal to zero in a field, then we could always just multiply by an inverse unless, you know, one of the things is zero.
+
+113
+00:28:06,370 --> 00:28:14,123
+所以这告诉了我们极大理想与素理想之间的什么关系？
+So what does that tell us about the relationship between maximal and prime ideals?
+
+114
+00:28:14,123 --> 00:28:34,405
+极……完全正确，所以一个直接推论是：如果 M是极大理想，则 M 是素理想；证明当然就是 R/M 为域蕴含 R/M 是整环。
+Maxim... Exactly, so a corollary, an immediate corollary of this is that if M is maximal, then M is prime; and the proof is of course just that R mod M being a field implies that R mod M is a domain.
+
+115
+00:28:34,405 --> 00:28:40,509
+这是证明极大理想必为素理想的最简捷方法。
+This is by far the easiest way of proving that a maximal ideal is prime.
+
+116
+00:28:40,509 --> 00:29:04,398
+这里还有另一个推论：如何利用环的理想结构来刻画整环？是否存在这样一个理想，它是素理想当且仅当该环是整环？
+Here's another sort of corollary: what's a way of characterizing domains in terms of the ideal structure of the ring? So I mean is there an ideal which is prime if and only if that ring is a domain?
+
+117
+00:29:04,398 --> 00:29:10,610
+零理想，因为 R 模去零理想就是 R 本身。
+Well, the zero ideal, because R modulo the zero ideal is just R.
+
+118
+00:29:10,610 --> 00:29:44,319
+所以 R 是整环……当且仅当 (0) 是素理想；证明在于 R ≅ R/(0)，所以该环是整环，换言之 R 是整环当且仅当零理想是素理想。所以这是整环与素理想之间关系的又一个优美刻画。
+So zero is... so R is a domain, for instance R is a domain if and only if (0) is prime; and the proof of that is that R is R mod 0, so this thing is domain, in other words R is domain if and only if zero is prime. So this is another nice sort of characterization of the relationship between domains and things like primes.
+
+119
+00:29:44,319 --> 00:29:46,753
+太棒了！
+Okay, excellent!
+
+120
+00:29:46,753 --> 00:29:57,116
+我们讨论了一系列特殊的环，它们具有优美的包含层级：我们有最一般的对象——所有环，然后逐级下降一直到域。
+So we've talked about a sort of string of special ideals, and they had this nice sort of filtered form: we had these, you know, most general things, all rings, and then descending all the way down to fields.
+
+121
+00:29:57,116 --> 00:30:23,609
+现在我想讨论一些并不完全契合该层级的内容；它与该层级平行，并且在阿廷的书中没有明确阐述，这很遗憾，因为阿廷书中第 11.10 节及附近的内容，真的……看起来像是离散古怪的结论，与一般的环论毫无关系。
+Now I want to talk about something which doesn't quite fit into that filtration; it's sort of something parallel to that filtration, and it's not described explicitly in Artin, which is a pity, because a lot of what's going on in Artin in Sections 11.10 and thereabouts are really sort of... they seem like these weird sort of disjointed results which have nothing to do with ring theory in general.
+
+122
+00:30:23,609 --> 00:30:30,902
+事实上，它们处于核心地位——那里的论证非常深刻地处于环论的核心，但原因却从未被提及。
+In fact, they're very much at the heart—the arguments there are very much at the heart of what's going on in ring theory, but the reason for that is never mentioned.
+
+123
+00:30:30,902 --> 00:30:47,918
+因此我要以极度简化的形式，解释背后发生的基础理论；我认为这很有用，因为否则很难记住究竟是怎么回事——它看起来就像一堆关于二次域的零碎性质。
+So I'm going to, in an extremely simplified form, explain the underlying theory behind what's happening there; and I think that this is useful, because I think otherwise it's very difficult to remember what's going on—it just seems like a bunch of like random things about quadratic fields.
+
+124
+00:30:47,918 --> 00:30:59,919
+但这些绝非关于二次域的随机琐事，它们实际上是非常一般、深刻且重要的定理，它们是关于被称为戴德金整环（Dedekind domains）的对象。
+But these are not random things about quadratic fields; they're actually very general and deep and important results, and they are about these things called Dedekind domains.
+
+125
+00:31:02,240 --> 00:31:11,732
+戴德金整环有非常复杂的定义，但也有一个极其简单的定义，通常大多数教科书都忽略了它，这是有充分理由的，
+Now there are very complicated definitions of Dedekind domains, but there's also an extremely simple definition of Dedekind domain which is usually omitted from most textbooks,
+
+126
+00:31:11,732 --> 00:31:27,039
+因为通常当你学到戴德金整环时，已经建立了一大堆额外的理论；但其实你不需要那些：我唯一需要引入的理论，就是理想的乘法概念。
+and for a very good reason, because by the time you usually get data domains you've built up a whole bunch of extra theory, but you don't need it: the only piece of theory that I need to introduce is the notion of multiplication of ideals.
+
+127
+00:31:31,599 --> 00:31:41,163
+如果我在 R 中有理想 I 和 J，那么我把它们的乘积定义为……什么？
+So if I have some ideals I and J in R, then I define their product to be... what?
+
+128
+00:31:41,163 --> 00:31:51,022
+有人能告诉我两个理想的乘积是什么吗？
+Can anybody tell me what the product of two ideals is?
+
+129
+00:31:51,022 --> 00:31:59,327
+完全正确，它是所有有限和 ∑ a_i b_i 的集合，其中 a_i ∈ I 且 b_i ∈ J。
+Exactly, is the set of all finite sums of a_i b_i, where the a_i are in I and the b_i are in J.
+
+130
+00:31:59,327 --> 00:32:06,532
+你当然需要有限和，因为你需要它是一个理想：你希望将理想的乘积定义为一个理想。
+You need the find sums, of course, because you need this thing to be an ideal: you want to define the product of ideals to be some ideal.
+
+131
+00:32:06,532 --> 00:32:29,320
+如果你只取乘积元素，你未必知道对于非单元素生成的理想——如果 I 或 J 不是主理想——该集合对加法是否封闭。所以你需要这些有限和来确保它确实是一个子群。
+If you just had products, then you wouldn't necessarily know that for something which is not for instance generated by a single element—for if I or J were not principal—you would not know that the thing would be closed under addition. So you need to have these finite sums to make sure that the things are actually a subgroup.
+
+132
+00:32:29,320 --> 00:32:44,887
+而且很容易验证这是一个理想：它当然是一个加法子群，因为有这些和式等等，并且由 I 和 J 各自的性质可知它在 R 的乘法下封闭。
+And it's very easy to verify this is an ideal: I mean it's certainly a subgroup because you have these sums and so on, and it's closed under multiplication by R by the fact that I and J were individually so.
+
+133
+00:32:44,887 --> 00:33:00,152
+现在，为了确保大家步调一致：如果我确实有两个主理想，比如 (a) 和 (b)，这是 I 而这是 J，那么乘积 IJ 是什么？
+Now just to make sure that we're all on the same page: if I do have two principal ideals, say (a) and (b), so this is I and this is J, then what is the product IJ?
+
+134
+00:33:00,152 --> 00:33:09,812
+在这种极其简单的情形下，由 a 生成的理想与由 b 生成的理想的乘积是什么？正是由 ab 生成的主理想 (ab)。
+So in this extremely simple case, what is the multiple of the ideal generated by a and the ideal generated by b? Exactly, the ideal generated by ab.
+
+135
+00:33:09,812 --> 00:33:17,613
+所以至少在处理主理想时，这是最简单的运算，就只是元素的乘法。这很清楚了吗？
+So at least when you have principal ideals, this is the simplest possible operation, it's just multiplication of elements. Is that pretty clear?
+
+136
+00:33:17,613 --> 00:33:44,812
+对此有什么疑问吗？好的，很好。正如我承诺的，这里有另一类特殊的环。
+Are there any questions about this? Okay, good. So as I promised, here's another type of special ring.
+
+137
+00:33:44,812 --> 00:34:06,436
+假设我们有一个整环，其分式域为 K，并假设该分式域不等于最初的环；换句话说，我们有一个不是域的整环。
+So suppose we have our domain with field of fractions K, and assume that that field of fraction is not the initial ring; put another way, we have a domain which is not a field.
+
+138
+00:34:06,436 --> 00:34:28,730
+那么我们称 R 为戴德金整环，如果对每个理想，都存在另一个理想，与该理想相乘后得到一个主理想。
+Then we say R is a Dedekind domain if for every ideal, there's a sort of other ideal which when you multiply by this ideal gives you a principal ideal.
+
+139
+00:34:28,730 --> 00:34:43,919
+这是关键定义，书中通过关于如何将一个理想与其共轭理想相乘得到主理想的命题体现了这一点；但这是正确的推广方式，它使得核心要点清晰得多。
+This is the key definition, and it's mirrored in the book in these propositions about how you can multiply an ideal by its conjugate to get a principal ideal; but this is the correct sort of generalization, and it makes it much clearer what the salient information is.
+
+140
+00:34:43,919 --> 00:35:03,453
+那里的所有结论，你无需局限在二次域中即可证明，只需利用我即将写下的假设。所以：对所有理想，都存在另一个理想使得它们的乘积为主理想。
+All the results there you can prove without working in a quadratic field, but just with the sort of assumption that I'm going to write down. So for all ideals, there exists another ideal such that their product is principal.
+
+141
+00:35:03,453 --> 00:35:22,435
+所以两者相乘，其结果是主理想；当然我要假设 J 不是零理想，否则就会平凡地成立。
+So I multiply these things, and this thing is principal; and I'm going to assume of course that this J is not equal to the zero ideal, otherwise I'd have this trivially true.
+
+142
+00:35:22,435 --> 00:35:45,320
+所以若存在某个非零理想使得乘积为主理想……这是书中详细推导的一个例子，我强烈建议大家弄清楚它为什么成立，因为它能让你们体会到在更一般情形下的情况。
+So if there's some nonzero ideal such that this thing is principal... So here's an example which is worked out in the book, and I highly recommend that you work out why it's true, because it gives you an idea of what happens in greater generality.
+
+143
+00:35:46,408 --> 00:36:11,570
+假设我们从 Q(√d) 出发，其中 d 是无平方因子的，某个无平方因子的整数。我要使用一种略有不同的记号，因为这其实是文献中的通用记号：在书中，字母 R 用于表示二次域中的整数环；一般记号是 O_K。
+So suppose I start out with Q join root D, where d is square-free, some square-free integer. So I'm going to use a slightly different notation, because it's actually the general notation used in the literature: in the book, the letter R is used for the ring of integers in a quadratic field; in general the notation is O_K.
+
+144
+00:36:11,570 --> 00:36:38,861
+用 O 的原因在于有"整序"这个术语——我不会在此详述，但其含义是 O_K 是 K 中的所谓"极大整序"；只需记住它是K 中所有代数整数构成的环的同义词。我们知道它的结构，那么它是什么？
+The reason for the O is that there's this terminology of order—I'm not going to explain this right now, but the idea is that O_K is this sort of something called the maximal order in K; but suffice it to say that that's a synonym for the ring of all algebraic integers in K. And we know what the structure of this is, so what is it?
+
+145
+00:36:38,861 --> 00:36:54,610
+正是如此：若 d ≡ 2 或 3 (mod 4)，它就是 Z[√d]，完全正确；若 d ≡ 1 (mod4)，则是 Z[(1 + √d)/2]，完全正确。
+Exactly: so if d is congruent to 2 or 3 mod 4, it's just Z join root D, exactly; and if d is congruent to 1 mod 4, exactly.
+
+146
+00:36:54,610 --> 00:37:01,520
+所以我们确切知道这个环是什么，而且这个环是一个戴德金整环。
+So we know exactly what this thing is, and this thing is a Dedekind domain.
+
+147
+00:37:01,520 --> 00:37:15,328
+记住，要证明一个环是戴德金整环，你需要证明对每个理想，你都可以乘以另一个理想，使得它们的乘积为主理想；这就是你需要证明的。
+Remember, to prove something is a Dedekind domain, you need to show that for every ideal, you can multiply by some other ideal, and that product had better be principal; that's what you need to show.
+
+148
+00:37:15,328 --> 00:37:44,806
+书中在阿廷命题中展示了这一点——我想是命题 10.8.10，因为命题 10.8.10指出：若 I 是这个 O_K（这个环）的一个理想，
+And this is shown in the book in the guise of Artin's proposition... I think this is 10.8.10, proposition 10.8.10, because what proposition 10.8.10 says is that if I is an ideal of this O_K,
+
+149
+00:37:44,806 --> 00:38:03,053
+确切地说是 O_K 的理想，那么我想阿廷使用的是上划线记号；为了与格罗斯教授保持一致，我要使用撇号记号。
+this thing, an ideal of O_K, then I think that Artin uses the notation bar; to be consistent with Professor Gross, I'm going to use the notation prime.
+
+150
+00:38:03,053 --> 00:38:14,293
+所以我要考虑所有形如 α' = a - b√d 的集合，其中 α 写为a + b√d 遍历 I。
+So I'm going to consider the set of all alpha primes, a - b root D, as alpha, being written in the form a + b root D, ranges over I.
+
+151
+00:38:14,293 --> 00:38:25,149
+在虚二次域的情形下，这其实就是复共轭，一般使用的术语是"共轭"，这就是 α 的共轭。
+Now in the case of some quadratic imaginary field, this is really just complex conjugation, and in general the term you use is conjugate, this is the conjugate of alpha.
+
+152
+00:38:25,149 --> 00:38:46,611
+所以如果有人谈到共轭，他们在嵌入复数的情形下往往指复共轭；但一般而言，就是将 a + b√d 映为 a - b√d。这清楚了吗？有疑问吗？我讲得太快了吗？
+So if somebody talks about the conjugate, they often mean the complex conjugate in the case of something that embeds in the complex numbers in this way; but in general, just this a - b root D as the image of a + b root D. Is that pretty clear? Any questions? Am I going too fast?
+
+153
+00:38:46,611 --> 00:39:07,331
+好的。所以这是一个满足下列性质的理想：I 与 I' 的乘积是由 n 生成的主理想，其中 n 不仅是O_K 的某个元素，而且实际上属于 Z。
+All right. So this is an ideal satisfying: the product of I and I prime is the principal ideal generated by n, where n is not just some element of O_K, but is in fact in Z.
+
+154
+00:39:07,331 --> 00:39:28,377
+这已得到证明，这是一个优美的小结论，我不打算现在过一遍证明，它在指定的阅读材料中；但这特别证明了这个环是戴德金整环。所以这棒极了，清楚了吗？
+So this is proved, this is a lovely little result, and I'm not going to go through the proof now, it was in the assigned reading, but this in particular shows that this thing is a Dedekind domain. So that's fabulous, is that pretty clear?
+
+155
+00:39:28,377 --> 00:39:57,335
+事实是这其实是一个非常一般的结论：实际上，如果你有任何包含 Q 且在 Q 上是有限维的域，那么若考察该域中的代数整数集合，那么它首先是一个环，但其次且更重要的是，它其实是一个戴德金整环。
+So the fact is that this is actually a very general result: in fact, if you have any field which contains Q and which is of finite dimension over Q, then that thing is in fact... if you consider the set of algebraic integers in that field, then that thing is first of all a ring, but secondly and more importantly, it's actually a Dedekind domain.
+
+156
+00:39:57,335 --> 00:40:15,623
+所以一般事实是：这推广到包含 Q 且在 Q 上的维数有限的域 K。
+So the general fact is: this generalizes to fields K that contain Q and such that the dimension over Q of K is finite.
+
+157
+00:40:15,623 --> 00:40:29,319
+你再次定义 O_K 为 K 中的代数整数环，关键在于它首先是一个环，但更重要的是它是一个戴德金整环。
+So you define again O_K equals algebraic integers in K, and the point is this thing is first of all a ring, but more importantly it's a Dedekind domain.
+
+158
+00:40:30,360 --> 00:40:41,375
+这是一套重要的理论，但目前我们满足于只处理 Q(√d)。Q(√d) 在 Q 上的维数是多少？
+This is an important theory, but for now we're satisfied with just dealing with Q join root D. What's the dimension of Q join root D over Q?
+
+159
+00:40:41,375 --> 00:41:05,320
+2。维数是 2，因为每个元素都形如 a + b√d，所以你有这两个参数，这两个有理参数 a 和 b；换句话说，你在 Q 上有一组基 {1, √d}。好的，这里有一个关于戴德金整环中理想结构的有用结论。
+Two. The dimension is 2, because you have everything being of the form a + b square root D, so you have these two parameters, these two rational parameters a and b, or put in another way, you have a basis 1 and root D over Q.
+
+160
+00:41:24,545 --> 00:41:39,240
+戴德金整环的核心要义在于：尽管你未必拥有唯一因式分解——所以这些环一般不是 UFD，你无法将其完美嵌入到我们之前谈到的包含层级中—
+So the whole point of Dedekind domains is somehow that although you don't necessarily have unique factorization—so these things are not in general UFDs, you have no sort of way of fitting this nicely into the filtration that we talked about before—
+
+161
+00:41:39,240 --> 00:41:46,849
+—因此你不一定拥有分解为不可约元的美妙性质，但你确实有一个在某些方面同样优秀的替代品。
+so you don't necessarily have this nice factorization into irreducibles, but you do have a sort of a substitute which is in some ways just as good.
+
+162
+00:41:46,849 --> 00:42:09,662
+这个替代品是这样的，它是一个极好极好的替代品：假设我们有一个戴德金整环——记作 Ded Dom，这只是缩写——并假设在该戴德金整环中有一个非零理想 I。
+So here's what the substitute is, and it works out as a really, really great substitute: so let's assume that I have a Dedekind domain—so "Ded Dom", it's just an abbreviation—and suppose I have some nonzero ideal in that Dedekind domain.
+
+163
+00:42:09,662 --> 00:42:44,064
+定理指出 I 可以被唯一表示：存在唯一的方式来表示一个理想；你未必能以优美且唯一的方式分解元素，但至少能以优美的方式处理理想：I 可以被唯一表示为 I = P₁ ... P_k，其中 P_i 是非零素理想。
+The theorem is that I can be written uniquely: so there's some unique way of writing an ideal; you can't necessarily write elements in some sort of nice unique way, but at least you can get at the ideals in a nice way: so I can be written uniquely as I = P1 through PK, where Pi are nonzero primes, prime ideals.
+
+164
+00:42:44,064 --> 00:43:01,603
+我们有这些素理想，可以谈论R 的素理想，这个结论表明它告诉了我们该环理想结构的全部信息，因为每个理想都可以被唯一表示，
+So I have these prime ideals, I can talk about the prime ideals of R, and what this result says is that tells me everything about the ideal structure of this ring, because every ideal can be written uniquely up to reordering;
+
+165
+00:43:01,603 --> 00:43:07,120
+仅在重排意义下唯一；而且这里完全就是字面意义上的重排，没有任何附加限制，没有相伴元这回事！
+but here it's just legitimately up to reordering, there's no additional caveat, there are no associates or anything like that!
+
+166
+00:43:07,120 --> 00:43:14,923
+所有关于相伴元的理论都直接内置在理想结构本身中了。
+All the theory of associates and so on is built directly into the ideal structures.
+
+167
+00:43:14,923 --> 00:43:27,240
+所以除了顺序重排之外，无需担心任何事情：任何理想都可以唯一写成这些素理想的乘积。这是一个非常非常漂亮的定理。
+So there's no need to worry about anything other than reordering: so anything can be written uniquely as a product of these primes. This is a very, very nice result.
+
+168
+00:43:27,240 --> 00:43:37,869
+例如，如果你想证明某个理想是主理想——如果你想证明一个戴德金整环，假设你已知某个环是戴德金整环，而你想证明它是主理想整环，
+So for instance, if you wanted to prove that something was principal—if you wanted to prove that a Dedekind domain, suppose you already knew that something was a Dedekind domain and you want to show it was a principal ideal domain,
+
+169
+00:43:37,869 --> 00:43:51,475
+例如，你只需考察素理想，因为你知道每个理想都是素理想的乘积。所以你只需证明所有素理想都是主理想，即可证明每个理想都是主理想。
+for instance, it would suffice to consider the prime ideals, because you know that every ideal is a product of the prime ideals. So you just have to show that the prime ideals are principal, and that would show that every ideal is principal.
+
+170
+00:43:51,475 --> 00:43:57,919
+这是非常优美的结论，它揭示了为什么这些环如此重要的原因之一。
+This is a very nice sort of results; it sort of gets at I guess somehow one of the reasons that these things are important.
+
+171
+00:43:57,919 --> 00:44:02,496
+"打扰一下，请问怎么知道素理想的乘积是主理想？"
+"Excuse me, yeah, absolutely, how do you know that the product of prime ideals is principal?"
+
+172
+00:44:02,496 --> 00:44:15,920
+噢，一般情况下乘积不是主理想……抱歉，如果每个素理想都是主理想，那么每个素理想都形如 (p₁)……由假设这些理想都是主理想，
+Oh, it's not in general the product... I'm sorry, if every prime ideal is principal, then each of these things would look like (p₁)... By hypothesis these things are all principal,
+
+173
+00:44:15,920 --> 00:44:31,000
+所以我可以把它们写为(p₁) 到 (p_k)；而这些理想的乘积——记住我之前提到过 (a)(b) = (ab)——由归纳法就会蕴含该乘积就是 (p₁ ... p_k)。
+so I can write these as (p₁) up through (p_k); and the product of these ideals—remember I mentioned before that (a)(b) = (ab)—well, that would imply that you know by induction that this thing is just (p₁ ... p_k).
+
+174
+00:44:31,000 --> 00:44:57,869
+所以该理想是主理想，这清楚了吗？懂了？好的，太好了。正如我所说，这提供了一种挽救唯一因式分解的方法。
+So this thing is principal, is that clear? Yeah? Okay, great. So as I said, this gives a way of salvaging unique factorization.
+
+175
+00:44:57,869 --> 00:45:19,680
+例子：在 Z[√-5] 中，我们有对 6 的这两种不可约元因式分解：这些元素都是不可约的，所以我们没有分解为不可约元的唯一分解。
+Example: in Z join root minus 5, we have these two factorizations into irreducibles: so these are all irreducible, so we don't have unique factorization into irreducibles.
+
+176
+00:45:19,680 --> 00:45:28,960
+但根据我现在正擦掉的这个定理——记住这个环是戴德金整环——我们确实拥有分解为素理想的唯一分解。
+But by this result, which I'm erasing now— remember this thing is a Dedekind domain—so we do have unique factorization into prime ideals.
+
+177
+00:45:32,680 --> 00:45:57,200
+这就是它分解为素理想的唯一因式分解：(2, 1 + √-5)(2, 1 - √-5)——如果我漏写了负号，大家可以自己补上——乘上 (3, 1 + √-5)(3, 1 - √-5)。
+And here is its unique factorization to prime ideals: 2 join 1 + root 5, 2 join 1... if I'm leaving minuses off, then you can add them yourself— times 3 join 1 + root -5, 3 join 1 - root -5.
+
+178
+00:45:58,600 --> 00:46:12,638
+好的，这就是唯一因式分解。所以这是在素理想意义下的唯一因式分解。
+Okay, and this is a unique factorization. So this is unique, unique factorization into prime ideals.
+
+179
+00:46:12,638 --> 00:46:30,171
+其中每一个都是素理想的事实我不再详述，但只需指出：模去它的商是 Z/2Z，模去它是 Z/2Z，模去它是 Z/3Z，模去它是 Z/3Z。请问？你是怎么构造出那个分解式的？
+The fact that each of these is a prime ideal is something that I won't go into, but suffice it to say that the quotient by this is Z mod 2, quotient by this is Z mod 2, quotient by this is Z mod 3, quotient by this is Z mod 3. Yes? How did you generate that factorization?
+
+180
+00:46:30,171 --> 00:46:41,055
+这通常很难，超出了本讲的范围，但第 11.10 节给出了如何实现它的线索；事实上，不仅是线索，它实际上介绍了一种机械化计算的方法，
+That's in general hard, and it's sort of beyond the scope of this lecture, but there's a hint of how that's done in Section 11.10; in fact, beyond a hint of it, I mean it sort of actually goes through a way of mechanically doing this,
+
+181
+00:46:41,055 --> 00:46:53,359
+但这是一个算法化的过程，并不是先验上很有趣的东西，但确实有办法做到这一点，有一种系统化的方法。
+but it's an algorithmic process, it's not one that's a priori interesting, but there is a sort of way of doing this, there is a systematic way of doing this.
+
+182
+00:46:57,560 --> 00:47:07,823
+所以在为周一的讲座做准备时，我想谈的最后一件事是理想类群。
+So the final thing I want to talk about in preparation for Monday's lecture is class groups.
+
+183
+00:47:07,823 --> 00:47:21,812
+这些是可以赋予戴德金整环的数学对象，它们非常非常有用，因为它们对以下结论提供了一种回应。
+So these are these things that you can attach to Dedekind domains, and they're very, very useful because they sort of provide a response to the following result.
+
+184
+00:47:21,812 --> 00:47:42,648
+结论如下：R 是主理想整环，当且仅当 R 既是唯一分解整环又是戴德金整环。
+So here is a result: R is a principal ideal domain if and only if R is a unique factorization domain—so remember, unique factorization domain and a Dedekind domain.
+
+185
+00:47:42,648 --> 00:47:57,839
+这两个方向中有一个很难：从 UFD 加上戴德金整环推出主理想整环需要做不少工作，我就不讲了；但有一个方向很容易：从 PID 推出它们很容易。为什么容易？
+Now one of these directions is hard: going from UFD and Dedekind domain to principal ideal domain requires a little work, I will not go through it; but there is one direction which is easy: going from here to here is easy. Why is it easy?
+
+186
+00:47:57,839 --> 00:48:07,933
+有人能快速证明一下：如果我有一个主理想整环，那么它既是 UFD 又是戴德金整环吗？
+Can somebody give me a quick proof of the fact that if I have a principal ideal domain, then it's a UFD and a Dedekind domain?
+
+187
+00:48:07,933 --> 00:48:13,698
+完全正确！第一步是：对，我们已经知道 PID 自动是 UFD。
+Absolutely! So first step is that, yes, we already know that PIDs are automatically UFDs.
+
+188
+00:48:13,698 --> 00:48:31,173
+所以只需证明它是戴德金整环，而且然后……记住戴德金整环的定义是：对每个 I，我们都要找到某个 J 使得 IJ 是主理想，对吧？
+So it suffices to show it's a Dedekind domain, and then... Well, remember the definition of Dedekind domain was that for every I we had to find some J such as this thing is principal, right?
+
+189
+00:48:31,173 --> 00:48:45,817
+完全正确！我只需取单位理想：从任意理想出发，我已知它是主理想，它由某个 r 生成，我只需乘以单位理想，得到的就是主理想。
+Well, exactly! So I mean exactly, I could just take the unit ideal: I just start out with any ideal, I already know it's principal, it's generated by some r, and I just multiply by the unit ideal, and that gives me something principal.
+
+190
+00:48:45,817 --> 00:48:55,393
+所以这自动成立：对我拥有的任意理想，都存在一个非零理想使得乘积为主理想。清楚了吗？
+So it's automatically true that for any ideal I have, there is some nonzero ideal I can multiply by to get something principal. Is that clear?
+
+191
+00:48:55,393 --> 00:49:09,218
+好的，所以要证明：我需要证明对每个理想……对，都存在第二个理想：对所有 I，都存在非零理想 J，使得乘积为主理想。
+Okay, so trying to show: I need to show that for every ideal, yeah, there is some second ideal: so for all I, there exists some J which is not zero such that this thing is principal.
+
+192
+00:49:09,218 --> 00:49:26,706
+我从某个理想出发，已知它是主理想，因为按假设我们在 PID 中；所以该理想起初就等于 (r)，然后我可以乘以单位理想，乘积依然为主理想。这清楚了吗？
+So I start out with some ideal, I already know it's principal because I'm in a PID; by hypothesis I have a PID, so this thing equals something generated by r to start with, then I can multiply by say the unit ideal, and this thing is principal. Is that clear?
+
+193
+00:49:26,706 --> 00:49:41,079
+好的。所以一个方向很容易；另一个方向实际上依赖于证明戴德金整环具有这样一个优美性质：它们的理想可以由两个元素生成：它们可能不是主理想，但总是可以由两个元素生成。
+Yeah, good. Okay, so one direction is easy; the other direction relies on showing effectively that Dedekind domains have the beautiful property that they can be generated by two elements: they may not be principal, but they can be always generated by two elements.
+
+194
+00:49:41,079 --> 00:49:54,248
+由此不难证明，一旦你能证明这一点，那么加上唯一因式分解就蕴含每个理想都是主理想，这就不难证明了。
+And from that it's not that hard, I mean, once you can show that, then it's not that hard to show that unique factorization in addition implies that every ideal is principal.
+
+195
+00:49:54,248 --> 00:50:08,040
+所以在戴德金整环中存在一个子类，那就是主理想整环。你可能会问：有没有某种尺度来衡量一个戴德金整环离成为主理想整环有多远？
+So there's there's a sort of subclass of the Dedekind domains, and those are the principal ideal domains. And you might ask: is there some measure of how far a Dedekind domain is from being a principal ideal domain?
+
+196
+00:50:08,040 --> 00:50:15,152
+你有这些主理想整环，有这些戴德金整环，于是有这样一个问题：它们如何对应？
+So you have these principal ideal domains, you have these Dedekind domains, and there's a sort of question: how do those fit in?
+
+197
+00:50:15,152 --> 00:50:20,795
+你如何能近乎把所有戴德金整环模去所有主理想整环的集合？
+How can you sort of almost quotient out the set of all Dedekind domains by the set of principal ideal domains?
+
+198
+00:50:20,795 --> 00:50:30,660
+有这样一种度量方式，一种对戴德金整环进行分层的方法，这就是具体做法。
+And there's a sort of way of measuring that out, a way of sort of creating a stratification of Dedekind domains, and here's the way of doing that.
+
+199
+00:50:30,660 --> 00:50:55,864
+这是一个新概念，那就是理想类群。这衡量了一个戴德金整环距离成为 PID 有多远。太好了。
+So this is a new idea, and that is class groups. So this measures how far a Dedekind domain is from being a PID. Great.
+
+200
+00:50:55,864 --> 00:51:26,562
+好的，为了定义理想类群，或者说定义戴德金整环的理想类群——为了定义戴德金整环 R 的理想类群，我们在理想集合上定义一个等价关系。
+Okay, so to define a class group, or to define the class group of the Dedekind domain—to define the class group of the Dedekind domain R, then we define an equivalence relation on the set of ideals.
+
+201
+00:51:26,562 --> 00:51:45,360
+我们规定两个理想 I 和 J 等价——这是我们的定义，这是我们定义的等价关系：它们等价当且仅当存在 R 中的元素 r, s 使得 r I = s J，且这些元素非零：r ≠ 0 且 s ≠ 0。
+So we say that two ideals I and J are equivalent—this is our definition, this is the relation we define: they're equivalent if and only if there exist some elements of R such that r I = s J, and these things are not zero: so r is not zero and s is not zero.
+
+202
+00:51:45,360 --> 00:51:57,741
+否则这总是平凡成立的，所有理想都会等价。所以假设存在非零元素，使得你可以交叉相乘得到相等。
+Otherwise the thing would always be trivially true, all these things would be related. So the assumption is that there are some nonzero things which you can sort of cross multiply to get an equality.
+
+203
+00:51:57,741 --> 00:52:19,799
+而这构成一个等价关系等等，你想利用它是戴德金整环这一事实——在一般的环中行不通，你确实需要处理像这些二次环。
+And the fact that this is an equivalence relation and so on, you want to be able to use the fact that it's a Dedekind domain—this doesn't work in sort of general things, I mean you really need to be sort of working with, you know, something like say these quadratic rings.
+
+204
+00:52:21,960 --> 00:53:00,307
+我们用 [I] 表示 I 的等价类，称其为 I 的理想类；所以 [I] 是I 的理想类，即在此关系下的等价类。然后我们把所有理想类的集合定义为一个集合。
+So we're going to let angle brackets I denote the equivalence class of I, we call this the ideal class of I; so angle brackets I is the ideal class of I, it's the equivalence class under this relation. And then we do is we define as a set the set of all ideal classes.
+
+205
+00:53:00,307 --> 00:53:29,547
+我只想在此说明一点：我排除了 I 和 J 为零理想的情况，在这些讨论中我总是忽略零理想；所以对于 I ≠ (0)，我们定义这个等价类；这是所有理想类的集合，或者换句话说，这是当 I 遍历非零理想时所有 [I] 的集合。
+I just want to make one note here: I exclude I and J from being the zero ideal, so I always forget in all this about the zero ideal; so again for I not equal to zero, we define this equivalent class, so this is a set of all ideal classes, or put in another way, this is a set of all angle bracket I as I ranges over nonzero ideals.
+
+206
+00:53:29,547 --> 00:53:42,680
+这里再次用到了我们工作在戴德金整环中这一事实。
+And here again is a use of the fact that we're working in a Dedekind domain.
+
+207
+00:53:43,599 --> 00:53:59,443
+命题：如果我们定义理想类 [I] 与理想类 [J] 的乘积为乘积理想的理想类——记住，我们定义了理想的乘法，并得到一个理想，所以它有美妙的理想类等等—
+Proposition: if we define the multiple of the ideal class of I by the ideal class of J to be the ideal class of the product—so remember, we define multiplication ideal and that gave us an ideal, so it has this lovely ideal class and everything—
+
+208
+00:53:59,443 --> 00:54:15,040
+—如果我们这样定义乘积，那么这良定义了……良定义，这确实是良定义的，换句话说，如果我们为 I 选取不同的代表元等等，一切都吻合。
+so if we define the product this way, then so this defines... well-defines, this is really well-defined, in other words if we choose a different representative for I and so on, everything works out.
+
+209
+00:54:15,040 --> 00:54:44,082
+对，所以这是 Cl(R)，即 R 的理想类群，与书中的记号一致；我使用的是……我使用的是阿廷的记号，尽管它有点非标准。所以这良定义了Cl(R)（R 的理想类群）上的群结构。
+Yeah, so this is Cl(R), the class group of R, it's the same notation as in the book; I'm using... I'm using Artin's notation, even though it's a little non-standard. So this well-defines a group structure on Cl(R), the class group of R.
+
+210
+00:54:44,082 --> 00:55:25,470
+基本要点在于……这里还有另一个快速的结论，这很容易证明，一个容易的命题：如果我有一个戴德金整环，那么 R 是 PID 当且仅当 R 的理想类群是平凡群。
+And the basic point is that... so here's another sort of quick result, and this is easy to prove, an easy proposition: so if I have a Dedekind domain, then R is a PID if and only if the class group of R is trivial.
+
+211
+00:55:25,470 --> 00:55:34,240
+平凡意味着它是平凡群，即……记住这是一个群，我们刚刚赋予了它群结构，所以它是一个群。
+Trivial means it is the trivial group, is the... So remember this thing is a group, we just gave it a group structure, so this thing is some group.
+
+212
+00:55:34,240 --> 00:55:45,650
+它不是空的，因为比如我有单位理想的类，而且结论表明唯一的类就是单位理想的类。为什么成立呢？这基本上是显然由定义得出的。
+Well, it's not empty, because I have the class of the unit ideal, for instance, and what this says is that the only class is the class of the unit ideal. And why is that true? Well, it's just sort of by definition.
+
+213
+00:55:45,650 --> 00:55:50,065
+看其中一个方向：假设从 PID 推导这个结论。
+Well, here's one of the directions: I mean suppose we go from PID to this result.
+
+214
+00:55:50,065 --> 00:56:01,711
+核心思想是，我知道我拥有的任意理想都可以写成 (a) 和 (b)，然后我知道 b I = a J。
+Well, the idea is that I know that I can write any ideals I have as (a) and (b), and then I know that b I = a J.
+
+215
+00:56:01,711 --> 00:56:09,043
+这意味着 I 和 J 在等价关系下相关联，从而 I 和 J 属于同一个类。
+So that means that I and J are related under the equivalence relation, so I and J are in the same class.
+
+216
+00:56:09,043 --> 00:56:19,879
+所以任意两个理想都属于同一个类，另一个方向也同样容易。
+So any two ideals are in the same class, and the other direction is just as easy.
+
+217
+00:56:19,879 --> 00:56:40,919
+最后一点说明——我意识到时间不早了，但最后一点说明是：每当我有比如这些二次整数环，或者更一般地，某个更大数域中的代数整数环，其理想类群都是有限群。
+And one last sort of remark—I realized it's getting late, but one sort of last remark is that whenever I have say, you know, one of these rings of quadratic integers, or more generally the ring of algebraic integers in some larger field, then the class group is finite.
+
+218
+00:56:40,919 --> 00:56:59,138
+所以最后有两个主题：理想类群是有限的；最后我给大家举一个例子来结束：如果我考虑Q(√-5) 中的代数整数环的理想类群，
+So there are two last sort of themes here: class groups are finite, and I'll just give you an example of that to finish this off. So if I consider the class group of the set of algebraic integers in Q join join root minus 5,
+
+219
+00:56:59,138 --> 00:57:25,601
+它由单位理想的类以及由(2, 1 + √-5) 生成的理想的类组成，因此当然同构于 Z/2Z，关键在于如果我将理想 (2, 1 + √-5) 平方，就会得到一个主理想，但它自身不是主理想。
+this thing looks like it consists of the class of the unit ideal and the class of the ideal generated by 2 1 + root minus 5, and is isomorphic of course therefore to Z mod 2 Z, the point being that if I Square the ideal 2 1 + root minus 5, then I get a principal ideal, but it itself is not principal.
+
+220
+00:57:25,601 --> 00:58:04,492
+更一般地，为了计算这些对象——即计算 d 为负时 Q(√d) 的代数整数环的理想类群——请看第 11.10 节，那是周一的阅读材料。这里推导了一切，推导出了一个寻找理想类群的算法。
+And um more generally to calculate these things so to calculate the class group of o q join root D where D is negative look at section 11.10 that's the reading for Monday this is worked out there's an algorithm for finding the class Group which is worked out

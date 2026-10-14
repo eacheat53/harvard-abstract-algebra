@@ -1,0 +1,3840 @@
+1
+00:00:11,600 --> 00:00:15,890
+I haven't got the exact homework
+
+2
+00:00:14,240 --> 00:00:17,300
+problems up yet Peters checking the web
+
+3
+00:00:15,890 --> 00:00:19,550
+because we did a little changing around
+
+4
+00:00:17,300 --> 00:00:21,410
+from what I have the Wednesday before
+
+5
+00:00:19,550 --> 00:00:24,860
+Thanksgiving we discussed the notion of
+
+6
+00:00:21,410 --> 00:00:27,620
+a ring our being an integral domain the
+
+7
+00:00:24,860 --> 00:00:29,210
+important class of rings and in fact all
+
+8
+00:00:27,620 --> 00:00:31,550
+the rings are going to study from now on
+
+9
+00:00:29,210 --> 00:00:33,559
+are going to be integral domains so an
+
+10
+00:00:31,550 --> 00:00:39,280
+integral domain is that got the property
+
+11
+00:00:33,559 --> 00:00:39,280
+that if a times B is equal to zero in R
+
+12
+00:00:39,940 --> 00:00:48,320
+then either a is equal to zero or B is
+
+13
+00:00:46,339 --> 00:00:50,449
+equal to zero you know are namely no
+
+14
+00:00:48,320 --> 00:00:53,180
+product is zero unless it's stupidly
+
+15
+00:00:50,449 --> 00:00:57,909
+zero it's it's multiplication of
+
+16
+00:00:53,180 --> 00:01:04,100
+something by 0 so as examples of domains
+
+17
+00:00:57,909 --> 00:01:09,020
+we had the integers we had polynomials
+
+18
+00:01:04,100 --> 00:01:12,460
+over a field we if R as an integral
+
+19
+00:01:09,020 --> 00:01:12,460
+domain so is R of X
+
+20
+00:01:17,880 --> 00:01:25,569
+polynomials over our so we have many
+
+21
+00:01:20,770 --> 00:01:29,079
+examples of domains non-examples our
+
+22
+00:01:25,569 --> 00:01:33,600
+rings like Z mod for Z where 2 times 2
+
+23
+00:01:29,079 --> 00:01:36,579
+is equal to 0 but neither 2 or 2 is 0
+
+24
+00:01:33,600 --> 00:01:38,079
+and what we showed on Wednesday for
+
+25
+00:01:36,579 --> 00:01:40,599
+those of you who took a quick break is
+
+26
+00:01:38,079 --> 00:01:45,700
+associated to any integral domain is a
+
+27
+00:01:40,599 --> 00:01:54,009
+natural field which we could call the
+
+28
+00:01:45,700 --> 00:01:57,579
+field of fractions that contains R as a
+
+29
+00:01:54,009 --> 00:01:59,770
+sub ring and it's somehow the smallest
+
+30
+00:01:57,579 --> 00:02:01,869
+field that can contain are in the sense
+
+31
+00:01:59,770 --> 00:02:07,479
+that all you've done is formally invert
+
+32
+00:02:01,869 --> 00:02:09,700
+nonzero elements and the way we define
+
+33
+00:02:07,479 --> 00:02:11,859
+this field of fractions just to recall
+
+34
+00:02:09,700 --> 00:02:13,120
+this for you Oh Peter you have the
+
+35
+00:02:11,859 --> 00:02:14,500
+homework 1 and I put it up while
+
+36
+00:02:13,120 --> 00:02:16,480
+everyone gets seated now that they've
+
+37
+00:02:14,500 --> 00:02:19,299
+come out of these Thanks eleven point
+
+38
+00:02:16,480 --> 00:02:23,920
+one point one eleven point one point
+
+39
+00:02:19,299 --> 00:02:26,410
+four eleven point one point five eleven
+
+40
+00:02:23,920 --> 00:02:29,500
+point two point two eleven point two
+
+41
+00:02:26,410 --> 00:02:35,290
+point five and eleven point two point
+
+42
+00:02:29,500 --> 00:02:38,560
+eleven Part A there we go thanks Peter
+
+43
+00:02:35,290 --> 00:02:40,569
+well done anyhow the way we define the
+
+44
+00:02:38,560 --> 00:02:43,120
+field of fractions just to recall it for
+
+45
+00:02:40,569 --> 00:02:45,579
+you was F was defined as a set modulo an
+
+46
+00:02:43,120 --> 00:02:48,489
+equivalence relation and it was the set
+
+47
+00:02:45,579 --> 00:02:52,569
+of all expressions of the form a over B
+
+48
+00:02:48,489 --> 00:02:55,269
+where B was not equal to zero in R and a
+
+49
+00:02:52,569 --> 00:02:58,290
+was an arbitrary element in R so that's
+
+50
+00:02:55,269 --> 00:03:01,569
+what I mean by fractions but you have to
+
+51
+00:02:58,290 --> 00:03:03,340
+take these the equivalence classes on
+
+52
+00:03:01,569 --> 00:03:05,500
+that set where you said that the
+
+53
+00:03:03,340 --> 00:03:08,139
+fraction a over B was equivalent to the
+
+54
+00:03:05,500 --> 00:03:12,459
+fraction a prime over B prime if and
+
+55
+00:03:08,139 --> 00:03:16,239
+only if a B prime was equal to a prime B
+
+56
+00:03:12,459 --> 00:03:18,310
+in R so if you constructed the field of
+
+57
+00:03:16,239 --> 00:03:19,900
+fractions from the integers you would
+
+58
+00:03:18,310 --> 00:03:21,400
+get the rational numbers and you have to
+
+59
+00:03:19,900 --> 00:03:23,769
+remember that 2/6 this is the same
+
+60
+00:03:21,400 --> 00:03:25,859
+rational numbers as 1/3 even though
+
+61
+00:03:23,769 --> 00:03:28,419
+they'd look like different symbols here
+
+62
+00:03:25,859 --> 00:03:29,569
+so the last time what we showed on
+
+63
+00:03:28,419 --> 00:03:31,549
+Wednesday and it's a 1
+
+64
+00:03:29,569 --> 00:03:34,569
+careful thing that's discussed in the
+
+65
+00:03:31,549 --> 00:03:38,150
+last part of chapter 10 in the book hmm
+
+66
+00:03:34,569 --> 00:03:40,099
+is that on this set of equivalence
+
+67
+00:03:38,150 --> 00:03:43,489
+classes you can put in addition and a
+
+68
+00:03:40,099 --> 00:03:47,959
+multiplication and you in bed are are is
+
+69
+00:03:43,489 --> 00:03:50,239
+embedded in F by taking a to the
+
+70
+00:03:47,959 --> 00:03:53,540
+fraction a over one or the equivalence
+
+71
+00:03:50,239 --> 00:03:56,419
+class of a over one and that gives
+
+72
+00:03:53,540 --> 00:04:03,459
+inverses because now the inverse this
+
+73
+00:03:56,419 --> 00:04:06,079
+has inverse the fraction one over a if a
+
+74
+00:04:03,459 --> 00:04:09,109
+is nonzero you can only make a fraction
+
+75
+00:04:06,079 --> 00:04:12,169
+where the denominator is nonzero so this
+
+76
+00:04:09,109 --> 00:04:13,849
+is just big enough set to contain the
+
+77
+00:04:12,169 --> 00:04:15,829
+inverses and you can do this for any
+
+78
+00:04:13,849 --> 00:04:18,440
+domain and we identified the field of
+
+79
+00:04:15,829 --> 00:04:20,150
+fractions for these various domains it's
+
+80
+00:04:18,440 --> 00:04:21,889
+more of a convenience to know that
+
+81
+00:04:20,150 --> 00:04:25,039
+you're the domain is sitting somewhere
+
+82
+00:04:21,889 --> 00:04:26,570
+inside of a field that it sits as Peter
+
+83
+00:04:25,039 --> 00:04:29,150
+would say it increases your comfort
+
+84
+00:04:26,570 --> 00:04:30,860
+level with the domain so we're gonna go
+
+85
+00:04:29,150 --> 00:04:32,870
+on now and study some wonderful
+
+86
+00:04:30,860 --> 00:04:35,599
+properties of domains related to
+
+87
+00:04:32,870 --> 00:04:38,659
+factorization of elements and domains
+
+88
+00:04:35,599 --> 00:04:40,550
+that are all intended to generalize the
+
+89
+00:04:38,659 --> 00:04:43,190
+question of factorization of an integer
+
+90
+00:04:40,550 --> 00:04:46,340
+into primes one of the big theorems of
+
+91
+00:04:43,190 --> 00:04:53,479
+classical arithmetic now if we do
+
+92
+00:04:46,340 --> 00:04:58,940
+factorization in the ring are in the
+
+93
+00:04:53,479 --> 00:05:00,560
+domain R equals e and you follow the way
+
+94
+00:04:58,940 --> 00:05:02,990
+you prove your Nissa T of prime
+
+95
+00:05:00,560 --> 00:05:04,580
+factorization in Euclid it starts off
+
+96
+00:05:02,990 --> 00:05:06,770
+with the first property that we prove
+
+97
+00:05:04,580 --> 00:05:09,770
+about the integers is the existence of
+
+98
+00:05:06,770 --> 00:05:12,669
+Euclidean algorithm so that's the
+
+99
+00:05:09,770 --> 00:05:12,669
+Euclidean algorithm
+
+100
+00:05:15,410 --> 00:05:22,190
+which says that if you have two integers
+
+101
+00:05:17,570 --> 00:05:23,720
+a and B with a less than B or maybe the
+
+102
+00:05:22,190 --> 00:05:25,490
+absolute value of a less than the apse
+
+103
+00:05:23,720 --> 00:05:27,500
+and absolute value of B because they
+
+104
+00:05:25,490 --> 00:05:30,680
+could be negative integers then you can
+
+105
+00:05:27,500 --> 00:05:33,890
+write B is a multiple of A plus a
+
+106
+00:05:30,680 --> 00:05:36,560
+remainder term where the remainder is a
+
+107
+00:05:33,890 --> 00:05:38,330
+positive number which is less than the
+
+108
+00:05:36,560 --> 00:05:40,430
+absolute value of a so you can always
+
+109
+00:05:38,330 --> 00:05:43,100
+take away a multiple of a from B to
+
+110
+00:05:40,430 --> 00:05:44,690
+leave a term which is less than or equal
+
+111
+00:05:43,100 --> 00:05:47,150
+to the absolute value of a that's more
+
+112
+00:05:44,690 --> 00:05:50,360
+or less obvious from the geometric
+
+113
+00:05:47,150 --> 00:05:52,820
+description of the of the of the
+
+114
+00:05:50,360 --> 00:05:55,130
+integers so here would be B here would
+
+115
+00:05:52,820 --> 00:06:00,620
+here be your smaller number a you March
+
+116
+00:05:55,130 --> 00:06:02,240
+out and ma would be the last time you've
+
+117
+00:06:00,620 --> 00:06:04,700
+got something that was strictly less
+
+118
+00:06:02,240 --> 00:06:08,090
+than B and then M plus one a would be
+
+119
+00:06:04,700 --> 00:06:11,120
+here and so the difference between M a
+
+120
+00:06:08,090 --> 00:06:13,430
+and B here's the remainder R would be a
+
+121
+00:06:11,120 --> 00:06:15,770
+number less than a so you can't always
+
+122
+00:06:13,430 --> 00:06:17,840
+divide in the integers but you can you
+
+123
+00:06:15,770 --> 00:06:19,280
+can approximately divide leaving a
+
+124
+00:06:17,840 --> 00:06:21,020
+difference which is smaller than the
+
+125
+00:06:19,280 --> 00:06:22,670
+number you're dividing by that's the
+
+126
+00:06:21,020 --> 00:06:24,950
+principle of the Euclidean algorithm and
+
+127
+00:06:22,670 --> 00:06:26,510
+from the Euclidean algorithm we deduced
+
+128
+00:06:24,950 --> 00:06:28,760
+the number of consequences for the
+
+129
+00:06:26,510 --> 00:06:34,370
+integers and the first one was every
+
+130
+00:06:28,760 --> 00:06:43,180
+ideal every ideal I say not equal to
+
+131
+00:06:34,370 --> 00:06:49,940
+zero is principal and the generator
+
+132
+00:06:43,180 --> 00:06:58,100
+generated by the smallest positive
+
+133
+00:06:49,940 --> 00:06:59,570
+integer D which is in it so in any idea
+
+134
+00:06:58,100 --> 00:07:00,950
+which is nonzero it contains both
+
+135
+00:06:59,570 --> 00:07:02,570
+positive and negative integers you find
+
+136
+00:07:00,950 --> 00:07:04,880
+the smallest positive integer note that
+
+137
+00:07:02,570 --> 00:07:07,580
+then the ideal has to be multiples of D
+
+138
+00:07:04,880 --> 00:07:10,010
+because if you had anything else in the
+
+139
+00:07:07,580 --> 00:07:12,500
+ideal say B in the ideal and you wrote
+
+140
+00:07:10,010 --> 00:07:14,930
+it as a multiple of D plus some
+
+141
+00:07:12,500 --> 00:07:17,000
+remainder term then since B is in the
+
+142
+00:07:14,930 --> 00:07:19,190
+ideal the multiple of D is in the ideal
+
+143
+00:07:17,000 --> 00:07:21,050
+the remainder has to be in the ideal but
+
+144
+00:07:19,190 --> 00:07:22,910
+the remainder is less than B so it has
+
+145
+00:07:21,050 --> 00:07:25,270
+to be zero so that shows that anything
+
+146
+00:07:22,910 --> 00:07:28,540
+in the ideal is a multiple of D so
+
+147
+00:07:25,270 --> 00:07:30,450
+that's the first thing we deduced
+
+148
+00:07:28,540 --> 00:07:33,220
+second thing from that which was quick
+
+149
+00:07:30,450 --> 00:07:39,340
+in particular ideals generated by two
+
+150
+00:07:33,220 --> 00:07:41,680
+elements or principle in particular the
+
+151
+00:07:39,340 --> 00:07:49,170
+ideal I that's generated by two numbers
+
+152
+00:07:41,680 --> 00:07:55,300
+a and B is a principle ideal D with D
+
+153
+00:07:49,170 --> 00:07:57,940
+equal to Ma plus NB because the the
+
+154
+00:07:55,300 --> 00:08:00,520
+ideal generated by two integers consists
+
+155
+00:07:57,940 --> 00:08:02,230
+of all integers of this form that has to
+
+156
+00:08:00,520 --> 00:08:04,840
+be a principle ideal generated by
+
+157
+00:08:02,230 --> 00:08:06,850
+something by part one and consequently
+
+158
+00:08:04,840 --> 00:08:09,190
+whatever generates the ideal has this
+
+159
+00:08:06,850 --> 00:08:11,950
+expression and in fact from that we can
+
+160
+00:08:09,190 --> 00:08:21,520
+conclude that D is the greatest common
+
+161
+00:08:11,950 --> 00:08:24,880
+divisor of a and B first of all it
+
+162
+00:08:21,520 --> 00:08:27,640
+divides a and B because a is in the
+
+163
+00:08:24,880 --> 00:08:30,670
+ideal generated by D so a is a multiple
+
+164
+00:08:27,640 --> 00:08:33,250
+of D it divides B because b is in the
+
+165
+00:08:30,670 --> 00:08:36,099
+ideal generated by D so B is a multiple
+
+166
+00:08:33,250 --> 00:08:39,160
+of D and moreover if you had anything
+
+167
+00:08:36,099 --> 00:08:41,620
+dividing both a and B it would have to
+
+168
+00:08:39,160 --> 00:08:44,080
+divide D by this expression because if
+
+169
+00:08:41,620 --> 00:08:47,140
+it divides a and B it divides M a plus
+
+170
+00:08:44,080 --> 00:08:49,240
+NB so that shows that D is the greatest
+
+171
+00:08:47,140 --> 00:08:51,940
+common divisor it itself is divisible by
+
+172
+00:08:49,240 --> 00:08:53,290
+anything that divides a and B so that
+
+173
+00:08:51,940 --> 00:08:54,880
+just comes from the fact that every
+
+174
+00:08:53,290 --> 00:08:56,230
+ideal is principle applying it to the
+
+175
+00:08:54,880 --> 00:08:58,440
+ideal with two elements you get the
+
+176
+00:08:56,230 --> 00:09:00,460
+existence of the greatest common divisor
+
+177
+00:08:58,440 --> 00:09:02,140
+all right that's the second thing we
+
+178
+00:09:00,460 --> 00:09:04,120
+deduce from the Euclidean algorithm and
+
+179
+00:09:02,140 --> 00:09:06,760
+the third thing we deduce and this is a
+
+180
+00:09:04,120 --> 00:09:15,090
+nice thing that is in Euclid if P is a
+
+181
+00:09:06,760 --> 00:09:20,470
+prime and P divides a product then
+
+182
+00:09:15,090 --> 00:09:22,150
+either P divides a or P divides B this
+
+183
+00:09:20,470 --> 00:09:25,030
+is a symbol for divides I'm not going to
+
+184
+00:09:22,150 --> 00:09:26,950
+keep writing two divides if a prime
+
+185
+00:09:25,030 --> 00:09:29,770
+divides a product it must divide one of
+
+186
+00:09:26,950 --> 00:09:36,460
+the factors and the proof of this it
+
+187
+00:09:29,770 --> 00:09:40,190
+follows from Part two proof if P does
+
+188
+00:09:36,460 --> 00:09:44,630
+not divide a then the GCD
+
+189
+00:09:40,190 --> 00:09:48,020
+of a and P is equal to one because the
+
+190
+00:09:44,630 --> 00:09:49,940
+only divisors of P are 1 and P so if P
+
+191
+00:09:48,020 --> 00:09:52,460
+doesn't divide a the largest divisor of
+
+192
+00:09:49,940 --> 00:09:55,130
+both of these has to be 1 which means
+
+193
+00:09:52,460 --> 00:10:03,860
+that 1 can be written by 2 as a multiple
+
+194
+00:09:55,130 --> 00:10:05,990
+of a plus a multiple of P and now
+
+195
+00:10:03,860 --> 00:10:09,440
+multiply this by B and you get that B is
+
+196
+00:10:05,990 --> 00:10:15,500
+a multiple of a times B plus n times P
+
+197
+00:10:09,440 --> 00:10:17,450
+times B now P divides the quantity a B P
+
+198
+00:10:15,500 --> 00:10:19,850
+certainly divides this because it's a
+
+199
+00:10:17,450 --> 00:10:29,060
+multiple of P so therefore P divides
+
+200
+00:10:19,850 --> 00:10:31,310
+this sum so B is divisible by P but we
+
+201
+00:10:29,060 --> 00:10:34,040
+needed this mysterious expression of one
+
+202
+00:10:31,310 --> 00:10:35,930
+to be able to prove it and we wouldn't
+
+203
+00:10:34,040 --> 00:10:39,860
+this is not obvious at all we're going
+
+204
+00:10:35,930 --> 00:10:42,170
+to have rings where this is false so to
+
+205
+00:10:39,860 --> 00:10:43,550
+prove that a prime which divides the
+
+206
+00:10:42,170 --> 00:10:45,230
+product divides either or the fact that
+
+207
+00:10:43,550 --> 00:10:47,690
+we needed this greatest common divisor
+
+208
+00:10:45,230 --> 00:10:56,120
+and the fourth thing we can deduce from
+
+209
+00:10:47,690 --> 00:11:03,970
+this I'm going to put it up here for is
+
+210
+00:10:56,120 --> 00:11:10,190
+that every integer n has a unique
+
+211
+00:11:03,970 --> 00:11:12,440
+factorization into primes and is equal
+
+212
+00:11:10,190 --> 00:11:15,020
+to well the Pentagon its I and P 1 P 2
+
+213
+00:11:12,440 --> 00:11:16,880
+these could be the same prime they could
+
+214
+00:11:15,020 --> 00:11:18,950
+name the same prime could appear as
+
+215
+00:11:16,880 --> 00:11:20,360
+several times but the key thing is not
+
+216
+00:11:18,950 --> 00:11:21,560
+that it has a factorization that's
+
+217
+00:11:20,360 --> 00:11:23,930
+obvious that you could just keep
+
+218
+00:11:21,560 --> 00:11:26,360
+breaking an integer up into indivisible
+
+219
+00:11:23,930 --> 00:11:27,740
+factors but that the factors themselves
+
+220
+00:11:26,360 --> 00:11:29,870
+are determined by the integer and that
+
+221
+00:11:27,740 --> 00:11:32,900
+has a unique factorization is a powerful
+
+222
+00:11:29,870 --> 00:11:36,890
+theorem about the integers and the
+
+223
+00:11:32,900 --> 00:11:43,870
+reason this follows from 3 is you prove
+
+224
+00:11:36,890 --> 00:11:43,870
+this by induction by induction
+
+225
+00:11:45,220 --> 00:11:52,570
+on the number of factors and just to
+
+226
+00:11:50,650 --> 00:11:57,730
+sketch it I mean suppose and we're also
+
+227
+00:11:52,570 --> 00:12:00,610
+equal to plus or minus q1 up to Q L and
+
+228
+00:11:57,730 --> 00:12:03,550
+this thing with trooper and K was less
+
+229
+00:12:00,610 --> 00:12:05,320
+than or equal to L and this theorem was
+
+230
+00:12:03,550 --> 00:12:08,220
+true for numbers that had less than K
+
+231
+00:12:05,320 --> 00:12:12,910
+prime factors then you would say well
+
+232
+00:12:08,220 --> 00:12:15,280
+look P 1 divides n so it divides a
+
+233
+00:12:12,910 --> 00:12:17,170
+product of primes well it's easy to go
+
+234
+00:12:15,280 --> 00:12:18,940
+from this theorem that if a prime if
+
+235
+00:12:17,170 --> 00:12:21,970
+something divides a product it has to
+
+236
+00:12:18,940 --> 00:12:24,400
+divide a factor so P 1 divides Q 1 times
+
+237
+00:12:21,970 --> 00:12:26,710
+the rest so it either divides Q 1 or it
+
+238
+00:12:24,400 --> 00:12:28,540
+divides the rest if it divides Q 1 it's
+
+239
+00:12:26,710 --> 00:12:30,580
+equal to Q 1 if it divides the rest it
+
+240
+00:12:28,540 --> 00:12:36,600
+has to divide one of these factors so
+
+241
+00:12:30,580 --> 00:12:41,140
+you conclude from 3 that P 1 divides sum
+
+242
+00:12:36,600 --> 00:12:44,410
+Qi which implies that P 1 is equal to
+
+243
+00:12:41,140 --> 00:12:47,050
+sum Qi and then dividing both sides by P
+
+244
+00:12:44,410 --> 00:12:48,580
+1 we get a number with less than K prime
+
+245
+00:12:47,050 --> 00:12:52,510
+factors which has a unique prime
+
+246
+00:12:48,580 --> 00:12:54,490
+factorization but again we needed this
+
+247
+00:12:52,510 --> 00:12:57,100
+property 3 that if a prime divided a
+
+248
+00:12:54,490 --> 00:13:00,640
+product it divided one of the factors so
+
+249
+00:12:57,100 --> 00:13:05,500
+then use induction divide and use
+
+250
+00:13:00,640 --> 00:13:07,420
+induction so ultimately we see that this
+
+251
+00:13:05,500 --> 00:13:10,390
+you Nissa T of factorization in the
+
+252
+00:13:07,420 --> 00:13:13,720
+integers follows completely from the
+
+253
+00:13:10,390 --> 00:13:15,490
+existence of this Euclidean algorithm we
+
+254
+00:13:13,720 --> 00:13:18,010
+deduce first of all that ideals or
+
+255
+00:13:15,490 --> 00:13:20,470
+principle from that we as deduced the
+
+256
+00:13:18,010 --> 00:13:22,660
+existence of a GCD from that we had
+
+257
+00:13:20,470 --> 00:13:25,270
+deduced this theorem about primes and
+
+258
+00:13:22,660 --> 00:13:29,230
+finally the anisa tia factorization they
+
+259
+00:13:25,270 --> 00:13:31,750
+all follow from that now what we're
+
+260
+00:13:29,230 --> 00:13:34,900
+going to do is see when this thing holds
+
+261
+00:13:31,750 --> 00:13:36,580
+for other rings so if we can establish a
+
+262
+00:13:34,900 --> 00:13:38,680
+property like the euclidean algorithm
+
+263
+00:13:36,580 --> 00:13:40,600
+from another ring all these things are
+
+264
+00:13:38,680 --> 00:13:43,960
+just formal ring theoretic properties
+
+265
+00:13:40,600 --> 00:13:49,780
+they have nothing to do with with with
+
+266
+00:13:43,960 --> 00:13:51,880
+being integers so let's see another
+
+267
+00:13:49,780 --> 00:13:54,990
+example where we can get the exact same
+
+268
+00:13:51,880 --> 00:13:54,990
+mileage out of this
+
+269
+00:14:02,650 --> 00:14:19,910
+another ring R with a Euclidean
+
+270
+00:14:09,740 --> 00:14:24,770
+algorithm is are the polynomials over a
+
+271
+00:14:19,910 --> 00:14:26,780
+field where this is a field and then
+
+272
+00:14:24,770 --> 00:14:29,210
+what we know for polynomials over a
+
+273
+00:14:26,780 --> 00:14:31,550
+field here we have the size of a number
+
+274
+00:14:29,210 --> 00:14:35,600
+it's absolute value so for a polynomial
+
+275
+00:14:31,550 --> 00:14:39,560
+over field we have its degree so we know
+
+276
+00:14:35,600 --> 00:14:43,130
+that any given given a G G of X it can
+
+277
+00:14:39,560 --> 00:14:49,130
+be written as a multiple of f of X Q of
+
+278
+00:14:43,130 --> 00:14:54,710
+X I don't know plus r of x where the
+
+279
+00:14:49,130 --> 00:14:58,550
+degree of r is less than the degree of f
+
+280
+00:14:54,710 --> 00:15:00,590
+of X that's just polynomial division so
+
+281
+00:14:58,550 --> 00:15:02,630
+that's our that's our analogue of the
+
+282
+00:15:00,590 --> 00:15:05,180
+Euclidean algorithm that any two
+
+283
+00:15:02,630 --> 00:15:07,820
+polynomials if you're given G and F it's
+
+284
+00:15:05,180 --> 00:15:09,650
+not always the case that F divides G but
+
+285
+00:15:07,820 --> 00:15:11,390
+it can be divided into G in a way that
+
+286
+00:15:09,650 --> 00:15:14,150
+leaves the polynomial whose degree is
+
+287
+00:15:11,390 --> 00:15:16,280
+smaller just like it can be divided into
+
+288
+00:15:14,150 --> 00:15:17,990
+B in a way that leaves an integer which
+
+289
+00:15:16,280 --> 00:15:20,810
+is some sense smaller than your original
+
+290
+00:15:17,990 --> 00:15:24,130
+integer you're dividing by alright and
+
+291
+00:15:20,810 --> 00:15:29,170
+now I can deduce 1 2 3 & 4
+
+292
+00:15:24,130 --> 00:15:36,400
+one is that every ideal is principle
+
+293
+00:15:29,170 --> 00:15:36,400
+generated by the D of X of least degree
+
+294
+00:15:37,840 --> 00:15:55,240
+in I same proof to any two polynomials
+
+295
+00:15:48,920 --> 00:15:58,850
+FNG have a greatest common divisor
+
+296
+00:15:55,240 --> 00:16:02,050
+namely a polynomial D of X which
+
+297
+00:15:58,850 --> 00:16:02,050
+generates the ideal
+
+298
+00:16:03,059 --> 00:16:06,939
+generated by the two polynomials F and G
+
+299
+00:16:05,619 --> 00:16:09,489
+because it's just a particular example
+
+300
+00:16:06,939 --> 00:16:11,079
+of that thing and moreover than this
+
+301
+00:16:09,489 --> 00:16:14,799
+greatest common divisor can be written
+
+302
+00:16:11,079 --> 00:16:18,489
+as a multiple of f of X plus another
+
+303
+00:16:14,799 --> 00:16:20,589
+multiple of G of X in the polynomial
+
+304
+00:16:18,489 --> 00:16:24,879
+ring same proof because these are the
+
+305
+00:16:20,589 --> 00:16:27,970
+elements of that ideal so that this
+
+306
+00:16:24,879 --> 00:16:35,109
+follows now to talk about what 3 is we
+
+307
+00:16:27,970 --> 00:16:42,579
+have to say what a prime is so we say we
+
+308
+00:16:35,109 --> 00:16:44,199
+say P of X is a prime polynomial or more
+
+309
+00:16:42,579 --> 00:16:48,480
+what's usually used in the literature
+
+310
+00:16:44,199 --> 00:16:56,889
+irreducible polynomial if any
+
+311
+00:16:48,480 --> 00:17:05,470
+factorization P of X is equal to p1 of X
+
+312
+00:16:56,889 --> 00:17:07,299
+P 2 of X has degree p1 equal to zero
+
+313
+00:17:05,470 --> 00:17:08,860
+namely the only way you can factor it is
+
+314
+00:17:07,299 --> 00:17:10,630
+to pull out a constant times the
+
+315
+00:17:08,860 --> 00:17:14,260
+polynomial of the same degree you can
+
+316
+00:17:10,630 --> 00:17:17,139
+always do that right so that the only
+
+317
+00:17:14,260 --> 00:17:18,880
+factors of P of X are either polynomials
+
+318
+00:17:17,139 --> 00:17:22,000
+of degree zero or polynomials of degree
+
+319
+00:17:18,880 --> 00:17:25,089
+equal to P of X no smaller factors and
+
+320
+00:17:22,000 --> 00:17:29,679
+then it implies that if you have two
+
+321
+00:17:25,089 --> 00:17:35,529
+polynomials a and P the GCD of a and ax
+
+322
+00:17:29,679 --> 00:17:38,289
+and P of X the ideal generated by a of X
+
+323
+00:17:35,529 --> 00:17:41,789
+and P of X is either equal to the ideal
+
+324
+00:17:38,289 --> 00:17:45,220
+one or the ideal generated by P of X
+
+325
+00:17:41,789 --> 00:17:47,769
+because if you have a polynomial that
+
+326
+00:17:45,220 --> 00:17:50,500
+divides P of X you neither generates the
+
+327
+00:17:47,769 --> 00:17:51,880
+same ideal as P of X or it generates the
+
+328
+00:17:50,500 --> 00:17:53,740
+unit ideal these are the things that
+
+329
+00:17:51,880 --> 00:17:56,889
+generate so P one here would generate
+
+330
+00:17:53,740 --> 00:18:01,600
+the unit ideal and P two would generate
+
+331
+00:17:56,889 --> 00:18:05,230
+the same ideal SP so the only possible
+
+332
+00:18:01,600 --> 00:18:07,630
+divisors of P of X are 1 and P and so if
+
+333
+00:18:05,230 --> 00:18:09,970
+P of X divides a of X the GCD is this
+
+334
+00:18:07,630 --> 00:18:13,690
+ideal and if it doesn't the GCD is the
+
+335
+00:18:09,970 --> 00:18:16,250
+ideal one and in particular you can
+
+336
+00:18:13,690 --> 00:18:18,380
+write the constant 1 as a mole
+
+337
+00:18:16,250 --> 00:18:24,560
+the pull of a plus a multiple of P in
+
+338
+00:18:18,380 --> 00:18:28,310
+the first case and that shows so if P
+
+339
+00:18:24,560 --> 00:18:35,240
+divides a product of two polynomials it
+
+340
+00:18:28,310 --> 00:18:38,810
+must divide one of them exactly the same
+
+341
+00:18:35,240 --> 00:18:42,560
+proof as in the integers and four we
+
+342
+00:18:38,810 --> 00:18:48,340
+conclude that any f of X can be written
+
+343
+00:18:42,560 --> 00:18:56,420
+as a constant times prime polynomials as
+
+344
+00:18:48,340 --> 00:18:59,480
+a unique factorization into primes
+
+345
+00:18:56,420 --> 00:19:00,950
+now again unique is only up two units in
+
+346
+00:18:59,480 --> 00:19:03,140
+the ring you could always multiply a
+
+347
+00:19:00,950 --> 00:19:07,580
+factorization by a unit in the ring and
+
+348
+00:19:03,140 --> 00:19:10,060
+in this ring the unit group is the
+
+349
+00:19:07,580 --> 00:19:15,470
+nonzero elements of the field the
+
+350
+00:19:10,060 --> 00:19:17,180
+polynomials of degree zero those are the
+
+351
+00:19:15,470 --> 00:19:20,990
+polynomials that are invertible in the
+
+352
+00:19:17,180 --> 00:19:26,000
+ring in this case the ring z the unit
+
+353
+00:19:20,990 --> 00:19:28,600
+group was just plus or minus 1 and the
+
+354
+00:19:26,000 --> 00:19:31,850
+factorizations were unique up to this
+
+355
+00:19:28,600 --> 00:19:33,500
+changing by sign but you get exactly the
+
+356
+00:19:31,850 --> 00:19:35,510
+same structure for the ring of
+
+357
+00:19:33,500 --> 00:19:37,190
+polynomials over field these ideals are
+
+358
+00:19:35,510 --> 00:19:38,990
+very simple you have a GCD you have
+
+359
+00:19:37,190 --> 00:19:41,600
+unique factorization into irreducible
+
+360
+00:19:38,990 --> 00:19:43,490
+polynomials as you did for the integers
+
+361
+00:19:41,600 --> 00:19:45,860
+and the key thing was the existence of
+
+362
+00:19:43,490 --> 00:19:48,770
+this algorithm so we could try to
+
+363
+00:19:45,860 --> 00:19:53,270
+abstract that algorithm a bit and try to
+
+364
+00:19:48,770 --> 00:19:55,610
+see anytime we have that algorithm all
+
+365
+00:19:53,270 --> 00:19:59,290
+this is stuff is going to work so what
+
+366
+00:19:55,610 --> 00:20:02,780
+would be a general Euclidean algorithm
+
+367
+00:19:59,290 --> 00:20:05,510
+for a ring R well we need a size
+
+368
+00:20:02,780 --> 00:20:12,590
+function that tells us how large things
+
+369
+00:20:05,510 --> 00:20:14,840
+are in our a ring is Euclidean actually
+
+370
+00:20:12,590 --> 00:20:18,460
+a domain always a domain everything now
+
+371
+00:20:14,840 --> 00:20:26,510
+is it domain is Euclidean if and only if
+
+372
+00:20:18,460 --> 00:20:28,100
+there is a size function let's call it
+
+373
+00:20:26,510 --> 00:20:29,810
+I forget what the book calls it I'll
+
+374
+00:20:28,100 --> 00:20:31,910
+call it Delta I call it I'll call it
+
+375
+00:20:29,810 --> 00:20:34,430
+Delta from the elements of the ring
+
+376
+00:20:31,910 --> 00:20:42,050
+which are non zero to the positive
+
+377
+00:20:34,430 --> 00:20:51,740
+integers so each element of the ring has
+
+378
+00:20:42,050 --> 00:20:59,840
+some size such that for any and B not
+
+379
+00:20:51,740 --> 00:21:04,090
+equal to zero in R we have B is some
+
+380
+00:20:59,840 --> 00:21:07,760
+multiple of A plus a remainder term with
+
+381
+00:21:04,090 --> 00:21:11,720
+the size of the remainder being less
+
+382
+00:21:07,760 --> 00:21:17,750
+than with with either sorry R equals
+
+383
+00:21:11,720 --> 00:21:23,360
+zero or the size of the remainder being
+
+384
+00:21:17,750 --> 00:21:25,190
+strictly less than the size of egg so if
+
+385
+00:21:23,360 --> 00:21:27,320
+we could do an approximate division and
+
+386
+00:21:25,190 --> 00:21:30,710
+decrease the size of the element that
+
+387
+00:21:27,320 --> 00:21:32,990
+we're dividing by we call it a Euclidean
+
+388
+00:21:30,710 --> 00:21:36,380
+ring after the Euclidean algorithm and
+
+389
+00:21:32,990 --> 00:21:39,560
+the integers so for the integers the
+
+390
+00:21:36,380 --> 00:21:43,910
+size function is the absolute value of
+
+391
+00:21:39,560 --> 00:21:48,530
+egg okay we've decreased that absolute
+
+392
+00:21:43,910 --> 00:21:52,010
+value by by R for the polynomials the
+
+393
+00:21:48,530 --> 00:21:56,000
+size function of a polynomial is the
+
+394
+00:21:52,010 --> 00:22:03,980
+degree of F which for a nonzero
+
+395
+00:21:56,000 --> 00:22:07,070
+polynomial is uh mm-hmm I think I need
+
+396
+00:22:03,980 --> 00:22:09,830
+zero here huh sorry sorry
+
+397
+00:22:07,070 --> 00:22:13,130
+let's go zero I apologize you could have
+
+398
+00:22:09,830 --> 00:22:15,860
+zero in fact we're going to find the
+
+399
+00:22:13,130 --> 00:22:20,120
+Delta of an element R is equal to zero
+
+400
+00:22:15,860 --> 00:22:22,010
+in these rings when R is a unit the
+
+401
+00:22:20,120 --> 00:22:25,340
+units are exactly the elements where the
+
+402
+00:22:22,010 --> 00:22:31,100
+size function is zero so here the size
+
+403
+00:22:25,340 --> 00:22:33,220
+whoops maybe I want to exponentiate this
+
+404
+00:22:31,100 --> 00:22:36,740
+size no no no
+
+405
+00:22:33,220 --> 00:22:39,880
+getting a little confused here Delta the
+
+406
+00:22:36,740 --> 00:22:44,420
+unit should be one yeah exactly
+
+407
+00:22:39,880 --> 00:22:58,880
+Delta of a unit should be one the degree
+
+408
+00:22:44,420 --> 00:23:01,640
+of a pardon yeah yeah maybe I should add
+
+409
+00:22:58,880 --> 00:23:04,490
+one to degree of this degree of F plus
+
+410
+00:23:01,640 --> 00:23:06,140
+one that's better I think that'll do it
+
+411
+00:23:04,490 --> 00:23:08,090
+that's the same yeah
+
+412
+00:23:06,140 --> 00:23:11,270
+sorry Thanks I don't want zero to be in
+
+413
+00:23:08,090 --> 00:23:13,190
+here there we go Delta R is equal to 1 R
+
+414
+00:23:11,270 --> 00:23:16,370
+is a unit I mean for the absolute value
+
+415
+00:23:13,190 --> 00:23:18,230
+of an integer I want it to be this is
+
+416
+00:23:16,370 --> 00:23:21,260
+plus or minus 1 for the integers and
+
+417
+00:23:18,230 --> 00:23:22,850
+this is the constant polynomials got it
+
+418
+00:23:21,260 --> 00:23:26,180
+ok so you just add 1 to the degree
+
+419
+00:23:22,850 --> 00:23:28,550
+Thanks so this is now greater than or
+
+420
+00:23:26,180 --> 00:23:33,200
+equal to 1 equal to 1 when you have a
+
+421
+00:23:28,550 --> 00:23:37,340
+constant polynomial okay and if this is
+
+422
+00:23:33,200 --> 00:23:39,200
+true well well if where's my Euclidean
+
+423
+00:23:37,340 --> 00:23:46,490
+algorithm here it is then this is
+
+424
+00:23:39,200 --> 00:23:49,060
+certainly true okay so you need a size
+
+425
+00:23:46,490 --> 00:23:52,730
+function that decreases when you divide
+
+426
+00:23:49,060 --> 00:23:54,500
+if you have that I claim that everything
+
+427
+00:23:52,730 --> 00:23:56,960
+that I proved about the integers works
+
+428
+00:23:54,500 --> 00:23:59,240
+namely every ideal is principle
+
+429
+00:23:56,960 --> 00:24:04,250
+generated by the element in it of least
+
+430
+00:23:59,240 --> 00:24:05,660
+size any ideal generated by two elements
+
+431
+00:24:04,250 --> 00:24:07,970
+is generated by one element which has
+
+432
+00:24:05,660 --> 00:24:10,040
+this form which gives the existence of
+
+433
+00:24:07,970 --> 00:24:12,050
+greatest common divisors if you have a
+
+434
+00:24:10,040 --> 00:24:16,240
+notion of a prime element and that's
+
+435
+00:24:12,050 --> 00:24:20,450
+just an element such that any divisor
+
+436
+00:24:16,240 --> 00:24:23,390
+any factorization involves a unit then
+
+437
+00:24:20,450 --> 00:24:25,340
+you have the property 3/4 primes and
+
+438
+00:24:23,390 --> 00:24:28,400
+then you have unique factorization in
+
+439
+00:24:25,340 --> 00:24:29,990
+the ring in two prime elements so
+
+440
+00:24:28,400 --> 00:24:31,370
+Euclidean rings are particularly nice
+
+441
+00:24:29,990 --> 00:24:35,120
+rings in particular because they're
+
+442
+00:24:31,370 --> 00:24:37,250
+ideal theory is so simple and this would
+
+443
+00:24:35,120 --> 00:24:39,530
+be a this would be a useless notion if
+
+444
+00:24:37,250 --> 00:24:42,260
+the only two Euclidian rings that we do
+
+445
+00:24:39,530 --> 00:24:44,030
+were the integers and the polynomials
+
+446
+00:24:42,260 --> 00:24:45,410
+overfilled because we could have done
+
+447
+00:24:44,030 --> 00:24:47,750
+that with all without all
+
+448
+00:24:45,410 --> 00:24:49,280
+subtraction but what Gauss discovered
+
+449
+00:24:47,750 --> 00:24:50,990
+was that he could prove that other rings
+
+450
+00:24:49,280 --> 00:24:52,760
+which were quite important were
+
+451
+00:24:50,990 --> 00:24:55,090
+Euclidean so I'm going to give you an
+
+452
+00:24:52,760 --> 00:24:55,090
+example
+
+453
+00:25:03,810 --> 00:25:09,270
+and then we might ask ourselves if every
+
+454
+00:25:06,430 --> 00:25:09,270
+ring is Euclidean
+
+455
+00:25:21,620 --> 00:25:39,740
+cows the ring of gaussian integers is
+
+456
+00:25:37,320 --> 00:25:39,740
+Euclidean
+
+457
+00:25:40,940 --> 00:25:51,630
+with size function the absolute value
+
+458
+00:25:46,950 --> 00:25:57,150
+Delta a plus bi is equal to a squared
+
+459
+00:25:51,630 --> 00:26:00,270
+plus B squared so that's that's the
+
+460
+00:25:57,150 --> 00:26:04,650
+that's the absolute value of a plus bi
+
+461
+00:26:00,270 --> 00:26:06,270
+quantity square see this is like an
+
+462
+00:26:04,650 --> 00:26:08,010
+absolute value function so we might try
+
+463
+00:26:06,270 --> 00:26:11,310
+it for the Gaussian integers is that is
+
+464
+00:26:08,010 --> 00:26:11,970
+that gonna work okay so let's see why
+
+465
+00:26:11,310 --> 00:26:17,300
+that's true
+
+466
+00:26:11,970 --> 00:26:26,520
+and then a corollary of this corollary
+
+467
+00:26:17,300 --> 00:26:37,380
+every ideal I is principal so in
+
+468
+00:26:26,520 --> 00:26:47,630
+particular the ideal we constructed two
+
+469
+00:26:37,380 --> 00:26:52,620
+weeks ago with Z of I modulo that ideal
+
+470
+00:26:47,630 --> 00:26:59,150
+isomorphic to Z mod PZ pecan went to 1
+
+471
+00:26:52,620 --> 00:26:59,150
+mod 4 is generated
+
+472
+00:27:00,860 --> 00:27:13,010
+by a single element a plus bi and once
+
+473
+00:27:10,190 --> 00:27:14,419
+you have that so this is the key
+
+474
+00:27:13,010 --> 00:27:18,220
+statement it's principal because it's
+
+475
+00:27:14,419 --> 00:27:21,200
+Euclidean just as the statement one
+
+476
+00:27:18,220 --> 00:27:23,510
+every ideals principle and we
+
+477
+00:27:21,200 --> 00:27:25,580
+constructed an ideal by constructing a
+
+478
+00:27:23,510 --> 00:27:28,970
+specific homomorphism from this ring to
+
+479
+00:27:25,580 --> 00:27:30,559
+Z mod PZ and the idea was its kernel so
+
+480
+00:27:28,970 --> 00:27:32,899
+we now I know it's principle generated
+
+481
+00:27:30,559 --> 00:27:34,669
+by the single element a plus bi and then
+
+482
+00:27:32,899 --> 00:27:38,510
+it's not difficult to show that a
+
+483
+00:27:34,669 --> 00:27:40,820
+squared plus B squared is equal to this
+
+484
+00:27:38,510 --> 00:27:42,769
+prime P which proves Fermat's theorem
+
+485
+00:27:40,820 --> 00:27:47,210
+that any prime Congre to one might for
+
+486
+00:27:42,769 --> 00:27:48,980
+is the sum of two squares and it was
+
+487
+00:27:47,210 --> 00:27:50,539
+Gauss the Gauss realized that the
+
+488
+00:27:48,980 --> 00:27:51,950
+proofer must theorem you have to prove
+
+489
+00:27:50,539 --> 00:27:54,980
+that every ideal of this ring was
+
+490
+00:27:51,950 --> 00:27:56,630
+principal you had to produce a specific
+
+491
+00:27:54,980 --> 00:27:57,980
+element in the gaussian integers that
+
+492
+00:27:56,630 --> 00:28:00,710
+generated this ideal that was
+
+493
+00:27:57,980 --> 00:28:02,480
+constructed abstractly and to prove that
+
+494
+00:28:00,710 --> 00:28:03,740
+every ideal was principal he went back
+
+495
+00:28:02,480 --> 00:28:05,149
+to the proof that every ideal was
+
+496
+00:28:03,740 --> 00:28:08,000
+principal in the integers and he
+
+497
+00:28:05,149 --> 00:28:10,700
+imitated it so let's see why this is a
+
+498
+00:28:08,000 --> 00:28:12,710
+good Euclidean sized function so let's
+
+499
+00:28:10,700 --> 00:28:17,480
+start with two Gaussian integers and try
+
+500
+00:28:12,710 --> 00:28:21,789
+to divide one into the other okay so if
+
+501
+00:28:17,480 --> 00:28:21,789
+I have B and a or I've already used BN a
+
+502
+00:28:21,820 --> 00:28:28,760
+let's call my Gaussian integers let's
+
+503
+00:28:27,019 --> 00:28:30,380
+call the calcium integers capital B and
+
+504
+00:28:28,760 --> 00:28:34,519
+capital E so we don't confuse them with
+
+505
+00:28:30,380 --> 00:28:43,549
+those two a and B in Z of AI and we can
+
+506
+00:28:34,519 --> 00:28:47,240
+write B as a times some W where W is of
+
+507
+00:28:43,549 --> 00:28:52,399
+the form alpha plus beta I and alpha and
+
+508
+00:28:47,240 --> 00:28:54,230
+beta are rational numbers well all you
+
+509
+00:28:52,399 --> 00:28:56,620
+have to do is see that you can divide a
+
+510
+00:28:54,230 --> 00:28:58,880
+into B and get an expression like this
+
+511
+00:28:56,620 --> 00:29:01,159
+where I mean you can clearly do it in
+
+512
+00:28:58,880 --> 00:29:02,419
+the complex numbers and you have to see
+
+513
+00:29:01,159 --> 00:29:08,000
+that alpha and beta are actually
+
+514
+00:29:02,419 --> 00:29:11,600
+rational numbers so so that's easy
+
+515
+00:29:08,000 --> 00:29:13,309
+because B over a as a complex number can
+
+516
+00:29:11,600 --> 00:29:19,370
+also be written as beef
+
+517
+00:29:13,309 --> 00:29:21,499
+a bar divided by a times a bar right 1/8
+
+518
+00:29:19,370 --> 00:29:23,690
+times a bar is certainly a positive
+
+519
+00:29:21,499 --> 00:29:27,259
+integer if a is something of this form
+
+520
+00:29:23,690 --> 00:29:30,230
+this is Delta of Delta of a right so
+
+521
+00:29:27,259 --> 00:29:34,249
+this is some positive integer positive
+
+522
+00:29:30,230 --> 00:29:37,190
+integer this product is in the Gaussian
+
+523
+00:29:34,249 --> 00:29:39,049
+integers so it's of the form an integer
+
+524
+00:29:37,190 --> 00:29:40,580
+plus an integer times I so if you divide
+
+525
+00:29:39,049 --> 00:29:42,049
+that by a positive integer you get a
+
+526
+00:29:40,580 --> 00:29:58,129
+rational number plus a rational number
+
+527
+00:29:42,049 --> 00:30:03,889
+times I yeah Peter of course of course
+
+528
+00:29:58,129 --> 00:30:06,169
+but if if if I did this no no no no
+
+529
+00:30:03,889 --> 00:30:10,700
+that's that's too good that that's a
+
+530
+00:30:06,169 --> 00:30:12,259
+norm yeah yeah yeah I'm sorry
+
+531
+00:30:10,700 --> 00:30:14,059
+thank you Peter thank you thank you
+
+532
+00:30:12,259 --> 00:30:15,860
+thank you it's too good it's too good in
+
+533
+00:30:14,059 --> 00:30:17,450
+all the cases we're gonna see the sizes
+
+534
+00:30:15,860 --> 00:30:17,809
+one if it's a unit but it's not true in
+
+535
+00:30:17,450 --> 00:30:23,330
+general
+
+536
+00:30:17,809 --> 00:30:27,320
+take that off take that off so we have
+
+537
+00:30:23,330 --> 00:30:29,210
+this division now we know that for a
+
+538
+00:30:27,320 --> 00:30:33,409
+rational number you can take its integer
+
+539
+00:30:29,210 --> 00:30:39,740
+part so write this number as I'm gonna
+
+540
+00:30:33,409 --> 00:30:43,929
+erase this part here but keep all that
+
+541
+00:30:39,740 --> 00:30:43,929
+stuff up so zero is Euclidean algorithm
+
+542
+00:30:48,060 --> 00:30:52,160
+and that implies one which there applies
+
+543
+00:30:50,220 --> 00:30:55,560
+to that that implies
+
+544
+00:30:52,160 --> 00:31:00,960
+where is three oops that implies three
+
+545
+00:30:55,560 --> 00:31:02,550
+which then implies okay now let's take
+
+546
+00:31:00,960 --> 00:31:04,110
+this expression that we've written it as
+
+547
+00:31:02,550 --> 00:31:06,540
+a rational number plus a rational number
+
+548
+00:31:04,110 --> 00:31:07,950
+times I and pull out the integral part
+
+549
+00:31:06,540 --> 00:31:09,180
+of alpha and the integral part of beta
+
+550
+00:31:07,950 --> 00:31:11,790
+so we're left with a rational number
+
+551
+00:31:09,180 --> 00:31:13,110
+between zero and a half namely if you
+
+552
+00:31:11,790 --> 00:31:15,390
+think of the integers inside the
+
+553
+00:31:13,110 --> 00:31:17,670
+rational numbers if you have any
+
+554
+00:31:15,390 --> 00:31:19,620
+rational number alpha here you can go to
+
+555
+00:31:17,670 --> 00:31:21,450
+the closest integer less than it and
+
+556
+00:31:19,620 --> 00:31:24,480
+then you have alpha 0 plus 1 and you
+
+557
+00:31:21,450 --> 00:31:26,840
+have alpha as written as an integer plus
+
+558
+00:31:24,480 --> 00:31:31,470
+something between 0 & 1
+
+559
+00:31:26,840 --> 00:31:36,470
+so do that so write alpha is alpha 0
+
+560
+00:31:31,470 --> 00:31:39,330
+plus r 0 and beta as beta 0 plus s 0
+
+561
+00:31:36,470 --> 00:31:44,250
+where zero is less than or equal to r 0
+
+562
+00:31:39,330 --> 00:31:50,850
+s 0 is less than 1 and alpha 0 and beta
+
+563
+00:31:44,250 --> 00:31:54,780
+0 are integers and now multiply this
+
+564
+00:31:50,850 --> 00:32:01,070
+expression out so then we get B is equal
+
+565
+00:31:54,780 --> 00:32:08,910
+to a times alpha 0 plus beta 0 times I
+
+566
+00:32:01,070 --> 00:32:12,120
+plus a times R 0 plus s 0 times hi okay
+
+567
+00:32:08,910 --> 00:32:13,260
+now this number this is going to be our
+
+568
+00:32:12,120 --> 00:32:16,200
+Euclidean algorithm we're going to call
+
+569
+00:32:13,260 --> 00:32:19,140
+this number m and we're going to call
+
+570
+00:32:16,200 --> 00:32:24,800
+this number R and I'm going to show you
+
+571
+00:32:19,140 --> 00:32:29,280
+that Delta R plain Delta of R is
+
+572
+00:32:24,800 --> 00:32:32,430
+actually less than half of Delta of a so
+
+573
+00:32:29,280 --> 00:32:39,510
+I have this I mean it could be 0 it
+
+574
+00:32:32,430 --> 00:32:41,820
+either R is equal to 0 or the its size
+
+575
+00:32:39,510 --> 00:32:43,980
+is small well here I am using the fact
+
+576
+00:32:41,820 --> 00:32:45,510
+that this absolute value on complex
+
+577
+00:32:43,980 --> 00:32:48,240
+numbers is multiplicative right the
+
+578
+00:32:45,510 --> 00:32:50,250
+absolute value of Z times W squared is
+
+579
+00:32:48,240 --> 00:32:52,560
+the absolute value of Z squared times
+
+580
+00:32:50,250 --> 00:32:54,930
+the absolute value of W squared that's a
+
+581
+00:32:52,560 --> 00:32:59,940
+nice property the absolute value so the
+
+582
+00:32:54,930 --> 00:33:01,590
+absolute value of R here Delta R is the
+
+583
+00:32:59,940 --> 00:33:06,650
+same as Delta of a
+
+584
+00:33:01,590 --> 00:33:10,890
+times r0 squared plus s 0 squared
+
+585
+00:33:06,650 --> 00:33:14,550
+correct but these numbers whoops I did
+
+586
+00:33:10,890 --> 00:33:19,170
+something stupid back up back up sorry
+
+587
+00:33:14,550 --> 00:33:22,680
+bad mistake mm I actually want these
+
+588
+00:33:19,170 --> 00:33:24,720
+numbers to be my fault you can put them
+
+589
+00:33:22,680 --> 00:33:28,880
+in any interval of size one so I want
+
+590
+00:33:24,720 --> 00:33:28,880
+them to be between minus 1/2 and 1/2
+
+591
+00:33:32,210 --> 00:33:40,590
+okay I can I can make sure if if my
+
+592
+00:33:37,800 --> 00:33:43,650
+alpha zero is within one half of alpha
+
+593
+00:33:40,590 --> 00:33:45,810
+good if not replace it by alpha zero
+
+594
+00:33:43,650 --> 00:33:49,020
+plus one one of these integers is within
+
+595
+00:33:45,810 --> 00:33:52,710
+a half of the of the rational number
+
+596
+00:33:49,020 --> 00:33:54,240
+alpha right in absolute value so I can
+
+597
+00:33:52,710 --> 00:33:56,850
+arrange that the remainders lie between
+
+598
+00:33:54,240 --> 00:33:59,850
+minus 1/2 and 1/2 instead of 0 and 1 and
+
+599
+00:33:56,850 --> 00:34:02,670
+then r0 square plus s 0 squared is this
+
+600
+00:33:59,850 --> 00:34:08,700
+is less than or equal to Delta a times
+
+601
+00:34:02,670 --> 00:34:10,320
+1/4 plus 1/4 which is 1/2 of Delta a and
+
+602
+00:34:08,700 --> 00:34:17,540
+I see that now I have to put less than
+
+603
+00:34:10,320 --> 00:34:20,490
+or equal to here yeah Stephanie I
+
+604
+00:34:17,540 --> 00:34:22,470
+couldn't care less um but you're right
+
+605
+00:34:20,490 --> 00:34:26,310
+you should specify 1 let's do it that
+
+606
+00:34:22,470 --> 00:34:28,200
+way that makes it unique ok although
+
+607
+00:34:26,310 --> 00:34:31,860
+it's not important for this proof it's a
+
+608
+00:34:28,200 --> 00:34:35,700
+good point so notice how how cool this
+
+609
+00:34:31,860 --> 00:34:36,720
+is I mean if I could go to different
+
+610
+00:34:35,700 --> 00:34:38,250
+rings and I'm going to give you
+
+611
+00:34:36,720 --> 00:34:40,080
+different different rings where this
+
+612
+00:34:38,250 --> 00:34:43,320
+thing is going to fail miserably so for
+
+613
+00:34:40,080 --> 00:34:47,340
+example suppose instead of doing the
+
+614
+00:34:43,320 --> 00:34:49,020
+Gaussian integers which we've just
+
+615
+00:34:47,340 --> 00:34:51,480
+proved these Euclidean by this property
+
+616
+00:34:49,020 --> 00:34:53,430
+we had tried a more a slightly more
+
+617
+00:34:51,480 --> 00:34:56,340
+complicated sub ring of the complex
+
+618
+00:34:53,430 --> 00:35:00,120
+numbers which is this ring consider the
+
+619
+00:34:56,340 --> 00:35:02,790
+following ring consider are all of the
+
+620
+00:35:00,120 --> 00:35:05,480
+things of the form a plus B square root
+
+621
+00:35:02,790 --> 00:35:05,480
+of -5
+
+622
+00:35:06,990 --> 00:35:11,280
+so that ring would be denoted Z square
+
+623
+00:35:09,240 --> 00:35:13,619
+root of minus five so this is like Z
+
+624
+00:35:11,280 --> 00:35:14,609
+square root of minus one a plus B times
+
+625
+00:35:13,619 --> 00:35:16,410
+the square root of minus one
+
+626
+00:35:14,609 --> 00:35:18,150
+so you multiply you add things here by
+
+627
+00:35:16,410 --> 00:35:19,800
+adding the A's and B's and you multiply
+
+628
+00:35:18,150 --> 00:35:22,849
+them by just using the fact that this
+
+629
+00:35:19,800 --> 00:35:26,880
+number is a number whose square is is uh
+
+630
+00:35:22,849 --> 00:35:28,050
+minus five okay now you might say well
+
+631
+00:35:26,880 --> 00:35:31,500
+why don't we prove this ring is
+
+632
+00:35:28,050 --> 00:35:34,290
+Euclidean we could take Delta of a plus
+
+633
+00:35:31,500 --> 00:35:35,940
+B square root of minus five to be the
+
+634
+00:35:34,290 --> 00:35:37,560
+square of its absolute value just like
+
+635
+00:35:35,940 --> 00:35:41,570
+we did for these complex numbers that
+
+636
+00:35:37,560 --> 00:35:45,330
+would be a squared plus five B squared
+
+637
+00:35:41,570 --> 00:35:47,609
+right but look how that fails over here
+
+638
+00:35:45,330 --> 00:35:50,490
+even when we do this division and you
+
+639
+00:35:47,609 --> 00:35:53,820
+can do this division and you write your
+
+640
+00:35:50,490 --> 00:35:56,339
+your your quotient rational thing as an
+
+641
+00:35:53,820 --> 00:35:59,160
+integer plus something between minus a
+
+642
+00:35:56,339 --> 00:36:02,190
+half and a half when you go here you get
+
+643
+00:35:59,160 --> 00:36:06,510
+Delta of a and not r0 plus s 0 squared
+
+644
+00:36:02,190 --> 00:36:11,190
+but r0 plus 5 s 0 squared and 5 times
+
+645
+00:36:06,510 --> 00:36:13,760
+1/4 is 5/4 and this doesn't add up to a
+
+646
+00:36:11,190 --> 00:36:16,230
+number less than 1 anymore so your
+
+647
+00:36:13,760 --> 00:36:19,500
+natural choice for a Euclidean size
+
+648
+00:36:16,230 --> 00:36:22,920
+function on this ring fails and in fact
+
+649
+00:36:19,500 --> 00:36:29,450
+this ring is not Euclidean this doesn't
+
+650
+00:36:22,920 --> 00:36:29,450
+work at least in Gauss's proof
+
+651
+00:36:32,510 --> 00:36:42,320
+in fact our is not Euclidean you can't
+
+652
+00:36:40,310 --> 00:36:50,900
+find you cleaning algorithm in this ring
+
+653
+00:36:42,320 --> 00:36:53,000
+for any size function let alone the
+
+654
+00:36:50,900 --> 00:36:55,640
+absolute value squared and the reason is
+
+655
+00:36:53,000 --> 00:36:59,570
+that one of the properties that follows
+
+656
+00:36:55,640 --> 00:37:01,400
+from being Euclidean fails in particular
+
+657
+00:36:59,570 --> 00:37:03,079
+we'll see you eventually that every
+
+658
+00:37:01,400 --> 00:37:04,820
+ideal is not principal but what I'll
+
+659
+00:37:03,079 --> 00:37:14,839
+show you is that you don't have a unique
+
+660
+00:37:04,820 --> 00:37:26,089
+factorization as as the number six in R
+
+661
+00:37:14,839 --> 00:37:29,000
+has two distinct factorizations namely
+
+662
+00:37:26,089 --> 00:37:31,099
+in this ring you can write 6 as 2 times
+
+663
+00:37:29,000 --> 00:37:33,470
+3 well that's pretty easy you could do
+
+664
+00:37:31,099 --> 00:37:36,140
+that the integers 2 but you can also
+
+665
+00:37:33,470 --> 00:37:39,770
+write it as 1 plus the square root of
+
+666
+00:37:36,140 --> 00:37:43,369
+minus 5 times 1 minus the square root of
+
+667
+00:37:39,770 --> 00:37:45,589
+minus 5 and it turns out that all four
+
+668
+00:37:43,369 --> 00:37:47,030
+of the elements 2 3 1 plus the square
+
+669
+00:37:45,589 --> 00:37:55,190
+root of 5 and 1 minus the square root of
+
+670
+00:37:47,030 --> 00:37:58,010
+5 are Prime's in the ring we have to
+
+671
+00:37:55,190 --> 00:37:59,750
+show that but in any case this is this 2
+
+672
+00:37:58,010 --> 00:38:02,089
+2 & 2 is not equal to this because it
+
+673
+00:37:59,750 --> 00:38:03,619
+doesn't even divide it in this ring see
+
+674
+00:38:02,089 --> 00:38:05,030
+if you try to divide this number by 2
+
+675
+00:38:03,619 --> 00:38:06,319
+you get something which isn't in the
+
+676
+00:38:05,030 --> 00:38:08,030
+ring it wouldn't be of the form an
+
+677
+00:38:06,319 --> 00:38:10,640
+integer plus an integer times the square
+
+678
+00:38:08,030 --> 00:38:12,819
+to minus 5 would be 1/2 plus 1/2 right
+
+679
+00:38:10,640 --> 00:38:15,170
+so because we have two different
+
+680
+00:38:12,819 --> 00:38:16,970
+factorizations here we couldn't possibly
+
+681
+00:38:15,170 --> 00:38:18,560
+have any of these properties above it in
+
+682
+00:38:16,970 --> 00:38:22,609
+particular there have to be ideals in
+
+683
+00:38:18,560 --> 00:38:24,500
+this ring that aren't principal hmm so
+
+684
+00:38:22,609 --> 00:38:26,270
+in fact if you want to if you want to
+
+685
+00:38:24,500 --> 00:38:29,180
+see an ideal that is in principle if you
+
+686
+00:38:26,270 --> 00:38:32,599
+take the ideal generated by 2 & 1 plus
+
+687
+00:38:29,180 --> 00:38:35,170
+the square root of minus 5 is not
+
+688
+00:38:32,599 --> 00:38:35,170
+principal
+
+689
+00:38:37,300 --> 00:38:42,310
+you'll find that our mod I if I got this
+
+690
+00:38:41,599 --> 00:38:45,609
+right
+
+691
+00:38:42,310 --> 00:38:52,340
+why I sure hope I got this right Peter
+
+692
+00:38:45,609 --> 00:38:54,890
+is a Z mod - yeah right it's the
+
+693
+00:38:52,340 --> 00:38:57,170
+ramified ideal bug - okay so here's an
+
+694
+00:38:54,890 --> 00:39:01,160
+ideal it turns out the quotient is Z mod
+
+695
+00:38:57,170 --> 00:39:05,060
+- and so it's the kernel of the
+
+696
+00:39:01,160 --> 00:39:11,510
+homomorphism that takes a plus b squared
+
+697
+00:39:05,060 --> 00:39:14,990
+a minus 5 - the number a plus B mod 2 so
+
+698
+00:39:11,510 --> 00:39:17,210
+if you take this homomorphism from R to
+
+699
+00:39:14,990 --> 00:39:19,790
+Z mod 2 you can check that that's a
+
+700
+00:39:17,210 --> 00:39:22,820
+homomorphism of rings it has a kernel I
+
+701
+00:39:19,790 --> 00:39:25,640
+which contains the item number 2 and it
+
+702
+00:39:22,820 --> 00:39:28,040
+also contains this number that ideal is
+
+703
+00:39:25,640 --> 00:39:29,599
+not principal and so everything goes
+
+704
+00:39:28,040 --> 00:39:42,200
+wrong you can't have ukulele and ring
+
+705
+00:39:29,599 --> 00:39:47,480
+here yes here they're they're rational
+
+706
+00:39:42,200 --> 00:39:50,180
+numbers when I multiply them by this
+
+707
+00:39:47,480 --> 00:39:54,800
+number a they have to be in the ring and
+
+708
+00:39:50,180 --> 00:39:58,339
+the reason is B is in the ring a and M
+
+709
+00:39:54,800 --> 00:40:01,339
+are in the ring so therefore B minus M
+
+710
+00:39:58,339 --> 00:40:04,750
+times a is in the ring so even though
+
+711
+00:40:01,339 --> 00:40:08,990
+this number itself is not in the ring
+
+712
+00:40:04,750 --> 00:40:11,450
+the ring Z of I it's in the ring q of I
+
+713
+00:40:08,990 --> 00:40:14,480
+because R 0 and s 0 are there it's in
+
+714
+00:40:11,450 --> 00:40:16,430
+the it's in the quotient field but if
+
+715
+00:40:14,480 --> 00:40:17,960
+you multiply it by the original Gaussian
+
+716
+00:40:16,430 --> 00:40:19,880
+integer a you have to get something
+
+717
+00:40:17,960 --> 00:40:21,800
+which is in the ring and then we
+
+718
+00:40:19,880 --> 00:40:23,150
+calculate its Delta by taking the
+
+719
+00:40:21,800 --> 00:40:24,589
+product of the two deltas of these
+
+720
+00:40:23,150 --> 00:40:25,910
+things that aren't in the ring because
+
+721
+00:40:24,589 --> 00:40:28,490
+we can still take absolute value of any
+
+722
+00:40:25,910 --> 00:40:30,530
+complex number okay
+
+723
+00:40:28,490 --> 00:40:32,690
+it's somehow this absolute value
+
+724
+00:40:30,530 --> 00:40:36,710
+function is to find whether or not a and
+
+725
+00:40:32,690 --> 00:40:39,260
+B are integers and it's still
+
+726
+00:40:36,710 --> 00:40:43,420
+multiplicative does that make sense
+
+727
+00:40:39,260 --> 00:40:43,420
+it's a little tricky good point yeah
+
+728
+00:40:48,190 --> 00:40:53,780
+yeah that's exactly what we're showing
+
+729
+00:40:50,330 --> 00:40:56,930
+this this product is Emily is what I'm
+
+730
+00:40:53,780 --> 00:40:59,600
+calling our so yeah the whole the Delta
+
+731
+00:40:56,930 --> 00:41:02,630
+R is is Delta a times Delta of this
+
+732
+00:40:59,600 --> 00:41:04,010
+weird element and this weird element is
+
+733
+00:41:02,630 --> 00:41:06,950
+the thing that has Delta less than a
+
+734
+00:41:04,010 --> 00:41:08,240
+half it obviously can't be in the ring
+
+735
+00:41:06,950 --> 00:41:12,500
+because Delta on the ring is at least
+
+736
+00:41:08,240 --> 00:41:15,170
+one because the complex absolute value
+
+737
+00:41:12,500 --> 00:41:17,720
+is multiplicative C this is a sub ring
+
+738
+00:41:15,170 --> 00:41:19,550
+of the complex numbers and that's the
+
+739
+00:41:17,720 --> 00:41:21,500
+miracle that we're using here that the
+
+740
+00:41:19,550 --> 00:41:23,030
+you know the absolute value of Z times W
+
+741
+00:41:21,500 --> 00:41:24,920
+is the absolute value of Z times the
+
+742
+00:41:23,030 --> 00:41:26,630
+absolute value of W if we didn't know
+
+743
+00:41:24,920 --> 00:41:31,640
+that it would be much trickier to work
+
+744
+00:41:26,630 --> 00:41:33,440
+with this function okay so some rings
+
+745
+00:41:31,640 --> 00:41:34,790
+we're going to have Euclidean algorithms
+
+746
+00:41:33,440 --> 00:41:37,520
+and all these nice properties are going
+
+747
+00:41:34,790 --> 00:41:40,160
+to follow and some rings we're not going
+
+748
+00:41:37,520 --> 00:41:41,750
+to have these properties and we're not
+
+749
+00:41:40,160 --> 00:41:44,540
+going to have Euclidean algorithm and
+
+750
+00:41:41,750 --> 00:41:46,970
+etcetera etcetera so the next thing you
+
+751
+00:41:44,540 --> 00:41:48,470
+might ask yourself is would it be
+
+752
+00:41:46,970 --> 00:41:51,500
+possible to prove you're not unique
+
+753
+00:41:48,470 --> 00:41:55,340
+factorization or you know everything
+
+754
+00:41:51,500 --> 00:42:00,740
+following from one could could it be
+
+755
+00:41:55,340 --> 00:42:02,660
+possible that well once i is it possible
+
+756
+00:42:00,740 --> 00:42:04,670
+that I could have a every ideal
+
+757
+00:42:02,660 --> 00:42:07,010
+principle without it being Euclidean and
+
+758
+00:42:04,670 --> 00:42:08,930
+the answer is yes and is it also
+
+759
+00:42:07,010 --> 00:42:11,900
+possible that I could have unique
+
+760
+00:42:08,930 --> 00:42:13,250
+factorization without every ideal being
+
+761
+00:42:11,900 --> 00:42:15,500
+principal I mean are these things
+
+762
+00:42:13,250 --> 00:42:17,090
+actually stronger than each other so
+
+763
+00:42:15,500 --> 00:42:18,590
+let's make a little diagram and then
+
+764
+00:42:17,090 --> 00:42:20,830
+I'll make some remarks about where we're
+
+765
+00:42:18,590 --> 00:42:20,830
+going
+
+766
+00:42:27,630 --> 00:42:41,760
+so we've shown the property are as
+
+767
+00:42:35,859 --> 00:42:47,560
+Euclidean implies the property that R is
+
+768
+00:42:41,760 --> 00:42:51,250
+what's called a principal ideal domain
+
+769
+00:42:47,560 --> 00:42:57,510
+which means every ideal is principal or
+
+770
+00:42:51,250 --> 00:43:03,700
+domains our principal ideal domain every
+
+771
+00:42:57,510 --> 00:43:06,400
+every eye is principal sometimes this is
+
+772
+00:43:03,700 --> 00:43:09,609
+called a PID for short principal ideal
+
+773
+00:43:06,400 --> 00:43:19,450
+domain and then that follows that you
+
+774
+00:43:09,609 --> 00:43:24,280
+have unique factorization into prime
+
+775
+00:43:19,450 --> 00:43:26,410
+elements we have to define what prime
+
+776
+00:43:24,280 --> 00:43:28,329
+elements are possibly but but we have
+
+777
+00:43:26,410 --> 00:43:31,420
+these implications and we've already got
+
+778
+00:43:28,329 --> 00:43:33,700
+several rings up here Z and polynomials
+
+779
+00:43:31,420 --> 00:43:35,980
+over a field and the Gaussian integers
+
+780
+00:43:33,700 --> 00:43:41,740
+that satisfy this property and so they
+
+781
+00:43:35,980 --> 00:43:46,240
+have all the others okay now what we're
+
+782
+00:43:41,740 --> 00:43:48,550
+going to explore is the fact that you
+
+783
+00:43:46,240 --> 00:43:51,700
+can have unique factorization in rings
+
+784
+00:43:48,550 --> 00:43:53,290
+without having these two properties so
+
+785
+00:43:51,700 --> 00:43:54,460
+I'll try to give you an example of a
+
+786
+00:43:53,290 --> 00:43:56,530
+ring which we're going to prove has
+
+787
+00:43:54,460 --> 00:43:59,920
+unique factorization which is not a
+
+788
+00:43:56,530 --> 00:44:01,720
+principal ideal domain so let me just
+
+789
+00:43:59,920 --> 00:44:04,390
+talk about what prime elements are very
+
+790
+00:44:01,720 --> 00:44:07,000
+briefly in abstract what the visibility
+
+791
+00:44:04,390 --> 00:44:09,160
+is is there an abstract ring in terms of
+
+792
+00:44:07,000 --> 00:44:10,960
+ideals and then I'll give you an example
+
+793
+00:44:09,160 --> 00:44:13,510
+of a ring where you have good
+
+794
+00:44:10,960 --> 00:44:16,380
+factorization but you don't have any of
+
+795
+00:44:13,510 --> 00:44:16,380
+the first two properties
+
+796
+00:44:24,799 --> 00:44:42,480
+so let's let's rethink what Divide means
+
+797
+00:44:34,650 --> 00:44:47,059
+in terms we think of divided crime all
+
+798
+00:44:42,480 --> 00:44:47,059
+of our terminology in terms of ideals
+
+799
+00:44:47,630 --> 00:44:57,299
+first of all what does it mean that a
+
+800
+00:44:50,569 --> 00:45:03,109
+divides B in our well that's if and only
+
+801
+00:44:57,299 --> 00:45:05,489
+if B is some multiple of a I mean R
+
+802
+00:45:03,109 --> 00:45:08,150
+which is the same thing as saying that
+
+803
+00:45:05,489 --> 00:45:12,180
+the B is in the principal ideal
+
+804
+00:45:08,150 --> 00:45:13,980
+generated by a okay
+
+805
+00:45:12,180 --> 00:45:17,099
+which is the same thing as saying that
+
+806
+00:45:13,980 --> 00:45:19,230
+the principal ideal generated by B is
+
+807
+00:45:17,099 --> 00:45:24,900
+contained in the principal ideal
+
+808
+00:45:19,230 --> 00:45:28,589
+generated by a so divides we can express
+
+809
+00:45:24,900 --> 00:45:32,190
+in terms of containing of principal
+
+810
+00:45:28,589 --> 00:45:34,670
+ideals all right we say it divides it
+
+811
+00:45:32,190 --> 00:45:34,670
+properly
+
+812
+00:45:39,650 --> 00:46:01,830
+if a is not a unit and if neither a nor
+
+813
+00:45:51,710 --> 00:46:05,520
+M is a unit in our so that means so what
+
+814
+00:46:01,830 --> 00:46:10,020
+that means is that that means in this
+
+815
+00:46:05,520 --> 00:46:14,430
+thing that B is properly contained but
+
+816
+00:46:10,020 --> 00:46:20,250
+not equal to a which is properly
+
+817
+00:46:14,430 --> 00:46:24,410
+contained but not equal to our C this is
+
+818
+00:46:20,250 --> 00:46:24,410
+the statement that M is not a unit
+
+819
+00:46:26,090 --> 00:46:33,000
+because two ideals are equal two
+
+820
+00:46:30,780 --> 00:46:35,910
+principle ideals are equal if and only
+
+821
+00:46:33,000 --> 00:46:38,670
+if both things are multiples of each
+
+822
+00:46:35,910 --> 00:46:41,640
+other if M is a unit then a is also
+
+823
+00:46:38,670 --> 00:46:43,230
+multiple of B by M inverse and that
+
+824
+00:46:41,640 --> 00:46:44,970
+would say that not only is be contained
+
+825
+00:46:43,230 --> 00:46:47,580
+in a but a is contained in B so they
+
+826
+00:46:44,970 --> 00:46:49,320
+have to be equal so the statement that B
+
+827
+00:46:47,580 --> 00:46:51,300
+is properly contained in a as a
+
+828
+00:46:49,320 --> 00:46:53,250
+statement that M is not a unit the
+
+829
+00:46:51,300 --> 00:46:55,890
+statement that a is properly contained
+
+830
+00:46:53,250 --> 00:47:02,220
+in R is the statement that a is not a
+
+831
+00:46:55,890 --> 00:47:05,990
+unit so the ideal generated by a is not
+
+832
+00:47:02,220 --> 00:47:09,030
+the same as the ideal generated by one
+
+833
+00:47:05,990 --> 00:47:11,520
+so divisibility and proper divisibility
+
+834
+00:47:09,030 --> 00:47:16,910
+can be expressed in terms of ideals and
+
+835
+00:47:11,520 --> 00:47:16,910
+finally we say that P is a prime or
+
+836
+00:47:17,720 --> 00:47:27,470
+sometimes it's ed is irreducible if
+
+837
+00:47:20,460 --> 00:47:27,470
+you're talking about polynomials in R if
+
+838
+00:47:28,070 --> 00:47:39,050
+it's not a unit and it has no proper
+
+839
+00:47:30,810 --> 00:47:43,890
+factor if P is not a unit P has no
+
+840
+00:47:39,050 --> 00:47:48,640
+proper factor
+
+841
+00:47:43,890 --> 00:47:50,289
+in our well that's our notion of a prime
+
+842
+00:47:48,640 --> 00:47:52,660
+number now let's reexpress that in terms
+
+843
+00:47:50,289 --> 00:47:56,170
+of ideals that says that if you take the
+
+844
+00:47:52,660 --> 00:48:01,740
+principal ideal generated by P it's not
+
+845
+00:47:56,170 --> 00:48:04,150
+a unit so it's not equal to R but and
+
+846
+00:48:01,740 --> 00:48:06,609
+this is the key thing there are no
+
+847
+00:48:04,150 --> 00:48:14,619
+principal ideals that sit between P and
+
+848
+00:48:06,609 --> 00:48:20,130
+R its maximal with respect to principal
+
+849
+00:48:14,619 --> 00:48:23,589
+ideals namely you cannot find a factor
+
+850
+00:48:20,130 --> 00:48:26,529
+strictly containing P which itself is
+
+851
+00:48:23,589 --> 00:48:30,460
+not equal to R because that would be a
+
+852
+00:48:26,529 --> 00:48:33,249
+proper factor of P so it says the the
+
+853
+00:48:30,460 --> 00:48:36,099
+prime elements are the ones where the
+
+854
+00:48:33,249 --> 00:48:38,769
+principal ideal they generate is a is a
+
+855
+00:48:36,099 --> 00:48:43,230
+proper ideal but you cannot put any
+
+856
+00:48:38,769 --> 00:48:50,529
+larger principal ideal between it and R
+
+857
+00:48:43,230 --> 00:48:54,190
+okay now if if our ring is a PID so that
+
+858
+00:48:50,529 --> 00:48:56,380
+every ideal is principal this is the
+
+859
+00:48:54,190 --> 00:49:00,309
+statement that the principal ideal
+
+860
+00:48:56,380 --> 00:49:11,890
+generated by P is maximal so if R is a
+
+861
+00:49:00,309 --> 00:49:15,759
+PID then P then P is prime if and only
+
+862
+00:49:11,890 --> 00:49:23,140
+if the ideal generated by P is a maximal
+
+863
+00:49:15,759 --> 00:49:24,849
+ideal of R because any ideal between P
+
+864
+00:49:23,140 --> 00:49:26,829
+and R would have to be principal all
+
+865
+00:49:24,849 --> 00:49:29,069
+ideals are principal and we know P is
+
+866
+00:49:26,829 --> 00:49:32,910
+maximal with respect to principal ideals
+
+867
+00:49:29,069 --> 00:49:38,019
+and that's the same thing as saying that
+
+868
+00:49:32,910 --> 00:49:39,999
+R mod P is a field remember we said that
+
+869
+00:49:38,019 --> 00:49:44,470
+we could tell what maximal ideals were
+
+870
+00:49:39,999 --> 00:49:46,720
+by the quotient so we have a notion of
+
+871
+00:49:44,470 --> 00:49:49,210
+what a prime is in a PID it's the it's
+
+872
+00:49:46,720 --> 00:49:50,890
+the it's the elements such that when you
+
+873
+00:49:49,210 --> 00:49:55,029
+quotient out by their principal ideal
+
+874
+00:49:50,890 --> 00:49:55,660
+it's a field now I claim that a general
+
+875
+00:49:55,029 --> 00:49:59,099
+prime
+
+876
+00:49:55,660 --> 00:50:09,609
+thing just means this is equivalent to
+
+877
+00:49:59,099 --> 00:50:12,130
+our mod P is an integral domain right
+
+878
+00:50:09,609 --> 00:50:16,270
+because if I had a proper factorization
+
+879
+00:50:12,130 --> 00:50:20,740
+of P P is M times Q with neither P nor M
+
+880
+00:50:16,270 --> 00:50:22,539
+nor Q units or divisible by P then in
+
+881
+00:50:20,740 --> 00:50:25,980
+this quotient ring I would have a
+
+882
+00:50:22,539 --> 00:50:30,339
+product that was 0 namely M times Q is 0
+
+883
+00:50:25,980 --> 00:50:32,109
+and that would force either M or q to be
+
+884
+00:50:30,339 --> 00:50:34,839
+0 is because an integral domain which
+
+885
+00:50:32,109 --> 00:50:38,980
+would say that either m was a unit or q
+
+886
+00:50:34,839 --> 00:50:40,180
+is a unit so in in the general ring you
+
+887
+00:50:38,980 --> 00:50:41,980
+can tell whether you have a prime
+
+888
+00:50:40,180 --> 00:50:44,710
+element if the quotient by that
+
+889
+00:50:41,980 --> 00:50:47,049
+principle ideals an integral domain if
+
+890
+00:50:44,710 --> 00:50:51,280
+every ideal is principal then the
+
+891
+00:50:47,049 --> 00:50:54,099
+quotient by that has to be a field okay
+
+892
+00:50:51,280 --> 00:50:56,049
+now that gives me a way of showing that
+
+893
+00:50:54,099 --> 00:50:58,569
+there are rings that are not principal
+
+894
+00:50:56,049 --> 00:51:01,420
+ideal domains if I can write down
+
+895
+00:50:58,569 --> 00:51:03,069
+elements where the quotient by that
+
+896
+00:51:01,420 --> 00:51:06,369
+principal ideal is an integral domain
+
+897
+00:51:03,069 --> 00:51:10,029
+which is not a field then I must have
+
+898
+00:51:06,369 --> 00:51:13,150
+other ideals okay so I'm going to do
+
+899
+00:51:10,029 --> 00:51:15,849
+that for you so here's an example of a
+
+900
+00:51:13,150 --> 00:51:18,190
+nice ring where we're going to show us
+
+901
+00:51:15,849 --> 00:51:21,490
+unique factorization nice theory of
+
+902
+00:51:18,190 --> 00:51:24,210
+primes but which is not a principal
+
+903
+00:51:21,490 --> 00:51:24,210
+ideal domain
+
+904
+00:51:27,869 --> 00:51:35,429
+example of a non PID well it's the
+
+905
+00:51:33,099 --> 00:51:39,009
+second example then we take the ring are
+
+906
+00:51:35,429 --> 00:51:46,449
+to be polynomials in a variable over the
+
+907
+00:51:39,009 --> 00:51:51,039
+integers now take the ideal I to be the
+
+908
+00:51:46,449 --> 00:51:54,630
+principal ideal generated by X now this
+
+909
+00:51:51,039 --> 00:51:57,069
+is a prime element you can't factor X I
+
+910
+00:51:54,630 --> 00:51:58,599
+mean it would have to be a polynomial of
+
+911
+00:51:57,069 --> 00:52:00,489
+less degree and then it was less the
+
+912
+00:51:58,599 --> 00:52:01,709
+degree than that it would be a constant
+
+913
+00:52:00,489 --> 00:52:06,699
+right
+
+914
+00:52:01,709 --> 00:52:08,889
+so this is and in fact our mod I is
+
+915
+00:52:06,699 --> 00:52:14,339
+isomorphic as you showed on the exam to
+
+916
+00:52:08,889 --> 00:52:21,669
+Z by the map that takes f of X to F of 0
+
+917
+00:52:14,339 --> 00:52:27,939
+and this is an integral domain so that
+
+918
+00:52:21,669 --> 00:52:29,769
+shows that X is prime in R because the
+
+919
+00:52:27,939 --> 00:52:32,319
+quotient is an integral domain but it
+
+920
+00:52:29,769 --> 00:52:36,779
+also shows that this is not a principal
+
+921
+00:52:32,319 --> 00:52:36,779
+ideal domain because this is not a field
+
+922
+00:52:39,929 --> 00:52:48,969
+and consequently this cannot be a
+
+923
+00:52:44,049 --> 00:52:50,919
+maximal ideal of our that namely its
+
+924
+00:52:48,969 --> 00:52:54,929
+maximal for being a principal ideal but
+
+925
+00:52:50,919 --> 00:52:54,929
+there are ideals that contain it in our
+
+926
+00:52:57,329 --> 00:53:03,459
+it's just that they're not principal
+
+927
+00:52:59,679 --> 00:53:06,639
+ideals because since this is not a field
+
+928
+00:53:03,459 --> 00:53:08,499
+it'll itself have ideal theory and by
+
+929
+00:53:06,639 --> 00:53:10,839
+pulling back a non trivial ideal from
+
+930
+00:53:08,499 --> 00:53:13,419
+this for example the ideal this contains
+
+931
+00:53:10,839 --> 00:53:15,369
+the ideal two times Z so we can pull
+
+932
+00:53:13,419 --> 00:53:19,299
+back that ideal and take this ideal J
+
+933
+00:53:15,369 --> 00:53:21,459
+say generated by X + 2 where are my J is
+
+934
+00:53:19,299 --> 00:53:24,149
+just Z mod 2 namely it takes a
+
+935
+00:53:21,459 --> 00:53:28,989
+polynomial the homomorphism from our de
+
+936
+00:53:24,149 --> 00:53:36,249
+ARMA J just takes a polynomial F - f of
+
+937
+00:53:28,989 --> 00:53:38,679
+0 but taken mod 2 that's a bigger ideal
+
+938
+00:53:36,249 --> 00:53:41,520
+than I but the point is that it's not a
+
+939
+00:53:38,679 --> 00:53:44,050
+principal ideal
+
+940
+00:53:41,520 --> 00:53:45,970
+because if it were a principle ideal I
+
+941
+00:53:44,050 --> 00:53:48,220
+wouldn't be a primate senator so here
+
+942
+00:53:45,970 --> 00:53:50,860
+because we know that in general it's a
+
+943
+00:53:48,220 --> 00:53:52,630
+domain whereas in in the case of a
+
+944
+00:53:50,860 --> 00:53:54,670
+principle ideal domain the quotient has
+
+945
+00:53:52,630 --> 00:53:56,260
+to be a field if we can ever find an
+
+946
+00:53:54,670 --> 00:53:58,000
+ideal such as the quotient by that
+
+947
+00:53:56,260 --> 00:54:02,320
+principle ideal is a domain which is not
+
+948
+00:53:58,000 --> 00:54:04,480
+a field then this thing is not PAP okay
+
+949
+00:54:02,320 --> 00:54:06,790
+but next time we're going to show that
+
+950
+00:54:04,480 --> 00:54:08,740
+property for still holds for it namely
+
+951
+00:54:06,790 --> 00:54:11,410
+we still are going to be able to prove
+
+952
+00:54:08,740 --> 00:54:13,660
+unique factorization into primes in this
+
+953
+00:54:11,410 --> 00:54:16,960
+ring even though it's not Euclidean and
+
+954
+00:54:13,660 --> 00:54:17,920
+not every idealist principle we're still
+
+955
+00:54:16,960 --> 00:54:19,630
+going to have a nice theory of
+
+956
+00:54:17,920 --> 00:54:21,280
+factorization so next time we're going
+
+957
+00:54:19,630 --> 00:54:22,960
+to spend a lot of time on polynomials
+
+958
+00:54:21,280 --> 00:54:25,630
+over the integers which may be the most
+
+959
+00:54:22,960 --> 00:54:27,780
+interesting ring of them all so see you
+
+960
+00:54:25,630 --> 00:54:27,780
+then
+

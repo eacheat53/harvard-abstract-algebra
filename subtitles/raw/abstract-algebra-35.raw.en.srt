@@ -1,0 +1,4836 @@
+1
+00:00:12,599 --> 00:00:16,320
+all right great so I want to start today
+
+2
+00:00:14,400 --> 00:00:17,920
+with a clarification of some of the
+
+3
+00:00:16,320 --> 00:00:20,960
+things that we've
+
+4
+00:00:17,920 --> 00:00:23,600
+done um involving primes and
+
+5
+00:00:20,960 --> 00:00:23,600
+irreducibles
+
+6
+00:00:31,480 --> 00:00:37,040
+specifically I want to just explain uh
+
+7
+00:00:34,239 --> 00:00:38,320
+something that was glossed over in uh a
+
+8
+00:00:37,040 --> 00:00:42,440
+lot of the previous lectures
+
+9
+00:00:38,320 --> 00:00:42,440
+specifically that Prime
+
+10
+00:00:43,680 --> 00:00:48,719
+element and irreducible element are not
+
+11
+00:00:56,879 --> 00:01:04,680
+synonyms this is an important point
+
+12
+00:01:00,559 --> 00:01:08,720
+um so can anybody tell me what a prime
+
+13
+00:01:04,680 --> 00:01:11,479
+element is yes if p is able to divide
+
+14
+00:01:08,720 --> 00:01:14,000
+first not zero yeah well actually it
+
+15
+00:01:11,479 --> 00:01:16,040
+could be zero oh really yeah but it's
+
+16
+00:01:14,000 --> 00:01:18,680
+not something else it's not it's not a
+
+17
+00:01:16,040 --> 00:01:21,880
+unit exactly and if it divides the
+
+18
+00:01:18,680 --> 00:01:23,960
+product of numbers then it divides one
+
+19
+00:01:21,880 --> 00:01:28,079
+or the
+
+20
+00:01:23,960 --> 00:01:31,920
+other exactly so the definition is um
+
+21
+00:01:28,079 --> 00:01:31,920
+Prime element p
+
+22
+00:01:33,320 --> 00:01:43,520
+means um p is not a
+
+23
+00:01:37,720 --> 00:01:46,759
+unit and P divides a implies p divid a
+
+24
+00:01:43,520 --> 00:01:49,399
+or p divid b exactly what's an
+
+25
+00:01:46,759 --> 00:01:49,399
+irreducible
+
+26
+00:01:49,520 --> 00:01:55,200
+element yeah sure goeble element is not
+
+27
+00:01:53,600 --> 00:01:59,479
+equal to
+
+28
+00:01:55,200 --> 00:02:03,799
+Z pretty sure that right so far I know
+
+29
+00:01:59,479 --> 00:02:09,599
+it but I mean the thing is yeah go on
+
+30
+00:02:03,799 --> 00:02:14,519
+the there noer divis so if it is only
+
+31
+00:02:09,599 --> 00:02:17,480
+divisible by a unit and um something of
+
+32
+00:02:14,519 --> 00:02:21,239
+the it's only divisor is a unit exactly
+
+33
+00:02:17,480 --> 00:02:26,519
+so here here's a definition r is not a
+
+34
+00:02:21,239 --> 00:02:26,519
+unit and um if I have a
+
+35
+00:02:27,080 --> 00:02:33,000
+factorization um of the thing into uh
+
+36
+00:02:30,400 --> 00:02:34,360
+some products here A B then either a is
+
+37
+00:02:33,000 --> 00:02:38,519
+a
+
+38
+00:02:34,360 --> 00:02:38,519
+unit or B is a
+
+39
+00:02:38,959 --> 00:02:42,879
+unit um this would of course be false if
+
+40
+00:02:41,519 --> 00:02:44,519
+this thing were zero because I could
+
+41
+00:02:42,879 --> 00:02:47,360
+always have these sort of factorizations
+
+42
+00:02:44,519 --> 00:02:49,239
+you know zero times something else so
+
+43
+00:02:47,360 --> 00:02:53,120
+that the fact that it's not zero is
+
+44
+00:02:49,239 --> 00:02:56,560
+implied by this um so of course there is
+
+45
+00:02:53,120 --> 00:02:58,319
+a relationship always in any domain so
+
+46
+00:02:56,560 --> 00:03:00,959
+let's just let R be a
+
+47
+00:02:58,319 --> 00:03:04,560
+domain which requ call means that there
+
+48
+00:03:00,959 --> 00:03:04,560
+are no zero
+
+49
+00:03:04,640 --> 00:03:13,200
+divisors in other words if a equals z
+
+50
+00:03:08,760 --> 00:03:13,200
+then a is z or b equals
+
+51
+00:03:13,440 --> 00:03:18,760
+z in that case we do know some sort of
+
+52
+00:03:16,120 --> 00:03:20,959
+relationship what do we know what's the
+
+53
+00:03:18,760 --> 00:03:23,400
+relationship in an arbitrary domain
+
+54
+00:03:20,959 --> 00:03:25,480
+between a prime and an
+
+55
+00:03:23,400 --> 00:03:27,959
+irreducible exactly any Prime is
+
+56
+00:03:25,480 --> 00:03:30,280
+irreducible at least any nonzero Prime
+
+57
+00:03:27,959 --> 00:03:32,840
+so if P not equal to zero
+
+58
+00:03:30,280 --> 00:03:34,879
+is prime then
+
+59
+00:03:32,840 --> 00:03:36,959
+p is
+
+60
+00:03:34,879 --> 00:03:39,519
+irreducible does everybody know why this
+
+61
+00:03:36,959 --> 00:03:42,599
+is anybody who doesn't know the proof of
+
+62
+00:03:39,519 --> 00:03:44,280
+this put up their hand so you okay so
+
+63
+00:03:42,599 --> 00:03:45,920
+you haven't seen the proof of this I may
+
+64
+00:03:44,280 --> 00:03:48,720
+have
+
+65
+00:03:45,920 --> 00:03:51,519
+but right so well I me you start off
+
+66
+00:03:48,720 --> 00:03:53,439
+with something obviously which you
+
+67
+00:03:51,519 --> 00:03:54,760
+know you want you want to prove that
+
+68
+00:03:53,439 --> 00:03:56,120
+something is irreducible so you want to
+
+69
+00:03:54,760 --> 00:03:57,480
+you know look at a factorization and
+
+70
+00:03:56,120 --> 00:03:59,799
+show that one of these things must be a
+
+71
+00:03:57,480 --> 00:04:02,079
+unit well if I have a factorization like
+
+72
+00:03:59,799 --> 00:04:04,599
+like this then in particular P divides
+
+73
+00:04:02,079 --> 00:04:06,319
+AB which is good because you know we can
+
+74
+00:04:04,599 --> 00:04:08,200
+then sort of use the fact that this
+
+75
+00:04:06,319 --> 00:04:09,959
+thing is a prime to show that either P
+
+76
+00:04:08,200 --> 00:04:12,640
+divides a or P divides B now without
+
+77
+00:04:09,959 --> 00:04:13,760
+loss of generality we can say that P
+
+78
+00:04:12,640 --> 00:04:20,320
+divides
+
+79
+00:04:13,760 --> 00:04:25,840
+a and so uh we write say p equals CA but
+
+80
+00:04:20,320 --> 00:04:32,400
+we know that P equals AB um so we have
+
+81
+00:04:25,840 --> 00:04:37,080
+um um uh sorry AAL PC rather AAL p c and
+
+82
+00:04:32,400 --> 00:04:43,520
+so we rewrite this as um P
+
+83
+00:04:37,080 --> 00:04:46,199
+equals P = AB equals PCB because we have
+
+84
+00:04:43,520 --> 00:04:47,720
+this way of rewriting a now one of the
+
+85
+00:04:46,199 --> 00:04:49,560
+major points of course is that this is a
+
+86
+00:04:47,720 --> 00:04:53,240
+domain right we needed that as a
+
+87
+00:04:49,560 --> 00:04:55,840
+hypothesis so this means 1 - cbal Z and
+
+88
+00:04:53,240 --> 00:04:59,120
+since p is not Zero by hypothesis this
+
+89
+00:04:55,840 --> 00:05:02,440
+implies 1 - CB equal 0 that's definition
+
+90
+00:04:59,120 --> 00:05:06,680
+of domain our hypothesis so C is an
+
+91
+00:05:02,440 --> 00:05:06,680
+inverse for B so B is a
+
+92
+00:05:10,199 --> 00:05:16,440
+unit so we've shown that P must be
+
+93
+00:05:13,400 --> 00:05:20,000
+irreducible okay
+
+94
+00:05:16,440 --> 00:05:23,840
+so here's the big
+
+95
+00:05:20,000 --> 00:05:23,840
+problem the converse is
+
+96
+00:05:24,639 --> 00:05:29,479
+false for an arbitrary domain
+
+97
+00:05:34,160 --> 00:05:39,520
+anybody give me an example we saw a very
+
+98
+00:05:36,520 --> 00:05:39,520
+nice example last
+
+99
+00:05:42,919 --> 00:05:47,039
+class go ahead 2
+
+100
+00:05:48,800 --> 00:05:54,880
+* exactly or in the sort of more General
+
+101
+00:05:52,400 --> 00:05:56,440
+format we gave last time so I mean I'm
+
+102
+00:05:54,880 --> 00:05:57,919
+going to give you exactly the same
+
+103
+00:05:56,440 --> 00:06:00,840
+example but I'm going to do it for
+
+104
+00:05:57,919 --> 00:06:04,440
+arbitrary D non square or Square free
+
+105
+00:06:00,840 --> 00:06:10,319
+rather less than1 congruent to 3 mod
+
+106
+00:06:04,440 --> 00:06:10,319
+4 so here's here's the thing um last
+
+107
+00:06:12,039 --> 00:06:18,160
+class we saw that if we look at Z join
+
+108
+00:06:15,199 --> 00:06:21,280
+square root D
+
+109
+00:06:18,160 --> 00:06:24,840
+where D is square
+
+110
+00:06:21,280 --> 00:06:26,680
+free in other words any Prime any
+
+111
+00:06:24,840 --> 00:06:28,599
+rational any standard you know usual
+
+112
+00:06:26,680 --> 00:06:30,240
+integer Prime dividing D only can divide
+
+113
+00:06:28,599 --> 00:06:33,199
+it once
+
+114
+00:06:30,240 --> 00:06:34,759
+um D is less than minus one D congruent
+
+115
+00:06:33,199 --> 00:06:36,680
+to
+
+116
+00:06:34,759 --> 00:06:41,520
+3
+
+117
+00:06:36,680 --> 00:06:41,520
+4 we saw we had this lovely
+
+118
+00:06:43,080 --> 00:06:53,240
+factorization um 2 * 1 - D / 2 = 1 -
+
+119
+00:06:49,240 --> 00:06:57,440
+root d 1 + root D and we showed that 2
+
+120
+00:06:53,240 --> 00:07:01,440
+is irreducible we prove
+
+121
+00:06:57,440 --> 00:07:04,400
+this but two is not prime follows from
+
+122
+00:07:01,440 --> 00:07:04,400
+this formula
+
+123
+00:07:07,319 --> 00:07:14,560
+why exactly two divides 1us root d 1
+
+124
+00:07:12,160 --> 00:07:18,039
+plus root D but we also pointed out that
+
+125
+00:07:14,560 --> 00:07:21,319
+two doesn't divide 1+ root D and it
+
+126
+00:07:18,039 --> 00:07:21,319
+doesn't divide 1 minus root
+
+127
+00:07:21,400 --> 00:07:27,280
+D so 2 is irreducible but two is not
+
+128
+00:07:25,039 --> 00:07:30,759
+Prime in this particular
+
+129
+00:07:27,280 --> 00:07:34,039
+ring so
+
+130
+00:07:30,759 --> 00:07:37,560
+the major Point here is that
+
+131
+00:07:34,039 --> 00:07:40,400
+um you should watch out and not make
+
+132
+00:07:37,560 --> 00:07:43,759
+errors on problem sets or
+
+133
+00:07:40,400 --> 00:07:45,800
+exams yes what is a good way to show
+
+134
+00:07:43,759 --> 00:07:48,520
+that something's irreducible because it
+
+135
+00:07:45,800 --> 00:07:51,120
+seems as if I mean it seems as if you'd
+
+136
+00:07:48,520 --> 00:07:51,960
+have how would you go about that you
+
+137
+00:07:51,120 --> 00:07:54,280
+need to know something about the
+
+138
+00:07:51,960 --> 00:07:56,120
+structure of a ring so I mean in in this
+
+139
+00:07:54,280 --> 00:07:58,280
+case to show your reducibility you
+
+140
+00:07:56,120 --> 00:07:59,960
+needed to know a little something about
+
+141
+00:07:58,280 --> 00:08:01,759
+what it looks like if you're in an
+
+142
+00:07:59,960 --> 00:08:03,599
+imaginary quadratic ring you had to use
+
+143
+00:08:01,759 --> 00:08:05,879
+various hypotheses and various
+
+144
+00:08:03,599 --> 00:08:07,360
+structural results we accumulated
+
+145
+00:08:05,879 --> 00:08:09,479
+there's really not much else I can say
+
+146
+00:08:07,360 --> 00:08:11,199
+there's no sort of General technique for
+
+147
+00:08:09,479 --> 00:08:13,199
+defi for deciding when something is
+
+148
+00:08:11,199 --> 00:08:14,440
+irreducible in a particular ring you
+
+149
+00:08:13,199 --> 00:08:17,280
+have to you have to just use whatever
+
+150
+00:08:14,440 --> 00:08:19,280
+structural results you have
+
+151
+00:08:17,280 --> 00:08:21,759
+um
+
+152
+00:08:19,280 --> 00:08:25,199
+so I just want to quickly run through a
+
+153
+00:08:21,759 --> 00:08:28,159
+riew also also to sort of um maybe
+
+154
+00:08:25,199 --> 00:08:30,960
+clarify a few definitions which you know
+
+155
+00:08:28,159 --> 00:08:32,320
+we're sort of given ambiguous L um I
+
+156
+00:08:30,960 --> 00:08:34,680
+want to also go through some of the
+
+157
+00:08:32,320 --> 00:08:34,680
+special
+
+158
+00:08:37,640 --> 00:08:43,279
+rings that we've talked about so far so
+
+159
+00:08:40,919 --> 00:08:46,240
+and we had this sort of filtration of
+
+160
+00:08:43,279 --> 00:08:47,920
+rings so we had like all
+
+161
+00:08:46,240 --> 00:08:51,399
+rings and
+
+162
+00:08:47,920 --> 00:08:53,720
+then we looked at a subass of all Rings
+
+163
+00:08:51,399 --> 00:08:55,120
+which we called domains or integral
+
+164
+00:08:53,720 --> 00:08:57,080
+domains but I'll just abbreviate to
+
+165
+00:08:55,120 --> 00:08:58,600
+domains because it's shorter and the
+
+166
+00:08:57,080 --> 00:09:01,440
+point here is of course there are no
+
+167
+00:08:58,600 --> 00:09:01,440
+zero divisors
+
+168
+00:09:01,880 --> 00:09:06,160
+but the really essential thing about
+
+169
+00:09:04,399 --> 00:09:07,680
+there being no zero divisors is that you
+
+170
+00:09:06,160 --> 00:09:09,920
+have a cancellation law this is the
+
+171
+00:09:07,680 --> 00:09:11,560
+thing that you sort of use most that you
+
+172
+00:09:09,920 --> 00:09:13,720
+have this cancellation law I mean I've
+
+173
+00:09:11,560 --> 00:09:14,920
+written it that way over there uh I mean
+
+174
+00:09:13,720 --> 00:09:16,320
+I've sort of written it out long hand
+
+175
+00:09:14,920 --> 00:09:20,880
+but the point is that if I have a not
+
+176
+00:09:16,320 --> 00:09:24,440
+equal to zero and a equals a then in a
+
+177
+00:09:20,880 --> 00:09:26,560
+domain I know that b equals c even
+
+178
+00:09:24,440 --> 00:09:29,399
+though I don't have an inverse for a so
+
+179
+00:09:26,560 --> 00:09:32,040
+that's just a sort of main way that you
+
+180
+00:09:29,399 --> 00:09:34,920
+use a domain but domains don't have a
+
+181
+00:09:32,040 --> 00:09:38,360
+huge amount of structure um so you often
+
+182
+00:09:34,920 --> 00:09:38,360
+pass to a more restricted
+
+183
+00:09:38,399 --> 00:09:42,959
+class and we called them domains with
+
+184
+00:09:41,079 --> 00:09:44,560
+unique factorization I'll call them
+
+185
+00:09:42,959 --> 00:09:47,120
+unique factorization domains because
+
+186
+00:09:44,560 --> 00:09:47,120
+that's the usual
+
+187
+00:09:47,640 --> 00:09:51,240
+name and there was a bit of a uh there
+
+188
+00:09:49,760 --> 00:09:54,040
+was a bit of an ambiguity issue in the
+
+189
+00:09:51,240 --> 00:09:57,040
+way we talked about unique factorization
+
+190
+00:09:54,040 --> 00:09:59,120
+because we talked about it as if you
+
+191
+00:09:57,040 --> 00:10:00,560
+know unique just meant up to reordering
+
+192
+00:09:59,120 --> 00:10:03,880
+um I mean there's also the point of
+
+193
+00:10:00,560 --> 00:10:05,640
+course that it's Unique up to Associates
+
+194
+00:10:03,880 --> 00:10:07,920
+so I mean primes are somehow not
+
+195
+00:10:05,640 --> 00:10:10,480
+uniquely defined they come in class of
+
+196
+00:10:07,920 --> 00:10:12,800
+Associates I mean you often think of
+
+197
+00:10:10,480 --> 00:10:14,800
+primes as being the same element if they
+
+198
+00:10:12,800 --> 00:10:17,519
+are associate to each other what does
+
+199
+00:10:14,800 --> 00:10:19,279
+being associate
+
+200
+00:10:17,519 --> 00:10:21,880
+mean
+
+201
+00:10:19,279 --> 00:10:25,440
+sorry exactly so things are associated
+
+202
+00:10:21,880 --> 00:10:30,800
+if they differ by a unit Factor so
+
+203
+00:10:25,440 --> 00:10:33,680
+unique factorization unique means
+
+204
+00:10:30,800 --> 00:10:37,200
+up to
+
+205
+00:10:33,680 --> 00:10:37,200
+reordering of
+
+206
+00:10:38,200 --> 00:10:42,639
+factorization and up to
+
+207
+00:10:44,040 --> 00:10:47,399
+Associates is that
+
+208
+00:10:48,480 --> 00:10:52,720
+clear and then we uh looked at
+
+209
+00:10:53,639 --> 00:10:59,959
+PS principal
+
+210
+00:10:56,480 --> 00:11:01,279
+ideal domains
+
+211
+00:10:59,959 --> 00:11:03,720
+these are subass of the unique
+
+212
+00:11:01,279 --> 00:11:06,959
+factorization domains so these are the
+
+213
+00:11:03,720 --> 00:11:08,920
+uh uh these are the Rings
+
+214
+00:11:06,959 --> 00:11:10,720
+where these are the domains where you
+
+215
+00:11:08,920 --> 00:11:12,639
+know that if you have an ideal then it
+
+216
+00:11:10,720 --> 00:11:14,320
+must be generated by some
+
+217
+00:11:12,639 --> 00:11:17,639
+element
+
+218
+00:11:14,320 --> 00:11:18,959
+um by some unique element sorry not
+
+219
+00:11:17,639 --> 00:11:21,720
+unique by some
+
+220
+00:11:18,959 --> 00:11:24,920
+element
+
+221
+00:11:21,720 --> 00:11:29,519
+um then we had a subass of that
+
+222
+00:11:24,920 --> 00:11:29,519
+the ukian domains
+
+223
+00:11:33,560 --> 00:11:36,839
+where you had a division algorithm now
+
+224
+00:11:35,760 --> 00:11:38,440
+there was a bit of a a sort of
+
+225
+00:11:36,839 --> 00:11:40,160
+nomenclature issue here we called the
+
+226
+00:11:38,440 --> 00:11:42,360
+division algorithm and ukian algorithm I
+
+227
+00:11:40,160 --> 00:11:44,639
+mean in some sense the name ukian
+
+228
+00:11:42,360 --> 00:11:47,279
+algorithm more properly applies to the
+
+229
+00:11:44,639 --> 00:11:48,560
+method for calculating the gcd given the
+
+230
+00:11:47,279 --> 00:11:50,320
+division algorithm and I think there was
+
+231
+00:11:48,560 --> 00:11:52,399
+an exercise where you were supposed to
+
+232
+00:11:50,320 --> 00:11:54,279
+actually come up with the ukian
+
+233
+00:11:52,399 --> 00:11:55,760
+algorithm based on a division algorithm
+
+234
+00:11:54,279 --> 00:11:57,519
+but you call the thing ukian domain
+
+235
+00:11:55,760 --> 00:11:59,720
+because you have both this division
+
+236
+00:11:57,519 --> 00:12:02,200
+algorithm and a ukian algorithm is that
+
+237
+00:11:59,720 --> 00:12:04,680
+pretty clear to
+
+238
+00:12:02,200 --> 00:12:06,079
+everyone okay so I mean and remember the
+
+239
+00:12:04,680 --> 00:12:09,800
+point is that you do have this sort of
+
+240
+00:12:06,079 --> 00:12:13,079
+this thing we called maybe a ukian norm
+
+241
+00:12:09,800 --> 00:12:15,680
+or something which is distinct in
+
+242
+00:12:13,079 --> 00:12:19,440
+general from the notion of Norm that we
+
+243
+00:12:15,680 --> 00:12:22,560
+introduced last time um this is just
+
+244
+00:12:19,440 --> 00:12:24,160
+some sort of General size function and
+
+245
+00:12:22,560 --> 00:12:26,079
+of course the idea was and here's a
+
+246
+00:12:24,160 --> 00:12:28,360
+hypothesis that was left out if you
+
+247
+00:12:26,079 --> 00:12:29,680
+start out with some elements the one
+
+248
+00:12:28,360 --> 00:12:32,959
+that you're going to divide Y is not
+
+249
+00:12:29,680 --> 00:12:35,399
+zero then you can write then so for all
+
+250
+00:12:32,959 --> 00:12:37,760
+a b such that b is not equal to zero
+
+251
+00:12:35,399 --> 00:12:43,120
+there exist a quotient in a remainder
+
+252
+00:12:37,760 --> 00:12:48,760
+such that a = BQ + R and R equals z or
+
+253
+00:12:43,120 --> 00:12:49,680
+um Delta of R is less than Delta B um
+
+254
+00:12:48,760 --> 00:12:52,360
+and there are various ways of
+
+255
+00:12:49,680 --> 00:12:53,560
+normalizing the ukan norm and so on but
+
+256
+00:12:52,360 --> 00:12:56,560
+that's really not that
+
+257
+00:12:53,560 --> 00:12:56,560
+important
+
+258
+00:12:57,959 --> 00:13:04,360
+um so for instance yeah it's it's it is
+
+259
+00:13:01,519 --> 00:13:05,880
+quite possible for instance that in one
+
+260
+00:13:04,360 --> 00:13:08,040
+of the sorts of rings that we were
+
+261
+00:13:05,880 --> 00:13:10,519
+talking about in class these like Z join
+
+262
+00:13:08,040 --> 00:13:12,760
+square root D that the notion of Norm
+
+263
+00:13:10,519 --> 00:13:14,800
+that we introduced last class where you
+
+264
+00:13:12,760 --> 00:13:18,920
+you know multiply a plus bot d by a
+
+265
+00:13:14,800 --> 00:13:21,639
+minus bot D and get a squ plus b s d is
+
+266
+00:13:18,920 --> 00:13:23,920
+um not going to give you a ukian norm
+
+267
+00:13:21,639 --> 00:13:27,360
+but that there is nonetheless a ukian
+
+268
+00:13:23,920 --> 00:13:28,959
+norm on that ring this is a distinct
+
+269
+00:13:27,360 --> 00:13:32,560
+possibility there's nothing to rule that
+
+270
+00:13:28,959 --> 00:13:35,079
+out out um and going the other way of
+
+271
+00:13:32,560 --> 00:13:36,800
+course it is utterly utterly utterly
+
+272
+00:13:35,079 --> 00:13:38,760
+false that just because you have you
+
+273
+00:13:36,800 --> 00:13:40,839
+know this Norm that it you know in any
+
+274
+00:13:38,760 --> 00:13:42,720
+way tells you that there there is a
+
+275
+00:13:40,839 --> 00:13:46,000
+ukian norm and there's absolutely no
+
+276
+00:13:42,720 --> 00:13:47,560
+sense in which that's true um so that's
+
+277
+00:13:46,000 --> 00:13:49,279
+an important sort of Distinction we have
+
+278
+00:13:47,560 --> 00:13:50,720
+these sorts of common terms running
+
+279
+00:13:49,279 --> 00:13:52,279
+around but they mean different things in
+
+280
+00:13:50,720 --> 00:13:54,639
+different context so
+
+281
+00:13:52,279 --> 00:13:57,480
+beware
+
+282
+00:13:54,639 --> 00:13:59,680
+um and
+
+283
+00:13:57,480 --> 00:14:00,839
+uh then
+
+284
+00:13:59,680 --> 00:14:04,279
+what what would be like sort of the
+
+285
+00:14:00,839 --> 00:14:06,399
+smallest thing that that I might put
+
+286
+00:14:04,279 --> 00:14:10,440
+here something that's automatically a
+
+287
+00:14:06,399 --> 00:14:13,600
+ukian domain by a sort of trivial
+
+288
+00:14:10,440 --> 00:14:13,600
+Norm a
+
+289
+00:14:14,240 --> 00:14:18,040
+field so this sort of relates all of the
+
+290
+00:14:16,800 --> 00:14:20,480
+different sorts of rings that we've
+
+291
+00:14:18,040 --> 00:14:22,360
+talked about so far fields are you know
+
+292
+00:14:20,480 --> 00:14:25,639
+the sort of smallest most restricted
+
+293
+00:14:22,360 --> 00:14:28,040
+class and in some sense the big you know
+
+294
+00:14:25,639 --> 00:14:31,000
+the main thing about this sort of sweep
+
+295
+00:14:28,040 --> 00:14:33,600
+is that there's an increasing complexity
+
+296
+00:14:31,000 --> 00:14:36,360
+as you pass in this direction from
+
+297
+00:14:33,600 --> 00:14:38,880
+fields to all rings in terms of two
+
+298
+00:14:36,360 --> 00:14:41,279
+things the ideal structure and the
+
+299
+00:14:38,880 --> 00:14:44,079
+structure of the group of units so as
+
+300
+00:14:41,279 --> 00:14:46,160
+you pass this way you get more and more
+
+301
+00:14:44,079 --> 00:14:48,240
+ideals and much more complicated ideal
+
+302
+00:14:46,160 --> 00:14:51,360
+lce structure and you get much more
+
+303
+00:14:48,240 --> 00:14:52,959
+complicated Rings uh groups of
+
+304
+00:14:51,360 --> 00:14:56,000
+units
+
+305
+00:14:52,959 --> 00:14:57,560
+um and a lot of what you do in ring
+
+306
+00:14:56,000 --> 00:14:59,480
+theory is you try to explore the
+
+307
+00:14:57,560 --> 00:15:01,800
+structure of the lattice of IDE ideals
+
+308
+00:14:59,480 --> 00:15:03,800
+and the structure of the Ring of un
+
+309
+00:15:01,800 --> 00:15:06,320
+because you can relate that to a lot of
+
+310
+00:15:03,800 --> 00:15:07,800
+sort of basic you know uh number
+
+311
+00:15:06,320 --> 00:15:09,360
+theoretic problems and a lot of other
+
+312
+00:15:07,800 --> 00:15:11,120
+sort of algebraic problems there are all
+
+313
+00:15:09,360 --> 00:15:13,079
+these sorts of areas of math which rely
+
+314
+00:15:11,120 --> 00:15:15,199
+specifically on knowing those things so
+
+315
+00:15:13,079 --> 00:15:16,360
+you need this sort of structural Theory
+
+316
+00:15:15,199 --> 00:15:17,959
+now I'm going to make some some
+
+317
+00:15:16,360 --> 00:15:20,399
+abbreviations I'm usually going to refer
+
+318
+00:15:17,959 --> 00:15:22,720
+to things like ufd uh unique
+
+319
+00:15:20,399 --> 00:15:25,240
+factorization domains as ufds principal
+
+320
+00:15:22,720 --> 00:15:27,600
+ideal domains as pids I might even
+
+321
+00:15:25,240 --> 00:15:29,480
+abbreviate eum domains to EDS now why do
+
+322
+00:15:27,600 --> 00:15:30,920
+I do this not to confuse but because
+
+323
+00:15:29,480 --> 00:15:33,800
+this is standard in the literature if
+
+324
+00:15:30,920 --> 00:15:35,399
+you ever read uh um you know a paper
+
+325
+00:15:33,800 --> 00:15:37,720
+you're you know you're not going to read
+
+326
+00:15:35,399 --> 00:15:41,040
+principal ideal domain you will read P
+
+327
+00:15:37,720 --> 00:15:41,040
+because nobody wants to write it all
+
+328
+00:15:41,160 --> 00:15:44,160
+out
+
+329
+00:15:47,399 --> 00:15:51,399
+okay actually I'm going to move back
+
+330
+00:15:49,279 --> 00:15:55,440
+over here so I just want to do very very
+
+331
+00:15:51,399 --> 00:15:56,959
+quickly something where we look at um
+
+332
+00:15:55,440 --> 00:15:59,279
+examples of each of these things which
+
+333
+00:15:56,959 --> 00:16:01,560
+is not an example of the previous so for
+
+334
+00:15:59,279 --> 00:16:04,160
+instance an example of a ring which is
+
+335
+00:16:01,560 --> 00:16:08,800
+not a domain is z cross
+
+336
+00:16:04,160 --> 00:16:10,920
+z um someone give me an example of a a
+
+337
+00:16:08,800 --> 00:16:13,199
+domain which is not a ufd we saw them
+
+338
+00:16:10,920 --> 00:16:13,199
+last
+
+339
+00:16:13,519 --> 00:16:16,519
+class
+
+340
+00:16:18,160 --> 00:16:23,639
+yeah we we generated by something right
+
+341
+00:16:20,680 --> 00:16:26,279
+exactly so Z join root D where D is
+
+342
+00:16:23,639 --> 00:16:29,199
+square free less than minus1 and
+
+343
+00:16:26,279 --> 00:16:31,079
+congruent to 3 mod 4
+
+344
+00:16:29,199 --> 00:16:34,040
+so this is not a ufd we showed that last
+
+345
+00:16:31,079 --> 00:16:36,920
+class and we showed it again over here
+
+346
+00:16:34,040 --> 00:16:39,279
+okay so what's a ufd which is not a p ID
+
+347
+00:16:36,920 --> 00:16:44,600
+you've seen lots of examples of
+
+348
+00:16:39,279 --> 00:16:46,079
+this like Pol exactly so for instance we
+
+349
+00:16:44,600 --> 00:16:47,519
+saw that if you have a unique
+
+350
+00:16:46,079 --> 00:16:51,759
+factorization domain then the polinomial
+
+351
+00:16:47,519 --> 00:16:55,319
+Ring of that ufd uh must be uh still a
+
+352
+00:16:51,759 --> 00:16:56,920
+ufd so for instance Z ad jooin X is ufd
+
+353
+00:16:55,319 --> 00:16:59,680
+but nonetheless it's not a p ID because
+
+354
+00:16:56,920 --> 00:17:01,199
+it has ideals like X comma 2
+
+355
+00:16:59,680 --> 00:17:03,600
+which are certainly not principal
+
+356
+00:17:01,199 --> 00:17:06,919
+another option would be a field to join
+
+357
+00:17:03,600 --> 00:17:10,280
+two variables and you consider the ideal
+
+358
+00:17:06,919 --> 00:17:11,839
+generated by those two variables so P ID
+
+359
+00:17:10,280 --> 00:17:13,520
+which is not a ukian domain now this
+
+360
+00:17:11,839 --> 00:17:16,839
+one's hard I'm just going to give it to
+
+361
+00:17:13,520 --> 00:17:20,360
+you there's no way that you could really
+
+362
+00:17:16,839 --> 00:17:22,039
+be expected to see this off hand um
+
+363
+00:17:20,360 --> 00:17:24,520
+there's a a sort of nice theory that
+
+364
+00:17:22,039 --> 00:17:27,079
+that explains why this is a principal
+
+365
+00:17:24,520 --> 00:17:30,480
+ideal domain but not a ukan domain but Z
+
+366
+00:17:27,079 --> 00:17:33,240
+join 1 plus 19
+
+367
+00:17:30,480 --> 00:17:35,919
+/2 um example of ukan domain which is
+
+368
+00:17:33,240 --> 00:17:38,559
+not a field well that's easy Z say and
+
+369
+00:17:35,919 --> 00:17:40,720
+Fields well consider the real numbers
+
+370
+00:17:38,559 --> 00:17:43,720
+great
+
+371
+00:17:40,720 --> 00:17:43,720
+okay
+
+372
+00:17:43,799 --> 00:17:50,160
+so now in
+
+373
+00:17:46,640 --> 00:17:52,720
+addendum the sort of first note I made
+
+374
+00:17:50,160 --> 00:17:52,720
+um is
+
+375
+00:17:53,000 --> 00:18:00,880
+that if R is a
+
+376
+00:17:56,280 --> 00:18:03,320
+ufd and I have some R and R which is not
+
+377
+00:18:00,880 --> 00:18:03,320
+equal to
+
+378
+00:18:03,760 --> 00:18:08,559
+zero then under this very important
+
+379
+00:18:06,520 --> 00:18:09,440
+hypothesis that I'm working in a ufd and
+
+380
+00:18:08,559 --> 00:18:11,320
+we've seen that there are a lot of
+
+381
+00:18:09,440 --> 00:18:14,280
+things which are not ufds a lot of very
+
+382
+00:18:11,320 --> 00:18:18,200
+nice things which are not ufds for
+
+383
+00:18:14,280 --> 00:18:19,960
+instance these but if R is a ufd then R
+
+384
+00:18:18,200 --> 00:18:22,840
+is
+
+385
+00:18:19,960 --> 00:18:25,039
+irreducible if and only if it's
+
+386
+00:18:22,840 --> 00:18:26,640
+Prime now we've shown this in One
+
+387
+00:18:25,039 --> 00:18:28,000
+Direction the other direction is easy
+
+388
+00:18:26,640 --> 00:18:31,039
+because you just consider the unique
+
+389
+00:18:28,000 --> 00:18:33,440
+factorization and you know that R is
+
+390
+00:18:31,039 --> 00:18:35,400
+irreducible so it must divide the other
+
+391
+00:18:33,440 --> 00:18:37,039
+side it must divide you know must be in
+
+392
+00:18:35,400 --> 00:18:39,400
+the fa unique factorizations of the
+
+393
+00:18:37,039 --> 00:18:41,760
+things on the other side so you get that
+
+394
+00:18:39,400 --> 00:18:43,559
+the thing uh must in fact be prime
+
+395
+00:18:41,760 --> 00:18:44,840
+that's the essential point that because
+
+396
+00:18:43,559 --> 00:18:46,679
+you know how you have this unique
+
+397
+00:18:44,840 --> 00:18:47,600
+factorization into irreducibles remember
+
+398
+00:18:46,679 --> 00:18:51,559
+this
+
+399
+00:18:47,600 --> 00:18:55,400
+is ufd means factorization up to
+
+400
+00:18:51,559 --> 00:18:55,400
+Associates of irreducibles
+
+401
+00:18:55,600 --> 00:19:05,039
+um you have this and that's why we often
+
+402
+00:18:59,640 --> 00:19:05,039
+make this sort of confusion um so in
+
+403
+00:19:05,760 --> 00:19:11,280
+ufds we
+
+404
+00:19:08,280 --> 00:19:11,280
+sometimes
+
+405
+00:19:11,919 --> 00:19:18,480
+interchange
+
+406
+00:19:14,360 --> 00:19:21,480
+Prime and irreducible but don't misapply
+
+407
+00:19:18,480 --> 00:19:21,480
+this
+
+408
+00:19:31,880 --> 00:19:36,679
+for instance when you're you know
+
+409
+00:19:33,400 --> 00:19:39,440
+talking on an exam about Z join squ root
+
+410
+00:19:36,679 --> 00:19:41,760
+D satisfying these hypotheses don't make
+
+411
+00:19:39,440 --> 00:19:44,919
+the mistake of saying that something uh
+
+412
+00:19:41,760 --> 00:19:44,919
+is prime if and only if it's
+
+413
+00:19:50,559 --> 00:19:56,679
+irreducible okay so now I want to talk
+
+414
+00:19:53,440 --> 00:19:59,120
+about sort of the way of taking this
+
+415
+00:19:56,679 --> 00:20:02,080
+notion of prime and bringing it to the
+
+416
+00:19:59,120 --> 00:20:04,240
+world of ideals
+
+417
+00:20:02,080 --> 00:20:07,640
+um another way of sort of seeing what
+
+418
+00:20:04,240 --> 00:20:09,720
+I'm about to talk about is it's uh a
+
+419
+00:20:07,640 --> 00:20:12,520
+sort of broader class than maximal
+
+420
+00:20:09,720 --> 00:20:15,240
+ideals it encompasses maximal ideals but
+
+421
+00:20:12,520 --> 00:20:18,559
+it gives a lot more things in much the
+
+422
+00:20:15,240 --> 00:20:20,440
+same way that um a field is a domain but
+
+423
+00:20:18,559 --> 00:20:25,280
+the converse is false and we'll see
+
+424
+00:20:20,440 --> 00:20:25,280
+exactly how that can be made precise
+
+425
+00:20:26,039 --> 00:20:35,720
+so going to talk about Prime
+
+426
+00:20:29,799 --> 00:20:35,720
+and maximal I abbreviate Max maximal
+
+427
+00:20:35,919 --> 00:20:39,400
+ideals um so
+
+428
+00:20:40,120 --> 00:20:45,600
+recall that if I have a proper
+
+429
+00:20:43,240 --> 00:20:48,559
+ideal in a
+
+430
+00:20:45,600 --> 00:20:52,080
+ring then we call the thing
+
+431
+00:20:48,559 --> 00:20:56,240
+maximal if and only
+
+432
+00:20:52,080 --> 00:20:59,600
+if um any ideal stuck between the uh
+
+433
+00:20:56,240 --> 00:21:03,760
+this ideal and the entire ring
+
+434
+00:20:59,600 --> 00:21:05,919
+um must be either that ideal or the
+
+435
+00:21:03,760 --> 00:21:09,679
+entire ring so there's nothing sort of
+
+436
+00:21:05,919 --> 00:21:12,240
+properly stuck between now what was our
+
+437
+00:21:09,679 --> 00:21:14,360
+sort of uh clever way of characterizing
+
+438
+00:21:12,240 --> 00:21:17,799
+maximal ideals in terms of quotients of
+
+439
+00:21:14,360 --> 00:21:21,279
+a ring Fields exactly so here's the
+
+440
+00:21:17,799 --> 00:21:21,279
+theorem m is a maximal
+
+441
+00:21:21,799 --> 00:21:28,080
+ideal if and only if R
+
+442
+00:21:24,760 --> 00:21:30,799
+modm is a field and this is because we
+
+443
+00:21:28,080 --> 00:21:33,720
+understand this structure of the uh the
+
+444
+00:21:30,799 --> 00:21:35,720
+ideals of a quotient if we knew the uh
+
+445
+00:21:33,720 --> 00:21:39,120
+the the uh lattice of ideals in a
+
+446
+00:21:35,720 --> 00:21:42,279
+particular ring then we could figure out
+
+447
+00:21:39,120 --> 00:21:43,279
+the ltis of ideals in any quotient of it
+
+448
+00:21:42,279 --> 00:21:45,000
+and we know that fields are
+
+449
+00:21:43,279 --> 00:21:48,279
+characterized by they're having these
+
+450
+00:21:45,000 --> 00:21:51,679
+two ideals the zero ideal and the full
+
+451
+00:21:48,279 --> 00:21:53,440
+ideal um the unit ideal um and them
+
+452
+00:21:51,679 --> 00:21:56,039
+being distinct
+
+453
+00:21:53,440 --> 00:21:58,400
+so that's how we saw
+
+454
+00:21:56,039 --> 00:21:59,840
+that but now I want to sort of broaden
+
+455
+00:21:58,400 --> 00:22:02,760
+that that
+
+456
+00:21:59,840 --> 00:22:04,320
+class so here's how I'm going to do that
+
+457
+00:22:02,760 --> 00:22:06,640
+so
+
+458
+00:22:04,320 --> 00:22:12,559
+definition again suppose I have some
+
+459
+00:22:06,640 --> 00:22:15,919
+proper ideal um of R um this thing is
+
+460
+00:22:12,559 --> 00:22:15,919
+called Prime
+
+461
+00:22:19,279 --> 00:22:26,799
+ideal if whenever I have some product of
+
+462
+00:22:22,559 --> 00:22:31,000
+elements in P then I know
+
+463
+00:22:26,799 --> 00:22:33,039
+that one of those elements El is in P
+
+464
+00:22:31,000 --> 00:22:36,679
+now why is this somehow a generalization
+
+465
+00:22:33,039 --> 00:22:40,159
+of the notion of prime element well it
+
+466
+00:22:36,679 --> 00:22:42,480
+shouldn't be hard to see that P is a
+
+467
+00:22:40,159 --> 00:22:42,480
+prime
+
+468
+00:22:43,039 --> 00:22:50,919
+element if only if the principal ideal
+
+469
+00:22:46,240 --> 00:22:50,919
+generated by that element is a prime
+
+470
+00:22:53,120 --> 00:22:58,919
+ideal so what's the what's the main
+
+471
+00:22:55,279 --> 00:22:58,919
+reason that's true
+
+472
+00:22:59,320 --> 00:23:02,919
+the main reason that's true is that the
+
+473
+00:23:00,880 --> 00:23:04,520
+statement that P divides something is
+
+474
+00:23:02,919 --> 00:23:07,200
+the same as saying
+
+475
+00:23:04,520 --> 00:23:08,880
+that that element is in the ideal
+
+476
+00:23:07,200 --> 00:23:10,799
+generated by that thing so the
+
+477
+00:23:08,880 --> 00:23:12,720
+definitions just sort of become you know
+
+478
+00:23:10,799 --> 00:23:16,840
+clearly uh equivalent you know in other
+
+479
+00:23:12,720 --> 00:23:20,760
+words P divides a implies p divid a or P
+
+480
+00:23:16,840 --> 00:23:25,120
+divides B can be translated under this
+
+481
+00:23:20,760 --> 00:23:28,480
+into just saying that a is in this ideal
+
+482
+00:23:25,120 --> 00:23:31,279
+generated by P implies a is in the ideal
+
+483
+00:23:28,480 --> 00:23:32,960
+generated by P or B is in the ideal
+
+484
+00:23:31,279 --> 00:23:37,000
+generated by
+
+485
+00:23:32,960 --> 00:23:39,159
+P is that clear any questions about
+
+486
+00:23:37,000 --> 00:23:42,000
+this okay
+
+487
+00:23:39,159 --> 00:23:44,320
+now do I have any reason to think that
+
+488
+00:23:42,000 --> 00:23:46,720
+if I have a prime ideal in general then
+
+489
+00:23:44,320 --> 00:23:50,400
+it must be generated as the principal
+
+490
+00:23:46,720 --> 00:23:50,400
+ideal by some prime
+
+491
+00:23:52,039 --> 00:23:58,120
+element absolutely not in fact it's
+
+492
+00:23:54,679 --> 00:24:00,240
+absolutely false that um in general a
+
+493
+00:23:58,120 --> 00:24:02,400
+prime ideal is going to be generated by
+
+494
+00:24:00,240 --> 00:24:07,440
+some prime element so don't make this
+
+495
+00:24:02,400 --> 00:24:10,120
+mistake so these are distinct ideas so
+
+496
+00:24:07,440 --> 00:24:13,360
+can anybody give me a nice example of a
+
+497
+00:24:10,120 --> 00:24:13,360
+prime ideal which is not
+
+498
+00:24:17,360 --> 00:24:24,440
+principal so P Prime does not imply P
+
+499
+00:24:21,720 --> 00:24:29,399
+equals P for
+
+500
+00:24:24,440 --> 00:24:29,399
+some prime element p
+
+501
+00:24:30,360 --> 00:24:33,640
+exactly one of the easiest ways of
+
+502
+00:24:32,360 --> 00:24:35,360
+getting something like this is by
+
+503
+00:24:33,640 --> 00:24:40,880
+looking at a polinomial ideal so for
+
+504
+00:24:35,360 --> 00:24:44,240
+instance note that Z join XY modulo the
+
+505
+00:24:40,880 --> 00:24:48,600
+ideal generated by XY is isomorphic to Z
+
+506
+00:24:44,240 --> 00:24:51,559
+it's a oh well I will show in a minute
+
+507
+00:24:48,600 --> 00:24:54,559
+that this implies that this must be a
+
+508
+00:24:51,559 --> 00:24:56,960
+prime ideal here here's an easier well
+
+509
+00:24:54,559 --> 00:25:00,000
+okay um I'm going to show in a minute
+
+510
+00:24:56,960 --> 00:25:03,120
+that uh ideals are characterized by the
+
+511
+00:25:00,000 --> 00:25:05,200
+fact that their quotients are domains so
+
+512
+00:25:03,120 --> 00:25:07,799
+just accept that fact for a minute this
+
+513
+00:25:05,200 --> 00:25:10,320
+implies then that the ideal generated by
+
+514
+00:25:07,799 --> 00:25:14,200
+XY must be a prime
+
+515
+00:25:10,320 --> 00:25:16,720
+ideal but XY is not a principal ideal
+
+516
+00:25:14,200 --> 00:25:18,960
+we've seen this in various forms
+
+517
+00:25:16,720 --> 00:25:23,080
+previously so let me actually prove that
+
+518
+00:25:18,960 --> 00:25:25,600
+backup statement that
+
+519
+00:25:23,080 --> 00:25:28,600
+um primes are characterized by their
+
+520
+00:25:25,600 --> 00:25:28,600
+quotients
+
+521
+00:25:30,720 --> 00:25:35,520
+so this thing is
+
+522
+00:25:32,080 --> 00:25:35,520
+prime but not
+
+523
+00:25:37,640 --> 00:25:41,799
+principal
+
+524
+00:25:39,320 --> 00:25:44,919
+but in order to completely justify this
+
+525
+00:25:41,799 --> 00:25:50,480
+we need the following result that P is
+
+526
+00:25:44,919 --> 00:25:53,720
+prime if and only if R mod P is a domain
+
+527
+00:25:50,480 --> 00:25:55,799
+so this is sort of a uh this is sort of
+
+528
+00:25:53,720 --> 00:25:57,559
+a statement of course analogous to the
+
+529
+00:25:55,799 --> 00:25:59,559
+proposition we had over here that
+
+530
+00:25:57,559 --> 00:26:02,679
+maximal is characterized by the quotient
+
+531
+00:25:59,559 --> 00:26:04,919
+being a field and this is pretty
+
+532
+00:26:02,679 --> 00:26:06,760
+obvious does anybody want to go through
+
+533
+00:26:04,919 --> 00:26:08,960
+the proof of
+
+534
+00:26:06,760 --> 00:26:11,559
+this okay sure so I'll go through a
+
+535
+00:26:08,960 --> 00:26:12,840
+proof of this so going in One Direction
+
+536
+00:26:11,559 --> 00:26:16,600
+suppose I
+
+537
+00:26:12,840 --> 00:26:18,000
+have suppose I have x y equals z so I
+
+538
+00:26:16,600 --> 00:26:18,919
+mean I'm going to assume that P is Prime
+
+539
+00:26:18,000 --> 00:26:20,399
+and I'm going to try to show this thing
+
+540
+00:26:18,919 --> 00:26:22,279
+as a domain so I'm going to say that
+
+541
+00:26:20,399 --> 00:26:23,799
+suppose I have some you know the these
+
+542
+00:26:22,279 --> 00:26:24,799
+things let's make sure that they aren't
+
+543
+00:26:23,799 --> 00:26:26,520
+zero
+
+544
+00:26:24,799 --> 00:26:30,120
+divisors
+
+545
+00:26:26,520 --> 00:26:33,159
+um well I can lift these things this x
+
+546
+00:26:30,120 --> 00:26:35,000
+to some X Tilda and this y to some y
+
+547
+00:26:33,159 --> 00:26:36,760
+Tilda in R so these are just pre-images
+
+548
+00:26:35,000 --> 00:26:39,440
+under the canonical homomorphism from R
+
+549
+00:26:36,760 --> 00:26:41,760
+to R mod P and we know that by
+
+550
+00:26:39,440 --> 00:26:44,360
+definition of you know this canonical
+
+551
+00:26:41,760 --> 00:26:48,360
+Map X Tilda y Tilda must be in the
+
+552
+00:26:44,360 --> 00:26:51,000
+kernel namely in P so um we have X Tilda
+
+553
+00:26:48,360 --> 00:26:53,640
+and Y Tilda lifts of X and Y and the
+
+554
+00:26:51,000 --> 00:26:55,159
+fact that the multiple of X and Y Z says
+
+555
+00:26:53,640 --> 00:26:59,360
+that these things are in this Prime
+
+556
+00:26:55,159 --> 00:27:03,760
+ideal Now by hypothesis um this implies
+
+557
+00:26:59,360 --> 00:27:07,919
+since p is prime that X Tilda is in P or
+
+558
+00:27:03,760 --> 00:27:12,279
+Y Tilda is in P but that's just saying
+
+559
+00:27:07,919 --> 00:27:14,080
+that x equals 0 or y equals 0 because
+
+560
+00:27:12,279 --> 00:27:15,399
+again of the definition of quotient is
+
+561
+00:27:14,080 --> 00:27:19,120
+that
+
+562
+00:27:15,399 --> 00:27:23,039
+clear the other direction is
+
+563
+00:27:19,120 --> 00:27:23,039
+identical you just reverse the
+
+564
+00:27:23,840 --> 00:27:27,440
+argument I mean you just sort of start
+
+565
+00:27:26,360 --> 00:27:28,760
+out with these things and then you take
+
+566
+00:27:27,440 --> 00:27:31,600
+The Descent
+
+567
+00:27:28,760 --> 00:27:34,480
+um rather than taking
+
+568
+00:27:31,600 --> 00:27:36,360
+lifts so this is a very easy result it's
+
+569
+00:27:34,480 --> 00:27:38,080
+a very nice characterization and one of
+
+570
+00:27:36,360 --> 00:27:40,519
+the one of the best ways of thinking in
+
+571
+00:27:38,080 --> 00:27:43,159
+general about domains is sorry about
+
+572
+00:27:40,519 --> 00:27:45,240
+prime ideals is that they have quotients
+
+573
+00:27:43,159 --> 00:27:47,360
+being domains now what's a sort of
+
+574
+00:27:45,240 --> 00:27:50,200
+immediate crawler of
+
+575
+00:27:47,360 --> 00:27:52,760
+this I we know that
+
+576
+00:27:50,200 --> 00:27:55,840
+every we know that every field is a
+
+577
+00:27:52,760 --> 00:27:58,559
+domain right because we can take these
+
+578
+00:27:55,840 --> 00:28:01,159
+because we can uh uh you know if we had
+
+579
+00:27:58,559 --> 00:28:03,760
+some XY equal to zero in a field then we
+
+580
+00:28:01,159 --> 00:28:05,720
+could always just multiply by in inverse
+
+581
+00:28:03,760 --> 00:28:08,760
+unless you know one of the things is
+
+582
+00:28:05,720 --> 00:28:12,519
+zero so what does that tell us about the
+
+583
+00:28:08,760 --> 00:28:12,519
+relationship between maximal and Prime
+
+584
+00:28:13,279 --> 00:28:20,519
+ideals Maxim exactly so a coroller an
+
+585
+00:28:17,640 --> 00:28:21,760
+immediate coroller of this is that if m
+
+586
+00:28:20,519 --> 00:28:24,640
+is
+
+587
+00:28:21,760 --> 00:28:27,240
+maximal then m is
+
+588
+00:28:24,640 --> 00:28:31,320
+Prime and the proof is of course just
+
+589
+00:28:27,240 --> 00:28:33,480
+that R modm being a field implies that R
+
+590
+00:28:31,320 --> 00:28:36,080
+modm is a
+
+591
+00:28:33,480 --> 00:28:39,480
+domain this is by far the easiest way of
+
+592
+00:28:36,080 --> 00:28:39,480
+proving that a maximum ideal is
+
+593
+00:28:39,840 --> 00:28:45,519
+prime here's another sort of
+
+594
+00:28:42,919 --> 00:28:48,600
+coroller what's a way of characterizing
+
+595
+00:28:45,519 --> 00:28:53,159
+domains in terms of the ideal
+
+596
+00:28:48,600 --> 00:28:56,159
+structure uh of the ring so I mean is
+
+597
+00:28:53,159 --> 00:29:00,760
+there an ideal which is prime if and
+
+598
+00:28:56,159 --> 00:29:00,760
+only if that ring is a
+
+599
+00:29:03,240 --> 00:29:10,480
+domain well the zero ideal because our
+
+600
+00:29:07,039 --> 00:29:13,600
+modulo the zero ideal is just
+
+601
+00:29:10,480 --> 00:29:16,279
+R so zero is so R is a domain for
+
+602
+00:29:13,600 --> 00:29:20,000
+instance R is a
+
+603
+00:29:16,279 --> 00:29:25,159
+domain if and only if is a if and only
+
+604
+00:29:20,000 --> 00:29:29,799
+if zero is Prime and the proof of that
+
+605
+00:29:25,159 --> 00:29:32,440
+is that R is Rod zero so this thing is
+
+606
+00:29:29,799 --> 00:29:35,440
+domain in other words R is domain if and
+
+607
+00:29:32,440 --> 00:29:35,440
+only if zero is
+
+608
+00:29:35,679 --> 00:29:39,600
+prime so this is another nice sort of
+
+609
+00:29:38,000 --> 00:29:42,799
+characterization of the relationship
+
+610
+00:29:39,600 --> 00:29:44,519
+between domains and things like
+
+611
+00:29:42,799 --> 00:29:46,080
+primes
+
+612
+00:29:44,519 --> 00:29:48,399
+okay
+
+613
+00:29:46,080 --> 00:29:51,200
+excellent so we've talked about a sort
+
+614
+00:29:48,399 --> 00:29:53,360
+of string of special ideals and they had
+
+615
+00:29:51,200 --> 00:29:54,919
+this nice sort of filtered form we had
+
+616
+00:29:53,360 --> 00:29:56,279
+these you know most General things all
+
+617
+00:29:54,919 --> 00:29:58,440
+rings and then descending all the way
+
+618
+00:29:56,279 --> 00:30:01,600
+down to Fields now I want to talk about
+
+619
+00:29:58,440 --> 00:30:03,480
+something which doesn't quite fit into
+
+620
+00:30:01,600 --> 00:30:06,399
+that filtration it's sort of something
+
+621
+00:30:03,480 --> 00:30:08,240
+parallel to that filtration and it's not
+
+622
+00:30:06,399 --> 00:30:10,480
+described explicitly in arton which is a
+
+623
+00:30:08,240 --> 00:30:14,480
+Pity because a lot of what's going on in
+
+624
+00:30:10,480 --> 00:30:17,519
+arton in sections uh you know 11.10 and
+
+625
+00:30:14,480 --> 00:30:18,799
+uh thereabouts um are really sort of
+
+626
+00:30:17,519 --> 00:30:20,559
+they seem like these weird sort of
+
+627
+00:30:18,799 --> 00:30:22,679
+disjointed results which have nothing to
+
+628
+00:30:20,559 --> 00:30:24,559
+do with ring Theory and General in fact
+
+629
+00:30:22,679 --> 00:30:25,799
+they're very much at the heart the the
+
+630
+00:30:24,559 --> 00:30:27,120
+you know the arguments there are very
+
+631
+00:30:25,799 --> 00:30:29,840
+much at the heart of what's going on in
+
+632
+00:30:27,120 --> 00:30:32,039
+ring Theory but the reason for that is
+
+633
+00:30:29,840 --> 00:30:35,000
+never mentioned so I'm going to in an
+
+634
+00:30:32,039 --> 00:30:37,080
+extremely simplified form explain the
+
+635
+00:30:35,000 --> 00:30:38,760
+underlying theory behind what's
+
+636
+00:30:37,080 --> 00:30:40,200
+happening there and I think that this is
+
+637
+00:30:38,760 --> 00:30:41,600
+useful because I think otherwise it's
+
+638
+00:30:40,200 --> 00:30:43,480
+very difficult to remember what's going
+
+639
+00:30:41,600 --> 00:30:47,480
+on it just seems like a bunch of like
+
+640
+00:30:43,480 --> 00:30:49,279
+random things about uh um quadratic
+
+641
+00:30:47,480 --> 00:30:50,880
+Fields but these are not random things
+
+642
+00:30:49,279 --> 00:30:52,880
+about quadratic Fields they're actually
+
+643
+00:30:50,880 --> 00:30:55,799
+very general and deep and important
+
+644
+00:30:52,880 --> 00:30:59,919
+results and they are about these things
+
+645
+00:30:55,799 --> 00:30:59,919
+called dedican domains
+
+646
+00:31:02,440 --> 00:31:05,320
+now there are very complicated
+
+647
+00:31:03,799 --> 00:31:07,000
+definitions of dedican domains but
+
+648
+00:31:05,320 --> 00:31:08,559
+there's also an extremely simple
+
+649
+00:31:07,000 --> 00:31:12,039
+definition of dedican domain which is
+
+650
+00:31:08,559 --> 00:31:13,639
+usually omitted from most textbooks and
+
+651
+00:31:12,039 --> 00:31:15,919
+for a very good reason because by the
+
+652
+00:31:13,639 --> 00:31:17,519
+time you usually get data domains you've
+
+653
+00:31:15,919 --> 00:31:19,399
+built up a whole bunch of extra Theory
+
+654
+00:31:17,519 --> 00:31:21,960
+but you don't need
+
+655
+00:31:19,399 --> 00:31:23,240
+it the only piece of theory that I need
+
+656
+00:31:21,960 --> 00:31:27,039
+to introduce is the notion of
+
+657
+00:31:23,240 --> 00:31:27,039
+multiplication of ideals
+
+658
+00:31:31,799 --> 00:31:38,080
+so if I have some ideals I and J in R
+
+659
+00:31:36,480 --> 00:31:41,519
+then I
+
+660
+00:31:38,080 --> 00:31:42,960
+Define their product to be what can
+
+661
+00:31:41,519 --> 00:31:45,399
+anybody tell me what the product of two
+
+662
+00:31:42,960 --> 00:31:45,399
+ideals
+
+663
+00:31:50,760 --> 00:31:58,159
+is exactly is the set of all finite sums
+
+664
+00:31:54,399 --> 00:32:01,080
+of AI bi where a the AIS are in I and
+
+665
+00:31:58,159 --> 00:32:02,639
+the bis are in J you need the find sums
+
+666
+00:32:01,080 --> 00:32:04,480
+of course because you need this thing to
+
+667
+00:32:02,639 --> 00:32:06,679
+be an ideal you want to define the
+
+668
+00:32:04,480 --> 00:32:08,799
+product of ideals to be some ideal if
+
+669
+00:32:06,679 --> 00:32:11,440
+you just had products then you wouldn't
+
+670
+00:32:08,799 --> 00:32:13,200
+necessarily know that uh you know for
+
+671
+00:32:11,440 --> 00:32:15,120
+for something which is not for instance
+
+672
+00:32:13,200 --> 00:32:18,200
+generated by a single element for if if
+
+673
+00:32:15,120 --> 00:32:20,440
+I or J were not uh principal um you
+
+674
+00:32:18,200 --> 00:32:22,880
+would not know that uh the thing would
+
+675
+00:32:20,440 --> 00:32:24,480
+be closed under addition so you need to
+
+676
+00:32:22,880 --> 00:32:26,279
+have these finite sums to make sure that
+
+677
+00:32:24,480 --> 00:32:29,240
+the things are actually a
+
+678
+00:32:26,279 --> 00:32:31,840
+subgroup now
+
+679
+00:32:29,240 --> 00:32:33,440
+um and it's very easy to verify this is
+
+680
+00:32:31,840 --> 00:32:35,720
+an ideal I mean it's certainly subgroup
+
+681
+00:32:33,440 --> 00:32:38,399
+because you have these sums and so on
+
+682
+00:32:35,720 --> 00:32:42,720
+and it's uh closed under multiplication
+
+683
+00:32:38,399 --> 00:32:46,919
+by R by um the fact that I and J were
+
+684
+00:32:42,720 --> 00:32:48,240
+individually so um now just to just to
+
+685
+00:32:46,919 --> 00:32:51,360
+make sure that we're all on the same
+
+686
+00:32:48,240 --> 00:32:56,919
+page if I do have two principal ideals
+
+687
+00:32:51,360 --> 00:32:59,120
+say A and B so this is I and this is J
+
+688
+00:32:56,919 --> 00:33:01,600
+then what is the product i j so in this
+
+689
+00:32:59,120 --> 00:33:03,760
+extremely simple case what is the you
+
+690
+00:33:01,600 --> 00:33:06,679
+know multiple of the ideal generated by
+
+691
+00:33:03,760 --> 00:33:10,080
+a and the ideal generated by B exactly
+
+692
+00:33:06,679 --> 00:33:11,440
+the ideal generated by AB so at least
+
+693
+00:33:10,080 --> 00:33:13,120
+when you have principal ideals this is
+
+694
+00:33:11,440 --> 00:33:15,320
+the simplest possible operation it's
+
+695
+00:33:13,120 --> 00:33:18,480
+just multiplication of elements is that
+
+696
+00:33:15,320 --> 00:33:22,799
+pretty clear there any questions about
+
+697
+00:33:18,480 --> 00:33:22,799
+this okay good
+
+698
+00:33:28,440 --> 00:33:36,840
+so as I promised here's
+
+699
+00:33:31,760 --> 00:33:36,840
+another type of special
+
+700
+00:33:43,000 --> 00:33:51,720
+ring um so suppose we have our uh
+
+701
+00:33:48,799 --> 00:33:54,440
+domain with
+
+702
+00:33:51,720 --> 00:33:57,360
+field of
+
+703
+00:33:54,440 --> 00:34:00,080
+fractions K and assume that that field
+
+704
+00:33:57,360 --> 00:34:02,399
+of fraction is not the initial ring put
+
+705
+00:34:00,080 --> 00:34:04,799
+another way we have a domain which is
+
+706
+00:34:02,399 --> 00:34:04,799
+not a
+
+707
+00:34:05,000 --> 00:34:13,520
+field then we
+
+708
+00:34:08,159 --> 00:34:13,520
+say R is a dein
+
+709
+00:34:15,679 --> 00:34:20,839
+domain
+
+710
+00:34:17,200 --> 00:34:20,839
+if for every
+
+711
+00:34:21,720 --> 00:34:27,159
+ideal there's a sort of other ideal
+
+712
+00:34:25,560 --> 00:34:29,079
+which when you multiply by this ideal
+
+713
+00:34:27,159 --> 00:34:31,639
+gives you a prin principle ideal this is
+
+714
+00:34:29,079 --> 00:34:33,879
+the key definition and it's mirrored in
+
+715
+00:34:31,639 --> 00:34:35,480
+the book in these propositions about how
+
+716
+00:34:33,879 --> 00:34:38,159
+you can multiply an ideal by its
+
+717
+00:34:35,480 --> 00:34:40,000
+conjugate to get a principal ideal but
+
+718
+00:34:38,159 --> 00:34:41,879
+this is the this is the correct sort of
+
+719
+00:34:40,000 --> 00:34:43,919
+generalization and it makes it much
+
+720
+00:34:41,879 --> 00:34:46,240
+clearer what the Salient information is
+
+721
+00:34:43,919 --> 00:34:48,240
+all the results there you can prove
+
+722
+00:34:46,240 --> 00:34:49,320
+without working in a quadratic field but
+
+723
+00:34:48,240 --> 00:34:51,879
+just with the sort of assumption that
+
+724
+00:34:49,320 --> 00:34:55,960
+I'm going to write down so um for all
+
+725
+00:34:51,879 --> 00:34:55,960
+ideals there exists another
+
+726
+00:34:56,040 --> 00:35:02,160
+ideal um such
+
+727
+00:34:59,000 --> 00:35:05,079
+that their product is
+
+728
+00:35:02,160 --> 00:35:07,800
+principal so I multiply these things and
+
+729
+00:35:05,079 --> 00:35:07,800
+this thing is
+
+730
+00:35:09,119 --> 00:35:15,440
+principle and I'm going to assume of
+
+731
+00:35:11,240 --> 00:35:16,720
+course that this J is not equal to the
+
+732
+00:35:15,440 --> 00:35:19,280
+zero ideal otherwise I'd have this
+
+733
+00:35:16,720 --> 00:35:19,280
+trivially
+
+734
+00:35:21,680 --> 00:35:28,839
+true so if there's some nonzero ideal
+
+735
+00:35:24,960 --> 00:35:28,839
+such that this thing is principal
+
+736
+00:35:33,119 --> 00:35:37,640
+so here's an example which is worked out
+
+737
+00:35:35,839 --> 00:35:39,760
+in the book and I I highly recommend
+
+738
+00:35:37,640 --> 00:35:41,400
+that you work out why it's true because
+
+739
+00:35:39,760 --> 00:35:42,320
+it gives you an idea of what happens in
+
+740
+00:35:41,400 --> 00:35:47,160
+Greater
+
+741
+00:35:42,320 --> 00:35:53,040
+generality um so suppose I start out
+
+742
+00:35:47,160 --> 00:35:58,040
+with uh Q join root D where D is square
+
+743
+00:35:53,040 --> 00:35:58,040
+free um some Square free integer
+
+744
+00:35:58,160 --> 00:36:01,000
+so I'm going to use a slightly different
+
+745
+00:35:59,680 --> 00:36:02,680
+notation because it's actually the
+
+746
+00:36:01,000 --> 00:36:05,680
+general notation used in the literature
+
+747
+00:36:02,680 --> 00:36:08,319
+in the book the letter R is used for the
+
+748
+00:36:05,680 --> 00:36:11,960
+ring of integers in a quadratic field in
+
+749
+00:36:08,319 --> 00:36:14,280
+general the notation is O subk the
+
+750
+00:36:11,960 --> 00:36:16,160
+reason for the o is that there's this
+
+751
+00:36:14,280 --> 00:36:17,800
+terminology of order I'm not going to
+
+752
+00:36:16,160 --> 00:36:20,560
+explain this right now but the idea is
+
+753
+00:36:17,800 --> 00:36:22,400
+that okay is this sort of the ma
+
+754
+00:36:20,560 --> 00:36:24,079
+something called the maximal order in K
+
+755
+00:36:22,400 --> 00:36:29,000
+but suffice it to say that that's a
+
+756
+00:36:24,079 --> 00:36:31,119
+synonym for um the ring of all
+
+757
+00:36:29,000 --> 00:36:33,839
+algebraic
+
+758
+00:36:31,119 --> 00:36:37,119
+integers in K and we know what the
+
+759
+00:36:33,839 --> 00:36:37,119
+structure of this is so what is
+
+760
+00:36:38,680 --> 00:36:44,400
+it exactly so if D is congruent to 2 or
+
+761
+00:36:42,839 --> 00:36:48,000
+three mod
+
+762
+00:36:44,400 --> 00:36:51,920
+4 it's just Z join Ro D exactly and if
+
+763
+00:36:48,000 --> 00:36:51,920
+it's if D is congruent to 1 mod
+
+764
+00:36:53,520 --> 00:36:58,520
+4 exactly so we know exactly what this
+
+765
+00:36:56,480 --> 00:37:01,720
+thing is
+
+766
+00:36:58,520 --> 00:37:03,200
+and this thing is a dedican domain
+
+767
+00:37:01,720 --> 00:37:04,800
+remember to prove something as a dedican
+
+768
+00:37:03,200 --> 00:37:07,359
+domain you need to show that for every
+
+769
+00:37:04,800 --> 00:37:11,480
+ideal you can multiply by some other
+
+770
+00:37:07,359 --> 00:37:12,960
+ideal some some other ideal that uh and
+
+771
+00:37:11,480 --> 00:37:14,359
+that product had better be principal
+
+772
+00:37:12,960 --> 00:37:16,520
+that's that's your hypoth this is what
+
+773
+00:37:14,359 --> 00:37:20,880
+you need to show and this is shown in
+
+774
+00:37:16,520 --> 00:37:24,200
+the book um in the guise
+
+775
+00:37:20,880 --> 00:37:29,520
+of um artan's
+
+776
+00:37:24,200 --> 00:37:29,520
+proposition um I think this is
+
+777
+00:37:30,680 --> 00:37:38,760
+10.81 proposition 10.81 because what
+
+778
+00:37:34,920 --> 00:37:38,760
+proposition 10. 8.10
+
+779
+00:37:41,200 --> 00:37:47,160
+says is that if I is an ideal of this
+
+780
+00:37:43,760 --> 00:37:47,160
+okay this thing
+
+781
+00:37:47,599 --> 00:37:52,359
+okay in
+
+782
+00:37:50,240 --> 00:37:56,240
+ideal of
+
+783
+00:37:52,359 --> 00:37:59,440
+okay then I think that arton uses the
+
+784
+00:37:56,240 --> 00:38:00,800
+notation bar to be consistent with um
+
+785
+00:37:59,440 --> 00:38:03,400
+profess of gross I'm going to use the
+
+786
+00:38:00,800 --> 00:38:06,839
+notation Prime so I'm going to consider
+
+787
+00:38:03,400 --> 00:38:10,280
+the set of all Alpha primes a minus bot
+
+788
+00:38:06,839 --> 00:38:13,920
+d as Alpha being written in the form a
+
+789
+00:38:10,280 --> 00:38:15,839
+plus d root uh a plus b root D ranges
+
+790
+00:38:13,920 --> 00:38:17,359
+over I now in the case of you know some
+
+791
+00:38:15,839 --> 00:38:19,359
+quadratic imaginary field this is really
+
+792
+00:38:17,359 --> 00:38:21,920
+just complex conjugation and in general
+
+793
+00:38:19,359 --> 00:38:23,800
+the term you use is conjugate this is
+
+794
+00:38:21,920 --> 00:38:26,160
+the
+
+795
+00:38:23,800 --> 00:38:28,079
+conjugate of alpha so if somebody
+
+796
+00:38:26,160 --> 00:38:29,680
+somebody talks about the conjugate they
+
+797
+00:38:28,079 --> 00:38:30,880
+often mean you know the complex
+
+798
+00:38:29,680 --> 00:38:32,119
+conjugate in the case of you know
+
+799
+00:38:30,880 --> 00:38:33,960
+something that's that embeds in the
+
+800
+00:38:32,119 --> 00:38:36,960
+complex numbers in this way but in
+
+801
+00:38:33,960 --> 00:38:39,240
+general just this a minus B Ro d as the
+
+802
+00:38:36,960 --> 00:38:40,960
+image of a plus bot D is that pretty
+
+803
+00:38:39,240 --> 00:38:43,200
+clear any
+
+804
+00:38:40,960 --> 00:38:45,400
+questions am I going too
+
+805
+00:38:43,200 --> 00:38:49,520
+fast all
+
+806
+00:38:45,400 --> 00:38:52,520
+right so this is an
+
+807
+00:38:49,520 --> 00:38:52,520
+ideal
+
+808
+00:38:52,720 --> 00:38:58,800
+satisfying the product of I and I prime
+
+809
+00:38:56,640 --> 00:39:02,000
+is the the principal ideal generated by
+
+810
+00:38:58,800 --> 00:39:06,800
+n where n is not just an uh some element
+
+811
+00:39:02,000 --> 00:39:06,800
+of okay but is in fact in z
+
+812
+00:39:07,200 --> 00:39:12,000
+um so this is proved this is this is a
+
+813
+00:39:10,119 --> 00:39:13,960
+lovely little result and um I'm not
+
+814
+00:39:12,000 --> 00:39:15,720
+going to go through the proof now it was
+
+815
+00:39:13,960 --> 00:39:17,319
+in the assigned
+
+816
+00:39:15,720 --> 00:39:20,200
+reading
+
+817
+00:39:17,319 --> 00:39:22,599
+um but this in particular shows that
+
+818
+00:39:20,200 --> 00:39:25,119
+this thing is a dedican domain so that's
+
+819
+00:39:22,599 --> 00:39:28,040
+fabulous is that pretty
+
+820
+00:39:25,119 --> 00:39:29,960
+clear so
+
+821
+00:39:28,040 --> 00:39:33,359
+the fact is that this is actually a very
+
+822
+00:39:29,960 --> 00:39:37,079
+general result in fact if you have any
+
+823
+00:39:33,359 --> 00:39:41,880
+any uh any field which contains q and
+
+824
+00:39:37,079 --> 00:39:45,280
+which is a finite Dimension over Q then
+
+825
+00:39:41,880 --> 00:39:47,800
+that thing is in fact uh if you consider
+
+826
+00:39:45,280 --> 00:39:50,920
+the set of uh algebraic integers in that
+
+827
+00:39:47,800 --> 00:39:52,720
+field then that thing um is a first of
+
+828
+00:39:50,920 --> 00:39:54,359
+all a ring but secondly and more
+
+829
+00:39:52,720 --> 00:39:59,319
+importantly it's actually a dedican
+
+830
+00:39:54,359 --> 00:39:59,319
+domain so um
+
+831
+00:39:59,800 --> 00:40:03,000
+just the general fact is this
+
+832
+00:40:03,400 --> 00:40:13,760
+generalizes to K fields that contains q
+
+833
+00:40:10,200 --> 00:40:14,839
+and such that the dimension over Q of K
+
+834
+00:40:13,760 --> 00:40:18,760
+is
+
+835
+00:40:14,839 --> 00:40:20,480
+finite so you define again OK equals
+
+836
+00:40:18,760 --> 00:40:23,280
+algebraic
+
+837
+00:40:20,480 --> 00:40:25,560
+integers in K and the point is this
+
+838
+00:40:23,280 --> 00:40:29,319
+thing is first of all a ring but more
+
+839
+00:40:25,560 --> 00:40:29,319
+importantly it's a dedin domain
+
+840
+00:40:30,560 --> 00:40:33,480
+this is an important
+
+841
+00:40:33,800 --> 00:40:38,440
+Theory but for now we're satisfied with
+
+842
+00:40:36,280 --> 00:40:41,400
+just dealing with Q jooin root D what's
+
+843
+00:40:38,440 --> 00:40:44,680
+the dimension of Q adjoin root D over
+
+844
+00:40:41,400 --> 00:40:46,839
+Q two the dimension is two because you
+
+845
+00:40:44,680 --> 00:40:49,599
+have everything being of the form a plus
+
+846
+00:40:46,839 --> 00:40:51,800
+b squ otk d so you have these two
+
+847
+00:40:49,599 --> 00:40:55,480
+parameters these two Q rational you know
+
+848
+00:40:51,800 --> 00:40:57,520
+these rational parameters A and B um or
+
+849
+00:40:55,480 --> 00:41:00,319
+put in another way you have a basis one
+
+850
+00:40:57,520 --> 00:41:05,520
+andun D over
+
+851
+00:41:00,319 --> 00:41:07,880
+Q okay so here's a sort of useful result
+
+852
+00:41:05,520 --> 00:41:10,240
+on the
+
+853
+00:41:07,880 --> 00:41:14,920
+structure of
+
+854
+00:41:10,240 --> 00:41:14,920
+ideals in a dedin
+
+855
+00:41:23,839 --> 00:41:28,520
+domain so the whole point of dedic and
+
+856
+00:41:26,079 --> 00:41:31,200
+domains is somehow
+
+857
+00:41:28,520 --> 00:41:33,640
+that although you don't necessarily have
+
+858
+00:41:31,200 --> 00:41:35,520
+unique factorization so these things are
+
+859
+00:41:33,640 --> 00:41:36,960
+not in general ufds you have no sort of
+
+860
+00:41:35,520 --> 00:41:39,240
+way of fitting this nicely into the
+
+861
+00:41:36,960 --> 00:41:40,720
+filtration that we talked about before
+
+862
+00:41:39,240 --> 00:41:42,839
+so you don't necessarily have this nice
+
+863
+00:41:40,720 --> 00:41:45,119
+factorization into irreducibles but you
+
+864
+00:41:42,839 --> 00:41:47,800
+do have a sort of a substitute which is
+
+865
+00:41:45,119 --> 00:41:50,240
+in some ways just as good so here's what
+
+866
+00:41:47,800 --> 00:41:52,560
+the substitute is and it's a very very
+
+867
+00:41:50,240 --> 00:41:55,480
+it's it works out as a really really
+
+868
+00:41:52,560 --> 00:41:58,400
+great substitute so let's assume that I
+
+869
+00:41:55,480 --> 00:42:01,480
+have a dedin domain so dead Dom it's
+
+870
+00:41:58,400 --> 00:42:06,720
+just an abbreviation and suppose I have
+
+871
+00:42:01,480 --> 00:42:08,640
+some nonzero ideal in that dedicant
+
+872
+00:42:06,720 --> 00:42:15,280
+domain
+
+873
+00:42:08,640 --> 00:42:15,280
+um so the theorem is that I can be
+
+874
+00:42:15,599 --> 00:42:19,920
+written
+
+875
+00:42:17,480 --> 00:42:21,480
+uniquely so there's some unique way of
+
+876
+00:42:19,920 --> 00:42:23,760
+writing an ideal you can't Neally write
+
+877
+00:42:21,480 --> 00:42:25,680
+elements in some sort of nice unique way
+
+878
+00:42:23,760 --> 00:42:28,359
+but at least you can get at the ideals
+
+879
+00:42:25,680 --> 00:42:35,440
+in a nice way so I be written
+
+880
+00:42:28,359 --> 00:42:41,280
+uniquely as I = P1 through PK
+
+881
+00:42:35,440 --> 00:42:43,400
+where Pi are nonzero
+
+882
+00:42:41,280 --> 00:42:46,720
+primes Prime
+
+883
+00:42:43,400 --> 00:42:48,800
+ideals so I have these Prime ideals I
+
+884
+00:42:46,720 --> 00:42:51,480
+can you know talk about the prime ideals
+
+885
+00:42:48,800 --> 00:42:53,440
+of R and what this result says is that
+
+886
+00:42:51,480 --> 00:42:55,520
+tells me everything about the ideal
+
+887
+00:42:53,440 --> 00:42:58,720
+structure of this ring because every
+
+888
+00:42:55,520 --> 00:43:00,920
+ideal can be written uni
+
+889
+00:42:58,720 --> 00:43:02,559
+up to
+
+890
+00:43:00,920 --> 00:43:04,280
+reordering but here it's just
+
+891
+00:43:02,559 --> 00:43:06,160
+legitimately up to reordering there's no
+
+892
+00:43:04,280 --> 00:43:08,079
+additional caveat there no Associates or
+
+893
+00:43:06,160 --> 00:43:10,520
+anything like that all the the you know
+
+894
+00:43:08,079 --> 00:43:13,200
+theory of Associates and so on is built
+
+895
+00:43:10,520 --> 00:43:16,760
+directly into the you know ideal
+
+896
+00:43:13,200 --> 00:43:18,800
+structures I mean so um there's no need
+
+897
+00:43:16,760 --> 00:43:21,160
+to worry about anything other than
+
+898
+00:43:18,800 --> 00:43:24,280
+reordering so anything can be written
+
+899
+00:43:21,160 --> 00:43:27,440
+uniquely as a product of these primes
+
+900
+00:43:24,280 --> 00:43:29,119
+this is a very very nice result
+
+901
+00:43:27,440 --> 00:43:30,680
+so for instance if you wanted to prove
+
+902
+00:43:29,119 --> 00:43:32,680
+that something was principal if you
+
+903
+00:43:30,680 --> 00:43:34,160
+wanted to prove that you know a dedican
+
+904
+00:43:32,680 --> 00:43:35,400
+domain suppose you already knew that
+
+905
+00:43:34,160 --> 00:43:37,520
+something was a dedican domain and you
+
+906
+00:43:35,400 --> 00:43:39,440
+want to show it was a principal ideal
+
+907
+00:43:37,520 --> 00:43:40,960
+domain for instance it would suffice to
+
+908
+00:43:39,440 --> 00:43:43,440
+consider the prime
+
+909
+00:43:40,960 --> 00:43:45,760
+ideals because you know that every ideal
+
+910
+00:43:43,440 --> 00:43:47,160
+is a product of the Prime ideals so you
+
+911
+00:43:45,760 --> 00:43:48,839
+just have to show that the prime ideals
+
+912
+00:43:47,160 --> 00:43:50,760
+are principal and that would show that
+
+913
+00:43:48,839 --> 00:43:53,160
+every ideal is principal this is a very
+
+914
+00:43:50,760 --> 00:43:55,760
+nice sort of results it sort of gets
+
+915
+00:43:53,160 --> 00:43:58,119
+at I guess somehow one of the reasons
+
+916
+00:43:55,760 --> 00:43:59,800
+that these things are important
+
+917
+00:43:58,119 --> 00:44:02,240
+excuse me yeah absolutely how do you
+
+918
+00:43:59,800 --> 00:44:04,800
+know that the product of prime ideals
+
+919
+00:44:02,240 --> 00:44:07,720
+ISE oh it's not in general the product
+
+920
+00:44:04,800 --> 00:44:10,240
+I'm sorry if if I had if I had the every
+
+921
+00:44:07,720 --> 00:44:12,520
+Prime ideal principle then each of these
+
+922
+00:44:10,240 --> 00:44:14,960
+things would look like um you know
+
+923
+00:44:12,520 --> 00:44:16,400
+little P1 I so by hypothesis these
+
+924
+00:44:14,960 --> 00:44:19,480
+things are all principles so I can write
+
+925
+00:44:16,400 --> 00:44:21,280
+these as little P1 up through little PK
+
+926
+00:44:19,480 --> 00:44:26,240
+and the product of these ideals remember
+
+927
+00:44:21,280 --> 00:44:27,920
+I mentioned before that a * B is a well
+
+928
+00:44:26,240 --> 00:44:31,200
+that would imply that you know by
+
+929
+00:44:27,920 --> 00:44:32,800
+induction that this thing is just P1 PK
+
+930
+00:44:31,200 --> 00:44:37,319
+so this thing is a
+
+931
+00:44:32,800 --> 00:44:37,319
+principal is that clear yeah
+
+932
+00:44:39,119 --> 00:44:44,720
+okay okay
+
+933
+00:44:41,760 --> 00:44:50,960
+great so as I
+
+934
+00:44:44,720 --> 00:44:54,359
+said this gives a way of
+
+935
+00:44:50,960 --> 00:44:54,359
+salvaging unique
+
+936
+00:44:55,359 --> 00:44:59,040
+factorization so example
+
+937
+00:44:59,520 --> 00:45:07,599
+in Z join < tk- 5 we have these two
+
+938
+00:45:04,079 --> 00:45:07,599
+factorizations into irreducibles
+
+939
+00:45:09,839 --> 00:45:15,200
+so these are
+
+940
+00:45:12,200 --> 00:45:15,200
+all
+
+941
+00:45:15,800 --> 00:45:19,680
+irreducible so we don't have unique
+
+942
+00:45:17,760 --> 00:45:22,680
+factorization into irreducibles
+
+943
+00:45:19,680 --> 00:45:24,680
+but by this result which I'm erasing now
+
+944
+00:45:22,680 --> 00:45:26,359
+remember this thing is a dedin domain so
+
+945
+00:45:24,680 --> 00:45:28,960
+we do have unique factorization into
+
+946
+00:45:26,359 --> 00:45:28,960
+Prime ideals
+
+947
+00:45:32,880 --> 00:45:40,839
+and here is its unique factorization to
+
+948
+00:45:34,760 --> 00:45:44,480
+Prime ideals 2 join 1 +un 5 2 Join
+
+949
+00:45:40,839 --> 00:45:47,240
+one uh if I'm leaving minuses off then
+
+950
+00:45:44,480 --> 00:45:57,200
+you can add them yourself
+
+951
+00:45:47,240 --> 00:45:57,200
+times uh 3 1 +un - 5 3 1 - < TK - 5
+
+952
+00:45:58,800 --> 00:46:02,720
+okay and this is a unique factorization
+
+953
+00:46:01,359 --> 00:46:06,079
+so this is
+
+954
+00:46:02,720 --> 00:46:06,079
+unique unique
+
+955
+00:46:07,720 --> 00:46:11,440
+factorization into Prime
+
+956
+00:46:12,079 --> 00:46:16,000
+ideals the fact that each of these is a
+
+957
+00:46:14,040 --> 00:46:18,400
+prime ideal is something that I won't go
+
+958
+00:46:16,000 --> 00:46:21,599
+into but suffice it to say that the
+
+959
+00:46:18,400 --> 00:46:24,079
+quotient by this is Zod 2 quo by this is
+
+960
+00:46:21,599 --> 00:46:25,520
+Zod 2 quo by this is Zod 3 quoti by this
+
+961
+00:46:24,079 --> 00:46:28,480
+is Zod
+
+962
+00:46:25,520 --> 00:46:30,960
+3 yes how did you generate that
+
+963
+00:46:28,480 --> 00:46:32,640
+factorization um that's in general hard
+
+964
+00:46:30,960 --> 00:46:34,280
+and it's sort of beyond the scope of
+
+965
+00:46:32,640 --> 00:46:36,800
+this lecture but there's a hint of how
+
+966
+00:46:34,280 --> 00:46:38,480
+that's done in section 11.10 in fact
+
+967
+00:46:36,800 --> 00:46:39,880
+Beyond a hint of it I mean it sort of
+
+968
+00:46:38,480 --> 00:46:41,559
+actually goes through a way of
+
+969
+00:46:39,880 --> 00:46:43,920
+mechanically doing this but it's it's
+
+970
+00:46:41,559 --> 00:46:46,240
+it's an algorithmic process it's not one
+
+971
+00:46:43,920 --> 00:46:48,480
+that's it's not one that's a priori
+
+972
+00:46:46,240 --> 00:46:49,960
+interesting but there is a sort of way
+
+973
+00:46:48,480 --> 00:46:53,359
+of doing this there is a systematic way
+
+974
+00:46:49,960 --> 00:46:53,359
+of doing this
+
+975
+00:46:57,760 --> 00:47:01,960
+so the final thing I want to talk about
+
+976
+00:47:00,000 --> 00:47:05,599
+in preparation for Monday's
+
+977
+00:47:01,960 --> 00:47:05,599
+lecture is class
+
+978
+00:47:07,040 --> 00:47:12,119
+groups so these are these things that
+
+979
+00:47:09,200 --> 00:47:14,599
+you can attach to dedin domains and
+
+980
+00:47:12,119 --> 00:47:17,240
+they're very very useful
+
+981
+00:47:14,599 --> 00:47:20,119
+because they sort of provide a response
+
+982
+00:47:17,240 --> 00:47:24,160
+to the following result so here is a
+
+983
+00:47:20,119 --> 00:47:28,160
+result R is a
+
+984
+00:47:24,160 --> 00:47:28,160
+principle ideal
+
+985
+00:47:30,240 --> 00:47:37,520
+domain R is if and only if R is a unique
+
+986
+00:47:34,520 --> 00:47:42,160
+factorization domain so remember unique
+
+987
+00:47:37,520 --> 00:47:44,680
+factorization domain and a dedin
+
+988
+00:47:42,160 --> 00:47:46,240
+domain now one of these directions is
+
+989
+00:47:44,680 --> 00:47:49,079
+hard going from
+
+990
+00:47:46,240 --> 00:47:51,079
+ufd um and plus d domain to principal
+
+991
+00:47:49,079 --> 00:47:52,559
+ideal domain requires a little work I
+
+992
+00:47:51,079 --> 00:47:54,800
+will not go through it but there is One
+
+993
+00:47:52,559 --> 00:47:57,839
+Direction which is easy going from here
+
+994
+00:47:54,800 --> 00:47:59,400
+to here is easy why is it easy
+
+995
+00:47:57,839 --> 00:48:00,599
+can somebody give me a quick proof of
+
+996
+00:47:59,400 --> 00:48:02,599
+the fact that if I have a principal
+
+997
+00:48:00,599 --> 00:48:05,000
+ideal domain then it's a ufd and a
+
+998
+00:48:02,599 --> 00:48:05,000
+deding
+
+999
+00:48:06,480 --> 00:48:12,359
+domain app absolutely so first step is
+
+1000
+00:48:10,319 --> 00:48:14,800
+that yes we already know that PS are
+
+1001
+00:48:12,359 --> 00:48:17,680
+automatically ufds so it suffices to
+
+1002
+00:48:14,800 --> 00:48:20,960
+show it's a dedin domain and
+
+1003
+00:48:17,680 --> 00:48:24,000
+then all I well remember the definition
+
+1004
+00:48:20,960 --> 00:48:26,160
+of dein domain was that for every I we
+
+1005
+00:48:24,000 --> 00:48:28,760
+had to find some J such as this thing is
+
+1006
+00:48:26,160 --> 00:48:28,760
+principal
+
+1007
+00:48:29,720 --> 00:48:36,000
+right well exactly so I
+
+1008
+00:48:33,640 --> 00:48:38,000
+mean exactly I could just take the unit
+
+1009
+00:48:36,000 --> 00:48:39,240
+ideal I just start out with any ideal I
+
+1010
+00:48:38,000 --> 00:48:41,640
+already know it's principle it's
+
+1011
+00:48:39,240 --> 00:48:44,440
+generated by some R and I just multiply
+
+1012
+00:48:41,640 --> 00:48:46,200
+by the unit ideal and that gives me
+
+1013
+00:48:44,440 --> 00:48:48,319
+something principal so it's
+
+1014
+00:48:46,200 --> 00:48:50,040
+automatically true that for any ideal I
+
+1015
+00:48:48,319 --> 00:48:51,799
+have there is something I can some
+
+1016
+00:48:50,040 --> 00:48:54,720
+nonzero ideal I can multiply by to get
+
+1017
+00:48:51,799 --> 00:48:54,720
+something principal is that
+
+1018
+00:48:54,760 --> 00:49:01,400
+clear okay so trying to show I need to
+
+1019
+00:48:58,559 --> 00:49:04,799
+show that for every ideal yeah there is
+
+1020
+00:49:01,400 --> 00:49:06,720
+some second ideal so for every for all I
+
+1021
+00:49:04,799 --> 00:49:08,240
+there exists some J which is not zero
+
+1022
+00:49:06,720 --> 00:49:11,000
+such that this thing is
+
+1023
+00:49:08,240 --> 00:49:12,559
+principal so I start out with some ideal
+
+1024
+00:49:11,000 --> 00:49:15,640
+I already know it's principal because
+
+1025
+00:49:12,559 --> 00:49:18,319
+I'm in a p ID by hypothesis I have a p
+
+1026
+00:49:15,640 --> 00:49:20,359
+ID so this thing equals something
+
+1027
+00:49:18,319 --> 00:49:22,799
+generated by R to start with then I can
+
+1028
+00:49:20,359 --> 00:49:25,480
+multiply by say the unit
+
+1029
+00:49:22,799 --> 00:49:28,079
+ideal and this thing is principal is
+
+1030
+00:49:25,480 --> 00:49:29,599
+that clear yeah good okay so One
+
+1031
+00:49:28,079 --> 00:49:33,559
+Direction is easy the other direction
+
+1032
+00:49:29,599 --> 00:49:35,040
+relies on showing effectively that dedin
+
+1033
+00:49:33,559 --> 00:49:36,920
+domains have the beautiful property that
+
+1034
+00:49:35,040 --> 00:49:38,359
+they can be generated by two elements
+
+1035
+00:49:36,920 --> 00:49:41,079
+they may not be principal but they can
+
+1036
+00:49:38,359 --> 00:49:42,960
+be always generated by two elements um
+
+1037
+00:49:41,079 --> 00:49:44,200
+and from that it's not that hard I mean
+
+1038
+00:49:42,960 --> 00:49:48,079
+once you can show that then it's not
+
+1039
+00:49:44,200 --> 00:49:50,880
+that hard to show that um unique
+
+1040
+00:49:48,079 --> 00:49:53,000
+factorization in addition uh implies
+
+1041
+00:49:50,880 --> 00:49:57,160
+that every ideal is
+
+1042
+00:49:53,000 --> 00:49:58,640
+principal so so some of some you know
+
+1043
+00:49:57,160 --> 00:49:59,760
+there's a sort of subclass of the dedin
+
+1044
+00:49:58,640 --> 00:50:01,760
+domains and those are the principal
+
+1045
+00:49:59,760 --> 00:50:05,000
+ideal domains and you might ask is there
+
+1046
+00:50:01,760 --> 00:50:08,240
+some measure of how far a dedin domain
+
+1047
+00:50:05,000 --> 00:50:09,559
+is from being a principal ideal domain
+
+1048
+00:50:08,240 --> 00:50:11,079
+so you have these principal ideal
+
+1049
+00:50:09,559 --> 00:50:12,720
+domains you have these dedican domains
+
+1050
+00:50:11,079 --> 00:50:14,559
+and there's a sort of question how do
+
+1051
+00:50:12,720 --> 00:50:16,480
+those fit in like you know how can you
+
+1052
+00:50:14,559 --> 00:50:18,240
+sort of like you know almost quoti out
+
+1053
+00:50:16,480 --> 00:50:19,680
+you know the set of all dedin domains by
+
+1054
+00:50:18,240 --> 00:50:21,280
+the set of principal ideal domains and
+
+1055
+00:50:19,680 --> 00:50:24,440
+there's a sort of way of measuring that
+
+1056
+00:50:21,280 --> 00:50:26,960
+out a way of sort of um creating a
+
+1057
+00:50:24,440 --> 00:50:28,920
+stratification of Dakin domain and
+
+1058
+00:50:26,960 --> 00:50:32,319
+here's the here's the way of doing
+
+1059
+00:50:28,920 --> 00:50:36,680
+that so this is a new
+
+1060
+00:50:32,319 --> 00:50:40,520
+idea and that is class
+
+1061
+00:50:36,680 --> 00:50:40,520
+groups um so this
+
+1062
+00:50:40,960 --> 00:50:45,520
+measures how
+
+1063
+00:50:42,960 --> 00:50:47,240
+far a dedican
+
+1064
+00:50:45,520 --> 00:50:53,559
+domain
+
+1065
+00:50:47,240 --> 00:50:57,839
+uh is from being a p
+
+1066
+00:50:53,559 --> 00:51:00,880
+ID great Okay so
+
+1067
+00:50:57,839 --> 00:51:04,599
+to define a class
+
+1068
+00:51:00,880 --> 00:51:08,960
+group or to define the class group
+
+1069
+00:51:04,599 --> 00:51:11,359
+of the dein domain to define the class
+
+1070
+00:51:08,960 --> 00:51:12,920
+group of the dedin
+
+1071
+00:51:11,359 --> 00:51:17,400
+domain
+
+1072
+00:51:12,920 --> 00:51:17,400
+R then we Define an equivalence
+
+1073
+00:51:20,599 --> 00:51:28,559
+relation on the set of ideals so we say
+
+1074
+00:51:23,319 --> 00:51:28,559
+that two ideals I and J are equivalent
+
+1075
+00:51:28,920 --> 00:51:31,720
+this is our definition this is the
+
+1076
+00:51:30,240 --> 00:51:34,760
+relation we Define they're equivalent if
+
+1077
+00:51:31,720 --> 00:51:38,319
+and only if there exist some elements of
+
+1078
+00:51:34,760 --> 00:51:40,440
+R such that r i
+
+1079
+00:51:38,319 --> 00:51:44,359
+equals
+
+1080
+00:51:40,440 --> 00:51:45,960
+SJ and these things are not zero so R is
+
+1081
+00:51:44,359 --> 00:51:47,880
+not zero and S is not zero otherwise the
+
+1082
+00:51:45,960 --> 00:51:49,440
+thing would always be trivially true all
+
+1083
+00:51:47,880 --> 00:51:50,559
+these things would be related so the
+
+1084
+00:51:49,440 --> 00:51:53,280
+assumption is that there are some
+
+1085
+00:51:50,559 --> 00:51:56,839
+nonzero things which you can sort of
+
+1086
+00:51:53,280 --> 00:51:58,440
+cross multiply to get an equality and
+
+1087
+00:51:56,839 --> 00:52:01,760
+the fact that this is an equivalence
+
+1088
+00:51:58,440 --> 00:52:03,480
+relation um and so on you know you you
+
+1089
+00:52:01,760 --> 00:52:05,040
+want to be able to use the fact that
+
+1090
+00:52:03,480 --> 00:52:08,400
+it's a dedican doing this doesn't work
+
+1091
+00:52:05,040 --> 00:52:10,400
+in sort of General things I
+
+1092
+00:52:08,400 --> 00:52:13,520
+mean you really need to be sort of
+
+1093
+00:52:10,400 --> 00:52:16,799
+working with you know something like say
+
+1094
+00:52:13,520 --> 00:52:18,640
+um these quadratic
+
+1095
+00:52:16,799 --> 00:52:21,640
+Rings
+
+1096
+00:52:18,640 --> 00:52:21,640
+um
+
+1097
+00:52:22,160 --> 00:52:30,319
+so we're going to let angle brackets I
+
+1098
+00:52:27,000 --> 00:52:30,319
+denote the equivalence
+
+1099
+00:52:31,359 --> 00:52:38,400
+class of I we call
+
+1100
+00:52:35,839 --> 00:52:42,920
+this the ideal
+
+1101
+00:52:38,400 --> 00:52:44,640
+class of I so angle brackets I is the
+
+1102
+00:52:42,920 --> 00:52:46,799
+ideal class of I it's the equivalence
+
+1103
+00:52:44,640 --> 00:52:49,520
+class under this
+
+1104
+00:52:46,799 --> 00:52:52,280
+relation and then we
+
+1105
+00:52:49,520 --> 00:52:55,000
+do is we Define as a
+
+1106
+00:52:52,280 --> 00:52:59,520
+set the set of
+
+1107
+00:52:55,000 --> 00:52:59,520
+all of of all ideal
+
+1108
+00:52:59,599 --> 00:53:03,359
+classes I just want to make one note
+
+1109
+00:53:01,720 --> 00:53:06,839
+here I I I
+
+1110
+00:53:03,359 --> 00:53:08,599
+exclude I and J from being the zero
+
+1111
+00:53:06,839 --> 00:53:12,319
+ideal so I always forget in all this
+
+1112
+00:53:08,599 --> 00:53:15,760
+about the zero ideal so again
+
+1113
+00:53:12,319 --> 00:53:18,280
+for I not equal to zero we Define this
+
+1114
+00:53:15,760 --> 00:53:19,920
+equivalent class so this is a set of all
+
+1115
+00:53:18,280 --> 00:53:23,319
+ideal classes or put in another way this
+
+1116
+00:53:19,920 --> 00:53:27,040
+is a set of all angle bracket I as
+
+1117
+00:53:23,319 --> 00:53:28,160
+I um ranges over
+
+1118
+00:53:27,040 --> 00:53:30,240
+nonzero
+
+1119
+00:53:28,160 --> 00:53:32,760
+ideals and
+
+1120
+00:53:30,240 --> 00:53:35,799
+here again is a use of the fact that
+
+1121
+00:53:32,760 --> 00:53:35,799
+we're working in a dedin
+
+1122
+00:53:39,680 --> 00:53:42,680
+domain
+
+1123
+00:53:43,799 --> 00:53:49,280
+proposition if we
+
+1124
+00:53:46,680 --> 00:53:52,119
+Define the multiple of the ideal class
+
+1125
+00:53:49,280 --> 00:53:54,920
+of I by the ideal class of J to be the
+
+1126
+00:53:52,119 --> 00:53:56,640
+ideal class of the product so remember
+
+1127
+00:53:54,920 --> 00:53:58,079
+we Define multiplication ideal and that
+
+1128
+00:53:56,640 --> 00:53:59,799
+gave us an ideal so it has this lovely
+
+1129
+00:53:58,079 --> 00:54:03,960
+ideal class and everything so if we
+
+1130
+00:53:59,799 --> 00:54:05,839
+Define the product this way then um so
+
+1131
+00:54:03,960 --> 00:54:08,119
+this defines well
+
+1132
+00:54:05,839 --> 00:54:09,359
+defines this is really well defined in
+
+1133
+00:54:08,119 --> 00:54:11,160
+other words if we choose a different
+
+1134
+00:54:09,359 --> 00:54:14,040
+representative for I and so on
+
+1135
+00:54:11,160 --> 00:54:14,040
+everything works out
+
+1136
+00:54:15,240 --> 00:54:23,119
+yeah so this is um this is a
+
+1137
+00:54:19,400 --> 00:54:25,760
+c CLR class group of R it's the same
+
+1138
+00:54:23,119 --> 00:54:27,280
+notation as in the book I I'm using I'm
+
+1139
+00:54:25,760 --> 00:54:31,280
+using art and notation even though it's
+
+1140
+00:54:27,280 --> 00:54:35,839
+a little non-standard so this well
+
+1141
+00:54:31,280 --> 00:54:35,839
+defines um a group
+
+1142
+00:54:37,079 --> 00:54:43,920
+structure on
+
+1143
+00:54:40,280 --> 00:54:48,040
+CLR the class group of
+
+1144
+00:54:43,920 --> 00:54:50,799
+R and the basic point is
+
+1145
+00:54:48,040 --> 00:54:54,119
+that so here's another sort of quick
+
+1146
+00:54:50,799 --> 00:54:54,119
+result and this is easy to
+
+1147
+00:54:54,200 --> 00:54:58,319
+prove um easy
+
+1148
+00:54:58,799 --> 00:55:01,079
+uh
+
+1149
+00:55:01,240 --> 00:55:05,640
+proposition so if I have a dedican
+
+1150
+00:55:07,040 --> 00:55:14,000
+domain um then R is a
+
+1151
+00:55:11,480 --> 00:55:16,880
+p if and only
+
+1152
+00:55:14,000 --> 00:55:18,720
+if the class group of
+
+1153
+00:55:16,880 --> 00:55:21,720
+R
+
+1154
+00:55:18,720 --> 00:55:21,720
+is
+
+1155
+00:55:24,480 --> 00:55:29,920
+Trivial triv me is the trivial group is
+
+1156
+00:55:28,039 --> 00:55:32,480
+the so remember this thing is a group we
+
+1157
+00:55:29,920 --> 00:55:34,440
+just gave it a group structure so this
+
+1158
+00:55:32,480 --> 00:55:35,720
+thing is some group so I mean it's it's
+
+1159
+00:55:34,440 --> 00:55:37,799
+well it's not empty because I have the
+
+1160
+00:55:35,720 --> 00:55:40,599
+class of the unit ideal for instance and
+
+1161
+00:55:37,799 --> 00:55:42,319
+what this says is that the only class is
+
+1162
+00:55:40,599 --> 00:55:43,680
+the class of the unit ideal and why is
+
+1163
+00:55:42,319 --> 00:55:45,119
+that true well it's just it's just sort
+
+1164
+00:55:43,680 --> 00:55:48,640
+of by definition Well here here's one of
+
+1165
+00:55:45,119 --> 00:55:52,039
+the directions I mean suppose we go from
+
+1166
+00:55:48,640 --> 00:55:54,920
+P to this result well the idea is that I
+
+1167
+00:55:52,039 --> 00:55:56,960
+know that I can write any ideals I
+
+1168
+00:55:54,920 --> 00:55:59,599
+have as
+
+1169
+00:55:56,960 --> 00:56:03,119
+you know A and B and then I know that b
+
+1170
+00:55:59,599 --> 00:56:06,559
+i equals AJ so that
+
+1171
+00:56:03,119 --> 00:56:08,160
+means that I and J are related under the
+
+1172
+00:56:06,559 --> 00:56:10,440
+equivalence relation so I and J are in
+
+1173
+00:56:08,160 --> 00:56:12,119
+the same class so any two ideals are in
+
+1174
+00:56:10,440 --> 00:56:15,280
+the same class and the other direction
+
+1175
+00:56:12,119 --> 00:56:15,280
+is just as
+
+1176
+00:56:17,480 --> 00:56:23,039
+easy
+
+1177
+00:56:20,079 --> 00:56:24,720
+and one last sort of remark I realized
+
+1178
+00:56:23,039 --> 00:56:27,599
+it's getting late but one sort of last
+
+1179
+00:56:24,720 --> 00:56:29,720
+remark is that
+
+1180
+00:56:27,599 --> 00:56:32,160
+whenever I have say you know one of
+
+1181
+00:56:29,720 --> 00:56:33,720
+these rings of quadratic integers or
+
+1182
+00:56:32,160 --> 00:56:36,880
+more generally the Ring of algebraic
+
+1183
+00:56:33,720 --> 00:56:38,640
+integers and some larger field then the
+
+1184
+00:56:36,880 --> 00:56:41,119
+class group is
+
+1185
+00:56:38,640 --> 00:56:44,920
+finite
+
+1186
+00:56:41,119 --> 00:56:46,720
+so um there two last sort of themes here
+
+1187
+00:56:44,920 --> 00:56:49,720
+class groups are finite and I'll just
+
+1188
+00:56:46,720 --> 00:56:52,000
+give you an example of that to finish
+
+1189
+00:56:49,720 --> 00:56:55,280
+this off so if I consider the class
+
+1190
+00:56:52,000 --> 00:56:59,839
+group of the set of algebraic integers
+
+1191
+00:56:55,280 --> 00:57:03,079
+in Q joint join root minus 5 this
+
+1192
+00:56:59,839 --> 00:57:05,839
+thing looks like it consists of the
+
+1193
+00:57:03,079 --> 00:57:10,520
+class of the unit ideal and the class of
+
+1194
+00:57:05,839 --> 00:57:13,160
+the ideal generated by 2 1 +un minus 5
+
+1195
+00:57:10,520 --> 00:57:15,200
+and is isomorphic of course therefore to
+
+1196
+00:57:13,160 --> 00:57:19,119
+Z mod 2 Z the point being that if I
+
+1197
+00:57:15,200 --> 00:57:21,400
+Square the ideal 2 1 + root minus 5 then
+
+1198
+00:57:19,119 --> 00:57:23,640
+I get a principal ideal but it itself is
+
+1199
+00:57:21,400 --> 00:57:23,640
+not
+
+1200
+00:57:24,720 --> 00:57:30,359
+principal and um more generally to
+
+1201
+00:57:27,559 --> 00:57:30,359
+calculate these
+
+1202
+00:57:34,359 --> 00:57:37,799
+things so to
+
+1203
+00:57:38,760 --> 00:57:48,480
+calculate the class group of o q join
+
+1204
+00:57:43,440 --> 00:57:48,480
+root D where D is
+
+1205
+00:57:48,760 --> 00:57:55,039
+negative look at section 11.10 that's
+
+1206
+00:57:52,480 --> 00:57:56,640
+the reading for Monday this is worked
+
+1207
+00:57:55,039 --> 00:57:58,599
+out there's an algorithm
+
+1208
+00:57:56,640 --> 00:58:01,839
+for finding the class Group which is
+
+1209
+00:57:58,599 --> 00:58:01,839
+worked out
+

@@ -1,0 +1,919 @@
+1
+00:00:14,250 --> 00:00:48,016
+它在加法运算下是一个交换群，具有单位元 0 以及逆元……对吧，a 的逆元在环的记号中记作 -a，因为 a + (-a) = 0。
+which was an abelian group under addition, with identity element zero, with inverse... right, the inverse of a is denoted -a in the ring notation, because a + (-a) = 0.
+
+2
+00:00:48,016 --> 00:01:12,802
+它还具有一个乘法运算，我会写成 a * b，书中有时会写成 a × b，而乘法是结合的：所以 (a * b) * c = a * (b * c)，满足结合律。并且它是可分配的：a * (b + c) 等于 a *b + a * c。
+It also has a multiplication, which I'll write a * b or the book sometimes writes a × b, and the multiplication is associative: so (a * b) * c = a * (b * c), associative. And it's distributive: a * (b + c) is a * b + a * c.
+
+3
+00:01:12,802 --> 00:01:26,287
+如果环不是交换的，你还必须从另一边分配：(b + c) * a 是 b * a加上 c * a。
+And if the ring is not commutative, you have to do this in the other way: (b + c) * a is b * a plus c * a.
+
+4
+00:01:26,287 --> 00:01:32,727
+如果在环中 a * b 等于 b * a，你就称它为交换环。
+And if a * b is equal to b * a in the ring, you say it's a commutative ring.
+
+5
+00:01:32,727 --> 00:01:46,643
+而从本学期剩下的时间里，我们要研究的全部都是交换环，所以我把这个条件保留下来，直接作为环的一条公理。尽管你应该明白，在数学中研究非交换环也是非常有趣的，
+And from the rest of this term, all we're going to do is commutative rings, so I'm going to leave this, just put this in as an axiom for a ring, although you should be aware that it's very interesting in math to study non-commutative rings,
+
+6
+00:01:46,643 --> 00:02:03,436
+例如矩阵环就是非交换环，但我们将要研究的是交换环理论。当你在数学中定义了一个数学对象，比如群、向量空间或环，你想知道什么是同态。
+like matrix rings are non-commutative rings, but we're going to study the theory of commutative rings. And when you have an object in math that you've defined, like a group or a vector space or a ring, you want to know what a homomorphism is.
+
+7
+00:02:03,436 --> 00:02:20,890
+所以上次我们讨论了什么是环同态：f 从一个环映到另一个环，它是一个集合间的映射，同时是一个群同态，所以特别地它把 0 映到 0'。
+So we talked last time about what a ring homomorphism is: so f from one ring to another, and it's a map of sets which is a group homomorphism, so in particular it takes 0 to 0'.
+
+8
+00:02:20,890 --> 00:02:36,605
+它满足 f(a * b) 等于 f(a) * f(b)，因此它与乘法交换——这是 R 中的乘法，那是 R' 中的乘法——并且它把 1 映到 1'。
+It satisfies f(a * b) is equal to f(a) * f(b), so it commutes with the multiplication—this is the multiplication in R, it's the multiplication in R'—and it takes 1 to 1'.
+
+9
+00:02:36,605 --> 00:02:50,821
+我之前应该说过乘法具有单位元，抱歉，也就是 1，具有 1 * a = a * 1 = a 对环中所有元素成立的性质。
+I should have said that the multiplication has an identity, I'm sorry, 1, which has the property that 1 * a is a * 1 is a for all elements in the ring.
+
+10
+00:02:50,821 --> 00:02:59,940
+所以它保持环结构：它把 R 上的环结构映到 R' 上的环结构。
+So it's—it preserves the ring structure: it takes the ring structure on R to the ring structure on R'.
+
+11
+00:02:59,940 --> 00:03:19,096
+于是我们看到，如果我们有一个同态，并且我们把 I 定义为子集——f 的核，即 R 中所有满足 f(a) 是 R' 中零元素的 a 的集合，
+And so we saw that if we had a homomorphism and we defined I as the subset, the kernel of f, which is the set of a in R such that f(a) was the zero element in R', that that was a subgroup,
+
+12
+00:03:19,096 --> 00:03:29,618
+那它就是一个子群，因为它是群同态的核，所以它是一个正规子群——不过它显然是正规的，因为它是一个交换群。
+because it's the kernel of a group homomorphism, so it's a normal subgroup—but that's obvious that it's normal because it's an abelian group.
+
+13
+00:03:29,618 --> 00:03:48,320
+并且它具有一个不同寻常的性质：它在 R 中任意元素 r 的乘法下稳定：如果你有 a ∈ I 且 r ∈ R，那么 r* a 属于 I。
+And it has the unusual property that it's stable under multiplication by any r in R: so if you have a in I and you have r in R, then r a is in I.
+
+14
+00:03:48,320 --> 00:03:57,367
+所以它不仅在乘法下封闭，而且在环中任意元素的乘法下保持稳定。
+So it's not just closed under multiplication, but it is stable under multiplication by any element in the ring.
+
+15
+00:03:57,367 --> 00:04:25,185
+这是因为如果你对 ra 作用 f，你会得到 f(r) 乘 f(a)，也就是 f(r) 乘 0'（R' 中的 0），因为 a 在核中，而任何元素乘以零我们知道都是零，所以这个元素也在核中。因此它比你通常所想的“子对象”更强。
+And that's because if you apply f to ra, you get f(r) times f(a), which is f(r) times 0' (0 in R'), because a was in the kernel, and anything times zero we saw was zero, and so this element is also in the kernel. So it's stronger than you might think of a sub- object.
+
+16
+00:04:25,185 --> 00:04:43,666
+我们把 R 中在环乘法下稳定的加法子群称为理想；这样的子集称为 R 中的理想 I。
+And we call subsets of R that are subgroups stable under multiplication ideals; such subsets are called ideals I in R.
+
+17
+00:04:43,666 --> 00:04:51,362
+而环论的研究本质上就是对理想性质的研究，正如我们将要看到的那样。
+And the study of ring theory is really the study of the properties of ideals, as we're going to see.
+
+18
+00:04:51,362 --> 00:05:09,104
+令人惊奇的是，正规子群在群论中扮演重要角色，但也有非常有趣的群没有非平凡正规子群；然而有趣的环总是有很多理想，我们接下来就会看到并研究它们。
+It's a surprising thing that normal subgroups play an important role in groups, but then there are very interesting groups that don't have normal subgroups; but interesting rings have a lot of ideals, and we're going to see it, we're going to study them.
+
+19
+00:05:09,104 --> 00:05:37,723
+我上次提到过，对每个理想都存在一个典范环同态 f 使得核恰好等于 I，因此理想——这些在环乘法下吸收封闭的子集，恰好就是环同态的核。具体构造方法就是令 R' 为I 的陪集集合。
+And I noted last time that to each ideal there is a canonical ring homomorphism f with kernel equal to I, so that ideals, this— these subsets closed under multiplication from the ring, are exactly the kernels of ring homomorphisms. And you do that by letting R' be the set of cosets of I.
+
+20
+00:05:37,723 --> 00:05:46,440
+毕竟它是一个子群，所以它是商群、商交换群，这是良定义的。
+After all, it's a subgroup, so it's the quotient group, quotient abelian group, that makes sense.
+
+21
+00:05:46,440 --> 00:06:03,633
+为了把它变成一个环，我们有一个从 R 到 R' 的映射，根据交换群理论这是一个群同态，它将 R 中的元素映为它模这个理想的陪集。
+And to turn this into a ring, and we have a map from R to R' which is a group homomorphism from our theory of abelian groups, which takes an element in R to its coset modulo this ideal.
+
+22
+00:06:03,633 --> 00:06:15,534
+我用加法形式写出它，因为 R 上的群运算是一个加法交换群，所以根据群论我们得到一个交换群的满同态，其核为 I。
+And I've written that additively, because this group law on R is an abelian additive group, so we have a surjective homomorphism of abelian groups with kernel I by our theory of groups.
+
+23
+00:06:15,534 --> 00:06:28,590
+为了说明这是一个环同态并且这构成一个环，我必须告诉你两个陪集该如何相乘，然后验证该乘法被 f 所保持。
+And to show that this is a ring homomorphism and that this is a ring, I have to tell you how to multiply two cosets, and then to check that that multiplication is preserved by f.
+
+24
+00:06:28,590 --> 00:06:41,208
+乘法的定义是，如果你想将陪集 r + I 与陪集 s + I 相乘，那么定义上它就是陪集 rs + I。
+Well, the definition of multiplication is that if you want to multiply the coset r + I times the coset s + I, then it's by definition the coset rs + I.
+
+25
+00:06:41,208 --> 00:06:55,105
+为了验证这确实良定义，即如果你在这里改变陪集代表元，并在那里改变陪集代表元，乘积仍然会是这个乘积陪集中的元素，你只需验证：
+And to check that this actually makes sense, namely that if you change your coset representative here and your coset representative here, you would still be an element of this coset—the multiplication,
+
+26
+00:06:55,105 --> 00:07:16,812
+用这个陪集中的任意元素 r + i 乘以那个陪集中的任意元素 s + j（其中 i ∈ I，j ∈ I），我断言它们的乘积落在该陪集中。对于这里面的任意元素乘以那里面的任意元素，存在唯一的陪集包含这个乘积，也就是它。
+you just have to check that if you multiply anything in this coset r + i times anything in this coset s + j, where i is in I and j is in I, then I claim that the product lies in this coset. For anything in this coset times anything in this coset, there's a unique coset that contains the product, and that's this.
+
+27
+00:07:16,812 --> 00:07:35,308
+原因在于——这里用到了 I 是理想而不仅是在乘法下封闭的事实——如果你对此反复使用分配律，你会发现这是 rs + is + rj + ij。
+And the reason is—and this uses the fact that I is an ideal, not just something stable under multiplication—if you use the distributive law on this a couple of times, you find that this is rs + is + rj + ij.
+
+28
+00:07:35,308 --> 00:07:46,360
+好，现在我断言所有这些项都在 I 中，因此这个乘积落在该陪集中。
+Okay, this... Now I claim that all these elements are in I, so that this product is in this coset.
+
+29
+00:07:46,360 --> 00:07:57,653
+原因是：这里是理想中的元素乘环中的元素，这里是环中的元素乘理想中的元素，而这里是理想中两个元素的乘积。
+And the reason is: here's an element in the ideal times an element of the ring, here's an element of the ideal times an element of the ring, and here's the product of two elements in the ideal.
+
+30
+00:07:57,653 --> 00:08:06,272
+利用理想的性质我们看到这里的任意元素乘这里的任意元素都属于这个陪集。因此，乘法是良定义的。
+So by using the property of the ideal, we see that the product of anything in here times anything in here is in this coset. Consequently, the multiplication is well-defined.
+
+31
+00:08:06,272 --> 00:08:23,229
+然后你需要验证它满足环的性质，但这显然是对的，因为如果取 f(r * s)，那就是陪集f(r)（即 r + I）乘以陪集 f(s)（即 s + I）。
+And then you have to check that it satisfies the ring properties, but it's clear that this is true, because if I take f(r * s), that is the coset f(r), which is r + I, times the coset f(s), which is s + I.
+
+32
+00:08:23,229 --> 00:08:40,565
+所以我给 R' 构造了一个环结构，使得这个映射是环同态。好，上次我们掌握了基本概念：什么是环、什么是环同态、什么是理想。
+So I've constructed a ring structure on R' prime, so that this map is a homomorphism of rings. Okay, so last time we've got the basic notion of what is a ring, what's a ring homomorphism, what's an ideal.
+
+33
+00:08:40,565 --> 00:09:14,981
+好，现在我们看到环中总包含以下两类：一个环中总是存在两个自然的理想，就像一个群中总是存在两个显然的子群一样：群：R 中有两个显然的理想：I = (0)，仅由 0 组成的零理想，以及 I = R。
+Okay, now we saw that the ideals always contain the following: there are always two natural ideals in a ring, just like there are always two subgroups of a group: two obvious ideals in R: I = (0), the zero ideal just consisting of 0, and I = R.
+
+34
+00:09:14,981 --> 00:09:46,923
+这里商环 R'（即 R/I）就是 R，而同态是恒等映射，所以唯一映到 0 的元素就是 0。而对于 I = R，R' 是零环，f 将 R 中任意元素都映为 R' 中的 0。
+Here the quotient ring R', which is R mod I, is just R, and the homomorphism is the identity, so that the only element mapping to zero is 0. And here R' is the zero ring, and the map f of any element in R is just zero in R'.
+
+35
+00:09:46,923 --> 00:10:01,279
+这是一个环同态。注意在零环中 1 = 0，所以这确实把 1 映到了 1'。好。所以任何环都有这两个理想。
+That's a—that's a ring homomorphism. Note that in the zero ring, 1 is equal to 0, so this does take 1 to 1'. Okay. So any—any ring has these two ideals.
+
+36
+00:10:01,279 --> 00:10:40,479
+注意如果 R 是零环，这两个是同一个理想；如果 R 不是零环，这两个理想是不同的，因为我们知道如果 R 不是零环，在 R 中 0 ≠ 1：这个零理想不包含1，而全环理想确实包含 1，因为它包含 R 中的所有元素。
+Note if R is the zero ring, these are the same ideal; if R is not equal to the zero ring, these two ideals are distinct, because we saw that if you're not equal to the zero ring, 0 is not equal to 1 in R: this ideal doesn't contain 1, and this ideal does contain 1, because it contains everything in R.
+
+37
+00:10:40,479 --> 00:10:48,024
+好，现在是否可能一个环只有两个理想？
+Okay, now is it possible for a ring to only have two ideals?
+
+38
+00:10:48,024 --> 00:11:11,569
+我们已经看到一个环可能只有一个理想，只有一个理想的唯一的环是零环，因为否则就有两个不同的理想。所以这里有一个小命题：如果 R 只有一个理想，R 就是零环（这已经证明过了）。
+So we've seen it's possible for a ring to have only one, so the only ring that has one ideal is the zero ring, because otherwise I have two distinct ideals. So if—so here's a little proposition: if R has only one ideal, R is the zero ring (we've already proved that).
+
+39
+00:11:11,569 --> 00:11:51,589
+如果 R 恰好有两个理想，那么 R 是一个域；事实上，是当且仅当：R 恰好有两个理想当且仅当 R 是一个域。当然那两个理想就是 R 和零理想 (0)。所以这是对域的一个很有意思的刻画。
+If R has only two ideals, then R is a field; in fact, if and only if: R has only two ideals if and only if R is a field. And of course those two ideals are R and the zero ideal. So that's an interesting characterization of fields.
+
+40
+00:11:51,589 --> 00:12:19,939
+记住，域是指每个非零元素都具有逆元的环：环中每个非零元 a 都有逆元，即一个乘法逆元 a^{-1} ∈ R，满足 a * a^{-1} 是 R 中的单位元。这确实就是域的定义。
+Remember, a field is a ring where every non-zero element has an inverse: a ring where every non-zero a has an inverse, a multiplicative inverse a^{-1} in R with the property that a * a^{-1} is the identity element in R. That's—that's really the definition of a field.
+
+41
+00:12:19,939 --> 00:12:30,463
+仔细看来，域比一般的环要求更多一点：必须有加法，必须有乘法，并且每个非零元素都有逆元。
+If you look at it, a field is—you insist a little bit more than a ring: you have to have an addition, you have to have a multiplication, and any non-zero element has an inverse.
+
+42
+00:12:30,463 --> 00:12:48,346
+回顾我们关于任意域上向量空间的理论，我们在很多地方都需要这个逆元，例如在我们证明每个向量空间都有基的时候等等。好，我们来证明这个命题。第一部分已经证过了，
+If you look back at our theory of vector spaces over an arbitrary field, we needed this inverse in a lot of places, for example when we proved that every vector space had bases, things like that. Okay, let's prove this proposition. The first part has already been proved,
+
+43
+00:12:48,346 --> 00:13:22,539
+现在我们要证明两边的充分必要性。首先假设我们在一个域中，假设 R 是一个域，并且 I 是一个非零理想。如果我要证明这个方向（我先从这个方向开始证），那我必须证明该理想就是整个环，对吧？
+so now we're going to go both directions. So let's assume that we are in a field, let's assume R is a field, and that I is a non-zero ideal. If I'm going to prove this direction, which I'm going to start off by proving this direction, I then have to prove that the ideal is the entire ring, right?
+
+44
+00:13:22,539 --> 00:13:35,689
+我意思是，对于非零环总有两个理想。所以我假设这是一个域，我知道我有这两个理想。
+I mean, I always have, if I have a non-zero ring, two ideals. So I assume I'm in a field, I've assumed that I—I know I have these two ideals.
+
+45
+00:13:35,689 --> 00:14:02,215
+我从一个非零理想出发，想要证明 I 是整个环。好，任取 I 中的一个元素 a，其中 a不等于 0。如果它是一个非零理想，意味着它包含某个非零元素。好，那么 a 有逆元。
+So I start with a non-zero ideal, and I want to show that I is the entire ring. All right, well, take some element a in I with a not equal to zero. If it's a non-zero ideal, it means it contains some element which is non-zero. All right, then a has an inverse.
+
+46
+00:14:02,215 --> 00:14:17,180
+既然 a 有逆元，记为 r（即环中的 a^{-1}），那么 1 = a * r 就在理想中，对吧？
+Since a has an inverse, call it r, which is a^{-1} in the ring, 1, which is a * r, is in the ideal, right?
+
+47
+00:14:17,180 --> 00:14:25,672
+a 在理想中，无论逆元是什么它都在环中，而环中任意元素乘以理想都在理想中。
+a is in the ideal, whatever the inverse is, it's in the ring, so anything in the ring times the ideal is in the ideal.
+
+48
+00:14:25,672 --> 00:14:29,795
+所以 1（即a 与 a^{-1} 的乘积）在理想中。
+So 1, which is the product of a * a^{-1}, is in the ideal.
+
+49
+00:14:29,795 --> 00:14:56,353
+既然 1 在理想中，那么对 R 中任意的 r，r * 1（即 r）就在理想中：这里是环中的元素，这里是理想中的元素。好，这证明了任何元素都在理想中，因此I = R。
+Since 1 is in the ideal, for any r in R, r * 1, which is r, is in the ideal: here's an element of the ring, here's an element of the ideal. Okay, so that just proves that any element is in the ideal, so hence I is equal to R.
+
+50
+00:14:56,353 --> 00:15:08,746
+所以一旦你在一个域中，且理想中有一个非零元素，将其乘以其逆元就说明 1 在理想中，再乘以任意元素就说明该理想是整个环。
+So once, if you're in a field and you have any non-zero element in an ideal, then multiplying it by its inverse shows 1 is in the ideal, and multiplying by any element shows that the ideal is the entire ring.
+
+51
+00:15:08,746 --> 00:15:20,733
+顺便提一句，这也展示了描述这两个理想的另一种方式：这个是零理想 (0)，由 0 生成的主理想；那个是由 1 生成的主理想 (1)。
+That shows, by the way, that another way of describing these two ideals: this would be the ideal (0), the principal ideal generated by 0; this would be the principal ideal generated by 1.
+
+52
+00:15:20,733 --> 00:15:29,241
+所有0 的倍数都只是 0；所有 1 的倍数就是环中的所有元素，对吧？
+All multiples of 0 are just 0; all multiples of 1 are just the elements of the ring, right?
+
+53
+00:15:29,241 --> 00:15:49,686
+上次我们引入了理想的记号：如果 I由 a 的所有倍数构成，我们称它为由 a 生成的主理想。
+So last time we had a notation for an ideal: if I consists of all multiples of a, we say it's a principal ideal generated by a.
+
+54
+00:15:49,686 --> 00:16:07,173
+所以这两个自然的理想都是主理想：这是由 0 生成的主理想，那是由 1 生成的主理想。[学生：如果包含像 2^{1/3} 这样的元素，那怎么……也许我该说，在环中如何仅仅由 1 就生成？
+So these two natural ideals are both principal ideals: this is the principal ideal generated by 0, that's the principal ideal generated by 1. With an element like 2^{1/3} in it, then how would you... maybe I should say, ring?
+
+55
+00:16:07,173 --> 00:16:10,999
+也许我漏掉了什么……]不，不，不是靠加 1，而是 1 的所有倍数，而任何元素都是 1 的倍数，对吧？
+How do you generate... just by having 1? Maybe I'm missing something?
+
+56
+00:16:10,999 --> 00:16:30,118
+因为在环中任何元素乘以 1 都是自身。所以一旦理想中包含了 1，理想中就包含了所有元素，该理想就可以描述为 1 的倍数。可以说是平凡的理想。
+No, no, it's not by adding 1, it's all multiples of 1, and anything is a multiple of 1, right? Because anything times 1 is itself in a ring. So once you have 1 in the ideal, you have everything in the ideal, and the ideal can just be described as multiples of 1. Kind of trivial ideals.
+
+57
+00:16:30,118 --> 00:16:45,965
+好，所以这证明了如果我有一个域，它只有两个理想。现在证明相反方向：如果只有两个理想，那么它就是一个域。好，任取—
+All right, so that shows that if I have a field, I have only two ideals. Now let's prove the opposite direction: that if I have only two ideals, my thing is a field. All right, so take—let a be in R,
+
+58
+00:16:45,965 --> 00:17:11,553
+—设 a ∈ R，且假设 a ≠ 0，考虑由 a 生成的主理想 (a)，即 a 的所有倍数。这是一个理想，因为它在加法和环乘法下封闭。
+and consider—and assume a is not equal to 0, and consider the principal ideal generated by a, all multiples of a. That's an ideal, because this is closed under addition and multiplication from the ring.
+
+59
+00:17:11,553 --> 00:17:30,372
+如果环只有两个理想，且这不等于零理想，那么它必须是整个环。而这个环中的一个元素是 1，对吧？
+If I have only two ideals, this is not the zero ideal, so it has to be the entire ring. Now one element of this ring is 1, right?
+
+60
+00:17:30,372 --> 00:17:51,947
+所以我必须能够把 1 写成a 的某个倍数：那这就是逆元！这就是 a 的乘法逆元。
+So I have to be able to write 1 as some multiple of a: well, that's the inverse! That is the multiplicative inverse of a.
+
+61
+00:17:51,947 --> 00:18:18,667
+所以如果只有两个理想，我就证明了任何非零元素都有乘法逆元，这意味着它是一个域。好，所以域在交换环中非常特殊，在于它们具有非常少、非常少的理想。
+So if I have only two ideals, I've just proved that any non-zero element has a multiplicative inverse, which means I'm a field. Okay, so fields are distinguished among the commutative rings by having a very small supply, very small supply of ideals.
+
+62
+00:18:18,667 --> 00:18:43,623
+我们来看一个不是域的非常简单的环，看看其他的理想在哪里。考虑环 R = Z/4Z，即整数模 4。这不是域，因为 4 不是素数。好，这里有哪些理想呢？
+Let's take a look at a very simple ring that isn't a field, and see where the other ideals are. Let's take the ring R which is Z mod 4Z, integers mod 4. That's not a field because 4 is not a prime number. Okay, so what are my ideals here?
+
+63
+00:18:43,623 --> 00:18:50,564
+你有由 0 生成的理想，你有由 1 生成的理想，这是我们熟知的两个显然理想。
+Well, you have the ideal generated by 0; you have the ideal generated by 1, those are my two famous ideals.
+
+64
+00:18:50,564 --> 00:19:03,391
+然后如果你想一想，如果我想找一个既非零又不是全环的理想（而且我希望它是一个主理想），我最好选择一个没有乘法逆元的生成元。
+And then if you want to think about it, if I want to make a non-zero ideal that isn't the ring, I better choose—and I want it to be a principal ideal—I'd better choose a generator which doesn't have an inverse,
+
+65
+00:19:03,391 --> 00:19:23,656
+你能在这个环 Z/4Z 中看出哪个元素没有乘法逆元吗？顺便说一下它有 4 个元素：0、1、2、3，模 4 加减乘除。有没有元素没有乘法逆元？2！
+a multiplicative inverse. Can you see an element in this ring Z mod 4, which has 4 elements in it by the way: 0, 1, 2, 3, you add them and multiply them mod 4. Is there an element that doesn't have a multiplicative inverse? 2!
+
+66
+00:19:23,656 --> 00:19:30,118
+所以我可以取由 2 生成的理想 (2)。(1) 是全环理想 R，而 (2) 是由元素 0 和 2 组成的理想。
+So I could take the ideal generated by 2. This is the ideal R, and this is the ideal that consists of the elements 0 and 2.
+
+67
+00:19:30,118 --> 00:19:45,113
+如果你验证一下，它在模 4加法下封闭，并且在模 4 任意元素的乘法下封闭：因为模 4 任意元素乘 0 都是 0，乘 2 都是偶数，对吧？
+And if you check, that's closed under addition mod 4, and it's closed under multiplication by anything mod 4: because if I multiply by anything mod 4 times 0 it's 0, and times 2 it's even, right?
+
+68
+00:19:45,113 --> 00:20:12,716
+所以它依然在这个集合中。这是第三个——缺失的第三个理想。好，如果取 R = Z/nZ，它对每个整除 n 的 d都有一个由 d 生成的理想 (d)。
+So it's still in this set. So here's the third—here's the third missing ideal. Okay, if I take R = Z mod nZ, that has an ideal generated by d for all d dividing n.
+
+69
+00:20:12,716 --> 00:20:17,823
+它们可能稍有不同，也可能是同一个理想。
+Hmm, they may be slightly different, they may be the same ideal.
+
+70
+00:20:17,823 --> 00:20:25,642
+比如如果你取由1 生成的理想，它与由 -1 生成的理想相同（-1 也是 n 的约数）。
+I mean, for example, if you take the ideal generated by 1, it's the same as the ideal generated by -1, which is also a divisor of n.
+
+71
+00:20:25,642 --> 00:20:30,904
+但你会得到不同的——n 的因子越多，你得到的理想就越多。
+But you get distinct—that you get more and more ideals the more factorizable n is.
+
+72
+00:20:30,904 --> 00:20:50,395
+特别地，如果取 R = Z/p^k Z，那么互不相同的理想就是 (1), (p), (p^2), (p^3)，一直到 (p^k)（即零理想 (0)）。
+So in particular, if I took R = Z mod p^k Z, then the distinct ideals are (1), (p), (p^2), (p^3), all the way up to (p^k), which is the ideal (0).
+
+73
+00:20:50,395 --> 00:21:08,378
+所以你有一个递增——你在这里有一个降链理想链，长成这个样子：这是全环 (1)，包含 p 的倍数 (p)，包含 p^2 的倍数 (p^2)，包含 p^3 的倍数，一直往下直到 p^k 的倍数，也就是零理想。
+So you have an increase— you have a decreasing chain of ideals here that looks like this: this is the entire ring, that contains the multiples of p, which contains the multiples of p^2, which contains the multiples of p^3, all the way down to the multiples of p^k, which is just the zero ideal.
+
+74
+00:21:08,378 --> 00:21:19,700
+这是一个理想降链，就像刚才在 Z/4Z 中我们有降链 (1) ⊃ (2) ⊃ (0) 一样。只要是素数幂，你就会有这样的降链。
+So that's a descending chain of ideals, just like here we have the descending chain of ideals (1) > (2) > (0). So you have that anytime you have a prime power.
+
+75
+00:21:19,700 --> 00:21:30,117
+对于一般的 n 会更复杂一些，因为取决于 d 是否整除 n 你会有各种包含链，一般而言所有理想构成了所谓的格：
+This is a little bit more complicated, because you have descending chains of ideals depending on whether d divides n, and in general the set of ideals forms what's called a lattice:
+
+76
+00:21:30,117 --> 00:21:40,080
+你知道，一些理想包含另一些理想等等。这是一个非常有趣的研究课题，而唯一真正简单的情形就是这种素数幂情形。
+you know, some ideals contain some others, etc. And that's a very interesting thing to study, and the only really simple case is this case.
+
+77
+00:21:40,080 --> 00:21:43,554
+现在这些环只有有限个理想。
+Now these rings have only a finite number of ideals.
+
+78
+00:21:43,554 --> 00:21:56,463
+它们只有有限个理想的原因在于它们只有有限个元素，所以只有有限个子集，而理想特别地也是子集，所以不可能有超过有限个理想。
+The reason they have only a finite number of ideals is they have only a finite number of elements, so there are only a finite number of subsets, and ideals are in particular subsets, so you can't have more than a finite number of ideals.
+
+79
+00:21:56,463 --> 00:22:24,668
+然而，如果你想考察拥有无限多个理想的环（这时事情开始变得有趣），你可以去看它们中最基础的环：整数环 Z。Z 拥有无限多个互不相同的理想。
+However, if you want to get to a ring that has an infinite number of ideals, where things start to get interesting, you can go to the basic ring of them all: the integers Z. Z has an infinite number of ideals, distinct ideals.
+
+80
+00:22:24,668 --> 00:22:39,028
+事实上每个理想都形如 nZ，即某个整数 n 的所有倍数（其中 n ≥ 0）。
+And every ideal in fact is of the form nZ, all multiples of an integer n, for n >= 0.
+
+81
+00:22:39,028 --> 00:23:00,577
+其原因在于每个子群都具有这种形式——我们很久以前就证明过了。特别地它是一个子群，然后你验证它在环 Z 的乘法下稳定。
+And the reason is that every subgroup is of that form—we proved that a long time ago. And in particular it's a subgroup, and then you check that this is stable under multiplication from the ring.
+
+82
+00:23:00,577 --> 00:23:16,050
+既然这些给出了所有的加法子群，且都在 Z 的乘法下稳定，而且因为我假设了生成元大于等于 0，所以它们互不相同。
+As these are a full list of subgroups and all are stable under multiplication from Z, and they're distinct because I've assumed the generator is >= 0, they're distinct.
+
+83
+00:23:16,050 --> 00:23:34,676
+你会发现 I_n 包含 I_{n'}——也许我们该把这个记作由非负整数 n 生成的 I_n——当且仅当 n 整除 n'。
+And you find that I_n contains I_{n'}—maybe we should call this I sub n generated by this non-negative n—if and only if n divides n'.
+
+84
+00:23:34,676 --> 00:23:54,310
+因为这个理想中的一个特定元素就是 n'，如果 n' 是 n 的倍数，它就会包含在 I_n 中。因此这里的理想格就同构于所有非负整数按整除关系偏序构成的格。
+Because a particular element in this ideal is n', and that will be contained in I_n if n' is a multiple of n. So the lattice of ideals here is the same as the lattice of all non-negative integers ordered by divisibility.
+
+85
+00:23:54,310 --> 00:23:58,590
+由于有无限多个正整数，所以有无限多个理想。
+And there are an infinite number of positive integers, so there are an infinite number of ideals.
+
+86
+00:23:58,590 --> 00:24:07,832
+注意，当 n = 0 时得到零理想 (0)，当 n = 1 时得到全环 (1)，其余情形则得到真理想。
+Notice that you get the zero ideal when n = 0, you get the full ring when n = 1, and otherwise you get proper ideals.
+
+87
+00:24:07,832 --> 00:24:16,404
+在这种情况下的商环 R/I_n 正是 Z/nZ，也就是前面这个有限环。
+The quotient R mod I_n in this case is just Z mod nZ, it's this finite ring.
+
+88
+00:24:16,404 --> 00:24:29,378
+好，通常很少有给定一个环你能写出它的所有理想——非常罕见能够像这样完整列出所有的理想。
+Okay, now it's very rare that when you get a ring, you can write down all its ideals—very rare that you get a case like this where you can write down all the ideals.
+
+89
+00:24:29,378 --> 00:24:40,047
+但我将再给你们一个我们完全清楚其所有理想的环，在那里你可以列出所有理想。这些环中的理想通常有无限多个——在这些环中总是有无限多个。
+But I'll give you one more ring for which we know all the ideals, where you can make a list of ideals. They're infinite usually—well, they're always an infinite number in these rings.
+
+90
+00:24:40,047 --> 00:25:01,379
+另一个我们能掌握其全部理想的重要环是：设 F 是一个域。
+So another—another important ring where we know all ideals is the following ring: let F be a field.
+
+91
+00:25:01,379 --> 00:25:11,441
+我们在域里已经知道理想是什么了，它们很平凡；但我们考虑一个稍微复杂一点的环：域上的一元多项式环F[x]。
+Well, we know the ideals there, they're kind of trivial, but we take a slightly more complicated ring where we take the ring of polynomials in one variable over the field.
+
+92
+00:25:11,441 --> 00:25:29,430
+即所有形如 a_n x^n + ... + a_1 x + a_0 的式子，其中系数 a_i 属于我们的域，多项式的加法和乘法就按常规多项式运算来进行。
+So this is all things of the form a_n x^n + ... + a_1 x + a_0, where the coefficients a_i are in our field, and where you add and multiply polynomials just like you add and multiply polynomials.
+
+93
+00:25:29,430 --> 00:25:55,910
+好，现在我们称其中的多项式为首一的（monic）——设这个多项式为 p(x)，我们说 p(x) 是首一的，如果它的最高次项系数 a_n 等于 1，即它的首项系数为 1。
+Okay, now we call a polynomial in this monic—we said let's call this polynomial p(x), we say p(x) is monic if the leading term here, if a_n is equal to 1, so that it starts off with first coefficient 1.
+
+94
+00:25:55,910 --> 00:26:08,431
+一般而言，如果你有任意一个多项式，你可以用域中的一个标量乘以它，使其变为首一多项式。
+And in general, if you have any polynomial, you can multiply it by a scalar in the field so that it becomes monic.
+
+95
+00:26:08,431 --> 00:26:24,878
+如果 q(x) 是任意非零多项式，域中存在唯一的常数 c 使得 c * q(x)是首一的——是在 F^× 中。
+If q(x) is any polynomial, there exists a unique value c in the field such that c * q(x) is monic—well, in F*, yeah.
+
+96
+00:26:24,878 --> 00:26:38,070
+不，n 可以是任意的，我应该说明：n ≥ 0，任意次数的多项式；否则在乘法下不封闭。如果只取固定次数的多项式，相乘次数就会溢出。
+No, no, n could be arbitrary, as I should have said: n >= 0, polynomials of arbitrary degree; otherwise it's not closed under multiplication. So if you just took polynomials of a fixed degree and you multiplied them you'd overflow.
+
+97
+00:26:38,070 --> 00:26:54,190
+所以当我这样写一个多项式时，隐含的假定是最高次项系数 a_n 不等于 0，因为如果它等于 0 我就不会写出它了，对吧？如果 a_n ≠ 0，我们就称它的次数等于 n。
+So when I write it like this, when I write a polynomial like this, the implicit assumption is that this highest coefficient is not equal to 0, because if it were equal to 0, I wouldn't write it, right? And if a_n is not equal to 0, we say the degree of this is equal to n.
+
+98
+00:26:54,190 --> 00:27:03,296
+这是赋予每个多项式的次数的定义：非零常数多项式次数为 0，一次多项式次数为 1。
+That's a—that's a definition of a number associated to any polynomial: the constants have degree 0, the linear polynomials have degree 1.
+
+99
+00:27:03,296 --> 00:27:17,310
+因此我断言，如果我取任意 n 次多项式，域中存在唯一的常数，使得该多项式乘以该常数后成为 n 次首一多项式。
+So I claim that if I take any polynomial of degree n, there is a unique constant in the field such that when I multiply the polynomial by that constant, it's monic of degree n.
+
+100
+00:27:17,310 --> 00:27:30,887
+证明就是：取 c = a_n^{-1}。因为我们在域中，每个非零元素都有乘法逆元。
+And the proof is: take c = a_n^{-1}. And since I'm in a field, every non-zero element has a multiplicative inverse.
+
+101
+00:27:30,887 --> 00:27:40,200
+如果把这个多项式每项都乘以 a_n^{-1}，最高项系数就变成了 1；如果乘以其他任何常数，结果就不是 1。
+If I multiply this polynomial through by a_n^{-1}, I change this first coefficient to 1; if I multiply through by anything else, I don't get 1.
+
+102
+00:27:40,200 --> 00:27:52,090
+所以通过数乘来使多项式首一化的方法是唯一的。好，下面是描述，在给出定理后我会做一个评注。
+So there's a unique way of making a polynomial monic by scaling it. Okay, here's the description, here's this... I'll make a remark after I put up the theorem.
+
+103
+00:27:52,090 --> 00:28:46,340
+这是关于域上一元多项式环中理想的一个命题，非常重要的定理/命题：环 R = F[x] 中的每个理想 I都是主理想：即 I 是由 I 中次数最低的首一多项式 f 所生成的主理想。
+Here's a proposition of ideals in the polynomial ring over a field, very important theorem/proposition: every ideal I in the ring R = F[x] is principal: principal generated, so I is a principal ideal generated by the monic polynomial f in I of least degree.
+
+104
+00:28:52,020 --> 00:28:59,924
+特别地，另一件事是每个首一多项式生成唯一的理想。
+And in particular, the other thing is that every monic polynomial generates a unique ideal.
+
+105
+00:28:59,924 --> 00:29:12,649
+因此理想作为一个集合，与所有首一多项式之间一一对应。
+So the ideals, so ideals as a set are in one-to-one correspondence with monic polynomials.
+
+106
+00:29:12,649 --> 00:29:43,867
+并且由 f 生成的理想包含由首一多项式 g 生成的理想当且仅当 f 整除多项式 g，即 g(x) 是 f(x) 乘另一个多项式 q(x)。所以这与整数环中的情况非常相似。
+And the ideal associated to f contains the ideal associated to the monic polynomial g if and only if f divides the polynomial g, namely that g(x) = f(x) * q(x) for another polynomial q(x). So it's very similar to the situation with the integers.
+
+107
+00:29:43,867 --> 00:29:57,309
+注意，通过数乘使多项式首一化，恰好对应于——你看，在整数中 (n) 与 (-n) 生成的是同一个理想；它们是同一个理想：n 的倍数与 -n 的倍数完全一样。
+And notice that—note making a polynomial monic by scaling is exactly—see, I could have taken... this is the same ideal generated by -n; they're the same ideal: the multiples of n are the same as multiples of -n.
+
+108
+00:29:57,309 --> 00:30:07,141
+所以首一条件就类似于这种非负条件：通过乘以某些特定元素来选取唯一的生成元，这些元素实际上就是环中的可逆元（单位）。
+So the monic condition is like this condition: of being able to choose a unique generator by multiplying it by certain elements, which are in fact the units in the ring.
+
+109
+00:30:07,141 --> 00:30:26,009
+我应该指出这就是单位群，恰好构成了可逆元群，我稍后也会向大家说明好，我们至少来证明每个理想都是主理想，由其中次数最低的首一多项式生成。
+I should have said that this is the unit group, that happens to be the unit group, which I'll also show you that... All right, let's at least prove that every ideal is principal, generated by the monic polynomial in it of least degree.
+
+110
+00:30:26,009 --> 00:30:32,210
+这给出了对所有理想的完整刻画：它们正好对应于所有首一多项式。
+That gives us a description of all the ideals: they're just the monic polynomials.
+
+111
+00:30:34,919 --> 00:31:01,829
+好，这与我们在整数中使用的证明完全相同。我们将利用欧几里得辗转相除法的类似结论：域上一元多项式的欧几里得带余除法。
+Okay, so this is the same proof as we used for the integers. We're going to do so using the analogue of the Euclidean algorithm: analogue of the Euclidean algorithm for polynomials over a field.
+
+112
+00:31:01,829 --> 00:31:37,891
+如果 f 和 g 是两个多项式，且 deg(f) ≥ deg(g)（次数是有良定义的，是最高次项的阶），那么 f 等于 g……让我写下来：f(x) = g(x) q(x) + r(x)，
+If f and g are two polynomials with the degree of f >= the degree of g (the degree makes sense, it's the size of the highest term), then f is equal to g... let me write it: f(x) = g(x) * q(x) + r(x), where this is a polynomial, and this is a remainder polynomial—
+
+113
+00:31:37,891 --> 00:31:51,044
+其中这个是多项式，这是余式多项式——q(x) 是商式，r(x) 是余式——且 r(x) 的次数小于……r 的次数严格小于除式 g 的次数。
+q is the quotient polynomial, r is the remainder polynomial—and r(x) has degree less than... the degree of r is strictly less than the degree of g that you're dividing by.
+
+114
+00:31:51,044 --> 00:32:14,556
+所以你虽然不能总是整除一个多项式，但你总能留出一个次数严格小于除式次数的余式。这只是一个通过逐步解线性方程来构造商式 q(x) 的过程。
+So you can't always divide one polynomial into another evenly, but you can do it by leaving a remainder which is of degree less than the degree of the thing you're dividing by. So this is just a process of constructing q(x) by successive solution of linear equations.
+
+115
+00:32:14,556 --> 00:32:25,826
+我们来试算一个例子，搞清楚在复数域上到底是怎么回事。假设从 f(x) 开始，比如 x^3 + 2x^2 + 3x + 7，
+So let's just try this so that we understand what the heck is going on over the complex numbers. Suppose starting with f(x) is something like x cubed + 2x^2 + 3x + 7,
+
+116
+00:32:25,826 --> 00:32:43,395
+设 g(x) 是 x^2 + x + 1，举这个例子。我必须说明我可以把这个多项式写成它的倍数加上一个次数更低的项。
+and suppose g(x) were x^2 + x + 1, just to give an example. I have to show that I can write this polynomial as a multiple of this plus something of degree less than this.
+
+117
+00:32:43,395 --> 00:32:58,379
+好，首先要做的是消去 x^3 项，我通过用 x 乘以它来实现。所以 x * g(x) 等于 x^3 + x^2 +x。
+All right, the first thing I have to do is get rid of the x cubed term, which I would do by multiplying this by x. So x * g(x) is equal to x^3 + x^2 + x.
+
+118
+00:32:58,379 --> 00:33:19,433
+如果我取 f(x) 与 x * g(x) 的差，我就剩下多项式 2x^2 - x^2，也就是 x^2，然后还有 3x - x 即 + 2x，再加上 7。
+If I take the difference between f(x) and x * g(x), I'd be left with the polynomial 2x^2 - x^2, so that would just be x^2, then I'd have 3x - x, which would be + 2x + 7.
+
+119
+00:33:19,433 --> 00:33:31,220
+这依然没有足够低的次数：我必须再减去 g(x) 的另一个倍数来把次数降下来。我会用 1 乘以g(x) 来消去 x^2 项。
+That still doesn't have small enough degree: I have to subtract some other multiple of g(x) to get the degree down. Well, I would multiply g(x) by 1 to cancel the x^2 term.
+
+120
+00:33:31,220 --> 00:33:35,836
+在每一步你只需解一个简单的方程来消去下一项。
+In each step you just have a simple equation to solve to cancel the next term.
+
+121
+00:33:35,836 --> 00:33:47,577
+于是我发现 f(x) - x *g(x) - g(x) 消去了 x^2 项，剩下 x + 6。
+So I find that f(x) - x * g(x) - g(x) would cancel the x^2 term, and it would leave me with x + 6.
+
+122
+00:33:47,577 --> 00:34:06,627
+这就得到了带余除法方程：即本例中 q(x) 就是 x + 1——这就是我这里乘以 g(x) 的倍式——而 r(x) 的次数严格小于 g(x)，等于 x + 6。
+And that would be this equation: namely q(x) in this case would be x + 1—that's the multiple of g(x) that I have here—and r of x would have degree less than g(x), would be x + 6.
+
+123
+00:34:06,627 --> 00:34:18,989
+对一般的两个多项式你也完全照此办理：你通过求出需要乘以 g(x) 的什么倍数来消去 f 的最高次项，从而确定 q 的最高项系数，
+And you just do the exact same thing for two general polynomials: you find the highest coefficient of q by finding what you have to multiply g(x) to cancel the highest coefficient of f, then you find the next coefficient of q,
+
+124
+00:34:18,989 --> 00:34:29,750
+然后求出 q 的下一个系数，如此一路向下直到消去 f 中所有次数大于等于 g 的次数的项，剩下的就是次数严格小于 g 的次数的多项式。
+and you keep working your way down until you've eliminated all the coefficients of f that have degree down to the degree of g, and then what you're left with is something that has degree less than the degree of g.
+
+125
+00:34:29,750 --> 00:34:45,650
+你可以看出这里需要 F 是一个域，在很多地方都用到了：因为这里最高项系数是 1，但如果 g(x) 的首项系数是 2x^2，那么我首先要做的就是求出 2 的逆元，然后像那样乘进去。
+And you'll see you needed F to be a field at various points: because here I had coefficients [1], but if g(x) had this coefficient, for example 2x^2 like this, then the first thing I would have had to do was take the inverse of 2 and multiply it like that.
+
+126
+00:34:45,650 --> 00:34:58,237
+所以在欧几里得辗转相除过程中，你经常需要对系数求逆。一般而言只要 g 的首项系数是单位即可进行，但你有这个表达式。
+So in this Euclidean algorithm process, you frequently have to invert coefficients. In general you can do it if the first coefficient of g is a unit, but you have this expression.
+
+127
+00:34:58,237 --> 00:35:03,332
+所以这只是普通的多项式长除法；请确信这是成立的，这并不是深奥的事实。
+So it's just normal polynomial division; convince yourself that this works, it's not a deep fact.
+
+128
+00:35:03,332 --> 00:35:25,620
+好，现在我们证明任意理想都由其中次数最低的首一多项式生成。设 I 是一个理想，若它不是零理想——好，如果I ≠ (0)，
+All right, now let's prove that any ideal is generated by the monic polynomial in it of least degree. So let I be an ideal, and choose a polynomial—if it's not zero, okay, if if I is not equal to (0),
+
+129
+00:35:25,620 --> 00:35:40,320
+取 I 中次数最低的多项式 f。I 中必定存在某个最低次数的多项式（非零）；可能存在若干个 7 次多项式，但任选其中一个。
+take f in I of minimal degree. There has to be something in I of minimal degree if it's non-zero; you know, there might be several things of degree 7, but choose one of them.
+
+130
+00:35:40,320 --> 00:35:56,118
+好，将它数乘伸缩：将 f 乘以 c = a_n^{-1}（设最低次数为 n）使 f 变为首一多项式。
+All right, scale it: scale f by—well, say the minimal degree is n—by c = a_n^{-1} to make f monic.
+
+131
+00:35:56,118 --> 00:36:17,383
+这仍然属于同一个理想，因为 c * f 也是理想中的元素（c 属于环）。所以我现在在 I 中拥有了一个次数最低的首一多项式。
+It's still the same ideal, because c * f is also an element in the ideal (c is an element in the ring). So I now have a monic polynomial of minimal degree in I.
+
+132
+00:36:17,383 --> 00:36:48,857
+好，现在设 h 是 I 中的另一个多项式，并将 h 写成f 的倍式加上一个余式——我这里写倒了不过没关系——其中 r(x) 的次数严格小于 f 的次数，它也在 I 中。
+All right, now... well, let h be another polynomial in I, and write h as a multiple of f—I'm doing it backwards here, but never mind—plus a remainder term, where r(x) has degree less than the degree of f, which is in I.
+
+133
+00:36:48,857 --> 00:36:56,326
+好，f(x) ∈ I，因此这个倍式也在 I 中（由理想在环乘法下的吸收性）。
+Okay, f(x) is in I, therefore this multiple is in I, because it's stable under multiplication from the ring.
+
+134
+00:36:56,326 --> 00:37:12,480
+因此 h(x) - q(x) f(x) 属于 I，因为这是 I 中的元素，那是 I 中的元素，而 I 是一个加法子群；因此 r(x) 属于 I，对吧？
+Therefore h of x minus q(x) * f(x) is in I, because here's an element in I, here's an element in I, and I is a subgroup; therefore r(x) is in I, right?
+
+135
+00:37:12,480 --> 00:37:22,850
+但是 f 是 I 中非零且具有最低次数的元素。
+But r(x) is... but f is the element in I which is non-zero of minimal degree, of the smallest minimal degree.
+
+136
+00:37:22,850 --> 00:37:32,959
+因此唯一的可能性是：由于 r(x) ∈ I，这两点迫使 r(x) = 0。
+Therefore the only possibility is that, since r(x) is in I, these two things imply that r(x) = 0.
+
+137
+00:37:32,959 --> 00:37:41,632
+这是唯一可能的情形，因为如果它非零且次数小于 f 的次数，它就会成为比 f 次数更低的选择！
+It's the only thing that's possible, because if it were non-zero and has degree less than the degree of f, it would have been a better choice than f!
+
+138
+00:37:41,632 --> 00:37:48,632
+因此因为 r(x) = 0，I 中的任何元素都是 f 的倍式。
+Therefore anything in I, because r(x) = 0, is a multiple of f.
+
+139
+00:37:48,632 --> 00:38:05,658
+因此该理想本身由 f 的所有倍式构成：即次数最低的首一多项式生成的主理想。是的，单一元素的所有倍数。我稍后也会给你们一个非主理想的例子。
+Therefore the ideal itself consists of all multiples of f: the minimal polynomial of least degree. Yeah, all multiples of a single element. I'm going to give you a non-principal ideal too.
+
+140
+00:38:05,658 --> 00:38:13,396
+所以这意味着理想中的任何元素都是由该理想中的某个固定元素乘以 R 中的元素得到的——必须由单一元素生成。
+So it means that anything in the ideal is the multiple by an element in R of a fixed element in that ideal—it has to be one element.
+
+141
+00:38:13,396 --> 00:38:27,247
+所以这里，在整数中我们选取理想中最小的正整数；在多项式中，我们在某种意义上选取理想中次数最低的首一多项式，好。
+So here, in the integers we chose the smallest positive integer in the ideal that did it; in polynomials, we take in some sense the smallest monic polynomial in the ideal.
+
+142
+00:38:27,247 --> 00:38:49,405
+现在这带来了一些优美的性质，因为如果我们掌握了所有的理想，并且能够构造一个环同态，那么其中的某个理想就必然是它的核，对吧？让我给大家举一个环同态的例子，看看我们能否求出它的核。
+Okay. Now this has some nice properties, because if we've got a list of ideals and we're able to construct a ring homomorphism, then one of these ideals has to be its kernel, right? So let me give you an example of a ring homomorphism, and let's see if we can figure out its kernel.
+
+143
+00:38:49,405 --> 00:39:22,117
+考虑映射：从 R（即 F[x]）到 F，把多项式 f(x) 映到它在点 c 处的值，其中 c 是F 中的元素。也就是说，取出你的多项式——我那可怜的多项式去哪了？我把它擦掉了！
+Consider the map from R, which is F[x], to F, that takes a polynomial f(x) and it takes it to its value at a point c, where c is an element in F. Namely, you just take your polynomial—where is my poor polynomial? I've erased my poor polynomial!
+
+144
+00:39:22,117 --> 00:39:40,902
+取多项式 f(x) = a_n x^n+ ... + a_1 x + a_0，通过计算 f(c) = a_n c^n + ... + a_1 c+ a_0 将其视为 F 上的函数。
+I take my polynomial f(x) which is a_n x^n + ... + a_1 x + a_0, I think of it as a function on F by f(c) = a_n c^n + ... + a_1 c + a_0.
+
+145
+00:39:40,902 --> 00:39:58,203
+现在这是域中的一个元素，因为各项系数在域中，乘积在域中，幂次也在域中，相加后得到域中的一个元素。我断言这是一个环同态。
+That's an element now in the field, because this is an element in the field, and this product is in the field, and this power is in the field, so you just add them all up, you get an element in the field. I claim that this is a ring homomorphism.
+
+146
+00:39:58,203 --> 00:40:12,940
+你需要验证……我们把这个映射称为（因为我不能用字母 f，f 已经被多项式占用了）h，代表同态。
+Well, you have to check... let's call this map—because I can't use the letter f, because f is my polynomial—let's call this map h, for homomorphism.
+
+147
+00:40:12,940 --> 00:40:30,496
+所以你需要验证 h(f + g) 等于 h(f) + h(g)，并且验证 h(f * g) 等于 h(f)乘 h(g)，还必须验证单位元等等。
+So you have to check that h(f + g) is h(f) + h(g), and you have to check that h(f * g) is h(f) times h(g), and you have to check things on the identity element and things like that.
+
+148
+00:40:30,496 --> 00:40:43,657
+如果你把多项式 f(x) + g(x) 在 c 处求值，你会得到f 在 c 处的值加上 g 在 c 处的值，因为你只是在对应系数相加，对吧？这就是加法性质。
+Well, if you evaluate the polynomial f(x) + g(x) at c, you get the value of f at c plus the value of g at c, you're just adding these coefficients, right? And that's this.
+
+149
+00:40:43,657 --> 00:40:54,423
+而如果你把多项式乘积 f * g 在 c 处求值，同样你只是将两个函数相乘然后在 c 处求值，所以你得到一个函数在 c 处的值乘以另一个函数在 c 处的值。
+And if you evaluate the polynomial f * g at c, well, again, you're just multiplying two functions and evaluating them at c, so you get the value of one function at c times the value of the other function at c.
+
+150
+00:40:54,423 --> 00:41:01,644
+因此这个将多项式映为其在域中某个固定元素处的值的映射是一个环同态。
+So this map that takes a polynomial to its value at a fixed element in the field is a ring homomorphism.
+
+151
+00:41:01,644 --> 00:41:11,976
+它的核必定是我们上面提到的理想之一：必定存在某个首一多项式生成它的核。
+Its kernel has to be one of our friends up here: there has to be some monic polynomial that generates the kernel of this.
+
+152
+00:41:11,976 --> 00:41:27,806
+我们最好能找出核中的某个元素：核中的元素就是在 c 处求值得到 0 的多项式。除了 0 以外没有任何常数具有该性质，因为常数多项式在 c 处求值仍然得到该常数。
+Well, we'd better find something that's in the kernel of this: an element in the kernel would be a polynomial where when you evaluate it at c you get 0. No constant has that property except 0, because if you evaluate any constant at c you just get the constant.
+
+153
+00:41:27,806 --> 00:41:40,547
+所以在该理想中没有 0 次多项式。那么是否存在一次多项式，即在 c 处取值为零的线性多项式呢？
+So we don't have any polynomials of degree 0 in this ideal. Is there a polynomial of degree 1, a linear polynomial that vanishes at c?
+
+154
+00:41:40,547 --> 00:42:03,460
+x - c！而且它必定是……这是一个首一多项式：多项式 f(x) = x - c是 1 次首一多项式，且满足 f(c) = 0。
+x - c! And that has to be... that's a monic polynomial: the polynomial f(x) = x - c is monic of degree 1 with f(c) = 0.
+
+155
+00:42:03,460 --> 00:42:15,460
+所以 I 中的任意 f 都是 x - c 的倍式，明白了吗？
+So any f in I is a multiple of x - c, got it?
+
+156
+00:42:15,460 --> 00:42:30,310
+到目前为止一切顺利，因为它必须由次数最低的首一多项式生成。在 c 处取零的 0 次首一多项式不存在……对，对，没问题，就是这样。
+So far so good, because it has to be generated by the monic polynomial of least degree. There are no monic polynomials of degree 0 that vanish at c unless... yeah, yeah, that's right, so here it is.
+
+157
+00:42:30,310 --> 00:42:45,920
+换句话说，推论：如果 f(c) = 0，那么 f(x)等于 (x - c) * g(x)。
+So in other words, corollary: if f(c) = 0, then f(x) is equal to (x - c) * g(x).
+
+158
+00:42:48,900 --> 00:42:58,873
+推论：域上的 n 次多项式至多有 n 个根。记得我们在特征多项式理论中用过这个结论：为什么？
+Corollary: a polynomial of degree n has at most n roots over a field. Remember we used that in our theory of characteristic polynomials: why?
+
+159
+00:42:58,873 --> 00:43:14,736
+因为每当有一个根，我就得到一个整除因子，剩下的多项式次数为……这个是 n 次，那个就是 n - 1 次；根据归纳法，后者至多有 n - 1 个根，因此 f 至多有 n 个根。
+Every time I have a root, I get a divisibility, and I'm left with a polynomial of degree... well, this has degree n, this would have degree n - 1; by induction, this has at most n - 1 roots, therefore f has at most n roots.
+
+160
+00:43:14,736 --> 00:43:17,998
+这就是我们的证明：在任意域上，n 次多项式至多有 n 个根。非常重要的事实！
+So that's our proof that over any field, the polynomial has at most n roots. A very important fact!
+
+161
+00:43:17,998 --> 00:43:24,640
+这是被欧拉发现的，这或许正是近世代数的发端。
+This was discovered by Euler, and it's probably the beginning of modern algebra.
+
+162
+00:43:24,640 --> 00:43:46,320
+在一般的环上这并不成立：正如我们见过的，如果你研究环 Z/8Z 上的多项式并考察多项式 x^2 - 1，它居然有 4 个根！2 次多项式却有 4 个根。
+It's not true over a ring: as we saw, if you study polynomials over the ring Z mod 8Z and you study the polynomial x^2 - 1, it has 4 roots! So that's a polynomial of degree 2 that has 4 roots.
+
+163
+00:43:46,320 --> 00:44:01,802
+但在域上，n 次多项式至多有 n 个根，这正是由主理想性质保证的。好，刚才有人问我：是不是每个理想都是主理想？
+But over a field, polynomials of degree n have at most n roots, and it's by this principal ideal property. Okay, now someone asked me about: what, maybe every ideal is principal?
+
+164
+00:44:01,802 --> 00:44:23,935
+我们能不能找到一个并非所有理想都是主理想的环？我现在就给大家举一个例子，我先粗略说明一下，暂时不做严格证明。
+Can we come up with a—with a ring where not every ideal is principal? So I'll just give you an example now, without... waving my hands at it right now without proving it.
+
+165
+00:44:23,935 --> 00:44:52,844
+考虑一个非主理想的例子：取环 R 为域上的二元多项式环 F[x, y]。这些元素都是形如 ∑ a_{ij} x^i y^j 的式子，i 从 0 到 n，j 从 0到 m，其中 a_{ij} 是域中的元素。
+Consider an example of a non-principal ideal: take the ring R which is polynomials over a field, but in two variables. So these things are all the things of the form sum of a_{ij} x^i y^j, i = 0 to n, j = 0 to m, where the a_{ij} are elements in the field.
+
+166
+00:44:52,844 --> 00:45:18,032
+这样一个多项式展开长成 a_{00} + a_{10} x + a_{01} y+ a_{11} xy + a_{20} x^2 + ...，乘法运算完全按照二元多项式的乘法规则进行，加法按同类项相加。
+So such a polynomial would look like a_{00} + a_{10} x + a_{01} y + a_{11} xy + a_{20} x^2 + ..., and you multiply just like you multiply polynomials in two variables, and you add by components.
+
+167
+00:45:18,032 --> 00:45:29,525
+当然在任意具体多项式中次数是有界的，但在整个环中可以是任意高的。
+And of course the degrees in any given case are bounded, but can be arbitrary in general because you have to multiply them.
+
+168
+00:45:29,525 --> 00:45:51,716
+并且现在考虑映射（我们再次称其为 h）从 R 到域 F，它将 f(x, y) 求值……随意在某个点处求值，不妨映为 f(0, 0)。这只意味着令 x = 0, y = 0：所有这些高次项都消失了，剩下的就是常数项 a_{00}。
+And consider now the map—we'll call it h again—from R to the field, which takes an f(x, y) and evaluates it... I don't care, let's evaluate it at some point, let's take it to f(0, 0). So it just means you take x = 0, y = 0: all these terms go away, and it's just the value a_{00}.
+
+169
+00:45:51,716 --> 00:46:07,534
+好，我断言这是一个环同态，原因与一元多项式的求值映射是环同态完全一样：相加两个多项式，在零点的值相加（也就是说常数项相加）；
+Okay, I claim that's a ring homomorphism, for the same reason that evaluation of polynomials in one variable is a ring homomorphism: if you add two polynomials, you add their values at zero (I mean, if you add them, you're just adding these constant terms);
+
+170
+00:46:07,534 --> 00:46:33,200
+如果相乘两个多项式，虽然计算复杂，但简单的一点是常数项直接相乘。好，所以这是环同态。它的核是什么？它不是由单个元素生成的，所以它不是主理想！
+if you multiply two polynomials, it's a complicated operation, but the one thing that's simple is you multiply their constant terms. Okay, so that's a ring homomorphism. What's its kernel? It's not generated by one element, so it's not principal!
+
+171
+00:46:33,200 --> 00:46:40,735
+为什么？在 I 中有任何非零常数吗？没有，只有 0。但你能给出一些属于 I 的简单多项式吗？
+Why? Well, are there any constants in I? No, just 0. But can you give me some simple polynomials that are in I?
+
+172
+00:46:40,735 --> 00:46:48,245
+是的，它显然包含元素 x，包含元素 y。
+Yeah, it certainly contains the element x, it certainly contains the element y.
+
+173
+00:46:48,245 --> 00:46:58,428
+多项式 x 映到 0，多项式 y 映到 0，x 的任意倍式映到 0，y 的任意倍式映到 0。
+I mean, the polynomial x goes to 0, the polynomial y goes to 0, any multiple of the polynomial x goes to 0, any multiple of the polynomial y goes to 0.
+
+174
+00:46:58,428 --> 00:47:10,323
+如果你想一想所有这些多项式，它们就是 x 与 y 的倍式的集合：任何这样的多项式都可以写成 x 的某个倍式加上 y 的某个倍式（尽管表示方式并不唯一）。
+And if you think of all these polynomials, they're just the collective multiples of x and y: any such polynomial can be written as some multiple of x plus some multiple of y, not in a unique way.
+
+175
+00:47:10,323 --> 00:47:25,920
+所以特别地，理想 I 显然是由 x 和 y 生成的理想 (x, y)，由 x 的所有倍式与 y 的所有倍式之和构成。
+So in particular, the ideal I is certainly the ideal generated by x and y, which consists of all multiples of x plus all multiples of y.
+
+176
+00:47:25,920 --> 00:47:37,392
+但它不能由单个元素生成，大家可以直观体会一下。我是说，它怎么可能由单个元素生成呢？
+But it can't be generated by a single element, so you just have to sort of wave your hands at that. I mean, how could it be generated by a single element?
+
+177
+00:47:37,392 --> 00:47:53,024
+如果是的话，x 必须是该元素的倍式，y 也必须是该元素的倍式，而能同时整除x 与 y 的多项式只能是常数，但理想中除 0 外没有常数。所以这就是——这就是理由。
+That element—then x would have to be a multiple of that element, but also y would have to be a multiple of that element, and the only thing that x and y are both a multiple of... and there are no constants in the ideal except 0. So that's—that's the reason.
+
+178
+00:47:53,024 --> 00:48:01,733
+如果你想要一个非主理想，这就是例子：它是一个同态的核，但它不能由单个元素生成，它不是单个元素的所有倍数。
+If you asked for an ideal, here it is: it's a kernel of a homomorphism, but it can't be generated by one element, it's not the multiples of a single element.
+
+179
+00:48:01,733 --> 00:48:15,000
+所以在某种意义上这是一个比一元多项式环更复杂的环，因为在描述其理想时会遇到困难：我们不能只说“只需取出这种形式的多项式并取其所有倍数”就行了。
+So this is in some sense a more complicated ring than the polynomials in one variable, because we're going to have trouble describing its ideals: can't just say, well, you just take all polynomials of this form and take their multiples.
+
+180
+00:48:15,000 --> 00:48:25,149
+好，最后我想以一个精妙的评注来收尾。我说过整数环 Z 是最基础的环：确实如此！
+Okay, I just want to end with one cute remark. I said that Z, the integers, is the basic ring: it is!
+
+181
+00:48:25,149 --> 00:48:33,758
+它对于环论的基础性，就像单位元对于群论一样。
+It's as basic to ring theory as the identity element is to group theory.
+
+182
+00:48:33,758 --> 00:48:52,919
+对于任何群，都有一个仅由单位元构成的平凡子群：即存在一个同态从 {e} 映入你的群，把 e 映到 e。这看似平凡，但这是对任意群我们所知的唯一的自然子群。
+So for any group, we have a subgroup which is just the identity element: namely, there's a homomorphism from {e} into your group that takes e to e. That's kind of trivial, but that's the—the only natural subgroup we know of a group.
+
+183
+00:48:52,919 --> 00:48:59,319
+你无法对群做更多了，因为群只有一个单位元。
+You can't do that—you can't do anything more for a group than just put the identity element in, because the group just has the identity.
+
+184
+00:48:59,319 --> 00:49:15,020
+但是环拥有更多结构：在任何环中（一如既往假定为交换环 R），都存在一个自然的
+But a ring has more: in any ring (commutative, as always, R), there is a natural

@@ -1,0 +1,3496 @@
+1
+00:00:12,120 --> 00:00:18,570
+you should take a look at section 6.6
+
+2
+00:00:15,100 --> 00:00:21,430
+which is on the symmetric group and
+
+3
+00:00:18,570 --> 00:00:23,080
+Richard Taylor who's a professor in the
+
+4
+00:00:21,430 --> 00:00:26,259
+Department will be subbing for me on
+
+5
+00:00:23,080 --> 00:00:27,609
+Friday and then the homework he doesn't
+
+6
+00:00:26,259 --> 00:00:29,980
+know the homework due Monday but here is
+
+7
+00:00:27,609 --> 00:00:32,320
+the homework due Monday in Section 6.6
+
+8
+00:00:29,980 --> 00:00:33,940
+and then Peter green will lecture Monday
+
+9
+00:00:32,320 --> 00:00:36,970
+and pick up where Richard left off on
+
+10
+00:00:33,940 --> 00:00:39,040
+the symmetric group so I want to just
+
+11
+00:00:36,970 --> 00:00:40,720
+review very briefly the ceelo theorems
+
+12
+00:00:39,040 --> 00:00:43,300
+and their proofs that we did last time
+
+13
+00:00:40,720 --> 00:00:47,890
+and then do some cool applications for
+
+14
+00:00:43,300 --> 00:00:49,809
+you where you see how you see how these
+
+15
+00:00:47,890 --> 00:00:56,530
+theorems can be used so remember the
+
+16
+00:00:49,809 --> 00:01:02,440
+theorem if the if G is finite from order
+
+17
+00:00:56,530 --> 00:01:07,330
+and which is P to the N times M and M is
+
+18
+00:01:02,440 --> 00:01:09,580
+prime to pre so that P to the N is the
+
+19
+00:01:07,330 --> 00:01:12,190
+largest power of a prime dividing the
+
+20
+00:01:09,580 --> 00:01:22,840
+order of the group then 1 there exists
+
+21
+00:01:12,190 --> 00:01:24,729
+CeeLo P subgroups of order P to the N so
+
+22
+00:01:22,840 --> 00:01:33,210
+there are subgroups of the maximum power
+
+23
+00:01:24,729 --> 00:01:38,619
+prime order any two such subgroups are
+
+24
+00:01:33,210 --> 00:01:40,750
+conjugate so they form a unique
+
+25
+00:01:38,619 --> 00:01:48,750
+conjugacy class of subgroups of that
+
+26
+00:01:40,750 --> 00:01:54,930
+order and three the number L of such
+
+27
+00:01:48,750 --> 00:01:54,930
+subgroups satisfies
+
+28
+00:01:55,090 --> 00:02:04,210
+Elle provides M and L is congruent to 1
+
+29
+00:01:59,020 --> 00:02:06,399
+mod p so a typical number that's that
+
+30
+00:02:04,210 --> 00:02:08,440
+can always satisfy this is L is equal to
+
+31
+00:02:06,399 --> 00:02:10,479
+one it's always possible that the celo
+
+32
+00:02:08,440 --> 00:02:18,870
+subgroups are normal and there's only
+
+33
+00:02:10,479 --> 00:02:21,580
+one possible that l is equal to 1 ie
+
+34
+00:02:18,870 --> 00:02:24,900
+that the ceelo subgroup is a normal
+
+35
+00:02:21,580 --> 00:02:27,069
+subgroup of G that's certainly possible
+
+36
+00:02:24,900 --> 00:02:29,140
+doesn't always happen but that's
+
+37
+00:02:27,069 --> 00:02:31,000
+something that could any two such would
+
+38
+00:02:29,140 --> 00:02:36,480
+be conjugate there namely be only one of
+
+39
+00:02:31,000 --> 00:02:36,480
+them so that would be a unique C low P
+
+40
+00:02:38,790 --> 00:02:44,440
+and then but there could be more but in
+
+41
+00:02:42,640 --> 00:02:48,150
+any case under - they're all conjugates
+
+42
+00:02:44,440 --> 00:02:48,150
+so that's the content of the celo
+
+43
+00:02:49,170 --> 00:03:04,780
+theorem yes/no questions a stretch you
+
+44
+00:03:00,760 --> 00:03:08,079
+see if there's it's pause one one number
+
+45
+00:03:04,780 --> 00:03:10,480
+L that divides M and is kind of went to
+
+46
+00:03:08,079 --> 00:03:12,579
+1 mod p is 1 L equal 1 you can always
+
+47
+00:03:10,480 --> 00:03:14,139
+try L equal 1 there may be other numbers
+
+48
+00:03:12,579 --> 00:03:16,599
+that satisfy this but there's always
+
+49
+00:03:14,139 --> 00:03:21,040
+possibility that one if there's only one
+
+50
+00:03:16,599 --> 00:03:23,889
+celo subgroup then by number two it says
+
+51
+00:03:21,040 --> 00:03:27,400
+that it must be normal because any
+
+52
+00:03:23,889 --> 00:03:29,230
+conjugate of H would be a CLO subgroup I
+
+53
+00:03:27,400 --> 00:03:36,459
+mean if you had if you had a subgroup of
+
+54
+00:03:29,230 --> 00:03:41,680
+order P to the N so if H has order P to
+
+55
+00:03:36,459 --> 00:03:45,669
+the N so does H prime which is G H G
+
+56
+00:03:41,680 --> 00:03:48,609
+inverse a conjugate of H if there's only
+
+57
+00:03:45,669 --> 00:03:51,450
+one celo subgroup then these are all
+
+58
+00:03:48,609 --> 00:03:51,450
+equal to H
+
+59
+00:03:59,299 --> 00:04:03,739
+because whatever this is it's a si lo P
+
+60
+00:04:01,920 --> 00:04:09,900
+subgroup it has the same order and
+
+61
+00:04:03,739 --> 00:04:14,010
+therefore H is normal in G conversely if
+
+62
+00:04:09,900 --> 00:04:17,489
+H is normal in G there is only one si lo
+
+63
+00:04:14,010 --> 00:04:19,109
+P subgroup the reason is that any two of
+
+64
+00:04:17,489 --> 00:04:21,180
+them are conjugate so if you got another
+
+65
+00:04:19,109 --> 00:04:24,210
+one you'd be able to conjugate H into H
+
+66
+00:04:21,180 --> 00:04:26,310
+Prime but saying that H is normal in G
+
+67
+00:04:24,210 --> 00:04:31,289
+means that all conjugates of H are equal
+
+68
+00:04:26,310 --> 00:04:31,949
+to H got that idea now good thing to fix
+
+69
+00:04:31,289 --> 00:04:34,050
+in your mind
+
+70
+00:04:31,949 --> 00:04:35,490
+all right let's recall the proof very
+
+71
+00:04:34,050 --> 00:04:39,710
+very quickly I'm gonna walk you through
+
+72
+00:04:35,490 --> 00:04:39,710
+it it's all about groups acting on sets
+
+73
+00:04:40,160 --> 00:04:52,979
+via groups acting on sets and the key
+
+74
+00:04:48,870 --> 00:04:56,280
+principle is if G alright so the first
+
+75
+00:04:52,979 --> 00:05:07,970
+thing you do is you have G acts by
+
+76
+00:04:56,280 --> 00:05:15,389
+translation on set I don't know J of
+
+77
+00:05:07,970 --> 00:05:20,699
+subsets J&G where the size of J is P to
+
+78
+00:05:15,389 --> 00:05:23,340
+the N so you take G of a subset is the
+
+79
+00:05:20,699 --> 00:05:26,520
+subset G times J that's what I mean by
+
+80
+00:05:23,340 --> 00:05:29,310
+translation so it permute surround the
+
+81
+00:05:26,520 --> 00:05:31,259
+subsets of size P to the N because if
+
+82
+00:05:29,310 --> 00:05:34,860
+this has size PD n then all products
+
+83
+00:05:31,259 --> 00:05:42,840
+with G have size P to the N the number
+
+84
+00:05:34,860 --> 00:05:48,770
+of such subsets is equal to n choose P
+
+85
+00:05:42,840 --> 00:05:48,770
+to the N which we showed is prime to P
+
+86
+00:05:50,930 --> 00:06:02,389
+so some orbit Oh so J has size prime to
+
+87
+00:06:00,210 --> 00:06:02,389
+P
+
+88
+00:06:03,939 --> 00:06:19,099
+so the stabilizer of that orbit has
+
+89
+00:06:11,749 --> 00:06:21,349
+order divisible by P to the end because
+
+90
+00:06:19,099 --> 00:06:25,179
+the size of the orbit is the order of G
+
+91
+00:06:21,349 --> 00:06:31,909
+divided by the order of the stabilizer
+
+92
+00:06:25,179 --> 00:06:37,069
+but the stabilizer of any orbit has size
+
+93
+00:06:31,909 --> 00:06:39,800
+less than or equal to P to the end less
+
+94
+00:06:37,069 --> 00:06:41,569
+than or equal to P to the N and I sort
+
+95
+00:06:39,800 --> 00:06:44,509
+of fudged a little bit and it's it's
+
+96
+00:06:41,569 --> 00:06:51,129
+it's this is for the for the following
+
+97
+00:06:44,509 --> 00:07:01,039
+obvious reason if J is in the subset and
+
+98
+00:06:51,129 --> 00:07:02,209
+G is in GJ then GJ is in the subset all
+
+99
+00:07:01,039 --> 00:07:04,339
+right I mean that's what it means to be
+
+100
+00:07:02,209 --> 00:07:06,469
+in the stabilizer of this subset if you
+
+101
+00:07:04,339 --> 00:07:08,419
+act by the left on G you stay inside the
+
+102
+00:07:06,469 --> 00:07:19,329
+subset all right
+
+103
+00:07:08,419 --> 00:07:22,369
+this gives the order of G elements in J
+
+104
+00:07:19,329 --> 00:07:25,099
+right therefore this number has to be
+
+105
+00:07:22,369 --> 00:07:26,930
+less than the number of things in J so
+
+106
+00:07:25,099 --> 00:07:31,849
+the number of things in GJ has to be
+
+107
+00:07:26,930 --> 00:07:34,249
+less than the size of J so then I have a
+
+108
+00:07:31,849 --> 00:07:36,829
+subgroup which has ordered divisible by
+
+109
+00:07:34,249 --> 00:07:39,729
+P to the N which has order less than or
+
+110
+00:07:36,829 --> 00:07:51,259
+equal to P to the N that implies that GJ
+
+111
+00:07:39,729 --> 00:07:54,339
+has order P to the N and is AC low P and
+
+112
+00:07:51,259 --> 00:07:54,339
+that was the proof of one
+
+113
+00:07:57,250 --> 00:08:03,289
+what is this going over here it's just
+
+114
+00:08:00,770 --> 00:08:07,340
+near my real eraser where is the real
+
+115
+00:08:03,289 --> 00:08:11,090
+here's the real eraser I'm sorry once we
+
+116
+00:08:07,340 --> 00:08:15,530
+have a seal LP then we start doing orbit
+
+117
+00:08:11,090 --> 00:08:18,650
+questions so the next part - we change
+
+118
+00:08:15,530 --> 00:08:29,449
+our set that we're acting on you now
+
+119
+00:08:18,650 --> 00:08:41,329
+have let H be a CLO P and let G act by
+
+120
+00:08:29,449 --> 00:08:46,940
+by translation transitively on the coset
+
+121
+00:08:41,329 --> 00:08:55,010
+space of H which has order M Prime to
+
+122
+00:08:46,940 --> 00:08:56,839
+pee again again we we take we take as we
+
+123
+00:08:55,010 --> 00:08:58,880
+construct the set of order Prime to P
+
+124
+00:08:56,839 --> 00:09:03,220
+but now since we've proved one so that
+
+125
+00:08:58,880 --> 00:09:03,220
+we have a subgroup call one eight
+
+126
+00:09:03,820 --> 00:09:08,899
+of order P to the end we can change our
+
+127
+00:09:06,829 --> 00:09:11,390
+set that the group is acting on to be
+
+128
+00:09:08,899 --> 00:09:12,949
+this by translation in acts transitively
+
+129
+00:09:11,390 --> 00:09:15,620
+on it because it always acts
+
+130
+00:09:12,949 --> 00:09:24,560
+transitively on a coset space so the
+
+131
+00:09:15,620 --> 00:09:33,649
+stabilizer of the co set GH is the seal
+
+132
+00:09:24,560 --> 00:09:35,720
+LP subgroup GH p inverse because the
+
+133
+00:09:33,649 --> 00:09:38,779
+stabilizer the co set H we know this
+
+134
+00:09:35,720 --> 00:09:44,649
+from our general action on and we have
+
+135
+00:09:38,779 --> 00:09:51,500
+to show that any C low P is of this form
+
+136
+00:09:44,649 --> 00:09:57,399
+so it suffices to show so let H prime be
+
+137
+00:09:51,500 --> 00:09:57,399
+a seal LP and restrict
+
+138
+00:09:57,840 --> 00:10:06,480
+G action on G mod H - H Prime
+
+139
+00:10:07,470 --> 00:10:14,020
+well I claim this is a set of order
+
+140
+00:10:10,510 --> 00:10:18,100
+prime - P this is a group of order a
+
+141
+00:10:14,020 --> 00:10:20,470
+power of P right therefore it has to fix
+
+142
+00:10:18,100 --> 00:10:22,690
+something because if it didn't fix
+
+143
+00:10:20,470 --> 00:10:32,380
+something the orbits would all have size
+
+144
+00:10:22,690 --> 00:10:34,840
+divisible by P the orbits have size P to
+
+145
+00:10:32,380 --> 00:10:38,740
+the a40 less than or equal to a less
+
+146
+00:10:34,840 --> 00:10:41,500
+than or equal to n because the orbits
+
+147
+00:10:38,740 --> 00:10:45,730
+for H prime are of the form the order of
+
+148
+00:10:41,500 --> 00:10:47,260
+H prime divided by the disabled Iser and
+
+149
+00:10:45,730 --> 00:10:50,470
+the stabilizer is a subgroup of 8th
+
+150
+00:10:47,260 --> 00:10:53,890
+prime so this is a power of P if all of
+
+151
+00:10:50,470 --> 00:10:56,470
+these were divisible by P then the sum
+
+152
+00:10:53,890 --> 00:10:59,260
+of the size of the orbits would also be
+
+153
+00:10:56,470 --> 00:11:01,900
+divisible by P which it isn't because
+
+154
+00:10:59,260 --> 00:11:07,450
+this total space that they're acting on
+
+155
+00:11:01,900 --> 00:11:16,300
+has order prime - P so some orbit as
+
+156
+00:11:07,450 --> 00:11:19,720
+size 1 not divisible by P and since it
+
+157
+00:11:16,300 --> 00:11:22,900
+has size 1 that means that H prime fixes
+
+158
+00:11:19,720 --> 00:11:25,390
+the point which means that H prime is
+
+159
+00:11:22,900 --> 00:11:27,660
+contained in this stabilizer of the
+
+160
+00:11:25,390 --> 00:11:27,660
+point
+
+161
+00:11:31,480 --> 00:11:36,449
+but these groups have the same order so
+
+162
+00:11:33,399 --> 00:11:41,920
+that H prime is equal to that stabilizer
+
+163
+00:11:36,449 --> 00:11:44,100
+so that's the proof of - and the proof
+
+164
+00:11:41,920 --> 00:11:50,949
+of three is another group action on
+
+165
+00:11:44,100 --> 00:11:52,870
+another set prime - P so let's go
+
+166
+00:11:50,949 --> 00:11:55,329
+through three again because that's in
+
+167
+00:11:52,870 --> 00:11:57,070
+some sense the most clever each one uses
+
+168
+00:11:55,329 --> 00:11:59,139
+the previous that construct a different
+
+169
+00:11:57,070 --> 00:12:01,420
+group action the first one we just knew
+
+170
+00:11:59,139 --> 00:12:03,820
+that the order of the group was this and
+
+171
+00:12:01,420 --> 00:12:06,190
+we constructed an action on subsets once
+
+172
+00:12:03,820 --> 00:12:08,980
+we had si lo P subgroups we have this
+
+173
+00:12:06,190 --> 00:12:10,410
+set to act on now that we know they're
+
+174
+00:12:08,980 --> 00:12:18,690
+all conjugates
+
+175
+00:12:10,410 --> 00:12:25,529
+three since all Seelos our conjugate
+
+176
+00:12:18,690 --> 00:12:33,660
+have the transitive action action of G
+
+177
+00:12:25,529 --> 00:12:43,120
+by conjugation not by translation on set
+
+178
+00:12:33,660 --> 00:12:47,560
+H of all Seelos this is the set that
+
+179
+00:12:43,120 --> 00:12:57,490
+we're trying to count right this set the
+
+180
+00:12:47,560 --> 00:12:59,079
+stabilizer of H for this action is the
+
+181
+00:12:57,490 --> 00:13:00,810
+group G sub H that we call the
+
+182
+00:12:59,079 --> 00:13:04,630
+normalizer of age
+
+183
+00:13:00,810 --> 00:13:07,990
+so therefore the set H whatever it is is
+
+184
+00:13:04,630 --> 00:13:10,660
+identified with G modulo the normalizer
+
+185
+00:13:07,990 --> 00:13:16,029
+of age is a co set space because it's a
+
+186
+00:13:10,660 --> 00:13:18,839
+transitive action right so whatever this
+
+187
+00:13:16,029 --> 00:13:25,240
+is the order of this divides em
+
+188
+00:13:18,839 --> 00:13:31,529
+normalizer of h contains h so the order
+
+189
+00:13:25,240 --> 00:13:35,500
+of H of this quotient set divides M
+
+190
+00:13:31,529 --> 00:13:37,600
+because the index of H is M so whatever
+
+191
+00:13:35,500 --> 00:13:41,320
+the index of the normalizer is it's it's
+
+192
+00:13:37,600 --> 00:13:45,670
+a divisor of M right
+
+193
+00:13:41,320 --> 00:13:49,000
+got that normalizer of h is between this
+
+194
+00:13:45,670 --> 00:13:51,220
+and G this Coast this this this total
+
+195
+00:13:49,000 --> 00:13:52,990
+number is M so whatever this index is is
+
+196
+00:13:51,220 --> 00:13:57,910
+the divisor of M this index times this
+
+197
+00:13:52,990 --> 00:13:59,050
+index is the whole index okay divides
+
+198
+00:13:57,910 --> 00:14:01,720
+them that's the first part of the
+
+199
+00:13:59,050 --> 00:14:06,089
+theorem the second part is we consider
+
+200
+00:14:01,720 --> 00:14:15,569
+the action of H on this set now consider
+
+201
+00:14:06,089 --> 00:14:20,440
+consider the action of H by conjugation
+
+202
+00:14:15,569 --> 00:14:22,750
+on H now G permutes them transitively
+
+203
+00:14:20,440 --> 00:14:34,720
+but H doesn't for example H conjugates
+
+204
+00:14:22,750 --> 00:14:47,380
+itself into itself so this fixes H and I
+
+205
+00:14:34,720 --> 00:14:57,130
+claim this is the unique fist point so
+
+206
+00:14:47,380 --> 00:15:03,250
+all other orbits have size divisible by
+
+207
+00:14:57,130 --> 00:15:05,230
+P because the orbit is H divided by the
+
+208
+00:15:03,250 --> 00:15:07,990
+stabilizer subgroup which is a P group
+
+209
+00:15:05,230 --> 00:15:09,459
+and if all the other orbits have size
+
+210
+00:15:07,990 --> 00:15:11,410
+divisible by P and there's a unique
+
+211
+00:15:09,459 --> 00:15:13,750
+fixed point then the number of elements
+
+212
+00:15:11,410 --> 00:15:15,819
+in this set is congruent to 1 mod P
+
+213
+00:15:13,750 --> 00:15:19,779
+because the sum of things divisible by P
+
+214
+00:15:15,819 --> 00:15:21,250
+plus 1 so all I have to show you is this
+
+215
+00:15:19,779 --> 00:15:22,990
+this is a unique fixed point for the
+
+216
+00:15:21,250 --> 00:15:25,300
+action well the suppose there was
+
+217
+00:15:22,990 --> 00:15:31,540
+another fixed point that would say if
+
+218
+00:15:25,300 --> 00:15:39,220
+another if H prime is fixed by
+
+219
+00:15:31,540 --> 00:15:41,949
+conjugation by H then both H and H prime
+
+220
+00:15:39,220 --> 00:15:45,610
+are contained in the normalizer of H
+
+221
+00:15:41,949 --> 00:15:47,319
+prime because to say that H fixes H
+
+222
+00:15:45,610 --> 00:15:49,029
+prime under conjugation means that
+
+223
+00:15:47,319 --> 00:15:50,920
+whatever this is it's a subgroup of the
+
+224
+00:15:49,029 --> 00:15:53,350
+normalizer of H prime which is exactly
+
+225
+00:15:50,920 --> 00:15:55,579
+what fixes H prime when you conjugate by
+
+226
+00:15:53,350 --> 00:15:57,709
+G ok
+
+227
+00:15:55,579 --> 00:16:00,170
+the problem with that is that they're
+
+228
+00:15:57,709 --> 00:16:02,180
+both CLP subgroups of the normalizer of
+
+229
+00:16:00,170 --> 00:16:05,569
+h-prime because whatever the order of
+
+230
+00:16:02,180 --> 00:16:11,089
+this is at some P to the M times M Prime
+
+231
+00:16:05,569 --> 00:16:16,399
+and these both have order e to the N so
+
+232
+00:16:11,089 --> 00:16:19,370
+they're both Seelos in a new group
+
+233
+00:16:16,399 --> 00:16:22,819
+namely in that group which is a subgroup
+
+234
+00:16:19,370 --> 00:16:25,399
+of G but we proved in part two that for
+
+235
+00:16:22,819 --> 00:16:28,459
+any finite group any two CeeLo subgroups
+
+236
+00:16:25,399 --> 00:16:31,329
+are conjugate therefore they have to be
+
+237
+00:16:28,459 --> 00:16:34,939
+conjugate in the normalizer of H Prime
+
+238
+00:16:31,329 --> 00:16:38,420
+but the normalizer of H prime contains H
+
+239
+00:16:34,939 --> 00:16:40,100
+prime as a normal subgroup and remember
+
+240
+00:16:38,420 --> 00:16:43,249
+when we had a normal subgroup it was the
+
+241
+00:16:40,100 --> 00:16:46,129
+unique ceelo P therefore H has to be
+
+242
+00:16:43,249 --> 00:16:47,389
+equal to H Prime and therefore this
+
+243
+00:16:46,129 --> 00:16:49,819
+fixed point that we thought was a
+
+244
+00:16:47,389 --> 00:16:55,819
+distinct fixed point is actually equal
+
+245
+00:16:49,819 --> 00:16:59,899
+to H both Seelos H prime is normal in
+
+246
+00:16:55,819 --> 00:17:07,449
+normalizer of H prime so is the unique
+
+247
+00:16:59,899 --> 00:17:09,919
+zero so H is equal to H bar and
+
+248
+00:17:07,449 --> 00:17:11,659
+therefore that's the final proof that
+
+249
+00:17:09,919 --> 00:17:14,030
+the number is congruent to 1 mod p
+
+250
+00:17:11,659 --> 00:17:17,270
+there's a unique fixed point in the
+
+251
+00:17:14,030 --> 00:17:19,280
+action of G if you take the action of G
+
+252
+00:17:17,270 --> 00:17:21,530
+by conjugation on the seal opens it acts
+
+253
+00:17:19,280 --> 00:17:23,689
+transitively if you restrict that to H
+
+254
+00:17:21,530 --> 00:17:27,709
+any celo P it has a unique fixed point
+
+255
+00:17:23,689 --> 00:17:31,100
+its own C low P doesn't fix any of the
+
+256
+00:17:27,709 --> 00:17:33,980
+others by conjugation so this is this is
+
+257
+00:17:31,100 --> 00:17:36,500
+great this is just great mathematics
+
+258
+00:17:33,980 --> 00:17:40,460
+what can you say I wish I had thought of
+
+259
+00:17:36,500 --> 00:17:42,289
+it and it's a it's it's absolutely a
+
+260
+00:17:40,460 --> 00:17:43,700
+central result in the classification of
+
+261
+00:17:42,289 --> 00:17:45,890
+finite groups as I said there's a huge
+
+262
+00:17:43,700 --> 00:17:48,230
+project I should have brought in my book
+
+263
+00:17:45,890 --> 00:17:50,270
+on the atlas of finite groups the huge
+
+264
+00:17:48,230 --> 00:17:52,490
+project in the late 20th century to
+
+265
+00:17:50,270 --> 00:17:54,530
+classify all finite simple groups the
+
+266
+00:17:52,490 --> 00:17:55,730
+start is always the Selah theorem always
+
+267
+00:17:54,530 --> 00:17:58,100
+to see if there because it gives you
+
+268
+00:17:55,730 --> 00:18:00,559
+immediately for any finite group a large
+
+269
+00:17:58,100 --> 00:18:02,390
+host of subgroups where you know they're
+
+270
+00:18:00,559 --> 00:18:03,440
+all conjugate you know about how many of
+
+271
+00:18:02,390 --> 00:18:04,940
+them there are at least you have some
+
+272
+00:18:03,440 --> 00:18:07,250
+estimate on it and you can try to build
+
+273
+00:18:04,940 --> 00:18:08,419
+the group out of those subgroups so what
+
+274
+00:18:07,250 --> 00:18:08,840
+I'm going to do for you today is I'm
+
+275
+00:18:08,419 --> 00:18:11,299
+going to show
+
+276
+00:18:08,840 --> 00:18:16,820
+how this affects the classification of
+
+277
+00:18:11,299 --> 00:18:20,630
+groups of small order so you can get
+
+278
+00:18:16,820 --> 00:18:28,640
+some idea of how CeeLo theorem can be
+
+279
+00:18:20,630 --> 00:18:30,350
+used in action to describe all the
+
+280
+00:18:28,640 --> 00:18:32,539
+groups of what are six or all the groups
+
+281
+00:18:30,350 --> 00:18:38,390
+of water 15 or all the groups of water
+
+282
+00:18:32,539 --> 00:18:47,649
+21 so remember what we've got so far we
+
+283
+00:18:38,390 --> 00:18:51,250
+know the classification theory theorems
+
+284
+00:18:47,649 --> 00:18:58,279
+we've shown if the order of G is P a
+
+285
+00:18:51,250 --> 00:19:03,340
+prime and G is cyclic and isomorphic to
+
+286
+00:18:58,279 --> 00:19:08,690
+Z mod PZ if the order of G is P squared
+
+287
+00:19:03,340 --> 00:19:10,370
+and G is abelian and there are two
+
+288
+00:19:08,690 --> 00:19:15,049
+possibilities it could either be
+
+289
+00:19:10,370 --> 00:19:17,270
+isomorphic to Z mod PZ squared if there
+
+290
+00:19:15,049 --> 00:19:20,200
+were no element of order P squared or it
+
+291
+00:19:17,270 --> 00:19:25,399
+could be isomorphic to the cyclic group
+
+292
+00:19:20,200 --> 00:19:28,250
+this is all G not equal to e satisfy G
+
+293
+00:19:25,399 --> 00:19:29,570
+to the P is equal to e and this is there
+
+294
+00:19:28,250 --> 00:19:32,480
+some element that which doesn't have
+
+295
+00:19:29,570 --> 00:19:39,200
+order P all right now we're going to do
+
+296
+00:19:32,480 --> 00:19:41,330
+PQ two primes and we'll assume that P is
+
+297
+00:19:39,200 --> 00:19:44,510
+less than Q one of them has to be less
+
+298
+00:19:41,330 --> 00:19:46,279
+than the other all right let's make some
+
+299
+00:19:44,510 --> 00:19:53,750
+observations about this before we do
+
+300
+00:19:46,279 --> 00:19:56,690
+actual P's and Q's yeah why not so that
+
+301
+00:19:53,750 --> 00:20:05,360
+we can get started the first is there
+
+302
+00:19:56,690 --> 00:20:15,309
+exists subgroups h p HQ c lo subgroups
+
+303
+00:20:05,360 --> 00:20:18,200
+of order p thank you so may not be so
+
+304
+00:20:15,309 --> 00:20:19,669
+those divisors give rise to subgroups by
+
+305
+00:20:18,200 --> 00:20:21,620
+the c law theorem because we write the
+
+306
+00:20:19,669 --> 00:20:25,419
+order of the group as P times Q and P is
+
+307
+00:20:21,620 --> 00:20:27,649
+prime to Q so I apply it twice yeah
+
+308
+00:20:25,419 --> 00:20:34,880
+q is front yet they're both prime I'm
+
+309
+00:20:27,649 --> 00:20:38,240
+sorry otherwise we wouldn't know there
+
+310
+00:20:34,880 --> 00:20:43,490
+was a subgroup of water Q so it's like 6
+
+311
+00:20:38,240 --> 00:20:48,679
+or 15 or 21 ok second thing is that as a
+
+312
+00:20:43,490 --> 00:20:51,559
+set G is equal to the product of
+
+313
+00:20:48,679 --> 00:20:59,990
+elements in HP and HQ oh both of these
+
+314
+00:20:51,559 --> 00:21:02,899
+are cyclic isomorphic to Z mod PZ Z mod
+
+315
+00:20:59,990 --> 00:21:04,580
+Q Z that's that's from our previous
+
+316
+00:21:02,899 --> 00:21:06,950
+classification because they have prime
+
+317
+00:21:04,580 --> 00:21:09,429
+order so whatever those subgroups are we
+
+318
+00:21:06,950 --> 00:21:12,289
+know what they are they're cyclic groups
+
+319
+00:21:09,429 --> 00:21:14,720
+secondly as a set G is the product of
+
+320
+00:21:12,289 --> 00:21:19,220
+elements HP and HQ so it's something of
+
+321
+00:21:14,720 --> 00:21:22,760
+the form let's say this cyclic subgroup
+
+322
+00:21:19,220 --> 00:21:24,860
+of order P is generated by tau and this
+
+323
+00:21:22,760 --> 00:21:27,830
+cyclic subgroup of order Q is generated
+
+324
+00:21:24,860 --> 00:21:31,309
+by Sigma so this would be of the form
+
+325
+00:21:27,830 --> 00:21:33,649
+count of the a Sigma to the B such that
+
+326
+00:21:31,309 --> 00:21:37,010
+0 is less than or equal to a is less
+
+327
+00:21:33,649 --> 00:21:40,789
+than P and 0 is less than or equal to B
+
+328
+00:21:37,010 --> 00:21:43,669
+is less than Q because the elements of H
+
+329
+00:21:40,789 --> 00:21:46,100
+Q are the powers of Sigma between 0 and
+
+330
+00:21:43,669 --> 00:21:49,610
+Q the elements of H P are the powers of
+
+331
+00:21:46,100 --> 00:21:51,350
+tau between 0 and P and I claim that if
+
+332
+00:21:49,610 --> 00:21:53,330
+you take all elements in HP you're
+
+333
+00:21:51,350 --> 00:21:58,870
+multiplying by elements at HQ you get
+
+334
+00:21:53,330 --> 00:21:58,870
+the entire group ok why
+
+335
+00:21:59,570 --> 00:22:06,770
+well this is just saying that the
+
+336
+00:22:04,490 --> 00:22:09,559
+elements in HP represent the distinct
+
+337
+00:22:06,770 --> 00:22:12,200
+left cosets of HQ now that namely that
+
+338
+00:22:09,559 --> 00:22:16,909
+this is G is G is equal to the union of
+
+339
+00:22:12,200 --> 00:22:20,809
+tau to the a HQ for the different
+
+340
+00:22:16,909 --> 00:22:24,559
+thousand or you know yeah for these 0
+
+341
+00:22:20,809 --> 00:22:26,180
+less than or equal to a less than P well
+
+342
+00:22:24,559 --> 00:22:28,940
+it's enough to prove that these
+
+343
+00:22:26,180 --> 00:22:32,150
+sets are distinct right because each
+
+344
+00:22:28,940 --> 00:22:34,820
+Cosette has cue elements in it and there
+
+345
+00:22:32,150 --> 00:22:37,520
+are people Co sets for the P different
+
+346
+00:22:34,820 --> 00:22:39,080
+elements in in HP so as long as we can
+
+347
+00:22:37,520 --> 00:22:41,260
+prove that these Co sets are distinct
+
+348
+00:22:39,080 --> 00:22:53,510
+they have to give us the whole group and
+
+349
+00:22:41,260 --> 00:22:58,160
+they're distinct four distinct tau and
+
+350
+00:22:53,510 --> 00:23:01,550
+tau Prime in HP because if we had an
+
+351
+00:22:58,160 --> 00:23:07,370
+equality cow HQ was equal to tau prime
+
+352
+00:23:01,550 --> 00:23:12,170
+HQ that would imply that tau times tau
+
+353
+00:23:07,370 --> 00:23:16,490
+prime inverse was an element in HQ right
+
+354
+00:23:12,170 --> 00:23:19,010
+which would imply that this element tau
+
+355
+00:23:16,490 --> 00:23:23,270
+tau prime inverse was in the
+
+356
+00:23:19,010 --> 00:23:25,550
+intersection of HP and HQ and the
+
+357
+00:23:23,270 --> 00:23:28,100
+intersection of HP and HQ is a subgroup
+
+358
+00:23:25,550 --> 00:23:30,890
+of both of them so has Auto dividing P
+
+359
+00:23:28,100 --> 00:23:32,900
+but also has Auto dividing Q and the
+
+360
+00:23:30,890 --> 00:23:35,270
+only number that divides both P and Q is
+
+361
+00:23:32,900 --> 00:23:37,370
+1 so the intersection of these two
+
+362
+00:23:35,270 --> 00:23:39,470
+groups is the identity so if we have the
+
+363
+00:23:37,370 --> 00:23:41,390
+equality of these two Co sets this
+
+364
+00:23:39,470 --> 00:23:42,740
+element has to be the identity in other
+
+365
+00:23:41,390 --> 00:23:47,690
+words we have to have the Equality of
+
+366
+00:23:42,740 --> 00:23:49,220
+elements in HP so we already know just
+
+367
+00:23:47,690 --> 00:23:50,660
+from the ceelo theorems that our group
+
+368
+00:23:49,220 --> 00:23:52,850
+is made out of these two cyclic
+
+369
+00:23:50,660 --> 00:23:54,860
+subgroups and the only thing we really
+
+370
+00:23:52,850 --> 00:23:59,720
+have to figure out is how to multiply
+
+371
+00:23:54,860 --> 00:24:01,700
+two things here right and in particular
+
+372
+00:23:59,720 --> 00:24:06,010
+we'd like this when you're trying to
+
+373
+00:24:01,700 --> 00:24:09,770
+multiply at out of the a Sigma to the B
+
+374
+00:24:06,010 --> 00:24:13,010
+times a to the a prime Sigma to the B
+
+375
+00:24:09,770 --> 00:24:15,380
+prime is equal to what you have to write
+
+376
+00:24:13,010 --> 00:24:16,900
+it as a power of tau times a power Sigma
+
+377
+00:24:15,380 --> 00:24:18,980
+if you want to write it in this form and
+
+378
+00:24:16,900 --> 00:24:23,020
+basically you have to figure out how to
+
+379
+00:24:18,980 --> 00:24:25,580
+commute these two elements across right
+
+380
+00:24:23,020 --> 00:24:27,290
+what happens when you multiply Sigma by
+
+381
+00:24:25,580 --> 00:24:31,160
+tau and you try to turn it into a Tau by
+
+382
+00:24:27,290 --> 00:24:33,710
+Sigma okay so that's the whole problem
+
+383
+00:24:31,160 --> 00:24:36,400
+of determining the structure of groups
+
+384
+00:24:33,710 --> 00:24:38,450
+of water PQ how do these two generators
+
+385
+00:24:36,400 --> 00:24:39,550
+cross each other when you try to
+
+386
+00:24:38,450 --> 00:24:42,730
+multiply them
+
+387
+00:24:39,550 --> 00:24:45,010
+so I'm gonna work that out for you okay
+
+388
+00:24:42,730 --> 00:24:56,500
+so the first observation I want to make
+
+389
+00:24:45,010 --> 00:24:58,270
+which is kind of bizarre yeah the first
+
+390
+00:24:56,500 --> 00:25:06,700
+observation I want to make is that this
+
+391
+00:24:58,270 --> 00:25:14,170
+HQ is always a normal subgroup of G this
+
+392
+00:25:06,700 --> 00:25:16,900
+is completely general HP may not be
+
+393
+00:25:14,170 --> 00:25:21,429
+normal but HQ is always normal the
+
+394
+00:25:16,900 --> 00:25:35,280
+bigger Prime and the reason is this the
+
+395
+00:25:21,429 --> 00:25:41,770
+number of CeeLo cues L divides P and is
+
+396
+00:25:35,280 --> 00:25:44,290
+congruent to 1 mod Q well any number
+
+397
+00:25:41,770 --> 00:25:47,410
+other than 1 which is Congress to 1 mod
+
+398
+00:25:44,290 --> 00:25:53,110
+Q is at least Q plus 1 but P is less
+
+399
+00:25:47,410 --> 00:26:01,890
+than Q so it couldn't divide P right so
+
+400
+00:25:53,110 --> 00:26:04,630
+the only such possibility is L equal 1
+
+401
+00:26:01,890 --> 00:26:12,160
+the only possibility because Q is bigger
+
+402
+00:26:04,630 --> 00:26:15,360
+than P so the fact that it's normal
+
+403
+00:26:12,160 --> 00:26:19,900
+means the following that if I take tau
+
+404
+00:26:15,360 --> 00:26:24,460
+Sigma Tau inverse that has to be a power
+
+405
+00:26:19,900 --> 00:26:29,040
+of Sigma because whatever this element
+
+406
+00:26:24,460 --> 00:26:29,040
+is it's in HQ
+
+407
+00:26:32,390 --> 00:26:37,610
+and the whole structure of the group is
+
+408
+00:26:35,240 --> 00:26:40,400
+that so this says that tau Sigma is
+
+409
+00:26:37,610 --> 00:26:41,960
+equal to the Sigma to the a tau and the
+
+410
+00:26:40,400 --> 00:26:43,910
+whole structure of the group depends on
+
+411
+00:26:41,960 --> 00:26:46,040
+what this a is that's all it depends on
+
+412
+00:26:43,910 --> 00:26:47,420
+because so once I know how what a is I
+
+413
+00:26:46,040 --> 00:26:53,450
+can figure out how to commute these two
+
+414
+00:26:47,420 --> 00:26:55,040
+across so this this mysterious number a
+
+415
+00:26:53,450 --> 00:26:56,390
+determines the group and we have to
+
+416
+00:26:55,040 --> 00:27:00,140
+figure out what are the possibilities
+
+417
+00:26:56,390 --> 00:27:01,790
+for a now we're going to do some
+
+418
+00:27:00,140 --> 00:27:07,940
+specific P and Q and you'll get the
+
+419
+00:27:01,790 --> 00:27:10,280
+feeling for it so I'm fudging a little
+
+420
+00:27:07,940 --> 00:27:13,550
+here I mean as I say you now have to see
+
+421
+00:27:10,280 --> 00:27:16,430
+that once once you know what this number
+
+422
+00:27:13,550 --> 00:27:17,900
+is you can multiply something like this
+
+423
+00:27:16,430 --> 00:27:19,700
+something like that and turn it into a
+
+424
+00:27:17,900 --> 00:27:21,290
+power of tau power Sigma you have to
+
+425
+00:27:19,700 --> 00:27:25,540
+believe me on that you'll just do that
+
+426
+00:27:21,290 --> 00:27:31,250
+you know quietly yourself it's not hard
+
+427
+00:27:25,540 --> 00:27:36,830
+let's try groups of order six then we'll
+
+428
+00:27:31,250 --> 00:27:38,680
+do P times Q is 15 okay so here H Q is
+
+429
+00:27:36,830 --> 00:27:43,940
+of order three it looks like this one
+
+430
+00:27:38,680 --> 00:27:48,980
+Sigma Sigma squared H P is a water to
+
+431
+00:27:43,940 --> 00:27:51,230
+one cow okay we have to figure out
+
+432
+00:27:48,980 --> 00:27:57,230
+what's the possibility for tau Sigma Tau
+
+433
+00:27:51,230 --> 00:27:58,790
+inverse well it could be Sigma no
+
+434
+00:27:57,230 --> 00:28:02,570
+problem there that would just say that
+
+435
+00:27:58,790 --> 00:28:06,950
+tau commuted with Sigma then the group
+
+436
+00:28:02,570 --> 00:28:08,690
+would be a billion because it's
+
+437
+00:28:06,950 --> 00:28:15,130
+generated by tau and Sigma if they
+
+438
+00:28:08,690 --> 00:28:19,670
+commute everything commutes Tau Sigma
+
+439
+00:28:15,130 --> 00:28:22,100
+equals Sigma Tau G is abelian and in
+
+440
+00:28:19,670 --> 00:28:26,960
+fact you'll find it's isomorphic to Z
+
+441
+00:28:22,100 --> 00:28:29,750
+mod six generated by Sigma Tau namely
+
+442
+00:28:26,960 --> 00:28:31,610
+Sigma has water three tau as order two
+
+443
+00:28:29,750 --> 00:28:34,640
+since they commute you can prove that
+
+444
+00:28:31,610 --> 00:28:36,290
+this has order six and if you have an
+
+445
+00:28:34,640 --> 00:28:43,070
+element of water six in a group of water
+
+446
+00:28:36,290 --> 00:28:45,660
+six its cyclic so if this this element
+
+447
+00:28:43,070 --> 00:28:47,430
+was Sigma we get an abelian group what
+
+448
+00:28:45,660 --> 00:28:49,890
+the other possibilities well it's got to
+
+449
+00:28:47,430 --> 00:28:52,140
+be some power of Sigma it can't be one
+
+450
+00:28:49,890 --> 00:28:54,990
+you can't conjugate a non-trivial
+
+451
+00:28:52,140 --> 00:28:57,930
+element into the identity so it's got to
+
+452
+00:28:54,990 --> 00:29:01,860
+be the only other possibility is it
+
+453
+00:28:57,930 --> 00:29:05,510
+could it be Sigma squared the answer is
+
+454
+00:29:01,860 --> 00:29:05,510
+yeah that's the same as Sigma inverse
+
+455
+00:29:06,290 --> 00:29:10,650
+because this is a group of order three
+
+456
+00:29:08,430 --> 00:29:12,560
+and we already know a group that has a
+
+457
+00:29:10,650 --> 00:29:15,480
+cyclic subgroup of water three an
+
+458
+00:29:12,560 --> 00:29:17,100
+element of water to that conjugates that
+
+459
+00:29:15,480 --> 00:29:20,160
+element of water three into its inverse
+
+460
+00:29:17,100 --> 00:29:21,690
+what's that call the symmetric group
+
+461
+00:29:20,160 --> 00:29:23,460
+more generally it's the dihedral group
+
+462
+00:29:21,690 --> 00:29:25,950
+the dihedral group remember contains a
+
+463
+00:29:23,460 --> 00:29:28,020
+cyclic subgroup of order n an element of
+
+464
+00:29:25,950 --> 00:29:30,630
+water to that conjugates the element
+
+465
+00:29:28,020 --> 00:29:34,950
+into its inverse so here it is so this
+
+466
+00:29:30,630 --> 00:29:37,830
+is just this oh so G is isomorphic to
+
+467
+00:29:34,950 --> 00:29:39,960
+the dihedral group of water six also in
+
+468
+00:29:37,830 --> 00:29:42,660
+this case it's the symmetric group on
+
+469
+00:29:39,960 --> 00:29:45,120
+three letters so here we've just shown
+
+470
+00:29:42,660 --> 00:29:47,430
+by this argument using the seal theorems
+
+471
+00:29:45,120 --> 00:29:49,020
+that gave us not only the subgroup of
+
+472
+00:29:47,430 --> 00:29:50,760
+order two and three but prove that the
+
+473
+00:29:49,020 --> 00:29:52,740
+subgroup of order three has to be normal
+
+474
+00:29:50,760 --> 00:29:55,050
+and so when you conjugate it you have to
+
+475
+00:29:52,740 --> 00:29:57,120
+get some power of Sigma it just proves
+
+476
+00:29:55,050 --> 00:30:00,030
+to us that there are only two groups of
+
+477
+00:29:57,120 --> 00:30:01,710
+order six if you get the first power of
+
+478
+00:30:00,030 --> 00:30:03,210
+Sigma you got an abelian group which is
+
+479
+00:30:01,710 --> 00:30:04,890
+cyclic of order six and if you get the
+
+480
+00:30:03,210 --> 00:30:06,660
+second power Sigma you get the dihedral
+
+481
+00:30:04,890 --> 00:30:11,190
+group of water six or the symmetric
+
+482
+00:30:06,660 --> 00:30:12,210
+group on three letters okay now you
+
+483
+00:30:11,190 --> 00:30:16,400
+might say well that's probably what
+
+484
+00:30:12,210 --> 00:30:16,400
+happens in general and you'd be wrong
+
+485
+00:30:18,380 --> 00:30:27,420
+but in fact why don't we do that the
+
+486
+00:30:21,540 --> 00:30:29,100
+general case of 2q so order of G because
+
+487
+00:30:27,420 --> 00:30:34,040
+then you'll see that the exact same
+
+488
+00:30:29,100 --> 00:30:39,720
+thing happens mainly in this case H Q is
+
+489
+00:30:34,040 --> 00:30:41,610
+one Sigma Sigma square Sigma to the Q
+
+490
+00:30:39,720 --> 00:30:48,690
+minus one which is the same as Sigma
+
+491
+00:30:41,610 --> 00:30:53,550
+inverse H two is just one towel right
+
+492
+00:30:48,690 --> 00:30:57,600
+and again we find that tau Sigma Tau
+
+493
+00:30:53,550 --> 00:30:58,800
+inverse is some power of Sigma and I
+
+494
+00:30:57,600 --> 00:31:02,130
+claim
+
+495
+00:30:58,800 --> 00:31:11,670
+that this a is plus or minus one so
+
+496
+00:31:02,130 --> 00:31:13,110
+there are only two possibilities well
+
+497
+00:31:11,670 --> 00:31:16,890
+it's really kinda went to plus or minus
+
+498
+00:31:13,110 --> 00:31:18,720
+1 mod Q because if you think of these
+
+499
+00:31:16,890 --> 00:31:21,420
+powers it only matters what the power is
+
+500
+00:31:18,720 --> 00:31:23,520
+mod Q a future if you the Q minus 1 is
+
+501
+00:31:21,420 --> 00:31:25,380
+congruent to minus 1 mod Q it this would
+
+502
+00:31:23,520 --> 00:31:26,880
+be the same as Sigma to the Q plus 2
+
+503
+00:31:25,380 --> 00:31:32,540
+power because Sigma to the Q is the
+
+504
+00:31:26,880 --> 00:31:32,540
+identity and the reason is do this twice
+
+505
+00:31:32,600 --> 00:31:39,660
+if tau Sigma Tau inverse is Sigma to the
+
+506
+00:31:36,420 --> 00:31:42,810
+a then what about tau squared Sigma Tau
+
+507
+00:31:39,660 --> 00:31:48,140
+to the minus 2 well on the ones that is
+
+508
+00:31:42,810 --> 00:31:51,810
+tau of tau Sigma Tau inverse tau inverse
+
+509
+00:31:48,140 --> 00:31:55,730
+this is supposed to be Sigma to the a so
+
+510
+00:31:51,810 --> 00:32:05,730
+it's tau of Sigma to the a tau inverse
+
+511
+00:31:55,730 --> 00:32:08,310
+which is the same thing as applying well
+
+512
+00:32:05,730 --> 00:32:13,710
+it's Sigma to the a times Sigma to the a
+
+513
+00:32:08,310 --> 00:32:17,610
+times Sigma to the a Sigma to the a a
+
+514
+00:32:13,710 --> 00:32:21,450
+times because you break this up is 2 tau
+
+515
+00:32:17,610 --> 00:32:24,720
+Sigma Tau inverse times tau Sigma Tau
+
+516
+00:32:21,450 --> 00:32:27,180
+inverse times tau Sigma Tau inverse a
+
+517
+00:32:24,720 --> 00:32:29,040
+times right that would give you this as
+
+518
+00:32:27,180 --> 00:32:32,070
+you kept cancelling out the Tau in vs.
+
+519
+00:32:29,040 --> 00:32:33,810
+and then each one of these is Sigma to
+
+520
+00:32:32,070 --> 00:32:39,330
+the a so you get it's a time so that's
+
+521
+00:32:33,810 --> 00:32:40,890
+Sigma to the a squared when you know if
+
+522
+00:32:39,330 --> 00:32:42,990
+you take Sigma to the a a times that's
+
+523
+00:32:40,890 --> 00:32:45,570
+Sigma to the a squared on the other hand
+
+524
+00:32:42,990 --> 00:32:47,780
+tau squared is the identity so this is
+
+525
+00:32:45,570 --> 00:32:47,780
+Sigma
+
+526
+00:32:52,729 --> 00:32:57,869
+once you square cow it commutes with
+
+527
+00:32:55,200 --> 00:33:00,210
+Sigma so therefore Sigma to the a
+
+528
+00:32:57,869 --> 00:33:04,129
+squared is equal to Sigma so that
+
+529
+00:33:00,210 --> 00:33:09,059
+implies that a squared is congruent to 1
+
+530
+00:33:04,129 --> 00:33:13,339
+mod Q and the only elements who square
+
+531
+00:33:09,059 --> 00:33:13,339
+is 1 mod Q or plus or minus 1 mod Q
+
+532
+00:33:13,549 --> 00:33:21,779
+because if Q divides a squared minus 1
+
+533
+00:33:17,759 --> 00:33:23,369
+this is a minus 1 times a plus 1 and if
+
+534
+00:33:21,779 --> 00:33:24,989
+you have a prime that divides a product
+
+535
+00:33:23,369 --> 00:33:28,200
+of numbers it has to divide one of them
+
+536
+00:33:24,989 --> 00:33:31,379
+so either a is 1 mod Q or a is minus 1
+
+537
+00:33:28,200 --> 00:33:34,349
+like you so the only possibilities here
+
+538
+00:33:31,379 --> 00:33:36,149
+this a is not arbitrary don't ever think
+
+539
+00:33:34,349 --> 00:33:38,999
+this a is arbitrary it's related to the
+
+540
+00:33:36,149 --> 00:33:41,609
+order of Tao and in fact what we proved
+
+541
+00:33:38,999 --> 00:33:46,019
+here over there what we proved is that a
+
+542
+00:33:41,609 --> 00:33:53,999
+to the P has to be congruent to 1 mod
+
+543
+00:33:46,019 --> 00:33:55,979
+cubed because you would apply cow not
+
+544
+00:33:53,999 --> 00:33:57,719
+you wouldn't take the square of tile you
+
+545
+00:33:55,979 --> 00:34:01,889
+take the p f-- power of town which you
+
+546
+00:33:57,719 --> 00:34:04,409
+know is the identity so this a which is
+
+547
+00:34:01,889 --> 00:34:06,119
+really a number mod Q has to have the
+
+548
+00:34:04,409 --> 00:34:10,409
+property that when you take its P power
+
+549
+00:34:06,119 --> 00:34:12,179
+you get to 1 mod Q this is a number mod
+
+550
+00:34:10,409 --> 00:34:14,789
+Q because you just have to know what it
+
+551
+00:34:12,179 --> 00:34:16,589
+is to raise Tautou and it can't be
+
+552
+00:34:14,789 --> 00:34:20,579
+arbitrary mod Q it has to have its piece
+
+553
+00:34:16,589 --> 00:34:22,169
+power being 1 so here we see that a has
+
+554
+00:34:20,579 --> 00:34:24,089
+to have its square one the only two
+
+555
+00:34:22,169 --> 00:34:25,710
+elements mod Q whose squares one is plus
+
+556
+00:34:24,089 --> 00:34:28,700
+or minus one so we have two
+
+557
+00:34:25,710 --> 00:34:34,289
+possibilities in Sigma or Sigma inverse
+
+558
+00:34:28,700 --> 00:34:40,079
+just like it was here if it's Sigma that
+
+559
+00:34:34,289 --> 00:34:42,299
+says Tao commutes with Sigma and the
+
+560
+00:34:40,079 --> 00:34:46,260
+group G is isomorphic to the cyclic
+
+561
+00:34:42,299 --> 00:34:50,549
+group of order 2 Q generated by tau
+
+562
+00:34:46,260 --> 00:34:52,289
+Sigma and if it's Sigma inverse G is
+
+563
+00:34:50,549 --> 00:34:54,480
+isomorphic to the dihedral group of
+
+564
+00:34:52,289 --> 00:34:56,909
+water to Q because it has a cyclic
+
+565
+00:34:54,480 --> 00:34:58,650
+subgroup of order Q and it has an
+
+566
+00:34:56,909 --> 00:35:00,329
+element of order 2 and that element
+
+567
+00:34:58,650 --> 00:35:03,390
+conjugates the generator into the
+
+568
+00:35:00,329 --> 00:35:05,010
+inverse so again this thing of order 6
+
+569
+00:35:03,390 --> 00:35:07,340
+it's true for groups of water
+
+570
+00:35:05,010 --> 00:35:11,190
+- cue it's either cyclic or dihedral
+
+571
+00:35:07,340 --> 00:35:14,720
+very simple okay now let's get rid of
+
+572
+00:35:11,190 --> 00:35:14,720
+two and try three
+
+573
+00:35:20,480 --> 00:35:32,460
+let's try order 15 okay now we're going
+
+574
+00:35:30,870 --> 00:35:33,840
+to do this argument and I'll kill it for
+
+575
+00:35:32,460 --> 00:35:39,570
+you first of all we have this normal
+
+576
+00:35:33,840 --> 00:35:43,670
+subgroup of water five generated by
+
+577
+00:35:39,570 --> 00:35:49,530
+Sigma and now we have a subgroup H 3
+
+578
+00:35:43,670 --> 00:35:52,290
+which is 1 tau tau squared now I'm not
+
+579
+00:35:49,530 --> 00:35:54,270
+going to need this but I'm also going to
+
+580
+00:35:52,290 --> 00:35:59,910
+show you that this subgroup is normal
+
+581
+00:35:54,270 --> 00:36:05,520
+I'm not going to need it but in fact in
+
+582
+00:35:59,910 --> 00:36:10,160
+this case H 3 is actually a normal
+
+583
+00:36:05,520 --> 00:36:12,660
+subgroup of G 2 both Seelos are normal
+
+584
+00:36:10,160 --> 00:36:14,340
+that's not necessarily get the case here
+
+585
+00:36:12,660 --> 00:36:16,230
+for example the elements of order to do
+
+586
+00:36:14,340 --> 00:36:19,350
+not form normal subgroups in a symmetric
+
+587
+00:36:16,230 --> 00:36:21,840
+group we've seen that many times okay
+
+588
+00:36:19,350 --> 00:36:26,760
+why is it normal because the number of
+
+589
+00:36:21,840 --> 00:36:29,610
+celo threes divides five right and is
+
+590
+00:36:26,760 --> 00:36:33,140
+congruent to 1 mod three there are so
+
+591
+00:36:29,610 --> 00:36:43,230
+done no such numbers except for one as
+
+592
+00:36:33,140 --> 00:36:46,260
+number L of C low threes divides five is
+
+593
+00:36:43,230 --> 00:36:48,150
+common to 1 mod 3 now it's not the case
+
+594
+00:36:46,260 --> 00:36:50,130
+that this isn't you know 3 is smaller
+
+595
+00:36:48,150 --> 00:36:52,140
+than 5 so it's possible that something
+
+596
+00:36:50,130 --> 00:36:56,010
+kinda went to 1 mod 3 would divide 5 but
+
+597
+00:36:52,140 --> 00:37:01,410
+nothing does right you get 1 for 7 they
+
+598
+00:36:56,010 --> 00:37:02,940
+don't divide 5 so it has to be 1 so L is
+
+599
+00:37:01,410 --> 00:37:05,970
+equal to 1 and it's normal but we won't
+
+600
+00:37:02,940 --> 00:37:09,660
+need that just go over here we know that
+
+601
+00:37:05,970 --> 00:37:15,150
+tau Sigma Tau inverse is equal to Sigma
+
+602
+00:37:09,660 --> 00:37:16,890
+to the a with a cubed congruent to 1 mod
+
+603
+00:37:15,150 --> 00:37:22,500
+5
+
+604
+00:37:16,890 --> 00:37:25,980
+I claim that implies that a is congruent
+
+605
+00:37:22,500 --> 00:37:29,400
+to 1 mod 5 there are no cube roots of 1
+
+606
+00:37:25,980 --> 00:37:31,200
+mod 5 other than 1 well you can just
+
+607
+00:37:29,400 --> 00:37:34,880
+check that there aren't too many numbers
+
+608
+00:37:31,200 --> 00:37:38,340
+mod 5 so 1 cubed is congruent to 1 mod 5
+
+609
+00:37:34,880 --> 00:37:42,120
+2 cubed is convert to 8 which is con
+
+610
+00:37:38,340 --> 00:37:45,810
+went to 3 mod 5 3 cubed is 27 which is
+
+611
+00:37:42,120 --> 00:37:49,950
+congruent to 2 mod 5 and 4 cubed is 64
+
+612
+00:37:45,810 --> 00:37:53,210
+which is congruent to 4 mod 5 so the
+
+613
+00:37:49,950 --> 00:37:56,490
+only thing mod 5 whose cube is 1 is 1
+
+614
+00:37:53,210 --> 00:37:59,190
+which means that this element has to be
+
+615
+00:37:56,490 --> 00:38:03,840
+equal to Sigma which means that tau
+
+616
+00:37:59,190 --> 00:38:07,310
+commutes with Sigma and in fact that G
+
+617
+00:38:03,840 --> 00:38:12,890
+is isomorphic to Z mod 15 of me
+
+618
+00:38:07,310 --> 00:38:15,780
+generated by Sigma Tau so this is a case
+
+619
+00:38:12,890 --> 00:38:17,760
+it looked like we are getting you know
+
+620
+00:38:15,780 --> 00:38:20,220
+both cyclic groups and non abelian
+
+621
+00:38:17,760 --> 00:38:22,770
+groups and things but in K in in the
+
+622
+00:38:20,220 --> 00:38:25,200
+case of order 15 there's only one group
+
+623
+00:38:22,770 --> 00:38:29,940
+and it's cyclic because you can't solve
+
+624
+00:38:25,200 --> 00:38:33,260
+this equation in a non-trivial way ok
+
+625
+00:38:29,940 --> 00:38:33,260
+let's go to another group
+
+626
+00:38:40,370 --> 00:38:44,880
+order G is equal to 21 which is three
+
+627
+00:38:44,130 --> 00:38:52,410
+times seven
+
+628
+00:38:44,880 --> 00:38:59,370
+now in this case H seven is normal but H
+
+629
+00:38:52,410 --> 00:39:01,230
+three may not be normal we don't know
+
+630
+00:38:59,370 --> 00:39:03,390
+one way or another until we work out the
+
+631
+00:39:01,230 --> 00:39:05,370
+groups but you see this argument doesn't
+
+632
+00:39:03,390 --> 00:39:10,920
+work because the number of Seelos there
+
+633
+00:39:05,370 --> 00:39:19,110
+there might be might we don't know B 7 C
+
+634
+00:39:10,920 --> 00:39:21,420
+low threes right because the number of C
+
+635
+00:39:19,110 --> 00:39:23,010
+low 3s divide 7 and is congruent to 1
+
+636
+00:39:21,420 --> 00:39:29,510
+mod 3 so there could be one or there
+
+637
+00:39:23,010 --> 00:39:32,010
+could be 7 1 0 3 or there could be 7 and
+
+638
+00:39:29,510 --> 00:39:34,500
+likewise in this case we get a
+
+639
+00:39:32,010 --> 00:39:39,930
+non-trivial solution if we look for a
+
+640
+00:39:34,500 --> 00:39:43,350
+cubed con went to 1 mod 7 we find that a
+
+641
+00:39:39,930 --> 00:39:48,330
+could be 1 always 1 works but also two
+
+642
+00:39:43,350 --> 00:39:50,280
+works and also for works mod 7 because
+
+643
+00:39:48,330 --> 00:39:53,310
+if you cube 2 you get 8 which leaves a
+
+644
+00:39:50,280 --> 00:39:57,300
+remainder of 1 and if you cube 4 you get
+
+645
+00:39:53,310 --> 00:40:00,540
+64 which is 63 plus 1 so it looks like
+
+646
+00:39:57,300 --> 00:40:04,800
+we have three possibilities so we have
+
+647
+00:40:00,540 --> 00:40:06,810
+tau Sigma Tau inverse equals Sigma that
+
+648
+00:40:04,800 --> 00:40:09,810
+means that tau Sigma is equal to Sigma
+
+649
+00:40:06,810 --> 00:40:12,150
+Tau commutative group and it turns out
+
+650
+00:40:09,810 --> 00:40:15,150
+that that's isomorphic to Z mod 21 z
+
+651
+00:40:12,150 --> 00:40:18,090
+cyclic group of water 21 we could get
+
+652
+00:40:15,150 --> 00:40:21,000
+tau Sigma Tau inverse equal to Sigma
+
+653
+00:40:18,090 --> 00:40:25,040
+squared or we could get tau Sigma Tau
+
+654
+00:40:21,000 --> 00:40:27,210
+inverse equal to Sigma to the fourth and
+
+655
+00:40:25,040 --> 00:40:31,020
+it looks like we're getting to other
+
+656
+00:40:27,210 --> 00:40:36,560
+groups of water 21 but we're not these
+
+657
+00:40:31,020 --> 00:40:45,570
+two give the same group give isomorphic
+
+658
+00:40:36,560 --> 00:40:48,950
+non abelian groups of order 21 with 7/3
+
+659
+00:40:45,570 --> 00:40:51,780
+ceelo's sorry about the movie people
+
+660
+00:40:48,950 --> 00:40:52,740
+isomorphic groups so you got two groups
+
+661
+00:40:51,780 --> 00:40:54,300
+of water 21
+
+662
+00:40:52,740 --> 00:40:55,890
+the one where it's equal to one and
+
+663
+00:40:54,300 --> 00:40:59,070
+these two give the same group and why do
+
+664
+00:40:55,890 --> 00:41:02,030
+they give the same group well suppose I
+
+665
+00:40:59,070 --> 00:41:03,869
+made a group where I had this
+
+666
+00:41:02,030 --> 00:41:08,430
+multiplicative relation
+
+667
+00:41:03,869 --> 00:41:14,369
+now what's Tao well Tao is just one of
+
+668
+00:41:08,430 --> 00:41:19,109
+the elements in here right if I chose
+
+669
+00:41:14,369 --> 00:41:21,359
+the other generator for a ch3 that's tau
+
+670
+00:41:19,109 --> 00:41:23,430
+squared and tower at the property of
+
+671
+00:41:21,359 --> 00:41:25,520
+conjugating Sigma into Sigma squared
+
+672
+00:41:23,430 --> 00:41:28,560
+then tau squared would have the
+
+673
+00:41:25,520 --> 00:41:31,020
+possibility of calculus of conjugated
+
+674
+00:41:28,560 --> 00:41:32,609
+Sigma into Sigma to the fourth and in
+
+675
+00:41:31,020 --> 00:41:36,270
+this group there's no preferred tau or
+
+676
+00:41:32,609 --> 00:41:39,869
+tau squared so if I had a group with a
+
+677
+00:41:36,270 --> 00:41:42,150
+sigma tau that did this I could make an
+
+678
+00:41:39,869 --> 00:41:46,349
+isomorphism with another group by moving
+
+679
+00:41:42,150 --> 00:41:49,020
+Terrytown squared that did this and they
+
+680
+00:41:46,349 --> 00:41:51,270
+they're isomorphic groups so some it's
+
+681
+00:41:49,020 --> 00:41:54,150
+not that sometimes different values of a
+
+682
+00:41:51,270 --> 00:41:55,710
+give you an isomorphic group a equal one
+
+683
+00:41:54,150 --> 00:41:56,280
+always gives the cyclic group I should
+
+684
+00:41:55,710 --> 00:42:02,240
+write that down
+
+685
+00:41:56,280 --> 00:42:07,109
+AE equal one gives G isomorphic to Z mod
+
+686
+00:42:02,240 --> 00:42:09,780
+eq z generated by sigma tau we always
+
+687
+00:42:07,109 --> 00:42:13,050
+know that one there's always one group
+
+688
+00:42:09,780 --> 00:42:16,530
+of water PQ the cyclic group and in some
+
+689
+00:42:13,050 --> 00:42:19,770
+cases like 15 we only get that in other
+
+690
+00:42:16,530 --> 00:42:22,470
+cases like 2q we get two groups here we
+
+691
+00:42:19,770 --> 00:42:26,970
+only get here we get two groups you can
+
+692
+00:42:22,470 --> 00:42:29,760
+get more you can get more okay now the
+
+693
+00:42:26,970 --> 00:42:31,710
+book does a great exercise which I'm
+
+694
+00:42:29,760 --> 00:42:33,330
+going to start for you where they show
+
+695
+00:42:31,710 --> 00:42:35,400
+you how this quickly becomes more
+
+696
+00:42:33,330 --> 00:42:37,140
+complicated so we're really we're
+
+697
+00:42:35,400 --> 00:42:38,880
+getting pretty proud of ourselves doing
+
+698
+00:42:37,140 --> 00:42:41,190
+the groups of water PQ we have a pretty
+
+699
+00:42:38,880 --> 00:42:43,170
+general theory over here we can work it
+
+700
+00:42:41,190 --> 00:42:46,950
+out in any given case but suppose we
+
+701
+00:42:43,170 --> 00:42:49,290
+jazz it up just a little bit and we ask
+
+702
+00:42:46,950 --> 00:42:53,820
+for the groups of order something like P
+
+703
+00:42:49,290 --> 00:42:55,830
+squared times Q for example the book
+
+704
+00:42:53,820 --> 00:42:57,570
+does a nice section which I suggest you
+
+705
+00:42:55,830 --> 00:43:01,280
+go through and I'll start with you on
+
+706
+00:42:57,570 --> 00:43:01,280
+the groups of water 12
+
+707
+00:43:03,170 --> 00:43:10,349
+which is 2 squared times 3
+
+708
+00:43:07,970 --> 00:43:17,250
+now here things get much more
+
+709
+00:43:10,349 --> 00:43:21,029
+interesting it turns out yeah no thank
+
+710
+00:43:17,250 --> 00:43:23,760
+you thank you you actually then it's
+
+711
+00:43:21,029 --> 00:43:26,099
+it's not clear you have to show that
+
+712
+00:43:23,760 --> 00:43:28,529
+this kind of relation doesn't lead you
+
+713
+00:43:26,099 --> 00:43:30,329
+into further contradiction and there's a
+
+714
+00:43:28,529 --> 00:43:32,130
+method of presenting groups so this
+
+715
+00:43:30,329 --> 00:43:35,069
+group would be presented I would say
+
+716
+00:43:32,130 --> 00:43:39,150
+take the group G generated by Sigma and
+
+717
+00:43:35,069 --> 00:43:42,750
+tau such that Sigma to the seventh is
+
+718
+00:43:39,150 --> 00:43:47,190
+the identity tau cubed is the identity
+
+719
+00:43:42,750 --> 00:43:50,220
+and and tau Sigma Tau inverse is equal
+
+720
+00:43:47,190 --> 00:43:52,799
+to Sigma squared I'd say there's your
+
+721
+00:43:50,220 --> 00:43:53,849
+group of water 21 and you'd say that's
+
+722
+00:43:52,799 --> 00:43:55,529
+very nice
+
+723
+00:43:53,849 --> 00:43:57,539
+you know you've now tell me how to
+
+724
+00:43:55,529 --> 00:44:00,440
+commute tau and Sigma I know the group
+
+725
+00:43:57,539 --> 00:44:02,849
+is powers of Sigma and powers of tau but
+
+726
+00:44:00,440 --> 00:44:04,380
+is am I going to get into trouble with
+
+727
+00:44:02,849 --> 00:44:05,880
+that is there some contradiction that's
+
+728
+00:44:04,380 --> 00:44:07,349
+going to come up later where I have some
+
+729
+00:44:05,880 --> 00:44:08,670
+power of some element is equal to the
+
+730
+00:44:07,349 --> 00:44:10,529
+identity but not equal to the identity
+
+731
+00:44:08,670 --> 00:44:12,150
+and you have to have a way of then
+
+732
+00:44:10,529 --> 00:44:13,829
+proving this group exists we knew about
+
+733
+00:44:12,150 --> 00:44:16,170
+the dihedral group from geometric
+
+734
+00:44:13,829 --> 00:44:20,160
+construction so to prove this group
+
+735
+00:44:16,170 --> 00:44:23,010
+exists this is called and it's later in
+
+736
+00:44:20,160 --> 00:44:24,779
+the chapter a Cox our presentation after
+
+737
+00:44:23,010 --> 00:44:27,029
+a great Canadian mathematician who just
+
+738
+00:44:24,779 --> 00:44:30,089
+died in fact at the age of 97
+
+739
+00:44:27,029 --> 00:44:32,520
+HMS coxeter and you have to actually
+
+740
+00:44:30,089 --> 00:44:34,230
+show that you can construct a group with
+
+741
+00:44:32,520 --> 00:44:36,750
+these generators and relations that's
+
+742
+00:44:34,230 --> 00:44:38,250
+not obvious but all we can see here is
+
+743
+00:44:36,750 --> 00:44:41,119
+that there's at most one more group
+
+744
+00:44:38,250 --> 00:44:41,119
+beyond the cyclic group
+
+745
+00:44:41,299 --> 00:44:48,260
+all right the groups of order 12 turns
+
+746
+00:44:44,460 --> 00:44:48,260
+out that there are five distinct groups
+
+747
+00:44:51,010 --> 00:45:03,760
+of which two are abelian two are billion
+
+748
+00:44:59,800 --> 00:45:10,090
+so one of them is Z mod 12 Z another one
+
+749
+00:45:03,760 --> 00:45:12,460
+is Z mod 6 Z plus Z mod 2 Z product of
+
+750
+00:45:10,090 --> 00:45:13,900
+two groups these aren't the same group
+
+751
+00:45:12,460 --> 00:45:15,880
+because this group has only one element
+
+752
+00:45:13,900 --> 00:45:19,140
+of water 2 in it whereas this group has
+
+753
+00:45:15,880 --> 00:45:23,230
+3 element 3 elements of what are 2 in it
+
+754
+00:45:19,140 --> 00:45:26,140
+one is the alternating group on four
+
+755
+00:45:23,230 --> 00:45:31,330
+letters one is that I he drew a group of
+
+756
+00:45:26,140 --> 00:45:35,530
+water 12 and one is something new that
+
+757
+00:45:31,330 --> 00:45:37,210
+you haven't seen before and we uncover
+
+758
+00:45:35,530 --> 00:45:39,970
+these groups by going through the same
+
+759
+00:45:37,210 --> 00:45:42,430
+kind of classification except that it
+
+760
+00:45:39,970 --> 00:45:44,560
+becomes much more complicated so why
+
+761
+00:45:42,430 --> 00:45:46,600
+does it become more complicated well
+
+762
+00:45:44,560 --> 00:45:52,350
+what we get from the Cielo theorem is we
+
+763
+00:45:46,600 --> 00:45:56,370
+have a sub group H for in G of order 4
+
+764
+00:45:52,350 --> 00:46:00,820
+and we have a sub group H 3 in G of
+
+765
+00:45:56,370 --> 00:46:03,790
+order 3 so this group we know is a
+
+766
+00:46:00,820 --> 00:46:06,370
+cyclic group because it has prime prime
+
+767
+00:46:03,790 --> 00:46:08,140
+order but this group we just know is an
+
+768
+00:46:06,370 --> 00:46:12,970
+abelian group because it has order P
+
+769
+00:46:08,140 --> 00:46:19,600
+squared so this can be either isomorphic
+
+770
+00:46:12,970 --> 00:46:21,550
+to Z mod 4 Z or to Z mod 2z squared so
+
+771
+00:46:19,600 --> 00:46:23,470
+already we have an ambiguity and that we
+
+772
+00:46:21,550 --> 00:46:25,150
+don't know what the structure is of the
+
+773
+00:46:23,470 --> 00:46:29,260
+ceelo 2 subgroup we just know there's
+
+774
+00:46:25,150 --> 00:46:30,640
+something of order 4 and we don't know
+
+775
+00:46:29,260 --> 00:46:33,790
+what the strut we do know what the
+
+776
+00:46:30,640 --> 00:46:37,840
+structure the CeeLo 3 group is now in
+
+777
+00:46:33,790 --> 00:46:43,060
+the PQ case the larger one was always a
+
+778
+00:46:37,840 --> 00:46:45,070
+normal subgroup okay so I claim that in
+
+779
+00:46:43,060 --> 00:46:47,370
+this case neither of them have you know
+
+780
+00:46:45,070 --> 00:46:49,750
+neither of them have to be normal so
+
+781
+00:46:47,370 --> 00:46:53,860
+let's see what the seal of theorems tell
+
+782
+00:46:49,750 --> 00:46:55,840
+us about the questions of how many CeeLo
+
+783
+00:46:53,860 --> 00:46:58,750
+twos we have and how many CeeLo threes
+
+784
+00:46:55,840 --> 00:47:03,070
+we have well the number of CeeLo two
+
+785
+00:46:58,750 --> 00:47:04,840
+subgroups has to divide three right and
+
+786
+00:47:03,070 --> 00:47:11,920
+be congruent to one
+
+787
+00:47:04,840 --> 00:47:13,540
+- so what are the possibilities what are
+
+788
+00:47:11,920 --> 00:47:15,760
+the divisors of three which are kind of
+
+789
+00:47:13,540 --> 00:47:17,410
+going to 1 watt - there we go
+
+790
+00:47:15,760 --> 00:47:24,310
+ok otherwise I was going much too fast
+
+791
+00:47:17,410 --> 00:47:32,200
+so the number L of C low to s is equal
+
+792
+00:47:24,310 --> 00:47:35,710
+to 1 or 3 the number L of C low 3s has
+
+793
+00:47:32,200 --> 00:47:39,070
+to divide 4 and has to be congruent to 1
+
+794
+00:47:35,710 --> 00:47:42,670
+mod 3 1 or 4 good so in particular
+
+795
+00:47:39,070 --> 00:47:52,150
+neither of them have to be normal but I
+
+796
+00:47:42,670 --> 00:47:57,040
+claim one or the other is normal namely
+
+797
+00:47:52,150 --> 00:48:00,580
+you can have you can't have 3c low twos
+
+798
+00:47:57,040 --> 00:48:03,160
+and 4c low threes you can't have it it
+
+799
+00:48:00,580 --> 00:48:05,950
+just won't happen why
+
+800
+00:48:03,160 --> 00:48:18,910
+well imagine we had four three see low
+
+801
+00:48:05,950 --> 00:48:21,280
+threes ok here's the picture of the
+
+802
+00:48:18,910 --> 00:48:24,520
+group here's G here's the identity
+
+803
+00:48:21,280 --> 00:48:26,230
+element and here's a CeeLo three it has
+
+804
+00:48:24,520 --> 00:48:28,780
+two non-trivial elements in it right
+
+805
+00:48:26,230 --> 00:48:32,890
+Sigma and Sigma squared and we have four
+
+806
+00:48:28,780 --> 00:48:34,990
+of those now I claim they're all
+
+807
+00:48:32,890 --> 00:48:37,990
+distinct the only intersection of those
+
+808
+00:48:34,990 --> 00:48:40,030
+groups is the identity because they're
+
+809
+00:48:37,990 --> 00:48:41,620
+their water prime so if you have an
+
+810
+00:48:40,030 --> 00:48:43,720
+intersection of two groups of prime
+
+811
+00:48:41,620 --> 00:48:46,300
+water they have to be the same group and
+
+812
+00:48:43,720 --> 00:48:48,300
+therefore distinct groups so in each one
+
+813
+00:48:46,300 --> 00:48:53,250
+of these I get two elements of order 3
+
+814
+00:48:48,300 --> 00:48:53,250
+so that gives me 8 elements of order 3
+
+815
+00:48:54,750 --> 00:49:00,630
+and also I have one element of water one
+
+816
+00:49:02,140 --> 00:49:07,700
+so there are only three elements left in
+
+817
+00:49:05,869 --> 00:49:10,030
+this group that haven't been accounted
+
+818
+00:49:07,700 --> 00:49:14,530
+for that don't have water one or three
+
+819
+00:49:10,030 --> 00:49:18,500
+now a seal of four subgroup contains
+
+820
+00:49:14,530 --> 00:49:22,099
+three non identity elements so the only
+
+821
+00:49:18,500 --> 00:49:25,040
+possibility is if I had four ceelo's
+
+822
+00:49:22,099 --> 00:49:27,380
+three subgroups the identity plus these
+
+823
+00:49:25,040 --> 00:49:29,510
+three elements must be the seal of four
+
+824
+00:49:27,380 --> 00:49:32,000
+because the CEO for can have any
+
+825
+00:49:29,510 --> 00:49:36,520
+intersection with the celo threes for
+
+826
+00:49:32,000 --> 00:49:36,520
+divisibility reasons again so then II
+
+827
+00:49:37,030 --> 00:49:45,980
+Union three remaining elements have to
+
+828
+00:49:43,160 --> 00:49:48,280
+be a CEO four which means there are no
+
+829
+00:49:45,980 --> 00:49:50,000
+other possibilities for seal off force
+
+830
+00:49:48,280 --> 00:49:51,920
+right because they all have to be
+
+831
+00:49:50,000 --> 00:49:54,319
+conjugated and I've just told you what
+
+832
+00:49:51,920 --> 00:49:56,660
+they are which means the seal off four
+
+833
+00:49:54,319 --> 00:50:01,819
+is normal so if we have four CLO threes
+
+834
+00:49:56,660 --> 00:50:04,220
+we only have 1 0 2 so this 4 implies 1
+
+835
+00:50:01,819 --> 00:50:06,530
+so therefore at least something is
+
+836
+00:50:04,220 --> 00:50:09,020
+normal they might both be normal like in
+
+837
+00:50:06,530 --> 00:50:11,450
+the cyclic group of order 12 or in this
+
+838
+00:50:09,020 --> 00:50:15,140
+group they're both normal subgroups but
+
+839
+00:50:11,450 --> 00:50:17,569
+at least one of them is normal okay so
+
+840
+00:50:15,140 --> 00:50:19,730
+the group then proceeds from the fact
+
+841
+00:50:17,569 --> 00:50:21,799
+that at least one is normal and that we
+
+842
+00:50:19,730 --> 00:50:24,049
+know the structure of these groups to
+
+843
+00:50:21,799 --> 00:50:25,880
+derive the five possibilities I mean you
+
+844
+00:50:24,049 --> 00:50:27,619
+start off with okay let's assume the
+
+845
+00:50:25,880 --> 00:50:30,230
+seal o2 is normal what can we get from
+
+846
+00:50:27,619 --> 00:50:31,910
+that okay let's assume the seal of three
+
+847
+00:50:30,230 --> 00:50:40,160
+is normal this is a case by the way
+
+848
+00:50:31,910 --> 00:50:42,230
+where the seal o2 is normal and this is
+
+849
+00:50:40,160 --> 00:50:45,770
+a case by the way where the seal Oh
+
+850
+00:50:42,230 --> 00:50:49,430
+three is normal but not the other one so
+
+851
+00:50:45,770 --> 00:50:52,190
+you can go both ways so I strongly
+
+852
+00:50:49,430 --> 00:50:53,809
+suggest just to practice working out how
+
+853
+00:50:52,190 --> 00:50:55,250
+the celo theorems work how you put
+
+854
+00:50:53,809 --> 00:50:57,049
+together a group from its inside
+
+855
+00:50:55,250 --> 00:50:58,730
+information you go through this
+
+856
+00:50:57,049 --> 00:51:00,049
+classification of groups of water 12
+
+857
+00:50:58,730 --> 00:51:02,000
+it's not the most important thing in the
+
+858
+00:51:00,049 --> 00:51:04,430
+world it's just a way of testing that
+
+859
+00:51:02,000 --> 00:51:05,750
+you understand the techniques and as you
+
+860
+00:51:04,430 --> 00:51:07,970
+can imagine this gets more and more
+
+861
+00:51:05,750 --> 00:51:11,240
+complicated if instead of the group of
+
+862
+00:51:07,970 --> 00:51:14,800
+water 12 is for the group of water 24 so
+
+863
+00:51:11,240 --> 00:51:16,330
+the celo 2 out of order 8 there already
+
+864
+00:51:14,800 --> 00:51:18,849
+there were already five possibilities
+
+865
+00:51:16,330 --> 00:51:20,590
+for that group of order eight that could
+
+866
+00:51:18,849 --> 00:51:24,820
+be the celo - let alone how the ceelo
+
+867
+00:51:20,590 --> 00:51:27,609
+three is acting on it so the
+
+868
+00:51:24,820 --> 00:51:29,980
+classification becomes quite quite a
+
+869
+00:51:27,609 --> 00:51:32,080
+nightmare nonetheless this is sort of
+
+870
+00:51:29,980 --> 00:51:33,400
+thing finite group spirits love to do so
+
+871
+00:51:32,080 --> 00:51:35,020
+next time I'm in I'll bring you in the
+
+872
+00:51:33,400 --> 00:51:37,210
+atlas so you can see all the wonderful
+
+873
+00:51:35,020 --> 00:51:40,859
+things they've done and Richard will
+
+874
+00:51:37,210 --> 00:51:40,859
+start on Friday with the symmetric group
+

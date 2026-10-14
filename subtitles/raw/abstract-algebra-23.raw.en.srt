@@ -1,0 +1,3316 @@
+1
+00:00:11,590 --> 00:00:26,180
+okay great so what have we been doing in
+
+2
+00:00:16,580 --> 00:00:30,110
+the last couple lectures so well the
+
+3
+00:00:26,180 --> 00:00:34,850
+first thing we've been doing is we've
+
+4
+00:00:30,110 --> 00:00:42,140
+been studying the Scylla theorem and son
+
+5
+00:00:34,850 --> 00:00:44,360
+of its consequences so the main
+
+6
+00:00:42,140 --> 00:00:46,370
+hypothesis for this Scylla theorem is
+
+7
+00:00:44,360 --> 00:00:56,540
+we've learned that is that we have a
+
+8
+00:00:46,370 --> 00:01:04,780
+group and we write its order as some p
+
+9
+00:00:56,540 --> 00:01:07,700
+to the n m where P doesn't divide m and
+
+10
+00:01:04,780 --> 00:01:12,010
+what we found is by sort of a clever
+
+11
+00:01:07,700 --> 00:01:14,990
+analysis of the group acting on its
+
+12
+00:01:12,010 --> 00:01:24,500
+subgroups of order P by conjugation is
+
+13
+00:01:14,990 --> 00:01:31,730
+that first of all the number of Scylla P
+
+14
+00:01:24,500 --> 00:01:34,190
+sub groups which instead of denoting L
+
+15
+00:01:31,730 --> 00:01:35,690
+to know n P of G because in today's
+
+16
+00:01:34,190 --> 00:01:38,030
+lecture I'm going to want to deal with
+
+17
+00:01:35,690 --> 00:01:39,470
+lots of different things I'm going to
+
+18
+00:01:38,030 --> 00:01:41,300
+have dealt lots of different Prime's
+
+19
+00:01:39,470 --> 00:01:42,620
+going on lots of different groups going
+
+20
+00:01:41,300 --> 00:01:45,140
+on so it's better to be able to keep
+
+21
+00:01:42,620 --> 00:01:49,160
+track of both of those in the notation
+
+22
+00:01:45,140 --> 00:01:53,780
+so the first fact we observed with it
+
+23
+00:01:49,160 --> 00:01:56,270
+wasn't this thing is congruent to 1 mod
+
+24
+00:01:53,780 --> 00:01:57,860
+p in particular Scylla P subgroups
+
+25
+00:01:56,270 --> 00:02:00,020
+exists otherwise it couldn't possibly
+
+26
+00:01:57,860 --> 00:02:02,710
+the number couldn't possibly be 1 congra
+
+27
+00:02:00,020 --> 00:02:07,220
+to 1 mod p and the other part of that
+
+28
+00:02:02,710 --> 00:02:11,390
+was that the number of Scylla P sub
+
+29
+00:02:07,220 --> 00:02:13,370
+groups divides m and these are really
+
+30
+00:02:11,390 --> 00:02:16,430
+really useful because in many cases they
+
+31
+00:02:13,370 --> 00:02:18,200
+allow us this sort of thing the sort of
+
+32
+00:02:16,430 --> 00:02:21,590
+counting thing allows us to figure out
+
+33
+00:02:18,200 --> 00:02:22,500
+exactly how many subgroups of order P to
+
+34
+00:02:21,590 --> 00:02:25,740
+the end there are
+
+35
+00:02:22,500 --> 00:02:28,140
+and that can be a you know source for
+
+36
+00:02:25,740 --> 00:02:32,090
+instance of normal subgroups if you can
+
+37
+00:02:28,140 --> 00:02:35,880
+show that NP of G must be one for some P
+
+38
+00:02:32,090 --> 00:02:39,450
+so the other part this is again
+
+39
+00:02:35,880 --> 00:02:51,230
+extremely useful every Scylla P sub
+
+40
+00:02:39,450 --> 00:02:56,490
+group or every two solo P sub groups are
+
+41
+00:02:51,230 --> 00:02:59,370
+conjugated it's also very useful this
+
+42
+00:02:56,490 --> 00:03:05,490
+has some good consequences so here are
+
+43
+00:02:59,370 --> 00:03:11,190
+some consequences first one I'll mention
+
+44
+00:03:05,490 --> 00:03:19,290
+is that well with the hypothesis that I
+
+45
+00:03:11,190 --> 00:03:24,450
+have some Scylla P sub group first one
+
+46
+00:03:19,290 --> 00:03:26,400
+I'll mention is a condition for
+
+47
+00:03:24,450 --> 00:03:30,269
+normality right so we've seen several
+
+48
+00:03:26,400 --> 00:03:33,269
+times that this thing is normal if and
+
+49
+00:03:30,269 --> 00:03:36,510
+only if as a result of two NP of G is
+
+50
+00:03:33,269 --> 00:03:38,940
+equal to one and this is something you
+
+51
+00:03:36,510 --> 00:03:41,610
+can leverage much much much it's very
+
+52
+00:03:38,940 --> 00:03:45,000
+very useful another thing that's useful
+
+53
+00:03:41,610 --> 00:03:48,690
+is that once you have a syllabus
+
+54
+00:03:45,000 --> 00:03:54,440
+subgroup like this you know a good deal
+
+55
+00:03:48,690 --> 00:03:57,920
+about its normalizer Y so for instance
+
+56
+00:03:54,440 --> 00:04:10,440
+what is the index of the normalizer
+
+57
+00:03:57,920 --> 00:04:14,370
+of H and G in G any guesses no but yes
+
+58
+00:04:10,440 --> 00:04:16,769
+NP of G exactly so why is that well
+
+59
+00:04:14,370 --> 00:04:18,570
+let's let's just go through let's just
+
+60
+00:04:16,769 --> 00:04:20,489
+go through a quick explanation just to
+
+61
+00:04:18,570 --> 00:04:22,140
+make sure that this is all clear this is
+
+62
+00:04:20,489 --> 00:04:27,090
+just the this is just the counting
+
+63
+00:04:22,140 --> 00:04:30,870
+formula so this thing is the same thing
+
+64
+00:04:27,090 --> 00:04:32,430
+as the index in G of the stabiliser I
+
+65
+00:04:30,870 --> 00:04:35,060
+mean this thing is by definition the
+
+66
+00:04:32,430 --> 00:04:35,060
+stabilizer
+
+67
+00:04:35,650 --> 00:04:53,139
+eh where we have G acting on the sill
+
+68
+00:04:42,910 --> 00:04:58,419
+okey subgroups by conjugation right is
+
+69
+00:04:53,139 --> 00:05:04,870
+that clear and we know by a sort of
+
+70
+00:04:58,419 --> 00:05:09,639
+counting formula that this is exactly
+
+71
+00:05:04,870 --> 00:05:19,000
+the number the size of the orbit of H
+
+72
+00:05:09,639 --> 00:05:21,669
+under this actually and then well
+
+73
+00:05:19,000 --> 00:05:26,530
+because of two over here this thing is
+
+74
+00:05:21,669 --> 00:05:37,440
+the same thing as the number of silho P
+
+75
+00:05:26,530 --> 00:05:42,430
+subgroups and this is just by definition
+
+76
+00:05:37,440 --> 00:05:43,660
+MP of G so this is also very useful sort
+
+77
+00:05:42,430 --> 00:05:47,590
+of formula and we're going to leverage
+
+78
+00:05:43,660 --> 00:05:50,710
+this in some of what we do today and the
+
+79
+00:05:47,590 --> 00:05:51,970
+third sort of consequence which is very
+
+80
+00:05:50,710 --> 00:05:58,840
+very useful it gives you a lot of
+
+81
+00:05:51,970 --> 00:06:01,330
+insight into structure is you can count
+
+82
+00:05:58,840 --> 00:06:03,700
+the number of elements of particular
+
+83
+00:06:01,330 --> 00:06:07,210
+orders in some cases as a result of the
+
+84
+00:06:03,700 --> 00:06:08,830
+Silla theorem so for instance and I
+
+85
+00:06:07,210 --> 00:06:11,260
+think you've seen this before we've seen
+
+86
+00:06:08,830 --> 00:06:12,669
+a certain diagram many many times before
+
+87
+00:06:11,260 --> 00:06:15,430
+and it's sort of the intuition behind
+
+88
+00:06:12,669 --> 00:06:18,010
+this suppose I can write the order of a
+
+89
+00:06:15,430 --> 00:06:23,530
+group as p.m. so in other words this
+
+90
+00:06:18,010 --> 00:06:26,139
+this thing here is one so so suppose the
+
+91
+00:06:23,530 --> 00:06:37,349
+group orders pm and of course he doesn't
+
+92
+00:06:26,139 --> 00:06:45,250
+divide em then the number of elements of
+
+93
+00:06:37,349 --> 00:06:48,150
+order P and G is what how many elements
+
+94
+00:06:45,250 --> 00:06:48,150
+of order P are there
+
+95
+00:06:48,480 --> 00:06:53,770
+so remember we have this if I have an
+
+96
+00:06:51,430 --> 00:06:57,130
+element of order P then it generates
+
+97
+00:06:53,770 --> 00:07:00,310
+some subgroup some cyclic subgroup now
+
+98
+00:06:57,130 --> 00:07:09,250
+it's a silho P sub group now all these
+
+99
+00:07:00,310 --> 00:07:12,370
+are conjugate and we know exactly what
+
+100
+00:07:09,250 --> 00:07:14,440
+the size of that orbit is it's n PG and
+
+101
+00:07:12,370 --> 00:07:18,040
+the number of elements in each of these
+
+102
+00:07:14,440 --> 00:07:22,690
+things of order P is P minus 1 so the
+
+103
+00:07:18,040 --> 00:07:24,610
+answer is n P of G times P minus 1 again
+
+104
+00:07:22,690 --> 00:07:28,270
+a very useful formula because it can
+
+105
+00:07:24,610 --> 00:07:31,000
+help you narrow down what n P of G is
+
+106
+00:07:28,270 --> 00:07:33,910
+for instance I mean there'll be cases
+
+107
+00:07:31,000 --> 00:07:35,710
+where the formula over here number 1
+
+108
+00:07:33,910 --> 00:07:38,260
+narrows it down to a bunch of different
+
+109
+00:07:35,710 --> 00:07:39,430
+possibilities but then what you can do
+
+110
+00:07:38,260 --> 00:07:42,790
+is you can look at lots of different
+
+111
+00:07:39,430 --> 00:07:44,500
+Prime's and say well if it you know n P
+
+112
+00:07:42,790 --> 00:07:46,180
+of G were this number then I'd have this
+
+113
+00:07:44,500 --> 00:07:47,950
+many elements of a certain order but I
+
+114
+00:07:46,180 --> 00:07:50,169
+also have a certain number of elements
+
+115
+00:07:47,950 --> 00:07:51,880
+of a certain other order and that's too
+
+116
+00:07:50,169 --> 00:07:54,820
+many elements the groups too large so
+
+117
+00:07:51,880 --> 00:08:01,000
+this is again a very very useful but
+
+118
+00:07:54,820 --> 00:08:02,950
+simple observation ok so what were some
+
+119
+00:08:01,000 --> 00:08:13,539
+applications that we have more or less
+
+120
+00:08:02,950 --> 00:08:15,789
+seen of these sorts of things so this
+
+121
+00:08:13,539 --> 00:08:19,900
+was one of the big tools big early tools
+
+122
+00:08:15,789 --> 00:08:21,940
+and trying to understand structure of
+
+123
+00:08:19,900 --> 00:08:23,979
+groups of small order you can you can
+
+124
+00:08:21,940 --> 00:08:28,660
+pretty much get everything you need out
+
+125
+00:08:23,979 --> 00:08:30,520
+of ceelo theory from for for you know
+
+126
+00:08:28,660 --> 00:08:32,339
+deciding you know what the structure of
+
+127
+00:08:30,520 --> 00:08:34,479
+you know what what the different
+
+128
+00:08:32,339 --> 00:08:36,610
+isomorphism classes of groups of small
+
+129
+00:08:34,479 --> 00:08:43,479
+order are so let's look at some
+
+130
+00:08:36,610 --> 00:08:51,550
+applications that show that off so first
+
+131
+00:08:43,479 --> 00:08:57,570
+one that we've seen is groups of order P
+
+132
+00:08:51,550 --> 00:08:57,570
+Q and you know P less than Q are Prime's
+
+133
+00:08:58,560 --> 00:09:07,540
+so what was one of the things that we
+
+134
+00:09:03,070 --> 00:09:09,850
+know about groups of water PQ I mean so
+
+135
+00:09:07,540 --> 00:09:12,340
+are there any normal subgroups that are
+
+136
+00:09:09,850 --> 00:09:20,740
+guaranteed in a group of order PQ by the
+
+137
+00:09:12,340 --> 00:09:29,230
+ceelo theorem yeah right so of which
+
+138
+00:09:20,740 --> 00:09:31,240
+order well so you're guaranteed one of
+
+139
+00:09:29,230 --> 00:09:33,250
+water queue you have to be more careful
+
+140
+00:09:31,240 --> 00:09:34,930
+in the case of water P so let's let's
+
+141
+00:09:33,250 --> 00:09:38,290
+look at exactly what the right statement
+
+142
+00:09:34,930 --> 00:09:40,480
+is so just by the counting formula that
+
+143
+00:09:38,290 --> 00:09:44,380
+I just erased here I know that the
+
+144
+00:09:40,480 --> 00:09:47,800
+number of sila P sub groups must be I
+
+145
+00:09:44,380 --> 00:09:51,130
+must be dividing cube but congruent to 1
+
+146
+00:09:47,800 --> 00:09:53,110
+mod p now since P is less than Q that
+
+147
+00:09:51,130 --> 00:09:58,900
+automatically guarantees that the number
+
+148
+00:09:53,110 --> 00:10:01,690
+I meant to say Q there so the number of
+
+149
+00:09:58,900 --> 00:10:04,960
+silico sub groups is congruent to 1 mod
+
+150
+00:10:01,690 --> 00:10:12,930
+Q and divides P so it's either no
+
+151
+00:10:04,960 --> 00:10:15,430
+getting this mixed up right so yeah so
+
+152
+00:10:12,930 --> 00:10:17,260
+well yeah I mean in either case yeah
+
+153
+00:10:15,430 --> 00:10:20,950
+it's it's it's it's either Q R and the
+
+154
+00:10:17,260 --> 00:10:25,150
+one that that's the one with the more
+
+155
+00:10:20,950 --> 00:10:34,980
+restrictive right so it's it is Q so so
+
+156
+00:10:25,150 --> 00:10:38,770
+we must have a normal C low Q sub group
+
+157
+00:10:34,980 --> 00:10:41,440
+because the number of C low Q sub groups
+
+158
+00:10:38,770 --> 00:10:44,710
+must be 1 or P but it also must be
+
+159
+00:10:41,440 --> 00:10:47,350
+congruent to 1 mod Q and since Q is
+
+160
+00:10:44,710 --> 00:10:50,110
+larger than P that Brit Milah that
+
+161
+00:10:47,350 --> 00:10:57,070
+automatically guarantees that and Q of G
+
+162
+00:10:50,110 --> 00:11:01,810
+is 1 now as for the other so if P does
+
+163
+00:10:57,070 --> 00:11:05,700
+not divide Q minus 1 then again by the
+
+164
+00:11:01,810 --> 00:11:10,030
+same reasoning you get the N P of G
+
+165
+00:11:05,700 --> 00:11:12,490
+equals 1 so you have a normal silho P
+
+166
+00:11:10,030 --> 00:11:15,610
+sub group
+
+167
+00:11:12,490 --> 00:11:19,360
+and then it's not hard to see I think
+
+168
+00:11:15,610 --> 00:11:22,300
+you probably did this not last lecture
+
+169
+00:11:19,360 --> 00:11:26,160
+but the lecture before that that in that
+
+170
+00:11:22,300 --> 00:11:30,790
+case you have you just put together your
+
+171
+00:11:26,160 --> 00:11:34,269
+SIL Opie and SIL oq subgroups and you
+
+172
+00:11:30,790 --> 00:11:37,750
+end up with what must be a cyclic group
+
+173
+00:11:34,269 --> 00:11:39,310
+of order PQ the things sort of have a
+
+174
+00:11:37,750 --> 00:11:41,949
+have an appropriate sort of community
+
+175
+00:11:39,310 --> 00:11:51,339
+tivity there so you can show that the
+
+176
+00:11:41,949 --> 00:11:58,329
+thing must be beautiful and so they must
+
+177
+00:11:51,339 --> 00:12:02,649
+look like Z mod p qz if P divides Q
+
+178
+00:11:58,329 --> 00:12:07,029
+minus 1 then well it could still be the
+
+179
+00:12:02,649 --> 00:12:08,589
+case that it's Z mod p qz but it turns
+
+180
+00:12:07,029 --> 00:12:10,959
+out that you can show and I don't think
+
+181
+00:12:08,589 --> 00:12:12,790
+you I'm not sure that you did this but
+
+182
+00:12:10,959 --> 00:12:17,949
+there's a sort of simple construction of
+
+183
+00:12:12,790 --> 00:12:24,279
+a group which is not a billion of order
+
+184
+00:12:17,949 --> 00:12:32,649
+P Q then there exists a unique non
+
+185
+00:12:24,279 --> 00:12:36,970
+abelian group order P Q the uniqueness
+
+186
+00:12:32,649 --> 00:12:38,290
+part is not terribly hard but it's the
+
+187
+00:12:36,970 --> 00:12:40,389
+more subtle point it's not hard to
+
+188
+00:12:38,290 --> 00:12:43,000
+construct such a thing I mean you can
+
+189
+00:12:40,389 --> 00:12:46,600
+sort of do it by hand by taking pairs of
+
+190
+00:12:43,000 --> 00:12:48,910
+elements of Z mod p and Z mod Q and then
+
+191
+00:12:46,600 --> 00:12:51,880
+sort of defining a funny multiplication
+
+192
+00:12:48,910 --> 00:12:58,149
+operation where you twist the action on
+
+193
+00:12:51,880 --> 00:13:00,670
+the Q part by the P part but that's not
+
+194
+00:12:58,149 --> 00:13:03,309
+that important for us today so the
+
+195
+00:13:00,670 --> 00:13:11,889
+second thing that you read about in the
+
+196
+00:13:03,309 --> 00:13:15,069
+book is groups of order 12 and with
+
+197
+00:13:11,889 --> 00:13:26,309
+groups of water 12 you can show that
+
+198
+00:13:15,069 --> 00:13:26,309
+either G has a normal SIL o 3 subgroup
+
+199
+00:13:26,330 --> 00:13:37,680
+or G is isomorphic to a four which has a
+
+200
+00:13:34,730 --> 00:13:41,220
+normal SIL oq subgroup so this is good
+
+201
+00:13:37,680 --> 00:13:44,280
+so you're guaranteed in cases where your
+
+202
+00:13:41,220 --> 00:13:53,000
+group has order 12 at least some normal
+
+203
+00:13:44,280 --> 00:13:59,550
+silho subgroup so G in which case G has
+
+204
+00:13:53,000 --> 00:14:01,950
+normal to silver so this is good the
+
+205
+00:13:59,550 --> 00:14:08,970
+theme here so far is that we get these
+
+206
+00:14:01,950 --> 00:14:10,710
+normal subgroups normal subgroups are
+
+207
+00:14:08,970 --> 00:14:13,250
+very useful because you're often
+
+208
+00:14:10,710 --> 00:14:17,220
+interested in things like simplicity of
+
+209
+00:14:13,250 --> 00:14:20,730
+groups because that has a big impact on
+
+210
+00:14:17,220 --> 00:14:22,920
+what homomorphisms a group admits and it
+
+211
+00:14:20,730 --> 00:14:25,230
+also allows you to sort of break down
+
+212
+00:14:22,920 --> 00:14:27,360
+groups if you can say well I have a sort
+
+213
+00:14:25,230 --> 00:14:34,650
+of simple quotient or something like
+
+214
+00:14:27,360 --> 00:14:38,100
+this so anyway this number has the shape
+
+215
+00:14:34,650 --> 00:14:40,890
+P squared Q where P is 2 and Q is 3 so
+
+216
+00:14:38,100 --> 00:14:48,750
+let's consider more generally groups of
+
+217
+00:14:40,890 --> 00:14:50,340
+order of order P squared Q I'm not gonna
+
+218
+00:14:48,750 --> 00:14:55,500
+make any assumption on the ordering yet
+
+219
+00:14:50,340 --> 00:14:59,250
+so this is more generally in fact it
+
+220
+00:14:55,500 --> 00:15:01,380
+turns out it sort of reduces to the case
+
+221
+00:14:59,250 --> 00:15:05,280
+of groups of water 12 the analysis is in
+
+222
+00:15:01,380 --> 00:15:06,540
+many ways much simpler because what you
+
+223
+00:15:05,280 --> 00:15:08,490
+find is that when you do the
+
+224
+00:15:06,540 --> 00:15:11,520
+calculations with the sort of formulas
+
+225
+00:15:08,490 --> 00:15:14,580
+that tell you a lot about NP and NQ g
+
+226
+00:15:11,520 --> 00:15:18,780
+that things can only go wrong in the
+
+227
+00:15:14,580 --> 00:15:22,650
+case where P is 2 and Q is 3 so you just
+
+228
+00:15:18,780 --> 00:15:27,510
+then refer back to this case so what's
+
+229
+00:15:22,650 --> 00:15:31,080
+what's the answer well if P is greater
+
+230
+00:15:27,510 --> 00:15:34,680
+than Q well then the the the formulas
+
+231
+00:15:31,080 --> 00:15:38,040
+for that you know from the celo theorem
+
+232
+00:15:34,680 --> 00:15:48,930
+tell you that there must be an
+
+233
+00:15:38,040 --> 00:15:56,850
+we'll see lo P subgroup and in the other
+
+234
+00:15:48,930 --> 00:15:58,259
+case you can show it's not hard I mean
+
+235
+00:15:56,850 --> 00:15:59,459
+it's a little more work than this
+
+236
+00:15:58,259 --> 00:16:02,519
+because this just sort of follows
+
+237
+00:15:59,459 --> 00:16:06,110
+trivially but this this case is a little
+
+238
+00:16:02,519 --> 00:16:20,160
+more work but not too much either
+
+239
+00:16:06,110 --> 00:16:24,839
+G has normal C lobe hew subgroup or P
+
+240
+00:16:20,160 --> 00:16:28,589
+squared Q equals 12 and we're back to
+
+241
+00:16:24,839 --> 00:16:32,550
+this sort of degenerate case where G is
+
+242
+00:16:28,589 --> 00:16:34,259
+isomorphic to a 4 in there lots more
+
+243
+00:16:32,550 --> 00:16:37,380
+cases like this there are tons more
+
+244
+00:16:34,259 --> 00:16:38,880
+things like this but again what's great
+
+245
+00:16:37,380 --> 00:16:41,610
+about these is that they give you these
+
+246
+00:16:38,880 --> 00:16:43,410
+normal subgroups and that's useful for a
+
+247
+00:16:41,610 --> 00:16:45,959
+couple purposes one purpose i've already
+
+248
+00:16:43,410 --> 00:16:48,180
+mentioned and that is showing that
+
+249
+00:16:45,959 --> 00:16:52,610
+groups are simple or not simple or
+
+250
+00:16:48,180 --> 00:16:55,470
+something like that another use is that
+
+251
+00:16:52,610 --> 00:16:57,480
+if you're trying to figure out its
+
+252
+00:16:55,470 --> 00:17:01,079
+structure group often what you can do is
+
+253
+00:16:57,480 --> 00:17:02,940
+break something down into a product of
+
+254
+00:17:01,079 --> 00:17:07,500
+groups one of them normal one of them
+
+255
+00:17:02,940 --> 00:17:09,240
+not and in that case you there's a sort
+
+256
+00:17:07,500 --> 00:17:11,280
+of canonical system of writing these
+
+257
+00:17:09,240 --> 00:17:13,199
+things down called semi direct products
+
+258
+00:17:11,280 --> 00:17:15,480
+and so you can sort of you have the sort
+
+259
+00:17:13,199 --> 00:17:18,569
+of systematic way of understanding all
+
+260
+00:17:15,480 --> 00:17:20,909
+the different groups of small order in
+
+261
+00:17:18,569 --> 00:17:24,540
+terms of selo theory and semi direct
+
+262
+00:17:20,909 --> 00:17:30,780
+products anyway another of the things
+
+263
+00:17:24,540 --> 00:17:35,610
+that we talked about is conjugacy in SN
+
+264
+00:17:30,780 --> 00:17:38,250
+so i'll just very very briefly remind
+
+265
+00:17:35,610 --> 00:17:46,679
+you of what happened there so we have
+
+266
+00:17:38,250 --> 00:17:51,900
+disjoint cycle decomposition we have a
+
+267
+00:17:46,679 --> 00:17:56,010
+given tau in SN if Sigma
+
+268
+00:17:51,900 --> 00:18:01,650
+can be written as a 1 1 a 1 l1 up
+
+269
+00:17:56,010 --> 00:18:03,960
+through a k1 a K L K this is it's
+
+270
+00:18:01,650 --> 00:18:07,650
+disjoint cycle decomposition than tau
+
+271
+00:18:03,960 --> 00:18:14,549
+Sigma Tau inverse is just equal to tau a
+
+272
+00:18:07,650 --> 00:18:18,990
+1 1 tau a 1 l1 etc so we know how
+
+273
+00:18:14,549 --> 00:18:22,620
+conjugacy works and in particular this
+
+274
+00:18:18,990 --> 00:18:27,419
+formula shows effectively that elements
+
+275
+00:18:22,620 --> 00:18:31,370
+of snr conjugate if and only if they
+
+276
+00:18:27,419 --> 00:18:36,899
+have the same cycle shape so elements
+
+277
+00:18:31,370 --> 00:18:40,700
+conjugate if and only if they have the
+
+278
+00:18:36,899 --> 00:18:40,700
+same cycle shape
+
+279
+00:18:45,650 --> 00:18:54,000
+so this is good what we're going to do
+
+280
+00:18:51,240 --> 00:18:56,039
+is now sort of combine these sorts of
+
+281
+00:18:54,000 --> 00:18:59,820
+themes combine the sort of Scylla
+
+282
+00:18:56,039 --> 00:19:02,820
+theoretic stuff with a study of Essen or
+
+283
+00:18:59,820 --> 00:19:08,520
+more accurately the alternating sub
+
+284
+00:19:02,820 --> 00:19:13,020
+group of SN and we're going to find some
+
+285
+00:19:08,520 --> 00:19:16,169
+some nice properties so the first one is
+
+286
+00:19:13,020 --> 00:19:21,960
+in the optional homework assignment so
+
+287
+00:19:16,169 --> 00:19:27,030
+let me just erase this soon start by
+
+288
+00:19:21,960 --> 00:19:29,460
+saying no a 5 so the first case we're
+
+289
+00:19:27,030 --> 00:19:32,730
+going to sort of study that combines the
+
+290
+00:19:29,460 --> 00:19:37,230
+ceelo theory stuff and conjugacy and SN
+
+291
+00:19:32,730 --> 00:19:38,909
+is what does a 5 look like we've had
+
+292
+00:19:37,230 --> 00:19:42,360
+some hints of this when we were looking
+
+293
+00:19:38,909 --> 00:19:45,720
+at the geometric stuff because we found
+
+294
+00:19:42,360 --> 00:19:48,480
+that a particular group that arose as
+
+295
+00:19:45,720 --> 00:19:50,370
+the symmetries of an object looked like
+
+296
+00:19:48,480 --> 00:19:53,730
+something that must be a 5 but we never
+
+297
+00:19:50,370 --> 00:19:57,600
+proved that it really was well I'm going
+
+298
+00:19:53,730 --> 00:19:59,970
+to give you result that does do that or
+
+299
+00:19:57,600 --> 00:20:01,530
+at least on the optional homework
+
+300
+00:19:59,970 --> 00:20:03,659
+assignment you'll find a sort of set of
+
+301
+00:20:01,530 --> 00:20:06,330
+things that that lead you through one
+
+302
+00:20:03,659 --> 00:20:09,900
+part of that and then all sort of finish
+
+303
+00:20:06,330 --> 00:20:12,559
+that off here with a converse so the
+
+304
+00:20:09,900 --> 00:20:14,820
+first main thing you need to know and
+
+305
+00:20:12,559 --> 00:20:21,330
+this is what's on the optional homework
+
+306
+00:20:14,820 --> 00:20:28,980
+assignment is that a 5 is simple so it's
+
+307
+00:20:21,330 --> 00:20:35,299
+a simple group of order 60 and what I
+
+308
+00:20:28,980 --> 00:20:35,299
+want to do now is prove a converse
+
+309
+00:20:36,840 --> 00:20:55,180
+so what's this converse well the
+
+310
+00:20:44,530 --> 00:21:02,920
+Congress is if G is a simple group of
+
+311
+00:20:55,180 --> 00:21:04,870
+order 60 then G is in fact a five so we
+
+312
+00:21:02,920 --> 00:21:08,170
+showed that this symmetry group several
+
+313
+00:21:04,870 --> 00:21:10,150
+lectures ago was a group of order 60 in
+
+314
+00:21:08,170 --> 00:21:12,430
+that it was a simple group so this
+
+315
+00:21:10,150 --> 00:21:14,530
+result sort of finishes it off and tells
+
+316
+00:21:12,430 --> 00:21:16,420
+you that the thing must be a five but in
+
+317
+00:21:14,530 --> 00:21:18,970
+some sense this result relies on this
+
+318
+00:21:16,420 --> 00:21:27,490
+result so it's not entirely complete
+
+319
+00:21:18,970 --> 00:21:28,810
+unless you do the exercises but this is
+
+320
+00:21:27,490 --> 00:21:32,890
+just sort of it's it's just sort of an
+
+321
+00:21:28,810 --> 00:21:35,080
+application of the sorts of things I
+
+322
+00:21:32,890 --> 00:21:38,860
+talked about so far so let's let's start
+
+323
+00:21:35,080 --> 00:21:40,600
+proving the thing so now proof well
+
+324
+00:21:38,860 --> 00:21:45,660
+let's see a couple of things that are
+
+325
+00:21:40,600 --> 00:21:51,100
+kind of obviously potentially useful
+
+326
+00:21:45,660 --> 00:22:01,900
+first one is that well n2g is congruent
+
+327
+00:21:51,100 --> 00:22:08,140
+to 1 mod 2 and divides 30 and so this
+
+328
+00:22:01,900 --> 00:22:10,150
+this gives us a title 15 because to
+
+329
+00:22:08,140 --> 00:22:17,850
+devise 30 that's utter nonsense so this
+
+330
+00:22:10,150 --> 00:22:17,850
+thing must be equal to either 3 5 or 15
+
+331
+00:22:18,210 --> 00:22:30,880
+and what we can try to do so a decent
+
+332
+00:22:23,050 --> 00:22:33,850
+strategy is yeah is the number of CeeLo
+
+333
+00:22:30,880 --> 00:22:36,780
+2 subgroups and 2 G is the number of
+
+334
+00:22:33,850 --> 00:22:36,780
+CeeLo 2 subgroups
+
+335
+00:22:37,879 --> 00:22:43,949
+no know that I say what I mean is it
+
+336
+00:22:40,829 --> 00:22:46,619
+divides whatever this number is we know
+
+337
+00:22:43,949 --> 00:22:48,929
+that is congruent to 1 mod 2 and that
+
+338
+00:22:46,619 --> 00:22:52,949
+divides 15 this is this is what the
+
+339
+00:22:48,929 --> 00:22:59,059
+ceelo theorem tells us so the strategy
+
+340
+00:22:52,949 --> 00:23:02,609
+that I'd like to use is first show that
+
+341
+00:22:59,059 --> 00:23:07,139
+this thing is not 3 by sort of just you
+
+342
+00:23:02,609 --> 00:23:13,459
+know general tools then show that there
+
+343
+00:23:07,139 --> 00:23:19,199
+exists a subgroup of G call it n of
+
+344
+00:23:13,459 --> 00:23:20,459
+index 5 index 5 now this should be
+
+345
+00:23:19,199 --> 00:23:21,869
+ringing a ballad you can using the
+
+346
+00:23:20,459 --> 00:23:24,179
+letter n here so this will probably
+
+347
+00:23:21,869 --> 00:23:27,299
+arise is the normalizer some C low P
+
+348
+00:23:24,179 --> 00:23:34,769
+subgroup in third thing is to do to do
+
+349
+00:23:27,299 --> 00:23:38,129
+is to use the action of G on the coset
+
+350
+00:23:34,769 --> 00:23:40,409
+space so if you have some group G it
+
+351
+00:23:38,129 --> 00:23:46,169
+certainly acts on its coset spaces by
+
+352
+00:23:40,409 --> 00:23:48,779
+translation by left multiplication so if
+
+353
+00:23:46,169 --> 00:23:51,179
+this thing has has index v than the if n
+
+354
+00:23:48,779 --> 00:23:53,940
+has index 5 in this co set space has
+
+355
+00:23:51,179 --> 00:23:56,279
+size 5 so I have this group action this
+
+356
+00:23:53,940 --> 00:23:58,169
+in this group and each element of the
+
+357
+00:23:56,279 --> 00:24:01,649
+group is inducing some permutation of a
+
+358
+00:23:58,169 --> 00:24:04,049
+set of five elements and so you
+
+359
+00:24:01,649 --> 00:24:06,899
+effectively have a homomorphism from G
+
+360
+00:24:04,049 --> 00:24:08,609
+to the symmetric group on five elements
+
+361
+00:24:06,899 --> 00:24:11,940
+and it's from that that we're going to
+
+362
+00:24:08,609 --> 00:24:13,469
+extract the isomorphism with a 5 so I'll
+
+363
+00:24:11,940 --> 00:24:17,369
+explain that in detail later but this is
+
+364
+00:24:13,469 --> 00:24:19,559
+just sort of a preview to keep you aware
+
+365
+00:24:17,369 --> 00:24:26,389
+of what's going on with the strategy so
+
+366
+00:24:19,559 --> 00:24:35,699
+and will show that this has with only
+
+367
+00:24:26,389 --> 00:24:40,699
+even permutations of the co set space so
+
+368
+00:24:35,699 --> 00:24:40,699
+let's start with the first part of this
+
+369
+00:24:44,210 --> 00:24:54,330
+so first thing I clean and as I said
+
+370
+00:24:51,780 --> 00:25:09,530
+over here the n2g is not equal to three
+
+371
+00:24:54,330 --> 00:25:26,660
+so it's a physis to show G has no
+
+372
+00:25:09,530 --> 00:25:26,660
+subgroups of index five since if P is a
+
+373
+00:25:27,200 --> 00:25:41,100
+CLO to subgroup we saw before the
+
+374
+00:25:36,150 --> 00:25:45,990
+normalizer of P and G must have index
+
+375
+00:25:41,100 --> 00:25:52,950
+equal to and to of G and if this thing
+
+376
+00:25:45,990 --> 00:25:57,690
+is 3 then it contradicts the fact that G
+
+377
+00:25:52,950 --> 00:26:00,930
+has no subgroups of index less than 5 so
+
+378
+00:25:57,690 --> 00:26:04,350
+less than 5 it has certainly subgroups
+
+379
+00:26:00,930 --> 00:26:14,370
+of index 5 but none of less than 5 so
+
+380
+00:26:04,350 --> 00:26:20,460
+let's prove this part so suppose we have
+
+381
+00:26:14,370 --> 00:26:23,240
+a subgroup has no and I should also say
+
+382
+00:26:20,460 --> 00:26:23,240
+proper
+
+383
+00:26:24,680 --> 00:26:34,190
+or no I'm trivial yeah proper proper
+
+384
+00:26:29,300 --> 00:26:44,230
+subgroups so suppose the index of H in G
+
+385
+00:26:34,190 --> 00:26:52,030
+is 2 3 or 4 well then I have an action
+
+386
+00:26:44,230 --> 00:26:58,670
+of G on the coset space so this is by
+
+387
+00:26:52,030 --> 00:27:01,190
+left multiplication now we know that the
+
+388
+00:26:58,670 --> 00:27:03,890
+action of a group on Co sets its coset
+
+389
+00:27:01,190 --> 00:27:11,920
+spaces by left multiplication is
+
+390
+00:27:03,890 --> 00:27:19,700
+transitive so that's good and every G in
+
+391
+00:27:11,920 --> 00:27:26,780
+G induces a permutation of this Co set
+
+392
+00:27:19,700 --> 00:27:31,250
+space G mod H so in effect the natural
+
+393
+00:27:26,780 --> 00:27:36,620
+action of G on G mod H gives us a
+
+394
+00:27:31,250 --> 00:27:37,850
+homomorphism from G and you have to
+
+395
+00:27:36,620 --> 00:27:41,740
+verify this thing really is a
+
+396
+00:27:37,850 --> 00:27:41,740
+homomorphism but that's not hard so
+
+397
+00:27:44,110 --> 00:27:55,240
+there's a homomorphism from P from G to
+
+398
+00:27:50,300 --> 00:27:58,370
+the symmetric group on the co set space
+
+399
+00:27:55,240 --> 00:28:05,480
+G mod H so in other words this takes
+
+400
+00:27:58,370 --> 00:28:16,450
+element G to the permutation induced by
+
+401
+00:28:05,480 --> 00:28:16,450
+G now let's talk a bit about the kernel
+
+402
+00:28:22,740 --> 00:28:28,970
+so can the colonel possibly be all of G
+
+403
+00:28:35,880 --> 00:28:40,770
+well consider what's happening here we
+
+404
+00:28:38,070 --> 00:28:44,460
+have G acting on G mod H by left
+
+405
+00:28:40,770 --> 00:28:49,679
+translation now H is some proper
+
+406
+00:28:44,460 --> 00:28:52,260
+subgroup so H is ontology we know that
+
+407
+00:28:49,679 --> 00:28:54,929
+if something is going to act trivially
+
+408
+00:28:52,260 --> 00:28:57,840
+on the co set space G mod H well then it
+
+409
+00:28:54,929 --> 00:28:59,429
+had better be an H right and that's just
+
+410
+00:28:57,840 --> 00:29:00,780
+the sort of definition of the action
+
+411
+00:28:59,429 --> 00:29:04,620
+things are equivalent
+
+412
+00:29:00,780 --> 00:29:07,130
+only if they differ by multiplication by
+
+413
+00:29:04,620 --> 00:29:10,980
+an element of H that's how Co sets work
+
+414
+00:29:07,130 --> 00:29:12,960
+so the kernel must be contained in H
+
+415
+00:29:10,980 --> 00:29:15,419
+just by sort of general principles it's
+
+416
+00:29:12,960 --> 00:29:21,270
+a normal subgroup of G which is also
+
+417
+00:29:15,419 --> 00:29:27,960
+contained in H this thing is a proper
+
+418
+00:29:21,270 --> 00:29:34,230
+subgroup of G so this thing is not all
+
+419
+00:29:27,960 --> 00:29:43,500
+of G moreover we know something we had a
+
+420
+00:29:34,230 --> 00:29:48,090
+hypothesis here G is simple right this
+
+421
+00:29:43,500 --> 00:29:55,409
+thing is in normal is normal so G is
+
+422
+00:29:48,090 --> 00:30:01,140
+simple what is kernel a fee it's trivial
+
+423
+00:29:55,409 --> 00:30:07,559
+the kernel of fee must be trivial that's
+
+424
+00:30:01,140 --> 00:30:11,990
+the definition of simple so which is the
+
+425
+00:30:07,559 --> 00:30:14,700
+isomorphism theorem tell us exactly the
+
+426
+00:30:11,990 --> 00:30:17,510
+isomorphism theorem tells us that fee
+
+427
+00:30:14,700 --> 00:30:17,510
+must be injective
+
+428
+00:30:22,530 --> 00:30:30,970
+in fact you don't even need the
+
+429
+00:30:26,410 --> 00:30:34,000
+isomorphism fear I can just say that
+
+430
+00:30:30,970 --> 00:30:37,240
+feed is injective G is isomorphic to
+
+431
+00:30:34,000 --> 00:30:44,380
+some subgroup of the symmetry group on
+
+432
+00:30:37,240 --> 00:30:51,280
+the coset space G mod H okay so why is
+
+433
+00:30:44,380 --> 00:30:56,970
+this a contradiction okay class so why
+
+434
+00:30:51,280 --> 00:31:01,270
+is this a contradiction so I have G a
+
+435
+00:30:56,970 --> 00:31:03,790
+subgroup of Sim G mod H now this thing
+
+436
+00:31:01,270 --> 00:31:05,740
+just looks like the symmetric group
+
+437
+00:31:03,790 --> 00:31:07,900
+exactly it looks this thing is just the
+
+438
+00:31:05,740 --> 00:31:11,800
+symmetric group on the index of ancient
+
+439
+00:31:07,900 --> 00:31:16,140
+G letters so by hypothesis this index
+
+440
+00:31:11,800 --> 00:31:20,530
+was 2 3 or 4 so this thing has order
+
+441
+00:31:16,140 --> 00:31:24,250
+order 2 factorial 3 factorial or 4
+
+442
+00:31:20,530 --> 00:31:32,140
+factorial but G is a group of order 60
+
+443
+00:31:24,250 --> 00:31:36,790
+it can't possibly fit in there we have a
+
+444
+00:31:32,140 --> 00:31:39,760
+contradiction so indeed there can't
+
+445
+00:31:36,790 --> 00:31:42,700
+possibly be a proper subgroup of G with
+
+446
+00:31:39,760 --> 00:31:46,510
+index less than 5 and therefore because
+
+447
+00:31:42,700 --> 00:31:50,650
+the index of the normalizer of asilo 2
+
+448
+00:31:46,510 --> 00:31:53,860
+subgroup in G must equal the number of
+
+449
+00:31:50,650 --> 00:31:56,650
+Silla 2 subgroups that number can't be 3
+
+450
+00:31:53,860 --> 00:32:00,040
+and so n 2 of G is not 3 we've
+
+451
+00:31:56,650 --> 00:32:02,590
+eliminated that case what's good about
+
+452
+00:32:00,040 --> 00:32:05,200
+this as a sort of first claim is that it
+
+453
+00:32:02,590 --> 00:32:10,900
+sets us up to show that in the case
+
+454
+00:32:05,200 --> 00:32:12,790
+where n 2 is 5 and 2 of G is 5 well we
+
+455
+00:32:10,900 --> 00:32:15,790
+have a sort of natural action going on
+
+456
+00:32:12,790 --> 00:32:18,280
+here and we can in fact show wonderfully
+
+457
+00:32:15,790 --> 00:32:20,080
+enough that that thing is going to have
+
+458
+00:32:18,280 --> 00:32:21,670
+all the same properties of here as here
+
+459
+00:32:20,080 --> 00:32:23,890
+in other words giving an injection into
+
+460
+00:32:21,670 --> 00:32:25,840
+the symmetry group and we're going to be
+
+461
+00:32:23,890 --> 00:32:28,510
+able to show that all the elements there
+
+462
+00:32:25,840 --> 00:32:33,690
+must be elements of the alternating
+
+463
+00:32:28,510 --> 00:32:33,690
+group they must be even permutations and
+
+464
+00:32:33,810 --> 00:32:40,290
+since G has order 60 it's going to have
+
+465
+00:32:37,230 --> 00:32:42,530
+to be the full a5 so let me go through
+
+466
+00:32:40,290 --> 00:32:42,530
+that
+
+467
+00:32:48,220 --> 00:33:06,229
+so claim - n - G is v then G is
+
+468
+00:33:00,519 --> 00:33:10,220
+isomorphic to a five so proof so again
+
+469
+00:33:06,229 --> 00:33:16,999
+no P is going to be some silho -
+
+470
+00:33:10,220 --> 00:33:20,299
+subgroup your let n be the normalizer of
+
+471
+00:33:16,999 --> 00:33:24,429
+P and G and as mentioned several times
+
+472
+00:33:20,299 --> 00:33:30,710
+before the index of N and G is m2 G
+
+473
+00:33:24,429 --> 00:33:33,109
+which is by hypothesis five so we have
+
+474
+00:33:30,710 --> 00:33:36,409
+this index five subgroup and again we
+
+475
+00:33:33,109 --> 00:33:39,129
+have an action of G on the co set space
+
+476
+00:33:36,409 --> 00:33:39,129
+G mod n
+
+477
+00:33:47,640 --> 00:34:06,799
+and so again we have a home or season we
+
+478
+00:33:55,740 --> 00:34:10,950
+have a fee going from G to sim G mod n
+
+479
+00:34:06,799 --> 00:34:16,730
+which in this case is isomorphic to s5
+
+480
+00:34:10,950 --> 00:34:16,730
+because G mod n has five elements and
+
+481
+00:34:17,629 --> 00:34:33,540
+again same sort of argument over here
+
+482
+00:34:21,119 --> 00:34:39,359
+well we know that no N is proper so the
+
+483
+00:34:33,540 --> 00:34:46,379
+kernel is not all of G therefore by
+
+484
+00:34:39,359 --> 00:34:54,659
+simplicity we know that the kernel is
+
+485
+00:34:46,379 --> 00:34:57,930
+trivial and so we think of G as being
+
+486
+00:34:54,659 --> 00:35:02,840
+really a subgroup of the symmetry group
+
+487
+00:34:57,930 --> 00:35:02,840
+here oh sorry yep
+
+488
+00:35:09,759 --> 00:35:17,539
+so the reason that the colonel is proper
+
+489
+00:35:14,839 --> 00:35:20,539
+as a result of n in being proper is the
+
+490
+00:35:17,539 --> 00:35:23,869
+same argument as the one over here so
+
+491
+00:35:20,539 --> 00:35:27,559
+the idea was well let's think about how
+
+492
+00:35:23,869 --> 00:35:31,309
+cosets work when can I possibly have an
+
+493
+00:35:27,559 --> 00:35:33,759
+element of G which is going to make the
+
+494
+00:35:31,309 --> 00:35:38,059
+action on G mod H completely trivial
+
+495
+00:35:33,759 --> 00:35:40,220
+well the definition of cosets
+
+496
+00:35:38,059 --> 00:35:42,170
+is by this equivalence up to
+
+497
+00:35:40,220 --> 00:35:44,390
+multiplication by H if I have something
+
+498
+00:35:42,170 --> 00:35:46,880
+outside of H that's sort of bringing me
+
+499
+00:35:44,390 --> 00:35:48,619
+into a nuttin EO non-trivial Co set it
+
+500
+00:35:46,880 --> 00:35:50,539
+amounts to you know sort of multiplying
+
+501
+00:35:48,619 --> 00:35:54,229
+by something that shifts me around the
+
+502
+00:35:50,539 --> 00:35:56,869
+only way I can stay you know in the same
+
+503
+00:35:54,229 --> 00:36:01,339
+place by multiplying by something is if
+
+504
+00:35:56,869 --> 00:36:06,229
+I have something in what I'm quoting by
+
+505
+00:36:01,339 --> 00:36:11,450
+and that's in this case H and in this
+
+506
+00:36:06,229 --> 00:36:15,829
+case and so n is proper the kernel of
+
+507
+00:36:11,450 --> 00:36:24,999
+fee is contained an N and so the kernel
+
+508
+00:36:15,829 --> 00:36:24,999
+of fee is proper does that make sense ok
+
+509
+00:36:26,420 --> 00:36:29,049
+yeah
+
+510
+00:36:31,710 --> 00:36:37,109
+okay so again it's the same sort of
+
+511
+00:36:34,230 --> 00:36:40,349
+argument as before so the fact that the
+
+512
+00:36:37,109 --> 00:36:44,099
+kernel is trivial tells us that this
+
+513
+00:36:40,349 --> 00:36:45,660
+homomorphism is injective so the
+
+514
+00:36:44,099 --> 00:36:49,829
+question is yeah how do we know that the
+
+515
+00:36:45,660 --> 00:36:53,069
+G is contained in s5 so well this thing
+
+516
+00:36:49,829 --> 00:36:55,140
+is injective this thing just looks like
+
+517
+00:36:53,069 --> 00:36:58,309
+s5 because it's a symmetric group on
+
+518
+00:36:55,140 --> 00:37:01,349
+five letters and so we can imagine that
+
+519
+00:36:58,309 --> 00:37:04,460
+G is just a subgroup we can identify G
+
+520
+00:37:01,349 --> 00:37:07,500
+with its image under this homomorphism I
+
+521
+00:37:04,460 --> 00:37:08,730
+mean the Jesus isomorphic to its image
+
+522
+00:37:07,500 --> 00:37:11,640
+under the homomorphism because it's an
+
+523
+00:37:08,730 --> 00:37:12,960
+injective homomorphism and so it suffice
+
+524
+00:37:11,640 --> 00:37:15,240
+is for us to think of these things is
+
+525
+00:37:12,960 --> 00:37:16,980
+actually just being an s5 it's a sorry
+
+526
+00:37:15,240 --> 00:37:20,190
+it's a notational convenience in some
+
+527
+00:37:16,980 --> 00:37:22,859
+sense so perhaps I should put this in
+
+528
+00:37:20,190 --> 00:37:26,730
+quotes but the idea is we think of G now
+
+529
+00:37:22,859 --> 00:37:28,380
+as being a subgroup of s5 because we
+
+530
+00:37:26,730 --> 00:37:35,220
+have an injective home warf ism from G
+
+531
+00:37:28,380 --> 00:37:37,920
+and s5 yeah it's not going to be
+
+532
+00:37:35,220 --> 00:37:40,140
+subjective in fact so yeah yeah it's
+
+533
+00:37:37,920 --> 00:37:42,000
+it's it's it makes good sense for us to
+
+534
+00:37:40,140 --> 00:37:44,160
+think of it as being a subgroup but we
+
+535
+00:37:42,000 --> 00:37:46,500
+can't think necessarily that this thing
+
+536
+00:37:44,160 --> 00:37:48,990
+is actually equal in fact we know
+
+537
+00:37:46,500 --> 00:37:54,530
+they're not equal why well because my
+
+538
+00:37:48,990 --> 00:37:59,880
+hypothesis G has order 60 and s5 has
+
+539
+00:37:54,530 --> 00:38:07,430
+order 120 so two times that so they're
+
+540
+00:37:59,880 --> 00:38:07,430
+not equal okay
+
+541
+00:38:13,490 --> 00:38:23,660
+now let's suppose the G is not contained
+
+542
+00:38:18,480 --> 00:38:23,660
+in a five
+
+543
+00:38:29,910 --> 00:38:43,089
+in other words there's some element of G
+
+544
+00:38:39,099 --> 00:38:50,549
+which is not in a5 well remember a5 has
+
+545
+00:38:43,089 --> 00:38:53,279
+index 2 in s5 so that implies that G a5
+
+546
+00:38:50,549 --> 00:38:56,260
+must be all of s 5
+
+547
+00:38:53,279 --> 00:38:58,990
+all right because sort of multiplying by
+
+548
+00:38:56,260 --> 00:39:02,680
+this thing I get the other Cosette look
+
+549
+00:38:58,990 --> 00:39:04,720
+up see all that's five and then by
+
+550
+00:39:02,680 --> 00:39:07,480
+formula we've seen before
+
+551
+00:39:04,720 --> 00:39:10,779
+I think you might have even had to do
+
+552
+00:39:07,480 --> 00:39:13,650
+this on homework this is sort of one of
+
+553
+00:39:10,779 --> 00:39:15,640
+these sort of index formula type things
+
+554
+00:39:13,650 --> 00:39:17,049
+in fact you can show this pretty
+
+555
+00:39:15,640 --> 00:39:20,440
+directly I mean you don't need to rely
+
+556
+00:39:17,049 --> 00:39:23,700
+on anything sophisticated um but you can
+
+557
+00:39:20,440 --> 00:39:28,539
+and that shows that the index of a5
+
+558
+00:39:23,700 --> 00:39:29,859
+intersect G in G is 2 you can show this
+
+559
+00:39:28,539 --> 00:39:31,599
+directly it's not it's not a big deal
+
+560
+00:39:29,859 --> 00:39:35,890
+but this is the sort of this is the most
+
+561
+00:39:31,599 --> 00:39:40,299
+important thing and that implies the a5
+
+562
+00:39:35,890 --> 00:39:42,069
+intersects G must be normal in G right
+
+563
+00:39:40,299 --> 00:39:46,809
+index two subgroups are automatically
+
+564
+00:39:42,069 --> 00:39:51,069
+normal well this is this is a this is
+
+565
+00:39:46,809 --> 00:39:56,710
+pretty important right because what do
+
+566
+00:39:51,069 --> 00:40:00,089
+we know what do we know about G well by
+
+567
+00:39:56,710 --> 00:40:04,480
+hypothesis was simple this thing is this
+
+568
+00:40:00,089 --> 00:40:11,859
+you know non-trivial proper subgroup
+
+569
+00:40:04,480 --> 00:40:14,069
+this is a contradiction contradiction to
+
+570
+00:40:11,859 --> 00:40:14,069
+simplicity
+
+571
+00:40:14,180 --> 00:40:26,340
+so we must indeed have the G the
+
+572
+00:40:18,990 --> 00:40:34,620
+subgroup of a 5 therefore G is in fact a
+
+573
+00:40:26,340 --> 00:40:40,200
+785 now this thing is order 60 and this
+
+574
+00:40:34,620 --> 00:40:42,290
+thing has order 16 follows that they
+
+575
+00:40:40,200 --> 00:40:45,810
+must be equal
+
+576
+00:40:42,290 --> 00:40:50,070
+yay so we've actually shown that in this
+
+577
+00:40:45,810 --> 00:41:00,210
+case G is a 5 or at least isomorphic to
+
+578
+00:40:50,070 --> 00:41:02,430
+a 5 yeah yeah so I mean well I mean
+
+579
+00:41:00,210 --> 00:41:03,570
+right so what you need is that you need
+
+580
+00:41:02,430 --> 00:41:05,640
+this thing to show that the thing is
+
+581
+00:41:03,570 --> 00:41:07,200
+normal okay I mean you know the a 5 is
+
+582
+00:41:05,640 --> 00:41:11,040
+normal in GM yes then it's the kernel of
+
+583
+00:41:07,200 --> 00:41:12,870
+a homework but but there is a sort of
+
+584
+00:41:11,040 --> 00:41:14,700
+there is a sense in which there's a bit
+
+585
+00:41:12,870 --> 00:41:17,130
+of an issue with this thing I mean this
+
+586
+00:41:14,700 --> 00:41:18,840
+could be in some sense a contradiction I
+
+587
+00:41:17,130 --> 00:41:20,850
+mean it could be for instance that a
+
+588
+00:41:18,840 --> 00:41:21,960
+five is not simpl and so that I've
+
+589
+00:41:20,850 --> 00:41:23,820
+actually arrived at some sort of other
+
+590
+00:41:21,960 --> 00:41:26,400
+contradiction which would show in that
+
+591
+00:41:23,820 --> 00:41:27,630
+case the entry of G is not equal to 5 I
+
+592
+00:41:26,400 --> 00:41:29,550
+mean this could have been a sort of
+
+593
+00:41:27,630 --> 00:41:32,670
+conceivable direction of things but we
+
+594
+00:41:29,550 --> 00:41:34,230
+have a previous proposition saying this
+
+595
+00:41:32,670 --> 00:41:34,500
+thing is in fact simple so everything's
+
+596
+00:41:34,230 --> 00:41:35,730
+fine
+
+597
+00:41:34,500 --> 00:41:39,300
+everything is wonderful and you can in
+
+598
+00:41:35,730 --> 00:41:40,980
+fact show directly that n 2 of a 5 is 5
+
+599
+00:41:39,300 --> 00:41:50,940
+so every there's no there's no sort of
+
+600
+00:41:40,980 --> 00:41:54,660
+inconsistency yeah it's normal
+
+601
+00:41:50,940 --> 00:41:57,540
+oh well so look so suppose I have
+
+602
+00:41:54,660 --> 00:42:03,330
+suppose I have so so so suppose I have
+
+603
+00:41:57,540 --> 00:42:05,880
+something of index to HTM GS of index 2
+
+604
+00:42:03,330 --> 00:42:10,590
+I want to show that H is normal well so
+
+605
+00:42:05,880 --> 00:42:16,050
+suppose I take some g and g well and
+
+606
+00:42:10,590 --> 00:42:18,720
+suppose i mean certainly if G is in H
+
+607
+00:42:16,050 --> 00:42:21,660
+then G H equals H G because that's just
+
+608
+00:42:18,720 --> 00:42:26,630
+H I'm just getting H back so you know in
+
+609
+00:42:21,660 --> 00:42:30,780
+that case so if if G is an H you
+
+610
+00:42:26,630 --> 00:42:36,030
+automatically get G H equals H G but
+
+611
+00:42:30,780 --> 00:42:39,090
+suppose G is not an H well G H is then
+
+612
+00:42:36,030 --> 00:42:40,620
+equal to all the things because this
+
+613
+00:42:39,090 --> 00:42:42,780
+thing as index 2 is equal to all the
+
+614
+00:42:40,620 --> 00:42:43,800
+things in G that are not in H I mean I
+
+615
+00:42:42,780 --> 00:42:47,160
+just sort of partitioned the thing into
+
+616
+00:42:43,800 --> 00:42:50,040
+two pieces but likewise the right coset
+
+617
+00:42:47,160 --> 00:42:53,790
+h g is the same thing it's all the
+
+618
+00:42:50,040 --> 00:42:56,640
+elements of G that are not in H so these
+
+619
+00:42:53,790 --> 00:42:59,960
+things are equal G H equals HT therefore
+
+620
+00:42:56,640 --> 00:43:11,100
+G H G inverse equals H for all G
+
+621
+00:42:59,960 --> 00:43:13,520
+therefore H is normal great oh yeah oh
+
+622
+00:43:11,100 --> 00:43:13,520
+yeah sorry
+
+623
+00:43:16,640 --> 00:43:28,400
+yeah yeah that's why you're do now
+
+624
+00:43:21,060 --> 00:43:28,400
+yeah released in some ravine floor
+
+625
+00:43:32,270 --> 00:43:36,090
+yeah
+
+626
+00:43:33,540 --> 00:43:41,520
+this shows that any subgroup of index to
+
+627
+00:43:36,090 --> 00:43:48,900
+is normal I thought this was a homework
+
+628
+00:43:41,520 --> 00:43:51,240
+problem or something yeah yeah I don't
+
+629
+00:43:48,900 --> 00:43:52,500
+know I mean oh yeah I mean this is this
+
+630
+00:43:51,240 --> 00:43:54,120
+is definitely good fact to know I mean
+
+631
+00:43:52,500 --> 00:43:55,920
+you should know that subgroups have been
+
+632
+00:43:54,120 --> 00:43:57,360
+next to our normal it's it's it you can
+
+633
+00:43:55,920 --> 00:43:58,650
+definitely leverage this quite often I
+
+634
+00:43:57,360 --> 00:44:03,870
+mean it's it's a you very very very
+
+635
+00:43:58,650 --> 00:44:13,670
+useful fact so let me just label this
+
+636
+00:44:03,870 --> 00:44:13,670
+thing proposition subgroups of index to
+
+637
+00:44:14,690 --> 00:44:21,140
+proof
+
+638
+00:44:16,050 --> 00:44:26,700
+yeah there's official okay
+
+639
+00:44:21,140 --> 00:44:27,930
+claim three so any two is not 15 they
+
+640
+00:44:26,700 --> 00:44:29,430
+can actually skip over a lot of the
+
+641
+00:44:27,930 --> 00:44:31,740
+details here because it gets to be a bit
+
+642
+00:44:29,430 --> 00:44:40,730
+hairy but again instead of one of these
+
+643
+00:44:31,740 --> 00:44:40,730
+proofs by contradiction so suppose it is
+
+644
+00:44:47,370 --> 00:44:57,340
+well here's a way of putting it
+
+645
+00:44:51,690 --> 00:45:09,670
+if we can show there exists a subgroup M
+
+646
+00:44:57,340 --> 00:45:21,310
+of G with index equal to 5 then by same
+
+647
+00:45:09,670 --> 00:45:28,230
+argument as in claim 2 so this is you
+
+648
+00:45:21,310 --> 00:45:32,800
+know in other words replacing and with M
+
+649
+00:45:28,230 --> 00:45:35,460
+you can show that G must be isomorphic
+
+650
+00:45:32,800 --> 00:45:35,460
+to a 5
+
+651
+00:45:47,250 --> 00:45:57,600
+so that's good and here's the problem
+
+652
+00:45:51,360 --> 00:45:59,100
+with this well n 2 of a 5 is 5 you can
+
+653
+00:45:57,600 --> 00:46:06,020
+do this by sort of element counting
+
+654
+00:45:59,100 --> 00:46:06,020
+argument therefore have a contradiction
+
+655
+00:46:09,080 --> 00:46:16,170
+so how do we construct such an M well
+
+656
+00:46:13,860 --> 00:46:17,220
+I'm not going to go into detail this is
+
+657
+00:46:16,170 --> 00:46:19,020
+that this is sort of one of these
+
+658
+00:46:17,220 --> 00:46:21,420
+roundabout celo arguments where you have
+
+659
+00:46:19,020 --> 00:46:26,040
+to keep sort of like so so here the
+
+660
+00:46:21,420 --> 00:46:27,840
+issue is that clo2 subgroups don't have
+
+661
+00:46:26,040 --> 00:46:31,650
+order - they have order for so for
+
+662
+00:46:27,840 --> 00:46:33,360
+instance you don't know that they have
+
+663
+00:46:31,650 --> 00:46:35,130
+trivial intersection you know that for
+
+664
+00:46:33,360 --> 00:46:37,080
+prime order subgroups
+
+665
+00:46:35,130 --> 00:46:38,850
+they're either equal or have trivial
+
+666
+00:46:37,080 --> 00:46:41,250
+intersection that's great we don't know
+
+667
+00:46:38,850 --> 00:46:42,930
+that here in fact what you do is you
+
+668
+00:46:41,250 --> 00:46:46,860
+take advantage of this fact but you have
+
+669
+00:46:42,930 --> 00:46:50,760
+to be very careful about it so what you
+
+670
+00:46:46,860 --> 00:46:52,940
+want to do is in fact show that there
+
+671
+00:46:50,760 --> 00:46:55,800
+are CeeLo two subgroups which have
+
+672
+00:46:52,940 --> 00:46:58,050
+intersection of water two and then you
+
+673
+00:46:55,800 --> 00:46:59,730
+can show that it's normalizer must have
+
+674
+00:46:58,050 --> 00:47:01,950
+order five so let me just write that
+
+675
+00:46:59,730 --> 00:47:04,080
+down then you know you can go home if
+
+676
+00:47:01,950 --> 00:47:11,840
+you're feeling energetic and work out
+
+677
+00:47:04,080 --> 00:47:21,320
+the details so construction of m details
+
+678
+00:47:11,840 --> 00:47:32,990
+omitted but here's the rough idea show
+
+679
+00:47:21,320 --> 00:47:32,990
+there exists CeeLo two subgroups P and Q
+
+680
+00:47:33,440 --> 00:47:41,490
+such that the order of the intersection
+
+681
+00:47:37,620 --> 00:47:49,350
+is exactly - so the intersect on two
+
+682
+00:47:41,490 --> 00:47:51,120
+elements and show then that the order of
+
+683
+00:47:49,350 --> 00:47:55,589
+the normalizer
+
+684
+00:47:51,120 --> 00:48:00,089
+of P intersect Q the order not the in
+
+685
+00:47:55,589 --> 00:48:04,259
+Dex must be 12 you do this by just sort
+
+686
+00:48:00,089 --> 00:48:05,700
+of showing that well these things must
+
+687
+00:48:04,259 --> 00:48:07,259
+be normal they must commute with the
+
+688
+00:48:05,700 --> 00:48:08,789
+things in here and so you you end up
+
+689
+00:48:07,259 --> 00:48:11,009
+getting a whole lot of elements you end
+
+690
+00:48:08,789 --> 00:48:12,450
+up getting a whole lot of non identity
+
+691
+00:48:11,009 --> 00:48:13,920
+elements in here but you know that the
+
+692
+00:48:12,450 --> 00:48:15,569
+size must be bounded so you end up
+
+693
+00:48:13,920 --> 00:48:18,420
+showing that the normalizer must be 12
+
+694
+00:48:15,569 --> 00:48:20,369
+that's the basic idea it's just it's
+
+695
+00:48:18,420 --> 00:48:21,809
+just the sort of common combinatorial
+
+696
+00:48:20,369 --> 00:48:24,210
+trickery very much similar to what we've
+
+697
+00:48:21,809 --> 00:48:26,789
+done so far and this is this is enough
+
+698
+00:48:24,210 --> 00:48:28,229
+this M spices it has index 5 so that's
+
+699
+00:48:26,789 --> 00:48:36,210
+great
+
+700
+00:48:28,229 --> 00:48:43,739
+so M is equal to this normalizer of P
+
+701
+00:48:36,210 --> 00:48:47,279
+intersect q ng okay so that's great
+
+702
+00:48:43,739 --> 00:48:56,749
+this shows completely that G is
+
+703
+00:48:47,279 --> 00:49:05,999
+isomorphic to a 5 so this finishes and
+
+704
+00:48:56,749 --> 00:49:11,609
+of proof that G is isomorphic to a 5 so
+
+705
+00:49:05,999 --> 00:49:14,089
+what about a n so I don't have time to
+
+706
+00:49:11,609 --> 00:49:14,089
+go through this
+
+707
+00:49:17,990 --> 00:49:24,230
+but what I'm going to do is I'm going to
+
+708
+00:49:20,990 --> 00:49:28,520
+give you a series of sort of statements
+
+709
+00:49:24,230 --> 00:49:30,560
+that look very plausible and that if you
+
+710
+00:49:28,520 --> 00:49:33,140
+fill in the details for them you'll
+
+711
+00:49:30,560 --> 00:49:44,080
+actually be able to see immediately that
+
+712
+00:49:33,140 --> 00:49:48,070
+a n is simple so sure and it's simple
+
+713
+00:49:44,080 --> 00:49:50,119
+for n is greater than equal to five
+
+714
+00:49:48,070 --> 00:49:52,369
+their number of different ways of doing
+
+715
+00:49:50,119 --> 00:49:55,760
+this one one way of doing this is very
+
+716
+00:49:52,369 --> 00:49:57,109
+very computational I'm going to I'm
+
+717
+00:49:55,760 --> 00:50:02,150
+going to sort of give you a hint at it
+
+718
+00:49:57,109 --> 00:50:09,560
+at a different method so so the proof on
+
+719
+00:50:02,150 --> 00:50:13,130
+greatest suggests is by induction so a
+
+720
+00:50:09,560 --> 00:50:15,710
+five is part of the homework it's
+
+721
+00:50:13,130 --> 00:50:17,480
+optional homework don't worry it's I
+
+722
+00:50:15,710 --> 00:50:19,160
+mean it's it's with the usual homework
+
+723
+00:50:17,480 --> 00:50:21,800
+that there's essentially no homework for
+
+724
+00:50:19,160 --> 00:50:28,210
+next time other than reading so life is
+
+725
+00:50:21,800 --> 00:50:31,220
+good but if you're feeling gung-ho about
+
+726
+00:50:28,210 --> 00:50:33,589
+Sheila theory then there's a wonderful
+
+727
+00:50:31,220 --> 00:50:37,160
+set of exercise in Cielo theory showing
+
+728
+00:50:33,589 --> 00:50:39,470
+that a five is simple I also might
+
+729
+00:50:37,160 --> 00:50:41,540
+suggest that that going through that
+
+730
+00:50:39,470 --> 00:50:46,790
+before the next exam is very useful
+
+731
+00:50:41,540 --> 00:50:54,170
+preparation so I mean just as a sort of
+
+732
+00:50:46,790 --> 00:50:56,260
+way of testing yourself I think it's the
+
+733
+00:50:54,170 --> 00:50:58,369
+24th there's something there the next
+
+734
+00:50:56,260 --> 00:51:00,410
+yeah I mean it's it's on the webpage
+
+735
+00:50:58,369 --> 00:51:01,970
+there's a there's an e on like a normal
+
+736
+00:51:00,410 --> 00:51:04,849
+class day or something and that's that's
+
+737
+00:51:01,970 --> 00:51:07,700
+the data it's like the 24th I think I
+
+738
+00:51:04,849 --> 00:51:09,530
+mean 24th is a Monday I believe so yeah
+
+739
+00:51:07,700 --> 00:51:17,750
+we didn't want to have it on the
+
+740
+00:51:09,530 --> 00:51:19,849
+Wednesday the 26th so okay so we've done
+
+741
+00:51:17,750 --> 00:51:22,599
+the base case now what about N greater
+
+742
+00:51:19,849 --> 00:51:22,599
+than or equal to 6
+
+743
+00:51:23,510 --> 00:51:30,680
+so I'm just gonna write G equals and
+
+744
+00:51:26,780 --> 00:51:33,109
+because I'm going to want to be able to
+
+745
+00:51:30,680 --> 00:51:34,970
+talk about stabilizers of something and
+
+746
+00:51:33,109 --> 00:51:36,830
+the usual stabilizer notation is to have
+
+747
+00:51:34,970 --> 00:51:39,109
+a subscript and I can't have an
+
+748
+00:51:36,830 --> 00:51:43,250
+additional subscript with an a n without
+
+749
+00:51:39,109 --> 00:51:49,070
+a looking totally gangly so mister let G
+
+750
+00:51:43,250 --> 00:51:54,460
+be a.m. we're going to suppose for the
+
+751
+00:51:49,070 --> 00:51:54,460
+sake of arriving in a contradiction that
+
+752
+00:51:54,820 --> 00:52:06,800
+there is some normal subgroup of G which
+
+753
+00:52:00,980 --> 00:52:16,670
+is neither trivial which is neither
+
+754
+00:52:06,800 --> 00:52:18,109
+trivial nor all of G and so what we're
+
+755
+00:52:16,670 --> 00:52:19,340
+going to do is of course because we've
+
+756
+00:52:18,109 --> 00:52:20,540
+been talking about group actions and see
+
+757
+00:52:19,340 --> 00:52:24,430
+Lothian stuff is we're going to use the
+
+758
+00:52:20,540 --> 00:52:27,170
+same sorts of techniques and the first
+
+759
+00:52:24,430 --> 00:52:31,250
+example of using those techniques is
+
+760
+00:52:27,170 --> 00:52:37,220
+we're going to use the fact that G acts
+
+761
+00:52:31,250 --> 00:52:41,320
+on this set 1 through n really let GI be
+
+762
+00:52:37,220 --> 00:52:41,320
+as per the usual notation the stabilizer
+
+763
+00:52:43,510 --> 00:52:48,200
+of I so remember this is a and so of
+
+764
+00:52:46,880 --> 00:52:51,830
+course this does have a natural action
+
+765
+00:52:48,200 --> 00:52:52,640
+on this set and we can certainly let GI
+
+766
+00:52:51,830 --> 00:52:56,359
+be the stabilizer
+
+767
+00:52:52,640 --> 00:53:03,640
+what is this isomorphic to and what does
+
+768
+00:52:56,359 --> 00:53:08,000
+GI look like exactly it is a n minus 1
+
+769
+00:53:03,640 --> 00:53:10,609
+aha well a n minus 1 by induction
+
+770
+00:53:08,000 --> 00:53:13,369
+hypothesis is simple so the court crux
+
+771
+00:53:10,609 --> 00:53:14,510
+of this thing is going to be to leverage
+
+772
+00:53:13,369 --> 00:53:19,190
+the fact that we know that the
+
+773
+00:53:14,510 --> 00:53:21,640
+stabilizers are simple simplicity is
+
+774
+00:53:19,190 --> 00:53:21,640
+important
+
+775
+00:53:25,450 --> 00:53:29,500
+so I'm going to give you a series of
+
+776
+00:53:27,760 --> 00:53:33,670
+claims none of which are particularly
+
+777
+00:53:29,500 --> 00:53:35,710
+difficult to show and they will prove
+
+778
+00:53:33,670 --> 00:53:37,660
+this but you have to fill in the details
+
+779
+00:53:35,710 --> 00:53:42,490
+for these claims because we are out of
+
+780
+00:53:37,660 --> 00:53:47,770
+time first claim is that there does not
+
+781
+00:53:42,490 --> 00:53:50,349
+exist an element of H so remember H is
+
+782
+00:53:47,770 --> 00:53:53,230
+this putative non-trivial proper
+
+783
+00:53:50,349 --> 00:53:57,130
+subgroup a normal subgroup of G there
+
+784
+00:53:53,230 --> 00:54:11,950
+does not exist tau in H other than the
+
+785
+00:53:57,130 --> 00:54:13,630
+identity such that how fixes some I so I
+
+786
+00:54:11,950 --> 00:54:17,190
+mean the way that you actually sort of
+
+787
+00:54:13,630 --> 00:54:19,329
+end up using this is and just sort of
+
+788
+00:54:17,190 --> 00:54:21,940
+said to make the clinic connection here
+
+789
+00:54:19,329 --> 00:54:24,339
+clearer to make it easier to figure out
+
+790
+00:54:21,940 --> 00:54:26,980
+what happens in the next claims if I
+
+791
+00:54:24,339 --> 00:54:34,599
+know that tau one of I equals tau two of
+
+792
+00:54:26,980 --> 00:54:39,480
+I tau 1 and tau 2 being an H then I know
+
+793
+00:54:34,599 --> 00:54:43,240
+that in fact tau 1 equals tau 2 since
+
+794
+00:54:39,480 --> 00:54:49,359
+then so I'll put it this way implies
+
+795
+00:54:43,240 --> 00:54:51,339
+this since then tau 2 inverse tau 1 of I
+
+796
+00:54:49,359 --> 00:54:51,960
+equals I so this thing must be the
+
+797
+00:54:51,339 --> 00:54:56,650
+identity
+
+798
+00:54:51,960 --> 00:54:59,589
+so tau 1 most people talk to so how do
+
+799
+00:54:56,650 --> 00:55:01,990
+you show this well this sort of the
+
+800
+00:54:59,589 --> 00:55:05,790
+simplified version is to show so the
+
+801
+00:55:01,990 --> 00:55:10,059
+proof of this involves showing that GJ
+
+802
+00:55:05,790 --> 00:55:22,349
+must be a subgroup of H for all J and
+
+803
+00:55:10,059 --> 00:55:28,349
+then show that in fact the well a n
+
+804
+00:55:22,349 --> 00:55:35,109
+which is generated by all of the G ends
+
+805
+00:55:28,349 --> 00:55:37,750
+is a subgroup of H and so an is H is all
+
+806
+00:55:35,109 --> 00:55:39,160
+of an H is all of G contradicting the
+
+807
+00:55:37,750 --> 00:55:42,750
+hypothesis that
+
+808
+00:55:39,160 --> 00:55:46,690
+Asia's proper so that's a contradiction
+
+809
+00:55:42,750 --> 00:55:51,220
+so the real point is to show this fact
+
+810
+00:55:46,690 --> 00:55:52,720
+that every ggj is a subgroup of h and
+
+811
+00:55:51,220 --> 00:55:53,890
+that's that's just sort of it's using
+
+812
+00:55:52,720 --> 00:55:58,510
+the sorts of things that we've done so
+
+813
+00:55:53,890 --> 00:56:09,550
+far and then the last two things are the
+
+814
+00:55:58,510 --> 00:56:18,810
+falling so claim - given tau and H only
+
+815
+00:56:09,550 --> 00:56:26,400
+two cycles can appear in it's disjoint
+
+816
+00:56:18,810 --> 00:56:36,600
+cycle decomposition then claim three is
+
+817
+00:56:26,400 --> 00:56:36,600
+the opposite so given tau and H tau
+
+818
+00:56:37,380 --> 00:56:43,320
+doesn't just have two cycles
+
+819
+00:56:47,470 --> 00:56:51,010
+in its decomposition
+
+820
+00:56:58,210 --> 00:57:02,320
+and the way you show these things is
+
+821
+00:56:59,950 --> 00:57:04,600
+just by taking a pewter development and
+
+822
+00:57:02,320 --> 00:57:07,780
+then showing that you have some other
+
+823
+00:57:04,600 --> 00:57:12,000
+element you can get to by conjugating
+
+824
+00:57:07,780 --> 00:57:14,740
+that showing that that element must have
+
+825
+00:57:12,000 --> 00:57:19,600
+those two elements the conjugate and the
+
+826
+00:57:14,740 --> 00:57:21,280
+original element must fix or must take a
+
+827
+00:57:19,600 --> 00:57:23,440
+certain element to the same element and
+
+828
+00:57:21,280 --> 00:57:27,660
+never must take a certain number to same
+
+829
+00:57:23,440 --> 00:57:27,660
+letter and then that's it
+

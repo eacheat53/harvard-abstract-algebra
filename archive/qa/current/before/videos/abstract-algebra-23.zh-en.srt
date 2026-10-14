@@ -1,0 +1,919 @@
+1
+00:00:11,390 --> 00:00:40,868
+好的，太棒了。在过去两讲中我们都在探讨什么呢？首先，我们一直在学习西罗定理及其若干推论。
+Okay great, so what have we been doing in the last couple lectures? Well, the first thing we've been doing is we've been studying the Sylow theorems and some of its consequences.
+
+2
+00:00:40,868 --> 00:01:03,928
+西罗定理的主要假设，正如我们所学，是我们有一个群，并将其阶写为某个 p的 n 次方乘 m（p^n m），其中 p 不整除 m。
+So the main hypothesis for the Sylow theorem, as we've learned, is that we have a group and we write its order as some p to the n times m, where p doesn't divide m.
+
+3
+00:01:03,928 --> 00:01:32,771
+我们通过巧妙分析该群通过共轭作用在其p^n 阶子群上发现：首先，西罗 p-子群的数目——我们不用 ℓ 而是记为 n_p(G)，
+And what we found, by sort of a clever analysis of the group acting on its subgroups of order p^n by conjugation, is that first of all the number of Sylow p-subgroups, which instead of denoting l we denote n_p(G),
+
+4
+00:01:32,771 --> 00:01:44,940
+因为在今天的讲座中我要处理很多不同的情形，会有很多不同的素数出现，很多不同的群出现，所以在记号中同时兼顾二者（素数与群）会更好。
+because in today's lecture I'm going to want to deal with lots of different things, I'm going to have lots of different primes going on, lots of different groups going on, so it's better to be able to keep track of both of those in the notation.
+
+5
+00:01:44,940 --> 00:01:57,860
+我们观察到的第一个事实是：该数值模 p 同余于 1（n_p ≡ 1 mod p）；特别地，西罗 p-子群必然存在，
+So the first fact we observed was that this thing is congruent to 1 mod p; in particular, Sylow p-subgroups exist, otherwise it couldn't possibly—
+
+6
+00:01:57,860 --> 00:02:09,797
+否则它绝不可能——数量绝不可能模 p 同余于 1。而定理的另一部分是：西罗 p-子群的数目整除 m（n_p | m）。
+the number couldn't possibly be congruent to 1 mod p. And the other part of that was that the number of Sylow p- subgroups divides m.
+
+7
+00:02:09,797 --> 00:02:22,500
+这两条极其有用，因为在许多情况下，这种计数方法能让我们确定究竟有多少个 p^n 阶子群；例如，
+And these are really, really useful, because in many cases this sort of counting thing allows us to figure out exactly how many subgroups of order p^n there are,
+
+8
+00:02:22,500 --> 00:02:53,656
+如果你能证明对某个 p 必有 n_p(G) = 1，这就是正规子群的一个来源。另一部分结论同样极有用：任意两个西罗 p-子群都是共轭的。
+and that can be, for instance, a source of normal subgroups if you can show that n_p(G) must be 1 for some p. The other part—this is again extremely useful: any two Sylow p-subgroups are conjugate.
+
+9
+00:02:53,656 --> 00:02:58,560
+这同样非常有用，能得出很好的推论。
+It's also very useful, this has some good consequences.
+
+10
+00:02:58,560 --> 00:03:25,331
+以下是几个推论：我要提的第一个推论是，在已知存在某个西罗 p-子群的假设下，正规性的判定条件，对吧？
+So here are some consequences: the first one I'll mention is that, with the hypothesis that I have some Sylow p-subgroup, a condition for normality, right?
+
+11
+00:03:25,331 --> 00:03:40,576
+我们已经多次见过，该子群为正规子群当且仅当——由第二条结论可知——n_p(G) = 1。这是你可以大力利用的性质，它非常、非常有用。
+So we've seen several times that this thing is normal if and only if, as a result of (2), n_p(G) is equal to 1. And this is something you can leverage very heavily, it's very, very useful.
+
+12
+00:03:40,576 --> 00:03:52,104
+另一件有用的事是，一旦有了这样的西罗子群，你就对其正规化子有了很多了解。为什么？
+Another thing that's useful is that once you have a Sylow subgroup like this, you know a good deal about its normalizer. Why?
+
+13
+00:03:52,104 --> 00:04:13,788
+例如，H 在 G 中的正规化子的指数 [G : N_G(H)] 是多少？有人猜吗？没错，正好是 n_p(G)！为什么呢？
+So for instance, what is the index of the normalizer of H in G? Any guesses? No, but yes, n_p(G), exactly! So why is that?
+
+14
+00:04:13,788 --> 00:04:54,899
+让我们快速解释一下，确保大家都清楚。这正是轨道-稳定子群的计数公式：该项等于稳定子群在 G 中的指数；我的意思是，它根据定义就是G 通过共轭作用在西罗 p-子群上时的稳定子群，对吧？清楚了吗？
+Well, let's just go through a quick explanation just to make sure that this is all clear. This is just the counting formula: so this thing is the same thing as the index in G of the stabilizer; I mean, this thing is by definition the stabilizer, where we have G acting on the Sylow p-subgroups by conjugation, right? Is that clear?
+
+15
+00:04:54,899 --> 00:05:38,243
+根据计数公式，这恰好是H 在该作用下轨道的阶（大小）。再由第 (2) 条可知，这正好等于全部西罗 p-子群的数目，按定义这就是 n_p(G)。
+And we know by a counting formula that this is exactly the size of the orbit of H under this action. And then, well because of (2) over here, this thing is the same thing as the number of Sylow p- subgroups, and this is just by definition n_p(G).
+
+16
+00:05:38,243 --> 00:05:46,829
+所以这也是一个非常有用的公式，我们在今天的内容中会用到它。
+So this is also a very useful formula, and we're going to leverage this in some of what we do today.
+
+17
+00:05:46,829 --> 00:06:05,152
+第三个极其有用的推论，能为你提供很多关于结构的洞察，那就是：你可以计算特定阶的元素个数，在某些情况下这是西罗定理的结果。
+And the third sort of consequence, which is very, very useful, it gives you a lot of insight into structure, is: you can count the number of elements of particular orders in some cases as a result of the Sylow theorem.
+
+18
+00:06:05,152 --> 00:06:21,460
+例如——我想大家之前见过，我们多次见过某个图解——其背后的直觉是：假设群的阶可以写为 p m，换言之这里的指数 n 是 1。
+So for instance—and I think you've seen this before, we've seen a certain diagram many, many times before, and it's sort of the intuition behind this: suppose I can write the order of a group as p m, so in other words, the exponent n here is 1.
+
+19
+00:06:21,460 --> 00:06:48,280
+假设群的阶为 p m，且当然 p 不整除 m。那么 G 中 p 阶元素的个数是多少？有多少个p 阶元素？
+So suppose the group order is p m, and of course p doesn't divide m. Then the number of elements of order p in G is what? How many elements of order p are there?
+
+20
+00:06:48,280 --> 00:07:03,891
+记住：如果我有一个 p 阶元素，它会生成一个循环子群。现在它是一个西罗 p-子群。
+So remember, if I have an element of order p, then it generates some cyclic subgroup. Now it's a Sylow p-subgroup.
+
+21
+00:07:04,453 --> 00:07:17,397
+所有这些子群都共轭，且我们确切知道该轨道的大小是 n_p(G)；而其中每个子群含有的 p 阶元素个数是 p - 1。
+Now all these are conjugate, and we know exactly what the size of that orbit is: it's n_p(G), and the number of elements in each of these things of order p is p - 1.
+
+22
+00:07:17,397 --> 00:07:29,271
+所以答案就是 n_p(G) × (p - 1)，这又是一个非常有用的公式，例如它能帮你缩小 n_p(G) 的可能取值范围。
+So the answer is n_p(G) times (p - 1), again a very useful formula, because it can help you narrow down what n_p(G) is, for instance.
+
+23
+00:07:29,271 --> 00:07:36,746
+有些情况下，这里的公式 (1)把它缩小到几种不同可能。
+I mean, there'll be cases where the formula over here, number (1), narrows it down to a bunch of different possibilities.
+
+24
+00:07:36,746 --> 00:07:54,320
+但接下来你能做的是考察多个不同的素数，说：如果n_p(G) 是这个数，那我就会有这么多某个阶的元素，但我同时又有若干其他阶的元素，这就产生了太多个元素，超出群的总阶数了！
+But then what you can do is you can look at lots of different primes and say, well, if n_p of G were this number, then I'd have this many elements of a certain order, but I also have a certain number of elements of a certain other order, and that's too many elements, the group is too large!
+
+25
+00:07:54,320 --> 00:08:13,877
+所以这同样是一个非常有用却简单的观察。好的，我们学过哪些这类结果的应用呢？
+So this is again a very, very useful but simple observation. Okay, so what were some applications that we have more or less seen of these sorts of things?
+
+26
+00:08:13,877 --> 00:08:21,532
+在试图理解低阶群结构时，这是早期的一大有力工具。
+This was one of the big tools, big early tools in trying to understand the structure of groups of small order.
+
+27
+00:08:21,532 --> 00:08:37,279
+你几乎可以从西罗理论中得到你需要的一切，用来判定不同低阶群的同构类结构究竟如何。
+You can pretty much get everything you need out of Sylow theory for deciding what the structure, what the different isomorphism classes of groups of small order are.
+
+28
+00:08:37,279 --> 00:08:58,360
+我们来看几个展示这一点的应用：首先我们见过的是阶为 pq 的群，其中 p < q 为素数。
+So let's look at some applications that show that off. The first one that we've seen is groups of order p q, where p < q are primes.
+
+29
+00:08:58,360 --> 00:09:06,531
+关于 pq 阶群我们知道哪些结论？
+So what was one of the things that we know about groups of order pq?
+
+30
+00:09:06,531 --> 00:09:22,109
+由西罗定理，在 pq 阶群中是否必定存在正规子群？没错，是几阶的？
+I mean, are there any normal subgroups that are guaranteed in a group of order pq by the Sylow theorem? Yeah, right, so of which order?
+
+31
+00:09:22,109 --> 00:09:48,359
+保证存在一个q 阶的；而对 p 阶的情形需要更加小心。我们来看确切的表述：由我刚才擦掉的计数公式，我知道西罗 p-子群的数目必须整除 q，且模 p同余于 1。
+Well, you're guaranteed one of order q; you have to be more careful in the case of order p. So let's look at exactly what the right statement is. Just by the counting formula that I just erased here, I know that the number of Sylow p-subgroups must divide q but be congruent to 1 mod p.
+
+32
+00:09:48,359 --> 00:10:13,620
+现在因为 p < q……我是指素数 q，所以西罗 q-子群的数目西罗 q-子群模 q 同余于 1 且整除 p。所以要么是——不，我搞混了对吧？好吧，无论哪种情况，
+Now since p < q, that automatically guarantees that the number—I meant to say q there, so the number of Sylow q-subgroups is congruent to 1 mod q and divides p, so it's either—no, getting this mixed up, right? So yeah, well yeah,
+
+33
+00:10:13,620 --> 00:10:44,742
+限制条件更严的是 q 对吧？确实是 q。所以我们必然有一个正规西罗 q-子群，因为西罗 q-子群的数目必须是 1 或 p，但它同时还必须模 q 同余于 1。
+I mean in either case, it's either q or—the one that's the more restrictive, right, so it is q. So, we must have a normal Sylow q-subgroup, because the number of Sylow q-subgroups must be 1 or p, but it also must be congruent to 1 mod q.
+
+34
+00:10:44,742 --> 00:10:50,856
+而由于 q 大于 p，这就自动保证了 n_q(G) = 1。
+And since q is larger than p, that pretty much automatically guarantees that n_q(G) is 1.
+
+35
+00:10:50,856 --> 00:11:12,290
+至于另一个素数，若 p不整除 q - 1，则同理可得 n_p(G) = 1，因此你还有一个正规西罗 p-子群。
+Now as for the other, so if p does not divide q - 1, then again by the same reasoning you get that n_p(G) = 1, so you have a normal Sylow p- subgroup.
+
+36
+00:11:12,290 --> 00:11:35,633
+不难看出——我想你们大概在前一次讲座中做过——在那种情况下，你只需把西罗 p-子群和西罗 q-子群结合起来，最终得到的必是一个pq 阶循环群。
+And then it's not hard to see—I think you probably did this not last lecture, but the lecture before that—that in that case, you just put together your Sylow p- and Sylow q-subgroups, and you end up with what must be a cyclic group of order pq.
+
+37
+00:11:35,633 --> 00:11:57,664
+它们之间具有适当的交换性，因此你可以证明该群必定是阿贝尔群，所以它必同构于 Z/pqZ。
+The things sort of have an appropriate commutativity there, so you can show that the thing must be abelian, and so they must look like Z/pqZ.
+
+38
+00:11:57,664 --> 00:12:10,714
+如果 p 整除 q - 1，那么它仍有可能是 Z/pqZ，但事实上可以证明——我不确定你们是否讲过——
+If p divides q - 1, then well, it could still be the case that it's Z/pqZ, but it turns out that you can show—and I'm not sure that you did this,
+
+39
+00:12:10,714 --> 00:12:38,669
+存在一种针对非阿贝尔pq 阶群的简单构造：存在唯一的 pq 阶非阿贝尔群。唯一性证明并不特别难，但它是个较为精妙的要点。
+but there's a sort of simple construction of a group which is non-abelian of order pq: there exists a unique non-abelian group of order pq. The uniqueness part is not terribly hard, but it's the more subtle point.
+
+40
+00:12:38,669 --> 00:13:02,188
+构造这样一个群并不难：你可以通过直接取元素对（分别来自 Z/pZ 和 Z/qZ），然后定义一种有趣的乘法运算，即用 p 部分来扭曲对 q 部分的作用，但这在今天并不太重要。
+It's not hard to construct such a thing: I mean, you can sort of do it by hand by taking pairs of elements of Z/pZ and Z/qZ, and then defining a funny multiplication operation where you twist the action on the q part by the p part, but that's not that important for us today.
+
+41
+00:13:02,188 --> 00:13:09,744
+你们在书上读到的第二件事是 12 阶群。
+So the second thing that you read about in the book is groups of order 12.
+
+42
+00:13:09,744 --> 00:13:36,538
+对于 12 阶群，你可以证明：要么 G 有正规西罗 3-子群，要么 G 同构于 A_4（A_4 具有正规西罗 2-子群）。
+And with groups of order 12, you can show that either G has a normal Sylow 3-subgroup, or G is isomorphic to A_4, which has a normal Sylow 2-subgroup.
+
+43
+00:13:36,538 --> 00:13:58,872
+这很好：在群的阶为 12 的情况下，至少能保证某个正规西罗子群的存在（A_4 中有正规 2-西罗子群）。这很好。
+So this is good: so you're guaranteed, in cases where your group has order 12, at least some normal Sylow subgroup, in which case G has a normal 2-Sylow. So this is good.
+
+44
+00:13:58,872 --> 00:14:05,141
+目前为止的主题是我们可以获得正规子群。
+The theme here so far is that we get these normal subgroups.
+
+45
+00:14:05,141 --> 00:14:28,462
+正规子群非常有用，因为你往往关心群的单性（是否为单群），这对该群允许怎样的同态具有重大影响；此外它还允许你分解群，如果你能找到一个单商群之类的结构。
+Normal subgroups are very useful because you're often interested in things like simplicity of groups, because that has a big impact on what homomorphisms a group admits, and it also allows you to sort of break down groups if you can say, well, I have a sort of simple quotient or something like this.
+
+46
+00:14:28,462 --> 00:14:40,228
+无论如何，数字 12 具有 p^2 q 的形式，其中 p = 2 且 q = 3。
+So anyway, this number 12 has the shape p^2 q, where p = 2 and q = 3.
+
+47
+00:14:40,228 --> 00:14:50,140
+因此让我们更一般地考虑阶为 p^2 q 的群。我先不对素数的大小顺序做任何假设。
+So let's consider more generally groups of order p^2 q. I'm not going to make any assumption on the ordering yet.
+
+48
+00:14:50,140 --> 00:15:00,382
+这更为一般，事实上它在很大程度上可归结为 12 阶群的情形。
+So this is more general, and in fact it turns out it sort of reduces to the case of groups of order 12.
+
+49
+00:15:00,382 --> 00:15:26,384
+其分析在很多方面要简单得多，因为你会发现，当你利用关于 n_p(G) 和 n_q(G) 的公式进行计算时，唯一可能出问题的情况就是 p = 2 且 q = 3，于是只需回头参考该情形即可。那么结论是什么？
+The analysis is in many ways much simpler, because what you find is that when you do the calculations with the formulas that tell you a lot about n_p(G) and n_q(G), things can only go wrong in the case where p = 2 and q = 3, so you just then refer back to this case. So what's what's the answer?
+
+50
+00:15:26,384 --> 00:15:48,762
+如果 p > q，那么西罗定理的公式会告诉你，必然存在一个正规西罗 p-子群。
+Well, if p > q, then the formulas you know from the Sylow theorem tell you that there must be a normal Sylow p-subgroup.
+
+51
+00:15:48,762 --> 00:16:05,312
+在另一种情形下，你可以证明——并不难，我是说比这稍费点功夫，因为前一种情况几乎显然成立，而这种情况稍需计算，但也差不多——
+And in the other case, you can show—it's not hard, I mean it's a little more work than this, because that just follows trivially, but this case is a little more work, but not too much—
+
+52
+00:16:05,312 --> 00:16:36,081
+要么 G 有正规西罗 q-子群，要么 p^2 q = 12，从而回到 G 同构于 A_4 的退化情形。像这样的例子还有很多很多，但关键在于它们能给出正规子群。
+either G has a normal Sylow q-subgroup, or p^2 q = 12, and we're back to this sort of degenerate case where G is isomorphic to A_4. And there are lots more cases like this, there are tons more things like this.
+
+53
+00:16:36,081 --> 00:17:03,396
+这在两方面非常有用：其一是我已经提过的，用来证明群是否为单群；另一个用处是，如果你想弄清一个群的结构，你往往可以将其分解为若干群的乘积（其中一个是正规子群，另一个不是）。
+But again, what's great about these is that they give you these normal subgroups, and that's useful for a couple purposes: one purpose I've already mentioned, and that is showing that groups are simple or not simple, or something like that. Another use is that if you're trying to figure out the structure of a group, often what you can do is break something down into a product of groups, one of them normal, one of them not.
+
+54
+00:17:03,396 --> 00:17:14,236
+在这种情况下，有一种写下这些结构的规范体系，称为半直积（semidirect products）；
+And in that case, there's a sort of canonical system of writing these things down called semidirect products, and so you have a systematic way
+
+55
+00:17:14,236 --> 00:17:30,580
+因此你就有了一套系统的方法，可以结合西罗理论和半直积来理解各种低阶群。无论如何，我们讨论过的另一件事是 S_n 中的共轭。
+of understanding all the different groups of small order in terms of Sylow theory and semidirect products. Anyway, another of the things that we talked about is conjugacy in S_n.
+
+56
+00:17:30,580 --> 00:17:46,679
+我将非常简短地帮大家回顾一下：我们有不相交轮换分解。
+So I'll just very, very briefly remind you of what happened there: we have disjoint cycle decomposition.
+
+57
+00:17:46,679 --> 00:17:59,443
+在 S_n 中给定 τ，若 σ可写为 (a_{1 1} ... a_{1 l_1}) ... (a_{k 1} ... a_{k l_k})—
+Given tau in S_n, if sigma can be written as (a_{1 1} ... a_{1 l_1}) ... (a_{k 1} ... a_{k l_k})—
+
+58
+00:17:59,443 --> 00:18:11,249
+—即其不相交轮换分解——那么 τσ τ^{-1} 就等于 (τ(a_{1 1}) ... τ(a_{1 l_1})) 等等。
+this is its disjoint cycle decomposition—then tau sigma tau^{-1} is just equal to (tau(a_{1 1}) ... tau(a_{1 l_1})) etc.
+
+59
+00:18:11,249 --> 00:18:30,095
+因此我们知道共轭如何运作，特别是这个公式实质上表明：S_n 中的元素共轭当且仅当它们具有相同的轮换型。
+So we know how conjugacy works, and in particular this formula shows effectively that elements of S_n are conjugate if and only if they have the same cycle shape.
+
+60
+00:18:30,095 --> 00:18:40,700
+即元素共轭充要于具有相同的轮换型。
+So elements are conjugate if and only if they have the same cycle shape.
+
+61
+00:18:45,450 --> 00:18:47,963
+这很好。
+So this is good.
+
+62
+00:18:47,963 --> 00:19:15,668
+我们现在要做的是把这些主题结合起来：将西罗理论与 S_n 的研究相结合，或者更确切地说，是 S_n 的交错子群（A_n），我们将发现一些优良的性质。首先是选做作业中的内容。
+What we're going to do is now combine these sorts of themes: combine the Sylow-theoretic stuff with a study of S_n, or more accurately, the alternating subgroup of S_n, and we're going to find some nice properties. So the first one is in the optional homework assignment.
+
+63
+00:19:15,668 --> 00:19:36,063
+让我先把黑板擦掉，从考察 A_5 开始。结合西罗理论和S_n 中的共轭，我们要研究的第一个问题是：A_5 长什么样？
+So let me just erase this, and start by looking at A_5. So the first case we're going to study that combines the Sylow theory stuff and conjugacy in S_n is: what does A_5 look like?
+
+64
+00:19:36,063 --> 00:19:52,575
+我们在讨论几何内容时曾获得过一些线索，因为我们发现某个作为物体对称群出现的特定群，看起来必然是 A_5，但我们从未证明它确实是。
+We've had some hints of this when we were looking at the geometric stuff, because we found that a particular group that arose as the symmetries of an object looked like something that must be A_5, but we never proved that it really was.
+
+65
+00:19:52,575 --> 00:20:09,284
+现在我将给出一个能够证明该结论的定理；或者至少在选做作业中，你会找到一系列引导你完成其中一部分的题目，然后我在这里通过一个逆命题来完成整个证明。
+Well, I'm going to give you a result that does do that, or at least on the optional homework assignment you'll find a set of things that lead you through one part of that, and then I'll finish that off here with a converse.
+
+66
+00:20:09,284 --> 00:20:26,870
+首先你需要知道的关键事实是——这也是选做作业上的内容——A_5 是单群。所以它是 60 阶单群。
+So the first main thing you need to know, and this is what's on the optional homework assignment, is that A_5 is simple. So it's a simple group of order 60.
+
+67
+00:20:26,870 --> 00:20:35,299
+而我现在想做的是证明其逆命题。
+And what I want to do now is prove a converse.
+
+68
+00:20:36,640 --> 00:21:03,333
+这个逆命题是什么呢？逆命题是：若 G 是 60 阶单群，则 G 事实上同构于 A_5。
+So what's this converse? Well, the converse is: if G is a simple group of order 60, then G is in fact A_5.
+
+69
+00:21:03,333 --> 00:21:15,576
+我们在几讲之前证明过该对称群是 60 阶群且为单群，所以这个定理补全了证明并告诉你它必然同构于 A_5。
+So we showed that this symmetry group several lectures ago was a group of order 60 and that it was a simple group, so this result finishes it off and tells you that the thing must be A_5.
+
+70
+00:21:15,576 --> 00:21:45,660
+但在某种意义上该结果依赖于“A_5 是单群”，所以除非你做了那些习题，否则它还不算完全封闭；但这也只不过是我目前所讲内容的一个应用。让我们开始证明吧。现在来看证明：来看几件显然可能派上用场的事。
+But in some sense this result relies on that result, so it's not entirely complete unless you do the exercises, but this is just an application of the sorts of things I talked about so far. So let's start proving the thing. Now, proof: well, let's see a couple of things that are kind of obviously potentially useful.
+
+71
+00:21:45,660 --> 00:22:18,010
+首先，n_2(G) 模 2 同余于 1 且整除 15，所以这——这给出它整除 15——说整除 30 完全是胡话！所以该数值只能等于 3、5 或 15。
+First one is that, well, n_2(G) is congruent to 1 mod 2 and divides 15, and so this— this gives us it divides 15, because 2 divides 30, that's utter nonsense! So this thing must be equal to either 3, 5, or 15.
+
+72
+00:22:18,010 --> 00:22:37,679
+我们可以尝试做的是——一个合理的策略是——对，这是西罗 2-子群的数目，n_2(G) 是西罗2-子群的数目。
+And what we can try to do, a decent strategy is—yeah, is the number of Sylow 2-subgroups, n_2(G) is the number of Sylow 2-subgroups.
+
+73
+00:22:37,679 --> 00:22:48,454
+不，我的意思是它整除这里的 m；我们知道它模 2 同余于 1 且整除 15。
+No, no, what I mean is it divides whatever this number m is; we know that it is congruent to 1 mod 2 and that it divides 15.
+
+74
+00:22:48,454 --> 00:22:51,316
+这就是西罗定理告诉我们的。
+This is what the Sylow theorem tells us.
+
+75
+00:22:51,316 --> 00:23:16,010
+所以我打算采用的策略是：首先证明该数不可能是 3，只需用常规工具即可；然后证明 G 中存在一个指数为 5 的子群 N。指数为 5！
+So the strategy that I'd like to use is: first show that this thing is not 3, by sort of just general tools; then show that there exists a subgroup of G, call it N, of index 5. Index 5!
+
+76
+00:23:16,010 --> 00:23:35,979
+此时你脑中应该警铃大作——我在这里用字母 N，它很可能会作为某个西罗子群的正规化子出现；第三件事则是利用 G 在陪集空间上的作用。
+Now this should be ringing a bell—I'm using the letter N here, so this will probably arise as the normalizer of some Sylow subgroup; and the third thing to do is to use the action of G on the coset space.
+
+77
+00:23:35,979 --> 00:23:45,511
+如果你有一个群 G，它自然通过左平移乘法作用在陪集空间上。
+If you have some group G, it certainly acts on its coset space by translation, by left multiplication.
+
+78
+00:23:45,511 --> 00:23:51,624
+如果 N的指数为 5，那么该陪集空间的大小就是 5。
+So if N has index 5, then this coset space has size 5.
+
+79
+00:23:51,624 --> 00:24:11,628
+于是我就有了这个群作用，群中的每个元素都在诱导 5 元集合上的一个置换；因此你实际上得到了一个从 G 到 5 个元素上的对称群（S_5）的同态，我们正是要由此提炼出与 A_5 的同构。
+So I have this group action, and each element of the group is inducing some permutation of a set of five elements, and so you effectively have a homomorphism from G to the symmetric group on five elements, and it's from that that we're going to extract the isomorphism with A_5.
+
+80
+00:24:11,628 --> 00:24:35,135
+我稍后会详细解释，但这只是一个预告，让大家了解我们的策略逻辑；我们将证明这只给出陪集空间上的偶置换。
+I'll explain that in detail later, but this is just a preview to keep you aware of what's going on with the strategy; and we'll show that this has only even permutations of the coset space.
+
+81
+00:24:35,135 --> 00:25:31,509
+让我们从第一部分开始：正如我刚才所说，我的第一个断言是：n_2(G) 不等于 3。因此只需证明 G 没有指数小于 5 的真子群；因为若 P 是西罗 2-子群，
+So let's start with the first part of this: the first thing I claim, as I said over here, is that n_2(G) is not equal to 3. So it suffices to show G has no subgroups of index less than 5, since if P is a Sylow 2-subgroup,
+
+82
+00:25:31,509 --> 00:26:00,231
+我们此前看到P 在 G 中的正规化子的指数必等于 n_2(G)；如果这个数是 3，就会与 G 没有指数小于 5 的子群这一事实产生矛盾。
+we saw before that the normalizer of P in G must have index equal to n_2(G), and if this thing is 3, then it contradicts the fact that G has no subgroups of index less than 5.
+
+83
+00:26:00,231 --> 00:26:13,210
+指数小于 5——它当然有指数为 5 的子群，但绝没有指数小于 5 的。
+So, less than 5; it has certainly subgroups of index 5, but none of index less than 5.
+
+84
+00:26:13,210 --> 00:26:33,299
+所以让我们证明这一部分。假设我们有一个子群——我也应该强调是真子群，或非平凡的，对，真子群。
+So let's prove this part. So suppose we have a subgroup—I should also say proper, or non-trivial, yeah, proper subgroups.
+
+85
+00:26:33,299 --> 00:26:55,545
+假设 H 在 G 中的指数 [G : H] 是 2、3 或 4。那么我有一个G 在陪集空间上的作用，即通过左乘平移。
+So suppose the index of H in G is 2, 3, or 4. Well then, I have an action of G on the coset space; this is by left multiplication.
+
+86
+00:26:55,545 --> 00:27:22,060
+我们知道群在其陪集空间上的左乘作用是可递的（transitive），这很好；且 G 中的每个 g 都诱导了陪集空间 G/H 上的一个置换。
+Now we know that the action of a group on cosets, its coset space by left multiplication, is transitive, so that's good; and every g in G induces a permutation of this coset space G/H.
+
+87
+00:27:22,060 --> 00:27:41,472
+所以实际上，自然作用 G 在 G/H 上给出了一个从 G 出发的同态——你需要验证它确实是一个同态，但这并不难——
+So in effect, the natural action of G on G/H gives us a homomorphism from G—and you have to verify this thing really is a homomorphism, but that's not hard—
+
+88
+00:27:41,472 --> 00:28:05,646
+所以存在一个同态 φ : G → Sym(G/H)，即到达陪集空间 G/H 上的对称群。换句话说，这把元素 g 映为 g 诱导的置换。
+so there's a homomorphism phi from G to the symmetric group on the coset space G/H. In other words, this takes element g to the permutation induced by g.
+
+89
+00:28:05,646 --> 00:28:28,970
+现在让我们讨论一下它的核（kernel）。那么这个核（ker φ）可能是整个 G 吗？
+Now let's talk a bit about the kernel. So can the kernel possibly be all of G?
+
+90
+00:28:35,680 --> 00:28:47,995
+考虑这里发生了什么：G 通过左平移作用在 G/H 上。H 是某个真子群，所以 H 不是整个 G。
+Well, consider what's happening here: we have G acting on G/H by left translation. Now H is some proper subgroup, so H is not all of G.
+
+91
+00:28:47,995 --> 00:28:56,713
+我们知道，如果某个元素在陪集空间 G/H 上的作用是平凡的，那它最好属于 H，对吧？
+We know that if something is going to act trivially on the coset space G/H, well then it had better be in H, right?
+
+92
+00:28:56,713 --> 00:29:06,930
+这正是该作用的定义：元素仅当相差一个 H 中元素的乘法时才等价，这就是陪集的原理。
+And that's just the definition of the action: things are equivalent only if they differ by multiplication by an element of H, that's how cosets work.
+
+93
+00:29:06,930 --> 00:29:17,759
+因此由普遍原理，核必然包含在 H 中（ker φ ⊆ H）。它是 G 的正规子群且包含在 H 中。
+So the kernel must be contained in H, just by general principles. It's a normal subgroup of G which is also contained in H.
+
+94
+00:29:17,759 --> 00:29:50,337
+而 H 是 G 的一个真子群，所以核不是整个 G。此外我们还知道一件事，我们这里的假设是：G 是单群，对吧？这个核是正规子群，而 G 是单群。
+This thing is a proper subgroup of G, so this thing is not all of G. Moreover we know something, we had a hypothesis here: G is simple, right? This thing is normal, so G is simple.
+
+95
+00:29:50,337 --> 00:30:07,845
+那么 φ 的核是什么？是平凡子群！φ 的核必为平凡群 {e}，这就是单群的定义。
+What is kernel of phi? It's trivial! The kernel of phi must be trivial, that's the definition of simple.
+
+96
+00:30:07,845 --> 00:30:17,510
+那么第一同构定理告诉我们什么？没错，同构定理告诉我们 φ 必然是单射！
+So what does the isomorphism theorem tell us? Exactly, the isomorphism theorem tells us that phi must be injective!
+
+97
+00:30:22,330 --> 00:30:45,754
+事实上你甚至不需要同构定理，我只需说 φ 是单射即可。G 同构于陪集空间G/H 上对称群的某个子群。
+In fact, you don't even need the isomorphism theorem, I can just say that phi is injective. G is isomorphic to some subgroup of the symmetric group on the coset space G/H.
+
+98
+00:30:45,754 --> 00:31:00,862
+好了，为什么这是一个矛盾？同学们，为什么这是矛盾？我有 G，作为 Sym(G/H) 的子群。
+Okay, so why is this a contradiction? Okay class, so why is this a contradiction? So I have G, a subgroup of Sym(G/H).
+
+99
+00:31:00,862 --> 00:31:09,826
+而这正好是对称群；确切地说，它正是 [G : H] 个字母上的对称群 S_k。
+Now this thing just looks like the symmetric group; exactly, this thing is just the symmetric group on the index of H in G letters.
+
+100
+00:31:09,826 --> 00:31:24,050
+按假设，该指数是 2、3 或 4，所以该对称群的阶是 2!、3! 或 4!，但 G 是 60 阶群！
+So by hypothesis, this index was 2, 3, or 4, so this thing has order 2!, 3!, or 4!, but G is a group of order 60!
+
+101
+00:31:24,050 --> 00:31:41,007
+60 阶群绝不可能嵌入其中，矛盾！所以 G 中绝不可能存在指数小于 5 的真子群。
+It can't possibly fit in there, we have a contradiction! So indeed there can't possibly be a proper subgroup of G with index less than 5.
+
+102
+00:31:41,007 --> 00:31:59,791
+因此，因为西罗 2-子群在 G 中的正规化子指数必须等于西罗 2-子群的数目，该数目不可能是 3，所以 n_2(G) ≠ 3。我们排除了这种情形。
+And therefore, because the index of the normalizer of a Sylow 2-subgroup in G must equal the number of Sylow 2-subgroups, that number can't be 3, and so n_2(G) is not 3. We've eliminated that case.
+
+103
+00:31:59,791 --> 00:32:20,947
+这个第一断言的优妙之处在于，它为我们铺平了道路，以便证明在n_2(G) 等于 5 的情形下，我们这里有一个自然的作用，而且极其精彩的是，我们可以证明它将拥有与此处完全相同的性质，
+What's good about this as a first claim is that it sets us up to show that in the case where n_2(G) is 5, n_2(G) is 5, we have a natural action going on here, and we can in fact show wonderfully enough that that thing is going to have all the same properties here as here, in other words giving
+
+104
+00:32:20,947 --> 00:32:39,406
+换言之给出一个到对称群的单射嵌入，并且我们能够证明那里的所有元素都必然属于交错群，它们必须是偶置换；又因为 G 的阶是 60，它必然恰好是整个 A_5。
+an injection into the symmetric group, and we're going to be able to show that all the elements there must be elements of the alternating group, they must be even permutations; and since G has order 60, it's going to have to be the full A_5.
+
+105
+00:32:39,406 --> 00:33:13,685
+让我来一步步梳理这个证明。断言 2：若 n_2(G) = 5，则 G 同构于 A_5。证明如下：同样，设 P 为某个西罗 2-子群。
+So let me go through that. So Claim 2: if n_2(G) is 5, then G is isomorphic to A_5. Proof: so again, P is going to be some Sylow 2- subgroup.
+
+106
+00:33:13,685 --> 00:33:39,129
+令 N 为 P 在 G 中的正规化子 N_G(P)；正如前面多次提到的，N 在 G 中的指数 [G : N] 就是 n_2(G)，按假设它等于 5。于是我们有了这个指数为 5 的子群；同样，我们有 G 在陪集空间G/N 上的作用。
+Let N be the normalizer of P in G, and as mentioned several times before, the index of N in G is n_2(G), which is by hypothesis 5. So we have this index 5 subgroup, and again we have an action of G on the coset space G/N.
+
+107
+00:33:47,440 --> 00:34:15,952
+于是我们再次得到一个同态：存在一个映射 φ : G → Sym(G/N)，在本例中同构于 S_5，因为 G/N 包含 5 个元素。
+And so again we have a homomorphism: we have a phi going from G to Sym(G/N), which in this case is isomorphic to S_5, because G/N has 5 elements.
+
+108
+00:34:15,952 --> 00:34:41,135
+同样沿用刚才的论证：我们知道 N 是真子群，所以核不是整个 G。
+And again, same sort of argument as over here: well, we know that N is proper, so the kernel is not all of G.
+
+109
+00:34:41,135 --> 00:34:59,133
+因此由单群性，我们知道核必为平凡群，所以我们可以将 G 真正视作对称群的一个子群。
+Therefore, by simplicity, we know that the kernel is trivial, and so we think of G as being really a subgroup of the symmetric group here.
+
+110
+00:34:59,133 --> 00:35:02,840
+噢抱歉，请问？
+Oh sorry, yep?
+
+111
+00:35:09,559 --> 00:35:20,053
+核因为 N 是真子群而成为真子群的理由，与这里的论证相同。
+So the reason that the kernel is proper as a result of N being proper is the same argument as the one over here.
+
+112
+00:35:20,053 --> 00:35:33,559
+这里的思路是，让我们想想陪集是如何运作的：什么时候 G 中的元素可能使得在 G/H 上的作用完全是平凡的？
+So the idea was, well, let's think about how cosets work: when can I possibly have an element of G which is going to make the action on G/H completely trivial?
+
+113
+00:35:33,559 --> 00:35:41,225
+陪集的定义正是模去 H 中元素的乘法等价。
+Well, the definition of cosets is by this equivalence up to multiplication by H.
+
+114
+00:35:41,225 --> 00:35:50,074
+如果我有一个元素在 H 之外，它就会把我带到另一个非平凡陪集中；这相当于乘以某个会改变我位置的元素。
+If I have something outside of H, that's sort of bringing me into another non-trivial coset; it amounts to multiplying by something that shifts me around.
+
+115
+00:35:50,074 --> 00:36:19,354
+乘上某个元素后能保持留在原位的唯一可能，就是该元素属于我用来作商的子群中，在上例中是 H，在此处则是 N。既然 N 是真子群，φ 的核包含在 N 中（ker φ ⊆ N），所以φ 的核也是真子群。
+The only way I can stay in the same place by multiplying by something is if I have something in what I'm quotienting by, and that's in this case H, and in this case N. And so N is proper, the kernel of phi is contained in N, and so the kernel of phi is proper.
+
+116
+00:36:19,354 --> 00:36:43,429
+听明白了吗？好的。好的。好的，所以这与之前的论证完全相同。核是平凡的这一事实告诉我们该同态是单射。
+Does that make sense? Okay. Yeah. Okay, so again it's the same sort of argument as before. So the fact that the kernel is trivial tells us that this homomorphism is injective.
+
+117
+00:36:43,429 --> 00:36:48,081
+那么问题是：我们怎么知道 G 包含在 S_5 中？
+So the question is, yeah, how do we know that G is contained in S_5?
+
+118
+00:36:48,081 --> 00:36:59,930
+因为该同态是单射，而这里的目标群就是S_5（5 个字母上的对称群），因此我们可以认为 G 就是其子群：
+Well, this thing is injective; this thing just looks like S_5, because it's a symmetric group on 5 letters. And so we can imagine that G is just a subgroup:
+
+119
+00:36:59,930 --> 00:37:15,574
+我们可以将 G 与它在该同态下的像等同起来。我是指，因为是单同态，G 同构于其在同态下的像，所以我们只需把它们看作实际上就在 S_5 中。
+we can identify G with its image under this homomorphism. I mean, G is isomorphic to its image under the homomorphism because it's an injective homomorphism, and so it suffices for us to think of these things as actually just being in S_5.
+
+120
+00:37:15,574 --> 00:37:36,710
+在某种意义上这是一种记号上的便利，抱歉，也许我应该加个引号，但核心思想是我们将 G视为 S_5 的子群，因为我们有一个从 G 到 S_5 的单同态。是的，事实上它不可能是满射。
+It's a—sorry, it's a notational convenience in some sense, so perhaps I should put this in quotes, but the idea is we think of G now as being a subgroup of S_5, because we have an injective homomorphism from G to S_5. Yeah, it's not going to be surjective in fact.
+
+121
+00:37:36,710 --> 00:37:50,047
+所以对，将其看作子群是完全合理的，但我们绝不能认为它等于整个群；事实上我们知道它们并不相等。
+So yeah, it's it makes good sense for us to think of it as being a subgroup, but we can't think necessarily that this thing is actually equal; in fact we know they're not equal.
+
+122
+00:37:50,047 --> 00:38:29,910
+为什么？因为按假设 G 的阶是 60，而 S_5 的阶是 120（即 60 的两倍），所以它们不相等。好的。现在假设 G 不包含在 A_5 中。
+Why? Well, because by hypothesis G has order 60, and S_5 has order 120, so two times that, so they're not equal. Okay. Now let's suppose that G is not contained in A_5.
+
+123
+00:38:29,910 --> 00:38:54,423
+换句话说，存在 G 的某个元素不属于 A_5。记住 A_5 在 S_5 中的指数是 2，所以这意味着 G A_5必定是整个 S_5，对吧？
+In other words, there's some element of G which is not in A_5. Well, remember A_5 has index 2 in S_5, so that implies that G A_5 must be all of S_5, all right?
+
+124
+00:38:54,423 --> 00:39:01,403
+因为通过与该元素相乘得到另一个陪集，从而得到整个 S_5。
+Because multiplying by this thing I get the other coset, so I get all of S_5.
+
+125
+00:39:01,403 --> 00:39:26,785
+然后根据我们之前见过的公式——我想你们甚至可能在作业中做过，属于那种子群指数公式，事实上你可以非常直接地证明它，不需要依赖任何高深的定理——这就表明 A_5∩ G 在 G 中的指数 [G : A_5 ∩ G] 是 2。
+And then by a formula we've seen before—I think you might have even had to do this on homework, this is one of these index formula type things, in fact you can show this pretty directly, I mean you don't need to rely on anything sophisticated, but you can—and that shows that the index of A_5 intersect G in G is 2.
+
+126
+00:39:26,785 --> 00:39:35,090
+你可以直接证明这一点，这并不难，但这才是最重要的一点！
+You can show this directly, it's not a big deal, but this is the most important thing!
+
+127
+00:39:35,090 --> 00:39:52,610
+这意味着 A_5 ∩ G 在 G 中必为正规子群，对吧？指数为 2 的子群自动正规！这简直是——这非常重要，对吧？
+And that implies that A_5 intersect G must be normal in G, right? Index 2 subgroups are automatically normal! Well, this is a—this is pretty important, right?
+
+128
+00:39:52,610 --> 00:40:09,759
+因为关于 G 我们知道什么？按假设 G 是单群！而这是 G 的一个非平凡真正规子群，这产生了矛盾！
+Because what do we know about G? Well, by hypothesis G was simple! This thing is a non-trivial proper normal subgroup, this is a contradiction!
+
+129
+00:40:09,759 --> 00:40:27,481
+与 G 的单群性矛盾！所以我们确实必然有 G 是 A_5 的子群。因此 G 实际上是A_5 的子群。
+Contradiction to simplicity! So we must indeed have that G is a subgroup of A_5. Therefore G is in fact a subgroup of A_5.
+
+130
+00:40:27,481 --> 00:40:42,620
+现在 G 的阶是 60，而 A_5 的阶也是 60，由此可知它们必然相等！太棒了！
+Now this thing has order 60, and this thing has order 60, it follows that they must be equal! Yay!
+
+131
+00:40:42,620 --> 00:41:00,568
+所以我们实际上证明了在这种情形下 G 就是 A_5，或者至少同构于 A_5。对，是的，我的意思是没错。
+So we've actually shown that in this case G is A_5, or at least isomorphic to A_5. Yeah, yeah, so I mean, well, right.
+
+132
+00:41:00,568 --> 00:41:08,760
+所以你需要的是用这个来说明该子群是正规的。我的意思是，你知道 A_5 在 S_5 中是正规的，是的，那么它是一个同态（符号同态）的核。
+So what you need is that you need this thing to show that the thing is normal, okay. I mean, you know that A_5 is normal in S_5, yes, then it's the kernel of a homomorphism.
+
+133
+00:41:08,760 --> 00:41:26,311
+但在某种意义上这里似乎存在一个小疑虑：我是指，这在某种意义上可能是一个矛盾——比方说，万一 A_5 不是单群，那么我实际上就导出了某种其他矛盾，从而证明在那种情况下 n_2(G) 不能等于 5。
+But there is a sense in which there's a bit of an issue with this thing: I mean, this could be in some sense a contradiction: I mean, it could be, for instance, that A_5 is not simple, and so that I've actually arrived at some sort of other contradiction, which would show in that case that n_2(G) is not equal to 5.
+
+134
+00:41:26,311 --> 00:41:33,596
+我是说，这本来可能是一种设想的推导走向，但我们此前已有命题说明 A_5 确实是单群！
+I mean, this could have been a sort of conceivable direction of things, but we have a previous proposition saying this thing is in fact simple!
+
+135
+00:41:33,596 --> 00:41:50,940
+所以一切顺利，结果完美，而且你实际上可以直接验证 n_2(A_5) 就是 5，所以完全没有任何矛盾。你说它为什么正规？
+So everything's fine, everything is wonderful, and you can in fact show directly that n_2(A_5) is 5, so there's no inconsistency. Yeah, it's normal?
+
+136
+00:41:50,940 --> 00:42:23,530
+噢，看：假设我有假设我有指数为 2 的子群，H 在 G 中的指数为 2，我想证明 H 是正规子群。好的，假设我在 G 中取某个元素 g。当然，若 g 属于 H，则 g H = H g，因为它们就是H 本身。
+Oh, well, look: suppose I have suppose I have something of index 2, H in G is of index 2, and I want to show that H is normal. Well, suppose I take some g in G. Well, certainly if g is in H, then g H equals H g, because that's just H, I'm just getting H back.
+
+137
+00:42:23,530 --> 00:42:34,858
+所以在那种情况下，若 g 属于 H，自动有 g H = H g。
+So in that case, if g is in H, you automatically get g H equals H g.
+
+138
+00:42:34,858 --> 00:42:44,716
+但假设 g 不属于 H。那么左陪集 g H 就等于——因为指数为 2——等于 G 中不属于 H 的全部元素；因为整个群被划分成了两块。
+But suppose g is not in H. Well, g H is then equal to all the things—because this thing has index 2—is equal to all the things in G that are not in H; I mean, I just partitioned the group into two pieces.
+
+139
+00:42:44,716 --> 00:42:55,863
+但同理，右陪集H g 也是同一回事：它是 G 中所有不属于 H 的元素。所以它们相等：g H = H g。
+But likewise, the right coset H g is the same thing: it's all the elements of G that are not in H. So these things are equal: g H equals H g.
+
+140
+00:42:55,863 --> 00:43:13,520
+因此对所有 g 都有 g H g^{-1} = H，故 H 是正规子群！太棒了。噢对，对，抱歉。
+Therefore g H g^{-1} equals H for all g, therefore H is normal! Great. Oh yeah, oh yeah, sorry.
+
+141
+00:43:16,440 --> 00:43:28,400
+对，对，这很值得写下来。是的，至少在之前的复习中讲过。
+Yeah, yeah, that's worth writing down. Yeah, at least in some review before.
+
+142
+00:43:32,070 --> 00:43:53,455
+是的，这证明了任何指数为 2 的子群都是正规的。我以为这是作业题或者什么的。对，我不太清楚，不过这绝对是一个必须掌握的事实。
+Yeah, this shows that any subgroup of index 2 is normal. I thought this was a homework problem or something. Yeah, I don't know, but this is definitely a good fact to know.
+
+143
+00:43:53,455 --> 00:43:58,367
+我是说，你应该知道指数为 2 的子群是正规子群，你平时可以经常利用这一点。
+I mean, you should know that subgroups of index 2 are normal, you can definitely leverage this quite often.
+
+144
+00:43:58,367 --> 00:44:26,317
+我的意思是，这是一个非常非常有用的事实。让我把这个写成：命题：指数为 2 的子群正规。证明完毕——好的，这就算正式写下了。好的。断言 3：n_2(G) 不能是 15。
+I mean, it's a very, very, very useful fact. So let me just label this thing: Proposition: Subgroups of index 2 are normal. Proof—yeah, that's official. Okay. Claim 3: n_2(G) is not 15.
+
+145
+00:44:26,317 --> 00:44:40,730
+我们实际上可以跳过这里的许多细节，因为这开始变得有点繁琐棘手，但这同样是一个反证法：假设它是 15。
+We can actually skip over a lot of the details here because it gets to be a bit hairy, but again it's one of these proofs by contradiction: so suppose it is.
+
+146
+00:44:47,170 --> 00:45:35,460
+这么说吧：如果我们能证明 G 中存在一个指数等于 5 的子群 M，那么由与断言 2 相同的论证——换句话说，只需将 N 替换为 M——你就可以证明 G 必须同构于 A_5。
+Well, here's a way of putting it: if we can show there exists a subgroup M of G with index equal to 5, then by the same argument as in Claim 2—in other words, replacing N with M—you can show that G must be isomorphic to A_5.
+
+147
+00:45:47,050 --> 00:45:48,809
+这很好。
+So that's good.
+
+148
+00:45:48,809 --> 00:46:06,020
+但矛盾点在这里：A_5 的 n_2(A_5) 是 5——你可以通过元素计数的论证算出来——因此我们得到了矛盾！
+And here's the problem with this: well, n_2(A_5) is 5—you can do this by sort of an element-counting argument—therefore we have a contradiction!
+
+149
+00:46:08,880 --> 00:46:15,708
+那么我们如何构造这样的 M 呢？我不打算细讲细节。
+So how do we construct such an M? Well, I'm not going to go into detail.
+
+150
+00:46:15,708 --> 00:46:27,494
+这属于那种绕弯子的西罗论证，在这里问题在于：西罗 2-子群的阶不是 2，它们的阶是 4。
+This is sort of one of these roundabout Sylow arguments where you have to keep—so here the issue is that Sylow 2-subgroups don't have order 2, they have order 4.
+
+151
+00:46:27,494 --> 00:46:39,816
+所以例如，你不能保证它们两两相交只有平凡元。你知道对于素数阶子群，它们要么相等要么交集平凡；那很棒，但在这里我们并不知道这一点。
+So for instance, you don't know that they have trivial intersection. You know that for prime-order subgroups, they're either equal or have trivial intersection; that's great, but we don't know that here.
+
+152
+00:46:39,816 --> 00:46:45,719
+事实上你所做的反而是利用这个事实，但你必须非常谨慎。
+In fact, what you do is you take advantage of this fact, but you have to be very careful about it.
+
+153
+00:46:45,719 --> 00:46:59,060
+所以你要做的是证明：存在两个西罗 2-子群，其交集的阶恰好为 2；然后你可以证明其正规化子的指数必须为 5。
+So what you want to do is show that there are Sylow 2-subgroups which have intersection of order 2, and then you can show that its normalizer must have index 5.
+
+154
+00:46:59,060 --> 00:47:20,097
+让我先把这写下来，大家要是精力充沛可以回去自己补全细节：M 的构造，细节省略，但大体思路是：
+So let me just write that down, and then you can go home if you're feeling energetic and work out the details: construction of M, details omitted, but here's the rough idea:
+
+155
+00:47:20,097 --> 00:47:57,239
+证明存在西罗 2-子群 P 和 Q 使得其交集的阶恰好为 2——即交集包含 2 个元素；进而证明 P ∩ Q 的正规化子的阶——是阶，不是指数——必须是 12。
+show there exist Sylow 2-subgroups P and Q such that the order of the intersection is exactly 2—so they intersect in 2 elements—and show then that the order of the normalizer of P intersect Q—the order, not the index—must be 12.
+
+156
+00:47:57,239 --> 00:48:15,369
+具体做法是证明这些元素在其内部正规，它们必须与这里的元素交换，于是你最终得到了大量的元素，你最终在其中得到了大量非单位元，但你知道其大小必须有界，所以最终证明正规化子的阶必须是 12。
+You do this by just sort of showing that these things must be normal, they must commute with the things in here, and so you end up getting a whole lot of elements, you end up getting a whole lot of non-identity elements in here, but you know that the size must be bounded, so you end up showing that the normalizer must be 12.
+
+157
+00:48:15,369 --> 00:48:24,010
+这就是基本思路，纯粹是常见的组合技巧，与我们目前所做非常相似，这就足够了。
+That's the basic idea, it's just the common combinatorial trickery, very much similar to what we've done so far, and this is enough.
+
+158
+00:48:24,010 --> 00:48:43,539
+这个 M 就满足要求，它的指数是 5（60/12 = 5），太棒了！所以 M 就等于 P ∩ Q 在 G 中的正规化子。好的，这很棒。
+This M suffices, it has index 5, so that's great! So M is equal to this normalizer of P intersect Q in G. Okay, so that's great.
+
+159
+00:48:43,539 --> 00:49:08,604
+这就完全证明了 G 同构于 A_5。因此这就完成了 G 同构于 A_5 的证明。那么 A_n 呢？
+This shows completely that G is isomorphic to A_5. So this finishes the proof that G is isomorphic to A_5. So what about A_n?
+
+160
+00:49:08,604 --> 00:49:47,870
+我没有时间仔细讲完这个，但我要做的是给大家列出一系列看起来非常合理的陈述，如果你们填补其中的细节，你实际上能立刻看出 A_n 是单群。定理：A_n 对所有 n ≥ 5 都是单群。
+I don't have time to go through this, but what I'm going to do is give you a series of statements that look very plausible, and that if you fill in the details for them, you'll actually be able to see immediately that A_n is simple. So theorem: A_n is simple for n >= 5.
+
+161
+00:49:47,870 --> 00:50:04,778
+证明这个定理有许多不同的方法。其中一种方法计算量非常大。我打算向大家提示另一种不同的方法。
+There are a number of different ways of doing this. One way of doing this is very, very computational. I'm going to give you a hint at a different method.
+
+162
+00:50:05,469 --> 00:50:08,865
+我建议的证明是使用归纳法。
+The proof I'm going to suggest is by induction.
+
+163
+00:50:08,865 --> 00:50:22,601
+A_5 是作业的一部分；这是选做作业，别担心，我是指，按常规作业来说，下次除了阅读之外基本上没有作业，所以生活很美好！
+So A_5 is part of the homework; it's optional homework, don't worry, it's—I mean, with the usual homework, there's essentially no homework for next time other than reading, so life is good!
+
+164
+00:50:22,601 --> 00:50:35,837
+但如果你对西罗理论干劲十足，那么有一组非常精彩的西罗理论习题，证明 A_5 是单群。
+But if you're feeling gung-ho about Sylow theory, then there's a wonderful set of exercises in Sylow theory showing that A_5 is simple.
+
+165
+00:50:35,837 --> 00:50:58,169
+我还要建议大家，在下次考试前做一遍是非常有益的备考，可以作为自我检验。我想下次期中考是在 24 号左右，对，网页上写着。
+I also might suggest that going through that before the next exam is very useful preparation, just as a way of testing yourself. I think the next exam is on the 24th or something, yeah, I mean it's on the webpage.
+
+166
+00:50:58,169 --> 00:51:19,271
+是在正常上课日考试，具体日期大概是 24 号，我记得 24 号是周一，对，我们不想把它放在 26 号周三。好的，我们已经完成了归纳奠基。
+There's an exam on a normal class day or something, and that's the date, it's like the 24th I think, I mean 24th is a Monday I believe, so yeah, we didn't want to have it on the Wednesday the 26th. Okay, so we've done the base case.
+
+167
+00:51:19,271 --> 00:51:23,310
+现在 n ≥ 6 时的情况如何？
+Now what about n >= 6?
+
+168
+00:51:23,310 --> 00:51:44,081
+我将直接记 G = A_n，因为我需要谈论某元素的稳定子群，而稳定子群的常规记号是带有下标，如果给 A_n 再加一个下标看起来会太笨拙臃肿，所以我们直接记 G = A_n。
+So I'm just going to write G = A_n, because I'm going to want to be able to talk about stabilizers of something, and the usual stabilizer notation is to have a subscript, and I can't have an additional subscript with A_n without it looking totally gangly, so we'll just let G be A_n.
+
+169
+00:51:44,081 --> 00:52:12,246
+为了导出矛盾，我们反设 G 中存在某个既非平凡子群也非全群 G 的真正规子群 H。
+We're going to suppose, for the sake of arriving at a contradiction, that there is some normal subgroup H of G which is neither trivial nor all of G.
+
+170
+00:52:12,246 --> 00:52:23,093
+那么我们要做的，当然是因为我们一直在讲群作用和西罗理论，就是使用同类的技巧。
+And so what we're going to do is, of course, because we've been talking about group actions and Sylow-theoretic stuff, is use the same sorts of techniques.
+
+171
+00:52:23,093 --> 00:52:34,909
+运用这些技巧的第一个例子是：我们将利用 G 作用在集合 {1, ..., n} 上这一事实。
+And the first example is: we're going to use the fact that G acts on this set {1, ..., n}.
+
+172
+00:52:34,909 --> 00:52:46,857
+按照常用记号，令 G_i 为i 的稳定子群（stabilizer）。记住这是 A_n，所以它自然作用在该集合上，我们当然可以令 G_i为稳定子群。
+We'll let G_i be, as per the usual notation, the stabilizer of i.
+
+173
+00:52:52,440 --> 00:53:10,820
+它同构于什么？G_i 长什么样？没错，它同构于 A_{n-1}！啊哈，而 A_{n-1} 由归纳假设是单群！
+What is this isomorphic to? What does G_i look like? Exactly: it is A_{n-1}! Aha, well A_{n-1}, by induction hypothesis, is simple!
+
+174
+00:53:10,820 --> 00:53:17,435
+因此这其中的核心要害，就是利用稳定子群是单群这一事实。
+So the crux of this thing is going to be to leverage the fact that we know that the stabilizers are simple.
+
+175
+00:53:17,435 --> 00:53:21,640
+单群性至关重要！
+Simplicity is important!
+
+176
+00:53:25,250 --> 00:53:38,264
+我将给出一系列断言，每个都不算特别难证，它们加在一起就能完成证明；但大家必须自己补全细节，因为我们时间不够了。
+So I'm going to give you a series of claims, none of which are particularly difficult to show, and they will prove this; but you have to fill in the details for these claims because we are out of time.
+
+177
+00:53:38,264 --> 00:54:11,883
+断言 1 是：在 H 中不存在元素——记住 H 是G 的反设非平凡真正规子群——在 H 中不存在非恒等元素 τ 能够固定某个 i。
+First claim is that there does not exist an element of H—so remember H is this putative non-trivial proper normal subgroup of G—there does not exist tau in H other than the identity such that tau fixes some i.
+
+178
+00:54:11,883 --> 00:54:27,243
+我的意思是，你最终使用这个性质的方式是——为了让这里的逻辑联系更清晰，更容易弄懂接下来的断言：如果我知道对某个 i 有 τ_1(i) = τ_2(i)（其中 τ_1, τ_2 ∈ H），
+So I mean, the way that you end up using this—just to make the connection here clearer, to make it easier to figure out what happens in the next claims: if I know that tau_1(i) = tau_2(i),
+
+179
+00:54:27,243 --> 00:54:57,805
+那么我就能知道实际上 τ_1 = τ_2；因为——我写成这样，这推导出——因为这样一来 τ_2^{-1} τ_1(i)等于 i，所以它固定 i，从而必须是恒等元，故 τ_1 必等于 τ_2。那么怎么证明这一点呢？
+tau_1 and tau_2 being in H, then I know that in fact tau_1 = tau_2, since—I'll put it this way, this implies that—since then tau_2^{-1} tau_1(i) equals i, so this thing must be the identity, so tau_1 must equal tau_2. So how do you show this?
+
+180
+00:54:57,805 --> 00:55:41,548
+简化版思路是：该证明需要证明对所有 j，稳定子群 G_j 必须是 H 的子群（G_j ⊆ H）；进而说明 A_n——它是由所有这些 G_j 生成的——是 H 的子群，从而 H 是整个 A_n（H = G），与H 是真子群的假设矛盾！
+Well, the simplified version is to show: the proof of this involves showing that G_j must be a subgroup of H for all j, and then showing that A_n, which is generated by all of the G_j's, is a subgroup of H, and so H is all of A_n, H is all of G, contradicting the hypothesis that H is proper!
+
+181
+00:55:41,548 --> 00:56:25,052
+所以真正的关键是证明每个 G_j 都是 H 的子群；这完全是在运用我们目前所学的方法。接下来的两件事如下：断言 2：在 H 中给定 τ，其不相交轮换分解中只能出现 2-轮换（对换）。
+So that's a contradiction. So the real point is to show this fact that every G_j is a subgroup of H, and that's just using the sorts of things that we've done so far. And then the last two things are the following: so Claim 2: given tau in H, only 2-cycles can appear in its disjoint cycle decomposition.
+
+182
+00:56:28,028 --> 00:56:51,010
+而断言 3 恰好相反：在 H 中给定 τ，τ 在其分解中不可能只含 2-轮换。
+Then Claim 3 is the opposite: given tau in H, tau doesn't just have 2-cycles in its decomposition.
+
+183
+00:56:58,010 --> 00:57:08,276
+证明这些断言的方法，就是取一个反设的元素（τ ∈ H），然后证明可以通过共轭得到另一个元素，
+And the way you show these things is just by taking a putative element, and then showing that you have some other element you can get to by conjugating that,
+
+184
+00:57:08,276 --> 00:57:30,238
+并证明这两个元素（该共轭元素与原元素）必然将某个特定元素映为相同的元素，必然将某个数字映为相同的数字，于是这就完成了！
+showing that those two elements, the conjugate and the original element, must take a certain element to the same element, and must take a certain number to the same number, and then that's it.

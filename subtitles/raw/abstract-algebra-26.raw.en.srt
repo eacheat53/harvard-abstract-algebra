@@ -1,0 +1,3520 @@
+1
+00:00:11,600 --> 00:00:19,040
+we're going to have an hour exam in
+
+2
+00:00:13,519 --> 00:00:21,740
+class coming Monday a week from today it
+
+3
+00:00:19,040 --> 00:00:23,990
+will cover all the material well really
+
+4
+00:00:21,740 --> 00:00:25,640
+from the first our exam but you'd have
+
+5
+00:00:23,990 --> 00:00:27,290
+to know the definition of a group and
+
+6
+00:00:25,640 --> 00:00:29,509
+things like that so all the material
+
+7
+00:00:27,290 --> 00:00:36,140
+that we've covered through today's class
+
+8
+00:00:29,509 --> 00:00:38,899
+and including today's class that's what
+
+9
+00:00:36,140 --> 00:00:41,540
+through means it's less than or equal to
+
+10
+00:00:38,899 --> 00:00:43,610
+today's lecture and the Peter will do a
+
+11
+00:00:41,540 --> 00:00:45,770
+review of this material in class on
+
+12
+00:00:43,610 --> 00:00:52,760
+Friday if you want to go over this I'll
+
+13
+00:00:45,770 --> 00:00:54,380
+be in New York City then next week for
+
+14
+00:00:52,760 --> 00:00:57,130
+those of you who are making Thanksgiving
+
+15
+00:00:54,380 --> 00:00:59,810
+plans will have the our exam on Monday
+
+16
+00:00:57,130 --> 00:01:02,180
+Wednesday I will go over the exam and
+
+17
+00:00:59,810 --> 00:01:03,950
+give somewhat of a special lecture so
+
+18
+00:01:02,180 --> 00:01:06,290
+that if you've had to take off by then
+
+19
+00:01:03,950 --> 00:01:09,250
+you won't be penalized however you'll
+
+20
+00:01:06,290 --> 00:01:12,079
+miss an incredible amount of good stuff
+
+21
+00:01:09,250 --> 00:01:13,640
+okay so last time we are at the
+
+22
+00:01:12,079 --> 00:01:20,860
+canonical map if we have an R a
+
+23
+00:01:13,640 --> 00:01:24,460
+commutative ring there's a natural map
+
+24
+00:01:20,860 --> 00:01:30,260
+from the integers to the ring a ring
+
+25
+00:01:24,460 --> 00:01:32,870
+homomorphism which is completely
+
+26
+00:01:30,260 --> 00:01:37,310
+characterized by the fact that f of 1 is
+
+27
+00:01:32,870 --> 00:01:38,690
+1 in the ring that's that what that
+
+28
+00:01:37,310 --> 00:01:41,150
+would have to be the case if it were a
+
+29
+00:01:38,690 --> 00:01:46,369
+ring homomorphism and then it's additive
+
+30
+00:01:41,150 --> 00:01:50,030
+so f of n which is the integer n it
+
+31
+00:01:46,369 --> 00:01:54,830
+which is where n is bigger than or equal
+
+32
+00:01:50,030 --> 00:02:00,070
+to 1 would be f of 1 plus 1 plus plus 1
+
+33
+00:01:54,830 --> 00:02:05,689
+n times which would have to be 1 R plus
+
+34
+00:02:00,070 --> 00:02:09,140
+plus 1 R n times and then of course F of
+
+35
+00:02:05,689 --> 00:02:13,370
+minus n if n is positive would have to
+
+36
+00:02:09,140 --> 00:02:15,560
+be minus F of N which we know already
+
+37
+00:02:13,370 --> 00:02:17,299
+what it is and that determine T so that
+
+38
+00:02:15,560 --> 00:02:18,920
+tells you what it is on every integer
+
+39
+00:02:17,299 --> 00:02:21,230
+and then you have to check that that's
+
+40
+00:02:18,920 --> 00:02:23,849
+multiplicative and it is
+
+41
+00:02:21,230 --> 00:02:27,569
+and it is by the distributive law if you
+
+42
+00:02:23,849 --> 00:02:30,719
+multiply 1 plus 1 plus 1 plus 1 RN x by
+
+43
+00:02:27,569 --> 00:02:32,700
+1 plus 1 plus 1 plus 1 RM times you get
+
+44
+00:02:30,719 --> 00:02:35,069
+the same thing m n times by the
+
+45
+00:02:32,700 --> 00:02:36,959
+distributive law so this is a ring
+
+46
+00:02:35,069 --> 00:02:38,810
+homomorphism it's the canonical ring
+
+47
+00:02:36,959 --> 00:02:42,000
+homomorphism associated to any
+
+48
+00:02:38,810 --> 00:02:50,249
+commutative ring now we know that the
+
+49
+00:02:42,000 --> 00:02:52,859
+kernel is an ideal of z so we know it
+
+50
+00:02:50,249 --> 00:02:56,129
+has the form n times z for some n bigger
+
+51
+00:02:52,859 --> 00:02:58,200
+than or equal to 0 because those are all
+
+52
+00:02:56,129 --> 00:03:01,650
+the ideals of the integers for example
+
+53
+00:02:58,200 --> 00:03:05,519
+if r is the zero ring the kernel is
+
+54
+00:03:01,650 --> 00:03:07,829
+everything because one R is zero so f of
+
+55
+00:03:05,519 --> 00:03:12,049
+1 is 0 so f of everything is 0 so the
+
+56
+00:03:07,829 --> 00:03:14,730
+kernel can be the zero ideal the kernel
+
+57
+00:03:12,049 --> 00:03:16,560
+the kernel is sorry yeah then the kernel
+
+58
+00:03:14,730 --> 00:03:19,560
+then that would be sorry then the ideal
+
+59
+00:03:16,560 --> 00:03:25,099
+so if sorry let me write this down the
+
+60
+00:03:19,560 --> 00:03:30,840
+par is the zero ring her F is equal to Z
+
+61
+00:03:25,099 --> 00:03:33,540
+if R is equal to a ring like Z or Q or
+
+62
+00:03:30,840 --> 00:03:36,000
+the real numbers or the complex numbers
+
+63
+00:03:33,540 --> 00:03:39,949
+then all of these numbers are non zero
+
+64
+00:03:36,000 --> 00:03:45,269
+in the ring and so then the kernel is
+
+65
+00:03:39,949 --> 00:03:48,569
+just zero times Z in that case it's an
+
+66
+00:03:45,269 --> 00:03:55,229
+injective ring homomorphism of course if
+
+67
+00:03:48,569 --> 00:03:59,040
+R is some finite ring then the kernel of
+
+68
+00:03:55,229 --> 00:04:01,379
+F is NZ so you can have pretty much
+
+69
+00:03:59,040 --> 00:04:04,949
+anything for a kernel depending on what
+
+70
+00:04:01,379 --> 00:04:09,449
+your ring is ok however I'm going to
+
+71
+00:04:04,949 --> 00:04:19,219
+prove the following proposition if R is
+
+72
+00:04:09,449 --> 00:04:19,219
+a field the kernel of F is either 0
+
+73
+00:04:19,359 --> 00:04:33,069
+or PZ for Pia Prime you can't have you
+
+74
+00:04:31,060 --> 00:04:36,039
+can't have an arbitrary Colonel if you
+
+75
+00:04:33,069 --> 00:04:44,379
+have a field and the proof is like this
+
+76
+00:04:36,039 --> 00:04:50,319
+hmm suppose suppose the kernel of F is
+
+77
+00:04:44,379 --> 00:04:51,219
+equal to n Z where n is composite so
+
+78
+00:04:50,319 --> 00:04:55,150
+we're going to make a proof by
+
+79
+00:04:51,219 --> 00:04:59,500
+contradiction and we write n as a times
+
+80
+00:04:55,150 --> 00:05:01,900
+B with a bigger than 1 and B bigger than
+
+81
+00:04:59,500 --> 00:05:09,120
+1 that's what we mean by a composite
+
+82
+00:05:01,900 --> 00:05:13,539
+number now that says then F of n is
+
+83
+00:05:09,120 --> 00:05:18,219
+equal to 0 in our that's what it means
+
+84
+00:05:13,539 --> 00:05:26,710
+for this to be the kernel but F of n is
+
+85
+00:05:18,219 --> 00:05:29,319
+F of a times F of B okay so we have
+
+86
+00:05:26,710 --> 00:05:35,409
+numbers here F of a and F of B which we
+
+87
+00:05:29,319 --> 00:05:37,509
+could call a sub R times B sub R and
+
+88
+00:05:35,409 --> 00:05:39,819
+that's that's what I call this number by
+
+89
+00:05:37,509 --> 00:05:43,539
+the way this is the number n in the ring
+
+90
+00:05:39,819 --> 00:05:45,879
+r it might be 0 but but it's it's it's a
+
+91
+00:05:43,539 --> 00:05:49,719
+it's a well-defined number so we have
+
+92
+00:05:45,879 --> 00:05:52,930
+these two numbers having product 0 now
+
+93
+00:05:49,719 --> 00:05:56,219
+in a field if a product of two numbers
+
+94
+00:05:52,930 --> 00:06:01,690
+is 0 one of the numbers must be 0
+
+95
+00:05:56,219 --> 00:06:03,810
+because if a is nonzero and if I this is
+
+96
+00:06:01,690 --> 00:06:10,300
+equal to 0 R so we have this expression
+
+97
+00:06:03,810 --> 00:06:14,589
+if a R is not equal to 0 you can
+
+98
+00:06:10,300 --> 00:06:17,770
+multiply by a R inverse because in a
+
+99
+00:06:14,589 --> 00:06:23,530
+field nonzero elements are invertible to
+
+100
+00:06:17,770 --> 00:06:32,740
+get B R is equal to 0 so
+
+101
+00:06:23,530 --> 00:06:35,520
+one of AR er must be 0 but that
+
+102
+00:06:32,740 --> 00:06:38,050
+contradicts the fact that the kernel is
+
+103
+00:06:35,520 --> 00:06:40,090
+multiples of n because when you have a
+
+104
+00:06:38,050 --> 00:06:44,410
+factorization of n like this neither a
+
+105
+00:06:40,090 --> 00:06:53,290
+nor B is a multiple of n this is a
+
+106
+00:06:44,410 --> 00:06:59,290
+contradiction as AR and B are are not
+
+107
+00:06:53,290 --> 00:07:02,050
+elements in NZ so notice that this goes
+
+108
+00:06:59,290 --> 00:07:05,950
+wrong for rings like this
+
+109
+00:07:02,050 --> 00:07:10,660
+if you take Z mod for Z and you multiply
+
+110
+00:07:05,950 --> 00:07:12,669
+2 R times 2r you get 4 R which is 0 in
+
+111
+00:07:10,660 --> 00:07:16,390
+the ring but neither of these elements
+
+112
+00:07:12,669 --> 00:07:17,830
+are 0 in the ring but for a field you
+
+113
+00:07:16,390 --> 00:07:20,470
+can't have that happening because of
+
+114
+00:07:17,830 --> 00:07:23,260
+inverses and so for a field the only
+
+115
+00:07:20,470 --> 00:07:25,660
+possibilities is 0 and PZ and we've seen
+
+116
+00:07:23,260 --> 00:07:28,090
+that we can have 0 for example this is a
+
+117
+00:07:25,660 --> 00:07:31,120
+field where the kernel is 0 and we can
+
+118
+00:07:28,090 --> 00:07:33,580
+have PZ for example Z mod PZ is a field
+
+119
+00:07:31,120 --> 00:07:36,460
+where the kernel is PZ so this is an
+
+120
+00:07:33,580 --> 00:07:38,950
+invariant of any field what the kernel
+
+121
+00:07:36,460 --> 00:07:41,080
+is of this homomorphism and it's called
+
+122
+00:07:38,950 --> 00:07:43,419
+the characteristic of the field in this
+
+123
+00:07:41,080 --> 00:07:45,910
+case we say the field has characteristic
+
+124
+00:07:43,419 --> 00:07:50,620
+0 and in this case we say the field has
+
+125
+00:07:45,910 --> 00:07:53,490
+characteristic P characteristic it's
+
+126
+00:07:50,620 --> 00:08:00,100
+just a piece of terminology of the field
+
+127
+00:07:53,490 --> 00:08:04,020
+field is equal to 0 or P and it also
+
+128
+00:08:00,100 --> 00:08:04,020
+lets us prove a nice theorem of Galois
+
+129
+00:08:04,260 --> 00:08:08,200
+or L will prove the first part of the
+
+130
+00:08:06,490 --> 00:08:16,660
+theorem of Galois which I think I told
+
+131
+00:08:08,200 --> 00:08:19,780
+you before which is theorem Galois
+
+132
+00:08:16,660 --> 00:08:24,210
+invented the theory of finite fields let
+
+133
+00:08:19,780 --> 00:08:24,210
+F be a finite field
+
+134
+00:08:26,219 --> 00:08:39,129
+then the number of elements in F is a
+
+135
+00:08:30,639 --> 00:08:40,689
+power of P you can't have a field with
+
+136
+00:08:39,129 --> 00:08:44,139
+six elements in it you can't have a
+
+137
+00:08:40,689 --> 00:08:46,240
+field with fifteen elements in it okay
+
+138
+00:08:44,139 --> 00:08:48,129
+even though you can have groups or rings
+
+139
+00:08:46,240 --> 00:08:49,720
+notice that you can have finite rings
+
+140
+00:08:48,129 --> 00:08:51,910
+with any number of elements in it
+
+141
+00:08:49,720 --> 00:08:54,160
+there's a finite ring with n elements
+
+142
+00:08:51,910 --> 00:09:01,180
+but for fields it has to be a power of P
+
+143
+00:08:54,160 --> 00:09:08,769
+and the proof is consider the canonical
+
+144
+00:09:01,180 --> 00:09:14,490
+map homomorphism Z goes to F and goes to
+
+145
+00:09:08,769 --> 00:09:18,000
+n sub F alright this is an infinite ring
+
+146
+00:09:14,490 --> 00:09:20,290
+this is a finite ring by hypothesis
+
+147
+00:09:18,000 --> 00:09:31,350
+therefore there has to be a non-trivial
+
+148
+00:09:20,290 --> 00:09:35,410
+kernel since Z is infinite kernel of F
+
+149
+00:09:31,350 --> 00:09:39,970
+because the image of Z is is is a the
+
+150
+00:09:35,410 --> 00:09:41,829
+image of Z is a sub ring of F so the
+
+151
+00:09:39,970 --> 00:09:44,439
+kernel of Z also has to be infinite
+
+152
+00:09:41,829 --> 00:09:46,990
+kernel of F is not equal to zero
+
+153
+00:09:44,439 --> 00:09:48,819
+otherwise that would give a copy of Z
+
+154
+00:09:46,990 --> 00:09:52,689
+sitting inside of F which would give F
+
+155
+00:09:48,819 --> 00:09:54,850
+an infinite number of elements right so
+
+156
+00:09:52,689 --> 00:09:57,579
+the kernel of F is non zero and we've
+
+157
+00:09:54,850 --> 00:10:03,189
+seen for a field that forces the kernel
+
+158
+00:09:57,579 --> 00:10:09,480
+of F to be a pro team odd P so so kernel
+
+159
+00:10:03,189 --> 00:10:09,480
+of F equals PC and f induces a
+
+160
+00:10:09,870 --> 00:10:19,990
+homomorphism f bar baiting from Z mod
+
+161
+00:10:15,009 --> 00:10:22,209
+its kernel into the field F now this is
+
+162
+00:10:19,990 --> 00:10:23,800
+an injection because we've modded out by
+
+163
+00:10:22,209 --> 00:10:26,309
+the kernel in the usual way we did in
+
+164
+00:10:23,800 --> 00:10:26,309
+group theory
+
+165
+00:10:29,490 --> 00:10:33,760
+now this you can multiply things but at
+
+166
+00:10:32,260 --> 00:10:39,089
+the very least you can multiply them by
+
+167
+00:10:33,760 --> 00:10:39,089
+elements in this sub ring so this gives
+
+168
+00:10:39,510 --> 00:10:54,459
+F the structure of a vector space over
+
+169
+00:10:48,389 --> 00:10:55,959
+the field Z mod PZ forgetting about the
+
+170
+00:10:54,459 --> 00:10:57,850
+fact that you can multiply two elements
+
+171
+00:10:55,959 --> 00:10:59,440
+in F just using the fact you can add two
+
+172
+00:10:57,850 --> 00:11:00,490
+elements in F and you can multiply two
+
+173
+00:10:59,440 --> 00:11:02,160
+by elements here
+
+174
+00:11:00,490 --> 00:11:06,370
+that's the structure of a vector space
+
+175
+00:11:02,160 --> 00:11:07,750
+where these become the scalars I mean of
+
+176
+00:11:06,370 --> 00:11:11,290
+course F is a one dimensional vector
+
+177
+00:11:07,750 --> 00:11:14,250
+space over itself but here we still see
+
+178
+00:11:11,290 --> 00:11:22,899
+it's a vector space over this field
+
+179
+00:11:14,250 --> 00:11:24,850
+which has finite dimension as there's
+
+180
+00:11:22,899 --> 00:11:26,350
+certainly a finite spanning set if there
+
+181
+00:11:24,850 --> 00:11:27,850
+are only finitely many elements in the
+
+182
+00:11:26,350 --> 00:11:32,680
+field just take all the elements they
+
+183
+00:11:27,850 --> 00:11:36,970
+span F so if F is say the dimension is
+
+184
+00:11:32,680 --> 00:11:40,360
+equal to F then the number of elements
+
+185
+00:11:36,970 --> 00:11:41,949
+is P to the F just choose a basis and
+
+186
+00:11:40,360 --> 00:11:46,720
+write elements in terms of coordinates
+
+187
+00:11:41,949 --> 00:11:51,610
+from Z my PZ so as a vector space F is
+
+188
+00:11:46,720 --> 00:11:55,290
+isomorphic to Z mod P Z to the F as a
+
+189
+00:11:51,610 --> 00:11:57,399
+finite dimensional vector space of
+
+190
+00:11:55,290 --> 00:12:00,100
+course that doesn't tell you what the
+
+191
+00:11:57,399 --> 00:12:02,290
+multiplication law on is on F but at
+
+192
+00:12:00,100 --> 00:12:05,680
+least it tells you what the size of it
+
+193
+00:12:02,290 --> 00:12:07,750
+is that scale was proved now the hard
+
+194
+00:12:05,680 --> 00:12:09,850
+part of this theorem which I can't prove
+
+195
+00:12:07,750 --> 00:12:14,170
+for you now but I promise you will be
+
+196
+00:12:09,850 --> 00:12:17,350
+proved in math 123 is that Galois also
+
+197
+00:12:14,170 --> 00:12:19,990
+proved that for any F there is a finite
+
+198
+00:12:17,350 --> 00:12:23,769
+field with P to the F elements we don't
+
+199
+00:12:19,990 --> 00:12:27,069
+know that yet namely it is possible to
+
+200
+00:12:23,769 --> 00:12:30,250
+put a multiplication law on that vector
+
+201
+00:12:27,069 --> 00:12:33,250
+space so we don't even know yet that
+
+202
+00:12:30,250 --> 00:12:36,610
+there's a field with four elements four
+
+203
+00:12:33,250 --> 00:12:38,890
+elements we know to we know three we
+
+204
+00:12:36,610 --> 00:12:40,510
+know five we know seven we know 11 any
+
+205
+00:12:38,890 --> 00:12:41,560
+prime we can make a feel but we don't
+
+206
+00:12:40,510 --> 00:12:44,290
+know four
+
+207
+00:12:41,560 --> 00:12:45,790
+we don't know 9 we don't know 1632 but
+
+208
+00:12:44,290 --> 00:12:47,800
+Galois proved the existence of such a
+
+209
+00:12:45,790 --> 00:12:51,360
+field and he proved not only that he
+
+210
+00:12:47,800 --> 00:12:51,360
+proved it was unique up to isomorphism
+
+211
+00:12:51,630 --> 00:13:10,450
+in fact there is a unique such field of
+
+212
+00:13:03,900 --> 00:13:11,950
+order PDF up to isomorphism namely if
+
+213
+00:13:10,450 --> 00:13:15,940
+you have two fields of water for they
+
+214
+00:13:11,950 --> 00:13:17,920
+actually arise amorphic to each other so
+
+215
+00:13:15,940 --> 00:13:19,089
+that's very cool thing that GAO approved
+
+216
+00:13:17,920 --> 00:13:20,650
+which you'll see and that's a very
+
+217
+00:13:19,089 --> 00:13:23,680
+important thing in number theory to
+
+218
+00:13:20,650 --> 00:13:26,589
+which you'll see in math 123 when you do
+
+219
+00:13:23,680 --> 00:13:28,750
+field theory the subject of math 123 is
+
+220
+00:13:26,589 --> 00:13:30,160
+really the subject that was invented by
+
+221
+00:13:28,750 --> 00:13:32,980
+Galois in the last year of his life
+
+222
+00:13:30,160 --> 00:13:34,960
+which is encompasses both the theory of
+
+223
+00:13:32,980 --> 00:13:37,630
+fields and the theory of groups in a
+
+224
+00:13:34,960 --> 00:13:43,120
+very beautiful interactive way called
+
+225
+00:13:37,630 --> 00:13:45,940
+Galois theory named after him and one of
+
+226
+00:13:43,120 --> 00:13:49,320
+the first triumphs of Galois theory was
+
+227
+00:13:45,940 --> 00:13:57,160
+the construction of these finite fields
+
+228
+00:13:49,320 --> 00:14:00,670
+ok let's go on now I talked a little bit
+
+229
+00:13:57,160 --> 00:14:02,530
+about quotient rings and I want to talk
+
+230
+00:14:00,670 --> 00:14:04,210
+what they call the first isomorphism
+
+231
+00:14:02,530 --> 00:14:11,350
+theorem of rings it's exactly like it is
+
+232
+00:14:04,210 --> 00:14:13,210
+for groups so rings so here we
+
+233
+00:14:11,350 --> 00:14:18,430
+start with a commutative ring and an
+
+234
+00:14:13,210 --> 00:14:22,030
+ideal and when we have that situation we
+
+235
+00:14:18,430 --> 00:14:29,910
+have a natural homomorphism to the
+
+236
+00:14:22,030 --> 00:14:35,530
+quotient ring which i'll call r bar and
+
+237
+00:14:29,910 --> 00:14:37,050
+it's a surjective ring homomorphism so
+
+238
+00:14:35,530 --> 00:14:40,029
+that we've seen this from the theory of
+
+239
+00:14:37,050 --> 00:14:40,480
+groups where the ideal is like a normal
+
+240
+00:14:40,029 --> 00:14:43,300
+subgroup
+
+241
+00:14:40,480 --> 00:14:46,209
+now the first isomorphism theorem gives
+
+242
+00:14:43,300 --> 00:14:49,240
+a relationship between the certain
+
+243
+00:14:46,209 --> 00:14:52,329
+ideals in R and certain ideals in R Bar
+
+244
+00:14:49,240 --> 00:15:00,639
+and it says
+
+245
+00:14:52,329 --> 00:15:06,759
+there is a bijection between on the one
+
+246
+00:15:00,639 --> 00:15:14,579
+hand ideals jae-in are that contain I so
+
+247
+00:15:06,759 --> 00:15:20,589
+will put them like this ideals of are
+
+248
+00:15:14,579 --> 00:15:27,089
+containing I and they're in by action
+
+249
+00:15:20,589 --> 00:15:29,889
+with the set of ideals J bar of our bar
+
+250
+00:15:27,089 --> 00:15:33,279
+so you get all ideals of this quotient
+
+251
+00:15:29,889 --> 00:15:35,829
+ring by taking ideals of our to contain
+
+252
+00:15:33,279 --> 00:15:39,610
+i i'll give you an a projection and the
+
+253
+00:15:35,829 --> 00:15:47,709
+bisection goes like this to a J we
+
+254
+00:15:39,610 --> 00:15:49,299
+associate the image of J in our bar and
+
+255
+00:15:47,709 --> 00:15:55,989
+we're going to see that that's an ideal
+
+256
+00:15:49,299 --> 00:16:03,509
+and to an ideal J bar in our bar we
+
+257
+00:15:55,989 --> 00:16:06,160
+associate the pre image of it in our and
+
+258
+00:16:03,509 --> 00:16:09,730
+that's going to see that's an ideal that
+
+259
+00:16:06,160 --> 00:16:11,499
+contains I so there's an important
+
+260
+00:16:09,730 --> 00:16:16,239
+projects in that's like the bisection
+
+261
+00:16:11,499 --> 00:16:18,669
+between M sub groups of G containing a
+
+262
+00:16:16,239 --> 00:16:21,669
+normal subgroup and sub groups of the
+
+263
+00:16:18,669 --> 00:16:28,649
+quoting group same kind of by Jackson
+
+264
+00:16:21,669 --> 00:16:32,339
+and moreover the quotient of our by J
+
+265
+00:16:28,649 --> 00:16:36,999
+this ideal containing I is isomorphic to
+
+266
+00:16:32,339 --> 00:16:40,169
+the quotient of our bar by J bar so you
+
+267
+00:16:36,999 --> 00:16:40,169
+get the same quotient rings
+
+268
+00:16:46,899 --> 00:16:52,490
+so this is like like many of these very
+
+269
+00:16:50,240 --> 00:16:53,899
+general theorems that the isomorphism
+
+270
+00:16:52,490 --> 00:16:56,810
+theorems it's more or less a tautology
+
+271
+00:16:53,899 --> 00:16:58,550
+once you figure out what the what is
+
+272
+00:16:56,810 --> 00:17:00,560
+actually going on so let's check a few
+
+273
+00:16:58,550 --> 00:17:02,839
+of these things and I'll let you check
+
+274
+00:17:00,560 --> 00:17:06,829
+the rest as you go through it so let's
+
+275
+00:17:02,839 --> 00:17:17,209
+see that this f of J is an ideal of our
+
+276
+00:17:06,829 --> 00:17:19,390
+bar well you have to check that it's
+
+277
+00:17:17,209 --> 00:17:24,260
+closed under addition and multiplication
+
+278
+00:17:19,390 --> 00:17:28,700
+from our bar so let's assume that so we
+
+279
+00:17:24,260 --> 00:17:35,809
+have F of a and F of B are elements in f
+
+280
+00:17:28,700 --> 00:17:47,510
+of J where a and B are in J is there
+
+281
+00:17:35,809 --> 00:17:52,330
+some in f of J why exactly then F of a
+
+282
+00:17:47,510 --> 00:17:56,179
+plus F of B is equal to F of a plus B is
+
+283
+00:17:52,330 --> 00:17:59,210
+in F of J because the sum of these two
+
+284
+00:17:56,179 --> 00:18:02,150
+things is in J that's what I mean by
+
+285
+00:17:59,210 --> 00:18:02,890
+autologous but this is the next one's a
+
+286
+00:18:02,150 --> 00:18:09,919
+little tricky
+
+287
+00:18:02,890 --> 00:18:12,200
+suppose f of a is in in f of J and that
+
+288
+00:18:09,919 --> 00:18:21,590
+we have an arbitrary element or a bar is
+
+289
+00:18:12,200 --> 00:18:24,799
+in our bar is our bar times f of a in J
+
+290
+00:18:21,590 --> 00:18:33,440
+bar in f of J I'm sorry
+
+291
+00:18:24,799 --> 00:18:34,870
+ah that's the point you have to use and
+
+292
+00:18:33,440 --> 00:18:38,870
+this is not true for an arbitrary
+
+293
+00:18:34,870 --> 00:18:44,059
+homomorphism you see this happens to be
+
+294
+00:18:38,870 --> 00:18:50,210
+a surjective ring homomorphism since f
+
+295
+00:18:44,059 --> 00:18:54,650
+is surjective we can write our bar as
+
+296
+00:18:50,210 --> 00:18:58,549
+sum f of r and having written our bar
+
+297
+00:18:54,650 --> 00:19:03,169
+sum f of r we write this as f of r times
+
+298
+00:18:58,549 --> 00:19:06,440
+f of a which is f of r times a because f
+
+299
+00:19:03,169 --> 00:19:08,929
+is a ring homomorphism and this is an
+
+300
+00:19:06,440 --> 00:19:13,130
+element in J because J was assumed to be
+
+301
+00:19:08,929 --> 00:19:15,770
+an ideal very good but if we didn't have
+
+302
+00:19:13,130 --> 00:19:17,690
+a surjective ring homomorphism then you
+
+303
+00:19:15,770 --> 00:19:24,429
+just can't take f of an ideal and get
+
+304
+00:19:17,690 --> 00:19:24,429
+another ideal be careful about that okay
+
+305
+00:19:31,250 --> 00:19:37,429
+for example f of r might not be an ideal
+
+306
+00:19:34,309 --> 00:19:45,159
+let's just show you that I mean so this
+
+307
+00:19:37,429 --> 00:19:45,159
+is a warning here if F is not surjective
+
+308
+00:19:46,539 --> 00:19:59,360
+f of J need not be an ideal so you don't
+
+309
+00:19:57,289 --> 00:20:01,010
+have an obvious map if you have so for
+
+310
+00:19:59,360 --> 00:20:03,140
+example if you take the integers and you
+
+311
+00:20:01,010 --> 00:20:05,659
+include them in the rational numbers
+
+312
+00:20:03,140 --> 00:20:09,020
+that's a ring homomorphism not
+
+313
+00:20:05,659 --> 00:20:12,860
+surjective of course if a perfectly good
+
+314
+00:20:09,020 --> 00:20:14,990
+ideal of the integers is z if you take f
+
+315
+00:20:12,860 --> 00:20:16,850
+of Z you get the integers in here that's
+
+316
+00:20:14,990 --> 00:20:19,159
+not an ideal because the only ideal of
+
+317
+00:20:16,850 --> 00:20:22,130
+the rational numbers are 0 and Q it's a
+
+318
+00:20:19,159 --> 00:20:24,049
+field ok so you needed their search
+
+319
+00:20:22,130 --> 00:20:27,020
+activity to be able to write this R bar
+
+320
+00:20:24,049 --> 00:20:29,450
+as f of R however the pullback works in
+
+321
+00:20:27,020 --> 00:20:31,100
+any case whenever you start with an
+
+322
+00:20:29,450 --> 00:20:34,580
+ideal here and you pull it back you get
+
+323
+00:20:31,100 --> 00:20:36,980
+an ideal in R I'll let you guys prove
+
+324
+00:20:34,580 --> 00:20:44,380
+that but notice that this certainly
+
+325
+00:20:36,980 --> 00:20:44,380
+contains I because I is F inverse of 0
+
+326
+00:20:45,429 --> 00:20:51,110
+that's the definition of I because this
+
+327
+00:20:48,080 --> 00:20:58,280
+homomorphism has kernel surjective ring
+
+328
+00:20:51,110 --> 00:21:00,440
+homomorphism with kernel i and whatever
+
+329
+00:20:58,280 --> 00:21:03,679
+this j bar is it's an ideal so it
+
+330
+00:21:00,440 --> 00:21:05,539
+certainly contains 0 and so it's inverse
+
+331
+00:21:03,679 --> 00:21:07,070
+image contains the inverse image of 0 so
+
+332
+00:21:05,539 --> 00:21:10,580
+it contains I I'll let you check that
+
+333
+00:21:07,070 --> 00:21:13,240
+it's an ideal and to identify these two
+
+334
+00:21:10,580 --> 00:21:16,130
+quotients you just compose this
+
+335
+00:21:13,240 --> 00:21:22,179
+homomorphism here with the extra
+
+336
+00:21:16,130 --> 00:21:24,830
+quotient map from R Bar R Bar ma j bar
+
+337
+00:21:22,179 --> 00:21:29,780
+so you take the composition of these two
+
+338
+00:21:24,830 --> 00:21:32,150
+maps this is another quotient and the
+
+339
+00:21:29,780 --> 00:21:34,039
+question is what is the kernel of this
+
+340
+00:21:32,150 --> 00:21:36,070
+composition map well the first thing is
+
+341
+00:21:34,039 --> 00:21:38,120
+that the composition map is surjective
+
+342
+00:21:36,070 --> 00:21:40,370
+because it's a composition of two
+
+343
+00:21:38,120 --> 00:21:45,010
+surjective homomorphisms both given by
+
+344
+00:21:40,370 --> 00:21:45,010
+quotient rings so it's surjective
+
+345
+00:21:46,050 --> 00:21:53,410
+with Colonel well it's Colonel are the
+
+346
+00:21:50,830 --> 00:21:57,570
+elements in R such that when you map
+
+347
+00:21:53,410 --> 00:22:03,420
+them to our mod I they land in J bar
+
+348
+00:21:57,570 --> 00:22:03,420
+correct so that's exactly the things
+
+349
+00:22:03,780 --> 00:22:10,060
+which are in F inverse of J bar the
+
+350
+00:22:07,090 --> 00:22:13,120
+things which are an are that mapped to J
+
+351
+00:22:10,060 --> 00:22:15,160
+bar so f inverse of J bar turns out to
+
+352
+00:22:13,120 --> 00:22:16,930
+be J I mean you have to check that this
+
+353
+00:22:15,160 --> 00:22:17,910
+thing if you go around once you get back
+
+354
+00:22:16,930 --> 00:22:22,200
+to where you started
+
+355
+00:22:17,910 --> 00:22:25,960
+so this colonel equal F inverse of J bar
+
+356
+00:22:22,200 --> 00:22:27,640
+which is equal to Jenny and so if you
+
+357
+00:22:25,960 --> 00:22:29,260
+have a surjective homomorphism and you
+
+358
+00:22:27,640 --> 00:22:31,480
+know it's Colonel it identifies the
+
+359
+00:22:29,260 --> 00:22:38,200
+quotient of this by the kernel with the
+
+360
+00:22:31,480 --> 00:22:44,020
+image and that's this that's the proof
+
+361
+00:22:38,200 --> 00:22:47,350
+of that so this is an incredibly as I
+
+362
+00:22:44,020 --> 00:22:48,400
+say it's a tautology theorem and you
+
+363
+00:22:47,350 --> 00:22:49,630
+should look through the proof that
+
+364
+00:22:48,400 --> 00:22:51,400
+doesn't mean you haven't can't know the
+
+365
+00:22:49,630 --> 00:22:53,350
+proof you have to know the proof but it
+
+366
+00:22:51,400 --> 00:22:56,050
+has a number of very useful corollaries
+
+367
+00:22:53,350 --> 00:22:58,600
+as you as you keep it in your mind for
+
+368
+00:22:56,050 --> 00:23:00,520
+example we've shown that something is a
+
+369
+00:22:58,600 --> 00:23:15,190
+field if and only if it has only two
+
+370
+00:23:00,520 --> 00:23:17,020
+ideals so when is armand i a field for
+
+371
+00:23:15,190 --> 00:23:19,690
+which ideals is the quotient of field
+
+372
+00:23:17,020 --> 00:23:22,930
+what we have a bisection between the
+
+373
+00:23:19,690 --> 00:23:27,760
+ideals of this quotient ring and the
+
+374
+00:23:22,930 --> 00:23:35,580
+ideals of are containing i so it's if
+
+375
+00:23:27,760 --> 00:23:40,900
+and only if our bar has only two ideals
+
+376
+00:23:35,580 --> 00:23:42,700
+0 n our bar which is a same thing by
+
+377
+00:23:40,900 --> 00:23:47,790
+this first isomorphism theorem and
+
+378
+00:23:42,700 --> 00:23:47,790
+saying our has only two ideals
+
+379
+00:23:47,850 --> 00:23:51,030
+containing i
+
+380
+00:23:51,670 --> 00:23:56,630
+the ones corresponding to those well of
+
+381
+00:23:54,710 --> 00:23:59,060
+course the one corresponding to our bar
+
+382
+00:23:56,630 --> 00:24:00,920
+if you pull back our bar you get
+
+383
+00:23:59,060 --> 00:24:04,730
+everything in our because the thing is
+
+384
+00:24:00,920 --> 00:24:06,980
+surjective and the one corresponding to
+
+385
+00:24:04,730 --> 00:24:14,600
+zero if you pull back zero you get I I
+
+386
+00:24:06,980 --> 00:24:17,960
+is the colonel which are our and I
+
+387
+00:24:14,600 --> 00:24:20,450
+namely there is no ideal if you look at
+
+388
+00:24:17,960 --> 00:24:23,390
+this there if you look at our containing
+
+389
+00:24:20,450 --> 00:24:25,880
+I there are no non-trivial ways you can
+
+390
+00:24:23,390 --> 00:24:31,250
+squeeze an ideal in here it's either
+
+391
+00:24:25,880 --> 00:24:34,760
+equal to this or it's equal to that okay
+
+392
+00:24:31,250 --> 00:24:37,940
+so we might say and we will say that I
+
+393
+00:24:34,760 --> 00:24:41,540
+is a maximal ideal of are there are no
+
+394
+00:24:37,940 --> 00:24:53,660
+proper ideals between it and our if and
+
+395
+00:24:41,540 --> 00:24:55,640
+only if I is a maximal ideal okay so
+
+396
+00:24:53,660 --> 00:24:58,280
+that's a very good characterization of
+
+397
+00:24:55,640 --> 00:25:00,650
+the ideals that give quotient fields
+
+398
+00:24:58,280 --> 00:25:02,180
+they're the ones which are maximal
+
+399
+00:25:00,650 --> 00:25:04,280
+ideals now they're clearly they have to
+
+400
+00:25:02,180 --> 00:25:06,230
+be some maximal ideals even in a field
+
+401
+00:25:04,280 --> 00:25:08,450
+there have to be some maximal ideals
+
+402
+00:25:06,230 --> 00:25:13,610
+like zero is a maximal ideal in a field
+
+403
+00:25:08,450 --> 00:25:15,920
+and so when you have maximal ideals in a
+
+404
+00:25:13,610 --> 00:25:18,890
+ring they identify which quotients of
+
+405
+00:25:15,920 --> 00:25:20,960
+them are fields another nice thing about
+
+406
+00:25:18,890 --> 00:25:24,080
+this theorem is that you can go to
+
+407
+00:25:20,960 --> 00:25:26,710
+quotients successively so the book talks
+
+408
+00:25:24,080 --> 00:25:31,480
+about creating relations in a ring
+
+409
+00:25:26,710 --> 00:25:31,480
+that's an important notion
+
+410
+00:25:43,680 --> 00:25:49,180
+suppose we have some element a and R
+
+411
+00:25:47,040 --> 00:25:51,130
+which could be a combination of
+
+412
+00:25:49,180 --> 00:25:53,170
+generators for example if the ring were
+
+413
+00:25:51,130 --> 00:25:55,450
+polynomials in two variables a might be
+
+414
+00:25:53,170 --> 00:25:57,160
+some combination of x and y and we
+
+415
+00:25:55,450 --> 00:25:59,350
+wanted to get to a ring where that
+
+416
+00:25:57,160 --> 00:26:01,990
+relation was zero where that combination
+
+417
+00:25:59,350 --> 00:26:11,640
+of our generators was zero well we could
+
+418
+00:26:01,990 --> 00:26:21,910
+arrange that if we want to ring our bar
+
+419
+00:26:11,640 --> 00:26:23,740
+which is an image of our where a bar is
+
+420
+00:26:21,910 --> 00:26:31,330
+equal to zero where the image of a is
+
+421
+00:26:23,740 --> 00:26:41,260
+zero then this the well I don't know the
+
+422
+00:26:31,330 --> 00:26:44,290
+largest such quotient is the ring our
+
+423
+00:26:41,260 --> 00:26:49,900
+bar which is our modulo the ideal
+
+424
+00:26:44,290 --> 00:26:52,510
+generated by a because in this ring a
+
+425
+00:26:49,900 --> 00:26:56,290
+maps to zero and conversely if I had any
+
+426
+00:26:52,510 --> 00:26:57,910
+image of our where a was equal to 0 then
+
+427
+00:26:56,290 --> 00:26:59,530
+all multiples of a would have to be
+
+428
+00:26:57,910 --> 00:27:02,110
+equal to zero because any multiple of
+
+429
+00:26:59,530 --> 00:27:04,810
+zero is zero so I would certainly have
+
+430
+00:27:02,110 --> 00:27:06,520
+all of this ideal going to zero so if
+
+431
+00:27:04,810 --> 00:27:10,470
+the simplest thing I could do is just to
+
+432
+00:27:06,520 --> 00:27:15,540
+mod out by this ideal and nothing larger
+
+433
+00:27:10,470 --> 00:27:15,540
+okay if we want to ring
+
+434
+00:27:17,920 --> 00:27:25,450
+where we have a number of relations a 1
+
+435
+00:27:21,220 --> 00:27:28,330
+is equal to a 2 is equal to a 3 is equal
+
+436
+00:27:25,450 --> 00:27:31,870
+to a n is equal to 0 we could take the
+
+437
+00:27:28,330 --> 00:27:35,980
+ring R Bar which is R modulo the ideal
+
+438
+00:27:31,870 --> 00:27:37,690
+generated by a 1 a 2 up to a n again if
+
+439
+00:27:35,980 --> 00:27:39,940
+you had all these equal to 0 in a
+
+440
+00:27:37,690 --> 00:27:43,680
+quotient ring that any combination of
+
+441
+00:27:39,940 --> 00:27:46,960
+them anything of the form R 1 a 1 plus
+
+442
+00:27:43,680 --> 00:27:50,530
+plus R and a n would also have to be
+
+443
+00:27:46,960 --> 00:27:54,430
+equal to 0 and these are precisely the
+
+444
+00:27:50,530 --> 00:27:57,010
+elements in this ideal but it also says
+
+445
+00:27:54,430 --> 00:27:59,350
+that we could get to this ideal we could
+
+446
+00:27:57,010 --> 00:28:06,520
+get to this ring by writing this ring as
+
+447
+00:27:59,350 --> 00:28:09,400
+R mod a 1 modulo the image of a 2 modulo
+
+448
+00:28:06,520 --> 00:28:11,440
+the image of a 3 namely we could motto
+
+449
+00:28:09,400 --> 00:28:13,300
+we could create the relations one at a
+
+450
+00:28:11,440 --> 00:28:15,760
+time in the ring and continue to make
+
+451
+00:28:13,300 --> 00:28:17,650
+successive quotient rings because let's
+
+452
+00:28:15,760 --> 00:28:20,320
+just think of two relations the ideal
+
+453
+00:28:17,650 --> 00:28:23,860
+generated by a 1 and a 2 contains the
+
+454
+00:28:20,320 --> 00:28:26,440
+ideal generated by a 1 so that would be
+
+455
+00:28:23,860 --> 00:28:29,620
+like an ideal J and the ideal a 1
+
+456
+00:28:26,440 --> 00:28:31,840
+containing the relation a 1 would be the
+
+457
+00:28:29,620 --> 00:28:34,420
+ideal I and that would say if you first
+
+458
+00:28:31,840 --> 00:28:37,570
+might out by I and then you might out by
+
+459
+00:28:34,420 --> 00:28:39,010
+the image of J in R mod I you get the
+
+460
+00:28:37,570 --> 00:28:43,150
+same thing as if you had mod it out
+
+461
+00:28:39,010 --> 00:28:45,190
+initially by J so that in creating
+
+462
+00:28:43,150 --> 00:28:47,140
+relations you can create them all at
+
+463
+00:28:45,190 --> 00:28:49,060
+once by taking the ideal generated by
+
+464
+00:28:47,140 --> 00:28:51,130
+all of these or you could first go to
+
+465
+00:28:49,060 --> 00:28:52,840
+the ring where a 1 was 0 and then mod
+
+466
+00:28:51,130 --> 00:28:55,210
+out by the relation which was the image
+
+467
+00:28:52,840 --> 00:28:57,400
+of a 2 and then take that ring and mod
+
+468
+00:28:55,210 --> 00:29:00,880
+out by the real image of the relation a
+
+469
+00:28:57,400 --> 00:29:04,270
+3 you have your choice in any case this
+
+470
+00:29:00,880 --> 00:29:06,280
+is a way of creating relations in a ring
+
+471
+00:29:04,270 --> 00:29:08,500
+and we're going to see next time the
+
+472
+00:29:06,280 --> 00:29:10,630
+relation of adding elements to a ring
+
+473
+00:29:08,500 --> 00:29:12,280
+and with those two with those two
+
+474
+00:29:10,630 --> 00:29:14,410
+techniques we're going to be able to
+
+475
+00:29:12,280 --> 00:29:17,560
+build all kinds of new rings out of old
+
+476
+00:29:14,410 --> 00:29:19,570
+ones all right well let me talk a little
+
+477
+00:29:17,560 --> 00:29:22,180
+bit about more about specific relations
+
+478
+00:29:19,570 --> 00:29:24,130
+in a specific ring because you'll see
+
+479
+00:29:22,180 --> 00:29:25,810
+pretty soon we're going to get into some
+
+480
+00:29:24,130 --> 00:29:27,910
+fascinating problems with all this
+
+481
+00:29:25,810 --> 00:29:29,560
+abstract nonsense we're going to have a
+
+482
+00:29:27,910 --> 00:29:30,860
+good language to talk about some real
+
+483
+00:29:29,560 --> 00:29:33,360
+problems in number theory
+
+484
+00:29:30,860 --> 00:29:34,830
+so the rest of this lecture we're just
+
+485
+00:29:33,360 --> 00:29:43,110
+going to work with the ring of Gaussian
+
+486
+00:29:34,830 --> 00:29:51,240
+integers so all things will form a + bi
+
+487
+00:29:43,110 --> 00:29:52,980
+where a and B are integers okay now I'm
+
+488
+00:29:51,240 --> 00:29:55,559
+going to suppose I want to make a new
+
+489
+00:29:52,980 --> 00:30:03,840
+ring where I have the relation that 2
+
+490
+00:29:55,559 --> 00:30:07,730
+plus I is equal to 0 so this says well
+
+491
+00:30:03,840 --> 00:30:07,730
+just take the ideal that just generates
+
+492
+00:30:09,769 --> 00:30:16,799
+well multiples of 2 plus I whatever that
+
+493
+00:30:12,629 --> 00:30:22,679
+is we don't know yet and consider our
+
+494
+00:30:16,799 --> 00:30:25,590
+bar is our mod I and what we'd like to
+
+495
+00:30:22,679 --> 00:30:29,639
+know is what we're left with maybe we've
+
+496
+00:30:25,590 --> 00:30:31,679
+mounted out by everything is this the
+
+497
+00:30:29,639 --> 00:30:35,700
+zero ring maybe this ideal maybe this is
+
+498
+00:30:31,679 --> 00:30:37,499
+a unit and so by mining out by the ideal
+
+499
+00:30:35,700 --> 00:30:39,210
+generated by a unit you might out by the
+
+500
+00:30:37,499 --> 00:30:41,460
+entire ring maybe we have the zero ring
+
+501
+00:30:39,210 --> 00:30:43,830
+maybe maybe this is very far from being
+
+502
+00:30:41,460 --> 00:30:53,369
+a unit we have a gigantic ring left so
+
+503
+00:30:43,830 --> 00:30:55,230
+we want to identify our bar okay so you
+
+504
+00:30:53,369 --> 00:30:57,210
+do that by playing a little bit around
+
+505
+00:30:55,230 --> 00:30:58,710
+with the arithmetic of this ring so the
+
+506
+00:30:57,210 --> 00:31:06,019
+first thing I want to notice is the
+
+507
+00:30:58,710 --> 00:31:06,019
+following he
+
+508
+00:31:06,139 --> 00:31:21,139
+so first let's identify the intersection
+
+509
+00:31:16,830 --> 00:31:24,149
+of I this I deal with the integers
+
+510
+00:31:21,139 --> 00:31:27,269
+namely which things lie in this ideal
+
+511
+00:31:24,149 --> 00:31:29,639
+are multiples of 2 plus I but have
+
+512
+00:31:27,269 --> 00:31:35,039
+second coordinates 0 so they're just of
+
+513
+00:31:29,639 --> 00:31:39,809
+the form a is it that'll be our start to
+
+514
+00:31:35,039 --> 00:31:42,440
+identifying this quotient ring okay so I
+
+515
+00:31:39,809 --> 00:31:42,440
+claim
+
+516
+00:31:43,700 --> 00:31:54,270
+that first of all I claimed that five is
+
+517
+00:31:48,150 --> 00:31:58,110
+an element that I first claimed five is
+
+518
+00:31:54,270 --> 00:32:00,809
+an element in I intersect C so that I
+
+519
+00:31:58,110 --> 00:32:11,580
+can write five the integer five as a
+
+520
+00:32:00,809 --> 00:32:13,830
+multiple of two plus I here it is okay
+
+521
+00:32:11,580 --> 00:32:19,370
+if you multiply these out the I terms
+
+522
+00:32:13,830 --> 00:32:19,370
+cancel you get four plus one five okay
+
+523
+00:32:20,039 --> 00:32:25,730
+so that this thing is non-empty it
+
+524
+00:32:21,690 --> 00:32:27,990
+certainly contains the element five
+
+525
+00:32:25,730 --> 00:32:33,110
+therefore it contains all multiples of
+
+526
+00:32:27,990 --> 00:32:37,140
+five it certainly contains five times Z
+
+527
+00:32:33,110 --> 00:32:38,700
+because if this is an ideal right so if
+
+528
+00:32:37,140 --> 00:32:40,590
+once I have something in it like five I
+
+529
+00:32:38,700 --> 00:32:41,970
+can multiply by anything in the Gaussian
+
+530
+00:32:40,590 --> 00:32:43,500
+integer so in particular I can multiply
+
+531
+00:32:41,970 --> 00:32:46,200
+by anything in the integers and stay in
+
+532
+00:32:43,500 --> 00:32:50,850
+it so once I have five I have this ideal
+
+533
+00:32:46,200 --> 00:32:52,380
+okay now this is a maximal ideal of Z
+
+534
+00:32:50,850 --> 00:32:56,309
+because you know you can't fit anything
+
+535
+00:32:52,380 --> 00:32:56,960
+between here and here this is 5 is a
+
+536
+00:32:56,309 --> 00:33:01,230
+prime number
+
+537
+00:32:56,960 --> 00:33:03,360
+right so possibilities are either this
+
+538
+00:33:01,230 --> 00:33:05,909
+is all of the integers or it's just this
+
+539
+00:33:03,360 --> 00:33:10,190
+that's it so just from this stupid
+
+540
+00:33:05,909 --> 00:33:13,190
+calculation we see so I intersect Z
+
+541
+00:33:10,190 --> 00:33:21,600
+which is certainly an ideal of Z is
+
+542
+00:33:13,190 --> 00:33:29,730
+either all of Z or 5c and we have to
+
+543
+00:33:21,600 --> 00:33:34,230
+decide which it is second claim if I
+
+544
+00:33:29,730 --> 00:33:41,070
+multiply 2 plus I by something of the
+
+545
+00:33:34,230 --> 00:33:43,190
+form a plus bi and it's an integer then
+
+546
+00:33:41,070 --> 00:33:45,539
+this integer is divisible by 5
+
+547
+00:33:43,190 --> 00:33:47,039
+so we're going to prove it's 5 see we're
+
+548
+00:33:45,539 --> 00:33:49,250
+going to prove that that's the right
+
+549
+00:33:47,039 --> 00:33:49,250
+answer
+
+550
+00:33:52,160 --> 00:33:59,880
+if this is true then it is in privacy
+
+551
+00:33:57,800 --> 00:34:02,400
+okay we have to actually make a
+
+552
+00:33:59,880 --> 00:34:06,630
+calculation to see that so let's make
+
+553
+00:34:02,400 --> 00:34:08,310
+that calculation the way we make that
+
+554
+00:34:06,630 --> 00:34:11,780
+calculation is to multiply these two
+
+555
+00:34:08,310 --> 00:34:24,810
+things out this Gaussian integer is to a
+
+556
+00:34:11,780 --> 00:34:27,480
+minus B plus 2 B plus a times high okay
+
+557
+00:34:24,810 --> 00:34:31,050
+now to say that's an integer says that
+
+558
+00:34:27,480 --> 00:34:35,250
+this number is equal to zero so that
+
+559
+00:34:31,050 --> 00:34:38,670
+means that a is minus 2b if I put it in
+
+560
+00:34:35,250 --> 00:34:41,580
+there I get that this number is minus 4b
+
+561
+00:34:38,670 --> 00:34:48,390
+minus B which is minus 5b
+
+562
+00:34:41,580 --> 00:34:51,300
+so it's a multiple of five okay so we
+
+563
+00:34:48,390 --> 00:34:53,100
+know that if the intersection here is
+
+564
+00:34:51,300 --> 00:34:55,170
+contained in multiples of five on the
+
+565
+00:34:53,100 --> 00:34:57,600
+other hand it contains the number five
+
+566
+00:34:55,170 --> 00:35:09,020
+so it contains all multiple of fives so
+
+567
+00:34:57,600 --> 00:35:15,410
+it's equal to find C okay so that says
+
+568
+00:35:09,020 --> 00:35:15,410
+that if I make my map from Z to R mod I
+
+569
+00:35:15,770 --> 00:35:35,640
+the canonical map has kernel 5z an image
+
+570
+00:35:30,170 --> 00:35:42,260
+Z mod 5 C so whatever this thing is it's
+
+571
+00:35:35,640 --> 00:35:45,960
+a vector space over Z mod 5 Z but I
+
+572
+00:35:42,260 --> 00:35:49,160
+claim that the image is equal to Z mod 5
+
+573
+00:35:45,960 --> 00:35:49,160
+BC in fact
+
+574
+00:35:50,599 --> 00:35:59,140
+barbar is isomorphic to Z mod 5 Z under
+
+575
+00:35:55,869 --> 00:35:59,140
+this map
+
+576
+00:35:59,799 --> 00:36:10,779
+namely it's surjective everything mod I
+
+577
+00:36:03,589 --> 00:36:10,779
+is in the image of Z in other words yeah
+
+578
+00:36:12,549 --> 00:36:19,190
+yeah and the reason that is it's it's
+
+579
+00:36:15,829 --> 00:36:24,700
+clear look if you look at this I we see
+
+580
+00:36:19,190 --> 00:36:27,589
+that I is congruent to minus 2 modulo I
+
+581
+00:36:24,700 --> 00:36:29,660
+so if we go in the quotient ring I is
+
+582
+00:36:27,589 --> 00:36:35,420
+equal to minus 2 because this element is
+
+583
+00:36:29,660 --> 00:36:39,890
+0 so since I is equal to an integer any
+
+584
+00:36:35,420 --> 00:36:47,079
+multiple of I so bi is congruent to
+
+585
+00:36:39,890 --> 00:36:56,769
+minus 2b and consequently a plus bi is
+
+586
+00:36:47,079 --> 00:37:01,039
+congruent to a minus 2b in our mod I
+
+587
+00:36:56,769 --> 00:37:02,809
+okay but this is an integer so the image
+
+588
+00:37:01,039 --> 00:37:05,539
+of everything in the Gaussian integers
+
+589
+00:37:02,809 --> 00:37:09,200
+in our mod I is the same as the image of
+
+590
+00:37:05,539 --> 00:37:12,769
+the integers in our mod I the image of
+
+591
+00:37:09,200 --> 00:37:14,479
+the integers is Z mod 5 the image of
+
+592
+00:37:12,769 --> 00:37:17,900
+everything is everything so the whole
+
+593
+00:37:14,479 --> 00:37:20,869
+quotient ring has to be Z mod 5 so after
+
+594
+00:37:17,900 --> 00:37:26,140
+all these calculations I conclude that
+
+595
+00:37:20,869 --> 00:37:29,140
+this ring is isomorphic to Z mod 5 Z
+
+596
+00:37:26,140 --> 00:37:29,140
+yeah
+
+597
+00:37:30,869 --> 00:37:37,869
+okay look here this is the ideal 2 plus
+
+598
+00:37:35,170 --> 00:37:39,910
+I it's generated by 2 plus I when I go
+
+599
+00:37:37,869 --> 00:37:42,130
+to the quotient ring this element
+
+600
+00:37:39,910 --> 00:37:44,829
+becomes 0 in the quotient ring because
+
+601
+00:37:42,130 --> 00:37:49,059
+it's in the kernel of the map therefore
+
+602
+00:37:44,829 --> 00:37:51,880
+2 plus I is 0 therefore I is equal to in
+
+603
+00:37:49,059 --> 00:37:54,130
+the quotient ring minus 2 therefore any
+
+604
+00:37:51,880 --> 00:37:56,109
+multiple integer multiple of I in the
+
+605
+00:37:54,130 --> 00:37:58,690
+quotient ring is minus 2 times that
+
+606
+00:37:56,109 --> 00:38:00,369
+integer but the arbitrary element in the
+
+607
+00:37:58,690 --> 00:38:02,140
+ring is of the form an integer plus an
+
+608
+00:38:00,369 --> 00:38:05,619
+integer multiple of I an integer is
+
+609
+00:38:02,140 --> 00:38:08,499
+congruent to itself and B times I is
+
+610
+00:38:05,619 --> 00:38:13,269
+congruent to minus 2 B so that shows
+
+611
+00:38:08,499 --> 00:38:16,109
+that the image of this in R is the same
+
+612
+00:38:13,269 --> 00:38:20,259
+as the image of this which is in Z in
+
+613
+00:38:16,109 --> 00:38:22,150
+this quotient ring so that everything is
+
+614
+00:38:20,259 --> 00:38:25,140
+in it in this quotient ring is the image
+
+615
+00:38:22,150 --> 00:38:28,269
+of Z namely this map is surjective
+
+616
+00:38:25,140 --> 00:38:29,979
+that's not a parent but it is and we've
+
+617
+00:38:28,269 --> 00:38:33,549
+shown that it's kernel is 5z so that
+
+618
+00:38:29,979 --> 00:38:38,099
+gives this isomorphism that makes sense
+
+619
+00:38:33,549 --> 00:38:41,109
+good good if we didn't know yeah
+
+620
+00:38:38,099 --> 00:38:45,670
+all right so now I'm going to show you
+
+621
+00:38:41,109 --> 00:38:47,289
+what gauss Gauss's mind work like the
+
+622
+00:38:45,670 --> 00:38:50,200
+Gauss didn't stop here he did a couple
+
+623
+00:38:47,289 --> 00:38:59,739
+of examples like this and then he said
+
+624
+00:38:50,200 --> 00:39:12,729
+the following more generally if P is a
+
+625
+00:38:59,739 --> 00:39:20,739
+prime with pecan go to 1 mod 4 so the
+
+626
+00:39:12,729 --> 00:39:22,210
+prime you know 5 13 1729 the prime
+
+627
+00:39:20,739 --> 00:39:28,210
+numbers that leave a remainder of 1
+
+628
+00:39:22,210 --> 00:39:35,799
+after you divide by 4 there is an ideal
+
+629
+00:39:28,210 --> 00:39:40,119
+i in the gaussian integers with call
+
+630
+00:39:35,799 --> 00:39:42,839
+this we are with our mod i isomorphic to
+
+631
+00:39:40,119 --> 00:39:42,839
+Z mod PZ
+
+632
+00:39:45,180 --> 00:39:56,590
+so here's the case of five where we
+
+633
+00:39:48,580 --> 00:40:05,380
+actually knew it okay so this is a
+
+634
+00:39:56,590 --> 00:40:10,480
+little trickier a little trickier so
+
+635
+00:40:05,380 --> 00:40:11,860
+here we go you know we're not going to
+
+636
+00:40:10,480 --> 00:40:13,630
+use for must here we're going to get too
+
+637
+00:40:11,860 --> 00:40:15,370
+firm on zero we're going to get the FIR
+
+638
+00:40:13,630 --> 00:40:18,580
+must and we don't know for must here yet
+
+639
+00:40:15,370 --> 00:40:20,140
+forget about Fermat's theorem for my
+
+640
+00:40:18,580 --> 00:40:21,250
+neighborhood Gauss didn't know how firm
+
+641
+00:40:20,140 --> 00:40:23,110
+I'd prove this theorem
+
+642
+00:40:21,250 --> 00:40:24,820
+he's going to set up a proof of Fermat's
+
+643
+00:40:23,110 --> 00:40:27,970
+there let's start with this this is
+
+644
+00:40:24,820 --> 00:40:34,300
+weaker this is weaker just the existence
+
+645
+00:40:27,970 --> 00:40:37,060
+of an ideal okay proof the first thing I
+
+646
+00:40:34,300 --> 00:40:40,390
+have to find is what the image of see if
+
+647
+00:40:37,060 --> 00:40:43,960
+I have this if I have this I have a map
+
+648
+00:40:40,390 --> 00:40:50,590
+from R to R mod I now you'd have to tell
+
+649
+00:40:43,960 --> 00:40:53,340
+me what is f of I well that has to be
+
+650
+00:40:50,590 --> 00:40:55,840
+some element in here which has order for
+
+651
+00:40:53,340 --> 00:40:59,200
+multiplicatively right because I to the
+
+652
+00:40:55,840 --> 00:41:01,510
+fourth is equal to one and I squared is
+
+653
+00:40:59,200 --> 00:41:04,570
+equal to minus one so whatever this
+
+654
+00:41:01,510 --> 00:41:08,740
+element is its square has to be minus 1
+
+655
+00:41:04,570 --> 00:41:10,870
+mod p if I had such an ideal I'd have a
+
+656
+00:41:08,740 --> 00:41:12,670
+homomorphism and I take the image of I
+
+657
+00:41:10,870 --> 00:41:15,790
+and I better find something whose square
+
+658
+00:41:12,670 --> 00:41:19,480
+is minus 1 mod p so let's start with
+
+659
+00:41:15,790 --> 00:41:24,690
+that that's why I need by the way this
+
+660
+00:41:19,480 --> 00:41:24,690
+condition if I had an element of order 4
+
+661
+00:41:28,890 --> 00:41:37,840
+in Z mod P Z in the multiplicative group
+
+662
+00:41:34,090 --> 00:41:40,080
+of Z mod PZ then I certainly need the
+
+663
+00:41:37,840 --> 00:41:42,760
+condition P is congruent to 1 mod 4
+
+664
+00:41:40,080 --> 00:41:46,750
+because this is a group of order P minus
+
+665
+00:41:42,760 --> 00:41:48,880
+1 so if I've any hope of finding an
+
+666
+00:41:46,750 --> 00:41:51,000
+element of order 4 in it I have to have
+
+667
+00:41:48,880 --> 00:41:53,710
+for dividing the order of the group
+
+668
+00:41:51,000 --> 00:41:55,090
+which says the PS to be congruent to 1
+
+669
+00:41:53,710 --> 00:41:58,520
+mod 4
+
+670
+00:41:55,090 --> 00:42:01,520
+so I have no hope of finding such an
+
+671
+00:41:58,520 --> 00:42:04,700
+ideal where the quotient is Z mod P Z
+
+672
+00:42:01,520 --> 00:42:07,130
+unless P is 1 mod 4 but the theorem says
+
+673
+00:42:04,700 --> 00:42:10,310
+that if P is 1 mod 4 I can find such an
+
+674
+00:42:07,130 --> 00:42:12,980
+ideal so I have to tell you what F of I
+
+675
+00:42:10,310 --> 00:42:14,720
+is now I'm going to do it a tricky way
+
+676
+00:42:12,980 --> 00:42:16,640
+because we haven't got yet the machinery
+
+677
+00:42:14,720 --> 00:42:18,740
+to do it the really really cool way
+
+678
+00:42:16,640 --> 00:42:21,530
+do you guys know Wilson's theorem that P
+
+679
+00:42:18,740 --> 00:42:27,260
+minus 1 factorial is congruent to minus
+
+680
+00:42:21,530 --> 00:42:28,760
+1 mod p have you ever seen Wilson's
+
+681
+00:42:27,260 --> 00:42:32,360
+theorem that's because when you write
+
+682
+00:42:28,760 --> 00:42:35,600
+down all the elements 1 2 up to P minus
+
+683
+00:42:32,360 --> 00:42:37,460
+1 you compare elements off with their
+
+684
+00:42:35,600 --> 00:42:40,670
+inverses and cancel everything except
+
+685
+00:42:37,460 --> 00:42:42,290
+for minus 1 which is its own inverse so
+
+686
+00:42:40,670 --> 00:42:43,820
+after canceling off all the inverses
+
+687
+00:42:42,290 --> 00:42:47,270
+which occur in pairs you're left with
+
+688
+00:42:43,820 --> 00:42:51,620
+minus 1 so that's this that's the proof
+
+689
+00:42:47,270 --> 00:42:52,190
+of Wilson's theorem ok so if that's the
+
+690
+00:42:51,620 --> 00:42:57,770
+case
+
+691
+00:42:52,190 --> 00:43:01,180
+consider the following element can now
+
+692
+00:42:57,770 --> 00:43:06,170
+consider P minus 1 over 2 factorial I
+
+693
+00:43:01,180 --> 00:43:15,080
+claim that that's your I that this is an
+
+694
+00:43:06,170 --> 00:43:17,660
+element whose square is this why well if
+
+695
+00:43:15,080 --> 00:43:28,750
+you write down that number 1 times 2
+
+696
+00:43:17,660 --> 00:43:33,280
+times its construction construction
+
+697
+00:43:28,750 --> 00:43:35,960
+we're all safe we're all perfectly safe
+
+698
+00:43:33,280 --> 00:43:39,490
+if you take this element P minus 1 over
+
+699
+00:43:35,960 --> 00:43:39,490
+2 factorial and you complete it
+
+700
+00:43:46,589 --> 00:43:53,770
+to P minus 1 factorial this product we
+
+701
+00:43:49,599 --> 00:43:56,950
+agree is congruent to minus 1 but this
+
+702
+00:43:53,770 --> 00:44:00,369
+element is minus this element and this
+
+703
+00:43:56,950 --> 00:44:02,829
+element is minus this element and this
+
+704
+00:44:00,369 --> 00:44:04,960
+element is minus this element so the
+
+705
+00:44:02,829 --> 00:44:09,369
+terms in this product are all minus the
+
+706
+00:44:04,960 --> 00:44:13,030
+terms in this product right so this
+
+707
+00:44:09,369 --> 00:44:16,480
+product is equal to this product times
+
+708
+00:44:13,030 --> 00:44:18,910
+the number of minus signs and how many
+
+709
+00:44:16,480 --> 00:44:22,180
+minus signs are there P minus 1 over 2
+
+710
+00:44:18,910 --> 00:44:25,450
+but P is 1 mod 4 so P minus 1 over 2 is
+
+711
+00:44:22,180 --> 00:44:27,970
+even so you get an even number of minus
+
+712
+00:44:25,450 --> 00:44:31,000
+signs so in other words this product is
+
+713
+00:44:27,970 --> 00:44:37,329
+equal to this product as an even number
+
+714
+00:44:31,000 --> 00:44:41,589
+of minus signs which says that the
+
+715
+00:44:37,329 --> 00:44:43,630
+square of this number is minus 1 and
+
+716
+00:44:41,589 --> 00:44:46,450
+there's your element of order 4 it's
+
+717
+00:44:43,630 --> 00:44:48,190
+kind of a bizarre construction which you
+
+718
+00:44:46,450 --> 00:44:48,640
+wouldn't normally think of as making any
+
+719
+00:44:48,190 --> 00:44:52,329
+sense
+
+720
+00:44:48,640 --> 00:44:55,359
+but um there it is so this is our
+
+721
+00:44:52,329 --> 00:45:01,680
+candidate for F of I let's call this
+
+722
+00:44:55,359 --> 00:45:12,069
+number a mod P and now I let the ideal I
+
+723
+00:45:01,680 --> 00:45:14,829
+be the ideal generated by P and I minus
+
+724
+00:45:12,069 --> 00:45:17,650
+a this is some integer which is well
+
+725
+00:45:14,829 --> 00:45:19,810
+defined mod P so it doesn't make any
+
+726
+00:45:17,650 --> 00:45:21,579
+difference if you add P to it because
+
+727
+00:45:19,810 --> 00:45:25,359
+I've already got the ideal generated by
+
+728
+00:45:21,579 --> 00:45:31,420
+P so I is generate deal by P and I minus
+
+729
+00:45:25,359 --> 00:45:33,810
+a generated by 2 elements okay I claim
+
+730
+00:45:31,420 --> 00:45:37,260
+that this does the job
+
+731
+00:45:33,810 --> 00:45:37,260
+this does it
+
+732
+00:45:37,430 --> 00:45:44,880
+and the way you check it is you check
+
+733
+00:45:41,370 --> 00:45:46,890
+again that I intersect Z is PZ it
+
+734
+00:45:44,880 --> 00:45:50,610
+certainly contains the ideal P so it's
+
+735
+00:45:46,890 --> 00:45:52,050
+either P Z or the entire integers so
+
+736
+00:45:50,610 --> 00:45:54,510
+only have to do is check that if you
+
+737
+00:45:52,050 --> 00:45:56,190
+have a multiple of this by sub galaxy
+
+738
+00:45:54,510 --> 00:46:00,960
+and integer and it's an integer that
+
+739
+00:45:56,190 --> 00:46:03,090
+that integer is divisible by P just like
+
+740
+00:46:00,960 --> 00:46:08,160
+we did with the five thing so let's try
+
+741
+00:46:03,090 --> 00:46:11,060
+it I minus a times B plus CI let's see
+
+742
+00:46:08,160 --> 00:46:17,130
+what happens if Y is that divisible by P
+
+743
+00:46:11,060 --> 00:46:21,990
+well this is minus a B minus C I guess
+
+744
+00:46:17,130 --> 00:46:31,290
+that's the yeah plus let's see we get a
+
+745
+00:46:21,990 --> 00:46:33,330
+minus AC plus bi okay so this term is
+
+746
+00:46:31,290 --> 00:46:37,230
+zero so we find that B is equal to AC
+
+747
+00:46:33,330 --> 00:46:44,450
+and if we substitute that in here we get
+
+748
+00:46:37,230 --> 00:46:48,660
+minus a times B which is AC minus C
+
+749
+00:46:44,450 --> 00:46:52,670
+right which is factoring out the C
+
+750
+00:46:48,660 --> 00:46:57,140
+factoring out minus C times a squared
+
+751
+00:46:52,670 --> 00:47:00,980
+plus one correct
+
+752
+00:46:57,140 --> 00:47:05,160
+but a squared because a was an I a
+
+753
+00:47:00,980 --> 00:47:08,820
+squared had the property of being minus
+
+754
+00:47:05,160 --> 00:47:18,360
+1 mod p so a squared plus 1 is divisible
+
+755
+00:47:08,820 --> 00:47:21,750
+by P and consequently if I have any
+
+756
+00:47:18,360 --> 00:47:23,280
+product of I minus a with a Gaussian
+
+757
+00:47:21,750 --> 00:47:26,040
+integer which is an integer that
+
+758
+00:47:23,280 --> 00:47:28,590
+integers the visible by P so first thing
+
+759
+00:47:26,040 --> 00:47:31,800
+we know is the intersection is PZ but on
+
+760
+00:47:28,590 --> 00:47:41,480
+the other hand I is conjugate to an
+
+761
+00:47:31,800 --> 00:47:41,480
+integer in but z2r mod i is surjective
+
+762
+00:47:42,420 --> 00:47:49,680
+as I is congruent to an integer a in our
+
+763
+00:47:47,339 --> 00:47:51,720
+mod on same argument that we used here
+
+764
+00:47:49,680 --> 00:47:53,549
+once we have Ikon grew into an integer
+
+765
+00:47:51,720 --> 00:47:55,380
+any multiple of I is congruent to
+
+766
+00:47:53,549 --> 00:47:57,750
+multiple of that integer so anything of
+
+767
+00:47:55,380 --> 00:48:00,930
+the form b plus c i is congruent to an
+
+768
+00:47:57,750 --> 00:48:03,809
+integer so this map is surjective its
+
+769
+00:48:00,930 --> 00:48:07,910
+kernel is precisely PZ so that
+
+770
+00:48:03,809 --> 00:48:10,770
+identifies Z mod PZ with our mod I and
+
+771
+00:48:07,910 --> 00:48:14,040
+we've just proved that for any prime
+
+772
+00:48:10,770 --> 00:48:21,109
+congruent to 1 mod 4 we haven't we have
+
+773
+00:48:14,040 --> 00:48:23,549
+an ideal with this quotient now comes
+
+774
+00:48:21,109 --> 00:48:26,160
+that's already a great achievement that
+
+775
+00:48:23,549 --> 00:48:29,390
+Gauss had somehow the realization of all
+
+776
+00:48:26,160 --> 00:48:34,130
+this structure that you needed to find
+
+777
+00:48:29,390 --> 00:48:37,619
+ok now here's the great idea next step
+
+778
+00:48:34,130 --> 00:48:43,920
+this ring has the property that every
+
+779
+00:48:37,619 --> 00:48:48,650
+ideal in it is principle this is Gauss's
+
+780
+00:48:43,920 --> 00:48:57,540
+big theorem will prove this later
+
+781
+00:48:48,650 --> 00:48:59,490
+every pi in R is principal notice that
+
+782
+00:48:57,540 --> 00:49:02,190
+the ideal that we constructed here was
+
+783
+00:48:59,490 --> 00:49:04,980
+not at all obviously principal we needed
+
+784
+00:49:02,190 --> 00:49:07,530
+this a which was a fourth root of 1 mod
+
+785
+00:49:04,980 --> 00:49:10,440
+p and we needed our prime P so we needed
+
+786
+00:49:07,530 --> 00:49:12,480
+two generators for it but abstractly
+
+787
+00:49:10,440 --> 00:49:15,240
+without considering the construction of
+
+788
+00:49:12,480 --> 00:49:18,960
+this ideal gauss proved that every ideal
+
+789
+00:49:15,240 --> 00:49:21,440
+is principal so in particular this one
+
+790
+00:49:18,960 --> 00:49:25,010
+has to be principal
+
+791
+00:49:21,440 --> 00:49:25,010
+so corollary
+
+792
+00:49:27,800 --> 00:49:41,550
+since every pie is principal so is this
+
+793
+00:49:36,720 --> 00:49:43,530
+one so we can write AI is generated by
+
+794
+00:49:41,550 --> 00:49:45,450
+some a plus bi we don't know when a and
+
+795
+00:49:43,530 --> 00:49:49,590
+B are but there's some generator if it's
+
+796
+00:49:45,450 --> 00:49:51,810
+principal and consequently our modulo
+
+797
+00:49:49,590 --> 00:49:54,990
+the jet the ideal generated by a plus bi
+
+798
+00:49:51,810 --> 00:50:00,630
+is isomorphic to Z mod BZ because that
+
+799
+00:49:54,990 --> 00:50:04,950
+was true for Arman I and then the last
+
+800
+00:50:00,630 --> 00:50:06,840
+step is to show that this implies that a
+
+801
+00:50:04,950 --> 00:50:10,130
+squared plus B squared has to be equal
+
+802
+00:50:06,840 --> 00:50:13,410
+to P I'll show you that next time and
+
+803
+00:50:10,130 --> 00:50:16,140
+that was Gauss's proof of Fermat's
+
+804
+00:50:13,410 --> 00:50:18,840
+theorem that stated that any prime
+
+805
+00:50:16,140 --> 00:50:23,150
+number congruent to 1 mod 4 was the sum
+
+806
+00:50:18,840 --> 00:50:25,590
+of 2 squares it was this a and this B
+
+807
+00:50:23,150 --> 00:50:27,630
+that if you could write P as the sum of
+
+808
+00:50:25,590 --> 00:50:30,210
+two squares then every ideal in this
+
+809
+00:50:27,630 --> 00:50:32,250
+ring had to be principal it's an amazing
+
+810
+00:50:30,210 --> 00:50:33,780
+observation it's a ring theoretic proof
+
+811
+00:50:32,250 --> 00:50:35,820
+we don't know how firm I prove this
+
+812
+00:50:33,780 --> 00:50:38,280
+theorem from I left nothing behind him
+
+813
+00:50:35,820 --> 00:50:40,140
+in the way of proofs he made statements
+
+814
+00:50:38,280 --> 00:50:42,480
+most of his statements a large number of
+
+815
+00:50:40,140 --> 00:50:44,160
+his statements were correct so we and
+
+816
+00:50:42,480 --> 00:50:46,770
+they were so bizarre that he must have
+
+817
+00:50:44,160 --> 00:50:48,180
+had something in mind but Euler spent a
+
+818
+00:50:46,770 --> 00:50:51,270
+great deal of his life trying to recover
+
+819
+00:50:48,180 --> 00:50:53,790
+firm us proofs and this is a great one
+
+820
+00:50:51,270 --> 00:50:55,350
+that Gauss discovered using ring theory
+
+821
+00:50:53,790 --> 00:50:57,570
+so it really has two completely
+
+822
+00:50:55,350 --> 00:50:59,760
+different steps the first step is to
+
+823
+00:50:57,570 --> 00:51:02,940
+show that for these Prime's there is an
+
+824
+00:50:59,760 --> 00:51:05,070
+ideal with this quotient ring the second
+
+825
+00:51:02,940 --> 00:51:07,320
+step is to show that every ideal is
+
+826
+00:51:05,070 --> 00:51:08,970
+principle and then the third step which
+
+827
+00:51:07,320 --> 00:51:11,390
+is much easier is to show that if you
+
+828
+00:51:08,970 --> 00:51:14,280
+have a quotient by an ideal like this
+
+829
+00:51:11,390 --> 00:51:15,990
+more generally I'll show you for the
+
+830
+00:51:14,280 --> 00:51:17,970
+third step the general statement to
+
+831
+00:51:15,990 --> 00:51:24,290
+think about and you guys can think about
+
+832
+00:51:17,970 --> 00:51:24,290
+this for next time more generally
+
+833
+00:51:25,839 --> 00:51:36,829
+the order of our mod the principle ideal
+
+834
+00:51:32,390 --> 00:51:42,249
+generated by a + bi is a squared plus B
+
+835
+00:51:36,829 --> 00:51:42,249
+squared the order of a finite ring
+
+836
+00:51:44,229 --> 00:51:56,390
+providing this is not the zero ideal so
+
+837
+00:51:53,119 --> 00:51:58,219
+here I would have a principle ideal such
+
+838
+00:51:56,390 --> 00:52:00,469
+as the order of the quotient ring was P
+
+839
+00:51:58,219 --> 00:52:02,179
+that would force a squared plus B
+
+840
+00:52:00,469 --> 00:52:04,339
+squared to be equal to P it's a general
+
+841
+00:52:02,179 --> 00:52:07,579
+statement has nothing to with primes if
+
+842
+00:52:04,339 --> 00:52:14,359
+that's just like saying the order of the
+
+843
+00:52:07,579 --> 00:52:17,449
+order of r of Z mod n Z of Z mod NZ is
+
+844
+00:52:14,359 --> 00:52:19,130
+the absolute value of n so here's some
+
+845
+00:52:17,449 --> 00:52:22,069
+kind of absolute value this is this is
+
+846
+00:52:19,130 --> 00:52:27,259
+like this is remember a plus bi times
+
+847
+00:52:22,069 --> 00:52:30,380
+its conjugate so this is like a complex
+
+848
+00:52:27,259 --> 00:52:32,029
+absolute value think about that
+
+849
+00:52:30,380 --> 00:52:34,159
+and then you'll have the total proof of
+
+850
+00:52:32,029 --> 00:52:38,569
+Fermat's theorem and this is how ring
+
+851
+00:52:34,159 --> 00:52:41,149
+theory was built Gauss knew this result
+
+852
+00:52:38,569 --> 00:52:44,319
+from firma and he was trying to figure
+
+853
+00:52:41,149 --> 00:52:46,339
+out how one would construct a
+
+854
+00:52:44,319 --> 00:52:48,919
+mathematical proof of this that involves
+
+855
+00:52:46,339 --> 00:52:51,949
+some structure he was net lead naturally
+
+856
+00:52:48,919 --> 00:52:53,630
+to this ring z plus CI because if you
+
+857
+00:52:51,949 --> 00:52:54,979
+thought about a squared plus B squared
+
+858
+00:52:53,630 --> 00:52:57,399
+it was sort of like that
+
+859
+00:52:54,979 --> 00:53:00,049
+the absolute value of this element right
+
+860
+00:52:57,399 --> 00:53:01,579
+I mean he knew complex analysis gauss
+
+861
+00:53:00,049 --> 00:53:03,199
+also proved the fundamental theorem of
+
+862
+00:53:01,579 --> 00:53:05,329
+algebra which is a theorem and complex
+
+863
+00:53:03,199 --> 00:53:06,969
+analysis so he'd worked with complex
+
+864
+00:53:05,329 --> 00:53:09,829
+numbers that led him to consider this
+
+865
+00:53:06,969 --> 00:53:11,389
+submarine of the complex numbers and he
+
+866
+00:53:09,829 --> 00:53:12,679
+realized that in proving this theorem
+
+867
+00:53:11,389 --> 00:53:15,259
+you have to prove something about its
+
+868
+00:53:12,679 --> 00:53:18,949
+ideals and that was the beginning of
+
+869
+00:53:15,259 --> 00:53:20,749
+rank theory so we'll go over the last
+
+870
+00:53:18,949 --> 00:53:22,880
+couple of steps in this take take a look
+
+871
+00:53:20,749 --> 00:53:24,409
+through this this is the work of a truly
+
+872
+00:53:22,880 --> 00:53:26,119
+great mathematical mind you're not
+
+873
+00:53:24,409 --> 00:53:28,429
+supposed to come up with this overnight
+
+874
+00:53:26,119 --> 00:53:30,019
+for your homework but it's a some
+
+875
+00:53:28,429 --> 00:53:32,239
+appreciation of where the theory of
+
+876
+00:53:30,019 --> 00:53:34,579
+ideals came about and notice that you
+
+877
+00:53:32,239 --> 00:53:36,919
+first construct an abstract ideal and
+
+878
+00:53:34,579 --> 00:53:38,560
+then prove it principle theorem
+
+879
+00:53:36,919 --> 00:53:41,220
+good ok
+
+880
+00:53:38,560 --> 00:53:41,220
+more on Wednesday
+

@@ -1,0 +1,1094 @@
+1
+00:00:11,960 --> 00:00:34,659
+这次考试挺难的。我觉得稍微偏长了一点。中位数和平均分都在 75% 左右，成绩分布如下。所以我觉得如果你在 70 分或以上，表现还不错；如果在这下面，我认为你需要花一点功夫来多练习做这类题目。
+The exam was a difficult exam. It was a little, I think, too long. The median and mean turned out to be 75%, and the grades were distributed as follows. So I think if you were in the 70s or above you're doing fine; down here, I think you need to do a little bit of work just to practice doing these kind of problems.
+
+2
+00:00:34,659 --> 00:00:48,059
+我知道大家做平时作业时没有时间压力，我也许会尝试把第二次小时考设计得时间更充裕一些；到时我们再看怎么调整。那么让我简要过一下考卷题目。对于第 1 题，我觉得有相当一部分人在循环群的定义上遇到了困难：
+I realize we don't have time pressure on homework, and I may try to design the second hour exam to relieve a little time pressure; we'll see what we can do. So let me just go over the questions briefly. I think for Problem 1, a number of people had a difficulty
+
+3
+00:00:48,059 --> 00:01:28,541
+一个群 G 是循环群，是指如果存在一个元素 g ∈ G，使得任意——好吧，不妨把这个元素记作 a，也就是生成元——使得 G 中任意元素 g 都具有 g = a^n 的形式（某整数 n ∈ Z）。
+with the definition of a cyclic group: a group G is cyclic if there is an element g in G such that any—well, let's call this element a, maybe, the generator—such that any g in G has the form g is equal to a to the n, some n in Z.
+
+4
+00:01:28,541 --> 00:01:34,228
+也就是说任意元素都是 a 的某个幂次；这样的 a 称为生成元。
+So any element is some power of a; such a's are called generators.
+
+5
+00:01:34,228 --> 00:01:42,141
+不要以为——很多人在这里犯了后半题的错误——不要以为群里的任意元素都是生成元，那是不对的。
+Do not think—and this is where people made a mistake on the second half of the problem—that any element of the group is a generator; that's not true.
+
+6
+00:01:42,141 --> 00:01:49,369
+对于一个 4 阶循环群，生成元的平方就不是生成元，因为它的阶为 2。
+For a cyclic group of order 4, the square of a generator is not a generator because it has order 2.
+
+7
+00:01:49,369 --> 00:02:01,640
+所以循环群的定义是：应该存在某个这种形式的生成元；然后题目要求你证明：如果 H 是 G 的子群，则 H 也是循环群。
+So the definition of a cyclic group: there should be some generator of this form; and then you're supposed to prove that if H is a subgroup of G, it is also cyclic.
+
+8
+00:02:01,640 --> 00:02:27,750
+所以已知 a 是 G 的生成元，我们要为 H 找到一个生成元。让我们这样来写：有两种可能。如果 H 仅由单位元构成，那么结论显然成立，因为平凡群按定义就是循环群：你可以取单位元作为生成元。
+So what we have to find for H is a generator of H, given the fact that a is a generator for G. Let's write it like this: so there are two possibilities. If H is equal to the identity, then it's true because the identity group is by definition cyclic: you can take the identity element as a generator.
+
+9
+00:02:27,750 --> 00:02:42,253
+如果不是，那么对某个 n ≥ 1，H 包含 a^n。
+If not, then H contains a^n for some n >= 1.
+
+10
+00:02:42,253 --> 00:03:05,633
+因为如果它不只有单位元，那么它必然对某个非零整数包含 a 的某个幂次；如果它包含某个非零整数次幂，那么通过取该元素的逆元，你可以假定它包含某个正整数次幂（必要时取逆元即可）。
+Because if it's not just the identity element, then it contains some power of a for some non-zero integer; and if it contains some non-zero integer, then by taking the inverse of that element you can assume that it contains a power of a for some positive integer, taking inverses if necessary.
+
+11
+00:03:05,633 --> 00:03:25,603
+接着，为了找到 H 的一个生成元，你所做的就是：H 的生成元 b 取为 a^k，其中 k 是最小的这一类指数。
+And then what you do to find a generator of H is: a generator b of H is a^k, where k is the minimal such power, such n.
+
+12
+00:03:25,603 --> 00:03:38,355
+也就是说，在所有落在 H 中的 a 的正整数幂次中，取 a 的最小正幂次，把这个元素记作 b，我断言 b 生成了 H。现在你需要证明这一点。
+Namely, for all the positive powers of a that lie in H, take the smallest positive power of a that lies in H, call that thing b, and I claim that b generates H. So now you have to prove that.
+
+13
+00:03:38,355 --> 00:03:56,935
+于是你说，假设H 中还有别的元素，设 a^m ∈ H。我们把 m 写成 k 的某个倍数加上余数，其中 0 ≤ r< k。
+So you say, well, suppose there's something else in H, say a^m is in H. So we write m as some multiple of k plus a remainder, with 0 <= r < k.
+
+14
+00:03:56,935 --> 00:04:13,248
+我们用欧几里得辗转相除法写成这种形式。由于 a^m 和 (a^k)^q 都在H 中，因此 a^r 也在 H 中。
+We use the Euclidean algorithm to write it that way. Since a^m and (a^k)^q are both in H, so is a^r.
+
+15
+00:04:13,248 --> 00:04:30,000
+但 r 是小于 k 的非负整数，根据 k 的定义，落在 H 中的 a 的唯一非负幂次就是 0 次幂。
+But r is a non-negative number less than k, and the only power of a (by definition of what k is) that lies in H, or non-negative power of a that lies in H, is the zero power.
+
+16
+00:04:30,000 --> 00:04:40,783
+这意味着 r 必须等于 0，所以m 等于 q · k，且 a^m 等于 b^q。
+That implies that r is equal to 0, so that m is equal to q * k, and a^m is equal to b^q.
+
+17
+00:04:40,783 --> 00:04:50,280
+这就证明了 H 中的任意元素都是落在 H 中的 a 的最小正幂次的幂，从而 H 也是循环群。
+And that shows that any element in H is a power of the smallest power of a that lies in H, so that H is also cyclic.
+
+18
+00:04:50,280 --> 00:04:57,815
+并不是说 H 里的任意元素都能作生成元，那是很多人犯的一个错误。
+It's not true that anything in H will be a generator, so that was a mistake that a lot of people made.
+
+19
+00:04:57,815 --> 00:05:12,738
+“请问，是的，你说 H包含……”“抱歉，是那样吗？”“对，如果不是平凡群，H 中一定有 a 的某个幂次。”好的，第 2 题。
+"Excuse me, yeah, you say H contains..." "Sorry, like that?" "Yeah, yeah, there's some power of a that lies in H if it's not the identity." All right, number 2.
+
+20
+00:05:12,738 --> 00:05:28,880
+首先，如果 H 是正规子群，证明 HgH 是一个左陪集。
+So the first thing is, if H is normal, show that HgH, sorry, is a left coset.
+
+21
+00:05:30,040 --> 00:05:44,027
+如果 H 是正规子群，这意味着对 G 中每一个 g，作为集合 gH 都等于 Hg，即 g 的左陪集就是 g 的右陪集。
+Well, if H is normal, that implies for every g in G that gH is equal to Hg as a set—that the left coset of g is the right coset of g.
+
+22
+00:05:44,027 --> 00:05:59,930
+所以你只需把这里的 Hg 替换掉：它等于集合 gH · H；但由于结合律，gH · H 等同于 g · H，因为 H 中的任意元素乘 H 中的任意元素仍然留在 H 中。
+So you simply replace this Hg here by: it's the same as the set gH * H; but gH * H by associativity is the same thing as g * H, because anything in H * anything in H lies in H.
+
+23
+00:05:59,930 --> 00:06:16,996
+这就证明了它是一个左陪集。这道题的第二问稍微难一点：你要证明如果 H 不是正规子群，那么它不等于 gH。
+So that shows it's a left coset. And the second part of this problem is a little harder: you're supposed to say if H is not normal, then this is not equal to gH.
+
+24
+00:06:16,996 --> 00:06:48,380
+我们不妨这样做：如果 HgH 是一个左陪集，我们将证明 H 是一个正规子群。如果它是一个左陪集，那它必然是陪集 gH，因为只要取前面的 H 里的元素为单位元，它就包含该陪集——因为这等于 e · gH，而 e 是 H 中的元素。
+So let's do it this way: if HgH is a left coset, we're going to prove that H is a normal subgroup. Well, if it is a left coset, it must be the coset gH, because it contains that coset if you take the first element in H to be the identity element—and you take the identity, because this is equal to e * gH, and e is an element in H.
+
+25
+00:06:48,380 --> 00:07:12,679
+因此既然它包含这个集合，它唯一可能对应的陪集就只能是 gH。另一方面，那么HgH 必须等于集合 gH。
+So because it contains this set, there's only one possible coset it could be. On the other hand, then, HgH has to equal the set gH.
+
+26
+00:07:12,679 --> 00:07:50,281
+现在这意味着如果你——我断言这表明如果你取这个右陪集，它意味着 H · g 实际上包含在 gH 中，因为前者是后者的子集，即这是 H · g · e。所以这个右陪集包含在这个左陪集中。
+Now what this means if you— so I claim that that means that if you take this right coset, this implies that H * g is actually contained in gH, because this is a subset of this, namely this is H * g * e. So that this right coset is contained in this left coset.
+
+27
+00:07:50,281 --> 00:08:01,639
+特别地，用 g 作共轭变换，g⁻¹ H g 包含在 H 中。
+In particular, conjugating by g, g^{-1} H g is contained in H.
+
+28
+00:08:01,639 --> 00:08:11,700
+这对每一个g 都成立，因为假设了对所有 g ∈ G 这都是左陪集。
+Well, that's true for every g, because this is assumed to be a left coset for all g in G.
+
+29
+00:08:11,700 --> 00:08:37,319
+但实际上这蕴含了 g⁻¹ H g对所有 g 都等于 H：因为利用这个包含关系，左乘 g、右乘 g⁻¹，你得到 H 包含在 g H g⁻¹ 中（对所有 g 成立）。
+But that implies in fact that g^{-1} H g is equal to H for all g: because take this inclusion and multiply it on the left by g and on the right by g^{-1}, you get H is contained in g H g^{-1} for all g.
+
+30
+00:08:37,319 --> 00:08:56,384
+用 g 进行共轭：如果对所有 g 都有这层相互包含关系，那么两者就必须相等（把 g 换成 g⁻¹ 亦然）；这意味着 H 是正规子群。
+Conjugate by g: and if this is contained in this, and this is contained in this for all g, then this is contained in this, which is contained in the same thing for g replaced by g^{-1}, so they have to be equal; and this means that H is normal.
+
+31
+00:08:56,384 --> 00:09:00,871
+因此如果对所有 g 这都是左陪集，我们就证明了 H 是正规子群。
+So if this were a left coset for all g, then we've just proved that H is normal.
+
+32
+00:09:00,871 --> 00:09:10,709
+所以如果它不正规，就必然存在某个 g 使得它不是左陪集。好的，第 3 题大部分人都做对了，并不太难。
+So if it isn't normal, there has to be some g for which this isn't a left coset. Okay, the third problem most people got; it wasn't that hard.
+
+33
+00:09:10,709 --> 00:09:16,932
+它本质上就是商群中元素相等的定义。
+It's really a definition of what it means to be equal in a quotient group.
+
+34
+00:09:16,932 --> 00:09:40,013
+第 3 题：假设在商群 G/N（即 Ḡ）中 x̄ 与 ȳ 可交换，这正好就是陪集 xyN 与陪集 yxN 相同的陈述。
+So the third problem: suppose if x-bar commutes with y-bar in G/N, which is G-bar, that's just the statement that the coset xyN is the same as the coset yxN.
+
+35
+00:09:40,013 --> 00:09:50,177
+这是一种等价表述，因为这就是 x̄ · ȳ 作为陪集的形式，而这就是 ȳ · x̄ 作为陪集的形式。
+So this is an equivalent way of stating it, because this is what x-bar * y-bar is as a coset, and this is what y-bar * x-bar is as a coset.
+
+36
+00:09:50,177 --> 00:10:02,096
+但如果你相乘——让我们看看怎么做，我们在左边乘以 x⁻¹：yN = x⁻¹ yx N；然后在左边乘以 y⁻¹：
+But this is the same thing if you multiply—let's see how we do this, let's multiply on the left by x^{-1}: yN is equal to x^{-1} yx N;
+
+37
+00:10:02,096 --> 00:10:22,793
+N = y⁻¹ x⁻¹ yx N；如果这个元素的陪集是 N，这意味着它本身是 N 中的元素。我这样做对吗？这就是我们原来要证明的吗？
+and then multiply on the left by y^{-1}: N is equal to y^{-1} x^{-1} yx N; and if the coset of this is N, that means that this is an element in N. Did I do this right? Is that what we were supposed to prove?
+
+38
+00:10:22,793 --> 00:10:35,190
+我想我刚好做反了，对不起。让我们重来一遍：我们改用 y⁻¹ 乘，于是我正好得到我写在黑板上的结论。抱歉我刚才写反了：
+I think I did it the other way around, sorry, I apologize. Let's do it again: so let's instead multiply this by y^{-1}, so I get exactly the statement that I put up. Apologies, I did it the wrong way:
+
+39
+00:10:35,190 --> 00:10:54,000
+y⁻¹ xy N = xN，这就等价于 x⁻¹ y⁻¹xy N = N，即 x⁻¹ y⁻¹ xy ∈ N，而且所有这些步骤都是可逆的。
+y^{-1} xy N is equal to xN, and then that's the same thing as x^{-1} y^{-1} xy N is equal to N, which is the same thing as x^{-1} y^{-1} xy is in N, and all these steps are reversible.
+
+40
+00:10:54,000 --> 00:11:03,716
+这就是第 3 题。这个元素有时被称为 x 和 y 的交换子；大家会在文献中看到它写作那种形式。
+So that's Problem 3. Now this element is sometimes called the commutator of x and y; you'll see it in the literature written that way.
+
+41
+00:11:03,716 --> 00:11:12,343
+好的，这是第 3 题。第 4 题：大家把中心的定义写对了，但在题目的其余部分遇到了困难。
+Okay, that's Problem 3. Problem 4: people got the definition of the center right, but then had trouble with the rest of the problem.
+
+42
+00:11:12,343 --> 00:11:27,667
+中心的定义由所有满足对任意 g ∈ G 都有 zg = gz 的元素 z 组成：也就是与群中每个元素都可交换的元素。
+So the definition of the center consists of all elements z such that zg = gz for all g in G: the things that commute with every element.
+
+43
+00:11:27,667 --> 00:11:48,848
+现在假设群中有一个唯一的 2 阶元。首先，设 a 在 G 中的阶为 2，那么我断言 g a g⁻¹的阶也是 2：任意 2 阶元的共轭元仍然是 2 阶元。
+Now suppose you have a unique element of order 2. First of all, let's say a has order 2 in G, then I claim that g a g^{-1} has order 2: the conjugate of any element of order 2 has order 2.
+
+44
+00:11:48,848 --> 00:11:56,304
+一般而言，n 阶元的共轭元阶也是 n；共轭作用是群的自同构，因此它保持像阶这样的所有代数性质。
+In general, the conjugate of an element of order n has order n; conjugation is an automorphism of the group, so it preserves everything like order.
+
+45
+00:11:56,304 --> 00:12:13,858
+证明这一点相当容易：你只需把该元素平方，中间的项相互抵消，得到 g a² g⁻¹；由于 a² = 1（即单位元 e），
+Well, you can prove this rather easily: you just square the element, and these two things cancel, so you get g a^2 g^{-1}, which is just g g^{-1} because a^2 is 1 (which is e),
+
+46
+00:12:13,858 --> 00:12:24,565
+这就化简为 g g⁻¹ = e，这表明这个元素的平方等于 1。但该元素不可能是 1，因为非平凡元共轭后不可能变成单位元；所以它的阶是 2。
+which shows that the square of this element is 1. But this element can't be 1, because you can't conjugate a non-trivial element into the identity; so it has order 2.
+
+47
+00:12:24,565 --> 00:12:35,117
+那么如果它的阶是 2，且群中存在唯一的 2 阶元——而这正是大多数人在做题时没有用到的：你不能只凭共轭元是 2 阶元这一事实——
+Well, if it has order 2, and there's a unique element of order 2—and this is what most people didn't use in the problem: you can't just get it out of the fact that the conjugate has order 2—
+
+48
+00:12:35,117 --> 00:12:57,534
+若 a 是唯一的，这就蕴含了对所有 g，g a g⁻¹ = a，因为共轭元也是 2 阶元；这意味着对所有 g 都有 ga = ag，从而 a 属于群的中心。
+if a is unique, that implies that g a g^{-1} is equal to a for all g, because that's another element of order 2; which means that ga = ag for all g, which implies that a is in the center.
+
+49
+00:12:57,534 --> 00:13:17,479
+顺便说一句，这个论证正是用来证明 n 阶元的共轭元阶为 n 的方法：同样地，你把它连乘n次，所有内部的 g 与 g⁻¹ 都会抵消，
+This argument, by the way, is the argument you can use to show that the conjugate of an element of order n has order n: again, you multiply it n times,
+
+50
+00:13:17,479 --> 00:13:27,773
+得到 g a^n g⁻¹；如果 a^n 是单位元，它就是单位元，并且对任意 g 都成立，因此证明了它的确切阶就是 n。
+and then all the internal g's and g^{-1}'s cancel, and you get g a^n g^{-1}, which is the identity if a^n is the identity.
+
+51
+00:13:27,773 --> 00:13:36,642
+好的，所以 2 阶元唯一时在中心。那么可能存在唯一的 3 阶元吗？
+And then you can do that for all g, so that shows that that has exact order n. Okay, so this is unique. Can you have a unique element of order 3?
+
+52
+00:13:36,642 --> 00:13:59,446
+几乎大家都做对了：不可能。因为如果你有一个 3 阶元，它会生成一个 3 阶循环群，得到一个像 {e, a, a²} 这样的小子群，你会发现 a² 的阶也是 3。事实上 a² 与 a⁻¹ 是相同的；a 和 a⁻¹ 总是具有相同的阶。
+So almost everyone got that you can't, because if you have an element of order 3, it generates a cyclic group of order 3, so you get a little subgroup that looks like {e, a, a^2}, and you find that this element also has order 3. In fact, a^2 is the same as a^{-1}; a and a^{-1} always have the same order.
+
+53
+00:13:59,446 --> 00:14:04,154
+所以它唯一可能成立的唯一性条件是 a = a⁻¹，这意味着 a 的阶必须是 2。
+So the only way it could possibly be unique is if a is equal to a^{-1}, which means that a has to have order 2.
+
+54
+00:14:04,154 --> 00:14:15,345
+如果有 4 阶元，它不可能唯一；5 阶元也不可能唯一，因为a ≠ a²；所以你不可能有唯一的 3 阶元。
+If you have an element of order 4, it can't be unique; an element of order 5 can't be unique, so that a is not equal to a^2; so you can't have a unique element of order 3.
+
+55
+00:14:15,345 --> 00:14:34,884
+但这类元素经常出现：我们将会见到具有唯一2 阶元的群，从而在中心里得到一个有趣的元素。好的，关于对称矩阵的那道题，大家几乎都做对了。
+But these elements frequently come up: we're going to see groups which have unique elements of order 2, so you get an interesting element in the center. Okay, Problem 5: that was the question on the symmetric matrices.
+
+56
+00:14:34,884 --> 00:14:58,033
+若 A = (aᵢⱼ) 满足 aᵢⱼ = aⱼᵢ，这显然在加法和数乘下封闭，且包含零矩阵，因此是一个子空间；这很容易。
+So if A = (a_{ij}) where a_{ij} = a_{ji}, this is clearly closed under addition and scalar multiplication, and contains the zero element, so it's a subspace; that was easy.
+
+57
+00:14:58,033 --> 00:15:06,538
+然后维数也不难算，因为如果你仔细想想，这样的矩阵完全由对角线及对角线上方的元素所决定。
+And then the dimension isn't hard either, because if you think about it, such a matrix is completely determined by the entries on the diagonal and above the diagonal.
+
+58
+00:15:06,538 --> 00:15:14,479
+一旦确定了矩阵的这些元素，其余位置就全被确定了，所以你只需数一下对角线等位置有多少个元素。
+Once you have these entries of the matrix, they determine everything else, so you just have to count how many entries there are on the diagonal, etc.
+
+59
+00:15:14,479 --> 00:15:24,662
+主对角线上的元素个数是 n，往上一行有 n - 1 个元素，再往上有 n - 2 个元素，一直到 1 个元素。
+And the number of entries on this diagonal is n, and here we have n - 1 entries, and here we have n - 2 entries, all the way down to 1 entry.
+
+60
+00:15:24,662 --> 00:15:33,593
+所以维数是 1 + 2 + ... + n = n(n + 1)/2——比n²/2 稍多一点。
+So the dimension is 1 + 2 + ... + n, which is n * (n + 1) / 2—a little bit more than n^2 / 2.
+
+61
+00:15:33,593 --> 00:15:47,416
+好的，还有——抱歉，接着我问它在乘法下是否封闭，我收到了各种各样抽象的论证，但大家真正需要做的仅仅是写出一个反例。
+Okay, and—oh, I'm sorry, then I asked whether it was closed under multiplication, so I got all kinds of abstract arguments here, but all you have to do is write down an example.
+
+62
+00:15:47,416 --> 00:16:01,279
+例如：如果你把这个矩阵与那个矩阵相乘，它们都是对称矩阵，但相乘后得到的矩阵却不是对称的。
+So an example: if you do this, if you multiply this by this matrix, these are both symmetric matrices, but when you take the matrix product you get this, which is not symmetric.
+
+63
+00:16:01,279 --> 00:16:14,360
+有些人写了两个一般 2×2 矩阵相乘，算出一个 2×2 矩阵后说“看起来不相等”，但我没法确认——我是说，那只是a 和 b 的代数组合：大家必须给出具体的数字！
+Some people gave me the general 2x2 times the general 2x2; they got a 2x2 matrix here, and they said, well, it doesn't look equal, but I don't know that—I mean, it's some funny combinations of a's and b's: you actually have to give me numbers!
+
+64
+00:16:14,360 --> 00:16:29,160
+还有人说：如果它在乘法下封闭，那么通过取转置，空间中所有元素就得满足 AB = BA，而既然我们知道矩阵乘法一般不可交换，所以这不可能发生。
+Other people said: well, if it were closed under multiplication, then by taking transpose I would have AB = BA for all elements in the space, and since we know matrix multiplication isn't commutative, then that can't happen.
+
+65
+00:16:29,160 --> 00:16:43,936
+可是我们并不知道对称矩阵的乘法是否不可交换；虽然有点钻牛角尖，但当你试图给出一个断言的反例时：直接给例子，少讲理论！当你试图证明定理时才需要理论。
+Well, we don't know that symmetric matrix multiplication is non-commutative; it's a picky point, but it's so much easier when you're trying to give a counterexample to a statement: just give an example, less theory! When you're trying to prove something, that's when you need theory.
+
+66
+00:16:43,936 --> 00:16:51,040
+好的，最后是第 6 题，几乎所有人都意识到了：一旦写出双射，结论就非常清晰了。
+Okay, and then finally Problem 6, which almost everyone realized: once you wrote down the bijection, it was pretty clear.
+
+67
+00:16:51,040 --> 00:17:02,434
+我们考虑向量空间 F^n，想在所有基的集合与 GL_n(F) 之间给出一个双射。
+So we had the vector space F^n, and we want to give a bijection between the set of bases and GL_n(F).
+
+68
+00:17:02,434 --> 00:17:07,465
+首先，大部分人都忘了这道题的第一小问：给出这个群的定义。
+First of all, most people forgot the first part of the problem: to actually define this group.
+
+69
+00:17:07,465 --> 00:17:38,128
+我没扣太多分，但它应该是由所有满足 det(A) ≠ 0的 F 上 n×n 矩阵构成的乘法群：这就是群 GL_n(F) 的定义。我们要建立基与GL_n(F) 元素之间的映射。
+I didn't take too much off, but this is going to be the set of A which are n x n matrices with entries in F and determinant of A not equal to 0 under multiplication: that's the definition of the group GL_n(F). And we want to map between bases and elements in GL_n(F).
+
+70
+00:17:38,128 --> 00:17:56,380
+思路是：如果你取一组基，即有序基 (v₁, ..., vₙ)，并定义 f 作用在该基上为以 v₁ 的分量为第一列、v₂ 的分量为第二列、vₙ 的分量为最后一列的矩阵，这就得到一个 n× n 矩阵。
+And the idea is, if you take a basis, an ordered basis (v_1, ..., v_n), and you define f of that basis to be the matrix where the first column is the entries of v_1, and the second column is the entries of v_2, and the last column is the entries of v_n, that gives you an n x n matrix.
+
+71
+00:17:56,380 --> 00:18:09,282
+由于作为基这些向量是线性无关的，所以这些列向量线性无关，从而（大家可以直接引用）矩阵的行列式非零。
+Since these elements are linearly independent because it's a basis, these columns are linearly independent, so (that people could quote) shows that the determinant of the matrix is non-zero.
+
+72
+00:18:09,282 --> 00:18:11,602
+这就是基到 GL_n(F) 元素之间的一个映射。
+So that's a map between bases and elements in GL_n(F).
+
+73
+00:18:11,602 --> 00:18:22,106
+它显然是单射，因为如果知道了矩阵，你就知道基的所有坐标分量，从而确定了基——没有任何两组不同的基会对应同一个矩阵。
+It's clearly a one-to-one map, because if you know what the matrix is, you know all the entries of the bases, so you know the bases—no two bases would go to the same matrix.
+
+74
+00:18:22,106 --> 00:18:42,336
+而且它是满射，因为如果我取任意可逆矩阵，直接把第一列作为 F^n 中的第一个基向量，第二列作为第二个基向量，矩阵的可逆性保证了这 n 个向量是线性无关的，从而构成一组基。那道题我就只要这些。
+And it's onto, because if I take any invertible matrix, and I just take the first column as my first basis vector in F^n, and the second column as my second basis vector, the fact that the matrix is invertible says that these n elements are linearly independent, so give a basis. That was all I needed for that.
+
+75
+00:18:42,336 --> 00:18:51,599
+现在对于尝试做最后一小问的同学——有一两个人尝试了，我不确定是否有人，有一两个人做出来了——你就是用这道题的结论来做的。
+Now For those of you who tried the last one—and there were one or two people who tried it, I'm not sure anyone, one or two people got it—you use this problem to do it.
+
+76
+00:18:51,599 --> 00:19:11,825
+这是最好的做法，即为了计算有限群GL_n(Z/pZ) 的阶，你只需计算向量空间(Z/pZ)^n 的有序基的个数。
+That's the best way to do it, namely to calculate the order of the group GL_n(Z/pZ), you have to calculate the number of ordered bases of (Z/pZ)^n.
+
+77
+00:19:11,825 --> 00:19:20,921
+为什么算这个会比直接算矩阵容易？让我们来尝试构造一组基：我们首先要做的就是选取第一个基向量。
+Well, why would that be any easier than calculating this? Well, let's try to make a basis: the first thing we have to do is choose our first basis vector.
+
+78
+00:19:20,921 --> 00:19:25,839
+它必须是这个空间中的向量，并且它唯一需要满足的条件就是与 0 线性无关（即非零）。
+So that's got to be a vector in this space, and the only thing it has to be is linearly independent from zero.
+
+79
+00:19:25,839 --> 00:19:42,348
+我们通过不断添加线性无关的元素来构造基；所以第一步只要选一个非零向量，第一个基向量有 p^n - 1 种选择，对吧？因为这里总共有 p^n 个向量，只有 1 个是零向量。
+We're going to build a basis by continually adding linearly independent elements; so the first thing is just some non-zero vector in there, and there are p^n - 1 choices for that first vector, right? Because there are p^n vectors here, and only one is zero.
+
+80
+00:19:42,348 --> 00:19:55,231
+然后如果我们要选取基向量 v₂，我们希望它与 v₁ 线性无关，即不在由 v₁张成的一维直线上。
+And then if we're going to choose a basis vector v_2, we want it linearly independent from v_1, i.e. not on the line spanned by v_1.
+
+81
+00:19:55,231 --> 00:20:04,719
+这里总共有 p^n 个向量，而在 v₁ 张成的直线上有 p 个向量；因此v₂ 有 p^n - p 种选择。
+So there are p^n total vectors in here, and there are p vectors on the line spanned by v_1; so there are p^n - p choices for v_2.
+
+82
+00:20:04,719 --> 00:20:18,099
+接着如果我们想选 v₃，它最好与由 v₁ 和 v₂张成的二维平面线性无关；而向量 v₃ 有 p^n - p² 种选择，因为总共有 p^n 个向量，
+And then if we want to choose v_3, it better be linearly independent from the plane spanned by v_1 and v_2; and there are p^n - p^2 choices for the vector v_3, because there are p^n vectors total,
+
+83
+00:20:18,099 --> 00:20:28,010
+而这些是 v₁ 与 v₂ 张成平面上的向量个数。我们一直这样选下去，最后一个向量有 p^n - p^{n-1}种选择。
+and these are the number of vectors in the plane spanned by v_1 and v_2. We keep going down, and the last vector has p^n - p^{n-1} choices.
+
+84
+00:20:28,010 --> 00:20:45,404
+因此基的总数就是这一系列选择数的连乘积：所以是 (p^n - 1)，抱歉，(p^n - 1)(p^n - p) 一直乘到 (p^n - p^{n-1})。
+So the total number of bases is the product of this number of choices times this number of choices times this times this: so it's (p^n - 1), sorry, (p^n - 1)(p^n - p) down to (p^n - p^{n-1}).
+
+85
+00:20:45,404 --> 00:21:00,968
+如果你提出所有 p 的幂次，就得到你得到 p^{n(n-1)/2} · (p^n - 1)(p^{n-1} - 1) ... (p - 1)。
+And if you factor out all the powers of p, you get you get p^{n(n-1)/2} (p^n - 1)(p^{n-1} - 1) ... (p - 1).
+
+86
+00:21:00,968 --> 00:21:16,880
+特别地，如果你想求有限群 GL_2(Z/pZ)（即 2×2 可逆矩阵群）的阶，它就是 p(p² - 1)(p - 1)。
+So in particular, if you wanted to do the order of the finite group GL_2(Z/pZ) of 2x2 invertible matrices, it would be p(p^2 - 1)(p - 1).
+
+87
+00:21:16,880 --> 00:21:31,940
+我们稍后还会回到这个有限群；这是一个非常重要的群，而计算它的阶的最好方法就是利用集合的双射，即先忘掉它是一个群，把它看成是计算在这个向量空间中组装一组基的方法数。
+We're going to come back to this finite group later; it's an important group to study, and the best way to count its order is to use this bijection of sets, namely to forget that it's a group and to think of it as counting the number of ways of assembling a basis of this vector space.
+
+88
+00:21:31,940 --> 00:21:36,508
+那道题没有附加分，但我觉得如果有时间大家会觉得挺有趣的。
+There was no extra credit given for that, but I thought you might find it amusing if you had time.
+
+89
+00:21:36,508 --> 00:21:44,520
+没人有富余时间，所以正如我所说，我下一次会尽量设计考卷不仅考察知识点，而且给大家留出足够的思考时间。
+Nobody had any time, so I will try to, as I say, construct the next exam so that it not only tests the material but gives you enough time to think about it.
+
+90
+00:21:44,520 --> 00:21:55,943
+很多人抱怨说他们实在有点手忙脚乱，我完全理解这种感受——我自己就很慢！所以我会尽量调整。对此有什么问题吗？
+Many, many people complained that they just were sort of too frazzled, and I know the feeling—I'm very slow myself! So I will try to set it up. Questions about this?
+
+91
+00:21:55,943 --> 00:22:02,480
+不要气馁；我认为班上没有谁真正跟不上，这都是学习一门新数学语言的过程。
+Do not get discouraged; I don't think anybody in the course is seriously lost, this is all a process of learning a language.
+
+92
+00:22:02,480 --> 00:22:10,578
+正如我所说，如果你在这个分数区间，你学得很好；如果在下面，我觉得你需要再多做些练习。
+As I say, if you're in this range, you're doing fine; if you're down here, I think you need a little bit more practice.
+
+93
+00:22:10,578 --> 00:22:32,403
+好的，现在我们开始上课；借助我们现有的线性代数工具，我们要回过头来构造一些非常有趣的群，并开始研究19 世纪末发现的群论与几何学之间的一段美妙联系。如今几乎所有几何学都是用群论语言来表述的。
+Okay, now we're going to get started, and with the linear algebra that we have at our disposal, we're going to go back and construct some very interesting groups, and start to study a beautiful relationship that was discovered at the end of the 19th century between group theory and geometry. Almost all of geometry is now formulated in terms of group theory.
+
+94
+00:22:32,403 --> 00:22:47,726
+你们中很多人可能在科普报道中读到过：一些数学家和天文学家提出了一个关于宇宙形状的模型，完全基于群论——基于正十二面体：“宇宙是一个足球”。
+Many of you may have been reading in the popular science press: some mathematicians and astronomers have come up with a model for the shape of the universe, which is all based on group theory—based on a dodecahedron: "the universe is a soccer ball."
+
+95
+00:22:47,726 --> 00:23:02,680
+不管怎样，我其实并不相信他们的模型，我认为当他们进一步分析来自各种射电轨道望远镜传回的数据时，就会推翻这个假说。
+Anyhow, I don't actually believe their model, and I think that when they look at a little bit more data that's come in from the various radio telescopes that are orbiting, that they'll contradict it.
+
+96
+00:23:02,680 --> 00:23:14,956
+但这确实是一个有趣的假说：对，宇宙是有限的，你朝这个方向望去，能看到在另一个方向出现过的景象。是的，如果你看——“他们真相信这个吗？”
+But it's an interesting hypothesis: yeah, that it's finite, and that you should be able to look out in this direction and see something that you saw back in that direction. Yeah, if you look on the—"Do they really believe it?"
+
+97
+00:23:14,956 --> 00:23:25,419
+是的，有一篇发表在——文章——不不不，开普勒曾提出过那个精彩的模型——对，但开普勒虽然科学造诣极高，
+Yeah, there's an article in— article—no no no, Kepler had this wonderful model where—yeah, but Kepler also believed, for all of his science,
+
+98
+00:23:25,419 --> 00:23:35,022
+他当年也坚信太阳系是通过把正多面体（柏拉图多面体）相互内切来构建的！我是说，那个时代充满了很多神秘主义思想。
+he believed that the solar system was organized by inscribing Platonic solids into other Platonic solids! I mean, there was a lot of mysticism back then.
+
+99
+00:23:35,022 --> 00:23:48,161
+所以数学家至今仍相信应该存在某种非常简单的三维几何形状来描述有限宇宙，而天文学家不断拿出与之相悖的数据，但先不管他们的数据！
+So mathematicians still believe that there should be some very simple three-dimensional geometric shape that describes a finite universe, and the astronomers keep coming up with data that contradict this, but never mind their data!
+
+100
+00:23:48,161 --> 00:23:54,066
+如果你看看本月《自然》（Nature）杂志的封面，上面刊登了这篇文章，里面有相关的介绍。
+So if you look on the cover of, I believe, *Nature*, in which the article is published this month, there's a description of it.
+
+101
+00:23:54,066 --> 00:24:09,959
+我认识写这篇文章的作者 Bill Meeks；他提出这个观点已经有一段时间了，他们现在正好获得了足够的轨道卫星观测数据来实际检验它。好的，现在对任意域，我们有了我称之为 GL_n(F) 的这个群。
+I know the guy who wrote the article, Bill Meeks; he's been proposing this for some time, and they're just getting enough data from all these orbiting satellites to actually test it. Okay, now we have this group that I call GL_n(F) for any field.
+
+102
+00:24:09,959 --> 00:24:20,706
+现在我们要定义它一个非常有趣的子群，我记作 O_n(F)；然后我们还要定义它的一个子群，我记作 SO_n(F)。
+Now we're going to define a very interesting subgroup of it, which I'm going to call O_n(F); and then we're going to define a subgroup of that which I'm going to call SO_n(F).
+
+103
+00:24:20,706 --> 00:24:41,703
+这适用于任意域，我们将证明它们包含一些非常有趣的矩阵；然后当 F = R 时我们将考察其性质：它与几何学（实际上是欧几里得几何）密切相关。
+And that works for any field, and we're going to show that they have some interesting matrices in it; and then we're going to take a look at this when F is equal to R: it's related to geometry, in fact Euclidean geometry.
+
+104
+00:24:41,703 --> 00:24:54,680
+顺便说一句，这个群有时被称为一般线性群；而这些被称为正交群（这就是字母 O 的来源），SO 代表特殊正交群。
+This group, by the way, sometimes is called the general linear group; these are called the orthogonal groups (that's why the O), and this SO stands for special orthogonal group.
+
+105
+00:24:54,680 --> 00:25:02,166
+你们会看到那是什么：它是正交群的一个正规子群，实际上指数为 2，所以相当简单。
+You'll see what that is: that's a normal subgroup of the orthogonal group, and in fact the index is 2, so it's rather simple.
+
+106
+00:25:02,166 --> 00:25:24,075
+好的，下面是这个群的定义：首先我们取向量空间 V = F^n，而一般线性群就是所有从 V 到 V 的线性同构映射。我们要通过在 V 上赋予更多结构来得到一个子群，然后仅考察保持该结构的子群。
+Okay, so here's the definition of this group: the first thing we do is we take our vector space V, which is F^n, and this group is just the linear maps from V to V which are isomorphisms. So we're going to get a subgroup by putting some more structure on V, and then just looking at the subgroup that preserves that structure.
+
+107
+00:25:24,075 --> 00:25:41,603
+所以我们在 V 上赋予额外的结构，我们要赋予的结构就是“内积”：我们取两个向量，给出一个标量。
+So we put additional structure on V, and the structure we're going to put on it is an inner product: we're going to take two vectors and give you a scalar.
+
+108
+00:25:41,603 --> 00:25:50,785
+当大家学微积分课程时，这些被称为内积；更一般地，它们被称为双线性型。
+So when you take courses in calculus these things are called inner products; more generally, they're called bilinear forms.
+
+109
+00:25:50,785 --> 00:26:02,826
+好的，我们要定义一个接收两个向量并吐出一个标量的额外工具，定义如下：向量 v本身是 F 中元素构成的 n 元组，
+All right, so we're going to define an extra thing that takes two vectors and coughs up a scalar, and here's the definition: the vector itself v is an n-tuple of elements in F,
+
+110
+00:26:02,826 --> 00:26:18,219
+向量 w 也是 F 中元素构成的 n 元组；这个内积的定义就是大家在微积分里学过的：a₁b₁ + a₂b₂ + ... + aₙbₙ。
+and the vector w is an n-tuple of elements in F; and the definition of this inner product is what you did in calculus: a_1 b_1 + a_2 b_2 + ... + a_n b_n.
+
+111
+00:26:18,219 --> 00:26:34,777
+这是一种特殊的乘积形式：你取前两个分量的乘积，加上后两个分量的乘积，再加上第三对分量的乘积……如果我们是在一维向量空间中，它就是普通的乘积 a₁ · b₁。
+So it's some weird form of the product: you take the product of the first two elements, then you add it to the product of the second two elements, then you add it to the product of the third... If we were just in a one-dimensional vector space, it would just be the product, a_1 * b_1.
+
+112
+00:26:34,777 --> 00:26:53,869
+好的，我们定义 O_n 为 GL_n(F) 中保持内积的元素 A，使得 <Av, Aw> 与 <v, w> 相同。
+Okay, and we define O_n to be the elements A in GL_n(F) that preserve the inner product, such that <Av, Aw> is the same as <v, w>.
+
+113
+00:26:53,869 --> 00:27:03,492
+这看起来像是个奇怪的构造，但我断言这是一个子群。
+That looks like a weird thing to do, but I claim that this is a subgroup.
+
+114
+00:27:03,492 --> 00:27:11,531
+大家请注意：Av 意味着你把矩阵 A 作用在向量 v 上得到另一个向量；也就是矩阵乘法，对吧？
+So everyone: Av means you apply the matrix A to the vector v and you get another vector; you multiply, right?
+
+115
+00:27:11,531 --> 00:27:37,076
+如果真要严格写的话，这其实是 A · v^T转置，为了得到一个列向量——但大家都理解我所说的Av 是什么意思：就是把向量排成一列，乘以矩阵 A，然后再转成行向量。
+So this would really be A * v^T transpose if you really wanted to write it that way, to get a—but everyone understands what I mean by Av: this is the vector, you know, (A * v^T)^T, something like that, right? Line up the vector, you multiply it by A, and then you straighten it out again.
+
+116
+00:27:37,076 --> 00:27:58,760
+好的，为什么这是一个子群？首先，它显然包含单位元元素。如果它包含 A 和 B，那么 <(AB)v, (AB)w> 是否等于 <v, w> 呢？
+Okay, so why is this a subgroup? Well, because certainly it contains the identity element. If it contains A and B, is it true that <(AB)v, (AB)w> is equal to <v, w>?
+
+117
+00:27:58,760 --> 00:28:22,243
+让我们看看：这等于<A(Bv), A(Bw)>，因为矩阵乘法对应算子的复合。现在，由于 A 在正交群中，这就等于 Bv 与 Bw 的内积，因为我们对任意向量作用 A 都不改变它们的内积。
+Well, let's see: this is <A(Bv), A(Bw)>, because matrix multiplication is composition of operators. Now, since A is in the orthogonal group, this is the inner product of Bv with Bw, because if we apply A to any vectors we don't change their inner product.
+
+118
+00:28:22,243 --> 00:28:27,533
+接着由于 B 也在正交群中，这又等于 v 与 w 的内积。
+And then since B is in the orthogonal group, this is the inner product of v with w.
+
+119
+00:28:27,533 --> 00:28:46,521
+因此如果 A 和 B 都在正交群中，它们的乘积也在正交群中；至于逆元就留给大家去验证，同样不难：A⁻¹ 也在 O_n(F) 中。
+So if A and B are both in the orthogonal group, so is their product; and I'll let you check inverse, no harder: also A^{-1} is in O_n(F).
+
+120
+00:28:46,521 --> 00:29:05,533
+好的，现在让我们从矩阵具体的形式来看看这意味着什么。记住矩阵的形式是这样的：矩阵 A 的第一列是算子 A 作用在向量 (1, 0, ..., 0) 上的结果；
+All right, now let's figure out what this means in terms of what the matrix looks like. Now remember what the matrix looks like is this: the matrix A has first column what the operator A does to the vector:
+
+121
+00:29:05,533 --> 00:29:24,301
+A 的第二列是 A 作用在向量 (0, 1, 0, ..., 0) 上的结果；最后一列是 A 作用在向量 (0, ..., 0, 1) 上的结果。
+A of the vector (1, 0, ..., 0); and the second column of A is what A does to the vector (0, 1, 0, ..., 0); and the last column of it is what A does to the vector (0, 0, ..., 1).
+
+122
+00:29:24,301 --> 00:29:40,559
+因为这个向量空间有一组标准基，我们把标准基记为 e₁ = (1, 0, ..., 0)，一直到第 n 个分量为 1 的 eₙ = (0, ..., 0, 1)。
+Because this vector space has a standard basis, and the standard basis we call e_1, which looks like (1, 0, ..., 0), down to e_n = (0, ..., 0, 1) with 1 in the n-th place.
+
+123
+00:29:40,559 --> 00:29:48,418
+这就是这个向量空间的一组标准基，你通过观察矩阵对标准基的作用来把矩阵转化为算子。
+That's the standard basis of this vector space, and you turn a matrix into an operator by seeing what it does to the standard basis.
+
+124
+00:29:48,418 --> 00:30:04,224
+好的，现在标准基具有以下性质：如果你取 e₁ 与它自身的内积，你得到1；取 e₂ 与自身的内积得到 1；取 eₙ 与自身的内积也得到 1，对吧？
+Okay, now the standard basis has the following property: if you take the inner product of e_1 with itself, you get 1; you take the inner product of e_2 with itself, you get 1; you take the inner product of e_n with itself, you get 1, right?
+
+125
+00:30:04,224 --> 00:30:13,199
+因为这些向量都只有一个分量为 1，如果你代入内积公式，只有一项非零，也就是 1 · 1。
+Because these only have a single 1 in them, and if you look at this formula only one term is non-zero, and it's 1 * 1.
+
+126
+00:30:13,199 --> 00:30:35,640
+另一方面，如果你取 eᵢ 与 eⱼ 的内积（其中 i ≠ j），你得到 0，因为 eᵢ 在第 i 位为 1，而 eⱼ 在第 j 位为 1，相乘后所有项都是 0。
+On the other hand, if you take the inner product of e_i with e_j and i != j, you get 0, because e_i has a 1 in the i-th place and e_j has a 1 in the j-th place, and you get zeros in all these terms.
+
+127
+00:30:35,640 --> 00:30:46,827
+因此这对列向量也必须成立，因为变换保持内积——这正是处于正交群中的定义。
+So that has to be true for these column vectors too, because we preserve the inner product—that's the definition of what it means to be in the orthogonal group.
+
+128
+00:30:46,827 --> 00:31:01,000
+所以如果你取第一列与自身的内积，必须得到 1；第二列与自身的内积也必须得到 1，因为这等于 e₂ 与 e₂ 的内积。好的，一列与自身的内积具体是什么形式呢？
+So if you take the inner product of this column with itself, you have to get 1; and the inner product of the second column with itself, you have to get 1, because that's the same as the inner product of e_2 with e_2. All right, what does the inner product of this column with itself look like?
+
+129
+00:31:01,000 --> 00:31:05,741
+就是这个元素的平方加这个元素的平方加这个元素的平方，对吧？
+Well, it's this element squared plus this element squared plus this element squared, right?
+
+130
+00:31:05,741 --> 00:31:12,458
+而这一列与另一列的内积则是这个元素乘那个元素，加上这个元素乘那个元素，再加上这个元素乘那个元素。
+The inner product of this column with that column is this element times that element plus this element times that element plus this element times that element.
+
+131
+00:31:12,458 --> 00:31:40,260
+好的，现在我们可以换一种方式来写：这意味着内积 <A eᵢ, A eⱼ>（即第 i 列与第 j 列的内积），当 i = j 时等于 1，当 i ≠ j 时等于 0。
+Okay, now we can rewrite that in the following way: this implies that the inner product <A e_i, A e_j>, which equals the inner product of the i-th and j-th columns, equals 1 if i = j and 0 if i != j.
+
+132
+00:31:40,260 --> 00:32:04,899
+好的，现在让我们重写其含义：这是我们知道的 n² 个不同的数：其中 n 个数我们知道等于 1，还有大量的数等于 0。我断言这等价于说：如果你取矩阵 A 的转置，并用它乘以矩阵 A，你得到单位矩阵：A^T A = I。
+Okay, now let's rewrite what this means: these are n^2 different numbers that we know: n numbers we know are equal to 1, and a lot of numbers we know are equal to 0. I claim that this is the same thing as saying that if you take the transpose of the matrix A and you multiply it by the matrix A, you get the identity matrix: A^T A = I.
+
+133
+00:32:04,899 --> 00:32:28,308
+让我们看看为什么是这样：假设我们取矩阵 A 的转置，它的第一行就是 A(1, 0, ..., 0)^T，对吧？因为转置的第一行就是原来 A 的第一列。好的，现在让我们计算 A^T A 中的第一个元素：
+Well, let's see why that would be the case: suppose we took the transpose of the matrix A; the first row of that is A(1, 0, ..., 0)^T, right? Because the first row of the transpose is the first column here. All right, now let's calculate the first entry in A^T A:
+
+134
+00:32:28,308 --> 00:32:47,381
+让我们计算左上角的这个元素：我们沿着 A^T 的第一行横着走，沿着 A 的第一列竖着走，然后求和。这正好就是第一列与自身的内积，而我们刚才已确定它等于 1！所以这里的第一个元素是 1。
+let's calculate this entry up here: we go across the first row of A^T, we go down the first column of A, and we add up. Well, that's just the inner product of this column with itself, and we agreed that was 1! So the first entry here is a 1.
+
+135
+00:32:47,381 --> 00:33:05,815
+让我们计算第一行、第二列的这个元素：我们沿着这里的第一行横着走，沿着这里的第二列竖着走。这正是第一列与第二列的内积，而我们刚才确定它等于 0！所以我们得到 0，依此类推。
+Let's calculate this entry here, the entry in the first row, second column: we'd go across the first row here, and we'd go down the second column here. Well, that would be the inner product of this column with that column, which we agreed was 0! So we get a 0, etc.
+
+136
+00:33:05,815 --> 00:33:19,069
+这里全都是 0；然后算到这一行时你得到一个 1，于是你看到矩阵乘积 A^T A 就是单位矩阵。这只是把列向量满足正交归一性重新表述了一遍。
+You get zeros all here; then when you do this row you get a 1 there, and you see that this matrix product A^T A is the identity. That's just another way of rewriting that the columns have this property.
+
+137
+00:33:19,069 --> 00:33:42,813
+所以我们看到，如果我们在GL_n 中有一个保持内积的矩阵，那么该矩阵的转置乘以 A 就是单位阵，这等价于说 A 的转置就是 A 的逆矩阵：A^T = A⁻¹。
+So we see that if we have a matrix in GL_n which preserves the inner product, then the transpose of the matrix times A is the identity, which is the same thing as saying that the transpose of A is the inverse of A: A^T = A^{-1}.
+
+138
+00:33:42,813 --> 00:33:50,620
+反方向同样成立：A A^T = I。
+So it's also true in the other direction: A A^T = I.
+
+139
+00:33:50,620 --> 00:34:11,048
+好的，反过来，我断言如果我们有一个矩阵，满足其转置与矩阵的乘积为单位阵（即矩阵的转置等于其逆矩阵），那么它所给出的线性变换必然保持内积。
+Okay, conversely, I claim that if we have a matrix such that the product of its transpose times the matrix is the identity, or the matrix transpose is its inverse, then it gives a transformation that preserves the inner product.
+
+140
+00:34:11,048 --> 00:34:45,508
+让我们来验证这一点；这稍微有点微妙：如果 A ∈ GL_n(F) 满足 A^T = A⁻¹，那么它保持我们在向量空间 V = F^n 上定义的内积。
+Let's check that; that's a little tricky: if A in GL_n(F) has A^T = A^{-1}, then it preserves the inner product we've defined on the vector space V = F^n.
+
+141
+00:34:45,508 --> 00:34:53,062
+这就是保持内积的矩阵特征：转置等于其逆矩阵的矩阵。
+So that's the matrix characterization of preserving the inner product: matrices whose transpose is their inverse.
+
+142
+00:34:53,062 --> 00:34:55,775
+为什么？这有点技巧，让我们来看。
+Why? Well, this is quite tricky, so let's see.
+
+143
+00:34:55,775 --> 00:35:12,280
+首先，我打算把内积 <v, w> 重写为一个矩阵乘积：它就是向量 v 的转置乘以向量 w，其中前者成为行向量，后者成为列向量。如果你想想，这正好就是内积的定义。
+Well, first of all, I'm going to rewrite the inner product <v, w> as a matrix product: it's just the transpose of the vector v times the vector w, where this becomes a row vector and this becomes a column vector. I mean, if you think of it, that's exactly what the inner product is.
+
+144
+00:35:12,280 --> 00:35:21,937
+如果你尝试相乘——哎呀，反过来了吧？不，我要的是行向量乘列向量，抱歉！
+If you tried to multiply—whoops, other way around, huh? No, I want a row vector and a column vector, sorry!
+
+145
+00:35:21,937 --> 00:35:32,320
+让我们这样来试，希望我别把自己绕晕，我们来看看。我们把向量 v 写成这样，把向量 w 写成这样；我们沿着这一行横向走，沿着这一列竖向走：
+Let's try it this way and hope I don't get totally screwed up here, but we'll see. So we write the vector v like this, we write the vector w like this; we go across this row and down this column:
+
+146
+00:35:32,320 --> 00:35:50,599
+第一个分量乘第一个分量，第二个分量乘第二个分量，第三个分量乘第三个分量——这正是我们在计算内积时所做的事情。所以这是一个矩阵乘积：v^T w。
+we multiply the first entry times the first entry, we multiply the second entry times the second entry, the third entry by the third entry—that's exactly what we're doing when we're taking the inner product. So this is a matrix product: v^T w.
+
+147
+00:35:50,599 --> 00:35:57,079
+好的，另一方面，让我们看看能否计算 <Av, Aw>。
+Okay, now on the other hand, let's see if we can compute <Av, Aw>.
+
+148
+00:36:01,722 --> 00:36:14,811
+好的，那么 Av——天哪，这会变成一场噩梦，因为我把向量写成了——算了，我们回到正轨：让我们把向量都写成列向量，免得我自己把自己给绕死。
+Okay, so Av—oh god, this is going to be a real nightmare because I've written my vectors as—never mind, let's go back: let's write our vectors as column vectors so I don't actually kill myself here.
+
+149
+00:36:14,811 --> 00:36:25,720
+那么内积就是 v^T · w，其中我把向量视为列向量。
+So this would then be v^T * w, where I thought of the vectors as column vectors.
+
+150
+00:36:25,720 --> 00:36:39,342
+我现在明白为什么我要这么做了，因为这样 Av——这个向量就是矩阵 A 乘以列向量 v，而这个向量就是矩阵 A 乘以列向量 w。
+I now know why I want to do that, because then Av—this vector is just the matrix A times the column vector v, and this vector is just the matrix A times the column vector w.
+
+151
+00:36:39,342 --> 00:36:58,357
+从而内积就是：你算出这个向量，把它转置，然后把它乘以此向量（作为矩阵乘法）。这全都是矩阵乘法：(Av)^T · (Aw)。
+And consequently the inner product would be: you'd calculate this vector, you'd transpose it, and then you'd multiply it by this vector as matrix multiplication. This is all matrix multiplication: (Av)^T (Aw).
+
+152
+00:36:58,357 --> 00:37:07,680
+然后，如果你了解转置的性质，它会颠倒矩阵相乘的顺序，因此这变成了 v^T A^T A w。
+Then, if you know about transpose, that reverses the order of matrix multiplication, so this becomes v^T A^T A w.
+
+153
+00:37:07,680 --> 00:37:18,792
+如果我们假设矩阵 A 的转置等于它的逆矩阵，这就是向量 v^T 乘以 n 阶单位矩阵，再乘以向量 w。
+And if we assume that A has its transpose equal to its inverse, this is the vector v^T times the identity matrix of size n times the vector w.
+
+154
+00:37:18,792 --> 00:37:30,480
+单位矩阵保持任意向量不变，因此这就化简为 v^T w，正好等于 <v, w>。
+The identity matrix takes any vector to itself, so this becomes v^T w, which is the same as <v, w>.
+
+155
+00:37:30,480 --> 00:37:41,200
+这就是为什么我要把向量取为列向量，这样我就不用写八百万遍转置符号了。如果把向量取为列向量，这直接就是 A ·v。
+That's why I want to take my vectors to be column vectors, so I don't have to write transpose 8 million times. If I take vectors to be column vectors, this is just A * v.
+
+156
+00:37:42,476 --> 00:37:57,436
+换句话说，正交群也可以写成满足 A^T = A⁻¹ 的 GL_n(F) 中的矩阵 A 的集合。
+So in other words, this can also be written as the set of A in GL_n(F) such that A^T = A^{-1}.
+
+157
+00:37:59,341 --> 00:38:05,066
+好的，现在我要向大家展示这些矩阵所具备的一系列有趣性质。
+Okay, now I'm going to show you a number of interesting things that happen with these matrices.
+
+158
+00:38:05,066 --> 00:38:19,781
+例如，首先它们的行列式不是任意的：我断言 A 的行列式必须是 ±1。因为如果你对这个恒等式两边取行列式，你得到：det(A^T) · det(A) = 1。
+For example, the first thing is that the determinant is not arbitrary: I claim that the determinant of A has to be +-1. Because if you take the determinant on this identity, you get: det(A^T) * det(A) = 1.
+
+159
+00:38:19,781 --> 00:38:31,844
+转置的行列式与原矩阵的行列式相同，所以 det(A)² = 1，从而A 的行列式必须是 ±1。
+The determinant of A^T is the same as the determinant of A, so det(A)^2 = 1, so the determinant of A has to be +-1.
+
+160
+00:38:31,844 --> 00:38:50,945
+当然，在某些域中它们可能相等——大家要意识到这点；我是说，如果我们在二元域中，+1 和 -1 是一样的，但至少它是 ±1——其平方等于 1。好的，那么大家可能会问：在我们的群里能取到这两种行列式吗？
+Of course, these things might be equal in the field—I want you to recognize that; I mean, if we had the field of two elements, they would be equal, but at least it's +-1—its square is 1. Okay, so you might ask: do we get both determinants in our group?
+
+161
+00:38:50,945 --> 00:38:57,560
+答案是肯定的。要证明这一点，你必须在群中具体构造出元素。
+And the answer is yes. To do that, you have to actually exhibit elements in this group.
+
+162
+00:38:57,560 --> 00:39:06,640
+我来给大家展示一些恰好保持内积的矩阵——也许群里只有单位元？但比如你看这个矩阵：任何对角线上全是 ±1、
+So I'll show you some elements which happen to preserve the inner product—and maybe the only thing in the group is 1, but if you take this matrix for example:
+
+163
+00:39:06,640 --> 00:39:26,560
+其余位置全为零的对角矩阵，都是 O_n(F) 中的元素，因为如果你计算它的逆矩阵，它等于其自身，而且也等于它的转置。
+any matrix that looks like +-1's on the diagonal and zeros elsewhere, that's an element in O_n(F), because if you calculate its inverse, it's equal to its inverse, and it's also equal to its transpose.
+
+164
+00:39:26,560 --> 00:39:44,262
+“请问，是……”“不，在 GL_n 中……”好的，这只是一个必要条件：并不是说行列式为 1 的每个矩阵都在 O_n 中，而是任意O_n 中的矩阵其行列式必为 ±1。
+"Yeah, is..." "No, in GL_n of..." Okay, this is just a necessary condition: it's not that every matrix with determinant 1 is in O_n, but any matrix in O_n has determinant +-1.
+
+165
+00:39:44,262 --> 00:39:52,203
+这些是 O_n(F) 中矩阵的例子；它们比较平凡，因为不仅逆矩阵等于转置，而且它们都等于原矩阵本身。
+So these are examples of matrices in O_n(F); they're rather trivial, because not only is the inverse equal to the transpose, but they're equal to the original matrix.
+
+166
+00:39:52,203 --> 00:40:05,843
+特别地，如果你取形如对角线上为 -1, +1, +1, ... 的矩阵，你会发现它的行列式等于 -1。所以行列式 +1 和 -1 都可以取到。
+And in particular, if you took the matrix that looked like this: -1, +1, +1 down the diagonal, you'd find the determinant of this is equal to -1. So you can have both determinants, +1 and -1.
+
+167
+00:40:05,843 --> 00:40:24,540
+特别地，你得到了一个行列式为 +1 的子群：也就是这个群，{A ∈ O_n(F) | det(A) = +1}，而且这是一个指数为 2 的子群。
+In particular, you get a subgroup where the determinant is +1: that's this group, {A in O_n(F) | det(A) = +1}, and that's a subgroup of index 2.
+
+168
+00:40:24,540 --> 00:40:37,000
+因为如果你把行列式看作一个同态，你就得到了一个到 2 阶乘法群{+1, -1} 的同态（即行列式映射），并且它是满射，因为两种行列式的元素都存在。
+Because if you think of the determinant as a homomorphism, you get a homomorphism (the determinant) to the group of order 2, {+1, -1}, which is onto because you have elements of both determinant 1 and -1.
+
+169
+00:40:37,000 --> 00:40:53,960
+它是一个同态，因为det(AB) = det(A) · det(B)，而这个群正好是该同态的核。
+It's a homomorphism because the determinant of AB is det(A) * det(B), and this group is just its kernel.
+
+170
+00:40:53,960 --> 00:41:07,467
+至于核，根据第一同构定理我们知道：核的指数（商群的阶）等于像的阶；像就是 {+1, -1}，所以在正交群中恰好有两个陪集。
+And the kernel, we know by the First Isomorphism Theorem: the index of the kernel (the quotient group) is the image; the image is {+1, -1}, so there are exactly two cosets of this group in this group.
+
+171
+00:41:07,467 --> 00:41:23,107
+核是一个正规子群，这两个陪集分别是行列式为 1 的元素（即 SO_n 本身）以及非平凡陪集（即这个反射乘以 SO_n）。O_n 中还有哪些元素？
+The kernel is a normal subgroup, and the cosets are the elements of determinant 1 (that's this) and the non-trivial coset, namely this reflection times SO_n. What other elements are in O_n?
+
+172
+00:41:23,107 --> 00:42:05,520
+我断言所有置换矩阵都在 O_n(F) 中，这就给出了一个从 n 个字母上的对称群 S_n 到 O_n(F) 的单同态 f（核为平凡群），它把作为子群的n 阶交错群 A_n 映入 SO_n(F) 中。
+Well, I claim the permutation matrices are in O_n(F), and this gives an injective homomorphism f from the symmetric group on n letters S_n into O_n(F) (no kernel), and that takes the subgroup which is the alternating group on n letters A_n into SO_n(F).
+
+173
+00:42:09,178 --> 00:42:18,703
+我最好假设域 F 中 1 ≠ -1。
+I'd better assume that 1 != -1 in F.
+
+174
+00:42:18,703 --> 00:42:42,860
+关于这一点我本应说明：如果域 F 中 1 = -1（即 F = Z/2Z 时 1 = -1），那么这个行列式同态就不是满射：它只能映到 +1，从而 O_n 与 SO_n 是同一个群。
+For this I should have said that: if 1 = -1 in F, i.e. if F is Z/2Z where 1 = -1, then this homomorphism is not surjective: it only maps to +1, and so O_n and SO_n are the same group.
+
+175
+00:42:42,860 --> 00:42:55,952
+所以如果我真想要得到一个指数为 2 的不同子群，前提是 1 ≠ -1。那么关于置换矩阵，我断言它们是正交矩阵。为什么？
+So if I really want to get a different group of index 2, that's if 1 != -1. So the permutation matrices, I claim, are orthogonal matrices. Why?
+
+176
+00:42:55,952 --> 00:43:00,427
+因为它们每列恰好只有一个 1，其余全为 0。
+They have exactly one 1 in each column and the rest are zeros.
+
+177
+00:43:00,427 --> 00:43:14,637
+因此如果从这个条件来看，它们保持了基向量上的内积：即每列与自身的内积为 1，而与其余不同列的内积为 0。
+Therefore, if you think of it in terms of this condition, they preserve the inner product on the basis elements: namely the columns have inner product with themselves 1, and inner product with the other columns zero.
+
+178
+00:43:14,637 --> 00:43:22,014
+“请问，您介意再解释一下这与同构定理的联系吗？”当然可以。
+"Excuse me, yeah, would you mind just explaining the connection with the isomorphism theorem?" Sure, sure, sure.
+
+179
+00:43:22,014 --> 00:43:32,644
+我们有一个同态——假设 1不等于 -1，所以有两个元素 {+1, -1}：这是域 F 的乘法群 F^× 的一个子群。
+We have a homomorphism—let's assume that 1 is not -1, so we have two elements {+1, -1}: this is a subgroup of F^x, the multiplicative group of F.
+
+180
+00:43:32,644 --> 00:43:42,872
+行列式把这些矩阵映入该子群；它是一个同态，因为矩阵乘积的行列式等于行列式的乘积。
+The determinant maps these matrices into this group; it's a homomorphism because the determinant of a product of matrices is the product of the determinants.
+
+181
+00:43:42,872 --> 00:43:58,680
+它是满射，因为我们在正交群中给出了一个行列式为 -1 的具体元素；它是满射，既有行列式为 +1 的元素，也有行列式为 -1 的元素。
+It's onto because we've exhibited a specific element in the orthogonal group whose determinant is -1; it's onto, there are both elements in this group that have determinant +1 and elements that have determinant -1.
+
+182
+00:43:58,680 --> 00:44:06,015
+好的，所以这里有一个行列式为 -1 的元素，而单位阵的行列式为 1。
+Okay, so here's an element of determinant -1, and the determinant of the identity is 1.
+
+183
+00:44:06,015 --> 00:44:15,027
+因此根据第一同构定理：群对核的商群同构于该同态的像。
+So our First Isomorphism Theorem says that the quotient group by the kernel is isomorphic to the image of the homomorphism.
+
+184
+00:44:15,027 --> 00:44:33,690
+而按定义核就是 SO_n(F)——这正是其定义，即那些映到目标群单位元 1 的元素。因此商群的阶为 2，从而正交群中恰好有两个陪集，指数为 2。
+The kernel is by definition this group SO_n(F)—that's the definition of it, the elements that map to 1 (the identity element in that group). And therefore the quotient group has order 2, and therefore there are two cosets, so the index is 2.
+
+185
+00:44:33,690 --> 00:44:50,161
+所以我断言置换矩阵确实保持内积；而交错群的这种定义正如我们所讲：它就是行列式为 1 的置换矩阵。所以这正是我们从对称群中得到交错群的本质方式。
+So I claim that if you have a permutation matrix, it does preserve the inner product; and this definition of the alternating group is exactly what we said: it's the permutation matrices whose determinant is 1. So that's really how we got the alternating group out of the symmetric group.
+
+186
+00:44:50,161 --> 00:45:04,165
+而且这是单射，因为任意置换都唯一由其 n×n 矩阵所确定。所以这是任意域上正交群中一个很好的有限子群。
+And this is injective because any permutation is determined by its n x n matrix. So this is a nice finite subgroup of the orthogonal group over any field.
+
+187
+00:45:04,165 --> 00:45:08,380
+好的，任意域上的正交群就讲这么多。
+Okay, so much for the orthogonal group over an arbitrary field.
+
+188
+00:45:08,380 --> 00:45:25,466
+实数域特别美妙的地方在于，这个内积天然适合用来做欧几里得几何。
+What's particularly nice about the real numbers is this inner product is set up to do Euclidean geometry.
+
+189
+00:45:25,466 --> 00:45:36,506
+这个内积最精妙之处在于：v 与它自身的内积等于 aᵢ² 从 i = 1 到n 的和，对吧？
+What's so cool about this inner product is that the inner product of v with itself is the sum of a_i^2 from i = 1 to n, right?
+
+190
+00:45:36,506 --> 00:45:40,397
+而平方和必然大于等于 0。
+And that sum of squares is >= 0.
+
+191
+00:45:40,397 --> 00:45:56,597
+大家看，这种不等式在一般的域中完全没有意义：你无法说 Z/3Z 中的一个元素是否大于等于 0；但在实数域中我们有正负的概念，所有的实数平方都是非负的，对吧？
+You see, this kind of expression makes absolutely no sense in a general field: you can't say whether an element in Z/3Z is >= 0; but in the real numbers we have this notion of positive and negative, and all the squares are positive, right?
+
+192
+00:45:56,597 --> 00:46:15,524
+所以这个和大于等于 0，且 <v, v> = 0 当且仅当 v 是零向量，因为如果 v 的任意坐标非零，这个和就是正的。
+So this sum is >= 0, and <v, v> = 0 only when v is the zero vector, because if any coordinate in v is non-zero, this sum is positive.
+
+193
+00:46:15,524 --> 00:46:36,766
+因此我们定义 v 的范数，即 v 的长度，为<v, v> 的正平方根：||v|| = √<v, v>。
+And so we define the norm of v, or the length of v, to be the positive square root of <v, v>, ||v|| = sqrt(<v, v>).
+
+194
+00:46:36,766 --> 00:47:04,520
+这推广了我们对向量欧几里得距离的认知：因为如果我们在 R² 中，这里有一个向量，即向量 (a, b)——我们在横轴走 a 个单位，在纵轴走 b 个单位——那么根据勾股定理，这条线段的长度就是√(a² + b²)。
+And this generalizes our notion of the Euclidean distance of the vector: because if we were in R^2 and we had our vector here, which was the vector (a, b)—where we'd go over a units here and up b units here—then the length of this line segment is sqrt(a^2 + b^2) by the Pythagorean theorem.
+
+195
+00:47:04,520 --> 00:47:21,103
+因此，这个长度度量了二维空间中向量 v 到原点的距离；而我们一般通过说：这就是向量到原点的距离，即各分量平方和的平方根，来定义几何。
+Consequently, this length measures the distance of the vector v from the origin in 2-space; and we define a geometry in general by saying: that's the length of the vector from the origin, the square root of the sum of the squares.
+
+196
+00:47:21,103 --> 00:47:37,197
+好的，我们还可以——而这是大家在微积分里可能学过的另一件事——不仅能用它定义向量的长度，还能用它来求两个向量之间的夹角，通过写出——这是一个非常有趣的不等式：
+Okay, and we can also—and this is another thing that you probably have studied in calculus—you can use it not only to define the length of a vector, but you can use it to find the angle between two vectors by writing—it's an interesting inequality:
+
+197
+00:47:37,197 --> 00:48:01,567
+有所谓的柯西-施瓦茨不等式（我在这里就不证明了），它表明如果你用 <v, w> 除以范数 ||v|| 乘以范数 ||w||（假设 v 和 w 都是非零向量，从而这些范数非零可以作除数），你就得到一个实数。
+there's something called the Cauchy-Schwarz inequality, which I won't prove here, that says that if you take the quotient of <v, w> by the norm ||v|| times the norm ||w||, assuming that v and w are both non-zero vectors so that these norms are non-zero and you can divide by them, you get a real number.
+
+198
+00:48:01,567 --> 00:48:24,155
+这是一个实数，分母是正实数，而这个实数介于 -1 和 +1 之间；因此这个实数可以写成 cos(θ)，其中角 θ 落在0 到 π 之间。
+This is a real number, these are positive real numbers, and this real number lies between -1 and +1; so that this real number can be written as cos(theta) for an angle theta that lies between 0 and pi.
+
+199
+00:48:24,155 --> 00:48:39,923
+这个角 θ 就被称为这两个向量之间的夹角；而且它与这两个向量的顺序无关，因为这个配对是对称配对，<v, w> 与 <w, v> 相同。
+And that angle theta is called the angle between the two vectors; and it doesn't depend on the ordering of the two vectors, because this pairing is a symmetric pairing, <v, w> is the same as <w, v>.
+
+200
+00:48:39,923 --> 00:48:56,773
+所以不仅非零向量与自身内积为正这一奇妙事实给出了长度，而且柯西-施瓦茨不等式还从两个向量中给出了一个介于 0 和 π 之间的角，定义为两向量间的夹角。
+So not only does this wonderful fact that the inner product of a non-zero vector with itself is positive give you the length, but the Cauchy-Schwarz inequality gives you, from two vectors, an angle that lies between 0 and pi that you define as the angle between the two vectors.
+
+201
+00:48:56,773 --> 00:49:12,683
+这源于二维情形下的余弦定理：如果你有两个向量 v 和 w 并计算这个比值，角 θ 正好就是夹在中间的那个角。
+And that comes from the Law of Cosines in the two-dimensional case: that if you had two vectors v and w and you computed this ratio, the angle theta would be that angle there.
+
+202
+00:49:12,683 --> 00:49:26,916
+所以如果你有一个实向量空间，并赋予它内积这种额外结构，它就允许你定义向量的长度，允许你定义向量间的夹角；而且——从我们的观点来看最关键的是—
+So if you have a real vector space and you give it this additional structure of the inner product, it lets you define lengths of vectors, it lets you define angles between vectors; and—this is what's critical from our point of view—
+
+203
+00:49:26,916 --> 00:49:49,989
+—正交群 O_n(R) 线性作用在 R^n 上，并且它保持长度和角度，因为它保持内积！因此它保持我们从内积中能导出的一切几何性质。
+the group O_n(R) acts linearly on R^n, and it preserves length and angle because it preserves inner products! Therefore it preserves anything we can get out of an inner product.
+
+204
+00:49:49,989 --> 00:49:52,799
+稍等一下，我先讲完这句再回答提问。
+One moment, I'm just going to finish this, then I'll take questions.
+
+205
+00:49:52,799 --> 00:50:08,593
+因此它保持了欧几里得几何的概念：也就是说，如果以原点为顶点有一个三角形，它会把它映到另一个三角形；如果有夹角θ 以及向量 v,
+Therefore it preserves the notions of Euclidean geometry: namely, it would take, if you had a triangle based at the origin, it would take it to another triangle; and if you have this angle theta and vectors v, w,
+
+206
+00:50:08,593 --> 00:50:20,118
+w，它必须把它映到原点处另一个边长与这两条边长完全相同、且这个夹角也完全相同的三角形，所以它必然映到一个全等三角形！
+it would have to take it to another triangle based at the origin where the side lengths were the same as these two side lengths, and this angle would be the same, and so it would have to take it to a congruent triangle!
+
+207
+00:50:20,118 --> 00:50:28,359
+它不能拉伸物体，也不能改变角度：它保持了欧几里得几何。
+It can't stretch things, and it can't bend angles: it preserves Euclidean geometry.
+
+208
+00:50:36,080 --> 00:50:39,165
+现在我来回答提问。
+Now I'll take the question.
+
+209
+00:50:39,165 --> 00:50:42,653
+“我……”“什么？
+"I'm..." "Sorry?
+
+210
+00:50:42,653 --> 00:50:57,476
+噢，抱歉，我们用的是余弦函数把这个区间唯一地映入这个区间——大家知道，随着我们……哎呀，我来电话了！
+Oh, I'm sorry, we're using the fact that the cosine maps this interval uniquely into this interval—you know, as we go... Uh oh, I'm getting a telephone call!
+
+211
+00:50:57,476 --> 00:51:09,945
+余弦曲线从这里出发，这样走下去…………‘波多黎各总督到了。’‘喂？波多黎各总督在办公室吗？请她稍等，我下课后马上就回去！’
+That the cosine starts like this and goes like this... 'The Governor of Puerto Rico is here.' 'Hello? Is the Governor of Puerto Rico in the office? Have her wait,
+
+212
+00:51:09,945 --> 00:51:36,271
+她是……Mucho gusto（很高兴见到您）！我正在练习致辞！所以余弦函数：从 0 到 π/2 再到 π，余弦在 [0, π]与 -1 到 1 之间的实数构成双射。
+I'll be right back after my class!' She is... *Mucho gusto!* I'm practicing my speech! So the cosine: here we go from 0 to pi/2 and pi; the cosine gives a bijection between [0, pi] and the numbers between -1 and 1.
+
+213
+00:51:36,271 --> 00:51:39,485
+既然根据柯西-施瓦茨不等式这个数落在 [-1, 1] 之间，我就能唯一地把它写成 cos(θ)。
+So since by Cauchy-Schwarz this number lies between -1 and 1, I can write it uniquely as cos(theta).
+
+214
+00:51:39,485 --> 00:51:55,776
+这说明……对，“我需要一个向量空间中余弦函数的理论？”等等，拜托，不不不：余弦是定义在实数线上的函数！如果我有一个实数，我可以算 cos(t)。
+That tells... yeah, "I need the theory of the cosine function in a vector space?" Wait, come on, no no no: cosine is a function on the real line! If I have a number, I can take cosine of t.
+
+215
+00:51:55,776 --> 00:52:08,918
+但这里的重点是：一旦我们有了实数余弦函数，知道它在 [0, π] 和 [-1, 1] 之间给出双射，并且在后一个区间内有一个实数，它就唯一具有 cos(θ) 的形式，而这正是我们所定义的两向量夹角。
+But this says once I have the cosine function and I know it gives a bijection between this interval and this interval, and I have a number in this interval, it's uniquely of the form cos(theta), and that's what I call the angle between two vectors.
+
+216
+00:52:08,918 --> 00:52:15,260
+然后余弦定理表明在二维空间中它正好给出正确的几何夹角。
+And then the Law of Cosines says that in 2-space it works out to be the right angle.
+
+217
+00:52:15,260 --> 00:52:27,839
+好的，所以下周一我们将继续探讨通过从正交群的视角审视欧几里得几何所获得的全部几何内容，那将是一个全新的视角。
+Okay, so we're going to pick up on Monday all the geometry we get by looking at Euclidean geometry from the point of view of this group, and it's going to be a completely different point of view.
+
+218
+00:52:27,839 --> 00:52:34,960
+这里有一道思考题留给大家思考：我们看到这些对角元素都在正交群中。
+Here's a problem for you to just think about: we saw that these elements were in the orthogonal group.
+
+219
+00:52:34,960 --> 00:52:53,292
+证明：如果正交群中有一个元素且它拥有一个特征向量，那么其特征值必然是 ±1；也就是说，对角线上唯一可能出现的数只有 ±1。
+Prove that if you have an element in the orthogonal group and it has an eigenvector, then the eigenvalue is +-1; namely, the only things that could be on the diagonal are +-1.

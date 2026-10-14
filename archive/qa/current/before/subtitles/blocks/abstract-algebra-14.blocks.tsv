@@ -1,0 +1,314 @@
+So last time I had defined for you the orthogonal groups.	上次课我已经为大家定义了正交群。
+So that was over a field F: we had a subgroup O_n(F) that was a subgroup of GL_n(F) which we viewed as the automorphisms of the vector space F^n.	那是在域 F 上的情形：我们有一个子群 O_n(F)，它是 GL_n(F) 的子群，我们将其视作向量空间F^n 的自同构群。
+And this subgroup was the subgroup that preserved an additional structure, the inner product ⟨v, w⟩, which was the summation of the coordinates of v: ∑ v_i w_i from i = 1 to n, because a vector is just in F^n.	这个子群保持了一种额外的结构，即内积⟨v, w⟩，它是 v 的各坐标乘积之和：∑_{i=1}^n v_i w_i，因为向量就落在 F^n 中。
+It's just its coordinate functions.	它就由其坐标函数决定。
+And we saw that if we figured out which matrices were in O_n(F), these are the matrices A such that A transpose times A is the identity matrix, or equivalently the matrices A such that the transpose of A was the inverse of A; and that gave a subgroup of the linear group with some additional nice properties.	我们看到，若求出哪些矩阵落在 O_n(F) 中，它们就是满足 A 的转置乘以 A 等于单位矩阵的矩阵 A，或等价地满足 A^t = A^{-1} 的矩阵 A；这给出了该线性群的一个具有额外优良性质的子群。
+We also saw from this that this implies that the determinant of A quantity squared is equal to the determinant of I, which is +1; and in a field there are only two elements whose square is 1.	我们由此还看到，这意味着 (det A)^2等于 det(I)，即 +1；而在一个域中，只有两个元素其平方等于 1。
+Namely, if you take the polynomial x^2 - 1 = 0, it has at most two roots, because a polynomial of degree 2 has at most two roots, and in fact this factors as (x - 1)(x + 1); and the only problem is that you might be in a field where 1 = -1.	也就是说，多项式 x^2 - 1 = 0 至多有两个根，因为一个 2 次多项式至多有两个根，事实上它因式分解为 (x - 1)(x + 1)；唯一的问题是你可能处在1 = -1 的域中。
+That can happen if you're over the field of two elements.	如果你在二元域上，这确实可能发生。
+But this shows that since the determinant of A satisfies this polynomial, we see that the determinant of A has only two possibilities for it: plus or minus 1.	但这表明，由于 det(A) 满足这个多项式，我们看到 det(A) 只有两种可能：+1 或 -1。
+And if -1 is not equal to 1, you get both different determinants.	如果 -1 ≠ 1，你就会得到两个不同的行列式值。
+And that led us to define a subgroup SO_n(F) as the normal subgroup of O_n(F) which had index 2, which is the matrices A such that A transpose is A inverse and the determinant of A is equal to +1.	这促使我们定义子群 SO_n(F)，它是 O_n(F) 的指数为 2 的正规子群，由满足 A^t = A^{-1} 且 det(A) = +1 的矩阵 A 构成。
+That's called the special orthogonal group. So that's what we did last time.	它被称为特殊正交群。这就是我们上次课讲的内容。
+We showed that this matrix condition was the same as preserving the inner product.	我们证明了这个矩阵条件等价于保持内积。
+And then at the end I said we're going to specialize this discussion for a while, because it turns out to have beautiful geometric content, to the case where F is equal to the reals. Well, of course in the real numbers -1 is not equal to +1. So we do get a subgroup of index 2.	然后在最后我说过，我们打算将讨论专门限制在 F 为实数域的情形一段时间，因为事实证明这具有优美的几何内涵。在实数域中，-1 当然不等于 +1。所以我们确实得到了一个指数为 2 的子群。
+And we notice that if A preserves the inner product ⟨v, w⟩, it also preserves the norm, the Euclidean norm.	我们注意到如果 A 保持内积⟨v, w⟩，它也会保持范数，即欧几里得范数。
+And the Euclidean norm of a vector v is defined as the square root, the positive square root of ⟨v, v⟩, because this is the square root of the sum of the v_i^2, which is the Euclidean distance from the origin; and this is always greater than or equal to zero. Whereas in a general field there's no notion of positivity for this.	向量 v 的欧几里得范数被定义为 ⟨v, v⟩ 的平方根，即算术平方根，因为这是各坐标平方和 ∑ v_i^2 的平方根，也就是到原点的欧几里得距离；并且它总是大于或等于 0。而在一般的域中，并没有针对此的正定性概念。
+So this could be zero for a nonzero vector.	因此对于非零向量，这可能是 0。
+You could have the inner product of v with v be zero for a nonzero vector. Just the sum of the squares of the coordinates could be zero. But in the real numbers that can't happen. So you get a notion of a norm.	你可能会遇到非零向量与自身的内积为 0。仅仅是坐标平方和可能为 0。但在实数域中这是不可能发生的。因此你得到了范数的概念。
+And it also preserves the Euclidean angle, which I said is defined by the Cauchy-Schwarz inequality. That's not so important for us, but I'll just write it down.	它还保持欧几里得夹角，正如我说过的，夹角是由柯西-施瓦茨不等式定义的。这对我们并不那么关键，但我还是把它写下来。
+The cosine, the angle between two vectors is defined by this rule: you take their inner product and you divide it by the product of their norms.	余弦值——两向量之间的夹角由该规则定义：取它们的内积除以它们范数的乘积。
+And that's a number between -1 and 1. And that defines a unique angle.	那是一个介于 -1 和 1 之间的实数。这就定义了唯一的夹角。
+And that's the Euclidean angle between the two vectors.	这就是两向量之间的欧几里得夹角。
+So now, I'm going to show you what these transformations look like in two and three dimensions today, what orthogonal and special orthogonal transformations look like.	所以现在，今天我打算向大家展示这些变换在二维和三维空间中是什么样子的，正交变换与特殊正交变换究竟长什么样。
+Let me just make one more observation: if v is an eigenvector for a transformation A in O_n(F)—this is true over any field—with eigenvalue λ, i.e., that means that A(v) = λ v, then λ^2 = 1, i.e., λ is plus or minus 1.	让我再做一个观察：如果 v 是变换 A ∈ O_n(F) 的特征向量——这在任意域上都成立——具有特征值 λ，即 A(v) = λ v，那么 λ^2 = 1，也就是说 λ = ±1。
+So the only possible eigenvalues are plus or minus 1 for an orthogonal transformation; and that's because you use the fact that—sorry, an eigenvector for this with eigenvalue λ, and sorry, I have to say this too, and v is not equal to zero.	因此对正交变换而言，唯一可能的特征值只有 ±1；这是因为利用了——抱歉，具有特征值 λ 的特征向量，抱歉我还必须加上这个前提：v ≠ 0。
+So if it's an eigenvector which has a non-trivial inner product with itself, which is certainly true over the real numbers because of this property, then λ is plus or minus 1, because we write down that ⟨v,	所以如果它是一个与自身内积非零的特征向量（由于正定性质，在实数域上这显然成立），那么 λ 就是 ±1，因为我们写出 ⟨v, v⟩ = ⟨Av,
+v⟩ is equal to ⟨Av, Av⟩—that's because A is an orthogonal transformation—and Av is λ v both times, so this is ⟨λ v, λ v⟩, and then we use the fact that this inner product is linear in each variable.	Av⟩——这是因为 A 是正交变换——且两次 Av 都等于 λ v，所以这是 ⟨λ v, λ v⟩，然后我们利用这个内积在每个变量上都是线性的事实。
+See, if I scale v by λ, I scale this inner product by λ. And if I scale w by λ, I also scale the inner product by λ.	你看，如果我把 v 乘以标量 λ，内积就乘以 λ。如果我把 w 乘以标量 λ，内积也乘以 λ。
+So I pull out a λ squared.	所以我可以提出来一个 λ^2。
+And if ⟨v, v⟩ is nonzero, I can divide both sides by it.	如果 ⟨v, v⟩ 非零，我两边都可以除以它。
+This is an equality that takes place in the field F. Now divide by ⟨v, v⟩ which is not equal to zero to get 1 is equal to λ squared.	这是一个在域 F 中成立的等式。现在除以非零的 ⟨v, v⟩，就得到1 = λ^2。
+And so the eigenvalue on a vector, if the eigenvector has a non-trivial inner product with itself, is equal to plus or minus 1.	因此，如果特征向量与自身的内积非零，其对应的特征值就等于±1。
+That's certainly true over the real numbers. So we're going to use that: if we have an eigenvalue, it has to be plus or minus 1.	在实数域上这当然成立。所以我们将利用这一点：如果存在特征值，它必然是±1。
+Of course you needn't have an eigenvalue. So, we've already seen transformations that don't have eigenvalues, and I'm going to show them to you in a moment.	当然，你不一定非得有特征值。我们之前已经见过没有特征值的变换，稍后我也会展示给你们看。
+Right now, in fact, let's take a look at the group SO(2).	事实上，现在就让我们来看看群 SO(2)。
+What do transformations A in SO(2) look like?	变换A ∈ SO(2) 究竟长什么样？
+We're going to do SO(2) and then we're going to do its non-trivial coset in O(2).	我们先来研究 SO(2)，然后再研究它在 O(2) 中的非平凡陪集。
+Well, here's the plane. It's acting on the plane. The plane has two standard basis vectors: we'll call them e_1 and e_2. So, e_1 is the vector (1, 0) and e_2 is the vector (0, 1).	好，这里是平面。它作用在平面上。平面有两个标准基向量：我们称它们为 e₁ 和 e₂。e₁ 是向量 (1, 0)，e₂ 是向量 (0, 1)。
+And they have the property that their lengths are 1 under this inner product and that the angle between them is zero— namely, they're orthogonal to each other.	它们在该内积下的长度为 1，并且它们之间的夹角……也就是说，它们彼此正交。
+By the way, we see that θ is equal to π / 2, so 90°.	顺便说一下，我们看到 θ = π/2，即 90°。
+So the vectors are orthogonal if and only if ⟨v, w⟩ is equal to zero, if and only if v is orthogonal to w.	因此向量正交当且仅当 ⟨v, w⟩ = 0，当且仅当 v 正交于 w。
+So orthogonality just means that the inner product is zero. And if you take the inner product of these vectors, you get 1 · 0 + 0 · 1, so you get zero.	所以正交性仅仅意味着内积为 0。如果你计算这两个向量的内积，得到 1·0 + 0·1 = 0。
+So they're orthogonal vectors of length 1. So where does A(e_1) go? Well, A(e_1) has to lie on this circle somewhere, right?	所以它们是长度为 1 的正交向量。那么 A(e₁) 映到哪里呢？A(e₁) 必然落在该圆周的某个位置，对吧？
+Because it has to be a vector of length 1. So wherever it lies in the plane, it's on that circle. So yeah, Atticus, why does A(e_1)...? Because A is an orthogonal transformation. Orthogonal transformations preserve the inner product. So they preserve the norm of the vector which is the inner product of a vector with itself.	因为它必须是长度为1 的向量。所以无论它落在平面哪里，它都在那个圆周上。是的，Atticus，为什么 A(e₁)...？因为 A 是正交变换。正交变换保持内积。所以它们保持向量的范数，即向量与自身的内积。
+These vectors both have norm 1. So we know that ‖A(e_1)‖ has to be 1, ‖A(e_2)‖ has to be 1, and A(e_1) has to be orthogonal to A(e_2), right?	这两个基向量的范数都为 1。所以我们知道 ‖A(e₁)‖ 必须为 1，‖A(e₂)‖ 必须为 1，并且A(e₁) 必须正交于 A(e₂)，对吧？
+If just if we're preserving lengths and angles. So A(e_1) is somewhere here.	只要我们保持长度和夹角。所以 A(e₁) 落在这里的某个位置。
+Let's put it right there: some vector on the circle. Now we can describe a vector on the circle by the angle that it subtends from e_1.	我们不妨把它画在这里：圆上的某个向量。现在我们可以用它相对于 e₁ 所张开的角度来描述圆上的向量。
+This would be the vector which would be (cos θ, sin θ).	这就会是坐标为(cos θ, sin θ) 的向量。
+Right? Once I know the angle between 0 and 2π, I can describe the coordinates of this, right? My x and y coordinates.	对吧？一旦我知道了 0 到 2π 之间的角度，我就可以描述它的坐标，对吧？我的 x 和 y 坐标。
+Now where is A(e_2)? Well, we don't know yet. But A(e_2) has to be orthogonal to A(e_1).	那么 A(e₂) 在哪里呢？我们目前还不知道。但 A(e₂) 必须正交于 A(e₁)。
+And there's a unique line that runs orthogonal to this vector, right? And A(e_2) has to also have length 1.	而存在一条与该向量正交的唯一直线，对吧？并且 A(e₂) 的长度也必须为 1。
+So there are only two possibilities for it: it could be this vector or it could be that vector.	所以它只有两种可能：它可以是这个向量，也可以是那个向量。
+Okay? Now, this vector happens to be the vector in coordinates: when you work it out, you see what I've done is it's (cos(θ + 90°), sin(θ + 90°)).	好的。现在，这个向量在坐标下——当你计算它时，你看我所做的就是 (cos(θ + 90°), sin(θ + 90°))。
+So the coordinates would be cos(θ + 90°), sin(θ + 90°), because that's what I'm doing: I'm adding 90° to θ.	所以坐标会是 cos(θ + 90°), sin(θ + 90°)，因为我正是这么做的：在 θ 上加上 90°。
+And when you work that out, that's (-sin θ, cos θ).	当你算出它时，那就是 (-sin θ, cos θ)。
+Whereas this vector is minus that, correct? So this vector would be (sin θ, -cos θ).	而另一个向量则是它的相反向量，对吧？所以那个向量会是 (sin θ, -cos θ)。
+Well, which one is it? Which one is it?	那么，到底是哪一个呢？究竟是哪一个？
+Well, I can tell you which one it is in the following way, because I have one more condition on A.	我可以用下面的方法告诉你它是哪一个，因为我对 A 还有一个附加条件。
+Besides that it takes e_1 and e_2 to vectors of length 1 which are orthogonal, I know that the determinant of A has to be equal to 1, because I assumed it was in SO(2), not in O(2).	除了它把 e₁ 和 e₂ 映为互相正交的单位向量之外，我还知道 A 的行列式必须等于 1，因为我假设了它属于 SO(2)，而不是一般的 O(2)。
+Okay, since the determinant of A is equal to 1, I can try to write down the matrix of A from where I know it takes the basis vectors.	好，既然 det(A) = 1，根据已知的基向量映射位置，我就可以写出 A 的矩阵。
+Remember the first column is A(e_1) and the second column is A(e_2). So the first column I know is (cos θ, sin θ)^t.	记住第一列是 A(e₁)，第二列是 A(e₂)。因此第一列我知道是 (cos θ, sin θ)^t。
+And then I can put these vectors in the second column and see which one gives me determinant 1. See, they're negatives of each other.	然后我可以把这两个向量分别放入第二列，看看哪一个给出行列式为 1。你看，它们互为相反数。
+So one will give determinant 1, one will give determinant -1. Because if I change the signs in the second column, that changes the determinant by -1.	所以一个会给出行列式 1，另一个给出行列式 -1。因为如果我改变第二列的正负号，就会使行列式反号。
+So let's try the first one, that one over there: I get (-sin θ, cos θ)^t, and miraculously that has determinant 1,	那么让我们试一下第一个，即那边的那个：我得到 (-sin θ, cos θ)^t，奇妙的是它的行列式确实是 1，
+because the determinant is cos^2 θ + sin^2 θ. So that has to be A(e_2). We can forget about this one: that one gives determinant -1.	因为行列式是 cos^2 θ + sin^2 θ。所以 A(e₂) 必然是它。我们可以不管另一个了：那个给出的行列式是 -1。
+This one is A(e_2). And what is the transformation A doing?	这个才是 A(e₂)。那么变换 A 在做什么呢？
+Well, once I know what it does to e_1 and e_2, I can determine it on anything; and you'll see that what it does is it simply takes a vector v and it rotates it through an angle of theta (θ).	一旦我知道它对 e₁ 和 e₂ 的作用，我就可以确定它对任意向量的作用；你会发现它所做的仅仅是取一个向量 v，并将其旋转一个角度 θ。
+Once you know A(e_1) and A(e_2), you can figure this out. So this is nothing but the rotation through an angle θ.	一旦你知道了 A(e₁) 和 A(e₂)，你就能看出这一点。所以这无非就是旋转角度 θ 的旋转变换。
+We could write it that way. And that's the most general transformation in SO(2), because we didn't do anything special.	我们可以这样写。这就是 SO(2) 中最一般的变换，因为我们并没有做任何特殊的假设。
+We just figured out where it took e_1—that rotated it through an angle of θ.	我们只是确定了它把 e₁ 映到哪里——将其旋转了角度 θ。
+And then because it has to preserve all these properties and have determinant 1, it turns out it rotates everything through an angle θ.	然后因为它必须保持所有这些性质且具有行列式 1，事实证明它将所有的向量都旋转了角度 θ。
+Namely, this A(e_2) is just rotating it through an angle θ here.	也就是说，这里的 A(e₂) 也同样只是将其旋转了角度 θ。
+And how do we compose transformations?	那么我们如何复合这些变换呢？
+Well, it turns out when you multiply these matrices and you use the laws of sines and cosines, you'll find that the composition of the rotation through the angle of θ with the rotation through the angle of φ is equal to the rotation through the angle θ + φ.	事实证明，当你把这些矩阵相乘并利用正弦和余弦的和角公式时，你会发现旋转角度 θ 与旋转角度 φ 的复合，等于旋转角度 θ + φ。
+Well, that's obvious from geometric considerations: if the first transformation rotates through θ and the second transformation rotates through φ, then the combination is rotating through the sum of the angles.	从几何角度来看这是显而易见的：如果第一个变换旋转了 θ，第二个变换旋转了 φ，那么复合变换就是旋转这两个角度之和。
+So in particular we have an isomorphism here between two groups that you know.	所以特别地，我们在这里得到了一个同构，在大家熟知的两个群之间。
+So we get an isomorphism of groups. It turns out, of groups between SO(2)—going to call it f—and the set of z in the complex numbers such that the absolute value of z is equal to 1 under multiplication of complex numbers.	所以我们得到了一个群同构。事实证明，是两个群之间的同构，在 SO(2)（不妨称该映射为 f）与绝对值为 1 的复数集合 {z ∈ ℂ | |z| = 1} 之间，运算为复数的乘法。
+That takes a transformation here A, which is the rotation through the angle θ, and it takes it to the corresponding complex number on the unit circle, z = e^{iθ},	它将这里的变换 A（即旋转角为 θ 的旋转）映为单位圆上对应的复数，z = e^{iθ}，因为当我将两个旋转复合时角度相加，
+because when I multiply two rotations I add the angle, which is the same as multiplying these two complex numbers of absolute value 1; or you could say that this z is just what f is of e_1.	这与将这两个绝对值为 1 的复数相乘是一模一样的；或者你也可以说，这个 z 恰好就是 f 对 e₁ 的作用（在复平面下的坐标）。
+So that the entire transformation is determined by what it does to the first basis vector.	因此整个变换完全由它对第一个基向量的作用所决定。
+Now that's the rotations. That's the rotations.	这就是所有的旋转变换。这就是旋转。
+You get a very simple abelian group. But O(2) is not an abelian group.	你得到了一个非常简单的交换群（阿贝尔群）。但 O(2) 并不是交换群。
+So that's a little warning: not abelian. But what's very cool is that anything in the non-trivial coset of SO(2) is a very simple transformation.	所以这里需要提醒一下：它不是交换群。但非常妙的是，SO(2) 的非平凡陪集中的任何元素都是非常简单的变换。
+So now what are the transformations A in O(2) minus SO(2)?	那么现在，差集 O(2) \ SO(2) 中的变换 A 是什么样的？
+There's another—you know, this group has two cosets, right?	还有另一个——你们知道，这个群有两个陪集，对吧？
+Here's O(2), here's the subgroup SO(2).	这里是 O(2)，这里是子群 SO(2)。
+We now know that they're all rotations by an angle θ. What's in the non-trivial coset? What are the things that have determinant -1?	我们现在知道它们全都是旋转角为 θ 的旋转。非平凡陪集中有什么呢？那些行列式为 -1 的元素是什么？
+Those transformations where you take the—we take A(e_2) to the opposite vector.	就是那些将——我们将 A(e₂) 映为相反向量的变换。
+Of course, that's one way of saying it: namely, we do a rotation, and instead of taking e_2 to this vector, we take it to that vector. Very good. And that's a perfectly good coset.	当然，这是一种表述方式：也就是说，我们先做一个旋转，但不是把 e₂ 映到这个向量，而是映到那个向量。很好。这完全是一个很好的陪集。
+But I'm going to describe them in a more simple way, where—see, we sort of privileged this basis e_1 and e_2 and we said where they went; and we remember from our general	但我打算用一种更简单的方式来描述它们。你看，我们刚才有点特殊化了 e₁ 和 e₂ 这组基，并给出了它们的去向；
+linear algebra principles that sometimes we might want to view a transformation from the point of view of a different basis to take advantage of its eigenvalues.	而我们记得线性代数的一般原理：有时我们可能希望从另一组基的角度来审视一个变换，以便充分利用它的特征值。
+Now when does something here have eigenvalues? When does an element in SO(2) have an eigenvector? Yeah, Atticus.	那么这里的元素何时会有特征值呢？SO(2) 中的元素何时会有特征向量？是的，Atticus。
+When the determinant of A - I is equal to 0—well, that would be an eigenvalue of 1. It could also have an eigenvalue of -1.	当 det(A - I) = 0 时——好吧，那对应特征值为 1。它也可能拥有特征值-1。
+Right. That's right. But which of these—we know everything now in SO(2): they're all rotations. When does a rotation have an eigenvector? Exactly. There are only two elements in SO(2) that have eigenvectors.	对，没错。但这里的哪些变换——我们现在对 SO(2) 已经了如指掌：它们全都是旋转。旋转何时会有特征向量？没错。SO(2) 中只有两个元素具有特征向量。
+You can have the trivial element: rotation through the angle 0 has matrix [[1, 0], [0, 1]], and rotation through the angle π is the matrix [[-1, 0], [0, -1]], and so they both have eigenvectors; and the eigenvectors are e_1 and e_2.	你可以有平凡元素：旋转角为 0 的旋转，其矩阵为 [[1, 0], [0, 1]]；以及旋转角为 π 的旋转，其矩阵为 [[-1, 0], [0, -1]]。因此它们都拥有特征向量；特征向量是 e₁和 e₂。
+In the first one the eigenvalues are +1, and the second one the rotation takes e_1 to -e_1 and it takes e_2 to -e_2, so it preserves these two lines. Good. In fact, everything's an eigenvector for these things, because they're just scalar matrices.	在第一个变换中特征值是 +1；在第二个变换中，旋转将 e₁ 映为 -e₁，并将e₂ 映为 -e₂，所以它保持了这两条直线。很好。事实上对这两个变换而言每个向量都是特征向量，因为它们就是标量矩阵。
+However, when we go over here, I claim that each such A has two orthogonal vectors.	然而，当我们来到这边时，我断言每一个这样的 A 都有两个正交的向量。
+Every such transformation has orthogonal eigenvectors v_1, v_2; and v_1 has the property that A(v_1) = v_1, and v_2 has the property that A(v_2) = -v_2.	每个这样的变换都有正交的特征向量 v₁ 和 v₂；并且 v₁ 满足 A(v₁) = v₁，v₂ 满足A(v₂) = -v₂。
+So that if we looked at the matrix of this with respect to those two vectors, it would look like this: [[1, 0], [0, -1]].	因此如果我们考察该变换相对于这两个向量的矩阵，它看起来就会像这样：[[1, 0], [0, -1]]。
+But that's a matrix with respect to a different basis: not e_1 and e_2, but v_1 and v_2.	但这是相对于另一组基的矩阵：不是 e₁ 和 e₂，而是 v₁ 和 v₂。
+So I have to prove that to you: that even though rotations may not have any eigenvectors—the only possibility for rotation is either everything is an eigenvector or nothing is an eigenvector—	所以我必须向大家证明这一点：虽然旋转可能没有任何特征向量——旋转的唯一可能要么是每个向量都是特征向量，要么根本没有特征向量—
+the things that are in this non-trivial coset are going to have distinguished lines that are eigenvectors: one which is a +1, one which is a -1.	—但落在这个非平凡陪集中的元素，必定拥有作为特征向量的特殊直线：一条对应特征值 +1，另一条对应特征值 -1。
+Okay, let's prove it. Consider the characteristic polynomial. That's what we always do when we look for eigenvalues and eigenvectors: look at the characteristic polynomial.	好的，让我们来证明它。考虑特征多项式。寻找特征值和特征向量时我们总是这么做：考察特征多项式。
+Proof: the characteristic polynomial of A looks like x^2 - (trace A) x, and then it's plus the determinant of A, which is -1.	证明：A 的特征多项式形如 x^2 - (tr A) x，然后加上 A 的行列式，即 -1。
+We don't know what the trace is, but we know what the determinant is.	我们不知道迹是多少，但我们知道行列式是多少。
+That's what it means to be in this non-trivial coset: it means the determinant of A is minus 1 (minus one).	属于这个非平凡陪集就意味着：A 的行列式为-1。
+Now this is a quadratic polynomial.	现在这是一个二次多项式。
+Its roots over the real numbers tell us what the eigenvalues are, right? It may not have any roots over the real numbers, like in these cases, right?	它在实数域上的根告诉我们特征值是什么，对吧？它可能在实数域上没有任何根，就像刚才那些旋转的情形一样，对吧？
+However, in this case, I claim it has both roots in the real numbers.	然而在这种情形下，我断言它的两个根全都在实数域中。
+Because if it didn't, its roots would be complex conjugates, conjugates in the complex numbers; because if you have a polynomial with real coefficients, either it has two roots that are real or its roots are complex conjugates, otherwise the sum of the roots can't be a real number and the product of the roots can't be a real number.	因为如果不是这样，它的根就会是复共轭的，在复数中互为共轭；因为如果你有一个实系数多项式，它要么有两个实根，要么它的根互为复共轭，否则根之和不可能是实数，根之积也不可能是实数。
+I mean, use the quadratic formula, okay?	我是说，用求根公式就可以看出来，对吧？
+The roots are z = (-b ± √(b^2 - 4ac)) / (2a).	根为 z = (-b ± √(b^2 - 4ac)) / (2a)。
+If this number is positive you get two real roots; and if this number is negative, you get two complex conjugate roots.	如果这个数（判别式）为正，你得到两个实根；如果这个数为负，你得到两个复共轭根。
+Okay. Now this number here—but the determinant would be the product of the two roots, so it would be z · z̄.	好。现在这里的常数项——但行列式就是两个根的乘积，所以它会是 z · z̄。
+And what do we know about the product of a complex number by its conjugate?	那么关于一个复数与其共轭复数的乘积，我们知道什么？
+It's positive. Good. But on the other hand, the determinant of A was assumed to be -1.	它是正数。很好。但另一方面，A 的行列式已知为 -1。
+So therefore we get a contradiction; implies the two roots are real.	因此我们得到了矛盾；这意味着这两个根必为实数。
+Let's call them λ_1 and λ_2 are real, and their product is equal to -1, this term here. But every root of the characteristic polynomial gives an eigenvalue for the transformation.	不妨称它们为 λ₁ 和 λ₂，它们是实数，且其乘积等于 -1（即这里的常数项）。但特征多项式的每个根都给出该变换的一个特征值。
+Remember we showed that, and we showed the only possible eigen- values for an orthogonal transformation are plus or minus 1.	记住我们证明过这一点，并且我们证明过正交变换唯一可能的特征值只能是 ±1。
+These are eigenvalues for A, so must be: so λ_1 = ±1 and λ_2 = ±1.	这些是 A 的特征值，所以必然有：λ₁ = ±1 且 λ₂ = ±1。
+On the other hand, their product is -1.	另一方面，它们的乘积是 -1。
+So one of the roots must be +1, and the other root must be -1.	因此其中一个根必须是 +1，而另一个根必须是 -1。
+So far so good. That gives us two eigenvectors v_1 and v_2 of this sort, okay?	到目前为止一切顺利。这给出了两个这类特征向量 v₁ 和 v₂，对吧？
+And all you have to check—and I'm going to leave this to you because it's an amusing check—is that they're orthogonal to each other.	剩下的你只需要验证——我把这留给你们，因为这是一个有趣的练习——它们彼此正交。
+That's the one thing we haven't checked: that the two vectors... if they're not orthogonal to each other, it's not an orthogonal transformation.	这是唯一我们还没验证的事情：这两个向量……如果它们彼此不正交，它就不是正交变换了。
+Okay. So what does a transformation look like? Well, it looks completely different than this or even this idea of rotating and then taking the second vector down to here.	好。那么这个变换看起来像什么呢？它看起来与旋转、甚至与刚才那种先旋转再将第二个向量反向的想法完全不同。
+What it looks like is this: You find the eigenvector with eigenvalue +1.	它看起来是这样的：你先找到特征值为 +1 的特征向量。
+You find v_1.	你找到了 v₁。
+There's no harm in normalizing, by the way. Why don't we normalize our vector v_1 to have length 1? You can always, once you have an eigenvector, you can scale it to have length 1.	顺便说一下，将其单位化毫无问题。我们何不把特征向量 v₁ 单位化为长度 1 呢？一旦有了特征向量，你总可以通过数乘缩放使其长度为 1。
+Likewise, why don't we normalize our second eigenvector v_2 to have length 1?	同样地，我们何不把第二个特征向量 v₂ 也单位化为长度 1 呢？
+So we find our first eigenvector that has length 1.	于是我们找到了第一个长度为 1 的特征向量。
+Then v_2 has to be orthogonal to v_1, so it lies here.	然后 v₂ 必须正交于 v₁，所以它落在这一侧。
+It could be anywhere on that line. And what happens here is that v_2 is taken across the line to -v_2, and v_1 is fixed.	它可以在那条直线上的任意位置。这里发生的是：v₂ 跨过该直线被映为 -v₂，而 v₁ 保持不动。
+So this line is fixed by the transformation, which therefore preserves the line orthogonal to it because it preserves orthogonality.	因此这条直线在变换下逐点固定，从而也保持了与其正交的直线，因为该变换保持正交性。
+v_2 lies on that line and is flipped over here.	v₂ 落在该直线上，并被翻转到这边。
+By the way, here let me give you a proof that v_1 is orthogonal to v_2; I don't want to kill you.	顺便说一下，让我给你们一个 v₁ 与 v₂ 正交的证明吧；我可不想难倒你们。
+Apply A: ⟨v_1, v_2⟩ = ⟨A(v_1), A(v_2)⟩. This number has to equal this number.	作用变换 A：⟨v₁, v₂⟩ = ⟨A(v₁), A(v₂)⟩。这个数必须等于这个数。
+But this number is ⟨v_1, -v_2⟩ by the fact that they're eigenvectors, correct?	但根据它们是特征向量的事实，这个数等于 ⟨v₁, -v₂⟩，对吧？
+And by the linearity in the second variable, this is -⟨v_1, v_2⟩.	并且由关于第二个变量的线性性，这等于 -⟨v₁, v₂⟩。
+So this is some real number which is minus itself. Therefore it's zero.	所以这是一个等于其自身相反数的实数。因此它必然是 0。
+Therefore the vectors have to be orthogonal.	因此这两个向量必定正交。
+Eigenvectors. So we have this vector v_1. v_2 has to lie on the line orthogonal to v_1 and is flipped by the transformation like that.	特征向量。所以我们有了这个向量 v₁。v₂ 必然落在与 v₁ 正交的直线上，并且像这样被变换翻转。
+Once I know what happens to v_1 and v_2, I know what happens to anything. And what this transformation does is it simply reflects in the line—it reflects across the line orthogonal to the line v_1, around the line v_1.	一旦我知道v₁ 和 v₂ 的去向，我就知道任意向量的去向。而这个变换所做的，无非就是关于直线反射——关于直线 v₁ 进行反射（在与 v₁ 正交的方向上翻转）。但 v₁ 就决定了整个变换。
+But v_1 determines the transformation. Once you know the eigenvector, or the line which is fixed by this transformation—and there must be such a line fixed, because we just proved there has to be an eigenvalue of 1—	一旦你知道了被该变换保持固定的特征向量或直线——并且必定存在这样一条被固定的直线，因为我们刚刚证明了必有特征值 1—
+then the entire transformation is done by taking a reflection across that line. And that has order 2, right? If I square that transformation, I get 1.	—那么整个变换就是关于该直线的轴对称反射。它具有阶数 2，对吧？如果我把该变换平方，就得到恒等变换。
+So every element in this non-trivial coset has order 2.	所以在这个非平凡陪集中的每个元素都具有阶数 2。
+However, they don't commute with each other.	然而，它们彼此并不交换。
+And that's where the non-commutativity of this group comes in: because if you reflect around the line v_1 and then you reflect around the line v_2, you get a rotation!	这就是该群非交换性的来源：因为如果你先关于直线 v₁ 反射，然后再关于直线v₂ 反射，你就会得到一个旋转！
+You get a rotation that has to do with the angle between the lines v_1 and v_2.	你会得到一个与直线 v₁ 和 v₂ 之间的夹角有关的旋转。
+Right. Exactly. So you should check that reflection around v_1 composed with reflection around v_2 is the rotation through some angle θ, because it has to be: this has determinant -1, this has determinant -1, so the determinant of the product is +1.	对，没错。大家应该去验证：关于 v₁ 的反射与关于 v₂ 的反射之复合，必然是旋转某个角度 θ 的旋转，因为必然如此：这个变换的行列式是 -1，那个变换的行列式是 -1，所以乘积的行列式为 +1。
+Figure out what θ is in terms of v_1 and v_2, and you'll see that the reflections don't necessarily commute with each other.	请用 v₁ 和 v₂ 算出 θ 是多少，你们就会明白为什么反射之间通常并不对易。
+So here we have a geometric description of every transformation in the group O(2).	于是我们在此给出了群 O(2) 中每个变换的几何刻画。
+In this subgroup it's rotation around the origin of some angle, and in this non-trivial coset the elements have order 2: they're reflections across some line.	在特殊正交子群中是绕原点旋转某个角度；而在这个非平凡陪集中，元素都具有阶数 2：它们是关于某条直线的反射。
+And never mind... So we're going to do this for more complicated orthogonal groups, but you should at least see this in dimension 2. Let me push this argument a little harder in dimension 3. So in dimension 2, we saw that everything in the non-trivial coset had an eigenvalue of +1.	好的……接下来我们要对更复杂的正交群做同样的事情，但大家至少应该在二维情形看清楚这一点。让我把这个论证在三维空间中推进得更深入一点。在二维情形中，我们看到非平凡陪集中的每个元素都具有特征值 +1。
+So here's a great theorem that was first discovered by Euler, a leading mathematician of the 18th century: Euler's theorem: any A in SO(3) has an eigenvalue of +1.	这里有一个伟大的定理，最早由 18 世纪的数学泰斗欧拉（Euler）所发现：欧拉定理：SO(3) 中的任意元素 A 都有特征值 +1。
+So there is a v in R^3 such that A(v) = v.	因此存在 ℝ³ 中的向量 v 使得 A(v) = v。
+Yeah. Let me state this without matrices. They had a notion, which we're going to get to, of what a rigid motion was: something preserving distance, and things of that nature.	是的。让我脱离矩阵语言来叙述这个定理。当时他们有一种概念（我们稍后会讲到），即什么是“刚体运动”：保持距离以及类似性质的变换。
+And so without matrices, what he said was: if you had a motion of R^3, some transformation that took R^3 to itself—there you didn't need what groups were or anything like that—	因此脱离矩阵语言，欧拉所说的是：如果你有一个 ℝ³ 的运动，即把 ℝ³ 映到自身的某种变换——当时根本不需要知道群是什么或类似概念—
+and it preserved the origin and it preserved the sphere, it preserved distance from the origin, then it had to have what's called an axis.	—并且它保持原点不动、保持球面不变，即保持到原点的距离不变，那么它必然具有所谓的“轴”（axis）。
+It had to have a fixed vector. We're going to see what I mean by an axis. So any motion preserving the sphere S^2 in R^3 has an axis.	它必然有一条固定不动的向量。我们稍后会看到“轴”的含义。因此任何保持 ℝ³ 中二维球面 S² 不变的运动都具有一根轴。
+That's how it's stated by Euler.	这就是欧拉当年的表述方式。
+You're going to see what an axis looks like: an axis of rotation. An axis of rotation.	你们将看到这根轴长什么样：一根旋转轴。一根旋转轴。
+Proof: Again, if we want to prove an eigenvalue, what do we look for? What do we look at?	证明：同样地，如果我们想要证明存在特征值，我们寻找什么？我们考察什么？
+We want to look at the characteristic polynomial and see where its roots are. Now the characteristic polynomial has degree 3.	我们要考察特征多项式，看看它的根落在哪里。现在特征多项式的次数是 3。
+So if we factor it in the complex numbers, it looks like this: so three roots in the complex numbers. One possibility: they're all real.	因此如果我们在复数域中对其因式分解，它看起来就像这样：在复数域中有三个根。第一种可能：它们全都是实数。
+A second possibility: there's one real root and two complex conjugate roots.	第二种可能：有一个实根和两个互为复共轭的根。
+Any other possibilities?	还有其他可能吗？
+No, you say no. Why are you saying no?	没有，你们说没有。为什么你们说没有？
+Why do we have to have a real root for a polynomial of degree 3?	为什么 3 次多项式必然有一个实根？
+Because roots come in pairs. The complex roots come in pairs.	因为根成对出现。复根成对出现。
+Complex roots.	复根。
+Good. So it's because it's of odd degree.	很好。这是因为它的次数是奇数。
+A polynomial of odd degree always has a root over the reals. The proof: the intermediate value theorem.	奇数次多项式在实数域上必有实根。证明依据是：介值定理。
+If it has odd degree over the reals, and you look at it for a very negative value, the value of f is down here—it's negative, because it starts off with x to the odd power plus lower order terms, and this starts to dominate; and so if you take a negative number to an odd power you get a very negative number.	如果它在实数域上是奇数次的，当你代入一个绝对值很大的负数时，f 的值在下方——它是负的，因为它以 x 的奇数次幂开头加上低阶项，而最高次项占主导地位；如果你取一个负数的奇数次幂，你就会得到一个极大的负数。
+So for very negative x it's down here. For very positive x it's up here.	所以对于充分负的 x，图像在下方；对于充分正的 x，图像在上方。
+So the intermediate value theorem says sooner or later it has to cross the x-axis.	因此介值定理指出：它迟早必须穿过 x 轴。
+That's it. That's the proof. It's by calculus. It's an unusual property of the real numbers.	就是这样。这就是证明。这是用微积分证出的。这是实数系统的一个独特的完备性质。
+You express it in terms of the complex numbers which we happen to know a little bit more about.	你也可以用复数来表述它，关于复数我们碰巧知道得更多一些。
+But even if we knew nothing about the complex numbers at all, a real polynomial of odd degree has a root.	但即使我们对复数一无所知，实系数奇数次多项式也必有实根。
+Whereas of even degree, no, no such thing: x^2 + 1 has no real root.	而对于偶数次多项式，并没有这回事：x^2 + 1就没有任何实根。
+But don't think it's anything miraculous about degree: if we didn't have the intermediate value theorem, it's like false for the rational numbers: x^3 - 2 has no root in the rational numbers.	但不要以为仅凭次数就能发生奇迹：如果我们没有介值定理，它在有理数域上就是假的：x^3 - 2 在有理数中就没有根。
+It's because there's room here. But over the real numbers by the intermediate value theorem, the most useful theorem in calculus, we have a real root.	这是因为有理数存在空隙。但在实数域上，由微积分中最实用的介值定理，我们必然有一个实根。
+Okay? So therefore, we either have all three roots real, or one real root and two complex conjugates. If we have one real root, we know the product of these two numbers is positive.	对吧？因此，我们要么三个根全为实数，要么有一个实根和两个复共轭根。如果我们有一个实根，我们知道另外那两个根的乘积是正数。
+And the product of all three of them has to be the determinant, which is 1 by our hypothesis that we're in SO(3).	而所有这三个根的乘积必须等于行列式，由属于 SO(3) 的假设，行列式为 1。
+Okay. So if these two have a positive product, this thing has to be positive.	好。既然那两个复根之积为正，这个实根就必须为正。
+Since it's plus or minus 1, it has to be +1, because any root is an eigenvalue.	又因为它的特征值只能是 ±1，所以它必须是 +1，因为任何根都是一个特征值。
+Over here we have three things which are all plus or minus 1, and the product of them is 1.	而在全实根的情形下，我们有三个数，它们全都是 ±1，且它们的乘积是 1。
+So they can't all be -1.	所以它们不可能全为 -1。
+Agreed?	同意吧？
+So therefore in this case at least one of them has to be +1. In this case this one has to be +1.	因此在这种情形下至少有一个必须是 +1。在那种情形下这唯一实根必须是 +1。
+Therefore we have an eigenvalue of plus 1.	所以在任何情况下我们都有特征值 +1。
+Therefore we have a vector that's fixed.	因此我们必然有一个保持不动的向量。
+Very cool argument. Euler didn't have the fundamental theorem of algebra to play with, but he figured this out.	非常绝妙的论证。欧拉当年虽然没有代数基本定理可用，但他依然想通了这一点。
+Okay. What does this mean geometrically?	好的。这在几何上意味着什么呢？
+Well, let's take a look at the case of three-space here, and then we'll see what I mean by when we re-express Euler's theorem.	让我们来看看这里三维空间的情形，然后就会明白重新表述欧拉定理的含义。
+Here we're now in three-space, and the transformation preserves the sphere in three-space, because it preserves the vectors of distance 1 from the origin.	现在我们在三维空间中，该变换保持三维空间中的球面不变，因为它保持到原点距离为 1 的向量不变。
+That's not the greatest sphere, but you can imagine it. Okay, now let's take the eigenvalue for this transformation. The eigenvector need not be one of these unit vectors, God forbid.	这画得不太像球，但大家可以想象一下。好，现在取这个变换的特征向量。特征向量不需要是坐标轴上的标准单位向量，天晓得它指向哪。
+The eigenvector is some point that comes up here and hits the sphere here. There's our eigenvector.	特征向量是从原点出发并交球面于此处的某个点。这就是我们的特征向量。
+And so if we draw that line through the origin, it meets the sphere in two points, and those points are fixed by the transformation. What does the rest of the transformation do?	所以如果我们画出过原点的那条直线，它交球面于两点，而这两点在变换下保持不动。那么空间的其余部分在做什么呢？
+What does the rest of the transformation do? These are the fixed points.	变换对其余部分做了什么？这两个是固定点。
+Next claim is that A preserves a plane orthogonal to v. In other words, there's a plane through the origin here which is orthogonal to this vector. Even worse drawing, right? But everyone can see that.	下一个断言是：A 保持垂直于 v 的平面不变。换句话说，这里存在一个过原点且正交于该向量的平面。画得更糟了，对吧？但大家都能明白。
+Namely, let me just draw the sphere without the coordinate axes, because I'll do a little bit better.	也就是说，让我把球面画出来而不画坐标轴，这样能画得稍微好一点。
+Here's the vector v. Well, let's put v at the north pole. Why not?	这是向量 v。不妨把 v 放在北极。为什么不呢？
+Here's the vector -v on the south pole. And it preserves this plane that cuts orthogonally to the sphere.	这是南极处的向量 -v。它保持这个正交截断球面的平面不变。
+So in particular it preserves the intersection of that plane with the sphere, which is this equator.	特别地，它保持该平面与球面的交线不变，即这条赤道大圆。
+Why? Because if ⟨v, w⟩ = 0, then this is equal to ⟨Av, Aw⟩, which is equal to ⟨v, Aw⟩ because v is an eigenvector and A preserves the inner product.	为什么？因为如果 ⟨v, w⟩ = 0，那么它等于 ⟨Av, Aw⟩，由于 v 是特征向量（Av = v）且 A 保持内积，这就等于 ⟨v, Aw⟩。
+So if w is orthogonal to v, so is A(w).	因此如果 w 正交于 v，那么 A(w) 也正交于 v。
+So if you're in the plane orthogonal to the eigenvector, you stay in that plane.	所以如果你落在正交于特征向量的平面内，变换后你仍然留在该平面内。
+Okay. It also preserves—why just do that—it preserves the vectors of a fixed angle. So it in particular preserves all the... well, we'll go for that for a second.	好。它还保持——何止是这个——它保持具有固定夹角的向量。特别地，它保持所有的……好，我们稍后再谈这个。
+So it does something in this plane. What does it do? Well, let's take a look at the matrix of A. The matrix of A looks like this: here's the vector v, (1, 0, 0)^t.	所以它在这个平面上做某些变换。它做了什么？让我们来看一下 A 的矩阵。A 的矩阵看起来像这样：这里是向量 v，对应 (1, 0, 0)^t。
+And here we choose—we extend our basis to be an orthogonal basis for the plane orthogonal. So let's take e_1 and e_2. This is a basis for the plane orthogonal to v.	在这里我们选取——将基扩充为正交平面的一组正交基。不妨取 e₁ 和 e₂。这是正交于 v 的平面的一组基。
+Well, I claim that the matrix now looks like this: a little 2-by-2 matrix there.	我断言现在的矩阵看起来就像这样：右下角有一个 2×2 的小矩阵。
+Because to say that it preserves the plane means that when you apply A to e_1 and e_2, you get linear combinations of e_1 and e_2: it doesn't involve v.	因为说它保持该平面不变，意味着当把 A 作用于 e₁ 和 e₂ 时，你得到的是 e₁ 和 e₂ 的线性组合，不涉及 v。
+What does this thing look like?	这个分块矩阵长什么样？
+Well, this is a linear transformation which has to be equal to its own transpose— sorry, its transpose is its inverse.	这是一个线性变换，它的转置必须满足——抱歉，它的转置等于它的逆。
+Namely, this is an orthogonal transformation of the plane orthogonal to v. Orthogonal transformation of the plane spanned by e_1 and e_2, because otherwise you wouldn't get an orthogonal matrix A.	也就是说，这是垂直于 v 的平面上的一个正交变换。是由 e₁ 和 e₂ 张成平面的正交变换，否则你不会得到正交矩阵 A。
+Namely, if it preserves the inner product on three-space, it certainly preserves the inner product of vectors in this plane.	也就是说，如果它保持三维空间中的内积，它当然也保持该平面中向量的内积。
+Good. Now, what do we know about the determinant of this orthogonal transformation?	很好。那么关于这个正交变换的行列式，我们知道什么？
+It's 1, because the determinant of A has to be 1: A is an element in SO(3).	它是 1，因为 A 的行列式必须为 1：A 是 SO(3) 中的元素。
+We have a 1 up here. So the determinant of this orthogonal transformation is equal to +1.	我们左上角有一个 1。所以这个正交变换的行列式等于 +1。
+Namely, this is an element in SO(2) of the orthogonal plane.	也就是说，它是正交平面上的SO(2) 元素。
+And we know all the elements in SO(2).	而我们知道 SO(2) 中的所有元素。
+What are the elements in SO(2)?	SO(2) 中的元素是什么？
+We just did those: that's a rotation through some angle in the orthogonal plane.	我们刚才刚讲过：那就是正交平面内旋转某个角度的旋转变换。
+So in this orthogonal plane to v, here's e_1 and e_2— shouldn't think that's... yeah, e_2. What's happening in this plane is we're rotating through some angle θ.	所以在垂直于 v 的正交平面中，这里是 e₁ 和 e₂——不要以为那是……对，e₂。在这个平面上发生的事情就是我们旋转了某个角度 θ。
+And that's how it preserves this circle: it just rotates this circle around through an angle of θ.	这就是它如何保持这个圆周不变的：它仅仅是将这个圆周整体旋转了一个角度 θ。
+And in fact, once you have that, so I write this down: so the transformation looks like this.	事实上，一旦有了这个，我就把它写下来：该变换看起来像这样。
+There's some vector that it fixes, and in the orthogonal plane you get the rotation through an angle θ. And what that has the effect of doing on three-space when you work it out is it just rotates the sphere around through an angle θ.	存在某个被它保持不动的向量，而在其正交平面上你得到旋转角为 θ 的旋转。当你分析它对整个三维空间的效果时，它所做的其实就是把整个球面绕着该轴旋转了角度 θ。
+So it preserves all these circles like this that are perpendicular to that plane.	所以它保持了所有这类垂直于该轴的圆周不变。
+All the... what are these things called?	所有的……这些圆圈叫什么来着？
+These are degrees of latitude.	这些是纬线圈（纬度圈）。
+The fixed degrees of latitude are preserved. And in each little circle, it just rotates it around by an angle of θ.	每一个固定的纬线圈都保持不变。在每个小圆上，它只是将其绕轴旋转了角度 θ。
+So the sphere is just... so that's what this is about: every motion preserving S^2 has an axis of rotation.	所以球面就是……这就是该定理的核心所在：保持 S² 不变的每一个运动都有一根旋转轴。
+Namely, there's some fixed line through the sphere, so that the motion consists of just turning by an angle of θ around that fixed line.	也就是说，存在一条穿过球面的固定直线，使得整个运动仅仅是绕着该固定直线旋转角度 θ。
+That's Euler's theorem. However, the line depends on the transformation.	这就是欧拉定理。然而，这根旋转轴取决于变换本身。
+So again, if you have two such things—this is a non-commutative group—if you have two such things, they have different axes.	所以再次强调，如果你有两个这样的变换——这是一个非交换群——如果有两个变换，它们具有不同的旋转轴。
+So what happens if you compose a rotation around one axis with a rotation around another axis? Well, you have to get a rotation around a third axis, right?	那么如果你将绕一根轴的旋转与绕另一根轴的旋转复合，会发生什么？你必然会得到绕第三根轴的旋转，对吧？
+Because anything in this group is a rotation around an axis. So that becomes an interesting problem which Euler worked out: how do you compose two different axes of rotations?	因为该群中的任何元素都是绕某根轴的旋转。这便成了一个欧拉当年解决过的有趣问题：如何复合具有不同轴的两次旋转？
+But for any individual transformation, you have this picture.	但对于任何单个变换，你都拥有这幅图像。
+Cool. Very cool. Okay. Now, I mentioned the word rigid motion, and I'm just going to end with that because that's another thing we're going to study. Now, these are linear transformations.	太棒了，非常绝妙。好。现在，我提到了“刚体运动”这个词，今天最后我就讲讲这个，因为这是我们将要研究的另一件事。现在，这些都是线性变换。
+In particular, they fix the origin. But people were interested when they studied Euclidean geometry of all motions of the plane or of three-space etc. that would preserve the notions of Euclidean geometry, that would take congruent triangles into congruent triangles, preserve length and angle.	特别地，它们保持原点不动。但人们在研究欧几里得几何时，感兴趣的是平面或三维空间中保持欧几里得几何概念的所有运动，即将全等三角形映为全等三角形、保持长度和夹角不变。
+So you might study all motions or all transformations— except I don't want to use the word transformation because it sounds like a linear transformation—from R^n to R^n which preserve the distance d(v, w) between two points.	因此你可能会研究所有的运动或变换——不过我不想用“变换”这个词，因为听起来太像线性变换了——从 ℝⁿ 到 ℝⁿ 的那些保持两点间距离 d(v, w) 的运动。
+So d(v, w) is by definition the norm of v - w. You take the difference vector and you take its distance from the origin, right?	d(v, w) 按定义就是 v - w 的范数。取它们的差向量，并计算它到原点的距离，对吧？
+Here we are: here's v, here's w.	我们来看：这里是v，这里是 w。
+If you want to calculate the distance here, you take the difference vector, which is this vector—w - v—and you take its length.	如果你想计算这里的距离，你就取差向量，也就是这个向量 w - v，然后计算它的长度。
+That would be the distance between that point and that point.	那就是那个点与那个点之间的距离。
+And that's called the group of rigid motions.	这被称为刚体运动群。
+Now the group G of rigid motions contains the orthogonal group.	刚体运动群 G 包含了正交群。
+And in fact the orthogonal group is just the group of rigid motions that preserves the origin.	事实上，正交群恰好就是保持原点不动的刚体运动群。
+Claim: if m is a rigid motion and m of the origin is the origin—and you certainly need that to be a linear transformation— then m is equal to A, is a linear transformation in O_n.	断言：如果 m 是一个刚体运动且 m 保持原点不动（m(0) = 0）——要成为线性变换你当然必须满足这一点——那么 m = A，是属于 O_n 的线性变换。
+That's an amazing fact. Let's see in some sense why it's true. Let's see at least that it preserves distance: A(v)... Without knowing it's linear,	这是一个令人惊叹的事实。让我们在某种意义上看看为什么它是对的。至少让我们看看它保持内积：设为 A(v)……在未知它是线性的情况下，
+we can at least show that ⟨A(v), A(w)⟩ is the inner product of v with w, ⟨v, w⟩. Well, let's expand this thing out: ‖v - w‖^2. Let's square it. That's the inner product of v - w with v - w.	我们至少能证明 ⟨A(v), A(w)⟩ 等于 v 与 w 的内积 ⟨v, w⟩。好，让我们把这个式子展开：‖v - w‖^2。我们把它平方。那就是 v - w 与 v - w 的内积。
+It becomes the inner product of v with v, which is ‖v‖^2, plus the inner product of w with w, which is ‖w‖^2, minus 2 ⟨v, w⟩.	它变成 v 与 v 的内积（即 ‖v‖^2），加上 w 与 w 的内积（即 ‖w‖^2），减去 2⟨v, w⟩。
+Okay. Now my rigid motion preserves the distance between two points.	好。现在我的刚体运动保持两点间的距离不变。
+If it also preserves the origin, it preserves the distance between a point and the origin, which is this or this.	如果它还保持原点不动，它就保持任意点到原点的距离不变，即这一项或那一项。
+So if my transformation preserves the distance between two points and it also preserves the origin, it preserves this quantity, this quantity, and this quantity.	因此如果我的变换保持两点间的距离且保持原点不动，它就保持了这个量、这个量以及这个量。
+So it has to preserve that quantity, and that shows that it preserves the inner product. Doesn't yet show it's linear, but it shows that it preserves the inner product.	所以它必然保持最后那个量，这就证明了它保持内积。这还没证明它是线性的，但证明了它保持内积。
+Hold off on the linearity for the moment. Hold off on the linearity for the moment.	线性性的证明先放一放。线性性的证明先放一放。
+Professor Gross, before you erase that... Yes?	Gross 教授，在您擦掉黑板之前……请讲？
+What you've written on the right side there seems to indicate that any motion preserving the unit sphere is in SO(3) on the right?	您在右边黑板上写的，似乎意味着任何保持单位球面的运动都属于右边的 SO(3)？
+Is that true here?	在这里真的成立吗？
+Yeah? Over here?	嗯？在这边吗？
+No, no. Where you wrote Euler's statement?	不，不是，是在您写欧拉论断的地方？
+Oh, no, no, no: any motion preserving S^2 with determinant 1.	噢，不不不：任何保持 S² 不变且行列式为 1 的运动。
+Sorry. Otherwise... sorry. Euler also knew the determinant. I'm sorry.	抱歉。否则……抱歉。欧拉当时也知道行列式。我很抱歉。
+Because there are also orthogonal transformations that preserve... An example of an orthogonal transformation of three-space	因为还存在一些保持……三维空间中保持 S² 但没有旋转轴的正交变换的一个例子是变换 -I，
+that preserves S^2 but does not have an axis of rotation is the transformation -I, [[-1, 0, 0], [0, -1, 0], [0, 0, -1]], that has the effect of taking every point to its antipodal point on the sphere.	[[-1, 0, 0], [0, -1, 0], [0, 0, -1]]，它把球面上的每个点映到其对跖点（antipodal point）。
+That's a perfectly good transformation of R^3 that preserves the two-sphere, but has no axis.	这是 ℝ³ 上一个完全保持二维球面 S² 不变的变换，但它没有任何旋转轴。
+It's only the things of determinant 1.	该定理仅适用于行列式为 1 的元素。
+I'm sorry. I should have put that in, because that's a critical condition in our proof.	抱歉，我本该把它写进去的，因为那是我们证明中的一个关键条件。
+If it has determinant... Question: oh yeah, it's an orthogonal transformation; it just has determinant -1. This only applies to the subgroup SO(3).	如果它的行列式……提问：噢对，它是正交变换；只是它的行列式为 -1。这一定理仅适用于子群 SO(3)。
+Remember in two- dimensional space, first we classified what was in SO(2); then we classified what was in the non-trivial coset.	记住在二维空间中，我们首先分类了 SO(2) 中的元素；然后分类了非平凡陪集中的元素。
+Correct? So here we're only classifying what's in the subgroup.	对吧？所以在这里我们只分类了特殊正交子群中的元素。
+We're not saying about what happens when you have determinant -1.	我们还没讨论行列式为 -1 时会发生什么。
+Okay. Yeah. Oh, it was called orientation-preserving motion. Sorry, this determinant 1 was called orientation-preserving.	好。请讲。噢，欧拉把它叫做保持定向的运动（orientation-preserving motion）。抱歉，行列式为 1 被称为保持定向。
+There's a notion of orientation where you have a right-hand rule and a left-hand rule—those of you who've done chemistry.	定向的概念类似于右手定则与左手定则——学过化学的同学都清楚。
+So it was: any motion of three-space preserving the origin and preserving orientation had an axis.	所以原定理是：任何保持原点且保持定向的三维空间运动必有一根旋转轴。
+In any case, here at least I show you that if you have a rigid motion that preserves the origin, it preserves the inner product. So it's reasonable to think it's in O_n.	无论如何，这里我至少向大家展示了：如果一个刚体运动保持原点不动，它就保持内积。所以有充分理由认为它落在 O_n 中。
+I still have to show you it's linear.	我之后仍需向大家证明它是线性的。
+Okay. And in particular, anything in O_n is in this group of rigid motions; it is a subgroup of the group G preserving the origin.	好的。特别地，O_n 中的任何元素都在这个刚体运动群中；它是刚体运动群 G 中保持原点不动的子群。
+So I'm going to give you some other things that are in G: another subgroup of G, translations by a fixed vector b.	所以我打算向大家介绍 G 中的其他元素：G 的另一个子群，平移变换，即沿着固定向量 b 进行平移。
+In other words, let's call that T_b of a vector v is equal to v + b.	换句话说，记作对向量 v 的平移 T_b(v) = v + b。
+You add b to any vector.	你将 b 加到任意向量上。
+Now that clearly preserves the distance between two points, because the distance between T_b(v) and T_b(w) is the norm of the difference vector, which is the norm of (v + b) - (w + b).	这显然保持两点间的距离，因为 T_b(v) 与 T_b(w) 之间的距离是差向量的范数，即 ‖(v + b) - (w + b)‖。
+The vector b cancels out of this. So it's just the norm of v - w, which is just our distance between v and w.	向量 b 在其中抵消掉了。所以这正好是 ‖v - w‖，也就是 v 与 w 之间的距离。
+So if you just shift the plane along by a vector, you're not changing any distances. Now that clearly doesn't preserve the origin.	因此如果你仅仅是将平面沿着一个向量平移，你没有改变任何距离。这显然不保持原点不动。
+And that group is isomorphic to the group R^n under addition, because if you compose the translation by b with the translation by the vector b', you get translation by the vector b + b'.	而这个群同构于加法下的向量群 ℝⁿ，因为如果你将向量 b 的平移与向量 b' 的平移复合，你得到的是按向量 b + b' 的平移。
+So here we have a nice abelian subgroup that just translates things along. Here we have a group that's quite complicated that preserves the origin and moves things around but preserves distance.	于是我们有了一个纯粹做平移的优美交换子群；而这里我们有一个相当复杂的子群，它保持原点不动、旋转或反射空间但保持距离。
+And I claim that that's it. That's it!	我断言：全部内容就这些了。仅此而已！
+Once you show—and we haven't yet shown that O_n is a subgroup of G preserving the origin, because we haven't yet shown that if you preserve the origin and you preserve length you get linear.	一旦你证明——我们还没证明 O_n 是 G 中保持原点的子群，因为我们还没证明保持原点且保持长度就必然是线性的。
+But if you believe that, then I claim that G is the product of those two groups: O_n and R^n.	但如果你相信这一点，那么我断言 G 是这两个群的乘积：O_n 与ℝⁿ。
+Every element in G is uniquely an orthogonal transformation composed with a translation, and this subgroup is actually a normal subgroup.	G 中的每个元素都唯一地表示为一个正交变换与一个平移的复合，并且平移子群实际上是一个正规子群。
+So that any rigid motion of a vector has the form A(v) + b, where A is an orthogonal transformation and b is a translation.	因此对向量的任意刚体运动都具有形式 A(v) + b，其中 A 是正交变换，b 是平移向量。
+So that by studying orthogonal transformations, we almost get the entire group of transformations that preserve distance.	因此通过研究正交变换，我们几乎就掌握了保持距离的全部运动群。
+And that's what you want to study when you want to study Euclidean geometry: the group of transformations that preserve distance.	而这正是你在研究欧几里得几何时想要研究的东西：保持距离的变换群。
+So let's prove this, and then I'll come back next time with the proof of linearity.	那么让我们来证明这个结论，然后下次课我再回过头来给出线性性的证明。
+Okay, here's the proof: let's think. We have an arbitrary motion. It takes the origin somewhere.	好，证明如下：让我们想一想。我们有一个任意的刚体运动。它把原点映到某个地方。
+Okay, if I only could take the origin to itself, I could apply this. How do I get to a transformation that takes the origin to itself?	好，如果我能让它把原点映到自身，我就能应用前面的结论。我怎样才能得到一个把原点映到自身的变换呢？
+Very good. My arbitrary transformation has the property that m(0) is some vector b in R^n.	很好。我的任意运动满足性质：m(0) 是 ℝⁿ 中的某个向量 b。
+Say, all right, consider the transformation T_{-b} composed with m.	那么，好，考虑平移 T_{-b} 与 m 的复合变换 T_{-b} ∘ m。
+That takes the origin to itself, because this takes the origin to b, and then I translate by -b and I get back to 0.	它把原点映到自身，因为 m 先把原点映为 b，然后我平移 -b，就回到了0。
+So T_{-b} composed with m is an orthogonal transformation A.	所以 T_{-b} ∘ m 就是一个正交变换 A。
+So m is the product of T_b with A.	因此 m 是 T_b 与 A 的乘积（复合）。
+So every element in the group is of the form: an element in the orthogonal group and an element which is a translation.	所以该群中的每个元素都具有形式：正交群中的一个元素，以及一个作为平移的元素。
+Okay, so you get the group by putting together these two subgroups.	好，所以你通过将这两个子群结合在一起得到了整个运动群。
+This one turns out to be normal; this one turns out to be isomorphic to the quotient group.	平移子群事实证明是正规子群；正交群事实证明同构于商群。
+Now, where are we going? Because this is a reasonable question: we've just built up an interesting geometric group, the group of motions. We're not quite done with it, but we're almost there.	现在，我们要往何处去？因为这是一个很合理的问题：我们刚刚构建了一个有趣的几何群——刚体运动群。我们还没完全研究完它，但也差不多了。
+Now, what we're going to study is the various nice forms for elements in this more complicated group.	现在，我们要研究的是这个更复杂的群中元素的各种优美标准型。
+I've given you nice forms for elements in SO(2) and SO(3), where you have an axis or you have a line around which you reflect. These are slightly more complicated things.	我已经给出了SO(2) 和 SO(3) 中元素的优美形式，在那里你有一根旋转轴或一条反射轴。那些稍微更复杂一些。
+So we're going to have several different canonical forms for elements in this group, to analyze the symmetries of space that are preserved by them.	所以我们将对该群中的元素引入若干不同的标准型，以分析被它们所保持的空间对称性。
+And then—and this is totally cool—we're going to analyze finite subgroups and discrete subgroups of these groups that give beautiful tessellations of space, dividing up space into various pieces.	然后——这绝对酷极了——我们要分析这些群的有限子群和离散子群，它们给出了优美的空间密铺（空间镶嵌），将空间剖分成各种小块。
+And as I said, there's a current model of the universe that's going on, not with a finite subgroup of this group— well, close: it's a finite subgroup G in SO(4), in fact, the alternating group on 5 letters.	正如我提到过的，当前有一个正在被研究的宇宙模型，不是用这个群的有限子群——好吧，很接近：它是 SO(4) 中的一个有限子群 G，事实上是 5 个字母上的交错群 A₅。
+This little picture is now being used to model the universe. So, I'll discuss that a little with you when we get there.	这个精巧的模型现在被用来构建宇宙模型。所以，当我们讲到那里时我会和大家讨论一点。
+That's where we're heading in the next couple of lectures.	这就是我们在接下来的几讲中的方向。

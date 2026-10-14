@@ -1,0 +1,4888 @@
+1
+00:00:12,240 --> 00:00:17,920
+lecture monday
+
+2
+00:00:22,400 --> 00:00:26,080
+a special lecture will not be on
+
+3
+00:00:24,240 --> 00:00:27,920
+material art but on more advanced
+
+4
+00:00:26,080 --> 00:00:29,519
+material in particular some research i
+
+5
+00:00:27,920 --> 00:00:30,320
+did on this subject which i thought
+
+6
+00:00:29,519 --> 00:00:31,760
+maybe would
+
+7
+00:00:30,320 --> 00:00:33,840
+give you an idea of what's going on
+
+8
+00:00:31,760 --> 00:00:36,559
+today in the subject and then
+
+9
+00:00:33,840 --> 00:00:38,800
+we'll have review and all kinds of
+
+10
+00:00:36,559 --> 00:00:40,239
+lectures etc to get ready for the exam
+
+11
+00:00:38,800 --> 00:00:45,840
+and reading period and that will be
+
+12
+00:00:40,239 --> 00:00:45,840
+posted on the web
+
+13
+00:00:50,800 --> 00:01:01,520
+so we won't arrange it on now
+
+14
+00:00:59,680 --> 00:01:03,120
+good so where were we last time last
+
+15
+00:01:01,520 --> 00:01:07,199
+time we determined
+
+16
+00:01:03,120 --> 00:01:07,199
+what all the algebraic integers
+
+17
+00:01:10,880 --> 00:01:14,479
+in the field
+
+18
+00:01:14,560 --> 00:01:22,000
+q square root of d
+
+19
+00:01:17,600 --> 00:01:24,479
+where d was a square free
+
+20
+00:01:22,000 --> 00:01:24,479
+integer
+
+21
+00:01:25,119 --> 00:01:32,320
+and the algebraic integers formed a ring
+
+22
+00:01:29,040 --> 00:01:34,159
+we'll call r and
+
+23
+00:01:32,320 --> 00:01:36,079
+in the case there were two possible
+
+24
+00:01:34,159 --> 00:01:38,840
+cases
+
+25
+00:01:36,079 --> 00:01:40,720
+well there was the case where you always
+
+26
+00:01:38,840 --> 00:01:42,880
+contained
+
+27
+00:01:40,720 --> 00:01:43,759
+all integers plus integer multiples of
+
+28
+00:01:42,880 --> 00:01:47,200
+square root of d
+
+29
+00:01:43,759 --> 00:01:54,479
+and that was all you got when d
+
+30
+00:01:47,200 --> 00:01:57,680
+was congruent to 2 or 3 mod 4.
+
+31
+00:01:54,479 --> 00:01:59,759
+and in the case where the the d was
+
+32
+00:01:57,680 --> 00:02:00,799
+congo into one mod four you got a little
+
+33
+00:01:59,759 --> 00:02:02,399
+more
+
+34
+00:02:00,799 --> 00:02:04,000
+so you certainly got the integers you
+
+35
+00:02:02,399 --> 00:02:05,920
+got the multiples of square root of d
+
+36
+00:02:04,000 --> 00:02:10,479
+but you also got the multiples
+
+37
+00:02:05,920 --> 00:02:14,720
+of one plus the square root of d over 2
+
+38
+00:02:10,479 --> 00:02:16,800
+when d was congruent to 1 mod 4.
+
+39
+00:02:14,720 --> 00:02:22,160
+so in particular the algebraic integers
+
+40
+00:02:16,800 --> 00:02:23,680
+form a ring
+
+41
+00:02:22,160 --> 00:02:26,879
+and that ring is the ring we're going to
+
+42
+00:02:23,680 --> 00:02:26,879
+study from now on
+
+43
+00:02:27,040 --> 00:02:30,080
+now there's a uniform way of writing
+
+44
+00:02:29,040 --> 00:02:31,840
+this a nice
+
+45
+00:02:30,080 --> 00:02:33,760
+uniform way of writing is so in other
+
+46
+00:02:31,840 --> 00:02:35,519
+words the things in the algebraic
+
+47
+00:02:33,760 --> 00:02:39,519
+integers are of the form
+
+48
+00:02:35,519 --> 00:02:43,680
+a plus b root d where
+
+49
+00:02:39,519 --> 00:02:47,680
+a and b are integers or
+
+50
+00:02:43,680 --> 00:02:49,920
+a and b are half integers
+
+51
+00:02:47,680 --> 00:02:51,920
+which are not integers they both have to
+
+52
+00:02:49,920 --> 00:02:52,879
+be either integers or half integers and
+
+53
+00:02:51,920 --> 00:02:56,319
+this occurs when d
+
+54
+00:02:52,879 --> 00:02:56,319
+is congruent to one mod four
+
+55
+00:02:57,120 --> 00:03:00,239
+because the multiples of this number
+
+56
+00:02:59,280 --> 00:03:03,040
+have a and b
+
+57
+00:03:00,239 --> 00:03:03,599
+both half integers neither integers
+
+58
+00:03:03,040 --> 00:03:05,519
+right if you
+
+59
+00:03:03,599 --> 00:03:07,680
+well if you multiply by 2 then a and b
+
+60
+00:03:05,519 --> 00:03:10,800
+are integers but if you multiply by 3
+
+61
+00:03:07,680 --> 00:03:11,360
+a and b are half integers so these are
+
+62
+00:03:10,800 --> 00:03:14,800
+the
+
+63
+00:03:11,360 --> 00:03:16,800
+set of algebraic integers
+
+64
+00:03:14,800 --> 00:03:18,480
+now the uniform way of writing this is
+
+65
+00:03:16,800 --> 00:03:20,640
+to introduce a new number
+
+66
+00:03:18,480 --> 00:03:22,800
+which is a better number for describing
+
+67
+00:03:20,640 --> 00:03:26,080
+this ring of integers capital d
+
+68
+00:03:22,800 --> 00:03:28,560
+which is either 4d or
+
+69
+00:03:26,080 --> 00:03:31,599
+d this is the case when d is congruent
+
+70
+00:03:28,560 --> 00:03:33,760
+to 1 mod 4
+
+71
+00:03:31,599 --> 00:03:37,280
+and this is the case when d is congruent
+
+72
+00:03:33,760 --> 00:03:37,280
+to two or three mod four
+
+73
+00:03:38,799 --> 00:03:42,959
+in which case this number here becomes
+
+74
+00:03:40,879 --> 00:03:43,680
+congruent to zero mod four so this
+
+75
+00:03:42,959 --> 00:03:45,599
+capital d
+
+76
+00:03:43,680 --> 00:03:47,680
+is either divisible by four or has
+
+77
+00:03:45,599 --> 00:03:49,920
+remainder 1 mod 4.
+
+78
+00:03:47,680 --> 00:03:52,159
+and then if you introduce that there's a
+
+79
+00:03:49,920 --> 00:03:54,159
+uniform way of writing down this ring of
+
+80
+00:03:52,159 --> 00:03:56,560
+algebraic integers you can write it like
+
+81
+00:03:54,159 --> 00:03:59,200
+this this is a cute way
+
+82
+00:03:56,560 --> 00:04:00,640
+of doing it it's all multiples of 1 and
+
+83
+00:03:59,200 --> 00:04:05,280
+all multiples of d
+
+84
+00:04:00,640 --> 00:04:08,480
+plus root d over two
+
+85
+00:04:05,280 --> 00:04:12,159
+now why is that because
+
+86
+00:04:08,480 --> 00:04:14,799
+first of all the square root of d
+
+87
+00:04:12,159 --> 00:04:15,920
+is either equal to two times the square
+
+88
+00:04:14,799 --> 00:04:17,840
+root of little d
+
+89
+00:04:15,920 --> 00:04:19,680
+or the square root of little d depending
+
+90
+00:04:17,840 --> 00:04:21,919
+on what happens
+
+91
+00:04:19,680 --> 00:04:23,120
+so in the case where d is congruent to
+
+92
+00:04:21,919 --> 00:04:24,960
+one mod four
+
+93
+00:04:23,120 --> 00:04:26,240
+this is little d plus the square root of
+
+94
+00:04:24,960 --> 00:04:29,280
+d over two but little d
+
+95
+00:04:26,240 --> 00:04:30,320
+is odd so if you you can subtract an
+
+96
+00:04:29,280 --> 00:04:32,479
+integer from it
+
+97
+00:04:30,320 --> 00:04:34,080
+and get this number and conversely if
+
+98
+00:04:32,479 --> 00:04:36,400
+you had this number you could add an
+
+99
+00:04:34,080 --> 00:04:39,120
+integer to it and get that number
+
+100
+00:04:36,400 --> 00:04:40,400
+so this ring is the same as this ring
+
+101
+00:04:39,120 --> 00:04:42,960
+when
+
+102
+00:04:40,400 --> 00:04:44,400
+capital d is odd if capital d is
+
+103
+00:04:42,960 --> 00:04:46,800
+divisible
+
+104
+00:04:44,400 --> 00:04:47,520
+by four so square root of d is two
+
+105
+00:04:46,800 --> 00:04:49,840
+little d
+
+106
+00:04:47,520 --> 00:04:50,880
+then both this number and this number
+
+107
+00:04:49,840 --> 00:04:53,199
+are divisible by
+
+108
+00:04:50,880 --> 00:04:55,120
+two you can divide the two out and
+
+109
+00:04:53,199 --> 00:04:57,199
+you're left with an integer plus a
+
+110
+00:04:55,120 --> 00:04:59,280
+multiple of square root of d
+
+111
+00:04:57,199 --> 00:05:00,240
+so you can express square root of d and
+
+112
+00:04:59,280 --> 00:05:02,320
+vice versa
+
+113
+00:05:00,240 --> 00:05:05,919
+so this is the uniform way of describing
+
+114
+00:05:02,320 --> 00:05:05,919
+the ring of algebraic integers
+
+115
+00:05:08,960 --> 00:05:12,479
+and we could call this r sub d or
+
+116
+00:05:11,120 --> 00:05:14,880
+something like that that's why i say
+
+117
+00:05:12,479 --> 00:05:17,360
+it's easier to index by this capital d
+
+118
+00:05:14,880 --> 00:05:20,400
+than it is by the little d
+
+119
+00:05:17,360 --> 00:05:21,840
+so for example now we're going to study
+
+120
+00:05:20,400 --> 00:05:25,360
+these
+
+121
+00:05:21,840 --> 00:05:28,800
+in particular when d is negative
+
+122
+00:05:25,360 --> 00:05:28,800
+they're called imaginary
+
+123
+00:05:29,600 --> 00:05:34,560
+quadratic rings
+
+124
+00:05:36,160 --> 00:05:39,680
+and we're going to see right away at the
+
+125
+00:05:38,080 --> 00:05:41,280
+beginning of this lecture why this is an
+
+126
+00:05:39,680 --> 00:05:42,000
+easier case than the negative than the
+
+127
+00:05:41,280 --> 00:05:43,759
+positive
+
+128
+00:05:42,000 --> 00:05:46,080
+and if you list out the possibilities
+
+129
+00:05:43,759 --> 00:05:48,400
+for d that are less than zero as i did
+
+130
+00:05:46,080 --> 00:05:52,160
+last time they look like minus three
+
+131
+00:05:48,400 --> 00:05:55,039
+minus four minus seven minus 8
+
+132
+00:05:52,160 --> 00:05:55,039
+minus 11
+
+133
+00:05:55,440 --> 00:06:00,479
+minus 12 is no good minus 15 minus 16 is
+
+134
+00:05:59,120 --> 00:06:03,840
+minus 19
+
+135
+00:06:00,479 --> 00:06:05,759
+minus 20 minus 23
+
+136
+00:06:03,840 --> 00:06:07,440
+etc so there are an awful lot of
+
+137
+00:06:05,759 --> 00:06:10,160
+interesting rings
+
+138
+00:06:07,440 --> 00:06:12,080
+indexed by this and this case here this
+
+139
+00:06:10,160 --> 00:06:15,280
+d is equal to -4
+
+140
+00:06:12,080 --> 00:06:16,880
+is where d is equal to -1 and that's the
+
+141
+00:06:15,280 --> 00:06:20,319
+gaussian integers
+
+142
+00:06:16,880 --> 00:06:22,880
+so that's the case we've looked at
+
+143
+00:06:20,319 --> 00:06:24,240
+and all these other cases are new rings
+
+144
+00:06:22,880 --> 00:06:25,680
+that are going to be interesting for us
+
+145
+00:06:24,240 --> 00:06:27,520
+to study
+
+146
+00:06:25,680 --> 00:06:30,319
+so does everyone see how just taking an
+
+147
+00:06:27,520 --> 00:06:32,639
+integer defining a ring like this
+
+148
+00:06:30,319 --> 00:06:34,639
+you get an interesting ring which may or
+
+149
+00:06:32,639 --> 00:06:37,199
+may not have unique factorization
+
+150
+00:06:34,639 --> 00:06:39,280
+which we're going to want to study okay
+
+151
+00:06:37,199 --> 00:06:40,160
+now the first thing to show you why this
+
+152
+00:06:39,280 --> 00:06:43,680
+case
+
+153
+00:06:40,160 --> 00:06:46,960
+is easier than the positive case
+
+154
+00:06:43,680 --> 00:06:48,479
+which are called real quadratic rings
+
+155
+00:06:46,960 --> 00:06:51,199
+let's just observe that we have the
+
+156
+00:06:48,479 --> 00:06:54,880
+following map i claim we have a map
+
+157
+00:06:51,199 --> 00:06:57,039
+delta which arten calls the norm map
+
+158
+00:06:54,880 --> 00:07:03,599
+that's the usual notation from it
+
+159
+00:06:57,039 --> 00:07:07,280
+from the ring r to the ring z
+
+160
+00:07:03,599 --> 00:07:09,120
+in any of these cases and the map looks
+
+161
+00:07:07,280 --> 00:07:09,440
+like this it takes something of the form
+
+162
+00:07:09,120 --> 00:07:12,479
+a
+
+163
+00:07:09,440 --> 00:07:12,479
+plus b root d
+
+164
+00:07:14,000 --> 00:07:17,360
+and if i want to take the norm of it i
+
+165
+00:07:16,479 --> 00:07:20,720
+take it to a
+
+166
+00:07:17,360 --> 00:07:23,199
+squared minus d times b
+
+167
+00:07:20,720 --> 00:07:23,199
+squared
+
+168
+00:07:23,919 --> 00:07:28,160
+in other words that's the product of
+
+169
+00:07:27,039 --> 00:07:31,280
+this number
+
+170
+00:07:28,160 --> 00:07:32,080
+a plus b square root of d with the other
+
+171
+00:07:31,280 --> 00:07:35,520
+number
+
+172
+00:07:32,080 --> 00:07:38,000
+a minus b squared d
+
+173
+00:07:35,520 --> 00:07:41,039
+if this thing is called alpha then this
+
+174
+00:07:38,000 --> 00:07:42,560
+number in the ring is called alpha prime
+
+175
+00:07:41,039 --> 00:07:45,120
+there's a way of taking the ring to
+
+176
+00:07:42,560 --> 00:07:47,360
+itself which takes this number to its
+
+177
+00:07:45,120 --> 00:07:49,120
+in some sense it's conjugate and if you
+
+178
+00:07:47,360 --> 00:07:50,560
+multiply these two numbers in the ring
+
+179
+00:07:49,120 --> 00:07:53,520
+notice that the terms
+
+180
+00:07:50,560 --> 00:07:54,080
+before square root of d go away because
+
+181
+00:07:53,520 --> 00:07:56,720
+you have
+
+182
+00:07:54,080 --> 00:07:57,599
+a b square to d with a minus sign but
+
+183
+00:07:56,720 --> 00:07:59,360
+here you have a b
+
+184
+00:07:57,599 --> 00:08:00,720
+squared of d with a plus sign so you
+
+185
+00:07:59,360 --> 00:08:03,039
+just get a normal
+
+186
+00:08:00,720 --> 00:08:04,160
+number now i claim that number is an
+
+187
+00:08:03,039 --> 00:08:06,639
+integer
+
+188
+00:08:04,160 --> 00:08:08,240
+that's not completely obvious it's
+
+189
+00:08:06,639 --> 00:08:10,840
+completely obvious
+
+190
+00:08:08,240 --> 00:08:13,120
+in this case when a and b are both
+
+191
+00:08:10,840 --> 00:08:14,400
+integers but you have to check that it's
+
+192
+00:08:13,120 --> 00:08:17,120
+an integer when a and b
+
+193
+00:08:14,400 --> 00:08:18,720
+are both half integers but if a and b
+
+194
+00:08:17,120 --> 00:08:21,280
+are both half integers
+
+195
+00:08:18,720 --> 00:08:23,199
+then the fact that d is one mod four
+
+196
+00:08:21,280 --> 00:08:24,400
+means that this number turns out to be
+
+197
+00:08:23,199 --> 00:08:26,800
+an integer
+
+198
+00:08:24,400 --> 00:08:28,479
+i mean it's a priori it's one fourth of
+
+199
+00:08:26,800 --> 00:08:28,960
+an integer but you you'll check you see
+
+200
+00:08:28,479 --> 00:08:31,120
+that a
+
+201
+00:08:28,960 --> 00:08:32,640
+is a squared is congruent to one mod
+
+202
+00:08:31,120 --> 00:08:34,159
+four and b square is constant so you'll
+
+203
+00:08:32,640 --> 00:08:35,200
+see that this number turns out to be an
+
+204
+00:08:34,159 --> 00:08:37,760
+integer
+
+205
+00:08:35,200 --> 00:08:39,039
+so in particular this product of the
+
+206
+00:08:37,760 --> 00:08:41,519
+number
+
+207
+00:08:39,039 --> 00:08:42,320
+a plus b root d times its this other
+
+208
+00:08:41,519 --> 00:08:45,680
+number
+
+209
+00:08:42,320 --> 00:08:48,399
+is an actual integer and this map
+
+210
+00:08:45,680 --> 00:08:50,399
+which takes elements of our quadratic
+
+211
+00:08:48,399 --> 00:08:52,720
+ring to elements in the normal ring
+
+212
+00:08:50,399 --> 00:08:54,800
+has the nice property that if you take
+
+213
+00:08:52,720 --> 00:08:56,800
+the norm of a product
+
+214
+00:08:54,800 --> 00:08:59,760
+it's the product of the norms we saw
+
+215
+00:08:56,800 --> 00:09:01,600
+this in the gaussian numbers
+
+216
+00:08:59,760 --> 00:09:03,920
+and the reason is that this norm of a
+
+217
+00:09:01,600 --> 00:09:08,000
+product is just alpha times alpha prime
+
+218
+00:09:03,920 --> 00:09:12,240
+times beta times beta prime
+
+219
+00:09:08,000 --> 00:09:16,000
+well really it's sorry it's alpha beta
+
+220
+00:09:12,240 --> 00:09:18,240
+times alpha beta prime and you find that
+
+221
+00:09:16,000 --> 00:09:23,839
+alpha beta prime is alpha prime times
+
+222
+00:09:18,240 --> 00:09:23,839
+beta prime and then you rearrange it
+
+223
+00:09:24,399 --> 00:09:28,320
+and then you rewrite it as alpha alpha
+
+224
+00:09:26,320 --> 00:09:30,240
+prime times beta beta prime using the
+
+225
+00:09:28,320 --> 00:09:31,040
+fact that multiplication is commutative
+
+226
+00:09:30,240 --> 00:09:32,720
+in this ring
+
+227
+00:09:31,040 --> 00:09:35,040
+and then you recognize this is the norm
+
+228
+00:09:32,720 --> 00:09:37,200
+of alpha and this is the norm of beta
+
+229
+00:09:35,040 --> 00:09:40,399
+so it's multiplicative it's not additive
+
+230
+00:09:37,200 --> 00:09:44,080
+but at least it's multiplicative
+
+231
+00:09:40,399 --> 00:09:46,880
+okay so this will allow us to identify
+
+232
+00:09:44,080 --> 00:09:48,839
+as we did in the gaussian numbers what
+
+233
+00:09:46,880 --> 00:09:51,279
+the units of the ring
+
+234
+00:09:48,839 --> 00:09:53,440
+are ah
+
+235
+00:09:51,279 --> 00:09:54,959
+one more observation and this is the
+
+236
+00:09:53,440 --> 00:09:58,240
+reason that this
+
+237
+00:09:54,959 --> 00:10:00,320
+or d less than zero this is the reason
+
+238
+00:09:58,240 --> 00:10:02,480
+that this condition becomes so nice if
+
+239
+00:10:00,320 --> 00:10:04,720
+you look at the norms
+
+240
+00:10:02,480 --> 00:10:06,720
+this is an integer but when we're in the
+
+241
+00:10:04,720 --> 00:10:10,320
+imaginary quadratic case
+
+242
+00:10:06,720 --> 00:10:10,320
+it's a non-negative integer
+
+243
+00:10:14,160 --> 00:10:18,480
+because this is a square this is a
+
+244
+00:10:16,000 --> 00:10:21,519
+square and we have a minus d here so
+
+245
+00:10:18,480 --> 00:10:25,200
+we're taking the sum of positive numbers
+
+246
+00:10:21,519 --> 00:10:27,440
+so this is really what makes imaginary
+
+247
+00:10:25,200 --> 00:10:29,839
+quadratic case so much easier the norm
+
+248
+00:10:27,440 --> 00:10:31,279
+is non-negative now i claim we have the
+
+249
+00:10:29,839 --> 00:10:34,480
+following
+
+250
+00:10:31,279 --> 00:10:34,480
+result on units
+
+251
+00:10:34,720 --> 00:10:40,079
+and this is true in all cases
+
+252
+00:10:37,680 --> 00:10:44,480
+proposition
+
+253
+00:10:40,079 --> 00:10:44,480
+alpha is a unit in r
+
+254
+00:10:44,959 --> 00:10:50,240
+sorry in the ring r if and only if the
+
+255
+00:10:48,160 --> 00:10:54,800
+norm of alpha
+
+256
+00:10:50,240 --> 00:11:00,000
+which is plus or minus one is a unit
+
+257
+00:10:54,800 --> 00:11:03,120
+in z
+
+258
+00:11:00,000 --> 00:11:04,880
+okay so that you can test
+
+259
+00:11:03,120 --> 00:11:07,920
+whether this thing is invertible in the
+
+260
+00:11:04,880 --> 00:11:09,519
+ring by calculating this integer
+
+261
+00:11:07,920 --> 00:11:12,240
+and seeing whether it's invertible in
+
+262
+00:11:09,519 --> 00:11:12,240
+the integers
+
+263
+00:11:12,839 --> 00:11:15,839
+proof
+
+264
+00:11:16,079 --> 00:11:19,839
+if alpha is a unit
+
+265
+00:11:20,079 --> 00:11:26,000
+there exists a beta in the ring
+
+266
+00:11:23,200 --> 00:11:28,320
+where alpha times beta is equal to one
+
+267
+00:11:26,000 --> 00:11:31,519
+that's what a unit means
+
+268
+00:11:28,320 --> 00:11:32,640
+apply the norm then the norm of alpha
+
+269
+00:11:31,519 --> 00:11:35,519
+beta
+
+270
+00:11:32,640 --> 00:11:37,279
+which is the norm of alpha times the
+
+271
+00:11:35,519 --> 00:11:42,399
+norm of beta
+
+272
+00:11:37,279 --> 00:11:45,040
+is the norm of one but the norm of one
+
+273
+00:11:42,399 --> 00:11:48,160
+is just one because b is equal to zero
+
+274
+00:11:45,040 --> 00:11:48,160
+and a is equal to one
+
+275
+00:11:48,800 --> 00:11:51,920
+so here are two integers whose product
+
+276
+00:11:50,959 --> 00:11:54,560
+is one
+
+277
+00:11:51,920 --> 00:11:55,120
+therefore the norm of alpha has to be a
+
+278
+00:11:54,560 --> 00:11:57,440
+unit
+
+279
+00:11:55,120 --> 00:11:59,040
+in the integers and consequently the
+
+280
+00:11:57,440 --> 00:12:00,959
+only units in the integers are plus or
+
+281
+00:11:59,040 --> 00:12:04,399
+minus one
+
+282
+00:12:00,959 --> 00:12:07,120
+conversely if the norm
+
+283
+00:12:04,399 --> 00:12:08,720
+of alpha which remember is alpha times
+
+284
+00:12:07,120 --> 00:12:11,760
+alpha prime
+
+285
+00:12:08,720 --> 00:12:15,360
+is equal to plus or minus 1
+
+286
+00:12:11,760 --> 00:12:18,320
+then plus or minus alpha prime
+
+287
+00:12:15,360 --> 00:12:18,320
+is an inverse
+
+288
+00:12:18,560 --> 00:12:22,160
+for alpha and this element is in the
+
+289
+00:12:21,120 --> 00:12:25,200
+ring 2
+
+290
+00:12:22,160 --> 00:12:27,440
+because if a plus the square root of b b
+
+291
+00:12:25,200 --> 00:12:29,200
+square to d is in the ring then a and b
+
+292
+00:12:27,440 --> 00:12:30,880
+are both integers or half integers
+
+293
+00:12:29,200 --> 00:12:34,320
+consequently these are both integers or
+
+294
+00:12:30,880 --> 00:12:36,000
+half integers so this is in the ring
+
+295
+00:12:34,320 --> 00:12:37,760
+and there that gives you the inverse
+
+296
+00:12:36,000 --> 00:12:39,360
+because here's a thing that you multiply
+
+297
+00:12:37,760 --> 00:12:41,120
+it by you either get plus one in which
+
+298
+00:12:39,360 --> 00:12:43,040
+case alpha prime's an inverse
+
+299
+00:12:41,120 --> 00:12:45,440
+or you get minus one in which case minus
+
+300
+00:12:43,040 --> 00:12:49,760
+alpha prime is an inverse
+
+301
+00:12:45,440 --> 00:12:49,760
+okay thus
+
+302
+00:12:50,839 --> 00:12:57,440
+corollary
+
+303
+00:12:53,839 --> 00:13:01,920
+if d is less than zero
+
+304
+00:12:57,440 --> 00:13:05,440
+then alpha is a unit
+
+305
+00:13:01,920 --> 00:13:08,880
+if and only if the norm of alpha
+
+306
+00:13:05,440 --> 00:13:10,800
+is plus one because in that case we saw
+
+307
+00:13:08,880 --> 00:13:13,040
+the norms are all non-negative so you
+
+308
+00:13:10,800 --> 00:13:15,440
+can't be minus one
+
+309
+00:13:13,040 --> 00:13:21,839
+all right now let's enumerate the units
+
+310
+00:13:15,440 --> 00:13:21,839
+in the negative case
+
+311
+00:13:23,600 --> 00:13:26,160
+in fact
+
+312
+00:13:26,959 --> 00:13:34,480
+if d is equal to -3
+
+313
+00:13:30,240 --> 00:13:37,519
+there are six units
+
+314
+00:13:34,480 --> 00:13:39,680
+if d is equal to minus four there are
+
+315
+00:13:37,519 --> 00:13:41,680
+four units
+
+316
+00:13:39,680 --> 00:13:43,199
+and if d is equal as d is less than
+
+317
+00:13:41,680 --> 00:13:46,639
+minus four
+
+318
+00:13:43,199 --> 00:13:48,720
+there are two units
+
+319
+00:13:46,639 --> 00:13:50,240
+in fact in this case the unit group is
+
+320
+00:13:48,720 --> 00:13:53,279
+the same as the unit group of z
+
+321
+00:13:50,240 --> 00:13:55,440
+just plus or minus one so for almost all
+
+322
+00:13:53,279 --> 00:13:57,360
+these cases except for the first two
+
+323
+00:13:55,440 --> 00:13:59,839
+you don't get any new units in the ring
+
+324
+00:13:57,360 --> 00:14:02,639
+that you didn't know about
+
+325
+00:13:59,839 --> 00:14:04,480
+nothing is invertible except when a is
+
+326
+00:14:02,639 --> 00:14:07,040
+equal to plus or minus 1 and b is equal
+
+327
+00:14:04,480 --> 00:14:07,040
+to 0.
+
+328
+00:14:07,440 --> 00:14:10,639
+all right let's prove it
+
+329
+00:14:11,839 --> 00:14:19,120
+well we're looking for solutions
+
+330
+00:14:14,880 --> 00:14:23,120
+proof a unit
+
+331
+00:14:19,120 --> 00:14:27,920
+alpha is equal to a plus b square to d
+
+332
+00:14:23,120 --> 00:14:31,040
+is a solution to
+
+333
+00:14:27,920 --> 00:14:34,720
+a squared minus b
+
+334
+00:14:31,040 --> 00:14:38,160
+squared d is equal to one
+
+335
+00:14:34,720 --> 00:14:41,360
+where a and b are either integers
+
+336
+00:14:38,160 --> 00:14:41,360
+or they're half integers
+
+337
+00:14:42,800 --> 00:14:45,839
+okay now look at this
+
+338
+00:14:46,160 --> 00:14:54,079
+okay if b is equal to zero
+
+339
+00:14:50,800 --> 00:14:59,839
+right then um a squared has to be plus
+
+340
+00:14:54,079 --> 00:14:59,839
+or minus one
+
+341
+00:15:00,320 --> 00:15:04,720
+so sorry a squared has a squared has to
+
+342
+00:15:03,519 --> 00:15:07,600
+be one
+
+343
+00:15:04,720 --> 00:15:09,040
+sorry so a is plus or minus one and
+
+344
+00:15:07,600 --> 00:15:13,680
+there you get the units in z
+
+345
+00:15:09,040 --> 00:15:17,199
+star those things we already knew about
+
+346
+00:15:13,680 --> 00:15:17,199
+if b is bigger than zero
+
+347
+00:15:17,519 --> 00:15:24,720
+then or b is not equal to zero i'm sorry
+
+348
+00:15:21,120 --> 00:15:27,920
+then minus b squared d
+
+349
+00:15:24,720 --> 00:15:32,000
+is bigger than uh
+
+350
+00:15:27,920 --> 00:15:32,000
+or equal to d over
+
+351
+00:15:32,639 --> 00:15:40,560
+4 right because b whatever it is
+
+352
+00:15:37,440 --> 00:15:41,920
+b is an absolute value bigger than a
+
+353
+00:15:40,560 --> 00:15:45,360
+half
+
+354
+00:15:41,920 --> 00:15:49,440
+so b squared is is bigger than
+
+355
+00:15:45,360 --> 00:15:51,120
+so it's minus d over four how about that
+
+356
+00:15:49,440 --> 00:15:52,880
+because i mean this has got to be a b
+
+357
+00:15:51,120 --> 00:15:54,000
+has got to be a half integer so this got
+
+358
+00:15:52,880 --> 00:15:57,120
+to be minus d over
+
+359
+00:15:54,000 --> 00:16:01,360
+4. once minus d is
+
+360
+00:15:57,120 --> 00:16:01,360
+is bigger than if if
+
+361
+00:16:01,759 --> 00:16:03,920
+if
+
+362
+00:16:05,199 --> 00:16:11,680
+minus d is bigger than four
+
+363
+00:16:09,040 --> 00:16:11,680
+it's hopeless
+
+364
+00:16:12,880 --> 00:16:17,120
+right because then this number will be
+
+365
+00:16:14,560 --> 00:16:19,360
+bigger than one and there's no way that
+
+366
+00:16:17,120 --> 00:16:22,079
+these things can add up to one this
+
+367
+00:16:19,360 --> 00:16:24,240
+number is positive
+
+368
+00:16:22,079 --> 00:16:25,839
+right so that eliminates almost
+
+369
+00:16:24,240 --> 00:16:27,120
+everything and then you just check these
+
+370
+00:16:25,839 --> 00:16:29,279
+two cases
+
+371
+00:16:27,120 --> 00:16:31,519
+and you find the various solutions their
+
+372
+00:16:29,279 --> 00:16:33,600
+finite number
+
+373
+00:16:31,519 --> 00:16:36,079
+on the other hand look at what happens
+
+374
+00:16:33,600 --> 00:16:38,399
+if d is positive
+
+375
+00:16:36,079 --> 00:16:39,279
+if d is positive this is the difference
+
+376
+00:16:38,399 --> 00:16:41,040
+of two
+
+377
+00:16:39,279 --> 00:16:42,320
+of a square and some multiple of a
+
+378
+00:16:41,040 --> 00:16:44,959
+square
+
+379
+00:16:42,320 --> 00:16:47,360
+right so that you could certainly
+
+380
+00:16:44,959 --> 00:16:50,079
+imagine that difference being one
+
+381
+00:16:47,360 --> 00:16:51,199
+no matter how big a and b are i mean
+
+382
+00:16:50,079 --> 00:16:53,120
+they're not adding up
+
+383
+00:16:51,199 --> 00:16:54,480
+you're taking a square times a you know
+
+384
+00:16:53,120 --> 00:16:56,800
+an a times square minus c
+
+385
+00:16:54,480 --> 00:16:58,480
+and in fact it turns out that if d is
+
+386
+00:16:56,800 --> 00:17:01,120
+positive they're always an infinite
+
+387
+00:16:58,480 --> 00:17:04,880
+number of units
+
+388
+00:17:01,120 --> 00:17:08,160
+in fact which i'm not going to prove if
+
+389
+00:17:04,880 --> 00:17:11,120
+b is bigger than 0 r star
+
+390
+00:17:08,160 --> 00:17:12,959
+is infinite and that gives a lot of
+
+391
+00:17:11,120 --> 00:17:15,199
+headache
+
+392
+00:17:12,959 --> 00:17:19,839
+i'll give you an example this first
+
+393
+00:17:15,199 --> 00:17:19,839
+simple example
+
+394
+00:17:21,360 --> 00:17:23,919
+example
+
+395
+00:17:25,360 --> 00:17:29,039
+d is equal to 5 that's the smallest
+
+396
+00:17:27,679 --> 00:17:33,039
+positive d
+
+397
+00:17:29,039 --> 00:17:36,880
+so their r is equal to
+
+398
+00:17:33,039 --> 00:17:37,840
+z plus z times one plus the square root
+
+399
+00:17:36,880 --> 00:17:41,919
+of five
+
+400
+00:17:37,840 --> 00:17:44,080
+over two now let alpha
+
+401
+00:17:41,919 --> 00:17:45,440
+be the number one plus the square root
+
+402
+00:17:44,080 --> 00:17:47,840
+of five over two
+
+403
+00:17:45,440 --> 00:17:50,799
+this is a famous number in the history
+
+404
+00:17:47,840 --> 00:17:55,280
+of math called the golden mean
+
+405
+00:17:50,799 --> 00:17:57,039
+okay it's the if you build a rectangle
+
+406
+00:17:55,280 --> 00:17:58,720
+such that when you chop off a square you
+
+407
+00:17:57,039 --> 00:18:01,760
+get a similar rectangle
+
+408
+00:17:58,720 --> 00:18:05,039
+then the ratio of the sides is
+
+409
+00:18:01,760 --> 00:18:06,480
+um is that the parthenon
+
+410
+00:18:05,039 --> 00:18:08,720
+for those returning degrees for the
+
+411
+00:18:06,480 --> 00:18:11,760
+holidays has dimensions
+
+412
+00:18:08,720 --> 00:18:13,440
+the uh the golden mean all classical
+
+413
+00:18:11,760 --> 00:18:15,600
+architecture was built on the golden
+
+414
+00:18:13,440 --> 00:18:17,039
+mean corbusier one of the great 20th
+
+415
+00:18:15,600 --> 00:18:18,559
+century architects who designed the
+
+416
+00:18:17,039 --> 00:18:20,080
+carpenter center where many of you may
+
+417
+00:18:18,559 --> 00:18:21,919
+have taken drawing classes
+
+418
+00:18:20,080 --> 00:18:24,160
+believe that architects should not be
+
+419
+00:18:21,919 --> 00:18:25,200
+given rulers they should just be given a
+
+420
+00:18:24,160 --> 00:18:28,240
+stick
+
+421
+00:18:25,200 --> 00:18:29,440
+in which it was marked out 1 and the
+
+422
+00:18:28,240 --> 00:18:30,880
+length of the golden mean
+
+423
+00:18:29,440 --> 00:18:33,520
+everything should be designed according
+
+424
+00:18:30,880 --> 00:18:35,200
+to that anyhow here's this alpha is 1
+
+425
+00:18:33,520 --> 00:18:37,039
+plus square root of 5 over 2.
+
+426
+00:18:35,200 --> 00:18:39,840
+now if you multiply alpha times alpha
+
+427
+00:18:37,039 --> 00:18:41,840
+prime you get
+
+428
+00:18:39,840 --> 00:18:43,919
+1 plus the square root of 5 over 2 times
+
+429
+00:18:41,840 --> 00:18:47,120
+1 minus the square root of 5 over 2
+
+430
+00:18:43,919 --> 00:18:51,919
+which is 1 squared minus 5
+
+431
+00:18:47,120 --> 00:18:54,880
+over 4 which is minus 1.
+
+432
+00:18:51,919 --> 00:18:57,520
+so that shows by our proposition up here
+
+433
+00:18:54,880 --> 00:19:01,760
+that alpha is a unit
+
+434
+00:18:57,520 --> 00:19:01,760
+with inverse minus alpha prime
+
+435
+00:19:04,880 --> 00:19:10,000
+okay so here's one unit
+
+436
+00:19:07,919 --> 00:19:11,760
+to find an infinite number of units you
+
+437
+00:19:10,000 --> 00:19:14,400
+calculate alpha squared
+
+438
+00:19:11,760 --> 00:19:18,160
+so alpha squared turns out to be three
+
+439
+00:19:14,400 --> 00:19:18,160
+plus the square root of five over two
+
+440
+00:19:19,039 --> 00:19:25,200
+okay um if you multiply you get one plus
+
+441
+00:19:22,160 --> 00:19:26,960
+square root of that's 6
+
+442
+00:19:25,200 --> 00:19:28,559
+plus 2 square root of 5 over 4 and then
+
+443
+00:19:26,960 --> 00:19:30,480
+you divide out you get this
+
+444
+00:19:28,559 --> 00:19:33,280
+so this is also a unit because delta is
+
+445
+00:19:30,480 --> 00:19:37,039
+multiplicative so we find that
+
+446
+00:19:33,280 --> 00:19:39,120
+the norm of alpha is -1 implies the norm
+
+447
+00:19:37,039 --> 00:19:42,960
+of alpha squared
+
+448
+00:19:39,120 --> 00:19:46,320
+is plus one so that's another unit
+
+449
+00:19:42,960 --> 00:19:49,440
+okay then you take alpha cubed
+
+450
+00:19:46,320 --> 00:19:50,160
+you get another unit let's see what it
+
+451
+00:19:49,440 --> 00:19:53,600
+is
+
+452
+00:19:50,160 --> 00:19:56,160
+nine plus five uh that's fourteen
+
+453
+00:19:53,600 --> 00:19:57,919
+so it's seven plus three square root of
+
+454
+00:19:56,160 --> 00:20:00,559
+five
+
+455
+00:19:57,919 --> 00:20:02,240
+over two that's another unit that one
+
+456
+00:20:00,559 --> 00:20:04,000
+has norm minus one
+
+457
+00:20:02,240 --> 00:20:05,840
+and you keep taking powers of alpha you
+
+458
+00:20:04,000 --> 00:20:07,840
+never get back to one in fact the a's
+
+459
+00:20:05,840 --> 00:20:13,200
+and b's keep getting bigger and bigger
+
+460
+00:20:07,840 --> 00:20:16,559
+so this is a unit because 7 squared
+
+461
+00:20:13,200 --> 00:20:20,640
+49 minus 9 times 5
+
+462
+00:20:16,559 --> 00:20:24,000
+45 is equal to
+
+463
+00:20:20,640 --> 00:20:24,640
+four or maybe minus four what did i do
+
+464
+00:20:24,000 --> 00:20:28,799
+wrong there
+
+465
+00:20:24,640 --> 00:20:31,520
+yeah how can this norm be minus one
+
+466
+00:20:28,799 --> 00:20:33,039
+yeah i mean this yeah the norm of alpha
+
+467
+00:20:31,520 --> 00:20:34,640
+cubed is minus one but i mean it's it's
+
+468
+00:20:33,039 --> 00:20:36,320
+the fact that you have an approximate
+
+469
+00:20:34,640 --> 00:20:39,200
+solution to this is equal to one in fact
+
+470
+00:20:36,320 --> 00:20:42,720
+this turns out to be four
+
+471
+00:20:39,200 --> 00:20:44,880
+okay okay so here you get an infinite
+
+472
+00:20:42,720 --> 00:20:49,840
+number of units alpha to the n
+
+473
+00:20:44,880 --> 00:20:49,840
+are all distinct
+
+474
+00:20:50,880 --> 00:20:54,480
+and in fact the fact that this group is
+
+475
+00:20:52,559 --> 00:20:56,480
+infinite is related to a famous
+
+476
+00:20:54,480 --> 00:20:59,760
+classical result in mathematics called
+
+477
+00:20:56,480 --> 00:21:01,520
+the solution of pell's equation
+
+478
+00:20:59,760 --> 00:21:03,120
+which euler worked out using the theory
+
+479
+00:21:01,520 --> 00:21:04,559
+of continued fractions
+
+480
+00:21:03,120 --> 00:21:06,159
+we're not going to go there that's a
+
+481
+00:21:04,559 --> 00:21:07,520
+really interesting subject you can read
+
+482
+00:21:06,159 --> 00:21:09,440
+about it more in artan
+
+483
+00:21:07,520 --> 00:21:10,559
+but here we're just going to concentrate
+
+484
+00:21:09,440 --> 00:21:12,000
+on these fields with negative
+
+485
+00:21:10,559 --> 00:21:13,760
+discriminant where the unit group is
+
+486
+00:21:12,000 --> 00:21:14,320
+finite in fact the unit group is almost
+
+487
+00:21:13,760 --> 00:21:16,400
+always
+
+488
+00:21:14,320 --> 00:21:17,520
+just the unit group of the integers and
+
+489
+00:21:16,400 --> 00:21:20,159
+we're going to go on
+
+490
+00:21:17,520 --> 00:21:22,559
+to study a little bit more of the ideal
+
+491
+00:21:20,159 --> 00:21:22,559
+theory
+
+492
+00:21:28,840 --> 00:21:31,840
+okay
+
+493
+00:21:43,120 --> 00:21:48,080
+now you might say well this is getting
+
+494
+00:21:45,760 --> 00:21:49,679
+awfully specialized
+
+495
+00:21:48,080 --> 00:21:51,120
+why are we doing the ideal theory of
+
+496
+00:21:49,679 --> 00:21:52,960
+this silly ring
+
+497
+00:21:51,120 --> 00:21:54,640
+and the reason is this is where ideals
+
+498
+00:21:52,960 --> 00:21:56,480
+were discovered
+
+499
+00:21:54,640 --> 00:21:58,640
+and it's all very nice to have an
+
+500
+00:21:56,480 --> 00:22:00,720
+abstract theory of rings and an abstract
+
+501
+00:21:58,640 --> 00:22:01,520
+theory of ideals and principle ideals
+
+502
+00:22:00,720 --> 00:22:03,360
+etc
+
+503
+00:22:01,520 --> 00:22:05,120
+but this is the place where people first
+
+504
+00:22:03,360 --> 00:22:06,960
+came to grapple with the fact that there
+
+505
+00:22:05,120 --> 00:22:08,400
+were non-principle ideals and figured
+
+506
+00:22:06,960 --> 00:22:09,840
+out what to do about it
+
+507
+00:22:08,400 --> 00:22:12,240
+so it's often nice to look at the
+
+508
+00:22:09,840 --> 00:22:15,760
+original problem from which the entire
+
+509
+00:22:12,240 --> 00:22:20,640
+theory arose all right now
+
+510
+00:22:15,760 --> 00:22:22,880
+we saw that when d was equal to
+
+511
+00:22:20,640 --> 00:22:22,880
+uh
+
+512
+00:22:24,159 --> 00:22:30,880
+sorry when d was equal to minus one
+
+513
+00:22:27,600 --> 00:22:33,760
+so we got the gaussian integers is a
+
+514
+00:22:30,880 --> 00:22:33,760
+euclidean ring
+
+515
+00:22:36,799 --> 00:22:43,039
+however i claim that if d is
+
+516
+00:22:40,159 --> 00:22:43,039
+three mod four
+
+517
+00:22:43,760 --> 00:22:49,039
+and d is less than minus one namely for
+
+518
+00:22:46,720 --> 00:22:51,679
+all the other cases
+
+519
+00:22:49,039 --> 00:22:53,760
+which are negative where d is congruent
+
+520
+00:22:51,679 --> 00:22:57,039
+to three mod four
+
+521
+00:22:53,760 --> 00:23:02,080
+i claim then
+
+522
+00:22:57,039 --> 00:23:09,840
+r which is z plus z root d
+
+523
+00:23:02,080 --> 00:23:09,840
+is not a unique factorization domain
+
+524
+00:23:10,000 --> 00:23:14,320
+for example we saw this for d is equal
+
+525
+00:23:12,240 --> 00:23:17,600
+to minus five
+
+526
+00:23:14,320 --> 00:23:20,159
+but it's also true um
+
+527
+00:23:17,600 --> 00:23:21,520
+so if you add uh it's also true for
+
+528
+00:23:20,159 --> 00:23:24,320
+minus 13
+
+529
+00:23:21,520 --> 00:23:26,640
+and it's also true for minus 17 and it's
+
+530
+00:23:24,320 --> 00:23:30,720
+also true for minus 21
+
+531
+00:23:26,640 --> 00:23:32,720
+etc so all that infinite number of these
+
+532
+00:23:30,720 --> 00:23:36,320
+we're going to get a non unique so this
+
+533
+00:23:32,720 --> 00:23:38,240
+is a completely atypical result
+
+534
+00:23:36,320 --> 00:23:40,320
+and remember we used the fact that a
+
+535
+00:23:38,240 --> 00:23:42,559
+squared plus b squared was somehow
+
+536
+00:23:40,320 --> 00:23:44,640
+if a and b were both less than a quarter
+
+537
+00:23:42,559 --> 00:23:45,919
+a half a squared plus b squared was less
+
+538
+00:23:44,640 --> 00:23:47,440
+than
+
+539
+00:23:45,919 --> 00:23:50,159
+one but here we're going to have things
+
+540
+00:23:47,440 --> 00:23:52,320
+like a squared plus db squared
+
+541
+00:23:50,159 --> 00:23:53,600
+and that's not going to be or minus db
+
+542
+00:23:52,320 --> 00:23:55,200
+squared and that's not going to be less
+
+543
+00:23:53,600 --> 00:23:57,279
+than 1.
+
+544
+00:23:55,200 --> 00:23:59,200
+so to show you this i have to give you a
+
+545
+00:23:57,279 --> 00:24:00,320
+a factorization of something in two
+
+546
+00:23:59,200 --> 00:24:02,840
+different ways
+
+547
+00:24:00,320 --> 00:24:04,080
+and show you that the factors are prime
+
+548
+00:24:02,840 --> 00:24:07,039
+elements
+
+549
+00:24:04,080 --> 00:24:07,039
+right so consider
+
+550
+00:24:08,080 --> 00:24:11,200
+the factorization
+
+551
+00:24:13,360 --> 00:24:19,120
+of one minus d
+
+552
+00:24:17,360 --> 00:24:20,799
+so i'm going to write 1 minus d in two
+
+553
+00:24:19,120 --> 00:24:23,520
+different ways i'm going to write it 1
+
+554
+00:24:20,799 --> 00:24:26,640
+plus the square root of d
+
+555
+00:24:23,520 --> 00:24:29,760
+times 1 minus the square root of d
+
+556
+00:24:26,640 --> 00:24:31,120
+and i'm going to write it as 2 times 1
+
+557
+00:24:29,760 --> 00:24:35,360
+minus d
+
+558
+00:24:31,120 --> 00:24:36,720
+over 2. now since d is 3 mod 4 it's an
+
+559
+00:24:35,360 --> 00:24:39,279
+odd number
+
+560
+00:24:36,720 --> 00:24:40,480
+so if i subtract it from 1 i get an even
+
+561
+00:24:39,279 --> 00:24:42,720
+number
+
+562
+00:24:40,480 --> 00:24:44,720
+so this is an integer this is an integer
+
+563
+00:24:42,720 --> 00:24:46,400
+those are elements in our ring
+
+564
+00:24:44,720 --> 00:24:48,720
+and these are certainly elements in our
+
+565
+00:24:46,400 --> 00:24:53,120
+ring
+
+566
+00:24:48,720 --> 00:24:53,120
+okay so i claim
+
+567
+00:24:55,520 --> 00:25:00,240
+2 is an irreducible as a prime and an
+
+568
+00:24:58,840 --> 00:25:04,960
+irreducible
+
+569
+00:25:00,240 --> 00:25:08,640
+element a prime
+
+570
+00:25:04,960 --> 00:25:10,880
+in r two the number two
+
+571
+00:25:08,640 --> 00:25:12,880
+so you can't factor two in any essential
+
+572
+00:25:10,880 --> 00:25:15,919
+way in this ring
+
+573
+00:25:12,880 --> 00:25:18,400
+now that was false in this ring in this
+
+574
+00:25:15,919 --> 00:25:21,760
+euclidean ring you could factor two
+
+575
+00:25:18,400 --> 00:25:23,039
+two is equal to one plus i times one
+
+576
+00:25:21,760 --> 00:25:25,760
+minus i
+
+577
+00:25:23,039 --> 00:25:27,679
+and neither of these were units but in
+
+578
+00:25:25,760 --> 00:25:32,480
+these rings i can't factor two
+
+579
+00:25:27,679 --> 00:25:32,480
+proof why suppose
+
+580
+00:25:33,200 --> 00:25:40,159
+two was equal to alpha times beta
+
+581
+00:25:36,880 --> 00:25:45,039
+with neither
+
+582
+00:25:40,159 --> 00:25:45,039
+alpha nor beta a unit
+
+583
+00:25:46,640 --> 00:25:53,919
+then take the norm the norm of two
+
+584
+00:25:51,200 --> 00:25:55,840
+which is equal to four is equal to the
+
+585
+00:25:53,919 --> 00:25:59,120
+norm of alpha
+
+586
+00:25:55,840 --> 00:25:59,120
+times the norm of beta
+
+587
+00:25:59,840 --> 00:26:03,600
+because the norm is multiplicative so a
+
+588
+00:26:01,760 --> 00:26:05,440
+lot of our study of this ring is going
+
+589
+00:26:03,600 --> 00:26:08,559
+to be using the norm to turn it into a
+
+590
+00:26:05,440 --> 00:26:08,559
+property of the integers
+
+591
+00:26:08,840 --> 00:26:12,960
+now if
+
+592
+00:26:11,039 --> 00:26:16,159
+alpha and beta are not units what do we
+
+593
+00:26:12,960 --> 00:26:16,159
+know about their norms
+
+594
+00:26:16,400 --> 00:26:19,520
+not equal to plus or minus one or in
+
+595
+00:26:18,080 --> 00:26:20,880
+this case not equal to plus one because
+
+596
+00:26:19,520 --> 00:26:23,360
+the norm is positive
+
+597
+00:26:20,880 --> 00:26:24,000
+so here we have a we have four written
+
+598
+00:26:23,360 --> 00:26:27,039
+as the product
+
+599
+00:26:24,000 --> 00:26:28,559
+of two integers neither of which is one
+
+600
+00:26:27,039 --> 00:26:30,400
+what does that tell us about the norm of
+
+601
+00:26:28,559 --> 00:26:39,840
+alpha and beta
+
+602
+00:26:30,400 --> 00:26:39,840
+there have to be two
+
+603
+00:26:43,760 --> 00:26:49,120
+therefore we have found in this ring
+
+604
+00:26:47,360 --> 00:26:51,360
+if we had a factorization of alpha and
+
+605
+00:26:49,120 --> 00:26:52,000
+beta we found elements of norm two now
+
+606
+00:26:51,360 --> 00:26:53,840
+that's okay
+
+607
+00:26:52,000 --> 00:26:55,600
+in this ring these elements do have
+
+608
+00:26:53,840 --> 00:26:57,200
+norm2 here's the element alpha here's
+
+609
+00:26:55,600 --> 00:26:58,480
+the element beta both of them have norm
+
+610
+00:26:57,200 --> 00:27:07,840
+2.
+
+611
+00:26:58,480 --> 00:27:07,840
+all right but here this is impossible
+
+612
+00:27:08,159 --> 00:27:14,400
+we write alpha as a plus b root d
+
+613
+00:27:12,559 --> 00:27:16,240
+where in this case we know a and b are
+
+614
+00:27:14,400 --> 00:27:18,640
+integers
+
+615
+00:27:16,240 --> 00:27:20,640
+right because we're in a case where d is
+
+616
+00:27:18,640 --> 00:27:20,960
+3 mod four so the ring of integers is
+
+617
+00:27:20,640 --> 00:27:25,200
+just
+
+618
+00:27:20,960 --> 00:27:28,480
+this yeah tim
+
+619
+00:27:25,200 --> 00:27:31,600
+pardon no because
+
+620
+00:27:28,480 --> 00:27:34,000
+remember in an imaginary quadratic ring
+
+621
+00:27:31,600 --> 00:27:35,279
+the norm of alpha is always greater than
+
+622
+00:27:34,000 --> 00:27:38,559
+or equal to zero
+
+623
+00:27:35,279 --> 00:27:40,399
+it's a squared minus d b squared
+
+624
+00:27:38,559 --> 00:27:41,840
+a squared and b squared are positive and
+
+625
+00:27:40,399 --> 00:27:43,520
+d is negative
+
+626
+00:27:41,840 --> 00:27:45,520
+so this number is greater than equal to
+
+627
+00:27:43,520 --> 00:27:47,279
+zero okay
+
+628
+00:27:45,520 --> 00:27:48,799
+so in general when we're doing units in
+
+629
+00:27:47,279 --> 00:27:51,200
+general we had the possibility
+
+630
+00:27:48,799 --> 00:27:52,720
+of minus 1 for real quadratic but in the
+
+631
+00:27:51,200 --> 00:27:53,520
+imaginary quadratic the norm is always
+
+632
+00:27:52,720 --> 00:27:55,200
+positive
+
+633
+00:27:53,520 --> 00:27:58,080
+so that's why they don't have to be plus
+
+634
+00:27:55,200 --> 00:28:00,880
+or minus 2 they really have to be 2 here
+
+635
+00:27:58,080 --> 00:28:02,640
+okay now this is impossible because if
+
+636
+00:28:00,880 --> 00:28:06,080
+we write alpha like this
+
+637
+00:28:02,640 --> 00:28:09,200
+the norm of alpha is a squared
+
+638
+00:28:06,080 --> 00:28:11,679
+minus d b squared
+
+639
+00:28:09,200 --> 00:28:14,480
+now if this is equal how could this
+
+640
+00:28:11,679 --> 00:28:17,600
+possibly be equal to 2
+
+641
+00:28:14,480 --> 00:28:20,720
+i mean this number is is quite
+
+642
+00:28:17,600 --> 00:28:24,480
+large uh once d is so d
+
+643
+00:28:20,720 --> 00:28:27,360
+is at least minus d is at least five
+
+644
+00:28:24,480 --> 00:28:28,000
+so uh this number would be at least five
+
+645
+00:28:27,360 --> 00:28:31,520
+times b
+
+646
+00:28:28,000 --> 00:28:33,279
+squared or 13 times b squared so that no
+
+647
+00:28:31,520 --> 00:28:36,559
+way that could be equal to two
+
+648
+00:28:33,279 --> 00:28:39,600
+so this would imply b
+
+649
+00:28:36,559 --> 00:28:42,159
+is equal to zero as minus d is
+
+650
+00:28:39,600 --> 00:28:43,039
+greater than or equal to five on our
+
+651
+00:28:42,159 --> 00:28:45,039
+list
+
+652
+00:28:43,039 --> 00:28:46,480
+and since b is 0 that would apply a
+
+653
+00:28:45,039 --> 00:28:48,320
+squared is equal to 2
+
+654
+00:28:46,480 --> 00:28:50,399
+which is a contradiction because 2 isn't
+
+655
+00:28:48,320 --> 00:28:52,480
+a square
+
+656
+00:28:50,399 --> 00:28:53,679
+now you see again this would be very
+
+657
+00:28:52,480 --> 00:28:55,919
+very difficult to check
+
+658
+00:28:53,679 --> 00:28:57,360
+in the real quadratic case i mean it's
+
+659
+00:28:55,919 --> 00:28:58,960
+certainly possible you could have a very
+
+660
+00:28:57,360 --> 00:29:01,120
+big a and a very big b
+
+661
+00:28:58,960 --> 00:29:02,720
+such that this thing could equal two
+
+662
+00:29:01,120 --> 00:29:04,320
+this could be huge this could be equal
+
+663
+00:29:02,720 --> 00:29:04,960
+to huge and their difference could be
+
+664
+00:29:04,320 --> 00:29:06,559
+two
+
+665
+00:29:04,960 --> 00:29:08,960
+but they can't add up to two if they're
+
+666
+00:29:06,559 --> 00:29:12,399
+both positive
+
+667
+00:29:08,960 --> 00:29:15,039
+okay so therefore we get a contradiction
+
+668
+00:29:12,399 --> 00:29:18,240
+so therefore 2 could not factor this way
+
+669
+00:29:15,039 --> 00:29:20,480
+so therefore 2 is an irreducible element
+
+670
+00:29:18,240 --> 00:29:21,919
+now here's why we can't have a unique
+
+671
+00:29:20,480 --> 00:29:25,600
+factorization domain
+
+672
+00:29:21,919 --> 00:29:29,120
+2 divides 1 minus d
+
+673
+00:29:25,600 --> 00:29:32,320
+because here's a factorization of it
+
+674
+00:29:29,120 --> 00:29:34,880
+therefore if 2 were a prime element
+
+675
+00:29:32,320 --> 00:29:35,600
+and we had unique factorization 2 would
+
+676
+00:29:34,880 --> 00:29:37,919
+have to occur
+
+677
+00:29:35,600 --> 00:29:39,200
+divide one of these two things right and
+
+678
+00:29:37,919 --> 00:29:40,880
+if you have a unique factorization
+
+679
+00:29:39,200 --> 00:29:42,559
+domain you have a prime that divides a
+
+680
+00:29:40,880 --> 00:29:44,320
+times b it divides a or b
+
+681
+00:29:42,559 --> 00:29:46,640
+that's by this euclidean algorithm
+
+682
+00:29:44,320 --> 00:29:49,200
+argument but 2 doesn't divide
+
+683
+00:29:46,640 --> 00:29:50,880
+either this or that because if we tried
+
+684
+00:29:49,200 --> 00:29:53,120
+to divide 2 into this
+
+685
+00:29:50,880 --> 00:29:56,159
+we get 1 plus square to d over 2 which
+
+686
+00:29:53,120 --> 00:29:57,919
+is not an algebraic integer
+
+687
+00:29:56,159 --> 00:29:59,520
+right we know the algebraic integers in
+
+688
+00:29:57,919 --> 00:30:00,640
+this type are just integers plus
+
+689
+00:29:59,520 --> 00:30:02,399
+integers
+
+690
+00:30:00,640 --> 00:30:04,159
+and likewise 2 doesn't divide this
+
+691
+00:30:02,399 --> 00:30:05,039
+because its quotient is not an algebraic
+
+692
+00:30:04,159 --> 00:30:07,200
+integer
+
+693
+00:30:05,039 --> 00:30:08,720
+so therefore we have a prime element we
+
+694
+00:30:07,200 --> 00:30:09,679
+have a factorization that divides
+
+695
+00:30:08,720 --> 00:30:11,120
+neither part
+
+696
+00:30:09,679 --> 00:30:14,320
+therefore we can't have a unique
+
+697
+00:30:11,120 --> 00:30:14,320
+factorization domain
+
+698
+00:30:14,480 --> 00:30:18,799
+yeah can you just say the last part
+
+699
+00:30:16,559 --> 00:30:20,960
+again
+
+700
+00:30:18,799 --> 00:30:22,799
+if two divided one plus d we'd have the
+
+701
+00:30:20,960 --> 00:30:24,159
+following factorization atticus we'd
+
+702
+00:30:22,799 --> 00:30:26,720
+have this
+
+703
+00:30:24,159 --> 00:30:29,600
+2 times 1 plus the square root of d over
+
+704
+00:30:26,720 --> 00:30:37,360
+2. that's the only way you can write it
+
+705
+00:30:29,600 --> 00:30:39,679
+right but this number is not in r
+
+706
+00:30:37,360 --> 00:30:41,600
+because it's not an algebraic integer a
+
+707
+00:30:39,679 --> 00:30:42,480
+factorization has to take place inside
+
+708
+00:30:41,600 --> 00:30:44,080
+the ring
+
+709
+00:30:42,480 --> 00:30:47,039
+this is the only way it could be written
+
+710
+00:30:44,080 --> 00:30:47,039
+inside the field
+
+711
+00:30:48,960 --> 00:30:52,880
+why is it not an algebraic integer
+
+712
+00:30:50,799 --> 00:30:54,559
+because if you take its delta
+
+713
+00:30:52,880 --> 00:30:56,399
+it's not an integer for example it
+
+714
+00:30:54,559 --> 00:30:57,919
+doesn't satisfy a polynomial with
+
+715
+00:30:56,399 --> 00:30:59,679
+integer coefficients
+
+716
+00:30:57,919 --> 00:31:01,039
+monic polynomial that's what we worked
+
+717
+00:30:59,679 --> 00:31:03,279
+out last time that
+
+718
+00:31:01,039 --> 00:31:05,200
+that the whole the set of algebraic
+
+719
+00:31:03,279 --> 00:31:07,600
+integers when d was 3 mod 4
+
+720
+00:31:05,200 --> 00:31:08,799
+was just this integers plus integers
+
+721
+00:31:07,600 --> 00:31:11,919
+times square root of d
+
+722
+00:31:08,799 --> 00:31:12,559
+this is a half plus a half square root
+
+723
+00:31:11,919 --> 00:31:15,840
+of d
+
+724
+00:31:12,559 --> 00:31:18,000
+okay so that's not any good anymore
+
+725
+00:31:15,840 --> 00:31:20,320
+now this argument only works for d
+
+726
+00:31:18,000 --> 00:31:22,320
+congruent to three mod four
+
+727
+00:31:20,320 --> 00:31:24,640
+and it turns out there are other cases
+
+728
+00:31:22,320 --> 00:31:27,200
+besides the gaussian numbers that are
+
+729
+00:31:24,640 --> 00:31:28,480
+it's a not unique factorization so let's
+
+730
+00:31:27,200 --> 00:31:33,120
+even stronger
+
+731
+00:31:28,480 --> 00:31:38,000
+not every ideal
+
+732
+00:31:33,120 --> 00:31:41,120
+i in r is principle
+
+733
+00:31:38,000 --> 00:31:44,240
+because if every idea were principle we
+
+734
+00:31:41,120 --> 00:31:48,480
+have unique factorization domains
+
+735
+00:31:44,240 --> 00:31:51,679
+okay now it is always the case
+
+736
+00:31:48,480 --> 00:31:54,399
+for all of these rings that every ideal
+
+737
+00:31:51,679 --> 00:31:55,360
+can be generated by two elements
+
+738
+00:31:54,399 --> 00:31:58,320
+principle means
+
+739
+00:31:55,360 --> 00:31:59,600
+it's all multiples of one element but no
+
+740
+00:31:58,320 --> 00:32:02,000
+matter what these rings
+
+741
+00:31:59,600 --> 00:32:04,480
+are any ideal can be generated by two
+
+742
+00:32:02,000 --> 00:32:04,480
+elements
+
+743
+00:32:04,960 --> 00:32:07,360
+although
+
+744
+00:32:08,480 --> 00:32:17,519
+not all ideals
+
+745
+00:32:12,240 --> 00:32:17,519
+i in r our principle
+
+746
+00:32:19,279 --> 00:32:24,000
+that means that i is all multiples of
+
+747
+00:32:21,360 --> 00:32:24,000
+one element
+
+748
+00:32:24,240 --> 00:32:30,799
+every i can be
+
+749
+00:32:28,240 --> 00:32:30,799
+generated
+
+750
+00:32:31,519 --> 00:32:35,919
+by two elements that's not true in any
+
+751
+00:32:33,519 --> 00:32:37,519
+ring but it is true in these rings
+
+752
+00:32:35,919 --> 00:32:39,519
+so they're not they're not the worst
+
+753
+00:32:37,519 --> 00:32:40,320
+thing in the world even though they're
+
+754
+00:32:39,519 --> 00:32:42,240
+not
+
+755
+00:32:40,320 --> 00:32:43,600
+always euclidean or principal ideal
+
+756
+00:32:42,240 --> 00:32:48,159
+domains
+
+757
+00:32:43,600 --> 00:32:48,159
+why is that why
+
+758
+00:32:52,720 --> 00:32:59,919
+well the first claim is
+
+759
+00:32:56,080 --> 00:33:01,519
+either i is equal to zero
+
+760
+00:32:59,919 --> 00:33:03,039
+in which case it's generated by one
+
+761
+00:33:01,519 --> 00:33:08,320
+element
+
+762
+00:33:03,039 --> 00:33:08,320
+or i has
+
+763
+00:33:08,840 --> 00:33:11,840
+um
+
+764
+00:33:12,559 --> 00:33:15,760
+has finite index
+
+765
+00:33:16,880 --> 00:33:25,840
+in the ring r in other words r mod
+
+766
+00:33:20,240 --> 00:33:25,840
+i is a finite ring
+
+767
+00:33:30,799 --> 00:33:39,039
+okay proof if alpha
+
+768
+00:33:35,120 --> 00:33:42,480
+is not equal to zero in i
+
+769
+00:33:39,039 --> 00:33:45,200
+then the norm of alpha
+
+770
+00:33:42,480 --> 00:33:46,240
+which is alpha times alpha prime which
+
+771
+00:33:45,200 --> 00:33:52,720
+is some
+
+772
+00:33:46,240 --> 00:33:54,240
+number n bigger than 0 is also in i
+
+773
+00:33:52,720 --> 00:33:56,399
+so it's the same argument we made from
+
+774
+00:33:54,240 --> 00:33:59,039
+the gaussian integers so
+
+775
+00:33:56,399 --> 00:34:01,279
+the principle ideal all multiples of n
+
+776
+00:33:59,039 --> 00:34:02,640
+is contained in i
+
+777
+00:34:01,279 --> 00:34:04,640
+once i have an integer i have all
+
+778
+00:34:02,640 --> 00:34:06,799
+multiples of that integer and that's
+
+779
+00:34:04,640 --> 00:34:10,159
+contained in my ring r
+
+780
+00:34:06,799 --> 00:34:10,399
+and this index is finite and is equal to
+
+781
+00:34:10,159 --> 00:34:13,679
+n
+
+782
+00:34:10,399 --> 00:34:16,960
+squared because if r
+
+783
+00:34:13,679 --> 00:34:20,000
+is z plus z times d
+
+784
+00:34:16,960 --> 00:34:23,760
+plus root d over two then
+
+785
+00:34:20,000 --> 00:34:27,040
+this multiples of n is just nz
+
+786
+00:34:23,760 --> 00:34:30,720
+plus n times z times d plus
+
+787
+00:34:27,040 --> 00:34:33,359
+root d over 2. and the different cosets
+
+788
+00:34:30,720 --> 00:34:34,159
+are given by the different residues of a
+
+789
+00:34:33,359 --> 00:34:37,359
+and b mod
+
+790
+00:34:34,159 --> 00:34:39,520
+n and they're n squared possibilities
+
+791
+00:34:37,359 --> 00:34:40,000
+for the n square possibilities for a mod
+
+792
+00:34:39,520 --> 00:34:42,399
+n
+
+793
+00:34:40,000 --> 00:34:43,440
+and n square possibilities for beam on n
+
+794
+00:34:42,399 --> 00:34:45,839
+so the index
+
+795
+00:34:43,440 --> 00:34:47,200
+of this principle ideal in the ring is n
+
+796
+00:34:45,839 --> 00:34:49,919
+squared
+
+797
+00:34:47,200 --> 00:34:51,520
+and i is squeezed between this and this
+
+798
+00:34:49,919 --> 00:34:53,520
+so the quotient of r mod i
+
+799
+00:34:51,520 --> 00:34:56,000
+is finite and is of order less than n
+
+800
+00:34:53,520 --> 00:34:56,000
+squared
+
+801
+00:34:59,839 --> 00:35:04,720
+the index of r mod i is less than or
+
+802
+00:35:01,920 --> 00:35:04,720
+equal to n squared
+
+803
+00:35:05,040 --> 00:35:11,599
+okay same argument we made for the
+
+804
+00:35:08,960 --> 00:35:16,400
+gaussian news so so it's a finite index
+
+805
+00:35:11,599 --> 00:35:18,079
+now it's a fact
+
+806
+00:35:16,400 --> 00:35:19,680
+now arton likes to draw pictures of
+
+807
+00:35:18,079 --> 00:35:21,440
+these and in fact pictures are quite
+
+808
+00:35:19,680 --> 00:35:23,280
+useful
+
+809
+00:35:21,440 --> 00:35:31,839
+so we're going to draw a picture of r
+
+810
+00:35:23,280 --> 00:35:31,839
+and we're going to draw a picture of i
+
+811
+00:35:33,760 --> 00:35:39,040
+we draw a picture of our inside of the
+
+812
+00:35:36,079 --> 00:35:42,160
+complex numbers
+
+813
+00:35:39,040 --> 00:35:42,160
+and we draw it like this
+
+814
+00:35:43,280 --> 00:35:46,720
+the first thing we draw is the element
+
+815
+00:35:44,960 --> 00:35:51,280
+one that's certainly an
+
+816
+00:35:46,720 --> 00:35:54,240
+r and then we draw the complex number
+
+817
+00:35:51,280 --> 00:35:54,800
+which is the other generator of r namely
+
+818
+00:35:54,240 --> 00:36:00,480
+this d
+
+819
+00:35:54,800 --> 00:36:00,480
+plus root d over two now that either
+
+820
+00:36:02,480 --> 00:36:05,200
+so i'll draw that that's up here
+
+821
+00:36:03,920 --> 00:36:06,320
+somewhere i don't know let's put it up
+
+822
+00:36:05,200 --> 00:36:09,359
+here it's a
+
+823
+00:36:06,320 --> 00:36:13,839
+b plus root d over 2. root d
+
+824
+00:36:09,359 --> 00:36:13,839
+is an imaginary number because uh
+
+825
+00:36:14,079 --> 00:36:17,200
+actually that's not the way to draw it
+
+826
+00:36:15,520 --> 00:36:18,560
+but never mind i mean the real part is
+
+827
+00:36:17,200 --> 00:36:20,640
+much bigger than the
+
+828
+00:36:18,560 --> 00:36:21,920
+imaginary part so it really looks more
+
+829
+00:36:20,640 --> 00:36:27,839
+like this
+
+830
+00:36:21,920 --> 00:36:30,800
+but never mind d plus root d over 2.
+
+831
+00:36:27,839 --> 00:36:32,480
+okay now r consists of all integer
+
+832
+00:36:30,800 --> 00:36:36,079
+multiples of this so 2
+
+833
+00:36:32,480 --> 00:36:39,040
+and 3 and minus 1 and
+
+834
+00:36:36,079 --> 00:36:41,040
+minus 2 etc and all integer multiples of
+
+835
+00:36:39,040 --> 00:36:44,160
+this so you get this
+
+836
+00:36:41,040 --> 00:36:46,800
+and this and
+
+837
+00:36:44,160 --> 00:36:48,480
+this and this and then you get all
+
+838
+00:36:46,800 --> 00:36:49,920
+integer multiples of this plus all
+
+839
+00:36:48,480 --> 00:36:51,200
+integer multiples of this so you also
+
+840
+00:36:49,920 --> 00:36:54,800
+get this
+
+841
+00:36:51,200 --> 00:36:57,920
+and this and this and this
+
+842
+00:36:54,800 --> 00:37:00,720
+and this so this points in the complex
+
+843
+00:36:57,920 --> 00:37:03,839
+plane form what's called a lattice
+
+844
+00:37:00,720 --> 00:37:05,440
+and r consists of exactly those points
+
+845
+00:37:03,839 --> 00:37:07,760
+so we've seen this for the gaussian
+
+846
+00:37:05,440 --> 00:37:09,119
+numbers where you get the rectangular
+
+847
+00:37:07,760 --> 00:37:11,200
+lattice
+
+848
+00:37:09,119 --> 00:37:12,160
+another nice case is where d is equal to
+
+849
+00:37:11,200 --> 00:37:15,040
+minus
+
+850
+00:37:12,160 --> 00:37:16,480
+3 and you get the hexagonal lattice and
+
+851
+00:37:15,040 --> 00:37:18,400
+in general you get some
+
+852
+00:37:16,480 --> 00:37:22,079
+subset of the complex plane which is
+
+853
+00:37:18,400 --> 00:37:24,079
+stable under addition and multiplication
+
+854
+00:37:22,079 --> 00:37:26,880
+but a discrete set of points in the
+
+855
+00:37:24,079 --> 00:37:26,880
+complex plane
+
+856
+00:37:32,400 --> 00:37:42,320
+of c stable under multiplication
+
+857
+00:37:38,480 --> 00:37:45,440
+now this ideal
+
+858
+00:37:42,320 --> 00:37:48,640
+consists of a subgroup
+
+859
+00:37:45,440 --> 00:37:50,079
+of this lattice which has finite index
+
+860
+00:37:48,640 --> 00:37:52,160
+namely it might not contain
+
+861
+00:37:50,079 --> 00:37:54,720
+one it might not contain two but it
+
+862
+00:37:52,160 --> 00:37:57,119
+contains some integer out here and
+
+863
+00:37:54,720 --> 00:37:59,839
+we saw because no matter what we have in
+
+864
+00:37:57,119 --> 00:38:02,880
+it its norm is then in the ideal
+
+865
+00:37:59,839 --> 00:38:04,480
+so it has some multiple of that right
+
+866
+00:38:02,880 --> 00:38:06,480
+and then it has some some other
+
+867
+00:38:04,480 --> 00:38:08,480
+collection of these lattice points
+
+868
+00:38:06,480 --> 00:38:11,839
+and that forms the ideal so it also
+
+869
+00:38:08,480 --> 00:38:17,040
+gives a discrete subgroup of c
+
+870
+00:38:11,839 --> 00:38:17,040
+i in r is a smaller
+
+871
+00:38:17,599 --> 00:38:24,079
+subgroup not necess
+
+872
+00:38:21,839 --> 00:38:26,880
+and it is stable under multiplication
+
+873
+00:38:24,079 --> 00:38:30,839
+but even better it's stable under
+
+874
+00:38:26,880 --> 00:38:34,240
+stable under
+
+875
+00:38:30,839 --> 00:38:36,160
+multiplication from r
+
+876
+00:38:34,240 --> 00:38:37,280
+and in general all you have to do is
+
+877
+00:38:36,160 --> 00:38:38,880
+check that it's stable under
+
+878
+00:38:37,280 --> 00:38:42,640
+multiplication by this one
+
+879
+00:38:38,880 --> 00:38:44,079
+element in r because it's a subgroup
+
+880
+00:38:42,640 --> 00:38:45,680
+so that means it's stable under
+
+881
+00:38:44,079 --> 00:38:47,359
+multiplication by one
+
+882
+00:38:45,680 --> 00:38:48,880
+i mean obviously stable and mobile
+
+883
+00:38:47,359 --> 00:38:49,760
+stable under multiplication by any
+
+884
+00:38:48,880 --> 00:38:51,040
+integer
+
+885
+00:38:49,760 --> 00:38:53,040
+because if you multiply by two you're
+
+886
+00:38:51,040 --> 00:38:53,680
+just adding a thing to itself so it's
+
+887
+00:38:53,040 --> 00:38:55,280
+stable
+
+888
+00:38:53,680 --> 00:38:57,119
+but then if you check that it's stable
+
+889
+00:38:55,280 --> 00:38:58,720
+under multiplication by this element
+
+890
+00:38:57,119 --> 00:39:00,160
+and it's stable under multiplication by
+
+891
+00:38:58,720 --> 00:39:02,079
+one then it's stable under
+
+892
+00:39:00,160 --> 00:39:04,000
+multiplication by any sum of one
+
+893
+00:39:02,079 --> 00:39:05,599
+and a multiple of this element and then
+
+894
+00:39:04,000 --> 00:39:08,240
+it's stable under multiplication by
+
+895
+00:39:05,599 --> 00:39:09,280
+r and that's what an ideal is so
+
+896
+00:39:08,240 --> 00:39:12,400
+pictorially
+
+897
+00:39:09,280 --> 00:39:14,880
+first you draw r and then you might draw
+
+898
+00:39:12,400 --> 00:39:16,880
+a subgroup of r which is stable under
+
+899
+00:39:14,880 --> 00:39:18,480
+multiplication
+
+900
+00:39:16,880 --> 00:39:20,079
+so i'll give an example let me draw an
+
+901
+00:39:18,480 --> 00:39:21,599
+example of this so that we don't
+
+902
+00:39:20,079 --> 00:39:24,560
+totally freak out and then we'll do this
+
+903
+00:39:21,599 --> 00:39:24,560
+two element business
+
+904
+00:39:27,119 --> 00:39:36,079
+i'll draw a non a good example for you
+
+905
+00:39:30,800 --> 00:39:36,079
+if i can so let's take the case where d
+
+906
+00:39:36,400 --> 00:39:42,160
+is equal to minus three
+
+907
+00:39:39,440 --> 00:39:43,119
+so uh that's the case where you get a
+
+908
+00:39:42,160 --> 00:39:45,599
+very interesting
+
+909
+00:39:43,119 --> 00:39:45,599
+lattice
+
+910
+00:39:47,200 --> 00:39:50,880
+so this is this is congruent to 1 mod 4
+
+911
+00:39:49,440 --> 00:39:53,280
+so it's the same as
+
+912
+00:39:50,880 --> 00:39:53,280
+as d
+
+913
+00:39:55,839 --> 00:40:03,280
+all right so the original r
+
+914
+00:39:59,680 --> 00:40:07,119
+can be written as z plus z times
+
+915
+00:40:03,280 --> 00:40:08,720
+uh minus three plus the square root of
+
+916
+00:40:07,119 --> 00:40:11,520
+minus three over two
+
+917
+00:40:08,720 --> 00:40:12,560
+and that's the same group as z plus z
+
+918
+00:40:11,520 --> 00:40:15,200
+times
+
+919
+00:40:12,560 --> 00:40:17,200
+1 plus the square root of minus 3 over 2
+
+920
+00:40:15,200 --> 00:40:20,480
+because this differs from this
+
+921
+00:40:17,200 --> 00:40:21,839
+by just adding 2 to it
+
+922
+00:40:20,480 --> 00:40:23,440
+so you get the same group all right
+
+923
+00:40:21,839 --> 00:40:26,319
+let's draw this lattice and then we'll
+
+924
+00:40:23,440 --> 00:40:26,319
+draw an ideal
+
+925
+00:40:27,680 --> 00:40:31,119
+and we're going to draw the principle
+
+926
+00:40:29,040 --> 00:40:33,920
+ideal
+
+927
+00:40:31,119 --> 00:40:35,760
+so we're going to take the ideal i as
+
+928
+00:40:33,920 --> 00:40:37,119
+the ideal generated by the square root
+
+929
+00:40:35,760 --> 00:40:40,240
+of minus 3
+
+930
+00:40:37,119 --> 00:40:42,560
+all multiples of square to minus three
+
+931
+00:40:40,240 --> 00:40:45,040
+all right so here we go the first thing
+
+932
+00:40:42,560 --> 00:40:46,880
+is we have to draw one
+
+933
+00:40:45,040 --> 00:40:48,400
+then we have to draw the other generator
+
+934
+00:40:46,880 --> 00:40:49,839
+which i'm going to do this now this is a
+
+935
+00:40:48,400 --> 00:40:52,160
+complex number
+
+936
+00:40:49,839 --> 00:40:53,839
+which has real part a half an imaginary
+
+937
+00:40:52,160 --> 00:40:55,440
+part root 3 over 2
+
+938
+00:40:53,839 --> 00:40:57,280
+and it turns out to lie on the unit
+
+939
+00:40:55,440 --> 00:41:00,960
+circle as you know from your
+
+940
+00:40:57,280 --> 00:41:05,119
+basic trigonometry and it's up here it's
+
+941
+00:41:00,960 --> 00:41:07,599
+1 6 of the way around the unit circle
+
+942
+00:41:05,119 --> 00:41:08,640
+that's the 1 plus the square root of
+
+943
+00:41:07,599 --> 00:41:11,200
+minus 3
+
+944
+00:41:08,640 --> 00:41:12,640
+over 2. so it's a number of complex
+
+945
+00:41:11,200 --> 00:41:14,160
+absolute value 1
+
+946
+00:41:12,640 --> 00:41:16,800
+because if you take its absolute value
+
+947
+00:41:14,160 --> 00:41:19,040
+you get 1 plus 3 over 4 which is 1.
+
+948
+00:41:16,800 --> 00:41:19,920
+its real part is a half so it lies right
+
+949
+00:41:19,040 --> 00:41:23,119
+there it's a
+
+950
+00:41:19,920 --> 00:41:27,040
+this is a 30 60 90 right triangle
+
+951
+00:41:23,119 --> 00:41:28,960
+okay and now let's draw all the other
+
+952
+00:41:27,040 --> 00:41:32,160
+so if i take this and i take this minus
+
+953
+00:41:28,960 --> 00:41:34,800
+one i get this number
+
+954
+00:41:32,160 --> 00:41:36,319
+then i also have minus one then i have
+
+955
+00:41:34,800 --> 00:41:38,720
+minus this number
+
+956
+00:41:36,319 --> 00:41:39,599
+then i have minus that number and those
+
+957
+00:41:38,720 --> 00:41:43,119
+are the six
+
+958
+00:41:39,599 --> 00:41:45,520
+points in this ring
+
+959
+00:41:43,119 --> 00:41:46,400
+which have absolute value one namely
+
+960
+00:41:45,520 --> 00:41:49,920
+those are the six
+
+961
+00:41:46,400 --> 00:41:52,240
+units of the ring okay
+
+962
+00:41:49,920 --> 00:41:53,200
+now do we have anything which has
+
+963
+00:41:52,240 --> 00:41:56,400
+absolute value
+
+964
+00:41:53,200 --> 00:41:57,839
+two so uh
+
+965
+00:41:56,400 --> 00:41:59,520
+so these are things are absolute value
+
+966
+00:41:57,839 --> 00:42:02,560
+one so then we can go to the
+
+967
+00:41:59,520 --> 00:42:04,400
+now here is the here's
+
+968
+00:42:02,560 --> 00:42:07,200
+we have certainly two in it but the but
+
+969
+00:42:04,400 --> 00:42:09,440
+this thing has norm four
+
+970
+00:42:07,200 --> 00:42:11,119
+right the next question is could we get
+
+971
+00:42:09,440 --> 00:42:13,520
+anything on the circle where the radius
+
+972
+00:42:11,119 --> 00:42:15,920
+of the circle is square root of two
+
+973
+00:42:13,520 --> 00:42:18,560
+where the is are there any do we have
+
+974
+00:42:15,920 --> 00:42:21,760
+any solutions of norm alpha equal to
+
+975
+00:42:18,560 --> 00:42:25,119
+well this would be a
+
+976
+00:42:21,760 --> 00:42:28,319
+squared plus three b squared
+
+977
+00:42:25,119 --> 00:42:31,040
+where a and b are half integers
+
+978
+00:42:28,319 --> 00:42:32,160
+right and the answer is you can't find
+
+979
+00:42:31,040 --> 00:42:35,760
+such solutions
+
+980
+00:42:32,160 --> 00:42:38,800
+where a and b are in one half z minus c
+
+981
+00:42:35,760 --> 00:42:40,640
+or a and b are in z
+
+982
+00:42:38,800 --> 00:42:42,319
+so there are no elements on the circle
+
+983
+00:42:40,640 --> 00:42:45,040
+of radius square root of two
+
+984
+00:42:42,319 --> 00:42:47,359
+all right how about norm alpha equal
+
+985
+00:42:45,040 --> 00:42:47,359
+three
+
+986
+00:42:48,640 --> 00:42:53,280
+are there any things whose norm can you
+
+987
+00:42:50,640 --> 00:42:56,800
+solve this is equal to three
+
+988
+00:42:53,280 --> 00:42:59,440
+how a is equal to zero
+
+989
+00:42:56,800 --> 00:43:01,440
+and b is equal to 1 right so that would
+
+990
+00:42:59,440 --> 00:43:04,400
+be the element square root of 3 which is
+
+991
+00:43:01,440 --> 00:43:06,560
+about 1.7 right so we go up here
+
+992
+00:43:04,400 --> 00:43:07,680
+so that's when you add these two things
+
+993
+00:43:06,560 --> 00:43:09,599
+you get this thing
+
+994
+00:43:07,680 --> 00:43:11,359
+which is the element square root of
+
+995
+00:43:09,599 --> 00:43:13,119
+minus 3.
+
+996
+00:43:11,359 --> 00:43:14,720
+that's the next closest thing to the
+
+997
+00:43:13,119 --> 00:43:16,960
+origin now
+
+998
+00:43:14,720 --> 00:43:18,319
+once i have this thing i have all
+
+999
+00:43:16,960 --> 00:43:21,359
+multiples of it
+
+1000
+00:43:18,319 --> 00:43:23,920
+by units which don't change the norm
+
+1001
+00:43:21,359 --> 00:43:26,000
+so once i find one thing of norm 3 i
+
+1002
+00:43:23,920 --> 00:43:28,400
+must have 6 things of norm three
+
+1003
+00:43:26,000 --> 00:43:31,200
+and i get them by multiplying by these
+
+1004
+00:43:28,400 --> 00:43:33,760
+things which means by rotating around
+
+1005
+00:43:31,200 --> 00:43:33,760
+exactly
+
+1006
+00:43:34,560 --> 00:43:39,839
+exactly 60 degrees so here
+
+1007
+00:43:38,240 --> 00:43:41,680
+if i rotate around 60 degrees the next
+
+1008
+00:43:39,839 --> 00:43:43,760
+thing is here oh this is beautiful
+
+1009
+00:43:41,680 --> 00:43:45,200
+for peter knows why i like this so much
+
+1010
+00:43:43,760 --> 00:43:48,000
+you guys don't know yet but
+
+1011
+00:43:45,200 --> 00:43:50,319
+the next thing is here the next thing is
+
+1012
+00:43:48,000 --> 00:43:53,760
+when you rotate around
+
+1013
+00:43:50,319 --> 00:43:56,960
+by 120 degrees you should get something
+
+1014
+00:43:53,760 --> 00:43:56,960
+here right
+
+1015
+00:43:58,800 --> 00:44:05,040
+then we should get the minus of this
+
+1016
+00:44:02,400 --> 00:44:07,440
+and you should get something out here a
+
+1017
+00:44:05,040 --> 00:44:08,880
+little too far but okay right there
+
+1018
+00:44:07,440 --> 00:44:10,640
+and then we should get something out
+
+1019
+00:44:08,880 --> 00:44:14,400
+here which is
+
+1020
+00:44:10,640 --> 00:44:14,400
+the sum of this and this
+
+1021
+00:44:15,119 --> 00:44:23,200
+and then you should get the element two
+
+1022
+00:44:18,640 --> 00:44:25,520
+so here are our six things
+
+1023
+00:44:23,200 --> 00:44:26,400
+in the lattice that have except i didn't
+
+1024
+00:44:25,520 --> 00:44:28,480
+do them very well
+
+1025
+00:44:26,400 --> 00:44:31,280
+this thing goes this thing has the same
+
+1026
+00:44:28,480 --> 00:44:31,280
+height as this
+
+1027
+00:44:34,240 --> 00:44:37,200
+so these things are all on a straight
+
+1028
+00:44:35,760 --> 00:44:39,920
+line and these things are all in a
+
+1029
+00:44:37,200 --> 00:44:41,520
+straight line if you draw them correctly
+
+1030
+00:44:39,920 --> 00:44:43,760
+there you have it peter the root system
+
+1031
+00:44:41,520 --> 00:44:46,480
+of type g2 right
+
+1032
+00:44:43,760 --> 00:44:51,839
+um let's see why i like this so much i
+
+1033
+00:44:46,480 --> 00:44:51,839
+used to be able to do this well
+
+1034
+00:44:57,280 --> 00:45:00,480
+if you draw a jewish star through the um
+
+1035
+00:45:00,160 --> 00:45:04,000
+six
+
+1036
+00:45:00,480 --> 00:45:05,920
+outer points like that then the um
+
+1037
+00:45:04,000 --> 00:45:07,280
+and the edges are on the six inner
+
+1038
+00:45:05,920 --> 00:45:10,319
+points
+
+1039
+00:45:07,280 --> 00:45:12,160
+nice huh just celebrating the holiday
+
+1040
+00:45:10,319 --> 00:45:15,280
+season
+
+1041
+00:45:12,160 --> 00:45:16,480
+okay now this is just the elements of
+
+1042
+00:45:15,280 --> 00:45:19,599
+norm one and three
+
+1043
+00:45:16,480 --> 00:45:20,000
+in the thing however i claim that these
+
+1044
+00:45:19,599 --> 00:45:24,000
+six
+
+1045
+00:45:20,000 --> 00:45:27,040
+elements here are all in this
+
+1046
+00:45:24,000 --> 00:45:28,960
+ideal right
+
+1047
+00:45:27,040 --> 00:45:30,240
+whereas these elements these six
+
+1048
+00:45:28,960 --> 00:45:32,079
+elements in here
+
+1049
+00:45:30,240 --> 00:45:33,520
+are not in that ideal because we've seen
+
+1050
+00:45:32,079 --> 00:45:35,680
+that these six elements are square to
+
+1051
+00:45:33,520 --> 00:45:38,560
+minus three times units
+
+1052
+00:45:35,680 --> 00:45:39,920
+and in fact if you take this ideal it
+
+1053
+00:45:38,560 --> 00:45:43,200
+can be generated
+
+1054
+00:45:39,920 --> 00:45:43,200
+by this element here
+
+1055
+00:45:43,599 --> 00:45:49,680
+and any of the others because they give
+
+1056
+00:45:46,640 --> 00:45:50,400
+they give a basis for the subgroup and
+
+1057
+00:45:49,680 --> 00:45:51,839
+in general
+
+1058
+00:45:50,400 --> 00:45:54,720
+and this is something i'm just going to
+
+1059
+00:45:51,839 --> 00:45:59,119
+ask you to accept to prove this theorem
+
+1060
+00:45:54,720 --> 00:45:59,119
+is that any subgroup
+
+1061
+00:45:59,359 --> 00:46:04,160
+of r of finite index
+
+1062
+00:46:05,200 --> 00:46:08,240
+can be generated
+
+1063
+00:46:10,720 --> 00:46:14,880
+as a subgroup forget about the fact that
+
+1064
+00:46:12,720 --> 00:46:19,040
+it's an ideal
+
+1065
+00:46:14,880 --> 00:46:20,800
+by two elements it's a fact about
+
+1066
+00:46:19,040 --> 00:46:22,400
+discrete subgroups of the complex
+
+1067
+00:46:20,800 --> 00:46:23,359
+numbers they're either generated by one
+
+1068
+00:46:22,400 --> 00:46:25,119
+or two elements
+
+1069
+00:46:23,359 --> 00:46:26,400
+in fact didn't we prove that when we
+
+1070
+00:46:25,119 --> 00:46:28,480
+were doing uh
+
+1071
+00:46:26,400 --> 00:46:29,839
+subgroups of the group of motions if you
+
+1072
+00:46:28,480 --> 00:46:32,319
+took the plane
+
+1073
+00:46:29,839 --> 00:46:34,480
+right and you had a discrete subgroup of
+
+1074
+00:46:32,319 --> 00:46:37,200
+translations
+
+1075
+00:46:34,480 --> 00:46:39,839
+right it was either zero or generated by
+
+1076
+00:46:37,200 --> 00:46:41,440
+one element or generated by two elements
+
+1077
+00:46:39,839 --> 00:46:43,839
+thank god we did discrete group
+
+1078
+00:46:41,440 --> 00:46:45,680
+promotions whatever this thing is
+
+1079
+00:46:43,839 --> 00:46:47,119
+it's a subgroup forget about that it's
+
+1080
+00:46:45,680 --> 00:46:49,280
+stable under multiplication it's a
+
+1081
+00:46:47,119 --> 00:46:51,040
+subgroup it's discrete
+
+1082
+00:46:49,280 --> 00:46:52,640
+the complex numbers whatever else they
+
+1083
+00:46:51,040 --> 00:46:53,040
+are forget about their multiplication
+
+1084
+00:46:52,640 --> 00:46:56,640
+form
+
+1085
+00:46:53,040 --> 00:46:59,040
+of a plane so this discrete subgroup is
+
+1086
+00:46:56,640 --> 00:47:01,200
+generated by at most two elements
+
+1087
+00:46:59,040 --> 00:47:02,640
+so here are the two generators of the
+
+1088
+00:47:01,200 --> 00:47:03,520
+subgroup forget that they you know
+
+1089
+00:47:02,640 --> 00:47:05,599
+forget that they
+
+1090
+00:47:03,520 --> 00:47:07,280
+are stable under multiplication so
+
+1091
+00:47:05,599 --> 00:47:08,560
+that's why since it's a subgroup you can
+
+1092
+00:47:07,280 --> 00:47:09,920
+generate it by two things so we can
+
+1093
+00:47:08,560 --> 00:47:12,000
+certainly generate it by this for
+
+1094
+00:47:09,920 --> 00:47:14,240
+example and this
+
+1095
+00:47:12,000 --> 00:47:16,000
+well you can imagine having a computer
+
+1096
+00:47:14,240 --> 00:47:17,599
+print out on a big piece of paper all
+
+1097
+00:47:16,000 --> 00:47:19,520
+the elements of this lattice
+
+1098
+00:47:17,599 --> 00:47:23,200
+if you if you um this is a particularly
+
+1099
+00:47:19,520 --> 00:47:27,839
+beautiful lattice if you circle spheres
+
+1100
+00:47:23,200 --> 00:47:30,720
+a radius a half at the points
+
+1101
+00:47:27,839 --> 00:47:30,720
+in this lattice
+
+1102
+00:47:34,000 --> 00:47:37,520
+i'm not doing it very well but there
+
+1103
+00:47:35,599 --> 00:47:39,680
+they are
+
+1104
+00:47:37,520 --> 00:47:41,119
+so you take the centers of the spheres
+
+1105
+00:47:39,680 --> 00:47:42,559
+to be the um
+
+1106
+00:47:41,119 --> 00:47:44,319
+points of the lattice and you take the
+
+1107
+00:47:42,559 --> 00:47:46,079
+radius of the spheres to be a half so
+
+1108
+00:47:44,319 --> 00:47:48,079
+the spheres don't intersect
+
+1109
+00:47:46,079 --> 00:47:50,000
+then you get the best packing we know of
+
+1110
+00:47:48,079 --> 00:47:51,440
+spheres in the plane in fact it's known
+
+1111
+00:47:50,000 --> 00:47:53,440
+to be the best packing of spheres in the
+
+1112
+00:47:51,440 --> 00:47:55,119
+plane called the hexagonal packing
+
+1113
+00:47:53,440 --> 00:47:56,960
+the reason is around each sphere you
+
+1114
+00:47:55,119 --> 00:47:58,800
+have exactly six spheres
+
+1115
+00:47:56,960 --> 00:48:00,079
+and this doesn't cover all the space of
+
+1116
+00:47:58,800 --> 00:48:01,520
+the plane it covers
+
+1117
+00:48:00,079 --> 00:48:03,119
+close to ninety percent of the space of
+
+1118
+00:48:01,520 --> 00:48:06,160
+the plane and
+
+1119
+00:48:03,119 --> 00:48:09,040
+this is the best
+
+1120
+00:48:06,160 --> 00:48:09,040
+sphere packing
+
+1121
+00:48:10,319 --> 00:48:18,640
+in dimension two and uh
+
+1122
+00:48:14,480 --> 00:48:21,440
+and was discovered a billion years ago
+
+1123
+00:48:18,640 --> 00:48:23,200
+by the bees right that's the way you
+
+1124
+00:48:21,440 --> 00:48:26,400
+pack honey in a hive if you want to make
+
+1125
+00:48:23,200 --> 00:48:28,240
+circular packings and you want to store
+
+1126
+00:48:26,400 --> 00:48:30,160
+as much honey as possible so nature has
+
+1127
+00:48:28,240 --> 00:48:32,800
+an amazing way of solving
+
+1128
+00:48:30,160 --> 00:48:34,559
+extremal problems and nature has solved
+
+1129
+00:48:32,800 --> 00:48:36,160
+this problem many many times many many
+
+1130
+00:48:34,559 --> 00:48:36,559
+years before the mathematicians got to
+
+1131
+00:48:36,160 --> 00:48:37,920
+it
+
+1132
+00:48:36,559 --> 00:48:39,680
+you'll be happy to hear that professor
+
+1133
+00:48:37,920 --> 00:48:41,119
+elkes working with one of his
+
+1134
+00:48:39,680 --> 00:48:42,319
+distinguished graduate students who's
+
+1135
+00:48:41,119 --> 00:48:44,800
+now at microsoft
+
+1136
+00:48:42,319 --> 00:48:46,839
+has found the best packings of spheres
+
+1137
+00:48:44,800 --> 00:48:49,200
+in dimensions 8 and 24
+
+1138
+00:48:46,839 --> 00:48:51,520
+recently we knew that they were but he's
+
+1139
+00:48:49,200 --> 00:48:52,960
+been able to prove it
+
+1140
+00:48:51,520 --> 00:48:54,880
+now we don't have any bees that are
+
+1141
+00:48:52,960 --> 00:48:57,680
+working in dimension 24.
+
+1142
+00:48:54,880 --> 00:48:59,200
+however you know it it used to be i i
+
+1143
+00:48:57,680 --> 00:49:00,640
+just love this it used to be the fact
+
+1144
+00:48:59,200 --> 00:49:02,800
+that when mathematicians would talk
+
+1145
+00:49:00,640 --> 00:49:05,599
+about some phenomenon of dimension 8 or
+
+1146
+00:49:02,800 --> 00:49:07,359
+dimension 12 or dimension 24 24 happens
+
+1147
+00:49:05,599 --> 00:49:08,800
+to be an absolutely magical dimension
+
+1148
+00:49:07,359 --> 00:49:12,000
+for mathematicians
+
+1149
+00:49:08,800 --> 00:49:14,800
+so they talk about this and
+
+1150
+00:49:12,000 --> 00:49:15,680
+the people who are doing hard science
+
+1151
+00:49:14,800 --> 00:49:17,680
+would laugh
+
+1152
+00:49:15,680 --> 00:49:18,800
+and they'd laugh and they'd laugh and
+
+1153
+00:49:17,680 --> 00:49:20,319
+they'd say well you can't tell us
+
+1154
+00:49:18,800 --> 00:49:21,920
+anything because in two dimensions we've
+
+1155
+00:49:20,319 --> 00:49:23,440
+known this for billions of years and in
+
+1156
+00:49:21,920 --> 00:49:25,200
+three dimensions we've known it for
+
+1157
+00:49:23,440 --> 00:49:26,800
+millions of years and you can't even do
+
+1158
+00:49:25,200 --> 00:49:27,760
+anything and we don't care about more
+
+1159
+00:49:26,800 --> 00:49:31,119
+than three dimensions
+
+1160
+00:49:27,760 --> 00:49:32,240
+right okay now if you just go over to
+
+1161
+00:49:31,119 --> 00:49:33,920
+jefferson
+
+1162
+00:49:32,240 --> 00:49:35,440
+now half the people are talking about
+
+1163
+00:49:33,920 --> 00:49:37,200
+what happens in dimension 10
+
+1164
+00:49:35,440 --> 00:49:38,640
+and happens in dimension 11 because
+
+1165
+00:49:37,200 --> 00:49:39,599
+those are the only dimensions they can
+
+1166
+00:49:38,640 --> 00:49:42,559
+resolve
+
+1167
+00:49:39,599 --> 00:49:43,760
+the differential equations of physics so
+
+1168
+00:49:42,559 --> 00:49:46,240
+now it's believed that
+
+1169
+00:49:43,760 --> 00:49:48,079
+we live in a 10-dimensional universe of
+
+1170
+00:49:46,240 --> 00:49:50,160
+which we see four dimensions
+
+1171
+00:49:48,079 --> 00:49:51,920
+three of them are space one of them is
+
+1172
+00:49:50,160 --> 00:49:52,800
+time and there's six tiny little
+
+1173
+00:49:51,920 --> 00:49:54,960
+dimensions
+
+1174
+00:49:52,800 --> 00:49:57,040
+all in a little manifold of dimension
+
+1175
+00:49:54,960 --> 00:49:57,599
+six about the same size as planck's
+
+1176
+00:49:57,040 --> 00:49:59,760
+constant
+
+1177
+00:49:57,599 --> 00:50:00,640
+so we'll never see it but it has a very
+
+1178
+00:49:59,760 --> 00:50:02,400
+important shape
+
+1179
+00:50:00,640 --> 00:50:04,000
+called the kalabi yao manifold named
+
+1180
+00:50:02,400 --> 00:50:06,800
+after professor yao here
+
+1181
+00:50:04,000 --> 00:50:08,160
+and uh and and that shape resolves all
+
+1182
+00:50:06,800 --> 00:50:09,839
+all the difficulties of differential
+
+1183
+00:50:08,160 --> 00:50:11,680
+equations in the universe
+
+1184
+00:50:09,839 --> 00:50:13,200
+so i just love this the fact that all at
+
+1185
+00:50:11,680 --> 00:50:15,119
+once you know they're really into what
+
+1186
+00:50:13,200 --> 00:50:16,720
+happens in dimension 24 can you tell us
+
+1187
+00:50:15,119 --> 00:50:18,319
+more about dimension 26
+
+1188
+00:50:16,720 --> 00:50:20,559
+and each one of these dimensions has its
+
+1189
+00:50:18,319 --> 00:50:22,960
+own charm but here's what happens in
+
+1190
+00:50:20,559 --> 00:50:25,119
+dimension two
+
+1191
+00:50:22,960 --> 00:50:27,280
+okay so we find that ideals are
+
+1192
+00:50:25,119 --> 00:50:28,319
+generated not necessarily by one element
+
+1193
+00:50:27,280 --> 00:50:29,839
+we've shown that there are plenty of
+
+1194
+00:50:28,319 --> 00:50:31,119
+cases that aren't pids but they're
+
+1195
+00:50:29,839 --> 00:50:34,400
+generated by
+
+1196
+00:50:31,119 --> 00:50:35,599
+two elements now on friday peter's going
+
+1197
+00:50:34,400 --> 00:50:37,839
+to show you
+
+1198
+00:50:35,599 --> 00:50:39,520
+how you rescue unique factorization in
+
+1199
+00:50:37,839 --> 00:50:40,000
+these rings because that was a huge
+
+1200
+00:50:39,520 --> 00:50:41,520
+discovery
+
+1201
+00:50:40,000 --> 00:50:44,400
+in the middle of the 19th century by
+
+1202
+00:50:41,520 --> 00:50:46,079
+mathematicians that it was discovered
+
+1203
+00:50:44,400 --> 00:50:48,319
+that you couldn't always factor an
+
+1204
+00:50:46,079 --> 00:50:50,480
+element into primes
+
+1205
+00:50:48,319 --> 00:50:52,400
+we've gotten examples of that but you
+
+1206
+00:50:50,480 --> 00:50:54,319
+could factor ideals
+
+1207
+00:50:52,400 --> 00:50:56,559
+into prime ideals namely there was a
+
+1208
+00:50:54,319 --> 00:50:59,040
+generalization of multiplication
+
+1209
+00:50:56,559 --> 00:51:00,880
+that took place for ideals then there
+
+1210
+00:50:59,040 --> 00:51:02,559
+was a generalization of irreducible
+
+1211
+00:51:00,880 --> 00:51:04,000
+elements that took place for ideals
+
+1212
+00:51:02,559 --> 00:51:05,839
+called prime ideals
+
+1213
+00:51:04,000 --> 00:51:08,800
+and that every ideal could be written
+
+1214
+00:51:05,839 --> 00:51:11,520
+uniquely as a product of prime ideals
+
+1215
+00:51:08,800 --> 00:51:13,839
+that's a big big big result and then
+
+1216
+00:51:11,520 --> 00:51:16,720
+peter will also show you how you measure
+
+1217
+00:51:13,839 --> 00:51:19,280
+how far one of these rings is away from
+
+1218
+00:51:16,720 --> 00:51:20,640
+being unique factorization
+
+1219
+00:51:19,280 --> 00:51:22,079
+and that's something i've worked on a
+
+1220
+00:51:20,640 --> 00:51:23,119
+lot and i'll talk to you about that on
+
+1221
+00:51:22,079 --> 00:51:30,160
+monday
+
+1222
+00:51:23,119 --> 00:51:30,160
+okay see you then
+

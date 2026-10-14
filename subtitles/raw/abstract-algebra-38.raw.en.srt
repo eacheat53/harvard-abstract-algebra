@@ -1,0 +1,4208 @@
+1
+00:00:11,570 --> 00:00:15,290
+if you've done any grading you probably
+
+2
+00:00:13,790 --> 00:00:16,880
+know this I mean the first thing you
+
+3
+00:00:15,290 --> 00:00:18,710
+look for is whether the person got you
+
+4
+00:00:16,880 --> 00:00:20,240
+know the correct answer or not and then
+
+5
+00:00:18,710 --> 00:00:21,980
+you start looking through the steps of
+
+6
+00:00:20,240 --> 00:00:24,320
+you know whether they got there the
+
+7
+00:00:21,980 --> 00:00:25,939
+right way I mean and ultimately you only
+
+8
+00:00:24,320 --> 00:00:27,860
+really want to give full credit to the
+
+9
+00:00:25,939 --> 00:00:29,450
+person who you know give this a correct
+
+10
+00:00:27,860 --> 00:00:31,610
+justification in addition but you get
+
+11
+00:00:29,450 --> 00:00:33,890
+really pissed off if the person is also
+
+12
+00:00:31,610 --> 00:00:36,890
+giving you the wrong answer so yawns
+
+13
+00:00:33,890 --> 00:00:40,730
+right answers are very important okay
+
+14
+00:00:36,890 --> 00:00:43,010
+office hours so this is the exam I've
+
+15
+00:00:40,730 --> 00:00:44,720
+written it in large writing so it should
+
+16
+00:00:43,010 --> 00:00:47,809
+be very clear and you should not miss it
+
+17
+00:00:44,720 --> 00:00:49,670
+also remember that your name has a sort
+
+18
+00:00:47,809 --> 00:00:52,309
+of multiplier effect right I mean if you
+
+19
+00:00:49,670 --> 00:00:54,739
+do not put your name on you get zero on
+
+20
+00:00:52,309 --> 00:00:57,500
+the exam so you want to get that that
+
+21
+00:00:54,739 --> 00:01:00,710
+first part of the exam spot on that's a
+
+22
+00:00:57,500 --> 00:01:04,780
+very important part of the exam now
+
+23
+00:01:00,710 --> 00:01:07,670
+Peter and reg has extremely generously
+
+24
+00:01:04,780 --> 00:01:16,970
+offered to run many many office hours
+
+25
+00:01:07,670 --> 00:01:19,870
+and so I mean Liz may also offer some
+
+26
+00:01:16,970 --> 00:01:19,870
+in-person office hours
+
+27
+00:01:22,090 --> 00:01:35,530
+I'm also along with Liz available by
+
+28
+00:01:26,390 --> 00:01:38,990
+email but as I said Peter and reg is
+
+29
+00:01:35,530 --> 00:01:40,370
+offering a lot of office hours so you
+
+30
+00:01:38,990 --> 00:01:42,230
+might want to mark these down I think he
+
+31
+00:01:40,370 --> 00:01:43,610
+sent out an email but just make sure you
+
+32
+00:01:42,230 --> 00:01:46,300
+have a note of this and you don't delete
+
+33
+00:01:43,610 --> 00:01:52,010
+the email or anything so coming up
+
+34
+00:01:46,300 --> 00:02:02,440
+tomorrow so Saturday January 17th 4:00
+
+35
+00:01:52,010 --> 00:02:09,200
+to 5:30 p.m. and Wednesday and Thursday
+
+36
+00:02:02,440 --> 00:02:15,040
+January 21st 22nd 4:00 to 6:00 p.m.
+
+37
+00:02:09,200 --> 00:02:18,819
+and these are both in the fourth floor
+
+38
+00:02:15,040 --> 00:02:18,819
+math department lounge
+
+39
+00:02:23,420 --> 00:02:28,260
+so lots and lots of office hours you
+
+40
+00:02:26,640 --> 00:02:32,040
+should you know if you're feeling it all
+
+41
+00:02:28,260 --> 00:02:35,580
+week on anything and you want some
+
+42
+00:02:32,040 --> 00:02:37,319
+feedback about what exercises to try you
+
+43
+00:02:35,580 --> 00:02:38,940
+know Peter end-rig might be a very good
+
+44
+00:02:37,319 --> 00:02:40,830
+source because he can work through any
+
+45
+00:02:38,940 --> 00:02:42,600
+problems with you for instance and
+
+46
+00:02:40,830 --> 00:02:44,790
+that's actually a really good way of
+
+47
+00:02:42,600 --> 00:02:46,140
+course preparing for the final just
+
+48
+00:02:44,790 --> 00:02:50,970
+running through lots and lots of
+
+49
+00:02:46,140 --> 00:02:52,470
+problems trying lots of things that you
+
+50
+00:02:50,970 --> 00:02:54,300
+weren't comfortable with because then
+
+51
+00:02:52,470 --> 00:02:59,640
+you'll get comfortable with them so
+
+52
+00:02:54,300 --> 00:03:03,180
+anyway last time we we went through the
+
+53
+00:02:59,640 --> 00:03:05,549
+subjects treated in the first two-thirds
+
+54
+00:03:03,180 --> 00:03:09,090
+or so the study guide which is online so
+
+55
+00:03:05,549 --> 00:03:12,930
+I mean if you go online you know so the
+
+56
+00:03:09,090 --> 00:03:14,430
+math 120 webpage there's a heading final
+
+57
+00:03:12,930 --> 00:03:19,650
+exam and review or something like this
+
+58
+00:03:14,430 --> 00:03:21,239
+and that has useful links and resources
+
+59
+00:03:19,650 --> 00:03:22,560
+and so on so it has a link for instance
+
+60
+00:03:21,239 --> 00:03:25,980
+the study guide I send an email about
+
+61
+00:03:22,560 --> 00:03:28,739
+that previously also the links to the
+
+62
+00:03:25,980 --> 00:03:32,459
+videos and notes from these review
+
+63
+00:03:28,739 --> 00:03:34,200
+sessions are going up the one from
+
+64
+00:03:32,459 --> 00:03:36,030
+Wednesday there's a notes and video from
+
+65
+00:03:34,200 --> 00:03:38,790
+Wednesday are already up on the webpage
+
+66
+00:03:36,030 --> 00:03:41,850
+so you can go get those in case you had
+
+67
+00:03:38,790 --> 00:03:45,390
+to miss that for whatever reason and so
+
+68
+00:03:41,850 --> 00:03:47,280
+now I'm just gonna continue slogging
+
+69
+00:03:45,390 --> 00:03:48,810
+through the study guide by the way the
+
+70
+00:03:47,280 --> 00:03:50,010
+study guide is in many ways more useful
+
+71
+00:03:48,810 --> 00:03:51,120
+than what we did in the review session
+
+72
+00:03:50,010 --> 00:03:52,200
+last time because the review session
+
+73
+00:03:51,120 --> 00:03:54,780
+last time wasn't necessarily entirely
+
+74
+00:03:52,200 --> 00:03:56,180
+targeted to the exam whereas the study
+
+75
+00:03:54,780 --> 00:03:59,100
+guide which I'm probably gonna update
+
+76
+00:03:56,180 --> 00:04:02,790
+shortly is very much sort of targeted to
+
+77
+00:03:59,100 --> 00:04:06,290
+the exam so there you go okay well I'm
+
+78
+00:04:02,790 --> 00:04:06,290
+gonna get on with rings
+
+79
+00:04:16,139 --> 00:04:22,480
+okay great so I'm going to say a lot of
+
+80
+00:04:20,950 --> 00:04:24,340
+redundant things I mean a lot of this is
+
+81
+00:04:22,480 --> 00:04:26,320
+really straightforward but I mean this
+
+82
+00:04:24,340 --> 00:04:29,230
+is a good time for you to actually just
+
+83
+00:04:26,320 --> 00:04:31,240
+you know look at each of the words that
+
+84
+00:04:29,230 --> 00:04:32,860
+I write and make sure that you know you
+
+85
+00:04:31,240 --> 00:04:34,270
+you you feel you know totally
+
+86
+00:04:32,860 --> 00:04:35,470
+comfortable with the words and if you
+
+87
+00:04:34,270 --> 00:04:36,790
+don't feel comfortable for words you
+
+88
+00:04:35,470 --> 00:04:38,530
+should definitely like make a note of it
+
+89
+00:04:36,790 --> 00:04:43,060
+and you know go through and review those
+
+90
+00:04:38,530 --> 00:04:44,560
+words carefully so we're talking about
+
+91
+00:04:43,060 --> 00:04:46,960
+rings so I mean you better know the
+
+92
+00:04:44,560 --> 00:04:49,389
+definition of a ring so then remember
+
+93
+00:04:46,960 --> 00:04:52,210
+that you have some sort of addition
+
+94
+00:04:49,389 --> 00:04:53,650
+operation this is an abelian group that
+
+95
+00:04:52,210 --> 00:04:56,820
+there's some sort of multiplication
+
+96
+00:04:53,650 --> 00:04:58,810
+operation and this thing is associative
+
+97
+00:04:56,820 --> 00:05:01,690
+with one you know has this
+
+98
+00:04:58,810 --> 00:05:04,300
+multiplicative identity thing and in
+
+99
+00:05:01,690 --> 00:05:07,240
+general we assumed that this operation
+
+100
+00:05:04,300 --> 00:05:09,850
+was commutative although we looked
+
+101
+00:05:07,240 --> 00:05:11,710
+initially at the non commutative case as
+
+102
+00:05:09,850 --> 00:05:14,229
+well and there's some sort of
+
+103
+00:05:11,710 --> 00:05:17,020
+distributive property that relates the
+
+104
+00:05:14,229 --> 00:05:20,710
+addition and the multiplication and we
+
+105
+00:05:17,020 --> 00:05:22,300
+saw lots of convenient first examples
+
+106
+00:05:20,710 --> 00:05:24,450
+that the que most immediately out of our
+
+107
+00:05:22,300 --> 00:05:27,729
+study group things we have a certain
+
+108
+00:05:24,450 --> 00:05:29,080
+trivial ring which is I mean in some
+
+109
+00:05:27,729 --> 00:05:30,760
+textbooks that's not even considered a
+
+110
+00:05:29,080 --> 00:05:34,800
+ring I mean sometimes it's a completely
+
+111
+00:05:30,760 --> 00:05:37,930
+excluded from the discussion other
+
+112
+00:05:34,800 --> 00:05:40,150
+convenient atures we'd already
+
+113
+00:05:37,930 --> 00:05:43,450
+introduced the integers modulo n and so
+
+114
+00:05:40,150 --> 00:05:47,740
+we saw also previously in the section on
+
+115
+00:05:43,450 --> 00:05:49,570
+modular arithmetic that a Z mod NZ forms
+
+116
+00:05:47,740 --> 00:05:51,190
+a ring you should be very comfortable
+
+117
+00:05:49,570 --> 00:05:52,750
+with the rhythm tikkun Z mod NZ you
+
+118
+00:05:51,190 --> 00:05:55,870
+should be able to know quickly look at
+
+119
+00:05:52,750 --> 00:05:57,130
+things you know mod small numbers and be
+
+120
+00:05:55,870 --> 00:06:02,380
+able to you know find interesting
+
+121
+00:05:57,130 --> 00:06:04,570
+examples of features of that ring and
+
+122
+00:06:02,380 --> 00:06:06,700
+bear in mind things like when is that
+
+123
+00:06:04,570 --> 00:06:08,110
+thing when does that thing have nice
+
+124
+00:06:06,700 --> 00:06:10,810
+sort of field structure and why does it
+
+125
+00:06:08,110 --> 00:06:17,800
+not have nice field structure in the
+
+126
+00:06:10,810 --> 00:06:19,660
+composit case of course any of the
+
+127
+00:06:17,800 --> 00:06:21,700
+fields that would that were germane to
+
+128
+00:06:19,660 --> 00:06:24,189
+the section on vector spaces were rings
+
+129
+00:06:21,700 --> 00:06:27,729
+and
+
+130
+00:06:24,189 --> 00:06:30,489
+given any ring you can construct a
+
+131
+00:06:27,729 --> 00:06:32,529
+polynomial ring in fact you could do
+
+132
+00:06:30,489 --> 00:06:33,759
+things funny things like constructing a
+
+133
+00:06:32,529 --> 00:06:36,389
+polynomial rings and infinitely many
+
+134
+00:06:33,759 --> 00:06:39,129
+variables and stuff like that although
+
+135
+00:06:36,389 --> 00:06:45,519
+that isn't going to be a very important
+
+136
+00:06:39,129 --> 00:06:50,889
+sort of example and sort of as the
+
+137
+00:06:45,519 --> 00:06:53,709
+analog of the normal subgroups from our
+
+138
+00:06:50,889 --> 00:06:55,419
+discussion in group theory we had ideals
+
+139
+00:06:53,709 --> 00:07:01,209
+these are the things that arise as
+
+140
+00:06:55,419 --> 00:07:02,349
+kernels but saying that the definition
+
+141
+00:07:01,209 --> 00:07:03,849
+of an ideal is the kernel of the
+
+142
+00:07:02,349 --> 00:07:06,219
+homomorphic bring home morphism is
+
+143
+00:07:03,849 --> 00:07:10,599
+probably not the the idea ideal
+
+144
+00:07:06,219 --> 00:07:14,499
+definition unintended and you should
+
+145
+00:07:10,599 --> 00:07:15,639
+really define it as being an abelian you
+
+146
+00:07:14,499 --> 00:07:17,829
+know they said something that it's a
+
+147
+00:07:15,639 --> 00:07:19,539
+subgroup under the addition law and
+
+148
+00:07:17,829 --> 00:07:25,689
+which is closed under multiplication to
+
+149
+00:07:19,539 --> 00:07:33,219
+the multiplication operation so so
+
+150
+00:07:25,689 --> 00:07:36,369
+subgroup under plus closed under
+
+151
+00:07:33,219 --> 00:07:41,229
+multiplication by all of our not just by
+
+152
+00:07:36,369 --> 00:07:45,309
+I that I deal itself and I mean we saw
+
+153
+00:07:41,229 --> 00:07:49,029
+lots of good examples of ideals we saw
+
+154
+00:07:45,309 --> 00:07:52,809
+principal ideals or more generally we
+
+155
+00:07:49,029 --> 00:07:54,429
+saw ideals generated by a certain number
+
+156
+00:07:52,809 --> 00:08:01,300
+of elements so these are all linear
+
+157
+00:07:54,429 --> 00:08:04,179
+combinations all linear combinations of
+
+158
+00:08:01,300 --> 00:08:06,399
+those elements and we saw a very very
+
+159
+00:08:04,179 --> 00:08:09,249
+important sort of operation a this this
+
+160
+00:08:06,399 --> 00:08:10,569
+operation turned up later in our sort of
+
+161
+00:08:09,249 --> 00:08:12,909
+number theoretic study this is a very
+
+162
+00:08:10,569 --> 00:08:15,759
+very important definition and that is
+
+163
+00:08:12,909 --> 00:08:18,689
+that if I have two ideals I can
+
+164
+00:08:15,759 --> 00:08:22,050
+construct a new ideal that the the
+
+165
+00:08:18,689 --> 00:08:22,050
+product ideal
+
+166
+00:08:23,330 --> 00:08:34,890
+and these were all sums AI bi where the
+
+167
+00:08:30,930 --> 00:08:36,930
+AIS are an AI and the B is R&J you need
+
+168
+00:08:34,890 --> 00:08:41,520
+to be able to not just take you know
+
+169
+00:08:36,930 --> 00:08:44,190
+single products to know me of things in
+
+170
+00:08:41,520 --> 00:08:46,350
+I and J but the more extensive products
+
+171
+00:08:44,190 --> 00:08:47,520
+the elements of I and J because
+
+172
+00:08:46,350 --> 00:08:50,220
+otherwise the thing would not
+
+173
+00:08:47,520 --> 00:08:56,540
+necessarily be a subgroup under the
+
+174
+00:08:50,220 --> 00:09:04,620
+addition operation of the Ring we saw
+
+175
+00:08:56,540 --> 00:09:08,570
+homomorphisms ring homomorphism so of
+
+176
+00:09:04,620 --> 00:09:10,410
+course these are things which preserve
+
+177
+00:09:08,570 --> 00:09:12,540
+the addition operation the
+
+178
+00:09:10,410 --> 00:09:14,160
+multiplication operation and because of
+
+179
+00:09:12,540 --> 00:09:18,030
+the way these things work you need to
+
+180
+00:09:14,160 --> 00:09:20,760
+additionally specify explicitly and you
+
+181
+00:09:18,030 --> 00:09:22,380
+need to verify explicitly that ring
+
+182
+00:09:20,760 --> 00:09:26,280
+homomorphism preserves the
+
+183
+00:09:22,380 --> 00:09:27,330
+multiplicative identity otherwise you
+
+184
+00:09:26,280 --> 00:09:32,580
+don't necessarily have something that's
+
+185
+00:09:27,330 --> 00:09:38,370
+a ring over sin of course the kernel of
+
+186
+00:09:32,580 --> 00:09:43,620
+ring homomorphism is an ideal and the
+
+187
+00:09:38,370 --> 00:09:50,340
+image so that was an ideal of the domain
+
+188
+00:09:43,620 --> 00:09:54,840
+ring and the image is a sub ring of the
+
+189
+00:09:50,340 --> 00:09:58,830
+target ring and so those are sort of
+
+190
+00:09:54,840 --> 00:10:04,860
+obvious things but there was some very
+
+191
+00:09:58,830 --> 00:10:10,050
+good examples I mean there was a sort of
+
+192
+00:10:04,860 --> 00:10:12,290
+canonical example which we exploited of
+
+193
+00:10:10,050 --> 00:10:19,350
+a ring homomorphism if I have any ring
+
+194
+00:10:12,290 --> 00:10:22,800
+then there's a natural homomorphism from
+
+195
+00:10:19,350 --> 00:10:24,840
+the ring of integers to that ring so
+
+196
+00:10:22,800 --> 00:10:26,760
+this is for any ring R and that's just
+
+197
+00:10:24,840 --> 00:10:28,110
+you know defined by sending the
+
+198
+00:10:26,760 --> 00:10:30,780
+multiplicative identity at
+
+199
+00:10:28,110 --> 00:10:32,400
+multiplicative identity of Z namely 1 2
+
+200
+00:10:30,780 --> 00:10:35,130
+the multiplicative identity of our
+
+201
+00:10:32,400 --> 00:10:36,900
+namely 1 and then just you know using
+
+202
+00:10:35,130 --> 00:10:41,410
+the obvious sort of
+
+203
+00:10:36,900 --> 00:10:43,780
+addition properties to fill out that
+
+204
+00:10:41,410 --> 00:10:45,130
+homomorphism this reports easily
+
+205
+00:10:43,780 --> 00:10:47,950
+verified that isn't he a homomorphism
+
+206
+00:10:45,130 --> 00:10:50,290
+but the point of that was that we could
+
+207
+00:10:47,950 --> 00:10:52,030
+exploit that to understand some very
+
+208
+00:10:50,290 --> 00:10:57,580
+very important structural aspects of
+
+209
+00:10:52,030 --> 00:10:59,890
+rings among them we use that for
+
+210
+00:10:57,580 --> 00:11:02,680
+instance to understand finite fields we
+
+211
+00:10:59,890 --> 00:11:04,720
+exploited this precisely to understand
+
+212
+00:11:02,680 --> 00:11:06,520
+what were the fine what are the finite
+
+213
+00:11:04,720 --> 00:11:08,530
+fields like identify what are the
+
+214
+00:11:06,520 --> 00:11:12,820
+possible finite fields and then later on
+
+215
+00:11:08,530 --> 00:11:14,650
+we saw the background for why that why
+
+216
+00:11:12,820 --> 00:11:17,530
+all of those were realizable but we gave
+
+217
+00:11:14,650 --> 00:11:19,960
+you know what was you know the largest
+
+218
+00:11:17,530 --> 00:11:22,740
+possible set of finite fields using just
+
+219
+00:11:19,960 --> 00:11:34,540
+that an understanding of this homework
+
+220
+00:11:22,740 --> 00:11:41,290
+instruction of finite fields and another
+
+221
+00:11:34,540 --> 00:11:42,940
+feature of rings so the you know the
+
+222
+00:11:41,290 --> 00:11:44,110
+addition law obviously gives rise to a
+
+223
+00:11:42,940 --> 00:11:45,760
+group but there's another group that you
+
+224
+00:11:44,110 --> 00:11:50,100
+canonically associate to a ring and that
+
+225
+00:11:45,760 --> 00:11:50,100
+is the multiplicative group of that ring
+
+226
+00:11:50,820 --> 00:11:59,950
+or in the main terminology we use the
+
+227
+00:11:54,640 --> 00:12:06,730
+group of units so denoted R cross or our
+
+228
+00:11:59,950 --> 00:12:11,170
+star these are the elements which are
+
+229
+00:12:06,730 --> 00:12:13,540
+invertible so there exists beta such
+
+230
+00:12:11,170 --> 00:12:17,800
+that alpha beta is the multiplicative
+
+231
+00:12:13,540 --> 00:12:19,540
+identity and you know in nice examples
+
+232
+00:12:17,800 --> 00:12:28,290
+like fields that that was everything
+
+233
+00:12:19,540 --> 00:12:31,470
+except 0 for instance we saw building on
+
+234
+00:12:28,290 --> 00:12:36,850
+notions of ideals and home morphisms
+
+235
+00:12:31,470 --> 00:12:38,740
+quotients so your quotient are Madai and
+
+236
+00:12:36,850 --> 00:12:41,290
+of course when you have such a thing
+
+237
+00:12:38,740 --> 00:12:46,060
+there's a this canonical homomorphism
+
+238
+00:12:41,290 --> 00:12:47,550
+from the ring to that quotient and just
+
+239
+00:12:46,060 --> 00:12:50,500
+as in group theory
+
+240
+00:12:47,550 --> 00:12:53,650
+the notion of quotients led to
+
+241
+00:12:50,500 --> 00:12:55,690
+ice amorphous in theorems so we have the
+
+242
+00:12:53,650 --> 00:12:57,970
+first isomorphism theorem which of
+
+243
+00:12:55,690 --> 00:13:01,330
+course said you know just like an
+
+244
+00:12:57,970 --> 00:13:07,860
+unusual case that if I have some sort of
+
+245
+00:13:01,330 --> 00:13:10,720
+homomorphism Phi then our mod cur Phi
+
+246
+00:13:07,860 --> 00:13:15,040
+admits an induced homomorphism from this
+
+247
+00:13:10,720 --> 00:13:22,350
+Phi to the target ring and this thing is
+
+248
+00:13:15,040 --> 00:13:26,080
+injective and along those lines we had
+
+249
+00:13:22,350 --> 00:13:29,830
+that you could understand the ideals of
+
+250
+00:13:26,080 --> 00:13:31,990
+a quotient in terms of the ideals of the
+
+251
+00:13:29,830 --> 00:13:36,970
+initial ring under sort of basic
+
+252
+00:13:31,990 --> 00:13:46,950
+correspondence ideals of our mod G
+
+253
+00:13:36,970 --> 00:13:46,950
+correspond to ideals of our containing J
+
+254
+00:13:49,140 --> 00:13:52,870
+so and and I mean there was a third
+
+255
+00:13:51,370 --> 00:13:54,850
+isomorphism theorem that said that in
+
+256
+00:13:52,870 --> 00:13:56,560
+fact not only do they correspond the
+
+257
+00:13:54,850 --> 00:13:58,720
+correspondence is so natural that when
+
+258
+00:13:56,560 --> 00:14:02,380
+you take quotients the quotients are
+
+259
+00:13:58,720 --> 00:14:05,850
+isomorphic to the quotients under this
+
+260
+00:14:02,380 --> 00:14:05,850
+correspondence yes
+
+261
+00:14:12,070 --> 00:14:16,160
+yeah so I mean that's the second
+
+262
+00:14:14,630 --> 00:14:18,260
+isomorphism fear and the second Isis
+
+263
+00:14:16,160 --> 00:14:21,110
+more than serum tells you what's the
+
+264
+00:14:18,260 --> 00:14:22,820
+correspondence between ideals in a
+
+265
+00:14:21,110 --> 00:14:24,620
+quotient and ideals in the initial ring
+
+266
+00:14:22,820 --> 00:14:26,840
+now if you start out with a homomorphism
+
+267
+00:14:24,620 --> 00:14:28,790
+that induces I mean that that thing
+
+268
+00:14:26,840 --> 00:14:32,630
+corresponds to some sort of ideal of the
+
+269
+00:14:28,790 --> 00:14:35,030
+ring and you have you can you know sort
+
+270
+00:14:32,630 --> 00:14:37,370
+of rewrite this with J being the kernel
+
+271
+00:14:35,030 --> 00:14:39,440
+and then you will have as you say a
+
+272
+00:14:37,370 --> 00:14:41,840
+statement like that if you have a ring
+
+273
+00:14:39,440 --> 00:14:48,800
+homomorphism v from R to R Prime the
+
+274
+00:14:41,840 --> 00:14:51,200
+ideals of the image of this homomorphism
+
+275
+00:14:48,800 --> 00:14:53,060
+since that's isomorphic to R mod the
+
+276
+00:14:51,200 --> 00:14:55,370
+kernel are going to correspond to the
+
+277
+00:14:53,060 --> 00:14:57,440
+ideals of our containing the kernel but
+
+278
+00:14:55,370 --> 00:14:58,490
+that's just a cumulation of those two
+
+279
+00:14:57,440 --> 00:15:01,180
+statements it's not actually a
+
+280
+00:14:58,490 --> 00:15:01,180
+generalization
+
+281
+00:15:15,460 --> 00:15:21,080
+well I think that all the things that
+
+282
+00:15:18,290 --> 00:15:22,940
+are called isomorphism theorems follow
+
+283
+00:15:21,080 --> 00:15:25,010
+pretty much immediately from those two
+
+284
+00:15:22,940 --> 00:15:26,450
+statements well I mean and the sort of
+
+285
+00:15:25,010 --> 00:15:28,850
+third statement I made which is that you
+
+286
+00:15:26,450 --> 00:15:30,530
+know the quotients are isomorphic under
+
+287
+00:15:28,850 --> 00:15:32,180
+the second correspondence there but I
+
+288
+00:15:30,530 --> 00:15:33,860
+can't think of anything actually really
+
+289
+00:15:32,180 --> 00:15:35,930
+more general than the for the first
+
+290
+00:15:33,860 --> 00:15:37,100
+isomorphism theorem for the first state
+
+291
+00:15:35,930 --> 00:15:38,690
+and then the first statement I mean it's
+
+292
+00:15:37,100 --> 00:15:40,160
+it's actually more general than the way
+
+293
+00:15:38,690 --> 00:15:41,090
+it's usually stated in books I mean
+
+294
+00:15:40,160 --> 00:15:42,890
+there you have to start with this
+
+295
+00:15:41,090 --> 00:15:44,870
+surjective homomorphism so you know is
+
+296
+00:15:42,890 --> 00:15:47,120
+but I mean these are all you know
+
+297
+00:15:44,870 --> 00:15:48,440
+trivially equivalent so it's not it's
+
+298
+00:15:47,120 --> 00:15:50,360
+probably not a big deal I mean you
+
+299
+00:15:48,440 --> 00:15:54,880
+should be able to deduce from these
+
+300
+00:15:50,360 --> 00:15:54,880
+statements whatever statement you need I
+
+301
+00:15:55,720 --> 00:16:00,110
+mean in fact the first of the
+
+302
+00:15:58,520 --> 00:16:02,150
+isomorphism theorems are essentially two
+
+303
+00:16:00,110 --> 00:16:03,560
+Thalia seni way I mean you should it
+
+304
+00:16:02,150 --> 00:16:06,440
+should you should now be at the point
+
+305
+00:16:03,560 --> 00:16:08,540
+where you know exactly the proof of the
+
+306
+00:16:06,440 --> 00:16:10,430
+you know first isomorphism theorem and
+
+307
+00:16:08,540 --> 00:16:13,520
+either the group or ring cases it should
+
+308
+00:16:10,430 --> 00:16:18,800
+be just completely immediate what's
+
+309
+00:16:13,520 --> 00:16:20,510
+going on I mean math researchers at some
+
+310
+00:16:18,800 --> 00:16:22,280
+point don't even call these things if
+
+311
+00:16:20,510 --> 00:16:24,530
+you know isomorphism theorems anymore I
+
+312
+00:16:22,280 --> 00:16:26,000
+mean it's just sort of you just sort of
+
+313
+00:16:24,530 --> 00:16:28,190
+write it down and it's just sort of
+
+314
+00:16:26,000 --> 00:16:31,220
+automatic you know why sort of thing
+
+315
+00:16:28,190 --> 00:16:34,130
+works because I mean it's just the sort
+
+316
+00:16:31,220 --> 00:16:36,470
+of general idea of it if things are
+
+317
+00:16:34,130 --> 00:16:38,960
+contained in the kernel then since
+
+318
+00:16:36,470 --> 00:16:41,090
+they're sent to something trivial and
+
+319
+00:16:38,960 --> 00:16:45,080
+the target of the you know whatever
+
+320
+00:16:41,090 --> 00:16:48,920
+morphism you're dealing with you know
+
+321
+00:16:45,080 --> 00:16:54,380
+those differences don't matter anyway
+
+322
+00:16:48,920 --> 00:16:57,470
+the I one of the major uses of this
+
+323
+00:16:54,380 --> 00:17:00,310
+quotient construction was the creation
+
+324
+00:16:57,470 --> 00:17:00,310
+of relations
+
+325
+00:17:04,560 --> 00:17:09,070
+so I mean lots of very very simple
+
+326
+00:17:07,390 --> 00:17:12,790
+examples of creation of relations so
+
+327
+00:17:09,070 --> 00:17:18,160
+suppose I start out with polynomials
+
+328
+00:17:12,790 --> 00:17:20,410
+over the integers and I now want to
+
+329
+00:17:18,160 --> 00:17:22,630
+somehow you know construct a new ring
+
+330
+00:17:20,410 --> 00:17:26,320
+out of this thing such that you know x
+
+331
+00:17:22,630 --> 00:17:28,329
+squared is minus 1 then I do the the
+
+332
+00:17:26,320 --> 00:17:33,070
+obvious thing I want x squared plus 1 to
+
+333
+00:17:28,329 --> 00:17:36,460
+be 0 so I quotient by x squared plus 1
+
+334
+00:17:33,070 --> 00:17:39,790
+and I indeed get now ring which has this
+
+335
+00:17:36,460 --> 00:17:42,790
+element this formal element which has as
+
+336
+00:17:39,790 --> 00:17:45,040
+its square minus 1 and this is just the
+
+337
+00:17:42,790 --> 00:17:48,630
+ring of Gaussian images so creation of
+
+338
+00:17:45,040 --> 00:17:52,180
+relations is very very simple idea and
+
+339
+00:17:48,630 --> 00:17:58,300
+there's a bit of a warning on that be
+
+340
+00:17:52,180 --> 00:18:01,710
+careful with what you think creation of
+
+341
+00:17:58,300 --> 00:18:05,640
+relations actually does so for instance
+
+342
+00:18:01,710 --> 00:18:09,180
+you might think that if you would make X
+
+343
+00:18:05,640 --> 00:18:13,900
+satisfy the property that its square is
+
+344
+00:18:09,180 --> 00:18:17,530
+1 then you would have just the integers
+
+345
+00:18:13,900 --> 00:18:19,690
+back in fact if you mod out by x squared
+
+346
+00:18:17,530 --> 00:18:25,450
+minus 1 you do not get the ring of
+
+347
+00:18:19,690 --> 00:18:28,480
+integers you get you cross the integers
+
+348
+00:18:25,450 --> 00:18:31,540
+and so understanding why this happens is
+
+349
+00:18:28,480 --> 00:18:34,600
+is a useful point I mean so I mean you
+
+350
+00:18:31,540 --> 00:18:37,990
+you presumably remember how this works I
+
+351
+00:18:34,600 --> 00:18:39,400
+mean if I have an element alpha and the
+
+352
+00:18:37,990 --> 00:18:41,440
+quotient here and I'll just think of it
+
+353
+00:18:39,400 --> 00:18:46,450
+as actually being a polynomial over the
+
+354
+00:18:41,440 --> 00:18:51,940
+integers so alpha of X then I can for
+
+355
+00:18:46,450 --> 00:18:56,680
+instance get this thing by evaluating at
+
+356
+00:18:51,940 --> 00:19:04,710
+plus 1 and minus 1 so alpha 1 alpha
+
+357
+00:18:56,680 --> 00:19:04,710
+minus y induces an isomorphism
+
+358
+00:19:15,610 --> 00:19:23,060
+okay so then sort of moving on from this
+
+359
+00:19:21,680 --> 00:19:24,200
+creation of relations I mean you can
+
+360
+00:19:23,060 --> 00:19:25,820
+assume that you're just starting out
+
+361
+00:19:24,200 --> 00:19:29,330
+with some sort of polynomial ring over a
+
+362
+00:19:25,820 --> 00:19:31,670
+ring and use this construction to very
+
+363
+00:19:29,330 --> 00:19:44,240
+precisely join elements much as we were
+
+364
+00:19:31,670 --> 00:19:46,940
+doing here elements so I mean you know
+
+365
+00:19:44,240 --> 00:19:48,560
+at some point you know we wanted to do
+
+366
+00:19:46,940 --> 00:19:55,520
+things just like there so you know we
+
+367
+00:19:48,560 --> 00:19:57,500
+start you start with the integers and
+
+368
+00:19:55,520 --> 00:20:01,730
+you know we want to do something say
+
+369
+00:19:57,500 --> 00:20:04,100
+like enjoin a square root of two so you
+
+370
+00:20:01,730 --> 00:20:08,120
+know use the sort of notation zu join
+
+371
+00:20:04,100 --> 00:20:11,030
+square root two and that was just see
+
+372
+00:20:08,120 --> 00:20:14,180
+you join the following bringing over X
+
+373
+00:20:11,030 --> 00:20:16,190
+modulo x squared minus two but there was
+
+374
+00:20:14,180 --> 00:20:17,840
+another sort of thing that we did and
+
+375
+00:20:16,190 --> 00:20:20,750
+that was we could do things like add
+
+376
+00:20:17,840 --> 00:20:22,040
+inverses to elements and this you know
+
+377
+00:20:20,750 --> 00:20:24,770
+turned out to be extremely important
+
+378
+00:20:22,040 --> 00:20:28,010
+later when we were dealing with fields
+
+379
+00:20:24,770 --> 00:20:31,490
+of fractions in a domain or of a domain
+
+380
+00:20:28,010 --> 00:20:34,940
+or a domain but you know suppose I want
+
+381
+00:20:31,490 --> 00:20:38,540
+to join now to this ring an inverse of
+
+382
+00:20:34,940 --> 00:20:39,770
+three so I want to join one-third I mean
+
+383
+00:20:38,540 --> 00:20:41,390
+one-third is certainly not in the
+
+384
+00:20:39,770 --> 00:20:44,570
+integers but suppose you want to add
+
+385
+00:20:41,390 --> 00:20:47,420
+one-third to be integer as well in fact
+
+386
+00:20:44,570 --> 00:20:52,850
+add it to this ring so Z you join root 2
+
+387
+00:20:47,420 --> 00:20:59,620
+and a third well I could write that as Z
+
+388
+00:20:52,850 --> 00:21:04,760
+join X Y modulo X squared -2 and 3 y -1
+
+389
+00:20:59,620 --> 00:21:06,340
+the image of Y under this homomorphism
+
+390
+00:21:04,760 --> 00:21:11,900
+then gets sent to this thing which
+
+391
+00:21:06,340 --> 00:21:14,510
+behaves like a third so adding inverses
+
+392
+00:21:11,900 --> 00:21:16,040
+of things could be you know done and is
+
+393
+00:21:14,510 --> 00:21:18,400
+actually very very important sort of
+
+394
+00:21:16,040 --> 00:21:18,400
+procedure
+
+395
+00:21:19,990 --> 00:21:28,840
+we saw integral domains a reuleaux
+
+396
+00:21:26,680 --> 00:21:31,030
+domains are in many ways the most
+
+397
+00:21:28,840 --> 00:21:32,320
+intuitive sort of rings because I think
+
+398
+00:21:31,030 --> 00:21:34,330
+I think in many ways the the sort of
+
+399
+00:21:32,320 --> 00:21:38,950
+prime ring the you always think of is
+
+400
+00:21:34,330 --> 00:21:42,850
+the integers and integer is certainly
+
+401
+00:21:38,950 --> 00:21:49,920
+hard you know a former domain and so
+
+402
+00:21:42,850 --> 00:21:49,920
+these are rings with no zero divisors
+
+403
+00:21:53,490 --> 00:22:04,900
+which is to say that if a B equals zero
+
+404
+00:21:59,850 --> 00:22:06,700
+then a is zero or B equals zero of
+
+405
+00:22:04,900 --> 00:22:10,450
+course this is false in many rings if I
+
+406
+00:22:06,700 --> 00:22:15,550
+consider Z mod 6z neither 2 nor 3 are 0
+
+407
+00:22:10,450 --> 00:22:17,200
+but 2 times 3 is 0 and that is the
+
+408
+00:22:15,550 --> 00:22:19,540
+source of a lot of problems I mean so
+
+409
+00:22:17,200 --> 00:22:21,760
+for instance polynomials over such
+
+410
+00:22:19,540 --> 00:22:24,520
+things behave rather differently than
+
+411
+00:22:21,760 --> 00:22:30,930
+over a domain than over a domain or over
+
+412
+00:22:24,520 --> 00:22:34,810
+a field so that's useful to bear in mind
+
+413
+00:22:30,930 --> 00:22:37,360
+right and given an integral domain as I
+
+414
+00:22:34,810 --> 00:22:39,310
+just mentioned there was this sort of
+
+415
+00:22:37,360 --> 00:22:42,390
+canonical field that you could associate
+
+416
+00:22:39,310 --> 00:22:49,210
+to that the field of fractions
+
+417
+00:22:42,390 --> 00:22:56,230
+I'll give it a domain R you can
+
+418
+00:22:49,210 --> 00:23:04,440
+associate to its field fractions call it
+
+419
+00:22:56,230 --> 00:23:06,730
+f and the next topic we dealt with was
+
+420
+00:23:04,440 --> 00:23:12,850
+maximal ideals maximal ideals are very
+
+421
+00:23:06,730 --> 00:23:14,890
+important because we use them
+
+422
+00:23:12,850 --> 00:23:19,420
+extensively in all of our number
+
+423
+00:23:14,890 --> 00:23:24,490
+theoretic work that came with our study
+
+424
+00:23:19,420 --> 00:23:28,780
+of factorization and so on so so M is
+
+425
+00:23:24,490 --> 00:23:33,810
+maximal of course just by definition if
+
+426
+00:23:28,780 --> 00:23:33,810
+and only if the only ideals
+
+427
+00:23:35,620 --> 00:23:48,040
+containing m m r m and the entire ring
+
+428
+00:23:42,440 --> 00:24:07,760
+and this was equivalent to our mod m
+
+429
+00:23:48,040 --> 00:24:09,110
+being a field but but okay yeah well I
+
+430
+00:24:07,760 --> 00:24:10,750
+mean it's pretty intruder stuff the
+
+431
+00:24:09,110 --> 00:24:14,120
+thing about that via this section on
+
+432
+00:24:10,750 --> 00:24:15,560
+maximal ideals in the book is that it
+
+433
+00:24:14,120 --> 00:24:16,820
+starts getting into algebraic geometry
+
+434
+00:24:15,560 --> 00:24:18,380
+so it has this whole thing on the hill
+
+435
+00:24:16,820 --> 00:24:19,520
+but no Stellan sets now you don't need
+
+436
+00:24:18,380 --> 00:24:20,720
+to know anything about the hilbert no
+
+437
+00:24:19,520 --> 00:24:22,100
+stone sets if you've been reading the
+
+438
+00:24:20,720 --> 00:24:23,420
+study guide you would know you do not
+
+439
+00:24:22,100 --> 00:24:24,740
+need to know anything you have no strong
+
+440
+00:24:23,420 --> 00:24:27,340
+sense we didn't do it in class we didn't
+
+441
+00:24:24,740 --> 00:24:31,340
+answer any problems on it or anything
+
+442
+00:24:27,340 --> 00:24:33,350
+that's algebraic geometry and we're not
+
+443
+00:24:31,340 --> 00:24:34,610
+doing that but I highly recommend taking
+
+444
+00:24:33,350 --> 00:24:39,440
+I'll drink geometry at some point in
+
+445
+00:24:34,610 --> 00:24:41,240
+your life so the thing you mainly need
+
+446
+00:24:39,440 --> 00:24:43,160
+to know about maximum ideals is that
+
+447
+00:24:41,240 --> 00:24:47,480
+they're these you know largest ideals
+
+448
+00:24:43,160 --> 00:24:49,520
+they are maximal oh I should mention one
+
+449
+00:24:47,480 --> 00:24:56,630
+of the conditions that this is not in
+
+450
+00:24:49,520 --> 00:24:58,520
+fact the unit ideal so and you know it's
+
+451
+00:24:56,630 --> 00:25:00,460
+it's that second isomorphism theorem
+
+452
+00:24:58,520 --> 00:25:03,710
+that I mentioned that tells you that
+
+453
+00:25:00,460 --> 00:25:06,260
+that's equivalent to the quotient being
+
+454
+00:25:03,710 --> 00:25:08,120
+a field because after all a field is
+
+455
+00:25:06,260 --> 00:25:10,490
+characterized by the fact that it has
+
+456
+00:25:08,120 --> 00:25:12,710
+only two ideals the zero ideal and the
+
+457
+00:25:10,490 --> 00:25:15,110
+full ideal and those are distinct ideals
+
+458
+00:25:12,710 --> 00:25:17,000
+and that's just you know saying that the
+
+459
+00:25:15,110 --> 00:25:19,430
+only ideals in a container thing are
+
+460
+00:25:17,000 --> 00:25:22,210
+precisely those two distinct ideals so
+
+461
+00:25:19,430 --> 00:25:22,210
+there you go
+
+462
+00:25:24,730 --> 00:25:33,130
+right oh well so let me just give some
+
+463
+00:25:28,160 --> 00:25:33,130
+examples so
+
+464
+00:25:36,210 --> 00:25:41,130
+this is a maximal ideal in the integers
+
+465
+00:25:41,640 --> 00:25:50,880
+if C is any complex number then this is
+
+466
+00:25:46,630 --> 00:25:52,960
+a maximum ideal in polynomial right
+
+467
+00:25:50,880 --> 00:25:54,550
+those are pretty obvious because the
+
+468
+00:25:52,960 --> 00:25:55,929
+quotient here is e mod 3 which is where
+
+469
+00:25:54,550 --> 00:25:57,460
+in this sir if I get archetypal fields
+
+470
+00:25:55,929 --> 00:25:59,860
+we saw on the quotient here is to see
+
+471
+00:25:57,460 --> 00:26:02,820
+and that's another pretty obvious field
+
+472
+00:25:59,860 --> 00:26:02,820
+great
+
+473
+00:26:15,300 --> 00:26:20,750
+so the enemy started looking yeah yeah
+
+474
+00:26:21,530 --> 00:26:28,920
+yeah so see you some fixed complex
+
+475
+00:26:26,010 --> 00:26:30,750
+numbers so I I could write you know Eve
+
+476
+00:26:28,920 --> 00:26:49,950
+where it you use the base of the natural
+
+477
+00:26:30,750 --> 00:26:53,490
+logarithm or something if that's okay so
+
+478
+00:26:49,950 --> 00:26:56,340
+consider the homomorphism so I'll just
+
+479
+00:26:53,490 --> 00:27:01,230
+return this to see consider the home
+
+480
+00:26:56,340 --> 00:27:04,890
+morphism from c join x - c which takes a
+
+481
+00:27:01,230 --> 00:27:10,740
+polynomial and evaluates it at see the
+
+482
+00:27:04,890 --> 00:27:15,240
+kernel this is surjective and the kernel
+
+483
+00:27:10,740 --> 00:27:17,490
+is the principal ideal generated by X -
+
+484
+00:27:15,240 --> 00:27:19,320
+C you can see that by various means like
+
+485
+00:27:17,490 --> 00:27:22,800
+the Euclidean algorithm on see you join
+
+486
+00:27:19,320 --> 00:27:25,440
+X and so by the first isomorphism
+
+487
+00:27:22,800 --> 00:27:29,550
+theorem seem odd to join X mod X minus C
+
+488
+00:27:25,440 --> 00:27:32,970
+is isomorphic C C is a field
+
+489
+00:27:29,550 --> 00:27:38,760
+so by this characterization X minus C is
+
+490
+00:27:32,970 --> 00:27:43,830
+maximal so you have a question oh well I
+
+491
+00:27:38,760 --> 00:27:47,460
+mean because I could just take the you
+
+492
+00:27:43,830 --> 00:27:51,690
+know constant polynomial you know R so R
+
+493
+00:27:47,460 --> 00:28:01,760
+plus no higher terms and if I evaluate R
+
+494
+00:27:51,690 --> 00:28:01,760
+and C then I get R so it's surjective
+
+495
+00:28:02,700 --> 00:28:10,090
+okay great so then we started looking at
+
+496
+00:28:07,090 --> 00:28:15,159
+some more structured rings we considered
+
+497
+00:28:10,090 --> 00:28:17,860
+a you know factorization as a sort of
+
+498
+00:28:15,159 --> 00:28:20,379
+innately important and interesting thing
+
+499
+00:28:17,860 --> 00:28:22,240
+and we found that factorization is in
+
+500
+00:28:20,379 --> 00:28:25,840
+general a very very difficult thing to
+
+501
+00:28:22,240 --> 00:28:27,929
+understand but that under certain
+
+502
+00:28:25,840 --> 00:28:31,240
+assumptions if you start you know
+
+503
+00:28:27,929 --> 00:28:32,980
+finding additional properties of the
+
+504
+00:28:31,240 --> 00:28:34,450
+ring like there's some sort of division
+
+505
+00:28:32,980 --> 00:28:36,100
+algorithm then you can make the whole
+
+506
+00:28:34,450 --> 00:28:39,279
+process a lot easier you can actually
+
+507
+00:28:36,100 --> 00:28:41,950
+start you know disentangling how you
+
+508
+00:28:39,279 --> 00:28:44,379
+know given elements you know decomposed
+
+509
+00:28:41,950 --> 00:28:50,139
+into products of somehow simpler
+
+510
+00:28:44,379 --> 00:28:52,629
+elements so again the sort of that our
+
+511
+00:28:50,139 --> 00:28:53,889
+archetypal example of you know anything
+
+512
+00:28:52,629 --> 00:28:59,039
+is the ring of integers and the ring of
+
+513
+00:28:53,889 --> 00:28:59,039
+integers form a Euclidean domain
+
+514
+00:28:59,610 --> 00:29:05,559
+conveniently into what's including
+
+515
+00:29:03,370 --> 00:29:09,460
+domain well it's this thing it's a ring
+
+516
+00:29:05,559 --> 00:29:11,860
+it has a Euclidean norm Delta which is
+
+517
+00:29:09,460 --> 00:29:14,799
+this sort of is just some function on
+
+518
+00:29:11,860 --> 00:29:17,470
+the non zero elements of the ring and it
+
+519
+00:29:14,799 --> 00:29:18,759
+maps that to some well ordered set I
+
+520
+00:29:17,470 --> 00:29:20,200
+mean that's really all you need a well
+
+521
+00:29:18,759 --> 00:29:23,139
+ordered set although we you know I think
+
+522
+00:29:20,200 --> 00:29:25,929
+we took as you know a target thing you
+
+523
+00:29:23,139 --> 00:29:27,279
+know the positive integers or the
+
+524
+00:29:25,929 --> 00:29:28,870
+non-negative integers or so I think that
+
+525
+00:29:27,279 --> 00:29:31,750
+but I mean that that's that's really not
+
+526
+00:29:28,870 --> 00:29:33,669
+the essential feature I mean the
+
+527
+00:29:31,750 --> 00:29:36,100
+essential feature of the the
+
+528
+00:29:33,669 --> 00:29:38,980
+non-negative integers is just that you
+
+529
+00:29:36,100 --> 00:29:43,210
+know I have some minimal element in any
+
+530
+00:29:38,980 --> 00:29:44,379
+subset a non-empty subset of those which
+
+531
+00:29:43,210 --> 00:29:46,029
+is false in general I mean if I
+
+532
+00:29:44,379 --> 00:29:47,590
+considered a non-empty subset of R there
+
+533
+00:29:46,029 --> 00:29:49,090
+isn't necessarily a smallest element
+
+534
+00:29:47,590 --> 00:29:50,679
+contained in that set I mean I have in
+
+535
+00:29:49,090 --> 00:29:53,350
+FEMA but I don't necessarily have a
+
+536
+00:29:50,679 --> 00:29:55,679
+smallest element but that's this is true
+
+537
+00:29:53,350 --> 00:29:59,340
+though for the non-negative integers say
+
+538
+00:29:55,679 --> 00:30:06,039
+anyway so we have this Euclidean norm
+
+539
+00:29:59,340 --> 00:30:07,539
+and a division algorithm and just some
+
+540
+00:30:06,039 --> 00:30:09,070
+function would be stupid because I could
+
+541
+00:30:07,539 --> 00:30:10,179
+always just define some function but in
+
+542
+00:30:09,070 --> 00:30:11,769
+point of the function is that it
+
+543
+00:30:10,179 --> 00:30:13,539
+actually corresponds to something it
+
+544
+00:30:11,769 --> 00:30:14,930
+does something and as part of the
+
+545
+00:30:13,539 --> 00:30:17,260
+division algorithm the division
+
+546
+00:30:14,930 --> 00:30:22,670
+with them saying that if I have a and a
+
+547
+00:30:17,260 --> 00:30:25,640
+nonzero B then there are Q and R such
+
+548
+00:30:22,670 --> 00:30:30,740
+they e equals B Q plus R and either R
+
+549
+00:30:25,640 --> 00:30:40,430
+equals zero or the norm of R is less
+
+550
+00:30:30,740 --> 00:30:42,110
+than the norm of E and examples of such
+
+551
+00:30:40,430 --> 00:30:44,540
+things well of course as E as I
+
+552
+00:30:42,110 --> 00:30:47,480
+mentioned if I have a field
+
+553
+00:30:44,540 --> 00:30:52,700
+oh and was so what's the occluding norm
+
+554
+00:30:47,480 --> 00:30:58,250
+here well just the absolute value if I
+
+555
+00:30:52,700 --> 00:31:00,500
+have a field then f of X is the
+
+556
+00:30:58,250 --> 00:31:06,580
+Euclidean domain of course and it has as
+
+557
+00:31:00,500 --> 00:31:09,380
+is Euclidean norm the degree function
+
+558
+00:31:06,580 --> 00:31:11,660
+and an important consequence of this
+
+559
+00:31:09,380 --> 00:31:14,000
+observation that we have this division
+
+560
+00:31:11,660 --> 00:31:16,340
+algorithm where the occluding norm is
+
+561
+00:31:14,000 --> 00:31:18,230
+the degree was that for instance over a
+
+562
+00:31:16,340 --> 00:31:22,160
+field now this is of course false in
+
+563
+00:31:18,230 --> 00:31:23,900
+general but over a field at least you
+
+564
+00:31:22,160 --> 00:31:26,450
+have a bound on the number of roots of
+
+565
+00:31:23,900 --> 00:31:28,850
+any polynomial this is false in general
+
+566
+00:31:26,450 --> 00:31:39,980
+but for fields it's true that if I have
+
+567
+00:31:28,850 --> 00:31:43,100
+a polynomial over a field that was
+
+568
+00:31:39,980 --> 00:31:48,890
+implies a sort of corollary that F is a
+
+569
+00:31:43,100 --> 00:31:55,400
+field and f of X is a polynomial over
+
+570
+00:31:48,890 --> 00:31:59,450
+that field then the number of roots of
+
+571
+00:31:55,400 --> 00:32:03,080
+this thing F less than or equal to the
+
+572
+00:31:59,450 --> 00:32:05,150
+degree which is a nice observation but
+
+573
+00:32:03,080 --> 00:32:10,210
+as I said this is false if F is not a
+
+574
+00:32:05,150 --> 00:32:10,210
+field hmm
+
+575
+00:32:14,480 --> 00:32:20,820
+another nice example was the Gaussian
+
+576
+00:32:17,429 --> 00:32:24,090
+integer so I joined square root of -1 to
+
+577
+00:32:20,820 --> 00:32:27,929
+the integers this thing has as this
+
+578
+00:32:24,090 --> 00:32:31,649
+Euclidean norm an a-plus evaluated in a
+
+579
+00:32:27,929 --> 00:32:33,509
+plus bi a squared plus B squared or put
+
+580
+00:32:31,649 --> 00:32:35,820
+another way just the square of the
+
+581
+00:32:33,509 --> 00:32:40,669
+absolute value function where you view
+
+582
+00:32:35,820 --> 00:32:43,499
+the elements here as complex numbers and
+
+583
+00:32:40,669 --> 00:32:46,320
+another important you know caveat is
+
+584
+00:32:43,499 --> 00:32:49,049
+that this doesn't generalize to
+
+585
+00:32:46,320 --> 00:32:51,090
+arbitrary quadratic rings so if I join a
+
+586
+00:32:49,049 --> 00:32:54,169
+square root of D to the integers and
+
+587
+00:32:51,090 --> 00:32:56,759
+it's not true that the corresponding
+
+588
+00:32:54,169 --> 00:32:59,070
+thing that we later called a norm
+
+589
+00:32:56,759 --> 00:33:01,289
+function is in fact a Euclidean norm I
+
+590
+00:32:59,070 --> 00:33:02,909
+mean so if you just give me you know
+
+591
+00:33:01,289 --> 00:33:05,490
+random thing like you know Z adjoin
+
+592
+00:33:02,909 --> 00:33:07,769
+screw it you know 497 or something that
+
+593
+00:33:05,490 --> 00:33:09,419
+is not going to be a Euclidean domain
+
+594
+00:33:07,769 --> 00:33:11,190
+even though there is a sort of natural
+
+595
+00:33:09,419 --> 00:33:14,220
+norm function on there well I should say
+
+596
+00:33:11,190 --> 00:33:15,509
+minus 497 because square root 497 that's
+
+597
+00:33:14,220 --> 00:33:18,210
+obviously not going to work because
+
+598
+00:33:15,509 --> 00:33:20,669
+you're going to have negative images in
+
+599
+00:33:18,210 --> 00:33:24,779
+the north to the norm you're gonna get
+
+600
+00:33:20,669 --> 00:33:28,080
+arbitrarily you know no negative you
+
+601
+00:33:24,779 --> 00:33:31,619
+know large negative numbers but anyway
+
+602
+00:33:28,080 --> 00:33:34,320
+so it's not even true if I join a square
+
+603
+00:33:31,619 --> 00:33:36,779
+root of a negative number okay
+
+604
+00:33:34,320 --> 00:33:40,289
+in complete generality although there
+
+605
+00:33:36,779 --> 00:33:42,600
+are cases where it does work and then we
+
+606
+00:33:40,289 --> 00:33:45,809
+saw a generalization of Euclidean
+
+607
+00:33:42,600 --> 00:33:47,700
+domains I mean one of the the principal
+
+608
+00:33:45,809 --> 00:33:50,610
+things about Euclidean domains is that
+
+609
+00:33:47,700 --> 00:33:54,749
+their ideals are principal so we looked
+
+610
+00:33:50,610 --> 00:33:59,429
+at the idea in greater generality so we
+
+611
+00:33:54,749 --> 00:34:03,779
+saw principal ideal domains pids so
+
+612
+00:33:59,429 --> 00:34:07,019
+these are things we're not too
+
+613
+00:34:03,779 --> 00:34:12,329
+surprisingly all ideals are principal
+
+614
+00:34:07,019 --> 00:34:13,919
+and of course as I just said I have
+
+615
+00:34:12,329 --> 00:34:17,849
+something that's Euclidean Euclidean
+
+616
+00:34:13,919 --> 00:34:23,510
+domain then that's a principal ideal
+
+617
+00:34:17,849 --> 00:34:23,510
+domain and how do we see that well
+
+618
+00:34:23,720 --> 00:34:28,140
+obviously the zero ideal is principled
+
+619
+00:34:26,040 --> 00:34:36,140
+because it's generated by zero but if I
+
+620
+00:34:28,140 --> 00:34:45,630
+have some non-zero ideal then choose an
+
+621
+00:34:36,140 --> 00:34:49,890
+element of the ideal with minimal norm
+
+622
+00:34:45,630 --> 00:34:54,750
+minimal Euclidean norm and then it's not
+
+623
+00:34:49,890 --> 00:34:57,960
+hard to show that the ideal is oh and
+
+624
+00:34:54,750 --> 00:35:10,580
+this should be nonzero then I is in fact
+
+625
+00:34:57,960 --> 00:35:12,660
+generated by this X so there you go um
+
+626
+00:35:10,580 --> 00:35:23,940
+then there was all this stuff oh sorry
+
+627
+00:35:12,660 --> 00:35:25,830
+was a question ok class there was a
+
+628
+00:35:23,940 --> 00:35:27,060
+lecture where I tried to clear up a lot
+
+629
+00:35:25,830 --> 00:35:28,710
+of that stuff now you don't have to know
+
+630
+00:35:27,060 --> 00:35:30,030
+lots of stuff that lots of stuff about
+
+631
+00:35:28,710 --> 00:35:31,200
+the relationship between prime and
+
+632
+00:35:30,030 --> 00:35:33,690
+irreducible elements but you should at
+
+633
+00:35:31,200 --> 00:35:35,310
+least know the definitions and have some
+
+634
+00:35:33,690 --> 00:35:37,020
+intuition for what's going on there know
+
+635
+00:35:35,310 --> 00:35:39,120
+that you know the very basics of the
+
+636
+00:35:37,020 --> 00:35:43,430
+relationships between these things so we
+
+637
+00:35:39,120 --> 00:35:47,550
+have these things prime elements and
+
+638
+00:35:43,430 --> 00:35:49,740
+irreducible elements and these are
+
+639
+00:35:47,550 --> 00:35:54,050
+distinct concepts but in certain cases
+
+640
+00:35:49,740 --> 00:35:58,710
+they actually can be conflated etc etc
+
+641
+00:35:54,050 --> 00:36:04,860
+another sort of a generalization of PIDs
+
+642
+00:35:58,710 --> 00:36:12,170
+we saw uru FPS and these are unique
+
+643
+00:36:04,860 --> 00:36:21,120
+factorization domains so domains where
+
+644
+00:36:12,170 --> 00:36:24,260
+you can factor elements uniquely of
+
+645
+00:36:21,120 --> 00:36:24,260
+course up to Associates
+
+646
+00:36:26,820 --> 00:36:39,390
+into irreducible elements and again as
+
+647
+00:36:37,620 --> 00:36:42,060
+I've said this is a generalization so if
+
+648
+00:36:39,390 --> 00:36:46,380
+I have something that's a PID it is a u
+
+649
+00:36:42,060 --> 00:36:47,820
+FD u f DS have a lot of things that you
+
+650
+00:36:46,380 --> 00:36:49,920
+want most I mean they have sort of a
+
+651
+00:36:47,820 --> 00:36:51,570
+notion of greatest common divisor and
+
+652
+00:36:49,920 --> 00:36:57,330
+they have about yeah lots of good
+
+653
+00:36:51,570 --> 00:36:59,010
+structure and polynomial rings over you
+
+654
+00:36:57,330 --> 00:37:01,230
+FTEs for instance are very well behaved
+
+655
+00:36:59,010 --> 00:37:06,360
+by the polynomial ring over a UFT then
+
+656
+00:37:01,230 --> 00:37:08,430
+it's a UFT which was a useful fact in a
+
+657
+00:37:06,360 --> 00:37:10,260
+lot of the stuff that we did a lot of
+
+658
+00:37:08,430 --> 00:37:12,150
+proofs are easier actually given the
+
+659
+00:37:10,260 --> 00:37:14,940
+knowledge a lot of proofs of things
+
+660
+00:37:12,150 --> 00:37:16,680
+about like PID is like that you know the
+
+661
+00:37:14,940 --> 00:37:18,930
+the prime ideals are maximal ideals
+
+662
+00:37:16,680 --> 00:37:19,950
+become much simpler with you know their
+
+663
+00:37:18,930 --> 00:37:21,660
+you know the correspondence between
+
+664
+00:37:19,950 --> 00:37:23,880
+irreducible and prime elements become
+
+665
+00:37:21,660 --> 00:37:34,100
+much simpler in ufd use so you f DS are
+
+666
+00:37:23,880 --> 00:37:34,100
+very convenient rings to work in right
+
+667
+00:37:36,440 --> 00:37:41,760
+we moved on to Gauss's lemma so Gauss's
+
+668
+00:37:39,480 --> 00:37:44,460
+lemma is treated in the book as if it's
+
+669
+00:37:41,760 --> 00:37:46,440
+something about polynomials over the
+
+670
+00:37:44,460 --> 00:37:48,240
+integers of course it won't come as a
+
+671
+00:37:46,440 --> 00:37:51,870
+huge shock that that generalizes
+
+672
+00:37:48,240 --> 00:37:53,370
+significantly but you don't really need
+
+673
+00:37:51,870 --> 00:37:58,190
+to know for anything then over the
+
+674
+00:37:53,370 --> 00:38:04,820
+integers so there was this notion of
+
+675
+00:37:58,190 --> 00:38:10,410
+primitive polynomial over the integers
+
+676
+00:38:04,820 --> 00:38:14,880
+and this was one where if I write down
+
+677
+00:38:10,410 --> 00:38:21,630
+the coefficients of this polynomial you
+
+678
+00:38:14,880 --> 00:38:26,520
+know a 0 a 1 a n then the greatest
+
+679
+00:38:21,630 --> 00:38:33,300
+common divisor of those coefficients is
+
+680
+00:38:26,520 --> 00:38:37,130
+plus or minus 1 and from that we have
+
+681
+00:38:33,300 --> 00:38:37,130
+this notion of content
+
+682
+00:38:45,770 --> 00:38:53,339
+and we proved dilemma that said
+
+683
+00:38:48,329 --> 00:38:55,380
+something like given any polynomial over
+
+684
+00:38:53,339 --> 00:38:57,510
+the rational numbers there's a unique
+
+685
+00:38:55,380 --> 00:38:59,339
+rational number up to sign at least
+
+686
+00:38:57,510 --> 00:39:00,599
+although I think that's normalized in
+
+687
+00:38:59,339 --> 00:39:03,359
+the book to be positive or something
+
+688
+00:39:00,599 --> 00:39:04,470
+that's just silly because in that that
+
+689
+00:39:03,359 --> 00:39:06,000
+doesn't generalize I mean there's no
+
+690
+00:39:04,470 --> 00:39:07,619
+notion of positive or negative and in
+
+691
+00:39:06,000 --> 00:39:09,240
+general ring so I mean the good notion
+
+692
+00:39:07,619 --> 00:39:11,220
+is just you know the thing is defined
+
+693
+00:39:09,240 --> 00:39:12,780
+content is defined up to units I mean
+
+694
+00:39:11,220 --> 00:39:17,730
+that that's what you see in any higher
+
+695
+00:39:12,780 --> 00:39:19,710
+you know algebra textbook so the content
+
+696
+00:39:17,730 --> 00:39:21,900
+is this thing that's uniquely defined up
+
+697
+00:39:19,710 --> 00:39:26,099
+to units which in integers are luckily
+
+698
+00:39:21,900 --> 00:39:28,260
+just plus or minus 1 such that I can
+
+699
+00:39:26,099 --> 00:39:30,420
+write this polynomial is a product of
+
+700
+00:39:28,260 --> 00:39:31,950
+the content and a primitive polynomial
+
+701
+00:39:30,420 --> 00:39:39,020
+this is a very very important concept
+
+702
+00:39:31,950 --> 00:39:42,180
+because it led to Gauss's lemma what was
+
+703
+00:39:39,020 --> 00:39:44,640
+relevant as an application were combined
+
+704
+00:39:42,180 --> 00:39:47,210
+as it with an application of Gauss's
+
+705
+00:39:44,640 --> 00:39:50,670
+lemma to a lot of studies of
+
+706
+00:39:47,210 --> 00:39:52,109
+irreducibility of polynomials so Gauss's
+
+707
+00:39:50,670 --> 00:39:56,700
+lama was this thing that said that if I
+
+708
+00:39:52,109 --> 00:40:00,359
+have F and G being primitive then the
+
+709
+00:39:56,700 --> 00:40:02,250
+product of F and G is primitive and of
+
+710
+00:40:00,359 --> 00:40:04,130
+course this was a relatively
+
+711
+00:40:02,250 --> 00:40:07,410
+straightforward proof the idea was that
+
+712
+00:40:04,130 --> 00:40:08,970
+it is it's you know that the principle
+
+713
+00:40:07,410 --> 00:40:11,510
+of the thing can be you know summarized
+
+714
+00:40:08,970 --> 00:40:17,279
+in almost a sentence the idea was that
+
+715
+00:40:11,510 --> 00:40:23,760
+if a prime P divides all of the
+
+716
+00:40:17,279 --> 00:40:25,980
+coefficients of FG then because F P
+
+717
+00:40:23,760 --> 00:40:30,680
+adjoint X so the the field with key
+
+718
+00:40:25,980 --> 00:40:32,880
+elements to join X is a domain then
+
+719
+00:40:30,680 --> 00:40:36,599
+that's saying this thing is zero and
+
+720
+00:40:32,880 --> 00:40:38,730
+hence that either F is 0 or G is 0 and
+
+721
+00:40:36,599 --> 00:40:40,500
+that's synonymous with P dividing all
+
+722
+00:40:38,730 --> 00:40:42,270
+the coefficients of F or dividing all
+
+723
+00:40:40,500 --> 00:40:45,510
+the coefficients of G which would
+
+724
+00:40:42,270 --> 00:40:48,390
+contradict primitivity hypothesis and so
+
+725
+00:40:45,510 --> 00:40:49,950
+there is no such prime P so the GCD must
+
+726
+00:40:48,390 --> 00:40:51,540
+be plus or minus 1 so
+
+727
+00:40:49,950 --> 00:40:53,849
+you must be primitives it's a very very
+
+728
+00:40:51,540 --> 00:40:57,170
+simple proof conceptually extremely
+
+729
+00:40:53,849 --> 00:41:02,250
+simple proof and it was nonetheless
+
+730
+00:40:57,170 --> 00:41:15,480
+extremely important because it gave us
+
+731
+00:41:02,250 --> 00:41:21,270
+results like if I have an irreducible
+
+732
+00:41:15,480 --> 00:41:26,640
+polynomial over as you join X then in
+
+733
+00:41:21,270 --> 00:41:28,500
+fact that's irreducible over the
+
+734
+00:41:26,640 --> 00:41:30,089
+rational numbers which is not something
+
+735
+00:41:28,500 --> 00:41:31,650
+that's a priori obvious I mean that's
+
+736
+00:41:30,089 --> 00:41:35,400
+that's actually a somewhat subtle
+
+737
+00:41:31,650 --> 00:41:37,170
+statement a priori although it comes out
+
+738
+00:41:35,400 --> 00:41:43,050
+easily from an understanding of content
+
+739
+00:41:37,170 --> 00:41:45,030
+and Gauss's lemma and yeah so those are
+
+740
+00:41:43,050 --> 00:41:51,660
+very very important things very very
+
+741
+00:41:45,030 --> 00:41:55,349
+important things and then moving along
+
+742
+00:41:51,660 --> 00:41:57,780
+we saw that there were various criteria
+
+743
+00:41:55,349 --> 00:42:00,990
+that took advantage of this sort of you
+
+744
+00:41:57,780 --> 00:42:03,030
+know thing there's the sort of basic
+
+745
+00:42:00,990 --> 00:42:04,520
+irreducibility relationship to tell us
+
+746
+00:42:03,030 --> 00:42:08,690
+you know more sophisticated
+
+747
+00:42:04,520 --> 00:42:08,690
+irreducibility relationships so
+
+748
+00:42:17,220 --> 00:42:28,829
+for instance we have the Eisenstein
+
+749
+00:42:20,069 --> 00:42:33,290
+criterion which said that if I have a
+
+750
+00:42:28,829 --> 00:42:37,049
+polynomial over the integers so call it
+
+751
+00:42:33,290 --> 00:42:47,270
+call the coefficients a 0 through a M
+
+752
+00:42:37,049 --> 00:42:51,290
+and X to the M and a prime P such that P
+
+753
+00:42:47,270 --> 00:42:57,390
+does not divide the highest coefficient
+
+754
+00:42:51,290 --> 00:43:01,470
+but P does divide the lower coefficients
+
+755
+00:42:57,390 --> 00:43:12,500
+but also P squared does not divide a
+
+756
+00:43:01,470 --> 00:43:16,549
+zero then this polynomial is irreducible
+
+757
+00:43:12,500 --> 00:43:21,000
+as a polynomial over the rationals
+
+758
+00:43:16,549 --> 00:43:24,030
+and I mean after it seems like it's very
+
+759
+00:43:21,000 --> 00:43:25,790
+very difficult to I mean find situations
+
+760
+00:43:24,030 --> 00:43:29,010
+where your polynomial actually satisfies
+
+761
+00:43:25,790 --> 00:43:31,710
+these divisibility hypotheses by some
+
+762
+00:43:29,010 --> 00:43:33,480
+sort of Prime in fact they're
+
+763
+00:43:31,710 --> 00:43:35,369
+interesting cases which you saw on the
+
+764
+00:43:33,480 --> 00:43:36,960
+homework where or I mean there were
+
+765
+00:43:35,369 --> 00:43:38,250
+problems on the homework where there
+
+766
+00:43:36,960 --> 00:43:40,170
+were multiple ways of showing that
+
+767
+00:43:38,250 --> 00:43:41,910
+something was irreducible but in many
+
+768
+00:43:40,170 --> 00:43:43,470
+way in many cases but one of the
+
+769
+00:43:41,910 --> 00:43:46,410
+cleverest ways of showing that something
+
+770
+00:43:43,470 --> 00:43:48,480
+was irreducible was to make a shift in
+
+771
+00:43:46,410 --> 00:43:51,119
+the polynomial so for instance it's
+
+772
+00:43:48,480 --> 00:43:56,250
+pretty clear that f of X is your du
+
+773
+00:43:51,119 --> 00:44:00,119
+scible if and only if f of X - you know
+
+774
+00:43:56,250 --> 00:44:03,809
+s is irreducible and it is in many cases
+
+775
+00:44:00,119 --> 00:44:06,390
+true that even though f of X does not
+
+776
+00:44:03,809 --> 00:44:09,240
+satisfy the eisenstein criterion at any
+
+777
+00:44:06,390 --> 00:44:10,980
+prime the shift of the thing does and so
+
+778
+00:44:09,240 --> 00:44:12,839
+that gave you the irreducibility of this
+
+779
+00:44:10,980 --> 00:44:14,010
+polynomial and hence of this poem so
+
+780
+00:44:12,839 --> 00:44:18,200
+that's just it's a clever little trick
+
+781
+00:44:14,010 --> 00:44:18,200
+it's something that that's nice to know
+
+782
+00:44:33,560 --> 00:44:41,550
+so this is the point in which we stop
+
+783
+00:44:36,660 --> 00:44:44,070
+doing you know a lot of stuff there that
+
+784
+00:44:41,550 --> 00:44:45,600
+could be you know very generalized and
+
+785
+00:44:44,070 --> 00:44:48,690
+we started looking at you know some of
+
+786
+00:44:45,600 --> 00:44:50,970
+some very very specific stuff namely
+
+787
+00:44:48,690 --> 00:44:53,730
+stuff about quadratic rings and
+
+788
+00:44:50,970 --> 00:44:57,210
+especially imaginary quadratic rings
+
+789
+00:44:53,730 --> 00:45:01,580
+ones that obtained by joining some
+
+790
+00:44:57,210 --> 00:45:01,580
+square root of a negative integer and
+
+791
+00:45:03,080 --> 00:45:08,540
+because it's a Euclidean domain a great
+
+792
+00:45:06,000 --> 00:45:11,790
+place to start is the Gaussian integers
+
+793
+00:45:08,540 --> 00:45:15,240
+and we started trying to understand what
+
+794
+00:45:11,790 --> 00:45:16,620
+are the primes of Z adjoint I and how
+
+795
+00:45:15,240 --> 00:45:19,320
+does that generalize well I turned out
+
+796
+00:45:16,620 --> 00:45:21,480
+to be fairly easy actually to identify
+
+797
+00:45:19,320 --> 00:45:25,950
+the primes of Z join now I'm going to
+
+798
+00:45:21,480 --> 00:45:28,440
+present you know the theoretical
+
+799
+00:45:25,950 --> 00:45:30,780
+statement the structure theory for
+
+800
+00:45:28,440 --> 00:45:35,570
+Prime's in a way slightly different from
+
+801
+00:45:30,780 --> 00:45:39,900
+the book but one that I think is sort of
+
+802
+00:45:35,570 --> 00:45:43,680
+conceptually more in line with why this
+
+803
+00:45:39,900 --> 00:45:45,270
+is useful and where this goes so I mean
+
+804
+00:45:43,680 --> 00:45:49,340
+the first thing I just want to remark is
+
+805
+00:45:45,270 --> 00:45:57,420
+this thing you know this thing is a PID
+
+806
+00:45:49,340 --> 00:46:00,990
+so prime ideals are the same things or
+
+807
+00:45:57,420 --> 00:46:01,920
+at least nonzero prime ideals which were
+
+808
+00:46:00,990 --> 00:46:03,600
+I mean we're not really interested in
+
+809
+00:46:01,920 --> 00:46:05,730
+this your ideal we know that Z adjoint I
+
+810
+00:46:03,600 --> 00:46:10,800
+is a domain and that's equivalent to the
+
+811
+00:46:05,730 --> 00:46:12,030
+zero ideal being a prime ideal but you
+
+812
+00:46:10,800 --> 00:46:14,670
+know forget about that we know that
+
+813
+00:46:12,030 --> 00:46:17,310
+already it's not very important so let
+
+814
+00:46:14,670 --> 00:46:20,070
+me just exclude those so the non zero
+
+815
+00:46:17,310 --> 00:46:23,270
+prime ideals are really the same things
+
+816
+00:46:20,070 --> 00:46:23,270
+as prime elements
+
+817
+00:46:25,280 --> 00:46:30,200
+so if I have any problem ideal it's
+
+818
+00:46:28,460 --> 00:46:36,290
+generated by some element and that
+
+819
+00:46:30,200 --> 00:46:40,880
+element is a prime outlet necessarily
+
+820
+00:46:36,290 --> 00:46:47,330
+and vice versa and so if I start out
+
+821
+00:46:40,880 --> 00:46:48,530
+with some prime ideal which you should
+
+822
+00:46:47,330 --> 00:46:50,890
+now think of as just being a prime
+
+823
+00:46:48,530 --> 00:46:53,360
+element as I just said
+
+824
+00:46:50,890 --> 00:46:55,760
+remember the prime ideal is one that
+
+825
+00:46:53,360 --> 00:46:59,660
+satisfies if product developments is in
+
+826
+00:46:55,760 --> 00:47:06,380
+the thing then one of those elements is
+
+827
+00:46:59,660 --> 00:47:09,860
+in the ideal then the intersection with
+
+828
+00:47:06,380 --> 00:47:12,530
+the integers must be prime ideal it's
+
+829
+00:47:09,860 --> 00:47:17,570
+not hard to show that I mean if I have a
+
+830
+00:47:12,530 --> 00:47:19,670
+product of elements in here then well in
+
+831
+00:47:17,570 --> 00:47:21,350
+particular it's in here so one of the
+
+832
+00:47:19,670 --> 00:47:23,090
+elements must be in there or in there
+
+833
+00:47:21,350 --> 00:47:25,190
+but I you know by hypothesis this is a
+
+834
+00:47:23,090 --> 00:47:27,200
+product of elements of Z so the thing
+
+835
+00:47:25,190 --> 00:47:30,430
+must be a prime ideal we know that the
+
+836
+00:47:27,200 --> 00:47:33,710
+prime ideals of the integers are just
+
+837
+00:47:30,430 --> 00:47:37,280
+the things generated by integer primes
+
+838
+00:47:33,710 --> 00:47:40,430
+so if I intersect with the integers this
+
+839
+00:47:37,280 --> 00:47:45,380
+thing is just some the principal ideal
+
+840
+00:47:40,430 --> 00:47:52,310
+generated by some prime number and yeah
+
+841
+00:47:45,380 --> 00:47:55,610
+so this is for some prime P and Z and we
+
+842
+00:47:52,310 --> 00:48:00,620
+saw was that we could recover all the
+
+843
+00:47:55,610 --> 00:48:06,440
+possibilities for P from for big P from
+
+844
+00:48:00,620 --> 00:48:10,130
+little P so specifically if little P is
+
+845
+00:48:06,440 --> 00:48:12,230
+2 then there's only one possibility for
+
+846
+00:48:10,130 --> 00:48:13,790
+the prime idea so there's only I mean
+
+847
+00:48:12,230 --> 00:48:15,440
+the terminology used by number theorist
+
+848
+00:48:13,790 --> 00:48:18,890
+is you talk about Prime's above another
+
+849
+00:48:15,440 --> 00:48:22,250
+prime so the Prime's above 2 the ones
+
+850
+00:48:18,890 --> 00:48:26,030
+that somehow intersect the integers to
+
+851
+00:48:22,250 --> 00:48:27,680
+give you 2 well there's only one of
+
+852
+00:48:26,030 --> 00:48:30,170
+those and that's the the principal ideal
+
+853
+00:48:27,680 --> 00:48:31,370
+of Z adjoin I generated by 1 plus I up
+
+854
+00:48:30,170 --> 00:48:34,430
+to you know I mean this thing is of
+
+855
+00:48:31,370 --> 00:48:36,410
+course agiels ideal generator there's
+
+856
+00:48:34,430 --> 00:48:38,150
+only the determinant up to unit so there
+
+857
+00:48:36,410 --> 00:48:47,869
+are a lot of other possible generators
+
+858
+00:48:38,150 --> 00:48:49,970
+but that's the basic idea yes yeah
+
+859
+00:48:47,869 --> 00:48:55,369
+that's that's another way of stating it
+
+860
+00:48:49,970 --> 00:48:57,170
+so it turns out that that and I think
+
+861
+00:48:55,369 --> 00:49:00,710
+this is explained in the book to some
+
+862
+00:48:57,170 --> 00:49:02,630
+extent at least that's the the order
+
+863
+00:49:00,710 --> 00:49:03,950
+relation so I mean an ideal being a sub
+
+864
+00:49:02,630 --> 00:49:05,930
+sag you know principle ideal being a
+
+865
+00:49:03,950 --> 00:49:06,890
+subset of another principle ideal is the
+
+866
+00:49:05,930 --> 00:49:09,950
+same thing as a divisibility
+
+867
+00:49:06,890 --> 00:49:13,789
+relationship and so I mean for fairly
+
+868
+00:49:09,950 --> 00:49:15,740
+obvious reasons so yes I mean using that
+
+869
+00:49:13,789 --> 00:49:19,460
+that correspondence between divisibility
+
+870
+00:49:15,740 --> 00:49:21,650
+and you know the fact that well by
+
+871
+00:49:19,460 --> 00:49:26,029
+definition I mean by construction this
+
+872
+00:49:21,650 --> 00:49:31,250
+thing this is contained in this that
+
+873
+00:49:26,029 --> 00:49:36,789
+tells you that this must divide this is
+
+874
+00:49:31,250 --> 00:49:43,609
+that clear great okay so if I have a
+
+875
+00:49:36,789 --> 00:49:48,559
+prime congruent to 3 mod 4 then the
+
+876
+00:49:43,609 --> 00:49:51,589
+prime above P is well just P so it's not
+
+877
+00:49:48,559 --> 00:49:56,200
+not the most interesting case and in the
+
+878
+00:49:51,589 --> 00:50:00,049
+case where P is congruent to 1 mod 4
+
+879
+00:49:56,200 --> 00:50:04,210
+then he is generated by some prime
+
+880
+00:50:00,049 --> 00:50:16,099
+element pi obviously joint I such that
+
+881
+00:50:04,210 --> 00:50:17,660
+pi PI bar is equal to P and so that this
+
+882
+00:50:16,099 --> 00:50:19,730
+is actually you know a highly sort of
+
+883
+00:50:17,660 --> 00:50:22,160
+exploitable consequence and I think at
+
+884
+00:50:19,730 --> 00:50:24,140
+some point the book you know goes into
+
+885
+00:50:22,160 --> 00:50:26,510
+you know a sort of nomenclature for
+
+886
+00:50:24,140 --> 00:50:28,039
+these three different cases so this case
+
+887
+00:50:26,510 --> 00:50:32,059
+I think is at some point called the
+
+888
+00:50:28,039 --> 00:50:34,730
+ramified case because you know this is
+
+889
+00:50:32,059 --> 00:50:38,690
+not the same thing as this prime but
+
+890
+00:50:34,730 --> 00:50:39,980
+it's you know it's you know the case
+
+891
+00:50:38,690 --> 00:50:44,329
+that not not the case that there's some
+
+892
+00:50:39,980 --> 00:50:46,309
+sort of distinct conjugate which you
+
+893
+00:50:44,329 --> 00:50:48,559
+know how has its product with this thing
+
+894
+00:50:46,309 --> 00:50:51,410
+being the prime I mean the square in
+
+895
+00:50:48,559 --> 00:50:55,020
+other words of P P squared
+
+896
+00:50:51,410 --> 00:51:01,680
+is the principle ideal generated by
+
+897
+00:50:55,020 --> 00:51:04,710
+little p-well to in this case this is
+
+898
+00:51:01,680 --> 00:51:07,530
+the inert case I mean inert you know he
+
+899
+00:51:04,710 --> 00:51:11,070
+doesn't do anything it's inert and this
+
+900
+00:51:07,530 --> 00:51:15,990
+is the split case because in this case
+
+901
+00:51:11,070 --> 00:51:18,210
+pi PI bar so then these are distinct
+
+902
+00:51:15,990 --> 00:51:20,850
+ideals in this case completely distinct
+
+903
+00:51:18,210 --> 00:51:23,730
+ideals actually equals this thing so
+
+904
+00:51:20,850 --> 00:51:25,920
+that Prime here or the thing that was a
+
+905
+00:51:23,730 --> 00:51:29,220
+prime here when I extend it to the co
+
+906
+00:51:25,920 --> 00:51:42,450
+join I splits into a product of two
+
+907
+00:51:29,220 --> 00:51:44,820
+ideals yes I mean if I take one plus I
+
+908
+00:51:42,450 --> 00:51:48,510
+squared I get like minus 2i or something
+
+909
+00:51:44,820 --> 00:51:51,660
+like this yeah I mean minus 2i r 2i and
+
+910
+00:51:48,510 --> 00:51:53,070
+the point is that I is a unit in Z
+
+911
+00:51:51,660 --> 00:51:54,570
+u-joint I so the principle ideal
+
+912
+00:51:53,070 --> 00:52:00,500
+generated by 2i is the same as a
+
+913
+00:51:54,570 --> 00:52:04,260
+principle ideal generated by two great
+
+914
+00:52:00,500 --> 00:52:06,690
+and we saw a generalization of that of
+
+915
+00:52:04,260 --> 00:52:08,310
+this kind of this kind of framework this
+
+916
+00:52:06,690 --> 00:52:18,960
+kind of you know set of possibilities
+
+917
+00:52:08,310 --> 00:52:20,520
+for how Prime's behave later on in much
+
+918
+00:52:18,960 --> 00:52:25,320
+greater generality but let me just say
+
+919
+00:52:20,520 --> 00:52:29,310
+something else first something about
+
+920
+00:52:25,320 --> 00:52:31,740
+what the generalization of Z join is
+
+921
+00:52:29,310 --> 00:52:35,850
+because that is sort of a prerequisite
+
+922
+00:52:31,740 --> 00:52:41,700
+for talking about how Prime's behave in
+
+923
+00:52:35,850 --> 00:52:45,450
+the generalization so as suppose I start
+
+924
+00:52:41,700 --> 00:52:47,130
+with some sort of quadratic ring so I've
+
+925
+00:52:45,450 --> 00:52:53,370
+joined some sort of square root of an
+
+926
+00:52:47,130 --> 00:52:55,710
+integer to the rational numbers well we
+
+927
+00:52:53,370 --> 00:53:03,570
+saw that there's a notion of algebraic
+
+928
+00:52:55,710 --> 00:53:08,110
+integer so if the ring of wall
+
+929
+00:53:03,570 --> 00:53:10,240
+algebraic integers in their books calls
+
+930
+00:53:08,110 --> 00:53:13,990
+that thing are another notation you
+
+931
+00:53:10,240 --> 00:53:18,400
+might see elsewhere is a sub F and we
+
+932
+00:53:13,990 --> 00:53:21,190
+found that what this thing is depends on
+
+933
+00:53:18,400 --> 00:53:29,230
+what this generator is so I'm going to
+
+934
+00:53:21,190 --> 00:53:31,600
+just assume the D is square 3 and mmm
+
+935
+00:53:29,230 --> 00:53:34,930
+some cases this was just sort of the
+
+936
+00:53:31,600 --> 00:53:37,540
+most obvious thing D congruent to 2 or 3
+
+937
+00:53:34,930 --> 00:53:39,930
+mod 4 meant that all the algebraic
+
+938
+00:53:37,540 --> 00:53:42,910
+integers just looked like sums of
+
+939
+00:53:39,930 --> 00:53:46,180
+integers plus integers x squared D but
+
+940
+00:53:42,910 --> 00:53:50,770
+in the other case where D is congruent
+
+941
+00:53:46,180 --> 00:53:52,690
+to 1 mod 4 obviously the case Conor in
+
+942
+00:53:50,770 --> 00:53:55,030
+to 0 mod 4 is impossible because then a
+
+943
+00:53:52,690 --> 00:53:57,550
+square namely 4 would divide the thing
+
+944
+00:53:55,030 --> 00:54:05,440
+and we're assuming D is square free so
+
+945
+00:53:57,550 --> 00:54:07,240
+as you join 1 plus root D over 2 is the
+
+946
+00:54:05,440 --> 00:54:08,710
+ring of wall algebraic integers so or
+
+947
+00:54:07,240 --> 00:54:13,720
+put it another way
+
+948
+00:54:08,710 --> 00:54:16,420
+sums of either integers plus integers x
+
+949
+00:54:13,720 --> 00:54:18,520
+squared D or half integers explicitly
+
+950
+00:54:16,420 --> 00:54:23,320
+you know truly half integers plus truly
+
+951
+00:54:18,520 --> 00:54:26,740
+happen in there's x squared name so that
+
+952
+00:54:23,320 --> 00:54:28,750
+was good and one of the things to
+
+953
+00:54:26,740 --> 00:54:30,880
+explore when you're trying to understand
+
+954
+00:54:28,750 --> 00:54:32,770
+things like primes and factorization are
+
+955
+00:54:30,880 --> 00:54:35,170
+units I mean they turn up in the death
+
+956
+00:54:32,770 --> 00:54:38,650
+and very definitions of you know things
+
+957
+00:54:35,170 --> 00:54:40,660
+like irreducible elements so it's good
+
+958
+00:54:38,650 --> 00:54:43,510
+to have a pretty good idea of what the
+
+959
+00:54:40,660 --> 00:54:45,580
+units are and in complete generality
+
+960
+00:54:43,510 --> 00:54:47,080
+whether or not D is positive or negative
+
+961
+00:54:45,580 --> 00:54:48,430
+although I think in the book it stated
+
+962
+00:54:47,080 --> 00:54:56,230
+only for D negative
+
+963
+00:54:48,430 --> 00:55:04,770
+in complete generality the units in the
+
+964
+00:54:56,230 --> 00:55:04,770
+the ring are the elements whose norm
+
+965
+00:55:05,040 --> 00:55:11,040
+our plus or minus one now of course if R
+
+966
+00:55:08,940 --> 00:55:13,530
+is imaginary quadratic norms must be
+
+967
+00:55:11,040 --> 00:55:16,500
+positive so I could have equally well
+
+968
+00:55:13,530 --> 00:55:18,270
+said if D were negative that this is the
+
+969
+00:55:16,500 --> 00:55:22,380
+set of things with norm alpha equal to
+
+970
+00:55:18,270 --> 00:55:24,600
+plus one but if I want to include the
+
+971
+00:55:22,380 --> 00:55:27,900
+real quadratic ones the ones that I get
+
+972
+00:55:24,600 --> 00:55:29,400
+by joining some positive integer square
+
+973
+00:55:27,900 --> 00:55:33,030
+root of a positive integer then I need
+
+974
+00:55:29,400 --> 00:55:37,950
+to include negative one so and the proof
+
+975
+00:55:33,030 --> 00:55:44,760
+of that was pretty obvious and of course
+
+976
+00:55:37,950 --> 00:55:49,140
+by the norm of alpha or better put the
+
+977
+00:55:44,760 --> 00:55:50,580
+norm of a plus B root D so these are
+
+978
+00:55:49,140 --> 00:55:52,110
+either integers or half integers
+
+979
+00:55:50,580 --> 00:56:00,510
+according to the case of D there's a
+
+980
+00:55:52,110 --> 00:56:05,640
+question well I mean in the case where I
+
+981
+00:56:00,510 --> 00:56:09,000
+have D being positive the norms could be
+
+982
+00:56:05,640 --> 00:56:11,100
+negative right I mean I could have
+
+983
+00:56:09,000 --> 00:56:12,900
+something with norm negative one but by
+
+984
+00:56:11,100 --> 00:56:18,200
+the same proof that's obviously still a
+
+985
+00:56:12,900 --> 00:56:23,100
+unit right so it better be in there I
+
+986
+00:56:18,200 --> 00:56:24,390
+mean so for instance you know let me
+
+987
+00:56:23,100 --> 00:56:27,330
+think is see if I can think of an
+
+988
+00:56:24,390 --> 00:56:31,560
+appropriate unit I mean if I look at one
+
+989
+00:56:27,330 --> 00:56:36,680
+plus square root two or something the
+
+990
+00:56:31,560 --> 00:56:40,110
+the norm of this is negative one right
+
+991
+00:56:36,680 --> 00:56:43,020
+because it's 1 minus 2 that's negative 1
+
+992
+00:56:40,110 --> 00:56:47,310
+but it's a unit because I could multiply
+
+993
+00:56:43,020 --> 00:56:48,720
+by this by negative 1 minus root 2 and
+
+994
+00:56:47,310 --> 00:56:52,200
+that's equal to 1 so this is clearly a
+
+995
+00:56:48,720 --> 00:56:57,180
+unit but its norm is negative that clear
+
+996
+00:56:52,200 --> 00:56:59,340
+ok so this is a plus B Rudy times a be a
+
+997
+00:56:57,180 --> 00:57:03,570
+minus B Rudy or put another way a
+
+998
+00:56:59,340 --> 00:57:05,340
+squared minus B squared D so of course
+
+999
+00:57:03,570 --> 00:57:07,230
+if D is negative then this number is
+
+1000
+00:57:05,340 --> 00:57:09,150
+always positive but if D is positive
+
+1001
+00:57:07,230 --> 00:57:11,330
+then this could be very very negative or
+
+1002
+00:57:09,150 --> 00:57:14,220
+it could be minus 1 it could be anything
+
+1003
+00:57:11,330 --> 00:57:16,550
+well not anything that's that not
+
+1004
+00:57:14,220 --> 00:57:16,550
+anything
+
+1005
+00:57:19,830 --> 00:57:24,450
+okay and then in in the explicit case
+
+1006
+00:57:26,010 --> 00:57:33,970
+where D is negative you could say more I
+
+1007
+00:57:31,840 --> 00:57:35,440
+mean in case where D is positive there
+
+1008
+00:57:33,970 --> 00:57:41,710
+are tons of units they're just like
+
+1009
+00:57:35,440 --> 00:57:44,170
+flowing out of your ears but in the case
+
+1010
+00:57:41,710 --> 00:57:46,000
+where D is negative that you know that
+
+1011
+00:57:44,170 --> 00:57:48,670
+it really becomes a much simpler sort of
+
+1012
+00:57:46,000 --> 00:57:51,220
+situation so you can give a complete
+
+1013
+00:57:48,670 --> 00:57:53,710
+sort of list of all the possibilities if
+
+1014
+00:57:51,220 --> 00:57:55,330
+D is minus 1 these are the units in
+
+1015
+00:57:53,710 --> 00:58:05,590
+other words in the Gaussian integers we
+
+1016
+00:57:55,330 --> 00:58:10,420
+already knew that in the case of V being
+
+1017
+00:58:05,590 --> 00:58:13,540
+minus 3 letting Zeta 6 denote a sixth
+
+1018
+00:58:10,420 --> 00:58:18,070
+root of unity all the powers of the
+
+1019
+00:58:13,540 --> 00:58:23,320
+sixth root of unity form the units in
+
+1020
+00:58:18,070 --> 00:58:28,770
+that case and then if D is anything else
+
+1021
+00:58:23,320 --> 00:58:35,700
+negative then it's just plus or minus 1
+
+1022
+00:58:28,770 --> 00:58:41,710
+there's PZ you prove that yeah oh yeah
+
+1023
+00:58:35,700 --> 00:58:45,300
+so the next thing I just want to make
+
+1024
+00:58:41,710 --> 00:58:45,300
+one last comment and that is
+
+1025
+00:58:51,710 --> 00:59:03,000
+in studying that the prime ideals of
+
+1026
+00:58:55,020 --> 00:59:04,260
+more general are the crucial thing is
+
+1027
+00:59:03,000 --> 00:59:06,960
+sort of bear in mind is that you have
+
+1028
+00:59:04,260 --> 00:59:11,130
+this sort of relationship you know say
+
+1029
+00:59:06,960 --> 00:59:14,100
+our mod P is the same thing as Z a joint
+
+1030
+00:59:11,130 --> 00:59:19,560
+X modulo well either x squared minus D
+
+1031
+00:59:14,100 --> 00:59:21,240
+or x squared minus X plus 1 minus D over
+
+1032
+00:59:19,560 --> 00:59:23,160
+2 depending on what case you're in
+
+1033
+00:59:21,240 --> 00:59:26,270
+whether this is you know the D Connor
+
+1034
+00:59:23,160 --> 00:59:29,490
+into two or three case or congruent to
+
+1035
+00:59:26,270 --> 00:59:33,480
+or in the D Connor into one case and
+
+1036
+00:59:29,490 --> 00:59:36,030
+this thing is then just FP joint X
+
+1037
+00:59:33,480 --> 00:59:39,210
+modulo well again either X rayed minus D
+
+1038
+00:59:36,030 --> 00:59:41,190
+or this other polynomial so that tells
+
+1039
+00:59:39,210 --> 00:59:44,630
+you a lot so for instance you know this
+
+1040
+00:59:41,190 --> 00:59:49,040
+allows you to say things like well you
+
+1041
+00:59:44,630 --> 00:59:52,740
+know I can say that something is maximal
+
+1042
+00:59:49,040 --> 00:59:56,210
+you know a prime you know an integer a
+
+1043
+00:59:52,740 --> 00:59:58,770
+prime is maximal in this quadratic ring
+
+1044
+00:59:56,210 --> 01:00:02,130
+by looking all the way over here and
+
+1045
+00:59:58,770 --> 01:00:05,580
+seeing that the polynomial over here is
+
+1046
+01:00:02,130 --> 01:00:07,410
+irreducible and hence you know generates
+
+1047
+01:00:05,580 --> 01:00:10,170
+some maximal ideal and hence this thing
+
+1048
+01:00:07,410 --> 01:00:12,240
+is a field and so then lifting back here
+
+1049
+01:00:10,170 --> 01:00:14,460
+you knew that that thing was maximum so
+
+1050
+01:00:12,240 --> 01:00:16,920
+I'll answer more questions after I
+
+1051
+01:00:14,460 --> 01:00:22,190
+disconnect myself but I need to let him
+
+1052
+01:00:16,920 --> 01:00:22,190
+go so great
+

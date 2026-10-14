@@ -1,0 +1,994 @@
+1
+00:00:11,400 --> 00:00:18,705
+我们下周一（距今天正好一周）将在课上举行一次一小时考试。
+We're going to have an hour exam in class coming Monday, a week from today.
+
+2
+00:00:18,705 --> 00:00:34,275
+考试内容将覆盖所有材料——其实主要是第一次小考之后的内容，但你必须掌握群的定义之类的内容；所以覆盖直到今天课上、包括今天课上的全部内容。
+It will cover all the material—well, really from the first hour exam, but you'd have to know the definition of a group and things like that; so all the material that we've covered through today's class, and including today's class.
+
+3
+00:00:34,275 --> 00:00:49,875
+这就是“直到”的意思：内容小于等于今天的讲座。彼得将在周五课上对这些材料做复习，如果大家想梳理复习的话；而我届时会在纽约市。
+That's what "through" means: it's less than or equal to today's lecture. And Peter will do a review of this material in class on Friday, if you want to go over this; I'll be in New York City.
+
+4
+00:00:49,875 --> 00:01:09,050
+下周对于有感恩节出行计划的同学，我们将在周一举行小考；周三我会讲评试卷，并做一次特别讲座，因此即使那时不得不提前离开，你也不会受惩罚；不过你会错过难以置信的精彩内容。
+Then next week, for those of you who are making Thanksgiving plans, we'll have the hour exam on Monday; Wednesday, I will go over the exam and give somewhat of a special lecture, so that if you've had to take off by then, you won't be penalized; however, you'll miss an incredible amount of good stuff.
+
+5
+00:01:09,050 --> 00:01:42,104
+好，上次我们讲到了典范映射：如果 R 是一个交换环，存在一个从整数环到该环的自然映射——一个环同态，它完全由 f(1) 等于环中的 1 这一性质所刻画。只要它是环同态，就必然满足该条件。
+OK, so last time we looked at the canonical map: if we have R a commutative ring, there's a natural map from the integers to the ring, a ring homomorphism which is completely characterized by the fact that f(1) is 1 in the ring. That would have to be the case if it were a ring homomorphism.
+
+6
+00:01:42,104 --> 00:02:02,318
+而且它是可加的，所以对于 n 大于等于 1 的整数 n，f(n) 就是 n 个 1 相加的像 f(1 + 1 + ... + 1)，它必然等于 n 个 1_R 相加。
+And then it's additive, so f(n), which is the integer n where n is bigger than or equal to 1, would be f(1 + 1 + ... + 1) n times, which would have to be 1_R + ... + 1_R n times.
+
+7
+00:02:02,318 --> 00:02:17,099
+然后当然，当 n 为正时，f(-n) 必须等于 -f(n)，我们已经知道它是什么了，这就完全确定了映射；因此这给出了它在每个整数上的取值。
+And then, of course, f of -n, if n is positive, would have to be -f(n), which we know already what it is, and that determines it; so that tells you what it is on every integer.
+
+8
+00:02:17,099 --> 00:02:34,782
+然后你必须检验它保持乘法，它确实保持，这是由分配律保证的：如果你将 n 个 1_R 之和与 m 个 1_R 之和相乘，根据分配律，你会得到 mn 个 1_R 相加。
+And then you have to check that that's multiplicative, and it is; and it is by the distributive law: if you multiply (1 + 1 + ... + 1_R) n times by (1 + 1 + ... + 1_R) m times, you get the same thing mn times by the distributive law.
+
+9
+00:02:34,782 --> 00:02:40,354
+所以这是一个环同态，是与任意交换环相伴的典范环同态。
+So this is a ring homomorphism, it's the canonical ring homomorphism associated to any commutative ring.
+
+10
+00:02:40,354 --> 00:02:57,553
+我们知道其核是 Z 的理想，所以我们知道它具有 nZ 的形式（对某个 n >= 0），因为这些就是整数环的全部理想。
+Now we know that the kernel is an ideal of Z, so we know it has the form nZ for some n >= 0, because those are all the ideals of the integers.
+
+11
+00:02:57,553 --> 00:03:14,730
+例如，如果 R 是零环，核就是全集，因为 1_R 为 0，所以 f(1) = 0，f 对每个元素都为 0，所以核可以是……抱歉，
+For example, if R is the zero ring, the kernel is everything, because 1_R is 0, so f(1) is 0, so f of everything is 0, so the kernel can be the... sorry, yeah, then the kernel.
+
+12
+00:03:14,730 --> 00:03:25,099
+对，那么核……抱歉，那么该理想……所以如果——抱歉，让我写下来：如果 R 是零环，ker f 等于 Z。
+.. then that would be, sorry, then the ideal... So if—sorry, let me write this down: if R is the zero ring, ker f is equal to Z.
+
+13
+00:03:25,099 --> 00:03:51,968
+如果 R 是像 Z、Q 或实数域、复数域这样的环，那么环中的这些数都不为零，于是核就只是 0 * Z（零理想）；在这种情况下它是单射环同态。
+If R is equal to a ring like Z or Q or the real numbers or the complex numbers, then all of these numbers are non-zero in the ring, and so then the kernel is just 0 * Z (the zero ideal); in that case it's an injective ring homomorphism.
+
+14
+00:03:52,183 --> 00:04:04,061
+当然如果 R 是某个有限环，那么 ker f 就是 nZ；所以取决于你的环是什么，核几乎可以是任何理想。
+Of course, if R is some finite ring, then the kernel of f is nZ, so you can have pretty much anything for a kernel depending on what your ring is.
+
+15
+00:04:04,061 --> 00:04:25,411
+好，然而我将证明如下命题：若 R 是一个域，则 ker f 要么是 0，要么是 pZ（p 为素数）。
+OK, however, I'm going to prove the following proposition: if R is a field, the kernel of f is either 0 or pZ for p a prime.
+
+16
+00:04:25,411 --> 00:04:49,895
+你不可能拥有、在域的情形下不可能有任意的核。证明如下：假设 ker f 等于 nZ，其中 n 是合数。
+You can't have, you can't have an arbitrary kernel if you have a field. And the proof is like this: suppose the kernel of f is equal to nZ where n is composite.
+
+17
+00:04:49,895 --> 00:05:22,634
+我们要用反证法，将 n 写成 a * b，其中 a > 1 且 b >1；这就是合数的定义。这说明在 R 中 f(n) = 0；这就是它作为核的含义。但是 f(n) = f(a) * f(b)。
+So we're going to make a proof by contradiction, and we write n as a * b with a > 1 and b > 1; that's what we mean by a composite number. Now that says then f(n) = 0 in R; that's what it means for this to be the kernel. But f(n) is f(a) * f(b).
+
+18
+00:05:22,634 --> 00:05:49,359
+好，所以这里有两个数 f(a) 和 f(b)，我们可以记作 a_R 与 b_R——顺便说一句，这就是我称呼这个数的方式：这是环 R 中的元素 n，它可能是 0，但它是良定义的数。所以这两个数的乘积为 0。
+OK, so we have numbers here, f(a) and f(b), which we could call a_R and b_R—and that's what I call this number, by the way: this is the number n in the ring R, it might be 0, but it's a well-defined number. So we have these two numbers having product 0.
+
+19
+00:05:49,359 --> 00:06:02,305
+现在在域中，如果两个数的乘积为 0，其中一个数必为 0；因为如果 a_R 非零——而乘积等于 0_R，
+Now in a field, if a product of two numbers is 0, one of the numbers must be 0, because if a_R is non-zero—and this is equal to 0_R,
+
+20
+00:06:02,305 --> 00:06:22,852
+所以我们有此表达式——若 a_R != 0，你可以乘以 a_R^{-1}，因为在域中非零元均可逆，从而得到 b_R = 0。
+so we have this expression—if a_R != 0, you can multiply by a_R^{-1}, because in a field non-zero elements are invertible, to get b_R = 0.
+
+21
+00:06:22,852 --> 00:06:43,200
+所以 a_R 或 b_R 之一必为 0，但这与核是n 的倍数矛盾，因为当你对 n 做出这样的因数分解时，a 和 b 都不是 n 的倍数。
+So one of a_R or b_R must be 0, but that contradicts the fact that the kernel is multiples of n, because when you have a factorization of n like this, neither a nor b is a multiple of n.
+
+22
+00:06:43,200 --> 00:06:55,540
+这是个矛盾，因为 a 与 b 都不是 nZ 中的元素。
+This is a contradiction, as a and b are not elements in nZ.
+
+23
+00:06:55,540 --> 00:07:14,397
+注意，对于某些环这确实会失效：如果你取 Z/4Z 并计算2_R 乘 2_R，得到 4_R，这在环中是 0，但这两个因子在环中都不是 0。
+So notice that this goes wrong for rings like this: if you take Z/4Z and you multiply 2_R times 2_R, you get 4_R which is 0 in the ring, but neither of these elements are 0 in the ring.
+
+24
+00:07:14,397 --> 00:07:22,301
+但对于域来说，由于逆元的存在这种情况不可能发生；因此对于域，仅有的可能性是 0 和 pZ。
+But for a field, you can't have that happening because of inverses, and so for a field the only possibilities are 0 and pZ.
+
+25
+00:07:22,301 --> 00:07:32,701
+我们已经见过核为 0 的例子，比如 Q 是核为 0 的域；也可以有 pZ，例如 Z/pZ 就是核为 pZ 的域。
+And we've seen that we can have 0, for example: Q is a field where the kernel is 0; and we can have pZ, for example Z/pZ is a field where the kernel is pZ.
+
+26
+00:07:32,701 --> 00:07:40,693
+所以这是任何域的一个不变量——即该同态的核是什么，它被称为域的特征（characteristic）。
+So this is an invariant of any field, what the kernel is of this homomorphism, and it's called the characteristic of the field.
+
+27
+00:07:40,693 --> 00:07:57,897
+在这种情形下我们说域的特征为0；在那种情形下我们说域的特征为 p：特征为 0 或 p，这只是域的一个术语。
+In this case we say the field has characteristic 0, and in this case we say the field has characteristic p: char(F) = 0 or p, it's just a piece of terminology of the field.
+
+28
+00:07:57,897 --> 00:08:19,505
+并且它也使我们能证明伽罗瓦的一个漂亮定理——或者说我们将证明伽罗瓦定理的第一部分，我想我之前跟你们讲过该定理：伽罗瓦开创了有限域理论。
+And it also lets us prove a nice theorem of Galois—well, we'll prove the first part of the theorem of Galois, which I think I told you before, which is theorem: Galois invented the theory of finite fields.
+
+29
+00:08:19,505 --> 00:08:32,981
+设 F 是一个有限域，则 F 中的元素个数必为某个素数 p 的幂（|F| = p^n）。
+Let F be a finite field; then the number of elements in F is a power of p: |F| = p^n.
+
+30
+00:08:32,981 --> 00:08:49,720
+不可能有 6 个元素的域，也不可能有15 个元素的域，好；尽管可以有这样的群或环——注意，存在具有任意元素个数的有限环，
+You can't have a field with 6 elements in it, you can't have a field with 15 elements in it, OK, even though you can have groups or rings—notice that you can have finite rings with any number of elements in it,
+
+31
+00:08:49,720 --> 00:09:10,547
+存在具有 n 个元素的有限环（如 Z/nZ），但对域而言必须是 p 的幂。证明是：考虑典范同态映射 Z -> F，n |-> n_F。
+there's a finite ring with n elements (like Z/nZ), but for fields it has to be a power of p. And the proof is: consider the canonical map homomorphism Z -> F, n |-> n_F.
+
+32
+00:09:10,547 --> 00:09:23,016
+好的，Z 是无限环，而依假设 F 是有限环；因此必存在非平凡的核。
+All right, this is an infinite ring, this is a finite ring by hypothesis; therefore there has to be a non-trivial kernel.
+
+33
+00:09:23,016 --> 00:09:44,239
+由于 Z 是无限的，ker f——因为 Z 的像是一个F 的子环，核不可能为零：ker f != {0}。
+Since Z is infinite, ker f—because the image of Z is a subring of F, the kernel cannot be zero: ker f != {0}.
+
+34
+00:09:44,239 --> 00:09:52,454
+否则就会在 F 内部得到一个 Z 的同构副本，那将使得 F 拥有无限多个元素，对吧？
+Otherwise that would give a copy of Z sitting inside of F, which would give F an infinite number of elements, right?
+
+35
+00:09:52,454 --> 00:10:01,641
+所以 ker f 非零，而我们已经看到对于域而言，这迫使 ker f 为某个素数 p 对应的 pZ。
+So the kernel of f is non-zero, and we've seen for a field that forces the kernel of f to be pZ for prime p.
+
+36
+00:10:01,641 --> 00:10:18,544
+所以 ker f = pZ，并且 f 诱导出一个从 Z 模其核（Z/pZ）映入域 F 的同态 f-bar。
+So ker f = pZ, and f induces a homomorphism f-bar from Z mod its kernel (Z/pZ) into the field F.
+
+37
+00:10:18,544 --> 00:10:26,309
+现在这是一个单射，因为我们按照在群论中惯用的方式模去了核。
+Now this is an injection because we've modded out by the kernel in the usual way we did in group theory.
+
+38
+00:10:29,290 --> 00:10:56,142
+在 F 中你可以做乘法，但至少你可以将其元素与该子环中的元素相乘；因此这赋予了 F 在域 Z/pZ 上的向量空间结构：暂时忘掉 F 中两个元素可以相乘的事实，
+Now in this you can multiply things, but at the very least you can multiply them by elements in this subring; so this gives F the structure of a vector space over the field Z/pZ: forgetting about the fact that you can multiply two elements in F,
+
+39
+00:10:56,142 --> 00:11:05,477
+仅仅利用 F 中可以做两个元素的加法、以及可以乘以这里的元素：这正是向量空间结构，其中 Z/pZ 的元素充当标量。
+just using the fact you can add two elements in F, and you can multiply by elements here: that's the structure of a vector space, where these become the scalars.
+
+40
+00:11:05,477 --> 00:11:28,683
+我是说，当然 F 在自身之上是一维向量空间，但这里我们看到它在这个域（Z/pZ）上也是一个向量空间，且具有有限维数，因为显然存在有限生成集：若域中只有有限多个元素，只需取全部元素，它们就生成 F。
+I mean, of course F is a 1-dimensional vector space over itself, but here we see it's a vector space over this field, which has finite dimension as there's certainly a finite spanning set: if there are only finitely many elements in the field, just take all the elements, they span F.
+
+41
+00:11:28,683 --> 00:11:56,813
+所以如果说维数等于 f，那么元素的个数就是 p^f：只需选取一组基，并将元素用来自 Z/pZ 的坐标表示。因此作为向量空间，F同构于有限维向量空间 (Z/pZ)^f。
+So if the dimension is equal to f, then the number of elements is p^f: just choose a basis and write elements in terms of coordinates from Z/pZ. So as a vector space, F is isomorphic to (Z/pZ)^f as a finite-dimensional vector space.
+
+42
+00:11:56,813 --> 00:12:04,550
+当然，这并没有告诉你 F 上的乘法法则是怎样的，但至少告诉了你它的大小是多少，这正是伽罗瓦所证明的。
+Of course, that doesn't tell you what the multiplication law is on F, but at least it tells you what the size of it is, that Galois proved.
+
+43
+00:12:04,550 --> 00:12:22,285
+现在该定理的难点部分（我现在无法向你们证明，但我保证在 Math 123 中会证明）是：伽罗瓦还证明了对任意正整数 f，都存在一个具有p^f 个元素的有限域。
+Now the hard part of this theorem, which I can't prove for you now, but I promise you will be proved in Math 123, is that Galois also proved that for any f there is a finite field with p^f elements.
+
+44
+00:12:22,285 --> 00:12:27,637
+我们目前还不知道这一点，即在该向量空间上确实可以赋予一个域乘法法则。
+We don't know that yet, namely it is possible to put a multiplication law on that vector space.
+
+45
+00:12:27,637 --> 00:12:46,137
+所以我们甚至还不知道是否存在 4 个元素的域：我们知道 2、3、5、7、11 个元素的情形，对任意素数我们都能构造域，但我们还不知道 4，不知道 9，不知道 16、32，但伽罗瓦证明了这种域的存在性。
+So we don't even know yet that there's a field with 4 elements: we know 2, we know 3, we know 5, we know 7, we know 11, any prime we can make a field, but we don't know 4, we don't know 9, we don't know 16, 32, but Galois proved the existence of such a field.
+
+46
+00:12:46,137 --> 00:13:17,369
+而且他不仅证明了存在性，还证明了在同构意义下它是唯一的：事实上，在同构意义下存在唯一的 p^f 阶域。  也就是说，如果你有两个 4 阶域，它们实际上彼此同构。
+And he proved not only that, he proved it was unique up to isomorphism: in fact, there is a unique such field of order p^f up to isomorphism.   Namely, if you have two fields of order 4, they actually are isomorphic to each other.
+
+47
+00:13:17,369 --> 00:13:24,680
+这是伽罗瓦证明的非常美妙的结论，大家以后会见到；在数论中这也是非常重要的事情，在 Math 123 学习域论时你们会见到。
+So that's a very cool thing that Galois proved, which you'll see; and that's a very important thing in number theory too, which you'll see in Math 123 when you do field theory.
+
+48
+00:13:24,680 --> 00:13:41,789
+Math 123 这门课的主题，实际上就是伽罗瓦在生命的最后一年所创立的学科，它以一种极为优美的互动方式将域论与群论融为一体，以他的名字命名为“伽罗瓦理论”。
+The subject of Math 123 is really the subject that was invented by Galois in the last year of his life, which encompasses both the theory of fields and the theory of groups in a very beautiful interactive way called Galois theory, named after him.
+
+49
+00:13:41,789 --> 00:14:06,888
+而伽罗瓦理论最初的胜利之一就是构造了这些有限域。好，我们继续。之前我略微提到了商环，现在我想讲讲所谓的环的第一同构定理。它和群的第一同构定理完全类似。
+And one of the first triumphs of Galois theory was the construction of these finite fields. OK, let's go on. Now I talked a little bit about quotient rings, and I want to talk about what they call the first isomorphism theorem of rings. It's exactly like it is for groups.
+
+50
+00:14:06,888 --> 00:14:36,404
+这里我们从一个交换环 R 和一个理想 I 开始；当处于这种情形时，我们有一个映到商环的自然同态，我将其记作 R-bar（即 R/I），它是一个满射环同态。
+So here we start with a commutative ring R and an ideal I; and when we have that situation, we have a natural homomorphism to the quotient ring, which I'll call R-bar, and it's a surjective ring homomorphism.
+
+51
+00:14:36,404 --> 00:14:40,280
+这我们在群论中已经见过类似概念，其中理想就扮演着正规子群的角色。
+So we've seen from the theory of groups, where the ideal is like a normal subgroup.
+
+52
+00:14:40,280 --> 00:14:49,240
+现在环的对应定理给出了 R 中特定理想与 R-bar 中特定理想之间的联系。
+Now the first isomorphism theorem gives a relationship between certain ideals in R and certain ideals in R-bar.
+
+53
+00:14:49,240 --> 00:15:26,889
+它指出存在一个双射：一方面是R 中包含 I 的理想 J——我们这样写：包含 I 的 R 的理想——  它们与 R-bar 的理想集 {J-bar} 之间存在一一对应。
+And it says there is a bijection between, on the one hand, ideals J in R that contain I—so we'll put them like this: ideals of R containing I—   and they're in bijection with the set of ideals J-bar of R-bar.
+
+54
+00:15:26,889 --> 00:15:33,364
+因此你通过取包含 I 的 R 的理想，就能得到商环的所有理想。
+So you get all ideals of this quotient ring by taking ideals of R that contain I.
+
+55
+00:15:33,364 --> 00:15:49,299
+我来给出这个双射，该双射是这样的：对每个 J，我们对应 J 在 R-bar 中的像 f(J)，我们将看到它是一个理想；
+I'll give you the bijection, and the bijection goes like this: to a J, we associate the image of J in R-bar, and we're going to see that that's an ideal;
+
+56
+00:15:49,299 --> 00:16:07,676
+对 R-bar 中的理想 J-bar，我们对应它在 R 中的原像 f^{-1}(J-bar)，我们将看到这是一个包含 I 的理想。
+and to an ideal J-bar in R-bar, we associate the preimage of it in R, and we're going to see that that's an ideal that contains I.
+
+57
+00:16:07,676 --> 00:16:21,469
+所以存在这样一个重要的双射，正如包含正规子群的 G 的子群与商群的子群之间的对应双射一样。
+So there's an important bijection that's like the bijection between subgroups of G containing a normal subgroup and subgroups of the quotient group, the same kind of bijection.
+
+58
+00:16:21,469 --> 00:16:40,169
+并且，R 模去包含 I 的理想 J（R/J），同构于 R-bar 模去 J-bar（R-bar/J-bar）：所以你得到相同的商环。
+And moreover, the quotient of R by J (this ideal containing I) is isomorphic to the quotient of R-bar by J-bar: so you get the same quotient rings.
+
+59
+00:16:46,699 --> 00:17:02,367
+所以这就像许多非常一般的同构定理一样，一旦你搞清楚究竟发生了什么，它或多或少就是重言式（套套逻辑）。让我们检验其中的几点，剩下的留给大家自行验证。让我们来看这个 f(J) 是 R-bar 的理想：
+So this is, like many of these very general theorems like the isomorphism theorems, it's more or less a tautology once you figure out what is actually going on, it's more or less a tautology. So let's check a few of these things, and I'll let you check the rest as you go through it.
+
+60
+00:17:02,367 --> 00:17:46,674
+你需要验证它在加法下封闭，并且在与 R-bar 的乘法下封闭。我们假设：f(a) 和 f(b) 是 f(J) 中的元素，其中 a, b 在 J 中。  它们的和是否在 f(J) 中？当然！
+So let's see that this f(J) is an ideal of R-bar: well, you have to check that it's closed under addition and multiplication from R-bar. So let's assume that: we have f(a) and f(b) are elements in f(J) where a and b are in J.   Is their sum in f(J)? Why, exactly!
+
+61
+00:17:46,674 --> 00:18:00,197
+f(a)+ f(b) = f(a + b) 属于 f(J)，因为这两个元素的和属于 J。这就是我说的重言式。
+f(a) + f(b) = f(a + b) is in f(J), because the sum of these two things is in J. That's what I mean by tautological.
+
+62
+00:18:00,197 --> 00:18:15,600
+但下一步稍显微妙：假设 f(a) 属于 f(J)，且我们有一个任意元素 r-bar在 R-bar 中。
+But the next one's a little tricky: suppose f(a) is in f(J), and that we have an arbitrary element r-bar in R-bar.
+
+63
+00:18:15,600 --> 00:18:24,799
+r-bar * f(a) 是否属于 J-bar——抱歉，属于 f(J)？
+Is r-bar * f(a) in J-bar—in f(J), I'm sorry?
+
+64
+00:18:24,799 --> 00:18:52,023
+啊，这就是你必须用到的关键点，而且对于任意同态这并不成立：你看，这里恰好是一个满射环同态！由于 f 是满射，我们可以把 r-bar 写成某个 f(r)。
+Ah, that's the point you have to use, and this is not true for an arbitrary homomorphism: you see, this happens to be a surjective ring homomorphism! Since f is surjective, we can write r-bar as some f(r).
+
+65
+00:18:52,023 --> 00:19:10,962
+将 r-bar 写成 f(r) 之后，我们就将其表示为 f(r) * f(a) = f(r * a)，因为 f是环同态；而这属于 f(J)，因为已知 J 是理想所以 r * a 属于 J。很好！
+And having written r-bar as some f(r), we write this as f(r) * f(a), which is f(r * a) because f is a ring homomorphism; and this is an element in f(J) because r * a is in J, since J was assumed to be an ideal. Very good!
+
+66
+00:19:10,962 --> 00:19:24,429
+但如果我们没有满射环同态，那么你不能简单地对一个理想取像 f 并得到另一个理想；对这一点要格外小心，明白吗？
+But if we didn't have a surjective ring homomorphism, then you just can't take f of an ideal and get another ideal; be careful about that, OK?
+
+67
+00:19:31,050 --> 00:19:34,309
+例如，f(R) 可能不是理想。
+For example, f(R) might not be an ideal.
+
+68
+00:19:34,309 --> 00:20:07,636
+让我举例说明，这算是一个提醒：如果 f 不是满射，f(J) 不一定是理想，所以你没有显而易见的映射。比如如果你取整数环并将它们包含到有理数域中，这是一个环同态，当然不是满射。
+Let's just show you that; I mean, so this is a warning here: if f is not surjective, f(J) need not be an ideal, so you don't have an obvious map. For example, if you take the integers and you include them in the rational numbers, that's a ring homomorphism, not surjective of course.
+
+69
+00:20:07,636 --> 00:20:20,139
+整数环的一个极好的理想是 Z；如果你取 f作用在 Z 上，你在 Q 中得到整数子环；那不是理想，因为有理数域仅有的理想是 0 和 Q——它是一个域，懂吗？
+A perfectly good ideal of the integers is Z; if you take f of Z, you get the integers in Q; that's not an ideal, because the only ideals of the rational numbers are 0 and Q—it's a field, OK?
+
+70
+00:20:20,139 --> 00:20:24,624
+所以你需要满射性才能把这个 r-bar 写成 f(r)。
+So you needed that surjectivity to be able to write this r-bar as f(r).
+
+71
+00:20:24,624 --> 00:20:35,687
+然而，拉回（原像）在任何情况下都成立：无论何时只要你从商环中的理想出发并将其拉回，你就会得到 R 中的一个理想。留给大家去证明这一点。
+However, the pullback works in any case: whenever you start with an ideal in R-bar and you pull it back, you get an ideal in R. I'll let you guys prove that.
+
+72
+00:20:35,687 --> 00:20:55,960
+但请注意，它必然包含 I，因为 I 是 f^{-1}(0)——这是 I 的定义，因为该满射环同态的核就是 I；
+But notice that this certainly contains I, because I is f^{-1}(0)—that's the definition of I, because this homomorphism has kernel I—surjective ring homomorphism with kernel I—
+
+73
+00:20:55,960 --> 00:21:08,202
+而无论 J-bar 是什么理想，它都包含 0，因此它的原像包含 0 的原像，所以它包含 I。留给你们验证它是一个理想。
+and whatever this J-bar is, it's an ideal, so it certainly contains 0, and so its inverse image contains the inverse image of 0, so it contains I. I'll let you check that it's an ideal.
+
+74
+00:21:08,202 --> 00:21:25,469
+而为了确定这两个商环同构，你只需将这里的同态与映到商环R-bar / J-bar 的商映射复合起来：取这两个映射的复合。
+And to identify these two quotients, you just compose this homomorphism here with the canonical quotient map from R-bar to R-bar mod J-bar: so you take the composition of these two maps.
+
+75
+00:21:25,469 --> 00:21:42,324
+这是另一个商映射，而问题是：这个复合映射的核是什么？首先，复合映射是满射，因为它是两个满射同态的复合（两者都来自商环映射）。
+This is another quotient, and the question is: what is the kernel of this composition map? Well, the first thing is that the composition map is surjective, because it's a composition of two surjective homomorphisms, both given by quotient rings.
+
+76
+00:21:42,324 --> 00:21:58,935
+所以它是满射，其核为……它的核是 R 中满足如下条件的元素：当你把它们映到 R/I 时落在 J-bar 中，对吧？
+So it's surjective with kernel... well, its kernel are the elements in R such that when you map them to R mod I, they land in J-bar, correct?
+
+77
+00:21:58,935 --> 00:22:13,324
+所以这正是 f^{-1}(J-bar) 中的元素，即 R 中映到 J-bar 的元素；所以 f^{-1}(J-bar) 就是 J。
+So that's exactly the elements which are in f^{-1}(J-bar), the things which are in R that map to J-bar; so f^{-1}(J-bar) turns out to be J.
+
+78
+00:22:13,324 --> 00:22:17,710
+我是说，你必须验证这个对应在往返一圈后会回到出发点。
+I mean, you have to check that this thing, if you go around once, you get back to where you started.
+
+79
+00:22:17,710 --> 00:22:24,663
+所以这个核等于 f^{-1}(J-bar) = J。
+So this kernel equals f^{-1}(J-bar), which is equal to J.
+
+80
+00:22:24,663 --> 00:22:39,404
+因此如果你有一个满同态并且知道了它的核，它就给出了定义域模去核的商环与像之间的同构，这就是证明。
+And so if you have a surjective homomorphism and you know its kernel, it identifies the quotient of this by the kernel with the image, and that's this—that's the proof of that.
+
+81
+00:22:39,404 --> 00:22:57,857
+所以正如我所说，这是一个非常重言式的定理，你应当仔细通读证明——这并不意味着你可以不知道证明，你必须掌握证明；但当你牢记它时，它有许多非常有用的推论。
+So this is an incredibly, as I say, it's a tautological theorem, and you should look through the proof—that doesn't mean you can't know the proof, you have to know the proof; but it has a number of very useful corollaries as you keep it in your mind.
+
+82
+00:22:57,857 --> 00:23:03,620
+例如，我们之前证明过：一个环是域，当且仅当它只有两个理想。
+For example, we've shown that a ring is a field if and only if it has only two ideals.
+
+83
+00:23:03,620 --> 00:23:16,820
+那么 R/I 何时是一个域？对哪些理想而言商环是域？
+So when is R/I a field? For which ideals is the quotient a field?
+
+84
+00:23:16,820 --> 00:23:54,157
+我们在该商环的理想与R 中包含 I 的理想之间存在双射；所以当且仅当 R-bar 只有两个理想（0 和 R-bar），由第一同构定理，这等价于说 R 只有两个包含 I 的理想（即对应于这两个的理想）。
+Well, we have a bijection between the ideals of this quotient ring and the ideals of R containing I; so it's if and only if R-bar has only two ideals, 0 and R-bar, which is the same thing, by this first isomorphism theorem, as saying R has only two ideals containing I, the ones corresponding to those.
+
+85
+00:23:54,157 --> 00:24:14,400
+当然，对应于 R-bar 的那个，如果你拉回 R-bar，由于映射是满射你会得到整个 R；而对应于零理想的那个，拉回零你就得到 I（I就是核）——也就是 R 和 I。
+Well, of course the one corresponding to R-bar, if you pull back R-bar you get everything in R because the map is surjective; and the one corresponding to zero, if you pull back zero you get I (I is the kernel)—which are R and I.
+
+86
+00:24:14,400 --> 00:24:31,050
+换句话说，不存在介于二者之间的理想……你看包含I 的理想，没有任何非平凡的方式可以在其中间插入一个理想：它要么等于 I，要么等于 R，明白吗？
+Namely, there is no ideal... if you look at this, if you look at R containing I, there are no non-trivial ways you can squeeze an ideal in here: it's either equal to this or it's equal to that, OK?
+
+87
+00:24:31,050 --> 00:24:52,419
+所以我们可以说（而且我们将定义）：I 是 R 的极大理想（maximal ideal）——它与 R 之间没有真理想——当且仅当 I 是极大理想。
+So we might say, and we will say, that I is a maximal ideal of R—there are no proper ideals between it and R—if and only if I is a maximal ideal.
+
+88
+00:24:52,419 --> 00:25:01,131
+好，所以这是使商环成为域的理想的一个极好刻画：它们就是极大理想。
+OK, so that's a very good characterization of the ideals that give quotient fields: they're the ones which are maximal ideals.
+
+89
+00:25:01,131 --> 00:25:08,250
+显然环中必然存在极大理想；甚至在一个域中也存在极大理想，比如在域中零理想 (0) 就是极大理想。
+Now clearly there have to be some maximal ideals; even in a field there have to be some maximal ideals, like (0) is a maximal ideal in a field.
+
+90
+00:25:08,250 --> 00:25:24,210
+因此当你在一个环中有极大理想时，它们判定了哪些商环是域。关于该定理的另一件妙事是，你可以逐次作商。
+And so when you have maximal ideals in a ring, they identify which quotients of them are fields. Another nice thing about this theorem is that you can go to quotients successively.
+
+91
+00:25:24,210 --> 00:25:31,480
+书中讨论了在环中引入关系（creating relations），这是一个重要概念。
+So the book talks about creating relations in a ring; that's an important notion.
+
+92
+00:25:43,480 --> 00:25:49,771
+假设我们在 R 中有某个元素 a，它可以是生成元的组合。
+Suppose we have some element a in R, which could be a combination of generators.
+
+93
+00:25:49,771 --> 00:26:01,110
+例如，如果环是二元多项式环，a 可以是x 和 y 的某种组合，而我们希望得到一个使得该关系为零的环，即生成元的该组合为零。
+For example, if the ring were polynomials in two variables, a might be some combination of x and y, and we wanted to get to a ring where that relation was zero, where that combination of our generators was zero.
+
+94
+00:26:01,110 --> 00:26:51,697
+我们可以实现这一点：如果我们想要一个商环 R-bar（作为 R 的同态像），使得 a-bar = 0，即 a 的像为0，那么满足此条件的最大商环就是 R 模去由 a 生成的主理想 (a)，  因为在此环中 a映到 0。
+Well, we could arrange that: if we want a ring R-bar which is an image of R where a-bar is equal to 0, where the image of a is zero, then the largest such quotient is the ring R-bar, which is R modulo the ideal generated by a,   because in this ring a maps to zero.
+
+95
+00:26:51,697 --> 00:27:04,438
+反过来，如果我有一个 a 映为 0 的 R 的同态像，那么 a 的所有倍数也必须等于 0，因为 0 的任何倍数都是 0；所以该理想中的所有元素必然映为 0。
+And conversely, if I had any image of R where a was equal to 0, then all multiples of a would have to be equal to zero, because any multiple of 0 is 0; so I would certainly have all of this ideal going to zero.
+
+96
+00:27:04,438 --> 00:27:11,597
+因此我能做的最自然的事情就是模去该理想且不多模去任何东西，好吗？
+So the simplest thing I could do is just to mod out by this ideal and nothing larger, OK?
+
+97
+00:27:11,597 --> 00:27:34,952
+如果我们想要一个具有多个关系 a_1 = a_2 = a_3 = ... = a_n = 0 的环，我们可以取环 R-bar 为 R 模去由 a_1, a_2, ..., a_n 生成的理想 (a_1, ..., a_n)。
+If we want a ring where we have a number of relations a_1 = a_2 = a_3 = ... = a_n = 0, we could take the ring R-bar, which is R modulo the ideal generated by a_1, a_2, ..., a_n.
+
+98
+00:27:34,952 --> 00:27:52,846
+同样，如果在商环中所有这些都等于 0，那么它们的任何线性组合、任何形如 r_1 a_1 + ... + r_n a_n 的元素也必须等于 0，而这些恰好就是该理想中的元素。
+Again, if you had all these equal to 0 in a quotient ring, then any combination of them, anything of the form r_1 a_1 + ... + r_n a_n would also have to be equal to 0, and these are precisely the elements in this ideal.
+
+99
+00:27:52,846 --> 00:28:14,964
+但这同时也说明，我们可以通过逐次商来得到该环：我们可以将这个环写成 (R / (a_1)) 模去 a_2 的像，再模去 a_3 的像；也就是说，我们可以在环中一次引入一个关系，并不断构造连续的商环。
+But it also says that we could get to this ideal, we could get to this ring by writing this ring as (R / (a_1)) modulo the image of a_2, modulo the image of a_3; namely, we could mod out, we could create the relations one at a time in the ring and continue to make successive quotient rings.
+
+100
+00:28:14,964 --> 00:28:30,050
+因为我们只要考虑两个关系的情形：由a_1 和 a_2 生成的理想包含由 a_1 生成的理想；所以这就类似于理想 J，而包含关系 a_1 的理想 (a_1) 就是理想 I。
+Because let's just think of two relations: the ideal generated by a_1 and a_2 contains the ideal generated by a_1; so that would be like an ideal J, and the ideal (a_1) containing the relation a_1 would be the ideal I.
+
+101
+00:28:30,050 --> 00:28:40,784
+这意味着如果你先模去 I，然后再模去J 在 R/I 中的像，得到的结果与最初直接模去 J 完全相同。
+And that would say if you first mod out by I, and then you mod out by the image of J in R mod I, you get the same thing as if you had modded out initially by J.
+
+102
+00:28:40,784 --> 00:29:01,189
+所以在引入关系时，你可以取所有这些元素生成的理想一次性引入，也可以先进入 a_1 为 0 的环，然后再模去作为 a_2 之像的关系，接着取那个环再模去关系 a_3 的像；你可以自由选择。
+So that in creating relations, you can create them all at once by taking the ideal generated by all of these, or you could first go to the ring where a_1 was 0, and then mod out by the relation which was the image of a_2, and then take that ring and mod out by the image of the relation a_3; you have your choice.
+
+103
+00:29:01,189 --> 00:29:14,855
+无论如何，这是在环中引入关系的一种方法；下节课我们还将看到向环中添加元素（添加元）的操作，凭借这两种技术，我们将能够利用已有旧环构建出各种各样的新环。
+In any case, this is a way of creating relations in a ring, and we're going to see next time the operation of adding elements to a ring, and with those two techniques, we're going to be able to build all kinds of new rings out of old ones.
+
+104
+00:29:14,855 --> 00:29:26,860
+好，现在让我针对具体环中的具体关系做更多讲解，因为很快你们就会看到，我们将通过这些迷人的问题，借助所有这些抽象的结构语言，
+All right, well, let me talk a little bit more about specific relations in a specific ring, because you'll see pretty soon we're going to get into some fascinating problems: with all this abstract nonsense,
+
+105
+00:29:26,860 --> 00:29:51,135
+去切实讨论数论中的深刻问题。所以在本讲剩下的时间里，我们专门研究高斯整数环 Z[i]，即所有形如 a + bi 的数，其中 a 和 b 是整数，好吗？
+we're going to have a good language to talk about some real problems in number theory. So the rest of this lecture we're just going to work with the ring of Gaussian integers, so all things of the form a + bi where a and b are integers, OK?
+
+106
+00:29:51,135 --> 00:30:01,654
+现在假设我想构造一个新环，在其中满足关系 2+ i = 0。
+Now I'm going to suppose I want to make a new ring where I have the relation that 2 + i is equal to 0.
+
+107
+00:30:01,654 --> 00:30:30,134
+这就意味着，只需取由 2 + i 生成的理想，也就是 2 + i 的所有倍数（具体是什么我们目前还不知道），并考虑商环 R-bar = R/I；我们想知道最后剩下的是什么：也许我们模掉了整个环，它是零环吗？
+So this says, well, just take the ideal generated by well, multiples of 2 + i, whatever that is (we don't know yet), and consider R-bar = R mod I; and what we'd like to know is what we're left with: maybe we've modded out by everything, is this the zero ring?
+
+108
+00:30:30,134 --> 00:30:52,375
+也许 2 + i 是可逆元，从而通过模去由可逆元生成的理想你模去了整个环，得到零环；或者也许它离可逆元相差甚远，我们还剩下一个庞大的环。
+Maybe this element is a unit, and so by modding out by the ideal generated by a unit you mod out by the entire ring, maybe we have the zero ring; or maybe this is very far from being a unit, we have a gigantic ring left.
+
+109
+00:30:52,375 --> 00:30:57,966
+所以我们想确定 R-bar，好吗？你可以通过在该环中做一些简单的算术运算来搞清楚。
+So we want to identify R-bar, OK? So you do that by playing a little bit around with the arithmetic of this ring.
+
+110
+00:30:57,966 --> 00:31:38,827
+我注意到的第一件事是：首先让我们确定该理想 I 与整数环 Z 的交集：即该理想中有哪些元素是 2 + i 的倍数，但虚部为 0，即仅仅具有整数 a 的形式？这将是我们确定该商环的起点。
+So the first thing I want to notice is the following: So first, let's identify the intersection of I (this ideal) with the integers: namely, which elements lying in this ideal are multiples of 2 + i but have second coordinate 0, so they're just of the form a in Z? That'll be our start to identifying this quotient ring.
+
+111
+00:31:38,827 --> 00:32:18,455
+好，我声称：首先，我断言 5 是 I ∩ Z 中的元素，因此我可以将整数 5 写成 2 + i 的倍数：就是 (2 + i)(2 - i)。如果你展开相乘，虚部 i 的项相互抵消，得到 4 + 1 = 5。
+OK, so I claim that first of all, I claim that 5 is an element in I \cap Z, so that I can write 5, the integer 5, as a multiple of 2 + i: here it is, (2 + i)(2 - i). OK, if you multiply these out, the i-terms cancel, you get 4 + 1 = 5.
+
+112
+00:32:18,455 --> 00:32:32,910
+好，所以该交集非空，它必然包含元素 5；因此它包含 5 的所有倍数，它必然包含 5Z。
+OK, so this set is non-empty, it certainly contains the element 5; therefore it contains all multiples of 5, it certainly contains 5Z.
+
+113
+00:32:32,910 --> 00:32:36,620
+因为这是个理想，对吧？
+Because this is an ideal, right?
+
+114
+00:32:36,620 --> 00:32:46,000
+所以一旦其中有了 5 这样的元素，我就可以用高斯整数中的任意元素乘以它，特别是可以用任何普通整数相乘仍留在其中；所以一旦有了 5，我就有了理想 5Z。
+So once I have something in it like 5, I can multiply by anything in the Gaussian integers, so in particular I can multiply by anything in the integers and stay in it; so once I have 5, I have this ideal 5Z.
+
+115
+00:32:46,000 --> 00:32:57,730
+好，现在这是 Z 的极大理想，因为在 5Z 与 Z 之间插不进任何理想：5 是素数，对吧？
+OK, now this is a maximal ideal of Z, because you can't fit anything between here and here: 5 is a prime number, right?
+
+116
+00:32:57,730 --> 00:33:04,021
+所以可能性要么是整个整数环 Z，要么就恰好是 5Z，仅此而已。
+So the possibilities are either this is all of the integers, or it's just 5Z, that's it.
+
+117
+00:33:04,021 --> 00:33:25,805
+因此仅仅通过这个简单的计算我们就看出 I ∩ Z（它必然是 Z 的理想）要么是整个 Z，要么是 5Z，我们必须判定是哪一个。
+So just from this simple calculation we see that I \cap Z, which is certainly an ideal of Z, is either all of Z or 5Z, and we have to decide which it is.
+
+118
+00:33:25,805 --> 00:33:42,990
+第二个断言：如果我用 2 + i 乘以某个形如 a + bi 的高斯整数得到一个普通整数，那么该整数必能被 5 整除。
+Second claim: if I multiply 2 + i by something of the form a + bi, and it's an integer, then this integer is divisible by 5.
+
+119
+00:33:42,990 --> 00:33:49,250
+所以我们要证明它是 5Z：我们要证明 5Z 就是正确答案。
+So we're going to prove it's 5Z: we're going to prove that that's the right answer.
+
+120
+00:33:51,960 --> 00:34:24,610
+若此断言成立，则交集必落在 5Z 中。好，我们必须实际做个计算来验证；我们这样来计算：把这两项展开相乘：该高斯整数为 (2a - b) + (2b + a)i，好吗？
+If this is true, then it is in 5Z. OK, we have to actually make a calculation to see that; so let's make that calculation. The way we make that calculation is to multiply these two things out: this Gaussian integer is (2a - b) + (2b + a)i, OK?
+
+121
+00:34:24,610 --> 00:34:33,802
+它是一个实整数，意味着虚部等于 0，所以 a = -2b。
+Now to say that's an integer says that this imaginary coefficient is equal to 0, so that means that a = -2b.
+
+122
+00:34:33,802 --> 00:34:48,323
+如果我把它代入实部，得到这个实数是 2(-2b) - b = -5b；所以它是 5 的倍数。
+If I put it in there, I get that this number is -4b - b, which is -5b; so it's a multiple of 5.
+
+123
+00:34:48,323 --> 00:35:03,507
+好，所以我们知道此处的交集包含在 5 的倍数中；另一方面它包含整数 5，因此包含 5 的所有倍数，所以它恰好等于 5Z。
+OK, so we know that the intersection here is contained in multiples of 5; on the other hand, it contains the number 5, so it contains all multiples of 5, so it's equal to 5Z.
+
+124
+00:35:03,507 --> 00:35:41,242
+好，这意味着如果我建立从 Z 到 R/I 的映射，典范映射的核为 5Z，像为 Z/5Z；  因此无论这个环是什么，它都是 Z/5Z 上的向量空间。
+OK, so that says that if I make my map from Z to R mod I, the canonical map has kernel 5Z and image Z/5Z;   so whatever this ring is, it's a vector space over Z/5Z.
+
+125
+00:35:41,242 --> 00:36:09,851
+但我断言像就等于 Z/5Z——事实上，在该映射下 R-bar 同构于 Z/5Z：也就是说映射是满射，商环中的每个元素都在 Z 的像中。
+But I claim that the image is equal to Z/5Z—in fact, R-bar is isomorphic to Z/5Z under this map: namely, it's surjective, everything mod I is in the image of Z, in other words.
+
+126
+00:36:09,851 --> 00:36:24,500
+是的，原因很清楚：你看，如果在理想 I 意义下观察，我们发现 i 同余于 -2 模 I。
+Yeah, yeah, and the reason is clear: look, if you look at this ideal I, we see that i is congruent to -2 modulo I.
+
+127
+00:36:24,500 --> 00:36:29,852
+所以在商环中 i = -2，因为元素 2 + i 为 0。
+So if we go in the quotient ring, i is equal to -2, because this element 2 + i is 0.
+
+128
+00:36:29,852 --> 00:36:56,569
+既然 i 等于一个整数，那么 i 的任何倍数 bi 就同余于 -2b，因此在 R/I 中 a + bi 就同余于普通整数 a - 2b。
+So since i is equal to an integer, any multiple of i, bi, is congruent to -2b, and consequently a + bi is congruent to a - 2b in R mod I.
+
+129
+00:36:56,569 --> 00:37:10,159
+好，但这可是一个普通整数！所以在 R/I 中高斯整数环所有元素的像，与整数环在R/I 中的像完全一致。
+OK, but this is an integer! So the image of everything in the Gaussian integers in R mod I is the same as the image of the integers in R mod I.
+
+130
+00:37:10,159 --> 00:37:17,128
+整数的像是 Z/5Z，所以所有元素的像也是它，全商环必然就是 Z/5Z。
+The image of the integers is Z/5Z, so the image of everything is everything, so the whole quotient ring has to be Z/5Z.
+
+131
+00:37:17,128 --> 00:37:26,140
+所以在完成所有这些计算后，我得出结论：该商环同构于 Z/5Z。
+So after all these calculations, I conclude that this ring is isomorphic to Z/5Z.
+
+132
+00:37:26,140 --> 00:37:37,194
+对，好，看这里：这是理想 (2 + i)，由 2 + i 生成。
+Yeah, OK, look here: this is the ideal (2 + i), it's generated by 2 + i.
+
+133
+00:37:37,194 --> 00:37:52,086
+当我进入商环时，该元素在商环中变为 0，因为它在同态核中；因此 2 + i = 0，从而在商环中 i 等于-2。
+When I go to the quotient ring, this element becomes 0 in the quotient ring because it's in the kernel of the map; therefore 2 + i is 0, therefore i is equal in the quotient ring to -2.
+
+134
+00:37:52,086 --> 00:37:56,640
+因此商环中 i 的任意整数倍就是 -2 乘以该整数。
+Therefore any integer multiple of i in the quotient ring is -2 times that integer.
+
+135
+00:37:56,640 --> 00:38:07,407
+而环中任意元素都具有整数加上 i 的整数倍的形式：整数同余于自身，b * i 同余于 -2b。
+But an arbitrary element in the ring is of the form an integer plus an integer multiple of i: an integer is congruent to itself, and b * i is congruent to -2b.
+
+136
+00:38:07,407 --> 00:38:25,140
+这就证明了高斯整数的像与某个整数在商环中的像相同，因此该商环中的每个元素都在 Z 的像中：即该映射是满射。
+So that shows that the image of this in R is the same as the image of this which is in Z in this quotient ring, so that everything in this quotient ring is the image of Z: namely, this map is surjective.
+
+137
+00:38:25,140 --> 00:38:38,929
+这并不显然，但确实如此；而且我们已证明了它的核是 5Z，从而给出了这个同构。听懂了吗？很好。如果我们不知道……是的。好，
+That's not apparent, but it is; and we've shown that its kernel is 5Z, so that gives this isomorphism. That makes sense? Good, good. If we didn't know... yeah. All right,
+
+138
+00:38:38,929 --> 00:39:14,212
+现在我要向大家展示高斯的大脑是如何思考的：高斯并没有止步于此，他算过几个类似例子后，指出了如下一般结论：更一般地，若 p 是满足 p ≡ 1 (mod 4) 的素数—
+so now I'm going to show you how Gauss's mind worked: Gauss didn't stop here, he did a couple of examples like this and then he said the following: more generally, if p is a prime with p congruent to 1 mod 4—   so the primes,
+
+139
+00:39:14,212 --> 00:39:42,839
+—  比如素数 5、13、17、29，即除以4 余 1 的素数——在高斯整数环 R 中必存在一个理想 I，使得商环 R/I 同构于Z/pZ。
+you know, 5, 13, 17, 29, the prime numbers that leave a remainder of 1 after you divide by 4—there is an ideal I in the Gaussian integers R with R mod I isomorphic to Z mod pZ.
+
+140
+00:39:44,980 --> 00:40:04,813
+这就是 p = 5 的情形，我们刚刚已经证实了。  好，这一般情形稍微巧妙一些。
+So here's the case of 5 where we actually knew it.   OK, so this is a little trickier, a little trickier.
+
+141
+00:40:04,813 --> 00:40:19,145
+我们来看：我们不打算直接引用费马定理：我们要去推导费马定理，我们目前还不知道费马定理；先忘掉费马定理。
+So here we go: you know, we're not going to use Fermat's theorem: we're going to get to Fermat's theorem, we don't know Fermat's theorem yet; forget about Fermat's theorem.
+
+142
+00:40:19,145 --> 00:40:23,778
+费马从未……高斯并不知道费马是如何证明这一定理的，高斯将要建立起费马定理的证明。
+Fermat never... Gauss didn't know how Fermat proved this theorem, he's going to set up a proof of Fermat's theorem.
+
+143
+00:40:23,778 --> 00:40:39,001
+我们先从这步开始：这较弱，仅仅是断言存在这样的理想。好，证明：首先我要找出 i 的像。
+Let's start with this: this is weaker, just the existence of an ideal. OK, proof: the first thing I have to find is what the image of i is.
+
+144
+00:40:39,001 --> 00:40:46,907
+如果我有这个结论，我就有一个从 R 到 R/I 的同态 f。现在你们得告诉我：f(i) 是什么？
+If I have this, I have a map from R to R mod I. Now you'd have to tell me: what is f(i)?
+
+145
+00:40:46,907 --> 00:40:54,884
+它必须是这里乘法阶为 4 的元素，对吧？
+Well, that has to be some element in here which has order 4 multiplicatively, right?
+
+146
+00:40:54,884 --> 00:41:05,166
+因为 i^4 = 1 且 i^2 = -1；因此无论这个元素是什么，它的平方模 p 必须等于 -1。
+Because i^4 is equal to 1 and i^2 is equal to -1; so whatever this element is, its square has to be -1 mod p.
+
+147
+00:41:05,166 --> 00:41:14,057
+如果我有这样的理想，我就有环同态，取 i 的像，我最好能找到一个平方模 p 等于 -1 的数。
+If I had such an ideal, I'd have a homomorphism and I take the image of i, and I'd better find something whose square is -1 mod p.
+
+148
+00:41:14,057 --> 00:41:42,913
+我们先从这里开始；顺便说一句，这就是为什么我需要这个条件：如果在 Z/pZ 的乘法群(Z/pZ)^× 中有一个 4 阶元，那么我显然需要 p ≡ 1 (mod 4) 的条件，因为这个乘法群的阶是 p - 1。
+So let's start with that; that's why I need, by the way, this condition: if I had an element of order 4 in Z mod pZ, in the multiplicative group (Z/pZ)^x, then I certainly need the condition p is congruent to 1 mod 4, because this is a group of order p - 1.
+
+149
+00:41:42,913 --> 00:41:54,890
+若想在其中找到 4 阶元素，就必须让4 整除群的阶，也就是 p 模 4 余 1。
+So if I have any hope of finding an element of order 4 in it, I have to have 4 divide the order of the group, which says that p has to be congruent to 1 mod 4.
+
+150
+00:41:54,890 --> 00:42:02,956
+所以除非 p ≡ 1 (mod 4)，否则绝不可能找到商环为 Z/pZ 的理想。
+So I have no hope of finding such an ideal where the quotient is Z mod pZ unless p is 1 mod 4.
+
+151
+00:42:02,956 --> 00:42:10,501
+但该定理指出：若 p ≡ 1 (mod 4)，我就能找到这样的理想。因此我必须告诉大家 f(i) 是什么。
+But the theorem says that if p is 1 mod 4, I can find such an ideal. So I have to tell you what f(i) is.
+
+152
+00:42:10,501 --> 00:42:22,669
+现在我要用一种巧妙的方法构造它，因为我们目前还没有掌握真正炫酷的高级工具。大家知道威尔逊定理（Wilson's theorem）吗？即 (p - 1)! 同余于 -1 模 p。
+Now I'm going to do it a tricky way, because we haven't got yet the machinery to do it the really, really cool way. Do you guys know Wilson's theorem, that (p - 1)! is congruent to - 1 mod p.
+
+153
+00:42:22,669 --> 00:42:27,599
+大家见过威尔逊定理吗？
+Have you ever seen Wilson's theorem?
+
+154
+00:42:27,599 --> 00:42:49,694
+这是因为当你写下所有元素 1, 2, ..., p - 1 时，你把每个元素与它的乘法逆元配对相乘抵消，只剩下自身的逆元 -1（和 1）。所以在抵消了成对出现的逆元之后，最终只剩下-1：这就是威尔逊定理的证明。
+That's because when you write down all the elements 1, 2, up to p - 1, you pair elements off with their inverses, and cancel everything except for -1, which is its own inverse. So after canceling off all the inverses which occur in pairs, you're left with -1: so that's the proof of Wilson's theorem.
+
+155
+00:42:49,694 --> 00:43:00,772
+好，既然如此，请考虑如下元素：现在考虑 ((p - 1)/2)!。
+OK, so if that's the case, consider the following element: now consider ((p - 1)/2)!
+
+156
+00:43:00,772 --> 00:43:13,460
+我断言它就是你要找的 i，这是一个平方等于 -1 的元素！为什么？
+I claim that that's your i, that this is an element whose square is -1! Why?
+
+157
+00:43:13,460 --> 00:43:52,828
+如果你写出那个数：1 * 2 * ...……（笑声）是施工，在搞施工，我们大家很安全，非常安全！如果你取该元素 ((p - 1)/2)! 并把它补齐到 (p - 1)!，我们已知整个乘积同余于 -1。
+Well, if you write down that number: 1 * 2 * ... It's construction, construction, we're all safe, we're all perfectly safe! If you take this element ((p - 1)/2)! and you complete it to (p - 1)!, this product, we agree, is congruent to -1.
+
+158
+00:43:52,828 --> 00:44:16,813
+但是后半部分的每个元素都是前半部分对应元素的相反数：p - 1 = -1, p - 2 = -2……后半段乘积的各项都是前半段乘积各项的相反数，对吧？所以后半段乘积等于前半段乘积乘以负号的个数。
+But this element is minus this element, and this element is minus this element, and this element is minus this element; so the terms in this product are all minus the terms in that product, right? So this product is equal to that product times the number of minus signs.
+
+159
+00:44:16,813 --> 00:44:18,910
+一共有多少个负号呢？(p - 1)/2 个。
+And how many minus signs are there? (p - 1)/2.
+
+160
+00:44:18,910 --> 00:44:25,844
+但因为 p ≡ 1 (mod 4)，所以 (p - 1)/2 是偶数，因此你得到偶数个负号！
+But p is 1 mod 4, so (p - 1)/2 is even, so you get an even number of minus signs!
+
+161
+00:44:25,844 --> 00:44:43,411
+换句话说，两部分乘积完全相等，由于负号数目为偶数，这表明该数字的平方同余于 -1！这就是你的 4 阶元。
+So in other words, this product is equal to that product, as an even number of minus signs, which says that the square of this number is -1! And there's your element of order 4.
+
+162
+00:44:43,411 --> 00:45:12,164
+这是一种有些奇妙奇特的构造，你平时通常不会想到，但它确实成立。所以这是我们选取的 f(i) 候选元。让我们把这个数记作 a mod p。现在我令理想 I 为由 p 和 i - a 生成的理想：
+It's kind of a bizarre construction which you wouldn't normally think of as making any sense, but there it is. So this is our candidate for f(i). Let's call this number a mod p. And now I let the ideal I be the ideal generated by p and i - a:
+
+163
+00:45:12,164 --> 00:45:30,884
+这是一个良定义的模 p 整数，所以即使给 a 加上 p 的倍数也无所谓，因为理想中已经包含了由 p 生成的项。所以 I 是由 p 和 i -a 生成的理想，由 2 个元素生成。
+this is some integer which is well- defined mod p, so it doesn't make any difference if you add p to it, because I've already got the ideal generated by p. So I is the ideal generated by p and i - a, generated by 2 elements.
+
+164
+00:45:30,884 --> 00:45:46,265
+好，我断言这完全符合要求，确实如此！验证方法是：你再次检验 I ∩ Z = pZ。
+OK, I claim that this does the job, this does it! And the way you check it is, you check again that I \cap Z is pZ.
+
+165
+00:45:46,265 --> 00:45:50,353
+它显然包含理想 (p)，所以它要么是 pZ 要么是全整数环 Z。
+It certainly contains the ideal p, so it's either pZ or the entire integers.
+
+166
+00:45:50,353 --> 00:46:06,892
+因此你只需验证：如果你用某个高斯整数乘以 i - a 得到一个普通整数，那么该整数必能被 p 整除，正如我们在 5 的例子中所做的那样。让我们来检验它：(i - a)(b + ci)。
+So all you have to do is check that if you have a multiple of this by some Gaussian integer, and it's an integer, that that integer is divisible by p, just like we did with the 5 thing. So let's try it: (i - a) times (b + ci).
+
+167
+00:46:06,892 --> 00:46:33,130
+看看会发生什么：为什么它能被 p 整除？其实部是 -ab - c，加上虚部 (b - ac)i。好，因为它是普通整数所以虚部为 0，于是我们得到 b = ac。
+Let's see what happens: why is that divisible by p? Well, this is -ab - c, I guess, that's the yeah, plus, let's see, we get (-ac + b)i. OK, so this imaginary term is 0, so we find that b is equal to ac.
+
+168
+00:46:33,130 --> 00:46:56,940
+如果我们把它代入实部，得到 -a * b - c = -a(ac) - c，对吧？提取出 -c，得到 -c(a^2 + 1)，对吧。
+And if we substitute that in here, we get -a * b, which is -a(ac) - c, right? Which is factoring out the c, factoring out -c times (a^2 + 1), correct.
+
+169
+00:46:56,940 --> 00:47:07,089
+但是 a^2——因为 a 就是模 p 下的 i——具有平方同余于 -1 模 p 的性质！
+But a^2—because a was our i—a^2 had the property of being - 1 mod p!
+
+170
+00:47:07,089 --> 00:47:28,192
+所以 a^2 + 1 能被 p 整除，因此只要我有一个 (i - a) 与高斯整数的乘积且结果为普通整数，该整数就必能被 p 整除。所以首先我们知道交集为 pZ。
+So a^2 + 1 is divisible by p, and consequently, if I have any product of (i - a) with a Gaussian integer which is an integer, that integer is divisible by p. So the first thing we know is the intersection is pZ.
+
+171
+00:47:28,192 --> 00:47:49,680
+但另一方面，i 同余于一个整数：Z -> R/I 是满射，因为在 R/I 中 i 同余于整数 a——与我们前面使用的论证完全相同：
+But on the other hand, i is congruent to an integer: Z -> R/I is surjective, as i is congruent to an integer a in R/I—same argument that we used here:
+
+172
+00:47:49,680 --> 00:47:58,918
+一旦 i 同余于整数，i 的任何倍数就同余于该整数的倍数，所以任何形如 b + ci 的元素都同余于某个普通整数。
+once we have i congruent to an integer, any multiple of i is congruent to a multiple of that integer, so anything of the form b + ci is congruent to an integer.
+
+173
+00:47:58,918 --> 00:48:07,500
+因此该映射是满射，其核恰好是 pZ，这就给出了 Z/pZ 与 R/I 的同构！
+So this map is surjective, its kernel is precisely pZ, so that identifies Z mod pZ with R mod I!
+
+174
+00:48:07,500 --> 00:48:29,190
+我们刚刚证明了对任意模 4 余 1 的素数，都存在一个具有该商环的理想。现在进入下一步——这已经是高斯的伟大成就，他敏锐地洞察到了寻找该结构所需的全部关键。
+And we've just proved that for any prime congruent to 1 mod 4, we have an ideal with this quotient. Now comes—that's already a great achievement, that Gauss had somehow the realization of all this structure that you needed to find.
+
+175
+00:48:29,190 --> 00:48:41,557
+好，现在看下一步的伟大思想：该环具有每个理想都是主理想的优良性质！
+OK, now here's the great idea, next step: this ring has the property that every ideal in it is principal!
+
+176
+00:48:41,557 --> 00:48:54,672
+这是高斯的重大定理，我们以后会证明它：R 中的每个理想 I 都是主理想。
+This is Gauss's big theorem, we'll prove this later: every ideal I in R is principal.
+
+177
+00:48:54,672 --> 00:49:09,220
+请注意，我们这里构造的理想显然看不出是主理想：我们需要这个模 p 下的 4 次本原单位根 a，还需要素数 p，所以我们需要两个生成元。
+Notice that the ideal that we constructed here was not at all obviously principal: we needed this a, which was a 4th root of 1 mod p, and we needed our prime p, so we needed two generators for it.
+
+178
+00:49:09,220 --> 00:49:21,240
+但从抽象层面来看，无需考虑该理想的具体构造，高斯证明了每个理想都是主理想；因此特别是这一个理想也必须是主理想。
+But abstractly, without considering the construction of this ideal, Gauss proved that every ideal is principal; so in particular, this one has to be principal.
+
+179
+00:49:21,240 --> 00:49:42,301
+所以推论：既然每个理想都是主理想，这一个也不例外：因此我们可以将 I 写成由某个 a + bi 生成，I = (a + bi)。
+So corollary: since every ideal is principal, so is this one: so we can write I is generated by some a + bi.
+
+180
+00:49:42,301 --> 00:50:00,102
+我们虽然不知道 a 和b 是什么，但既然它是主理想就必有生成元。因此，R 模去由 a + bi 生成的主理想同构于 Z/pZ，因为这对R/I 成立。
+We don't know what a and b are, but there's some generator if it's principal. And consequently, R modulo the ideal generated by a + bi is isomorphic to Z mod pZ, because that was true for R mod I.
+
+181
+00:50:00,102 --> 00:50:07,344
+然后最后一步是证明：这蕴含着 a^2 + b^2 必须等于p！
+And then the last step is to show that this implies that a^2 + b^2 has to be equal to p!
+
+182
+00:50:07,344 --> 00:50:21,051
+我下次课讲给你们看，而这就是高斯对费马定理的证明——该定理指出任何模 4 余 1 的素数都是两个平方之和：p = a^2 + b^2！
+I'll show you that next time, and that was Gauss's proof of Fermat's theorem that stated that any prime number congruent to 1 mod 4 was the sum of 2 squares: p = a^2 + b^2!
+
+183
+00:50:21,051 --> 00:50:30,318
+正是这里的 a 和 b。只要能把 p 写成两个平方之和，那么该环中的每个理想就必须是主理想。
+It was this a and this b. That if you could write p as the sum of two squares, then every ideal in this ring had to be principal.
+
+184
+00:50:30,318 --> 00:50:32,250
+这是惊人的观察，是环论视角的证明。
+It's an amazing observation, it's a ring-theoretic proof.
+
+185
+00:50:32,250 --> 00:50:46,221
+我们不知道费马当年是如何证明该定理的：费马没有留下任何证明过程；他只提出了论断，他的绝大多数论断、极大量的论断都是正确的，而且它们如此神奇，以至于他脑海中一定已有清晰想法。
+We don't know how Fermat proved this theorem: Fermat left nothing behind him in the way of proofs; he made statements, most of his statements, a large number of his statements were correct, and they were so bizarre that he must have had something in mind.
+
+186
+00:50:46,221 --> 00:50:53,590
+但欧拉花了大半生时间试图复原费马的证明，而这就是高斯利用环论所发现的绝妙证明。
+But Euler spent a great deal of his life trying to recover Fermat's proofs, and this is a great one that Gauss discovered using ring theory.
+
+187
+00:50:53,590 --> 00:51:06,979
+它包含两个完全不同的步骤：第一步是证明对这些素数存在一个商环同构于 Z/pZ 的理想；第二步是证明每个理想都是主理想；第三步则容易得多，
+So it really has two completely different steps: the first step is to show that for these primes there is an ideal with this quotient ring; the second step is to show that every ideal is principal; and then the third step,
+
+188
+00:51:06,979 --> 00:51:21,156
+是证明如果你模去这样一个主理想所得的商环……更一般地，对于第三步，我给大家一个一般性命题去思考，大家可以为下次课先思考一下。
+which is much easier, is to show that if you have a quotient by an ideal like this... More generally, I'll show you for the third step the general statement to think about, and you guys can think about this for next time.
+
+189
+00:51:21,156 --> 00:51:55,430
+更一般地：R 模去由 a + bi 生成的主理想的阶为 a^2 + b^2：|R/(a + bi)| = a^2 + b^2，即该有限环的元素个数，只要这并非零理想。
+More generally, the order of R mod the principal ideal generated by a + bi is a^2 + b^2: |R/(a + bi)| = a^2 + b^2, the order of a finite ring, providing this is not the zero ideal.
+
+190
+00:51:55,430 --> 00:52:01,552
+因此在这里，我们有一个商环阶数等于 p 的主理想；那将迫使 a^2 + b^2 必须等于 p！
+So here, I would have a principal ideal such that the order of the quotient ring was p; that would force a^2 + b^2 to be equal to p!
+
+191
+00:52:01,552 --> 00:52:16,316
+这是一个普遍命题，与是否为素数无关：就像说Z/nZ 的阶是 n 的绝对值 |n| 一样。
+It's a general statement, has nothing to do with primes: that's just like saying the order of the order of Z mod nZ is the absolute value of n, |n|.
+
+192
+00:52:16,316 --> 00:52:28,762
+所以这是一种绝对值：这是，这是类似于——记住，(a + bi) 乘以它的共轭 (a - bi)——这就像复数的绝对值平方！
+So here's some kind of absolute value: this is, this is like—remember, a + bi times its conjugate—so this is like a complex absolute value!
+
+193
+00:52:28,762 --> 00:52:33,023
+大家思考一下这个，你就掌握了费马两平方和定理的完整证明。
+Think about that, and then you'll have the total proof of Fermat's theorem.
+
+194
+00:52:33,023 --> 00:52:47,325
+这就是环论是如何建立起来的：高斯从费马那里知道了该结论，他试图搞清楚如何借助某种代数结构构造出严格的数学证明。
+And this is how ring theory was built: Gauss knew this result from Fermat, and he was trying to figure out how one would construct a mathematical proof of this that involves some structure.
+
+195
+00:52:47,325 --> 00:52:57,399
+他很自然地被引导至这个环 Z[i]，因为如果你思考 a^2 + b^2，它就像是这个元素的绝对值平方，对吧？
+He was led naturally to this ring Z[i], because if you thought about a^2 + b^2, it was sort of like that the absolute value of this element, right?
+
+196
+00:52:57,399 --> 00:53:10,519
+我是说，他熟悉复分析；高斯还证明了代数基本定理（这在复分析中是核心定理），所以他研究过复数；这引导他去考察复数域的这个子环。
+I mean, he knew complex analysis; Gauss also proved the fundamental theorem of algebra, which is a theorem in complex analysis, so he'd worked with complex numbers; that led him to consider this subring of the complex numbers.
+
+197
+00:53:10,519 --> 00:53:16,952
+他意识到在证明该定理时必须证明关于其理想的性质，而这正是环论的开端！
+And he realized that in proving this theorem, you have to prove something about its ideals, and that was the beginning of ring theory!
+
+198
+00:53:16,952 --> 00:53:27,452
+我们下次会讲完最后这几步。大家仔细回味一下：这展现了一位真正伟大数学家的非凡头脑。大家不必在做作业时一夜之间想出这些，
+So we'll go over the last couple of steps in this. Take a look through this: this is the work of a truly great mathematical mind. You're not supposed to come up with this overnight for your homework,
+
+199
+00:53:27,452 --> 00:53:42,786
+但这让大家领略到了理想理论是如何诞生的：注意，你首先构造一个抽象理想，然后证明它是主理想！很好。好，周三继续。
+but it's some appreciation of where the theory of ideals came about: and notice that you first construct an abstract ideal, and then prove it principal theorem! Good. OK, more on Wednesday.

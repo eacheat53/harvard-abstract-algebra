@@ -1,0 +1,246 @@
+{
+ "2": [
+  [
+   "There are two main goals",
+   "今天这节课有两个主要目标"
+  ]
+ ],
+ "21": [
+  [
+   "is make concrete",
+   "是把上次讲的陪集"
+  ]
+ ],
+ "24": [
+  [
+   "is that of congruence mod n",
+   "是模 n 同余以及它的算术"
+  ]
+ ],
+ "43": [
+  [
+   "we're going to write a with an overline",
+   "我们会把 a 的等价类记作"
+  ]
+ ],
+ "67": [
+  [
+   "if I have some a, then",
+   "给定 a，可以把它写成"
+  ]
+ ],
+ "83": [
+  [
+   "or sometimes just shortened to Z/n,",
+   "有时简写成 Z/n，"
+  ],
+  [
+   "These are all synonymous.",
+   "这些写法都是同义的。"
+  ]
+ ],
+ "88": [
+  [
+   "Can we do arithmetic in Z/nZ?",
+   "我们能在 Z/nZ 里做算术吗？"
+  ]
+ ],
+ "97": [
+  [
+   "if I have a1-bar equal",
+   "如果 a₁-bar ="
+  ]
+ ],
+ "98": [
+  [
+   "and likewise a1·a2-bar",
+   "同样地，a₁a₂-bar"
+  ]
+ ],
+ "105": [
+  [
+   "In other words, if I write",
+   "换句话说，无论写成"
+  ]
+ ],
+ "111": [
+  [
+   "again, just returning to what",
+   "也就是前面的内容"
+  ],
+  [
+   "in the language from last time, the set of cosets",
+   "用上次的语言说，Z 的子群"
+  ]
+ ],
+ "119": [
+  [
+   "In the case of Z, this is a trivial hypothesis",
+   "而在 Z 的情形，这个假设是平凡的"
+  ]
+ ],
+ "121": [
+  [
+   "it's just this sort of cycle",
+   "循环置换"
+  ]
+ ],
+ "125": [
+  [
+   "then this thing is just k-bar",
+   "就得到 k-bar"
+  ],
+  [
+   "so I get all of 1-bar",
+   "于是我们得到 1-bar"
+  ]
+ ],
+ "133": [
+  [
+   "So if everything that's in here",
+   "既然这里的元素都在那个子群里"
+  ],
+  [
+   "Is that clear? Great.",
+   "清楚吗？好。"
+  ]
+ ],
+ "134": [
+  [
+   "Notation: when we use plus",
+   "记号约定：当群运算用加号"
+  ]
+ ],
+ "138": [
+  [
+   "the addition and multiplication",
+   "Z/nZ 上的加法和乘法"
+  ],
+  [
+   "in the precise sense that",
+   "确切地说，a-bar"
+  ]
+ ],
+ "144": [
+  [
+   "all we have to compute is 2^1000",
+   "我们只需要算 2^1000"
+  ],
+  [
+   "which makes the whole problem",
+   "整个问题就变得非常容易处理。"
+  ]
+ ],
+ "162": [
+  [
+   "No: because for instance",
+   "因为 0-bar 不可能有逆元"
+  ]
+ ],
+ "164": [
+  [
+   "the problem here is that",
+   "问题在于有些元素没有逆元"
+  ]
+ ],
+ "165": [
+  [
+   "we do have a subset",
+   "Z/nZ 中确实有一个子集"
+  ],
+  [
+   "explicitly, the set of things",
+   "就是所有有逆元的元素"
+  ]
+ ],
+ "166": [
+  [
+   "the a-bar in Z/nZ such that",
+   "Z/nZ 中满足"
+  ]
+ ],
+ "184": [
+  [
+   "is that they have a relationship",
+   "它与我们迄今研究过的"
+  ],
+  [
+   "Yes?",
+   "有问题吗？"
+  ]
+ ],
+ "185": [
+  [
+   "the unique positive integer d",
+   "就是那个唯一正整数 d"
+  ],
+  [
+   "so it's just talking about",
+   "也就是说，它谈的只是整除结构"
+  ]
+ ],
+ "193": [
+  [
+   "so it equals dZ for some d",
+   "它等于 dZ（对某个 d）"
+  ]
+ ],
+ "196": [
+  [
+   "Well, because d is in dZ",
+   "由于 d 在 dZ 中"
+  ]
+ ],
+ "201": [
+  [
+   "is exactly the set of a-bar",
+   "恰好就是 Z/nZ 中满足"
+  ],
+  [
+   "such that — any guesses?",
+   "——有谁猜一下？"
+  ],
+  [
+   "yes, exactly: gcd(a, n) = 1",
+   "对，正是 gcd(a, n) = 1"
+  ]
+ ],
+ "212": [
+  [
+   "I can write 1 as ar + ns",
+   "我可以把 1 写成 ar + ns"
+  ]
+ ],
+ "221": [
+  [
+   "Everything except for zero:",
+   "除了 0 以外——"
+  ]
+ ],
+ "223": [
+  [
+   "what is the order of (Z/p^eZ)^×?",
+   "(Z/p^eZ)^× 的阶是多少？"
+  ],
+  [
+   "Any takers?",
+   "有人知道吗？"
+  ]
+ ],
+ "234": [
+  [
+   "if I have some normal subgroup H of G",
+   "如果有一个群 G 的正规子群 H"
+  ],
+  [
+   "we're going to be able to look at the coset space",
+   "我们就可以考察陪集空间"
+  ]
+ ],
+ "236": [
+  [
+   "from G to G/H",
+   "G → G/H"
+  ]
+ ]
+}

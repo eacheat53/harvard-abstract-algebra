@@ -1,0 +1,3480 @@
+1
+00:00:11,510 --> 00:00:17,210
+Carl Ludwig single one of the great
+
+2
+00:00:13,940 --> 00:00:18,619
+mathematicians of the 20th century from
+
+3
+00:00:17,210 --> 00:00:21,199
+he was visiting the Institute for
+
+4
+00:00:18,619 --> 00:00:22,939
+Advanced Study in Princeton and giving a
+
+5
+00:00:21,199 --> 00:00:24,949
+series of lectures and one day it was
+
+6
+00:00:22,939 --> 00:00:27,739
+terrible snowstorm like was over the
+
+7
+00:00:24,949 --> 00:00:29,989
+weekend and nobody came into the lecture
+
+8
+00:00:27,739 --> 00:00:32,449
+except Segal hiked his way in because he
+
+9
+00:00:29,989 --> 00:00:34,760
+was the hardy kind of guy and he just
+
+10
+00:00:32,449 --> 00:00:37,250
+looked out there and you know there was
+
+11
+00:00:34,760 --> 00:00:39,409
+no one there he just gave the talk and
+
+12
+00:00:37,250 --> 00:00:40,579
+the next time you know people were
+
+13
+00:00:39,409 --> 00:00:42,199
+confused because they Kay it was a
+
+14
+00:00:40,579 --> 00:00:43,489
+series of lectures and he was starting
+
+15
+00:00:42,199 --> 00:00:45,710
+off at a place that was obviously not
+
+16
+00:00:43,489 --> 00:00:47,030
+where he had left off and they said well
+
+17
+00:00:45,710 --> 00:00:48,350
+why did you give the talk you know if
+
+18
+00:00:47,030 --> 00:00:49,760
+there was no one there he said look I
+
+19
+00:00:48,350 --> 00:00:51,920
+came in I was supposed to give the talk
+
+20
+00:00:49,760 --> 00:00:55,850
+I gave the talk I went home you know it
+
+21
+00:00:51,920 --> 00:01:01,690
+was very systematic okay so uh so last
+
+22
+00:00:55,850 --> 00:01:04,100
+time we did Prime's in in the zmi and
+
+23
+00:01:01,690 --> 00:01:05,990
+showed there was a lot of relationship
+
+24
+00:01:04,100 --> 00:01:10,220
+to number theory for example we showed
+
+25
+00:01:05,990 --> 00:01:18,440
+that that the primes congruent to 1 mod
+
+26
+00:01:10,220 --> 00:01:25,729
+4 gave rise to two primes PI and PI
+
+27
+00:01:18,440 --> 00:01:34,520
+prime in zmi and Prime's conduit to 3
+
+28
+00:01:25,729 --> 00:01:37,070
+mod 4 1 prime in fact the the element P
+
+29
+00:01:34,520 --> 00:01:40,189
+is still a prime these two Prime's have
+
+30
+00:01:37,070 --> 00:01:43,100
+the property that pi times 5 prime is
+
+31
+00:01:40,189 --> 00:01:47,659
+equal to P so there was this nice
+
+32
+00:01:43,100 --> 00:01:50,780
+distinction and this is the statement by
+
+33
+00:01:47,659 --> 00:01:54,140
+the way that if pi is equal to a plus bi
+
+34
+00:01:50,780 --> 00:01:56,509
+it says that a squared plus b squared is
+
+35
+00:01:54,140 --> 00:01:58,460
+equal to b which is a proof of Fermat's
+
+36
+00:01:56,509 --> 00:02:00,520
+theorem that every prime time went to
+
+37
+00:01:58,460 --> 00:02:03,710
+one might four is the sum of two squares
+
+38
+00:02:00,520 --> 00:02:05,719
+so hidden in this determination of the
+
+39
+00:02:03,710 --> 00:02:07,969
+primes and z of i together with the fact
+
+40
+00:02:05,719 --> 00:02:10,899
+that it was a principal ideal domain we
+
+41
+00:02:07,969 --> 00:02:10,899
+got that result yeah
+
+42
+00:02:13,400 --> 00:02:17,819
+the a and the B very a very good
+
+43
+00:02:17,040 --> 00:02:22,439
+question
+
+44
+00:02:17,819 --> 00:02:26,340
+so there are formulas for it cows worked
+
+45
+00:02:22,439 --> 00:02:27,810
+hard on finding formulas for a and B in
+
+46
+00:02:26,340 --> 00:02:30,900
+fact you could normalize them you see
+
+47
+00:02:27,810 --> 00:02:32,040
+one of them has to be odd right I mean
+
+48
+00:02:30,900 --> 00:02:35,609
+you can't have two two odd numbers
+
+49
+00:02:32,040 --> 00:02:40,739
+adding up to an odd number right and so
+
+50
+00:02:35,609 --> 00:02:42,780
+one is odd and and so and since you can
+
+51
+00:02:40,739 --> 00:02:46,409
+change the sign of that you can make the
+
+52
+00:02:42,780 --> 00:02:48,120
+odd one either one or three mod 4 if you
+
+53
+00:02:46,409 --> 00:02:50,010
+want to you can normalize it a little
+
+54
+00:02:48,120 --> 00:02:52,799
+bit and then you can ask for an actual
+
+55
+00:02:50,010 --> 00:02:55,409
+formula going from P to a that sort of
+
+56
+00:02:52,799 --> 00:02:57,629
+thing and Gauss found such formulas and
+
+57
+00:02:55,409 --> 00:03:01,950
+people have searched for such formulas
+
+58
+00:02:57,629 --> 00:03:03,540
+in the future and I may even do a little
+
+59
+00:03:01,950 --> 00:03:05,879
+of that in my special lecture next week
+
+60
+00:03:03,540 --> 00:03:07,139
+okay but it's a great great question I
+
+61
+00:03:05,879 --> 00:03:09,530
+mean once you prove it's a sum of two
+
+62
+00:03:07,139 --> 00:03:15,959
+squares it's like well what are a and B
+
+63
+00:03:09,530 --> 00:03:17,549
+ok it's related to another subject
+
+64
+00:03:15,959 --> 00:03:19,379
+called elliptic curves which I'm going
+
+65
+00:03:17,549 --> 00:03:21,780
+to talk about next week okay
+
+66
+00:03:19,379 --> 00:03:22,919
+now what we're going to do for the rest
+
+67
+00:03:21,780 --> 00:03:31,729
+of the term is we're going to study
+
+68
+00:03:22,919 --> 00:03:33,689
+rings are analogous to Z of AI and
+
+69
+00:03:31,729 --> 00:03:35,189
+determine what their Prime's are
+
+70
+00:03:33,689 --> 00:03:37,919
+although they're not always unique
+
+71
+00:03:35,189 --> 00:03:40,079
+factorization rings and we've seen some
+
+72
+00:03:37,919 --> 00:03:42,870
+rings analogous to this for example in
+
+73
+00:03:40,079 --> 00:03:45,629
+homework there is this ring z square
+
+74
+00:03:42,870 --> 00:03:50,159
+root of minus 2 so all things of a forum
+
+75
+00:03:45,629 --> 00:03:52,859
+a plus B Square to minus 2 and there
+
+76
+00:03:50,159 --> 00:03:56,159
+this Delta function Delta of a plus B
+
+77
+00:03:52,859 --> 00:04:00,359
+squared minus 2 which is a squared plus
+
+78
+00:03:56,159 --> 00:04:04,949
+2b squared it's a it this gives a
+
+79
+00:04:00,359 --> 00:04:10,019
+Euclidean structure on this ring so R is
+
+80
+00:04:04,949 --> 00:04:12,659
+Euclidean with respect to this function
+
+81
+00:04:10,019 --> 00:04:15,359
+Delta and so you have a nice prime
+
+82
+00:04:12,659 --> 00:04:17,609
+factorization in that ring too and then
+
+83
+00:04:15,359 --> 00:04:21,570
+we also introduced the ring R which was
+
+84
+00:04:17,609 --> 00:04:23,039
+Z square root of minus 5 and that ring
+
+85
+00:04:21,570 --> 00:04:24,389
+doesn't even have unique factorization
+
+86
+00:04:23,039 --> 00:04:30,060
+so it's certainly not
+
+87
+00:04:24,389 --> 00:04:32,669
+Lydia's no unique factorization because
+
+88
+00:04:30,060 --> 00:04:35,099
+we had two times three was equal to one
+
+89
+00:04:32,669 --> 00:04:36,900
+plus the square root of minus five 1
+
+90
+00:04:35,099 --> 00:04:39,539
+minus the square root of minus five and
+
+91
+00:04:36,900 --> 00:04:44,099
+each of these elements is irreducible is
+
+92
+00:04:39,539 --> 00:04:45,449
+a prime so these rings obviously look
+
+93
+00:04:44,099 --> 00:04:47,669
+similar but they have different
+
+94
+00:04:45,449 --> 00:04:51,139
+properties so you might say well what we
+
+95
+00:04:47,669 --> 00:04:57,330
+could do is a general analog of this was
+
+96
+00:04:51,139 --> 00:04:59,610
+we could take we could take rings like Z
+
+97
+00:04:57,330 --> 00:05:01,409
+square root of D that looks like a good
+
+98
+00:04:59,610 --> 00:05:03,960
+example so all things are the form a
+
+99
+00:05:01,409 --> 00:05:06,479
+plus B times the square root of some
+
+100
+00:05:03,960 --> 00:05:08,819
+number and so that would be the same
+
+101
+00:05:06,479 --> 00:05:13,289
+thing as taking the quotient of the
+
+102
+00:05:08,819 --> 00:05:15,659
+polynomials in Z by the ideal x squared
+
+103
+00:05:13,289 --> 00:05:18,029
+minus D and if we wanted this to be an
+
+104
+00:05:15,659 --> 00:05:22,710
+irreducible polynomial we want D not to
+
+105
+00:05:18,029 --> 00:05:24,930
+be equal to a a square so that all of
+
+106
+00:05:22,710 --> 00:05:29,789
+these rings are of this short of this
+
+107
+00:05:24,930 --> 00:05:31,500
+form okay now the reason so we could
+
+108
+00:05:29,789 --> 00:05:41,120
+study those rings but this isn't quite
+
+109
+00:05:31,500 --> 00:05:41,120
+right this is not quite the right analog
+
+110
+00:05:41,479 --> 00:05:46,370
+very close but not quite the right
+
+111
+00:05:43,639 --> 00:05:48,939
+analog of Z of AI and I'll give you a
+
+112
+00:05:46,370 --> 00:05:53,710
+real give you an example to show you why
+
+113
+00:05:48,939 --> 00:05:58,849
+this is slightly thing to do because
+
+114
+00:05:53,710 --> 00:06:02,900
+consider the polynomial f of X is x
+
+115
+00:05:58,849 --> 00:06:05,120
+squared plus X plus 1 so the roots of
+
+116
+00:06:02,900 --> 00:06:08,539
+that polynomial are alpha by the
+
+117
+00:06:05,120 --> 00:06:17,589
+quadratic formula minus 1 plus or minus
+
+118
+00:06:08,539 --> 00:06:22,460
+the square root of minus 3 over 2 okay
+
+119
+00:06:17,589 --> 00:06:29,180
+now if you take the ring R which is Z of
+
+120
+00:06:22,460 --> 00:06:32,589
+X modulo the ideal f of X this is a
+
+121
+00:06:29,180 --> 00:06:39,319
+monic irreducible polynomial of degree 2
+
+122
+00:06:32,589 --> 00:06:42,139
+so this ring is Z plus Z of alpha it's a
+
+123
+00:06:39,319 --> 00:06:45,589
+free abelian sorry it has two copies of
+
+124
+00:06:42,139 --> 00:06:47,749
+the integers Z times 1 plus Z times
+
+125
+00:06:45,589 --> 00:06:50,210
+alpha alpha being the root of f of X and
+
+126
+00:06:47,749 --> 00:06:52,009
+any higher polynomial and alpha alpha
+
+127
+00:06:50,210 --> 00:06:54,800
+squared alpha cubed can be re-expressed
+
+128
+00:06:52,009 --> 00:07:01,339
+in terms of alpha and 1 using this
+
+129
+00:06:54,800 --> 00:07:06,279
+relation now that ring contains the ring
+
+130
+00:07:01,339 --> 00:07:10,129
+z plus the square root of minus 3
+
+131
+00:07:06,279 --> 00:07:13,909
+because if i multiply alpha by 2 to
+
+132
+00:07:10,129 --> 00:07:16,009
+alpha and i add 1 to it that becomes
+
+133
+00:07:13,909 --> 00:07:19,069
+plus or minus the square root of minus 3
+
+134
+00:07:16,009 --> 00:07:21,740
+so inside of this ring i certainly have
+
+135
+00:07:19,069 --> 00:07:24,080
+the expression 2 alpha plus 1 so i have
+
+136
+00:07:21,740 --> 00:07:26,689
+a square root of minus 3 I also have 1
+
+137
+00:07:24,080 --> 00:07:28,969
+so I have this ring but these two rings
+
+138
+00:07:26,689 --> 00:07:31,279
+aren't equal because I cannot write
+
+139
+00:07:28,969 --> 00:07:32,719
+alpha as an integer plus an integer
+
+140
+00:07:31,279 --> 00:07:36,680
+times the square root of minus 3 I have
+
+141
+00:07:32,719 --> 00:07:41,330
+to divide by 2 and in fact this ring has
+
+142
+00:07:36,680 --> 00:07:46,939
+index 2 in this ring and both of them
+
+143
+00:07:41,330 --> 00:07:49,839
+have the same fraction field our
+
+144
+00:07:46,939 --> 00:07:49,839
+integral domains
+
+145
+00:07:51,550 --> 00:08:04,910
+with field of fractions q square 2-3 the
+
+146
+00:08:03,110 --> 00:08:09,020
+rational numbers had joined the square
+
+147
+00:08:04,910 --> 00:08:11,960
+root of minus 3 and obviously we want to
+
+148
+00:08:09,020 --> 00:08:13,760
+work with the largest natural ring we
+
+149
+00:08:11,960 --> 00:08:16,220
+could inside of this field of fractions
+
+150
+00:08:13,760 --> 00:08:17,810
+which means we wouldn't necessarily want
+
+151
+00:08:16,220 --> 00:08:20,900
+to work with this ring it might be
+
+152
+00:08:17,810 --> 00:08:23,690
+better to work with this ring any
+
+153
+00:08:20,900 --> 00:08:25,430
+anything that was an ideal for this ring
+
+154
+00:08:23,690 --> 00:08:27,470
+would be an ideal for this you know
+
+155
+00:08:25,430 --> 00:08:28,760
+thinking something sorry some ideals for
+
+156
+00:08:27,470 --> 00:08:31,310
+this ring would not be stable under
+
+157
+00:08:28,760 --> 00:08:33,020
+multiplication by this ring so that the
+
+158
+00:08:31,310 --> 00:08:41,750
+preference is to always work for the
+
+159
+00:08:33,020 --> 00:08:47,480
+larger ring sometimes can enlarge this
+
+160
+00:08:41,750 --> 00:08:51,680
+ring inside the fraction field of
+
+161
+00:08:47,480 --> 00:08:53,240
+fractions so the first thing we're going
+
+162
+00:08:51,680 --> 00:08:57,200
+to have to do to figure out what the
+
+163
+00:08:53,240 --> 00:09:00,050
+analog is of the Gaussian integers in
+
+164
+00:08:57,200 --> 00:09:01,670
+this kind of setting is to figure out
+
+165
+00:09:00,050 --> 00:09:04,520
+when we can enlarge it what kind of
+
+166
+00:09:01,670 --> 00:09:07,880
+rings we want to work with it turns out
+
+167
+00:09:04,520 --> 00:09:09,830
+for example that one reason that it's
+
+168
+00:09:07,880 --> 00:09:16,940
+better to work with this ring is that
+
+169
+00:09:09,830 --> 00:09:18,980
+this ring is a Euclidean ring this ring
+
+170
+00:09:16,940 --> 00:09:20,480
+isn't so that was a big discovery that
+
+171
+00:09:18,980 --> 00:09:22,610
+oil are made that it was better to study
+
+172
+00:09:20,480 --> 00:09:26,180
+the ring generated by this than just
+
+173
+00:09:22,610 --> 00:09:28,100
+squared minus three okay so we're going
+
+174
+00:09:26,180 --> 00:09:29,720
+to back off a little bit before we tell
+
+175
+00:09:28,100 --> 00:09:32,330
+you what the right rings are that we're
+
+176
+00:09:29,720 --> 00:09:35,180
+going to study for the rest of the rest
+
+177
+00:09:32,330 --> 00:09:38,720
+of the course and talk a little bit
+
+178
+00:09:35,180 --> 00:09:40,220
+about algebraic integers I'll keep this
+
+179
+00:09:38,720 --> 00:09:42,380
+up for a second now I should say about
+
+180
+00:09:40,220 --> 00:09:44,270
+the homework so I've gotten a little bit
+
+181
+00:09:42,380 --> 00:09:46,580
+behind of the schedule so I had Peter
+
+182
+00:09:44,270 --> 00:09:48,710
+change the homework on the web you get a
+
+183
+00:09:46,580 --> 00:09:51,770
+day off today just to sort of catch up
+
+184
+00:09:48,710 --> 00:09:53,840
+orient yourself get ready for the final
+
+185
+00:09:51,770 --> 00:09:56,030
+push and then we're going to have three
+
+186
+00:09:53,840 --> 00:09:58,910
+more assignments one after class
+
+187
+00:09:56,030 --> 00:10:01,070
+Wednesday one after class Friday and one
+
+188
+00:09:58,910 --> 00:10:02,690
+after class Monday and those are the
+
+189
+00:10:01,070 --> 00:10:03,100
+assignments that Peter had posted all
+
+190
+00:10:02,690 --> 00:10:06,670
+move
+
+191
+00:10:03,100 --> 00:10:08,140
+back a day now you may say when am I
+
+192
+00:10:06,670 --> 00:10:10,480
+going to hand in the assignment after
+
+193
+00:10:08,140 --> 00:10:13,930
+class Monday if I'm catching a flight
+
+194
+00:10:10,480 --> 00:10:16,030
+Monday afternoon okay that's for you to
+
+195
+00:10:13,930 --> 00:10:18,400
+plan ahead on if you're going to be
+
+196
+00:10:16,030 --> 00:10:20,830
+around Tuesday and in Tuesday if you're
+
+197
+00:10:18,400 --> 00:10:22,660
+not going to be around because you're
+
+198
+00:10:20,830 --> 00:10:24,820
+leaving directly after class on Monday
+
+199
+00:10:22,660 --> 00:10:27,790
+or god forbid you're leaving before
+
+200
+00:10:24,820 --> 00:10:29,290
+class on Monday then you should try to
+
+201
+00:10:27,790 --> 00:10:31,690
+get that homework assignment to Peter
+
+202
+00:10:29,290 --> 00:10:33,250
+and and Liz in some other way okay
+
+203
+00:10:31,690 --> 00:10:36,880
+they'll be gracious and take it in a
+
+204
+00:10:33,250 --> 00:10:38,890
+little late okay now to get the right
+
+205
+00:10:36,880 --> 00:10:45,910
+analog we have to talk about algebraic
+
+206
+00:10:38,890 --> 00:10:52,420
+integers so we say a complex number is
+
+207
+00:10:45,910 --> 00:10:57,040
+an algebraic integer a complex number is
+
+208
+00:10:52,420 --> 00:11:06,090
+an algebraic integer if alpha is the
+
+209
+00:10:57,040 --> 00:11:10,060
+root of a monic polynomial f of X in
+
+210
+00:11:06,090 --> 00:11:13,990
+with integer coefficients X to the N
+
+211
+00:11:10,060 --> 00:11:18,460
+minus a n minus 1 X to the N minus 1
+
+212
+00:11:13,990 --> 00:11:21,970
+any monic polynomial Banach means first
+
+213
+00:11:18,460 --> 00:11:25,300
+coefficient 1 integer coefficients okay
+
+214
+00:11:21,970 --> 00:11:31,600
+so example every integer is an algebraic
+
+215
+00:11:25,300 --> 00:11:38,730
+integer because an integer is the root
+
+216
+00:11:31,600 --> 00:11:43,150
+of this polynomial okay another example
+
+217
+00:11:38,730 --> 00:11:45,970
+square root of D for D in Z because
+
+218
+00:11:43,150 --> 00:11:52,900
+that's the root of the polynomial x
+
+219
+00:11:45,970 --> 00:11:56,620
+squared minus D like that's an algebraic
+
+220
+00:11:52,900 --> 00:11:59,260
+integer another example this is an
+
+221
+00:11:56,620 --> 00:12:01,570
+algebraic integer because it's the root
+
+222
+00:11:59,260 --> 00:12:03,220
+of this polynomial which is monic with
+
+223
+00:12:01,570 --> 00:12:04,870
+integer coefficient it doesn't look too
+
+224
+00:12:03,220 --> 00:12:07,180
+integral like it looks like it has a 2
+
+225
+00:12:04,870 --> 00:12:10,140
+in the denominator but in fact it's the
+
+226
+00:12:07,180 --> 00:12:10,140
+root of that polynomial
+
+227
+00:12:12,949 --> 00:12:24,569
+so these are all examples of algebraic
+
+228
+00:12:15,720 --> 00:12:26,670
+integers okay now we want to know if an
+
+229
+00:12:24,569 --> 00:12:29,639
+element is a root of a polynomial with
+
+230
+00:12:26,670 --> 00:12:31,189
+rational coefficients is it an algebraic
+
+231
+00:12:29,639 --> 00:12:40,439
+integer so that's the first question
+
+232
+00:12:31,189 --> 00:12:43,829
+suppose alpha satisfies f of X with
+
+233
+00:12:40,439 --> 00:12:47,959
+rational coefficients coefficients and
+
+234
+00:12:43,829 --> 00:12:50,189
+let's assume that f of X is Manik and
+
+235
+00:12:47,959 --> 00:12:52,589
+irreducible namely we find the
+
+236
+00:12:50,189 --> 00:12:55,019
+polynomial of least degree that's
+
+237
+00:12:52,589 --> 00:13:00,589
+satisfied by alpha with rational
+
+238
+00:12:55,019 --> 00:13:07,379
+coefficients okay and the question is is
+
+239
+00:13:00,589 --> 00:13:10,800
+alpha and algebraic integer this will be
+
+240
+00:13:07,379 --> 00:13:13,050
+an important thing for us to decide well
+
+241
+00:13:10,800 --> 00:13:17,220
+certainly if f has integral coefficients
+
+242
+00:13:13,050 --> 00:13:28,079
+it does it but I claim that it's if and
+
+243
+00:13:17,220 --> 00:13:35,480
+only if claim alpha is an algebraic
+
+244
+00:13:28,079 --> 00:13:39,929
+integer if and only if the monic
+
+245
+00:13:35,480 --> 00:13:48,480
+irreducible f of x with rational
+
+246
+00:13:39,929 --> 00:13:51,709
+coefficients satisfied by alpha has
+
+247
+00:13:48,480 --> 00:13:51,709
+integral coefficients
+
+248
+00:13:54,589 --> 00:13:58,730
+so you might say well how do you know
+
+249
+00:13:57,540 --> 00:14:00,420
+that there could be some other
+
+250
+00:13:58,730 --> 00:14:02,339
+polynomial with integer coefficients
+
+251
+00:14:00,420 --> 00:14:03,569
+that it satisfies just cuz it satisfied
+
+252
+00:14:02,339 --> 00:14:04,949
+that one and that one didn't have
+
+253
+00:14:03,569 --> 00:14:06,709
+integer coefficients maybe there's some
+
+254
+00:14:04,949 --> 00:14:12,149
+other one but the answer is there isn't
+
+255
+00:14:06,709 --> 00:14:19,800
+so for example this proves example 1/2
+
+256
+00:14:12,149 --> 00:14:22,379
+is not an algebraic integer is not an
+
+257
+00:14:19,800 --> 00:14:26,220
+algebraic integer because it satisfies
+
+258
+00:14:22,379 --> 00:14:29,490
+the following polynomial which is monic
+
+259
+00:14:26,220 --> 00:14:31,379
+and irreducible right and that
+
+260
+00:14:29,490 --> 00:14:33,870
+polynomial does not have any jirko
+
+261
+00:14:31,379 --> 00:14:37,889
+efficients in particular any rational
+
+262
+00:14:33,870 --> 00:14:42,060
+number that's not an integer is not so
+
+263
+00:14:37,889 --> 00:14:45,620
+or any alpha which is in the rationals
+
+264
+00:14:42,060 --> 00:14:52,709
+which is not an injury is not an
+
+265
+00:14:45,620 --> 00:14:57,709
+algebraic integer another example alpha
+
+266
+00:14:52,709 --> 00:15:04,259
+equals square root of 2 over 3 is not an
+
+267
+00:14:57,709 --> 00:15:09,899
+algebraic integer proof it satisfies the
+
+268
+00:15:04,259 --> 00:15:12,649
+polynomial x squared minus 2/9 equals 0
+
+269
+00:15:09,899 --> 00:15:15,000
+and that's an irreducible polynomial
+
+270
+00:15:12,649 --> 00:15:17,189
+monic but it doesn't have any of your
+
+271
+00:15:15,000 --> 00:15:18,629
+coefficients so this is really quite
+
+272
+00:15:17,189 --> 00:15:20,009
+good it tells you things which are
+
+273
+00:15:18,629 --> 00:15:22,620
+algebraic inner just tells you things
+
+274
+00:15:20,009 --> 00:15:27,629
+that aren't algebraic integers okay now
+
+275
+00:15:22,620 --> 00:15:37,790
+we're going to prove the claim all right
+
+276
+00:15:27,629 --> 00:15:42,529
+let G of X be the primitive polynomial
+
+277
+00:15:37,790 --> 00:15:42,529
+well maybe let's call it f 0 of X
+
+278
+00:15:44,209 --> 00:15:53,850
+polynomial over Z with our irreducible f
+
+279
+00:15:51,000 --> 00:15:56,189
+of X being its content times F 0 of X we
+
+280
+00:15:53,850 --> 00:15:58,850
+can write any polynomial uniquely in
+
+281
+00:15:56,189 --> 00:16:02,730
+that way right and this is the content
+
+282
+00:15:58,850 --> 00:16:04,050
+and here is our primitive polynomial
+
+283
+00:16:02,730 --> 00:16:06,389
+with coefficients in the integers and
+
+284
+00:16:04,050 --> 00:16:08,329
+the content is a right in is a rational
+
+285
+00:16:06,389 --> 00:16:12,059
+number
+
+286
+00:16:08,329 --> 00:16:13,740
+okay now Alfa certainly satisfies f-zero
+
+287
+00:16:12,059 --> 00:16:23,819
+the problem is that f-zero may or may
+
+288
+00:16:13,740 --> 00:16:27,089
+not be Manik okay I claim that any
+
+289
+00:16:23,819 --> 00:16:36,980
+polynomial that satisfied by alpha over
+
+290
+00:16:27,089 --> 00:16:46,170
+the integers is a multiple of F 0 with G
+
+291
+00:16:36,980 --> 00:16:51,720
+of alpha equals 0 has the form G of X is
+
+292
+00:16:46,170 --> 00:16:56,699
+equal to F 0 of x times Q of X where
+
+293
+00:16:51,720 --> 00:16:59,220
+this is in Z of X now if I can prove
+
+294
+00:16:56,699 --> 00:17:05,039
+that that proves that statement because
+
+295
+00:16:59,220 --> 00:17:07,740
+Y if F is here if f of X did not have if
+
+296
+00:17:05,039 --> 00:17:10,980
+f of X has integral coefficients then F
+
+297
+00:17:07,740 --> 00:17:13,649
+is equal to F 0 because the GCD of a
+
+298
+00:17:10,980 --> 00:17:18,539
+coefficients is 1 because the thing was
+
+299
+00:17:13,649 --> 00:17:21,630
+monic correct if F does not have
+
+300
+00:17:18,539 --> 00:17:23,789
+integral coefficients then F is not
+
+301
+00:17:21,630 --> 00:17:26,510
+equal to F 0 because in particular this
+
+302
+00:17:23,789 --> 00:17:32,669
+has integral coefficients in particular
+
+303
+00:17:26,510 --> 00:17:37,679
+we've had to multiply in particular F 0
+
+304
+00:17:32,669 --> 00:17:40,429
+is some it's its leading coefficient its
+
+305
+00:17:37,679 --> 00:17:44,010
+first coefficient is not equal to 1
+
+306
+00:17:40,429 --> 00:17:47,340
+because it's F 0 is a scalar multiple of
+
+307
+00:17:44,010 --> 00:17:51,630
+F if F 0 were monic right it would be
+
+308
+00:17:47,340 --> 00:17:54,149
+equal to F so if f of X does not have
+
+309
+00:17:51,630 --> 00:17:56,250
+integral coefficients then F 0 of X
+
+310
+00:17:54,149 --> 00:17:58,770
+starts off with some coefficient like 2x
+
+311
+00:17:56,250 --> 00:18:02,340
+to the N or 7 X to the N or something of
+
+312
+00:17:58,770 --> 00:18:03,840
+that nature well any multiple of F 0
+
+313
+00:18:02,340 --> 00:18:07,789
+would also start off with the first
+
+314
+00:18:03,840 --> 00:18:10,169
+coefficient that was not Banach and
+
+315
+00:18:07,789 --> 00:18:12,899
+consequently any polynomial that was
+
+316
+00:18:10,169 --> 00:18:16,860
+satisfied by alpha would not be monic so
+
+317
+00:18:12,899 --> 00:18:20,050
+it would not satisfy this condition all
+
+318
+00:18:16,860 --> 00:18:22,060
+right so I claim so we see that this is
+
+319
+00:18:20,050 --> 00:18:24,310
+true if we can only prove that any
+
+320
+00:18:22,060 --> 00:18:27,000
+polynomial satisfied by alpha is a
+
+321
+00:18:24,310 --> 00:18:33,100
+multiple of this primitive polynomial
+
+322
+00:18:27,000 --> 00:18:37,800
+let's prove that well we know this'll
+
+323
+00:18:33,100 --> 00:18:37,800
+always comes from Gauss's lemma we know
+
+324
+00:18:38,160 --> 00:18:48,820
+that G of X is equal to F 0 of x times Q
+
+325
+00:18:44,560 --> 00:18:54,610
+of X where Q of X has rational
+
+326
+00:18:48,820 --> 00:18:56,470
+coefficients as the ideal generated by F
+
+327
+00:18:54,610 --> 00:19:03,400
+which is the same as the ideal generated
+
+328
+00:18:56,470 --> 00:19:12,700
+by F 0 is the full ideal of polynomials
+
+329
+00:19:03,400 --> 00:19:14,590
+in Q of X vanishing at alpha the
+
+330
+00:19:12,700 --> 00:19:17,500
+polynomials in Q of X that vanish at
+
+331
+00:19:14,590 --> 00:19:20,050
+alpha form an ideal and it's generated
+
+332
+00:19:17,500 --> 00:19:23,620
+by the irreducible polynomial satisfied
+
+333
+00:19:20,050 --> 00:19:25,540
+by alpha which is our f of X it's it's
+
+334
+00:19:23,620 --> 00:19:27,520
+an irreducible polynomial so it's the
+
+335
+00:19:25,540 --> 00:19:29,800
+polynomial of smallest degree satisfied
+
+336
+00:19:27,520 --> 00:19:32,350
+by alpha so it generates the ideal of
+
+337
+00:19:29,800 --> 00:19:34,270
+all polynomials vanishing at alpha so
+
+338
+00:19:32,350 --> 00:19:35,980
+since this polynomial has got integer
+
+339
+00:19:34,270 --> 00:19:38,110
+coefficients it certainly has rational
+
+340
+00:19:35,980 --> 00:19:40,600
+coefficients it's in that ideal which
+
+341
+00:19:38,110 --> 00:19:42,600
+means it's a multiple of F 0 by some
+
+342
+00:19:40,600 --> 00:19:45,610
+polynomial with rational coefficients
+
+343
+00:19:42,600 --> 00:19:49,060
+right this in its primitive form namely
+
+344
+00:19:45,610 --> 00:19:53,020
+write this as f 0 times the content of Q
+
+345
+00:19:49,060 --> 00:19:56,440
+let's call it D times Q 0 where this is
+
+346
+00:19:53,020 --> 00:19:58,290
+now primitive we can do that for any
+
+347
+00:19:56,440 --> 00:20:01,600
+polynomial with rational coefficients
+
+348
+00:19:58,290 --> 00:20:07,890
+regroup the terms so this becomes d
+
+349
+00:20:01,600 --> 00:20:12,010
+times f 0 times Q 0 by Gauss's lemma
+
+350
+00:20:07,890 --> 00:20:14,440
+this is a primitive polynomial right and
+
+351
+00:20:12,010 --> 00:20:16,930
+now we have an expression for G as a
+
+352
+00:20:14,440 --> 00:20:18,700
+content times a primitive polynomial but
+
+353
+00:20:16,930 --> 00:20:20,920
+G was supposed to have coefficients in
+
+354
+00:20:18,700 --> 00:20:23,250
+the integers so it's content is an
+
+355
+00:20:20,920 --> 00:20:23,250
+integer
+
+356
+00:20:26,650 --> 00:20:36,980
+G of X is in C of X the content is in Z
+
+357
+00:20:32,810 --> 00:20:42,080
+which implies that Q which was D times Q
+
+358
+00:20:36,980 --> 00:20:43,760
+zero is in Z of X so the factorization
+
+359
+00:20:42,080 --> 00:20:45,590
+that we know about over the rationals
+
+360
+00:20:43,760 --> 00:20:48,620
+actually takes place over the integers
+
+361
+00:20:45,590 --> 00:20:50,720
+and since f zero had a non mana
+
+362
+00:20:48,620 --> 00:20:52,310
+coefficient any multiple of F zero has a
+
+363
+00:20:50,720 --> 00:20:55,130
+non Monaco efficient so there are no
+
+364
+00:20:52,310 --> 00:21:01,520
+monic polynomial satisfied by alpha if F
+
+365
+00:20:55,130 --> 00:21:03,260
+isn't equal to F zero okay so this is a
+
+366
+00:21:01,520 --> 00:21:06,290
+useful test for something being an
+
+367
+00:21:03,260 --> 00:21:13,450
+algebraic integer and now we're going to
+
+368
+00:21:06,290 --> 00:21:13,450
+apply this test and we're going to start
+
+369
+00:21:17,290 --> 00:21:21,250
+with a bigger piece of chalk
+
+370
+00:21:26,429 --> 00:21:38,049
+we're going to do an application we're
+
+371
+00:21:32,409 --> 00:21:48,899
+going to determine all algebraic
+
+372
+00:21:38,049 --> 00:21:53,620
+integers in the field u square root of D
+
+373
+00:21:48,899 --> 00:21:56,830
+Q plus Q square root of D where D is an
+
+374
+00:21:53,620 --> 00:21:58,330
+integer and we might as well assume
+
+375
+00:21:56,830 --> 00:22:04,600
+since we're taking square roots and we
+
+376
+00:21:58,330 --> 00:22:06,549
+can modify de that D is Square free so
+
+377
+00:22:04,600 --> 00:22:18,549
+it's its prime factorization only
+
+378
+00:22:06,549 --> 00:22:20,889
+involves Prime's to the first power no
+
+379
+00:22:18,549 --> 00:22:22,090
+squares in D if there any squares in D
+
+380
+00:22:20,889 --> 00:22:24,190
+where you could just pull them out when
+
+381
+00:22:22,090 --> 00:22:26,159
+you're taking the square root anyhow so
+
+382
+00:22:24,190 --> 00:22:29,139
+we're going to start with this field
+
+383
+00:22:26,159 --> 00:22:32,889
+where we take the square root of a of a
+
+384
+00:22:29,139 --> 00:22:35,049
+non square you get a nice field which
+
+385
+00:22:32,889 --> 00:22:37,260
+has dimension two over the rational
+
+386
+00:22:35,049 --> 00:22:42,159
+numbers this is the same thing as Q of X
+
+387
+00:22:37,260 --> 00:22:43,720
+modulo X square minus D dimension two
+
+388
+00:22:42,159 --> 00:22:45,960
+over the rational numbers it's a field
+
+389
+00:22:43,720 --> 00:22:48,490
+because this polynomials irreducible and
+
+390
+00:22:45,960 --> 00:22:51,070
+we're going to determine which elements
+
+391
+00:22:48,490 --> 00:22:53,110
+here are algebraic integers which of
+
+392
+00:22:51,070 --> 00:23:06,399
+them satisfy polynomials with now we
+
+393
+00:22:53,110 --> 00:23:10,330
+know we know that every element of Z
+
+394
+00:23:06,399 --> 00:23:15,610
+plus Z square root of D is an algebraic
+
+395
+00:23:10,330 --> 00:23:18,250
+integer I'm going to show you that right
+
+396
+00:23:15,610 --> 00:23:19,990
+now that every element of this form is
+
+397
+00:23:18,250 --> 00:23:22,299
+an algebraic integer but sometimes we're
+
+398
+00:23:19,990 --> 00:23:25,080
+gonna get more like we saw for square
+
+399
+00:23:22,299 --> 00:23:25,080
+root of minus three
+
+400
+00:23:32,749 --> 00:23:36,269
+we'll get some surprising algebraic
+
+401
+00:23:35,279 --> 00:23:39,239
+integers that we wouldn't have
+
+402
+00:23:36,269 --> 00:23:41,009
+recognized all right so we're going to
+
+403
+00:23:39,239 --> 00:23:43,440
+use this criterion so I'll keep it up
+
+404
+00:23:41,009 --> 00:23:46,049
+first of all why is everything of the
+
+405
+00:23:43,440 --> 00:23:48,629
+form a plus B square root of D where a
+
+406
+00:23:46,049 --> 00:23:50,279
+and B are integers an algebraic integer
+
+407
+00:23:48,629 --> 00:23:56,539
+I have to write down a polynomial it
+
+408
+00:23:50,279 --> 00:24:02,460
+satisfies a plus B square root of D
+
+409
+00:23:56,539 --> 00:24:10,320
+let's call it alpha satisfies the
+
+410
+00:24:02,460 --> 00:24:14,009
+quadratic polynomial well I'll write it
+
+411
+00:24:10,320 --> 00:24:17,820
+like this X minus alpha times X minus
+
+412
+00:24:14,009 --> 00:24:22,200
+alpha prime where alpha prime is the a
+
+413
+00:24:17,820 --> 00:24:24,509
+minus B squared B let's see why that's a
+
+414
+00:24:22,200 --> 00:24:26,340
+let's see how that works out it's nice
+
+415
+00:24:24,509 --> 00:24:29,190
+when you multiply this out you get x
+
+416
+00:24:26,340 --> 00:24:31,440
+squared minus and then you get alpha
+
+417
+00:24:29,190 --> 00:24:33,659
+plus alpha prime times X but if you add
+
+418
+00:24:31,440 --> 00:24:39,899
+alpha to alpha prime you just get 2
+
+419
+00:24:33,659 --> 00:24:42,210
+times a and then you have to multiply
+
+420
+00:24:39,899 --> 00:24:44,249
+alpha by alpha prime but if you multiply
+
+421
+00:24:42,210 --> 00:24:46,619
+alpha times alpha prime the square roots
+
+422
+00:24:44,249 --> 00:24:56,759
+again cancel out and you get a squared
+
+423
+00:24:46,619 --> 00:24:59,700
+minus DB squared so any alpha in this
+
+424
+00:24:56,759 --> 00:25:03,739
+field satisfies this quadratic
+
+425
+00:24:59,700 --> 00:25:03,739
+polynomial with rational coefficients
+
+426
+00:25:06,769 --> 00:25:11,730
+right because if it's in the field a and
+
+427
+00:25:09,600 --> 00:25:15,239
+B are rational numbers if it's in this
+
+428
+00:25:11,730 --> 00:25:16,499
+ring a and B are integers and we notice
+
+429
+00:25:15,239 --> 00:25:21,570
+that the coefficients of the polynomial
+
+430
+00:25:16,499 --> 00:25:24,720
+are also integers right sure sure sure
+
+431
+00:25:21,570 --> 00:25:26,759
+any hel element alpha a plus B square
+
+432
+00:25:24,720 --> 00:25:28,700
+root of D which lies in this field so
+
+433
+00:25:26,759 --> 00:25:31,950
+means a and B irrational numbers
+
+434
+00:25:28,700 --> 00:25:34,019
+satisfies this polynomial this quadratic
+
+435
+00:25:31,950 --> 00:25:36,269
+polynomial with rational coefficients
+
+436
+00:25:34,019 --> 00:25:37,630
+because the coefficients don't don't
+
+437
+00:25:36,269 --> 00:25:40,210
+have square root of D anymore
+
+438
+00:25:37,630 --> 00:25:42,400
+and I've carefully arranged by choosing
+
+439
+00:25:40,210 --> 00:25:43,870
+X minus alpha thon this is a polynomial
+
+440
+00:25:42,400 --> 00:25:46,660
+which you don't think of as over the
+
+441
+00:25:43,870 --> 00:25:50,470
+rational numbers this is a factorization
+
+442
+00:25:46,660 --> 00:25:51,820
+of the polynomial in that field but over
+
+443
+00:25:50,470 --> 00:25:53,920
+the rational numbers you get a quadratic
+
+444
+00:25:51,820 --> 00:25:55,840
+polynomial might be reducible it might
+
+445
+00:25:53,920 --> 00:25:58,180
+not but anyhow it has rational
+
+446
+00:25:55,840 --> 00:25:59,860
+coefficients because if a and B or
+
+447
+00:25:58,180 --> 00:26:01,090
+rational D is an integer these are
+
+448
+00:25:59,860 --> 00:26:03,190
+certainly rational numbers
+
+449
+00:26:01,090 --> 00:26:09,570
+so everything satisfies a monic
+
+450
+00:26:03,190 --> 00:26:15,610
+polynomial with rational coefficients
+
+451
+00:26:09,570 --> 00:26:18,490
+okay if if it's of if it's in here right
+
+452
+00:26:15,610 --> 00:26:23,380
+it satisfies a polynomial with integer
+
+453
+00:26:18,490 --> 00:26:26,050
+coefficients okay so if that pile if
+
+454
+00:26:23,380 --> 00:26:27,670
+this polynomials are reducible and this
+
+455
+00:26:26,050 --> 00:26:33,600
+is irreducible I should say this is
+
+456
+00:26:27,670 --> 00:26:37,270
+irreducible if B is not equal to zero
+
+457
+00:26:33,600 --> 00:26:40,170
+because if B is not equal to zero this
+
+458
+00:26:37,270 --> 00:26:45,190
+number is not a rational number
+
+459
+00:26:40,170 --> 00:26:47,110
+someone has telephone call so if B is
+
+460
+00:26:45,190 --> 00:26:48,460
+not equal to zero we see that this
+
+461
+00:26:47,110 --> 00:26:50,830
+number is going to be an algebraic
+
+462
+00:26:48,460 --> 00:26:55,360
+integer only went to a is an algebraic
+
+463
+00:26:50,830 --> 00:26:59,640
+integer and this is an it sorry so so or
+
+464
+00:26:55,360 --> 00:27:07,990
+B not equal to zero alpha is an
+
+465
+00:26:59,640 --> 00:27:10,990
+algebraic integer if and only if you
+
+466
+00:27:07,990 --> 00:27:17,350
+have the two conditions two a is an
+
+467
+00:27:10,990 --> 00:27:24,450
+integer and a squared minus the B
+
+468
+00:27:17,350 --> 00:27:30,379
+squared is an integer if
+
+469
+00:27:24,450 --> 00:27:38,820
+B is equal to 0 then alpha is equal to a
+
+470
+00:27:30,379 --> 00:27:41,039
+is an algebraic integer only when a is
+
+471
+00:27:38,820 --> 00:27:42,090
+an integer because in that case we have
+
+472
+00:27:41,039 --> 00:27:44,759
+a rational number
+
+473
+00:27:42,090 --> 00:27:46,320
+if this polynomial isn't irreducible
+
+474
+00:27:44,759 --> 00:27:48,029
+that means that it has a rational root
+
+475
+00:27:46,320 --> 00:27:51,749
+and the rational root will be alpha and
+
+476
+00:27:48,029 --> 00:27:53,580
+so we've seen by the previous argument
+
+477
+00:27:51,749 --> 00:27:56,009
+that the only rational numbers that are
+
+478
+00:27:53,580 --> 00:27:58,590
+algebraic integers are the integers now
+
+479
+00:27:56,009 --> 00:28:02,279
+if you think about it this great this
+
+480
+00:27:58,590 --> 00:28:05,190
+also works for B equals 0 because hmm it
+
+481
+00:28:02,279 --> 00:28:07,230
+says if B is equal to 0 it says that a
+
+482
+00:28:05,190 --> 00:28:09,210
+squared has to be an integer well the
+
+483
+00:28:07,230 --> 00:28:13,470
+only way a squared can be an integer as
+
+484
+00:28:09,210 --> 00:28:15,119
+if a is an integer correct if you have a
+
+485
+00:28:13,470 --> 00:28:16,350
+prime in the denominator of a and you
+
+486
+00:28:15,119 --> 00:28:18,330
+square it you still have that prime and
+
+487
+00:28:16,350 --> 00:28:21,029
+denominator so we can now erase this
+
+488
+00:28:18,330 --> 00:28:22,830
+condition we can or just put it in
+
+489
+00:28:21,029 --> 00:28:24,659
+quotes or something it's doesn't you
+
+490
+00:28:22,830 --> 00:28:28,919
+don't really need it so alpha is an
+
+491
+00:28:24,659 --> 00:28:31,019
+algebraic integer in Q squared again if
+
+492
+00:28:28,919 --> 00:28:33,119
+and only if the coefficients of it this
+
+493
+00:28:31,019 --> 00:28:35,899
+a and B which are a priori rational
+
+494
+00:28:33,119 --> 00:28:38,999
+numbers satisfy these two conditions and
+
+495
+00:28:35,899 --> 00:28:41,070
+that's certainly true if a and B are
+
+496
+00:28:38,999 --> 00:28:42,749
+both integers but we may get a little
+
+497
+00:28:41,070 --> 00:28:44,809
+bit more than satisfy that condition and
+
+498
+00:28:42,749 --> 00:28:47,639
+we're going to now find out what does it
+
+499
+00:28:44,809 --> 00:28:51,259
+okay so now we're going to work out when
+
+500
+00:28:47,639 --> 00:28:58,159
+do a and B satisfy these conditions
+
+501
+00:28:51,259 --> 00:28:58,159
+remember alpha is a plus B root D
+
+502
+00:29:03,760 --> 00:29:09,590
+so the two cases if you look at the
+
+503
+00:29:07,580 --> 00:29:13,910
+first condition it says that two times a
+
+504
+00:29:09,590 --> 00:29:15,770
+is an integer well it can either be an
+
+505
+00:29:13,910 --> 00:29:17,870
+even integer an odd integer if it's an
+
+506
+00:29:15,770 --> 00:29:21,500
+even integer a was already an integer so
+
+507
+00:29:17,870 --> 00:29:30,230
+let's do that case first case one a is
+
+508
+00:29:21,500 --> 00:29:40,880
+an integer well that means that that B
+
+509
+00:29:30,230 --> 00:29:43,910
+squared times D is an integer now I
+
+510
+00:29:40,880 --> 00:29:51,890
+claim that implies that B squared is an
+
+511
+00:29:43,910 --> 00:29:54,140
+integer because D is square-free so if
+
+512
+00:29:51,890 --> 00:29:57,500
+you have any prime in the denominator of
+
+513
+00:29:54,140 --> 00:29:59,180
+B when you squared it P squared would be
+
+514
+00:29:57,500 --> 00:30:00,740
+in the denominator of B squared and
+
+515
+00:29:59,180 --> 00:30:04,610
+could not be cancelled by the prime and
+
+516
+00:30:00,740 --> 00:30:11,120
+D okay and since B squared as an integer
+
+517
+00:30:04,610 --> 00:30:13,790
+that implies B is an integer so in case
+
+518
+00:30:11,120 --> 00:30:15,440
+1 when a is an integer B is an integer
+
+519
+00:30:13,790 --> 00:30:17,150
+and we're just back to the numbers that
+
+520
+00:30:15,440 --> 00:30:25,520
+we already knew were algebraic integers
+
+521
+00:30:17,150 --> 00:30:26,060
+nothing new was found because this is an
+
+522
+00:30:25,520 --> 00:30:28,430
+integer
+
+523
+00:30:26,060 --> 00:30:28,910
+once a is an integer a squared is an
+
+524
+00:30:28,430 --> 00:30:30,520
+integer
+
+525
+00:30:28,910 --> 00:30:37,550
+no no of course I should have said that
+
+526
+00:30:30,520 --> 00:30:44,900
+sorry since a squared minus B piece P
+
+527
+00:30:37,550 --> 00:30:47,060
+Square D is an integer then this is an
+
+528
+00:30:44,900 --> 00:30:48,440
+integer okay we're combining the two
+
+529
+00:30:47,060 --> 00:30:52,480
+conditions alright now we're going to do
+
+530
+00:30:48,440 --> 00:30:52,480
+the second one this is much more amusing
+
+531
+00:30:59,020 --> 00:31:13,150
+k-stew a is in one half of the integers
+
+532
+00:31:05,570 --> 00:31:17,630
+- the integers ie 2 a is an odd integer
+
+533
+00:31:13,150 --> 00:31:23,360
+so here a wasn't an injury but two times
+
+534
+00:31:17,630 --> 00:31:29,210
+a was okay so let's write em 2 times a
+
+535
+00:31:23,360 --> 00:31:37,280
+is M remember it's odd so then I get a
+
+536
+00:31:29,210 --> 00:31:40,490
+squared is 1/4 of M Squared okay so
+
+537
+00:31:37,280 --> 00:31:56,990
+therefore 4 a squared is an integer so I
+
+538
+00:31:40,490 --> 00:32:06,700
+find so 4 times D B squared a is an
+
+539
+00:31:56,990 --> 00:32:12,350
+integer so I can write D B squared as
+
+540
+00:32:06,700 --> 00:32:18,919
+1/4 of n I think that's the notation I
+
+541
+00:32:12,350 --> 00:32:21,520
+want to do and I claim that this n is an
+
+542
+00:32:18,919 --> 00:32:21,520
+odd integer
+
+543
+00:32:27,800 --> 00:32:35,480
+and the reason is well for a squared is
+
+544
+00:32:32,990 --> 00:32:37,280
+an integer so since four times this is
+
+545
+00:32:35,480 --> 00:32:39,400
+certainly an integer that shows that
+
+546
+00:32:37,280 --> 00:32:43,130
+four times DV squared is an integer so
+
+547
+00:32:39,400 --> 00:32:46,370
+DV squared is an integer divided by four
+
+548
+00:32:43,130 --> 00:32:48,200
+but I claim that that integer n has to
+
+549
+00:32:46,370 --> 00:32:50,560
+be an odd integer and the reason is that
+
+550
+00:32:48,200 --> 00:32:54,830
+this difference has to be an integer and
+
+551
+00:32:50,560 --> 00:32:57,290
+here I have so I have one-fourth of some
+
+552
+00:32:54,830 --> 00:33:00,620
+odd square and I have to subtract off
+
+553
+00:32:57,290 --> 00:33:02,540
+this to get an integer now if n were
+
+554
+00:33:00,620 --> 00:33:04,610
+even this would just be 1/2 times
+
+555
+00:33:02,540 --> 00:33:08,660
+something and I'd have nothing to cancel
+
+556
+00:33:04,610 --> 00:33:10,850
+a 4 in the denominator right if this
+
+557
+00:33:08,660 --> 00:33:13,040
+were if for example M were divisible by
+
+558
+00:33:10,850 --> 00:33:15,440
+4 so this was actually an integer then
+
+559
+00:33:13,040 --> 00:33:17,060
+you couldn't subtract this and get an
+
+560
+00:33:15,440 --> 00:33:19,040
+integer because this is certainly not an
+
+561
+00:33:17,060 --> 00:33:20,870
+integer it's got 4 in the denominator so
+
+562
+00:33:19,040 --> 00:33:22,790
+this also has to have 4 in the
+
+563
+00:33:20,870 --> 00:33:33,920
+denominator which means that n has to be
+
+564
+00:33:22,790 --> 00:33:37,940
+odd okay now I claim hmm that means that
+
+565
+00:33:33,920 --> 00:33:40,070
+B D is an integer but we don't know
+
+566
+00:33:37,940 --> 00:33:49,790
+about B I claim that means that B
+
+567
+00:33:40,070 --> 00:33:54,050
+squared B is uh is hmm I don't want to
+
+568
+00:33:49,790 --> 00:34:06,560
+write this alright why not yeah B is 1/2
+
+569
+00:33:54,050 --> 00:34:08,659
+of n 0 with n 0 odd integer C D is an
+
+570
+00:34:06,560 --> 00:34:10,940
+integer so the only way this could have
+
+571
+00:34:08,659 --> 00:34:12,679
+a 4 in the denominator is if B had a 2
+
+572
+00:34:10,940 --> 00:34:14,270
+in the denominator B squared would then
+
+573
+00:34:12,679 --> 00:34:16,159
+have a 4 in the denominator B has to
+
+574
+00:34:14,270 --> 00:34:17,600
+have exactly 2 in the denominator can't
+
+575
+00:34:16,159 --> 00:34:20,270
+be an integer and it can't be any I
+
+576
+00:34:17,600 --> 00:34:23,270
+can't have any anything else and so B is
+
+577
+00:34:20,270 --> 00:34:26,990
+of the form 1/2 and 0 with n 0 and odd
+
+578
+00:34:23,270 --> 00:34:28,899
+integer we're not done yet we're not
+
+579
+00:34:26,990 --> 00:34:31,520
+done yet because we still have to check
+
+580
+00:34:28,899 --> 00:34:33,460
+that this thing is an integer so let's
+
+581
+00:34:31,520 --> 00:34:37,340
+write now down what that looks like a
+
+582
+00:34:33,460 --> 00:34:42,260
+squared is 1/4 M Squared so a squared
+
+583
+00:34:37,340 --> 00:34:47,950
+minus D B Square is 1/4 of M squared
+
+584
+00:34:42,260 --> 00:34:51,080
+minus D times 1/4 of n zero squared and
+
+585
+00:34:47,950 --> 00:34:56,210
+that has to be an integer in other words
+
+586
+00:34:51,080 --> 00:35:05,300
+this is 1/4 of M squared minus D and 0
+
+587
+00:34:56,210 --> 00:35:06,980
+squared must be an integer which means
+
+588
+00:35:05,300 --> 00:35:16,100
+that this number in here has to be
+
+589
+00:35:06,980 --> 00:35:19,670
+divisible by 4 M 0 squared M square
+
+590
+00:35:16,100 --> 00:35:25,490
+minus D and 0 squared I'm going to 0 mod
+
+591
+00:35:19,670 --> 00:35:27,680
+4 that's our final condition now look at
+
+592
+00:35:25,490 --> 00:35:30,080
+this this is an odd number so it's
+
+593
+00:35:27,680 --> 00:35:41,780
+square is congruent to 1 mod 4 same
+
+594
+00:35:30,080 --> 00:35:47,000
+thing with n 0 so this shows that you
+
+595
+00:35:41,780 --> 00:35:50,600
+have to have D kawan to 1 mod 4 really
+
+596
+00:35:47,000 --> 00:35:53,150
+you can't do this for every D the only
+
+597
+00:35:50,600 --> 00:35:55,070
+way you can get extra algebraic integers
+
+598
+00:35:53,150 --> 00:35:59,450
+where a and B are not both integers
+
+599
+00:35:55,070 --> 00:36:07,030
+would be to have a a half integer B a
+
+600
+00:35:59,450 --> 00:36:07,030
+half integer and D con go into 1 mod 4
+
+601
+00:36:16,839 --> 00:36:22,549
+that works and that's what happened in
+
+602
+00:36:20,539 --> 00:36:24,799
+the case that we looked at this number
+
+603
+00:36:22,549 --> 00:36:27,619
+minus one plus the square root of minus
+
+604
+00:36:24,799 --> 00:36:32,839
+three over two this is the case where a
+
+605
+00:36:27,619 --> 00:36:37,400
+was minus a half and B was a half and D
+
+606
+00:36:32,839 --> 00:36:42,410
+was minus 3 and minus 3 is congruent to
+
+607
+00:36:37,400 --> 00:36:46,849
+1 mod 4 so if you have all these
+
+608
+00:36:42,410 --> 00:36:48,950
+conditions and D is 1 mod 4 then you can
+
+609
+00:36:46,849 --> 00:36:50,990
+arrange this to be an integer and this
+
+610
+00:36:48,950 --> 00:36:52,730
+to be an integer without both a and B
+
+611
+00:36:50,990 --> 00:36:56,270
+being integers so you get extra
+
+612
+00:36:52,730 --> 00:37:00,760
+algebraic integers alright so let us
+
+613
+00:36:56,270 --> 00:37:00,760
+regroup and summarize what we've got
+
+614
+00:37:05,650 --> 00:37:10,089
+let's go over here
+
+615
+00:37:14,850 --> 00:37:31,420
+so here's our summary so d is a square
+
+616
+00:37:23,020 --> 00:37:39,040
+free integer so the algebraic integers
+
+617
+00:37:31,420 --> 00:37:41,650
+if one if D is congruent to 2 or 3 mod 4
+
+618
+00:37:39,040 --> 00:37:43,720
+by the way D can't be divisible by 4
+
+619
+00:37:41,650 --> 00:37:45,400
+because it's square free right if it
+
+620
+00:37:43,720 --> 00:37:47,620
+were divisible by 4 it's got 2 squared
+
+621
+00:37:45,400 --> 00:37:49,870
+in it so the remainder after division by
+
+622
+00:37:47,620 --> 00:37:57,000
+4 is either 1 2 or 3 if it's 2 or 3
+
+623
+00:37:49,870 --> 00:38:06,160
+month for then the algebraic integers in
+
+624
+00:37:57,000 --> 00:38:10,890
+Q square root of D form the ring Z plus
+
+625
+00:38:06,160 --> 00:38:20,830
+Z squared D that was simple
+
+626
+00:38:10,890 --> 00:38:28,350
+- if B is kind of going to 1 mod 4 the
+
+627
+00:38:20,830 --> 00:38:41,140
+algebraic integers in Q squared of D
+
+628
+00:38:28,350 --> 00:38:44,260
+form the larger ring Rin G Z plus Z
+
+629
+00:38:41,140 --> 00:38:49,210
+times the element 1 plus the square root
+
+630
+00:38:44,260 --> 00:38:53,260
+of D over 2 because this is in a case
+
+631
+00:38:49,210 --> 00:38:57,040
+where a and B are half integers right
+
+632
+00:38:53,260 --> 00:38:58,450
+and if you multiply this by 2 you can
+
+633
+00:38:57,040 --> 00:39:01,270
+get the elements square root of D so you
+
+634
+00:38:58,450 --> 00:39:03,010
+can get all the things in case 1 so if
+
+635
+00:39:01,270 --> 00:39:05,980
+you just to join this element which is
+
+636
+00:39:03,010 --> 00:39:07,900
+an algebraic integer then you get the
+
+637
+00:39:05,980 --> 00:39:10,180
+full you get the large ring of algebraic
+
+638
+00:39:07,900 --> 00:39:11,950
+integers so in most cases you just get
+
+639
+00:39:10,180 --> 00:39:14,470
+exactly what you thought you'd get the
+
+640
+00:39:11,950 --> 00:39:17,110
+simple integer multiples of 1 and square
+
+641
+00:39:14,470 --> 00:39:18,850
+root of D but when D is 1 mod 4 you get
+
+642
+00:39:17,110 --> 00:39:22,630
+a slightly larger ring of algebraic
+
+643
+00:39:18,850 --> 00:39:26,680
+integers that's what we've now shown ok
+
+644
+00:39:22,630 --> 00:39:28,349
+now it turns out that it's best not to
+
+645
+00:39:26,680 --> 00:39:32,189
+index these rings
+
+646
+00:39:28,349 --> 00:39:35,189
+by this square-free integers deep it's
+
+647
+00:39:32,189 --> 00:39:38,400
+best to index it by the discriminant of
+
+648
+00:39:35,189 --> 00:39:39,979
+the irreducible polynomial satisfied by
+
+649
+00:39:38,400 --> 00:39:41,910
+the element that you're adjoining
+
+650
+00:39:39,979 --> 00:39:51,539
+so let's see what the irreducible
+
+651
+00:39:41,910 --> 00:39:53,729
+polynomials are yes well I took namely
+
+652
+00:39:51,539 --> 00:39:56,489
+it looks like we've got a ring now for
+
+653
+00:39:53,729 --> 00:39:58,829
+every square free integer right which is
+
+654
+00:39:56,489 --> 00:40:01,249
+analogous to the Gaussian integers which
+
+655
+00:39:58,829 --> 00:40:03,390
+would be the case D is equal to minus 1
+
+656
+00:40:01,249 --> 00:40:05,699
+now for every square-free integers
+
+657
+00:40:03,390 --> 00:40:08,459
+square root of 2 and you know squid
+
+658
+00:40:05,699 --> 00:40:11,069
+square root of 7 square root of -7 we
+
+659
+00:40:08,459 --> 00:40:13,229
+have now a ring sometimes it's the
+
+660
+00:40:11,069 --> 00:40:15,689
+stupid ring and occasionally we get this
+
+661
+00:40:13,229 --> 00:40:18,119
+larger ring so I could say that ring was
+
+662
+00:40:15,689 --> 00:40:20,459
+indexed by the number D namely for every
+
+663
+00:40:18,119 --> 00:40:22,289
+D I had such an array but it turns out
+
+664
+00:40:20,459 --> 00:40:24,119
+there's a slightly different invariant
+
+665
+00:40:22,289 --> 00:40:27,650
+that I want to use it's a multiple of B
+
+666
+00:40:24,119 --> 00:40:27,650
+which you're going to see yeah
+
+667
+00:40:33,890 --> 00:40:43,610
+how would I write this oh just call I
+
+668
+00:40:42,020 --> 00:40:46,310
+don't know you could do you mean you
+
+669
+00:40:43,610 --> 00:40:48,890
+want a ring call it are yeah I mean it
+
+670
+00:40:46,310 --> 00:40:52,250
+could be the ring our how's that and
+
+671
+00:40:48,890 --> 00:40:54,140
+then we could call this field F so I
+
+672
+00:40:52,250 --> 00:40:56,660
+could call this our D maybe or something
+
+673
+00:40:54,140 --> 00:40:58,640
+like that okay but I want to use
+
+674
+00:40:56,660 --> 00:41:02,780
+something different than D to index it
+
+675
+00:40:58,640 --> 00:41:03,620
+that's what I just was saying is that it
+
+676
+00:41:02,780 --> 00:41:05,570
+was that your question
+
+677
+00:41:03,620 --> 00:41:07,480
+okay do you need you need a name for it
+
+678
+00:41:05,570 --> 00:41:19,550
+from now on it's called honor
+
+679
+00:41:07,480 --> 00:41:22,250
+okay now the polynomial satisfied by
+
+680
+00:41:19,550 --> 00:41:30,350
+square root of D is this polynomial x
+
+681
+00:41:22,250 --> 00:41:32,030
+squared minus D it's discriminant for a
+
+682
+00:41:30,350 --> 00:41:34,720
+general quadratic polynomial the
+
+683
+00:41:32,030 --> 00:41:38,090
+discriminant is b squared minus 4ac
+
+684
+00:41:34,720 --> 00:41:44,260
+right the discriminant here would just
+
+685
+00:41:38,090 --> 00:41:54,140
+be for D correct
+
+686
+00:41:44,260 --> 00:41:58,430
+okay now the polynomial satisfied by one
+
+687
+00:41:54,140 --> 00:42:00,020
+plus the square root of D over 2 let's
+
+688
+00:41:58,430 --> 00:42:02,330
+take a look at that polynomial that's
+
+689
+00:42:00,020 --> 00:42:07,550
+more interesting that looks like x
+
+690
+00:42:02,330 --> 00:42:09,620
+squared minus X plus and then you have
+
+691
+00:42:07,550 --> 00:42:19,670
+to multiply this by its conjugate and
+
+692
+00:42:09,620 --> 00:42:24,530
+that gives you I believe D sorry 1 minus
+
+693
+00:42:19,670 --> 00:42:27,110
+D over 4 now that doesn't look like it
+
+694
+00:42:24,530 --> 00:42:28,640
+has integer coefficients but in fact it
+
+695
+00:42:27,110 --> 00:42:30,710
+has integer coefficients because
+
+696
+00:42:28,640 --> 00:42:32,720
+remember this D left the remainder of
+
+697
+00:42:30,710 --> 00:42:34,400
+one after division by four so this
+
+698
+00:42:32,720 --> 00:42:36,530
+difference is divisible by four so
+
+699
+00:42:34,400 --> 00:42:39,400
+that's got integer coefficients what's
+
+700
+00:42:36,530 --> 00:42:39,400
+this discriminant
+
+701
+00:42:44,080 --> 00:42:48,290
+well what's its discriminant well you
+
+702
+00:42:46,160 --> 00:42:51,410
+have to take B squared minus four times
+
+703
+00:42:48,290 --> 00:42:55,300
+this so B squared is one right
+
+704
+00:42:51,410 --> 00:42:57,530
+minus four times this which is 1 minus D
+
+705
+00:42:55,300 --> 00:43:01,880
+well it's discriminant just turns out to
+
+706
+00:42:57,530 --> 00:43:04,130
+be B not for D and we're going to use
+
+707
+00:43:01,880 --> 00:43:06,320
+that number to index the rings so we're
+
+708
+00:43:04,130 --> 00:43:09,020
+going to call this capital D and we're
+
+709
+00:43:06,320 --> 00:43:13,370
+going to call this capital D so here the
+
+710
+00:43:09,020 --> 00:43:18,980
+discriminant is 4 D and here the
+
+711
+00:43:13,370 --> 00:43:20,660
+discriminant is just D and it's this
+
+712
+00:43:18,980 --> 00:43:22,520
+number it's this integer we're going to
+
+713
+00:43:20,660 --> 00:43:25,030
+use to index these rings so notice this
+
+714
+00:43:22,520 --> 00:43:28,220
+number is not always square-free
+
+715
+00:43:25,030 --> 00:43:33,890
+but it has the following property the
+
+716
+00:43:28,220 --> 00:43:35,420
+discriminant has the property and again
+
+717
+00:43:33,890 --> 00:43:37,040
+you have to do this a little bit to
+
+718
+00:43:35,420 --> 00:43:43,250
+realize why it's better to go to this
+
+719
+00:43:37,040 --> 00:43:46,960
+capital D to index things but B has the
+
+720
+00:43:43,250 --> 00:43:46,960
+following problems
+
+721
+00:43:49,780 --> 00:43:59,990
+hey it's an integer which is congruent
+
+722
+00:43:54,080 --> 00:44:03,050
+either to 0 or 1 mod 4 you see in this
+
+723
+00:43:59,990 --> 00:44:05,230
+case it's kind of went to 1 mod 4 and in
+
+724
+00:44:03,050 --> 00:44:17,080
+this case it's congruent to 0 mod 4
+
+725
+00:44:05,230 --> 00:44:24,190
+right and 2 D is a square free as
+
+726
+00:44:17,080 --> 00:44:24,190
+possible given condition a
+
+727
+00:44:25,970 --> 00:44:34,020
+as square-free is possible given
+
+728
+00:44:29,520 --> 00:44:36,390
+condition a namely the only prime such
+
+729
+00:44:34,020 --> 00:44:40,500
+that the second power can divide it is
+
+730
+00:44:36,390 --> 00:44:42,420
+two and the reason is you have to
+
+731
+00:44:40,500 --> 00:44:44,130
+arrange in the first cases for the
+
+732
+00:44:42,420 --> 00:44:45,420
+discriminant to be divisible by four you
+
+733
+00:44:44,130 --> 00:44:47,400
+see these things aren't divisible by
+
+734
+00:44:45,420 --> 00:44:49,020
+four in this case you'll find the
+
+735
+00:44:47,400 --> 00:44:51,210
+discriminant the capital D is divisible
+
+736
+00:44:49,020 --> 00:44:53,250
+by 8 and in this case you'll find it's
+
+737
+00:44:51,210 --> 00:44:55,230
+exactly divisible by four but no other
+
+738
+00:44:53,250 --> 00:44:57,690
+Prime's can square can divide the
+
+739
+00:44:55,230 --> 00:45:00,270
+discriminant and we're going to list
+
+740
+00:44:57,690 --> 00:45:02,280
+these rings according to their
+
+741
+00:45:00,270 --> 00:45:07,080
+discriminants capital D so I'll give you
+
+742
+00:45:02,280 --> 00:45:08,820
+the examples so it's very easy to just
+
+743
+00:45:07,080 --> 00:45:11,370
+go through the numbers which are 0 and 1
+
+744
+00:45:08,820 --> 00:45:13,680
+mod 4 and see the ones that are asked
+
+745
+00:45:11,370 --> 00:45:19,770
+where free possible given this condition
+
+746
+00:45:13,680 --> 00:45:27,360
+a so if D is less than 0 you say R is an
+
+747
+00:45:19,770 --> 00:45:30,930
+imaginary quadratic ring and if D is
+
+748
+00:45:27,360 --> 00:45:35,820
+bigger than 0 you say R is a real
+
+749
+00:45:30,930 --> 00:45:37,620
+quadratic ring and the reason imaginary
+
+750
+00:45:35,820 --> 00:45:41,990
+and real come in is if you're taking the
+
+751
+00:45:37,620 --> 00:45:44,460
+square root of a positive number then
+
+752
+00:45:41,990 --> 00:45:45,630
+then you can do it in the real numbers
+
+753
+00:45:44,460 --> 00:45:46,890
+and if you're taking the square root of
+
+754
+00:45:45,630 --> 00:45:49,440
+a negative number you have to use the
+
+755
+00:45:46,890 --> 00:45:52,230
+imaginary numbers so let me list the DS
+
+756
+00:45:49,440 --> 00:45:57,930
+which are less than 0 that satisfy this
+
+757
+00:45:52,230 --> 00:46:06,660
+condition - three - four - seven - eight
+
+758
+00:45:57,930 --> 00:46:09,900
+- eleven - twelve - twelve get listed
+
+759
+00:46:06,660 --> 00:46:13,080
+while it's divisible by four but if I
+
+760
+00:46:09,900 --> 00:46:15,570
+divide it by 4 I get 2 - 3 which is a
+
+761
+00:46:13,080 --> 00:46:17,790
+permissible discriminant so it's not as
+
+762
+00:46:15,570 --> 00:46:20,550
+square-free as possible given condition
+
+763
+00:46:17,790 --> 00:46:27,480
+a so it's not a discriminant so the next
+
+764
+00:46:20,550 --> 00:46:30,180
+one becomes 12 then what is next 15 is
+
+765
+00:46:27,480 --> 00:46:32,160
+-16 good no minus 16 is no good because
+
+766
+00:46:30,180 --> 00:46:34,380
+if I divided it by 4 I get something
+
+767
+00:46:32,160 --> 00:46:36,960
+here so that's not in the list then I
+
+768
+00:46:34,380 --> 00:46:40,800
+get minus 19
+
+769
+00:46:36,960 --> 00:46:42,960
+- 20 sure - 20 is divisible by 4 but if
+
+770
+00:46:40,800 --> 00:46:44,609
+I try to divide it out by 4 it doesn't
+
+771
+00:46:42,960 --> 00:46:48,300
+satisfy this condition because I get
+
+772
+00:46:44,609 --> 00:46:51,690
+minus 5 so it's a square free as
+
+773
+00:46:48,300 --> 00:46:53,580
+possible then minus 23 and 7 so you got
+
+774
+00:46:51,690 --> 00:46:55,980
+all those negative numbers and the
+
+775
+00:46:53,580 --> 00:46:57,930
+bigger than zero you get the rings where
+
+776
+00:46:55,980 --> 00:47:01,290
+by the way this is the Gaussian integers
+
+777
+00:46:57,930 --> 00:47:03,780
+this one is Z of I right because i
+
+778
+00:47:01,290 --> 00:47:08,130
+squared is -1 so the discriminant would
+
+779
+00:47:03,780 --> 00:47:11,490
+be 4 this one is the ring that that
+
+780
+00:47:08,130 --> 00:47:16,950
+Euler discovered that Z of X modulo x
+
+781
+00:47:11,490 --> 00:47:20,070
+squared + X + 1 D greater than zero the
+
+782
+00:47:16,950 --> 00:47:27,089
+first good discriminant is 5 because 4
+
+783
+00:47:20,070 --> 00:47:29,940
+doesn't work 8 because ya Congress won
+
+784
+00:47:27,089 --> 00:47:30,390
+more than 8 9 is a square so that's no
+
+785
+00:47:29,940 --> 00:47:41,099
+good
+
+786
+00:47:30,390 --> 00:47:45,080
+so the next one is 12 13 17 20 is 4
+
+787
+00:47:41,099 --> 00:47:52,560
+times 5 so it doesn't work so then 21
+
+788
+00:47:45,080 --> 00:47:58,530
+then 24 is mmm 24 work here 4 times yeah
+
+789
+00:47:52,560 --> 00:48:02,940
+24 works 27 28 is 4 times 7 so that's
+
+790
+00:47:58,530 --> 00:48:04,859
+fine 29 so you can make a listing of the
+
+791
+00:48:02,940 --> 00:48:06,810
+numbers Congress a zero or one mark for
+
+792
+00:48:04,859 --> 00:48:09,320
+that are square free as possible and for
+
+793
+00:48:06,810 --> 00:48:14,970
+every one of these numbers we get a ring
+
+794
+00:48:09,320 --> 00:48:16,980
+we get a ring and the ring is here so
+
+795
+00:48:14,970 --> 00:48:18,990
+there are an infinite number of rings
+
+796
+00:48:16,980 --> 00:48:22,619
+that are analogous to the Gaussian
+
+797
+00:48:18,990 --> 00:48:24,450
+integers and we now have the fun of
+
+798
+00:48:22,619 --> 00:48:26,580
+playing with them and we're going to
+
+799
+00:48:24,450 --> 00:48:28,650
+play with them until the end of term now
+
+800
+00:48:26,580 --> 00:48:30,480
+I should say that you could spend the
+
+801
+00:48:28,650 --> 00:48:32,970
+rest of your life playing with these
+
+802
+00:48:30,480 --> 00:48:35,400
+rings people do I mean this is this is
+
+803
+00:48:32,970 --> 00:48:37,830
+serious stuff so for example a big
+
+804
+00:48:35,400 --> 00:48:40,770
+question which Gauss asked a huge
+
+805
+00:48:37,830 --> 00:48:43,500
+question which Gauss asked is which of
+
+806
+00:48:40,770 --> 00:48:46,530
+these rings have the property that every
+
+807
+00:48:43,500 --> 00:48:48,390
+ideal in them is principle every ideal
+
+808
+00:48:46,530 --> 00:48:50,820
+is principle the Gaussian numbers did so
+
+809
+00:48:48,390 --> 00:48:54,480
+we can circle this this is
+
+810
+00:48:50,820 --> 00:48:57,300
+Euclidean ring we can circle that okay
+
+811
+00:48:54,480 --> 00:48:59,730
+so on this list gauss made a very good
+
+812
+00:48:57,300 --> 00:49:05,610
+guess and he guessed that this one this
+
+813
+00:48:59,730 --> 00:49:13,020
+one this one this one this one this one
+
+814
+00:49:05,610 --> 00:49:20,340
+and nineteen and three more - 43 - 67
+
+815
+00:49:13,020 --> 00:49:23,220
+and - 163 one two three four five six
+
+816
+00:49:20,340 --> 00:49:24,750
+seven eight nine those nine rings had
+
+817
+00:49:23,220 --> 00:49:27,810
+the property that every idea was
+
+818
+00:49:24,750 --> 00:49:30,470
+principle and the others didn't that was
+
+819
+00:49:27,810 --> 00:49:34,410
+proved in the 1960s
+
+820
+00:49:30,470 --> 00:49:37,100
+all right gauss also guessed that of
+
+821
+00:49:34,410 --> 00:49:39,360
+these rings the ones with positive
+
+822
+00:49:37,100 --> 00:49:41,130
+discriminants there were an infinite
+
+823
+00:49:39,360 --> 00:49:42,810
+number that had the property that every
+
+824
+00:49:41,130 --> 00:49:44,300
+idea was principle he couldn't say which
+
+825
+00:49:42,810 --> 00:49:47,850
+ones but there were an infinite number
+
+826
+00:49:44,300 --> 00:49:51,240
+that still has never been shown in fact
+
+827
+00:49:47,850 --> 00:49:53,010
+of these rings in some sense about 97%
+
+828
+00:49:51,240 --> 00:49:55,140
+of them should have this principle ideal
+
+829
+00:49:53,010 --> 00:49:56,340
+property statistically and no one can
+
+830
+00:49:55,140 --> 00:49:59,460
+prove that there are even an infinite
+
+831
+00:49:56,340 --> 00:50:01,820
+number so that's what I mean about this
+
+832
+00:49:59,460 --> 00:50:04,410
+being now a subject which is actively
+
+833
+00:50:01,820 --> 00:50:06,090
+investigated mathematically so we're
+
+834
+00:50:04,410 --> 00:50:08,040
+going to focus our attention on this
+
+835
+00:50:06,090 --> 00:50:10,800
+case the imaginary quadratic rings
+
+836
+00:50:08,040 --> 00:50:12,960
+they're much easier for a reason I'm now
+
+837
+00:50:10,800 --> 00:50:14,370
+going well I'll just tell you why
+
+838
+00:50:12,960 --> 00:50:17,330
+they're easier and then we'll pick up
+
+839
+00:50:14,370 --> 00:50:17,330
+with this next time
+
+840
+00:50:22,910 --> 00:50:26,820
+so the first thing you want to know
+
+841
+00:50:25,590 --> 00:50:29,250
+about rings before you start doing
+
+842
+00:50:26,820 --> 00:50:30,510
+ideals and and principle ideals and
+
+843
+00:50:29,250 --> 00:50:32,220
+everything is what is the unit group
+
+844
+00:50:30,510 --> 00:50:34,350
+what is the unit group so in the
+
+845
+00:50:32,220 --> 00:50:35,790
+Gaussian numbers we found the unit group
+
+846
+00:50:34,350 --> 00:50:40,220
+was a finite group of order four
+
+847
+00:50:35,790 --> 00:50:48,030
+generated by I so if D is less than zero
+
+848
+00:50:40,220 --> 00:50:51,720
+the unit group is a finite group that's
+
+849
+00:50:48,030 --> 00:50:54,660
+order four and for D less than minus
+
+850
+00:50:51,720 --> 00:50:56,700
+four it has order two in fact in this
+
+851
+00:50:54,660 --> 00:51:01,230
+case our star is the same thing as Z
+
+852
+00:50:56,700 --> 00:51:03,240
+star as plus or minus one so the units
+
+853
+00:51:01,230 --> 00:51:04,740
+are very easy to determine in the
+
+854
+00:51:03,240 --> 00:51:07,470
+imaginary quadratic case I'm going to
+
+855
+00:51:04,740 --> 00:51:16,050
+start with that next time however in the
+
+856
+00:51:07,470 --> 00:51:27,180
+real quadratic case our star is an
+
+857
+00:51:16,050 --> 00:51:29,220
+infinite group always always so already
+
+858
+00:51:27,180 --> 00:51:31,260
+the units are a difficult situation to
+
+859
+00:51:29,220 --> 00:51:33,480
+deal with and in fact that complicates
+
+860
+00:51:31,260 --> 00:51:35,070
+all kinds of questions of deciding
+
+861
+00:51:33,480 --> 00:51:36,600
+whether ideals a principle or not in
+
+862
+00:51:35,070 --> 00:51:37,950
+every one of these cases the units an
+
+863
+00:51:36,600 --> 00:51:39,690
+infinite group in all of these cases
+
+864
+00:51:37,950 --> 00:51:41,610
+once you leave these two you don't get
+
+865
+00:51:39,690 --> 00:51:45,000
+any more units than you had already in
+
+866
+00:51:41,610 --> 00:51:46,830
+the integers so we'll start with that
+
+867
+00:51:45,000 --> 00:51:49,710
+next time and the next three lectures
+
+868
+00:51:46,830 --> 00:51:52,980
+are going to be an investigation of the
+
+869
+00:51:49,710 --> 00:51:58,820
+ideal theory of these rings of imaginary
+
+870
+00:51:52,980 --> 00:51:58,820
+quadratic integers okay good
+

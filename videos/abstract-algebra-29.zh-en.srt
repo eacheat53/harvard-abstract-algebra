@@ -1,0 +1,1049 @@
+1
+00:00:13,479 --> 00:00:42,810
+……拿了 100 分甚至更高；9 个人拿了 90 到 100 分——抱歉，是 12 个人 90 到 100 分——  11 个人拿了 80 到 90%，4 个人 70 到 80，3 个人 60 到 70，还有 1个人低于 60 分。
+...got 100 or plus; 9 got 90 to 100—sorry, 12 got 90 to 100—   11 people got 80 to 90%, 4 people 70 to 80, 3 people 60 to 70, and 1 person was below.
+
+2
+00:00:42,810 --> 00:00:56,371
+所以总共是 27、38、42、46 份试卷，其中这 38 个人显然达到了 A 或高 B 的水准，这非常优秀。
+So a total of 27, 38, 42, 46 exams, of which these 38 are certainly doing A or high B work, which is excellent.
+
+3
+00:00:56,371 --> 00:01:08,893
+只要你们能展现出这种水准，给班里这么大比例的学生 A 或 B 我毫无意见。并且我注意到相比第一次期中考大家有了很大进步；大家在书写解答时仔细多了。
+I have no problem giving that percentage of the class an A or a B if you're doing that kind of work, and I noticed a lot of improvement on exams from the first time; people are much more careful in writing out their answers.
+
+4
+00:01:08,893 --> 00:01:14,087
+所以我想先过一遍试题，看看大家有没有疑问。
+So I thought I would go through some of the questions if you had any.
+
+5
+00:01:14,087 --> 00:01:38,661
+第一题关于正交群，基本所有人都答对了；两种答案我都算对：你可以取从 R^n 到 R^n 保持内积的可逆映射——这是正交群的抽象定义；
+The first problem, pretty much everyone got the orthogonal group; I took both answers: you could either take the invertible maps from R^n to R^n, invertible such that they preserve the inner product—that's the abstract definition of the orthogonal group;
+
+6
+00:01:38,661 --> 00:01:52,240
+或者用矩阵表示，大家说是 GL_n(R) 中的矩阵 A，即可逆变换的矩阵使得 A^t A 为单位矩阵。这两种都是可接受的答案。
+or in matrices, people said it was the A in GL_n(R), those are the matrices of invertible transformations such that A^t A is the identity matrix. Both of those were acceptable answers.
+
+7
+00:01:52,240 --> 00:02:06,852
+不可接受的是：有人说是行列式为 ±1 的元素；那是必要结论，但完全可能存在行列式为 ±1 却不满足该正交条件的矩阵。这是第一问。
+What was not acceptable: some people said it was the elements where the determinant was plus or minus 1; that's a consequence, but you can have a matrix of determinant plus or minus 1 that doesn't satisfy this condition. That's part 1.
+
+8
+00:02:06,852 --> 00:02:13,787
+第二问，我要求用 O(2) 来描述刚体运动群；这道题出得可能不够严密。
+The second part, I asked to describe the group of motions in terms of O(2); that may not have been too well posed.
+
+9
+00:02:13,787 --> 00:02:35,205
+我的本意是说刚体运动群由所有形如 v ↦ Av + b 的映射组成，其中 A 属于二维正交群，b 是平移向量；或者说刚体运动群由正交群的元素与平移变换组成。
+What I meant was that the group of motions consisted of all things of the form v goes to Av + b, where A is in the orthogonal group in two dimensions and b is a translation vector; or that the group of motions consisted of elements in the orthogonal group and translations.
+
+10
+00:02:35,205 --> 00:02:52,239
+有时大家写的是 O(2) 是保持原点不动的刚体运动子群，这没错，也拿到了一定步骤分，
+What sometimes people told me was that O(2) was the subgroup of motions preserving the origin, which is correct and they got some partial credit for it,
+
+11
+00:02:52,239 --> 00:03:03,783
+但这并没有用正交群来表述刚体运动群究竟是什么，只是说明了它是一个子群。无论如何，对于这道出得有点不恰当的问题，我略表歉意。
+but it doesn't tell me what the group of motions is in terms of the orthogonal group, it just describes this as a subgroup. In any case, I apologize slight- -ly for a slightly ill-posed question there.
+
+12
+00:03:03,783 --> 00:03:17,906
+第二题：这道题其实相当难；我认为这可能是最难的一道——没错，除了附加题外，这题让大家吃尽了苦头。
+Part two: this was actually quite hard; I think this may have been the hardest—well, yeah, I think this gave people the hardest time of any of the problems on the exam, except for the extra credit problem.
+
+13
+00:03:17,906 --> 00:03:35,373
+单群的定义就是：G 是单群当且仅当其任意正规子群 N 要么等于单位群 {e}，要么是全群 G。
+A simple group just means that G is simple if and only if any normal subgroup N is either equal to the identity {e} or is the full group.
+
+14
+00:03:35,373 --> 00:03:39,406
+这是两个显然的正规子群；如果只有这两个，那就是单群。
+Those are two obvious normal subgroups, and if that's all you have, that's a simple group.
+
+15
+00:03:39,406 --> 00:04:01,239
+现在题目要求证明：若 |G| > n!，且 G 作用在一个大小为 n 的集合上非平凡地作用——抱歉，非平凡作用是题目的关键词——则 G 不是单群。
+Now you were supposed to show that if the size of G is greater than n!, and G acts on a set of size n, then it's not simple, as G acts non-trivially—sorry, that's a key word.
+
+16
+00:04:01,239 --> 00:04:21,784
+好，群 G 在集合上的作用，完全等价于给出一个从 G 到该集合对称群的同态；它把元素 g 映为置换 s ↦ g(s)。这就是群在集合上的作用：它是一个群同态。
+Okay, well the action of G on a set is the same thing as giving a homomorphism from G into the symmetric group of the set: it takes an element g and sends it to the permutation s goes to g(s). That's what an action of a group is on a set: it's a group homomorphism.
+
+17
+00:04:21,784 --> 00:04:31,566
+因为集合有 n 个元素，其对称群也就是 n 个文字上的对称群 S_n，其阶数为 n!。
+And since the set has n elements, the symmetry group is the same as the symmetric group on n letters S_n, and this is a group of order n!.
+
+18
+00:04:31,566 --> 00:04:44,760
+这并不意味着它是单射或别的什么，它仅仅是一个同态：对 G 中的每个元素都对应一个置换，群中复合元素就对应置换的复合。
+Now it doesn't mean that this is an injection or anything like that, it's just a homomorphism: to every element in the group G you get a permutation, and when you compose elements in the group, you compose permutations.
+
+19
+00:04:44,760 --> 00:05:03,586
+好，但是如果我们有一个从阶数大于 n! 的群到阶数为 n! 的群的同态，它必然具有非平凡的核，因为无论这里的像有多大，其阶数都整除 n!，而像的阶乘以核的阶必须等于G 的阶。
+Okay, but if we have a homomorphism from a group of order greater than n! to a group of order n!, it has to have a kernel, because whatever the size of the image is in here, it has order dividing n!, and the order of the image times the order of the kernel has to be the order of G.
+
+20
+00:05:03,586 --> 00:05:14,078
+所以既然 |G| > n!，同态 ρ 的核就绝不等于平凡子群 {e}。
+So since the order of G is greater than n!, the kernel of rho is not equal to the identity.
+
+21
+00:05:14,078 --> 00:05:22,680
+现在，ker ρ 是正规子群，因为它是同态的核；它不等于 {e}。那它能不能等于整个 G 呢？
+Now the kernel of rho is a normal subgroup because it's the kernel of a homomorphism; it's not equal to the identity. Could it be equal to all of G?
+
+22
+00:05:22,680 --> 00:05:46,726
+不能，因为我们假设了 G 在 S 上非平凡作用，即 G 中存在元素给出非平凡置换，这意味着核不是全群；因为如果核是全群，该群在集合 S 上的作用就会是平凡作用。既然 G 非平凡作用，ker ρ 就不等于 G。
+No, because we assume that G acts non-trivially on S, namely there's some element in G which is a non-trivial permutation, which means the kernel is not everything, because if the kernel were everything, the group would act trivially on the set S. Since G acts non-trivially, the kernel of rho is not equal to G.
+
+23
+00:05:46,726 --> 00:05:58,390
+这两种平凡情况都被排除了，因此 ker ρ 作为 G 的正规子群，是一个非平凡真正规子群，从而 G 不是单群。
+I have to discard both of those things, and consequently the kernel of rho, which is always a normal subgroup of G, is a non-trivial normal subgroup, and G isn't simple.
+
+24
+00:05:58,390 --> 00:06:17,870
+好的，有些人没有用同态的语言做，他们说——这同样非常好——他们说：你看，这里有大于 n! 个元素，这里有 n! 个元素；根据鸽巢原理，如果有一个从该集合到该集合的映射，此集合中必有两个元素映到同一个置换。
+Okay, some people did it without the whole homomorphism thing, and they said—and this is just as good—they said: look, I have more than n! elements here, I have n! elements here; by the pigeonhole principle, if I have a map from this set to this set, two elements in this set have to go to the same permutation.
+
+25
+00:06:17,870 --> 00:06:30,591
+设这两个元素为 g 和 g'；那么如果你构造元素g g'^{-1}，它就会映到平凡恒等置换！所以存在映到平凡置换的元素，而其自身并不是平凡元。
+Call those things g and g'; then if you make the element g * g'^{-1}, that goes to the trivial permutation! So there are elements that map to the trivial permutation that are not themselves trivial.
+
+26
+00:06:30,591 --> 00:06:42,418
+这表明如果你取 G 中所有映到平凡置换的元素构成的子群——这正是该同态的核——它是一个非平凡子群。
+That shows that if you take the subgroup of G of all elements mapping to the trivial permutation, which is exactly the kernel of this homomorphism, that it's a non-trivial subgroup.
+
+27
+00:06:42,418 --> 00:07:00,243
+好，这样证也完全没问题。第三题：大家基本都答对了；R 是交换环，理想在加法下封闭，且在 R 的数乘下封闭。
+Okay, that was fine too. Number three: everyone basically got this; R is a commutative ring, an ideal is closed under addition and under multiplication by R.
+
+28
+00:07:00,243 --> 00:07:10,307
+也就是说若 a, b ∈ I 且 r ∈ R，则 a + b ∈ I 且 ra ∈ I。
+So this says that if a, b are in I and r is in R, then a + b is in I and ra is in I.
+
+29
+00:07:10,307 --> 00:07:19,520
+而主理想 (a) 由所有形如 ra 的元素组成（其中 r ∈ R），即某个固定元素的所有倍元。
+And a principal ideal (a) consists of all things of the form ra where r is in R, so all multiples of a fixed element.
+
+30
+00:07:19,520 --> 00:07:33,272
+并且一个域只有两个理想：若 R 是域，它具有理想 (0) 和 R；始终有这两个理想。
+And a field has two ideals: so R a field has ideals (0) and R; it always has those two ideals.
+
+31
+00:07:33,272 --> 00:07:43,769
+这两个是不同的理想，因为 R 包含 1：R 是由 1 生成的主理想 (1)；它们是互异的。
+These two are distinct ideals because this contains 1: R is the principal ideal generated by 1; and they're distinct.
+
+32
+00:07:43,769 --> 00:08:08,399
+此外，如果我有任意理想 I，不等于 (0)，且取 I 中一个非零元 a，那么如果我乘以 r = a^{-1}——因为我们在域中所以乘法逆元存在——于是 r · a = a^{-1} · a = 1 就在 I 中。
+But also, if I had any ideal I which is not equal to (0), and I take an element a in I which is non-zero, then if I multiply by r = a^{-1}, which exists because we're in a field, so r * a, which is a^{-1} * a = 1, is in I.
+
+33
+00:08:08,399 --> 00:08:14,140
+因此理想 I 实际上包含 1 的所有倍元，也就是理想 R。
+So I, the ideal, is actually all multiples of 1, which is the ideal R.
+
+34
+00:08:14,140 --> 00:08:23,867
+所以如果它非零，就必然是理想 R，并且这两个理想都是主理想，分别由 0 和 1 生成。所以这道题几乎所有人都答对了。
+So if it's non-zero, it has to be this ideal, and both ideals are principal, generated by 0 and 1. So almost everyone got that one right.
+
+35
+00:08:23,867 --> 00:08:51,775
+好的，第四题：群中的共轭类由所有……设 G 为群，元素 a 的共轭类由所有形如gag^{-1}（其中 g ∈ G）的元素组成：即在共轭作用下与 a 等价的元素集合。
+Okay, number four: a conjugacy class in a group consists of all elements—so G a group, you could say the conjugacy class of an element a consists of all elements of the form g a g^{-1} such that g is in G: the set of elements equivalent to a under the action of conjugation.
+
+36
+00:08:51,775 --> 00:09:07,059
+如果 G是有限群，我们发现元素 a 的共轭类虽然总是包含 a，但它等于单元素集 {a} 当且仅当 a 属于 G 的中心，因为这意味着所有这些共轭元素都等于 a；
+And if G is finite, we find that while the conjugacy class of a always contains the element a, it's equal to {a} if and only if a is in the center of G, because that would mean
+
+37
+00:09:07,059 --> 00:09:13,847
+而这些元素都等于 a 就意味着 a 与 G 中的所有元素都可交换，因此共轭类只有一个元素当且仅当该元素在中心里。
+all these elements are equal to a; and to say that all these elements are equal to a means that a commutes with everything in G.
+
+38
+00:09:13,847 --> 00:09:37,391
+于是 G 的阶等于所有共轭类的元素个数之和，我们把这个和拆分为只有一个元素的共轭类，与拥有多于一个元素的共轭类；而只有一个元素的共轭类恰好就是中心里的元素。
+So a conjugacy class has a single element if and only if the element is in the center. So the order of G is equal to the sum of the orders of all the conjugacy classes, and we break this sum into the conjugacy classes that have one element and the ones that have more than one element; and the ones that have one element are just the elements of the center.
+
+39
+00:09:37,391 --> 00:09:58,189
+所以你恰好得到中心的阶——即C(a) 只有一个元素的情形——再加上具有多于一个元素的共轭类的阶之和。这就是那道题所需的全部解答。
+So you get exactly the order of the center—that's when C(a) has one element—plus the sum of the orders of the conjugacy classes where it has more than one. And that's all that was necessary for that problem.
+
+40
+00:09:58,189 --> 00:10:11,900
+好，第五题：这题有点微妙，但大多数人都做出来了；题意也有点不够清楚，向那些指出了应该写什么的同学致歉。
+Okay, number five: this is a little tricky, but most people got it; it was a little unclear in this one too, and I apologize to those who pointed out what you were supposed to write down.
+
+41
+00:10:11,900 --> 00:10:31,335
+但在第五题中，如果你有多项式环 R[x]，想给出一个映到 R 的满同态，对于这个同态，你取一个多项式 f(x)，将它映为该多项式在 1 处的取值 f(1)。
+But for five, if you have R[x] and you want to give a surjective homomorphism from R[x] to R, for the homomorphism, you take a polynomial f(x) and you send it to the value of the polynomial at 1: f(1).
+
+42
+00:10:31,335 --> 00:10:42,909
+这是一个环同态，因为两多项式相加，其在 1 处的值相加；两多项式相乘在 1 处求值，也就是在 1 处的取值相乘。
+That is a ring homomorphism, because if you add two polynomials, you add their values at 1; and if you multiply two polynomials and you evaluate at 1, you multiply the values at 1.
+
+43
+00:10:42,909 --> 00:10:57,872
+所以这是环同态，且它满足 h(x - 1) = 0，从而对 x - 1 的任意倍式，h 也都等于 0，因为它是同态。
+So that's a ring homomorphism, and it has the property that h of the polynomial x - 1 is equal to 0, so h of any multiple of x - 1, h is equal to 0, because it's a homomorphism.
+
+44
+00:10:57,872 --> 00:11:15,771
+所以理想 (x - 1) 包含在 ker h 中，这意味着它诱导了从商环 R[x]/(x-1) 到环 R 的同态。而且它是满射，因为 R 中的任意元素都可以是 f(1) 的值：只要取任意常数多项式即可映到该常数值。
+So the ideal (x - 1) is in the kernel of h, and that means that it induces a homomorphism of this quotient ring into the ring R. And it's surjective, because anything can be the value of f(1): just take any constant polynomial to its value.
+
+45
+00:11:15,771 --> 00:11:25,400
+这就是关于存在从该商环到环 R 的满同态的证明。
+So that's the proof that you have a surjective homomorphism from this to the ring.
+
+46
+00:11:25,400 --> 00:11:39,311
+好，然后第二部分是证明这实际上是一个同构，即如果 f(1) = 0，那么 f 就属于理想 (x - 1)。
+Okay, good, and then the second part is to show that this is actually an isomorphism, namely if f(1) is equal to 0, then you're in the ideal (x - 1).
+
+47
+00:11:41,479 --> 00:12:04,215
+为了证明 h 是同构，必须证明当 f(1) = 0 时，f(x) = (x - 1)g(x)，也就是说该映射的核恰好是由 x - 1 生成的主理想。
+To show h is an isomorphism, we must show that when f(1) = 0, f(x) = (x - 1) g(x), namely that the kernel of this map is exactly the principal ideal generated by x - 1.
+
+48
+00:12:04,215 --> 00:12:19,475
+为此我们要用欧几里得除法（带余除法），它指出我们可以取任意多项式 f(x)，写成 (x - 1)g(x) 加一个常数 c，常数的次数小于 x - 1 的次数。
+And for this we use the Euclidean algorithm, which says we can take any polynomial f(x) and write it as (x - 1) g(x) plus a constant, which is a polynomial of degree less than the degree of x - 1.
+
+49
+00:12:19,475 --> 00:12:34,486
+你能够做除法是因为 x - 1 是首一多项式；然后我们发现 f(1) = 0 · g(1) + c，这意味着 f(1) 的值就是 c。
+And you can do that because this is a monic polynomial; and then we find that f(1) is equal to 0 * g(1) + c, which means that the value f(1) is c.
+
+50
+00:12:34,486 --> 00:12:41,408
+因此若 f(1) = 0，就意味着 c = 0，从而 f(x)可被 x - 1 整除。
+So that if f(1) = 0, it says this c = 0, which means that f of x is divisible by x - 1.
+
+51
+00:12:41,408 --> 00:13:02,855
+所以要证明该同态的核恰好是由 x - 1 生成的多项式（即 x - 1 的倍式），你必须说明这个欧几里得除法论证成立。最后是第六题和附加题部分，这题我收到了不少有趣的答案。
+So to prove that the kernel of this homomorphism is precisely the multiples of x - 1, you have to show that this Euclidean algorithm argument works. And finally the last problem and the extra credit part, which got me some interesting answers.
+
+52
+00:13:02,855 --> 00:13:17,839
+第六题：设群 G 的阶为 pq，其中 p < q。那么有一个阶为q 的西罗子群——西罗 q-子群。
+So six: we have G of order pq where p < q. So we have a Sylow subgroup of order q: a Sylow q-subgroup.
+
+53
+00:13:17,839 --> 00:13:28,479
+所有西罗 q-子群都共轭，所以只要唯一就是正规子群。
+And all are conjugate, so it will be normal if it's unique.
+
+54
+00:13:28,479 --> 00:13:51,890
+而西罗 q-子群的个数满足：它整除 p，并且模 q 同余于 1。又因为 p < q，整除 p 且模 q余 1 的数只能是 1。
+Well, the number of Sylow q-subgroups has the property that it divides p, and it's congruent to 1 mod q. And since p < q, the only number that divides p and leaves a remainder of 1 mod q is 1.
+
+55
+00:13:51,890 --> 00:13:58,112
+所以这个数目必定是 1。从而西罗 q-子群唯一，进而正规。
+So this number has to be 1. Consequently, the Sylow q-subgroup is unique, consequently it's normal.
+
+56
+00:13:58,112 --> 00:14:11,085
+至于附加题：假设进一步假定素数 p 不整除 q- 1。
+And the extra credit problem: suppose you assume further that your prime p does not divide q - 1.
+
+57
+00:14:11,085 --> 00:14:16,680
+那么事实上西罗 p-子群也是 G 的正规子群。
+Then in fact the Sylow p-subgroup is actually a normal subgroup in G.
+
+58
+00:14:16,680 --> 00:14:41,429
+这很不寻常，但在本条件下确实成立，因为西罗 p-子群的个数整除 q，且模 p 同余于 1——这是由西罗定理保证的。另一方面，能整除素数 q 的数只有 q 和 1。
+That's unusual, but it occurs here, because the number of Sylow p-subgroups divides q, and it's congruent to 1 mod p—that's by the Sylow theorems. On the other hand, the only numbers that divide a prime q are q and 1.
+
+59
+00:14:41,429 --> 00:14:59,439
+而 q 模 p 不同余于1，因为这是我们的假设：p 不整除 q - 1。所以唯一整除 q 且模 p 同余于 1 的数只能是 1，这说明S_p 在 G 中正规。
+q is not congruent to 1 mod p, because that's our hypothesis: that p does not divide q - 1. So therefore the only number that divides q and is congruent to 1 mod p is 1, which says that S_p is normal in G.
+
+60
+00:14:59,439 --> 00:15:07,874
+那么这如何证明群是循环群呢？想想看：阶为pq 的群中，元素的可能阶数有哪些？
+Well, how does that prove that the group is cyclic? Well, think about it: what are the possible orders of elements in a group of order pq?
+
+61
+00:15:07,874 --> 00:15:18,411
+可以有 1 阶元素——也就是单位元；可以有 p 阶元素；可以有q 阶元素；或者有 pq 阶元素。我们要证明存在 pq 阶元素。
+You can have an element of order 1—that would be the identity; you could have an element of order p; you could have an element of order q; or you could have an element of order pq. We have to prove that there are some elements of order pq.
+
+62
+00:15:18,411 --> 00:15:26,360
+那么我们来数一下1 阶、p 阶和 q 阶的元素分别有多少个。1 阶元素有 1 个：单位元。
+So let's count how many elements there are of order 1, p, and q. There's 1 element of order 1.
+
+63
+00:15:30,639 --> 00:15:39,017
+有多少个 q 阶元素？任何 q 阶元素都生成一个西罗 q-子群。而西罗 q-子群是唯一的，对吧？
+How many elements are there of order q? Well, any element of order q generates a Sylow q-subgroup. There's a unique Sylow q- subgroup, right?
+
+64
+00:15:39,017 --> 00:15:57,465
+所以在该群中恰好有 q - 1 个 q 阶元素。我们记下来：q - 1 个 q 阶元素。任意p 阶元素生成一个西罗 p-子群；但本题中西罗 p-子群是唯一的，所以有 p - 1 个p 阶元素。
+So there are exactly q - 1 elements of order q in this group. So let's put that down: q - 1 elements of order q. Any element of order p generates a Sylow p-subgroup; but in this case there's a unique Sylow p-subgroup, so there are p - 1 elements of order p.
+
+65
+00:15:57,465 --> 00:16:12,768
+因此我们已经统计的元素总数是 p + q - 1 个 G 的元素。然而 G 的总阶数是pq，对吧？
+So the total number of elements we've accounted for is p + q - 1 elements of G. But the total number of elements in G is pq, right?
+
+66
+00:16:12,768 --> 00:16:18,260
+现在我断言：这个数字严格小于 pq。为什么？
+Now I claim that this number is strictly less than that number. Why?
+
+67
+00:16:18,260 --> 00:16:32,316
+因为 p + q - 1 显然小于 p +q，而 p + q 显然小于 2q，因为 q > p，对吧？
+Because p + q - 1 is certainly less than p + q, and p + q is certainly less than 2q, because q > p, right?
+
+68
+00:16:32,316 --> 00:16:44,119
+且 2q 显然小于等于 p ·q，因为无论 p 是多少，作为素数它都 ≥ 2！所以这个数目严格小于全群的阶数。
+And 2q is certainly less than or equal to p * q, because whatever p is, it's >= 2: it's a prime! And so this number is strictly less than that number.
+
+69
+00:16:44,119 --> 00:16:48,240
+因此 G 中必定还有其他元素，其阶不是 1、不是 p 也不是 q。
+So there must be more elements of G that are not of order 1, p, or q.
+
+70
+00:16:48,240 --> 00:16:58,308
+所以 G 中必然存在pq 阶的元素，这证明了它是循环群。
+So there must be an element in G of order pq, which proves it's a cyclic group.
+
+71
+00:16:58,308 --> 00:17:08,173
+这道题还有另一种做法，也就是我上课讲过的方法；但我在期中考卷上看到有几位同学想出了这种计数论证，特别优雅。
+Now there's a different way of doing this, which is the way I did it in class; but several people came up with this counting argument on the exam, which was particularly elegant.
+
+72
+00:17:08,173 --> 00:17:30,160
+我上课讲的方法是：取一个p 阶元素 g，并取我们正规子群 S_q 中的一个 q 阶元素 h——由西罗定理它们必存在——然后考虑 g h g^{-1}。
+The way I did it in class: you take an element g of order p, and you take an element h of order q in our normal subgroup S_q—and those exist by the Sylow theorems—and then you consider g h g^{-1}.
+
+73
+00:17:30,160 --> 00:17:36,507
+它必然形如 h^a，因为它必须在 S_q 中，而 S_q 是 q 阶循环群。
+And that has to be of the form h^a, because it has to be in S_q, and S_q is cyclic of order q.
+
+74
+00:17:36,507 --> 00:17:54,058
+这里的 a 是在模 q 意义下确定的，且满足如下性质：如果你共轭 p 次，你得到 g^p h g^{-p} = h；你发现a^p ≡ 1 mod q，因为 g^p 等于单位元 e。
+And this a is determined mod q, and it has the property: because if you do this p times, you get g^p h g^{-p} = h; you find that a^p is congruent to 1 mod q, as g^p is equal to the identity element.
+
+75
+00:17:54,058 --> 00:18:10,116
+这表明元素 a在模 q 可逆元群(Z/qZ)^× 中——即该环的单位群中——阶数整除 p。
+And this says that the element a has order dividing p in the group of invertible elements mod q—in the units of this ring.
+
+76
+00:18:10,116 --> 00:18:21,874
+但这群的阶是 q - 1；如果 p 不整除——嗯，它的阶整除 p；抱歉，我们只知道它的 p 次幂是 1，它本身可能是 1。
+But this is a group of order q - 1; and if p does not divide—well, it has order divides p; I'm sorry, we just know that its p-th power is 1, it might itself be 1.
+
+77
+00:18:21,874 --> 00:18:45,218
+好，如果它的阶在这群中整除 p，并且这个数不被 p 整除，那么它的阶就是 1，因为 p 的可能因子只有 p 和 1，而 p 不整除该群的阶，这意味着 a 必定——由于 p 不整除 q - 1——a 必定模 q 同余于1。
+Well, if it has order dividing p in this group, and this number is not divisible by p, then its order is 1, because the only possible divisors of p are p and 1, and p does not divide the order of the group, which means that a has got to—as p does not divide q - 1—a has to be congruent to 1 mod q.
+
+78
+00:18:45,218 --> 00:19:00,720
+这是单位群中唯一 p 次幂为 1 的元素，这意味着 g h g^{-1} = h，也就是 g 与 h 互相交换。
+That's the only element of order dividing p in the invertible group, which means that g h g^{-1} is equal to h, which means that g and h commute with each other.
+
+79
+00:19:01,320 --> 00:19:14,280
+于是你发现元素 gh（设为 k）的阶就是 pq；这就是生成该循环群的元素。但我发现那个计数论证更加优雅。
+So you find that the element gh, which is—I don't know, k—has order pq; that's your element that generates the cyclic group. But I found this counting argument even more elegant.
+
+80
+00:19:14,280 --> 00:19:18,813
+所以两种解答拿附加分都完全没问题，很多人都拿到了附加分。
+So either one is perfectly good for extra credit, and a lot of people got extra credit.
+
+81
+00:19:18,813 --> 00:19:32,546
+纵观卷面，我感觉有相当多的人……彼得，这道附加题你给的总分是多少？5 分？好的，5 分。
+Looking down, it seems to me that a sizable number of people... What was the total number you gave for extra credit on this, Peter? Five points? Well, five points, yeah.
+
+82
+00:19:32,546 --> 00:19:43,494
+这道题能拿到的最高附加分是 5 分，很好。不少同学都做出了漂亮的尝试。
+The maximum extra credit you could get on this problem was 5 points, yeah, good, okay. But a number of people made a good stab.
+
+83
+00:19:43,494 --> 00:19:54,246
+正如我所说，全卷唯一普遍遇到困难的题目是第二题，那是因为大家必须把群作用看作群同态。
+As I say, the one problem that gave consistent trouble was number two, and that was because you have to think of a group action as a group homomorphism.
+
+84
+00:19:54,246 --> 00:20:03,079
+希望大家对这次考试感觉比第一次期中考好一点。总体而言我觉得大家发挥好得多。
+So I hope you all enjoyed this exam a little bit more than the first exam. As I say, I think people did a lot better.
+
+85
+00:20:03,079 --> 00:20:09,286
+如果大家对自己的成绩有任何疑问，或者想找我谈谈，欢迎随时来找我。
+If there are any questions about your performance or you'd like to talk to me about it, please do.
+
+86
+00:20:09,286 --> 00:20:27,083
+（学生：打扰一下，请教个小问题：您说如果存在一个元素 g的阶为 pq，就能证明群是循环群？）对，因为如果你有一个 pq 阶群，且有一个 pq 阶元素，那么该元素的所有幂次就穷竭了整个群。
+(Student: Go ahead, just real quick question: you say, so there's an element g of order pq, and that proves that the group is cyclic? Professor: Yes,) because if you have a group of order pq and you have an element of order pq, then the powers of that element exhaust the group.
+
+87
+00:20:27,083 --> 00:20:34,299
+循环群的定义就是这样：一个阶为 n 的群，若存在一个 n 阶元素，那它就是循环群；这就是循环群。
+That's what a cyclic group is: a cyclic group is a group of order n for which there exists an element of order n; that's what a cyclic group is.
+
+88
+00:20:34,299 --> 00:20:36,682
+所以该元素的幂次给出了全群。
+So the powers of that element give you the whole group.
+
+89
+00:20:36,682 --> 00:20:59,358
+这就是你要找的，为了证明这个群——其实更好的是，题目原本说“证明它是交换群”，这里顺带直接证明了交换群，但实际上如果你被告知该群是循环群，寻找正确阶数的元素就是证明其为交换群的确定途径。
+Okay, so that's what you're looking for, all you're looking for to prove that this group—it's better, you know, I said "prove it's abelian"; this would prove it's abelian right here, but in fact if you're told that the group is cyclic, that's a definite way of proving it's abelian, by trying to find an element of the right order.
+
+90
+00:20:59,358 --> 00:21:13,880
+好，今天让我来讲一个漂亮的构造，在第 10.6 节。在我看来，这是数学中最伟大的构造之一，它就是所谓“分式域”（商域）的构造。
+Okay, so let me do a nice construction today, which is in Section 10.6. In my opinion, it's one of the great constructions of mathematics, and it is the construction of what's called the field of fractions.
+
+91
+00:21:13,880 --> 00:21:32,434
+在开始之前，我必须先介绍一类特殊的环，从现在起我们将把注意力基本都集中在它们身上；它们比一般的环性质好得多，被称为“整环”（integral domains）。
+And to start it off, I have to talk about a special class of rings which we're going to focus our attention on pretty much from now on; and they're nicer rings than average, and they're called integral domains.
+
+92
+00:21:32,434 --> 00:22:18,253
+好，我们说一个环，一个交换环是一个整环——有时我们简称为“域”（整环 domain）——如果它满足如下性质：只要在 R 中 a · b = 0，则在 R 中必有 a = 0 或 b = 0。
+Okay, so we say a ring, a commutative ring is an integral domain—or sometimes we'll just use the word domain to be short—if it has the following property: whenever a * b = 0 in R, then either a = 0 or b = 0 in R.
+
+93
+00:22:18,253 --> 00:22:31,240
+换言之，不可能两个非零元的乘积为零，除非是平凡的乘积为零：其中一个因子本身就是零。所以这些被称为整环。
+Namely, you can't have a product which is zero without it being a trivial product which is zero: one of the elements is zero. So those are called domains.
+
+94
+00:22:31,240 --> 00:23:08,490
+整环的例子：若 R 是一个域，那当然是一个整环，因为如果我们有乘积 a · b = 0 且 a ≠ 0，那么我们要证明 b必等于 0——这就是检验它是否为整环。两边同乘 a^{-1} 就得到 b = 0；等式两边同乘 a^{-1} 即可。
+So examples of domains: R is a field, is certainly a domain, because if we have the product a * b = 0, and a is not equal to 0, then we have to prove that b is equal to 0—that's the check of it being a domain. Well, multiply both sides of this by a^{-1} to get b = 0; multiply both sides of this by a^{-1}.
+
+95
+00:23:08,490 --> 00:23:22,054
+所以如果你有乘法逆元，自然满足此性质。但还有其他不是域的环也是整环：R= Z 是整环：整数环。
+So if you have inverses, you certainly have this property. But there are other rings that are not fields that are domains: R = Z is a domain: the integers.
+
+96
+00:23:22,054 --> 00:23:26,625
+两个非零整数相乘，必然得到非零整数——关键事实。
+If you multiply two non-zero integers, you get a non-zero integer—key fact.
+
+97
+00:23:26,625 --> 00:23:58,045
+好，来看一个不是整环的例子，让你知道并不是处处都满足整环条件：R = Z/4Z 不是整环：模 4 意义下 2 ≠ 0，但 2 · 2 ≡ 0 mod 4。这里有两个非零元素，它们相乘却得到了零。
+All right, something that isn't a domain, just to see that you don't get this all the time: R = Z/4Z is not a domain: 2 is not equal to 0 mod 4, but 2 * 2 = 0 mod 4. Okay, so there you have two non-zero elements, when you multiply them you get zero.
+
+98
+00:23:58,045 --> 00:24:07,662
+整环的另一个例子：域上的多项式环 F[x] 是整环。
+Another example of a domain: polynomials over a field is a domain.
+
+99
+00:24:07,662 --> 00:24:31,153
+因为如果有两个非零多项式，它们有非零的首项系数，对吧？即 a_n ≠ 0 且 b_m ≠0；这是非零的首项系数。
+Because if you have two non-zero polynomials of given degrees, then they have a non-zero leading coefficient, right? So a_n != 0 and b_m != 0; those are the non-zero leading coefficients.
+
+100
+00:24:31,153 --> 00:24:43,897
+当你把这两个多项式相乘时，具体项虽多，但最高次项必定以 a_n b_m x^{n+m}加低次项开头，对吧？
+When you multiply these two polynomials, you don't know everything about it, but it certainly starts out with a_n b_m x^{n+m} plus lower terms, right?
+
+101
+00:24:43,897 --> 00:24:50,079
+而这个首项系数非零，因为我们在域中。
+And this leading coefficient is non-zero because we're in a field.
+
+102
+00:24:50,079 --> 00:24:56,352
+所以如果两个多项式非零，它们的乘积也是非零的。
+Okay, so if you have two polynomials which are non-zero, their product is non-zero.
+
+103
+00:24:56,352 --> 00:25:09,140
+更一般地，这个论证表明如果 R 是整环——这会作为你们的作业——那么 R 上的多项式环 R[x] 也是整环。
+More generally, this argument shows that if R is a domain—and you'll have to do this for homework—so is the ring of polynomials over R: R[x].
+
+104
+00:25:09,140 --> 00:25:18,007
+论证完全相同：我并不需要 a_n 和 b_m可逆，只要它们非零时乘积非零即可，对吧？
+Same argument: I didn't need that a_n and b_m were invertible, just that their product was non-zero if they were non-zero, right?
+
+105
+00:25:18,007 --> 00:25:36,207
+而且不仅一元多项式环是整环，二元多项式环也是整环，因为只需迭代这个论据：从整环出发，一元多项式环是整环；该环上添加另一变元的多项式环也是整环，这就是 R 上的二元多项式环。所以数学中存在大量的整环！
+And so not only polynomials in one variable, but so are polynomials in two variables, because you just iterate this argument: you start with a domain, polynomials in one variable is a domain, so polynomials over this ring in another variable is a domain, and that's polynomials over R in two variables. So there are an awful lot of domains out there!
+
+106
+00:25:36,207 --> 00:26:03,792
+整环具有如下极佳的消去律性质，对我们非常有用：如果在 R 中ab = ac 且 a ≠ 0，则在 R 中必有 b = c。再说一遍，这在非整环中完全不成立。
+So domains have the following wonderful cancellation property, which is going to be useful for us: if a * b = a * c, and a != 0, then b = c in R. Again, that is completely false in non-domains.
+
+107
+00:26:05,394 --> 00:26:12,045
+例如：2 · 2 = 0，而 0 = 2 · 0；但 2 并不等于0！
+Example: 2 * 2 = 0, and that's equal to 2 * 0; but 2 is not equal to 0!
+
+108
+00:26:12,045 --> 00:26:24,720
+为什么整环中成立？移项并应用分配律：这意味 ab - ac = 0，也就是 a · (b - c) =0。
+Okay, why is this true? Well, subtract and use the distributive law: this implies that ab - ac = 0, which means that a * (b - c) = 0.
+
+109
+00:26:24,720 --> 00:26:36,805
+因为 a ≠ 0，所以 b - c 必须等于 0——这就是整环性质！所以在整环中可以做消去，而在一般环中不行。
+Since a != 0, this b - c has to be equal to 0—that's the domain property! So we can do cancellation in domains, not in arbitrary rings.
+
+110
+00:26:36,805 --> 00:26:46,092
+本学期剩余时间我们要研究的环，将是整数环相当自然的推广；我们在学期剩余时间要讲数论。
+And the rings we're going to study for the rest of the term are going to be rather natural generalizations of the integers; we're going to be doing number theory for the rest of the term.
+
+111
+00:26:46,092 --> 00:26:57,763
+这是我的个人偏好，因为我是个代数数论学者；在学期结束前我想告诉你们我的研究领域，到本学期末我打算跟你们讲讲我在 80 年代初研究的东西——虽然我现在差不多忘光了，但我会努力回忆起来！
+This is my preference because I'm a number theorist; I want to tell you what I do by the end of this term; I'm going to be able to tell you what I worked on in the early '80s—since I've forgotten it by now, but I'll try to remember it!
+
+112
+00:26:57,763 --> 00:27:02,231
+所以我们要学数论。数论研究与整数非常相似的环。
+So we're going to be doing number theory. Number theory concerns rings that are very similar to the integers.
+
+113
+00:27:02,231 --> 00:27:15,762
+整环的另一个例子：高斯整数环 Z[i] 是整环；两个非零高斯整数相乘，必然得到非零高斯整数。
+Another example of a domain: the Gaussian integers Z[i] is a domain; if you multiply two non-zero Gaussian integers, you get a non-zero Gaussian integer.
+
+114
+00:27:15,762 --> 00:27:33,714
+好。关于整环极其妙的一点如下：我们来观察一下，如果一个环是某个域的子环，这里有一个域 F，R 是其子环，
+Okay. Now what's incredibly cool about integral domains is the following: let's observe that if I have any ring which is a subring of a field, so here's a field,
+
+115
+00:27:33,714 --> 00:27:54,407
+那么 R 必然是整环，因为如果在 R 中有两个元素的乘积为 0，那么在域 F 中同样的两个元素的乘积也会是 0，但 F 本身就是整环。
+here's a subring R, then R is a domain, because if I had a product of two elements in R which was 0, then the same product of two elements in F would be 0, but F is a domain.
+
+116
+00:27:54,407 --> 00:27:59,845
+好，所以现在你可能会问：如果从一个整环出发，是否存在一个自然的域能够把它放进去？
+Okay, so now you might ask: if you start with a domain, is there somehow a natural field to put it in?
+
+117
+00:27:59,845 --> 00:28:43,713
+这就是关键命题、重要定理：若 R 是整环，则我们可以从 R 出发以一种自然的方式构造一个域 F——我们后面会看到它，称为“商域”（或分式域）——以及一个环的包含映射：R 嵌入到这个域中。
+And that's the big proposition, big theorem: If R is a domain, there is a field F we can construct from R in a natural way—we'll see it, called the quotient field— and an inclusion of rings R into this field.
+
+118
+00:28:43,713 --> 00:29:06,160
+因此对任意整环，都存在一个域使得该整环自然地包含在其中；而且它是我们所能得到的最小的域，最后我们将用一个泛性质来刻画它。例如，你可能会好奇：与这些整环相关联的域是什么？
+So associated to any integral domain, there is a field such that the domain is naturally included in the field; and it's the smallest thing that we can get; we'll characterize it by a universal property at the end. So for example, you might wonder: what are the fields associated to these domains?
+
+119
+00:29:06,160 --> 00:29:20,253
+它差不多就是你能做出的包含它的最小的域：例如对应于 Z，这个域 F 将是有理数域 Q，它当然包含整数，但同时你在其中还可以求逆。
+Well, it's somehow the smallest field you could make that contains it: so in this case, the field F is going to be the rational numbers Q, which certainly contains the integers, but you also can invert things in it.
+
+120
+00:29:20,253 --> 00:29:39,215
+而在高斯整数这里，这个域将是所谓高斯数域 Q(i)，也就是所有形如 α + β i 的数，其中 α 和 β 是有理数；事实证明在其中所有非零元均可求逆，即便在整系数的高斯整数中不能求逆。
+Here, the field is going to be what's called the Gaussian numbers Q(i), which is all things of the form alpha + beta i where alpha and beta are now rational numbers; it turns out you can invert things there, even though you can't with coefficients of integers.
+
+121
+00:29:39,215 --> 00:29:52,014
+而这里，域有时记作这样——哎呀，我不能把系数域叫……设多项式环为 K[x]，其中 K 是一个域。
+And here the field is sometimes denoted like this—oops, I can't call the field... let's call this... let's call it K[x] here, where K is a field.
+
+122
+00:29:52,014 --> 00:30:13,082
+此时的商域通常记作 K(x)，它由所谓“有理函数”组成，即多项式的商 f(x) / g(x)，其中 g(x) 是非零多项式。
+The quotient field in this case is often denoted by K(x), and it consists of what are called the rational functions, which are quotients of polynomials f(x) / g(x), where g(x) is a non-zero polynomial.
+
+123
+00:30:13,082 --> 00:30:26,326
+所以它被称为有理函数域，这些分式可以求逆、相乘等等。好的。（学生：我想请教一下，“包含”是不是意味着核为零？
+So it's called the field of rational functions, and these things can be inverted and multiplied, etc. (Student: Can I ask: "included", does that mean no kernel?
+
+124
+00:30:26,326 --> 00:30:34,969
+教授：对，映射没有核。）因为你总可以尝试通过……我的意思是，存在很多从 Z 到域的映射。
+Professor: Yes, no kernel of the map.) So you could always try to map it to a field by... I mean, there are many maps of Z to fields.
+
+125
+00:30:34,969 --> 00:30:48,370
+例如你可以取从 Z 到 Z/2Z 的映射：那是一个完全合格的从整数到域的同态，只需把整数模 2；但它不是单同态，它不是一一映射，因为它把所有偶数都映成了零。
+For example, you could take the map from Z to Z/2Z: that would be a perfectly good map from the integers to a field by taking an integer mod 2; but it would not be an injective homomorphism, it wouldn't be one-to-one, because it would take all even integers to zero.
+
+126
+00:30:48,370 --> 00:31:02,705
+而在这里，“包含”意味着映到零的元素只有 0。所以我的意思是：这是一个环的包含嵌入，核为零。
+Here, this means that the only thing mapping to zero is zero. So what I mean is: this is an inclusion of rings, no kernel.
+
+127
+00:31:02,705 --> 00:31:13,964
+好。（学生：那您是说我们总是能够找到这样一个自然的域，使 R 包含在其中，称为它的分式域吗？）教授：是的。
+Okay. (Student: And are you always able—is that what you're saying, that we're always able to find a natural field in which R is included, called its field of fractions?) Professor: Yes.
+
+128
+00:31:13,964 --> 00:31:30,320
+所以这里整数被包含在有理数中；这里高斯数——整数加整数乘以 i 的高斯整数——被包含在有理数加有理数乘以 i 中；在多项式这里，多项式是有理函数的特例。
+So in this case, the integers turn out to be included in the rational numbers; here the Gaussian numbers, which are integers + integers * i, are included in rational numbers + rational numbers * i; in this case polynomials are a special case of rational functions.
+
+129
+00:31:30,320 --> 00:31:34,520
+好，但当我将它扩大时，我确实得到了逆元。
+Okay, but when I enlarge it, I actually get inverses.
+
+130
+00:31:34,520 --> 00:32:04,342
+所以这个想法非常直观，但它看似简单，实则有些微妙：这个想法就是形式地为所有非零元素添加逆元：对 R 中所有 a ≠ 0，添入新元素，我们记作 1/a。
+Okay, so the idea is really simple, but it's deceptively simple, and it's a little tricky: the idea is just to formally invert the non-zero elements: add elements—we'll call them 1/a—for all a != 0 in R.
+
+131
+00:32:04,342 --> 00:32:13,926
+因为既然我们要构成一个域，那么对 R 中的每个非零元素都必须有逆元，对吧？R 中的元素嵌入到这个域中，它们必须有逆元。
+I mean, if we're going to have a field, then for every element in R we have to have an inverse, right? I mean, elements in R are going to go to elements in this field, they have to have inverses.
+
+132
+00:32:13,926 --> 00:32:24,233
+那么让我们尝试用极小的方式来构造：我们必须引入符号 1/a，使得 a· (1/a) = 1 在 F 中成立。
+So let's try to make it in the minimal way possible: we have to have a symbol, which is 1/a, such that a * (1/a) = 1 in F.
+
+133
+00:32:24,233 --> 00:32:30,437
+我原本有元素 a，现在必须把新元素放入我的域中，作为它们的逆元。
+So I have the initial elements a, then I have to put new elements in my field so that they're the inverses.
+
+134
+00:32:30,437 --> 00:32:34,020
+现在你可能会说：等等，有些逆元原本可能就已经存在了，对吧？
+Now you might say: wait a minute, those might have already been there, right?
+
+135
+00:32:34,020 --> 00:32:45,520
+如果你取的元素本来在环中就是单位（可逆元），环里本来就已经有 1/a 了，那你可能添加了多余的东西。我会说：你说得很对，这是个问题！
+I mean, you might have taken an element which was a unit in the ring, and already there was a 1/a in there, so you might have added something extra. And I'd say: you're right, that's a problem!
+
+136
+00:32:45,520 --> 00:33:12,659
+而且还有个更大的问题：假设我们在整数环中这么做；在 R = Z 时我的域里有元素形如 1/6，同时我的域里也有元素 1/3，因为我也必须对 3 求逆。好，既然域里有 1/6，我自然也有 2 · (1/6)，对吧？
+Here's an even greater problem: suppose we did this for the integers; so I had an element like 1/6 in this field for R = Z, and I also had the element 1/3 in my field, because I have to invert 3 too. Okay, so since I have 1/6 in the field, I'd also have 2 * (1/6) in the field, right?
+
+137
+00:33:12,659 --> 00:33:30,127
+而且我必须能够向别人——比如一个在做算术的小学三年级聪明小朋友——解释这个数和域里的另一个数其实是同一个数：也就是说，我随手丢进来的这些逆元之间并不是彼此独立的，其中一些是有关系的，对吧？
+And I'd have to be able to tell somebody—some intelligent third grader who was doing this computation—that this number in the field was the same as this number in the field: namely, these inverses that I'm throwing in arbitrarily aren't so independent from each other, some of them are related to each other, right?
+
+138
+00:33:30,127 --> 00:33:35,130
+所以诀窍在于先做一个构造，然后在上面定义一个等价关系。
+So the trick is to make a construction and then put an equivalence relation on it.
+
+139
+00:33:35,130 --> 00:33:40,435
+这就是我接下来要做的，如果你深入思考，会发现它极其巧妙！
+And that's what I'm going to do, and it's incredibly clever if you start to think about it!
+
+140
+00:33:40,435 --> 00:34:05,360
+下面就是由 R 构造F 的过程：首先从所有符号构成的集合出发——所有形如 a/b 的符号，其中 a ∈ R，且 b ≠0（在 R 中）。
+So here is the construction of F from R: you start with the set of all symbols—all symbols of the form a/b, where a is in R and b is not equal to 0 in R.
+
+141
+00:34:05,360 --> 00:34:08,443
+这是一个集合 S。
+So that's a set S.
+
+142
+00:34:08,443 --> 00:34:35,240
+好，在这个集合上我赋予如下等价关系：我规定 a/b 与 a'/b'等价，当且仅当——大家觉得应该是什么？——在 R 中 ab' = ba'。换句话说，如果它们看起来就像是有理数中的同一个分数！
+Okay, on that set I put the following equivalence relation: I say that a/b is equivalent to a'/b' if and only if—well, what do you think?—a b' is equal to b a' in R. Namely, if they look like the same fraction in the rational numbers!
+
+143
+00:34:35,240 --> 00:34:37,934
+这就是为什么 2/6 = 1/3，对吧？
+I mean, that's why 2/6 is equal to 1/3, right?
+
+144
+00:34:37,934 --> 00:34:47,756
+3 · 2 = 6 ·1：这是符号 2/6，这是 1/3，它们等价是因为在环中 3 · 2 = 6 · 1。
+3 * 2 = 6 * 1: this would be the symbol 2/6, this would be 1/3, they'd be equal because 3 * 2 = 6 * 1 in the ring.
+
+145
+00:34:47,756 --> 00:35:02,420
+所以我首先从这样一组符号集合出发；当满足这个条件时称一个符号与另一个符号等价。现在我必须验证这是一个等价关系；这并不是显然自明的。
+So I first start with a set of symbols like this; I say one symbol is equivalent to another if this is the case. Now I have to check that that is an equivalence relation; that's not completely obvious.
+
+146
+00:35:02,420 --> 00:35:17,109
+显然成立的是每个符号与自身等价，所以满足自反性；而且如果 a/b 与a'/b' 等价，那么 a'/b' 也与 a/b 等价——这是由环的乘法交换律保证的。好，关键需要验证的是传递性。
+What is clear is that a symbol is equivalent to itself, so that it's reflexive; and if a/b is equivalent to a'/b', then a'/b' is equivalent to a/b—that's the commutativity of the ring. Okay, what you have to check is transitivity.
+
+147
+00:35:17,109 --> 00:35:38,506
+假设 a'/b' 另一方面又与 a''/b'' 等价；这就意味着 a' b'' = b' a''。而我必须推导出……我已知这两个等价式，想要证明 a/b 与 a''/b'' 事实上也是等价的。
+So suppose that a'/b' is equivalent on the other hand to a''/b''; so that would say that a' b'' is equal to b' a''. And somehow I have to get... so I have this equivalence, I have this equivalence; I want to show that a/b and a''/b'' are actually equivalent.
+
+148
+00:35:38,506 --> 00:35:49,802
+好，这里有一个技巧：必须乘以某个元素。我来看一下笔记，因为我刚才换了记号，很可能会搞错！
+Okay, so now there's a trick: you have to multiply by something, which I'm going to look up, and since I've changed notation I'll undoubtedly get it wrong!
+
+149
+00:35:49,802 --> 00:36:09,575
+第一个式子乘 b''，第二个式子乘 b 吗？好，我们把第一个式子乘 b''，得到 a b' b''= b a' b''。
+Which one do I multiply by b'' and the second equality by b? All right, let's take the first and multiply by b'', so we get a b' b'' = b a' b''.
+
+150
+00:36:09,575 --> 00:36:26,240
+然后我想把第二个式子乘以——大家有什么想法？乘 b？我们试试乘 b。好的，那么这变成了 b a' b'' = b b' a''。
+And then I want to multiply this second one by—any ideas? By b? Let's try by b. All right, so this becomes b a' b'' = b b' a''.
+
+151
+00:36:26,240 --> 00:36:43,557
+好，现在来看看能否从中得出结论。所以这里我有……啊，所以这里的 b a' b'' 等于这里的这一项；它们是完全相同的三个符号！
+All right, now let's see if we can get something out of this. So here I have... ah, so this quantity b a' b'' here is equal to this quantity here; it's the same three symbols!
+
+152
+00:36:43,557 --> 00:36:48,830
+好，因此这个数等于那个数：a b' b'' = b b' a''。
+Okay, therefore this number is equal to this number: a b' b'' = b b' a''.
+
+153
+00:36:48,830 --> 00:37:10,579
+另一方面，我现在使用消去律：两边都乘以了 b'，而 b'不等于 0，因为它是其中一个分母。所以我可以消去一个非零元素！
+On the other hand, I now use the cancellation law, that both of these things are multiplied by b', and b' prime is not equal to 0, because it was one of the denominators. So I can cancel by something that's not equal to 0!
+
+154
+00:37:10,579 --> 00:37:23,564
+于是消去 b' 得到 a b'' = b a''，而这正是分数 a/b与分数 a''/b'' 等价的充要条件！
+So cancel the b' to get a b'' = b a'', which is the fact that this fraction a/b is equivalent to this fraction a''/b''.
+
+155
+00:37:23,564 --> 00:37:32,560
+很巧妙吧？所以我们在这里再次用到了整环的消去律，来证明这是一个等价关系。
+Tricky, huh? So again, we've used domain right there in the cancellation, to show that this is an equivalence relation.
+
+156
+00:37:32,560 --> 00:37:45,845
+现在我们定义——这也是极妙之处——F 为集合 S 模去该等价关系所得的商集：即满足此等价关系的由分式构成的等价类集合。
+And now we define—and this is what's totally cool—F to be the set S modulo the equivalence relation: the set of equivalence classes of fractions with this relation.
+
+157
+00:37:45,845 --> 00:38:01,146
+这看起来很好，很有希望；如果你仔细想想，这正是我们对有理数所做的事情：如果你尝试向人解释为什么 1/3 等于 2/6，其实就是你有一堆符号，其中一些与另一些符号等价。
+Now that looks good, that looks promising; I mean, that's what we really do for rational numbers if you think about it: if you try to describe to people why 1/3 is equal to 2/6, it's that you have a bunch of symbols, some of which are equal to some other symbols.
+
+158
+00:38:01,146 --> 00:38:19,555
+但这还没有完全解决我们的问题，因为我们现在必须证明它具有一个域的代数结构，并且包含整环R。
+But it doesn't solve our problem yet, because we now have to show that this has the structure of a field which contains the domain R.
+
+159
+00:38:19,555 --> 00:38:27,274
+所以我们必须在上面赋予加法和乘法，使其具有逆元等等，并且我们必须把R 映入其中。
+So we have to put an addition and a multiplication on it such that it has inverses, etc., etc., etc., and we have to map R into it.
+
+160
+00:38:27,274 --> 00:38:33,140
+仅说取一个集合模去等价关系是不够的；你必须规定如何进行加法和乘法。
+It's not enough to say you just take a set modulo this equivalence relation; you have to say how you add and multiply.
+
+161
+00:38:33,140 --> 00:38:50,109
+好，我们来定义加法与乘法：假设我们有 a/b，想将它与符号 c/d 相加；然后我们还得规定符号 a/b 乘以符号 c/d 是什么；接着还得告诉你 (a/b)^{-1}是什么，诸如此类。
+Okay, so let's add and multiply: so suppose we have a/b, and we want to add it to the symbol c/d; and then we also have to tell you what a/b times the symbol c/d is; and then we have to tell you what (a/b)^{-1} is, things like that.
+
+162
+00:38:50,109 --> 00:39:13,336
+好，这里就要回到小学三年级了：按定义，这等于 (ad + bc)/bd——我们将验证这个定义是行得通的；乘积符号按定义是 (ac)/(bd)；而这个逆元符号是 b/a。
+Okay, well, this is where you go back to third grade: this is equal to (ad + bc)/bd, that's by definition—we're going to check that that definition works; and this symbol is (ac)/(bd) by definition; and this inverse symbol is b/a.
+
+163
+00:39:13,336 --> 00:39:24,297
+只有当a ≠ 0 时才能求逆，否则你就是在对零求逆，对吧？
+You can only do this if a is not equal to 0, otherwise you're inverting 0, okay?
+
+164
+00:39:24,297 --> 00:39:41,005
+现在请注意，到目前为止都没问题：这些都是合法的符号，因为 b 和 d 非零，所以它们的乘积也非零——再次用到了我们在整环中的事实：分母上只允许放入非零元素。
+Now notice, so far I'm okay: these are permissible symbols because b and d were non-zero, so their product is non- zero—again using the fact that I'm in a domain: I'm only allowed to put something that's non-zero in the denominator.
+
+165
+00:39:41,005 --> 00:39:48,368
+所以这是一个合法符号，这是一个合法符号，且当 a ≠ 0 时这也是合法符号，此时我才求逆。
+So this is a symbol, this is a symbol, and this is a symbol if a != 0, which is when I'm going to make an inversion.
+
+166
+00:39:48,368 --> 00:39:58,280
+而且这个符号满足性质：当把它乘以 a/b 时，得到 ab/ab，它等价于 1/1。
+And this is a symbol that has the property that when you multiply it by a/b, you get ab/ab, which is equivalent to 1/1.
+
+167
+00:39:58,280 --> 00:40:07,813
+顺便说一下 R 是如何嵌入到这个域中的：R 映入 F 的方式是把元素 a 映为符号a/1。
+I should say how R maps into this field, by the way: R goes into F by taking an element a and sending it to the symbol a/1.
+
+168
+00:40:07,813 --> 00:40:17,164
+这是一个完全合法的符号，因为在整环中 1 ≠ 0；零环不是整环，不算在内。
+That's a perfectly good symbol, because 1 != 0 in a domain; the zero ring is not a domain, doesn't count.
+
+169
+00:40:17,164 --> 00:40:27,800
+好，现在构造还没完成，远远没有完成；这仅仅是刚开始！原因是：你必须验证它是良定义的。
+Okay, now this isn't done yet, this is far from being done; this is just the beginning! And the reason is that you have to check that this is well-defined.
+
+170
+00:40:27,800 --> 00:40:35,879
+良定义是什么意思？域里的元素不是符号本身，而是符号的等价类！
+What do I mean by well-defined? Well, the elements of the field are not symbols, they're equivalence classes of symbols!
+
+171
+00:40:35,879 --> 00:41:04,879
+所以你必须验证：如果取另一个等价的代表元：如果 a/b 等价于 a'/b'，且 c/d 等价于c'/d'，那么你必须验证 (ad + bc)/bd 本身等价于 (a'd' + b'c') / (b'd')。
+So you have to check that if you take another symbol: if a/b is equivalent to a'/b', and c/d is equivalent to c'/d', then you have to check that (ad + bc)/bd is itself equivalent to (a'd' + b'c') / (b'd').
+
+172
+00:41:04,879 --> 00:41:13,129
+换言之，否则加法就不是良定义的：你选取等价类的不同代表元，就会得到不同的运算结果。
+Namely, otherwise addition isn't well-defined: you could choose a different representative of your equivalence class and get a different answer.
+
+173
+00:41:13,129 --> 00:41:19,229
+好，如果你相信这是成立的，这其实只是……我是说，这能有多难？
+Okay, well again, if you believe that this works, it's just a matter... I mean, how hard can this be?
+
+174
+00:41:19,229 --> 00:41:37,800
+这里又不允许用微积分，你又不能求导，所以肯定相当简单！我们来看看怎么做，剩下的细节留给大家自己检验。已知条件是 ab' = ba'，以及 cd' = dc'。
+You're not allowed to do any calculus here, you can't differentiate anything, so it has to be pretty simple! Let's see if we can do it, and I'll let you check some of the other things. So this says that ab' = ba', and this says that cd' = dc'.
+
+175
+00:41:37,800 --> 00:41:59,305
+而这里我们要检验什么？交叉相乘，我们必须检验：(ad)(b'd') +(bc)(b'd') 是否确实等于 (bd)(a'd') + (bd)(b'c')？
+And what do we have to check here? Well, cross-multiplying, we must check: is (ad)(b'd') + (bc)(b'd') in fact equal to (bd)(a'd') + (bd)(b'c')?
+
+176
+00:41:59,305 --> 00:42:02,434
+这里肯定有很好的消去抵消，我们来看看：肯定有些项直接相等，对吧？
+Well, something good must happen here.
+
+177
+00:42:02,434 --> 00:42:33,375
+来看看，我认为其中一项直接相等：比如……大家帮我看看！对，第一项：这里有 a 和 b'——这里的 ab'——乘 dd'；而右边有 dd' ba'。
+Let's see what we've got here: something must just match here, huh? Let's see, I think one of these is matches: so... let's see, help me! Yeah, the first one: so you have an a and a b'—ab' here— and dd', and here I have dd' ba'.
+
+178
+00:42:33,375 --> 00:42:40,085
+所以这项等于这项，因为它是原等式两边同乘 dd'，多谢！
+So this is equal to this, because it's that thing times dd', thank you!
+
+179
+00:42:40,085 --> 00:42:54,399
+第二项同理：这里有 (bc)(b'd')，右边是 (bd)(b'c')，由于 cd' = dc'，所以这项也等于这项，因为只是两边同乘 bb' 之类。
+Same thing for the second one: here I have... and here is cd' and dc', so this is equal to this because this is just multiplied by bb' something like that.
+
+180
+00:42:54,399 --> 00:43:02,621
+好的！所以这两个分式确实是等价的，加法定义是良定义的。
+Okay, good! So in fact this fraction is equivalent to this fraction, so this addition law makes sense.
+
+181
+00:43:02,621 --> 00:43:11,747
+乘法的良定义更容易验证；所以这确实是有理数构造的严格数学推广。
+It's easier to check multiplication; and so this is really the mathematical generalization of the construction of the rational numbers.
+
+182
+00:43:11,747 --> 00:43:37,432
+如果你回想我前面提到的那些环：如果你取类似 a + bi 的元素，考虑分式 (a + bi)/(c + di)，那么 1/(c + di) 可以写为 (c - di)/(c^2 + d^2)。
+And if you think about these other rings that I've mentioned: if you take elements like a + bi and you take fractions of the form (a + bi)/(c + di), well, 1/(c + di) can be written as (c - di)/(c^2 + d^2).
+
+183
+00:43:37,432 --> 00:44:04,701
+所以这个数就等价于 (a + bi)(c - di) / (c^2 + d^2)；从而分子展开后的系数全都是整数，分母是一个非零整数，因此它必然形如 α + β i，其中 α, β 是有理数。
+So this element would be equivalent to (a + bi)(c - di) / (c^2 + d^2); and consequently here the coefficients in the numerator would all be integers, and you're just dividing by a non-zero integer, so this would be of the form alpha + beta i where alpha and beta are rational numbers.
+
+184
+00:44:04,701 --> 00:44:09,649
+所以高斯整数中任何这种形式的分式都可以化为 α + β i 的形式，其中 α, β 为有理数。
+So anything of this form in the Gaussian integers could be turned into something of this form where alpha and beta are rational numbers.
+
+185
+00:44:09,649 --> 00:44:19,954
+同理对于有理函数域：如果你考虑表达式 A/B，其中 A, B 是多项式且 B ≠ 0，这恰恰就是有理函数的定义。
+And likewise for the rational functions: I mean, if you just considered expressions A/B where A and B are polynomials and B != 0, that's exactly what a rational function is.
+
+186
+00:44:19,954 --> 00:44:35,680
+所以这并没有什么深奥的秘密，但赋予这套等价类集合以域的结构是如此美妙的构造，而如果直接去讨论原来的符号集合本身就会极其笨拙。
+So there's really no mystery about this, but it's just such a cool construction that you can put a field structure on the set of these equivalence classes, whereas it would be extremely awkward to try to start talking about the original set itself.
+
+187
+00:44:35,680 --> 00:44:46,537
+在数学中这是一个更广义的过程——在 50 和 60 年代的环论中得到了极大发展——被称为“局部化”（localization）。
+So this is a process in mathematics—a generalization which was developed a great deal in the '50s and '60s in ring theory—called "localization".
+
+188
+00:44:46,537 --> 00:45:02,045
+当大家上 Math 250 时，会花大量时间研究局部化；但在所有实际应用中，分式域（商域）是局部化最主要的例子。
+When you take Math 250, you'll spend huge amounts of time doing localization; but for all practical purposes, the construction of the quotient field is the main example of localization.
+
+189
+00:45:02,045 --> 00:45:09,600
+现在我来向大家展示商域的精妙之处，以及为什么它是我们要构造的最理想的域。
+And now I'll show you what's so cool about the quotient field, and why it's the best field to construct.
+
+190
+00:45:09,600 --> 00:45:17,010
+当你做这样一个构造时，表面上看似做了各种任意的选择，你不知道该如何刻画最终构造出的对象。
+When you make a construction like this, you seem to make all kinds of arbitrary choices, and you don't know how to characterize what you've ended up with.
+
+191
+00:45:17,010 --> 00:46:05,624
+这里给出了商域的特征刻画：泛性质（Universal Property）：若 R ↪ K 是环到域 K 的任意环包含嵌入，且 F 是 R 的商域——我们有自然的包含映射 R ↪ F——
+So here's the characterization of the quotient field: the universal property: If R -> K is any ring inclusion into a field K, and F is the quotient field of R—so we have a natural inclusion R ↪ F—then there is a natural homomorphism of fields
+
+192
+00:46:05,624 --> 00:46:19,568
+那么存在自然的域同态 F ↪ K 使得这两个映射的复合等于原嵌入，从而任何从环到域的映射在某种意义上都分解为经由其商域的映射：首先将它放入其商域，再把商域嵌入更大的域中。
+F -> K that makes the combination of these two maps equal to that one, so that any map from a ring into a field in some sense factors through its quotient field: first you put it in its quotient field, then you put the quotient field in the bigger field.
+
+193
+00:46:19,568 --> 00:46:30,578
+例如你可以把整数嵌入 Q(i)：整数当然可以放入 Q(i) 中，即虚部为零的数，对吧？
+So for example, you could put the integers: the integers could certainly be put inside of Q(i), just as elements where the imaginary part is zero, right?
+
+194
+00:46:30,578 --> 00:46:39,288
+但这会分解为有理数域 Q 在 Q(i) 中的包含，以及整数环到自身商域 Q 的映射。
+But that would factor through the inclusion of the rationals Q into Q(i), and the map from the integers to its own quotient field Q.
+
+195
+00:46:39,288 --> 00:46:51,384
+所以它是在某种意义上能容纳 R 的最小的域。（学生：那这个同态也必然是单射吗？）教授：是的，它也是单射：域同态总是单射。
+So it's sort of the smallest field that you can put R into. (Student: That homomorphism would also be injective?) Professor: Yes, that would also be injective: a homomorphism of fields is always injective.
+
+196
+00:46:51,384 --> 00:47:07,200
+我刚才应该讲清楚：域同态永远是单射，因为记住同态有一个核；核是一个理想，而一个域仅有的理想就是域本身与零理想 (0)。
+I should have said that a homomorphism of fields is always injective, because remember that a homomorphism has a kernel; a kernel is an ideal, and the only ideals of a field are the field itself and (0).
+
+197
+00:47:07,200 --> 00:47:14,701
+核不能是全域，因为同态必须把 1 映为 1；所以核必须是 (0)。
+It can't be the field, because the homomorphism has to take 1 to 1; therefore the kernel has to be (0).
+
+198
+00:47:14,701 --> 00:47:32,617
+既然核是理想，而仅有的理想只有 (0) 和 (1)，域同态就必然是单射！所以它总是单射地分解经过商域。这是关于商域是什么的绝妙刻画。
+Since the kernel is an ideal and the only ideals are (0) and (1), homomorphisms of fields are always injective! So it always factors injectively through the quotient field. So this is a nice characterization of what the quotient field is.
+
+199
+00:47:32,617 --> 00:47:36,167
+但之后你依然必须证明这样一个域的存在性，所以必须经历分式构造过程。
+But then you still have to prove that such a field exists, so you have to go through the fraction construction.
+
+200
+00:47:36,167 --> 00:47:42,880
+而一旦你完成了构造，我就能证明任何到域的同态都分解经过商域。
+But once you've gone through it, I'll show you that any homomorphism to a field factors through the quotient field.
+
+201
+00:47:42,880 --> 00:48:08,489
+我们把原同态记为 h；我必须告诉你所构造的诱导同态是什么：设这个我们要构造的映射为 h^*。那么 h^* 的定义为：我必须说明 h^* 作用在分式等价类 a/b 上是什么，对吧？
+Let's call this homomorphism h; and I have to tell you what this induced homomorphism is: let's call this map h^*, the map that I have to construct. So the definition of h^*: well, I have to tell you what h^* is on an equivalence class of fractions a/b, right?
+
+202
+00:48:08,489 --> 00:48:21,199
+我知道 h(a) 是什么，也知道h(b) 是什么；那么为什么不直接定义为 h(a) · h(b)^{-1} 呢？
+I know what h(a) is, I know what h(b) is; so why don't I just define this as h(a) * h(b)^{-1}?
+
+203
+00:48:21,199 --> 00:48:37,185
+因为我在域中，所以只要 b ≠ 0，h(b) 就必定可逆：因为 b ≠ 0，h(b) 也绝不等于0，因为 h 是单同态！
+Because I'm in a field, so whatever h(b) is, it's invertible if b != 0: since b != 0, h(b) is also not equal to 0, because h is an injective homomorphism!
+
+204
+00:48:37,185 --> 00:48:42,719
+所以它可以求逆，h(b)^{-1} 在 K 中存在。
+So it can be inverted, so h(b)^{-1} exists in K.
+
+205
+00:48:42,719 --> 00:48:58,320
+因此如果我们在这里定义一个新同态h^*，你就会发现原映射分解经过它；这在某种意义上表明商域是包含整环的最小的域。
+So if we define a new homomorphism h^*, you find that the original map factors through it; and in some sense that shows that the quotient field is the smallest field that can contain a domain.
+
+206
+00:48:58,320 --> 00:49:14,591
+在环论的许多推导中它是一个极其有用的工具：在研究整环时，将它们视作置于一个域内会让你踏实得多；在整环内部也许没有逆元，但你可以进入这个更大的对象并在其中找到逆元。
+And it's a very, very useful object in a lot of manipulations of ring theory: using domains, you feel much more comfortable to think of them as sitting inside of a field; you may not have the inverse inside the domain, but you can go to this larger object where you can find the inverse.
+
+207
+00:49:14,591 --> 00:49:24,640
+好的，证明这个三角形……这被称为“交换图”（commutative diagram），即说明该同态是这两个映射的复合——
+Okay, the proof of the fact that this makes that little... this is what's called a commutative diagram; that means that this homomorphism is the composition of these two maps—
+
+208
+00:49:24,640 --> 00:49:34,000
+证明其可交换非常简单，阿廷的教材（Artin）里有给出。所以我让大家课后读完第 10.6 节的这一部分，今天提早一点下课。
+the proof that it commutes is easy, and that's given in Artin. So I'll let you guys finish reading that part of Section 10.6, and let you out a little early today.
+
+209
+00:49:34,000 --> 00:49:45,160
+祝大家假期愉快！等假期归来，我们将迎来两周精彩的数论内容，我们将看到环论的所有这些方法如何大放异彩。
+Have a wonderful vacation! When we come back, we're going to have two wonderful weeks of number theory, where we're going to see where all these techniques of rings really get us somewhere.
+
+210
+00:49:46,240 --> 00:49:49,440
+好，下课。
+Okay.

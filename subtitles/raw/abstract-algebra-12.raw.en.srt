@@ -1,0 +1,3532 @@
+1
+00:00:11,680 --> 00:00:17,280
+all right so just an announcement before
+
+2
+00:00:13,690 --> 00:00:24,850
+we get started there's no class Monday
+
+3
+00:00:17,280 --> 00:00:26,619
+so let me put that up again the next
+
+4
+00:00:24,850 --> 00:00:27,910
+class is on Wednesday but we won't have
+
+5
+00:00:26,619 --> 00:00:30,340
+a lecture because we're going to have
+
+6
+00:00:27,910 --> 00:00:31,990
+our first hour exam on Wednesday in
+
+7
+00:00:30,340 --> 00:00:33,730
+class it will cover all the material on
+
+8
+00:00:31,990 --> 00:00:35,830
+groups and what we've done on vector
+
+9
+00:00:33,730 --> 00:00:37,390
+spaces the homework through Wednesday
+
+10
+00:00:35,830 --> 00:00:39,520
+are these problems from section four
+
+11
+00:00:37,390 --> 00:00:41,710
+point three and four point four and if
+
+12
+00:00:39,520 --> 00:00:44,079
+you wait until a little later today
+
+13
+00:00:41,710 --> 00:00:47,290
+Peter and I are going to post a practice
+
+14
+00:00:44,079 --> 00:00:48,910
+exam on the website in the same place as
+
+15
+00:00:47,290 --> 00:00:50,710
+the homework due Wednesday it'll be
+
+16
+00:00:48,910 --> 00:00:52,540
+clearly delineated what's homework and
+
+17
+00:00:50,710 --> 00:00:54,550
+what's a practice exam you don't have to
+
+18
+00:00:52,540 --> 00:00:56,230
+hand in the practice exam it's just for
+
+19
+00:00:54,550 --> 00:00:58,780
+your own benefit if we're really
+
+20
+00:00:56,230 --> 00:01:01,780
+ambitious on Monday we might even post
+
+21
+00:00:58,780 --> 00:01:03,460
+solutions to the practice exam so you
+
+22
+00:01:01,780 --> 00:01:06,280
+see whether you did it well and on
+
+23
+00:01:03,460 --> 00:01:06,850
+Tuesday there are two review sessions is
+
+24
+00:01:06,280 --> 00:01:08,740
+that right
+
+25
+00:01:06,850 --> 00:01:10,960
+so Liz you're having your regular
+
+26
+00:01:08,740 --> 00:01:14,740
+section on Tuesday and Peter is having a
+
+27
+00:01:10,960 --> 00:01:16,900
+section Tuesday night at Mather office
+
+28
+00:01:14,740 --> 00:01:18,520
+hours but in any case if people have
+
+29
+00:01:16,900 --> 00:01:20,560
+questions at the last minute about the
+
+30
+00:01:18,520 --> 00:01:23,380
+exam those would be two good places to
+
+31
+00:01:20,560 --> 00:01:25,690
+check up good all right now the last
+
+32
+00:01:23,380 --> 00:01:27,820
+time we were talking about choosing good
+
+33
+00:01:25,690 --> 00:01:29,650
+basis for a given linear operator so we
+
+34
+00:01:27,820 --> 00:01:38,560
+start off with a linear operator from B
+
+35
+00:01:29,650 --> 00:01:49,030
+to B and can we find a good basis
+
+36
+00:01:38,560 --> 00:01:55,990
+so that the matrix of T of T is in
+
+37
+00:01:49,030 --> 00:01:57,550
+simple form so let's think about that a
+
+38
+00:01:55,990 --> 00:02:00,190
+little bit first of all you have a
+
+39
+00:01:57,550 --> 00:02:01,810
+notion when you have a linear operator
+
+40
+00:02:00,190 --> 00:02:11,650
+on a vector space you have a notion of
+
+41
+00:02:01,810 --> 00:02:13,930
+an invariant subspace if you have an
+
+42
+00:02:11,650 --> 00:02:17,320
+invariant subspace is a subspace of V
+
+43
+00:02:13,930 --> 00:02:23,260
+which is preserved under t such that T
+
+44
+00:02:17,320 --> 00:02:25,780
+of W is contained in W so if you apply
+
+45
+00:02:23,260 --> 00:02:28,350
+to eat any vector in W you stay in W
+
+46
+00:02:25,780 --> 00:02:31,080
+that's what it means invariant under T
+
+47
+00:02:28,350 --> 00:02:33,640
+now if you have an invariant subspace
+
+48
+00:02:31,080 --> 00:02:36,760
+already you get some and you choose your
+
+49
+00:02:33,640 --> 00:02:38,860
+basis so that you start off with basis
+
+50
+00:02:36,760 --> 00:02:41,470
+elements of W and then you complete them
+
+51
+00:02:38,860 --> 00:02:44,920
+two basis elements of V then the matrix
+
+52
+00:02:41,470 --> 00:02:47,130
+of T has a special form namely if you
+
+53
+00:02:44,920 --> 00:02:50,680
+start off with your basis vectors in W
+
+54
+00:02:47,130 --> 00:02:52,750
+so the first four basis vectors in W the
+
+55
+00:02:50,680 --> 00:02:54,850
+coordinates when you transform them
+
+56
+00:02:52,750 --> 00:02:56,200
+under T lie in W so only involve the
+
+57
+00:02:54,850 --> 00:02:58,799
+first four terms so you get a little
+
+58
+00:02:56,200 --> 00:03:02,980
+square matrix here
+
+59
+00:02:58,799 --> 00:03:04,750
+well that that matrix a maybe and then
+
+60
+00:03:02,980 --> 00:03:07,299
+down here you get all zeros
+
+61
+00:03:04,750 --> 00:03:09,040
+because that when you apply it to a
+
+62
+00:03:07,299 --> 00:03:11,200
+vector in W it doesn't involve any of
+
+63
+00:03:09,040 --> 00:03:12,970
+the basis vectors that are beyond W and
+
+64
+00:03:11,200 --> 00:03:14,380
+then when you apply that to the other
+
+65
+00:03:12,970 --> 00:03:16,090
+basis vectors you don't know anything
+
+66
+00:03:14,380 --> 00:03:18,700
+about it at all so you might get a B
+
+67
+00:03:16,090 --> 00:03:20,380
+here and a D here but you get a lot of
+
+68
+00:03:18,700 --> 00:03:22,450
+zeroes in the matrix if you have an
+
+69
+00:03:20,380 --> 00:03:25,030
+invariant subspace and you choose your
+
+70
+00:03:22,450 --> 00:03:33,640
+basis so the first basis vectors are in
+
+71
+00:03:25,030 --> 00:03:36,100
+W in W now even better than an invariant
+
+72
+00:03:33,640 --> 00:03:41,730
+subspace is an invariant subspace with
+
+73
+00:03:36,100 --> 00:03:47,330
+an invariant compliment it have an
+
+74
+00:03:41,730 --> 00:03:51,420
+invariant compliment
+
+75
+00:03:47,330 --> 00:03:55,980
+w prime which means another subspace of
+
+76
+00:03:51,420 --> 00:03:58,379
+V such that any vector in V is uniquely
+
+77
+00:03:55,980 --> 00:04:00,390
+of the form of vector in W plus a vector
+
+78
+00:03:58,379 --> 00:04:03,989
+in W Prime and we write that V is the
+
+79
+00:04:00,390 --> 00:04:08,640
+direct sum of W plus W prime so you get
+
+80
+00:04:03,989 --> 00:04:11,489
+two subspaces and any vector is uniquely
+
+81
+00:04:08,640 --> 00:04:21,750
+of the form of vector in W plus a vector
+
+82
+00:04:11,489 --> 00:04:23,970
+in W prime so and P of W prime is
+
+83
+00:04:21,750 --> 00:04:26,880
+contained in W prime namely it's another
+
+84
+00:04:23,970 --> 00:04:30,270
+invariant subspace then the matrix looks
+
+85
+00:04:26,880 --> 00:04:33,300
+even simpler than the matrix a of the
+
+86
+00:04:30,270 --> 00:04:36,419
+transformation if we choose a basis of W
+
+87
+00:04:33,300 --> 00:04:40,710
+and adjoin it to a basis of W prime to
+
+88
+00:04:36,419 --> 00:04:44,490
+get a full basis of V then our matrix a
+
+89
+00:04:40,710 --> 00:04:48,419
+looks like this a square matrix on W a
+
+90
+00:04:44,490 --> 00:04:51,539
+square matrix on W Prime and zeros
+
+91
+00:04:48,419 --> 00:04:53,880
+elsewhere namely the matrix starts to
+
+92
+00:04:51,539 --> 00:04:58,080
+look more and more a diagonal sum of
+
+93
+00:04:53,880 --> 00:05:01,470
+matrices so this is on W and this on W
+
+94
+00:04:58,080 --> 00:05:03,240
+prime but that's with respect to a basis
+
+95
+00:05:01,470 --> 00:05:05,910
+that's intelligently chosen namely the
+
+96
+00:05:03,240 --> 00:05:10,710
+union of a basis of W and a basis of W
+
+97
+00:05:05,910 --> 00:05:16,889
+Prime now in extreme case of this is if
+
+98
+00:05:10,710 --> 00:05:21,060
+we had W 1 dimensional is one
+
+99
+00:05:16,889 --> 00:05:24,240
+dimensional so it spanned so it consists
+
+100
+00:05:21,060 --> 00:05:34,860
+of all multiples of some fixed vector W
+
+101
+00:05:24,240 --> 00:05:37,289
+and is invariant then key of W has to be
+
+102
+00:05:34,860 --> 00:05:39,740
+a constant times W because that's the
+
+103
+00:05:37,289 --> 00:05:43,080
+only other thing in this subspace
+
+104
+00:05:39,740 --> 00:05:52,410
+correct so then we say W is an eigen
+
+105
+00:05:43,080 --> 00:05:55,560
+vector and C is an eigen value comes
+
+106
+00:05:52,410 --> 00:05:56,909
+from the German eigen same sometimes in
+
+107
+00:05:55,560 --> 00:05:58,930
+English people have tried to introduce
+
+108
+00:05:56,909 --> 00:06:01,630
+the terminology a proper vector
+
+109
+00:05:58,930 --> 00:06:07,570
+our values never caught on I mean it
+
+110
+00:06:01,630 --> 00:06:09,039
+just comes from the German yeah V it
+
+111
+00:06:07,570 --> 00:06:11,050
+means that it consists it's a
+
+112
+00:06:09,039 --> 00:06:13,180
+one-dimensional vector space with bases
+
+113
+00:06:11,050 --> 00:06:15,669
+little W namely it consists of all
+
+114
+00:06:13,180 --> 00:06:17,770
+things of the form C W with C in the
+
+115
+00:06:15,669 --> 00:06:18,940
+field that's what a one-dimensional
+
+116
+00:06:17,770 --> 00:06:20,889
+vector space looks like you have one
+
+117
+00:06:18,940 --> 00:06:24,550
+vector in it you have all multiples of
+
+118
+00:06:20,889 --> 00:06:27,340
+it right so if that one dimensional
+
+119
+00:06:24,550 --> 00:06:29,320
+subspace is invariant then what it means
+
+120
+00:06:27,340 --> 00:06:31,419
+is that when you apply T to W you must
+
+121
+00:06:29,320 --> 00:06:33,070
+get another element to the space C W and
+
+122
+00:06:31,419 --> 00:06:34,660
+that's called an eigen vector and C is
+
+123
+00:06:33,070 --> 00:06:36,580
+an eigen value but you might not have
+
+124
+00:06:34,660 --> 00:06:37,870
+any one dimensional spaces in varying it
+
+125
+00:06:36,580 --> 00:06:41,229
+might have two dimensional spaces
+
+126
+00:06:37,870 --> 00:06:53,710
+invariant if you can find if there is a
+
+127
+00:06:41,229 --> 00:06:59,650
+a basis V 1 VN of V consisting of
+
+128
+00:06:53,710 --> 00:07:04,440
+eigenvectors that's the best possible
+
+129
+00:06:59,650 --> 00:07:08,740
+situation with eigen values P of VI
+
+130
+00:07:04,440 --> 00:07:12,220
+equals civi different eigen values then
+
+131
+00:07:08,740 --> 00:07:17,680
+the matrix of T is a diagonal matrix C 1
+
+132
+00:07:12,220 --> 00:07:19,680
+C 2 C n 0 0 that's a real extreme case
+
+133
+00:07:17,680 --> 00:07:22,300
+of this where you break up into blocks
+
+134
+00:07:19,680 --> 00:07:24,460
+because you have invariant subspaces and
+
+135
+00:07:22,300 --> 00:07:26,590
+the blocks are each 1 by 1 matrices
+
+136
+00:07:24,460 --> 00:07:29,310
+because the invariant subspaces have
+
+137
+00:07:26,590 --> 00:07:29,310
+dimension 1
+
+138
+00:07:33,909 --> 00:07:41,289
+entire space yeah it gives a
+
+139
+00:07:38,810 --> 00:07:44,150
+decomposition of the space into lines
+
+140
+00:07:41,289 --> 00:07:47,719
+one dimensional vector spaces each
+
+141
+00:07:44,150 --> 00:07:49,759
+stable under t and such that the vector
+
+142
+00:07:47,719 --> 00:07:52,189
+space is the direct sum of those lines
+
+143
+00:07:49,759 --> 00:07:55,939
+and T is just rendered very simply in
+
+144
+00:07:52,189 --> 00:07:58,189
+this picture okay if there is such a
+
+145
+00:07:55,939 --> 00:08:00,229
+basis so we might want to know when is
+
+146
+00:07:58,189 --> 00:08:02,150
+there such a basis how do we find what
+
+147
+00:08:00,229 --> 00:08:05,449
+the eigenvalues are questions of that
+
+148
+00:08:02,150 --> 00:08:07,849
+nature just given the operator T now the
+
+149
+00:08:05,449 --> 00:08:09,529
+first thing to know is there so can I
+
+150
+00:08:07,849 --> 00:08:13,219
+erase this information as everyone got
+
+151
+00:08:09,529 --> 00:08:15,949
+the no class Monday homework Wednesday
+
+152
+00:08:13,219 --> 00:08:18,800
+our exam practice exam will be posted
+
+153
+00:08:15,949 --> 00:08:20,180
+now you shouldn't always think there's
+
+154
+00:08:18,800 --> 00:08:23,960
+going to be a basis of eigenvectors
+
+155
+00:08:20,180 --> 00:08:27,560
+that's too simple that's too simple for
+
+156
+00:08:23,960 --> 00:08:30,830
+example a very simple simple
+
+157
+00:08:27,560 --> 00:08:34,550
+transformation of our to which we're
+
+158
+00:08:30,830 --> 00:08:37,969
+going to study is the transformation
+
+159
+00:08:34,550 --> 00:08:42,829
+that takes a vector V and it rotates it
+
+160
+00:08:37,969 --> 00:08:44,570
+through an angle theta so it has the
+
+161
+00:08:42,829 --> 00:08:47,180
+property of just rotating the plane
+
+162
+00:08:44,570 --> 00:08:49,519
+through an angle of theta that turns out
+
+163
+00:08:47,180 --> 00:08:51,440
+to be a linear transformation and if you
+
+164
+00:08:49,519 --> 00:08:55,130
+if you take its basis with respect to
+
+165
+00:08:51,440 --> 00:08:57,589
+the standard basis of r2 and you take
+
+166
+00:08:55,130 --> 00:09:00,430
+the matrix of T it's this matrix that
+
+167
+00:08:57,589 --> 00:09:05,600
+looks like cosine theta sine theta
+
+168
+00:09:00,430 --> 00:09:09,440
+whatever it is minus sine theta cosine
+
+169
+00:09:05,600 --> 00:09:12,699
+theta that's the matrix of this rotation
+
+170
+00:09:09,440 --> 00:09:12,699
+through an angle of theta
+
+171
+00:09:17,680 --> 00:09:22,730
+see it takes the this e1 is the vector 1
+
+172
+00:09:20,810 --> 00:09:24,380
+0 and that's taken to the vector whose
+
+173
+00:09:22,730 --> 00:09:29,029
+coordinates R cosine theta and sine
+
+174
+00:09:24,380 --> 00:09:36,170
+theta right now this clearly has no
+
+175
+00:09:29,029 --> 00:09:39,829
+eigenvectors as no eigenvectors be not
+
+176
+00:09:36,170 --> 00:09:41,899
+equal to 0 in r2 because any eigenvector
+
+177
+00:09:39,829 --> 00:09:43,970
+would be a line taken into itself and no
+
+178
+00:09:41,899 --> 00:09:46,880
+line is taken into itself it's rotated
+
+179
+00:09:43,970 --> 00:09:48,800
+to another line theta distance away so
+
+180
+00:09:46,880 --> 00:09:50,649
+that's hopeless so we're not going to
+
+181
+00:09:48,800 --> 00:09:54,200
+find the basis of eigenvectors there
+
+182
+00:09:50,649 --> 00:09:56,269
+another example you can have one
+
+183
+00:09:54,200 --> 00:09:58,040
+eigenvector so you have an invariant
+
+184
+00:09:56,269 --> 00:09:59,930
+subspace like this but you may not be
+
+185
+00:09:58,040 --> 00:10:02,899
+able to get rid of the B you may never
+
+186
+00:09:59,930 --> 00:10:04,490
+be able to get to a matrix like this so
+
+187
+00:10:02,899 --> 00:10:07,820
+you can have an invariant subspace
+
+188
+00:10:04,490 --> 00:10:15,079
+without an invariant complement so
+
+189
+00:10:07,820 --> 00:10:19,690
+another example another problem consider
+
+190
+00:10:15,079 --> 00:10:23,810
+the linear operator from r2 to r2
+
+191
+00:10:19,690 --> 00:10:30,260
+in fact from why do are this works over
+
+192
+00:10:23,810 --> 00:10:32,660
+any field f f2 to f2 that takes T of e 1
+
+193
+00:10:30,260 --> 00:10:35,630
+to e one that's a perfectly nice
+
+194
+00:10:32,660 --> 00:10:39,589
+eigenvector with eigenvalue 1 and takes
+
+195
+00:10:35,630 --> 00:10:46,519
+T of e 2 the second basis vector to the
+
+196
+00:10:39,589 --> 00:10:49,329
+best to e1 plus e2 ok now if you take
+
+197
+00:10:46,519 --> 00:10:53,899
+the matrix of that T it looks like this
+
+198
+00:10:49,329 --> 00:10:55,820
+1 0 1 1 that's a matrix of this form
+
+199
+00:10:53,899 --> 00:10:58,550
+where the blocks each are one by one
+
+200
+00:10:55,820 --> 00:11:01,430
+matrices here's the T of e 1 is e 1 plus
+
+201
+00:10:58,550 --> 00:11:05,120
+0 e 2 here's the T of e 2 is e1 plus e2
+
+202
+00:11:01,430 --> 00:11:07,269
+I claim there is no basis of
+
+203
+00:11:05,120 --> 00:11:07,269
+eigenvectors
+
+204
+00:11:13,350 --> 00:11:17,410
+even though there's one of them here
+
+205
+00:11:15,399 --> 00:11:19,480
+there were no eigenvectors here there's
+
+206
+00:11:17,410 --> 00:11:22,360
+an eigenvector here where C is equal to
+
+207
+00:11:19,480 --> 00:11:24,190
+one but there's no basis of eigenvectors
+
+208
+00:11:22,360 --> 00:11:26,889
+you can't find another one you can't
+
+209
+00:11:24,190 --> 00:11:29,440
+find here we have an invariant subspace
+
+210
+00:11:26,889 --> 00:11:35,920
+without an invariant complement or in
+
+211
+00:11:29,440 --> 00:11:42,490
+other words there is no complement W
+
+212
+00:11:35,920 --> 00:11:51,970
+prime which is T invariant where W is
+
+213
+00:11:42,490 --> 00:11:53,380
+the subspace fe1 okay let's convince
+
+214
+00:11:51,970 --> 00:11:55,089
+ourselves so that well let's see what it
+
+215
+00:11:53,380 --> 00:12:01,959
+would mean to be an eigenvector suppose
+
+216
+00:11:55,089 --> 00:12:06,130
+V which was a II 1 plus B II 2 and we
+
+217
+00:12:01,959 --> 00:12:10,769
+apply T to it well P of e 1 is e 1 so we
+
+218
+00:12:06,130 --> 00:12:15,819
+get a e 1 here plus B times e1 plus e2
+
+219
+00:12:10,769 --> 00:12:20,290
+so it's equal to a plus B times e 1 plus
+
+220
+00:12:15,819 --> 00:12:21,790
+B times e 2 we can work out what T does
+
+221
+00:12:20,290 --> 00:12:25,389
+to anything once we know what it does to
+
+222
+00:12:21,790 --> 00:12:29,050
+a now suppose that we're equal to could
+
+223
+00:12:25,389 --> 00:12:38,439
+that be equal to C times B well C times
+
+224
+00:12:29,050 --> 00:12:43,750
+V is C a II 1 plus C B e 2 right because
+
+225
+00:12:38,439 --> 00:12:48,930
+here's B ok so if that's equal then I
+
+226
+00:12:43,750 --> 00:12:48,930
+have to have so that implies let's see
+
+227
+00:12:49,949 --> 00:12:56,709
+see a is equal to a the coefficient of e
+
+228
+00:12:53,410 --> 00:13:01,509
+ones have to be the same and CB is equal
+
+229
+00:12:56,709 --> 00:13:07,540
+to sorry C a is a plus B sorry
+
+230
+00:13:01,509 --> 00:13:13,360
+and C B is equal to B ok now if B is not
+
+231
+00:13:07,540 --> 00:13:18,250
+equal to 0 you can multiply this by B
+
+232
+00:13:13,360 --> 00:13:21,910
+inverse and get C has to be equal to 1
+
+233
+00:13:18,250 --> 00:13:23,430
+that's true in any field if C is equal
+
+234
+00:13:21,910 --> 00:13:26,040
+to 1
+
+235
+00:13:23,430 --> 00:13:31,920
+reading this we get that a is equal to a
+
+236
+00:13:26,040 --> 00:13:37,290
+plus B so subtracting a from both sides
+
+237
+00:13:31,920 --> 00:13:40,260
+B is equal to zero contradiction so the
+
+238
+00:13:37,290 --> 00:13:47,820
+only way that this can be an eigenvector
+
+239
+00:13:40,260 --> 00:13:51,810
+is if B is equal to 0 in which case C is
+
+240
+00:13:47,820 --> 00:13:55,350
+equal to 1 well but that says that the
+
+241
+00:13:51,810 --> 00:14:00,330
+only eigen vectors lie on the line so if
+
+242
+00:13:55,350 --> 00:14:03,779
+B is equal to 0 our eigen vector V is a
+
+243
+00:14:00,330 --> 00:14:06,180
+multiple of e1 so it lies in the
+
+244
+00:14:03,779 --> 00:14:07,709
+subspace W already that we knew was
+
+245
+00:14:06,180 --> 00:14:09,839
+invariant we already knew that any
+
+246
+00:14:07,709 --> 00:14:12,149
+multiple of e 1 is an eigen vector and
+
+247
+00:14:09,839 --> 00:14:14,640
+this argument here the simple argument
+
+248
+00:14:12,149 --> 00:14:16,589
+shows there no more so there's
+
+249
+00:14:14,640 --> 00:14:19,290
+impossible to find a space that isn't
+
+250
+00:14:16,589 --> 00:14:21,149
+this subspace which is complementary to
+
+251
+00:14:19,290 --> 00:14:28,110
+it so you'll never diagonalize this
+
+252
+00:14:21,149 --> 00:14:29,810
+operator with eigenvectors ok now before
+
+253
+00:14:28,110 --> 00:14:32,820
+we get into the answer of when and I
+
+254
+00:14:29,810 --> 00:14:35,520
+when we have a base of eigen vectors we
+
+255
+00:14:32,820 --> 00:14:37,500
+might ask ourselves offer you are given
+
+256
+00:14:35,520 --> 00:14:39,750
+the the transformation T before we go
+
+257
+00:14:37,500 --> 00:14:43,160
+find any eigen vectors can we limit what
+
+258
+00:14:39,750 --> 00:14:43,160
+are the possible eigen values
+
+259
+00:14:56,560 --> 00:15:01,070
+because that might help us you see in
+
+260
+00:14:58,940 --> 00:15:02,570
+this case we're going to be able to see
+
+261
+00:15:01,070 --> 00:15:03,800
+that there are no possible eigenvalues
+
+262
+00:15:02,570 --> 00:15:06,910
+here we're going to see there's a
+
+263
+00:15:03,800 --> 00:15:10,790
+possible eigen value of one that's it
+
+264
+00:15:06,910 --> 00:15:16,070
+okay so the way you think of this is if
+
+265
+00:15:10,790 --> 00:15:20,480
+I hate this kind of chart sorry if T of
+
+266
+00:15:16,070 --> 00:15:22,880
+W is equal to C times W and you consider
+
+267
+00:15:20,480 --> 00:15:25,580
+the new operator t minus the identity
+
+268
+00:15:22,880 --> 00:15:28,280
+operator the identity operator takes
+
+269
+00:15:25,580 --> 00:15:30,830
+every vector to itself and you multiply
+
+270
+00:15:28,280 --> 00:15:32,750
+the identity by the constant C so that
+
+271
+00:15:30,830 --> 00:15:37,540
+takes any vector to C times itself and
+
+272
+00:15:32,750 --> 00:15:37,540
+you apply that to the vector W you get 0
+
+273
+00:15:38,620 --> 00:15:53,840
+in other words W is in the kernel of the
+
+274
+00:15:46,510 --> 00:15:56,120
+operator the linear operator t minus the
+
+275
+00:15:53,840 --> 00:15:59,990
+eigenvalue times the identity operator
+
+276
+00:15:56,120 --> 00:16:09,760
+and in particular this operator is not
+
+277
+00:15:59,990 --> 00:16:14,810
+invertible so P minus CI is not
+
+278
+00:16:09,760 --> 00:16:16,940
+invertible because it has a kernel and
+
+279
+00:16:14,810 --> 00:16:18,650
+it's a map from a space to itself so
+
+280
+00:16:16,940 --> 00:16:20,600
+it's invertible if and only if its
+
+281
+00:16:18,650 --> 00:16:23,720
+kernel is 0 or its image is everything
+
+282
+00:16:20,600 --> 00:16:27,080
+but here we'd have a kernel conversely
+
+283
+00:16:23,720 --> 00:16:28,580
+if this operator had a kernel I better
+
+284
+00:16:27,080 --> 00:16:31,180
+keep some of this up because I want to
+
+285
+00:16:28,580 --> 00:16:31,180
+go back to this
+
+286
+00:16:38,310 --> 00:16:58,570
+conversely if t minus CI has a kernel or
+
+287
+00:16:49,690 --> 00:17:07,180
+just is not invertible then t then c is
+
+288
+00:16:58,570 --> 00:17:08,709
+an eigenvalue for key because to say
+
+289
+00:17:07,180 --> 00:17:10,810
+this operate as a kernel means there's
+
+290
+00:17:08,709 --> 00:17:12,760
+some vector W that it takes to zero
+
+291
+00:17:10,810 --> 00:17:15,430
+which means that there's some vector W
+
+292
+00:17:12,760 --> 00:17:18,880
+such the T of W is the constant times W
+
+293
+00:17:15,430 --> 00:17:21,070
+which means it's an eigen vector so we
+
+294
+00:17:18,880 --> 00:17:25,870
+just have to determine for which value C
+
+295
+00:17:21,070 --> 00:17:37,090
+does this operator have a kernel so the
+
+296
+00:17:25,870 --> 00:17:43,840
+set of eigen values is contained in the
+
+297
+00:17:37,090 --> 00:17:45,070
+set of constants C and F such that P
+
+298
+00:17:43,840 --> 00:17:54,730
+minus CI
+
+299
+00:17:45,070 --> 00:17:56,800
+is not invertible we go and see if we
+
+300
+00:17:54,730 --> 00:17:57,730
+can find which constants this operator
+
+301
+00:17:56,800 --> 00:17:59,980
+is not invertible
+
+302
+00:17:57,730 --> 00:18:02,590
+that'll in fact it's equal to the set i
+
+303
+00:17:59,980 --> 00:18:12,310
+just i just proved that thank you let's
+
+304
+00:18:02,590 --> 00:18:14,560
+be strong here good now how do I tell if
+
+305
+00:18:12,310 --> 00:18:18,520
+an operator is not invertible well I
+
+306
+00:18:14,560 --> 00:18:20,710
+choose some basis for D and take its
+
+307
+00:18:18,520 --> 00:18:22,690
+matrix and I think the determinant to
+
+308
+00:18:20,710 --> 00:18:25,000
+that matrix with respect to some basis
+
+309
+00:18:22,690 --> 00:18:27,460
+of V and if that determinant is 0 the
+
+310
+00:18:25,000 --> 00:18:34,020
+operator is not invertible so this is
+
+311
+00:18:27,460 --> 00:18:43,120
+equivalent to the determinant of a minus
+
+312
+00:18:34,020 --> 00:18:45,150
+C times I is equal to 0 where a is the
+
+313
+00:18:43,120 --> 00:18:45,150
+matrix
+
+314
+00:18:46,150 --> 00:18:54,440
+of T with respect to some basis the
+
+315
+00:18:52,159 --> 00:18:56,090
+maysa matrix of the identity matrix is
+
+316
+00:18:54,440 --> 00:18:57,260
+the same it's the identity mate and the
+
+317
+00:18:56,090 --> 00:18:58,909
+identity operator always has the
+
+318
+00:18:57,260 --> 00:19:00,529
+identity matrix no matter what basis you
+
+319
+00:18:58,909 --> 00:19:02,779
+choose same thing for a constant times
+
+320
+00:19:00,529 --> 00:19:05,330
+the identity so you choose some basis
+
+321
+00:19:02,779 --> 00:19:06,890
+you take the matrix of your operator and
+
+322
+00:19:05,330 --> 00:19:08,659
+then you calculate the matrix of this
+
+323
+00:19:06,890 --> 00:19:10,400
+operator which is a little different you
+
+324
+00:19:08,659 --> 00:19:12,830
+take its determinate and if its
+
+325
+00:19:10,400 --> 00:19:14,750
+determinant is 0 then this operator is
+
+326
+00:19:12,830 --> 00:19:17,450
+not invertible and consequently C is an
+
+327
+00:19:14,750 --> 00:19:19,549
+eigenvalue now that looks like well what
+
+328
+00:19:17,450 --> 00:19:26,690
+does that help but it helps in the
+
+329
+00:19:19,549 --> 00:19:30,710
+following way we'll come back to this
+
+330
+00:19:26,690 --> 00:19:42,399
+case so that case remember was the
+
+331
+00:19:30,710 --> 00:19:52,070
+matrix 1 0 1 1 has no basis of
+
+332
+00:19:42,399 --> 00:19:57,559
+eigenvectors ok so from this we get the
+
+333
+00:19:52,070 --> 00:20:06,289
+wonderful thing consider the determinant
+
+334
+00:19:57,559 --> 00:20:12,500
+of the matrix t times the identity minus
+
+335
+00:20:06,289 --> 00:20:14,179
+a now the determinant here is 0 it's the
+
+336
+00:20:12,500 --> 00:20:16,809
+same thing as if you took the negative
+
+337
+00:20:14,179 --> 00:20:20,210
+of that matrix the determinant of CI
+
+338
+00:20:16,809 --> 00:20:22,159
+minus a equals 0 because here I've just
+
+339
+00:20:20,210 --> 00:20:24,169
+multiplied the matrix by minus 1 which
+
+340
+00:20:22,159 --> 00:20:26,120
+multiplies its determinant by a power of
+
+341
+00:20:24,169 --> 00:20:28,970
+minus 1 depending on what the N by n
+
+342
+00:20:26,120 --> 00:20:30,860
+matrix is so this determinant vanishes
+
+343
+00:20:28,970 --> 00:20:32,480
+if and only if this one was so consider
+
+344
+00:20:30,860 --> 00:20:35,929
+this determinate now what does that mean
+
+345
+00:20:32,480 --> 00:20:38,600
+that means this would be the determinant
+
+346
+00:20:35,929 --> 00:20:49,490
+of the matrix that look like this t
+
+347
+00:20:38,600 --> 00:20:54,380
+minus a11 a12 a1n a21 sorry with minus
+
+348
+00:20:49,490 --> 00:21:00,800
+signs thank you thank you t minus a
+
+349
+00:20:54,380 --> 00:21:04,190
+to to t minus a and n and this would be
+
+350
+00:21:00,800 --> 00:21:05,660
+minus a + 1 so it would be of entries
+
+351
+00:21:04,190 --> 00:21:07,460
+where the entries were the entries of
+
+352
+00:21:05,660 --> 00:21:09,560
+minus a except along the diagonal you
+
+353
+00:21:07,460 --> 00:21:11,060
+would add to that T times the identity
+
+354
+00:21:09,560 --> 00:21:15,710
+matrix because T times the identity
+
+355
+00:21:11,060 --> 00:21:18,380
+matrix looks like PT T 0 0 and this
+
+356
+00:21:15,710 --> 00:21:20,450
+looks like a so you have an N by n
+
+357
+00:21:18,380 --> 00:21:23,270
+matrix where the entries are not scalars
+
+358
+00:21:20,450 --> 00:21:25,040
+but T you think of as a variable now you
+
+359
+00:21:23,270 --> 00:21:27,260
+can calculate this determinant by the
+
+360
+00:21:25,040 --> 00:21:32,570
+usual determinant formula and it turns
+
+361
+00:21:27,260 --> 00:21:36,100
+out to be a polynomial in T the next
+
+362
+00:21:32,570 --> 00:21:41,690
+term turns out to be a 1 1 plus a 2 2
+
+363
+00:21:36,100 --> 00:21:43,910
+plus plus a n n T to the N minus 1 and
+
+364
+00:21:41,690 --> 00:21:45,440
+then you have terms and then the last
+
+365
+00:21:43,910 --> 00:21:50,900
+term and it turns out to be plus or
+
+366
+00:21:45,440 --> 00:21:59,620
+minus 1 to the N determinant of a is a
+
+367
+00:21:50,900 --> 00:22:11,680
+it's a polynomial in T of degree n with
+
+368
+00:21:59,620 --> 00:22:11,680
+coefficients in the field F okay and
+
+369
+00:22:11,800 --> 00:22:18,200
+that we get by choosing any basis we
+
+370
+00:22:15,050 --> 00:22:20,120
+wish for our vector space calculating
+
+371
+00:22:18,200 --> 00:22:23,120
+the matrix of T with respect to that
+
+372
+00:22:20,120 --> 00:22:24,560
+basis and calculating this polynomial so
+
+373
+00:22:23,120 --> 00:22:28,570
+this polynomial is called the
+
+374
+00:22:24,560 --> 00:22:28,570
+characteristic polynomial of T
+
+375
+00:22:34,320 --> 00:22:40,120
+now you may say to me is the
+
+376
+00:22:38,200 --> 00:22:42,820
+characteristic polynomial well defined
+
+377
+00:22:40,120 --> 00:22:45,700
+because - tell me how to calculate it
+
+378
+00:22:42,820 --> 00:22:47,560
+you chose a basis for V wrote the matrix
+
+379
+00:22:45,700 --> 00:22:50,050
+of T with respect to the basis and took
+
+380
+00:22:47,560 --> 00:22:52,690
+some determinants and I have to check
+
+381
+00:22:50,050 --> 00:22:56,290
+that that's independent of the choice of
+
+382
+00:22:52,690 --> 00:22:58,720
+basis that I choose for T so I'm going
+
+383
+00:22:56,290 --> 00:23:00,880
+to next observe that this depends only
+
+384
+00:22:58,720 --> 00:23:09,640
+on T even though we needed to choose a
+
+385
+00:23:00,880 --> 00:23:12,370
+matrix to the calculator the
+
+386
+00:23:09,640 --> 00:23:17,680
+characteristic polynomial which we'll
+
+387
+00:23:12,370 --> 00:23:21,270
+call f of T here it is I've just going
+
+388
+00:23:17,680 --> 00:23:24,400
+beyond the quadrant I feel like you know
+
+389
+00:23:21,270 --> 00:23:26,200
+sits I'm back in Mutant Ninja Turtles or
+
+390
+00:23:24,400 --> 00:23:28,210
+something I've gone beyond the coq I've
+
+391
+00:23:26,200 --> 00:23:30,340
+gone beyond the quadrant I'm now being
+
+392
+00:23:28,210 --> 00:23:31,660
+sent into Dimension X how many of you
+
+393
+00:23:30,340 --> 00:23:33,340
+watch Mutant Ninja Turtles when you were
+
+394
+00:23:31,660 --> 00:23:35,440
+young how many of you bought all mutant
+
+395
+00:23:33,340 --> 00:23:37,870
+India turtle action figures yes so did
+
+396
+00:23:35,440 --> 00:23:39,550
+my son rather I have to go get them I
+
+397
+00:23:37,870 --> 00:23:41,020
+thought there was one good thing about
+
+398
+00:23:39,550 --> 00:23:42,790
+mutant ninja turtle actually there were
+
+399
+00:23:41,020 --> 00:23:44,200
+two good things first of all it taught
+
+400
+00:23:42,790 --> 00:23:47,130
+him the names of four important
+
+401
+00:23:44,200 --> 00:23:47,130
+Renaissance artists
+
+402
+00:23:47,630 --> 00:23:53,340
+secondly I like the song very much but
+
+403
+00:23:51,930 --> 00:23:57,090
+we could never feed her out in the song
+
+404
+00:23:53,340 --> 00:23:59,580
+I think one of the guys was supposed to
+
+405
+00:23:57,090 --> 00:24:01,350
+be a piece of bad news he's a piece of
+
+406
+00:23:59,580 --> 00:24:03,750
+bad news I forget whether was
+
+407
+00:24:01,350 --> 00:24:07,200
+Michelangelo or whatever and my son used
+
+408
+00:24:03,750 --> 00:24:12,290
+to call him a pizza bad dude so that was
+
+409
+00:24:07,200 --> 00:24:12,290
+slight transcription of the song oh no I
+
+410
+00:24:12,560 --> 00:24:18,870
+mean it I mean you have to admit that it
+
+411
+00:24:15,990 --> 00:24:20,550
+was a brilliant idea that someone could
+
+412
+00:24:18,870 --> 00:24:23,250
+make a billion dollars out of something
+
+413
+00:24:20,550 --> 00:24:24,510
+this stupid and and you guys don't
+
+414
+00:24:23,250 --> 00:24:26,070
+appreciate it but you know your parents
+
+415
+00:24:24,510 --> 00:24:30,150
+were all in the stores with me buying
+
+416
+00:24:26,070 --> 00:24:31,740
+this crap alright so I'm going beyond
+
+417
+00:24:30,150 --> 00:24:33,330
+the quadrant here I'm supposed to stay
+
+418
+00:24:31,740 --> 00:24:35,160
+within various quadrants so there's been
+
+419
+00:24:33,330 --> 00:24:36,540
+an extension to Dimension X of that
+
+420
+00:24:35,160 --> 00:24:38,690
+quadrant okay
+
+421
+00:24:36,540 --> 00:24:50,400
+the characteristic polynomial f of T
+
+422
+00:24:38,690 --> 00:24:59,400
+depends only on T not on the basis I'll
+
+423
+00:24:50,400 --> 00:25:04,890
+be used to obtain the matrix a to
+
+424
+00:24:59,400 --> 00:25:09,920
+calculate it and that's encouraging and
+
+425
+00:25:04,890 --> 00:25:13,790
+the reason is this if we used a
+
+426
+00:25:09,920 --> 00:25:13,790
+different basis
+
+427
+00:25:15,440 --> 00:25:26,269
+then we get the matrix a prime which is
+
+428
+00:25:18,200 --> 00:25:28,009
+a conjugate of a so let's calculate what
+
+429
+00:25:26,269 --> 00:25:31,759
+we get with a prime we get that we have
+
+430
+00:25:28,009 --> 00:25:35,990
+to calculate the determinant of TI minus
+
+431
+00:25:31,759 --> 00:25:38,509
+a prime that would be our new
+
+432
+00:25:35,990 --> 00:25:40,100
+characteristic polynomial f prime of T
+
+433
+00:25:38,509 --> 00:25:42,500
+whoops better not use prime well
+
+434
+00:25:40,100 --> 00:25:47,779
+whatever F star of T let's call this a
+
+435
+00:25:42,500 --> 00:25:50,299
+star new different basis F star of T
+
+436
+00:25:47,779 --> 00:25:51,860
+would be this but on the other hand we
+
+437
+00:25:50,299 --> 00:25:56,649
+use this formula and we see that it's
+
+438
+00:25:51,860 --> 00:26:01,730
+the determinant of TI minus PA p inverse
+
+439
+00:25:56,649 --> 00:26:03,950
+and then we note that if you conjugate
+
+440
+00:26:01,730 --> 00:26:06,620
+the identity matrix or any multiple of
+
+441
+00:26:03,950 --> 00:26:08,659
+it by P you get the identity matrix
+
+442
+00:26:06,620 --> 00:26:10,669
+because the identity matrix commutes
+
+443
+00:26:08,659 --> 00:26:13,909
+with any matrix so this could be written
+
+444
+00:26:10,669 --> 00:26:21,799
+rewritten as the determinant of P times
+
+445
+00:26:13,909 --> 00:26:23,570
+TI minus a P inverse and then we use the
+
+446
+00:26:21,799 --> 00:26:24,830
+faculity permanent of a product of
+
+447
+00:26:23,570 --> 00:26:26,389
+matrices is the product of the
+
+448
+00:26:24,830 --> 00:26:29,179
+determinant so we get the determinant of
+
+449
+00:26:26,389 --> 00:26:31,789
+P times the determinant of this matrix
+
+450
+00:26:29,179 --> 00:26:34,940
+is what we called F of T times the
+
+451
+00:26:31,789 --> 00:26:36,710
+determinant of P inverse but the
+
+452
+00:26:34,940 --> 00:26:39,230
+determinant of P inverse is 2
+
+453
+00:26:36,710 --> 00:26:41,539
+determinant of P inverse in our field
+
+454
+00:26:39,230 --> 00:26:44,269
+and multiplication in our field is
+
+455
+00:26:41,539 --> 00:26:47,929
+communitive so we can cancel this and
+
+456
+00:26:44,269 --> 00:26:49,460
+this and we just get F of T so the
+
+457
+00:26:47,929 --> 00:26:52,490
+miracle of the characteristic polynomial
+
+458
+00:26:49,460 --> 00:26:54,590
+is is that even to cut to calculate it
+
+459
+00:26:52,490 --> 00:26:56,960
+you have to choose a matrix and take its
+
+460
+00:26:54,590 --> 00:26:58,490
+determinant well the end product is
+
+461
+00:26:56,960 --> 00:27:00,710
+independent of the matrix you choose the
+
+462
+00:26:58,490 --> 00:27:04,610
+basis you choose to calculate it and and
+
+463
+00:27:00,710 --> 00:27:05,779
+here's the key thing the eigenvalues are
+
+464
+00:27:04,610 --> 00:27:14,299
+the roots of the characteristic
+
+465
+00:27:05,779 --> 00:27:16,899
+polynomial its roots whoops see are the
+
+466
+00:27:14,299 --> 00:27:16,899
+eigenvalues
+
+467
+00:27:18,610 --> 00:27:23,529
+of T namely if you find a value C such
+
+468
+00:27:22,059 --> 00:27:25,630
+that when you substitute it into this
+
+469
+00:27:23,529 --> 00:27:27,580
+polynomial and you find that F of C is
+
+470
+00:27:25,630 --> 00:27:30,250
+equal to zero that's when a root means
+
+471
+00:27:27,580 --> 00:27:33,399
+of a polynomial then that meant that the
+
+472
+00:27:30,250 --> 00:27:35,320
+determinant of CI minus a was zero which
+
+473
+00:27:33,399 --> 00:27:38,500
+is exactly what we need to get an eigen
+
+474
+00:27:35,320 --> 00:27:44,370
+value so the possible eigen values occur
+
+475
+00:27:38,500 --> 00:27:44,370
+among the roots of T of f of T and
+
+476
+00:27:44,519 --> 00:27:52,139
+here's a key point a polynomial of
+
+477
+00:27:47,890 --> 00:27:55,269
+degree n over a field has at most n
+
+478
+00:27:52,139 --> 00:27:57,490
+distinct roots in the field so there's a
+
+479
+00:27:55,269 --> 00:28:08,820
+finite possibility for the set of eigen
+
+480
+00:27:57,490 --> 00:28:17,740
+values let's put a little lemon up lemma
+
+481
+00:28:08,820 --> 00:28:31,090
+if f of T has degree n over a field F
+
+482
+00:28:17,740 --> 00:28:34,870
+then it has at most n distinct roots C
+
+483
+00:28:31,090 --> 00:28:38,740
+in F roots means points where F of C is
+
+484
+00:28:34,870 --> 00:28:40,899
+equal to 0 so these are you can't have
+
+485
+00:28:38,740 --> 00:28:42,370
+for transformation of a two-dimensional
+
+486
+00:28:40,899 --> 00:28:47,590
+space you could have most two different
+
+487
+00:28:42,370 --> 00:28:50,230
+eigen values main you have none but so
+
+488
+00:28:47,590 --> 00:28:51,909
+the proof of this which is it's
+
+489
+00:28:50,230 --> 00:28:54,700
+fundamental and you've seen it for the
+
+490
+00:28:51,909 --> 00:28:58,149
+reals etc is that there's a Euclidean
+
+491
+00:28:54,700 --> 00:29:01,330
+algorithm in polynomials so you can
+
+492
+00:28:58,149 --> 00:29:05,110
+always write a polynomial f of T as X
+
+493
+00:29:01,330 --> 00:29:09,399
+minus C times another polynomial sorry
+
+494
+00:29:05,110 --> 00:29:11,370
+as as t minus C times G of T plus a
+
+495
+00:29:09,399 --> 00:29:19,140
+constant
+
+496
+00:29:11,370 --> 00:29:24,870
+you can always do a division with
+
+497
+00:29:19,140 --> 00:29:27,270
+degree of G of T equal and minus one so
+
+498
+00:29:24,870 --> 00:29:28,740
+for any C and F you can make a division
+
+499
+00:29:27,270 --> 00:29:31,290
+of the polynomial f of T by the
+
+500
+00:29:28,740 --> 00:29:33,150
+polynomial t minus C the quotient is a
+
+501
+00:29:31,290 --> 00:29:35,450
+polynomial degree n minus one which you
+
+502
+00:29:33,150 --> 00:29:45,530
+work out the remainder is a constant and
+
+503
+00:29:35,450 --> 00:29:48,929
+D in F if F of T if F of C is equal to 0
+
+504
+00:29:45,530 --> 00:29:51,900
+then D is equal to 0 because you just
+
+505
+00:29:48,929 --> 00:29:54,840
+substitute C into this expression F of C
+
+506
+00:29:51,900 --> 00:30:00,900
+is 0 C minus C is certainly 0 so you're
+
+507
+00:29:54,840 --> 00:30:04,410
+left with 0 so f of T is equal to t
+
+508
+00:30:00,900 --> 00:30:06,240
+minus C times G of T and then if you had
+
+509
+00:30:04,410 --> 00:30:16,559
+a different route it's not a root here
+
+510
+00:30:06,240 --> 00:30:20,250
+if C prime is another root with C prime
+
+511
+00:30:16,559 --> 00:30:23,730
+not equal to C then I claim that G of C
+
+512
+00:30:20,250 --> 00:30:25,559
+prime is equal to 0 and the reason is
+
+513
+00:30:23,730 --> 00:30:29,100
+that if you substitute it in here this
+
+514
+00:30:25,559 --> 00:30:30,870
+is 0 but C minus C prime is nonzero so
+
+515
+00:30:29,100 --> 00:30:33,900
+you can multiply by its inverse to see
+
+516
+00:30:30,870 --> 00:30:35,610
+that G of C Prime has to be 0 and then
+
+517
+00:30:33,900 --> 00:30:41,929
+you do the same argument with G then you
+
+518
+00:30:35,610 --> 00:30:46,230
+by induction on D then use induction on
+
+519
+00:30:41,929 --> 00:30:48,960
+the degree of G so polynomial of degree
+
+520
+00:30:46,230 --> 00:30:51,870
+n has at most n distinct roots we found
+
+521
+00:30:48,960 --> 00:30:53,400
+one root C and then we're left with a
+
+522
+00:30:51,870 --> 00:30:55,169
+polynomial of degree n minus 1 that has
+
+523
+00:30:53,400 --> 00:30:58,919
+at most n minus 1 roots so there's at
+
+524
+00:30:55,169 --> 00:31:01,590
+most n roots for F yeah every field
+
+525
+00:30:58,919 --> 00:31:05,940
+there's nothing I've used here that that
+
+526
+00:31:01,590 --> 00:31:09,929
+is not doesn't work for field no that's
+
+527
+00:31:05,940 --> 00:31:12,419
+not a field it's not a field ok I need
+
+528
+00:31:09,929 --> 00:31:14,730
+an inverse there are things that work
+
+529
+00:31:12,419 --> 00:31:17,360
+for domains - we'll get there - ok but
+
+530
+00:31:14,730 --> 00:31:20,490
+but it doesn't work for a general ring
+
+531
+00:31:17,360 --> 00:31:24,870
+ok for example if you take the ring this
+
+532
+00:31:20,490 --> 00:31:26,610
+is a very nice ring Z mod 8c ok the
+
+533
+00:31:24,870 --> 00:31:30,230
+integers mod 8 and you take the
+
+534
+00:31:26,610 --> 00:31:32,650
+polynomial f of T is T squared - 1
+
+535
+00:31:30,230 --> 00:31:35,530
+you'll find that it has four distinct
+
+536
+00:31:32,650 --> 00:31:40,600
+in that field four distinct roots in
+
+537
+00:31:35,530 --> 00:31:43,870
+that ring namely one three five and
+
+538
+00:31:40,600 --> 00:31:45,970
+seven so there's something that goes
+
+539
+00:31:43,870 --> 00:31:47,500
+wrong in this case we'll have to figure
+
+540
+00:31:45,970 --> 00:31:52,180
+it out it's basically this cancellation
+
+541
+00:31:47,500 --> 00:31:54,520
+law but over a field this principle
+
+542
+00:31:52,180 --> 00:31:58,090
+works brilliantly and we're over a field
+
+543
+00:31:54,520 --> 00:31:59,380
+here so consequently the characteristic
+
+544
+00:31:58,090 --> 00:32:02,140
+polynomial depends only on the
+
+545
+00:31:59,380 --> 00:32:04,270
+transformation its roots are the
+
+546
+00:32:02,140 --> 00:32:05,470
+eigenvalues and therefore we have for a
+
+547
+00:32:04,270 --> 00:32:08,170
+transformation of an n-dimensional
+
+548
+00:32:05,470 --> 00:32:14,040
+vector space at most n distinct
+
+549
+00:32:08,170 --> 00:32:14,040
+eigenvalues let's write that down
+
+550
+00:32:18,900 --> 00:32:35,340
+routes are eigenvalues so at most n
+
+551
+00:32:29,450 --> 00:32:38,580
+distinct eigenvalues where n is the
+
+552
+00:32:35,340 --> 00:32:41,130
+dimension of V now let's take a look at
+
+553
+00:32:38,580 --> 00:32:44,790
+these cases and see what happens in this
+
+554
+00:32:41,130 --> 00:32:48,570
+case the characteristic polynomial looks
+
+555
+00:32:44,790 --> 00:32:54,140
+like this f of T is equal to T squared
+
+556
+00:32:48,570 --> 00:32:58,140
+minus 2 cosine theta times T plus 1
+
+557
+00:32:54,140 --> 00:33:01,110
+because we have to calculate the
+
+558
+00:32:58,140 --> 00:33:03,000
+determinant of t minus a so t minus a
+
+559
+00:33:01,110 --> 00:33:10,260
+looks like the matrix t minus cosine
+
+560
+00:33:03,000 --> 00:33:13,290
+theta sine theta minus sine theta t
+
+561
+00:33:10,260 --> 00:33:16,770
+minus cosine theta if you take the
+
+562
+00:33:13,290 --> 00:33:20,700
+determinant to this you get this they
+
+563
+00:33:16,770 --> 00:33:27,870
+got it just believe me ok now I claim
+
+564
+00:33:20,700 --> 00:33:29,520
+that that has no real roots because it
+
+565
+00:33:27,870 --> 00:33:31,500
+has complex roots but it has no real
+
+566
+00:33:29,520 --> 00:33:34,290
+roots and the reason is that this number
+
+567
+00:33:31,500 --> 00:33:36,510
+here whatever it is so right this is
+
+568
+00:33:34,290 --> 00:33:44,280
+yeah that the absolute value of 2 cosine
+
+569
+00:33:36,510 --> 00:33:49,530
+theta is uh well theta is not equal to 0
+
+570
+00:33:44,280 --> 00:33:53,040
+or pi women in obtaining not equal to 0
+
+571
+00:33:49,530 --> 00:33:56,880
+and the absolute value of this is less
+
+572
+00:33:53,040 --> 00:33:59,220
+than 2 a little puzzled by theta equal
+
+573
+00:33:56,880 --> 00:34:01,230
+this is correct him I really wrote that
+
+574
+00:33:59,220 --> 00:34:04,800
+yeah I'm rear-ending really unwanted all
+
+575
+00:34:01,230 --> 00:34:07,890
+the way ah efficient they did not equal
+
+576
+00:34:04,800 --> 00:34:11,190
+to 0 or PI if 8 is 0 obviously
+
+577
+00:34:07,890 --> 00:34:13,590
+everything's an eigenvalue because the
+
+578
+00:34:11,190 --> 00:34:16,679
+it's the identity matrix if theta is pi
+
+579
+00:34:13,590 --> 00:34:18,540
+then you're rotating around 180 degrees
+
+580
+00:34:16,679 --> 00:34:20,760
+you're getting minus the identity matrix
+
+581
+00:34:18,540 --> 00:34:22,980
+so there are some eigenvalues there but
+
+582
+00:34:20,760 --> 00:34:25,550
+if theta is not equal to 0 or PI to
+
+583
+00:34:22,980 --> 00:34:27,600
+cosine theta is less than 2 and
+
+584
+00:34:25,550 --> 00:34:29,129
+consequently if you calculate the
+
+585
+00:34:27,600 --> 00:34:31,020
+discriminant to this polynomial you'll
+
+586
+00:34:29,129 --> 00:34:33,590
+find it's negative b squared minus 4ac
+
+587
+00:34:31,020 --> 00:34:33,590
+is
+
+588
+00:34:35,579 --> 00:34:39,429
+that quadratic polynomial and
+
+589
+00:34:37,839 --> 00:34:42,609
+consequently its roots are complex not
+
+590
+00:34:39,429 --> 00:34:48,809
+real so this polynomial has no real
+
+591
+00:34:42,609 --> 00:34:51,460
+roots and consequently no eigenvalues
+
+592
+00:34:48,809 --> 00:34:53,859
+over the reals in this case the
+
+593
+00:34:51,460 --> 00:34:56,079
+characteristic polynomial F of T just
+
+594
+00:34:53,859 --> 00:34:59,859
+turns out to be X 1 at t minus 1 squared
+
+595
+00:34:56,079 --> 00:35:02,019
+so you only get one distinct root and we
+
+596
+00:34:59,859 --> 00:35:03,430
+got we got an eigenvalue and eigenvector
+
+597
+00:35:02,019 --> 00:35:10,989
+for that root but we don't get any other
+
+598
+00:35:03,430 --> 00:35:12,489
+eigenvectors okay so now the switch at
+
+599
+00:35:10,989 --> 00:35:18,460
+this point the situation becomes much
+
+600
+00:35:12,489 --> 00:35:20,619
+more difficult and I'll just give you a
+
+601
+00:35:18,460 --> 00:35:23,079
+simple version of it let's do one more
+
+602
+00:35:20,619 --> 00:35:24,190
+calculation so that we can be confident
+
+603
+00:35:23,079 --> 00:35:26,170
+that we know how to calculate a
+
+604
+00:35:24,190 --> 00:35:27,759
+characteristic polynomial let's do a
+
+605
+00:35:26,170 --> 00:35:31,140
+general 2x2 matrix and its
+
+606
+00:35:27,759 --> 00:35:31,140
+characteristic polynomial
+
+607
+00:35:36,329 --> 00:35:50,349
+now claim that f of T is T squared minus
+
+608
+00:35:41,410 --> 00:35:51,940
+a plus D times T plus ad minus BC so
+
+609
+00:35:50,349 --> 00:35:53,380
+that's a good exercise for you guys to
+
+610
+00:35:51,940 --> 00:35:54,790
+do to make sure you can calculate a
+
+611
+00:35:53,380 --> 00:35:56,950
+characteristic polynomial this by the
+
+612
+00:35:54,790 --> 00:35:58,780
+way the two terms in the characteristic
+
+613
+00:35:56,950 --> 00:36:01,780
+polynomial that are quite famous this
+
+614
+00:35:58,780 --> 00:36:03,670
+term is called the trace of T the sum of
+
+615
+00:36:01,780 --> 00:36:06,880
+the diagonal entries of the matrix and
+
+616
+00:36:03,670 --> 00:36:08,980
+this is of course the determinant of T
+
+617
+00:36:06,880 --> 00:36:13,800
+and those two terms all the coefficients
+
+618
+00:36:08,980 --> 00:36:15,970
+depend only on T not on the matrix a so
+
+619
+00:36:13,800 --> 00:36:17,619
+so here I could see that the term was
+
+620
+00:36:15,970 --> 00:36:19,089
+this because that's the trace of this
+
+621
+00:36:17,619 --> 00:36:21,849
+matrix and the determinant to this
+
+622
+00:36:19,089 --> 00:36:25,450
+matrix here is one cosine squared plus
+
+623
+00:36:21,849 --> 00:36:27,820
+sine squared so in general you get this
+
+624
+00:36:25,450 --> 00:36:29,290
+formula so for example if I gave you
+
+625
+00:36:27,820 --> 00:36:37,839
+this matrix and I asked you what its
+
+626
+00:36:29,290 --> 00:36:43,119
+eigenvalues are you would say well look
+
+627
+00:36:37,839 --> 00:36:45,930
+F of P is T squared minus 70 plus so we
+
+628
+00:36:43,119 --> 00:36:49,270
+have to do the determinant 12 minus 210
+
+629
+00:36:45,930 --> 00:36:55,349
+then we'd say well can i factor that so
+
+630
+00:36:49,270 --> 00:37:00,150
+it looks like t minus 5 times t minus 2
+
+631
+00:36:55,349 --> 00:37:00,150
+so 5 & 2 are eigenvalues
+
+632
+00:37:05,160 --> 00:37:12,900
+namely we have a vector v1 such that T
+
+633
+00:37:09,180 --> 00:37:18,029
+of V 1 is 5 V 1 and we have a vector V 2
+
+634
+00:37:12,900 --> 00:37:18,569
+such that T of V 2 is 2 V 2 looks good
+
+635
+00:37:18,029 --> 00:37:21,059
+huh
+
+636
+00:37:18,569 --> 00:37:24,210
+looks like we might have a basis of
+
+637
+00:37:21,059 --> 00:37:28,740
+eigenvectors right we have two of them
+
+638
+00:37:24,210 --> 00:37:35,190
+are they linearly independent are these
+
+639
+00:37:28,740 --> 00:37:52,710
+two vectors linearly independent Why Why
+
+640
+00:37:35,190 --> 00:37:57,690
+are they linearly independent because so
+
+641
+00:37:52,710 --> 00:38:02,700
+unless v is equal to two can 5 be equal
+
+642
+00:37:57,690 --> 00:38:04,460
+to 2 can 5 be equal to 2 right can't be
+
+643
+00:38:02,700 --> 00:38:10,670
+equal to 2 ah
+
+644
+00:38:04,460 --> 00:38:16,880
+so okay good if 2 is not equal to 5 in
+
+645
+00:38:10,670 --> 00:38:16,880
+our field F we get a basis
+
+646
+00:38:22,009 --> 00:38:27,809
+of eigenvectors because in those k in
+
+647
+00:38:26,099 --> 00:38:30,059
+the case where two is not equal to five
+
+648
+00:38:27,809 --> 00:38:30,720
+these two vectors cannot lie on the same
+
+649
+00:38:30,059 --> 00:38:33,720
+line
+
+650
+00:38:30,720 --> 00:38:35,490
+because anything on the line of v1 when
+
+651
+00:38:33,720 --> 00:38:39,119
+you apply key to it is multiplied by
+
+652
+00:38:35,490 --> 00:38:41,130
+five whereas v2 is not multiplied by
+
+653
+00:38:39,119 --> 00:38:45,900
+five its multiplied by 2 and 2 is not
+
+654
+00:38:41,130 --> 00:38:49,499
+equal to 5 so if these two eigenvalues
+
+655
+00:38:45,900 --> 00:38:51,930
+are distinct in our field which is not
+
+656
+00:38:49,499 --> 00:38:53,309
+necessarily true because our field might
+
+657
+00:38:51,930 --> 00:38:55,309
+have been the field of three elements
+
+658
+00:38:53,309 --> 00:38:58,259
+where five happens to be equal to two
+
+659
+00:38:55,309 --> 00:39:00,619
+but if we were in say the real numbers
+
+660
+00:38:58,259 --> 00:39:04,049
+or the field of eleven elements and
+
+661
+00:39:00,619 --> 00:39:08,549
+these two numbers were distinct we get a
+
+662
+00:39:04,049 --> 00:39:10,980
+basis of eigenvectors from v1 and v2 and
+
+663
+00:39:08,549 --> 00:39:13,769
+in general that's true and then I'll
+
+664
+00:39:10,980 --> 00:39:16,259
+take the question in general if you are
+
+665
+00:39:13,769 --> 00:39:18,749
+so lucky that your characteristic
+
+666
+00:39:16,259 --> 00:39:30,230
+polynomial factors completely into
+
+667
+00:39:18,749 --> 00:39:36,390
+distinct roots XT minus C 1 t minus C 2
+
+668
+00:39:30,230 --> 00:39:40,319
+t minus C n in F with the CI distinct
+
+669
+00:39:36,390 --> 00:39:42,119
+and that's not so unreasonable thing to
+
+670
+00:39:40,319 --> 00:39:44,759
+ask although it fails in these two cases
+
+671
+00:39:42,119 --> 00:39:47,309
+in this case we have no roots and in
+
+672
+00:39:44,759 --> 00:39:49,140
+this case we had a multiple root but
+
+673
+00:39:47,309 --> 00:39:51,569
+suppose it factors into distinct roots
+
+674
+00:39:49,140 --> 00:39:54,029
+then I claim you can get a basis of
+
+675
+00:39:51,569 --> 00:39:56,190
+eigenvectors by taking for each one of
+
+676
+00:39:54,029 --> 00:39:58,049
+these eigenvalues and eigenvector and
+
+677
+00:39:56,190 --> 00:40:00,299
+then the claim is which is a
+
+678
+00:39:58,049 --> 00:40:02,999
+generalization of this that those form a
+
+679
+00:40:00,299 --> 00:40:05,009
+linearly independent set that's a little
+
+680
+00:40:02,999 --> 00:40:10,140
+bit more work than it is for two but it
+
+681
+00:40:05,009 --> 00:40:11,579
+works however these two cases show you
+
+682
+00:40:10,140 --> 00:40:13,680
+that if you have no roots or you have
+
+683
+00:40:11,579 --> 00:40:15,029
+multiple roots that may not be true and
+
+684
+00:40:13,680 --> 00:40:17,430
+then it becomes a more complicated
+
+685
+00:40:15,029 --> 00:40:20,579
+analysis of what actually goes on here
+
+686
+00:40:17,430 --> 00:40:22,380
+which we're not going to do but we I
+
+687
+00:40:20,579 --> 00:40:24,450
+want you to remember at least a simple
+
+688
+00:40:22,380 --> 00:40:26,549
+principle that if you calculate the
+
+689
+00:40:24,450 --> 00:40:28,980
+characteristic polynomial of an operator
+
+690
+00:40:26,549 --> 00:40:31,289
+like this and you find two distinct
+
+691
+00:40:28,980 --> 00:40:32,999
+roots then you can find a basis of
+
+692
+00:40:31,289 --> 00:40:34,150
+eigenvectors but in this case we would
+
+693
+00:40:32,999 --> 00:40:36,339
+be able to say as
+
+694
+00:40:34,150 --> 00:40:38,619
+long as we have this inequality in F
+
+695
+00:40:36,339 --> 00:40:39,760
+we'd have a basis of eigenvectors we
+
+696
+00:40:38,619 --> 00:40:41,200
+don't know what they are yet that's
+
+697
+00:40:39,760 --> 00:40:43,180
+another problem how to find the
+
+698
+00:40:41,200 --> 00:40:45,549
+eigenvectors but at least we know they
+
+699
+00:40:43,180 --> 00:40:48,730
+exist now there was a question back
+
+700
+00:40:45,549 --> 00:40:50,500
+there that I know I answered it god you
+
+701
+00:40:48,730 --> 00:40:53,260
+guys are late you've missed the fabulous
+
+702
+00:40:50,500 --> 00:40:55,750
+lecture okay you'll look at it on the
+
+703
+00:40:53,260 --> 00:40:57,779
+video okay but I warn you I went beyond
+
+704
+00:40:55,750 --> 00:41:01,240
+the valley or here so that may be lost
+
+705
+00:40:57,779 --> 00:41:03,099
+okay okay
+
+706
+00:41:01,240 --> 00:41:07,770
+we also discussed Mutant Ninja Turtles
+
+707
+00:41:03,099 --> 00:41:10,809
+you'll want to catch up on that okay now
+
+708
+00:41:07,770 --> 00:41:12,309
+this is in some sense just the beginning
+
+709
+00:41:10,809 --> 00:41:15,460
+of the fun with the characteristic
+
+710
+00:41:12,309 --> 00:41:17,770
+polynomial and if I had sufficient time
+
+711
+00:41:15,460 --> 00:41:19,059
+I would go back and tell you a little
+
+712
+00:41:17,770 --> 00:41:20,589
+bit more about the characteristic
+
+713
+00:41:19,059 --> 00:41:22,089
+polynomial and what you do when it has
+
+714
+00:41:20,589 --> 00:41:23,920
+multiple roots etc but we're going to
+
+715
+00:41:22,089 --> 00:41:27,700
+leave this for the moment many of you
+
+716
+00:41:23,920 --> 00:41:29,500
+may have done this in in in 55 Jordan
+
+717
+00:41:27,700 --> 00:41:31,619
+canonical form or things the things you
+
+718
+00:41:29,500 --> 00:41:33,640
+do when that when it doesn't diagonalize
+
+719
+00:41:31,619 --> 00:41:36,279
+there's all kinds of interesting stuff
+
+720
+00:41:33,640 --> 00:41:38,200
+but I just want to tell you one more
+
+721
+00:41:36,279 --> 00:41:40,180
+amazing thing about the characteristic
+
+722
+00:41:38,200 --> 00:41:42,180
+polynomial which is in some sense my
+
+723
+00:41:40,180 --> 00:41:45,930
+favorite theorem of linear algebra which
+
+724
+00:41:42,180 --> 00:41:45,930
+again we're not going to prove
+
+725
+00:41:50,830 --> 00:41:56,570
+okay so let's backtrack a little bit so
+
+726
+00:41:54,500 --> 00:42:04,070
+now this is not required but it's my
+
+727
+00:41:56,570 --> 00:42:06,140
+favorite theorem so you can see that
+
+728
+00:42:04,070 --> 00:42:09,860
+there's a subject ahead here we haven't
+
+729
+00:42:06,140 --> 00:42:11,690
+exhausted the joys of linear algebra so
+
+730
+00:42:09,860 --> 00:42:16,940
+take a linear operator on a finite
+
+731
+00:42:11,690 --> 00:42:20,930
+dimensional vector space P and take its
+
+732
+00:42:16,940 --> 00:42:24,770
+matrix well you know that's all I need I
+
+733
+00:42:20,930 --> 00:42:31,340
+guess and consider it as an element in
+
+734
+00:42:24,770 --> 00:42:34,910
+the vector space a vector in the vector
+
+735
+00:42:31,340 --> 00:42:37,250
+space of all maps from V to V all linear
+
+736
+00:42:34,910 --> 00:42:45,590
+maps from B to B which is a vector space
+
+737
+00:42:37,250 --> 00:42:47,540
+over F of dimension N squared okay where
+
+738
+00:42:45,590 --> 00:42:49,430
+V has dimension and maybe you just think
+
+739
+00:42:47,540 --> 00:42:51,470
+of it as a matrix and you can add n by n
+
+740
+00:42:49,430 --> 00:42:54,110
+matrices so that's a vector space of
+
+741
+00:42:51,470 --> 00:42:56,420
+dimension N squared ok so here's some
+
+742
+00:42:54,110 --> 00:42:57,830
+new elements so so you get a following
+
+743
+00:42:56,420 --> 00:42:59,360
+elements in this vector space of
+
+744
+00:42:57,830 --> 00:43:02,090
+dimension N squared you have the
+
+745
+00:42:59,360 --> 00:43:05,030
+identity matrix you have key your T
+
+746
+00:43:02,090 --> 00:43:06,440
+squared yo t cubed you have T to the
+
+747
+00:43:05,030 --> 00:43:08,120
+fourth you can keep iterating you can
+
+748
+00:43:06,440 --> 00:43:09,530
+take patent you can compose the operator
+
+749
+00:43:08,120 --> 00:43:11,480
+with itself as many times as you want
+
+750
+00:43:09,530 --> 00:43:16,730
+eventually you get to let's go all the
+
+751
+00:43:11,480 --> 00:43:20,480
+way on T to the N squared so they all
+
+752
+00:43:16,730 --> 00:43:26,470
+lie in this vector space and there are N
+
+753
+00:43:20,480 --> 00:43:26,470
+squared plus one of them so they must be
+
+754
+00:43:26,560 --> 00:43:30,880
+linearly dependent
+
+755
+00:43:28,340 --> 00:43:30,880
+exactly
+
+756
+00:43:33,980 --> 00:43:42,050
+a linear relation means something of the
+
+757
+00:43:38,180 --> 00:43:46,490
+form a zero times I plus a 1 times T
+
+758
+00:43:42,050 --> 00:43:50,030
+plus a 2 times T squared plus plus a n
+
+759
+00:43:46,490 --> 00:43:57,290
+squared times T to the N squared equals
+
+760
+00:43:50,030 --> 00:44:05,270
+0 in this vector space hum VV in other
+
+761
+00:43:57,290 --> 00:44:09,940
+words ie T satisfies a polynomial of
+
+762
+00:44:05,270 --> 00:44:16,600
+degree less than or equal to N squared
+
+763
+00:44:09,940 --> 00:44:20,810
+with coefficients in the field yeah
+
+764
+00:44:16,600 --> 00:44:25,970
+namely if you took this polynomial a 0 T
+
+765
+00:44:20,810 --> 00:44:29,420
+plus a 1 a 0 plus a 1 T plus plus a N
+
+766
+00:44:25,970 --> 00:44:32,000
+squared T to the N squared and you call
+
+767
+00:44:29,420 --> 00:44:35,180
+that polynomial capital F of T and you
+
+768
+00:44:32,000 --> 00:44:36,590
+plug in the operator capital T that
+
+769
+00:44:35,180 --> 00:44:41,480
+would be it would give you the zero
+
+770
+00:44:36,590 --> 00:44:44,240
+operator this is the zero operator the
+
+771
+00:44:41,480 --> 00:44:45,740
+whole matrix becomes zero and that's
+
+772
+00:44:44,240 --> 00:44:47,630
+just because we can construct from
+
+773
+00:44:45,740 --> 00:44:49,460
+powers of T a linear relation and that
+
+774
+00:44:47,630 --> 00:44:52,400
+linear relation gives a polynomial
+
+775
+00:44:49,460 --> 00:44:54,050
+satisfied by T so there has to be some
+
+776
+00:44:52,400 --> 00:44:57,800
+polynomial of degree less than or equal
+
+777
+00:44:54,050 --> 00:45:00,710
+to N squared satisfied by T okay so you
+
+778
+00:44:57,800 --> 00:45:02,240
+can ask is this the best possible degree
+
+779
+00:45:00,710 --> 00:45:06,170
+maybe there's a polynomial of some
+
+780
+00:45:02,240 --> 00:45:08,869
+smaller degree satisfied by T so that's
+
+781
+00:45:06,170 --> 00:45:12,560
+my favorite theorem that's called the
+
+782
+00:45:08,869 --> 00:45:14,859
+cayley-hamilton theorem and it said it
+
+783
+00:45:12,560 --> 00:45:14,859
+says
+
+784
+00:45:18,240 --> 00:45:26,320
+Kaleigh was a Hamilton was the greatest
+
+785
+00:45:23,860 --> 00:45:28,750
+Irish mathematician ever to live he
+
+786
+00:45:26,320 --> 00:45:32,440
+lived in the middle did most of his work
+
+787
+00:45:28,750 --> 00:45:34,900
+in the middle of the 19th century he
+
+788
+00:45:32,440 --> 00:45:36,340
+discovered a new system of numbers
+
+789
+00:45:34,900 --> 00:45:38,590
+called the quaternions which you can
+
+790
+00:45:36,340 --> 00:45:40,060
+find edged on a bridge in Dublin which
+
+791
+00:45:38,590 --> 00:45:42,070
+he edged on the bridge after he
+
+792
+00:45:40,060 --> 00:45:45,100
+discovered it Cayley was an English
+
+793
+00:45:42,070 --> 00:45:47,410
+mathematician who enlarged on Hamilton's
+
+794
+00:45:45,100 --> 00:45:48,960
+work did a great deal of work in linear
+
+795
+00:45:47,410 --> 00:46:00,480
+algebra at the end of the 19th century
+
+796
+00:45:48,960 --> 00:46:08,440
+it says he always satisfies its own
+
+797
+00:46:00,480 --> 00:46:15,040
+characteristic polynomial and that's a
+
+798
+00:46:08,440 --> 00:46:19,600
+polynomial of degree n then cool so that
+
+799
+00:46:15,040 --> 00:46:21,520
+in this case it would say if you took
+
+800
+00:46:19,600 --> 00:46:23,740
+this matrix and you plugged it in to
+
+801
+00:46:21,520 --> 00:46:28,000
+this polynomial you would get the zero
+
+802
+00:46:23,740 --> 00:46:33,450
+matrix let's see it let's see if we can
+
+803
+00:46:28,000 --> 00:46:33,450
+actually do it
+
+804
+00:46:37,990 --> 00:46:44,480
+well we have to calculate a squared
+
+805
+00:46:40,340 --> 00:46:46,370
+first so a squared I'll put the matrix
+
+806
+00:46:44,480 --> 00:46:50,570
+ABC be here so I can actually do the
+
+807
+00:46:46,370 --> 00:46:55,580
+multiplication is a squared plus BC and
+
+808
+00:46:50,570 --> 00:47:01,210
+then the next term is a B plus BD right
+
+809
+00:46:55,580 --> 00:47:06,140
+and then it's AC plus DC and then it's
+
+810
+00:47:01,210 --> 00:47:08,510
+BC plus d squared then we have to
+
+811
+00:47:06,140 --> 00:47:10,820
+subtract from that a plus D times that
+
+812
+00:47:08,510 --> 00:47:17,600
+matrix so that becomes a squared plus a
+
+813
+00:47:10,820 --> 00:47:25,250
+D and then a B plus B D and then a plus
+
+814
+00:47:17,600 --> 00:47:28,250
+B times C AC plus DC and then a d plus d
+
+815
+00:47:25,250 --> 00:47:31,610
+squared and then we have to add to it
+
+816
+00:47:28,250 --> 00:47:37,910
+this times the identity matrix plus ad
+
+817
+00:47:31,610 --> 00:47:39,770
+minus BC 0 0 ad minus BC and if you add
+
+818
+00:47:37,910 --> 00:47:42,710
+that all up the question is do you get
+
+819
+00:47:39,770 --> 00:47:44,090
+the matrix that looks like 0 0 0 0 that
+
+820
+00:47:42,710 --> 00:47:46,580
+would be satisfying its own
+
+821
+00:47:44,090 --> 00:47:48,950
+characteristic polynomial and indeed it
+
+822
+00:47:46,580 --> 00:47:53,090
+works here we have a squared minus a
+
+823
+00:47:48,950 --> 00:47:56,210
+squared B C - ad and then we add to that
+
+824
+00:47:53,090 --> 00:47:59,210
+ad minus BC so that entry 0 here we have
+
+825
+00:47:56,210 --> 00:48:02,840
+a B Mike plus B D and we subtract a B
+
+826
+00:47:59,210 --> 00:48:05,600
+plus B D so that goes to 0 likewise so
+
+827
+00:48:02,840 --> 00:48:11,240
+it's not a miracle okay now why should
+
+828
+00:48:05,600 --> 00:48:17,450
+this be true well in the case proof when
+
+829
+00:48:11,240 --> 00:48:26,270
+f of P is equal to t minus C 1 t minus C
+
+830
+00:48:17,450 --> 00:48:27,920
+2 t minus C n all CI distinct so if the
+
+831
+00:48:26,270 --> 00:48:30,530
+characteristic polynomial happened to
+
+832
+00:48:27,920 --> 00:48:32,510
+factor completely and all the I all the
+
+833
+00:48:30,530 --> 00:48:34,730
+roots were distinct I'll prove to you
+
+834
+00:48:32,510 --> 00:48:37,400
+that an operator satisfies its own
+
+835
+00:48:34,730 --> 00:48:39,590
+characteristic polynomial because then
+
+836
+00:48:37,400 --> 00:48:44,330
+we can choose a matrix so that a looks
+
+837
+00:48:39,590 --> 00:48:47,190
+like the matrix C 1 C n 0 namely you can
+
+838
+00:48:44,330 --> 00:48:49,859
+find a basis of eigenvectors
+
+839
+00:48:47,190 --> 00:48:51,690
+now consider what happens when you put
+
+840
+00:48:49,859 --> 00:48:54,660
+this matrix into this characteristic
+
+841
+00:48:51,690 --> 00:48:56,849
+polynomial then f of T is the same as
+
+842
+00:48:54,660 --> 00:48:59,810
+calculating the matrix F of a which
+
+843
+00:48:56,849 --> 00:49:03,380
+looks like a minus c1 times the identity
+
+844
+00:48:59,810 --> 00:49:07,760
+times a minus c2 times the identity
+
+845
+00:49:03,380 --> 00:49:10,619
+write a minus CN times the identity and
+
+846
+00:49:07,760 --> 00:49:12,359
+when you calculate a minus c1 to the
+
+847
+00:49:10,619 --> 00:49:17,190
+times the identity you get a matrix that
+
+848
+00:49:12,359 --> 00:49:20,160
+looks like this 0 C 2 minus C 1 CN minus
+
+849
+00:49:17,190 --> 00:49:22,170
+C 1 and we and these are all diagonal
+
+850
+00:49:20,160 --> 00:49:23,910
+matrices so when you multiply me just
+
+851
+00:49:22,170 --> 00:49:25,829
+multiply the elements of the diagonal so
+
+852
+00:49:23,910 --> 00:49:28,319
+the top diagonal entry will always be 0
+
+853
+00:49:25,829 --> 00:49:30,300
+and this matrix will have a diagonal
+
+854
+00:49:28,319 --> 00:49:32,130
+entry of 0 in the second place and this
+
+855
+00:49:30,300 --> 00:49:34,470
+matrix will have a diagonal entry is 0
+
+856
+00:49:32,130 --> 00:49:35,970
+in the nth place so as long as you
+
+857
+00:49:34,470 --> 00:49:37,980
+multiply those matrices you're going to
+
+858
+00:49:35,970 --> 00:49:43,050
+get 0 everywhere in the diagonal and
+
+859
+00:49:37,980 --> 00:49:44,819
+that's the 0 matrix so if we were so
+
+860
+00:49:43,050 --> 00:49:46,349
+lucky that we got to a characteristic
+
+861
+00:49:44,819 --> 00:49:48,599
+polynomial where the eigen values were
+
+862
+00:49:46,349 --> 00:49:50,040
+we're all in the field and they were all
+
+863
+00:49:48,599 --> 00:49:52,140
+distinct we could prove the
+
+864
+00:49:50,040 --> 00:49:55,079
+cayley-hamilton theorem and the general
+
+865
+00:49:52,140 --> 00:49:56,550
+proof is somehow a reduction to that
+
+866
+00:49:55,079 --> 00:49:59,970
+case even though you can't always get
+
+867
+00:49:56,550 --> 00:50:01,380
+that case it's a big theorem in linear
+
+868
+00:49:59,970 --> 00:50:04,589
+algebra it's beginning of a really
+
+869
+00:50:01,380 --> 00:50:06,200
+interesting part of the subject we won't
+
+870
+00:50:04,589 --> 00:50:08,940
+cover it now but that will induce you to
+
+871
+00:50:06,200 --> 00:50:11,579
+take more courses in the subject so
+
+872
+00:50:08,940 --> 00:50:12,780
+after the exam so the exam will only
+
+873
+00:50:11,579 --> 00:50:14,280
+cover the definition of the
+
+874
+00:50:12,780 --> 00:50:16,560
+characteristic polynomial and the fact
+
+875
+00:50:14,280 --> 00:50:19,109
+that its roots are eigenvectors
+
+876
+00:50:16,560 --> 00:50:21,210
+eigenvalues okay none of this fancy
+
+877
+00:50:19,109 --> 00:50:22,890
+stuff and then after the exam we're
+
+878
+00:50:21,210 --> 00:50:26,160
+going to return and do some deeper
+
+879
+00:50:22,890 --> 00:50:27,690
+material on the theory of groups and in
+
+880
+00:50:26,160 --> 00:50:29,339
+particular the groups that come from
+
+881
+00:50:27,690 --> 00:50:31,950
+special types of linear transformations
+
+882
+00:50:29,339 --> 00:50:34,160
+called orthogonal groups so have a nice
+
+883
+00:50:31,950 --> 00:50:34,160
+vacation
+

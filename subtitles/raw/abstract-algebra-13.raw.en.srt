@@ -1,0 +1,4556 @@
+1
+00:00:12,160 --> 00:00:16,560
+the exam was difficult exam it it was a
+
+2
+00:00:14,799 --> 00:00:20,240
+little I think too
+
+3
+00:00:16,560 --> 00:00:21,359
+long uh the median and mean turned out
+
+4
+00:00:20,240 --> 00:00:24,519
+to be
+
+5
+00:00:21,359 --> 00:00:27,240
+75% and the grades were distributed as
+
+6
+00:00:24,519 --> 00:00:30,080
+follows uh so I think if you
+
+7
+00:00:27,240 --> 00:00:31,840
+were in the 70s or above you're doing
+
+8
+00:00:30,080 --> 00:00:33,399
+fine down here I think you need to do a
+
+9
+00:00:31,840 --> 00:00:35,079
+little bit of work just to practice
+
+10
+00:00:33,399 --> 00:00:37,200
+doing these kind of problems I realize
+
+11
+00:00:35,079 --> 00:00:38,960
+we don't have time pressure on homework
+
+12
+00:00:37,200 --> 00:00:40,680
+and I may try to design the second hour
+
+13
+00:00:38,960 --> 00:00:43,200
+exam to relieve a little time pressure
+
+14
+00:00:40,680 --> 00:00:44,960
+we'll see what we can do uh so let me
+
+15
+00:00:43,200 --> 00:00:47,160
+just go over the questions briefly I
+
+16
+00:00:44,960 --> 00:00:49,280
+think the problem one number of people
+
+17
+00:00:47,160 --> 00:00:51,920
+had a difficulty with the definition of
+
+18
+00:00:49,280 --> 00:00:51,920
+a cyclic
+
+19
+00:00:52,480 --> 00:00:59,039
+group uh means there exists geoc cyclic
+
+20
+00:01:00,199 --> 00:01:04,960
+if there
+
+21
+00:01:02,000 --> 00:01:07,159
+is an
+
+22
+00:01:04,960 --> 00:01:10,560
+element G and
+
+23
+00:01:07,159 --> 00:01:13,799
+G such that
+
+24
+00:01:10,560 --> 00:01:16,200
+any well let's call this element a maybe
+
+25
+00:01:13,799 --> 00:01:21,520
+the generator such that
+
+26
+00:01:16,200 --> 00:01:21,520
+any G and G has the
+
+27
+00:01:22,159 --> 00:01:26,759
+form G is equal to a to the
+
+28
+00:01:24,920 --> 00:01:31,280
+N
+
+29
+00:01:26,759 --> 00:01:34,439
+sum n and Z so any element is some power
+
+30
+00:01:31,280 --> 00:01:36,200
+of G such G's are called generators do
+
+31
+00:01:34,439 --> 00:01:37,640
+not think and this is where people made
+
+32
+00:01:36,200 --> 00:01:40,079
+a mistake on the second half of the
+
+33
+00:01:37,640 --> 00:01:43,079
+problem that any element of the group is
+
+34
+00:01:40,079 --> 00:01:45,960
+a generator that's not true for a cyclic
+
+35
+00:01:43,079 --> 00:01:48,159
+group of order four the square of a
+
+36
+00:01:45,960 --> 00:01:51,680
+generator is not a generator because it
+
+37
+00:01:48,159 --> 00:01:54,360
+has order two so the the definitive cic
+
+38
+00:01:51,680 --> 00:01:56,280
+group there should be some generator of
+
+39
+00:01:54,360 --> 00:01:59,119
+this form and then you're supposed to
+
+40
+00:01:56,280 --> 00:02:01,840
+prove that if H is a subgroup of G is
+
+41
+00:01:59,119 --> 00:02:04,560
+also cyclic
+
+42
+00:02:01,840 --> 00:02:07,159
+so what we have to find for H is a
+
+43
+00:02:04,560 --> 00:02:10,160
+generator of H given the fact that a is
+
+44
+00:02:07,159 --> 00:02:14,400
+a generator for G let's write it like
+
+45
+00:02:10,160 --> 00:02:16,920
+this so there are two possibilities if H
+
+46
+00:02:14,400 --> 00:02:19,080
+is equal to the
+
+47
+00:02:16,920 --> 00:02:21,879
+identity then it's
+
+48
+00:02:19,080 --> 00:02:23,360
+true because the identity group is by
+
+49
+00:02:21,879 --> 00:02:28,800
+definition cyclic you can take the
+
+50
+00:02:23,360 --> 00:02:28,800
+identity element is a generator if not
+
+51
+00:02:31,160 --> 00:02:37,840
+then H
+
+52
+00:02:33,959 --> 00:02:41,959
+contains a to the N for
+
+53
+00:02:37,840 --> 00:02:44,800
+Su and bigger than one or equal to
+
+54
+00:02:41,959 --> 00:02:47,280
+one because if it if it's not just the
+
+55
+00:02:44,800 --> 00:02:51,319
+identity element then it contains some
+
+56
+00:02:47,280 --> 00:02:53,879
+power of a for some nonzero integer and
+
+57
+00:02:51,319 --> 00:02:55,440
+if it contains some nonzero integer then
+
+58
+00:02:53,879 --> 00:02:57,000
+by taking the inverse of that element
+
+59
+00:02:55,440 --> 00:03:01,280
+you can assume that it contains a power
+
+60
+00:02:57,000 --> 00:03:04,879
+of a for some positive integer
+
+61
+00:03:01,280 --> 00:03:07,560
+taking inverse if
+
+62
+00:03:04,879 --> 00:03:11,720
+necessary and then what you do to find a
+
+63
+00:03:07,560 --> 00:03:11,720
+generator of H is a
+
+64
+00:03:12,879 --> 00:03:21,840
+generator B of H is a to the K where K
+
+65
+00:03:18,680 --> 00:03:21,840
+is the minimal such
+
+66
+00:03:23,280 --> 00:03:29,840
+power such n namely for all the P
+
+67
+00:03:27,000 --> 00:03:32,120
+positive powers of a in in that lie in H
+
+68
+00:03:29,840 --> 00:03:34,760
+take the smallest positive power of a
+
+69
+00:03:32,120 --> 00:03:37,519
+that lies in h call that thing B and I
+
+70
+00:03:34,760 --> 00:03:39,799
+claim that b generates H so now you have
+
+71
+00:03:37,519 --> 00:03:41,799
+to prove that so you say well suppose
+
+72
+00:03:39,799 --> 00:03:46,959
+there's something else in h
+
+73
+00:03:41,799 --> 00:03:51,720
+say a to the m is in h so we
+
+74
+00:03:46,959 --> 00:03:55,439
+write M as some multiple of K plus a
+
+75
+00:03:51,720 --> 00:03:58,480
+remainder with 0 less than or equal to R
+
+76
+00:03:55,439 --> 00:04:01,280
+less than K we use the ukian algorithm
+
+77
+00:03:58,480 --> 00:04:06,519
+to write it that way since a to the
+
+78
+00:04:01,280 --> 00:04:08,720
+m and a to the K to the Q Power are both
+
+79
+00:04:06,519 --> 00:04:08,720
+in
+
+80
+00:04:09,360 --> 00:04:17,959
+h so is a to the
+
+81
+00:04:13,200 --> 00:04:20,880
+r but R is a positive number less than K
+
+82
+00:04:17,959 --> 00:04:24,080
+and the only positive power of
+
+83
+00:04:20,880 --> 00:04:26,160
+a by Def by definition of what K is that
+
+84
+00:04:24,080 --> 00:04:30,000
+lies in H or non- negative power of a
+
+85
+00:04:26,160 --> 00:04:33,000
+that lies in h is the zero power
+
+86
+00:04:30,000 --> 00:04:38,160
+that implies that R is equal to zero so
+
+87
+00:04:33,000 --> 00:04:40,680
+that m is equal to Q * k and a the m is
+
+88
+00:04:38,160 --> 00:04:43,759
+equal to B to the
+
+89
+00:04:40,680 --> 00:04:47,360
+Q and that shows that any element in h
+
+90
+00:04:43,759 --> 00:04:50,280
+is a power of the smallest power of a
+
+91
+00:04:47,360 --> 00:04:52,199
+that lies in h so that H is also cyclic
+
+92
+00:04:50,280 --> 00:04:54,440
+it's not true that anything in h will be
+
+93
+00:04:52,199 --> 00:05:01,639
+a generator so that was a mistake that a
+
+94
+00:04:54,440 --> 00:05:01,639
+lot of people made excuse yeah you say h
+
+95
+00:05:03,120 --> 00:05:08,919
+contains El sorry like that yeah yeah
+
+96
+00:05:07,080 --> 00:05:10,960
+there's some power of a that lies in h
+
+97
+00:05:08,919 --> 00:05:12,320
+if it's not the identity all right
+
+98
+00:05:10,960 --> 00:05:15,800
+number
+
+99
+00:05:12,320 --> 00:05:21,720
+two so the first thing is if H is
+
+100
+00:05:15,800 --> 00:05:23,960
+normal show that GH G is equal to sorry
+
+101
+00:05:21,720 --> 00:05:28,880
+hghh
+
+102
+00:05:23,960 --> 00:05:28,880
+sorry is a is a left coet
+
+103
+00:05:30,240 --> 00:05:36,280
+well if H is normal that implies for
+
+104
+00:05:32,840 --> 00:05:38,479
+every G and G that GH is equal to HG as
+
+105
+00:05:36,280 --> 00:05:38,479
+a
+
+106
+00:05:40,000 --> 00:05:46,080
+set that the left coet of G is the right
+
+107
+00:05:42,720 --> 00:05:50,720
+coet of G so you simply
+
+108
+00:05:46,080 --> 00:05:54,639
+replace this HG here by it's the same as
+
+109
+00:05:50,720 --> 00:05:57,080
+the said GH time H but GH * H by
+
+110
+00:05:54,639 --> 00:05:59,000
+associativity is the same thing as G * H
+
+111
+00:05:57,080 --> 00:06:03,199
+because anything in h * anything in h
+
+112
+00:05:59,000 --> 00:06:03,199
+lies in H so that shows it's a left
+
+113
+00:06:04,039 --> 00:06:08,520
+coent and the SEC the third second part
+
+114
+00:06:06,800 --> 00:06:11,000
+of this problem is a little harder
+
+115
+00:06:08,520 --> 00:06:15,280
+you're supposed to say if H is not
+
+116
+00:06:11,000 --> 00:06:17,639
+normal then this is not equal to GH so
+
+117
+00:06:15,280 --> 00:06:19,680
+let's let's do it this way
+
+118
+00:06:17,639 --> 00:06:23,400
+if
+
+119
+00:06:19,680 --> 00:06:25,720
+hghh is a left
+
+120
+00:06:23,400 --> 00:06:27,919
+coet we're going to prove that H is a
+
+121
+00:06:25,720 --> 00:06:31,560
+normal subgroup well if it is a left
+
+122
+00:06:27,919 --> 00:06:33,000
+coet it must be
+
+123
+00:06:31,560 --> 00:06:34,680
+the
+
+124
+00:06:33,000 --> 00:06:37,800
+coet
+
+125
+00:06:34,680 --> 00:06:39,639
+GH because it contains that coet if you
+
+126
+00:06:37,800 --> 00:06:42,360
+take the first element in h to be the
+
+127
+00:06:39,639 --> 00:06:46,319
+identity element and you take the
+
+128
+00:06:42,360 --> 00:06:49,639
+identity because this is equal to e * GH
+
+129
+00:06:46,319 --> 00:06:52,479
+and E is an element in h so it because
+
+130
+00:06:49,639 --> 00:06:55,759
+it contains
+
+131
+00:06:52,479 --> 00:06:55,759
+because it
+
+132
+00:06:56,599 --> 00:07:01,240
+contains this
+
+133
+00:06:58,520 --> 00:07:04,879
+set so there's only one possible co- set
+
+134
+00:07:01,240 --> 00:07:07,000
+it could be so on the other hand if but
+
+135
+00:07:04,879 --> 00:07:10,440
+then so
+
+136
+00:07:07,000 --> 00:07:12,879
+HGH has to equal the set
+
+137
+00:07:10,440 --> 00:07:18,080
+GH
+
+138
+00:07:12,879 --> 00:07:18,080
+now what this means if you
+
+139
+00:07:21,840 --> 00:07:28,440
+uh so I claim that that means
+
+140
+00:07:25,039 --> 00:07:32,520
+that if you take this right coet this
+
+141
+00:07:28,440 --> 00:07:36,879
+implies that H * G is actually contained
+
+142
+00:07:32,520 --> 00:07:40,720
+in g h
+
+143
+00:07:36,879 --> 00:07:43,680
+because this is a subset of this namely
+
+144
+00:07:40,720 --> 00:07:46,759
+this is H * G * the
+
+145
+00:07:43,680 --> 00:07:49,800
+identity so that this right coet is
+
+146
+00:07:46,759 --> 00:07:53,560
+contained in this left
+
+147
+00:07:49,800 --> 00:07:55,080
+coet in particular conjugating by G G
+
+148
+00:07:53,560 --> 00:08:00,879
+inverse
+
+149
+00:07:55,080 --> 00:08:00,879
+HG is contained in H
+
+150
+00:08:01,639 --> 00:08:04,759
+well that's true for every
+
+151
+00:08:07,000 --> 00:08:11,280
+G because this is assumed to be a left
+
+152
+00:08:09,479 --> 00:08:14,639
+coet for all G and
+
+153
+00:08:11,280 --> 00:08:18,639
+G but that
+
+154
+00:08:14,639 --> 00:08:21,440
+implies in fact that g inverse HG is
+
+155
+00:08:18,639 --> 00:08:24,360
+equal to H for all
+
+156
+00:08:21,440 --> 00:08:26,840
+G because take this identity and
+
+157
+00:08:24,360 --> 00:08:29,800
+multiply it on the left by G and on the
+
+158
+00:08:26,840 --> 00:08:34,839
+right by G inverse you get H is contain
+
+159
+00:08:29,800 --> 00:08:34,839
+in GH G inverse for all
+
+160
+00:08:34,880 --> 00:08:39,839
+G
+
+161
+00:08:37,519 --> 00:08:43,039
+conjugate by uh
+
+162
+00:08:39,839 --> 00:08:45,240
+G and if this is contained in this and
+
+163
+00:08:43,039 --> 00:08:47,040
+this is contained in this for all G then
+
+164
+00:08:45,240 --> 00:08:48,480
+this is contained in this which is
+
+165
+00:08:47,040 --> 00:08:50,360
+contained in the same thing for G
+
+166
+00:08:48,480 --> 00:08:54,480
+replaced by G inverse so they have to be
+
+167
+00:08:50,360 --> 00:08:54,480
+equal and this means that H is
+
+168
+00:08:55,600 --> 00:09:00,519
+normal so if this were a left coet for
+
+169
+00:08:58,519 --> 00:09:02,279
+all G then we've just proved that H is
+
+170
+00:09:00,519 --> 00:09:06,279
+normal so if it isn't normal there has
+
+171
+00:09:02,279 --> 00:09:06,279
+to be some G for which this isn't a left
+
+172
+00:09:06,560 --> 00:09:11,480
+coet Okay the third problem most people
+
+173
+00:09:09,320 --> 00:09:14,519
+got it wasn't that hard it's really a
+
+174
+00:09:11,480 --> 00:09:18,440
+definition of what it means to be equal
+
+175
+00:09:14,519 --> 00:09:24,800
+in a quotient group so the third
+
+176
+00:09:18,440 --> 00:09:24,800
+problem suppose if xar commutes
+
+177
+00:09:25,079 --> 00:09:29,800
+with Y
+
+178
+00:09:27,120 --> 00:09:33,000
+Bar in
+
+179
+00:09:29,800 --> 00:09:35,440
+GM n which is G bar that's just the
+
+180
+00:09:33,000 --> 00:09:39,800
+statement that the coet
+
+181
+00:09:35,440 --> 00:09:42,680
+XY is the same as the coet
+
+182
+00:09:39,800 --> 00:09:46,560
+YX so this is an equivalent way of
+
+183
+00:09:42,680 --> 00:09:48,959
+stating it because this is what xar * Y
+
+184
+00:09:46,560 --> 00:09:51,800
+Bar is as a coet and this is what Y Bar
+
+185
+00:09:48,959 --> 00:09:52,959
+xar is as a coet but this is the same
+
+186
+00:09:51,800 --> 00:09:55,279
+thing if you
+
+187
+00:09:52,959 --> 00:09:59,440
+multiply let's see how we do this let's
+
+188
+00:09:55,279 --> 00:10:01,800
+multiply on the left by X inverse YN is
+
+189
+00:09:59,440 --> 00:10:04,760
+equal to X inverse
+
+190
+00:10:01,800 --> 00:10:10,399
+yxn and then multiply on the left by y
+
+191
+00:10:04,760 --> 00:10:14,120
+inverse n is equal to Y inverse X
+
+192
+00:10:10,399 --> 00:10:17,440
+yxn and if the coet of this is the is n
+
+193
+00:10:14,120 --> 00:10:19,880
+that means that this is an element in
+
+194
+00:10:17,440 --> 00:10:21,480
+N did I do this right is that what we
+
+195
+00:10:19,880 --> 00:10:24,959
+were supposed to prove I think I did it
+
+196
+00:10:21,480 --> 00:10:27,600
+the other way around sorry I apologize
+
+197
+00:10:24,959 --> 00:10:30,760
+um let's do it again so let's instead
+
+198
+00:10:27,600 --> 00:10:32,880
+multiply this by y inverse so I get
+
+199
+00:10:30,760 --> 00:10:35,279
+exactly the statement that I put up
+
+200
+00:10:32,880 --> 00:10:40,480
+apologies I did it the wrong way y
+
+201
+00:10:35,279 --> 00:10:43,000
+inverse X YN is equal to xn and then
+
+202
+00:10:40,480 --> 00:10:47,040
+that's the same thing as X inverse y
+
+203
+00:10:43,000 --> 00:10:51,519
+inverse X YN is equal to n which is the
+
+204
+00:10:47,040 --> 00:10:54,200
+same thing as X inverse y inverse XY is
+
+205
+00:10:51,519 --> 00:10:57,000
+In N and all these steps are reversible
+
+206
+00:10:54,200 --> 00:10:58,839
+so that's the that's the problem three
+
+207
+00:10:57,000 --> 00:11:00,760
+now this element is sometimes called the
+
+208
+00:10:58,839 --> 00:11:03,440
+commut of X and Y you'll see it in the
+
+209
+00:11:00,760 --> 00:11:06,639
+literature written that
+
+210
+00:11:03,440 --> 00:11:08,360
+way okay that's problem three problem
+
+211
+00:11:06,639 --> 00:11:10,760
+four people got the definition of the
+
+212
+00:11:08,360 --> 00:11:12,760
+center right but then had trouble with
+
+213
+00:11:10,760 --> 00:11:15,480
+the rest of the problem so the
+
+214
+00:11:12,760 --> 00:11:15,480
+definition of the
+
+215
+00:11:16,240 --> 00:11:25,279
+center consists of all elements Z such
+
+216
+00:11:19,519 --> 00:11:26,720
+that zg is equal to gz for all G and Z
+
+217
+00:11:25,279 --> 00:11:28,760
+the things that commute with every
+
+218
+00:11:26,720 --> 00:11:31,800
+element now suppose you have a unique
+
+219
+00:11:28,760 --> 00:11:34,959
+element of order two first of all if Z
+
+220
+00:11:31,800 --> 00:11:34,959
+let's say a has order
+
+221
+00:11:35,720 --> 00:11:43,720
+two in G then I claim that g AJ inverse
+
+222
+00:11:41,200 --> 00:11:43,720
+has order
+
+223
+00:11:44,680 --> 00:11:48,959
+two the conjugate of any element of
+
+224
+00:11:47,120 --> 00:11:50,399
+order two has order two in particular in
+
+225
+00:11:48,959 --> 00:11:52,959
+general the conjugate of an element of
+
+226
+00:11:50,399 --> 00:11:54,480
+order n has order n conjugation is an
+
+227
+00:11:52,959 --> 00:11:56,760
+automorphism of the group so it
+
+228
+00:11:54,480 --> 00:11:58,320
+preserves everything like order well you
+
+229
+00:11:56,760 --> 00:12:01,240
+can prove this rather easily you just
+
+230
+00:11:58,320 --> 00:12:01,240
+Square the element
+
+231
+00:12:03,760 --> 00:12:09,000
+and these two things cancel so you get g
+
+232
+00:12:06,480 --> 00:12:11,839
+a s g
+
+233
+00:12:09,000 --> 00:12:14,279
+inverse which is just g g inverse
+
+234
+00:12:11,839 --> 00:12:16,440
+because a^ squ is one which is e which
+
+235
+00:12:14,279 --> 00:12:18,639
+shows that the square of this element is
+
+236
+00:12:16,440 --> 00:12:19,839
+one but this element can't be one
+
+237
+00:12:18,639 --> 00:12:22,279
+because you can't conjugate a
+
+238
+00:12:19,839 --> 00:12:25,360
+non-trivial element into the
+
+239
+00:12:22,279 --> 00:12:27,440
+identity so it has order two well if it
+
+240
+00:12:25,360 --> 00:12:29,920
+has order two and there's a unique
+
+241
+00:12:27,440 --> 00:12:31,519
+element of order two
+
+242
+00:12:29,920 --> 00:12:33,199
+and this is what most people didn't use
+
+243
+00:12:31,519 --> 00:12:34,880
+in the problem you can't just get it out
+
+244
+00:12:33,199 --> 00:12:38,440
+of the fact that the conjugate has order
+
+245
+00:12:34,880 --> 00:12:42,800
+to if a is unique that implies that g a
+
+246
+00:12:38,440 --> 00:12:45,199
+g inverse is equal to a for all
+
+247
+00:12:42,800 --> 00:12:49,480
+G because that's another element of
+
+248
+00:12:45,199 --> 00:12:53,920
+order two which means that GA is equal
+
+249
+00:12:49,480 --> 00:12:56,240
+to AG for all G which implies that a is
+
+250
+00:12:53,920 --> 00:12:56,240
+in the
+
+251
+00:12:56,920 --> 00:13:01,399
+center this argument by the way this the
+
+252
+00:12:59,600 --> 00:13:02,720
+argument you can show that used to show
+
+253
+00:13:01,399 --> 00:13:06,040
+that the conjugate of an element of
+
+254
+00:13:02,720 --> 00:13:08,519
+order n has order n again you multiply
+
+255
+00:13:06,040 --> 00:13:08,519
+it n
+
+256
+00:13:14,440 --> 00:13:19,760
+times n
+
+257
+00:13:17,040 --> 00:13:22,160
+times and then you all the internal G's
+
+258
+00:13:19,760 --> 00:13:25,680
+and G inverses cancel and you get G A to
+
+259
+00:13:22,160 --> 00:13:27,320
+the n g inverse which is the identity if
+
+260
+00:13:25,680 --> 00:13:29,120
+a to the N is the identity and then you
+
+261
+00:13:27,320 --> 00:13:30,680
+can do that for all G so that shows that
+
+262
+00:13:29,120 --> 00:13:33,600
+that has exact order
+
+263
+00:13:30,680 --> 00:13:35,440
+in okay so this is unique can you have a
+
+264
+00:13:33,600 --> 00:13:37,880
+unique element of order three so almost
+
+265
+00:13:35,440 --> 00:13:39,360
+everyone got that you can't because if
+
+266
+00:13:37,880 --> 00:13:42,959
+you have an element of order three it
+
+267
+00:13:39,360 --> 00:13:42,959
+generates a cyclic group of order
+
+268
+00:13:43,760 --> 00:13:48,240
+three so you get a little subgroup that
+
+269
+00:13:46,120 --> 00:13:51,079
+looks like e a a
+
+270
+00:13:48,240 --> 00:13:53,560
+squ and you find that this element also
+
+271
+00:13:51,079 --> 00:13:53,560
+has order
+
+272
+00:13:53,680 --> 00:13:58,399
+three in fact a squ is the same as a
+
+273
+00:13:56,279 --> 00:14:00,199
+inverse a and a inverse always have the
+
+274
+00:13:58,399 --> 00:14:02,279
+same order so the only way it could
+
+275
+00:14:00,199 --> 00:14:03,720
+possibly be unique is if a is equal to a
+
+276
+00:14:02,279 --> 00:14:05,240
+inverse which means that a has to have
+
+277
+00:14:03,720 --> 00:14:06,959
+order two if you have an element of
+
+278
+00:14:05,240 --> 00:14:09,880
+order four it can't be unique an element
+
+279
+00:14:06,959 --> 00:14:12,800
+of order five can't be unique so that's
+
+280
+00:14:09,880 --> 00:14:15,600
+a is not equal to a squ so you can't
+
+281
+00:14:12,800 --> 00:14:17,160
+have a unique element of order three but
+
+282
+00:14:15,600 --> 00:14:18,480
+these elements frequently come up we're
+
+283
+00:14:17,160 --> 00:14:20,079
+going to see groups which have unique
+
+284
+00:14:18,480 --> 00:14:23,120
+elements of order to so you get an
+
+285
+00:14:20,079 --> 00:14:23,120
+interesting element in the
+
+286
+00:14:23,399 --> 00:14:31,519
+center okay problem four almost everyone
+
+287
+00:14:27,800 --> 00:14:34,040
+got that was the question on uh the
+
+288
+00:14:31,519 --> 00:14:37,600
+symmetric matrices so I'll just it's
+
+289
+00:14:34,040 --> 00:14:42,920
+it's so if a is equal to a
+
+290
+00:14:37,600 --> 00:14:45,600
+IJ where AI J is Aji this is clearly
+
+291
+00:14:42,920 --> 00:14:45,600
+closed under
+
+292
+00:14:45,880 --> 00:14:51,639
+addition and scalar
+
+293
+00:14:49,160 --> 00:14:55,480
+multiplication and uh contains the zero
+
+294
+00:14:51,639 --> 00:14:55,480
+element so it's a
+
+295
+00:14:56,120 --> 00:15:00,800
+Subspace that was easy and then the
+
+296
+00:14:59,040 --> 00:15:02,440
+Dimension isn't hard either because if
+
+297
+00:15:00,800 --> 00:15:04,279
+you think about it such a matrix is
+
+298
+00:15:02,440 --> 00:15:06,839
+completely determined by the entries on
+
+299
+00:15:04,279 --> 00:15:08,399
+the diagonal and above the diagonal once
+
+300
+00:15:06,839 --> 00:15:10,440
+you have these entries of the Matrix
+
+301
+00:15:08,399 --> 00:15:11,519
+they determine everything else so you
+
+302
+00:15:10,440 --> 00:15:13,399
+just have to count how many
+
+303
+00:15:11,519 --> 00:15:15,560
+possibilities are there for matrices on
+
+304
+00:15:13,399 --> 00:15:18,199
+the diagonal Etc and the number of
+
+305
+00:15:15,560 --> 00:15:19,920
+entries in this diagonal is n and here
+
+306
+00:15:18,199 --> 00:15:21,720
+we have n minus one entries and here we
+
+307
+00:15:19,920 --> 00:15:26,399
+have n minus 2 entries all the way down
+
+308
+00:15:21,720 --> 00:15:30,519
+to one entry so the dimension is 1 + 2
+
+309
+00:15:26,399 --> 00:15:33,199
+++ N which is n * n + 1 over two a
+
+310
+00:15:30,519 --> 00:15:33,199
+little bit more than
+
+311
+00:15:33,360 --> 00:15:40,079
+n^2 okay and uh problem six most people
+
+312
+00:15:37,639 --> 00:15:41,240
+got oh I'm sorry then you have to I
+
+313
+00:15:40,079 --> 00:15:42,880
+asked whether it was closed under
+
+314
+00:15:41,240 --> 00:15:44,880
+multiplication so I got all kinds of
+
+315
+00:15:42,880 --> 00:15:47,839
+abstract arguments here but all you have
+
+316
+00:15:44,880 --> 00:15:50,399
+to do is write down an example so an
+
+317
+00:15:47,839 --> 00:15:52,079
+example if you do this if you multiply
+
+318
+00:15:50,399 --> 00:15:54,920
+this by this
+
+319
+00:15:52,079 --> 00:15:56,560
+Matrix these are both symmetric matrices
+
+320
+00:15:54,920 --> 00:16:00,920
+but when you take the matrix product you
+
+321
+00:15:56,560 --> 00:16:00,920
+get this which is not symmetric
+
+322
+00:16:01,279 --> 00:16:06,399
+some people gave me the general 2x2 *
+
+323
+00:16:03,839 --> 00:16:08,399
+the general 2x2 they got a 2X two Matrix
+
+324
+00:16:06,399 --> 00:16:10,319
+here and they said well it doesn't look
+
+325
+00:16:08,399 --> 00:16:12,720
+equal but I don't know that I mean it's
+
+326
+00:16:10,319 --> 00:16:13,800
+some funny combinations of A's and B's
+
+327
+00:16:12,720 --> 00:16:16,199
+you actually actually have to give me
+
+328
+00:16:13,800 --> 00:16:18,560
+numbers other people said well if it
+
+329
+00:16:16,199 --> 00:16:20,839
+were closed under multiplication then by
+
+330
+00:16:18,560 --> 00:16:23,680
+taking transpose I would have AB is
+
+331
+00:16:20,839 --> 00:16:25,120
+equal to ba for all elements in the
+
+332
+00:16:23,680 --> 00:16:27,440
+group and since we know matrix
+
+333
+00:16:25,120 --> 00:16:29,160
+multiplication isn't commutative then
+
+334
+00:16:27,440 --> 00:16:31,279
+that can't happen well we don't know
+
+335
+00:16:29,160 --> 00:16:33,959
+that symmetric matrix multiplication is
+
+336
+00:16:31,279 --> 00:16:35,279
+Inc commutative it's a a picky point but
+
+337
+00:16:33,959 --> 00:16:37,519
+it's so much easier when you're trying
+
+338
+00:16:35,279 --> 00:16:38,720
+to give a counter example to a statement
+
+339
+00:16:37,519 --> 00:16:40,759
+just give an
+
+340
+00:16:38,720 --> 00:16:43,279
+example less Theory when you're trying
+
+341
+00:16:40,759 --> 00:16:47,000
+to prove something that's when you need
+
+342
+00:16:43,279 --> 00:16:48,639
+Theory okay and then finally problem six
+
+343
+00:16:47,000 --> 00:16:51,240
+which almost everyone realized once you
+
+344
+00:16:48,639 --> 00:16:55,120
+wrote down the bje it was pretty clear
+
+345
+00:16:51,240 --> 00:16:58,399
+so we had the vector space f to the
+
+346
+00:16:55,120 --> 00:17:00,279
+n and we want to give a a bje between
+
+347
+00:16:58,399 --> 00:17:04,319
+the set of
+
+348
+00:17:00,279 --> 00:17:05,720
+bases and uh gnf so F first of all most
+
+349
+00:17:04,319 --> 00:17:07,520
+people forgot the first part of the
+
+350
+00:17:05,720 --> 00:17:09,520
+problem to actually Define this group I
+
+351
+00:17:07,520 --> 00:17:15,280
+didn't take too much off but this is
+
+352
+00:17:09,520 --> 00:17:19,079
+going to be the set of a which are n byn
+
+353
+00:17:15,280 --> 00:17:19,079
+matrices with entries in
+
+354
+00:17:19,600 --> 00:17:26,120
+F and determinant of a not equal to zero
+
+355
+00:17:24,360 --> 00:17:28,439
+under
+
+356
+00:17:26,120 --> 00:17:30,840
+multiplication that's the definition of
+
+357
+00:17:28,439 --> 00:17:30,840
+the group
+
+358
+00:17:31,679 --> 00:17:37,880
+gnf and we want to map between bases and
+
+359
+00:17:35,000 --> 00:17:42,679
+elements in gnf and the the idea is if
+
+360
+00:17:37,880 --> 00:17:45,480
+you take a basis an ordered basis V1 VN
+
+361
+00:17:42,679 --> 00:17:47,679
+and you define F of that basis to be the
+
+362
+00:17:45,480 --> 00:17:49,679
+Matrix where the First Column is the
+
+363
+00:17:47,679 --> 00:17:52,440
+entries of V1 and the second column is
+
+364
+00:17:49,679 --> 00:17:55,200
+the entries of V2 and the last column is
+
+365
+00:17:52,440 --> 00:17:57,799
+the entries of VN that gives you an N
+
+366
+00:17:55,200 --> 00:17:59,799
+byn Matrix since these elements are
+
+367
+00:17:57,799 --> 00:18:02,240
+linearly independent dep because it's a
+
+368
+00:17:59,799 --> 00:18:04,480
+basis these columns are linearly
+
+369
+00:18:02,240 --> 00:18:06,159
+independent so that that people could
+
+370
+00:18:04,480 --> 00:18:08,640
+quote shows that the determinant of the
+
+371
+00:18:06,159 --> 00:18:11,919
+Matrix is non zero so that's a map
+
+372
+00:18:08,640 --> 00:18:15,200
+between bases and elements in gnf it's
+
+373
+00:18:11,919 --> 00:18:16,919
+clearly a one toone map because the if
+
+374
+00:18:15,200 --> 00:18:18,600
+if you know what the Matrix is you know
+
+375
+00:18:16,919 --> 00:18:21,200
+all the entries of the bases so you know
+
+376
+00:18:18,600 --> 00:18:23,919
+the bases no two M bases would go to the
+
+377
+00:18:21,200 --> 00:18:26,200
+same Matrix and it's on to because if I
+
+378
+00:18:23,919 --> 00:18:28,480
+take any invertible Matrix and I just
+
+379
+00:18:26,200 --> 00:18:30,679
+can take the the First Column as my
+
+380
+00:18:28,480 --> 00:18:32,440
+first basis Vector in FN and the second
+
+381
+00:18:30,679 --> 00:18:34,559
+column is my second basis Vector the
+
+382
+00:18:32,440 --> 00:18:36,440
+fact that the Matrix is invertible says
+
+383
+00:18:34,559 --> 00:18:39,400
+that the elements these n elements are
+
+384
+00:18:36,440 --> 00:18:42,640
+linearly independent so give a
+
+385
+00:18:39,400 --> 00:18:44,760
+basis that was all I needed for that now
+
+386
+00:18:42,640 --> 00:18:46,320
+for those of you who tried the last one
+
+387
+00:18:44,760 --> 00:18:48,280
+and there were one or two people who
+
+388
+00:18:46,320 --> 00:18:51,480
+tried it I'm not sure anyone one or two
+
+389
+00:18:48,280 --> 00:18:53,200
+people got it you use this problem to do
+
+390
+00:18:51,480 --> 00:18:56,120
+it that's the best way to do it namely
+
+391
+00:18:53,200 --> 00:18:59,039
+to to calculate the order of the group
+
+392
+00:18:56,120 --> 00:19:01,799
+gln of zmod pz
+
+393
+00:18:59,039 --> 00:19:04,280
+you have to calculate the number of
+
+394
+00:19:01,799 --> 00:19:04,280
+ordered
+
+395
+00:19:05,840 --> 00:19:11,400
+bases of Z
+
+396
+00:19:08,240 --> 00:19:13,799
+pz to the N
+
+397
+00:19:11,400 --> 00:19:15,400
+power well why would that be any easier
+
+398
+00:19:13,799 --> 00:19:17,080
+than calculating this well let's try to
+
+399
+00:19:15,400 --> 00:19:19,880
+make a basis the first thing we have to
+
+400
+00:19:17,080 --> 00:19:21,400
+do is choose our first basis Vector so
+
+401
+00:19:19,880 --> 00:19:24,200
+that could that's got to be a vector in
+
+402
+00:19:21,400 --> 00:19:26,039
+this space and the only thing it it has
+
+403
+00:19:24,200 --> 00:19:27,520
+to be is linearly independent from zero
+
+404
+00:19:26,039 --> 00:19:29,200
+we're going to build a basis by keeping
+
+405
+00:19:27,520 --> 00:19:31,400
+adding linearly independ dependent
+
+406
+00:19:29,200 --> 00:19:33,960
+elements so the first thing is just some
+
+407
+00:19:31,400 --> 00:19:38,039
+non-zero Vector in there and there are P
+
+408
+00:19:33,960 --> 00:19:40,000
+the N minus one choices for that first
+
+409
+00:19:38,039 --> 00:19:42,600
+Vector right because there are P to the
+
+410
+00:19:40,000 --> 00:19:44,080
+N vectors here and only one is zero and
+
+411
+00:19:42,600 --> 00:19:46,559
+then if we're going to make the we will
+
+412
+00:19:44,080 --> 00:19:48,919
+have to choose a basis Vector V2 we want
+
+413
+00:19:46,559 --> 00:19:53,880
+it linearly
+
+414
+00:19:48,919 --> 00:19:56,640
+independent from V1 IE not on the line
+
+415
+00:19:53,880 --> 00:19:58,360
+Spann by V1 so there are P to the N
+
+416
+00:19:56,640 --> 00:20:01,080
+total vectors in here and there are P
+
+417
+00:19:58,360 --> 00:20:04,919
+vector on the line Spann by V1 so there
+
+418
+00:20:01,080 --> 00:20:06,600
+are P to the N minus P choices for v2
+
+419
+00:20:04,919 --> 00:20:08,640
+and then if we want to choose V3 it
+
+420
+00:20:06,600 --> 00:20:11,679
+better be linearly dependent from the
+
+421
+00:20:08,640 --> 00:20:15,240
+the plane Spann by V1 and V2 and there
+
+422
+00:20:11,679 --> 00:20:17,559
+are P to the N minus p^2 choices for the
+
+423
+00:20:15,240 --> 00:20:19,000
+vector V3 because they are P to the N
+
+424
+00:20:17,559 --> 00:20:21,159
+vectors total and these are the number
+
+425
+00:20:19,000 --> 00:20:24,120
+of vectors in the plane spanned by V1
+
+426
+00:20:21,159 --> 00:20:27,320
+and V2 we keep going down and the last
+
+427
+00:20:24,120 --> 00:20:30,080
+best Vector is p the N minus P the N
+
+428
+00:20:27,320 --> 00:20:31,919
+minus1 so the total number of bases is
+
+429
+00:20:30,080 --> 00:20:33,720
+the product of this number of choices
+
+430
+00:20:31,919 --> 00:20:38,080
+times this number of choices times this
+
+431
+00:20:33,720 --> 00:20:43,000
+times this so it's p the N minus 1 sorry
+
+432
+00:20:38,080 --> 00:20:46,320
+P the N minus 1 P the N minus P down to
+
+433
+00:20:43,000 --> 00:20:48,120
+P the N minus P the n minus1 and if you
+
+434
+00:20:46,320 --> 00:20:54,919
+factor out all the powers of P you get
+
+435
+00:20:48,120 --> 00:21:00,679
+you get P to the n * n-1 / 2 * P the
+
+436
+00:20:54,919 --> 00:21:03,760
+nus1 P the N -1 - 1 down to P minus
+
+437
+00:21:00,679 --> 00:21:06,600
+one so in particular if you wanted to do
+
+438
+00:21:03,760 --> 00:21:09,720
+the order of the finite group GL2 over
+
+439
+00:21:06,600 --> 00:21:15,600
+Zod P 2x two invertible matrices it
+
+440
+00:21:09,720 --> 00:21:15,600
+would be P * P ^2 - 1 * P
+
+441
+00:21:16,360 --> 00:21:20,080
+minus1 we're going to come back to this
+
+442
+00:21:18,480 --> 00:21:21,720
+finite group later it's an important
+
+443
+00:21:20,080 --> 00:21:24,440
+group to do and the best way to count
+
+444
+00:21:21,720 --> 00:21:26,880
+its order is to use this bje of sets
+
+445
+00:21:24,440 --> 00:21:28,320
+namely to forget that it's a group and
+
+446
+00:21:26,880 --> 00:21:31,559
+to think of it as counting the number of
+
+447
+00:21:28,320 --> 00:21:33,760
+way of assembling a basis of this Vector
+
+448
+00:21:31,559 --> 00:21:35,159
+space there was no extra credit given
+
+449
+00:21:33,760 --> 00:21:37,360
+for that but I thought you might find it
+
+450
+00:21:35,159 --> 00:21:40,039
+amusing if you had time nobody had any
+
+451
+00:21:37,360 --> 00:21:42,120
+time so I will try to as I say construct
+
+452
+00:21:40,039 --> 00:21:43,720
+the next exam so that it not only tests
+
+453
+00:21:42,120 --> 00:21:45,320
+the material but gives you enough time
+
+454
+00:21:43,720 --> 00:21:47,480
+to think about it many many people
+
+455
+00:21:45,320 --> 00:21:49,960
+complain that they just were sort of too
+
+456
+00:21:47,480 --> 00:21:53,400
+frazzled and I know the feeling I'm very
+
+457
+00:21:49,960 --> 00:21:56,960
+slow myself so uh I will try to set it
+
+458
+00:21:53,400 --> 00:21:58,640
+up questions about this do not get
+
+459
+00:21:56,960 --> 00:22:00,520
+discouraged I don't think anybody in the
+
+460
+00:21:58,640 --> 00:22:02,480
+course is seriously lost this is all a
+
+461
+00:22:00,520 --> 00:22:04,320
+process of learning a language if you're
+
+462
+00:22:02,480 --> 00:22:06,080
+as I say if you're in if you're in this
+
+463
+00:22:04,320 --> 00:22:09,480
+range you're doing fine if you're down
+
+464
+00:22:06,080 --> 00:22:09,480
+here I think you need a little bit more
+
+465
+00:22:09,960 --> 00:22:13,720
+practice okay now we're going to get
+
+466
+00:22:12,200 --> 00:22:15,400
+started and we're going to with the
+
+467
+00:22:13,720 --> 00:22:17,000
+linear algebra that we have at our
+
+468
+00:22:15,400 --> 00:22:19,440
+disposal we're going to go back and
+
+469
+00:22:17,000 --> 00:22:22,000
+construct some very interesting groups
+
+470
+00:22:19,440 --> 00:22:23,600
+and start to study a a beautiful
+
+471
+00:22:22,000 --> 00:22:25,679
+relationship that was discovered in the
+
+472
+00:22:23,600 --> 00:22:28,520
+end of the 19th century between group
+
+473
+00:22:25,679 --> 00:22:30,559
+Theory and geometry almost all of GE
+
+474
+00:22:28,520 --> 00:22:33,279
+geometry is now formulated in terms of
+
+475
+00:22:30,559 --> 00:22:36,320
+group Theory many of you may have been
+
+476
+00:22:33,279 --> 00:22:38,240
+reading in the Popular Science press
+
+477
+00:22:36,320 --> 00:22:39,840
+some mathematicians and astronomers have
+
+478
+00:22:38,240 --> 00:22:41,960
+come up with a model for the shape of
+
+479
+00:22:39,840 --> 00:22:44,640
+the universe which is all based on group
+
+480
+00:22:41,960 --> 00:22:48,799
+Theory based on a do decahedron the
+
+481
+00:22:44,640 --> 00:22:50,600
+universe is a soccer ball um anyhow U I
+
+482
+00:22:48,799 --> 00:22:51,679
+don't actually believe their model and I
+
+483
+00:22:50,600 --> 00:22:53,799
+think that when they look at a little
+
+484
+00:22:51,679 --> 00:22:58,039
+bit more data that's come in from the
+
+485
+00:22:53,799 --> 00:22:59,640
+from the um from the various radio uh uh
+
+486
+00:22:58,039 --> 00:23:01,000
+telesc Scopes that are orbiting that
+
+487
+00:22:59,640 --> 00:23:04,320
+they'll contradict it but it's an
+
+488
+00:23:01,000 --> 00:23:04,320
+interesting uh
+
+489
+00:23:05,240 --> 00:23:08,880
+hypothesis yeah that it's finite and
+
+490
+00:23:07,559 --> 00:23:10,200
+that you should be able to look out in
+
+491
+00:23:08,880 --> 00:23:12,559
+this direction and see something that
+
+492
+00:23:10,200 --> 00:23:14,840
+you saw back in that direction yeah if
+
+493
+00:23:12,559 --> 00:23:16,640
+you look on the do they really believe
+
+494
+00:23:14,840 --> 00:23:18,960
+it yeah there's an article in there's an
+
+495
+00:23:16,640 --> 00:23:20,720
+article no no no no Kepler had this
+
+496
+00:23:18,960 --> 00:23:23,600
+wonderful model
+
+497
+00:23:20,720 --> 00:23:25,559
+where yeah but Kepler also believed for
+
+498
+00:23:23,600 --> 00:23:27,600
+all of his for all of his science he
+
+499
+00:23:25,559 --> 00:23:30,039
+believed that the the the solar system
+
+500
+00:23:27,600 --> 00:23:32,400
+was organized by inscribing platonic
+
+501
+00:23:30,039 --> 00:23:34,240
+solids into other platonic solids I mean
+
+502
+00:23:32,400 --> 00:23:36,159
+there was there was a lot of mysticism
+
+503
+00:23:34,240 --> 00:23:37,799
+back then so mathematicians still
+
+504
+00:23:36,159 --> 00:23:40,679
+believe that there should be some very
+
+505
+00:23:37,799 --> 00:23:43,000
+simple three-dimensional geometric shape
+
+506
+00:23:40,679 --> 00:23:44,919
+that describes a finite universe and the
+
+507
+00:23:43,000 --> 00:23:46,520
+astronomers keep coming up with data
+
+508
+00:23:44,919 --> 00:23:48,799
+that contradict this but never mind
+
+509
+00:23:46,520 --> 00:23:51,039
+their data um so if you look on the
+
+510
+00:23:48,799 --> 00:23:52,559
+cover of I believe nature which in which
+
+511
+00:23:51,039 --> 00:23:54,000
+the article published this month there's
+
+512
+00:23:52,559 --> 00:23:55,760
+a description of it I know the guy who
+
+513
+00:23:54,000 --> 00:23:57,720
+wrote the article Bill Meeks he's been
+
+514
+00:23:55,760 --> 00:23:59,120
+proposing this for some time and they're
+
+515
+00:23:57,720 --> 00:24:00,679
+just getting enough
+
+516
+00:23:59,120 --> 00:24:02,799
+um they're just getting enough data from
+
+517
+00:24:00,679 --> 00:24:06,520
+all these orbiting satellites to
+
+518
+00:24:02,799 --> 00:24:10,159
+actually test it okay now we have this
+
+519
+00:24:06,520 --> 00:24:11,400
+group that I call gln of f for any field
+
+520
+00:24:10,159 --> 00:24:13,039
+now we're going to define a very
+
+521
+00:24:11,400 --> 00:24:15,360
+interesting subgroup of it which I'm
+
+522
+00:24:13,039 --> 00:24:16,960
+going to call o n of F and then we're
+
+523
+00:24:15,360 --> 00:24:19,640
+going to define a subgroup of that which
+
+524
+00:24:16,960 --> 00:24:22,360
+I'm going to call s o n of F and that
+
+525
+00:24:19,640 --> 00:24:22,360
+works for any
+
+526
+00:24:23,200 --> 00:24:28,080
+field and we're going to show that they
+
+527
+00:24:25,799 --> 00:24:29,880
+have some interesting matrices in it and
+
+528
+00:24:28,080 --> 00:24:32,840
+then we're going to take a look at this
+
+529
+00:24:29,880 --> 00:24:32,840
+when f is equal to
+
+530
+00:24:33,440 --> 00:24:40,240
+R it's related to
+
+531
+00:24:36,200 --> 00:24:40,240
+geometry in fact ukian
+
+532
+00:24:40,919 --> 00:24:45,080
+geometry this group by the way this
+
+533
+00:24:43,760 --> 00:24:48,679
+sometimes is called the general linear
+
+534
+00:24:45,080 --> 00:24:48,679
+group these are called the orthogonal
+
+535
+00:24:49,440 --> 00:24:54,880
+groups that's why the O and this so
+
+536
+00:24:53,240 --> 00:24:56,360
+stands for special orthogonal group
+
+537
+00:24:54,880 --> 00:24:58,840
+you'll see what that is that's a normal
+
+538
+00:24:56,360 --> 00:25:01,039
+subgroup of the orthogonal group
+
+539
+00:24:58,840 --> 00:25:03,480
+and in fact the index is two so it's
+
+540
+00:25:01,039 --> 00:25:05,760
+rather simple okay so here's the
+
+541
+00:25:03,480 --> 00:25:07,960
+definition of this group the first thing
+
+542
+00:25:05,760 --> 00:25:10,440
+we do is we take our Vector space V
+
+543
+00:25:07,960 --> 00:25:12,399
+which is f to the n and this group is
+
+544
+00:25:10,440 --> 00:25:14,600
+just the linear maps from V to V which
+
+545
+00:25:12,399 --> 00:25:16,559
+are isomorphisms so we're going to get a
+
+546
+00:25:14,600 --> 00:25:19,320
+subgroup by putting some more structure
+
+547
+00:25:16,559 --> 00:25:21,000
+on V some more structure and then just
+
+548
+00:25:19,320 --> 00:25:26,039
+looking at the subgroup that preserves
+
+549
+00:25:21,000 --> 00:25:26,039
+that structure so we put
+
+550
+00:25:26,559 --> 00:25:32,080
+additional structure
+
+551
+00:25:30,120 --> 00:25:33,720
+on V and the structure we're going to
+
+552
+00:25:32,080 --> 00:25:35,880
+put on it is an inner product we're
+
+553
+00:25:33,720 --> 00:25:38,279
+going to take two vectors and give you
+
+554
+00:25:35,880 --> 00:25:38,279
+an a
+
+555
+00:25:41,000 --> 00:25:44,880
+scalar so when you take courses and
+
+556
+00:25:43,480 --> 00:25:46,559
+calculus these things are called inner
+
+557
+00:25:44,880 --> 00:25:49,159
+products more generally they're called
+
+558
+00:25:46,559 --> 00:25:49,159
+bilinear
+
+559
+00:25:50,360 --> 00:25:54,360
+forms all right so we're going to Define
+
+560
+00:25:52,520 --> 00:25:56,080
+an extra thing that that that takes two
+
+561
+00:25:54,360 --> 00:25:58,360
+vectors and coughs up a scalar and
+
+562
+00:25:56,080 --> 00:26:01,840
+here's the definition the vector itself
+
+563
+00:25:58,360 --> 00:26:01,840
+is an end Tuple of elements in
+
+564
+00:26:02,720 --> 00:26:08,159
+F and the vector W is an end Tuple of
+
+565
+00:26:05,679 --> 00:26:08,159
+elements in
+
+566
+00:26:08,240 --> 00:26:13,640
+F and the definition of this inner
+
+567
+00:26:10,640 --> 00:26:15,919
+product is what you did in calculus A1
+
+568
+00:26:13,640 --> 00:26:20,520
+B1 plus A2
+
+569
+00:26:15,919 --> 00:26:23,039
+B2 plus plus a n BN so it's some weird
+
+570
+00:26:20,520 --> 00:26:24,559
+form of the product you take the product
+
+571
+00:26:23,039 --> 00:26:25,880
+of the first two elements then you add
+
+572
+00:26:24,559 --> 00:26:27,159
+it to the product of the second two
+
+573
+00:26:25,880 --> 00:26:28,520
+elements then you add it to the product
+
+574
+00:26:27,159 --> 00:26:30,240
+of the third if we were just in a
+
+575
+00:26:28,520 --> 00:26:31,080
+one-dimensional vector space it would be
+
+576
+00:26:30,240 --> 00:26:34,159
+the
+
+577
+00:26:31,080 --> 00:26:39,720
+product it just be A1 *
+
+578
+00:26:34,159 --> 00:26:39,720
+B1 okay and we Define o
+
+579
+00:26:39,960 --> 00:26:47,480
+n to be the elements a in
+
+580
+00:26:44,559 --> 00:26:49,000
+gnf that preserve the inner product such
+
+581
+00:26:47,480 --> 00:26:52,159
+that when you take the inner product of
+
+582
+00:26:49,000 --> 00:26:53,840
+Av with aw it's the same as the inner
+
+583
+00:26:52,159 --> 00:26:57,240
+product of V with
+
+584
+00:26:53,840 --> 00:27:00,480
+W that looks like a weird thing to do
+
+585
+00:26:57,240 --> 00:27:00,480
+but I claim that this is is a
+
+586
+00:27:02,480 --> 00:27:07,480
+subgroup so everyone AV means you apply
+
+587
+00:27:05,320 --> 00:27:11,000
+the Matrix a to the vector v and you get
+
+588
+00:27:07,480 --> 00:27:13,760
+another Vector you multiply
+
+589
+00:27:11,000 --> 00:27:15,480
+right so this would really be a * V
+
+590
+00:27:13,760 --> 00:27:18,120
+transpose if you really wanted to write
+
+591
+00:27:15,480 --> 00:27:20,480
+it that way I mean to get a to get a but
+
+592
+00:27:18,120 --> 00:27:25,120
+but I I want everyone understands what I
+
+593
+00:27:20,480 --> 00:27:28,880
+mean by AV this is the vector you know a
+
+594
+00:27:25,120 --> 00:27:31,320
+* V transpose transpose something like
+
+595
+00:27:28,880 --> 00:27:32,760
+that right line up the vector you
+
+596
+00:27:31,320 --> 00:27:36,799
+multiply it by May and then you
+
+597
+00:27:32,760 --> 00:27:39,760
+straighten it out again okay so uh why
+
+598
+00:27:36,799 --> 00:27:41,720
+is this a subgroup well because if I
+
+599
+00:27:39,760 --> 00:27:44,159
+have if I have it certainly contains the
+
+600
+00:27:41,720 --> 00:27:44,159
+identity
+
+601
+00:27:44,799 --> 00:27:50,279
+element if it contains a and b is it is
+
+602
+00:27:49,000 --> 00:27:58,760
+it true that
+
+603
+00:27:50,279 --> 00:28:01,519
+AB of V AB of w is that equal to BW
+
+604
+00:27:58,760 --> 00:28:04,080
+well let's see this is
+
+605
+00:28:01,519 --> 00:28:07,240
+a of
+
+606
+00:28:04,080 --> 00:28:10,120
+BV a of
+
+607
+00:28:07,240 --> 00:28:13,840
+BW because matrix multiplication is
+
+608
+00:28:10,120 --> 00:28:15,559
+composition of operators now this is by
+
+609
+00:28:13,840 --> 00:28:18,360
+since a is in the orthogonal group this
+
+610
+00:28:15,559 --> 00:28:20,840
+is the inner product of V BV with BW
+
+611
+00:28:18,360 --> 00:28:22,399
+because if we apply a to any vectors we
+
+612
+00:28:20,840 --> 00:28:24,240
+don't change their inner product and
+
+613
+00:28:22,399 --> 00:28:27,760
+then since B is in the orthogonal group
+
+614
+00:28:24,240 --> 00:28:29,679
+this is the inner product of V with W so
+
+615
+00:28:27,760 --> 00:28:31,840
+if a A and B are both in the orthogonal
+
+616
+00:28:29,679 --> 00:28:35,240
+group so is their product and I'll let
+
+617
+00:28:31,840 --> 00:28:35,240
+you check inverse no
+
+618
+00:28:35,440 --> 00:28:46,440
+harder okay
+
+619
+00:28:38,720 --> 00:28:48,799
+also a inverse is in O of O of o n of
+
+620
+00:28:46,440 --> 00:28:50,840
+f all right now let's figure out what
+
+621
+00:28:48,799 --> 00:28:53,000
+this means in terms of what the Matrix
+
+622
+00:28:50,840 --> 00:28:55,640
+looks
+
+623
+00:28:53,000 --> 00:29:00,679
+like now remember what the Matrix looks
+
+624
+00:28:55,640 --> 00:29:04,120
+like is this the Matrix a has First
+
+625
+00:29:00,679 --> 00:29:10,480
+Column what the operator a does to the
+
+626
+00:29:04,120 --> 00:29:13,240
+vector a of the vector 1 0 0 and the
+
+627
+00:29:10,480 --> 00:29:18,279
+second column of a is what a does to the
+
+628
+00:29:13,240 --> 00:29:23,760
+vector 0 1 0 0 and the last column of it
+
+629
+00:29:18,279 --> 00:29:23,760
+is what a does to the vector 0 0 0
+
+630
+00:29:24,200 --> 00:29:30,080
+1 because this this Vector space has a
+
+631
+00:29:27,320 --> 00:29:33,960
+standard base basis and the standard
+
+632
+00:29:30,080 --> 00:29:35,640
+basis we call E1 which looks like 1 0000
+
+633
+00:29:33,960 --> 00:29:40,559
+0 down
+
+634
+00:29:35,640 --> 00:29:42,360
+to equals 0 0 one in the nth place
+
+635
+00:29:40,559 --> 00:29:44,399
+that's the standard basis of this Vector
+
+636
+00:29:42,360 --> 00:29:46,240
+space and you get you turn a matrix into
+
+637
+00:29:44,399 --> 00:29:47,960
+an operator by seeing what it does to
+
+638
+00:29:46,240 --> 00:29:50,799
+the standard
+
+639
+00:29:47,960 --> 00:29:52,799
+basis okay now the standard basis has
+
+640
+00:29:50,799 --> 00:29:54,840
+the following property if you take the
+
+641
+00:29:52,799 --> 00:29:57,120
+inner product of E1 with itself you get
+
+642
+00:29:54,840 --> 00:29:59,640
+one you take the inner product of E2
+
+643
+00:29:57,120 --> 00:30:02,000
+with itself you get one you take the
+
+644
+00:29:59,640 --> 00:30:05,559
+inner product of n with
+
+645
+00:30:02,000 --> 00:30:08,480
+itself you get one right because these
+
+646
+00:30:05,559 --> 00:30:10,200
+only have one one in them and uh if you
+
+647
+00:30:08,480 --> 00:30:13,399
+take if you look at this formula only
+
+648
+00:30:10,200 --> 00:30:15,559
+one term is non zero and it's 1 time one
+
+649
+00:30:13,399 --> 00:30:16,799
+on the other hand if you take the inner
+
+650
+00:30:15,559 --> 00:30:21,840
+product of
+
+651
+00:30:16,799 --> 00:30:23,919
+EI with EJ and I is not equal to J you
+
+652
+00:30:21,840 --> 00:30:27,399
+get zero
+
+653
+00:30:23,919 --> 00:30:29,360
+because EI has a one in the I place and
+
+654
+00:30:27,399 --> 00:30:33,640
+EJ has one in the jth place and they
+
+655
+00:30:29,360 --> 00:30:33,640
+never you get zeros in all these
+
+656
+00:30:34,000 --> 00:30:39,000
+terms
+
+657
+00:30:35,840 --> 00:30:42,240
+so that has to be true for these column
+
+658
+00:30:39,000 --> 00:30:44,039
+vectors too because they we preserve the
+
+659
+00:30:42,240 --> 00:30:45,720
+inner product that's the definition of
+
+660
+00:30:44,039 --> 00:30:47,240
+what it means to be in the orthog gr so
+
+661
+00:30:45,720 --> 00:30:50,080
+if you take the inner product of this
+
+662
+00:30:47,240 --> 00:30:51,679
+column with itself you have to get one
+
+663
+00:30:50,080 --> 00:30:54,080
+and the inner product of this column
+
+664
+00:30:51,679 --> 00:30:55,320
+with itself you have to get one because
+
+665
+00:30:54,080 --> 00:30:56,320
+that's the same as the inner product of
+
+666
+00:30:55,320 --> 00:30:58,880
+E2 with
+
+667
+00:30:56,320 --> 00:31:01,200
+E2 all right what does the inner product
+
+668
+00:30:58,880 --> 00:31:03,399
+of this column with itself look like
+
+669
+00:31:01,200 --> 00:31:05,480
+well it's this element squared plus this
+
+670
+00:31:03,399 --> 00:31:07,200
+element squared plus this element squar
+
+671
+00:31:05,480 --> 00:31:08,639
+right the in product of this column with
+
+672
+00:31:07,200 --> 00:31:10,279
+this column is this element times this
+
+673
+00:31:08,639 --> 00:31:11,679
+element this element times this element
+
+674
+00:31:10,279 --> 00:31:15,240
+this element times this element this
+
+675
+00:31:11,679 --> 00:31:18,760
+element okay now we can rewrite that in
+
+676
+00:31:15,240 --> 00:31:22,440
+the following way this implies that the
+
+677
+00:31:18,760 --> 00:31:25,880
+inner product of a EI I a
+
+678
+00:31:22,440 --> 00:31:28,840
+EJ equals product
+
+679
+00:31:25,880 --> 00:31:33,039
+of inner product
+
+680
+00:31:28,840 --> 00:31:37,240
+of I and jth
+
+681
+00:31:33,039 --> 00:31:40,159
+columns equals one if I is equal to J
+
+682
+00:31:37,240 --> 00:31:43,080
+and zero if I is not equal to
+
+683
+00:31:40,159 --> 00:31:46,159
+J okay now let's re rewrite what this
+
+684
+00:31:43,080 --> 00:31:49,120
+means this is this is N squared
+
+685
+00:31:46,159 --> 00:31:51,200
+different numbers that we know n numbers
+
+686
+00:31:49,120 --> 00:31:53,240
+we know are equal to one and a lot of
+
+687
+00:31:51,200 --> 00:31:54,799
+numbers we know are equal to zero I
+
+688
+00:31:53,240 --> 00:31:57,039
+claim that this is the same thing as
+
+689
+00:31:54,799 --> 00:31:59,320
+saying that if you take the transpose of
+
+690
+00:31:57,039 --> 00:32:03,240
+the Matrix a and you multiply it by The
+
+691
+00:31:59,320 --> 00:32:03,240
+Matrix a you get the identity
+
+692
+00:32:04,480 --> 00:32:07,679
+Matrix well let's see why that would be
+
+693
+00:32:06,679 --> 00:32:10,240
+the
+
+694
+00:32:07,679 --> 00:32:11,600
+case suppose we took the transpose of
+
+695
+00:32:10,240 --> 00:32:18,679
+the Matrix
+
+696
+00:32:11,600 --> 00:32:19,919
+a the first row of that is a of 1 0 0
+
+697
+00:32:18,679 --> 00:32:22,840
+right because the first row of the
+
+698
+00:32:19,919 --> 00:32:26,240
+transpose is the First Column here all
+
+699
+00:32:22,840 --> 00:32:28,639
+right now let's multiply let's calculate
+
+700
+00:32:26,240 --> 00:32:30,559
+the first entry in a trans ose a let's
+
+701
+00:32:28,639 --> 00:32:33,399
+calculate this entry up
+
+702
+00:32:30,559 --> 00:32:37,039
+here we go across the first row of a
+
+703
+00:32:33,399 --> 00:32:39,639
+transpose we go down the First Column of
+
+704
+00:32:37,039 --> 00:32:42,559
+a and we add up well that's just the
+
+705
+00:32:39,639 --> 00:32:45,600
+inner product of this column with itself
+
+706
+00:32:42,559 --> 00:32:49,399
+and we agreed that was one so the first
+
+707
+00:32:45,600 --> 00:32:51,960
+entry here is a one let's calculate this
+
+708
+00:32:49,399 --> 00:32:54,320
+entry here the entry in the first row
+
+709
+00:32:51,960 --> 00:32:57,039
+second column we'd go across the first
+
+710
+00:32:54,320 --> 00:32:58,519
+row here and we'd go down the second
+
+711
+00:32:57,039 --> 00:33:00,000
+column here
+
+712
+00:32:58,519 --> 00:33:01,639
+well that would be the inner product of
+
+713
+00:33:00,000 --> 00:33:05,120
+this column with this column which we
+
+714
+00:33:01,639 --> 00:33:08,000
+agreed was zero so we get a
+
+715
+00:33:05,120 --> 00:33:09,559
+zero Etc you get zeros all here then
+
+716
+00:33:08,000 --> 00:33:11,960
+when you did this row you'd get a one
+
+717
+00:33:09,559 --> 00:33:13,360
+there and you'd see that this matrix
+
+718
+00:33:11,960 --> 00:33:15,480
+product times this is the identity
+
+719
+00:33:13,360 --> 00:33:18,200
+that's just another way of rewriting
+
+720
+00:33:15,480 --> 00:33:21,240
+that the columns have this
+
+721
+00:33:18,200 --> 00:33:25,559
+property so we see that if we have a
+
+722
+00:33:21,240 --> 00:33:28,279
+matrix in gln which preserves the inner
+
+723
+00:33:25,559 --> 00:33:30,440
+product then the product of the the
+
+724
+00:33:28,279 --> 00:33:33,200
+transpose of the Matrix Pi a is the
+
+725
+00:33:30,440 --> 00:33:36,480
+identity which is the same thing as
+
+726
+00:33:33,200 --> 00:33:39,120
+saying that the transpose of a is the
+
+727
+00:33:36,480 --> 00:33:39,120
+inverse of
+
+728
+00:33:42,760 --> 00:33:48,840
+a so it's also true in the other
+
+729
+00:33:44,880 --> 00:33:48,840
+direction a * a transposes the
+
+730
+00:33:49,679 --> 00:33:55,960
+identity okay conversely I claim that if
+
+731
+00:33:53,679 --> 00:33:58,080
+we have a matrix such that the product
+
+732
+00:33:55,960 --> 00:34:00,200
+of its transpose times The Matrix is the
+
+733
+00:33:58,080 --> 00:34:02,960
+identity or the Matrix transposes its
+
+734
+00:34:00,200 --> 00:34:06,039
+inverse then it gives a transformation
+
+735
+00:34:02,960 --> 00:34:06,039
+that preserves the inner
+
+736
+00:34:10,320 --> 00:34:14,560
+product let's check that that's a little
+
+737
+00:34:17,919 --> 00:34:29,240
+tricky if a in
+
+738
+00:34:22,560 --> 00:34:32,520
+gnf has a transpose equal to a inverse
+
+739
+00:34:29,240 --> 00:34:36,159
+then it
+
+740
+00:34:32,520 --> 00:34:36,159
+preserves the inner
+
+741
+00:34:37,359 --> 00:34:40,919
+product we have to
+
+742
+00:34:42,159 --> 00:34:48,599
+find on the vector space V is equal to
+
+743
+00:34:45,399 --> 00:34:50,040
+FN so that's that's the matricial form
+
+744
+00:34:48,599 --> 00:34:52,040
+of this preserving the inner product
+
+745
+00:34:50,040 --> 00:34:55,159
+matrices whose transpose are their
+
+746
+00:34:52,040 --> 00:34:57,800
+inverse why well this is quite tricky so
+
+747
+00:34:55,159 --> 00:35:00,960
+let's see well first of all I'm going to
+
+748
+00:34:57,800 --> 00:35:02,800
+rewrite the inner product VW as a matrix
+
+749
+00:35:00,960 --> 00:35:07,000
+product it's just the transpose of the
+
+750
+00:35:02,800 --> 00:35:08,960
+vector v times the vector W where this
+
+751
+00:35:07,000 --> 00:35:10,960
+becomes a column vector and this becomes
+
+752
+00:35:08,960 --> 00:35:12,480
+a row Vector I mean if you think of it
+
+753
+00:35:10,960 --> 00:35:15,800
+that's exactly what the inner product is
+
+754
+00:35:12,480 --> 00:35:19,880
+if you tried to multiply whoops other
+
+755
+00:35:15,800 --> 00:35:21,440
+way around huh I want well let's see no
+
+756
+00:35:19,880 --> 00:35:24,000
+I want a row vector and a column Vector
+
+757
+00:35:21,440 --> 00:35:25,480
+sorry let's try it this way and hope I
+
+758
+00:35:24,000 --> 00:35:28,320
+don't get totally screwed up here but
+
+759
+00:35:25,480 --> 00:35:30,200
+we'll see so we write the vector v like
+
+760
+00:35:28,320 --> 00:35:32,320
+this we write the vector W like this we
+
+761
+00:35:30,200 --> 00:35:33,920
+go across this row and down this column
+
+762
+00:35:32,320 --> 00:35:35,440
+we multiply the first entry times the
+
+763
+00:35:33,920 --> 00:35:37,079
+first entry we multiply the second entry
+
+764
+00:35:35,440 --> 00:35:39,119
+times the second entry the third entry
+
+765
+00:35:37,079 --> 00:35:40,760
+by the third entry that's exactly what
+
+766
+00:35:39,119 --> 00:35:44,960
+we're doing when we're taking the inner
+
+767
+00:35:40,760 --> 00:35:44,960
+product so this is a matrix
+
+768
+00:35:49,040 --> 00:35:57,079
+product okay now on the other hand let's
+
+769
+00:35:52,040 --> 00:35:57,079
+see if we can compute AV aw
+
+770
+00:36:01,599 --> 00:36:06,440
+ah okay so AV oh God this is going to be
+
+771
+00:36:04,599 --> 00:36:07,720
+a real nightmare because I've written my
+
+772
+00:36:06,440 --> 00:36:11,079
+vectors
+
+773
+00:36:07,720 --> 00:36:12,640
+as never mind I'm gon to let's go back
+
+774
+00:36:11,079 --> 00:36:14,440
+let's write our vectors as column
+
+775
+00:36:12,640 --> 00:36:17,319
+vectors so I don't actually kill myself
+
+776
+00:36:14,440 --> 00:36:19,960
+here so this would then be V transpose
+
+777
+00:36:17,319 --> 00:36:22,400
+time W where I thought of the vectors as
+
+778
+00:36:19,960 --> 00:36:22,400
+column
+
+779
+00:36:24,520 --> 00:36:30,720
+vectors I now know why I want to do that
+
+780
+00:36:26,960 --> 00:36:32,839
+because then a v this this Vector is
+
+781
+00:36:30,720 --> 00:36:36,560
+just the Matrix a times the column
+
+782
+00:36:32,839 --> 00:36:39,640
+vector v and this Vector is just the
+
+783
+00:36:36,560 --> 00:36:41,800
+Matrix a times the column Vector W and
+
+784
+00:36:39,640 --> 00:36:43,960
+consequently the inner product would be
+
+785
+00:36:41,800 --> 00:36:46,599
+you'd calculate this Vector you'd
+
+786
+00:36:43,960 --> 00:36:47,839
+transpose it and then you'd multiply it
+
+787
+00:36:46,599 --> 00:36:50,040
+by
+
+788
+00:36:47,839 --> 00:36:53,560
+this
+
+789
+00:36:50,040 --> 00:36:55,480
+Vector as matrix
+
+790
+00:36:53,560 --> 00:36:58,800
+multiplication this is all matrix
+
+791
+00:36:55,480 --> 00:37:00,280
+multiplication a a * B transpose then
+
+792
+00:36:58,800 --> 00:37:01,640
+now if you know about transpose that
+
+793
+00:37:00,280 --> 00:37:03,440
+reverses the order of matrix
+
+794
+00:37:01,640 --> 00:37:07,520
+multiplication so this becomes V
+
+795
+00:37:03,440 --> 00:37:11,520
+transpose a transpose a
+
+796
+00:37:07,520 --> 00:37:13,760
+w and if we assume that a has its
+
+797
+00:37:11,520 --> 00:37:15,839
+transpose is equal to its inverse this
+
+798
+00:37:13,760 --> 00:37:18,720
+is the vector v transpose times the
+
+799
+00:37:15,839 --> 00:37:21,040
+identity Matrix size n times the vector
+
+800
+00:37:18,720 --> 00:37:23,520
+W the identity Matrix takes any Vector
+
+801
+00:37:21,040 --> 00:37:29,520
+to itself so this becomes V transpose
+
+802
+00:37:23,520 --> 00:37:29,520
+time W which is the same as v w
+
+803
+00:37:30,480 --> 00:37:34,280
+that's why I want to take my vectors to
+
+804
+00:37:31,960 --> 00:37:36,079
+be column vectors just I don't have to
+
+805
+00:37:34,280 --> 00:37:38,200
+write transpose 8 million times if I
+
+806
+00:37:36,079 --> 00:37:41,200
+take vectors to be column vectors this
+
+807
+00:37:38,200 --> 00:37:41,200
+is just a *
+
+808
+00:37:42,400 --> 00:37:50,119
+B so in other words this can also be
+
+809
+00:37:45,400 --> 00:37:55,440
+written as the set of a in
+
+810
+00:37:50,119 --> 00:37:55,440
+gnf such that a transpose is equal to a
+
+811
+00:37:56,079 --> 00:38:01,520
+inverse okay
+
+812
+00:37:59,119 --> 00:38:03,640
+now I'm going to show you a number of
+
+813
+00:38:01,520 --> 00:38:07,040
+interesting things that happen with
+
+814
+00:38:03,640 --> 00:38:09,119
+these matrices for example the first
+
+815
+00:38:07,040 --> 00:38:11,440
+thing is that the determinant is not
+
+816
+00:38:09,119 --> 00:38:12,200
+arbitrary I claim that the determinant
+
+817
+00:38:11,440 --> 00:38:15,359
+of
+
+818
+00:38:12,200 --> 00:38:17,839
+a has to be plus or minus
+
+819
+00:38:15,359 --> 00:38:19,560
+one because if you take the determinant
+
+820
+00:38:17,839 --> 00:38:21,480
+on this identity you get the determinant
+
+821
+00:38:19,560 --> 00:38:24,800
+of a transpose times the determinant of
+
+822
+00:38:21,480 --> 00:38:26,720
+a is one the determinant of a transpose
+
+823
+00:38:24,800 --> 00:38:29,200
+is the same as the determinant of a so
+
+824
+00:38:26,720 --> 00:38:31,680
+the determinant of a s is one so the
+
+825
+00:38:29,200 --> 00:38:33,760
+determinant of a has to be plus or minus
+
+826
+00:38:31,680 --> 00:38:35,200
+one of course these things might be
+
+827
+00:38:33,760 --> 00:38:36,680
+equal in the field I want you to
+
+828
+00:38:35,200 --> 00:38:38,160
+recognize that I mean if we had the
+
+829
+00:38:36,680 --> 00:38:39,880
+field of two elements they would be
+
+830
+00:38:38,160 --> 00:38:42,160
+equal but at least it's a plus or minus
+
+831
+00:38:39,880 --> 00:38:46,359
+one its square is
+
+832
+00:38:42,160 --> 00:38:48,920
+one okay so um you might ask do we get
+
+833
+00:38:46,359 --> 00:38:51,599
+both determinants in our
+
+834
+00:38:48,920 --> 00:38:54,960
+group uh and the answer
+
+835
+00:38:51,599 --> 00:38:57,760
+is yes so to do that you have to
+
+836
+00:38:54,960 --> 00:38:59,560
+actually exhibit elements in this group
+
+837
+00:38:57,760 --> 00:39:01,200
+so I'll show you some elements which
+
+838
+00:38:59,560 --> 00:39:03,960
+happen to preserve the inner product and
+
+839
+00:39:01,200 --> 00:39:06,640
+maybe the only thing in the group is one
+
+840
+00:39:03,960 --> 00:39:08,560
+but if you take this Matrix for example
+
+841
+00:39:06,640 --> 00:39:10,720
+any Matrix that looks like plus or minus
+
+842
+00:39:08,560 --> 00:39:14,119
+ones on the
+
+843
+00:39:10,720 --> 00:39:17,240
+diagonal and zeros elsewhere that's an
+
+844
+00:39:14,119 --> 00:39:19,200
+element in o n of f because if you
+
+845
+00:39:17,240 --> 00:39:21,000
+calculate its inverse it's it's equal to
+
+846
+00:39:19,200 --> 00:39:23,119
+its its inverse and it's also equal to
+
+847
+00:39:21,000 --> 00:39:23,119
+its
+
+848
+00:39:23,440 --> 00:39:28,640
+transpose yeah is
+
+849
+00:39:30,240 --> 00:39:36,839
+no in gln
+
+850
+00:39:33,359 --> 00:39:38,800
+of okay this is just a necessary
+
+851
+00:39:36,839 --> 00:39:41,200
+Condition it's not that every Matrix
+
+852
+00:39:38,800 --> 00:39:43,319
+with determinant one is in o n but any
+
+853
+00:39:41,200 --> 00:39:45,560
+Matrix in o n has determinant plus or
+
+854
+00:39:43,319 --> 00:39:47,319
+minus one so these are examples of
+
+855
+00:39:45,560 --> 00:39:49,359
+matrices in o n of f they're rather
+
+856
+00:39:47,319 --> 00:39:50,839
+stupid because not only is the inverse
+
+857
+00:39:49,359 --> 00:39:53,280
+equal to the transpose but they're equal
+
+858
+00:39:50,839 --> 00:39:54,800
+to the original Matrix and in particular
+
+859
+00:39:53,280 --> 00:39:59,079
+if you took the Matrix that look like
+
+860
+00:39:54,800 --> 00:40:01,119
+this Min -1 + 1 + 1 down the diagonal
+
+861
+00:39:59,079 --> 00:40:03,400
+you'd find the determinant of this is
+
+862
+00:40:01,119 --> 00:40:05,319
+equal to minus1 so you can have both
+
+863
+00:40:03,400 --> 00:40:08,200
+determinants plus one and
+
+864
+00:40:05,319 --> 00:40:10,560
+minus1 in particular you get a subgroup
+
+865
+00:40:08,200 --> 00:40:12,800
+where the determinant is plus one that's
+
+866
+00:40:10,560 --> 00:40:12,800
+this
+
+867
+00:40:14,000 --> 00:40:21,800
+group a in o n f such that the
+
+868
+00:40:18,200 --> 00:40:23,839
+determinant of a is equal to+ one and
+
+869
+00:40:21,800 --> 00:40:26,000
+that's a group of index two because if
+
+870
+00:40:23,839 --> 00:40:28,359
+you think of the determinant as a
+
+871
+00:40:26,000 --> 00:40:30,359
+homomorphism you get get a homomorphism
+
+872
+00:40:28,359 --> 00:40:34,079
+the determinant to the group of order
+
+873
+00:40:30,359 --> 00:40:35,280
+two plus or minus one which is onto
+
+874
+00:40:34,079 --> 00:40:37,000
+because you have things of both
+
+875
+00:40:35,280 --> 00:40:38,480
+determinant one and plus or minus one
+
+876
+00:40:37,000 --> 00:40:40,280
+it's a homomorphism because the
+
+877
+00:40:38,480 --> 00:40:43,000
+determinant of
+
+878
+00:40:40,280 --> 00:40:46,720
+ab is the determinant of
+
+879
+00:40:43,000 --> 00:40:49,680
+a times the determinant of B and this
+
+880
+00:40:46,720 --> 00:40:49,680
+group is just its
+
+881
+00:40:53,200 --> 00:40:57,839
+kernel and the kernel We Know by the
+
+882
+00:40:56,280 --> 00:40:59,520
+isomorphism theory
+
+883
+00:40:57,839 --> 00:41:01,560
+the index of the kernel the quotient
+
+884
+00:40:59,520 --> 00:41:04,119
+group is the image the image is plus or
+
+885
+00:41:01,560 --> 00:41:07,839
+minus one so there are exactly two coets
+
+886
+00:41:04,119 --> 00:41:10,160
+of this group in this group and uh the
+
+887
+00:41:07,839 --> 00:41:11,839
+kernel is a normal subgroup and the
+
+888
+00:41:10,160 --> 00:41:15,000
+coets are the elements of determinant
+
+889
+00:41:11,839 --> 00:41:18,880
+one that's this and the non-trivial coet
+
+890
+00:41:15,000 --> 00:41:23,920
+namely this times s o
+
+891
+00:41:18,880 --> 00:41:23,920
+n what other elements are in ons well I
+
+892
+00:41:24,800 --> 00:41:29,240
+claim the permutation matrices
+
+893
+00:41:34,760 --> 00:41:40,800
+are in o n of
+
+894
+00:41:37,440 --> 00:41:43,800
+F and this
+
+895
+00:41:40,800 --> 00:41:43,800
+gives
+
+896
+00:41:45,400 --> 00:41:51,280
+injective
+
+897
+00:41:48,240 --> 00:41:54,079
+uh ejective
+
+898
+00:41:51,280 --> 00:41:58,599
+homomorphism F from the symmetric group
+
+899
+00:41:54,079 --> 00:42:00,280
+on N letters into o n of f no kernel and
+
+900
+00:41:58,599 --> 00:42:03,119
+that takes the subgroup which is the
+
+901
+00:42:00,280 --> 00:42:05,520
+alternating group on N letters into s o
+
+902
+00:42:03,119 --> 00:42:05,520
+n of
+
+903
+00:42:09,040 --> 00:42:15,119
+f i' better assume that
+
+904
+00:42:11,760 --> 00:42:18,359
+um two is not equal to one is not equal
+
+905
+00:42:15,119 --> 00:42:21,680
+to minus one in
+
+906
+00:42:18,359 --> 00:42:23,280
+f um for this I should have said that
+
+907
+00:42:21,680 --> 00:42:26,520
+this
+
+908
+00:42:23,280 --> 00:42:30,920
+subgroup if if one is equal to minus one
+
+909
+00:42:26,520 --> 00:42:34,559
+in F IE if f is equal to Zod 2 1 is
+
+910
+00:42:30,920 --> 00:42:36,960
+equal to minus one then there then this
+
+911
+00:42:34,559 --> 00:42:41,920
+homomorphism is not subjective it only
+
+912
+00:42:36,960 --> 00:42:43,800
+maps to um plus one and so o n and s o n
+
+913
+00:42:41,920 --> 00:42:46,000
+are the same group so if I really want
+
+914
+00:42:43,800 --> 00:42:51,079
+to get a different group the index of
+
+915
+00:42:46,000 --> 00:42:54,319
+two that's if one is not equal to minus
+
+916
+00:42:51,079 --> 00:42:56,520
+one so the permutation matrices I claim
+
+917
+00:42:54,319 --> 00:42:57,640
+or orthogonal matrices why they have
+
+918
+00:42:56,520 --> 00:42:59,960
+exactly one
+
+919
+00:42:57,640 --> 00:43:02,760
+one in each column and the rest are
+
+920
+00:42:59,960 --> 00:43:05,079
+zeros therefore if you think of it in
+
+921
+00:43:02,760 --> 00:43:06,760
+terms of this thing they preserve the
+
+922
+00:43:05,079 --> 00:43:10,200
+inner product on the basis elements
+
+923
+00:43:06,760 --> 00:43:11,720
+namely the The Columns are of of inner
+
+924
+00:43:10,200 --> 00:43:14,000
+product with themselves one and in
+
+925
+00:43:11,720 --> 00:43:17,640
+product with the other column
+
+926
+00:43:14,000 --> 00:43:20,280
+zero excuse yeah would you mind just
+
+927
+00:43:17,640 --> 00:43:22,520
+explaining the connection with theism
+
+928
+00:43:20,280 --> 00:43:25,400
+sure sure sure sure sure sure we have a
+
+929
+00:43:22,520 --> 00:43:27,359
+homomorphism if let's assume that one is
+
+930
+00:43:25,400 --> 00:43:30,040
+not minus one so we have two elements
+
+931
+00:43:27,359 --> 00:43:32,680
+plus or minus one this is a subgroup of
+
+932
+00:43:30,040 --> 00:43:35,200
+f of the of the multiplicative group of
+
+933
+00:43:32,680 --> 00:43:37,920
+f the determinant Maps these matrices
+
+934
+00:43:35,200 --> 00:43:39,280
+into this group it's a homomorphism
+
+935
+00:43:37,920 --> 00:43:40,960
+because the determinant of a product of
+
+936
+00:43:39,280 --> 00:43:43,599
+a matrices is the product of the
+
+937
+00:43:40,960 --> 00:43:46,240
+determinants it's onto because we've
+
+938
+00:43:43,599 --> 00:43:47,800
+exhibited a specific element in the
+
+939
+00:43:46,240 --> 00:43:49,480
+orthogonal group whose determinant is
+
+940
+00:43:47,800 --> 00:43:53,319
+minus
+
+941
+00:43:49,480 --> 00:43:54,640
+one it's on two it there there are both
+
+942
+00:43:53,319 --> 00:43:56,160
+there are elements in this group that
+
+943
+00:43:54,640 --> 00:43:58,880
+have determinant plus one and there are
+
+944
+00:43:56,160 --> 00:44:00,680
+elements that have determin minus one
+
+945
+00:43:58,880 --> 00:44:02,400
+okay so you have to show that here's an
+
+946
+00:44:00,680 --> 00:44:05,680
+element of determinant minus one and the
+
+947
+00:44:02,400 --> 00:44:09,480
+determinant of the identity is
+
+948
+00:44:05,680 --> 00:44:11,680
+one so our isomorphism theorem says that
+
+949
+00:44:09,480 --> 00:44:14,040
+the quotient Group by the kernel is
+
+950
+00:44:11,680 --> 00:44:16,920
+isomorphic to the image of the
+
+951
+00:44:14,040 --> 00:44:18,440
+homomorphism the kernel is by definition
+
+952
+00:44:16,920 --> 00:44:20,720
+this
+
+953
+00:44:18,440 --> 00:44:23,319
+group that's the definition of it the
+
+954
+00:44:20,720 --> 00:44:25,960
+things that those are just things the
+
+955
+00:44:23,319 --> 00:44:27,319
+one the identity element in this group
+
+956
+00:44:25,960 --> 00:44:29,920
+and therefore the quotient group group
+
+957
+00:44:27,319 --> 00:44:33,359
+has order two and therefore there are
+
+958
+00:44:29,920 --> 00:44:33,359
+two coets so the index is
+
+959
+00:44:33,400 --> 00:44:37,480
+two so I claim that if you have a
+
+960
+00:44:35,720 --> 00:44:39,599
+permutation Matrix it does preserve the
+
+961
+00:44:37,480 --> 00:44:41,119
+inner product and this definition of the
+
+962
+00:44:39,599 --> 00:44:42,920
+alternating group is exactly what we
+
+963
+00:44:41,119 --> 00:44:44,400
+said it's the permutation matrices whose
+
+964
+00:44:42,920 --> 00:44:47,040
+determinant is
+
+965
+00:44:44,400 --> 00:44:49,640
+one so that's really how we got the
+
+966
+00:44:47,040 --> 00:44:52,440
+alternating group out of the symmetric
+
+967
+00:44:49,640 --> 00:44:54,400
+group and this is injective because any
+
+968
+00:44:52,440 --> 00:44:57,480
+permutation is just gives a is
+
+969
+00:44:54,400 --> 00:44:59,119
+determined by its n byn Matrix so this
+
+970
+00:44:57,480 --> 00:45:02,359
+is a nice finite subgroup of the
+
+971
+00:44:59,119 --> 00:45:02,359
+orthogonal group over any
+
+972
+00:45:03,520 --> 00:45:08,760
+field okay so much for the orthogonal
+
+973
+00:45:06,480 --> 00:45:11,240
+group over an arbitrary field what's
+
+974
+00:45:08,760 --> 00:45:13,240
+particularly nice about the real numbers
+
+975
+00:45:11,240 --> 00:45:15,920
+is this inner product is set up to do
+
+976
+00:45:13,240 --> 00:45:15,920
+ukian
+
+977
+00:45:24,599 --> 00:45:29,000
+geometry what's so cool about this inter
+
+978
+00:45:27,119 --> 00:45:29,760
+product is that the inner product of V
+
+979
+00:45:29,000 --> 00:45:32,680
+with
+
+980
+00:45:29,760 --> 00:45:35,559
+itself is the sum of a i
+
+981
+00:45:32,680 --> 00:45:39,160
+2 from IAL 1 to
+
+982
+00:45:35,559 --> 00:45:40,720
+n right and that sum of squares is
+
+983
+00:45:39,160 --> 00:45:42,720
+bigger than or equal to zero you see
+
+984
+00:45:40,720 --> 00:45:45,119
+this kind of expression makes absolutely
+
+985
+00:45:42,720 --> 00:45:47,040
+no sense in a general field you can't
+
+986
+00:45:45,119 --> 00:45:49,240
+say whether an element in Zod 3 is
+
+987
+00:45:47,040 --> 00:45:50,880
+bigger than or equal to zero but in the
+
+988
+00:45:49,240 --> 00:45:52,640
+real numbers we have this notion of
+
+989
+00:45:50,880 --> 00:45:54,440
+positive and negative and all the
+
+990
+00:45:52,640 --> 00:45:57,000
+squares are
+
+991
+00:45:54,440 --> 00:45:59,880
+positive right so this sum is bigger
+
+992
+00:45:57,000 --> 00:45:59,880
+equal to Z
+
+993
+00:45:59,960 --> 00:46:08,880
+and VV is equal to zero only
+
+994
+00:46:05,559 --> 00:46:11,680
+when V is the zero
+
+995
+00:46:08,880 --> 00:46:14,760
+Vector because if any non if any
+
+996
+00:46:11,680 --> 00:46:17,720
+coordinate in V is nonzero this sum is
+
+997
+00:46:14,760 --> 00:46:20,520
+positive and so we Define the norm of V
+
+998
+00:46:17,720 --> 00:46:20,520
+or the length of
+
+999
+00:46:24,680 --> 00:46:31,839
+V to be the square root
+
+1000
+00:46:28,240 --> 00:46:31,839
+the positive square root of
+
+1001
+00:46:36,680 --> 00:46:41,400
+VV and this generalizes our notion this
+
+1002
+00:46:39,680 --> 00:46:43,680
+generalizes our notion of the ukian
+
+1003
+00:46:41,400 --> 00:46:46,280
+distance of the vector because if we
+
+1004
+00:46:43,680 --> 00:46:48,040
+were in R2 and we had our Vector here
+
+1005
+00:46:46,280 --> 00:46:51,359
+which was the vector
+
+1006
+00:46:48,040 --> 00:46:54,240
+AB where we'd go over a units here and
+
+1007
+00:46:51,359 --> 00:46:54,240
+up B units
+
+1008
+00:46:54,839 --> 00:47:01,240
+here then the length of this line
+
+1009
+00:46:58,240 --> 00:47:04,720
+segment is the square root of a^2 +
+
+1010
+00:47:01,240 --> 00:47:07,640
+b^2 by the Pythagorean theorem and
+
+1011
+00:47:04,720 --> 00:47:10,400
+consequently this length measures the
+
+1012
+00:47:07,640 --> 00:47:13,480
+distance of the vector v from the origin
+
+1013
+00:47:10,400 --> 00:47:15,480
+in two space and we Define a geometry in
+
+1014
+00:47:13,480 --> 00:47:16,839
+general by saying that's the length of
+
+1015
+00:47:15,480 --> 00:47:20,359
+the vector from the
+
+1016
+00:47:16,839 --> 00:47:23,760
+origin the square root of the sum of the
+
+1017
+00:47:20,359 --> 00:47:25,319
+squares okay and we can also and this is
+
+1018
+00:47:23,760 --> 00:47:27,400
+another thing that you probably have
+
+1019
+00:47:25,319 --> 00:47:29,599
+studied in calculus you can use it to
+
+1020
+00:47:27,400 --> 00:47:31,240
+not only Define the length of a vector
+
+1021
+00:47:29,599 --> 00:47:33,960
+but you can use it find the angle
+
+1022
+00:47:31,240 --> 00:47:37,760
+between two vectors by writing that it's
+
+1023
+00:47:33,960 --> 00:47:40,680
+an interesting inequality that
+
+1024
+00:47:37,760 --> 00:47:42,119
+VW there's a something called the Koshi
+
+1025
+00:47:40,680 --> 00:47:44,920
+Schwarz
+
+1026
+00:47:42,119 --> 00:47:47,640
+inequality which I won't prove here that
+
+1027
+00:47:44,920 --> 00:47:52,760
+says that if you take the quotient of
+
+1028
+00:47:47,640 --> 00:47:56,079
+VW by the norm of V times the norm of
+
+1029
+00:47:52,760 --> 00:47:58,839
+w assuming that V and W are both nonzero
+
+1030
+00:47:56,079 --> 00:48:00,880
+vectors so that these Norms are nonzero
+
+1031
+00:47:58,839 --> 00:48:03,079
+and you can divide by them you get a
+
+1032
+00:48:00,880 --> 00:48:05,319
+real number this is a real number these
+
+1033
+00:48:03,079 --> 00:48:10,599
+are positive real numbers and this real
+
+1034
+00:48:05,319 --> 00:48:10,599
+number lies between minus1 and +
+
+1035
+00:48:10,800 --> 00:48:15,880
+one so that this real number can be
+
+1036
+00:48:13,400 --> 00:48:19,559
+written as the cosine of
+
+1037
+00:48:15,880 --> 00:48:23,720
+theta for an angle Theta that lies
+
+1038
+00:48:19,559 --> 00:48:23,720
+between zero and
+
+1039
+00:48:23,960 --> 00:48:29,880
+pi and that angle Theta is called the
+
+1040
+00:48:26,839 --> 00:48:29,880
+angle between the two
+
+1041
+00:48:32,119 --> 00:48:35,960
+vectors and it doesn't depend on The
+
+1042
+00:48:34,200 --> 00:48:38,200
+Ordering of the two vectors because this
+
+1043
+00:48:35,960 --> 00:48:39,680
+pairing is a symmetric pairing VW is the
+
+1044
+00:48:38,200 --> 00:48:42,839
+same as
+
+1045
+00:48:39,680 --> 00:48:44,640
+WV so that's so not only does this
+
+1046
+00:48:42,839 --> 00:48:46,720
+wonderful fact that the inner product of
+
+1047
+00:48:44,640 --> 00:48:48,800
+a vector with itself is non zero and
+
+1048
+00:48:46,720 --> 00:48:51,400
+positive give you the length but the
+
+1049
+00:48:48,800 --> 00:48:54,319
+Koshi Schwarz inequality gives you from
+
+1050
+00:48:51,400 --> 00:48:55,880
+two vectors an angle that lies between 0
+
+1051
+00:48:54,319 --> 00:48:58,079
+and Pi that you say is the angle between
+
+1052
+00:48:55,880 --> 00:48:59,400
+two vectors and and that comes from the
+
+1053
+00:48:58,079 --> 00:49:01,920
+the law of cosiness in the
+
+1054
+00:48:59,400 --> 00:49:04,880
+two-dimensional case that if you had two
+
+1055
+00:49:01,920 --> 00:49:08,480
+vectors V and
+
+1056
+00:49:04,880 --> 00:49:11,680
+W and you computed this ratio the angle
+
+1057
+00:49:08,480 --> 00:49:11,680
+Theta would be that angle
+
+1058
+00:49:12,040 --> 00:49:16,760
+there so this lets you if you have a
+
+1059
+00:49:14,839 --> 00:49:18,480
+real Vector space and you give it this
+
+1060
+00:49:16,760 --> 00:49:20,760
+additional structure of the inner
+
+1061
+00:49:18,480 --> 00:49:22,839
+product it lets you define lengths of
+
+1062
+00:49:20,760 --> 00:49:25,280
+vectors it lets you define angles
+
+1063
+00:49:22,839 --> 00:49:27,440
+between vectors and and this is what's
+
+1064
+00:49:25,280 --> 00:49:30,079
+critical for our point of view the group
+
+1065
+00:49:27,440 --> 00:49:30,079
+o n
+
+1066
+00:49:30,440 --> 00:49:38,839
+r acts
+
+1067
+00:49:33,920 --> 00:49:40,640
+linearly on R to the n and it
+
+1068
+00:49:38,839 --> 00:49:42,440
+preserves the
+
+1069
+00:49:40,640 --> 00:49:45,680
+length and
+
+1070
+00:49:42,440 --> 00:49:48,040
+angle because it preserves inner
+
+1071
+00:49:45,680 --> 00:49:49,359
+products so therefore it preserves
+
+1072
+00:49:48,040 --> 00:49:50,599
+anything we can get out of an inner
+
+1073
+00:49:49,359 --> 00:49:52,799
+product one moment I'm just going to
+
+1074
+00:49:50,599 --> 00:49:54,680
+finish this then I'll take questions and
+
+1075
+00:49:52,799 --> 00:49:57,200
+therefore it preserves the Notions of
+
+1076
+00:49:54,680 --> 00:50:00,240
+ukian geometry namely it would take
+
+1077
+00:49:57,200 --> 00:50:01,960
+if you had a a triangle and it was based
+
+1078
+00:50:00,240 --> 00:50:04,359
+in the origin it would take it to
+
+1079
+00:50:01,960 --> 00:50:04,359
+another
+
+1080
+00:50:04,640 --> 00:50:09,839
+triangle and and you have this angle
+
+1081
+00:50:07,640 --> 00:50:11,880
+Theta and you VW it would have to take
+
+1082
+00:50:09,839 --> 00:50:13,960
+it to another triangle based at the
+
+1083
+00:50:11,880 --> 00:50:15,680
+origin where the side lengths were the
+
+1084
+00:50:13,960 --> 00:50:17,040
+same as these two side lengths and this
+
+1085
+00:50:15,680 --> 00:50:19,680
+angle would be the same and so it would
+
+1086
+00:50:17,040 --> 00:50:21,799
+have to take it to a congruent triangle
+
+1087
+00:50:19,680 --> 00:50:23,760
+you can't can't stretch things and it
+
+1088
+00:50:21,799 --> 00:50:28,359
+can't bend angles and things it it
+
+1089
+00:50:23,760 --> 00:50:28,359
+preserves somehow the ukian geometry
+
+1090
+00:50:36,280 --> 00:50:39,440
+now I'll take the question I'm
+
+1091
+00:50:42,240 --> 00:50:46,920
+sorry oh I'm sorry we're we're using the
+
+1092
+00:50:44,720 --> 00:50:49,040
+fact that any number that that that the
+
+1093
+00:50:46,920 --> 00:50:51,240
+number that the cosine of on on this
+
+1094
+00:50:49,040 --> 00:50:53,720
+interval Maps this interval uniquely
+
+1095
+00:50:51,240 --> 00:50:56,160
+into this inter you know
+
+1096
+00:50:53,720 --> 00:50:59,400
+is that as we go uh oh I'm getting a
+
+1097
+00:50:56,160 --> 00:51:01,799
+telephone call that the cosign from uh
+
+1098
+00:50:59,400 --> 00:51:04,760
+starts like this and goes like
+
+1099
+00:51:01,799 --> 00:51:06,200
+this the governor of Puerto Rico is here
+
+1100
+00:51:04,760 --> 00:51:08,400
+hello is the governor of Puerto Rico in
+
+1101
+00:51:06,200 --> 00:51:08,400
+the
+
+1102
+00:51:08,760 --> 00:51:13,319
+office have her wait I'll be right back
+
+1103
+00:51:10,920 --> 00:51:13,319
+after my
+
+1104
+00:51:15,280 --> 00:51:23,359
+course she is mucho gusto uh I'm
+
+1105
+00:51:19,119 --> 00:51:27,240
+practicing my speech um uh so the
+
+1106
+00:51:23,359 --> 00:51:31,880
+cosign here we go from this p over 2 and
+
+1107
+00:51:27,240 --> 00:51:34,839
+Pi the cosine gives a bje between 0 pi
+
+1108
+00:51:31,880 --> 00:51:36,799
+and the numbers between min-1 and 1 so
+
+1109
+00:51:34,839 --> 00:51:38,200
+since by Koshi Schwarz this number lies
+
+1110
+00:51:36,799 --> 00:51:40,280
+between minus one and one I can write it
+
+1111
+00:51:38,200 --> 00:51:43,920
+uniquely as cosine Theta that tells yeah
+
+1112
+00:51:40,280 --> 00:51:43,920
+I need I need the theory of the cosine
+
+1113
+00:51:45,359 --> 00:51:51,000
+function a vector space wait come on no
+
+1114
+00:51:48,480 --> 00:51:53,280
+no no no cosine is a function on the
+
+1115
+00:51:51,000 --> 00:51:56,079
+real line if I have a if I have a number
+
+1116
+00:51:53,280 --> 00:51:57,720
+I can take cosine of T but this says
+
+1117
+00:51:56,079 --> 00:51:59,799
+once I have the cosine function and I
+
+1118
+00:51:57,720 --> 00:52:01,400
+know it gives a bje between this
+
+1119
+00:51:59,799 --> 00:52:03,520
+interval and this interval and I have a
+
+1120
+00:52:01,400 --> 00:52:06,720
+number in this interval that's uniquely
+
+1121
+00:52:03,520 --> 00:52:08,480
+of the form cosine Theta and that that's
+
+1122
+00:52:06,720 --> 00:52:10,359
+what I call the angle between two
+
+1123
+00:52:08,480 --> 00:52:12,559
+vectors and then the law of cosiness
+
+1124
+00:52:10,359 --> 00:52:14,680
+says that in two space it it works out
+
+1125
+00:52:12,559 --> 00:52:18,160
+to be the right
+
+1126
+00:52:14,680 --> 00:52:20,880
+angle okay so we're going to pick up on
+
+1127
+00:52:18,160 --> 00:52:23,000
+Monday all the geometry we get by
+
+1128
+00:52:20,880 --> 00:52:24,880
+looking at ukian geometry from the point
+
+1129
+00:52:23,000 --> 00:52:27,839
+of view of this group and it's going to
+
+1130
+00:52:24,880 --> 00:52:29,799
+be a completely different point of view
+
+1131
+00:52:27,839 --> 00:52:32,880
+here's a problem for you to just think
+
+1132
+00:52:29,799 --> 00:52:34,960
+about we saw that these elements these
+
+1133
+00:52:32,880 --> 00:52:36,920
+elements were in the orthogonal group
+
+1134
+00:52:34,960 --> 00:52:39,760
+prove that if you have an element in the
+
+1135
+00:52:36,920 --> 00:52:42,680
+orthogonal group and it's an and it has
+
+1136
+00:52:39,760 --> 00:52:44,799
+an igen Vector then the igen value is
+
+1137
+00:52:42,680 --> 00:52:46,599
+plus or minus one namely the only things
+
+1138
+00:52:44,799 --> 00:52:51,559
+that could be on the
+
+1139
+00:52:46,599 --> 00:52:51,559
+diagonal are plus or minus one
+

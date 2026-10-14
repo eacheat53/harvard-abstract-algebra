@@ -1,0 +1,3864 @@
+1
+00:00:11,559 --> 00:00:18,700
+so a group action on a set remember is a
+
+2
+00:00:14,139 --> 00:00:20,529
+map that takes an element in a group and
+
+3
+00:00:18,700 --> 00:00:27,490
+an elements in the set to another
+
+4
+00:00:20,529 --> 00:00:29,529
+element in a set and which satisfies
+
+5
+00:00:27,490 --> 00:00:31,360
+various axioms the identity acts
+
+6
+00:00:29,529 --> 00:00:34,149
+trivially on the set and it has an
+
+7
+00:00:31,360 --> 00:00:37,989
+associative action we saw that if we had
+
+8
+00:00:34,149 --> 00:00:44,710
+a point in s we could define its orbit
+
+9
+00:00:37,989 --> 00:00:47,440
+oh of s we could define its stabiliser G
+
+10
+00:00:44,710 --> 00:00:51,280
+of s which is a subgroup of G of s is a
+
+11
+00:00:47,440 --> 00:00:54,909
+subset of s and we saw that the orbit
+
+12
+00:00:51,280 --> 00:01:03,489
+was identified as a set with the set of
+
+13
+00:00:54,909 --> 00:01:05,470
+Co sets of the stabiliser and moreover
+
+14
+00:01:03,489 --> 00:01:08,890
+that if you took another point S Prime
+
+15
+00:01:05,470 --> 00:01:11,979
+in the orbit so it was of the form G of
+
+16
+00:01:08,890 --> 00:01:17,159
+s and you look at what the stabiliser of
+
+17
+00:01:11,979 --> 00:01:17,159
+s prime was it was a conjugate subgroup
+
+18
+00:01:18,329 --> 00:01:21,780
+conjugate subgroup
+
+19
+00:01:24,600 --> 00:01:30,420
+and so we saw last time that the that
+
+20
+00:01:27,810 --> 00:01:32,850
+the notion of a transitive action asset
+
+21
+00:01:30,420 --> 00:01:36,299
+on which G act / muted all the elements
+
+22
+00:01:32,850 --> 00:01:38,549
+from one to another like an orbit could
+
+23
+00:01:36,299 --> 00:01:40,560
+be identified with a conjugacy class of
+
+24
+00:01:38,549 --> 00:01:43,140
+subgroups because here is an example of
+
+25
+00:01:40,560 --> 00:01:45,600
+a transitive action and an abstract
+
+26
+00:01:43,140 --> 00:01:48,090
+transitive action is always identified
+
+27
+00:01:45,600 --> 00:01:51,600
+by this this identification is easy you
+
+28
+00:01:48,090 --> 00:01:54,630
+take a co set ggs and you take it to the
+
+29
+00:01:51,600 --> 00:01:57,240
+image of s which only depends on the co
+
+30
+00:01:54,630 --> 00:01:59,700
+set and you get all the elements that
+
+31
+00:01:57,240 --> 00:02:02,399
+are translates of s and you get all the
+
+32
+00:01:59,700 --> 00:02:04,560
+co sets so that's a pretty simple notion
+
+33
+00:02:02,399 --> 00:02:06,420
+but it's very powerful because it tells
+
+34
+00:02:04,560 --> 00:02:08,369
+us that all transitive actions of a
+
+35
+00:02:06,420 --> 00:02:10,950
+group can be built up internally from
+
+36
+00:02:08,369 --> 00:02:17,090
+the group from its subgroups it also has
+
+37
+00:02:10,950 --> 00:02:23,160
+the following property suppose G acts on
+
+38
+00:02:17,090 --> 00:02:37,549
+s and the order of G and the order of s
+
+39
+00:02:23,160 --> 00:02:40,500
+are both finite with orbits a 1 os1 os2
+
+40
+00:02:37,549 --> 00:02:42,810
+OS n so the first thing is there only
+
+41
+00:02:40,500 --> 00:02:45,030
+finitely many orbits because there are
+
+42
+00:02:42,810 --> 00:02:47,100
+only finitely many elements in the set
+
+43
+00:02:45,030 --> 00:02:48,989
+so there are fewer orbits than there are
+
+44
+00:02:47,100 --> 00:02:50,910
+elements in the set the worst possible
+
+45
+00:02:48,989 --> 00:02:58,500
+case is that every element is in its its
+
+46
+00:02:50,910 --> 00:03:03,709
+its own orbit then the order of s is of
+
+47
+00:02:58,500 --> 00:03:03,709
+course the sum of the size of the orbits
+
+48
+00:03:09,440 --> 00:03:17,850
+because the set s is itself decomposes a
+
+49
+00:03:13,290 --> 00:03:19,920
+disjoint union of the orbits for G so if
+
+50
+00:03:17,850 --> 00:03:21,510
+you add up the elements in the different
+
+51
+00:03:19,920 --> 00:03:24,510
+orbits you get the total number of
+
+52
+00:03:21,510 --> 00:03:26,730
+elements in the set but because of this
+
+53
+00:03:24,510 --> 00:03:28,740
+property that every orbit is identified
+
+54
+00:03:26,730 --> 00:03:30,750
+with a co set and we know the order of a
+
+55
+00:03:28,740 --> 00:03:32,970
+co set is the order of G divided by the
+
+56
+00:03:30,750 --> 00:03:36,120
+order of the stabilizer this can be
+
+57
+00:03:32,970 --> 00:03:41,750
+written as the order of G divided by G
+
+58
+00:03:36,120 --> 00:03:45,840
+s1 plus the order of G divided by G s2
+
+59
+00:03:41,750 --> 00:03:49,080
+plus plus the order of G divided by the
+
+60
+00:03:45,840 --> 00:03:51,570
+order of G s sub n in particular the
+
+61
+00:03:49,080 --> 00:03:53,790
+order of s is written as a sum of
+
+62
+00:03:51,570 --> 00:03:58,110
+numbers all of which divide the order of
+
+63
+00:03:53,790 --> 00:04:03,180
+G so this could also be written as the
+
+64
+00:03:58,110 --> 00:04:05,670
+order of G times the sum 1 over the
+
+65
+00:04:03,180 --> 00:04:11,340
+order of G si the order of the
+
+66
+00:04:05,670 --> 00:04:12,989
+stabilizers I is equal to 1 to n so
+
+67
+00:04:11,340 --> 00:04:14,550
+that's called the counting formula in
+
+68
+00:04:12,989 --> 00:04:16,739
+the book they really break it into two
+
+69
+00:04:14,550 --> 00:04:18,510
+formulas one it says that this order is
+
+70
+00:04:16,739 --> 00:04:20,790
+the order G divided by the order of the
+
+71
+00:04:18,510 --> 00:04:22,290
+stabilizer and the other is that the
+
+72
+00:04:20,790 --> 00:04:26,010
+order of the set is the sum of the
+
+73
+00:04:22,290 --> 00:04:27,630
+orders of all the orbits so this has a
+
+74
+00:04:26,010 --> 00:04:29,580
+number of very very powerful
+
+75
+00:04:27,630 --> 00:04:31,890
+applications this simple counting
+
+76
+00:04:29,580 --> 00:04:33,450
+formula most of our results on finite
+
+77
+00:04:31,890 --> 00:04:35,100
+groups summons in some way or another
+
+78
+00:04:33,450 --> 00:04:38,220
+come out of this counting formula
+
+79
+00:04:35,100 --> 00:04:41,340
+applied in various situations so let me
+
+80
+00:04:38,220 --> 00:04:45,540
+give you an example suppose you have a
+
+81
+00:04:41,340 --> 00:04:52,169
+group which is finite and you have two
+
+82
+00:04:45,540 --> 00:04:53,760
+sub groups H and K and then you have
+
+83
+00:04:52,169 --> 00:05:00,870
+their intersection of course which is a
+
+84
+00:04:53,760 --> 00:05:05,360
+sub group of both of them ok so I'm
+
+85
+00:05:00,870 --> 00:05:13,700
+going to prove for you then proposition
+
+86
+00:05:05,360 --> 00:05:17,630
+the index of K and G that index is
+
+87
+00:05:13,700 --> 00:05:17,630
+greater than or equal to
+
+88
+00:05:18,300 --> 00:05:27,850
+the index of H intersect K in H for any
+
+89
+00:05:24,700 --> 00:05:31,180
+subgroups H and K so we view H intersect
+
+90
+00:05:27,850 --> 00:05:33,100
+K as a subgroup of H and K is the
+
+91
+00:05:31,180 --> 00:05:36,220
+subgroup of G this index is always
+
+92
+00:05:33,100 --> 00:05:45,430
+greater than equal to that index okay
+
+93
+00:05:36,220 --> 00:05:50,830
+proof let s be G mod K the cosets of K
+
+94
+00:05:45,430 --> 00:05:54,880
+in G so the order of s is the index of G
+
+95
+00:05:50,830 --> 00:06:06,130
+and K we know that now G acts
+
+96
+00:05:54,880 --> 00:06:08,650
+transitively on s you can get from any
+
+97
+00:06:06,130 --> 00:06:10,840
+one left coset of k to any other left
+
+98
+00:06:08,650 --> 00:06:14,290
+coset of k by multiplying by an element
+
+99
+00:06:10,840 --> 00:06:21,419
+in g but we can take the restriction of
+
+100
+00:06:14,290 --> 00:06:31,210
+this action to h can restrict the action
+
+101
+00:06:21,419 --> 00:06:34,030
+of g on s to the subgroup h for any
+
+102
+00:06:31,210 --> 00:06:36,460
+subgroup and you get in each action one
+
+103
+00:06:34,030 --> 00:06:38,770
+of the definitions the a consequence of
+
+104
+00:06:36,460 --> 00:06:41,380
+this definition of when G acts on a set
+
+105
+00:06:38,770 --> 00:06:43,450
+is if you have any subgroup of G H and
+
+106
+00:06:41,380 --> 00:06:45,490
+you have an action of G on the set and
+
+107
+00:06:43,450 --> 00:06:47,020
+you restrict that action to H that gives
+
+108
+00:06:45,490 --> 00:06:49,930
+you an action of H on the set it
+
+109
+00:06:47,020 --> 00:06:52,390
+satisfies the same axioms now there's no
+
+110
+00:06:49,930 --> 00:06:53,320
+reason any longer for H to act
+
+111
+00:06:52,390 --> 00:06:59,590
+transitively
+
+112
+00:06:53,320 --> 00:07:07,240
+on the set of K Co sets no reason so
+
+113
+00:06:59,590 --> 00:07:10,650
+this this this action is a sum or a
+
+114
+00:07:07,240 --> 00:07:10,650
+union of H orbits
+
+115
+00:07:14,230 --> 00:07:20,860
+and we're going to show that this is the
+
+116
+00:07:17,380 --> 00:07:23,590
+size of one of the H orbits and in
+
+117
+00:07:20,860 --> 00:07:26,830
+particular the size of the set is larger
+
+118
+00:07:23,590 --> 00:07:28,780
+is given by the sum of the sizes of the
+
+119
+00:07:26,830 --> 00:07:30,490
+orbits so it's particular the size of s
+
+120
+00:07:28,780 --> 00:07:32,800
+is greater than or equal to the size of
+
+121
+00:07:30,490 --> 00:07:33,400
+any orbit that's how we're going to
+
+122
+00:07:32,800 --> 00:07:37,630
+prove this
+
+123
+00:07:33,400 --> 00:07:47,740
+well what orbit has the size H mod H
+
+124
+00:07:37,630 --> 00:07:57,130
+intersect K well let's see consider the
+
+125
+00:07:47,740 --> 00:08:02,220
+orbit of the co set just K under well it
+
+126
+00:07:57,130 --> 00:08:06,420
+could call it ek under the action of H
+
+127
+00:08:02,220 --> 00:08:12,990
+this is one element in my set
+
+128
+00:08:06,420 --> 00:08:18,430
+well the orbit of s is identified with H
+
+129
+00:08:12,990 --> 00:08:23,950
+this is under H modulo the subgroup of H
+
+130
+00:08:18,430 --> 00:08:26,620
+that stabilizes s what is the subgroup
+
+131
+00:08:23,950 --> 00:08:31,840
+of H that stabilizes s this is the set
+
+132
+00:08:26,620 --> 00:08:39,460
+of little H in H such that H K is equal
+
+133
+00:08:31,840 --> 00:08:45,910
+to K which is exactly the elements in H
+
+134
+00:08:39,460 --> 00:08:50,110
+which are in K and so the size of this
+
+135
+00:08:45,910 --> 00:08:52,330
+orbit under H is exactly the order of H
+
+136
+00:08:50,110 --> 00:08:55,540
+divided by the order of H intersect K
+
+137
+00:08:52,330 --> 00:08:57,310
+and that shows that the size of the set
+
+138
+00:08:55,540 --> 00:09:02,620
+is at least as large as the size of the
+
+139
+00:08:57,310 --> 00:09:05,290
+H orbit for any two subgroups ok so that
+
+140
+00:09:02,620 --> 00:09:07,030
+was sort of a mindless counting argument
+
+141
+00:09:05,290 --> 00:09:08,560
+it looks complicated but it isn't any
+
+142
+00:09:07,030 --> 00:09:11,200
+more complicated when you work it out
+
+143
+00:09:08,560 --> 00:09:12,600
+like this let me give you another proof
+
+144
+00:09:11,200 --> 00:09:16,000
+which will come through a little later
+
+145
+00:09:12,600 --> 00:09:19,630
+which involves a particular G action on
+
+146
+00:09:16,000 --> 00:09:21,760
+itself so all these we saw that we have
+
+147
+00:09:19,630 --> 00:09:26,579
+a transitive action of G on itself by
+
+148
+00:09:21,760 --> 00:09:34,329
+left multiplication GX
+
+149
+00:09:26,579 --> 00:09:40,209
+transitively on s equal G by left
+
+150
+00:09:34,329 --> 00:09:43,749
+multiplication namely G of an element s
+
+151
+00:09:40,209 --> 00:09:45,609
+in G is G times s because we can get to
+
+152
+00:09:43,749 --> 00:09:48,069
+any element by left multiplying the
+
+153
+00:09:45,609 --> 00:09:56,049
+identity by something the orbit of the
+
+154
+00:09:48,069 --> 00:10:06,459
+identity element is all of G but there
+
+155
+00:09:56,049 --> 00:10:16,119
+is a more interesting action of G on
+
+156
+00:10:06,459 --> 00:10:20,769
+itself by conjugation and here the
+
+157
+00:10:16,119 --> 00:10:25,179
+action is that G of s is equal to GS G
+
+158
+00:10:20,769 --> 00:10:28,539
+inverse this is a new element of the set
+
+159
+00:10:25,179 --> 00:10:30,970
+s right and you have to check that it's
+
+160
+00:10:28,539 --> 00:10:33,309
+an action so the identity takes any
+
+161
+00:10:30,970 --> 00:10:35,439
+element to the group to itself because
+
+162
+00:10:33,309 --> 00:10:37,959
+the identity commutes with the right so
+
+163
+00:10:35,439 --> 00:10:44,019
+it gives the identity and if you take G
+
+164
+00:10:37,959 --> 00:10:45,909
+H of s that becomes G of H of s again if
+
+165
+00:10:44,019 --> 00:10:48,579
+you first conjugate by H and then
+
+166
+00:10:45,909 --> 00:10:52,419
+conjugate by G you get conjugation by G
+
+167
+00:10:48,579 --> 00:10:56,499
+H so it satisfies the axioms however
+
+168
+00:10:52,419 --> 00:10:59,049
+this is not a transitive action you you
+
+169
+00:10:56,499 --> 00:11:01,929
+can't get unless the group is is the
+
+170
+00:10:59,049 --> 00:11:07,559
+trivial group because the orbit of the
+
+171
+00:11:01,929 --> 00:11:07,559
+identity element is what in this action
+
+172
+00:11:08,120 --> 00:11:15,560
+is itself very good the orbit of the
+
+173
+00:11:12,140 --> 00:11:18,230
+identity element in this action is equal
+
+174
+00:11:15,560 --> 00:11:25,370
+to e and the stabilizer of the identity
+
+175
+00:11:18,230 --> 00:11:27,110
+is all of G so you can't get from a non
+
+176
+00:11:25,370 --> 00:11:29,750
+identity element to the identity element
+
+177
+00:11:27,110 --> 00:11:31,760
+by this action you cannot conjugate some
+
+178
+00:11:29,750 --> 00:11:35,660
+element which is not the identity into
+
+179
+00:11:31,760 --> 00:11:38,450
+the identity consequently it's not state
+
+180
+00:11:35,660 --> 00:11:40,010
+it's not it's not a transitive action
+
+181
+00:11:38,450 --> 00:11:46,520
+there are different orbits the orbits
+
+182
+00:11:40,010 --> 00:11:48,440
+are called the conjugacy classes by
+
+183
+00:11:46,520 --> 00:11:57,140
+definition that's the definition of a
+
+184
+00:11:48,440 --> 00:11:59,000
+conjugacy class of s and the formula we
+
+185
+00:11:57,140 --> 00:12:03,529
+wrote before would say that the order of
+
+186
+00:11:59,000 --> 00:12:11,330
+G is equal to the sum over the conjugacy
+
+187
+00:12:03,529 --> 00:12:13,670
+classes the size of the orbit of s which
+
+188
+00:12:11,330 --> 00:12:20,140
+can also be written as the sum over the
+
+189
+00:12:13,670 --> 00:12:24,260
+conjugacy classes of G the order of G
+
+190
+00:12:20,140 --> 00:12:28,610
+divided by the stabilizer now what is
+
+191
+00:12:24,260 --> 00:12:32,870
+the stabilizer of an element here well G
+
+192
+00:12:28,610 --> 00:12:35,750
+would fix s if this is equal to s which
+
+193
+00:12:32,870 --> 00:12:43,850
+means that G commutes with s that's
+
+194
+00:12:35,750 --> 00:12:47,870
+called the centralizer of s G in G such
+
+195
+00:12:43,850 --> 00:12:53,209
+that G s is equal to s G it's called the
+
+196
+00:12:47,870 --> 00:12:54,830
+centralizer of s so that the order of a
+
+197
+00:12:53,209 --> 00:12:56,900
+group is you take the different
+
+198
+00:12:54,830 --> 00:12:58,760
+conjugacy classes in the group take the
+
+199
+00:12:56,900 --> 00:13:01,190
+order of G divided by the order of their
+
+200
+00:12:58,760 --> 00:13:04,820
+centralizer here's a particularly weird
+
+201
+00:13:01,190 --> 00:13:10,640
+example of this weird suppose my group
+
+202
+00:13:04,820 --> 00:13:14,959
+is abelian abelian then this element is
+
+203
+00:13:10,640 --> 00:13:16,880
+equal to s for all G and G because G
+
+204
+00:13:14,959 --> 00:13:19,490
+commutes with every everything commutes
+
+205
+00:13:16,880 --> 00:13:21,650
+in this group consequently in an abelian
+
+206
+00:13:19,490 --> 00:13:24,410
+group these orbits
+
+207
+00:13:21,650 --> 00:13:29,480
+have one element in them every element
+
+208
+00:13:24,410 --> 00:13:40,520
+is in its own conjugacy class so if G
+
+209
+00:13:29,480 --> 00:13:44,090
+abelian every orbit has one element in
+
+210
+00:13:40,520 --> 00:13:45,410
+it and there's no break of G into
+
+211
+00:13:44,090 --> 00:13:47,300
+conjugacy class at all
+
+212
+00:13:45,410 --> 00:13:48,730
+each conjugacy class is just a singleton
+
+213
+00:13:47,300 --> 00:13:51,830
+the centralizer
+
+214
+00:13:48,730 --> 00:13:55,180
+GS is G and this just says that the
+
+215
+00:13:51,830 --> 00:13:59,420
+order of G is the sum of 1 G times
+
+216
+00:13:55,180 --> 00:14:01,640
+that's not so interesting but if you
+
+217
+00:13:59,420 --> 00:14:03,380
+take more interesting groups this
+
+218
+00:14:01,640 --> 00:14:05,570
+becomes an interesting identity it's
+
+219
+00:14:03,380 --> 00:14:07,070
+called by the way the class equation for
+
+220
+00:14:05,570 --> 00:14:10,010
+a group that the order of a group is
+
+221
+00:14:07,070 --> 00:14:13,310
+this sum this is sometimes called the
+
+222
+00:14:10,010 --> 00:14:14,990
+class equation so for example let's take
+
+223
+00:14:13,310 --> 00:14:17,390
+a look at the symmetric group on three
+
+224
+00:14:14,990 --> 00:14:23,570
+letters which is our first non abelian
+
+225
+00:14:17,390 --> 00:14:26,480
+group the symmetric group on three
+
+226
+00:14:23,570 --> 00:14:28,220
+letters has the identity that commutes
+
+227
+00:14:26,480 --> 00:14:32,210
+with everything that's one conjugacy
+
+228
+00:14:28,220 --> 00:14:38,840
+class another conjugacy class is the
+
+229
+00:14:32,210 --> 00:14:40,820
+elements of water two so those are the
+
+230
+00:14:38,840 --> 00:14:43,940
+what we call transpositions things that
+
+231
+00:14:40,820 --> 00:14:46,460
+fix something so an example of a
+
+232
+00:14:43,940 --> 00:14:48,470
+transposition would be this or the
+
+233
+00:14:46,460 --> 00:14:50,360
+things fixing two and switching one and
+
+234
+00:14:48,470 --> 00:14:52,670
+three or the things switching three and
+
+235
+00:14:50,360 --> 00:14:54,200
+switch and switching one and two so
+
+236
+00:14:52,670 --> 00:14:57,770
+there are three elements of water two
+
+237
+00:14:54,200 --> 00:15:02,060
+they form a conjugacy class and then
+
+238
+00:14:57,770 --> 00:15:05,930
+there are two elements of order three
+
+239
+00:15:02,060 --> 00:15:07,610
+and they are also those things look like
+
+240
+00:15:05,930 --> 00:15:10,730
+this those are the things that cycle
+
+241
+00:15:07,610 --> 00:15:11,990
+around we're going to by the way once we
+
+242
+00:15:10,730 --> 00:15:13,970
+get a little bit further we're going to
+
+243
+00:15:11,990 --> 00:15:16,670
+determine all the conjugacy classes in
+
+244
+00:15:13,970 --> 00:15:18,560
+the symmetric group but in s 3 there are
+
+245
+00:15:16,670 --> 00:15:20,450
+3 different conjugacy classes the
+
+246
+00:15:18,560 --> 00:15:22,910
+identity the elements of 1 or 2 the
+
+247
+00:15:20,450 --> 00:15:26,480
+elements of order 3 the class equation
+
+248
+00:15:22,910 --> 00:15:30,650
+looks like this 6 is equal to 1 plus 2 3
+
+249
+00:15:26,480 --> 00:15:32,570
+plus 2 here the centralizer
+
+250
+00:15:30,650 --> 00:15:35,620
+is just the element of water 2
+
+251
+00:15:32,570 --> 00:15:41,410
+everything commutes with itself
+
+252
+00:15:35,620 --> 00:15:43,360
+right and here the centralizers are the
+
+253
+00:15:41,410 --> 00:15:55,600
+subgroup of order three generated by the
+
+254
+00:15:43,360 --> 00:15:59,980
+element here zs e of order six here Z of
+
+255
+00:15:55,600 --> 00:16:03,790
+a transposition is of order two and is
+
+256
+00:15:59,980 --> 00:16:05,500
+the subgroup e'en tau and here Z of an
+
+257
+00:16:03,790 --> 00:16:09,190
+element of order three let's call this
+
+258
+00:16:05,500 --> 00:16:14,470
+element Sigma Z of Sigma is the subgroup
+
+259
+00:16:09,190 --> 00:16:16,500
+II Sigma Sigma squared so that's the
+
+260
+00:16:14,470 --> 00:16:19,930
+class equation for the symmetric group
+
+261
+00:16:16,500 --> 00:16:23,110
+of order three it's very interesting
+
+262
+00:16:19,930 --> 00:16:25,690
+given a a group to determine its
+
+263
+00:16:23,110 --> 00:16:27,550
+conjugacy classes to determine its
+
+264
+00:16:25,690 --> 00:16:29,590
+consequence class it's more intrinsic
+
+265
+00:16:27,550 --> 00:16:31,420
+for a non abelian group to know its
+
+266
+00:16:29,590 --> 00:16:34,390
+conjugacy classes than to know its
+
+267
+00:16:31,420 --> 00:16:36,010
+elements because in an inner group
+
+268
+00:16:34,390 --> 00:16:38,110
+things are always confused by this
+
+269
+00:16:36,010 --> 00:16:40,300
+question of conjugacy we already saw for
+
+270
+00:16:38,110 --> 00:16:42,610
+group actions it really isn't the
+
+271
+00:16:40,300 --> 00:16:43,960
+subgroup which is the stabilizer because
+
+272
+00:16:42,610 --> 00:16:45,790
+that depends on which point you choose
+
+273
+00:16:43,960 --> 00:16:47,380
+in the orbit if you chose a different
+
+274
+00:16:45,790 --> 00:16:49,930
+point in the orbit you'd get a
+
+275
+00:16:47,380 --> 00:16:51,760
+conjugates subgroup so frequently you
+
+276
+00:16:49,930 --> 00:16:53,920
+want to consider the set of elements in
+
+277
+00:16:51,760 --> 00:16:55,930
+the group up to conjugacy so that's
+
+278
+00:16:53,920 --> 00:16:58,210
+knowing what is the set of conjugacy
+
+279
+00:16:55,930 --> 00:17:00,190
+classes here there are three conjugacy
+
+280
+00:16:58,210 --> 00:17:02,440
+classes we're going to do conjugacy
+
+281
+00:17:00,190 --> 00:17:03,820
+classes in the symmetric group and we're
+
+282
+00:17:02,440 --> 00:17:07,030
+going to show that the order of the
+
+283
+00:17:03,820 --> 00:17:10,120
+symmetric group turns out to be n
+
+284
+00:17:07,030 --> 00:17:14,470
+factorial but the number of conjugacy
+
+285
+00:17:10,120 --> 00:17:21,090
+classes turns out to be the number of
+
+286
+00:17:14,470 --> 00:17:25,450
+partitions of n which is much smaller
+
+287
+00:17:21,090 --> 00:17:27,340
+and the fact that they're a smaller
+
+288
+00:17:25,450 --> 00:17:29,380
+number of conjugacy classes and elements
+
+289
+00:17:27,340 --> 00:17:30,850
+allows you to work with a group but one
+
+290
+00:17:29,380 --> 00:17:32,200
+of the most interesting finite groups
+
+291
+00:17:30,850 --> 00:17:33,940
+that's been discovered and their many
+
+292
+00:17:32,200 --> 00:17:35,740
+cosmological models of the universe
+
+293
+00:17:33,940 --> 00:17:38,800
+based on it it's called the monster
+
+294
+00:17:35,740 --> 00:17:40,810
+group so I'll talk about the monster
+
+295
+00:17:38,800 --> 00:17:42,670
+maybe later in the course but the
+
+296
+00:17:40,810 --> 00:17:44,980
+monster group is a finite group that was
+
+297
+00:17:42,670 --> 00:17:48,480
+discovered essentially on the computer
+
+298
+00:17:44,980 --> 00:17:53,760
+in the 1980s which has order
+
+299
+00:17:48,480 --> 00:17:56,190
+about 10 to the 47th so about the number
+
+300
+00:17:53,760 --> 00:17:57,690
+of particles in this room you can't
+
+301
+00:17:56,190 --> 00:17:59,549
+write down that group you can't you
+
+302
+00:17:57,690 --> 00:18:00,269
+cannot store the elements of that group
+
+303
+00:17:59,549 --> 00:18:02,490
+anywhere
+
+304
+00:18:00,269 --> 00:18:06,120
+however we know an enormous amount about
+
+305
+00:18:02,490 --> 00:18:11,149
+this group because it has less than 200
+
+306
+00:18:06,120 --> 00:18:13,919
+conjugacy classes it's so non abelian
+
+307
+00:18:11,149 --> 00:18:15,840
+that the elements get quite conjugated
+
+308
+00:18:13,919 --> 00:18:17,519
+into each other so we can work with the
+
+309
+00:18:15,840 --> 00:18:21,809
+monster group because we work with its
+
+310
+00:18:17,519 --> 00:18:23,250
+conjugacy classes so those of you know
+
+311
+00:18:21,809 --> 00:18:24,929
+the difference between you know there's
+
+312
+00:18:23,250 --> 00:18:26,639
+estimates and mathematics between the
+
+313
+00:18:24,929 --> 00:18:28,049
+size of n factorial that's Sterling's
+
+314
+00:18:26,639 --> 00:18:29,940
+formula on the size of the partition
+
+315
+00:18:28,049 --> 00:18:32,279
+function this is considerably smaller
+
+316
+00:18:29,940 --> 00:18:33,929
+than this and that reflects the non
+
+317
+00:18:32,279 --> 00:18:36,510
+abelian nature in an abelian group
+
+318
+00:18:33,929 --> 00:18:38,340
+you get no advantage in the abelian
+
+319
+00:18:36,510 --> 00:18:46,169
+group the number of conjugacy classes is
+
+320
+00:18:38,340 --> 00:18:49,309
+the number of elements okay I'll give
+
+321
+00:18:46,169 --> 00:18:54,450
+you another example of this amazing
+
+322
+00:18:49,309 --> 00:18:59,370
+amazing class formula now when is an
+
+323
+00:18:54,450 --> 00:19:07,710
+element in a group when for conjugation
+
+324
+00:18:59,370 --> 00:19:13,019
+action when is the size of the orbit of
+
+325
+00:19:07,710 --> 00:19:15,450
+s equal to 1 that's a good question
+
+326
+00:19:13,019 --> 00:19:17,190
+well we know that the same that's this
+
+327
+00:19:15,450 --> 00:19:19,880
+size of the orbit is the order of G
+
+328
+00:19:17,190 --> 00:19:22,500
+divided by the order of the centralizer
+
+329
+00:19:19,880 --> 00:19:29,340
+so this is equivalent to the condition
+
+330
+00:19:22,500 --> 00:19:31,620
+when is G sub s equal to G when as the
+
+331
+00:19:29,340 --> 00:19:34,019
+centralizer the full group well the
+
+332
+00:19:31,620 --> 00:19:39,990
+centralizer we saw was the set of
+
+333
+00:19:34,019 --> 00:19:42,720
+elements which commuted with s right so
+
+334
+00:19:39,990 --> 00:19:44,850
+the full the centralizer is the full
+
+335
+00:19:42,720 --> 00:19:50,880
+group says that every element commutes
+
+336
+00:19:44,850 --> 00:19:54,559
+with s which means that s is in the what
+
+337
+00:19:50,880 --> 00:19:54,559
+we call the center of the group
+
+338
+00:20:01,440 --> 00:20:05,950
+that was a canonical normal subgroup of
+
+339
+00:20:04,240 --> 00:20:09,100
+the things that commuted with everything
+
+340
+00:20:05,950 --> 00:20:10,780
+so in this formula there are a certain
+
+341
+00:20:09,100 --> 00:20:12,970
+number of terms which have ones for
+
+342
+00:20:10,780 --> 00:20:16,600
+example the identity element is always a
+
+343
+00:20:12,970 --> 00:20:19,200
+1 there may be more and the number of
+
+344
+00:20:16,600 --> 00:20:22,930
+such elements is the order of the center
+
+345
+00:20:19,200 --> 00:20:25,900
+so here we only had one such element
+
+346
+00:20:22,930 --> 00:20:27,850
+because in the symmetric group if you're
+
+347
+00:20:25,900 --> 00:20:30,730
+not the identity element you're not in
+
+348
+00:20:27,850 --> 00:20:32,320
+the center nothing no we're going to
+
+349
+00:20:30,730 --> 00:20:34,000
+prove that later too there's no more
+
+350
+00:20:32,320 --> 00:20:36,840
+center of the symmetric group except the
+
+351
+00:20:34,000 --> 00:20:38,890
+identity element once n is at least 3
+
+352
+00:20:36,840 --> 00:20:42,130
+but I'm going to prove to you an amazing
+
+353
+00:20:38,890 --> 00:20:48,670
+thing that you get out of this little
+
+354
+00:20:42,130 --> 00:20:51,160
+formula here which is that if the order
+
+355
+00:20:48,670 --> 00:20:58,510
+of your group is a prime power it has a
+
+356
+00:20:51,160 --> 00:21:04,050
+non-trivial Center if the order of G is
+
+357
+00:20:58,510 --> 00:21:04,050
+equal to P to the N with P a prime then
+
+358
+00:21:04,500 --> 00:21:11,230
+the center of G is not equal to the
+
+359
+00:21:09,790 --> 00:21:13,270
+identity element namely you have
+
+360
+00:21:11,230 --> 00:21:18,700
+non-trivial elements in the center of
+
+361
+00:21:13,270 --> 00:21:21,010
+the group ok so that's not true when we
+
+362
+00:21:18,700 --> 00:21:24,730
+had 1 or 6 but if I had a group of order
+
+363
+00:21:21,010 --> 00:21:26,110
+8 or order 16 or order 32 any group of
+
+364
+00:21:24,730 --> 00:21:30,810
+that sort has to have a non-trivial
+
+365
+00:21:26,110 --> 00:21:34,240
+Center why because look at this formula
+
+366
+00:21:30,810 --> 00:21:38,320
+every term in this formula divides the
+
+367
+00:21:34,240 --> 00:21:40,590
+order of G the divisors of the order of
+
+368
+00:21:38,320 --> 00:21:40,590
+G
+
+369
+00:21:45,600 --> 00:21:53,890
+prove these terms have order P to the K
+
+370
+00:21:50,309 --> 00:21:59,290
+with zero less than or equal to K less
+
+371
+00:21:53,890 --> 00:22:03,340
+than or equal to n okay in particular
+
+372
+00:21:59,290 --> 00:22:15,309
+they're all divisible by P except when K
+
+373
+00:22:03,340 --> 00:22:19,750
+is equal to zero when K is equal to zero
+
+374
+00:22:15,309 --> 00:22:21,520
+and the size of the orbit is equal to
+
+375
+00:22:19,750 --> 00:22:25,390
+one I mean one possibility is the
+
+376
+00:22:21,520 --> 00:22:27,790
+centralizers the full group okay so all
+
+377
+00:22:25,390 --> 00:22:30,870
+the terms here except the central
+
+378
+00:22:27,790 --> 00:22:33,640
+conjugacy classes are divisible by P
+
+379
+00:22:30,870 --> 00:22:37,090
+over here the order of G is divisible by
+
+380
+00:22:33,640 --> 00:22:41,020
+P so the number of ones that we get in
+
+381
+00:22:37,090 --> 00:22:43,059
+this sum has to be divisible by P which
+
+382
+00:22:41,020 --> 00:22:47,220
+means you can't just have the identity
+
+383
+00:22:43,059 --> 00:22:47,220
+in the center one is not divisible by P
+
+384
+00:22:48,929 --> 00:23:01,330
+is the visible by P and consequently not
+
+385
+00:22:59,169 --> 00:23:03,910
+equal to one and that proves that the
+
+386
+00:23:01,330 --> 00:23:06,100
+center is non-trivial so it's a purely
+
+387
+00:23:03,910 --> 00:23:08,500
+divisibility argument which we see fails
+
+388
+00:23:06,100 --> 00:23:10,990
+for groups of water six but for any
+
+389
+00:23:08,500 --> 00:23:13,480
+group of prime power order it works and
+
+390
+00:23:10,990 --> 00:23:17,410
+this gives a very powerful way of
+
+391
+00:23:13,480 --> 00:23:20,380
+analyzing groups of prime power order
+
+392
+00:23:17,410 --> 00:23:22,650
+why because the center is a normal
+
+393
+00:23:20,380 --> 00:23:22,650
+subgroup
+
+394
+00:23:26,850 --> 00:23:40,960
+so if G of prime power order and Z is
+
+395
+00:23:37,390 --> 00:23:43,360
+equal to its center then the quotient
+
+396
+00:23:40,960 --> 00:23:51,750
+group Z G mod Z let's call that group G
+
+397
+00:23:43,360 --> 00:23:55,080
+one also has prime power order and
+
+398
+00:23:51,750 --> 00:24:00,220
+therefore it has a non-trivial Center
+
+399
+00:23:55,080 --> 00:24:04,900
+and then you make the next quotient G 2
+
+400
+00:24:00,220 --> 00:24:06,730
+is equal to G 1 mod Z 1 same thing
+
+401
+00:24:04,900 --> 00:24:07,660
+continue down until you get to the
+
+402
+00:24:06,730 --> 00:24:09,970
+trivial group you're getting to a
+
+403
+00:24:07,660 --> 00:24:13,110
+smaller group each time a strictly
+
+404
+00:24:09,970 --> 00:24:15,130
+smaller group because this Center is
+
+405
+00:24:13,110 --> 00:24:18,160
+which is not equal to the identity
+
+406
+00:24:15,130 --> 00:24:21,460
+element so this has prime power order
+
+407
+00:24:18,160 --> 00:24:24,760
+less than the order of G and this has
+
+408
+00:24:21,460 --> 00:24:27,250
+prime power order less than the order of
+
+409
+00:24:24,760 --> 00:24:30,310
+G 1 same principle its Center which is
+
+410
+00:24:27,250 --> 00:24:32,140
+not equal to the identity and so we have
+
+411
+00:24:30,310 --> 00:24:34,330
+an inductive procedure starting with a
+
+412
+00:24:32,140 --> 00:24:35,800
+group of prime power order and taking
+
+413
+00:24:34,330 --> 00:24:38,380
+the quotient by its center and
+
+414
+00:24:35,800 --> 00:24:39,910
+continuing of eventually getting down to
+
+415
+00:24:38,380 --> 00:24:41,350
+the trivial group because eventually we
+
+416
+00:24:39,910 --> 00:24:46,570
+get down to a group which has order less
+
+417
+00:24:41,350 --> 00:24:49,180
+than P right and so we can then build
+
+418
+00:24:46,570 --> 00:24:52,120
+our group up from these particular
+
+419
+00:24:49,180 --> 00:24:55,390
+centers and that's a complicated process
+
+420
+00:24:52,120 --> 00:24:58,450
+but abelian P groups we understand or at
+
+421
+00:24:55,390 --> 00:25:00,190
+least we pretend to understand so it
+
+422
+00:24:58,450 --> 00:25:01,900
+gives a way of breaking a group of prime
+
+423
+00:25:00,190 --> 00:25:06,100
+power order it shows for example it
+
+424
+00:25:01,900 --> 00:25:08,880
+can't be simple let's put that down so G
+
+425
+00:25:06,100 --> 00:25:08,880
+is not simple
+
+426
+00:25:12,970 --> 00:25:20,450
+unless the order of G is equal to P it
+
+427
+00:25:17,840 --> 00:25:21,950
+turns out because you can you can if
+
+428
+00:25:20,450 --> 00:25:24,680
+it's an abelian group you take any
+
+429
+00:25:21,950 --> 00:25:26,900
+subgroup and well I have to prove that
+
+430
+00:25:24,680 --> 00:25:28,250
+there's any subgroup but I'll just put
+
+431
+00:25:26,900 --> 00:25:31,220
+this in parenthesis because we haven't
+
+432
+00:25:28,250 --> 00:25:33,140
+proved it yet it's possible the center
+
+433
+00:25:31,220 --> 00:25:34,790
+is the entire group but at the center is
+
+434
+00:25:33,140 --> 00:25:40,280
+not the entire group we've constructed a
+
+435
+00:25:34,790 --> 00:25:44,450
+non-trivial normal subgroup yeah simple
+
+436
+00:25:40,280 --> 00:25:46,250
+means no non-trivial normal subgroups no
+
+437
+00:25:44,450 --> 00:25:49,820
+non-trivial the only normal subgroup is
+
+438
+00:25:46,250 --> 00:25:51,140
+G or the identity so here you see if you
+
+439
+00:25:49,820 --> 00:25:52,760
+have a group of prime power order and
+
+440
+00:25:51,140 --> 00:25:56,150
+you take its center that's a normal
+
+441
+00:25:52,760 --> 00:25:57,350
+subgroup it's not the identity so the
+
+442
+00:25:56,150 --> 00:25:59,000
+only the only thing that would be a
+
+443
+00:25:57,350 --> 00:26:01,820
+problem here is if the center where the
+
+444
+00:25:59,000 --> 00:26:05,960
+entire group if the center is the entire
+
+445
+00:26:01,820 --> 00:26:09,350
+group the group is abelian ok if it
+
+446
+00:26:05,960 --> 00:26:11,360
+doesn't have order P I can produce in an
+
+447
+00:26:09,350 --> 00:26:13,580
+abelian group of order P squared or P
+
+448
+00:26:11,360 --> 00:26:16,160
+cubed or P to the fourth a non-trivial
+
+449
+00:26:13,580 --> 00:26:25,610
+subgroup and then any subgroup of an
+
+450
+00:26:16,160 --> 00:26:27,950
+abelian group is normal yeah oh no it's
+
+451
+00:26:25,610 --> 00:26:29,930
+not if and only if I can I can make I
+
+452
+00:26:27,950 --> 00:26:31,910
+can make a billion groups of any order
+
+453
+00:26:29,930 --> 00:26:34,190
+because we could make cyclic groups of
+
+454
+00:26:31,910 --> 00:26:37,340
+any order so a cyclic group is equal to
+
+455
+00:26:34,190 --> 00:26:39,020
+its center but the amazing thing is only
+
+456
+00:26:37,340 --> 00:26:40,700
+knowing something about the order of a
+
+457
+00:26:39,020 --> 00:26:43,460
+group allows me to conclude something
+
+458
+00:26:40,700 --> 00:26:44,930
+about its center so if I'm going to make
+
+459
+00:26:43,460 --> 00:26:49,310
+simple groups they have to involve
+
+460
+00:26:44,930 --> 00:26:51,440
+several Prime's in them in fact a very
+
+461
+00:26:49,310 --> 00:26:53,000
+famous theorem that was proved the
+
+462
+00:26:51,440 --> 00:26:55,640
+beginning of the 20th century by
+
+463
+00:26:53,000 --> 00:26:57,830
+Burnside said that if you make a simple
+
+464
+00:26:55,640 --> 00:27:00,520
+group it can even be the power of 1
+
+465
+00:26:57,830 --> 00:27:03,140
+prime times another prime so Burnside
+
+466
+00:27:00,520 --> 00:27:06,740
+this is just an aside much harder
+
+467
+00:27:03,140 --> 00:27:10,370
+theorem than this prove that if the
+
+468
+00:27:06,740 --> 00:27:17,350
+order of G is P to the n times Q to the
+
+469
+00:27:10,370 --> 00:27:17,350
+M then G is not simple
+
+470
+00:27:18,380 --> 00:27:23,279
+but on the other hand we're going to see
+
+471
+00:27:20,970 --> 00:27:27,090
+that a five that's going to be our first
+
+472
+00:27:23,279 --> 00:27:36,630
+non-abelian simple group is a simple
+
+473
+00:27:27,090 --> 00:27:40,350
+group of order 60 which is 2 squared
+
+474
+00:27:36,630 --> 00:27:44,909
+times 3 times 5 so once you had three
+
+475
+00:27:40,350 --> 00:27:46,919
+Prime's you can do it so the order of a
+
+476
+00:27:44,909 --> 00:27:51,120
+group is going to say something about
+
+477
+00:27:46,919 --> 00:27:53,220
+the existence of normal subgroups okay
+
+478
+00:27:51,120 --> 00:27:55,649
+now I want to do the counting formula in
+
+479
+00:27:53,220 --> 00:27:58,500
+another case you know here in this
+
+480
+00:27:55,649 --> 00:28:00,029
+conjugacy class argument we knew the
+
+481
+00:27:58,500 --> 00:28:01,770
+order of the group and we did do
+
+482
+00:28:00,029 --> 00:28:03,809
+something about the size of conjugacy
+
+483
+00:28:01,770 --> 00:28:05,669
+Club like for example here we deduce
+
+484
+00:28:03,809 --> 00:28:09,870
+that there have to be conjugacy classes
+
+485
+00:28:05,669 --> 00:28:11,909
+of size 1 now you could sometimes turn
+
+486
+00:28:09,870 --> 00:28:13,860
+this class equation around know
+
+487
+00:28:11,909 --> 00:28:16,340
+something about the orbits and to do
+
+488
+00:28:13,860 --> 00:28:18,240
+something about the order of the group
+
+489
+00:28:16,340 --> 00:28:21,750
+ok so I'm going to show you how that
+
+490
+00:28:18,240 --> 00:28:24,299
+works a good formula should be able to
+
+491
+00:28:21,750 --> 00:28:25,740
+read both ways and frequently some of
+
+492
+00:28:24,299 --> 00:28:27,809
+the greatest mathematics it's ever done
+
+493
+00:28:25,740 --> 00:28:32,190
+is taken a formula that's being read one
+
+494
+00:28:27,809 --> 00:28:34,110
+way and turning it upside down and
+
+495
+00:28:32,190 --> 00:28:35,760
+saying well let's suppose we knew all
+
+496
+00:28:34,110 --> 00:28:38,940
+about the orbits can we get the group
+
+497
+00:28:35,760 --> 00:28:41,580
+back so I'm going to do this for you in
+
+498
+00:28:38,940 --> 00:28:44,880
+a famous problem of the groups that
+
+499
+00:28:41,580 --> 00:28:48,090
+preserve the regular solids in r3 so so
+
+500
+00:28:44,880 --> 00:28:56,279
+we want to take a look at finite sub
+
+501
+00:28:48,090 --> 00:29:01,890
+groups s G inside of so3 your final
+
+502
+00:28:56,279 --> 00:29:08,779
+group on three dimensions preserving the
+
+503
+00:29:01,890 --> 00:29:08,779
+regular solids in r3
+
+504
+00:29:11,630 --> 00:29:15,030
+we're going to come back to this a
+
+505
+00:29:13,470 --> 00:29:17,580
+little bit more but we'll start with it
+
+506
+00:29:15,030 --> 00:29:19,770
+today I give up
+
+507
+00:29:17,580 --> 00:29:22,500
+no more interesting pieces of Troy let's
+
+508
+00:29:19,770 --> 00:29:26,280
+try this one all right now remember why
+
+509
+00:29:22,500 --> 00:29:29,880
+do elements in so3 do well they act on
+
+510
+00:29:26,280 --> 00:29:33,180
+free space they preserve the points in
+
+511
+00:29:29,880 --> 00:29:42,570
+the sphere of radius one from the origin
+
+512
+00:29:33,180 --> 00:29:44,760
+so let's call this fear s2 it's the
+
+513
+00:29:42,570 --> 00:29:46,680
+sphere inside of three space it the
+
+514
+00:29:44,760 --> 00:29:48,570
+reason I call it s2 is that the surface
+
+515
+00:29:46,680 --> 00:29:51,780
+of the sphere forms something of
+
+516
+00:29:48,570 --> 00:29:59,300
+dimension two now every element we
+
+517
+00:29:51,780 --> 00:30:04,410
+showed in G every G in G is rotation
+
+518
+00:29:59,300 --> 00:30:07,410
+around an axis that was euler's theorem
+
+519
+00:30:04,410 --> 00:30:09,780
+namely there was some basis of three
+
+520
+00:30:07,410 --> 00:30:17,100
+space where the matrix of G looked like
+
+521
+00:30:09,780 --> 00:30:22,920
+this one rotation theta zero zero zero
+
+522
+00:30:17,100 --> 00:30:25,950
+zero zero zero and the eigenvector let's
+
+523
+00:30:22,920 --> 00:30:28,860
+take a nap you had some line through the
+
+524
+00:30:25,950 --> 00:30:30,600
+origin that was fixed by the group that
+
+525
+00:30:28,860 --> 00:30:33,690
+hit the sphere in the North Pole and a
+
+526
+00:30:30,600 --> 00:30:37,620
+South Pole and then you rotated an angle
+
+527
+00:30:33,690 --> 00:30:41,040
+theta in the plane perpendicular to that
+
+528
+00:30:37,620 --> 00:30:43,620
+axis of course the axis could differ for
+
+529
+00:30:41,040 --> 00:30:45,180
+the elements in the group so you got a
+
+530
+00:30:43,620 --> 00:30:47,070
+non commutative group because if you
+
+531
+00:30:45,180 --> 00:30:48,390
+took one axis and you took the rotation
+
+532
+00:30:47,070 --> 00:30:49,560
+around another axis they wouldn't
+
+533
+00:30:48,390 --> 00:30:51,540
+necessarily commute with each other
+
+534
+00:30:49,560 --> 00:30:55,340
+whereas the rotations around a fixed
+
+535
+00:30:51,540 --> 00:31:01,620
+axis commute and form a group like so2
+
+536
+00:30:55,340 --> 00:31:03,810
+okay now we want to fix a certain
+
+537
+00:31:01,620 --> 00:31:07,580
+regular solid in the sphere so the first
+
+538
+00:31:03,810 --> 00:31:07,580
+case I'm going to do is that tetrahedron
+
+539
+00:31:07,880 --> 00:31:12,510
+which is based on four points in the
+
+540
+00:31:10,350 --> 00:31:15,390
+sphere let's see if I can draw it then
+
+541
+00:31:12,510 --> 00:31:17,160
+I'll give you a better picture we'll
+
+542
+00:31:15,390 --> 00:31:19,920
+take the North Pole and then there's a
+
+543
+00:31:17,160 --> 00:31:23,120
+triangle down at the bottom an
+
+544
+00:31:19,920 --> 00:31:23,120
+equilateral triangle
+
+545
+00:31:23,539 --> 00:31:27,870
+the tetrahedron touches the sphere we're
+
+546
+00:31:26,700 --> 00:31:31,279
+going to have it touch the sphere in
+
+547
+00:31:27,870 --> 00:31:33,990
+four points and you get four different
+
+548
+00:31:31,279 --> 00:31:35,850
+triangles so here's a here's a better
+
+549
+00:31:33,990 --> 00:31:37,440
+picture of the tetrahedron which I put
+
+550
+00:31:35,850 --> 00:31:39,480
+together with magnets so you imagine the
+
+551
+00:31:37,440 --> 00:31:40,740
+sphere going around so the centre of the
+
+552
+00:31:39,480 --> 00:31:42,629
+sphere is right in the middle and these
+
+553
+00:31:40,740 --> 00:31:45,480
+are these points are the same distance
+
+554
+00:31:42,629 --> 00:31:47,759
+from the origin so are on the sphere and
+
+555
+00:31:45,480 --> 00:31:51,149
+the edges connect those points so the
+
+556
+00:31:47,759 --> 00:31:54,440
+tetrahedron has four vertices it has one
+
+557
+00:31:51,149 --> 00:32:05,639
+two three four five six edges and and
+
+558
+00:31:54,440 --> 00:32:13,169
+four faces four faces and every face is
+
+559
+00:32:05,639 --> 00:32:16,889
+an equilateral triangle okay here's the
+
+560
+00:32:13,169 --> 00:32:19,950
+tetrahedron now I want to ask what is
+
+561
+00:32:16,889 --> 00:32:22,110
+the subgroup of so3 that preserves the
+
+562
+00:32:19,950 --> 00:32:25,019
+tetrahedron namely all rotations of
+
+563
+00:32:22,110 --> 00:32:31,080
+space that take this tetrahedron into
+
+564
+00:32:25,019 --> 00:32:32,820
+itself into itself okay now I claim that
+
+565
+00:32:31,080 --> 00:32:36,480
+that's a subgroup of the symmetric group
+
+566
+00:32:32,820 --> 00:32:38,700
+on four letters so gee that's that's
+
+567
+00:32:36,480 --> 00:32:40,200
+more or less obvious because if it takes
+
+568
+00:32:38,700 --> 00:32:42,779
+it into itself it has to take the
+
+569
+00:32:40,200 --> 00:32:46,850
+vertices to themselves there are four
+
+570
+00:32:42,779 --> 00:32:57,710
+vertices right so I claim that the G
+
+571
+00:32:46,850 --> 00:32:57,710
+preserving tetrahedron is a subgroup of
+
+572
+00:32:57,799 --> 00:33:07,019
+S 4 namely the permutations of the
+
+573
+00:33:02,580 --> 00:33:08,970
+vertices it may not be possible to
+
+574
+00:33:07,019 --> 00:33:12,000
+realize every permutation the vertices
+
+575
+00:33:08,970 --> 00:33:14,009
+from a rotation in 3-space but if a
+
+576
+00:33:12,000 --> 00:33:16,019
+rotation in 3-space takes the hetra
+
+577
+00:33:14,009 --> 00:33:17,850
+Hedra into itself it takes the vertices
+
+578
+00:33:16,019 --> 00:33:19,860
+to the vertices and that completely
+
+579
+00:33:17,850 --> 00:33:21,570
+determines the rotation once I know
+
+580
+00:33:19,860 --> 00:33:25,679
+where these four points go I know the
+
+581
+00:33:21,570 --> 00:33:27,389
+rotation okay now I'm going to show you
+
+582
+00:33:25,679 --> 00:33:28,799
+it's a non-trivial subgroup and I'm
+
+583
+00:33:27,389 --> 00:33:32,700
+going to determine its order from that
+
+584
+00:33:28,799 --> 00:33:34,289
+counting formula that I just erased okay
+
+585
+00:33:32,700 --> 00:33:35,280
+so here's why it's a non-trivial
+
+586
+00:33:34,289 --> 00:33:38,670
+subgroup
+
+587
+00:33:35,280 --> 00:33:40,320
+axis that goes through this point this
+
+588
+00:33:38,670 --> 00:33:42,510
+is your North Pole and is perpendicular
+
+589
+00:33:40,320 --> 00:33:43,830
+to this triangle so it passes through
+
+590
+00:33:42,510 --> 00:33:45,690
+the middle of the triangle and it goes
+
+591
+00:33:43,830 --> 00:33:47,820
+out the South Pole in other words take
+
+592
+00:33:45,690 --> 00:33:50,520
+the axis through the sphere that goes
+
+593
+00:33:47,820 --> 00:33:52,050
+connects this point and the midpoint of
+
+594
+00:33:50,520 --> 00:33:54,810
+that equal end the end whatever that's
+
+595
+00:33:52,050 --> 00:33:59,010
+called in a triangle center of the
+
+596
+00:33:54,810 --> 00:34:00,270
+triangle fire whatever it's there it's
+
+597
+00:33:59,010 --> 00:34:01,980
+an equilateral triangle they're all the
+
+598
+00:34:00,270 --> 00:34:03,720
+same whatever word you use for it it's
+
+599
+00:34:01,980 --> 00:34:05,400
+the same word so connect those two
+
+600
+00:34:03,720 --> 00:34:07,860
+points via a line that determines an
+
+601
+00:34:05,400 --> 00:34:10,200
+axis through the origin and take the
+
+602
+00:34:07,860 --> 00:34:11,790
+rotations in that axis and I claim you
+
+603
+00:34:10,200 --> 00:34:14,520
+can do three rotations you can rotate
+
+604
+00:34:11,790 --> 00:34:17,010
+around 120 degrees or you could do it
+
+605
+00:34:14,520 --> 00:34:19,110
+square or or it's cube and those
+
+606
+00:34:17,010 --> 00:34:26,510
+preserve the tetrahedron so there are
+
+607
+00:34:19,110 --> 00:34:26,510
+three rotations around this axis
+
+608
+00:34:28,370 --> 00:34:39,419
+preserving the tetrahedron okay likewise
+
+609
+00:34:36,149 --> 00:34:42,030
+for any other vertex there are three
+
+610
+00:34:39,419 --> 00:34:43,830
+rotations around the axis that goes
+
+611
+00:34:42,030 --> 00:34:45,480
+through the vertex and is perpendicular
+
+612
+00:34:43,830 --> 00:34:47,220
+so there was nothing special about this
+
+613
+00:34:45,480 --> 00:34:49,470
+vertex if I started with this vertex and
+
+614
+00:34:47,220 --> 00:34:51,120
+I took the axis through the vertex and
+
+615
+00:34:49,470 --> 00:34:53,190
+the midpoint of that side and I rotated
+
+616
+00:34:51,120 --> 00:34:54,929
+the tetrahedron around that axis I'd
+
+617
+00:34:53,190 --> 00:34:57,980
+still have three rotations that preserve
+
+618
+00:34:54,929 --> 00:35:02,390
+the tetrahedron okay in particular
+
+619
+00:34:57,980 --> 00:35:11,360
+whatever this group is of s4 it acts
+
+620
+00:35:02,390 --> 00:35:14,670
+transitively on set s of vertices
+
+621
+00:35:11,360 --> 00:35:16,590
+because just taking the three rotations
+
+622
+00:35:14,670 --> 00:35:17,970
+around the axis going through here
+
+623
+00:35:16,590 --> 00:35:20,430
+permutes these three vertices
+
+624
+00:35:17,970 --> 00:35:22,170
+transitively and if i want to show that
+
+625
+00:35:20,430 --> 00:35:24,330
+these three vertices are in the same
+
+626
+00:35:22,170 --> 00:35:26,370
+orbit as this vertex i takes a rotation
+
+627
+00:35:24,330 --> 00:35:28,290
+around this axis and that purtz these
+
+628
+00:35:26,370 --> 00:35:30,210
+three vertices transitively so i can get
+
+629
+00:35:28,290 --> 00:35:33,630
+from any vertex to any other vertex with
+
+630
+00:35:30,210 --> 00:35:35,550
+some element in this group okay so
+
+631
+00:35:33,630 --> 00:35:39,060
+that's the transitive action so
+
+632
+00:35:35,550 --> 00:35:42,950
+therefore four has to be equal to the
+
+633
+00:35:39,060 --> 00:35:46,550
+order of G divided by the order of G
+
+634
+00:35:42,950 --> 00:35:46,550
+stabilizing a vertex
+
+635
+00:35:47,510 --> 00:35:54,540
+that's because this is the size of s
+
+636
+00:35:50,930 --> 00:35:56,190
+it's a single orbit so that has to be
+
+637
+00:35:54,540 --> 00:35:58,140
+the order of group divided by the order
+
+638
+00:35:56,190 --> 00:35:59,520
+of the group stabilizing a vertex but
+
+639
+00:35:58,140 --> 00:36:03,300
+the order of the group stabilizing a
+
+640
+00:35:59,520 --> 00:36:06,150
+vertex is clearly three right because it
+
+641
+00:36:03,300 --> 00:36:08,430
+has to permute these these poor three
+
+642
+00:36:06,150 --> 00:36:10,680
+things around if I fixed one of them I
+
+643
+00:36:08,430 --> 00:36:13,260
+could never then the rotation is trivial
+
+644
+00:36:10,680 --> 00:36:15,030
+so the only possibilities is a rotation
+
+645
+00:36:13,260 --> 00:36:17,540
+through 120 degrees or rotation through
+
+646
+00:36:15,030 --> 00:36:21,240
+240 degrees so that's a group of order 3
+
+647
+00:36:17,540 --> 00:36:23,640
+so we get its the order of G divided by
+
+648
+00:36:21,240 --> 00:36:27,290
+3 and that tells us from the counting
+
+649
+00:36:23,640 --> 00:36:29,610
+formula that the order of G is 12 and
+
+650
+00:36:27,290 --> 00:36:33,150
+it's a subgroup of this group which has
+
+651
+00:36:29,610 --> 00:36:35,040
+order 24 now it turns out we haven't
+
+652
+00:36:33,150 --> 00:36:37,590
+proved it yet but it turns out there's
+
+653
+00:36:35,040 --> 00:36:40,860
+only one subgroup of s 4 which has order
+
+654
+00:36:37,590 --> 00:36:42,990
+12 and that is you know 1 so why not
+
+655
+00:36:40,860 --> 00:36:48,590
+tell me if I tell you there's only 1
+
+656
+00:36:42,990 --> 00:36:48,590
+what is it a 4 exactly
+
+657
+00:36:55,200 --> 00:37:02,980
+only subgroup of s4 of order 12 we
+
+658
+00:37:01,810 --> 00:37:04,930
+haven't proved that yet although it's
+
+659
+00:37:02,980 --> 00:37:08,050
+pretty reasonable if you think about how
+
+660
+00:37:04,930 --> 00:37:10,330
+it permutes the vertices and you think
+
+661
+00:37:08,050 --> 00:37:12,520
+of what possible things we're getting in
+
+662
+00:37:10,330 --> 00:37:15,310
+this group I claim we already see in
+
+663
+00:37:12,520 --> 00:37:19,260
+this group the identity element we know
+
+664
+00:37:15,310 --> 00:37:19,260
+the identity element and we can see
+
+665
+00:37:19,350 --> 00:37:36,490
+eight elements of water three fixing a
+
+666
+00:37:28,680 --> 00:37:38,140
+single vertex because each vertex gives
+
+667
+00:37:36,490 --> 00:37:39,580
+you their three elements here but one of
+
+668
+00:37:38,140 --> 00:37:41,710
+them is the identity element so you get
+
+669
+00:37:39,580 --> 00:37:45,340
+these two non-trivial rotations and you
+
+670
+00:37:41,710 --> 00:37:47,310
+get eight rotations that way so they're
+
+671
+00:37:45,340 --> 00:37:53,830
+only three elements left in the group
+
+672
+00:37:47,310 --> 00:37:55,660
+right so three elements left because
+
+673
+00:37:53,830 --> 00:37:58,960
+they're twelve elements group and those
+
+674
+00:37:55,660 --> 00:38:05,200
+elements all have order two and in fact
+
+675
+00:37:58,960 --> 00:38:07,750
+they fix an edge that interesting you
+
+676
+00:38:05,200 --> 00:38:10,030
+see there's six edges so the stabilizer
+
+677
+00:38:07,750 --> 00:38:12,369
+of an edge if it if this group permutes
+
+678
+00:38:10,030 --> 00:38:17,290
+the edges transitively and it does the
+
+679
+00:38:12,369 --> 00:38:19,300
+stabilizer of an edge has order two and
+
+680
+00:38:17,290 --> 00:38:21,220
+those are in fact the different content
+
+681
+00:38:19,300 --> 00:38:26,080
+you know the conjugacy class well I'll
+
+682
+00:38:21,220 --> 00:38:28,119
+do conjugacy classes later so and if you
+
+683
+00:38:26,080 --> 00:38:29,830
+know the alternating group on four
+
+684
+00:38:28,119 --> 00:38:33,970
+letters you can't have a permutation
+
+685
+00:38:29,830 --> 00:38:36,310
+like this in it you can't have a
+
+686
+00:38:33,970 --> 00:38:37,810
+permutation like this those elements of
+
+687
+00:38:36,310 --> 00:38:39,760
+water too are not in the alternating
+
+688
+00:38:37,810 --> 00:38:41,770
+group because that's an odd permutation
+
+689
+00:38:39,760 --> 00:38:45,150
+but you could have an element of water
+
+690
+00:38:41,770 --> 00:38:48,310
+too that looks like this
+
+691
+00:38:45,150 --> 00:38:50,830
+the product of two transpositions and
+
+692
+00:38:48,310 --> 00:38:53,500
+that's in fact what these two elements
+
+693
+00:38:50,830 --> 00:38:55,750
+of order to do to the vertices namely it
+
+694
+00:38:53,500 --> 00:38:58,270
+would switch these two vertices and it
+
+695
+00:38:55,750 --> 00:39:00,040
+would switch these two vertices and I
+
+696
+00:38:58,270 --> 00:39:01,880
+forget what edge it stabilizes at that
+
+697
+00:39:00,040 --> 00:39:06,700
+point
+
+698
+00:39:01,880 --> 00:39:11,990
+right this edge here if it switches it
+
+699
+00:39:06,700 --> 00:39:13,790
+turns the tetrahedron upside down it
+
+700
+00:39:11,990 --> 00:39:16,640
+fixes both yes you're right it fixes
+
+701
+00:39:13,790 --> 00:39:18,290
+both if it permutes these two vertices
+
+702
+00:39:16,640 --> 00:39:20,150
+and it permutes these two vertices it
+
+703
+00:39:18,290 --> 00:39:21,590
+fixes this edge and it also happens to
+
+704
+00:39:20,150 --> 00:39:23,780
+have the property of fixing that edge
+
+705
+00:39:21,590 --> 00:39:26,260
+and how does it turn the tetrahedron
+
+706
+00:39:23,780 --> 00:39:30,020
+upside down
+
+707
+00:39:26,260 --> 00:39:32,420
+nevermind that's why we have models okay
+
+708
+00:39:30,020 --> 00:39:37,640
+I'll let you think about that the next
+
+709
+00:39:32,420 --> 00:39:39,740
+regular solid yes come a four is it's
+
+710
+00:39:37,640 --> 00:39:43,880
+the subgroup of S four consisting of the
+
+711
+00:39:39,740 --> 00:39:46,820
+even permutations it's the elements G in
+
+712
+00:39:43,880 --> 00:39:49,430
+S 4 such that when you view them as
+
+713
+00:39:46,820 --> 00:39:54,290
+permutation matrices the determinant of
+
+714
+00:39:49,430 --> 00:39:56,330
+G is equal to work not minus one so
+
+715
+00:39:54,290 --> 00:39:57,680
+that's a subgroup of index 2 this is
+
+716
+00:39:56,330 --> 00:39:59,840
+subgroup of the next two turns out to be
+
+717
+00:39:57,680 --> 00:40:02,210
+the same group when you go to the next
+
+718
+00:39:59,840 --> 00:40:04,130
+regular solid so you see notice that
+
+719
+00:40:02,210 --> 00:40:05,750
+this has the property that it's the
+
+720
+00:40:04,130 --> 00:40:09,050
+faces are triangles and we have three
+
+721
+00:40:05,750 --> 00:40:10,820
+triangles around a point right if you
+
+722
+00:40:09,050 --> 00:40:12,710
+put four triangles around a point and
+
+723
+00:40:10,820 --> 00:40:14,660
+you close it up you get what's called
+
+724
+00:40:12,710 --> 00:40:18,470
+the octi dream because it has eight
+
+725
+00:40:14,660 --> 00:40:21,650
+vertices now and if we try to determine
+
+726
+00:40:18,470 --> 00:40:25,550
+its rotation group well if we take an
+
+727
+00:40:21,650 --> 00:40:28,430
+axis through the opposite sides opposite
+
+728
+00:40:25,550 --> 00:40:31,010
+vertices we now have a rotation of order
+
+729
+00:40:28,430 --> 00:40:35,680
+four around here whoa that's the problem
+
+730
+00:40:31,010 --> 00:40:41,630
+with magnets damn thing let's try again
+
+731
+00:40:35,680 --> 00:40:44,040
+dude I knew this would never work
+
+732
+00:40:41,630 --> 00:40:47,280
+well maybe a work let's see what happens
+
+733
+00:40:44,040 --> 00:40:50,490
+here one doo doo doo marvelous it's
+
+734
+00:40:47,280 --> 00:40:51,350
+going to work it's going to work what am
+
+735
+00:40:50,490 --> 00:40:53,940
+I missing
+
+736
+00:40:51,350 --> 00:40:58,050
+I'm missing a soul but that's okay you
+
+737
+00:40:53,940 --> 00:41:01,080
+can imagine that look never mind
+
+738
+00:40:58,050 --> 00:41:06,840
+damn charge this is the difference
+
+739
+00:41:01,080 --> 00:41:08,280
+between physics and mathematics when I
+
+740
+00:41:06,840 --> 00:41:09,600
+used to what I used to hate about my
+
+741
+00:41:08,280 --> 00:41:11,070
+labs in physics I don't know if you guys
+
+742
+00:41:09,600 --> 00:41:13,260
+do these labs we die we'd have a lab
+
+743
+00:41:11,070 --> 00:41:15,300
+where we'd like test the universal
+
+744
+00:41:13,260 --> 00:41:16,710
+constant of gravitation something like
+
+745
+00:41:15,300 --> 00:41:18,600
+that and we'd have these weightless
+
+746
+00:41:16,710 --> 00:41:19,970
+things sliding around and dropping up
+
+747
+00:41:18,600 --> 00:41:22,470
+and down and we'd be timing them or
+
+748
+00:41:19,970 --> 00:41:24,060
+measuring flashes of light or all kinds
+
+749
+00:41:22,470 --> 00:41:26,430
+of cool things and then you'd go home
+
+750
+00:41:24,060 --> 00:41:29,010
+right and you'd write up your lab report
+
+751
+00:41:26,430 --> 00:41:30,720
+and you calculate the universal constant
+
+752
+00:41:29,010 --> 00:41:34,890
+of gravitation and it would be off by
+
+753
+00:41:30,720 --> 00:41:37,740
+seven orders of magnitude so then then
+
+754
+00:41:34,890 --> 00:41:39,030
+since you knew the answer you'd start
+
+755
+00:41:37,740 --> 00:41:41,970
+with the universal constant of
+
+756
+00:41:39,030 --> 00:41:44,700
+gravitation and work backwards to what
+
+757
+00:41:41,970 --> 00:41:46,350
+you should have observed and then it
+
+758
+00:41:44,700 --> 00:41:48,330
+would prove that but that was too good
+
+759
+00:41:46,350 --> 00:41:49,920
+right because then the lab assist it
+
+760
+00:41:48,330 --> 00:41:52,020
+would know so then you'd have to move it
+
+761
+00:41:49,920 --> 00:41:53,880
+a little bit so you'd get within one
+
+762
+00:41:52,020 --> 00:41:58,860
+order of the universal constant of
+
+763
+00:41:53,880 --> 00:42:01,410
+gravitation okay so here we have a
+
+764
+00:41:58,860 --> 00:42:03,660
+clutter element if we fix this vertex we
+
+765
+00:42:01,410 --> 00:42:05,070
+have an element of water four and we can
+
+766
+00:42:03,660 --> 00:42:07,200
+take do that for any pair of vertices
+
+767
+00:42:05,070 --> 00:42:09,990
+their rotation so that shows that it
+
+768
+00:42:07,200 --> 00:42:13,170
+permutes the vertices transitively there
+
+769
+00:42:09,990 --> 00:42:15,060
+are six vertices the stabilizer of any
+
+770
+00:42:13,170 --> 00:42:20,580
+vertex as order four so the group has
+
+771
+00:42:15,060 --> 00:42:23,310
+order 24 six times four six vertices
+
+772
+00:42:20,580 --> 00:42:24,870
+stabilizer of order four that turns out
+
+773
+00:42:23,310 --> 00:42:28,620
+to be the symmetric group on four
+
+774
+00:42:24,870 --> 00:42:31,560
+letters the stabilizer of the octahedron
+
+775
+00:42:28,620 --> 00:42:33,930
+and it's a little hard to see which four
+
+776
+00:42:31,560 --> 00:42:36,060
+things are being per muted because as
+
+777
+00:42:33,930 --> 00:42:39,270
+you notice there are six vertices and
+
+778
+00:42:36,060 --> 00:42:42,660
+then there are eight faces and there are
+
+779
+00:42:39,270 --> 00:42:44,250
+eight edges right so it looks a little
+
+780
+00:42:42,660 --> 00:42:45,600
+weird to try to find four things that
+
+781
+00:42:44,250 --> 00:42:47,570
+are being per muted but I'll leave that
+
+782
+00:42:45,600 --> 00:42:50,840
+to you as an exercise
+
+783
+00:42:47,570 --> 00:42:50,840
+pardon yeah
+
+784
+00:42:56,740 --> 00:43:03,260
+stabilises now okay let's point that out
+
+785
+00:43:00,260 --> 00:43:08,180
+that can sometimes happen in a group
+
+786
+00:43:03,260 --> 00:43:10,100
+action for example it doesn't make any
+
+787
+00:43:08,180 --> 00:43:11,870
+difference all we know is that the
+
+788
+00:43:10,100 --> 00:43:14,390
+stabilizer of another vertex is a
+
+789
+00:43:11,870 --> 00:43:17,270
+conjugate subgroup but conjugation
+
+790
+00:43:14,390 --> 00:43:20,470
+sometimes preserves the group so for
+
+791
+00:43:17,270 --> 00:43:25,030
+example if I had a group action so G X
+
+792
+00:43:20,470 --> 00:43:30,260
+we saw on anything like G mod H suppose
+
+793
+00:43:25,030 --> 00:43:32,890
+this is our set s suppose H is a normal
+
+794
+00:43:30,260 --> 00:43:40,880
+subgroup this is the most extreme case
+
+795
+00:43:32,890 --> 00:43:43,640
+then G s is equal to H for all s namely
+
+796
+00:43:40,880 --> 00:43:47,750
+the same subgroup stabilizes every point
+
+797
+00:43:43,640 --> 00:43:49,220
+in s it's a conjugate subgroup but for a
+
+798
+00:43:47,750 --> 00:43:51,230
+normal subgroup you don't move so what
+
+799
+00:43:49,220 --> 00:43:53,360
+happens is and that's what's amazing is
+
+800
+00:43:51,230 --> 00:43:57,110
+the element in the group that takes this
+
+801
+00:43:53,360 --> 00:44:00,580
+vertex to this vertex conjugates this
+
+802
+00:43:57,110 --> 00:44:03,440
+subgroup of order 4 into itself and
+
+803
+00:44:00,580 --> 00:44:05,240
+that's why the stabilizer of this vertex
+
+804
+00:44:03,440 --> 00:44:06,860
+is the same as the stabilizer of that
+
+805
+00:44:05,240 --> 00:44:09,170
+vertex but from the point of view of a
+
+806
+00:44:06,860 --> 00:44:10,880
+counting formula once you verify that
+
+807
+00:44:09,170 --> 00:44:13,070
+you can get from any vertex to any other
+
+808
+00:44:10,880 --> 00:44:14,270
+and the first rotation group shows that
+
+809
+00:44:13,070 --> 00:44:16,880
+you get from any of these four vertices
+
+810
+00:44:14,270 --> 00:44:18,260
+to any other and then if I say rotate
+
+811
+00:44:16,880 --> 00:44:20,630
+from here around here I can get from
+
+812
+00:44:18,260 --> 00:44:22,490
+this vertex to this one and then down to
+
+813
+00:44:20,630 --> 00:44:25,910
+this one so I can get from any six to
+
+814
+00:44:22,490 --> 00:44:27,320
+any other then then order of the group
+
+815
+00:44:25,910 --> 00:44:29,900
+is the number of vertices times the
+
+816
+00:44:27,320 --> 00:44:32,960
+stabilizer the vertex which is four so
+
+817
+00:44:29,900 --> 00:44:37,960
+this a group has one or twenty-four okay
+
+818
+00:44:32,960 --> 00:44:37,960
+final case so the octahedron
+
+819
+00:44:41,690 --> 00:44:50,100
+or its dual the cube the the order of G
+
+820
+00:44:46,619 --> 00:44:51,900
+is 24 and in fact G is isomorphic to s
+
+821
+00:44:50,100 --> 00:44:54,540
+for although I haven't told you what
+
+822
+00:44:51,900 --> 00:44:55,830
+four things it's permuting because we
+
+823
+00:44:54,540 --> 00:44:58,619
+haven't gotten a natural set of four
+
+824
+00:44:55,830 --> 00:45:01,470
+things here like we did here final case
+
+825
+00:44:58,619 --> 00:45:04,050
+you can put five triangles around a
+
+826
+00:45:01,470 --> 00:45:06,119
+vertex if you put six equilateral
+
+827
+00:45:04,050 --> 00:45:08,490
+triangles around a vertex you flatten
+
+828
+00:45:06,119 --> 00:45:10,530
+out in the plane but in space you can
+
+829
+00:45:08,490 --> 00:45:13,920
+still put five triangles around a vertex
+
+830
+00:45:10,530 --> 00:45:18,030
+I don't know if I dare to try you think
+
+831
+00:45:13,920 --> 00:45:20,400
+I can try why not I'm going to try to do
+
+832
+00:45:18,030 --> 00:45:23,310
+to do to do this magna isn't going to
+
+833
+00:45:20,400 --> 00:45:24,960
+work too well forget it it can put five
+
+834
+00:45:23,310 --> 00:45:26,790
+triangles around a vertex you get
+
+835
+00:45:24,960 --> 00:45:30,570
+something called an icosahedron it
+
+836
+00:45:26,790 --> 00:45:35,250
+closes up with 12 faces famous Greek
+
+837
+00:45:30,570 --> 00:45:40,290
+figure so so this has this has 3 3
+
+838
+00:45:35,250 --> 00:45:43,440
+triangles around a vertex this has the
+
+839
+00:45:40,290 --> 00:45:45,150
+octahedron has 4 triangles and then if
+
+840
+00:45:43,440 --> 00:45:52,770
+you put five triangles you get the
+
+841
+00:45:45,150 --> 00:46:00,119
+icosahedron which has um which has 20
+
+842
+00:45:52,770 --> 00:46:06,270
+vertices and 12 faces all of which are
+
+843
+00:46:00,119 --> 00:46:09,140
+Pentagon's I'm sorry which are triangles
+
+844
+00:46:06,270 --> 00:46:14,100
+I'm sorry I'm going the wrong way yeah
+
+845
+00:46:09,140 --> 00:46:17,990
+it's 20 faces and 12 vertices thank you
+
+846
+00:46:14,100 --> 00:46:19,440
+I'm going for the dodecahedron thank you
+
+847
+00:46:17,990 --> 00:46:23,510
+you're right
+
+848
+00:46:19,440 --> 00:46:25,859
+so it has 20 faces it has 30 edges I
+
+849
+00:46:23,510 --> 00:46:27,330
+have to find a picture of this in a book
+
+850
+00:46:25,859 --> 00:46:28,800
+I'll bring it in next time I promise
+
+851
+00:46:27,330 --> 00:46:32,070
+because I want to talk about this group
+
+852
+00:46:28,800 --> 00:46:33,810
+more again the finite subgroup of oh
+
+853
+00:46:32,070 --> 00:46:37,200
+three that preserves the regular
+
+854
+00:46:33,810 --> 00:46:39,510
+icosahedron permutes the vertices
+
+855
+00:46:37,200 --> 00:46:41,430
+transitively and since there are five
+
+856
+00:46:39,510 --> 00:46:43,590
+things coming out of each vertex you
+
+857
+00:46:41,430 --> 00:46:46,980
+have a rotation of order five around
+
+858
+00:46:43,590 --> 00:46:50,840
+each vertex and that means that the
+
+859
+00:46:46,980 --> 00:46:50,840
+order of the group is twelve times five
+
+860
+00:46:51,510 --> 00:46:56,260
+which is sixty and it turns out that the
+
+861
+00:46:54,340 --> 00:46:57,970
+group itself is the alternating group on
+
+862
+00:46:56,260 --> 00:46:59,260
+five letters although again I can't tell
+
+863
+00:46:57,970 --> 00:47:03,100
+you which five things are being per
+
+864
+00:46:59,260 --> 00:47:04,630
+muted that's a really as I say a very
+
+865
+00:47:03,100 --> 00:47:05,890
+famous group because it's the first
+
+866
+00:47:04,630 --> 00:47:07,270
+simple group it's the first group
+
+867
+00:47:05,890 --> 00:47:10,150
+without normal subgroups we're going to
+
+868
+00:47:07,270 --> 00:47:11,830
+prove that and now I can tell you what
+
+869
+00:47:10,150 --> 00:47:14,080
+I've been promising to tell you about
+
+870
+00:47:11,830 --> 00:47:17,500
+the latest conjecture on the shape of
+
+871
+00:47:14,080 --> 00:47:19,270
+the universe okay so there's a
+
+872
+00:47:17,500 --> 00:47:20,620
+conjecture put out by mathematicians
+
+873
+00:47:19,270 --> 00:47:22,900
+which is going to be destroyed by the
+
+874
+00:47:20,620 --> 00:47:25,630
+astronomers in about a month but I still
+
+875
+00:47:22,900 --> 00:47:27,340
+have a chance to talk about it and it's
+
+876
+00:47:25,630 --> 00:47:30,210
+that the universe is a closed shape
+
+877
+00:47:27,340 --> 00:47:34,650
+which is a three dimensional object and
+
+878
+00:47:30,210 --> 00:47:38,680
+in fact the universe is the coset space
+
+879
+00:47:34,650 --> 00:47:46,330
+so3 modulo the stabilizer of an
+
+880
+00:47:38,680 --> 00:47:48,310
+icosahedron namely it's a it's a coset
+
+881
+00:47:46,330 --> 00:47:51,520
+space now you have to understand the so3
+
+882
+00:47:48,310 --> 00:47:52,720
+is a three dimensional shape why is so3
+
+883
+00:47:51,520 --> 00:47:58,860
+a three dimensional shape
+
+884
+00:47:52,720 --> 00:48:06,400
+well because so3 acts transitively on
+
+885
+00:47:58,860 --> 00:48:11,890
+the two sphere with stabilizer of a
+
+886
+00:48:06,400 --> 00:48:13,780
+point isomorphic to so2 now so2 is
+
+887
+00:48:11,890 --> 00:48:15,610
+clearly a one-dimensional group its
+
+888
+00:48:13,780 --> 00:48:16,750
+rotations around an angle and you have a
+
+889
+00:48:15,610 --> 00:48:19,150
+choice of the angles that's a
+
+890
+00:48:16,750 --> 00:48:21,010
+one-dimensional group so just as we have
+
+891
+00:48:19,150 --> 00:48:23,620
+the counting formula that the order of a
+
+892
+00:48:21,010 --> 00:48:25,240
+said is the order of a group divided by
+
+893
+00:48:23,620 --> 00:48:27,460
+the order of the stabilizer the
+
+894
+00:48:25,240 --> 00:48:29,950
+dimension of a set is the dimension of
+
+895
+00:48:27,460 --> 00:48:32,530
+the group modulo the dimension of the
+
+896
+00:48:29,950 --> 00:48:35,860
+stabilizer so two plus one gives a
+
+897
+00:48:32,530 --> 00:48:37,600
+three-dimensional group so this in fact
+
+898
+00:48:35,860 --> 00:48:40,120
+is a three-dimensional shape it's a
+
+899
+00:48:37,600 --> 00:48:42,010
+closed three-dimensional shape and if
+
+900
+00:48:40,120 --> 00:48:43,330
+you make the coset space by a finite
+
+901
+00:48:42,010 --> 00:48:45,250
+group you also get a closed
+
+902
+00:48:43,330 --> 00:48:46,810
+three-dimensional shape with very
+
+903
+00:48:45,250 --> 00:48:49,030
+interesting what's called algebraic
+
+904
+00:48:46,810 --> 00:48:55,780
+topology this is called the Poincare a
+
+905
+00:48:49,030 --> 00:48:57,340
+three sphere and the reason it was
+
+906
+00:48:55,780 --> 00:48:58,960
+called the Poincare a three sphere it
+
+907
+00:48:57,340 --> 00:49:01,090
+was it's very important in the history
+
+908
+00:48:58,960 --> 00:49:03,270
+of mathematics because Planck array was
+
+909
+00:49:01,090 --> 00:49:04,630
+very interested in determining if
+
+910
+00:49:03,270 --> 00:49:07,060
+something which
+
+911
+00:49:04,630 --> 00:49:09,400
+look algebraic illogically like the
+
+912
+00:49:07,060 --> 00:49:14,650
+3-sphere so here's the 3-sphere it's in
+
+913
+00:49:09,400 --> 00:49:17,200
+4 space of course those of you have
+
+914
+00:49:14,650 --> 00:49:18,280
+studied algebraic topology know that
+
+915
+00:49:17,200 --> 00:49:20,080
+point Garre at the beginning of this
+
+916
+00:49:18,280 --> 00:49:22,540
+century invented some invariants of
+
+917
+00:49:20,080 --> 00:49:25,990
+shapes called homology and the 3-sphere
+
+918
+00:49:22,540 --> 00:49:28,810
+has the property that it's zero homology
+
+919
+00:49:25,990 --> 00:49:31,300
+is Z is first homology is zero
+
+920
+00:49:28,810 --> 00:49:35,650
+it's second homology is zero and its
+
+921
+00:49:31,300 --> 00:49:38,710
+third homology group is Z and plank
+
+922
+00:49:35,650 --> 00:49:40,750
+array proved that this weird shape had
+
+923
+00:49:38,710 --> 00:49:44,260
+exactly the same homology as the
+
+924
+00:49:40,750 --> 00:49:46,390
+3-sphere exactly the same homology as
+
+925
+00:49:44,260 --> 00:49:48,280
+the 3-sphere what it doesn't have is
+
+926
+00:49:46,390 --> 00:49:50,770
+what's called the same fundamental group
+
+927
+00:49:48,280 --> 00:49:53,290
+which is another invariant that Poincare
+
+928
+00:49:50,770 --> 00:49:57,520
+a defined and the fundamental group here
+
+929
+00:49:53,290 --> 00:50:00,220
+is trivial or the 3-sphere and the
+
+930
+00:49:57,520 --> 00:50:02,590
+fundamental group for this weird plank
+
+931
+00:50:00,220 --> 00:50:05,740
+or a three sphere is a group a little
+
+932
+00:50:02,590 --> 00:50:09,190
+larger than a 5 which has order 120 and
+
+933
+00:50:05,740 --> 00:50:12,130
+has quotient group a 5 so that's called
+
+934
+00:50:09,190 --> 00:50:14,500
+a 5 Kilda and that allowed plank array
+
+935
+00:50:12,130 --> 00:50:15,760
+to distinguish this space from the
+
+936
+00:50:14,500 --> 00:50:18,130
+3-sphere because it had a different
+
+937
+00:50:15,760 --> 00:50:20,650
+topological invariant even though it's
+
+938
+00:50:18,130 --> 00:50:22,480
+homology was the same so when you study
+
+939
+00:50:20,650 --> 00:50:24,250
+algebraic topology this is a famous
+
+940
+00:50:22,480 --> 00:50:27,370
+example now why are mathematicians
+
+941
+00:50:24,250 --> 00:50:29,200
+trying to drag some famous example into
+
+942
+00:50:27,370 --> 00:50:32,380
+the shape of the universe well it would
+
+943
+00:50:29,200 --> 00:50:35,200
+be nice would be nice if God used all
+
+944
+00:50:32,380 --> 00:50:36,340
+these nice examples but the astronomers
+
+945
+00:50:35,200 --> 00:50:38,410
+are now testing out the background
+
+946
+00:50:36,340 --> 00:50:40,630
+radiation data to see this prediction
+
+947
+00:50:38,410 --> 00:50:42,250
+predicts all kinds of weird things like
+
+948
+00:50:40,630 --> 00:50:43,870
+if you look up at the sky over there you
+
+949
+00:50:42,250 --> 00:50:45,040
+see see same thing as if you look down
+
+950
+00:50:43,870 --> 00:50:46,960
+at the sky down there
+
+951
+00:50:45,040 --> 00:50:49,360
+things like that and we haven't seen
+
+952
+00:50:46,960 --> 00:50:51,610
+those things so but at least that
+
+953
+00:50:49,360 --> 00:50:53,050
+science science is you know one of the
+
+954
+00:50:51,610 --> 00:50:55,840
+great definitions of a scientific
+
+955
+00:50:53,050 --> 00:50:57,970
+proposition by Karl Popper this this
+
+956
+00:50:55,840 --> 00:51:00,340
+century was something that's falsifiable
+
+957
+00:50:57,970 --> 00:51:01,930
+you can never prove it but you can prove
+
+958
+00:51:00,340 --> 00:51:03,760
+it false that's the difference between a
+
+959
+00:51:01,930 --> 00:51:07,450
+scientific statement and a statement
+
+960
+00:51:03,760 --> 00:51:09,130
+about literature ok so this is a
+
+961
+00:51:07,450 --> 00:51:11,770
+statement that the universe has this
+
+962
+00:51:09,130 --> 00:51:13,180
+shape as a three-dimensional object so
+
+963
+00:51:11,770 --> 00:51:16,480
+now we can test it and prove it false
+
+964
+00:51:13,180 --> 00:51:18,430
+and then try to find something else
+
+965
+00:51:16,480 --> 00:51:21,660
+okay so we'll do more about the
+
+966
+00:51:18,430 --> 00:51:21,660
+icosahedron next time
+

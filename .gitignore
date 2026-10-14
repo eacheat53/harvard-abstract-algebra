@@ -1,0 +1,40 @@
+# Video and media files (DO NOT COMMIT VIDEOS)
+*.mp4
+*.mkv
+*.avi
+*.mov
+*.wmv
+*.flv
+*.webm
+*.m4v
+*.ts
+burned/
+videos/*.mp4
+videos/*.mkv
+videos/*.avi
+videos/*.mov
+
+# Keep subtitle files in videos/
+!videos/*.srt
+!videos/*.vtt
+!videos/*.ass
+
+# Python / tool caches
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Derived subtitle alignment caches and temporary staged runs
+archive/qa/cache/
+archive/qa/stage-*/
+archive/qa/*-reorg/
+archive/qa/*.log
+archive/qa/*repro*/
+
+# OS/editor scratch files
+.DS_Store
+*.swp
+*~
